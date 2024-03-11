@@ -1,0 +1,39 @@
+SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
+ coords 598.436 217.858 1992.422
+}
+PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 583.547 216.455 1975.283
+}
+TagManager : "{2FA9E172CAB1857A}Prefabs/MP/Managers/TagManager.et" {
+ coords 583.943 215.975 1972.701
+}
+PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
+ components {
+  PS_ObjectiveManager "{60846DEA6E152749}" {
+   m_aObjectiveLavels {
+    PS_ObjectiveLevel "{60BA84346F79B79E}" {
+     m_iScore 0
+    }
+    PS_ObjectiveLevel "{60BA84343AC819B2}" {
+     m_iScore 25
+    }
+    PS_ObjectiveLevel "{60BA8437C52AEEC4}" {
+     m_iScore 50
+    }
+    PS_ObjectiveLevel "{60BA8437C9F5791C}" {
+     m_iScore 75
+    }
+   }
+  }
+  SCR_InitWeatherComponent "{60D7125D8F0EA911}" {
+   m_sInitialStartingWeatherId "Cloudy"
+  }
+  SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
+   m_iStartingHours 6
+  }
+ }
+ coords 589.482 220.171 1990.462
+}
+HitRegistrationManager HitRegManager1 : "{0EDA3D48791120DD}Prefabs/MP/HitRegManager.et" {
+ coords 585.884 216.329 1962.31
+}
