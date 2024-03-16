@@ -1,0 +1,119 @@
+GenericEntity : "{01E0B52B5BA2EF72}Prefabs/Compositions/Misc/SubCompositions/Sandbag_Barricade_USSR_04.et" {
+ coords 3490.764 279.083 551.338
+ angleY 159.411
+ {
+  GenericEntity {
+   ID "59D87A54778D1578"
+   coords 2.332 0 -0.837
+  }
+  GenericEntity {
+   ID "59D87A54778D1546"
+   coords 2.409 0.95 -0.865
+  }
+  StaticModelEntity {
+   ID "59D87A54778D1541"
+   coords 2.184 -0.55 -0.267
+  }
+ }
+}
+GenericEntity : "{25861AD07CEE719B}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Sandbag_MG_USSR_01_PKM.et" {
+ coords 3504.656 281.354 542.003
+ angleY 124.709
+}
+GenericEntity : "{3001B0C35F835714}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Sandbag_Wall_BarbedWire_USSR_01.et" {
+ coords 3514.366 280.828 552.917
+ angleY 54.506
+}
+Vehicle Ural4320_tanker1 : "{4C81D7ED8F8C0D87}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_tanker.et" {
+ coords 2677.79 8.999 3005.017
+ angleY 31.363
+}
+GenericEntity : "{53D74CD446A87F13}Prefabs/Compositions/Misc/FreeRoamBuilding/SandbagLongHighBurlap_S_USSR_01.et" {
+ coords 3457.479 279.145 499.845
+ angleY -47.317
+ {
+  GenericEntity {
+   ID "5D6CFDF279517B23"
+   coords 0.468 0.514 1.136
+   angleY 19.888
+  }
+ }
+}
+Vehicle Mi8MTT_A_Black_no_pylons1 : "{5BF04078A1EC66D8}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MTT-A_Black_no_pylons.et" {
+ components {
+  SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+   FuelNodes {
+    SCR_FuelNode "{5622A70CD4036C5A}" {
+     m_fInitialFuelTankState 0
+    }
+    SCR_FuelNode "{5A7CE769E7A9C416}" {
+     m_fInitialFuelTankState 0
+    }
+    SCR_FuelNode "{5A7CE769E7A9C414}" {
+     m_fInitialFuelTankState 0
+    }
+   }
+  }
+ }
+ coords 2664.08 8.026 3064.798
+ angleY -59.082
+}
+GenericEntity : "{651E545B53BBD034}Prefabs/Structures/Military/Flags/FlagPole_02/FlagPole_02_V1_USSR.et" {
+ coords 3511.738 288.187 548.93
+}
+StaticModelEntity : "{732A335C72D8ADE2}Prefabs/Props/Military/Sandbags/Sandbag_01_bunker_burlap_foundation.et" {
+ coords 3462.717 279.401 505.27
+ angleY 90.434
+}
+GenericEntity : "{75FEF1CA582431F3}Prefabs/Props/Wrecks/BTR70_wreck.et" {
+ coords 3498.58 268.131 504.095
+}
+StaticModelEntity : "{8125DEB23B3FF39E}Prefabs/Compositions/Misc/CustomEntities/DestructionEntities/Sandbag_01_bunker_burlap_CompositionDestruction.et" {
+ coords 3496.695 280.21 552.816
+ angleY -2.036
+}
+GenericEntity : "{84E8458C841C1808}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Sandbag_Wall_USSR_01.et" {
+ coords 3501.009 280.74 554.199
+ angleY 0
+}
+$grp GenericEntity : "{898B81D2B9E9B2DC}Prefabs/Compositions/Misc/FreeRoamBuilding/SandbagWallSolidBurlap_S_USSR_01.et" {
+ {
+  coords 3493.968 280.203 537.409
+  angleY -27.66
+ }
+ {
+  coords 3486.59 278.933 550.015
+  {
+   GenericEntity {
+    ID "5D70BA356CD2E641"
+    coords -0.337 -0.807 1.919
+   }
+  }
+ }
+ {
+  coords 3461.994 279.579 509.036
+  angleY -48.434
+  {
+   GenericEntity {
+    ID "5D70BA356CD2E641"
+    coords -0.844 0 0.626
+    angleY -44.557
+   }
+  }
+ }
+}
+$grp GenericEntity : "{9C9C4BED9E19C374}Prefabs/Props/Military/Sandbags/Sandbag_01_wall_solid_burlap.et" {
+ {
+  coords 3496.35 280.432 539.021
+  angleY -33.552
+ }
+ {
+  components {
+   Hierarchy "{5D70BA354E208E2C}" {
+    Enabled 1
+   }
+  }
+  coords 3459.711 279.412 502.164
+  angleY -20.775
+ }
+}

@@ -1,0 +1,105 @@
+SCR_AIGroup : "{218445F83827D929}Prefabs/Groups/OPFOR/RHS_RF_MSV/EMR/Group_MSV_EMR_RifleSquad.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "Line"
+  }
+  PS_GroupCallsignAssigner "{60E0B9BD44FCEE84}" {
+  }
+ }
+ coords 2677.973 8 3083.915
+ angleY -63.996
+ m_aUnitPrefabSlots {
+  "{73D76A624D46BDBE}Prefabs/Characters/Factions/OPFOR/RHS_RF_MSV/EMR/Character_RF_MSV_EMR_SL.et" "{1E5F9B7D7FC21FAD}Prefabs/Characters/Factions/OPFOR/RHS_RF_MSV/EMR/Character_RF_MSV_EMR_AR.et" "{CF6F87C43052B748}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_MG.et" "{E0E062BD23185D62}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_AMG.et" "{5A1F1BD88FC6C6E9}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_Rifleman.et" "{68EB286921B4E7FD}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_Sharpshooter.et" "{138AE55C88757687}Prefabs/Characters/Factions/OPFOR/RHS_RF_MSV/EMR/Character_RF_MSV_EMR_GL.et" "{3B167AFE3D75631C}Prefabs/Characters/Factions/OPFOR/RHS_RF_MSV/EMR/Character_RF_MSV_EMR_Rifleman.et"
+ }
+ m_bSetPlayable 1
+}
+SCR_AIGroup : "{56FD583BBC989204}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Group_RHS_RF_MSV_VKPO_DS_SentryTeam.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "Line"
+  }
+  PS_GroupCallsignAssigner "{60E0B9BD5A484900}" {
+   m_iSquadCallsign 2
+  }
+ }
+ coords 2667.894 8 3084.915
+ angleY 120.807
+ m_aUnitPrefabSlots {
+  "{A62FA97C4EC64F14}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_HeliPilot.et" "{A62FA97C4EC64F14}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_HeliPilot.et"
+ }
+ m_bSetPlayable 1
+}
+$grp SCR_EditorRestrictionZoneEntity : "{6144B0BE2EAC6897}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneMedium.et" {
+ {
+  coords 3562.748 255.578 529.082
+ }
+ {
+  coords 3466.299 286.035 516.664
+ }
+ {
+  coords 2669.193 8 3077.423
+ }
+}
+SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
+ coords 3924.26 197.994 762.626
+}
+Vehicle BTR70_Ses_TKA_camo1 : "{E3286BFF5DAACE01}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Ses_TKA_camo.et" {
+ coords 3568.898 253.761 516.969
+ angleX -10.077
+ angleY 123.843
+ angleZ 0.706
+}
+$grp SCR_AIGroup : "{EA9949F006E2DC47}Prefabs/Groups/OPFOR/Ses_TKA/Group_TKA_RifleSquad.et" {
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{60E0B9BD6665FED0}" {
+    m_iSquadCallsign 1
+   }
+  }
+  coords 2653.914 8.785 3020.831
+  angleY -144.92
+  m_faction "RHS_RF_MSV"
+  m_bSetPlayable 1
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{60E0B9B2C9F62914}" {
+    m_iCompanyCallsign 1
+    m_iSquadCallsign 1
+   }
+  }
+  coords 3559.199 255.719 538.031
+  angleY -97.278
+  m_faction "RHS_RF_MSV"
+  m_aUnitPrefabSlots + {
+   "{6EE11E2607EFF81D}Prefabs/Characters/Factions/OPFOR/TKA/Character_TKA_Rifleman2.et" "{3FB09CBA64F82F18}Prefabs/Characters/Factions/OPFOR/TKA/Character_TKA_Sharpshooter.et" "{B8B42618A797C1C9}Prefabs/Characters/Factions/OPFOR/TKA/Character_TKA_Medic.et" "{015EC1B41DCFA4AD}Prefabs/Characters/Factions/OPFOR/TKA/Character_TKA_Crew.et" "{015EC1B41DCFA4AD}Prefabs/Characters/Factions/OPFOR/TKA/Character_TKA_Crew.et"
+  }
+  m_bSetPlayable 1
+ }
+}
+SCR_EditorRestrictionZoneEntity : "{EF72FA7CD87618D5}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneSmall.et" {
+ coords 2652.088 20.917 3029.072
+}
+SCR_AIGroup : "{FD26CDBF9EBEA023}Prefabs/Groups/OPFOR/RHS_RF_MSV/EMR/Group_MSV_EMR_Base.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "Line"
+  }
+  PS_GroupCallsignAssigner "{60E0B9BD74348438}" {
+   m_iCompanyCallsign 1
+  }
+ }
+ coords 3460.135 281.294 515.166
+ angleY -126.203
+ m_aUnitPrefabSlots {
+  "{578A9679C9CBA788}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VV/RG/Atacs/Character_RHS_RF_SOF_SL.et" "{49074A7C5718B0C3}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VV/RG/Atacs/Character_RHS_RF_SOF_Rifleman2.et" "{135F5E0601BBC4E9}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VV/RG/Atacs/Character_RHS_RF_SOF_Rifleman.et" "{3A35E25C2D89AD2F}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VV/RG/Atacs/Character_RHS_RF_SOF_GM94.et" "{41E4A355893B09FE}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VV/RG/Atacs/Character_RHS_RF_SOF_Marksman.et" "{A6C8A0545DBD8260}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VV/RG/Atacs/Character_RHS_RF_SOF_Medic.et" "{D205B74636ED8431}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VV/RG/Atacs/Character_RHS_RF_SOF_MG.et" "{8C3094C2AA59376A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VV/RG/Atacs/Character_RHS_RF_SOF_GM94Belt.et"
+ }
+ m_sCustomNameSet "SPEZNAZ"
+ m_bSetPlayable 1
+}
