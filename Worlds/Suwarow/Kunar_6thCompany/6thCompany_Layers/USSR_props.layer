@@ -25,8 +25,20 @@ GenericEntity : "{3001B0C35F835714}Prefabs/Compositions/Misc/SubCompositions/For
  angleY 54.506
 }
 Vehicle Ural4320_tanker1 : "{4C81D7ED8F8C0D87}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_tanker.et" {
- coords 2677.79 8.999 3005.017
- angleY 31.363
+ components {
+  SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+   FuelNodes {
+    SCR_FuelNode "{5622A70CD4036C5A}" {
+     m_fInitialFuelTankState 0
+    }
+    SCR_FuelNode "{5628CA84B129D4CE}" {
+     m_fInitialFuelTankState 0
+    }
+   }
+  }
+ }
+ coords 2749.601 8.469 2978.463
+ angleY 122.649
 }
 GenericEntity : "{53D74CD446A87F13}Prefabs/Compositions/Misc/FreeRoamBuilding/SandbagLongHighBurlap_S_USSR_01.et" {
  coords 3457.479 279.145 499.845

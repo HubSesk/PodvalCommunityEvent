@@ -1,4 +1,4 @@
-$grp SCR_AIGroup : "{CC34035B3181DD15}Prefabs/Groups/INDFOR/TKA/Group_TKR_RifleSquad.et" {
+$grp SCR_AIGroup : "{CC34035B3181DD15}Prefabs/Groups/INDFOR/TKR/Group_TKR_RifleSquad.et" {
  {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
@@ -71,4 +71,18 @@ $grp SCR_AIGroup : "{CC34035B3181DD15}Prefabs/Groups/INDFOR/TKA/Group_TKR_RifleS
   coords 966.139 136.55 2231.452
   angleY -82.562
  }
+}
+SCR_AIGroup : "{EAF551923DF4E024}Prefabs/Groups/OPFOR/Group_USSR_MedicalSection_P.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "Line"
+  }
+ }
+ coords 610.523 217.523 1993.556
+ angleZ 0.895
+ m_faction "RHS_RF_MSV"
+ m_aUnitPrefabSlots {
+  "{77D415ECE3183F86}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_Hackerman_P.et"
+ }
+ m_sCustomNameSet "Hackerman"
 }

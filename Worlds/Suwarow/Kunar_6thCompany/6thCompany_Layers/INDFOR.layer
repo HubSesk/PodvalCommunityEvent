@@ -1,4 +1,30 @@
-$grp SCR_AIGroup : "{CC34035B3181DD15}Prefabs/Groups/INDFOR/TKA/Group_TKR_RifleSquad.et" {
+Vehicle BTR70_Ses_TKR1 : "{04B2A928ED8A2753}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Ses_TKR.et" {
+ coords 3935.439 183.582 805.991
+ angleX 13.495
+ angleY -155.157
+ angleZ 4.264
+}
+Vehicle Ural4320_Ses_ChDKZ_transport_covered1 : "{A20790423F867CAC}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_Ses_ChDKZ_transport_covered.et" {
+ coords 3914.177 195.026 771.831
+ angleX 8.88
+ angleY 179.167
+ angleZ -0.129
+}
+$grp Vehicle : "{A33FC5774C0166A3}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_UK59_Ses_NAPA.et" {
+ UAZ469_UK59_Ses_NAPA1 {
+  coords 3911.262 192.406 790.491
+  angleX 6.226
+  angleY -167.367
+  angleZ -18.871
+ }
+ UAZ469_UK59_Ses_NAPA2 {
+  coords 3911.507 193.85 780.999
+  angleX 14.824
+  angleY -169.197
+  angleZ -12.002
+ }
+}
+$grp SCR_AIGroup : "{CC34035B3181DD15}Prefabs/Groups/INDFOR/TKR/Group_TKR_RifleSquad.et" {
  {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
@@ -10,22 +36,7 @@ $grp SCR_AIGroup : "{CC34035B3181DD15}Prefabs/Groups/INDFOR/TKA/Group_TKR_RifleS
   coords 3932.127 204.705 709.615
   angleY -90.32
   m_aUnitPrefabSlots + {
-   "{CB6F0A17F436FFE9}Prefabs/Characters/Factions/INDFOR/TKR/Character_TKR_Militiamen.et"
-  }
- }
- {
-  components {
-   AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "Line"
-   }
-   PS_GroupCallsignAssigner "{60C559524A7C087F}" {
-    m_iSquadCallsign 1
-   }
-  }
-  coords 3926.207 200.071 730.006
-  angleY -105.501
-  m_aUnitPrefabSlots + {
-   "{CB6F0A17F436FFE9}Prefabs/Characters/Factions/INDFOR/TKR/Character_TKR_Militiamen.et"
+   "{CB6F0A17F436FFE9}Prefabs/Characters/Factions/INDFOR/TKR/Character_TKR_Militiamen.et" "{25C1EFF99221CF49}Prefabs/Characters/Factions/INDFOR/TKR/Character_TKR_MG.et" "{77D631E3FC6EDBAA}Prefabs/Characters/Factions/INDFOR/TKR/Character_TKR_AR.et"
   }
  }
  {
@@ -67,8 +78,8 @@ $grp SCR_AIGroup : "{CC34035B3181DD15}Prefabs/Groups/INDFOR/TKA/Group_TKR_RifleS
     m_iPlatoonCallsign 1
    }
   }
-  coords 3858.65 213.733 633.291
-  angleY -68.968
+  coords 3926.989 196.244 736.356
+  angleY -110.847
  }
  {
   components {

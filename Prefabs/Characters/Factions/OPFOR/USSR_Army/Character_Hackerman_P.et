@@ -1,11 +1,17 @@
 SCR_ChimeraCharacter : "{5117311FB822FD1F}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Officer.et" {
  ID "200D264F0EEA1A28"
  components {
+  FactionAffiliationComponent "{520EC9618276DF23}" {
+   "faction affiliation" "RHS_RF_MSV"
+  }
   PS_PlayableComponent "{5EFCC1946F475F15}" {
-   m_name "Николай Манувриев"
+   m_name "Nikolay Grozdev"
    m_bIsPlayable 1
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate ""
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
    WeaponTemplate ""
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
@@ -14,16 +20,16 @@ SCR_ChimeraCharacter : "{5117311FB822FD1F}Prefabs/Characters/Factions/OPFOR/USSR
      Prefab "{8F5F63E96E7E4FDC}Prefabs/Characters/HeadGear/Hat_BallCap/Hat_ballcap_OD.et"
     }
     LoadoutSlotInfo Jacket {
-     Prefab "{CA27CA71B3AF2FCF}Prefabs/Characters/Uniforms/Jacket_M70_base.et"
+     Prefab "{6A3F994EFFE22995}Prefabs/Characters/Uniforms/Shirt_Turtleneck_01/Shirt_Turtleneck_01_DarkBlue.et"
     }
     LoadoutSlotInfo Pants {
-     Prefab "{6099177EBF8A16FC}Prefabs/Characters/Uniforms/Pants_M70_base.et"
+     Prefab "{65B7093231FBF67E}Prefabs/Characters/Uniforms/Pants_Trousers_01/Pants_Trousers_01_LightBrown.et"
     }
     LoadoutSlotInfo Boots {
-     Prefab "{CC02CD0DA3AC6A2F}Prefabs/Characters/Footwear/CombatBoots_Soviet_01_50kg.et"
+     Prefab "{057E63449502EBCA}Prefabs/Characters/Footwear/Boots_Salomon/Footwear_Salomon.et"
     }
    }
   }
  }
- coords 608.961 217.59 1992.928
+ coords 608.508 217.617 1991.306
 }

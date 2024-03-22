@@ -21,7 +21,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  {
   coords 131.921 45.879 3052.684
   m_sTitle "Task"
-  m_sTextData "Миссия считается выполненной, если поcле истечения 50 минут Николай будет убит и (или) все силы противника уничтожены."
+  m_sTextData "Миссия считается выполненной, если поcле истечения 50 минут Николай будет оставаться под контролем Такистанских повстанцев или убит или все силы противника уничтожены."
   m_aVisibleForFactions {
    "Ses_TKR"
   }
@@ -29,7 +29,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  {
   coords 137.388 45.478 3054.521
   m_sTitle "Description"
-  m_sTextData "Муджахиды! Мы захватили этого неверного в Казахстане, когда он там укрывался от своих властей и теперь он взламывает биткоин, чтобы мы могли распространять свою власть. Ему, чтобы выполнить его миссию необходимо 50 минут. Охраняйте его, а затем после миссии убейте!"
+  m_sTextData "Муджахиды! Мы захватили этого неверного в Казахстане, когда он там укрывался от своих властей и теперь он взламывает биткоин, чтобы мы могли распространять свою власть. Ему, чтобы выполнить его миссию необходимо 50 минут. Охраняйте его!"
   m_aVisibleForFactions {
    "Ses_TKR"
   }
@@ -37,7 +37,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  {
   coords 156.757 43.989 3059.149
   m_sTitle "Task"
-  m_sTextData "Миссия считается выполненной, если по истечению 50 минут Николай жив и (или) все силы противника уничтожены."
+  m_sTextData "Миссия считается выполненной, если по истечению 50 минут Николай будет находиться на Мичиган или Тандерболт живым и (или) все силы противника уничтожены."
   m_aVisibleForFactions {
    "RHS_US_USMC"
   }
@@ -82,18 +82,6 @@ GenericEntity : "{90BCDBBA44D6886B}Prefabs/Structures/BuildingParts/Eletrical/Lo
 GenericEntity : "{98DD643927F87912}Prefabs/Props/Commercial/BeerKegMetal_01_big_lines.et" {
  coords 612.559 217.804 1983.285
  angleY -142.488
-}
-$grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
- {
-  coords 639.012 212.02 1992.821
-  m_sTitle "Убийство ВИП"
-  m_sFactionKey "Ses_TKR"
- }
- {
-  coords 638.859 212.424 1994.806
-  m_sTitle "Эвакуация ВИП"
-  m_sFactionKey "RHS_US_USMC"
- }
 }
 $grp SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
  {

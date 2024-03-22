@@ -80,36 +80,21 @@ Vehicle M998_covered_long_MERDC1 : "{751AFEEA19DDFB04}Prefabs/Vehicles/Wheeled/M
  coords 507.598 45.263 3254.656
  angleY -38.571
 }
-$grp SCR_AIGroup : "{ABACC233796108ED}Prefabs/Groups/BLUFOR/Group_US_SniperTeam_P.et" {
- {
-  components {
-   AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "Line"
-   }
-   PS_GroupCallsignAssigner "{60C5595DE681CF9B}" {
-    m_iCompanyCallsign 1
-    m_iPlatoonCallsign 1
-   }
+SCR_AIGroup : "{ABACC233796108ED}Prefabs/Groups/BLUFOR/Group_US_SniperTeam_P.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "Line"
   }
-  coords 2681.558 8 3089.874
-  angleY -148.546
-  m_faction "RHS_US_USMC"
-  m_aUnitPrefabSlots {
-   "{E9601333852C637F}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_HeliPilot_P.et" "{E9601333852C637F}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_HeliPilot_P.et"
+  PS_GroupCallsignAssigner "{60C5595DE681CF9B}" {
+   m_iCompanyCallsign 1
+   m_iPlatoonCallsign 1
   }
  }
- {
-  components {
-   AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "Line"
-   }
-  }
-  coords 609.068 217.564 1994.398
-  angleY -148.774
-  m_faction "RHS_RF_MSV"
-  m_aUnitPrefabSlots {
-   "{77D415ECE3183F86}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_Hackerman_P.et"
-  }
+ coords 2681.558 8 3089.874
+ angleY -148.546
+ m_faction "RHS_US_USMC"
+ m_aUnitPrefabSlots {
+  "{42A502E3BB727CEC}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_RHS_USAF_USMC_HeliPilot.et" "{42A502E3BB727CEC}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_RHS_USAF_USMC_HeliPilot.et"
  }
 }
 $grp SCR_AIGroup : "{C824AA59A0243487}Prefabs/Groups/BLUFOR/RHS_US_USMC/Group_US_USMC_RifleSquad.et" {
