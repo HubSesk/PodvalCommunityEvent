@@ -1,4 +1,4 @@
-Vehicle BTR70_Ses_TKA_camo1 {
+Vehicle {
  coords 3568.898 253.761 516.969
  angleX -10.077
  angleY 123.843
@@ -18,6 +18,10 @@ SCR_AIGroup : "{218445F83827D929}Prefabs/Groups/OPFOR/RHS_RF_MSV/EMR/Group_MSV_E
   "{963BD8F3900F27B4}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/Character_RHS_RF_MSV_VKPO_S_SL.et" "{A9A4F7F6CCC49144}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/Character_RHS_RF_MSV_VKPO_S_MG.et" "{A9A4F7F6CCC49144}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/Character_RHS_RF_MSV_VKPO_S_MG.et" "{F13D06392307FA6A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/Character_RHS_RF_MSV_VKPO_S_AMG.et" "{F13D06392307FA6A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/Character_RHS_RF_MSV_VKPO_S_AMG.et" "{A2A94C6101F83AE1}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/Character_RHS_RF_MSV_VKPO_S_Rifleman3.et" "{C55F0D12342C6756}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/Character_RHS_RF_MSV_VKPO_S_Sharpshooter.et" "{138AE55C88757687}Prefabs/Characters/Factions/OPFOR/RHS_RF_MSV/EMR/Character_RF_MSV_EMR_GL.et" "{F66657CD553CEC8D}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/Character_RHS_RF_MSV_VKPO_S_GL.et"
  }
 }
+GenericEntity : "{25861AD07CEE719B}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Sandbag_MG_USSR_01_PKM.et" {
+ coords 3500.99 281.223 553.469
+ angleY 17.458
+}
 SCR_AIGroup : "{56FD583BBC989204}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Group_RHS_RF_MSV_VKPO_DS_SentryTeam.et" {
  components {
   AIFormationComponent "{507E9DC12F541FE6}" {
@@ -33,31 +37,8 @@ SCR_AIGroup : "{56FD583BBC989204}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Demiseas
   "{A62FA97C4EC64F14}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_HeliPilot.et" "{A62FA97C4EC64F14}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_HeliPilot.et"
  }
 }
-$grp SCR_EditorRestrictionZoneEntity : "{6144B0BE2EAC6897}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneMedium.et" {
- {
-  components {
-   SCR_ZoneRestrictionAreaMeshComponent "{56D8A3C5A31496A1}" {
-    m_bFollowTerrain 1
-   }
-  }
-  coords 3562.748 255.578 529.082
-  {
-   GenericEntity {
-    ID "59D673B36B893D84"
-    components {
-     SCR_CustomAreaMeshComponent "{59D673B22B1EBC57}" {
-      m_bFollowTerrain 1
-     }
-    }
-   }
-  }
- }
- {
-  coords 3466.299 286.035 516.664
- }
- {
-  coords 2669.193 8 3077.423
- }
+SCR_EditorRestrictionZoneEntity : "{6144B0BE2EAC6897}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneMedium.et" {
+ coords 2669.193 8 3077.423
 }
 Vehicle BTR70_Ses_TKA1 : "{6F963B40DE04868A}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Ses_TKA.et" {
  coords 3569.922 253.407 515.051
@@ -65,8 +46,51 @@ Vehicle BTR70_Ses_TKA1 : "{6F963B40DE04868A}Prefabs/Vehicles/Wheeled/BTR70/BTR70
  angleY 131.075
  angleZ -0.561
 }
-SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
- coords 3924.26 205.009 762.626
+$grp SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
+ {
+  components {
+   SCR_ZoneRestrictionAreaMeshComponent "{56D8A3C5A31496A1}" {
+    m_bFollowTerrain 1
+   }
+  }
+  coords 3934.911 205.009 781.374
+  m_fWarnRadius 85.6
+  m_fZoneRadius 125.6
+  m_fZoneTeleportedRadius 135.6
+  {
+   GenericEntity {
+    ID "59D673B36B893D84"
+    components {
+     SCR_CustomAreaMeshComponent "{59D673B22B1EBC57}" {
+      m_bFollowTerrain 1
+      m_fRadius 85.6
+     }
+    }
+   }
+  }
+ }
+ {
+  components {
+   SCR_ZoneRestrictionAreaMeshComponent "{56D8A3C5A31496A1}" {
+    m_bFollowTerrain 1
+   }
+  }
+  coords 3519.854 275.493 536.963
+  m_fWarnRadius 85.6
+  m_fZoneRadius 125.6
+  m_fZoneTeleportedRadius 135.6
+  {
+   GenericEntity {
+    ID "59D673B36B893D84"
+    components {
+     SCR_CustomAreaMeshComponent "{59D673B22B1EBC57}" {
+      m_bFollowTerrain 1
+      m_fRadius 85.6
+     }
+    }
+   }
+  }
+ }
 }
 $grp SCR_AIGroup : "{EA9949F006E2DC47}Prefabs/Groups/OPFOR/Ses_TKA/Group_TKA_RifleSquad.et" {
  {
