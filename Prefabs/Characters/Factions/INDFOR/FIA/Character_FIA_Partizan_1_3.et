@@ -1,0 +1,37 @@
+SCR_ChimeraCharacter : "{854C04F0EA2129CC}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Unarmed.et" {
+ ID "520EC961A090B1EE"
+ components {
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_bIsPlayable 1
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{E12126CDE731EED5}Prefabs/Characters/HeadGear/Hat_Boonie_US_01/Hat_Boonie_US_01.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{EB0D74A43F74B522}Prefabs/Characters/Uniforms/Jacket_Denim_01/Jacket_Civ_Denim_01.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{4DC4FD2F6D353B12}Prefabs/Characters/Uniforms/Pants_M70_Dirty.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{5D7CC173FAA7C00E}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Pants_M70_Dirty.et"
+     PrefabsToSpawn {
+      "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/PaperMap_01_folded.et" "{7CEF68E2BC68CE71}Prefabs/Items/Equipment/Compass/Compass_Adrianov.et"
+     }
+    }
+    ItemsInitConfigurationItem "{5D7CC173FAA7C00C}" {
+     PrefabsToSpawn {
+     }
+    }
+   }
+  }
+ }
+ coords 4802.824 166.855 7053.091
+ angleY -127.384
+}

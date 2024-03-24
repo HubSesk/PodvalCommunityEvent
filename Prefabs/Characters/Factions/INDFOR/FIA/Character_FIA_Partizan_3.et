@@ -1,0 +1,37 @@
+SCR_ChimeraCharacter : "{854C04F0EA2129CC}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Unarmed.et" {
+ ID "520EC961A090B1EE"
+ components {
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_bIsPlayable 1
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{75C92359E352391E}Prefabs/Characters/HeadGear/Hat_RadiovkaBeret_01/Hat_RadiovkaBeret_01_brown_Dirty.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{5BEE8146EAA1893B}Prefabs/Characters/Uniforms/Shirt_Turtleneck_01/Shirt_Turtleneck_01_DarkBlue_Dirty.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{83DFA8F68CA40B10}Prefabs/Characters/Uniforms/Pants_Pilot_USSR_01/Pants_Pilot_USSR_01.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{5D7CC173FAA7C00E}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Pants_Pilot_USSR_01/Pants_Pilot_USSR_01.et"
+     PrefabsToSpawn {
+      "{7CEF68E2BC68CE71}Prefabs/Items/Equipment/Compass/Compass_Adrianov.et" "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/PaperMap_01_folded.et"
+     }
+    }
+    ItemsInitConfigurationItem "{5D7CC173FAA7C00C}" {
+     PrefabsToSpawn {
+     }
+    }
+   }
+  }
+ }
+ coords 4807.836 167.074 7052.242
+ angleY -127.24
+}
