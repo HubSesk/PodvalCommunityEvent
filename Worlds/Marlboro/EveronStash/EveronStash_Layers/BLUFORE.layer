@@ -1,0 +1,92 @@
+SCR_AIGroup FIA_G_001_5 : "{126BE8C46FA39581}Prefabs/Groups/INDFOR/Group_FIA_FireTeam_P.et" {
+ components {
+  PS_GroupCallsignAssigner "{61090BE983E4B3CF}" {
+   m_iCompanyCallsign 0
+   m_iPlatoonCallsign 0
+   m_iSquadCallsign 1
+  }
+ }
+ coords 8381.527 12.826 774.108
+ angleY -26.095
+}
+$grp SCR_AIGroup : "{17C7309FFE4775B0}Prefabs/Groups/INDFOR/Group_FIA_RifleSquad_P.et" {
+ FIA_G_002_8 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{61090BE98BAC44ED}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 0
+    m_iSquadCallsign 2
+   }
+  }
+  coords 8374.76 12.648 801.8
+  angleY -22.47
+  m_aUnitPrefabSlots + {
+   ""
+  }
+ }
+ FIA_G_010_8 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{61090BE98DB1F305}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 0
+   }
+  }
+  coords 8424.932 12.576 793.96
+  angleY 60.172
+  m_aUnitPrefabSlots + {
+   ""
+  }
+ }
+ FIA_G_011_8 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{61090BE98FDDDB1D}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 1
+   }
+  }
+  coords 8408.503 10.903 812.92
+  angleY -22.47
+  m_aUnitPrefabSlots + {
+   ""
+  }
+ }
+ FIA_G_012_8 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{61090BE9B150A5D6}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 2
+   }
+  }
+  coords 8390.781 12.657 799.214
+  angleY -44.524
+  m_aUnitPrefabSlots + {
+   ""
+  }
+ }
+}
+SCR_AIGroup US_G_001_4 : "{47EADE5E4E07076C}Prefabs/Groups/BLUFOR/Group_US_FireTeam_P.et" {
+ components {
+  PS_GroupCallsignAssigner "{61090BE9BF7D727D}" {
+   m_iCompanyCallsign 0
+   m_iPlatoonCallsign 0
+   m_iSquadCallsign 1
+  }
+ }
+ coords 8378.193 12.18 780.362
+ angleY 146.121
+}

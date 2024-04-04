@@ -1,0 +1,120 @@
+PolylineShapeEntity : "{127D357736B0C350}Prefabs/PolyZone/PolyZone_Destroy.et" {
+ coords 8390.23 0.923 727.61
+ Points {
+  ShapePoint "{61090BECA73372BD}" {
+   Position 21.005 0 36.166
+  }
+  ShapePoint "{61090BECAB3F4683}" {
+   Position 24.328 0 39.514
+  }
+  ShapePoint "{61090BECAECE2D15}" {
+   Position 24.28 0 43.259
+  }
+  ShapePoint "{61090BECAFF27A17}" {
+   Position 22.377 0 46.445
+  }
+  ShapePoint "{61090BEC516200FE}" {
+   Position 19.514 0 48.241
+  }
+  ShapePoint "{61090BEC5367BCED}" {
+   Position 15.992 0 44.605
+  }
+  ShapePoint "{61090BEC5483A74B}" {
+   Position 12.893 0 41.235
+  }
+  ShapePoint "{61090BEC5612092B}" {
+   Position 11.278 0 36.82
+  }
+  ShapePoint "{61090BEC57D3DBA1}" {
+   Position 10.473 0 32.724
+  }
+ }
+ {
+  PS_Objective {
+   ID "60E9062E6BABF763"
+   m_sTitle "Уничтожить схрон"
+   m_sFactionKey "USSR"
+   m_bAdvanceWhenTriggered 1
+  }
+  PS_PolyZoneObjectiveTriggerDestroy {
+   ID "60E9062E6BABF765"
+   ClassesFilter {
+   }
+   PrefabsFilter {
+    PrefabFilter "{61090BEC7B065FC2}" {
+     Prefab "{14D23D512E84C364}Prefabs/Props/Military/MilitaryCrates/CrateStack_01/Dst/BoxBoom.et"
+    }
+   }
+  }
+ }
+}
+$grp SCR_EditorRestrictionZoneEntity : "{6144B0BE2EAC6897}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneMedium.et" {
+ {
+  coords 7087.17 159.204 2070.007
+ }
+ {
+  coords 10355.784 34.424 391.115
+ }
+}
+SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
+ coords 8399.437 12.796 789.141
+}
+$grp PolylineShapeEntity : "{DCA90362FBC25FB4}Prefabs/PolyZone/PolyZone_Presence.et" {
+ {
+  coords 8407.41 0 747.766
+  Points {
+   ShapePoint "{61090BEE16E90044}" {
+    Position 17.817 0 7.862
+   }
+   ShapePoint "{61090BEE186EA7FD}" {
+    Position 21.341 -0 22.407
+   }
+   ShapePoint "{61090BEE19160D8F}" {
+    Position 7.921 0 33.486
+   }
+   ShapePoint "{61090BEE1A777C04}" {
+    Position -0.46 0 34.069
+   }
+   ShapePoint "{61090BEE1AA08B99}" {
+    Position -10.215 0 28.363
+   }
+   ShapePoint "{61090BEE1C4C4893}" {
+    Position -14.132 0 19.826
+   }
+   ShapePoint "{61090BEE1E1AF943}" {
+    Position -9.675 0 10.966
+   }
+   ShapePoint "{61090BEE1F5F8875}" {
+    Position -2.92 0 2.868
+   }
+  }
+  {
+   PS_Objective {
+    ID "60E9062D2F15A7F1"
+    m_sTitle "Сохранить Тайник"
+    m_sFactionKey "FIA"
+   }
+   PS_PolyZoneObjectivePresence {
+    components {
+     Hierarchy "{61090BEF8106CCB0}" {
+     }
+    }
+    TriggerShapeType Polyline
+    DrawShape 1
+    TriggerActivationType "All changes"
+    PeriodicQueries 1
+    NamesFilter {
+     "Stash1" "Stash2"
+    }
+   }
+  }
+ }
+ {
+  coords 9344.425 196.99 1144.459
+  Points {
+   ShapePoint "{61090BEF172578C5}" {
+    Position -39.807 -0 128.434
+   }
+  }
+ }
+}
