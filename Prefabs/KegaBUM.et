@@ -1,0 +1,31 @@
+GenericEntity : "{7D39683D0F8EDB59}Prefabs/Props/Military/MilitaryCrates/CrateStack_01/Dst/CrateStack_01_Dst_3_dark.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{7CEF73DF59AFA129}Assets/Props/Commercial/BeerKegMetal_01/BeerKegMetal_01_big.xob"
+  }
+  PS_SpectatorLabel "{6068E14781C5C9A8}" {
+   m_sMarkerPrefab "{52CA8FF5F56C6F31}UI/Map/ManualMapMarkerBase.layout"
+   m_cMapMarkerConfig PS_ManualMarkerConfig "{6068E14464F4A51A}" {
+    m_MarkerColor 0.502 0.376 0 1
+    m_sQuadName "supplies"
+    m_fWorldSize 30
+    m_sDescription "Weapon Create"
+    m_bUseWorldScale 0
+    m_iZOrder 0
+    m_fMinSize 0
+   }
+   m_sSpectatorLabelLayout "{3F39DAD431B04920}UI/Spectator/BoxLable.layout"
+  }
+  SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+   m_DestroySpawnObjects {
+    SCR_PrefabSpawnable "{5EE323A0CDADD0F3}" {
+     m_Prefabs {
+      "{6BB2F747B4896E02}Prefabs/Weapons/Warheads/Explosions/Explosion_AmmoRack_Small.et"
+     }
+    }
+   }
+  }
+ }
+ coords 10643.049 185.952 2500.134
+}

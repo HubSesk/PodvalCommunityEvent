@@ -1,0 +1,92 @@
+$grp PolylineShapeEntity : "{127D357736B0C350}Prefabs/PolyZone/PolyZone_Destroy.et" {
+ {
+  coords 3148.716 11.531 2798.546
+  Points {
+   ShapePoint "{61091E309DD093C8}" {
+    Position -3.188 0 4.158
+   }
+   ShapePoint "{61091E309F173E64}" {
+    Position -7.63 0 -1.074
+   }
+   ShapePoint "{61091E30811D8F08}" {
+    Position -3.884 0 -3.607
+   }
+  }
+ }
+ {
+  coords 3169.31 13.68 2717.906
+  Points {
+   ShapePoint "{61091E30BE477D3A}" {
+    Position 1.907 0 2.415
+   }
+   ShapePoint "{61091E30BF1D1D1C}" {
+    Position -3.676 0 5.624
+   }
+   ShapePoint "{61091E30A18FB351}" {
+    Position -10.604 0 -2.743
+   }
+   ShapePoint "{61091E30A2A15959}" {
+    Position -5.914 0 -6.412
+   }
+  }
+ }
+}
+$grp SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
+ {
+  coords 3099.602 23.152 2606.204
+  angleX -8.003
+  angleY 0.126
+  angleZ -0.904
+ }
+ {
+  coords 1378.171 36.283 2384.06
+ }
+}
+$grp PolylineShapeEntity : "{DCA90362FBC25FB4}Prefabs/PolyZone/PolyZone_Presence.et" {
+ {
+  coords 3143.149 11.961 2800.328
+  Points {
+   ShapePoint "{61091E313B1DACB5}" {
+    Position -1.52 0 -1.918
+   }
+   ShapePoint "{61091E312C7DB83D}" {
+    Position 1.4 0 -5.469
+   }
+   ShapePoint "{61091E312E38C849}" {
+    Position 5.565 0 -1.737
+   }
+   ShapePoint "{61091E312F8CDA7B}" {
+    Position 2.922 0 2.542
+   }
+  }
+  {
+   PS_PolyZoneObjectivePresence {
+    components {
+     Hierarchy "{61091E30C4182F89}" {
+     }
+    }
+    TriggerShapeType Polyline
+   }
+  }
+ }
+ {
+  coords 3158.941 13.067 2714.448
+  Points {
+   ShapePoint "{61091E3050790BC5}" {
+    Position 4.773 0 -3.548
+   }
+   ShapePoint "{61091E30525672AA}" {
+    Position 12.894 0 5.862
+   }
+   ShapePoint "{61091E3053C54DE8}" {
+    Position 5.317 0 10.979
+   }
+   ShapePoint "{61091E305665A137}" {
+    Position -2.685 0 2.028
+   }
+  }
+ }
+}
+SCR_EditorRestrictionZoneEntity : "{EF72FA7CD87618D5}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneSmall.et" {
+ coords 3607.652 38.663 2666.125
+}
