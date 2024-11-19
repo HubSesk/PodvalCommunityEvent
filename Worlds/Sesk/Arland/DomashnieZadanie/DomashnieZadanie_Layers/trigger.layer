@@ -1,0 +1,35 @@
+PolylineShapeEntity : "{7019844BAD5C4DD8}Prefabs/PolyZone/PolyZone_Border.et" {
+ components {
+  PS_PolyZone "{60E90266F25533F6}" {
+   m_mPolygonTexture ""
+   m_mPolygonTextureBorder "{CA01D453D39FB430}UI/layouts/Textures/ZoneBorder.edds"
+   m_cPolygonBorderColor 0 0 0 1
+   m_bLineMode 1
+  }
+ }
+ coords 2853.304 69.98 1549.569
+ angleY -15.644
+ Points {
+  ShapePoint "{62E700BF122FA05B}" {
+   Position 128.166 -5.343 64.886
+  }
+  ShapePoint "{62E700BF11A66A72}" {
+   Position 51.809 -1.139 240.374
+  }
+  ShapePoint "{62E700BF1136182F}" {
+   Position -202.771 3.599 128.259
+  }
+  ShapePoint "{62E700BF10942E98}" {
+   Position -121.383 -7.848 -47.532
+  }
+ }
+ {
+  PS_PolyZoneTrigger {
+   ID "60FD050E1E83544C"
+   m_sFactionKey "USSR"
+  }
+ }
+}
+SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
+ coords 2791.959 74.33 1625.057
+}
