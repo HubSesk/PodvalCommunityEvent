@@ -1,0 +1,105 @@
+PolylineShapeEntity : "{1D807ABE94FE2618}Prefabs/PolyZone/PolyZone_Capture.et" {
+ components {
+  PS_PolyZone "{60E90266F25533F6}" {
+   m_cPolygonColor 0.561 0.071 0.439 1
+   m_cPolygonBorderColor 0.561 0.071 0.439 1
+   m_aVisibleForFactions {
+    "" "RHS_AFRF" "RHS_USAF"
+   }
+  }
+ }
+ coords 1947.454 292.56 8999.234
+ Points {
+  ShapePoint "{60E90266E922A02A}" {
+   Position 15.551 -0.591 2.666
+  }
+  ShapePoint "{62ED6448BA4821B1}" {
+   Position 30.282 -6.103 64.979
+  }
+  ShapePoint "{62ED6448BADD5BB0}" {
+   Position 78.784 -5.067 51.42
+  }
+  ShapePoint "{62ED6448B9707263}" {
+   Position 66.768 -1.894 -8.87
+  }
+ }
+ {
+  PS_PolyZoneObjectiveTriggerCapture {
+   ID "60E906126F14C7A8"
+   m_fCaptureTime 600
+   m_iPowerBalance 3
+  }
+  $grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
+   {
+    coords -1947.454 -292.56 -8999.235
+    m_sTitle "Захватить базу"
+    m_sTextData "Военная база, отмеченная на карте, осталась без гарнизона. Командование приказало нам срочно ее занять. Недалеко от нее находится наша группа разведки."\
+    ""\
+    "Удерживать базу нужно, как минимум 10 минут."
+    m_aVisibleForFactions {
+     "RHS_AFRF"
+    }
+    m_sFactionKey "RHS_AFRF"
+   }
+   {
+    coords -1947.454 -292.56 -8999.235
+    m_sTitle "Захватить базу"
+    m_sTextData "Военная база, отмеченная на карте, осталась без гарнизона. Командование приказало нам срочно ее занять. Недалеко от нее находится наша группа разведки."\
+    ""\
+    "Удерживать базу нужно, как минимум 10 минут."
+    m_aVisibleForFactions {
+     "RHS_USAF"
+    }
+    m_sFactionKey "RHS_USAF"
+   }
+  }
+ }
+}
+PolylineShapeEntity : "{7019844BAD5C4DD8}Prefabs/PolyZone/PolyZone_Border.et" {
+ components {
+  PS_PolyZone "{60E90266F25533F6}" {
+   m_aVisibleForFactions {
+    "RHS_USAF" "RHS_AFRF" ""
+   }
+  }
+ }
+ coords 1772.303 286.862 7753.673
+ Points {
+  ShapePoint "{60E90266E922A02A}" {
+   Position 221.831 -49.986 -608.587
+  }
+  ShapePoint "{62ED644D81A34251}" {
+   Position -202.344 13.164 160.838
+  }
+  ShapePoint "{62ED644D80E875A6}" {
+   Position -413.32 17.825 556.536
+  }
+  ShapePoint "{62ED644B6774C44C}" {
+   Position -645.314 -90.729 1385.602
+  }
+  ShapePoint "{62ED644DB37C6DEF}" {
+   Position -503.736 -78.371 1685.081
+  }
+  ShapePoint "{62ED644DB1E75538}" {
+   Position -208.084 -73.649 1651.91
+  }
+  ShapePoint "{62ED644DBF283A28}" {
+   Position 14.142 -61.993 1866.013
+  }
+  ShapePoint "{62ED644DBB1BB7CF}" {
+   Position 107.905 -61.802 2083.455
+  }
+  ShapePoint "{62ED644B62420520}" {
+   Position 670.789 -13.135 2572.713
+  }
+  ShapePoint "{62ED644B6FDE4D3D}" {
+   Position 2199.333 40.595 1367.75
+  }
+  ShapePoint "{62ED644D9D483D19}" {
+   Position 1982.402 12.952 749.586
+  }
+  ShapePoint "{62ED644D93D4C24E}" {
+   Position 1187.514 45.19 -451.575
+  }
+ }
+}
