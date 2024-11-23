@@ -1,0 +1,116 @@
+PolylineShapeEntity : "{7019844BAD5C4DD8}Prefabs/PolyZone/PolyZone_Border.et" {
+ components {
+  PS_PolyZone "{60E90266F25533F6}" {
+   m_aVisibleForFactions {
+    "" "Ses_ChDKZ" "RHS_USAF" "Ses_CDF"
+   }
+  }
+ }
+ coords 8482.292 186.83 11919.531
+ Points {
+  ShapePoint "{62EEADBA7428652E}" {
+   Position -527.519 164.278 -1548.12
+  }
+  ShapePoint "{62EEADB95415EAFE}" {
+   Position -1273.649 122.44 -1260.34
+  }
+  ShapePoint "{62EEADBA7E73C93D}" {
+   Position -1977.261 130.798 -860.939
+  }
+  ShapePoint "{62EEADB9C855FEF7}" {
+   Position -2071.829 113.272 -393.804
+  }
+  ShapePoint "{62EEADBA7CF30BA5}" {
+   Position -2060.875 55.384 125.644
+  }
+  ShapePoint "{62EEADB9CD7C79D0}" {
+   Position -1483.737 38.768 278.49
+  }
+  ShapePoint "{62EEADBA783C6CF5}" {
+   Position -848.759 -9.089 253.052
+  }
+  ShapePoint "{62EEADBA6665A6EA}" {
+   Position -379.285 -34.7 295.797
+  }
+  ShapePoint "{62EEADB90A71474D}" {
+   Position -249.649 -44.036 284.288
+  }
+  ShapePoint "{62EEADB90E7E8241}" {
+   Position -201.716 -37.165 144.461
+  }
+ }
+ {
+  PS_PolyZoneTrigger {
+   ID "60FD050E1E83544C"
+   m_sFactionKey "Ses_ChDKZ"
+  }
+ }
+}
+PolylineShapeEntity : "{FDFD30B35486D6F1}Prefabs/PolyZone/PolyZone_CaptureUSxUSSR.et" {
+ components {
+  PS_PolyZone "{60E90266F25533F6}" {
+   m_aVisibleForFactions {
+    ""
+   }
+  }
+ }
+ coords 6738.841 381.377 11476.287
+ Points {
+  ShapePoint "{60E90266E922A02A}" {
+   Position 100.334 14.484 19.179
+  }
+  ShapePoint "{62EEADB8A7A173C5}" {
+   Position 141.314 13.108 61.048
+  }
+  ShapePoint "{62EEADB8A525C018}" {
+   Position 212.567 11.165 14.167
+  }
+  ShapePoint "{62EEADB8A45D9EED}" {
+   Position 237.789 7.429 -81.45
+  }
+  ShapePoint "{62EEADB8A4CBB294}" {
+   Position 222.242 9.895 -133.742
+  }
+  ShapePoint "{62EEADB8A37EE12D}" {
+   Position 167.608 9.806 -153.72
+  }
+  ShapePoint "{62EEADB8A2D4ACB3}" {
+   Position 121.027 17.006 -125.569
+  }
+  ShapePoint "{62EEADB8A2AD768B}" {
+   Position 104.739 19.475 -71.169
+  }
+  ShapePoint "{62EEADB8A1D07D1E}" {
+   Position 98.528 18.667 -20.909
+  }
+ }
+ {
+  PS_Objective {
+   ID "60E90618BF39F892"
+   m_sTitle "Удержите Старый замок"
+   m_sTextData "Командование возлагает на нас надежду, что мы удержим эту крепость до подхода союзников из ЧСО. Держитесь до последнего, я знаю, что Вы выберетесь отсюда."
+   m_aVisibleForFactions {
+    "RHS_USAF" "Ses_CDF"
+   }
+   m_sFactionKey "RHS_USAF"
+  }
+  PS_Objective {
+   ID "60E90618BF26288E"
+   m_sTitle "Захватить Старую Крепость"
+   m_sTextData "Старая Крепость является превалирующей высотой и стратегически важным местом для контролирования близких к нему зон. Американцы дерзко захватили эту крепость небольшим отрядом и у нас есть возможность захватить его пока не прибыло подкрепление сил ЧСО."
+   m_aVisibleForFactions {
+    "Ses_ChDKZ"
+   }
+   m_sFactionKey "Ses_ChDKZ"
+  }
+  PS_Objective CaptureUS : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
+   coords -6738.841 -381.377 -11476.288
+   m_sTitle "Помогите удержать Старую Крепость"
+   m_sTextData "Нам подняли срочно по тревоге. Известно, что американцы каким-то образом захватили Старый замок и удерживают его. У нас нет с ними нормальной связи, да и мы не готовы были к такому, но вынуждены срочно добраться до них и удержать Замок."
+   m_aVisibleForFactions {
+    "Ses_CDF" "RHS_USAF"
+   }
+   m_sFactionKey "Ses_CDF"
+  }
+ }
+}

@@ -1,0 +1,183 @@
+SCR_AIGroup : "{0E3DC6A52A5F959E}Prefabs/Groups/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Group_USAF_USMC_MEF_PlatoonHQ.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "Line"
+  }
+  PS_GroupCallsignAssigner "{62EEADBE173FEB12}" {
+  }
+ }
+ coords 6905.269 402.473 11376.201
+ angleY 29.159
+}
+Vehicle Mi8MT_armed_Ses_CDF1 : "{1F8AE9B33AB52BF5}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_armed_Ses_CDF.et" {
+ components {
+  SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+   FuelNodes {
+    SCR_FuelNode "{5622A70CD4036C5A}" {
+     m_fInitialFuelTankState 0
+    }
+    SCR_FuelNode "{5A7CE769E7A9C416}" {
+     m_fInitialFuelTankState 0
+    }
+    SCR_FuelNode "{5A7CE769E7A9C414}" {
+     m_fInitialFuelTankState 0
+    }
+   }
+  }
+ }
+ coords 4170.156 338.548 10993.022
+ angleY 66.124
+}
+Vehicle M923A1_tanker_MERDC1 : "{26013123314183EA}Prefabs/Vehicles/Wheeled/M923A1/M923A1_tanker_MERDC.et" {
+ coords 4375.438 339.125 10854.004
+ angleY -53.499
+}
+$grp SCR_AIGroup : "{50DE534A7953C1CC}Prefabs/Groups/BLUFOR/Ses_CDF/Group_Ses_CDF_RifleSquad.et" {
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{62EEADBE81AA7C58}" {
+   }
+  }
+  coords 4169.813 338.531 10983.024
+  angleY 164.02
+  m_aUnitPrefabSlots {
+   "{DCDB97BE32744632}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Random/Character_CDF_PL_Random.et" "{FA37A3093ECFDB3C}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Random/Character_CDF_Sergeant_Random.et" "{0F71E9ED7359789D}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Random/Character_CDF_SR_Random.et" "{FABD4B1CD16E4175}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Random/Character_CDF_AR_Random.et" "{FABD4B1CD16E4175}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Random/Character_CDF_AR_Random.et" "{006083ED8A289CDF}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Random/Character_CDF_GL_Random.et" "{006083ED8A289CDF}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Random/Character_CDF_GL_Random.et" "{99ABB589236151DD}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Random/Character_CDF_LAT_Random.et" "{99ABB589236151DD}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Random/Character_CDF_LAT_Random.et"
+  }
+  m_sCustomNameSet "Ptichka-1"
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{62EEADBEF1AA3351}" {
+    m_iSquadCallsign 1
+   }
+  }
+  coords 4171.984 338.532 10979.706
+  angleY 165.376
+  m_aUnitPrefabSlots {
+   "{0F71E9ED7359789D}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Random/Character_CDF_SR_Random.et" "{99ABB589236151DD}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Random/Character_CDF_LAT_Random.et" "{99ABB589236151DD}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Random/Character_CDF_LAT_Random.et"
+  }
+  m_sCustomNameSet "Ptichka-1"
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{62EEADBE88269722}" {
+    m_iPlatoonCallsign 1
+   }
+  }
+  coords 4183.701 338.531 10983.104
+  angleY 164.877
+  m_aUnitPrefabSlots {
+   "{990951B11778B1D8}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_HeliPilot.et" "{6CB62AE5BE36AA18}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_HeliCrew.et" "{6CB62AE5BE36AA18}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_HeliCrew.et"
+  }
+  m_sCustomNameSet "Ptichka-1"
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{62EEADBE8B1189EE}" {
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 1
+   }
+  }
+  coords 4169.994 338.5 11019.004
+  angleY 165.376
+  m_aUnitPrefabSlots {
+   "{990951B11778B1D8}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_HeliPilot.et"
+  }
+  m_sCustomNameSet "Ptichka-2"
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{62EEADBE8628F6AA}" {
+    m_iSquadCallsign 2
+   }
+  }
+  coords 4154.968 338.504 11014.741
+  angleY 163.907
+  m_sCustomNameSet "Ptichka-2"
+ }
+}
+SCR_AIGroup : "{5A348B965206FEBE}Prefabs/Groups/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Group_USAF_USMC_MEF_Team_Suppress.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "Line"
+  }
+  PS_GroupCallsignAssigner "{62EEADBE23A9961D}" {
+   m_iSquadCallsign 3
+  }
+ }
+ coords 6907.332 402.785 11379.896
+ angleY 29.356
+}
+SCR_AIGroup : "{BBF68148AB94A7C7}Prefabs/Groups/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Group_USAF_USMC_MEF_SniperTeam.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "Line"
+  }
+  PS_GroupCallsignAssigner "{62EEADBE2A6A323A}" {
+   m_iSquadCallsign 2
+  }
+ }
+ coords 6906.366 402.611 11378.077
+ angleY 27.344
+}
+Vehicle Mi8MT_CDF1 : "{F81699EAF73DD999}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_CDF.et" {
+ components {
+  SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+   FuelNodes {
+    SCR_FuelNode "{5622A70CD4036C5A}" {
+     m_fInitialFuelTankState 0
+    }
+    SCR_FuelNode "{5A7CE769E7A9C416}" {
+     m_fInitialFuelTankState 0
+    }
+    SCR_FuelNode "{5A7CE769E7A9C414}" {
+     m_fInitialFuelTankState 0
+    }
+   }
+  }
+ }
+ coords 4157.587 338.548 11025.233
+ angleY 70.88
+}
+SCR_AIGroup : "{F831DFB4A9B46152}Prefabs/Groups/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Group_USAF_USMC_MEF_RifleSquad.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "Line"
+  }
+  PS_GroupCallsignAssigner "{62EEADBE9D1632C9}" {
+   m_iSquadCallsign 1
+  }
+ }
+ coords 6903.01 402.156 11372.761
+ angleY 45.481
+}
+Vehicle M1025_armed_M2HB_MDO_USAF1 : "{FA6820A9A52CD05B}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_MDO_USAF.et" {
+ components {
+  SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+   FuelNodes {
+    SCR_FuelNode "{5622A70CD4036C5A}" {
+     m_fInitialFuelTankState 5
+    }
+   }
+  }
+ }
+ coords 6952.449 401.951 11426.219
+ angleX -4.863
+ angleY 102.144
+ angleZ -2.868
+}
