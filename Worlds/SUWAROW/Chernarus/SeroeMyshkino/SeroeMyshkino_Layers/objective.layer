@@ -1,0 +1,22 @@
+PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ m_sTitle "Предыстория"
+ m_sTextData "Нет повести печальней, чем отряд отбившийся от своих. Армия Чернаруси заехавшая в Мышкино оказалась в окружении НАПА. Похоже это будет кровопролитная битва. Бежать Армии некуда, а значит биться они будут отчаяно."
+}
+$grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
+ {
+  m_sTitle "Захватить Мышкино"
+  m_sTextData "Войска армии Чернаруси оказались заперты в Мышкино. Бежать им некуда, но время играет против нас. Уничтожим их до прихода им подмоги. Добьем этих загнанных мышек!"
+  m_aVisibleForFactions {
+   "Ses_NAPA"
+  }
+  m_sFactionKey "Ses_NAPA"
+ }
+ {
+  m_sTitle "Продержаться ещё день"
+  m_sTextData "Попали, так попали! Леса вокруг кишат напавоцами... Нечего делать. Дадим бой в Мышкино, если продержимся до рассвета следующего дня, то будет шанс и выживем."
+  m_aVisibleForFactions {
+   "Ses_CDF"
+  }
+  m_sFactionKey "Ses_CDF"
+ }
+}

@@ -6,37 +6,49 @@ PolylineShapeEntity : "{7019844BAD5C4DD8}Prefabs/PolyZone/PolyZone_Border.et" {
    }
   }
  }
- coords 8482.292 186.83 11919.531
+ coords 8206.029 316.949 10555.89
  Points {
-  ShapePoint "{62EEADBA7428652E}" {
-   Position -527.519 164.278 -1548.12
+  ShapePoint "{62F50754CC535B7A}" {
+   Position -372.08 42.283 -418.777
   }
-  ShapePoint "{62EEADB95415EAFE}" {
-   Position -1273.649 122.44 -1260.34
+  ShapePoint "{62F50754CA017724}" {
+   Position -893.209 76.192 -734.77
   }
-  ShapePoint "{62EEADBA7E73C93D}" {
-   Position -1977.261 130.798 -860.939
+  ShapePoint "{62F50754CAB6844F}" {
+   Position -1614.899 -2.345 -315.424
   }
-  ShapePoint "{62EEADB9C855FEF7}" {
-   Position -2071.829 113.272 -393.804
+  ShapePoint "{62F50754344C8E94}" {
+   Position -1962.339 -38.501 -128.609
   }
-  ShapePoint "{62EEADBA7CF30BA5}" {
-   Position -2060.875 55.384 125.644
+  ShapePoint "{62F5075434F27CE9}" {
+   Position -2067.753 -63.064 817.462
   }
-  ShapePoint "{62EEADB9CD7C79D0}" {
-   Position -1483.737 38.768 278.49
+  ShapePoint "{62F5075432B0CAA8}" {
+   Position -2083.56 -131.988 1771.665
   }
-  ShapePoint "{62EEADBA783C6CF5}" {
-   Position -848.759 -9.089 253.052
+  ShapePoint "{62F507543E60DD77}" {
+   Position -1990.229 -143.37 1875.133
   }
-  ShapePoint "{62EEADBA6665A6EA}" {
-   Position -379.285 -34.7 295.797
+  ShapePoint "{62F507543EE57864}" {
+   Position -1662.344 -147.205 1950.507
   }
-  ShapePoint "{62EEADB90A71474D}" {
-   Position -249.649 -44.036 284.288
+  ShapePoint "{62F507543D6B9286}" {
+   Position -1028.44 -136.764 1843.043
   }
-  ShapePoint "{62EEADB90E7E8241}" {
-   Position -201.716 -37.165 144.461
+  ShapePoint "{62F507543A60C2A5}" {
+   Position -488.454 -156.019 1710.278
+  }
+  ShapePoint "{62F507543AE5F706}" {
+   Position 6.395 -176.552 1770.636
+  }
+  ShapePoint "{62F507543857D0AC}" {
+   Position 112.187 -166.815 1627.04
+  }
+  ShapePoint "{62F5075427D6B153}" {
+   Position 221.376 -131.619 1355.794
+  }
+  ShapePoint "{62F5075426956ED5}" {
+   Position 179.108 -104.971 961.515
   }
  }
  {
@@ -49,8 +61,10 @@ PolylineShapeEntity : "{7019844BAD5C4DD8}Prefabs/PolyZone/PolyZone_Border.et" {
 PolylineShapeEntity : "{FDFD30B35486D6F1}Prefabs/PolyZone/PolyZone_CaptureUSxUSSR.et" {
  components {
   PS_PolyZone "{60E90266F25533F6}" {
+   m_cPolygonColor 1 1 1 0
+   m_cPolygonBorderColor 0 0.125 0.502 1
    m_aVisibleForFactions {
-    ""
+    "" "Ses_ChDKZ" "RHS_USAF" "Ses_CDF"
    }
   }
  }
@@ -87,17 +101,19 @@ PolylineShapeEntity : "{FDFD30B35486D6F1}Prefabs/PolyZone/PolyZone_CaptureUSxUSS
  {
   PS_Objective {
    ID "60E90618BF39F892"
-   m_sTitle "Удержите Старый замок"
-   m_sTextData "Командование возлагает на нас надежду, что мы удержим эту крепость до подхода союзников из ЧСО. Держитесь до последнего, я знаю, что Вы выберетесь отсюда."
+   m_sTitle "Удержите Чертов замок"
+   m_sTextData "Командование возлагает надежду, что мы удержим эту крепость до подхода союзников из ЧСО. Держитесь до последнего, я знаю, что Вы выберетесь отсюда."
    m_aVisibleForFactions {
-    "RHS_USAF" "Ses_CDF"
+    "RHS_USAF"
    }
    m_sFactionKey "RHS_USAF"
   }
   PS_Objective {
    ID "60E90618BF26288E"
-   m_sTitle "Захватить Старую Крепость"
-   m_sTextData "Старая Крепость является превалирующей высотой и стратегически важным местом для контролирования близких к нему зон. Американцы дерзко захватили эту крепость небольшим отрядом и у нас есть возможность захватить его пока не прибыло подкрепление сил ЧСО."
+   m_sTitle "Захватите Чертов замок"
+   m_sTextData "Чертов Замок является превалирующей высотой и стратегически важным местом для контролирования близких к нему зон. Американцы дерзко захватили эту крепость небольшим отрядом и у нас есть возможность захватить его пока не прибыло подкрепление сил ЧСО."\
+   ""\
+   "Нужно стремительно захватить замок, так как полноценное противостояние мы не потянем."
    m_aVisibleForFactions {
     "Ses_ChDKZ"
    }
@@ -105,10 +121,10 @@ PolylineShapeEntity : "{FDFD30B35486D6F1}Prefabs/PolyZone/PolyZone_CaptureUSxUSS
   }
   PS_Objective CaptureUS : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
    coords -6738.841 -381.377 -11476.288
-   m_sTitle "Помогите удержать Старую Крепость"
-   m_sTextData "Нам подняли срочно по тревоге. Известно, что американцы каким-то образом захватили Старый замок и удерживают его. У нас нет с ними нормальной связи, да и мы не готовы были к такому, но вынуждены срочно добраться до них и удержать Замок."
+   m_sTitle "Помогите удержать Чертов замок"
+   m_sTextData "Наc подняли срочно по тревоге. Известно, что американцы каким-то образом захватили Чертов замок и удерживают его. У нас нет с ними нормальной связи, да и мы не готовы были к такому, но вынуждены срочно добраться до них и удержать Замок."
    m_aVisibleForFactions {
-    "Ses_CDF" "RHS_USAF"
+    "Ses_CDF"
    }
    m_sFactionKey "Ses_CDF"
   }
