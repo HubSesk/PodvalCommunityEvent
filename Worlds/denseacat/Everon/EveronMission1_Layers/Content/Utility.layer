@@ -1,0 +1,147 @@
+GenericEntity : "{14B2D417839BF8A3}PrefabsEditable/Auto/Structures/Military/Flags/E_FlagPole_02_V1_USSR.et" {
+ coords 3921.634 18.017 8510.148
+}
+$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ Shared_Rules {
+  coords 4794.284 163.207 7115.333
+  m_sTitle "Рулесы"
+  m_sTextData "Не объежжай за тридевятьземель, подумой"
+  m_aVisibleForFactions {
+   "RHS_USAF" "RHS_AFRF"
+  }
+  m_iOrder 0
+ }
+ SharedBriefing {
+  coords 4794.454 163.223 7114.651
+  m_sTitle "Брифинг"
+  m_sTextData "Вот оно, настоящее приключение! Русский патруль в Монтиньяке, наслаждаясь тишиной леса вдруг замечает нечто необычное — вертолет падает прямо в город! Патруль, не моргнув глазом, решает, что это не просто так — нужно срочно проверить, не принесет ли эта катастрофа какие-то бонусы в виде снаряжения, оружия, и направляются к месту падения."\
+  "Но, как выясняется, несколько выживших из экипажа вертолета, совершенно ошалевшие, пытаются не только выбраться, но и отразить неожиданный прием русских ребят. "\
+  "И тут все становится еще интереснее: оба лагеря, поняв, что без подкреплений дело не сдвинется, вызывают подкрепление! Вот только кто раньше получит подкрепу, тот и победит! Русский патруль, уверенный в своих силах, заранее расставляет засаду, точечно выбивая выживших, а те, в свою очередь, решают, что если кто и выживет, так это только те, кто сможет проявить креатив в обороне."\
+  "Теперь настал момент истинного веселья. Ожидание подкреплений, ни на шаг не дающее покоя, превращается в нервное сидение на иголках. И кто же первым доберется до поля боя? Конечно, тут же появляется угроза, что ни те, ни другие не получат своих долгожданных пополнений."\
+  "Засады, подкрепления, моменты паники и хаоса — классическая ситуация, которая могла бы стать эпопеей в стиле боевиков. Ах, как же интересно!"
+  m_aVisibleForFactions {
+   "RHS_USAF" "RHS_AFRF"
+  }
+  m_bEmptyFactionVisibility 1
+  m_bShowForAnyFaction 1
+  m_iOrder 1
+ }
+}
+SCR_EditorRestrictionZoneEntity : "{6144B0BE2EAC6897}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneMedium.et" {
+ coords 4412.072 125.985 7176.73
+}
+$grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
+ USAF_Objective1Normal {
+  coords 4793.452 163.163 7115.898
+  m_sTitle "Sekrit doCUMents"
+  m_sTextData "Значица, наши пацаны из отряда BlackCock упалий. Позвонили они, грят, к ним уже патруль подтянулся и воюют. Надобно немедля рвать коней в Монтиньяк и спасать аутистов. А так же найти спецсекретные докУменты которым им было поручено забрать. Ну и сьебаца пока патрули не пришли на звук и дым от нашего тырталёта и не пришлось тратить патроны на выписывание им пиздов."\
+  "Главное чтобы летуны продержались до нашего прихода"\
+  ""
+  m_aVisibleForFactions {
+   "RHS_USAF"
+  }
+  m_iOrder 2
+  m_iScore 80
+  m_sFactionKey "RHS_USAF"
+ }
+ USAF_ObjectiveSecret1 {
+  coords 4793.275 163.163 7115.377
+  m_sTitle "Кто-то из отряда BlackCock выжил"
+  m_iOrder 3
+  m_iScore 20
+  m_sFactionKey "RHS_USAF"
+ }
+ AFRF_Objective1Normal {
+  coords 4792.769 163.163 7116.495
+  m_sTitle "Грязные кокупанты"
+  m_sTextData "Патрульная группа засекла крушение вротолёта BlackCock в Монтиньяке и завязывает бой с выжившей группой противника, превосходящей их в численности. Немедленно выдвигаемся пояснять им по хардкору что leatherboys club находится two blocks down, и заодно выяснить, какого лешего они забыли на нашей территории"
+  m_aVisibleForFactions {
+   "RHS_AFRF"
+  }
+  m_iOrder 2
+  m_iScore 80
+  m_sFactionKey "RHS_AFRF"
+ }
+ AFRF_ObjectiveSecret1 {
+  coords 4793.913 163.163 7115.169
+  m_sTitle "Раритетные выпуски Playboy были отжаты"
+  m_iOrder 3
+  m_iScore 20
+  m_sFactionKey "RHS_AFRF"
+ }
+}
+$grp SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
+ {
+  coords 3904.189 31.561 8462.798
+  angleY -103.61
+  {
+   GenericEntity {
+    ID "59D673B36B893D84"
+    coords 0 0 0
+   }
+  }
+ }
+ {
+  coords 4742.313 162.395 6984.887
+ }
+ {
+  coords 5831.997 9.704 9770.501
+ }
+}
+$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ USAF_ObjectiveMarker1 {
+  coords 4720.212 161.893 6979.272
+  angleX 1.78
+  angleY 89.392
+  angleZ -0.914
+  m_MarkerColor 0 0.125 0.502 1
+  m_sQuadName "objective-marker-2"
+  m_fWorldSize 60
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_USAF"
+  }
+  m_aHideOnGameModeStates {
+  }
+ }
+ AFRF_Heli_Marker {
+  coords 4674.612 164.583 7100.227
+  angleX 0.067
+  angleY 91.435
+  angleZ -2.683
+  m_MarkerColor 0.502 0 0 1
+  m_sQuadName "mark-question"
+  m_fWorldSize 300
+  m_sDescription "Вертолет USAF"
+  m_aVisibleForFactions {
+   "RHS_AFRF"
+  }
+ }
+ USAF_Base_Marker {
+  coords 5838.926 10.008 9778.813
+  angleX 1.78
+  angleY 89.392
+  angleZ -0.914
+  m_MarkerColor 0 0.125 0.502 1
+  m_sQuadName "flag"
+  m_fWorldSize 60
+  m_sDescription "База"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_USAF"
+  }
+ }
+ AFRF_Base_Marker {
+  coords 3894.298 15.219 8461.957
+  angleX 0.067
+  angleY 91.435
+  angleZ -2.683
+  m_MarkerColor 0.502 0 0 1
+  m_sQuadName "flag"
+  m_fWorldSize 300
+  m_sDescription "База"
+  m_aVisibleForFactions {
+   "RHS_AFRF"
+  }
+ }
+}

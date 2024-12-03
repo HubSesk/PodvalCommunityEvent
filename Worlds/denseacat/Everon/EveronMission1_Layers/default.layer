@@ -1,0 +1,25 @@
+SCR_AIWorld : "{70CCCF16487C927F}Prefabs/AI/SCR_AIWorld_Eden.et" {
+ Formations {
+  AIFormationDefinition "{50AA998BDEDBC499}" {
+   Offsets +{
+   }
+  }
+  AIFormationDefinition "{56ACE3951AA8D3EB}" {
+   Offsets {
+    0 0 0 0 0 -1 0 0 -2 0 0 -3 0 0 -4 0 0 -5 0 0 -6 0 0 -7 0 0 -8 0 0 -9 0 0 -10
+   }
+  }
+ }
+}
+PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 5095.699 193.432 7451.553
+}
+PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
+ coords 5106.574 193.432 7445.476
+ m_bMarkersOnlyOnBriefing 1
+ m_bRemoveRedundantUnits 1
+ m_bRemoveSquadMarkers 1
+ m_iFreezeTime 300000
+ m_bDisableChat 1
+ m_bReserveSlots 1
+}
