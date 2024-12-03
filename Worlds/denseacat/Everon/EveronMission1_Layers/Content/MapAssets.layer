@@ -5,10 +5,10 @@ $grp GenericEntity {
     Object "{23DC99984C6C7325}Assets/Vehicles/Helicopters/UH1H/VehParts/Seats/UH1H_Seats_cargo_wreck.xob"
    }
   }
-  coords 4731.941 162.647 6972.377
-  angleX 7.554
-  angleY 112.14
-  angleZ 0.387
+  coords 4866.639 169.875 6956.992
+  angleX 0.146
+  angleY -69.243
+  angleZ -2.348
  }
  {
   components {
@@ -16,10 +16,10 @@ $grp GenericEntity {
     Object "{22C06D4FFE4F6A10}Assets/Vehicles/Helicopters/UH1H/VehParts/Seats/UH1H_Seats_gunners_wreck.xob"
    }
   }
-  coords 4731.941 162.647 6972.377
-  angleX 7.554
-  angleY 112.14
-  angleZ 0.387
+  coords 4866.639 169.875 6956.992
+  angleX 0.146
+  angleY -69.243
+  angleZ -2.348
  }
  {
   components {
@@ -31,18 +31,22 @@ $grp GenericEntity {
     Static 1
    }
   }
-  coords 4731.941 162.647 6972.377
-  angleX 7.554
-  angleY 112.14
-  angleZ 0.387
+  coords 4866.639 169.875 6956.992
+  angleX 0.146
+  angleY -69.243
+  angleZ -2.348
  }
 }
 ParticleEffectEntity {
- coords 4731.629 162.629 6971.904
- angleX -7.521
- angleY -64.73
- angleZ -0.798
+ coords 4866.94 169.899 6957.466
+ angleX -0.272
+ angleY 113.858
+ angleZ 2.336
  EffectPath "{ADB3E532BAD6029A}Particles/Vehicle/Vehicle_fire_T14.ptc"
+}
+GenericEntity : "{0879933F4FDD2C2B}Prefabs/Props/Civilian/SackUniversal_01_Pile.et" {
+ coords 4744.445 171.76 7017.046
+ angleY 57.324
 }
 GenericEntity : "{0AF1C4C9C7EF05F2}Prefabs/Compositions/Slotted/SlotFlatSmall/FuelStorage_S_US_01.et" {
  coords 5829.527 4.562 9772.419
@@ -50,6 +54,13 @@ GenericEntity : "{0AF1C4C9C7EF05F2}Prefabs/Compositions/Slotted/SlotFlatSmall/Fu
 }
 GenericEntity : "{0DBE058F13F0C7E8}PrefabsEditable/Auto/Structures/Military/Flags/E_FlagPole_02_V1_US.et" {
  coords 5821.906 23.769 9789.885
+}
+GenericEntity : "{0ED7499549352351}Prefabs/Props/Civilian/LampKerosene_01/Dst/LampKerosene_01_DST_01_military.et" {
+ coords 4743.127 172.169 7022.573
+ angleY -58.645
+}
+GenericEntity : "{14B2D417839BF8A3}PrefabsEditable/Auto/Structures/Military/Flags/E_FlagPole_02_V1_USSR.et" {
+ coords 3921.634 18.017 8510.148
 }
 $grp GenericEntity : "{172D03072FE6ECAB}Prefabs/Compositions/Slotted/SlotRoadMedium/Barricade_M_US_01.et" {
  {
@@ -67,6 +78,82 @@ $grp GenericEntity : "{172D03072FE6ECAB}Prefabs/Compositions/Slotted/SlotRoadMed
   angleZ 0.896
  }
 }
+$grp GenericEntity : "{18982CB5D0D29247}Prefabs/Props/Civilian/BeerBottle_01_empty_brown.et" {
+ {
+  coords 4741.807 171.398 7023.748
+  angleY 15.569
+ }
+ {
+  coords 4741.624 171.398 7023.851
+  angleY 15.569
+ }
+ {
+  coords 4741.582 171.398 7023.656
+  angleY 15.569
+ }
+}
+$grp GenericEntity : "{190101E6E60E7C47}Prefabs/Props/Civilian/BeerBottle_01_empty_green.et" {
+ {
+  coords 4741.046 171.398 7023.67
+  angleX 89.203
+  angleY -164.431
+  angleZ -180
+ }
+ {
+  coords 4741.554 171.387 7022.031
+  angleX 89.205
+  angleY 17.422
+  angleZ -180
+ }
+ {
+  coords 4741.7 171.398 7023.807
+  angleY 15.569
+ }
+ {
+  coords 4742.283 171.398 7021.821
+  angleX 88.477
+  angleY 15.569
+ }
+ {
+  coords 4741.938 171.398 7023.375
+  angleX 88.477
+  angleY 68.138
+ }
+}
+GenericEntity : "{1F5FC253EADB0F8B}Prefabs/Characters/Vests/Vest_Lifchik/Vest_Lifchik_GL111.et" {
+ coords 4740.59 171.363 7024.815
+ angleY -80.641
+}
+$grp GenericEntity : "{20759E1CA7F808BE}Prefabs/Props/Garbage/Military/Food/GarbageFoodMilitaryUS_01.et" {
+ {
+  coords 4741.5 171.387 7023.136
+  angleY -43.845
+ }
+ {
+  coords 4741.25 171.398 7023.249
+  angleY -90.502
+ }
+ {
+  coords 4740.927 171.398 7020.928
+  angleY -137.057
+ }
+ {
+  coords 4741.312 171.408 7021.27
+  angleY -30.986
+ }
+ {
+  coords 4741.926 171.398 7022.786
+  angleY 155.231
+ }
+ {
+  coords 4742.403 171.398 7024.259
+  angleY 15.569
+ }
+ {
+  coords 4741.335 171.895 7023.111
+  angleY 15.569
+ }
+}
 $grp GenericEntity : "{24B7F96197053B39}Prefabs/Compositions/Slotted/SlotRoadSmall/Barricade_S_US_01.et" {
  {
   coords 5704.843 14.489 9569.866
@@ -81,6 +168,18 @@ $grp GenericEntity : "{24B7F96197053B39}Prefabs/Compositions/Slotted/SlotRoadSma
   angleZ 16.516
  }
 }
+GenericEntity : "{24F9FA667DE0B56E}Prefabs/Props/Military/Camps/BoxMRE_01.et" {
+ coords 4741.741 171.468 7021.132
+ angleY -63.955
+}
+GenericEntity : "{261F10BDC068BB35}Prefabs/Props/Furniture/ChairOld_01.et" {
+ coords 4740.568 171.398 7024.333
+ angleY 78.213
+}
+GameEntity : "{27162F1F6EE6581A}Prefabs/Characters/Uniforms/Jacket_Denim_01/Jacket_Denim_01_brownShirt.et" {
+ coords 4740.316 171.593 7025.272
+ angleY 5.681
+}
 GenericEntity : "{27F6A0815E6FF6EF}Prefabs/Compositions/Slotted/SlotRoadMedium/Barricade_M_USSR_01.et" {
  coords 3926.433 21.063 8354.688
  angleX -1.894
@@ -89,29 +188,81 @@ GenericEntity : "{27F6A0815E6FF6EF}Prefabs/Compositions/Slotted/SlotRoadMedium/B
 }
 $grp StaticModelEntity : "{39F7EE885940DC8F}Prefabs/Structures/Military/Fortifications/DirtCover_01/DirtCover_01_long_v1.et" {
  {
-  coords 4734.593 0.8 6969.352
-  angleX -7.647
-  angleY -30.492
-  angleZ -4.19
+  coords 4863.757 0.482 6959.96
+  angleX -3.387
+  angleY 147.666
+  angleZ 2.488
  }
  {
-  coords 4732.957 0.146 6970.453
-  angleX -16.005
-  angleY -7.345
-  angleZ 3.604
+  coords 4865.53 -0.223 6958.891
+  angleX -14.602
+  angleY 169.327
+  angleZ 11.658
  }
  {
-  coords 4735.888 0.784 6971.678
-  angleX -4.733
-  angleY -116.627
-  angleZ 7.324
+  coords 4862.525 0.303 6957.608
+  angleX 2.214
+  angleY 62.257
+  angleZ 3.572
  }
+}
+GameEntity : "{3C44AF5729CA80AB}Prefabs/Characters/Uniforms/Shirt_Turtleneck_01/Shirt_Turtleneck_01_beige_Dirty.et" {
+ coords 4740.137 171.363 7026.075
+ angleY -122.221
+}
+GenericEntity : "{3C44DBCDA1FD917A}Prefabs/Props/Construction/BoxMortar_01/BoxMortar_01.et" {
+ coords 4746.747 172.107 7022.197
+ angleX -54.543
+ angleY 174.29
+ angleZ -180
+}
+GenericEntity : "{457331BE1519B200}Prefabs/Props/Furniture/BunkBed_01.et" {
+ coords 4741.283 171.398 7022.533
+ angleY -11.088
+}
+GameEntity : "{4F2C9DC153DD16AC}Prefabs/Characters/HeadGear/Helmet_PASGT_01/Helmet_PASGT_Googles_CDF.et" {
+ coords 4740.333 171.565 7024.988
+ angleY 79.844
+ angleZ -153.202
+}
+GameEntity : "{52AB6EC3FE535303}Prefabs/Characters/Uniforms/Jacket_Suit_01/Jacket_Suit_01_Brown_V1.et" {
+ coords 4740.354 171.586 7025.695
+ angleY -93.976
 }
 GenericEntity : "{55D508179EF5E64A}Prefabs/Compositions/Slotted/SlotRoadMedium/Checkpoint_M_US_01.et" {
  coords 5323.386 21.229 9853.39
  angleX 0.877
  angleY -168.359
  angleZ 0.181
+}
+$grp GenericEntity : "{580645E4D356065F}Prefabs/Props/Commercial/Posters/LeafletGround_03_V2.et" {
+ {
+  coords 4742.785 171.393 7017.11
+  angleY 29.588
+ }
+ {
+  coords 4743.145 171.425 7017.688
+  angleY 93.919
+ }
+}
+GenericEntity : "{5DA11A95EEB02443}Prefabs/Compositions/Misc/SubCompositions/BoxWooden_Cluttered_01.et" {
+ coords 4805.148 170.344 7113.592
+ angleY 5.906
+}
+GenericEntity : "{61980E6F3CA71107}Prefabs/Items/Cats/Dingus.et" {
+ coords 4857.771 170.94 6957.367
+ angleX -2.308
+ angleY 0.277
+ angleZ -4.046
+}
+GameEntity : "{65506D3712FA2D29}Prefabs/Weapons/Attachments/Bayonets/Bayonet_6X9-1.et" {
+ coords 4743.043 172.315 7022.886
+ angleX -75
+ angleY 44.544
+}
+GameEntity : "{6835DAF42A09E23C}Prefabs/Characters/Uniforms/Jacket_Pilot_USSR_01/Jacket_Pilot_USSR_01.et" {
+ coords 4741.121 171.398 7024.109
+ angleY 105.89
 }
 GenericEntity : "{68ED84218EA1BDC3}Prefabs/Compositions/Slotted/SlotFlatSmall/Antenna_S_USSR_01.et" {
  coords 3821.572 12.075 8468.336
@@ -149,9 +300,17 @@ $grp GenericEntity : "{7C85836D444E3797}Prefabs/Compositions/Slotted/SlotRoadMed
   }
  }
 }
+GameEntity : "{8065D32FB3AB66CE}Prefabs/Characters/Uniforms/Pants_Pilot_USSR_01/Pants_Pilot_blue_01.et" {
+ coords 4740.633 171.895 7024.348
+ angleX -2.206
+ angleY -129.598
+ angleZ -0.224
+}
 StaticModelEntity : "{82B378151A9AEF2F}Prefabs/Structures/Military/Fortifications/DirtPile_01/DirtPile_01_large.et" {
- coords 4735.787 1.331 6970.356
- angleZ -10.001
+ coords 4862.513 0.906 6958.932
+ angleX 0.248
+ angleY 178.818
+ angleZ -2.111
 }
 $grp GenericEntity : "{83A10E8547281E58}Prefabs/Compositions/Slotted/SlotRoadSmall/Barricade_S_USSR_01.et" {
  {
@@ -163,6 +322,15 @@ $grp GenericEntity : "{83A10E8547281E58}Prefabs/Compositions/Slotted/SlotRoadSma
  {
   coords 4789.313 163.777 7241.861
  }
+}
+StaticModelEntity : "{8CDB9C117669AF4A}Prefabs/Structures/Military/Camps/HelipadImprovised_01/HelipadImprovised_USSR_01.et" {
+ coords 3777.997 0 8483.66
+}
+GenericEntity : "{8F05D427252644F8}Prefabs/Props/Civilian/Suitcase_01.et" {
+ coords 4740.063 171.465 7025.479
+ angleX 90
+ angleY 89.408
+ angleZ 180
 }
 $grp GenericEntity : "{9483333BFD9E2D0F}Prefabs/Compositions/Slotted/SlotRoadSmall/Checkpoint_S_USSR_01.et" {
  {
@@ -176,19 +344,56 @@ $grp GenericEntity : "{9483333BFD9E2D0F}Prefabs/Compositions/Slotted/SlotRoadSma
   angleY 2.418
  }
 }
+GenericEntity : "{976D4A6E3A6A457A}Prefabs/Items/Medical/Aspirin_Ses.et" {
+ coords 4742.824 172.169 7023.59
+ angleY -73.742
+}
 $grp StaticModelEntity : "{9AF0242036F3D3D3}PrefabLibrary/Terrain/Erosion/ErodedEmbankment_01_dirt_straight.et" {
  {
-  coords 4732.771 162.927 6973.446
-  angleX -25.098
-  angleY 28.722
-  angleZ -3.835
+  coords 4866.127 170.044 6956.017
+  angleX -28.453
+  angleY -156.09
+  angleZ 4.171
  }
  {
-  coords 4730.747 163.1 6971.023
-  angleX -22.641
-  angleY -160.191
-  angleZ 9.421
+  coords 4867.276 170.482 6957.654
+  angleX -20.007
+  angleY 21.52
+  angleZ -0.059
  }
+}
+GenericEntity : "{A8D8015D0E2B600A}Prefabs/Props/Garbage/Generic/Junk_01/Junk_01_single_mattress.et" {
+ coords 4744.775 171.384 7016.997
+ angleY 3.398
+}
+GenericEntity : "{A95C4BA303CCB6F3}Prefabs/Items/Stuff/SecretDocuments.et" {
+ components {
+  PS_SpectatorLabel "{6049404594D1520C}" {
+   m_cMapMarkerConfig PS_ManualMarkerConfig "{60494044621573B0}" {
+    m_aVisibleForFactions {
+     "RHS_USAF"
+    }
+    m_aHideOnGameModeStates {
+     0 3 5
+    }
+   }
+  }
+ }
+ coords 4743.174 172.169 7022.984
+ angleY 63.159
+ {
+  PS_ManualMarker {
+   ID "5F2949136C2E0301"
+   coords 0 0 0.001
+  }
+ }
+}
+Vehicle Mi8MT_base1 : "{AFF6067A5CE8A853}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_base.et" {
+ coords 3778.061 10.916 8483.852
+ angleX 3.891
+}
+GenericEntity : "{B898D2A1F45058F6}Prefabs/Props/Garbage/Military/Food/GarbageFoodMilitaryUSSR_01.et" {
+ coords 4743.011 172.169 7023.276
 }
 GenericEntity : "{B90E5414AB7C325B}Prefabs/Props/Wrecks/BTR70_wreck_static.et" {
  coords 3949.113 27.35 8305.253
@@ -200,9 +405,23 @@ GenericEntity : "{C7D38772154D45BB}Prefabs/Compositions/Slotted/SlotFlatSmall/Bu
  coords 5827.754 4.59 9830.275
  angleZ -0.895
 }
+$grp GenericEntity : "{CB033C658E372CED}Prefabs/Props/Construction/PlankPile/PlankPile_01_Large.et" {
+ {
+  coords 4746.503 171.363 7024.898
+  angleY -10.3
+ }
+ {
+  coords 4750.718 171.363 7020.153
+  angleY 171.407
+ }
+}
 GenericEntity : "{CDD0712FD6215F03}Prefabs/Compositions/Slotted/SlotFlatMedium/FieldHospital_M_US_01.et" {
  coords 5800.6 7.969 9740.61
  angleY -89.531
+}
+GenericEntity : "{D0B44EB8DBEDDA97}Prefabs/Props/Civilian/Bucket_02.et" {
+ coords 4742.555 171.398 7016.4
+ angleY -84.027
 }
 $grp GenericEntity : "{D1E82351C859A747}Prefabs/Props/Infrastructure/SnowBreakers/SnowBreaker_E_01_Group_A.et" {
  {
@@ -223,6 +442,10 @@ $grp GenericEntity : "{D1E82351C859A747}Prefabs/Props/Infrastructure/SnowBreaker
   angleY -60.74
   angleZ -6.512
  }
+}
+GameEntity : "{E65D5C9848AC18E9}Prefabs/Characters/Uniforms/Pants_Suit_01/Pants_Suit_01_brown_V1.et" {
+ coords 4740.322 171.628 7025.552
+ angleY -128.874
 }
 $grp GenericEntity : "{E660DE914A7211EB}Prefabs/Compositions/Slotted/SlotRoadSmall/Checkpoint_S_US_01.et" {
  {
@@ -247,6 +470,28 @@ GenericEntity : "{E74D2F51CD4F03D0}Prefabs/Compositions/Slotted/SlotRoadLarge/Ch
  angleX -5.945
  angleY 110.01
  angleZ 0.682
+}
+$grp GenericEntity : "{EB21D26B8D5A3232}Prefabs/Items/Food/MRE.et" {
+ {
+  coords 4743.207 172.291 7024.537
+  angleX 57.434
+  angleY -15.775
+  angleZ -13.392
+ }
+ {
+  coords 4743.235 172.172 7024.309
+  angleY -110.027
+ }
+ {
+  coords 4743.258 172.201 7024.21
+  angleX -18.122
+  angleY 164.207
+  angleZ -2.427
+ }
+}
+GenericEntity : "{F401D58CD490C872}Prefabs/Props/Civilian/BeerBottle_01_slava.et" {
+ coords 4742.553 171.38 7021.622
+ angleY 15.569
 }
 GenericEntity : "{F68F3B7247F6E810}Prefabs/Compositions/Slotted/SlotFlatLarge/LivingArea_L_USSR_01.et" {
  coords 3909.868 15.258 8438.938
