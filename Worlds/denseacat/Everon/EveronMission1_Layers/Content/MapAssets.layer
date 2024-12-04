@@ -1,3 +1,16 @@
+$grp GameEntity {
+ {
+  coords 4740.333 171.565 7024.988
+  angleY 79.844
+  angleZ -153.202
+ }
+ {
+  coords 4740.633 171.895 7024.348
+  angleX -2.206
+  angleY -129.598
+  angleZ -0.224
+ }
+}
 $grp GenericEntity {
  {
   components {
@@ -35,6 +48,41 @@ $grp GenericEntity {
   angleX 0.146
   angleY -69.243
   angleZ -2.348
+ }
+ {
+  coords 4740.59 171.363 7024.815
+  angleY -80.641
+ }
+ {
+  coords 4857.771 170.94 6957.367
+  angleX -2.308
+  angleY 0.277
+  angleZ -4.046
+ }
+ {
+  coords 4742.824 172.169 7023.59
+  angleY -73.742
+ }
+ {
+  components {
+   PS_SpectatorLabel "{6049404594D1520C}" {
+    m_cMapMarkerConfig PS_ManualMarkerConfig "{60494044621573B0}" {
+     m_aVisibleForFactions {
+      "RHS_USAF"
+     }
+     m_aHideOnGameModeStates {
+      0 3 5
+     }
+    }
+   }
+  }
+  coords 4743.174 172.169 7022.984
+  angleY 63.159
+  {
+   PS_ManualMarker {
+    coords 0 0 0.001
+   }
+  }
  }
 }
 ParticleEffectEntity {
@@ -119,10 +167,6 @@ $grp GenericEntity : "{190101E6E60E7C47}Prefabs/Props/Civilian/BeerBottle_01_emp
   angleX 88.477
   angleY 68.138
  }
-}
-GenericEntity : "{1F5FC253EADB0F8B}Prefabs/Characters/Vests/Vest_Lifchik/Vest_Lifchik_GL111.et" {
- coords 4740.59 171.363 7024.815
- angleY -80.641
 }
 $grp GenericEntity : "{20759E1CA7F808BE}Prefabs/Props/Garbage/Military/Food/GarbageFoodMilitaryUS_01.et" {
  {
@@ -220,11 +264,6 @@ GenericEntity : "{457331BE1519B200}Prefabs/Props/Furniture/BunkBed_01.et" {
  coords 4741.283 171.398 7022.533
  angleY -11.088
 }
-GameEntity : "{4F2C9DC153DD16AC}Prefabs/Characters/HeadGear/Helmet_PASGT_01/Helmet_PASGT_Googles_CDF.et" {
- coords 4740.333 171.565 7024.988
- angleY 79.844
- angleZ -153.202
-}
 GameEntity : "{52AB6EC3FE535303}Prefabs/Characters/Uniforms/Jacket_Suit_01/Jacket_Suit_01_Brown_V1.et" {
  coords 4740.354 171.586 7025.695
  angleY -93.976
@@ -248,12 +287,6 @@ $grp GenericEntity : "{580645E4D356065F}Prefabs/Props/Commercial/Posters/Leaflet
 GenericEntity : "{5DA11A95EEB02443}Prefabs/Compositions/Misc/SubCompositions/BoxWooden_Cluttered_01.et" {
  coords 4805.148 170.344 7113.592
  angleY 5.906
-}
-GenericEntity : "{61980E6F3CA71107}Prefabs/Items/Cats/Dingus.et" {
- coords 4857.771 170.94 6957.367
- angleX -2.308
- angleY 0.277
- angleZ -4.046
 }
 GameEntity : "{65506D3712FA2D29}Prefabs/Weapons/Attachments/Bayonets/Bayonet_6X9-1.et" {
  coords 4743.043 172.315 7022.886
@@ -300,12 +333,6 @@ $grp GenericEntity : "{7C85836D444E3797}Prefabs/Compositions/Slotted/SlotRoadMed
   }
  }
 }
-GameEntity : "{8065D32FB3AB66CE}Prefabs/Characters/Uniforms/Pants_Pilot_USSR_01/Pants_Pilot_blue_01.et" {
- coords 4740.633 171.895 7024.348
- angleX -2.206
- angleY -129.598
- angleZ -0.224
-}
 StaticModelEntity : "{82B378151A9AEF2F}Prefabs/Structures/Military/Fortifications/DirtPile_01/DirtPile_01_large.et" {
  coords 4862.513 0.906 6958.932
  angleX 0.248
@@ -344,10 +371,6 @@ $grp GenericEntity : "{9483333BFD9E2D0F}Prefabs/Compositions/Slotted/SlotRoadSma
   angleY 2.418
  }
 }
-GenericEntity : "{976D4A6E3A6A457A}Prefabs/Items/Medical/Aspirin_Ses.et" {
- coords 4742.824 172.169 7023.59
- angleY -73.742
-}
 $grp StaticModelEntity : "{9AF0242036F3D3D3}PrefabLibrary/Terrain/Erosion/ErodedEmbankment_01_dirt_straight.et" {
  {
   coords 4866.127 170.044 6956.017
@@ -365,28 +388,6 @@ $grp StaticModelEntity : "{9AF0242036F3D3D3}PrefabLibrary/Terrain/Erosion/Eroded
 GenericEntity : "{A8D8015D0E2B600A}Prefabs/Props/Garbage/Generic/Junk_01/Junk_01_single_mattress.et" {
  coords 4744.775 171.384 7016.997
  angleY 3.398
-}
-GenericEntity : "{A95C4BA303CCB6F3}Prefabs/Items/Stuff/SecretDocuments.et" {
- components {
-  PS_SpectatorLabel "{6049404594D1520C}" {
-   m_cMapMarkerConfig PS_ManualMarkerConfig "{60494044621573B0}" {
-    m_aVisibleForFactions {
-     "RHS_USAF"
-    }
-    m_aHideOnGameModeStates {
-     0 3 5
-    }
-   }
-  }
- }
- coords 4743.174 172.169 7022.984
- angleY 63.159
- {
-  PS_ManualMarker {
-   ID "5F2949136C2E0301"
-   coords 0 0 0.001
-  }
- }
 }
 Vehicle Mi8MT_base1 : "{AFF6067A5CE8A853}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_base.et" {
  coords 3778.061 10.916 8483.852
@@ -492,18 +493,4 @@ $grp GenericEntity : "{EB21D26B8D5A3232}Prefabs/Items/Food/MRE.et" {
 GenericEntity : "{F401D58CD490C872}Prefabs/Props/Civilian/BeerBottle_01_slava.et" {
  coords 4742.553 171.38 7021.622
  angleY 15.569
-}
-GenericEntity : "{F68F3B7247F6E810}Prefabs/Compositions/Slotted/SlotFlatLarge/LivingArea_L_USSR_01.et" {
- coords 3909.868 15.258 8438.938
- angleY -88.033
- {
-  GenericEntity {
-   ID "5E3303B6617541FA"
-   components {
-    InventoryItemComponent "{5E9697F253F88D41}" {
-     Enabled 0
-    }
-   }
-  }
- }
 }
