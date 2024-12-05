@@ -41,5 +41,13 @@ StringTable {
    Author "John Doe"
    LastChanged "John Doe"
   }
+  CustomStringTableItem "{630B051CFDB13F7C}" {
+   Id "QRPT-Role_VIP"
+   Target_en_us "Chief Commander (VIP)"
+   Target_ru_ru "Командир стороны (VIP)"
+   Modified 1661668651
+   Author "John Doe"
+   LastChanged "John Doe"
+  }
  }
 }
