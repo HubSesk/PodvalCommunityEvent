@@ -1,0 +1,31 @@
+SCR_ChimeraCharacter : "{A62FA97C4EC64F14}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_HeliPilot.et" {
+ ID "520EC961A090B1EE"
+ components {
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_bIsPlayable 1
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{BFEA719491610A45}Prefabs/Weapons/Rifles/AKS74U/Rifle_AKS74U.et"
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{5D7CC173E6675BF5}" {
+     PrefabsToSpawn + {
+      "" "" ""
+     }
+    }
+    ItemsInitConfigurationItem "{5E6A901AA67B29CA}" {
+     PrefabsToSpawn + {
+      "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et" "{E5912E45754CD421}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{630727324C636E1C}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Jacket_Pilot_USSR_01/Jacket_Pilot_USSR_01.et"
+     PrefabsToSpawn {
+      "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et" "{E5912E45754CD421}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Tracer.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+     }
+    }
+   }
+  }
+ }
+}

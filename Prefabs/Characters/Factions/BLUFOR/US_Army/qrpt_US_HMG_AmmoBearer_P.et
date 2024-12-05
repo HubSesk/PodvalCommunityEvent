@@ -1,0 +1,31 @@
+SCR_ChimeraCharacter : "{5010281C322CF163}Prefabs/Characters/Factions/BLUFOR/US_Army/qrpt_US_AHMG_P.et" {
+ ID "52092032B0E62200"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab ""
+      }
+     }
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_AmmoBearer"
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{630748C3A9453FDA}" {
+     TargetStorage "Prefabs/Items/Equipment/Backpacks/Backpack_ALICE_Medium.et"
+     PrefabsToSpawn {
+      "{4D2C1E8F3A81F894}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4Ball_1Tracer.et" "{AD8AB93729348C3E}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_Tracer.et" "{75632A0CA07D3817}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_AP.et"
+     }
+    }
+   }
+  }
+ }
+}

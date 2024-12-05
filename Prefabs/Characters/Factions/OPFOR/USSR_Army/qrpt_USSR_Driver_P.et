@@ -1,0 +1,24 @@
+SCR_ChimeraCharacter : "{DCB41B3746FDD1BE}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman.et" {
+ ID "200D264F0EEA1A28"
+ components {
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_bIsPlayable 1
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#QRPT-Role_CrewDriver"
+    Icon "{FC10C2531B4A5AFF}UI/Icons/sso_meh.edds"
+   }
+   m_VariantData SCR_EditableEntityVariantData "{60F6B83ED4C13CC3}" {
+    m_aVariants {
+     SCR_EditableEntityVariant "{60F6B83ED3FB7538}" {
+      m_sVariantPrefab "{18E44FBF81685C3F}Prefabs/Characters/Factions/OPFOR/USSR_Army/qrpt_USSR_Driver_P.et"
+     }
+    }
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{BFEA719491610A45}Prefabs/Weapons/Rifles/AKS74U/Rifle_AKS74U.et"
+  }
+ }
+}

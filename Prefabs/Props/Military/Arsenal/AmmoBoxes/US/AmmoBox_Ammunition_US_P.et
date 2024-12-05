@@ -1,0 +1,72 @@
+GenericEntity : "{E712306EC1913041}Prefabs/Props/Military/Arsenal/AmmoBoxes/AmmoBoxArsenal_Ammunition_Base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{9E1DFF036BCE913E}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/EquipmentBoxWooden_Ammunition_01.xob"
+  }
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   ResponseIndex "TinyDestructible"
+  }
+  SCR_ArsenalComponent "{589F01C9C8D4A475}" {
+   Enabled 0
+  }
+  SCR_FactionAffiliationComponent "{5A50E7650A1AE9EC}" {
+   "faction affiliation" "US"
+  }
+  SCR_ResourceComponent "{5E5ABDF371AE8B21}" {
+   Enabled 0
+  }
+  SCR_ResupplySupportStationComponent "{5E2CE1BA1701C633}" {
+   Enabled 0
+  }
+  SCR_ServicePointComponent "{5C7489C2D2BCCFA0}" {
+   Enabled 0
+  }
+  SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+   Enabled 1
+   MultiSlots {
+    MultiSlotConfiguration "{63083C39463700DE}" {
+     SlotTemplate InventoryStorageSlot ammo1 {
+      Prefab "{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Last_5Tracer.et"
+     }
+     NumSlots 32
+    }
+    MultiSlotConfiguration "{63083C3947527A5E}" {
+     SlotTemplate InventoryStorageSlot ammo2 {
+      Prefab "{A9A385FE1F7BF4BD}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Tracer.et"
+     }
+     NumSlots 16
+    }
+    MultiSlotConfiguration "{63083C3EBA52D879}" {
+     SlotTemplate InventoryStorageSlot ammo3 {
+      Prefab "{4D2C1E8F3A81F894}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4Ball_1Tracer.et"
+     }
+     NumSlots 15
+    }
+    MultiSlotConfiguration "{63083C3EB8AA56DC}" {
+     SlotTemplate InventoryStorageSlot ammo4 {
+      Prefab "{627255315038152A}Prefabs/Weapons/Magazines/Magazine_762x51_M14_20rnd_SpecialBall.et"
+     }
+     NumSlots 12
+    }
+    MultiSlotConfiguration "{63083C3EBF4F9BDA}" {
+     SlotTemplate InventoryStorageSlot ammo5 {
+      Prefab "{06D722FC2666EB83}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_4Ball_1Tracer.et"
+     }
+     NumSlots 12
+    }
+   }
+  }
+  UniversalInventoryStorageComponent "{58A17A341AB8F069}" {
+   Enabled 0
+   Attributes SCR_ItemAttributeCollection "{58A17A346E386320}" {
+    ItemDisplayName SCR_InventoryUIInfo "{58A17A3474A3430E}" {
+     Name "#AR-EditableEntity_AmmoBoxArsenal_Ammunition_US_Name"
+    }
+   }
+  }
+  SCR_ArsenalInventoryStorageManagerComponent "{58A0B19B1E191CC1}" {
+   Enabled 0
+  }
+ }
+}

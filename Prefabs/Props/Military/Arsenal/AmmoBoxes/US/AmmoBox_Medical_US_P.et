@@ -1,0 +1,66 @@
+GenericEntity : "{0AD8F5CBED139651}Prefabs/Props/Military/Arsenal/AmmoBoxes/AmmoBoxArsenal_Medical_Base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{FE31750973EA92C7}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/EquipmentBoxWooden_Medical_01.xob"
+  }
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   ResponseIndex "SmallDestructible"
+  }
+  SCR_ArsenalComponent "{589F01C9C8D4A475}" {
+   Enabled 0
+  }
+  SCR_FactionAffiliationComponent "{5A50E7650A1AE9EC}" {
+   "faction affiliation" "US"
+  }
+  SCR_ResourceComponent "{5DACFA5343CF2065}" {
+   Enabled 0
+  }
+  SCR_ResourceComponent "{5E5ABDF371AE8B21}" {
+   Enabled 0
+  }
+  SCR_ResupplySupportStationComponent "{5E2CE1BA1701C633}" {
+   Enabled 0
+  }
+  SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+   Enabled 1
+   MultiSlots {
+    MultiSlotConfiguration "{63083C3E55DE2B63}" {
+     SlotTemplate InventoryStorageSlot ammo1 {
+      Prefab "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et"
+     }
+     NumSlots 30
+    }
+    MultiSlotConfiguration "{63083C3E4A6F86FA}" {
+     SlotTemplate InventoryStorageSlot ammo2 {
+      Prefab "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
+     }
+     NumSlots 30
+    }
+    MultiSlotConfiguration "{63083C3E48416354}" {
+     SlotTemplate InventoryStorageSlot ammo3 {
+      Prefab "{00E36F41CA310E2A}Prefabs/Items/Medicine/SalineBag_01/SalineBag_US_01.et"
+     }
+     NumSlots 30
+    }
+    MultiSlotConfiguration "{63083C3E4816A81A}" {
+     SlotTemplate InventoryStorageSlot ammo4 {
+      Prefab "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et"
+     }
+     NumSlots 30
+    }
+   }
+  }
+  UniversalInventoryStorageComponent "{58A17A341AB8F069}" {
+   Enabled 0
+   Attributes SCR_ItemAttributeCollection "{58A17A346E386320}" {
+    ItemDisplayName SCR_InventoryUIInfo "{58A17A3474A3430E}" {
+     Name "#AR-EditableEntity_AmmoBoxArsenal_Medical_US_Name"
+    }
+   }
+  }
+  SCR_ArsenalInventoryStorageManagerComponent "{58A0B19B1E191CC1}" {
+   Enabled 0
+  }
+ }
+}

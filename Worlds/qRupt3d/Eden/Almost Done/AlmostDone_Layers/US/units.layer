@@ -1,0 +1,122 @@
+$grp SCR_AIGroup : "{ABACC233796108ED}Prefabs/Groups/BLUFOR/Group_US_SniperTeam_P.et" {
+ US_G_020_2 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation ""
+   }
+   PS_GroupCallsignAssigner "{63083C212FB139AB}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 2
+    m_iSquadCallsign 0
+   }
+  }
+  coords 5007.607 26.313 9925.661
+  angleY -112.302
+ }
+ US_G_021_2 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation ""
+   }
+   PS_GroupCallsignAssigner "{63083C212C8C80E9}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 2
+    m_iSquadCallsign 1
+   }
+  }
+  coords 5012.723 26.719 9902.172
+  angleY -83.824
+ }
+}
+$grp SCR_AIGroup : "{BC357974A560F679}Prefabs/Groups/BLUFOR/Group_US_RifleSquad_P.et" {
+ US_G_002_10 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation ""
+   }
+   PS_GroupCallsignAssigner "{63083C2134B7E99C}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 0
+    m_iSquadCallsign 2
+   }
+  }
+  coords 5021.685 26.414 9955.852
+  angleY 88.001
+ }
+ US_G_010_10 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation ""
+   }
+   PS_GroupCallsignAssigner "{63083C212A11D1DE}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 0
+   }
+  }
+  coords 5030.061 26.53 9987.852
+  angleY -89.718
+ }
+ US_G_011_10 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation ""
+   }
+   PS_GroupCallsignAssigner "{63083C21282E8A2F}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 1
+   }
+  }
+  coords 4987.586 25.757 9942.843
+  angleY 90.177
+ }
+}
+SCR_AIGroup US_G_022_3 : "{C3462FCC441FDB0E}Prefabs/Groups/BLUFOR/Group_US_SapperTeam_P.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation ""
+  }
+  PS_GroupCallsignAssigner "{63083C212261AC9C}" {
+   m_iCompanyCallsign 0
+   m_iPlatoonCallsign 2
+   m_iSquadCallsign 2
+  }
+ }
+ coords 4985.693 25.399 9914.695
+ angleY 87.861
+ m_aUnitPrefabSlots + {
+  "{C095F7A0632CE65E}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Sapper_P.et"
+ }
+}
+SCR_AIGroup US_G_012_11 : "{E73D814022CE44D0}Prefabs/Groups/BLUFOR/Group_US_WeaponSquad_P.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation ""
+  }
+  PS_GroupCallsignAssigner "{63083C212E27A3F3}" {
+   m_iCompanyCallsign 0
+   m_iPlatoonCallsign 1
+   m_iSquadCallsign 2
+  }
+ }
+ coords 4990.102 25.372 9979.995
+ angleY -177.258
+}
+SCR_AIGroup US_G_001_4 : "{FCBE9E46702ED308}Prefabs/Groups/BLUFOR/Group_US_PlatoonHQ_P.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation ""
+  }
+  PS_GroupCallsignAssigner "{63083C213B487802}" {
+   m_iCompanyCallsign 0
+   m_iPlatoonCallsign 0
+   m_iSquadCallsign 1
+  }
+ }
+ coords 4987.007 25.201 9963.582
+ angleY 96.018
+ m_aUnitPrefabSlots {
+  "{3634BC186827E6C0}Prefabs/Characters/Factions/BLUFOR/US_Army/qrpt_US_PL_P.et" "{95BBA87A8140432C}Prefabs/Characters/Factions/BLUFOR/US_Army/qrpt_US_Sergeant_P.et" "{EC7EDB04B4C7B73A}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_RTO_P.et" "{547BA14003A67C04}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Medic_P.et"
+ }
+}
