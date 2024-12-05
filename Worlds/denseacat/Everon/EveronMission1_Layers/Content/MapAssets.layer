@@ -1,16 +1,3 @@
-$grp GameEntity {
- {
-  coords 4740.333 171.565 7024.988
-  angleY 79.844
-  angleZ -153.202
- }
- {
-  coords 4740.633 171.895 7024.348
-  angleX -2.206
-  angleY -129.598
-  angleZ -0.224
- }
-}
 $grp GenericEntity {
  {
   components {
@@ -43,6 +30,8 @@ $grp GenericEntity {
     ModelGeometry 1
     Static 1
    }
+   RplComponent "{630B3D26260D22F3}" {
+   }
   }
   coords 4866.639 169.875 6956.992
   angleX 0.146
@@ -50,42 +39,20 @@ $grp GenericEntity {
   angleZ -2.348
  }
  {
-  coords 4740.59 171.363 7024.815
-  angleY -80.641
- }
- {
-  coords 4857.771 170.94 6957.367
-  angleX -2.308
-  angleY 0.277
-  angleZ -4.046
- }
- {
-  coords 4742.824 172.169 7023.59
-  angleY -73.742
- }
- {
   components {
-   PS_SpectatorLabel "{6049404594D1520C}" {
-    m_cMapMarkerConfig PS_ManualMarkerConfig "{60494044621573B0}" {
-     m_aVisibleForFactions {
-      "RHS_USAF"
-     }
-     m_aHideOnGameModeStates {
-      0 3 5
-     }
-    }
+   MeshObject "{630B3D265B88EDE0}" {
+    Object "{FA5CCD02954EC96E}Assets/Vehicles/Helicopters/UH1H/VehParts/Rotor/UH1H_Rotor_Main.xob"
    }
   }
-  coords 4743.174 172.169 7022.984
-  angleY 63.159
-  {
-   PS_ManualMarker {
-    coords 0 0 0.001
-   }
-  }
+  coords 4866.633 169.79 6956.466
+  angleX -9.028
  }
 }
 ParticleEffectEntity {
+ components {
+  RplComponent "{630B3D263F7A53F9}" {
+  }
+ }
  coords 4866.94 169.899 6957.466
  angleX -0.272
  angleY 113.858
@@ -102,10 +69,6 @@ GenericEntity : "{0AF1C4C9C7EF05F2}Prefabs/Compositions/Slotted/SlotFlatSmall/Fu
 }
 GenericEntity : "{0DBE058F13F0C7E8}PrefabsEditable/Auto/Structures/Military/Flags/E_FlagPole_02_V1_US.et" {
  coords 5821.906 23.769 9789.885
-}
-GenericEntity : "{0ED7499549352351}Prefabs/Props/Civilian/LampKerosene_01/Dst/LampKerosene_01_DST_01_military.et" {
- coords 4743.127 172.169 7022.573
- angleY -58.645
 }
 GenericEntity : "{14B2D417839BF8A3}PrefabsEditable/Auto/Structures/Military/Flags/E_FlagPole_02_V1_USSR.et" {
  coords 3921.634 18.017 8510.148
@@ -230,6 +193,10 @@ GenericEntity : "{27F6A0815E6FF6EF}Prefabs/Compositions/Slotted/SlotRoadMedium/B
  angleY 25.045
  angleZ 4.046
 }
+GameEntity : "{2CB0AA2A87842C18}Prefabs/Props/Civilian/LampKerosene_01/LampKerosene_01_military_USSR.et" {
+ coords 4743.818 172.978 7023.396
+ angleY 63.264
+}
 $grp StaticModelEntity : "{39F7EE885940DC8F}Prefabs/Structures/Military/Fortifications/DirtCover_01/DirtCover_01_long_v1.et" {
  {
   coords 4863.757 0.482 6959.96
@@ -264,6 +231,10 @@ GenericEntity : "{457331BE1519B200}Prefabs/Props/Furniture/BunkBed_01.et" {
  coords 4741.283 171.398 7022.533
  angleY -11.088
 }
+GenericEntity : "{50A68300B537EDFA}Prefabs/Items/Food/ArmyCrackers_Soviet_01.et" {
+ coords 4743.058 172.169 7023.703
+ angleY 175.641
+}
 GameEntity : "{52AB6EC3FE535303}Prefabs/Characters/Uniforms/Jacket_Suit_01/Jacket_Suit_01_Brown_V1.et" {
  coords 4740.354 171.586 7025.695
  angleY -93.976
@@ -288,8 +259,14 @@ GenericEntity : "{5DA11A95EEB02443}Prefabs/Compositions/Misc/SubCompositions/Box
  coords 4805.148 170.344 7113.592
  angleY 5.906
 }
+GenericEntity : "{61980E6F3CA71107}Prefabs/Items/Cats/Dingus.et" {
+ coords 4857.744 170.946 6957.348
+ angleX -3.682
+ angleY -38.329
+ angleZ 0.895
+}
 GameEntity : "{65506D3712FA2D29}Prefabs/Weapons/Attachments/Bayonets/Bayonet_6X9-1.et" {
- coords 4743.043 172.315 7022.886
+ coords 4743.05 172.276 7022.893
  angleX -75
  angleY 44.544
 }
@@ -389,6 +366,34 @@ GenericEntity : "{A8D8015D0E2B600A}Prefabs/Props/Garbage/Generic/Junk_01/Junk_01
  coords 4744.775 171.384 7016.997
  angleY 3.398
 }
+GenericEntity : "{A95C4BA303CCB6F3}Prefabs/Items/Stuff/SecretDocuments.et" {
+ components {
+  InventoryItemComponent "{5222EB4D0C73006B}" {
+   Attributes SCR_ItemAttributeCollection "{5222EB4D0A2B466B}" {
+    ItemDisplayName UIInfo "{5222EB4D07D865FA}" {
+     Description "Докуменация к Arma Reforger Tools, единственный экземпляр, заверен печатью Bohemia Inc."
+    }
+   }
+  }
+  PS_SpectatorLabel "{6049404594D1520C}" {
+   m_cMapMarkerConfig PS_ManualMarkerConfig "{60494044621573B0}" {
+    m_fWorldSize 50
+    m_sDescription "Secret documents"
+   }
+  }
+ }
+ coords 4743.144 172.169 7022.977
+ angleY 58.56
+ {
+  PS_ManualMarker {
+   ID "5F2949136C2E0301"
+   m_fWorldSize 40
+   m_aHideOnGameModeStates {
+    0 0
+   }
+  }
+ }
+}
 Vehicle Mi8MT_base1 : "{AFF6067A5CE8A853}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_base.et" {
  coords 3778.061 10.916 8483.852
  angleX 3.891
@@ -396,11 +401,19 @@ Vehicle Mi8MT_base1 : "{AFF6067A5CE8A853}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8M
 GenericEntity : "{B898D2A1F45058F6}Prefabs/Props/Garbage/Military/Food/GarbageFoodMilitaryUSSR_01.et" {
  coords 4743.011 172.169 7023.276
 }
-GenericEntity : "{B90E5414AB7C325B}Prefabs/Props/Wrecks/BTR70_wreck_static.et" {
- coords 3949.113 27.35 8305.253
- angleX 19.821
- angleY 150.757
- angleZ 12.105
+$grp GenericEntity : "{B90E5414AB7C325B}Prefabs/Props/Wrecks/BTR70_wreck_static.et" {
+ {
+  coords 3949.113 27.35 8305.253
+  angleX 19.821
+  angleY 150.757
+  angleZ 12.105
+ }
+ {
+  coords 5215.544 29.899 9127.902
+  angleX -0.004
+  angleY -0.279
+  angleZ -0.895
+ }
 }
 GenericEntity : "{C7D38772154D45BB}Prefabs/Compositions/Slotted/SlotFlatSmall/Bunker_S_US_01.et" {
  coords 5827.754 4.59 9830.275
@@ -444,6 +457,11 @@ $grp GenericEntity : "{D1E82351C859A747}Prefabs/Props/Infrastructure/SnowBreaker
   angleZ -6.512
  }
 }
+GameEntity : "{E49D9EE7E2B3016C}Prefabs/Characters/HeadGear/Helmet_ZSh5_01/Helmet_ZSh5_01.et" {
+ coords 4743.817 173.03 7023.398
+ angleX 37.985
+ angleY -99.992
+}
 GameEntity : "{E65D5C9848AC18E9}Prefabs/Characters/Uniforms/Pants_Suit_01/Pants_Suit_01_brown_V1.et" {
  coords 4740.322 171.628 7025.552
  angleY -128.874
@@ -474,20 +492,12 @@ GenericEntity : "{E74D2F51CD4F03D0}Prefabs/Compositions/Slotted/SlotRoadLarge/Ch
 }
 $grp GenericEntity : "{EB21D26B8D5A3232}Prefabs/Items/Food/MRE.et" {
  {
-  coords 4743.207 172.291 7024.537
-  angleX 57.434
-  angleY -15.775
-  angleZ -13.392
+  coords 4743.26 172.173 7024.327
  }
  {
-  coords 4743.235 172.172 7024.309
-  angleY -110.027
- }
- {
-  coords 4743.258 172.201 7024.21
-  angleX -18.122
-  angleY 164.207
-  angleZ -2.427
+  coords 4743.229 172.295 7024.558
+  angleX 58.262
+  angleY -11.251
  }
 }
 GenericEntity : "{F401D58CD490C872}Prefabs/Props/Civilian/BeerBottle_01_slava.et" {

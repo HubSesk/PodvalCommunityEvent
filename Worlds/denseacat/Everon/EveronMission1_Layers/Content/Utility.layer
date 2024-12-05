@@ -58,13 +58,10 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Плохая новость: Наш единственный доступный вертолет сейчас подаёт дымовые и световые сигналы догорая в Монтиньяке. "\
   ""
   m_aVisibleForFactions {
-   "RHS_AFRF"
+   "RHS_USAF"
   }
   m_iOrder 1
  }
-}
-SCR_EditorRestrictionZoneEntity : "{6144B0BE2EAC6897}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneMedium.et" {
- coords 4412.072 125.985 7176.73
 }
 $grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
  USAF_Objective1Normal {
@@ -102,7 +99,7 @@ $grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
  }
  AFRF_ObjectiveSecret1 {
   coords 4793.913 163.163 7115.169
-  m_sTitle "Раритетные выпуски Playboy были отжаты"
+  m_sTitle "Документация Arma Reforger Tools возвращена"
   m_iOrder 3
   m_iScore 20
   m_sFactionKey "RHS_AFRF"
@@ -274,8 +271,8 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   angleY 89.392
   angleZ -0.914
   m_MarkerColor 0 0.125 0.502 1
-  m_sQuadName "objective-marker-2"
-  m_fWorldSize 60
+  m_sQuadName "help"
+  m_fWorldSize 80
   m_bUseWorldScale 0
   m_aVisibleForFactions {
    "RHS_USAF"
@@ -284,14 +281,15 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   }
  }
  AFRF_Heli_Marker {
-  coords 4814.771 166.434 7103.897
+  coords 4804.675 173.936 7033.964
   angleX 0.067
   angleY 91.435
   angleZ -2.683
   m_MarkerColor 0.502 0 0 1
   m_sQuadName "mark-question"
-  m_fWorldSize 300
+  m_fWorldSize 50
   m_sDescription "Вертолет USAF"
+  m_bUseWorldScale 0
   m_aVisibleForFactions {
    "RHS_AFRF"
   }
@@ -324,19 +322,25 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   }
  }
  AFRF_Patrol_Marker {
-  coords 4410.553 115.416 7176.24
+  coords 4753.977 162.478 7141.902
   angleX 0.067
   angleY 91.435
   angleZ -2.683
   m_MarkerColor 0.502 0 0 1
   m_sQuadName "point-of-interest"
-  m_fWorldSize 300
+  m_fWorldSize 50
   m_sDescription "Патруль"
+  m_bUseWorldScale 0
   m_aVisibleForFactions {
    "RHS_AFRF"
   }
  }
 }
-SCR_EditorRestrictionZoneEntity : "{EF72FA7CD87618D5}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneSmall.et" {
- coords 4863.882 170.473 6951.724
+$grp SCR_EditorRestrictionZoneEntity : "{EF72FA7CD87618D5}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneSmall.et" {
+ {
+  coords 4863.882 170.473 6951.724
+ }
+ {
+  coords 4755.547 162.474 7144.091
+ }
 }
