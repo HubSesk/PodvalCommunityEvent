@@ -1,0 +1,137 @@
+Vehicle UAZ1 : "{259EE7B78C51B624}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469.et" {
+ coords 3121.269 119.091 5231.842
+ angleX 2.658
+ angleY 98.002
+ angleZ 0.373
+}
+$grp SCR_AIGroup : "{288D5E5619568501}Prefabs/Groups/OPFOR/KLMK/Group_USSR_RifleSquad_KLMK_P.et" {
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{630ADDC66D2D7D36}" {
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 1
+   }
+  }
+  coords 3107.311 118.635 5221.51
+  angleX 1.234
+  angleY 136.439
+  angleZ 1.297
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{630ADDC66D2D7D36}" {
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 2
+   }
+  }
+  coords 3106.383 118.606 5222.471
+  angleX 1.234
+  angleY 136.439
+  angleZ 1.297
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{630ADDC66D2D7D36}" {
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 3
+   }
+  }
+  coords 3105.513 118.579 5223.302
+  angleX 1.234
+  angleY 136.439
+  angleZ 1.297
+ }
+}
+SCR_AIGroup : "{6C00761F1BE10CC8}Prefabs/Groups/OPFOR/KLMK/Group_USSR_PlatoonHQ_KLMK_P.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "Line"
+  }
+  PS_GroupCallsignAssigner "{630ADDDB4AB932EC}" {
+   m_iPlatoonCallsign 1
+  }
+ }
+ coords 3108.554 118.674 5220.162
+ angleY 140.698
+}
+SCR_AIGroup : "{D1B420D921CC6CD4}Prefabs/Groups/OPFOR/Group_USSR_PlatoonHQ_P.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "Line"
+  }
+  PS_GroupCallsignAssigner "{630ADDDB5F5F2A20}" {
+  }
+ }
+ coords 5151.899 14.377 3982.121
+ angleY -20.923
+}
+$grp Vehicle : "{D9B91FAB817A6033}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered.et" {
+ Ural4320_transport_covered1 {
+  coords 3117.412 118.864 5215.925
+  angleX 1.265
+  angleY 43.43
+  angleZ -0.035
+ }
+ Ural4320_transport_covered2 {
+  coords 3114.717 118.855 5219.523
+  angleX 0.615
+  angleY 43.423
+  angleZ -0.65
+ }
+}
+$grp SCR_AIGroup : "{E3545CFEDD312D54}Prefabs/Groups/OPFOR/Group_USSR_RifleSquad_P.et" {
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{630ADDC2ABB61DCC}" {
+    m_iSquadCallsign 1
+   }
+  }
+  coords 5152.962 14.341 3979.821
+  angleY -19.51
+  m_aUnitPrefabSlots + {
+   "{951CA4F244097071}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_MG_P.et" "{D1786D7659BC2E7C}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_AMG_P.et" "{A8A47F001DA13B73}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Sharpshooter_P.et"
+  }
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{630ADDC2ABB61DCC}" {
+    m_iSquadCallsign 2
+   }
+  }
+  coords 5153.59 14.314 3978.087
+  angleY -19.51
+  m_aUnitPrefabSlots + {
+   "{951CA4F244097071}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_MG_P.et" "{D1786D7659BC2E7C}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_AMG_P.et" "{A8A47F001DA13B73}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Sharpshooter_P.et"
+  }
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{630ADDC2ABB61DCC}" {
+    m_iSquadCallsign 3
+   }
+  }
+  coords 5154.275 14.298 3976.788
+  angleY -19.51
+  m_aUnitPrefabSlots + {
+   "{951CA4F244097071}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_MG_P.et" "{D1786D7659BC2E7C}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_AMG_P.et" "{A8A47F001DA13B73}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Sharpshooter_P.et"
+  }
+ }
+}
