@@ -1,7 +1,7 @@
 SCR_AIGroup USSR_G_002_9 : "{4241A829D0AA8984}Prefabs/Groups/OPFOR/KLMK/Group_USSR_FireGroup_KLMK_P.et" {
  components {
   AIFormationComponent "{507E9DC12F541FE6}" {
-   DefaultFormation ""
+   DefaultFormation "Line"
   }
   PS_GroupCallsignAssigner "{630948EBF03B400D}" {
    m_iCompanyCallsign 0
@@ -9,7 +9,7 @@ SCR_AIGroup USSR_G_002_9 : "{4241A829D0AA8984}Prefabs/Groups/OPFOR/KLMK/Group_US
    m_iSquadCallsign 2
   }
  }
- coords 3027.861 7.135 2094.32
+ coords 3027.998 7.135 2093.51
  angleY -103.058
  m_aUnitPrefabSlots {
   "{E5F836512D78905A}Prefabs/Characters/Factions/OPFOR/USSR_Army/KLMK/Character_USSR_Sergeant_KLMK_P.et" "{ACD038BB506F47A9}Prefabs/Characters/Factions/OPFOR/USSR_Army/KLMK/Character_USSR_SL_KLMK_P.et" "{1E8509F9011DB5F4}Prefabs/Characters/Factions/OPFOR/USSR_Army/KLMK/Character_USSR_AR_KLMK_P.et" "{4ACD46BEECC179AA}Prefabs/Characters/Factions/OPFOR/USSR_Army/KLMK/Character_USSR_AT_KLMK_P.et" "{474B20F1FAE24A79}Prefabs/Characters/Factions/OPFOR/USSR_Army/KLMK/Character_USSR_AAT_KLMK_P.et" "{11DB79E241B3A90A}Prefabs/Characters/Factions/OPFOR/USSR_Army/KLMK/Character_USSR_Rifleman_KLMK_P.et" "{11DB79E241B3A90A}Prefabs/Characters/Factions/OPFOR/USSR_Army/KLMK/Character_USSR_Rifleman_KLMK_P.et" "{35630BBA3D667C60}Prefabs/Characters/Factions/OPFOR/USSR_Army/KLMK/Character_USSR_Medic_KLMK_P.et" "{DC963F3BA0B5DE9B}Prefabs/Characters/Factions/OPFOR/USSR_Army/KLMK/Character_USSR_RTO_KLMK_P.et"
@@ -19,7 +19,7 @@ SCR_AIGroup USSR_G_002_9 : "{4241A829D0AA8984}Prefabs/Groups/OPFOR/KLMK/Group_US
 SCR_AIGroup USSR_G_001_5 : "{6C00761F1BE10CC8}Prefabs/Groups/OPFOR/KLMK/Group_USSR_PlatoonHQ_KLMK_P.et" {
  components {
   AIFormationComponent "{507E9DC12F541FE6}" {
-   DefaultFormation ""
+   DefaultFormation "Line"
   }
   PS_GroupCallsignAssigner "{630948EBCEB36026}" {
    m_iCompanyCallsign 0
@@ -27,13 +27,13 @@ SCR_AIGroup USSR_G_001_5 : "{6C00761F1BE10CC8}Prefabs/Groups/OPFOR/KLMK/Group_US
    m_iSquadCallsign 1
   }
  }
- coords 3030.323 7.178 2086.185
+ coords 3033.679 7.178 2071.726
  angleY -105.03
 }
 SCR_AIGroup USSR_G_010_6 : "{7579BEC4A7EAB8BF}Prefabs/Groups/OPFOR/KLMK/Group_USSR_Team_Suppress_KLMK_P.et" {
  components {
   AIFormationComponent "{507E9DC12F541FE6}" {
-   DefaultFormation ""
+   DefaultFormation "Line"
   }
   PS_GroupCallsignAssigner "{630948EBF1955CEF}" {
    m_iCompanyCallsign 0
@@ -41,8 +41,8 @@ SCR_AIGroup USSR_G_010_6 : "{7579BEC4A7EAB8BF}Prefabs/Groups/OPFOR/KLMK/Group_US
    m_iSquadCallsign 0
   }
  }
- coords 3026.192 7.2 2104.156
- angleY -98.165
+ coords 3024.062 7.2 2115.765
+ angleY -101.923
  m_aUnitPrefabSlots {
   "{E5F836512D78905A}Prefabs/Characters/Factions/OPFOR/USSR_Army/KLMK/Character_USSR_Sergeant_KLMK_P.et" "{EB49AB08A32A8C1C}Prefabs/Characters/Factions/OPFOR/USSR_Army/KLMK/Character_USSR_SR_KLMK_P.et" "{1E8509F9011DB5F4}Prefabs/Characters/Factions/OPFOR/USSR_Army/KLMK/Character_USSR_AR_KLMK_P.et" "{1E8509F9011DB5F4}Prefabs/Characters/Factions/OPFOR/USSR_Army/KLMK/Character_USSR_AR_KLMK_P.et" "{E458C1085A5B685E}Prefabs/Characters/Factions/OPFOR/USSR_Army/KLMK/Character_USSR_GL_KLMK_P.et" "{35630BBA3D667C60}Prefabs/Characters/Factions/OPFOR/USSR_Army/KLMK/Character_USSR_Medic_KLMK_P.et"
  }
@@ -50,7 +50,7 @@ SCR_AIGroup USSR_G_010_6 : "{7579BEC4A7EAB8BF}Prefabs/Groups/OPFOR/KLMK/Group_US
 }
 $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
  USSR_G_011_M {
-  coords 3017.657 7.145 2109.654
+  coords 3013.5 7.145 2109.029
   m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 1 1 1 1
@@ -66,7 +66,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_iZOrder 10
  }
  USSR_G_001_M {
-  coords 3030.323 7.178 2086.185
+  coords 3033.018 7.178 2071.924
   m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 1 1 1 1
@@ -82,7 +82,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_iZOrder 10
  }
  USSR_G_002_M {
-  coords 3027.861 7.135 2094.32
+  coords 3028.527 7.135 2090.642
   m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 1 1 1 1
@@ -98,7 +98,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_iZOrder 10
  }
  USSR_G_010_M {
-  coords 3026.192 7.2 2104.156
+  coords 3022.527 7.2 2116.579
   m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 1 1 1 1
@@ -150,7 +150,7 @@ $grp SCR_AIGroup : "{E3545CFEDD312D54}Prefabs/Groups/OPFOR/Group_USSR_RifleSquad
  USSR_G_012_8 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation ""
+    DefaultFormation "Line"
    }
    PS_GroupCallsignAssigner "{630948EBFD4FE163}" {
     m_iCompanyCallsign 0
@@ -158,7 +158,7 @@ $grp SCR_AIGroup : "{E3545CFEDD312D54}Prefabs/Groups/OPFOR/Group_USSR_RifleSquad
     m_iSquadCallsign 2
    }
   }
-  coords 10743.412 235.962 2536.376
+  coords 10740.128 235.962 2537.228
   angleY 22.357
   m_aUnitPrefabSlots {
    "{730A987119F129A8}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Sergeant_P.et" "{A5F4D7FEBDB57182}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_SL_P.et" "{00716F7369F3C5E8}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_AR_P.et" "{DD80FA65DDFF68B9}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Medic_P.et" "{F72805D5D2D05F63}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_RTO_P.et" "{47B0BA658525301A}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman_P.et" "{6A840CB36D1670C2}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_SR_P.et" "{47B0BA658525301A}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman_P.et"
@@ -168,7 +168,7 @@ $grp SCR_AIGroup : "{E3545CFEDD312D54}Prefabs/Groups/OPFOR/Group_USSR_RifleSquad
  USSR_G_020_8 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation ""
+    DefaultFormation "Line"
    }
    PS_GroupCallsignAssigner "{630948EBFECD175F}" {
     m_iCompanyCallsign 0
@@ -176,7 +176,7 @@ $grp SCR_AIGroup : "{E3545CFEDD312D54}Prefabs/Groups/OPFOR/Group_USSR_RifleSquad
     m_iSquadCallsign 0
    }
   }
-  coords 7526.878 160.789 4340.391
+  coords 7525.786 160.789 4337.704
   angleY -72.448
   m_aUnitPrefabSlots {
    "{730A987119F129A8}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Sergeant_P.et" "{A8A47F001DA13B73}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Sharpshooter_P.et" "{47B0BA658525301A}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman_P.et" "{DD80FA65DDFF68B9}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Medic_P.et" "{F72805D5D2D05F63}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_RTO_P.et" "{47B0BA658525301A}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman_P.et" "{19CCD8504848310C}Prefabs/Characters/Factions/OPFOR/USSR_Army/Extra/Character_USSR_Crew_P.et" "{19CCD8504848310C}Prefabs/Characters/Factions/OPFOR/USSR_Army/Extra/Character_USSR_Crew_P.et"
@@ -187,7 +187,7 @@ $grp SCR_AIGroup : "{E3545CFEDD312D54}Prefabs/Groups/OPFOR/Group_USSR_RifleSquad
 SCR_AIGroup "(Пилоты) USSR_G_011_4" : "{FD6AA4D2F542898E}Prefabs/Groups/OPFOR/KLMK/Group_USSR_Team_GL_KLMK_P.et" {
  components {
   AIFormationComponent "{507E9DC12F541FE6}" {
-   DefaultFormation ""
+   DefaultFormation "Line"
   }
   PS_GroupCallsignAssigner "{630948EBFAFB995E}" {
    m_iCompanyCallsign 0
@@ -195,7 +195,7 @@ SCR_AIGroup "(Пилоты) USSR_G_011_4" : "{FD6AA4D2F542898E}Prefabs/Groups/OP
    m_iSquadCallsign 1
   }
  }
- coords 3017.657 7.145 2109.654
+ coords 3014.71 7.145 2110.267
  angleY 169.203
  m_aUnitPrefabSlots {
   "{FFE45AFCB29CD014}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_HeliPilot_P.et" "{FFE45AFCB29CD014}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_HeliPilot_P.et" "{2B0F3996B07194C4}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_HeliCrew_P.et" "{2B0F3996B07194C4}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_HeliCrew_P.et"
