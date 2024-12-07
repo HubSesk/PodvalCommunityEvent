@@ -1,7 +1,7 @@
 SCR_AIGroup FIA_G_002_5 : "{126BE8C46FA39581}Prefabs/Groups/INDFOR/Group_FIA_FireTeam_P.et" {
  components {
   AIFormationComponent "{507E9DC12F541FE6}" {
-   DefaultFormation ""
+   DefaultFormation "Line"
   }
   PS_GroupCallsignAssigner "{6308DD369BB9D1FA}" {
    m_iCompanyCallsign 0
@@ -9,14 +9,14 @@ SCR_AIGroup FIA_G_002_5 : "{126BE8C46FA39581}Prefabs/Groups/INDFOR/Group_FIA_Fir
    m_iSquadCallsign 2
   }
  }
- coords 5005.696 26.717 9913.189
- angleY 86.285
+ coords 5005.114 26.717 9916.76
+ angleY 82.387
 }
 $grp SCR_AIGroup : "{17C7309FFE4775B0}Prefabs/Groups/INDFOR/Group_FIA_RifleSquad_P.et" {
  FIA_G_010_7 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation ""
+    DefaultFormation "Line"
    }
    PS_GroupCallsignAssigner "{6308DD369D502AE3}" {
     m_iCompanyCallsign 0
@@ -24,8 +24,8 @@ $grp SCR_AIGroup : "{17C7309FFE4775B0}Prefabs/Groups/INDFOR/Group_FIA_RifleSquad
     m_iSquadCallsign 0
    }
   }
-  coords 5005.792 26.86 9906.904
-  angleY 87.85
+  coords 5005.703 26.86 9897.761
+  angleY 89.531
   m_aUnitPrefabSlots {
    "{5E10F18AF4717622}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_SL_P.et" "{6EF882860DCD77D1}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_MG_P.et" "{E691995C5D7CD7A4}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_AMG_P.et" "{F93D2B11566D65A9}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Medic_P.et" "{BF44997B8982C009}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Rifleman_P.et" "{BF44997B8982C009}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Rifleman_P.et" "{BF44997B8982C009}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Rifleman_P.et"
   }
@@ -33,7 +33,7 @@ $grp SCR_AIGroup : "{17C7309FFE4775B0}Prefabs/Groups/INDFOR/Group_FIA_RifleSquad
  FIA_G_020_7 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation ""
+    DefaultFormation "Line"
    }
    PS_GroupCallsignAssigner "{6308DD3681E1C6DF}" {
     m_iCompanyCallsign 0
@@ -41,14 +41,14 @@ $grp SCR_AIGroup : "{17C7309FFE4775B0}Prefabs/Groups/INDFOR/Group_FIA_RifleSquad
     m_iSquadCallsign 0
    }
   }
-  coords 5279.468 37.177 11356.108
+  coords 5283.761 36.032 11353.337
   angleY 36.406
  }
 }
 SCR_AIGroup FIA_G_012_4 : "{6AAA7C7E768CA36A}Prefabs/Groups/INDFOR/Group_FIA_LightFireTeam_P.et" {
  components {
   AIFormationComponent "{507E9DC12F541FE6}" {
-   DefaultFormation ""
+   DefaultFormation "Line"
   }
   PS_GroupCallsignAssigner "{6308DD368091CD8C}" {
    m_iCompanyCallsign 0
@@ -56,7 +56,7 @@ SCR_AIGroup FIA_G_012_4 : "{6AAA7C7E768CA36A}Prefabs/Groups/INDFOR/Group_FIA_Lig
    m_iSquadCallsign 2
   }
  }
- coords 5062.285 27.688 10830.807
+ coords 5062.012 27.688 10828.356
  m_aUnitPrefabSlots {
   "{BF44997B8982C009}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Rifleman_P.et" "{BF44997B8982C009}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Rifleman_P.et" "{793FBF6474104BA3}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Scout_P.et" "{F93D2B11566D65A9}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Medic_P.et"
  }
@@ -65,7 +65,7 @@ $grp SCR_AIGroup : "{9C5DBFC29589C473}Prefabs/Groups/INDFOR/Group_FIA_ReconTeam_
  FIA_G_011_4 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation ""
+    DefaultFormation "Line"
    }
    PS_GroupCallsignAssigner "{6308DD369F0D4FB8}" {
     m_iCompanyCallsign 0
@@ -73,20 +73,24 @@ $grp SCR_AIGroup : "{9C5DBFC29589C473}Prefabs/Groups/INDFOR/Group_FIA_ReconTeam_
     m_iSquadCallsign 1
    }
   }
-  coords 6350.3 5.692 9642.521
+  coords 6352.748 5.692 9639.233
   m_aUnitPrefabSlots + {
    "{BF44997B8982C009}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Rifleman_P.et" "{950D59E028D3F268}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Sharpshooter_P.et"
   }
  }
  FIA_G_021_5 {
   components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
    PS_GroupCallsignAssigner "{6308DD368368502C}" {
     m_iCompanyCallsign 0
     m_iPlatoonCallsign 2
     m_iSquadCallsign 1
    }
   }
-  coords 4275.082 25.758 9071.672
+  coords 4267.791 25.758 9085.08
+  angleY 92.196
   m_aUnitPrefabSlots + {
    "{253AF9EE4FE937BF}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Sapper_P.et" "{F93D2B11566D65A9}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Medic_P.et" "{BF44997B8982C009}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Rifleman_P.et"
   }
@@ -103,7 +107,7 @@ SCR_AIGroup FIA_G_001_3 : "{CA73F9230999408B}Prefabs/Groups/INDFOR/Group_FIA_Pla
    m_iSquadCallsign 1
   }
  }
- coords 5016.182 26.893 9912.597
+ coords 5016.106 26.893 9912.112
  angleY -88.268
 }
 $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
