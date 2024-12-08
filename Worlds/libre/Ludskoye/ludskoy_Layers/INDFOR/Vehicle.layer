@@ -36,6 +36,10 @@ $grp Vehicle : "{B47110AA1A806556}Prefabs/Vehicles/Wheeled/BTR70/BTR70_FIA.et" {
   coords 9648.721 20.099 1641.817
   angleY -14.368
  }
+ BTR70_FIA3 {
+  coords 9650.282 17.743 1591.284
+  angleY -13.263
+ }
 }
 $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
  {
@@ -197,6 +201,23 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   }
   m_iZOrder 0
  }
+ {
+  coords 9649.64 17.743 1592.074
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0.44 0.078 1
+  m_sQuadName "APC"
+  m_fWorldSize 3.691
+  m_sDescription "#AR-Vehicle_BTR70_Name"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "FIA" "" ""
+  }
+  m_aHideOnGameModeStates {
+   1
+  }
+  m_iZOrder 0
+ }
 }
 Vehicle S1203_transport_blue1 : "{F77C41245A580FD1}Prefabs/Vehicles/Wheeled/S1203/S1203_transport_blue.et" {
  coords 8807.592 95.076 2752.763
@@ -215,6 +236,7 @@ $grp Vehicle : "{F7E9AA0C813EABDA}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_FIA.et"
   angleY -57.235
  }
  UAZ469_FIA4 {
-  coords 8254.566 308.251 2818.965
+  coords 8252.579 308.251 2816.609
+  angleY 23.07
  }
 }

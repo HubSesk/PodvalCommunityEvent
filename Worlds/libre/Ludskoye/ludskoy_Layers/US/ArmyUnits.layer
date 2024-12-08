@@ -78,7 +78,7 @@ $grp SCR_AIGroup : "{C0CBE71EB24755D9}Prefabs/Groups/BLUFOR/GreenBerets/Group_US
   coords 3886.943 15.624 8454.524
   angleY 95.482
   m_aUnitPrefabSlots {
-   "{6BFF6DCD047309CD}Prefabs/Characters/Factions/BLUFOR/US_Army/GreenBerets/Character_US_SF_SL_P.et" "{8878262151B42117}Prefabs/Characters/Factions/BLUFOR/US_Army/GreenBerets/Character_US_SF_LMG_P.et" "{9D49EF41B2B47117}Prefabs/Characters/Factions/BLUFOR/US_Army/GreenBerets/Character_US_SF_Sharpshooter_P.et" "{19B81929696BD5F6}Prefabs/Characters/Factions/BLUFOR/US_Army/GreenBerets/Character_US_SF_Sapper_P.et" "{8ED9B8A1C2E51DC6}Prefabs/Characters/Factions/BLUFOR/US_Army/GreenBerets/Character_US_SF_RTO_P.et" "{8ED9B8A1C2E51DC6}Prefabs/Characters/Factions/BLUFOR/US_Army/GreenBerets/Character_US_SF_RTO_P.et" "{4A9A05BF6D7DC9EA}Prefabs/Characters/Factions/BLUFOR/US_Army/GreenBerets/Character_US_SF_Medic_P.et"
+   "{6BFF6DCD047309CD}Prefabs/Characters/Factions/BLUFOR/US_Army/GreenBerets/Character_US_SF_SL_P.et" "{8878262151B42117}Prefabs/Characters/Factions/BLUFOR/US_Army/GreenBerets/Character_US_SF_LMG_P.et" "{9D49EF41B2B47117}Prefabs/Characters/Factions/BLUFOR/US_Army/GreenBerets/Character_US_SF_Sharpshooter_P.et" "{19B81929696BD5F6}Prefabs/Characters/Factions/BLUFOR/US_Army/GreenBerets/Character_US_SF_Sapper_P.et" "{8ED9B8A1C2E51DC6}Prefabs/Characters/Factions/BLUFOR/US_Army/GreenBerets/Character_US_SF_RTO_P.et" "{8ED9B8A1C2E51DC6}Prefabs/Characters/Factions/BLUFOR/US_Army/GreenBerets/Character_US_SF_RTO_P.et" "{4A9A05BF6D7DC9EA}Prefabs/Characters/Factions/BLUFOR/US_Army/GreenBerets/Character_US_SF_Medic_P.et" "{83008FD82A671A96}Prefabs/Characters/Factions/BLUFOR/US_Army/GreenBerets/Character_US_SF_P.et" "{8ED9B8A1C2E51DC6}Prefabs/Characters/Factions/BLUFOR/US_Army/GreenBerets/Character_US_SF_RTO_P.et"
   }
   m_sCustomNameSet "Спецназ"
  }
@@ -96,9 +96,26 @@ $grp SCR_AIGroup : "{C0CBE71EB24755D9}Prefabs/Groups/BLUFOR/GreenBerets/Group_US
   coords 3928.624 14.853 8419.514
   angleY -84.021
   m_aUnitPrefabSlots + {
-   "{83008FD82A671A96}Prefabs/Characters/Factions/BLUFOR/US_Army/GreenBerets/Character_US_SF_P.et"
+   "{83008FD82A671A96}Prefabs/Characters/Factions/BLUFOR/US_Army/GreenBerets/Character_US_SF_P.et" "{83008FD82A671A96}Prefabs/Characters/Factions/BLUFOR/US_Army/GreenBerets/Character_US_SF_P.et"
   }
   m_sCustomNameSet "Спецназ"
+ }
+ US_G_101_9 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{6310C1B0C7505950}" {
+    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 0
+    m_iSquadCallsign 1
+   }
+  }
+  coords 3921.365 14.821 8483.562
+  angleY -87.727
+  m_aUnitPrefabSlots + {
+   "{83008FD82A671A96}Prefabs/Characters/Factions/BLUFOR/US_Army/GreenBerets/Character_US_SF_P.et" "{83008FD82A671A96}Prefabs/Characters/Factions/BLUFOR/US_Army/GreenBerets/Character_US_SF_P.et" "{6BFF6DCD047309CD}Prefabs/Characters/Factions/BLUFOR/US_Army/GreenBerets/Character_US_SF_SL_P.et"
+  }
  }
 }
 $grp SCR_AIGroup : "{CB31D258850A3EFC}Prefabs/Groups/BLUFOR/Group_US_LightFireTeam_P.et" {
@@ -113,10 +130,10 @@ $grp SCR_AIGroup : "{CB31D258850A3EFC}Prefabs/Groups/BLUFOR/Group_US_LightFireTe
     m_iSquadCallsign 2
    }
   }
-  coords 7406.385 140.067 4715.103
+  coords 7407.634 140.067 4714.396
   angleY -167.8
   m_aUnitPrefabSlots {
-   "{501777EB151D644B}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Sergeant_P.et" "{094747C4F8BE9F9F}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_TL_P.et" "{64AD55FF89C97DF9}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Rifleman_P.et" "{64AD55FF89C97DF9}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Rifleman_P.et" "{64AD55FF89C97DF9}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Rifleman_P.et"
+   "{501777EB151D644B}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Sergeant_P.et" "{094747C4F8BE9F9F}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_TL_P.et" "{64AD55FF89C97DF9}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Rifleman_P.et" "{64AD55FF89C97DF9}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Rifleman_P.et" "{64AD55FF89C97DF9}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Rifleman_P.et" "{64AD55FF89C97DF9}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Rifleman_P.et" "{892C4E0784F3AAE1}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Rifleman_Variant_1_P.et" "{7E44CF4FB58F8FF7}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_AR_P.et" "{23CF7AD7DEB5E7E4}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Ammo_P.et"
   }
  }
  US_G_010_9 {
@@ -274,6 +291,22 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sQuadName "undefined"
   m_fWorldSize 50
   m_sDescription "Blazer Red 1"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "" "US" ""
+  }
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 10
+ }
+ US_G_101_M {
+  coords 3921.365 14.821 8483.562
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "undefined"
+  m_fWorldSize 50
+  m_sDescription "Blazer Red 2"
   m_bUseWorldScale 0
   m_aVisibleForFactions {
    "" "US" ""
