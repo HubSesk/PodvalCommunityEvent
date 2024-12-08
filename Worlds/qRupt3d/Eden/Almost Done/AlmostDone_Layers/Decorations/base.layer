@@ -22,20 +22,6 @@ $grp GenericEntity : "{0DBE058F13F0C7E8}PrefabsEditable/Auto/Structures/Military
   coords 4975.769 37.098 9924.652
  }
 }
-$grp StaticModelEntity : "{1A1020205E2B1710}Prefabs/Props/Military/Furniture/TableMilitary_USSR_01.et" {
- {
-  coords 4986.468 25.295 9952.702
-  angleY -89.999
- }
- {
-  coords 4986.469 25.287 9951.315
-  angleY -89.999
- }
- {
-  coords 4986.465 25.284 9949.927
-  angleY 90.156
- }
-}
 StaticModelEntity : "{23C109BC7122FA1D}Prefabs/Compositions/Misc/CustomEntities/DestructionEntities/Sandbag_01_bunker_plastic_camonet_CompositionDestruction.et" {
  coords 4994 26.852 9862.809
  angleY 177.131
@@ -84,107 +70,6 @@ $grp GenericEntity : "{4571D373817D63F2}Prefabs/Compositions/Misc/FreeRoamBuildi
   }
  }
 }
-$grp GenericEntity : "{4C82416C26CE3C06}Prefabs/Props/Military/AmmoBoxes/EquipmentBoxStack/AmmoBox_USSR_All_in_One_P.et" {
- {
-  coords 5571.346 96.055 6057.572
-  angleY 20.868
- }
- {
-  coords 4983.898 2.187 3853.491
-  angleY 34.894
- }
- {
-  components {
-   SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
-    MultiSlots {
-     MultiSlotConfiguration "{63091D9AF2A2102D}" {
-      NumSlots 13
-     }
-     MultiSlotConfiguration "{63091D9AF3BFD3B0}" {
-      NumSlots 12
-     }
-     MultiSlotConfiguration "{63091D9AF02EBC81}" {
-      NumSlots 10
-     }
-     MultiSlotConfiguration "{63091D9AF0FBEA5B}" {
-      SlotTemplate InventoryStorageSlot ammo_4 {
-       Prefab "{E8A55396050E1762}Prefabs/Weapons/Launchers/RPG7/Launcher_RPG7_PGO7.et"
-      }
-      NumSlots 1
-     }
-     MultiSlotConfiguration "{63091D9AF08335BF}" {
-      SlotTemplate InventoryStorageSlot ammo_5 {
-       Prefab "{E5912E45754CD421}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Tracer.et"
-      }
-      NumSlots 1
-     }
-     MultiSlotConfiguration "{63091D9AF1F74B4F}" {
-      NumSlots 10
-     }
-     MultiSlotConfiguration "{63091D9AF1ADA53D}" {
-      NumSlots 10
-     }
-     MultiSlotConfiguration "{63091D9AF19C201D}" {
-      NumSlots 10
-     }
-     MultiSlotConfiguration "{63091D9AF60774D2}" {
-      NumSlots 10
-     }
-     MultiSlotConfiguration "{63091D9AF69320C5}" {
-      NumSlots 10
-     }
-     MultiSlotConfiguration "{63091D9BD3ED6B0A}" {
-      NumSlots 10
-     }
-     MultiSlotConfiguration "{63091D9BD1E73A38}" {
-      NumSlots 5
-     }
-     MultiSlotConfiguration "{63091D9B0F18E35A}" {
-      NumSlots 7
-     }
-     MultiSlotConfiguration "{63091D9B0C6C3F35}" {
-      NumSlots 10
-     }
-     MultiSlotConfiguration "{63091D9B0DBE23F9}" {
-      NumSlots 5
-     }
-     MultiSlotConfiguration "{63091D9B46D174DA}" {
-      NumSlots 6
-     }
-     MultiSlotConfiguration "{63091D946FC1E739}" {
-      NumSlots 2
-     }
-    }
-   }
-  }
-  coords 4775.387 1.259 12320.865
-  angleY 12.787
- }
-}
-GenericEntity : "{5BE4FD8AF5496C11}Prefabs/Props/Military/Arsenal/AmmoBoxes/US/AmmoBox_Ammunition_US_P.et" {
- components {
-  SCR_ArsenalComponent "{589F01C9C8D4A475}" {
-   Enabled 0
-  }
-  SCR_ResourceComponent "{5E5ABDF371AE8B21}" {
-   Enabled 0
-  }
-  SCR_ResupplySupportStationComponent "{5E2CE1BA1701C633}" {
-   Enabled 0
-  }
-  SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
-   Enabled 1
-  }
-  UniversalInventoryStorageComponent "{58A17A341AB8F069}" {
-   Enabled 0
-  }
-  SCR_ArsenalInventoryStorageManagerComponent "{58A0B19B1E191CC1}" {
-   Enabled 0
-  }
- }
- coords 4986.478 26.183 9949.915
- angleY 90.025
-}
 StaticModelEntity : "{69C51128071163C3}Prefabs/Compositions/Misc/SubCompositions/Tent_Medical_Cluttered_US_01.et" {
  coords 5010.341 26.783 9945.446
  angleY 89.479
@@ -198,27 +83,6 @@ $grp StaticModelEntity : "{8125DEB23B3FF39E}Prefabs/Compositions/Misc/CustomEnti
   coords 4953.807 27.504 9971.751
   angleY -110.054
  }
-}
-GenericEntity : "{9ACFB0534F97EB73}Prefabs/Props/Military/Arsenal/AmmoBoxes/US/AmmoBox_Medical_US_P.et" {
- components {
-  SCR_ArsenalComponent "{589F01C9C8D4A475}" {
-   Enabled 0
-  }
-  SCR_ResourceComponent "{5DACFA5343CF2065}" {
-   Enabled 0
-  }
-  SCR_ResourceComponent "{5E5ABDF371AE8B21}" {
-   Enabled 0
-  }
-  SCR_ResupplySupportStationComponent "{5E2CE1BA1701C633}" {
-   Enabled 0
-  }
-  SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
-   Enabled 1
-  }
- }
- coords 4986.476 26.194 9952.646
- angleY 92.122
 }
 $grp StaticModelEntity : "{9C18C562C0BB5003}Prefabs/Compositions/Misc/CustomEntities/DestructionEntities/TentUS_01_Assembled_CompositionDestruction.et" {
  {
@@ -385,23 +249,6 @@ $grp GenericEntity : "{DDF59362051B28BC}Prefabs/Props/Military/Fortification/Bar
   coords 5056.887 29.021 9849.289
   angleY -35.3
  }
-}
-GenericEntity : "{E8EBDBFACE2E2C53}Prefabs/Props/Military/Arsenal/AmmoBoxes/US/AmmoBox_Explosives_US_P.et" {
- components {
-  SCR_ArsenalComponent "{589F01C9C8D4A475}" {
-   Enabled 0
-  }
-  SCR_ResourceComponent "{5E5ABDF371AE8B21}" {
-   Enabled 0
-  }
-  SCR_ResupplySupportStationComponent "{5E2CE1BA1701C633}" {
-   Enabled 0
-  }
-  SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
-   Enabled 1
-  }
- }
- coords 4986.472 26.186 9951.188
 }
 GenericEntity : "{F09296B9255F6704}Prefabs/Compositions/Misc/SubCompositions/Tents/Tent_CommandPost_US_01.et" {
  coords 4959.876 25.816 9993.316
