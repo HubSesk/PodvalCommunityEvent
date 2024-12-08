@@ -6,6 +6,12 @@ Vehicle M151A2_transport1 : "{47D94E1193A88497}Prefabs/Vehicles/Wheeled/M151A2/M
  coords 3869.994 15.3 8459.412
  angleY 95.731
 }
+Vehicle M923A1_transport_covered1 : "{81FDAD5EB644CC3D}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport_covered.et" {
+ coords 3914.185 14.824 8484.519
+ angleX -1.866
+ angleY 5.379
+ angleZ 0.723
+}
 $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
  {
   coords 3905.586 15.219 8418.602
@@ -105,6 +111,26 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sQuadName "Car"
   m_fWorldSize 2.399
   m_sDescription "#AR-Vehicle_M997_Name"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "" "US" ""
+  }
+  m_aHideOnGameModeStates {
+   1
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 3914.185 14.824 8484.519
+  angleX -1.866
+  angleY 95.379
+  angleZ 0.723
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.016 0.552 0.905 1
+  m_sQuadName "Truck"
+  m_fWorldSize 4.123
+  m_sDescription "#AR-Vehicle_M923A1_Transport_Covered_Name"
   m_bUseWorldScale 1
   m_aVisibleForFactions {
    "" "US" ""
