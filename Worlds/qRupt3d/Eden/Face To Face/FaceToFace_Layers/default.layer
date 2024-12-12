@@ -1,0 +1,22 @@
+SCR_AIWorld : "{70CCCF16487C927F}Prefabs/AI/SCR_AIWorld_Eden.et" {
+ coords 3649.411 0 7525.706
+}
+PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 3669.076 0 7592.38
+}
+PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
+ components {
+  SCR_InitWeatherComponent "{61B68227C35BFE9A}" {
+   m_sInitialStartingWeatherId "Clear"
+  }
+  SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
+   m_iStartingHours 10
+  }
+ }
+ coords 3545.486 0 7448.063
+ m_bMarkersOnlyOnBriefing 1
+ m_bRemoveSquadMarkers 1
+ m_iFreezeTime 180000
+ m_bDisableChat 1
+ m_bReserveSlots 1
+}
