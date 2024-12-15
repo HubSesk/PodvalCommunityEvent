@@ -1,0 +1,111 @@
+SCR_AIGroup US_G_021_5 : "{47EADE5E4E07076C}Prefabs/Groups/BLUFOR/Group_US_FireTeam_P.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "Line"
+  }
+  PS_GroupCallsignAssigner "{631B24F12200CB28}" {
+   m_iCompanyCallsign 0
+   m_iPlatoonCallsign 2
+   m_iSquadCallsign 1
+  }
+ }
+ coords 4986.505 2.17 3876.569
+ angleY 84.373
+ m_aUnitPrefabSlots {
+  "{501777EB151D644B}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Sergeant_P.et" "{094747C4F8BE9F9F}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_TL_P.et" "{7E44CF4FB58F8FF7}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_AR_P.et" "{A47EB499090D69B9}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_GL_P.et" "{C262DC827577226C}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_LAT_P.et"
+ }
+}
+SCR_AIGroup "(Разведка) US_G_010_4" : "{AA90D8A7EC3E57FF}Prefabs/Groups/BLUFOR/Group_US_ReconTeam_P.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "Line"
+  }
+  PS_GroupCallsignAssigner "{631B24F13B13EB84}" {
+   m_iCompanyCallsign 0
+   m_iPlatoonCallsign 1
+   m_iSquadCallsign 0
+  }
+ }
+ coords 3080.257 117.906 5199.793
+ angleY -39.176
+ m_aUnitPrefabSlots {
+  "{501777EB151D644B}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Sergeant_P.et" "{D479353521DB520E}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Scout_P.et" "{F6836BCA03008E4B}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Scout_RTO_P.et" "{D479353521DB520E}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Scout_P.et"
+ }
+ m_sCustomNameSet "Разведка"
+}
+$grp SCR_AIGroup : "{BC357974A560F678}Prefabs/Groups/BLUFOR/Group_US_RifleSquad_P.et" {
+ US_G_002_10 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{631B24F10BE23CAD}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 0
+    m_iSquadCallsign 2
+   }
+  }
+  coords 4931.522 2.156 3894.005
+  angleY -58.509
+  m_aUnitPrefabSlots + {
+   "{547BA14003A67C04}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Medic_P.et"
+  }
+ }
+ US_G_011_9 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{631B24F13E705180}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 1
+   }
+  }
+  coords 4949.11 2.187 3883.423
+  angleY -58.509
+ }
+ US_G_012_9 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{631B24F13F9EB363}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 2
+   }
+  }
+  coords 4942.588 2.156 3887.349
+  angleY -58.509
+ }
+ US_G_020_9 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{631B24F120A589C1}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 2
+    m_iSquadCallsign 0
+   }
+  }
+  coords 4937.247 2.187 3891.73
+  angleY -58.509
+ }
+}
+SCR_AIGroup "(Командование) US_G_001_4" : "{FCBE9E46702ED307}Prefabs/Groups/BLUFOR/Group_US_PlatoonHQ_P.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "Line"
+  }
+  PS_GroupCallsignAssigner "{631B24F10A5DBCD0}" {
+   m_iCompanyCallsign 0
+   m_iPlatoonCallsign 0
+   m_iSquadCallsign 1
+  }
+ }
+ coords 4986.016 2.187 3893.257
+ angleY 92.856
+ m_sCustomNameSet "Командование"
+}
