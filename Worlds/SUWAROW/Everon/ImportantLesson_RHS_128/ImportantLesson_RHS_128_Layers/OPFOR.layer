@@ -1,0 +1,250 @@
+$grp SCR_AIGroup : "{0223367D44716E7B}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Summer/Group_RHS_RF_MSV_VKPO_S_PlatoonHQ.et" {
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{631EC2FD48C2DB04}" {
+   }
+  }
+  coords 2804.679 92.511 4859.132
+  angleX 2.683
+  angleY 0.042
+  angleZ 0.896
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{631EC2FCFC87447E}" {
+    m_iPlatoonCallsign 2
+   }
+  }
+  coords 2882.679 79.486 6451.624
+  angleX 1.057
+  angleY 151.154
+  angleZ -3.643
+ }
+}
+$grp Vehicle : "{13139B95B13DDA35}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_tanker_camo1.et" {
+ Ural4320_tanker_camo1 {
+  coords 2898.776 78.707 6454.395
+  angleX 2.77
+  angleY -120.097
+  angleZ -0.572
+ }
+ Ural4320_tanker_camo2 {
+  coords 2914.557 77.98 6462.206
+  angleX 2.001
+  angleY -116.698
+  angleZ -0.005
+ }
+}
+Vehicle K4386_Armed_Camo1 : "{1DF4C30C130D8FAD}Prefabs/Vehicles/Wheeled/K4386/K4386_Armed_Camo.et" {
+ components {
+  SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+   FuelNodes {
+    SCR_FuelNode "{5622A70CD4036C5A}" {
+     m_fInitialFuelTankState 0
+    }
+    SCR_FuelNode "{62593DAA0629B156}" {
+     m_fInitialFuelTankState 0
+    }
+   }
+  }
+ }
+ coords 2848.06 92.468 4882.791
+ angleY 80.295
+}
+$grp SCR_AIGroup : "{256AEA338E84EC28}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Summer/Group_RHS_RF_MSV_VKPO_S_RifleSquad.et" {
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{631EC2FCAD3B14D3}" {
+    m_iSquadCallsign 3
+   }
+  }
+  coords 2839.677 90.886 4847.854
+  angleX 1.786
+  angleY 0.084
+  angleZ 2.685
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{631EC2FCA7AF1841}" {
+    m_iSquadCallsign 1
+   }
+  }
+  coords 2829.569 91.88 4862.713
+  angleX 1.788
+  angleY 0.056
+  angleZ 1.791
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{631EC2FC9B66C3EE}" {
+    m_iPlatoonCallsign 1
+   }
+  }
+  coords 2824.702 91.52 4846.34
+  angleX 1.788
+  angleY 0.056
+  angleZ 1.791
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{631EC2FC80EDAFD7}" {
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 1
+   }
+  }
+  coords 2823.951 91.428 4841.241
+  angleX 0.893
+  angleY 0.042
+  angleZ 2.684
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{631EC2FC89478ABC}" {
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 2
+   }
+  }
+  coords 2825.34 91.232 4834.862
+  angleX 0.893
+  angleY 0.042
+  angleZ 2.684
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{631EC2FC868C9EA6}" {
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 3
+   }
+  }
+  coords 2825.256 91.159 4831.176
+  angleX 0.892
+  angleY 0.056
+  angleZ 3.577
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{631EC2FCE566526F}" {
+    m_iPlatoonCallsign 2
+    m_iSquadCallsign 1
+   }
+  }
+  coords 2904.538 78.345 6462.3
+  angleX -0.501
+  angleY 151.377
+  angleZ -2.784
+ }
+}
+Vehicle Ural4320_transport_covered_camo1 : "{2B15F98903994DA3}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered_camo1.et" {
+ components {
+  SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+   FuelNodes {
+    SCR_FuelNode "{5622A70CD4036C5A}" {
+     m_fInitialFuelTankState 0
+    }
+    SCR_FuelNode "{5628CA84B129D4CE}" {
+     m_fInitialFuelTankState 0
+    }
+   }
+  }
+ }
+ coords 2815.056 91.675 4835.269
+ angleX 0.894
+ angleY 0.028
+ angleZ 1.79
+}
+Vehicle Ural4320_transport_camo1 : "{2CCD539A7AB35B2F}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_camo1.et" {
+ components {
+  SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+   FuelNodes {
+    SCR_FuelNode "{5622A70CD4036C5A}" {
+     m_fInitialFuelTankState 150
+    }
+    SCR_FuelNode "{5628CA84B129D4CE}" {
+     m_fInitialFuelTankState 15
+    }
+   }
+  }
+ }
+ coords 2815.884 91.912 4849.064
+ angleX 1.788
+ angleY 0.056
+ angleZ 1.791
+}
+$grp Vehicle : "{9BF596A3464B6DB8}Prefabs/Vehicles/Wheeled/K4386/K4386_Camo.et" {
+ K4386_Camo2 {
+  components {
+   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+    FuelNodes {
+     SCR_FuelNode "{5622A70CD4036C5A}" {
+      m_fInitialFuelTankState 60
+     }
+     SCR_FuelNode "{62593DAA0629B156}" {
+      m_fInitialFuelTankState 15
+     }
+    }
+   }
+  }
+  coords 2810.089 92.838 4867.946
+  angleY 86.467
+ }
+ K4386_Camo3 {
+  components {
+   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+    FuelNodes {
+     SCR_FuelNode "{5622A70CD4036C5A}" {
+     }
+     SCR_FuelNode "{62593DAA0629B156}" {
+     }
+    }
+   }
+  }
+  coords 2885.702 79.477 6447.313
+  angleX 3.997
+  angleY -116.818
+  angleZ -0.018
+ }
+}
+SCR_AIGroup : "{C22DD62FE52FDE29}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Summer/Group_RHS_RF_MSV_VKPO_S_ReconTeam.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "Line"
+  }
+  PS_GroupCallsignAssigner "{631EC2FCA2ADA32C}" {
+   m_iSquadCallsign 2
+  }
+ }
+ coords 2836.11 91.321 4854.921
+ angleX 2.654
+ angleY 0.957
+ angleZ 1.832
+ m_aUnitPrefabSlots + {
+  "{74907740653C5830}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/RandomSoldiers/Character_RHS_RF_MSV_VKPO_S_Sharpshooter_Random.et"
+ }
+}
