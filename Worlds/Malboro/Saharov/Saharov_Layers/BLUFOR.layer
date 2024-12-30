@@ -1,0 +1,655 @@
+SCR_AIGroup RHS_USAF_G_100_0 : "{47EADE5E4E07076C}Prefabs/Groups/BLUFOR/Group_US_FireTeam_P.et" {
+ components {
+  PS_GroupCallsignAssigner "{6314C2ACBDAA0446}" {
+   m_iCompanyCallsign 4
+   m_iPlatoonCallsign 0
+   m_iSquadCallsign 1
+  }
+  PS_GroupLateLinkerComponent "{63132D755DBD4C1B}" {
+  }
+ }
+ coords 7672.376 12.968 8058.728
+ m_faction "RHS_USAF"
+ m_aUnitPrefabSlots {
+ }
+ m_bDeleteWhenEmpty 0
+ {
+  SCR_ChimeraCharacter : "{15CD521098748196}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_RHS_USAF_USMC_HeliCrew.et" {
+   components {
+    SCR_CharacterRankComponent "{528E6D4286AA2D8F}" {
+     m_iRank LIEUTENANT
+    }
+   }
+   coords -3.422 0.001 1.729
+   angleY -47.491
+  }
+  SCR_ChimeraCharacter : "{42A502E3BB727CEC}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_RHS_USAF_USMC_HeliPilot.et" {
+   components {
+    SCR_CharacterRankComponent "{528E6D4286AA2D8F}" {
+     m_iRank CAPTAIN
+    }
+   }
+   coords -1.765 -0.011 3.633
+   angleY -57.775
+  }
+ }
+}
+$grp SCR_AIGroup : "{BC357974A560F678}Prefabs/Groups/BLUFOR/Group_US_RifleSquad_p.et" {
+ RHS_USAF_G_021_0 {
+  components {
+   PS_GroupCallsignAssigner "{6314C2ACB825DD11}" {
+    m_iCompanyCallsign 2
+    m_iPlatoonCallsign 2
+   }
+   PS_GroupLateLinkerComponent "{63132D6BE8E6E31E}" {
+   }
+  }
+  coords 7485.053 7.93 6749.342
+  m_faction "RHS_USAF"
+  m_aUnitPrefabSlots {
+  }
+  m_bDeleteWhenEmpty 0
+  {
+   SCR_ChimeraCharacter : "{19678B9267B3574A}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_RHS_USAF_USMC_Sniper.et" {
+    components {
+     SCR_CharacterRankComponent "{528E6D4286AA2D8F}" {
+      m_iRank CORPORAL
+     }
+    }
+    coords 0.51 -0.836 1.95
+    angleY 116.505
+   }
+   SCR_ChimeraCharacter : "{40E763EC857ABAEB}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/RandomSoldiers/Character_RHS_USAF_USMC_Medic_Random.et" {
+    coords -3.034 -0.836 -2.651
+    angleY 109.993
+   }
+   SCR_ChimeraCharacter : "{57D7778DA629BF0F}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/RandomSoldiers/Character_RHS_USAF_USMC_Rifleman_Random.et" {
+    coords -2.278 -0.836 -1.587
+    angleY 102.913
+   }
+   SCR_ChimeraCharacter : "{5C3FF716750A085F}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/RandomSoldiers/Character_RHS_USAF_USMC_TL_Random.et" {
+    components {
+     SCR_CharacterRankComponent "{528E6D4286AA2D8F}" {
+      m_iRank SERGEANT
+     }
+    }
+    coords -0.386 -0.836 0.631
+    angleY 114.025
+   }
+   SCR_ChimeraCharacter : "{759DC7C1C5FC83F3}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/RandomSoldiers/Character_RHS_USAF_USMC_SL_Random.et" {
+    components {
+     SCR_CharacterRankComponent "{528E6D4286AA2D8F}" {
+      m_iRank MAJOR
+     }
+    }
+    coords 4.029 -0.836 4.78
+    angleY -145.628
+   }
+   SCR_ChimeraCharacter : "{C5311933AC48383B}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/RandomSoldiers/Character_RHS_USAF_USMC_Scout_RTO_Random.et" {
+    components {
+     SCR_CharacterRankComponent "{528E6D4286AA2D8F}" {
+      m_iRank SERGEANT
+     }
+    }
+    coords 1.459 -0.836 3.053
+    angleY 113.749
+   }
+   SCR_ChimeraCharacter : "{DD4AB5167583D365}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/RandomSoldiers/Character_RHS_USAF_USMC_TL_Marksman_Random.et" {
+    components {
+     SCR_CharacterRankComponent "{528E6D4286AA2D8F}" {
+      m_iRank LIEUTENANT
+     }
+    }
+    coords 2.253 -0.836 4.088
+    angleY 115.195
+   }
+   SCR_ChimeraCharacter : "{DFF4E8E8C95E071E}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/RandomSoldiers/Character_RHS_USAF_USMC_LAT_Random.et" {
+    components {
+     SCR_CharacterRankComponent "{528E6D4286AA2D8F}" {
+      m_iRank CORPORAL
+     }
+    }
+    coords -1.34 -0.836 -0.515
+    angleY 120.512
+   }
+  }
+ }
+ RHS_USAF_G_020_0 {
+  components {
+   PS_GroupCallsignAssigner "{6314C2ACB6C7B076}" {
+    m_iCompanyCallsign 2
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 0
+   }
+   PS_GroupLateLinkerComponent "{63132D6BE451000D}" {
+   }
+  }
+  coords 7456.648 7.993 6756.931
+  m_faction "RHS_USAF"
+  m_aUnitPrefabSlots {
+  }
+  m_bDeleteWhenEmpty 0
+  {
+   SCR_ChimeraCharacter : "{40E763EC857ABAEB}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/RandomSoldiers/Character_RHS_USAF_USMC_Medic_Random.et" {
+    components {
+     SCR_CharacterRankComponent "{528E6D4286AA2D8F}" {
+      m_iRank CORPORAL
+     }
+    }
+    coords 15.68 0 10.078
+    angleY -68.108
+   }
+   SCR_ChimeraCharacter : "{57D7778DA629BF0F}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/RandomSoldiers/Character_RHS_USAF_USMC_Rifleman_Random.et" {
+    coords 18.231 0 12.886
+    angleY -63.528
+   }
+   SCR_ChimeraCharacter : "{5850B1728AE5E857}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/RandomSoldiers/Character_RHS_USAF_USMC_Sergeant_Random.et" {
+    components {
+     SCR_CharacterRankComponent "{528E6D4286AA2D8F}" {
+      m_iRank LIEUTENANT
+     }
+    }
+    coords 0.965 0 2.472
+    angleY -69.421
+   }
+   SCR_ChimeraCharacter : "{759DC7C1C5FC83F3}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/RandomSoldiers/Character_RHS_USAF_USMC_SL_Random.et" {
+    components {
+     SCR_CharacterRankComponent "{528E6D4286AA2D8F}" {
+      m_iRank CAPTAIN
+     }
+    }
+    coords -1.354 0 2.295
+    angleY 127.049
+   }
+   SCR_ChimeraCharacter : "{AF20B5937AFCD55C}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/RandomSoldiers/Character_RHS_USAF_USMC_AMG_Random.et" {
+    components {
+     SCR_CharacterRankComponent "{528E6D4286AA2D8F}" {
+      m_iRank CORPORAL
+     }
+    }
+    coords 0.399 0 8.482
+    angleY 116.639
+   }
+   SCR_ChimeraCharacter : "{C5311933AC48383B}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/RandomSoldiers/Character_RHS_USAF_USMC_Scout_RTO_Random.et" {
+    coords 4.3 0 -4.799
+    angleY -164.992
+   }
+   SCR_ChimeraCharacter : "{DD4AB5167583D365}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/RandomSoldiers/Character_RHS_USAF_USMC_TL_Marksman_Random.et" {
+    coords 11.654 0 22.519
+    angleY 123.942
+   }
+   SCR_ChimeraCharacter : "{FD7312CB51653D61}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/RandomSoldiers/Character_RHS_USAF_USMC_MG_Random.et" {
+    components {
+     SCR_CharacterRankComponent "{528E6D4286AA2D8F}" {
+      m_iRank SERGEANT
+     }
+    }
+    coords 2.645 0 11.126
+    angleY 127.555
+   }
+  }
+ }
+ RHS_USAF_G_002_0 {
+  components {
+   PS_GroupCallsignAssigner "{6314C2AC8C880564}" {
+    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 0
+   }
+   PS_GroupLateLinkerComponent "{63132D6BE06F0CD8}" {
+   }
+  }
+  coords 7390.85 9.687 6702.894
+  m_faction "RHS_USAF"
+  m_aUnitPrefabSlots {
+  }
+  m_bDeleteWhenEmpty 0
+  {
+   SCR_ChimeraCharacter : "{3BC0B233C4B8C78E}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/RandomSoldiers/Character_RHS_USAF_USMC_RTO_Random.et" {
+    components {
+     SCR_CharacterRankComponent "{528E6D4286AA2D8F}" {
+      m_iRank SERGEANT
+     }
+    }
+    coords -16.719 0.094 -1.648
+    angleY 128.904
+   }
+   SCR_ChimeraCharacter : "{40E763EC857ABAEB}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/RandomSoldiers/Character_RHS_USAF_USMC_Medic_Random.et" {
+    components {
+     SCR_CharacterRankComponent "{528E6D4286AA2D8F}" {
+      m_iRank LIEUTENANT
+     }
+    }
+    coords -15.549 0 10.342
+    angleY 50.899
+   }
+   $grp SCR_ChimeraCharacter : "{57D7778DA629BF0F}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/RandomSoldiers/Character_RHS_USAF_USMC_Rifleman_Random.et" {
+    {
+     components {
+      SCR_CharacterRankComponent "{528E6D4286AA2D8F}" {
+       m_iRank LIEUTENANT
+      }
+     }
+     coords -12.736 0.301 -7.131
+     angleY 77.439
+    }
+    {
+     coords -0.987 0.045 -12.159
+    }
+   }
+   SCR_ChimeraCharacter : "{5C3FF716750A085F}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/RandomSoldiers/Character_RHS_USAF_USMC_TL_Random.et" {
+    components {
+     SCR_CharacterRankComponent "{528E6D4286AA2D8F}" {
+      m_iRank SERGEANT
+     }
+    }
+    coords -13.972 0.001 11.97
+    angleY -136.353
+   }
+   SCR_ChimeraCharacter : "{759DC7C1C5FC83F3}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/RandomSoldiers/Character_RHS_USAF_USMC_SL_Random.et" {
+    components {
+     SCR_CharacterRankComponent "{528E6D4286AA2D8F}" {
+      m_iRank CAPTAIN
+     }
+    }
+    coords -12.802 0.301 -2.451
+    angleY -162.37
+   }
+   $grp SCR_ChimeraCharacter : "{FBD08843D6ECEE72}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/RandomSoldiers/Character_RHS_USAF_USMC_GL_Random.et" {
+    {
+     components {
+      SCR_CharacterRankComponent "{528E6D4286AA2D8F}" {
+       m_iRank CORPORAL
+      }
+     }
+     coords -4.859 0.043 -3.249
+     angleY -150.101
+    }
+    {
+     coords -10.202 0.042 1.164
+     angleY 33.077
+    }
+   }
+  }
+ }
+ RHS_USAF_G_010_0 {
+  components {
+   PS_GroupCallsignAssigner "{6314C2ACB03A6AFF}" {
+    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 0
+   }
+   PS_GroupLateLinkerComponent "{63132D6BFC7143F4}" {
+   }
+  }
+  coords 7402.762 9.699 6717.036
+  angleZ -0.895
+  m_faction "RHS_USAF"
+  m_aUnitPrefabSlots {
+  }
+  m_bDeleteWhenEmpty 0
+  {
+   SCR_ChimeraCharacter : "{010D40B28DAA33D8}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/RandomSoldiers/Character_RHS_USAF_USMC_AR_Random.et" {
+    components {
+     SCR_CharacterRankComponent "{528E6D4286AA2D8F}" {
+      m_iRank LIEUTENANT
+     }
+    }
+    coords -2.116 0.021 5.122
+    angleX -0.861
+    angleY 105.811
+    angleZ -0.244
+   }
+   SCR_ChimeraCharacter : "{3BC0B233C4B8C78E}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/RandomSoldiers/Character_RHS_USAF_USMC_RTO_Random.et" {
+    coords -4.333 0.056 2.969
+    angleX -0.405
+    angleY 153.077
+    angleZ -0.798
+   }
+   SCR_ChimeraCharacter : "{57D7778DA629BF0F}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/RandomSoldiers/Character_RHS_USAF_USMC_Rifleman_Random.et" {
+    components {
+     SCR_CharacterRankComponent "{528E6D4286AA2D8F}" {
+      m_iRank CORPORAL
+     }
+    }
+    coords -2.07 0.02 3.433
+    angleX -0.798
+    angleY 63.051
+    angleZ 0.406
+   }
+   $grp SCR_ChimeraCharacter : "{5C3FF716750A085F}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/RandomSoldiers/Character_RHS_USAF_USMC_TL_Random.et" {
+    {
+     components {
+      SCR_CharacterRankComponent "{528E6D4286AA2D8F}" {
+       m_iRank LIEUTENANT
+      }
+     }
+     coords 0.172 -0.015 3.961
+     angleX 0.858
+     angleY -73.457
+     angleZ 0.255
+    }
+    {
+     components {
+      SCR_CharacterRankComponent "{528E6D4286AA2D8F}" {
+       m_iRank SERGEANT
+      }
+     }
+     coords -3.603 0.044 1
+     angleX 0.807
+     angleY -64.392
+     angleZ 0.387
+    }
+   }
+   SCR_ChimeraCharacter : "{759DC7C1C5FC83F3}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/RandomSoldiers/Character_RHS_USAF_USMC_SL_Random.et" {
+    components {
+     SCR_CharacterRankComponent "{528E6D4286AA2D8F}" {
+      m_iRank CAPTAIN
+     }
+    }
+    coords -1.714 0.015 1.772
+    angleZ 0.895
+   }
+   SCR_ChimeraCharacter : "{DFF4E8E8C95E071E}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/RandomSoldiers/Character_RHS_USAF_USMC_LAT_Random.et" {
+    coords -6.072 0.083 1.966
+    angleX -0.866
+    angleY 104.738
+    angleZ -0.228
+   }
+   SCR_ChimeraCharacter : "{F455E2BE73339F32}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/RandomSoldiers/Character_RHS_USAF_USMC_AAR_Random.et" {
+    components {
+     SCR_CharacterRankComponent "{528E6D4286AA2D8F}" {
+      m_iRank LIEUTENANT
+     }
+    }
+    coords -0.594 -0.003 5.66
+    angleX -0.071
+    angleY 175.432
+    angleZ -0.892
+   }
+  }
+ }
+ RHS_USAF_G_011_0 {
+  components {
+   PS_GroupCallsignAssigner "{6314C2ACB2FA3A65}" {
+    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 2
+   }
+   PS_GroupLateLinkerComponent "{63132D6BF2698D90}" {
+   }
+  }
+  coords 7417.83 9.688 6740.742
+  m_faction "RHS_USAF"
+  m_aUnitPrefabSlots {
+  }
+  m_bDeleteWhenEmpty 0
+  {
+   SCR_ChimeraCharacter : "{40E763EC857ABAEB}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/RandomSoldiers/Character_RHS_USAF_USMC_Medic_Random.et" {
+    coords 0.577 0 0.497
+    angleY 115.045
+   }
+   SCR_ChimeraCharacter : "{57D7778DA629BF0F}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/RandomSoldiers/Character_RHS_USAF_USMC_Rifleman_Random.et" {
+    coords 2.565 0 -3.305
+    angleY -9.556
+   }
+   $grp SCR_ChimeraCharacter : "{5C3FF716750A085F}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/RandomSoldiers/Character_RHS_USAF_USMC_TL_Random.et" {
+    {
+     components {
+      SCR_CharacterRankComponent "{528E6D4286AA2D8F}" {
+       m_iRank LIEUTENANT
+      }
+     }
+     coords 0.049 0 -1.244
+     angleY 65.652
+    }
+    {
+     components {
+      SCR_CharacterRankComponent "{528E6D4286AA2D8F}" {
+       m_iRank SERGEANT
+      }
+     }
+     coords 3.246 0 2.816
+     angleY 160.641
+    }
+   }
+   SCR_ChimeraCharacter : "{759DC7C1C5FC83F3}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/RandomSoldiers/Character_RHS_USAF_USMC_SL_Random.et" {
+    components {
+     SCR_CharacterRankComponent "{528E6D4286AA2D8F}" {
+      m_iRank CAPTAIN
+     }
+    }
+    coords 2.908 -0.001 -0.805
+    angleY -64.685
+   }
+   SCR_ChimeraCharacter : "{C5311933AC48383B}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/RandomSoldiers/Character_RHS_USAF_USMC_Scout_RTO_Random.et" {
+    components {
+     SCR_CharacterRankComponent "{528E6D4286AA2D8F}" {
+      m_iRank LIEUTENANT
+     }
+    }
+    coords 5.162 0 0.677
+    angleY -121.366
+   }
+   SCR_ChimeraCharacter : "{E82CFE9159CF7C1C}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/RandomSoldiers/Character_RHS_USAF_USMC_Spotter_Random.et" {
+    components {
+     SCR_CharacterRankComponent "{528E6D4286AA2D8F}" {
+      m_iRank SERGEANT
+     }
+    }
+    coords 0.841 0 -2.719
+    angleY 38.066
+   }
+   SCR_ChimeraCharacter : "{FBD08843D6ECEE72}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/RandomSoldiers/Character_RHS_USAF_USMC_GL_Random.et" {
+    components {
+     SCR_CharacterRankComponent "{528E6D4286AA2D8F}" {
+      m_iRank CORPORAL
+     }
+    }
+    coords 1.591 0 2.126
+    angleY 142.884
+   }
+  }
+ }
+ RHS_USAF_G_012_0 {
+  components {
+   PS_GroupCallsignAssigner "{6314C2ACB4F6CDCE}" {
+    m_iCompanyCallsign 2
+   }
+   PS_GroupLateLinkerComponent "{63132D6BCD894B6E}" {
+   }
+  }
+  coords 7432.073 9.647 6754.381
+  m_faction "RHS_USAF"
+  m_aUnitPrefabSlots {
+  }
+  m_bDeleteWhenEmpty 0
+  {
+   SCR_ChimeraCharacter : "{010D40B28DAA33D8}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/RandomSoldiers/Character_RHS_USAF_USMC_AR_Random.et" {
+    components {
+     SCR_CharacterRankComponent "{528E6D4286AA2D8F}" {
+      m_iRank SERGEANT
+     }
+    }
+    coords -0.013 0.019 -3.059
+    angleY -59.547
+   }
+   SCR_ChimeraCharacter : "{3BC0B233C4B8C78E}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/RandomSoldiers/Character_RHS_USAF_USMC_RTO_Random.et" {
+    components {
+     SCR_CharacterRankComponent "{528E6D4286AA2D8F}" {
+      m_iRank CORPORAL
+     }
+    }
+    coords 3.368 -0.174 1.751
+    angleY -64.908
+   }
+   SCR_ChimeraCharacter : "{40E763EC857ABAEB}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/RandomSoldiers/Character_RHS_USAF_USMC_Medic_Random.et" {
+    coords 4.322 -0.192 2.966
+    angleY -69.893
+   }
+   SCR_ChimeraCharacter : "{57D7778DA629BF0F}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/RandomSoldiers/Character_RHS_USAF_USMC_Rifleman_Random.et" {
+    coords -0.932 0.023 -4.256
+    angleY -53.172
+   }
+   $grp SCR_ChimeraCharacter : "{5C3FF716750A085F}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/RandomSoldiers/Character_RHS_USAF_USMC_TL_Random.et" {
+    {
+     components {
+      SCR_CharacterRankComponent "{528E6D4286AA2D8F}" {
+       m_iRank LIEUTENANT
+      }
+     }
+     coords 1.853 -0.074 -0.6
+     angleY -69.844
+    }
+    {
+     components {
+      SCR_CharacterRankComponent "{528E6D4286AA2D8F}" {
+       m_iRank SERGEANT
+      }
+     }
+     coords 2.5 -0.129 0.512
+     angleY -62.684
+    }
+   }
+   SCR_ChimeraCharacter : "{759DC7C1C5FC83F3}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/RandomSoldiers/Character_RHS_USAF_USMC_SL_Random.et" {
+    components {
+     SCR_CharacterRankComponent "{528E6D4286AA2D8F}" {
+      m_iRank CAPTAIN
+     }
+    }
+    coords -3.97 0.031 2.12
+    angleY 114.932
+   }
+   SCR_ChimeraCharacter : "{F455E2BE73339F32}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/RandomSoldiers/Character_RHS_USAF_USMC_AAR_Random.et" {
+    components {
+     SCR_CharacterRankComponent "{528E6D4286AA2D8F}" {
+      m_iRank CORPORAL
+     }
+    }
+    coords 0.886 -0.002 -1.572
+    angleY -57.581
+   }
+  }
+ }
+}
+SCR_AIGroup RHS_USAF_G_022_0 : "{C0CBE71EB24755D9}Prefabs/Groups/BLUFOR/GreenBerets/Group_US_GreenBeret_Squad_P.et" {
+ components {
+  PS_GroupCallsignAssigner "{6314C2ACBC54BE8D}" {
+   m_iCompanyCallsign 4
+  }
+  PS_GroupLateLinkerComponent "{63132D6BDE8F35EC}" {
+  }
+ }
+ coords 7680.867 12.92 8077.544
+ angleZ -0.895
+ m_faction "RHS_USAF"
+ m_aUnitPrefabSlots {
+ }
+ m_bDeleteWhenEmpty 0
+ {
+  SCR_ChimeraCharacter : "{1BD6FECF0B17994C}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_FORECON/RandomSoldiers/Character_RHS_USAF_FORECON_AMG_Random.et" {
+   components {
+    SCR_CharacterRankComponent "{528E6D4286AA2D8F}" {
+     m_iRank CORPORAL
+    }
+   }
+   coords -0.35 0 -1.034
+   angleX 0.792
+   angleY -62.18
+   angleZ 0.418
+  }
+  SCR_ChimeraCharacter : "{26662CA00FF97B46}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_FORECON/RandomSoldiers/Character_RHS_USAF_FORECON_Scout_Random.et" {
+   components {
+    SCR_CharacterRankComponent "{528E6D4286AA2D8F}" {
+     m_iRank LIEUTENANT
+    }
+   }
+   coords -2.243 0 -3.086
+   angleX 0.739
+   angleY -55.596
+   angleZ 0.506
+  }
+  SCR_ChimeraCharacter : "{51BC0D49301CA3DA}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_FORECON/RandomSoldiers/Character_RHS_USAF_FORECON_MG_Random.et" {
+   components {
+    SCR_CharacterRankComponent "{528E6D4286AA2D8F}" {
+     m_iRank SERGEANT
+    }
+   }
+   coords -1.489 0 -2.144
+   angleX 0.768
+   angleY -59.101
+   angleZ 0.46
+  }
+  SCR_ChimeraCharacter : "{791509B5011A43E0}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_FORECON/RandomSoldiers/Character_RHS_USAF_FORECON_Rifleman_Random.et" {
+   coords 1.361 -0.004 1.835
+   angleX 0.893
+   angleY -85.991
+   angleZ 0.063
+  }
+  SCR_ChimeraCharacter : "{B89C6B2668A11BE9}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_FORECON/RandomSoldiers/Character_RHS_USAF_FORECON_SL_Random.et" {
+   components {
+    SCR_CharacterRankComponent "{528E6D4286AA2D8F}" {
+     m_iRank CAPTAIN
+    }
+   }
+   coords -3.241 -0.012 -4.294
+   angleX 0.647
+   angleY -46.318
+   angleZ 0.618
+  }
+  SCR_ChimeraCharacter : "{C5311933AC48383B}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/RandomSoldiers/Character_RHS_USAF_USMC_Scout_RTO_Random.et" {
+   coords 0.781 0 0.299
+   angleX 0.859
+   angleY -73.585
+   angleZ 0.253
+  }
+ }
+}
+SCR_AIGroup RHS_USAF_G_001_0 : "{FCBE9E46702ED307}Prefabs/Groups/BLUFOR/Group_US_PlatoonHQ_P.et" {
+ components {
+  PS_GroupCallsignAssigner "{6314C2AC99761606}" {
+   m_iCompanyCallsign 0
+   m_iPlatoonCallsign 0
+  }
+  PS_GroupLateLinkerComponent "{63132D7541BF1DE1}" {
+  }
+ }
+ coords 7439.601 12.143 6685.716
+ m_faction "RHS_USAF"
+ m_aUnitPrefabSlots {
+ }
+ m_bDeleteWhenEmpty 0
+ {
+  SCR_ChimeraCharacter : "{69E183B6FCDC5E6E}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/RandomSoldiers/Character_RHS_USAF_USMC_Scout_Random.et" {
+   components {
+    SCR_CharacterRankComponent "{528E6D4286AA2D8F}" {
+     m_iRank SERGEANT
+    }
+   }
+   coords -4.386 -4.267 2.468
+   angleY -18.372
+  }
+  SCR_ChimeraCharacter : "{C5311933AC48383B}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/RandomSoldiers/Character_RHS_USAF_USMC_Scout_RTO_Random.et" {
+   components {
+    SCR_CharacterRankComponent "{528E6D4286AA2D8F}" {
+     m_iRank CORPORAL
+    }
+   }
+   coords -0.091 0 -0.592
+   angleY -29.728
+  }
+  SCR_ChimeraCharacter : "{D67950161BE7FDD5}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_RHS_USAF_USMC_PL.et" {
+   components {
+    PS_PlayableComponent "{5EFCC1946F475F15}" {
+     m_name "Самый Главный ЦРУшник"
+    }
+    SCR_CharacterRankComponent "{528E6D4286AA2D8F}" {
+     m_iRank COLONEL
+    }
+   }
+   coords -2.454 0 1.449
+  }
+  SCR_ChimeraCharacter : "{E82CFE9159CF7C1C}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/RandomSoldiers/Character_RHS_USAF_USMC_Spotter_Random.et" {
+   coords -2.232 -4.268 3.608
+   angleY -63.932
+  }
+ }
+}

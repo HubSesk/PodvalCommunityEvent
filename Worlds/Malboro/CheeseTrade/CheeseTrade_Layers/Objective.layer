@@ -1,0 +1,98 @@
+$grp PS_Objective {
+ Objective_FIA_2 {
+  coords 6372.717 1.219 8897.167
+  m_sTitle "Заполучить Оружие"
+  m_iOrder 1
+  m_iScore 100
+  m_sFactionKey "FIA"
+ }
+ Objective_FIA_3 {
+  coords 6367.05 1.238 8896.779
+  m_sTitle "... И Вернуть Сыр"
+  m_iOrder 2
+  m_iScore 50
+  m_sFactionKey "FIA"
+ }
+ Objective_USSR_1 {
+  coords 6378.001 1.12 8902.291
+  m_sTitle "Завершить Обмен"
+  m_iScore 100
+  m_sFactionKey "USSR"
+ }
+ Objective_US_1 {
+  coords 6378.094 1.054 8906.508
+  m_sTitle "Уничтожить Банды"
+  m_iScore 50
+  m_sFactionKey "US"
+ }
+ Objective_US_2 {
+  coords 6370.058 1.123 8906.045
+  m_sTitle "Пресечь Сделку"
+  m_iOrder 1
+  m_iScore 50
+  m_sFactionKey "US"
+ }
+}
+$grp Vehicle : "{3336BE330C4F355B}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_ammo.et" {
+ Ural4320_ammo2 {
+  coords 7475.396 6.861 7586.723
+ }
+ Ural4320_ammo1 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C58171230A92}" {
+    MultiSlots {
+     MultiSlotConfiguration "{5A60D38EDB3709A9}" {
+      NumSlots 6
+     }
+     MultiSlotConfiguration "{61B87E55C39DF492}" {
+      SlotTemplate InventoryStorageSlot AKs {
+       Prefab "{FA5C25BF66A53DCF}Prefabs/Weapons/Rifles/AK74/Rifle_AK74.et"
+      }
+      NumSlots 8
+     }
+     MultiSlotConfiguration "{61B87E55C5BA2936}" {
+      SlotTemplate InventoryStorageSlot Magazines {
+       Prefab "{0A84AA5A3884176F}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Last_5Tracer.et"
+      }
+      NumSlots 36
+     }
+    }
+   }
+  }
+  coords 7260.132 46.891 7672.89
+ }
+}
+$grp Vehicle : "{FB219B49A448A8EA}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered_CIV_JZD.et" {
+ Ural4320_transport_covered_CIV_JZD2 {
+  coords 6289.46 163.351 6563.255
+  angleY -164.578
+ }
+ Ural4320_transport_covered_CIV_JZD1 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C58171230A92}" {
+    MultiSlots {
+     MultiSlotConfiguration "{61B87E55AABBD1D0}" {
+      SlotTemplate InventoryStorageSlot Cheese {
+       Prefab "{2F8F0BFDF42FC830}Prefabs/Food/CheeseRound_2.et"
+      }
+      NumSlots 6
+     }
+     MultiSlotConfiguration "{61B87E5542EDAF9B}" {
+      SlotTemplate InventoryStorageSlot CheeseCake {
+       Prefab "{386F3C7B426699BD}Prefabs/Food/CheeseSmol_2.et"
+      }
+      NumSlots 12
+     }
+    }
+   }
+   SlotManagerComponent "{55BCE45E438E4CFF}" {
+    Slots {
+     RegisteringComponentSlotInfo Cargo {
+      Prefab "{159F48EDCF903D1F}Prefabs/Vehicles/Wheeled/Ural4320/VehParts/Ural4320_cargo_canvas_closed.et"
+     }
+    }
+   }
+  }
+  coords 6428.777 162.217 6483.88
+ }
+}

@@ -1,0 +1,370 @@
+SCR_AIGroup Group_Monolith : "{17C7309FFE4775B0}Prefabs/Groups/INDFOR/Group_FIA_RifleSquad_P.et" {
+ components {
+  PS_GroupCallsignAssigner "{6314C2ACCD430221}" {
+   m_iCompanyCallsign 0
+   m_iPlatoonCallsign 0
+  }
+  PS_GroupLateLinkerComponent "{63132D65AF8BEEC9}" {
+  }
+ }
+ coords 5818.483 6.369 3474.558
+ m_aUnitPrefabSlots {
+ }
+ m_bDeleteWhenEmpty 0
+ {
+  $grp SCR_ChimeraCharacter : "{722AF7C2C7C14B35}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Unarmed_P.et" {
+   {
+    components {
+     PS_PlayableComponent "{5EFCC1946F475F15}" {
+      m_name "Эдвард Лихач"
+     }
+     SCR_CharacterRankComponent "{528E6D4286AA2D8F}" {
+      m_iRank LIEUTENANT
+     }
+     CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
+      WeaponTemplate "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+     }
+     CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+      WeaponTemplate "{EC5C256DEDBA9E5E}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_kac600_elcanPeq.et"
+     }
+     CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+      WeaponTemplate "{E8A55396050E1762}Prefabs/Weapons/Launchers/RPG7/Launcher_RPG7_pgo7.et"
+     }
+     BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+      Slots {
+       LoadoutSlotInfo Hat {
+        Prefab "{9911F55EC05D1A64}Prefabs/Characters/HeadGear/Hat_Patrol_US_01/Hat_Patrol_US_02.et"
+       }
+       LoadoutSlotInfo Jacket {
+        Prefab "{B0F4EAC29E9058EA}Prefabs/Characters/Uniforms/Shirt_Turtleneck_01/Shirt_Turtleneck_01_grey.et"
+       }
+       LoadoutSlotInfo ArmoredVest {
+        Prefab "{EC914CF14AD01C67}Prefabs/Characters/Vests/Vest_AVS/Vest_AVS_6x9_MCBlk.et"
+       }
+       LoadoutSlotInfo Pants {
+        Prefab "{AE4A4446787BFB2D}Prefabs/Characters/Uniforms/Pants_M88_VSR.et"
+       }
+       LoadoutSlotInfo Boots {
+        Prefab "{21B331B5FA807997}Prefabs/Characters/Footwear/Boots_Rocky_SV2/Footwear_Rocky_SV2.et"
+       }
+       LoadoutSlotInfo Back {
+        Prefab "{6A39B5843B3F36DA}Prefabs/Items/Equipment/Backpacks/Backpack_RPG_Assistant.et"
+       }
+       LoadoutSlotInfo Vest {
+        Prefab "{7C8DB0CFC233A993}Prefabs/Characters/Vests/Vest_AVS/Variants/Vest_AVS_6x9_MCBlk_ronin.et"
+       }
+      }
+     }
+     SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+      InitialInventoryItems {
+       ItemsInitConfigurationItem "{5D7CC173FAA7C00E}" {
+        TargetStorage "Prefabs/Characters/Uniforms/Pants_M88_VSR.et"
+        PrefabsToSpawn {
+         "{540C08AD5F21A5FA}Prefabs/Items/Equipment/Radios/Radio_R148_FIA.et" "{7CEF68E2BC68CE71}Prefabs/Items/Equipment/Compass/Compass_Adrianov.et" "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/PaperMap_01_folded.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et"
+        }
+       }
+       ItemsInitConfigurationItem "{5D7CC173FAA7C00C}" {
+        TargetStorage "Prefabs/Characters/Vests/Vest_AVS/Vest_AVS_6x9_MCBlk.et"
+       }
+       ItemsInitConfigurationItem "{63132D58026CCF45}" {
+        TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_PCGEN3_takoPouch_MCBlk.et"
+        PrefabsToSpawn {
+         "{81B4C77D9608C574}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_SP_B_30rnd_M855A1_Last5Tracer.et" "{81B4C77D9608C574}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_SP_B_30rnd_M855A1_Last5Tracer.et" "{81B4C77D9608C574}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_SP_B_30rnd_M855A1_Last5Tracer.et" "{81B4C77D9608C574}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_SP_B_30rnd_M855A1_Last5Tracer.et"
+        }
+       }
+       ItemsInitConfigurationItem "{63132D59DE98505C}" {
+        TargetStorage "Prefabs/Characters/Vests/Vest_JPC_Pouches/Pouch_avs_front_elastic_MCBlk.et"
+        PrefabsToSpawn {
+         "{81B4C77D9608C574}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_SP_B_30rnd_M855A1_Last5Tracer.et" "{81B4C77D9608C574}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_SP_B_30rnd_M855A1_Last5Tracer.et" "{81B4C77D9608C574}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_SP_B_30rnd_M855A1_Last5Tracer.et"
+        }
+       }
+       ItemsInitConfigurationItem "{63132D46B2ADC522}" {
+        TargetStorage "Prefabs/Items/Equipment/Backpacks/Backpack_RPG_Assistant.et"
+        PrefabsToSpawn {
+         "{32E12D322E107F1C}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VM.et" "{32E12D322E107F1C}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VM.et" "{32E12D322E107F1C}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VM.et"
+        }
+       }
+      }
+     }
+    }
+    coords -1.178 -0.463 -2.115
+   }
+   {
+    components {
+     PS_PlayableComponent "{5EFCC1946F475F15}" {
+      m_name "Филлип Кочевник"
+     }
+     CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+      WeaponTemplate "{F55D67A121EBB20E}Prefabs/Weapons/Rifles/AK74M/Rifle_AK74M_npz_rail_1p86-1.et"
+     }
+     BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+      Slots {
+       LoadoutSlotInfo Hat {
+        Prefab "{B9687B8829272E14}Prefabs/Characters/HeadGear/Hat_Knitted_01/Hat_Knitted_01_brown.et"
+       }
+       LoadoutSlotInfo Jacket {
+        Prefab "{49C8C96043852020}Prefabs/Characters/Uniforms/LongSleeve_Shirts/Hoodie_RHS_Shirt_black_dots.et"
+       }
+       LoadoutSlotInfo ArmoredVest {
+        Prefab "{B7B6E9431730E4FF}Prefabs/Characters/Vests/Vest_AVS/Vest_AVS_Coy.et"
+       }
+       LoadoutSlotInfo Pants {
+        Prefab "{2F53BB6ABA54488B}Prefabs/Characters/Uniforms/Pants_Hiking/hiking_pants_khaki.et"
+       }
+       LoadoutSlotInfo Boots {
+        Prefab "{64B94D8A4D92A4BD}Prefabs/Characters/Footwear/Boots_Altama/Footwear_Altama.et"
+       }
+       LoadoutSlotInfo Back {
+        Prefab "{E90F2EB67A9CF49A}Prefabs/Items/Equipment/Backpacks/Backpack_Medical_Soviet_NoCross_02.et"
+       }
+       LoadoutSlotInfo Vest {
+        Prefab "{A1F502A90AD57908}Prefabs/Characters/Vests/Vest_AVS/Variants/Vest_AVS_okinawa_Coy_6x6.et"
+       }
+      }
+     }
+     SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+      InitialInventoryItems {
+       ItemsInitConfigurationItem "{5D7CC173FAA7C00E}" {
+        TargetStorage "Prefabs/Characters/Uniforms/Pants_Hiking/hiking_pants_khaki.et"
+        PrefabsToSpawn {
+         "{540C08AD5F21A5FA}Prefabs/Items/Equipment/Radios/Radio_R148_FIA.et" "{7CEF68E2BC68CE71}Prefabs/Items/Equipment/Compass/Compass_Adrianov.et" "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/PaperMap_01_folded.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et"
+        }
+       }
+       ItemsInitConfigurationItem "{5D7CC173FAA7C00C}" {
+        TargetStorage "Prefabs/Characters/Uniforms/LongSleeve_Shirts/Hoodie_RHS_Shirt_black_dots.et"
+       }
+       ItemsInitConfigurationItem "{63132D5C73496A3C}" {
+        TargetStorage "Prefabs/Characters/Vests/Vest_JPC_Pouches/Pouch_avs_front_closed_Coy.et"
+        PrefabsToSpawn {
+         "{0FD71EAC637C1624}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Last_5Tracer_camo.et" "{0FD71EAC637C1624}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Last_5Tracer_camo.et" "{0FD71EAC637C1624}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Last_5Tracer_camo.et" "{0FD71EAC637C1624}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Last_5Tracer_camo.et" "{0FD71EAC637C1624}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Last_5Tracer_camo.et" "{0FD71EAC637C1624}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Last_5Tracer_camo.et"
+        }
+       }
+       ItemsInitConfigurationItem "{63132D5C297DF6E8}" {
+        TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_FILBE_doubleM4_3.et"
+        PrefabsToSpawn {
+         "{0FD71EAC637C1624}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Last_5Tracer_camo.et" "{0FD71EAC637C1624}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Last_5Tracer_camo.et"
+        }
+       }
+       ItemsInitConfigurationItem "{63132D461757CCE1}" {
+        TargetStorage "Prefabs/Items/Equipment/Backpacks/Backpack_Medical_Soviet_NoCross_02.et"
+        PrefabsToSpawn {
+         "{33CBDE73AB48172A}Prefabs/Weapons/Explosives/DemoBlock_M112/DemoBlock_M112.et" "{33CBDE73AB48172A}Prefabs/Weapons/Explosives/DemoBlock_M112/DemoBlock_M112.et" "{33CBDE73AB48172A}Prefabs/Weapons/Explosives/DemoBlock_M112/DemoBlock_M112.et" "{33CBDE73AB48172A}Prefabs/Weapons/Explosives/DemoBlock_M112/DemoBlock_M112.et" "{90976DC90A223095}Prefabs/Items/Equipment/Detonators/BlastingMachine_KPM_3U1/BlastingMachine_KPM_3U1.et"
+        }
+       }
+      }
+     }
+    }
+    coords 14.523 -0.586 -7.141
+    angleY 111.384
+   }
+   {
+    components {
+     PS_PlayableComponent "{5EFCC1946F475F15}" {
+      m_name "Александр Маньяк"
+     }
+     SCR_CharacterRankComponent "{528E6D4286AA2D8F}" {
+      m_iRank SERGEANT
+     }
+     CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+      WeaponTemplate "{C828F6D563E1A9BE}Prefabs/Weapons/Rifles/SVD/Rifle_SVD_PSO_7N14.et"
+     }
+     CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
+      WeaponTemplate "{E998FA484B0C4BFF}Prefabs/Weapons/Handguns/Glock/Handgun_Glock17.et"
+     }
+     BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+      Slots {
+       LoadoutSlotInfo Hat {
+        Prefab "{6D6ADA201AD4E09B}Prefabs/Characters/HeadGear/Headphones_Peltor/Headphones_Peltor_olive.et"
+       }
+       LoadoutSlotInfo Jacket {
+        Prefab "{43C6129204623BF0}Prefabs/Characters/Uniforms/Jacket_Waffletop/Jacket_Waffletop.et"
+       }
+       LoadoutSlotInfo ArmoredVest {
+        Prefab "{651F08B36A2E2A0C}Prefabs/Characters/Vests/Vest_CPC_NCPC/Vest_NCPC_AOR2.et"
+       }
+       LoadoutSlotInfo Pants {
+        Prefab "{B3123B204D2C0BFD}Prefabs/Characters/Uniforms/Pants_FROG_Trousers_AOR2.et"
+       }
+       LoadoutSlotInfo Boots {
+        Prefab "{24F6795DC36C79D7}Prefabs/Characters/Footwear/Boots_Luma/Footwear_Luma.et"
+       }
+       LoadoutSlotInfo Back {
+        Prefab "{4805E67E2AE30F8D}Prefabs/Items/Equipment/Backpacks/Backpack_Medical_M5.et"
+       }
+      }
+     }
+     SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+      InitialInventoryItems {
+       ItemsInitConfigurationItem "{5D7CC173FAA7C00E}" {
+        TargetStorage "Prefabs/Characters/Uniforms/Pants_FROG_Trousers_AOR2.et"
+        PrefabsToSpawn {
+         "{540C08AD5F21A5FA}Prefabs/Items/Equipment/Radios/Radio_R148_FIA.et" "{7CEF68E2BC68CE71}Prefabs/Items/Equipment/Compass/Compass_Adrianov.et" "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/PaperMap_01_folded.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
+        }
+       }
+       ItemsInitConfigurationItem "{5D7CC173FAA7C00C}" {
+        TargetStorage "Prefabs/Items/Equipment/Backpacks/Backpack_Medical_M5.et"
+        PrefabsToSpawn {
+         "{1F9F751F318EBEB0}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et" "{1F9F751F318EBEB0}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et" "{1F9F751F318EBEB0}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et" "{1F9F751F318EBEB0}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et" "{1F9F751F318EBEB0}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et" "{1F9F751F318EBEB0}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et" "{F20D1122BC5CD9F2}Prefabs/Weapons/Magazines/glock_magazine/Magazine_9x19_Glock_17rnd.et" "{F20D1122BC5CD9F2}Prefabs/Weapons/Magazines/glock_magazine/Magazine_9x19_Glock_17rnd.et" "{F20D1122BC5CD9F2}Prefabs/Weapons/Magazines/glock_magazine/Magazine_9x19_Glock_17rnd.et" "{F20D1122BC5CD9F2}Prefabs/Weapons/Magazines/glock_magazine/Magazine_9x19_Glock_17rnd.et"
+        }
+       }
+      }
+     }
+    }
+    coords -28.629 -0.168 8.92
+    angleY -42.76
+   }
+   {
+    components {
+     PS_PlayableComponent "{5EFCC1946F475F15}" {
+      m_name "Джонни Бунгало"
+     }
+     SCR_CharacterRankComponent "{528E6D4286AA2D8F}" {
+      m_iRank CAPTAIN
+     }
+     CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+      WeaponTemplate "{A7F6CE7849B7CA81}Prefabs/Weapons/Rifles/M27IAR/Rifle_M38SDMR_M8541.et"
+     }
+     BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+      Slots {
+       LoadoutSlotInfo Hat {
+        Prefab "{F31A715FFDB2BD8E}Prefabs/Characters/HeadGear/Helmet_M1_01/Helmet_M1_01_Cover_Frogskin.et"
+       }
+       LoadoutSlotInfo Jacket {
+        Prefab "{82636AE5B3001BFB}Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_Rolled_frogskin.et"
+       }
+       LoadoutSlotInfo ArmoredVest {
+        Prefab "{762D9493876651C4}Prefabs/Characters/Vests/Vest_TV102/Vest_TV102_FG.et"
+       }
+       LoadoutSlotInfo Pants {
+        Prefab "{B3123B204D2C0BFD}Prefabs/Characters/Uniforms/Pants_FROG_Trousers_AOR2.et"
+       }
+       LoadoutSlotInfo Vest {
+        Prefab "{652A691C3404B99C}Prefabs/Characters/Vests/Vest_PCGen_II/Variants/Vest_PCGen_II_tako3.et"
+       }
+      }
+     }
+     SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+      InitialInventoryItems {
+       ItemsInitConfigurationItem "{5D7CC173FAA7C00E}" {
+        TargetStorage "Prefabs/Characters/Uniforms/Pants_FROG_Trousers_AOR2.et"
+        PrefabsToSpawn {
+         "{540C08AD5F21A5FA}Prefabs/Items/Equipment/Radios/Radio_R148_FIA.et" "{7CEF68E2BC68CE71}Prefabs/Items/Equipment/Compass/Compass_Adrianov.et" "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/PaperMap_01_folded.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et"
+        }
+       }
+       ItemsInitConfigurationItem "{5D7CC173FAA7C00C}" {
+        TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_FILBE_doubleM4_1.et"
+        TargetPurpose 1
+        PrefabsToSpawn {
+         "{9749CCE07F466A68}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M995.et" "{9749CCE07F466A68}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M995.et"
+        }
+       }
+       ItemsInitConfigurationItem "{63132D41B76D87F4}" {
+        TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_FILBE_doubleM4_3.et"
+        PrefabsToSpawn {
+         "{BD30BE4A3D8B9DAC}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1_last5tracer.et" "{BD30BE4A3D8B9DAC}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1_last5tracer.et"
+        }
+       }
+       ItemsInitConfigurationItem "{63132D41A3146AFF}" {
+        TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_FILBE_doubleM4_2.et"
+        PrefabsToSpawn {
+         "{9749CCE07F466A68}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M995.et" "{9749CCE07F466A68}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M995.et"
+        }
+       }
+       ItemsInitConfigurationItem "{63132D41AE95D58C}" {
+        TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_FILBE_doubleM4_2.et"
+        PrefabsToSpawn {
+         "{BD30BE4A3D8B9DAC}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1_last5tracer.et" "{BD30BE4A3D8B9DAC}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1_last5tracer.et"
+        }
+       }
+      }
+     }
+    }
+    coords -21.622 -2.882 46.26
+    angleY 164.789
+   }
+  }
+ }
+}
+SCR_AIGroup FIA_G_002_0 : "{734B886D3D2AB350}Prefabs/Groups/INDFOR/Group_FIA_MachineGunTeam_P.et" {
+ components {
+  PS_GroupCallsignAssigner "{6314C2ACF41FBC13}" {
+   m_iCompanyCallsign 2
+   m_iPlatoonCallsign 0
+  }
+  PS_GroupLateLinkerComponent "{63132D655CAF709B}" {
+  }
+ }
+ coords 5796.441 3.682 3516.16
+ m_aUnitPrefabSlots {
+ }
+ m_bDeleteWhenEmpty 0
+ {
+  SCR_ChimeraCharacter Saharov : "{722AF7C2C7C14B35}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Unarmed_P.et" {
+   components {
+    PS_PlayableComponent "{5EFCC1946F475F15}" {
+     m_name "Профессор Сахаров"
+    }
+    BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+     Slots {
+      LoadoutSlotInfo Hat {
+       Prefab "{A22C976003AA5BA3}Prefabs/Characters/HeadGear/Hat_Ushanka_01/Hat_Ushanka_01_folded.et"
+      }
+      LoadoutSlotInfo Jacket {
+       Prefab "{5E4878BA1A8D0AE9}Prefabs/Characters/Uniforms/Shirt_CottonShirt_01/Shirt_CottonShirt_01_V4.et"
+      }
+      LoadoutSlotInfo Pants {
+       Prefab "{8EA4769ECCD02E9A}Prefabs/Characters/Uniforms/Pants_Hiking/hiking_pants_greyblack.et"
+      }
+      LoadoutSlotInfo Boots {
+       Prefab "{057E63449502EBCA}Prefabs/Characters/Footwear/Boots_Salomon/Footwear_Salomon.et"
+      }
+     }
+    }
+    SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+     InitialInventoryItems {
+      ItemsInitConfigurationItem "{5D7CC173FAA7C00E}" {
+       TargetStorage "Prefabs/Characters/Uniforms/Shirt_CottonShirt_01/Shirt_CottonShirt_01_V4.et"
+       PrefabsToSpawn {
+        "{7CEF68E2BC68CE71}Prefabs/Items/Equipment/Compass/Compass_Adrianov.et" "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/PaperMap_01_folded.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et"
+       }
+      }
+      ItemsInitConfigurationItem "{5D7CC173FAA7C00C}" {
+       PrefabsToSpawn {
+       }
+      }
+     }
+    }
+   }
+   coords 0.647 -0.14 1.049
+   {
+    PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+     coords 0.071 -0.004 0.098
+     m_sImageSet "{10C0A9A305E8B3A4}UI/Imagesets/Tasks/Task_Icons.imageset"
+     m_sImageSetGlow ""
+     m_sQuadName "Icon_Task_Evac_UI"
+     m_sDescription "Профессор"
+     m_aVisibleForFactions {
+      "FIA"
+     }
+    }
+   }
+  }
+ }
+}
+$grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
+ Objective_FIA {
+  coords 5576.835 0.8 3604.231
+  m_sTitle "Чудом защитить доктора"
+  m_iScore 250
+ }
+ Objective_US {
+  coords 5580.943 0.879 3601.3
+  m_sTitle "Захватить Учёного"
+  m_sFactionKey "US"
+ }
+ Objective_USSR {
+  coords 5583.943 0.9 3598.838
+  m_sTitle "Спасти профессора"
+  m_sFactionKey "USSR"
+ }
+}
