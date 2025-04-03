@@ -1,0 +1,173 @@
+SCR_AIGroup RHS_USAF_G_001_4 : "{673C32C19A4CD4A9}Prefabs/Groups/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/Group_USAF_USMC_MEF_D_PlatoonHQ.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "Line"
+  }
+  PS_GroupCallsignAssigner "{65072BFB835A3311}" {
+   m_iCompanyCallsign 0
+   m_iPlatoonCallsign 0
+   m_iSquadCallsign 1
+  }
+ }
+ coords 1401.883 26.737 1578.303
+ angleY -110.092
+ m_aUnitPrefabSlots {
+  "{7D8CAFCBD4AF6FC3}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_MARSOC/RandomSoldiers/Character_RHS_USMC_MARSOC_SL_Random.et" "{C5746D78F7E68FE6}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_MARSOC/Character_RHS_USMC_MARSOC_Spotter.et" "{C0FF3E29DD8E8D51}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_MARSOC/Character_RHS_USMC_MARSOC_RTO.et" "{DBB8D1F13930220E}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_MARSOC/RandomSoldiers/Character_RHS_USMC_MARSOC_Medic_Random.et"
+ }
+}
+SCR_AIGroup RHS_USAF_G_002_2 : "{943BBDFC6F14D18E}Prefabs/Groups/BLUFOR/RHS_USAF/RHS_USAF_MARSOC/Group_USAF_USMC_MARSOC_MedicalSection.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "Line"
+  }
+  PS_GroupCallsignAssigner "{65072BFB84774B60}" {
+   m_iCompanyCallsign 0
+   m_iPlatoonCallsign 0
+   m_iSquadCallsign 2
+  }
+ }
+ coords 1408.071 27.606 1594.776
+ angleY -43.167
+}
+$grp SCR_AIGroup : "{99B7ACB5AA9765F3}Prefabs/Groups/BLUFOR/RHS_USAF/RHS_USAF_MARSOC/Group_USAF_USMC_MARSOC_SniperTeam.et" {
+ RHS_USAF_G_010_2 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{65072BFB85DE5DC9}" {
+    m_iCompanyCallsign 1
+    m_iSquadCallsign 3
+   }
+  }
+  coords 1293.266 19.497 1585.782
+  angleY 5.22
+  m_aUnitPrefabSlots +{
+  }
+ }
+ RHS_USAF_G_011_2 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{65072BFB8AAC5E3A}" {
+    m_iCompanyCallsign 2
+    m_iSquadCallsign 3
+   }
+  }
+  coords 1337.233 19.008 1488.438
+  angleY -64.865
+ }
+}
+$grp SCR_AIGroup : "{DA70F249A8B7A366}Prefabs/Groups/BLUFOR/RHS_USAF/RHS_USAF_MARSOC/Group_USAF_USMC_MARSOC_RifleSquad.et" {
+ RHS_USAF_G_012_9 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{65072BFB8B87F56A}" {
+    m_iCompanyCallsign 2
+    m_iSquadCallsign 1
+   }
+  }
+  coords 1460.234 26.544 1580.459
+  angleY 177.958
+ }
+ RHS_USAF_G_020_9 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{65072BFB8DD26444}" {
+    m_iCompanyCallsign 1
+    m_iSquadCallsign 1
+   }
+  }
+  coords 1433.345 24.977 1644.478
+  angleY 10.155
+ }
+ RHS_USAF_G_021_9 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{65072BFBF32D9589}" {
+    m_iSquadCallsign 3
+   }
+  }
+  coords 1454.36 27.42 1604.538
+  angleY 17.448
+ }
+}
+$grp SCR_AIGroup : "{E4E4DC161AAAD00F}Prefabs/Groups/BLUFOR/RHS_USAF/RHS_USAF_MARSOC/Group_USAF_USMC_MARSOC_LightFireTeam.et" {
+ RHS_USAF_G_010_6 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{6507442BA275E466}" {
+    m_iCompanyCallsign 2
+    m_iSquadCallsign 0
+   }
+  }
+  coords 1313.729 12.444 1345.359
+  angleY -61.886
+  m_aUnitPrefabSlots {
+   "{542E9F1C6459E46F}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_MARSOC/RandomSoldiers/Character_RHS_USMC_MARSOC_TL_Random.et" "{E4D245A6ECB06719}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_MARSOC/RandomSoldiers/Character_RHS_USMC_MARSOC_AR_Random.et" "{35045678DE9B4034}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_MARSOC/RandomSoldiers/Character_RHS_USMC_MARSOC_GL_Random.et" "{844936B168DFAB8E}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_MARSOC/RandomSoldiers/Character_RHS_USMC_MARSOC_Rifleman_Random.et" "{844936B168DFAB8E}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_MARSOC/RandomSoldiers/Character_RHS_USMC_MARSOC_Rifleman_Random.et" "{DBB8D1F13930220E}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_MARSOC/RandomSoldiers/Character_RHS_USMC_MARSOC_Medic_Random.et"
+  }
+ }
+ RHS_USAF_G_100_7 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{65074428A8BFEA1D}" {
+    m_iCompanyCallsign 1
+    m_iSquadCallsign 0
+   }
+  }
+  coords 1119.186 14.457 1575.042
+  angleY 87.361
+  m_aUnitPrefabSlots {
+   "{542E9F1C6459E46F}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_MARSOC/RandomSoldiers/Character_RHS_USMC_MARSOC_TL_Random.et" "{E4D245A6ECB06719}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_MARSOC/RandomSoldiers/Character_RHS_USMC_MARSOC_AR_Random.et" "{35045678DE9B4034}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_MARSOC/RandomSoldiers/Character_RHS_USMC_MARSOC_GL_Random.et" "{844936B168DFAB8E}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_MARSOC/RandomSoldiers/Character_RHS_USMC_MARSOC_Rifleman_Random.et" "{844936B168DFAB8E}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_MARSOC/RandomSoldiers/Character_RHS_USMC_MARSOC_Rifleman_Random.et" "{DBB8D1F13930220E}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_MARSOC/RandomSoldiers/Character_RHS_USMC_MARSOC_Medic_Random.et"
+  }
+ }
+}
+$grp SCR_AIGroup : "{EED98638FF77CEAC}Prefabs/Groups/BLUFOR/RHS_USAF/RHS_USAF_MARSOC/Group_USAF_USMC_MARSOC_MachineGunTeam.et" {
+ RHS_USAF_G_101_3 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{65072BFBF749E102}" {
+    m_iCompanyCallsign 2
+    m_iPlatoonCallsign 0
+    m_iSquadCallsign 2
+   }
+  }
+  coords 1474.469 15.125 1419.596
+  angleY -137.555
+  m_aUnitPrefabSlots + {
+   "{2C2E730835953CE2}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_MARSOC/RandomSoldiers/Character_RHS_USMC_MARSOC_AMG_Random.et"
+  }
+ }
+ RHS_USAF_G_102_3 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{65072BFBF42D616A}" {
+    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 0
+    m_iSquadCallsign 2
+   }
+  }
+  coords 1396.062 30.178 1629.402
+  angleX 1.031
+  angleY -73.324
+  angleZ 5.894
+  m_aUnitPrefabSlots + {
+   "{2C2E730835953CE2}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_MARSOC/RandomSoldiers/Character_RHS_USMC_MARSOC_AMG_Random.et"
+  }
+ }
+}

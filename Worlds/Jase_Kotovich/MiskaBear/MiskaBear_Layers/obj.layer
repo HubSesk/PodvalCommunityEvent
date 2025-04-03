@@ -1,0 +1,46 @@
+PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ coords 1518.548 19.764 1689.42
+ m_sTitle "Новости Острова Пива"
+ m_sTextData "На острове Пива водятся крайне редкие киски."\
+ "Генерал Кротовсий послал спецгруппу армии США на захват данных кисок. Они отловили всех особей на острове и содержат их около вертолетной площадке."\
+ "У этих Кисок высокая регенеративная способность. Данная информация нужна для ученных США. "\
+ "Разведка ВС РФ перехватило переговоры и на остров Пива были отправлены войска РФ для захвата и эвакуации кисок в целях российских ученых."
+ m_aVisibleForFactions {
+  "RHS_USAF" "RHS_AFRF"
+ }
+ m_bEmptyFactionVisibility 1
+ m_bShowForAnyFaction 1
+}
+$grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
+ {
+  coords 1520.306 19.727 1686.963
+  m_sTitle "Спасти Кисок"
+  m_sTextData "Нам нужны эти киски для вечной жизни. "\
+  "Эвакуируйте их любой ценой."
+  m_aVisibleForFactions {
+   "RHS_AFRF"
+  }
+  m_sFactionKey "RHS_AFRF"
+ }
+ {
+  coords 1517.416 19.766 1691.265
+  m_sTitle "Защитить Кисок"
+  m_sTextData "Мы захватили Кисок. Нам нужны их удержать. "\
+  "По данным спутниковой разведки силы РФ высадились на берегу."\
+  "Окажем им радушный прием."
+  m_aVisibleForFactions {
+   "RHS_USAF"
+  }
+  m_sFactionKey "RHS_USAF"
+ }
+}
+PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ coords 1516.113 19.776 1687.339
+ m_MarkerColor 0.028 0.872 0.237 1
+ m_sQuadName "help"
+ m_sDescription "Точка G"
+ m_aVisibleForFactions {
+  "RHS_AFRF" "RHS_USAF"
+ }
+ m_bShowForAnyFaction 1
+}
