@@ -1,0 +1,120 @@
+SCR_AIGroup "(Личная охрана) Ses_TKR_G_002_4" : "{00EE04014F213BCF}Prefabs/Groups/INDFOR/TKR/Group_Ses_TKR_LightFireTeam.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "Line"
+  }
+  PS_GroupCallsignAssigner "{6508DBC05C94D249}" {
+   m_iCompanyCallsign 0
+   m_iPlatoonCallsign 0
+   m_iSquadCallsign 2
+  }
+ }
+ coords 5830.761 270.5 922.612
+ angleY 128.694
+ m_sCustomNameSet "Личная охрана"
+}
+$grp SCR_AIGroup : "{281B7FA5A70021D5}Prefabs/Groups/INDFOR/TKR/Group_Ses_TKR_RifleSquad.et" {
+ Ses_TKR_G_010_9 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{6508DBC05DBFA863}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 0
+   }
+  }
+  coords 3562.835 208.896 640.862
+  angleY -175.396
+  m_aUnitPrefabSlots + {
+   "{8681D616E91698DA}Prefabs/Characters/Factions/INDFOR/TKR/Random/Character_Ses_TKR_Militiamen_AKSU_Random.et" "{C4C9CA3AF8ACDC1A}Prefabs/Characters/Factions/INDFOR/TKR/Random/Character_Ses_TKR_Medic_Random.et"
+  }
+ }
+ Ses_TKR_G_011_9 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{6508DBC05EEFE4A8}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 1
+   }
+  }
+  coords 3482.565 204.907 639.665
+  angleY 12.279
+  m_aUnitPrefabSlots + {
+   "{8681D616E91698DA}Prefabs/Characters/Factions/INDFOR/TKR/Random/Character_Ses_TKR_Militiamen_AKSU_Random.et" "{C4C9CA3AF8ACDC1A}Prefabs/Characters/Factions/INDFOR/TKR/Random/Character_Ses_TKR_Medic_Random.et"
+  }
+ }
+ Ses_TKR_G_012_9 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{6508DBC0408C2EC7}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 2
+   }
+  }
+  coords 3524.521 207.219 643.038
+  angleY -175.264
+  m_aUnitPrefabSlots + {
+   "{8681D616E91698DA}Prefabs/Characters/Factions/INDFOR/TKR/Random/Character_Ses_TKR_Militiamen_AKSU_Random.et" "{C4C9CA3AF8ACDC1A}Prefabs/Characters/Factions/INDFOR/TKR/Random/Character_Ses_TKR_Medic_Random.et"
+  }
+ }
+ Ses_TKR_G_020_9 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{6508DBC042057EFA}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 2
+    m_iSquadCallsign 0
+   }
+  }
+  coords 3541.903 208.606 607.27
+  angleY -3.678
+  m_aUnitPrefabSlots + {
+   "{8681D616E91698DA}Prefabs/Characters/Factions/INDFOR/TKR/Random/Character_Ses_TKR_Militiamen_AKSU_Random.et" "{C4C9CA3AF8ACDC1A}Prefabs/Characters/Factions/INDFOR/TKR/Random/Character_Ses_TKR_Medic_Random.et"
+  }
+ }
+ Ses_TKR_G_021_7 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{6508DBC04349F9AC}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 2
+    m_iSquadCallsign 1
+   }
+  }
+  coords 3608.185 207.368 648.237
+  angleY 169.89
+  m_aUnitPrefabSlots {
+   "{A0ACE3B6ADD4964D}Prefabs/Characters/Factions/INDFOR/TKR/Random/Character_Ses_TKR_SL_GL_Random.et" "{46C0D0E1F0F9B0F3}Prefabs/Characters/Factions/INDFOR/TKR/Random/Character_Ses_TKR_Militiamen_AK74_Random.et" "{435033F647E6ECF9}Prefabs/Characters/Factions/INDFOR/TKR/Random/Character_Ses_TKR_Sapper_Random.et" "{AAE0D1CC0DB9CFE2}Prefabs/Characters/Factions/INDFOR/TKR/Random/Character_Ses_TKR_Militiamen_VZ_Random.et" "{46C0D0E1F0F9B0F3}Prefabs/Characters/Factions/INDFOR/TKR/Random/Character_Ses_TKR_Militiamen_AK74_Random.et" "{78F94996C070A8F9}Prefabs/Characters/Factions/INDFOR/TKR/Random/Character_Ses_TKR_RTO_Random.et" "{C4C9CA3AF8ACDC1A}Prefabs/Characters/Factions/INDFOR/TKR/Random/Character_Ses_TKR_Medic_Random.et"
+  }
+ }
+}
+SCR_AIGroup "(Лидер Боевиков) Ses_TKR_G_001_3" : "{817E13F5454DCF88}Prefabs/Groups/INDFOR/TKR/Group_Ses_TKR_PlatoonHQ.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "Line"
+  }
+  PS_GroupCallsignAssigner "{6508DBC05AAF30A4}" {
+   m_iCompanyCallsign 0
+   m_iPlatoonCallsign 0
+   m_iSquadCallsign 1
+  }
+ }
+ coords 5819.657 270.5 877.059
+ angleY -93.176
+ m_aUnitPrefabSlots {
+  "{9075191942D36BEB}Prefabs/Characters/Factions/INDFOR/TKR/Random/Character_Ses_TKR_PL_Random.et" "{8681D616E91698DA}Prefabs/Characters/Factions/INDFOR/TKR/Random/Character_Ses_TKR_Militiamen_AKSU_Random.et" "{C4C9CA3AF8ACDC1A}Prefabs/Characters/Factions/INDFOR/TKR/Random/Character_Ses_TKR_Medic_Random.et"
+ }
+ m_sCustomNameSet "Лидер Боевиков"
+}
