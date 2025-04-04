@@ -1,0 +1,104 @@
+$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ {
+  coords 1282.511 6.625 1027.087
+  m_sTitle "Новости острова Пива"
+  m_sTextData "На заброшенный остров Пива была произведена высадка сил армии США. Они взяли под контроль Бараки. "\
+  "ВС РФ отправила отряды БОБР. Оперативная группа Бобр заняла Электростанцию. "
+  m_bEmptyFactionVisibility 1
+  m_bShowForAnyFaction 1
+ }
+ {
+  coords 1277.152 3.094 1023.673
+  m_sTitle "Задачи MARSOC"
+  m_sTextData "Мы успешно высаделись и закрепились на острове Пива. "\
+  "Задачи:"\
+  "1. Удержать Бараки. (25)"\
+  "2. Захватить Электростанцию. (25)"\
+  "3. Захватить РЛС. (50)"\
+  ""
+  m_aVisibleForFactions {
+   "RHS_USAF"
+  }
+ }
+ {
+  coords 1287.621 6.594 1038.334
+  m_sTitle "Задачи БОБР"
+  m_sTextData "Мы успешно высаделись и закрепились на острове Пива. "\
+  "Задачи:"\
+  "1. Удержать Электростанцию. (25)"\
+  "2. Захватить Бараки. (25)"\
+  "3. Захватить РЛС. (50)"
+  m_aVisibleForFactions {
+   "RHS_AFRF"
+  }
+ }
+}
+$grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
+ {
+  coords 1248.842 3.041 1047.32
+  m_sTitle "Защитить Электростанцию"
+  m_iScore 25
+  m_sFactionKey "RHS_USAF"
+ }
+ {
+  coords 1249.21 3.063 1051.367
+  m_sTitle "Захватить Электростанцию"
+  m_iScore 25
+  m_sFactionKey "RHS_AFRF"
+ }
+ {
+  coords 848.375 7.219 1485.444
+  m_sTitle "Захватить Бараки"
+  m_iScore 25
+  m_sFactionKey "RHS_USAF"
+ }
+ {
+  coords 850.953 7.219 1484.396
+  m_sTitle "Защитить бараки"
+  m_iScore 25
+  m_sFactionKey "RHS_AFRF"
+ }
+ {
+  coords 1429.373 30.233 1606.799
+  m_sTitle "Захватить РЛС"
+  m_iScore 50
+  m_sFactionKey "RHS_AFRF"
+ }
+ {
+  coords 1429.522 30.18 1602.336
+  m_sTitle "Захватить РЛС"
+  m_iScore 50
+  m_sFactionKey "RHS_USAF"
+ }
+}
+$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ {
+  coords 1241.211 4.134 1038.385
+  angleY 0
+  m_MarkerColor 0.96 0.944 0.019 1
+  m_sQuadName "cross-2"
+  m_sDescription "Электростанция"
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+ }
+ {
+  coords 1455.469 26.135 1634.978
+  angleX -5.968
+  angleY -1.259
+  angleZ 12.402
+  m_MarkerColor 0.96 0.944 0.019 1
+  m_sQuadName "cross-2"
+  m_sDescription "Станция РЛС"
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+ }
+ {
+  coords 851.238 7.219 1485.5
+  angleY 0
+  m_MarkerColor 0.96 0.944 0.019 1
+  m_sQuadName "cross-2"
+  m_sDescription "Бараки"
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+ }
+}
