@@ -1,15 +1,13 @@
-$grp Vehicle : "{16E32C3ABEAFC2C6}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_FIA_transport.et" {
- Ural4320_FIA_transport1 {
-  coords 8109.474 458.796 9331.047
-  angleY -31.741
+$grp Vehicle : "{16C1F16C9B053801}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport.et" {
+ Ural4320_transport1 {
+  coords 8109.237 458.844 9331.533
+  angleY -41.537
  }
- Ural4320_FIA_transport2 {
-  coords 8120.389 457.993 9309.967
-  angleY -16.904
- }
- Ural4320_FIA_transport3 {
-  coords 8120.385 459.724 9283.129
-  angleY 17.672
+ Ural4320_transport2 {
+  coords 8120.747 459.815 9282.213
+  angleX -4.466
+  angleY -0.07
+  angleZ 0.898
  }
 }
 $grp Vehicle : "{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et" {
@@ -22,14 +20,18 @@ $grp Vehicle : "{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et" 
   angleY 5.26
  }
  BTR70_Base3 {
-  coords 5698.658 321.705 9106.24
-  angleY 5.26
+  coords 5698.635 321.665 9105.356
+  angleX -0.891
+  angleY 5.262
+  angleZ -0.082
  }
 }
 $grp Vehicle : "{259EE7B78C51B624}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469.et" {
  UAZ1 {
-  coords 8092.468 458.846 9348.07
-  angleY -48.419
+  coords 8093.353 458.493 9347.897
+  angleX -1.857
+  angleY -48.443
+  angleZ 0.746
  }
  UAZ2 {
   coords 5721.868 320.945 9196.589
@@ -44,8 +46,10 @@ $grp Vehicle : "{259EE7B78C51B624}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469.et" {
   angleY 9.321
  }
  UAZ5 {
-  coords 5696.24 321.887 9092.465
-  angleY 9.321
+  coords 5696.297 321.874 9092.874
+  angleX -1.911
+  angleY 9.301
+  angleZ 0.594
  }
 }
 $grp SCR_AIGroup : "{9C7902A055DDA271}Prefabs/Groups/OPFOR/Group_USSR_FireGroup_P.et" {
@@ -140,7 +144,7 @@ $grp SCR_AIGroup : "{9C7902A055DDA271}Prefabs/Groups/OPFOR/Group_USSR_FireGroup_
     m_iSquadCallsign 2
    }
   }
-  coords 5694.428 323.821 9102.848
+  coords 5694.417 323.821 9102.889
   angleY 100.64
   m_aUnitPrefabSlots + {
    "{951CA4F244097071}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_MG_P.et" "{D1786D7659BC2E7C}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_AMG_P.et" "{1DA21ADFF265C0BE}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Sapper_P.et" "{A8A47F001DA13B73}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Sharpshooter_P.et" "{19CCD8504848310C}Prefabs/Characters/Factions/OPFOR/USSR_Army/Extra/Character_USSR_Crew_P.et" "{19CCD8504848310C}Prefabs/Characters/Factions/OPFOR/USSR_Army/Extra/Character_USSR_Crew_P.et"
@@ -248,4 +252,8 @@ $grp SCR_AIGroup : "{D1B420D921CC6CD4}Prefabs/Groups/OPFOR/Group_USSR_PlatoonHQ_
    "{AF5187B30BA58205}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_PL_P.et" "{730A987119F129A8}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Sergeant_P.et" "{A8A47F001DA13B73}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Sharpshooter_P.et"
   }
  }
+}
+Vehicle Ural4320_transport_covered1 : "{D9B91FAB817A6033}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered.et" {
+ coords 8119.976 458.094 9310.379
+ angleY -20.295
 }

@@ -1,0 +1,66 @@
+GenericEntity : "{42894F191BC9EDE1}Prefabs/Props/Core/AmmoBox_Base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{FE31750973EA92C7}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/EquipmentBoxWooden_Medical_01.xob"
+   Materials {
+    MaterialAssignClass "{60E964D0773B163C}" {
+     SourceMaterial "EquipmentBoxWooden_Ammunition_01"
+     AssignedMaterial "{01344AC5F9E023E4}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/Data/EquipmentBoxWooden_Ammunition_01_FIA.emat"
+    }
+    MaterialAssignClass "{60E964D0773B1620}" {
+     SourceMaterial "EquipmentBoxWooden_decal_US"
+     AssignedMaterial "{1BB946314607B6A7}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/Data/EquipmentBoxWooden_decal_FIA.emat"
+    }
+    MaterialAssignClass "{60E964D688A1D7E7}" {
+     SourceMaterial "EquipmentBoxWooden_Medical_01"
+     AssignedMaterial "{D3A76235D6723F0B}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/Data/EquipmentBoxWooden_Medical_01_FIA.emat"
+    }
+    MaterialAssignClass "{60E964D688A1D71D}" {
+     SourceMaterial "EquipmentBoxWooden_decal"
+     AssignedMaterial "{1BB946314607B6A7}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/Data/EquipmentBoxWooden_decal_FIA.emat"
+    }
+   }
+  }
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   ResponseIndex "TinyDestructible"
+  }
+  SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+   Enabled 1
+   Attributes SCR_ItemAttributeCollection "{5476CDB2EAD8225E}" {
+    CustomAttributes {
+     PreviewRenderAttributes "{60E964D0773B1628}" {
+     }
+     PreviewRenderAttributes "{60E964D0773B162E}" {
+      CameraOrbitAngles -25 25 0
+      CameraDistanceToItem 1.5
+      FOV 30
+      AspectRatio 1
+     }
+    }
+    m_bDraggable 0
+   }
+   Priority 1000
+   UseCapacityCoefficient 0
+   MaxCumulativeVolume 10000
+   MultiSlots {
+    MultiSlotConfiguration "{60E964D0773B1651}" {
+     SlotTemplate InventoryStorageSlot Bandages {
+      Prefab "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_US_01.et"
+     }
+     NumSlots 2
+    }
+   }
+   m_fMaxWeight 10000
+  }
+  ActionsManagerComponent "{5476B36C403D4CC0}" {
+   ActionContexts {
+    UserActionContext "{5476B36C47B0461A}" {
+     Position PointInfo "{5476B36C45ADDA89}" {
+      Offset 0 0.3408 0.2037
+     }
+    }
+   }
+  }
+ }
+}
