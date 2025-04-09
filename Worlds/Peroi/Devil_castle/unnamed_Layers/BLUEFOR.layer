@@ -1,0 +1,119 @@
+$grp SCR_AIGroup : "{0B03E232E343D3F4}Prefabs/Groups/BLUFOR/Group_US_Team_LAT_P.et" {
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{651144BD1A6136B3}" {
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 3
+   }
+  }
+  coords 6884.195 400.999 11462.195
+  angleY -178.871
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{651144BD1A6136B3}" {
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 4
+   }
+  }
+  coords 6895.586 406.94 11439.278
+  angleY -93.972
+ }
+}
+$grp Vehicle : "{36BDCC88B17B3BFA}Prefabs/Vehicles/Wheeled/M923A1/M923A1_command.et" {
+ M923A1_command1 {
+  coords 6944.615 401.295 11393.679
+  angleY -73.817
+ }
+ M923A1_command2 {
+  coords 6985.102 389.508 11333.93
+ }
+ M923A1_command3 {
+  coords 6883.135 405.633 11411.722
+  angleY -15.339
+ }
+}
+$grp SCR_AIGroup : "{BC357974A560F678}Prefabs/Groups/BLUFOR/Group_US_RifleSquad_P.et" {
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{651144BFA68F9A83}" {
+    m_iPlatoonCallsign 1
+   }
+  }
+  coords 6882.837 403.284 11491.054
+  angleY 177.187
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{651144BFA68F9A83}" {
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 1
+   }
+  }
+  coords 6909.589 407.828 11409.558
+  angleY -88.466
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{651144BFA68F9A83}" {
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 2
+   }
+  }
+  coords 6867.265 416.202 11430.606
+  angleY 85.086
+ }
+}
+$grp SCR_AIGroup : "{C0CBE71EB24755D9}Prefabs/Groups/BLUFOR/GreenBerets/Group_US_GreenBeret_Squad_P.et" {
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{651144BDDAECF019}" {
+    m_iCompanyCallsign 1
+   }
+  }
+  coords 6980.626 389.732 11340.237
+  angleY -87.076
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{651144BDDAECF019}" {
+    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 1
+   }
+  }
+  coords 6961.447 391.048 11333.074
+  angleY -4.107
+ }
+}
+SCR_AIGroup : "{FCBE9E46702ED307}Prefabs/Groups/BLUFOR/Group_US_PlatoonHQ_P.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "Line"
+  }
+  PS_GroupCallsignAssigner "{651144BF92BB78C4}" {
+  }
+ }
+ coords 6890.972 412.553 11419.802
+ angleY 85.088
+}
