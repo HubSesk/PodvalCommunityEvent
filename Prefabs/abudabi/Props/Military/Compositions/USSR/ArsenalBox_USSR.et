@@ -1,0 +1,35 @@
+GenericEntity : "{54986385A6AF77B2}Prefabs/Props/Military/Arsenal/ArsenalBoxes/ArsenalBox_Base.et" {
+ ID "56F2C6D6F7C6DAFA"
+ components {
+  ClimbingDataComponent "{6476FE67387CB5E4}" {
+   CanClimbOver 0
+  }
+  MeshObject "{56F2C6D1431AD85A}" {
+   Materials {
+    MaterialAssignClass "{6476FE67387CB5D2}" {
+     SourceMaterial "ArsenalBox_01_Decal"
+     AssignedMaterial "{7D22666A955D5C03}Assets/Props/Military/AmmoBox/ArsenalBox_01/Data/ArsenalBox_01_Decal_USSR_general.emat"
+    }
+    MaterialAssignClass "{6476FE67387CB5D4}" {
+     SourceMaterial "ArsenalBox_01_MLOD"
+     AssignedMaterial "{65BCA117814EAB89}Assets/Props/Military/AmmoBox/ArsenalBox_01/Data/ArsenalBox_01_USSR_MLOD.emat"
+    }
+    MaterialAssignClass "{6476FE67387CB5CA}" {
+     SourceMaterial "explosive_0A0A9C1C7B189A8B"
+     AssignedMaterial "{8024926C8E4B04DA}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/Data/EquipmentBoxWooden_Explosives_01_USSR.emat"
+    }
+    MaterialAssignClass "{6476FE67387CB5CB}" {
+     SourceMaterial "tarp_EBFB69929B4DE0C6"
+     AssignedMaterial "{D3A4EB4DC4462175}Assets/Props/Military/AmmoBox/EquipmentBoxStack/Data/EquipmentBoxStack_01_cover_USSR.emat"
+    }
+    MaterialAssignClass "{6476FE67387CB5C9}" {
+     SourceMaterial "weapon_box_6864083D30F4F63D"
+     AssignedMaterial "{7D2E831AFA5CF50D}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/Data/EquipmentBoxWooden_Weapon_01_USSR.emat"
+    }
+   }
+  }
+  SCR_FactionAffiliationComponent "{5A50E7655452A21D}" {
+   "faction affiliation" "USSR"
+  }
+ }
+}

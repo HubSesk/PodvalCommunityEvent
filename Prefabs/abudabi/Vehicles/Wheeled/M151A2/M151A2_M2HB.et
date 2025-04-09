@@ -1,0 +1,79 @@
+Vehicle : "{F649585ABB3706C4}Prefabs/Vehicles/Wheeled/M151A2/M151A2.et" {
+ ID "44EC665ABD2FF04B"
+ components {
+  RigidBody "{51DAA09FECF52BBF}" {
+   Mass 1150
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "#AR-Vehicle_M151A2_M2_Name"
+    Icon "{5779776B5B20F50C}UI/Textures/Editor/EditableEntities/Vehicles/EditableEntity_Vehicle_Offroad_Armed.edds"
+    IconSetName ""
+    m_Image "{B2A8EF6E48B71BDD}UI/Textures/EditorPreviews/Vehicles/Wheeled/M151A2/M151A2_M2HB.edds"
+    m_sFaction "US"
+    m_aAuthoredLabels {
+     3 21 39
+    }
+    m_aAutoLabels +{
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
+      m_Value 280
+     }
+    }
+    m_aOccupantFillCompartmentTypes + {
+     1
+    }
+    m_aCrewEntityBudgetCost {
+     SCR_EntityBudgetValue "{5A5EA70BB60F3FA1}" {
+      m_BudgetType AI
+      m_Value 2
+     }
+    }
+    m_aPassengerEntityBudgetCost {
+     SCR_EntityBudgetValue "{5A5EA70BB60AE091}" {
+      m_BudgetType AI
+      m_Value 1
+     }
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{5916C5825BF621D1}" {
+   MultiSlots {
+    MultiSlotConfiguration "{646E3DC920F66B37}" {
+     SlotTemplate InventoryStorageSlot M2Ammo {
+      Prefab "{C820846B0521423B}Prefabs/Weapons/Magazines/Box_127x99_M2_100rnd_4AP_1APIT.et"
+     }
+     NumSlots 4
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Bench {
+     Prefab "{191AA1365C0B8352}Prefabs/Vehicles/Wheeled/M151A2/M151A2_bench.et"
+    }
+    RegisteringComponentSlotInfo Weapon {
+     MergePhysics 1
+     Prefab "{8BBB4EEDF8E30C32}Prefabs/Vehicles/Wheeled/M151A2/M151A2_gun_mount_M2HB.et"
+     RegisterActions 1
+     RegisterDamage 1
+     RegisterControllers 1
+     RegisterWeapons 1
+     RegisterCompartments 1
+    }
+   }
+  }
+  ActionsManagerComponent "{C97BE5489221AE18}" {
+   ActionContexts {
+    UserActionContext "{646E3DC920F66B18}" {
+     ContextName "gunner_position"
+     Position PointInfo "{646E3DC920F66B1E}" {
+      Offset 0 1.0713 -1.3804
+     }
+     Radius 0.6
+    }
+   }
+  }
+ }
+}
