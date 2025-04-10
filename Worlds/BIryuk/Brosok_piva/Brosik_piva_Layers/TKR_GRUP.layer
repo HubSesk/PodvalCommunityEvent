@@ -1,0 +1,154 @@
+$grp SCR_AIGroup : "{281B7FA5A70021D5}Prefabs/Groups/INDFOR/TKR/Group_Ses_TKR_RifleSquad.et" {
+ TKR_SQUAD_1 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "line"
+   }
+   PS_GroupCallsignAssigner "{651539EF68658563}" {
+    m_iCompanyCallsign 1
+    m_iSquadCallsign 1
+   }
+  }
+  coords 5830.641 175.276 4187.368
+  angleX 0.389
+  angleY 38.435
+  angleZ -7.646
+  m_aUnitPrefabSlots + {
+   "{46C0D0E1F0F9B0F3}Prefabs/Characters/Factions/INDFOR/TKR/Random/Character_Ses_TKR_Militiamen_AK74_Random.et"
+  }
+ }
+ TKR_SQUAD_2 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "line"
+   }
+   PS_GroupCallsignAssigner "{651539EF11974F43}" {
+    m_iCompanyCallsign 1
+   }
+  }
+  coords 5814.748 174.619 4199.509
+  angleX -12.79
+  angleY 39.804
+  angleZ -5.926
+  m_aUnitPrefabSlots + {
+   "{0EC238B0C2462457}Prefabs/Characters/Factions/INDFOR/TKR/Character_TKR_Crew.et" "{0EC238B0C2462457}Prefabs/Characters/Factions/INDFOR/TKR/Character_TKR_Crew.et"
+  }
+ }
+ TKR_SQUAD_3 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "line"
+   }
+   PS_GroupCallsignAssigner "{651539EF68658563}" {
+    m_iCompanyCallsign 1
+    m_iSquadCallsign 2
+   }
+  }
+  coords 5843.991 177.656 4177.325
+  angleX -0.298
+  angleY 38.531
+  angleZ -8.192
+  m_aUnitPrefabSlots + {
+   "{46C0D0E1F0F9B0F3}Prefabs/Characters/Factions/INDFOR/TKR/Random/Character_Ses_TKR_Militiamen_AK74_Random.et"
+  }
+ }
+ TKR_SQUAD_4 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "line"
+   }
+   PS_GroupCallsignAssigner "{651539EF68658563}" {
+    m_iCompanyCallsign 2
+   }
+  }
+  coords 5857.661 179.718 4166.656
+  angleX 0.389
+  angleY 38.435
+  angleZ -7.646
+  m_aUnitPrefabSlots + {
+   "{46C0D0E1F0F9B0F3}Prefabs/Characters/Factions/INDFOR/TKR/Random/Character_Ses_TKR_Militiamen_AK74_Random.et"
+  }
+ }
+ TKR_SQUAD_5 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "line"
+   }
+   PS_GroupCallsignAssigner "{651539EF68658563}" {
+    m_iCompanyCallsign 2
+    m_iSquadCallsign 1
+   }
+  }
+  coords 5873.557 182.656 4154.67
+  angleX -0.159
+  angleY 38.507
+  angleZ -6.956
+  m_aUnitPrefabSlots + {
+   "{46C0D0E1F0F9B0F3}Prefabs/Characters/Factions/INDFOR/TKR/Random/Character_Ses_TKR_Militiamen_AK74_Random.et"
+  }
+ }
+ TKR_SQUAD_6 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "line"
+   }
+   PS_GroupCallsignAssigner "{651539EF68658563}" {
+    m_iCompanyCallsign 2
+    m_iSquadCallsign 2
+   }
+  }
+  coords 5885.767 184.313 4144.393
+  angleX -0.159
+  angleY 45.503
+  angleZ -6.956
+  m_aUnitPrefabSlots + {
+   "{46C0D0E1F0F9B0F3}Prefabs/Characters/Factions/INDFOR/TKR/Random/Character_Ses_TKR_Militiamen_AK74_Random.et"
+  }
+ }
+ TKR_SQUAD_7 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "line"
+   }
+   PS_GroupCallsignAssigner "{651539EF68658563}" {
+    m_iCompanyCallsign 2
+    m_iPlatoonCallsign 1
+   }
+  }
+  coords 5897.543 186.077 4133.411
+  angleX -0.159
+  angleY 44.338
+  angleZ -6.956
+ }
+}
+SCR_AIGroup TKR_RECONTEAM1 : "{4170F3A7E4137FDA}Prefabs/Groups/INDFOR/TKR/Group_Ses_TKR_ReconTeam.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "Line"
+  }
+  PS_GroupCallsignAssigner "{651539E83A8E426F}" {
+   m_iCompanyCallsign 3
+  }
+ }
+ coords 4067.882 154.368 6856.915
+ angleY -113.145
+ m_aUnitPrefabSlots + {
+  "{89D534001A82E981}Prefabs/Characters/Factions/INDFOR/TKR/Random/Character_Ses_TKR_MG_Random.et" "{325212741F0BF673}Prefabs/Characters/Factions/INDFOR/TKR/Character_TKR_SL_GL.et" "{53EA17901C31D656}Prefabs/Characters/Factions/INDFOR/TKR/Character_TKR_AT_3.et" "{E8C280FC20BF40FF}Prefabs/Characters/Factions/INDFOR/TKR/Character_TKR_Marksman_2.et"
+ }
+}
+SCR_AIGroup TKR_HQ : "{817E13F5454DCF88}Prefabs/Groups/INDFOR/TKR/Group_Ses_TKR_PlatoonHQ.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "line"
+  }
+  PS_GroupCallsignAssigner "{651539EFDA7B4DDB}" {
+  }
+ }
+ coords 5809.114 171.907 4205.593
+ angleX -0.295
+ angleY 41.661
+ angleZ -5.043
+ m_aUnitPrefabSlots {
+  "{9075191942D36BEB}Prefabs/Characters/Factions/INDFOR/TKR/Random/Character_Ses_TKR_PL_Random.et" "{C4C9CA3AF8ACDC1A}Prefabs/Characters/Factions/INDFOR/TKR/Random/Character_Ses_TKR_Medic_Random.et"
+ }
+}
