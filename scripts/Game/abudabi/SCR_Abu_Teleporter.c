@@ -67,8 +67,8 @@ class SCR_Abu_Teleporter
 	// --- GenerateRandomSpawnPointAttackSide ---
     // Purpose: Defines the minimum and maximum distance between attack and defend spawn points.
     // Used in: GenerateRandomSpawnPointAttackSide
-    float MIN_DISTANCE_ATTACK_DEFEND = 250.0; // Minimum distance between attack and defend spawns
-    float MAX_DISTANCE_ATTACK_DEFEND = 500.0; // Maximum distance between attack and defend spawns
+    float MIN_DISTANCE_ATTACK_DEFEND = 1500.0; // Minimum distance between attack and defend spawns
+    float MAX_DISTANCE_ATTACK_DEFEND = 3000.0; // Maximum distance between attack and defend spawns
 		
 
     // ======================================================
