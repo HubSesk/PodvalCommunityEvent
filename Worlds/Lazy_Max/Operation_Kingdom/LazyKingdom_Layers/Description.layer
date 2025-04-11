@@ -1,0 +1,88 @@
+$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ Rus {
+  m_sTitle "Брифинг  ВС РФ"
+  m_sTextData "Эверон. апрель 2025 года."\
+  "Вводная от полковника Максимова."\
+  ""\
+  "Приветствую товарищи! Сегодня легендарный день для нашего захолустья...командование поставило нам важную задачу захватить местную достопримичательность, которую облюбовали пиндосы. Необходимо вычистить гарнизон и уничтожить штаб-грузовики."\
+  "Задачи ВС РФ:"\
+  "1. Занять замок."\
+  "2. Уничтожить 2 штабных грузовика."\
+  "3. Нейтрализовать вражеского командира."\
+  ""\
+  "Наша техника:"\
+  "9 тайфунов"\
+  "2 МИ-8"\
+  ""\
+  "Разведданные:"\
+  "...в процессе"
+  m_aVisibleForFactions {
+   "RHS_AFRF"
+  }
+ }
+ USA {
+  m_sTitle "Брифинг ВС США"
+  m_sTextData "Эверон. март 2025 года."\
+  "Вводная от Капитана Дампека."\
+  ""\
+  "Эта экскурсия по достопримечательностям острова вообще не предвещала беды, но кто бы мог подумать, что все так обернется. Нам была поставлена задача просто совершить плановый объезд вокруг озера и собрать данные о присутствии российских войск. Сначала всё шло хорошо, даже успели с мужиками попить пивка и снять пару забавных тиктоков, но именно в этот момент...нам доложили, что ВС РФ собирает массированные силы для штурма центральной части Эверона."\
+  ""\
+  "Разведанные:"\
+  "...в процессе"
+  m_aVisibleForFactions {
+   "RHS_USAF"
+  }
+ }
+}
+$grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
+ obj_ZAXBAT_1 {
+  m_sTitle "Захватить замок"
+  m_iScore 50
+  m_sFactionKey "RHS_AFRF"
+ }
+ obj_ZAXBAT_2 {
+  m_sTitle "Уничтожить 1 КШМ"
+  m_iScore 15
+  m_sFactionKey "RHS_AFRF"
+ }
+ obj_ObOPOHA_1 {
+  m_sTitle "Защитить замок"
+  m_iScore 50
+  m_sFactionKey "RHS_USAF"
+ }
+ obj_ObOPOHA_2 {
+  m_sTitle "Защитить 1 КШМ"
+  m_iScore 15
+  m_sFactionKey "RHS_USAF"
+ }
+ obj_ObOPOHA_3 {
+  coords 4683.262 51.791 5853.935
+  m_sTitle "Защитить 2 КШМ"
+  m_iScore 15
+  m_sFactionKey "RHS_USAF"
+ }
+ obj_ObOPOHA_4 {
+  coords 4636.613 52.148 5795.409
+  m_sTitle "Защитить Кса"
+  m_iScore 20
+  m_sFactionKey "RHS_USAF"
+ }
+ obj_ObOPOHA_5 {
+  coords 4565.349 55.008 5734.518
+  m_sTitle "Защитить 2 КШМ"
+  m_iScore 15
+  m_sFactionKey "RHS_USAF"
+ }
+ obj_ZAXBAT_3 {
+  coords 4630.384 51.712 5791.241
+  m_sTitle "Уничтожить 2 КШМ"
+  m_iScore 15
+  m_sFactionKey "RHS_AFRF"
+ }
+ obj_ZAXBAT_4 {
+  coords 4634.076 51.853 5792.17
+  m_sTitle "Убить Кса "
+  m_iScore 20
+  m_sFactionKey "RHS_AFRF"
+ }
+}
