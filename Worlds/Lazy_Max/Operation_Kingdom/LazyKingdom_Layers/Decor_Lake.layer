@@ -47,34 +47,40 @@ $grp GenericEntity : "{094DA750D7E9A807}Prefabs/Props/Military/Training/Obstacle
   scale 1.183
  }
  {
-  coords 4437.299 51.177 5890.725
+  coords 4435.115 51.297 5891.407
   angleY 2.629
-  scale 1.183
  }
  {
-  coords 4448.083 51.234 5890.229
+  coords 4444.207 51.297 5890.977
   angleY 2.629
-  scale 1.183
  }
  {
-  coords 4439.615 58.342 5890.824
+  coords 4440.642 57.376 5891.148
   angleY 2.629
-  scale 1.183
  }
  {
-  coords 4574.795 58.046 5885.275
+  coords 4578.015 50.743 5885.38
   angleY 2.629
-  scale 1.183
  }
  {
-  coords 4583.264 50.938 5884.68
+  coords 4574.45 56.822 5885.551
   angleY 2.629
-  scale 1.183
  }
  {
-  coords 4572.479 50.881 5885.176
+  coords 4568.923 50.743 5885.81
   angleY 2.629
-  scale 1.183
+ }
+ {
+  coords 4528.822 53.636 5988.384
+  angleY -88.11
+ }
+ {
+  coords 4484.81 53.738 5989.51
+  angleY -88.11
+ }
+ {
+  coords 4442.214 53.757 5992.331
+  angleY -88.11
  }
 }
 GenericEntity : "{0A4B42DD94487BFE}Prefabs/Props/Construction/ContainerMetal_01/ContainerMetal_01_low_green.et" {
@@ -114,8 +120,12 @@ SCR_DestructibleBuildingEntity : "{12310677867A85D4}Prefabs/Structures/Industria
   }
  }
 }
+GenericEntity : "{124DC29CA359557C}Prefabs/Props/Military/CargoContainers/CargoContainer_01_10ft_USSR_ammo.et" {
+ coords 4598.723 53.775 5989.97
+ angleY -176.563
+}
 SCR_DestructibleBuildingEntity : "{1321E90FE0CF8C3C}Prefabs/Structures/Cultural/Castles/Castle_01_OuterWall_03_d.et" {
- coords 4601.326 15.33 5979.757
+ coords 4601.326 15.736 5977.403
 }
 $grp StaticModelEntity : "{156435EA239B9C4A}Prefabs/Structures/Industrial/Sheds/ShedMetal_02/Dst/ShedMetal_02_Ruin.et" {
  {
@@ -149,6 +159,18 @@ $grp GenericEntity : "{18E3F1942F2C8509}Prefabs/Structures/BuildingParts/Entry/E
   coords 4536.445 56.002 5894.701
   angleY 4.723
   scale 1.002
+ }
+ {
+  components {
+   Hierarchy "{5488F0388A297CDE}" {
+    Enabled 1
+    PivotID "Socket_Entry_Slope_02"
+    AutoTransform 1
+   }
+  }
+  coords 4612.896 53.046 5878.117
+  angleY 2.529
+  scale 1.67
  }
 }
 $grp StaticModelEntity : "{19A3C48FC2665A3F}Prefabs/Props/Construction/GravelPile_01/GravelPile_01_large.et" {
@@ -201,6 +223,10 @@ $grp GenericEntity : "{1CF33A86C184B00B}Prefabs/Props/Industrial/CargoContainers
  {
   coords 4444.082 51.059 5828.427
   angleY -32.062
+ }
+ {
+  coords 4625.786 53.885 5892.679
+  angleY 4.127
  }
 }
 SCR_DestructibleBuildingEntity : "{22D7D4C89F6AEDDF}Prefabs/Structures/Cultural/Churches/Church_01/Church_01_yellow.et" {
@@ -287,6 +313,9 @@ SCR_DestructibleBuildingEntity : "{325991D9993FA95B}Prefabs/Structures/Houses/Vi
  coords 4601.933 14.615 5896.049
  angleY 2.815
 }
+GenericEntity : "{326E60F7A7358EDA}Prefabs/Props/Crates/CrateWooden_01_blue.et" {
+ coords 4608.189 52.155 5874.701
+}
 SCR_DestructibleBuildingEntity : "{366759CF520BC4CA}Prefabs/Structures/Houses/Village/House_Village_E_1I03/Furniture/House_Village_E_1I03_Furniture.et" {
  coords 4460.653 13.92 5983.56
  angleY -87.808
@@ -343,15 +372,21 @@ SCR_DestructibleBuildingEntity : "{4ED653FEE1B9D8AB}Prefabs/Structures/Cultural/
 StaticModelEntity : "{52F75DFFDE9FB706}Prefabs/Structures/Industrial/Houses/Workshop_01/Dst/Workshop_01_Side_Ruin.et" {
  coords 4429.728 53.764 5997.308
 }
-GenericEntity : "{5B91941C0D244457}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Sandbag_Wall_Ladder_US_01.et" {
- coords 4621.883 65.974 5931.39
- angleY -174.678
- angleZ 28.768
+$grp GenericEntity : "{5B91941C0D244457}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Sandbag_Wall_Ladder_US_01.et" {
  {
-  GenericEntity {
-   ID "5CB0D99696B1D1CA"
-   coords -0.401 0 -0.006
+  coords 4621.883 65.974 5931.39
+  angleY -174.678
+  angleZ 28.768
+  {
+   GenericEntity {
+    ID "5CB0D99696B1D1CA"
+    coords -0.401 0 -0.006
+   }
   }
+ }
+ {
+  coords 4601.844 51.054 5878.53
+  angleY -176.488
  }
 }
 $grp GameEntity : "{5E6E2D5FBB966C01}Prefabs/Structures/BuildingParts/Ladders/Ladder_DieselPowerPlant_01/Ladder_DieselPowerPlant_01_866_B.et" {
@@ -363,96 +398,228 @@ $grp GameEntity : "{5E6E2D5FBB966C01}Prefabs/Structures/BuildingParts/Ladders/La
     AutoTransform 1
    }
   }
-  coords 4527.48 21.69 5912.102
-  angleY -88.546
- }
- {
-  components {
-   Hierarchy "{557E8CF8B87AB6F6}" {
-    Enabled 1
-    PivotID "Socket_Ladder_DieselPowerPlant_01_866_01"
-    AutoTransform 1
-   }
-  }
-  coords 4572.188 23.531 5904.282
-  angleY 93.108
- }
- {
-  components {
-   Hierarchy "{557E8CF8B87AB6F6}" {
-    Enabled 1
-    PivotID "Socket_Ladder_DieselPowerPlant_01_866_01"
-    AutoTransform 1
-   }
-  }
-  coords 4483.532 17.432 5910.706
-  angleY -88.546
- }
- {
-  components {
-   Hierarchy "{557E8CF8B87AB6F6}" {
-    Enabled 1
-    PivotID "Socket_Ladder_DieselPowerPlant_01_866_01"
-    AutoTransform 1
-   }
-  }
-  coords 4440.672 15.553 5910.572
-  angleY -88.546
- }
- {
-  components {
-   Hierarchy "{557E8CF8B87AB6F6}" {
-    Enabled 1
-    PivotID "Socket_Ladder_DieselPowerPlant_01_866_01"
-    AutoTransform 1
-   }
-  }
-  coords 4443.892 20.449 5994.111
-  angleY -88.546
- }
- {
-  components {
-   Hierarchy "{557E8CF8B87AB6F6}" {
-    Enabled 1
-    PivotID "Socket_Ladder_DieselPowerPlant_01_866_01"
-    AutoTransform 1
-   }
-  }
-  coords 4486.544 19.314 5991.896
-  angleY -86.3
- }
- {
-  components {
-   Hierarchy "{557E8CF8B87AB6F6}" {
-    Enabled 1
-    PivotID "Socket_Ladder_DieselPowerPlant_01_866_01"
-    AutoTransform 1
-   }
-  }
-  coords 4530.441 19.039 5990.246
-  angleY -86.3
- }
- {
-  components {
-   Hierarchy "{557E8CF8B87AB6F6}" {
-    Enabled 1
-    PivotID "Socket_Ladder_DieselPowerPlant_01_866_01"
-    AutoTransform 1
-   }
-  }
-  coords 4575.199 21.848 5975.139
-  angleY 93.108
- }
- {
-  components {
-   Hierarchy "{557E8CF8B87AB6F6}" {
-    Enabled 1
-    PivotID "Socket_Ladder_DieselPowerPlant_01_866_01"
-    AutoTransform 1
-   }
-  }
-  coords 4620.453 33.06 5900.008
+  coords 4621.155 34.246 5899.94
   angleY -177.852
+ }
+ {
+  components {
+   Hierarchy "{557E8CF8B87AB6F6}" {
+    Enabled 1
+    PivotID "Socket_Ladder_DieselPowerPlant_01_866_01"
+    AutoTransform 1
+   }
+  }
+  coords 4606.14 22.001 5880.19
+  angleY -87.335
+ }
+ {
+  components {
+   Hierarchy "{557E8CF8B87AB6F6}" {
+    Enabled 1
+    PivotID "Socket_Ladder_DieselPowerPlant_01_866_01"
+    AutoTransform 1
+   }
+  }
+  coords 4610.767 20.916 5875.668
+  angleY -176.046
+ }
+ {
+  components {
+   Hierarchy "{557E8CF8B87AB6F6}" {
+    Enabled 1
+    PivotID "Socket_Ladder_DieselPowerPlant_01_866_01"
+    AutoTransform 1
+   }
+  }
+  coords 4615.761 21.106 5880.266
+  angleY 90.807
+ }
+ {
+  components {
+   Hierarchy "{557E8CF8B87AB6F6}" {
+    Enabled 1
+    PivotID "Socket_Ladder_DieselPowerPlant_01_866_01"
+    AutoTransform 1
+   }
+  }
+  coords 4624.436 23.046 5891.097
+  angleY 94.703
+ }
+ {
+  components {
+   Hierarchy "{557E8CF8B87AB6F6}" {
+    Enabled 1
+    PivotID "Socket_Ladder_DieselPowerPlant_01_866_01"
+    AutoTransform 1
+   }
+  }
+  coords 4622.188 22.937 5905.552
+  angleY 91.632
+ }
+ {
+  components {
+   Hierarchy "{557E8CF8B87AB6F6}" {
+    Enabled 1
+    PivotID "Socket_Ladder_DieselPowerPlant_01_866_01"
+    AutoTransform 1
+   }
+  }
+  coords 4625.976 22.83 6002.867
+  angleY 94.703
+ }
+ {
+  components {
+   Hierarchy "{557E8CF8B87AB6F6}" {
+    Enabled 1
+    PivotID "Socket_Ladder_DieselPowerPlant_01_866_01"
+    AutoTransform 1
+   }
+  }
+  coords 4613.927 21.667 6011.614
+  angleY 93.138
+ }
+ {
+  components {
+   Hierarchy "{557E8CF8B87AB6F6}" {
+    Enabled 1
+    PivotID "Socket_Ladder_DieselPowerPlant_01_866_01"
+    AutoTransform 1
+   }
+  }
+  coords 4604.273 21.961 6011.531
+  angleY -87.11
+ }
+ {
+  components {
+   Hierarchy "{557E8CF8B87AB6F6}" {
+    Enabled 1
+    PivotID "Socket_Ladder_DieselPowerPlant_01_866_01"
+    AutoTransform 1
+   }
+  }
+  coords 4415.777 21.395 6014.646
+  angleY 1.328
+ }
+ {
+  components {
+   Hierarchy "{557E8CF8B87AB6F6}" {
+    Enabled 1
+    PivotID "Socket_Ladder_DieselPowerPlant_01_866_01"
+    AutoTransform 1
+   }
+  }
+  coords 4390.417 19.605 6020.549
+  angleY 1.328
+ }
+ {
+  components {
+   Hierarchy "{557E8CF8B87AB6F6}" {
+    Enabled 1
+    PivotID "Socket_Ladder_DieselPowerPlant_01_866_01"
+    AutoTransform 1
+   }
+  }
+  coords 4390.725 21.044 6010.855
+  angleY -178.806
+ }
+ {
+  components {
+   Hierarchy "{557E8CF8B87AB6F6}" {
+    Enabled 1
+    PivotID "Socket_Ladder_DieselPowerPlant_01_866_01"
+    AutoTransform 1
+   }
+  }
+  coords 4387.059 18.646 5911.19
+  angleY -87.266
+ }
+ {
+  components {
+   Hierarchy "{557E8CF8B87AB6F6}" {
+    Enabled 1
+    PivotID "Socket_Ladder_DieselPowerPlant_01_866_01"
+    AutoTransform 1
+   }
+  }
+  coords 4380.655 15.556 5885.885
+  angleY -87.266
+ }
+ {
+  components {
+   Hierarchy "{557E8CF8B87AB6F6}" {
+    Enabled 1
+    PivotID "Socket_Ladder_DieselPowerPlant_01_866_01"
+    AutoTransform 1
+   }
+  }
+  coords 4385.356 15.369 5881.431
+  angleY -176.4
+ }
+ {
+  components {
+   Hierarchy "{557E8CF8B87AB6F6}" {
+    Enabled 1
+    PivotID "Socket_Ladder_DieselPowerPlant_01_866_01"
+    AutoTransform 1
+   }
+  }
+  coords 4390.346 15.952 5886.052
+  angleY 93.561
+ }
+ {
+  components {
+   Hierarchy "{557E8CF8B87AB6F6}" {
+    Enabled 1
+    PivotID "Socket_Ladder_DieselPowerPlant_01_866_01"
+    AutoTransform 1
+   }
+  }
+  coords 4410.506 34.149 6005.746
+  angleY -87.266
+ }
+ {
+  components {
+   Hierarchy "{557E8CF8B87AB6F6}" {
+    Enabled 1
+    PivotID "Socket_Ladder_DieselPowerPlant_01_866_01"
+    AutoTransform 1
+   }
+  }
+  coords 4395.665 30.114 5905.7
+  angleY -176.4
+ }
+ {
+  components {
+   Hierarchy "{557E8CF8B87AB6F6}" {
+    Enabled 1
+    PivotID "Socket_Ladder_DieselPowerPlant_01_866_01"
+    AutoTransform 1
+   }
+  }
+  coords 4598.557 25.641 5991.47
+  angleY -177.852
+ }
+ {
+  components {
+   Hierarchy "{557E8CF8B87AB6F6}" {
+    Enabled 1
+    PivotID "Socket_Ladder_DieselPowerPlant_01_866_01"
+    AutoTransform 1
+   }
+  }
+  coords 4612.521 23.662 5905.382
+  angleY -87.266
+ }
+ {
+  components {
+   Hierarchy "{557E8CF8B87AB6F6}" {
+    Enabled 1
+    PivotID "Socket_Ladder_DieselPowerPlant_01_866_01"
+    AutoTransform 1
+   }
+  }
+  coords 4399.327 20.539 5914.861
+  angleY -176.842
  }
 }
 $grp StaticModelEntity : "{62A424C1A882F6F4}Prefabs/Structures/Industrial/Sheds/ShedMetal_02/Dst/ShedMetal_02_Ruin_Short.et" {
@@ -467,6 +634,22 @@ $grp StaticModelEntity : "{62A424C1A882F6F4}Prefabs/Structures/Industrial/Sheds/
 SCR_DestructibleBuildingEntity : "{6BE382F85F1A7491}Prefabs/Structures/Cultural/Castles/Castle_01_InnerWall_01.et" {
  coords 4450.228 10.247 5914.232
  angleY 92.443
+}
+$grp GenericEntity : "{6C57BFFFA642C60C}Prefabs/Compositions/Misc/SubCompositions/CrateStacked_04.et" {
+ {
+  coords 4610.409 53.035 5875.294
+ }
+ {
+  coords 4628.101 53.901 5895.699
+  angleY 74.603
+ }
+ {
+  coords 4385.667 51.419 5879.56
+ }
+ {
+  coords 4600.707 53.781 5989.642
+  angleY -95.377
+ }
 }
 GenericEntity : "{6F5A05BE35A35C93}Prefabs/Props/Military/SupplyBox/SupplyShippingContainers/SupplyShippingContainers_01/Dst/CargoContainer_01_20ft_Ruin_base.et" {
  coords 4665.812 50.875 5861.665
@@ -486,6 +669,12 @@ $grp SCR_DestructibleBuildingEntity : "{70231867B54741BB}Prefabs/Structures/Cult
  }
  {
   coords 4415.643 22.555 6003.907
+  angleY -86.465
+  scale 0.529
+ }
+ {
+  coords 4619.165 26.608 5994.634
+  angleX 9.892
   angleY -86.465
   scale 0.529
  }
@@ -520,8 +709,103 @@ SCR_DestructibleBuildingEntity : "{73E276C694D5519C}Prefabs/Structures/Cultural/
  coords 4569.388 17.787 5906.58
  angleY 92.443
 }
+$grp GenericEntity : "{76167BEC292DCF79}Prefabs/Structures/Signs/Military/SignRectangle_01_140x100/Sign_Warzone_US_01.et" {
+ {
+  coords 4615.639 57.812 5880.274
+  angleY -87.153
+  scale 1.36
+ }
+ {
+  coords 4615.255 57.67 5880.32
+  angleY 92.869
+  scale 1.36
+ }
+ {
+  coords 4604.424 57.851 6011.557
+  angleY 92.869
+  scale 1.36
+ }
+ {
+  coords 4604.801 57.839 6011.521
+  angleY -87.153
+  scale 1.36
+ }
+ {
+  coords 4415.792 57.794 6014.468
+  angleY -178.294
+  scale 1.36
+ }
+ {
+  coords 4415.721 57.795 6014.095
+  angleY 1.256
+  scale 1.36
+ }
+ {
+  coords 4390.834 57.792 6011.021
+  angleY 1.256
+  scale 1.36
+ }
+ {
+  coords 4390.764 57.829 6011.412
+  angleY -178.768
+  scale 1.36
+ }
+ {
+  coords 4387.246 58.625 5911.209
+  angleY 92.021
+  scale 1.36
+ }
+ {
+  coords 4387.613 58.592 5911.198
+  angleY -88.015
+  scale 1.36
+ }
+ {
+  coords 4390.162 57.713 5886.1
+  angleY -88.015
+  scale 1.36
+ }
+ {
+  coords 4389.787 57.716 5886.113
+  angleY 92.021
+  scale 1.36
+ }
+ {
+  coords 4612.671 57.612 5905.361
+  angleY 92.869
+  scale 1.36
+ }
+ {
+  coords 4613.049 57.729 5905.381
+  angleY -87.153
+  scale 1.36
+ }
+ {
+  coords 4616.773 63.688 6002.809
+  angleY -87.153
+  scale 1.36
+ }
+ {
+  coords 4616.275 63.128 6003.434
+  angleY 92.869
+  scale 2.475
+ }
+}
+GenericEntity : "{76D2EFB2D92B2E35}Prefabs/Props/Military/MilitaryCrates/CrateStack_01/Dst/CrateStack_01_Dst_1_dark.et" {
+ coords 4385.452 51.418 5880.854
+}
 GenericEntity : "{77D49455528ED5E6}Prefabs/Props/Military/MilitaryCrates/ShellContainerstack_01/ShellContainerstack_01_pile_small.et" {
  coords 4594.431 51.001 5827.333
+}
+GenericEntity : "{795552B887CD50E7}Prefabs/Props/Industrial/ConcretePanel_01_stack.et" {
+ coords 4606.703 50.265 5874.966
+ angleX 0.075
+ angleY 4.864
+ angleZ -0.892
+}
+GenericEntity : "{859995D75C355384}Prefabs/Compositions/Misc/SubCompositions/CrateWooden_Cluttered_US_01.et" {
+ coords 4385.051 51.441 5877.368
+ angleY 0
 }
 $grp SCR_DestructibleBuildingEntity : "{85B7377A90F6A75F}Prefabs/Structures/Infrastructure/Naval/Cranes/HarborCrane_01.et" {
  {
@@ -916,6 +1200,65 @@ $grp SCR_DestructibleBuildingEntity : "{ADDA5472F867C249}Prefabs/Structures/Cult
   scale 0.529
  }
 }
+$grp GameEntity : "{B8508AD8AA5464E8}Prefabs/Structures/BuildingParts/Ladders/Ladder_DieselPowerPlant_01/Ladder_DieselPowerPlant_01_322_B.et" {
+ {
+  coords 4440.81 21.629 5892.595
+  angleY -176.962
+ }
+ {
+  coords 4574.673 29.58 5886.994
+  angleY -176.962
+ }
+ {
+  coords 4624.046 9.673 5881.674
+  angleY 91.389
+ }
+ {
+  coords 4648.872 11.394 5918.591
+  angleY -175.882
+ }
+ {
+  coords 4662.531 13.893 5949.817
+  angleY 91.389
+  angleZ -2.123
+ }
+ {
+  coords 4629.023 12.261 6004.584
+  angleY 91.389
+ }
+ {
+  coords 4617.008 11.235 6013.327
+  angleY 91.389
+ }
+ {
+  coords 4595.998 11.353 6010.198
+  angleY -86.33
+ }
+ {
+  coords 4414.382 9.669 6022.831
+  angleY 1.419
+ }
+ {
+  coords 4388.588 8.741 6023.488
+  angleY 1.419
+ }
+ {
+  coords 4392.164 11.428 6002.599
+  angleY -178.706
+ }
+ {
+  coords 4378.821 7.935 5909.932
+  angleY -86.33
+ }
+ {
+  coords 4377.629 5.028 5884.113
+  angleY -86.33
+ }
+ {
+  coords 4616.069 28.008 6003.354
+  angleY -85.872
+ }
+}
 SCR_DestructibleBuildingEntity : "{BBCEDBF2C4E3E896}Prefabs/Structures/Industrial/Houses/Warehouse_01/Warehouse_01_Office.et" {
  coords 4574.479 9.586 5833.57
  angleY 92.534
@@ -988,6 +1331,64 @@ $grp SCR_DestructibleBuildingEntity : "{BD66CD1F3562CBE6}Prefabs/Structures/Cult
   angleY -87.808
  }
 }
+$grp GameEntity : "{BE3D3EA72E000EFB}Prefabs/Structures/BuildingParts/Ladders/Ladder_DieselPowerPlant_01/Ladder_DieselPowerPlant_01_386_B.et" {
+ {
+  coords 4572.095 23.292 5902.53
+  angleY 91.847
+ }
+ {
+  coords 4572.91 23.598 5921.813
+  angleY 91.847
+ }
+ {
+  coords 4574.283 24.9 5953.549
+  angleY 91.847
+ }
+ {
+  coords 4575.16 21.777 5974.673
+  angleY 91.847
+ }
+ {
+  coords 4576.028 17.129 5994.485
+  angleY 91.847
+ }
+ {
+  coords 4527.417 21.637 5910.352
+  angleY -88.564
+ }
+ {
+  coords 4531.304 24.245 5986.58
+  angleY 3.013
+ }
+ {
+  coords 4531.453 23.18 6000.089
+  angleY -177.866
+ }
+ {
+  coords 4487.413 24.091 5988.26
+  angleY 3.013
+ }
+ {
+  coords 4487.811 23.748 6000.85
+  angleY -177.866
+ }
+ {
+  coords 4483.496 17.128 5911.853
+  angleY -88.564
+ }
+ {
+  coords 4444.75 24.803 5990.365
+  angleY 3.013
+ }
+ {
+  coords 4444.671 25.104 6001.681
+  angleY -177.866
+ }
+ {
+  coords 4440.747 15.532 5911.742
+  angleY -88.564
+ }
+}
 GenericEntity : "{BF24FDD7931A41D8}Prefabs/Structures/BuildingParts/Infrastructure/ContainerSpreader_01/ContainerSpreader_01_10ft.et" {
  coords 4468.716 50.903 5842.805
  angleY -37.74
@@ -1031,7 +1432,7 @@ SCR_DestructibleBuildingEntity : "{CF7E43120709D9BE}Prefabs/Structures/Industria
  angleY 2.548
 }
 SCR_DestructibleBuildingEntity : "{CFF7F6F7042AFFEF}Prefabs/Structures/Industrial/Houses/Workshop_01/Workshop_01_Main.et" {
- coords 4437.667 12.361 5982.289
+ coords 4437.606 12.283 5980.3
  angleY 91.743
  {
   GenericEntity {
@@ -1043,6 +1444,18 @@ SCR_DestructibleBuildingEntity : "{CFF7F6F7042AFFEF}Prefabs/Structures/Industria
 StaticModelEntity : "{D75EFD2026336A79}Prefabs/Structures/Houses/Village/House_Village_E_1L01/Dst/House_Village_E_1L01_Ruin_base.et" {
  coords 4413.969 53.81 5904.678
  angleY -87.297
+}
+$grp GenericEntity : "{D8ABE2DE630F577E}Prefabs/Compositions/Misc/SubCompositions/CrateStacked_01.et" {
+ {
+  coords 4606.896 52.14 5875.344
+  angleY -86.537
+ }
+ {
+  coords 4387.946 51.359 5880.486
+ }
+ {
+  coords 4389.127 51.326 5880.487
+ }
 }
 $grp SCR_DestructibleBuildingEntity : "{DB3F36604A282237}Prefabs/Structures/Infrastructure/Naval/Piers/PierConcrete_01_20m.et" {
  {
@@ -2666,6 +3079,13 @@ $grp SCR_DestructibleBuildingEntity : "{DB3F36604A282237}Prefabs/Structures/Infr
   }
  }
 }
+GenericEntity : "{DE31BAA70E260BE9}Prefabs/Props/Military/MilitaryCrates/CrateStack_01/Dst/CrateStack_01_Dst_3_decal_01.et" {
+ coords 4627.443 54.015 5890.657
+ angleY -89.221
+}
+GenericEntity : "{DE8129300D8E0226}Prefabs/Props/Military/MilitaryCrates/CrateStack_01/Dst/CrateStack_01_Dst_1_base.et" {
+ coords 4627.638 53.995 5893.118
+}
 $grp GenericEntity : "{DEB57429CD49782D}Prefabs/Props/Construction/GravelPile_01/SandPile_01.et" {
  {
   coords 4511.009 44.633 5872.729
@@ -2680,9 +3100,15 @@ $grp GenericEntity : "{DEB57429CD49782D}Prefabs/Props/Construction/GravelPile_01
   scale 9.692
  }
 }
-SCR_DestructibleBuildingEntity : "{DEBC2FB8DA61B83E}Prefabs/Structures/Industrial/Sheds/ShedMetal_02/ShedMetal_02_short_nowalls.et" {
- coords 4413.338 13.467 5994.938
- angleY 1.44
+$grp SCR_DestructibleBuildingEntity : "{DEBC2FB8DA61B83E}Prefabs/Structures/Industrial/Sheds/ShedMetal_02/ShedMetal_02_short_nowalls.et" {
+ {
+  coords 4413.338 13.467 5994.938
+  angleY 1.44
+ }
+ {
+  coords 4611.343 16.282 5985.706
+  angleY 1.44
+ }
 }
 $grp SCR_DestructibleBuildingEntity : "{DECF116069DCCC2B}Prefabs/Structures/Cultural/Castles/Castle_01_Tower.et" {
  {
@@ -2766,6 +3192,10 @@ SCR_DestructibleBuildingEntity : "{E50AA3C83633B05A}Prefabs/Structures/Industria
 GenericEntity : "{E5B343A1918DB525}Prefabs/Structures/BuildingParts/Entry/WoodenStairs_01.et" {
  coords 4397.862 67.178 5915.606
  angleY 1.981
+}
+GenericEntity : "{EF070B8345288C8B}Prefabs/Props/Military/MilitaryCrates/CrateStack_01/Dst/CrateStack_01_Dst_2_base.et" {
+ coords 4627.593 54.001 5891.865
+ angleY -179.209
 }
 GenericEntity : "{F2AF83F5A157CB0A}Prefabs/Structures/BuildingParts/Infrastructure/ContainerSpreader_01/ContainerSpreader_01_chain_10ft.et" {
  coords 4410.228 65.335 5906.093
