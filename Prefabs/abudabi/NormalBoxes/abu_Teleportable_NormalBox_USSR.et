@@ -1,0 +1,187 @@
+GenericEntity : "{42894F191BC9EDE1}Prefabs/Props/Core/AmmoBox_Base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Enabled 1
+   Object "{9E1DFF036BCE913E}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/EquipmentBoxWooden_Ammunition_01.xob"
+   Materials {
+    MaterialAssignClass "{60E95557E8996D17}" {
+     SourceMaterial "EquipmentBoxWooden_Ammunition_01"
+     AssignedMaterial "{EB85A5589049E9D1}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/Data/EquipmentBoxWooden_Ammunition_01_USSR.emat"
+    }
+    MaterialAssignClass "{60E95557E8996D18}" {
+     SourceMaterial "EquipmentBoxWooden_decal_US"
+     AssignedMaterial "{17332645A86C9BA6}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/Data/EquipmentBoxWooden_decal_USSR.emat"
+    }
+   }
+   ObjectHeightmapBias 0
+   ObjectHeightmapTraceBias 0
+  }
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   ResponseIndex "TinyDestructible"
+  }
+  SCR_EditableEntityComponent "{651657E06DEF171D}" {
+  }
+  SCR_PreviewEntityComponent "{651657E07B7B6D42}" {
+  }
+  SCR_SlotCompositionComponent "{651657E076C9DFA3}" {
+  }
+  SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+   Enabled 1
+   Attributes SCR_ItemAttributeCollection "{5476CDB2EAD8225E}" {
+    CustomAttributes {
+     PreviewRenderAttributes "{60E95557E8996D01}" {
+     }
+     PreviewRenderAttributes "{60E95557E8996D00}" {
+      CameraOrbitAngles -25 25 0
+      CameraDistanceToItem 1.5
+      FOV 30
+      AspectRatio 1
+     }
+    }
+    m_bDraggable 1
+   }
+   Priority 1000
+   UseCapacityCoefficient 0
+   MaxCumulativeVolume 10000000000
+   MultiSlots {
+    MultiSlotConfiguration "{60E95557E8996D04}" {
+     SlotTemplate InventoryStorageSlot Bandages {
+      Prefab "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et"
+     }
+     NumSlots 20
+    }
+    MultiSlotConfiguration "{65164DE4E734B9ED}" {
+     SlotTemplate InventoryStorageSlot InventoryStorageSlot {
+      Prefab "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
+     }
+     NumSlots 10
+    }
+    MultiSlotConfiguration "{65164DE4E4A00761}" {
+     SlotTemplate InventoryStorageSlot InventoryStorageSlot {
+      Prefab "{527D7C5D2E476BDC}Prefabs/Items/Medicine/SalineBag_01/SalineBag_USSR_01.et"
+     }
+     NumSlots 5
+    }
+    MultiSlotConfiguration "{65164DE4E474D9D8}" {
+     SlotTemplate InventoryStorageSlot InventoryStorageSlot {
+      Prefab "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et"
+     }
+     NumSlots 10
+    }
+    MultiSlotConfiguration "{65164DE35AF5F66D}" {
+     SlotTemplate InventoryStorageSlot InventoryStorageSlot {
+      Prefab "{062E2F1D7F6739D6}Prefabs/Items/Equipment/Accessories/ETool_MPL50/ETool_MPL50_FreeRoamBuilding_Gadget.et"
+     }
+     NumSlots 10
+    }
+    MultiSlotConfiguration "{65164DE35A74AFB0}" {
+     SlotTemplate InventoryStorageSlot InventoryStorageSlot {
+      Prefab "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et"
+     }
+     NumSlots 40
+    }
+    MultiSlotConfiguration "{65164DE35A350AEA}" {
+     SlotTemplate InventoryStorageSlot InventoryStorageSlot {
+      Prefab "{98C79F5FAE12F9B6}Prefabs/Weapons/Attachments/Bayonets/Bayonet_6Kh4.et"
+     }
+     NumSlots 10
+    }
+    MultiSlotConfiguration "{65164DE35BD6EEAC}" {
+     SlotTemplate InventoryStorageSlot InventoryStorageSlot {
+      Prefab "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+     }
+     NumSlots 25
+    }
+    MultiSlotConfiguration "{65164DE35B8C6796}" {
+     SlotTemplate InventoryStorageSlot InventoryStorageSlot {
+      Prefab "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+     }
+     NumSlots 30
+    }
+    MultiSlotConfiguration "{65164DE35BA4A5DE}" {
+     SlotTemplate InventoryStorageSlot InventoryStorageSlot {
+      Prefab "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et"
+     }
+     NumSlots 10
+    }
+    MultiSlotConfiguration "{65164DE35B6F97F4}" {
+     SlotTemplate InventoryStorageSlot InventoryStorageSlot {
+      Prefab "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et"
+     }
+     NumSlots 20
+    }
+    MultiSlotConfiguration "{65164DE35B775AF2}" {
+     SlotTemplate InventoryStorageSlot InventoryStorageSlot {
+      Prefab "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et"
+     }
+     NumSlots 50
+    }
+    MultiSlotConfiguration "{65164DE35B1EE0B5}" {
+     SlotTemplate InventoryStorageSlot InventoryStorageSlot {
+      Prefab "{E5912E45754CD421}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Tracer.et"
+     }
+     NumSlots 30
+    }
+    MultiSlotConfiguration "{65164DE35B28E2DE}" {
+     SlotTemplate InventoryStorageSlot InventoryStorageSlot {
+      Prefab "{B386EEE8AED8E386}Prefabs/Weapons/Magazines/Box_762x54_PK_250rnd_Tracer.et"
+     }
+     NumSlots 30
+    }
+    MultiSlotConfiguration "{65164DE358CF6747}" {
+     SlotTemplate InventoryStorageSlot InventoryStorageSlot {
+      Prefab "{E5E9C5897CF47F44}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_4Ball_1Tracer.et"
+     }
+     NumSlots 15
+    }
+    MultiSlotConfiguration "{651657E392DE26E7}" {
+     SlotTemplate InventoryStorageSlot InventoryStorageSlot {
+      Prefab "{4CD3159446EC131B}Prefabs/Weapons/Magazines/NSV/Box_127x108_NSV_50rnd_APIT.et"
+     }
+     NumSlots 30
+    }
+    MultiSlotConfiguration "{651657E393312CE7}" {
+     SlotTemplate InventoryStorageSlot InventoryStorageSlot {
+      Prefab "{FA5C25BF66A53DCF}Prefabs/Weapons/Rifles/AK74/Rifle_AK74.et"
+     }
+     NumSlots 1
+    }
+    MultiSlotConfiguration "{651657E390D86FD6}" {
+     SlotTemplate InventoryStorageSlot InventoryStorageSlot {
+      Prefab "{ADE19B33DCBB9005}Prefabs/Characters/Vests/Vest_6B2/Vest_6B2.et"
+     }
+     NumSlots 10
+    }
+    MultiSlotConfiguration "{651657E390FA14BA}" {
+     SlotTemplate InventoryStorageSlot InventoryStorageSlot {
+      Prefab "{41A9C55B61F375F0}Prefabs/Items/Equipment/Backpacks/Backpack_Kolobok.et"
+     }
+     NumSlots 10
+    }
+    MultiSlotConfiguration "{651657E3905A3A1E}" {
+     SlotTemplate InventoryStorageSlot InventoryStorageSlot {
+      Prefab "{BFCE7FE311985683}Prefabs/Characters/HeadGear/Helmet_SSh68_01/Helmet_SSh68_01_base.et"
+     }
+     NumSlots 10
+    }
+    MultiSlotConfiguration "{651676A3502191A0}" {
+     SlotTemplate InventoryStorageSlot InventoryStorageSlot {
+      Prefab "{243948B23D90BECB}Prefabs/Items/Equipment/Binoculars/Binoculars_B8/Binoculars_B8.et"
+     }
+     NumSlots 1
+    }
+   }
+   m_fMaxWeight 10000000000
+  }
+  ActionsManagerComponent "{5476B36C403D4CC0}" {
+   ActionContexts {
+    UserActionContext "{5476B36C47B0461A}" {
+     Position PointInfo "{5476B36C45ADDA89}" {
+      Offset -0.0003 0.2264 0.1798
+     }
+    }
+   }
+  }
+ }
+}
