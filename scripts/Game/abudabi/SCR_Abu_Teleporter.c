@@ -157,19 +157,30 @@ class SCR_Abu_Teleporter
 		};
 	}
 	
-	bool KSHM_Destroyed=false;
+	bool KSHM_Destroyed = false;
+	
 	void MCU_Trcuks_Trigger()
 	{
-		bool Truck0=false,Truck1=false,Truck2=false;
-		IEntity Target0 = GetGame().GetWorld().FindEntityByName("Target_0");
-		IEntity Target1 = GetGame().GetWorld().FindEntityByName("Target_1");
-		IEntity Target2 = GetGame().GetWorld().FindEntityByName("Target_2");
-		DamageManagerComponent Target0dmg = DamageManagerComponent.Cast(Target0.FindComponent(DamageManagerComponent));
-		DamageManagerComponent Target1dmg = DamageManagerComponent.Cast(Target1.FindComponent(DamageManagerComponent));
-		DamageManagerComponent Target2dmg = DamageManagerComponent.Cast(Target2.FindComponent(DamageManagerComponent));
-		if(KSHM_Destroyed==false && Target0dmg.GetHealth()<=0 && Target1dmg.GetHealth()<=0 && Target2dmg.GetHealth()<=0)
-		{
-			// Create the hint
+	    bool Truck0 = false, Truck1 = false, Truck2 = false;
+	    IEntity Target0 = GetGame().GetWorld().FindEntityByName("Target_0");
+	    IEntity Target1 = GetGame().GetWorld().FindEntityByName("Target_1");
+	    IEntity Target2 = GetGame().GetWorld().FindEntityByName("Target_2");
+	    
+	    // Check if all targets exist
+	    if (!Target0 || !Target1 || !Target2)
+	        return;
+	        
+	    DamageManagerComponent Target0dmg = DamageManagerComponent.Cast(Target0.FindComponent(DamageManagerComponent));
+	    DamageManagerComponent Target1dmg = DamageManagerComponent.Cast(Target1.FindComponent(DamageManagerComponent));
+	    DamageManagerComponent Target2dmg = DamageManagerComponent.Cast(Target2.FindComponent(DamageManagerComponent));
+	    
+	    // Check if all damage components exist
+	    if (!Target0dmg || !Target1dmg || !Target2dmg)
+	        return;
+	    
+	    if (KSHM_Destroyed == false && Target0dmg.GetHealth() <= 0 && Target1dmg.GetHealth() <= 0 && Target2dmg.GetHealth() <= 0)
+	    {
+	        // Create the hint
 	        const string hintTitle = "Победа!";
 	        const string hintDescription = "Все КШМ уничтожены, победа США";
 	        const float duration = 10; // Duration in seconds
@@ -182,10 +193,9 @@ class SCR_Abu_Teleporter
 	
 	        // Show the hint
 	        SCR_HintManagerComponent.ShowHint(hintInfo);
-			KSHM_Destroyed=true;
-			//GetGame().RequestClose();
-			
-		}
+	        KSHM_Destroyed = true;
+	        //GetGame().RequestClose();
+	    }
 	}
 	
 	void CountSupremacyInTrigger()
