@@ -194,6 +194,7 @@ class SCR_Abu_Teleporter
 	        // Show the hint
 	        SCR_HintManagerComponent.ShowHint(hintInfo);
 	        KSHM_Destroyed = true;
+			//GameStateTransitions.RequestScenarioRestart();
 	        //GetGame().RequestClose();
 	    }
 	}
