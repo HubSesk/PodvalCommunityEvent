@@ -1,0 +1,111 @@
+SCR_AIGroup Ses_CDF_G_001_5 : "{0EEC68B499065772}Prefabs/Groups/BLUFOR/Ses_CDF/Group_Ses_CDF_PlatoonHQ.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "Line"
+  }
+  PS_GroupCallsignAssigner "{6522C25C6EA27004}" {
+   m_iCompanyCallsign 0
+   m_iPlatoonCallsign 0
+   m_iSquadCallsign 1
+  }
+ }
+ coords 5858.176 277.246 10130.863
+ angleY 27.608
+}
+$grp SCR_AIGroup : "{3D989BB73A001A78}Prefabs/Groups/BLUFOR/Ses_CDF/Group_Ses_CDF_LightFireTeam.et" {
+ Ses_CDF_G_020_3 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{6522C25B96503ECE}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 2
+    m_iSquadCallsign 0
+   }
+  }
+  coords 5866.756 272.87 10196.949
+  angleY 125.378
+  m_aUnitPrefabSlots {
+   "{7D9FEF522E87914D}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Random/Character_CDF_RTO_Random.et" "{C915061E2C567853}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Random/Character_CDF_Crew_Random.et" "{C915061E2C567853}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Random/Character_CDF_Crew_Random.et"
+  }
+ }
+ Ses_CDF_G_021_3 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{6522C25B97A1A3ED}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 2
+    m_iSquadCallsign 1
+   }
+  }
+  coords 5904.662 279.094 10125.924
+  angleY 125.378
+  m_aUnitPrefabSlots {
+   "{7D9FEF522E87914D}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Random/Character_CDF_RTO_Random.et" "{C915061E2C567853}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Random/Character_CDF_Crew_Random.et" "{C915061E2C567853}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Random/Character_CDF_Crew_Random.et"
+  }
+ }
+}
+$grp SCR_AIGroup : "{50DE534A7953C1CC}Prefabs/Groups/BLUFOR/Ses_CDF/Group_Ses_CDF_RifleSquad.et" {
+ Ses_CDF_G_010_9 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{6522C25B91E75A61}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 0
+   }
+  }
+  coords 5886.179 278.765 10121.402
+  angleY -149.025
+ }
+ Ses_CDF_G_011_9 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{6522C25B936BBADD}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 1
+   }
+  }
+  coords 5887.769 279.062 10068.927
+  angleY 20.758
+ }
+ Ses_CDF_G_012_9 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{6522C25B94CB009C}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 2
+   }
+  }
+  coords 5933.611 279.062 10113.133
+  angleY 123.953
+ }
+}
+SCR_AIGroup Ses_CDF_G_002_4 : "{CEE288E63858E720}Prefabs/Groups/BLUFOR/Ses_CDF/Group_Ses_CDF_ReconTeam.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "Line"
+  }
+  PS_GroupCallsignAssigner "{6522C25B90B65208}" {
+   m_iCompanyCallsign 0
+   m_iPlatoonCallsign 0
+   m_iSquadCallsign 2
+  }
+ }
+ coords 5448.938 161.316 12530.368
+ angleY -150.359
+ m_aUnitPrefabSlots + {
+  "{9DE22FB5586591CC}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_Rifleman.et" "{1C5D238E55ACDFDC}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_Scout.et"
+ }
+}
