@@ -237,6 +237,10 @@ GenericEntity : "{42894F191BC9EDE1}Prefabs/Props/Core/AmmoBox_Base.et" {
      NumSlots 10
     }
     MultiSlotConfiguration "{6516DC0A5F545A3C}" {
+     SlotTemplate InventoryStorageSlot InventoryStorageSlot {
+      Prefab "{9B6B61BB3FE3DFB0}Prefabs/Items/Equipment/Radios/Radio_ANPRC77.et"
+     }
+     NumSlots 2
     }
    }
    m_fMaxWeight 99999997952
@@ -249,6 +253,10 @@ GenericEntity : "{42894F191BC9EDE1}Prefabs/Props/Core/AmmoBox_Base.et" {
      }
     }
    }
+  }
+  RplComponent "{5476B36C54387F41}" {
+   "Rpl State Override" Runtime
+   "Parent Node From Parent Entity" 1
   }
  }
 }

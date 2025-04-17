@@ -1,5 +1,8 @@
 PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
- coords 6111.417 163.218 6373.427
+ coords 6111.416 298.881 6373.427
+ angleX 0.865
+ angleY -0.162
+ angleZ -10.621
  m_sTitle "Исполнение"
  m_sTextData "Только что на штаб бригады поступила информация,"\
  "что противник попытается уничтожить наш узел связи."\
@@ -36,7 +39,10 @@ $grp SCR_AIGroup : "{D0372E0E86076023}Prefabs/abudabi/Groups/OPFOR/Spetsnaz/Grou
     m_iSquadCallsign 7
    }
   }
-  coords 6086.364 162.607 6403.593
+  coords 6086.364 295.68 6403.593
+  angleX 6.03
+  angleY -1.135
+  angleZ -10.679
   {
    Vehicle UAZ469_PKM1 : "{0B4DEA8078B78A9C}Prefabs/abudabi/Vehicles/Wheeled/UAZ469/UAZ469_PKM.et" {
     coords 3.521 0.674 2.787
@@ -128,7 +134,7 @@ $grp SCR_AIGroup : "{D0372E0E86076023}Prefabs/abudabi/Groups/OPFOR/Spetsnaz/Grou
     m_iSquadCallsign 8
    }
   }
-  coords 6077.452 161.026 6395.342
+  coords 6077.451 293.367 6395.342
   {
    Vehicle UAZ469_PKM2 : "{0B4DEA8078B78A9C}Prefabs/abudabi/Vehicles/Wheeled/UAZ469/UAZ469_PKM.et" {
     coords 2.776 0.428 2.281
@@ -243,9 +249,12 @@ SCR_AIGroup Def_0 : "{D1B420D921CC6CD5}Prefabs/abudabi/Groups/OPFOR/Group_USSR_P
   PS_GroupCallsignAssigner "{6475298C0469D2E1}" {
   }
  }
- coords 6153.826 164.752 6389.07
+ coords 6148.052 306.687 6365.041
+ angleX 5.003
+ angleY -1.332
+ angleZ -14.934
  m_aUnitPrefabSlots {
-  "{B5AEDC813E4F4A58}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Officer_P.et" "{730A987119F129A8}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Sergeant_P.et" "{F72805D5D2D05F63}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_RTO_P.et" "{DD80FA65DDFF68B9}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Medic_P.et" "{A8A47F001DA13B73}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Sharpshooter_P.et" "{951CA4F244097071}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_MG_P.et" "{951CA4F244097071}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_MG_P.et"
+  "{B5AEDC813E4F4A58}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Officer_P.et" "{730A987119F129A8}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Sergeant_P.et" "{F72805D5D2D05F63}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_RTO_P.et" "{DD80FA65DDFF68B9}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Medic_P.et" "{A8A47F001DA13B73}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Sharpshooter_P.et"
  }
  {
   Vehicle Target_0 : "{1BABF6B33DA0AEB7}Prefabs/abudabi/Vehicles/Wheeled/Ural4320/Ural4320_command.et" {
@@ -352,19 +361,40 @@ $grp SCR_AIGroup : "{E3545CFEDD312D55}Prefabs/abudabi/Groups/OPFOR/Group_USSR_Ri
     m_iSquadCallsign 1
    }
   }
-  coords 6138.481 164.552 6388.427
+  coords 6123.593 301.273 6372.724
+  angleX 0.799
+  angleY -0.475
+  angleZ -11.488
+  m_aUnitPrefabSlots + {
+   "{19CCD8504848310C}Prefabs/Characters/Factions/OPFOR/USSR_Army/Extra/Character_USSR_Crew_P.et" "{19CCD8504848310C}Prefabs/Characters/Factions/OPFOR/USSR_Army/Extra/Character_USSR_Crew_P.et"
+  }
+  m_sCustomNameSet "БТР-70"
   {
    Vehicle Ural4320_transport6 : "{B6BA0C8D6FF01C43}Prefabs/abudabi/Vehicles/Wheeled/Ural4320/Ural4320_transport.et" {
-    coords -0.288 0.094 2.656
-    angleY 88.633
+    coords 0.472 0.016 2.346
+    angleX 0.879
+    angleY 88.849
+    angleZ 0.849
    }
    GenericEntity : "{BB356AB94F4429CB}Prefabs/abudabi/NormalBoxes/abu_dup_Teleportable_NormalBox_USSR.et" {
-    coords -1.332 -0.02 0.161
+    coords -4.828 0.003 -0.454
+    angleX -0.026
+    angleY 92.032
+    angleZ 0.876
+   }
+   Vehicle BTR1 : "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et" {
+    components {
+     Hierarchy "{6314F77063CD9FEF}" {
+      Enabled 0
+     }
+    }
+    coords 0.625 -0.031 -3.231
+    angleY 88.199
    }
    $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
     USSR_G_122_M {
-     coords 0 0 0
-     angleY 90
+     coords -0.001 0 -0.001
+     angleY 90.255
      m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
      m_sImageSetGlow ""
      m_MarkerColor 1 1 1 1
@@ -381,8 +411,10 @@ $grp SCR_AIGroup : "{E3545CFEDD312D55}Prefabs/abudabi/Groups/OPFOR/Group_USSR_Ri
      m_iZOrder 10
     }
     {
-     coords 0.135 0.12 3.045
+     coords 0.061 0.026 3.022
+     angleX -0.877
      angleY 179.109
+     angleZ 0.018
      m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
      m_sImageSetGlow ""
      m_MarkerColor 0.855 0.031 0.028 1
@@ -410,7 +442,10 @@ $grp SCR_AIGroup : "{E3545CFEDD312D55}Prefabs/abudabi/Groups/OPFOR/Group_USSR_Ri
     m_iSquadCallsign 2
    }
   }
-  coords 6137.032 164.948 6398.542
+  coords 6137.031 306.154 6398.542
+  angleX 6.657
+  angleY -1.776
+  angleZ -14.979
   {
    Vehicle Ural4320_transport1 : "{B6BA0C8D6FF01C43}Prefabs/abudabi/Vehicles/Wheeled/Ural4320/Ural4320_transport.et" {
     coords -0.373 0.087 2.586
@@ -468,7 +503,10 @@ $grp SCR_AIGroup : "{E3545CFEDD312D55}Prefabs/abudabi/Groups/OPFOR/Group_USSR_Ri
     m_iSquadCallsign 3
    }
   }
-  coords 6120.031 164.852 6405.614
+  coords 6120.031 302.834 6405.614
+  angleX 6.755
+  angleY -1.591
+  angleZ -13.285
   {
    Vehicle Ural4320_transport2 : "{B6BA0C8D6FF01C43}Prefabs/abudabi/Vehicles/Wheeled/Ural4320/Ural4320_transport.et" {
     components {
@@ -541,7 +579,10 @@ $grp SCR_AIGroup : "{E3545CFEDD312D55}Prefabs/abudabi/Groups/OPFOR/Group_USSR_Ri
     m_iSquadCallsign 4
    }
   }
-  coords 6117.593 163.991 6388.224
+  coords 6117.593 300.675 6388.224
+  angleX 3.413
+  angleY -0.748
+  angleZ -12.361
   {
    Vehicle Target_1 : "{1BABF6B33DA0AEB7}Prefabs/abudabi/Vehicles/Wheeled/Ural4320/Ural4320_command.et" {
     coords 2.213 -0.06 -2.914
@@ -622,7 +663,10 @@ $grp SCR_AIGroup : "{E3545CFEDD312D55}Prefabs/abudabi/Groups/OPFOR/Group_USSR_Ri
     m_iSquadCallsign 5
    }
   }
-  coords 6114.031 164.232 6397.593
+  coords 6114.031 300.599 6397.593
+  angleX 4.29
+  angleY -0.873
+  angleZ -11.515
   {
    Vehicle Ural4320_transport4 : "{B6BA0C8D6FF01C43}Prefabs/abudabi/Vehicles/Wheeled/Ural4320/Ural4320_transport.et" {
     coords -0.085 0.11 2.418
@@ -680,7 +724,10 @@ $grp SCR_AIGroup : "{E3545CFEDD312D55}Prefabs/abudabi/Groups/OPFOR/Group_USSR_Ri
     m_iSquadCallsign 6
    }
   }
-  coords 6101.705 163.614 6396.827
+  coords 6101.705 298.005 6396.826
+  angleX 4.29
+  angleY -0.873
+  angleZ -11.515
   {
    Vehicle Ural4320_transport5 : "{B6BA0C8D6FF01C43}Prefabs/abudabi/Vehicles/Wheeled/Ural4320/Ural4320_transport.et" {
     coords 0.306 0.14 2.569
