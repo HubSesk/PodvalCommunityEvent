@@ -1,0 +1,13 @@
+GenericEntity StartTeleportScript : "{58E62C5D17281925}Prefabs/Particles/Blasts/Blast_small_Invisible_Trigger.et" {
+ coords 6246.541 332.447 6434.968
+ angleX 9.474
+ angleY -1.644
+ angleZ -9.889
+ userScript "	private ref SCR_Abu_TeleporterCherno Teleporter;"
+ EOnInit ""\
+ "		//Print(\"EOnInitEOnInitEOnInitEOnInitEOnInitEOnInit\");"\
+ "		Teleporter = new SCR_Abu_TeleporterCherno();"\
+ "		Teleporter.TeleportGroups();"\
+ "		"\
+ "	"
+}

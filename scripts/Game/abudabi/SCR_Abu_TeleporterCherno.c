@@ -1,8 +1,8 @@
-class EntityCollector
+class EntityCollectorCherno
 {
     private ref array<IEntity> m_Entities;
 
-    void EntityCollector()
+    void EntityCollectorCherno()
     {
         m_Entities = new array<IEntity>();
     }
@@ -19,7 +19,7 @@ class EntityCollector
     }
 }	
 
-class SCR_Abu_Teleporter
+class SCR_Abu_TeleporterCherno
 {
 	[Attribute("US", desc: "Winner by trigger")]
 	string factionkey;
@@ -67,8 +67,8 @@ class SCR_Abu_Teleporter
 	// --- GenerateRandomSpawnPointAttackSide ---
     // Purpose: Defines the minimum and maximum distance between attack and defend spawn points.
     // Used in: GenerateRandomSpawnPointAttackSide
-    float MIN_DISTANCE_ATTACK_DEFEND = 1500.0; // Minimum distance between attack and defend spawns
-    float MAX_DISTANCE_ATTACK_DEFEND = 3000.0; // Maximum distance between attack and defend spawns
+    float MIN_DISTANCE_ATTACK_DEFEND = 2500.0; // Minimum distance between attack and defend spawns
+    float MAX_DISTANCE_ATTACK_DEFEND = 4000.0; // Maximum distance between attack and defend spawns
 		
 
     // ======================================================
@@ -87,7 +87,7 @@ class SCR_Abu_Teleporter
 	    }
 	
 	    // Create collector and perform query
-	    ref EntityCollector collector = new EntityCollector();
+	    ref EntityCollectorCherno collector = new EntityCollectorCherno();
 	    bool queryResult = world.QueryEntitiesBySphere(center, radius, collector.OnEntity, null, EQueryEntitiesFlags.ALL);
 	
 	    // Retrieve and print results
@@ -124,7 +124,7 @@ class SCR_Abu_Teleporter
 	    float sphereRadius = Math.Sqrt(radius * radius + height * height);
 	
 	    // Create collector and perform sphere query
-	    ref EntityCollector collector = new EntityCollector();
+	    ref EntityCollectorCherno collector = new EntityCollectorCherno();
 	    bool queryResult = world.QueryEntitiesBySphere(center, sphereRadius, collector.OnEntity, null, EQueryEntitiesFlags.ALL);
 	
 	    // Retrieve and filter entities
@@ -218,28 +218,28 @@ class SCR_Abu_Teleporter
 	{
 		int num=CountPlayersOnServer();
 		if (num>=0 && num <=20){
-			MIN_DISTANCE_ATTACK_DEFEND = 1500;
-			MAX_DISTANCE_ATTACK_DEFEND = 3000;
+			MIN_DISTANCE_ATTACK_DEFEND = 2500;
+			MAX_DISTANCE_ATTACK_DEFEND = 4000;
 			}
 		if (num>20 && num <=40){
-			MIN_DISTANCE_ATTACK_DEFEND = 1500;
-			MAX_DISTANCE_ATTACK_DEFEND = 3000;
+			MIN_DISTANCE_ATTACK_DEFEND = 2500;
+			MAX_DISTANCE_ATTACK_DEFEND = 4000;
 			}
 		if (num>40 && num <=60){
-			MIN_DISTANCE_ATTACK_DEFEND = 1500;
-			MAX_DISTANCE_ATTACK_DEFEND = 3000;
+			MIN_DISTANCE_ATTACK_DEFEND = 2500;
+			MAX_DISTANCE_ATTACK_DEFEND = 4000;
 			}
 		if (num>60 && num <=80){
-			MIN_DISTANCE_ATTACK_DEFEND = 1500;
-			MAX_DISTANCE_ATTACK_DEFEND = 3000;
+			MIN_DISTANCE_ATTACK_DEFEND = 2500;
+			MAX_DISTANCE_ATTACK_DEFEND = 4000;
 			}
 		if (num>80 && num <=100){
-			MIN_DISTANCE_ATTACK_DEFEND = 1500;
-			MAX_DISTANCE_ATTACK_DEFEND = 3000;
+			MIN_DISTANCE_ATTACK_DEFEND = 2500;
+			MAX_DISTANCE_ATTACK_DEFEND = 4000;
 			}
 		if (num>100 && num <=130){
-			MIN_DISTANCE_ATTACK_DEFEND = 1500;
-			MAX_DISTANCE_ATTACK_DEFEND = 3000;
+			MIN_DISTANCE_ATTACK_DEFEND = 2500;
+			MAX_DISTANCE_ATTACK_DEFEND = 4000;
 			}
 	
 	}
@@ -459,9 +459,8 @@ class SCR_Abu_Teleporter
 	
 	    // Disable ISLANDS SPAWN
 	    array<vector> excludedRectangles = {
-	        {467, 0, 12278}, {1824, 0, 10870}, // Rectangle 1
-	        {9007, 0, 12600}, {12710, 0, 8000}, // Rectangle 2
-	        {2200, 0, 2800}, {3700, 0, 800} // Rectangle 3
+	        {10893.14, 0, 2345.53}, {14422.48, 0, 3723.44},  // Rect1
+    		{1988.68, 0, 1018.30}, {3575.57, 0, 2121.94}   // Rect2			
 	    };
 	
 	    while (attempts < MAX_ATTEMPTS_ATTACK_POSITION)
