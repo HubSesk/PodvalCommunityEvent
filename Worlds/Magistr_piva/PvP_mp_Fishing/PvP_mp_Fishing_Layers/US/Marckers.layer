@@ -17,25 +17,6 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   }
   m_iZOrder 10
  }
- US_G_100_M {
-  coords 4418.477 57.178 6222.843
-  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
-  m_sImageSetGlow ""
-  m_MarkerColor 1 1 1 1
-  m_sQuadName "undefined"
-  m_fWorldSize 50
-  m_sDescription "Блейзер Ред 1"\
-  ""
-  m_bUseWorldScale 0
-  m_aVisibleForFactions {
-   "US"
-  }
-  m_bVisibleForEmptyFaction 1
-  m_aHideOnGameModeStates {
-   3 0 1
-  }
-  m_iZOrder 10
- }
  US_G_101_M {
   coords 4423.682 57.477 6218.225
   m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
@@ -162,7 +143,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sDescription "#AR-Vehicle_M151A2_M2_Name"
   m_bUseWorldScale 1
   m_aVisibleForFactions {
-   "US"
+   "US" "USSR"
   }
   m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
@@ -183,7 +164,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sDescription "#AR-Vehicle_M151A2_M2_Name"
   m_bUseWorldScale 1
   m_aVisibleForFactions {
-   "US"
+   "US" "USSR"
   }
   m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
@@ -222,11 +203,68 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sDescription "#AR-Vehicle_M923A1_Transport_Covered_Name"
   m_bUseWorldScale 1
   m_aVisibleForFactions {
-   "US" "USSR"
+   "US"
   }
   m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
-   1
+   1 0 3
+  }
+  m_iZOrder 0
+ }
+ US_G_203_M {
+  coords 4481.343 57.662 6193.302
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "undefined"
+  m_fWorldSize 50
+  m_sDescription "Chaos Red 4"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "US"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+   1 0 3
+  }
+  m_iZOrder 10
+ }
+ US_G_100_M {
+  coords 4480.489 57.208 6174.122
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "undefined"
+  m_fWorldSize 50
+  m_sDescription "Blazer Red 1"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "US"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+   0 3 1
+  }
+  m_iZOrder 10
+ }
+ {
+  coords 4433.711 58.119 6220.469
+  angleX -0.909
+  angleY 52.845
+  angleZ -2.679
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.016 0.552 0.905 1
+  m_sQuadName "Truck"
+  m_fWorldSize 4.123
+  m_sDescription "#AR-Vehicle_M923A1_Engineer_Name"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "US"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+   1 0 3
   }
   m_iZOrder 0
  }
