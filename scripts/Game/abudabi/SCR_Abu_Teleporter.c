@@ -426,7 +426,8 @@ class SCR_Abu_Teleporter
         if (basePositions.IsEmpty())
         {
             Print("No valid Base entities found. Returning default position.");
-            return Vector(0, 0, 0);
+			GenerateRandomSpawnPointDefendSide();
+            //return Vector(0, 0, 0);
         }
 
         //int totalSeconds = GetLocalTimeInSeconds();

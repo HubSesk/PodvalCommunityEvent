@@ -411,11 +411,11 @@ class SCR_Abu_TeleporterCherno
     }
 
 	// Generate a random spawn point for the defend side
-	 vector GenerateRandomSpawnPointDefendSide()
+	vector GenerateRandomSpawnPointDefendSide()
     {
 		Math.Randomize(-1);
         array<vector> basePositions = {};
-        for (int i = 0; i <= 144; i++)
+        for (int i = 0; i <= 87; i++)
         {
             string baseName = "Base_" + i;
             IEntity baseEntity = GetGame().GetWorld().FindEntityByName(baseName);
@@ -426,7 +426,8 @@ class SCR_Abu_TeleporterCherno
         if (basePositions.IsEmpty())
         {
             Print("No valid Base entities found. Returning default position.");
-            return Vector(0, 0, 0);
+			GenerateRandomSpawnPointDefendSide();
+            //return Vector(0, 0, 0);
         }
 
         //int totalSeconds = GetLocalTimeInSeconds();
