@@ -1,0 +1,65 @@
+GenericEntity : "{0619993AE6CDBF85}Prefabs/Items/Equipment/Accessories/ETool_ALICE/ETool_ALICE.et" {
+ ID "0000000000000001"
+ components {
+  InventoryItemComponent "{5222EB4D0C73006B}" {
+   Attributes SCR_ItemAttributeCollection "{5222EB4D0A2B466B}" {
+    ItemDisplayName SCR_InventoryUIInfo "{5222EB4D07D865FA}" {
+     Name "#AR-Item_EToolUS_Name"
+     Description "#AR-Item_EToolUS_Description"
+     m_aItemHints {
+      SCR_InventoryItemHintUIInfo "{652927D7537C4039}" {
+       Name "#AR-Item_ETool_Hint1"
+       Icon "{889DEEAE12D64559}UI/Imagesets/SupportStations/InventoryHints.imageset"
+       IconSetName "build-1"
+      }
+      SCR_InventoryItemHintUIInfo "{652927D7537C4035}" {
+       Name "#AR-Item_ETool_Hint2"
+       Icon "{889DEEAE12D64559}UI/Imagesets/SupportStations/InventoryHints.imageset"
+       IconSetName "build-2"
+      }
+     }
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{652927D7537C4028}" {
+     Weight 1
+     SizeSetupStrategy Manual
+     ItemDimensions 10 10 10
+    }
+    ItemAnimationAttributes ItemAnimationAttributes "{652927D7537C402F}" {
+     AnimationAttachments {
+      AnimationAttachmentInfo "{652927D7537C402C}" {
+       AnimGraph "{B43CAEC6CB16C36D}Assets/Items/Equipment/workspaces/Shovel_ETool_US.agr"
+       AnimInstance "{5956FB1DD71F9183}Assets/Items/Equipment/workspaces/Shovel_ETool_US.asi"
+       BindingName "Gadget"
+      }
+     }
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{652927D7537C4026}" {
+      CameraPreset Top
+      CameraDistanceToItem 2.4
+      CameraOffset -0.02 0.03 -0.14
+      ItemRenderRotation 0 0 -45
+      FOV 10
+     }
+     SCR_SelectionMenuPreviewAttributes "{652927D7537C4024}" {
+     }
+     SCR_SelectionMenuPreviewAttributes "{652927D7537C4025}" {
+     }
+    }
+    CommonItemType "AMMO"
+    m_Size SLOT_1x1
+    m_SlotType SLOT_LOADOUT_STORAGE
+   }
+  }
+  SCR_CampaignBuildingGadgetToolComponent "{652927D7537C4018}" {
+   m_eAnimVariable ADRIANOV
+   m_iConstructionValue 10
+  }
+  ActionsManagerComponent "{508AB5952B584B2E}" {
+   additionalActions {
+    SCR_EquipItemAction "{6324CBA5C4E3ADBB}" : "{068D8D646964D12A}Prefabs/Characters/Core/Actions/EquipGadgetAction.conf" {
+    }
+   }
+  }
+ }
+}
