@@ -5,6 +5,12 @@ PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/Per
  coords 3416.963 185.784 1577.288
 }
 PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
- coords 3423.39 185.312 1572.519
+ components {
+  SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
+   m_iStartingHours 18
+   m_iStartingMinutes 10
+  }
+ }
+ coords 3569.593 190.375 1624.823
  m_iFreezeTime 300000
 }
