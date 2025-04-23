@@ -33,7 +33,7 @@ $grp SCR_AIGroup : "{04186BFCD5D7C0E8}Prefabs/Groups/BLUFOR/Ses_CDF/Group_Ses_CD
    "{03A6062FDF62A7F9}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_Sniper.et"
   }
  }
- {
+ btr {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "Line"
@@ -79,7 +79,7 @@ $grp SCR_AIGroup : "{50DE534A7953C1CC}Prefabs/Groups/BLUFOR/Ses_CDF/Group_Ses_CD
   angleY -106.064
   angleZ 0.248
  }
- {
+ loxi {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "Line"
@@ -93,7 +93,7 @@ $grp SCR_AIGroup : "{50DE534A7953C1CC}Prefabs/Groups/BLUFOR/Ses_CDF/Group_Ses_CD
   angleY -22.46
   angleZ -0.827
  }
- {
+ loxi1 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "Line"
@@ -116,6 +116,7 @@ Vehicle BTR70_Ses_CDF1 : "{52441D784D145D52}Prefabs/Vehicles/Wheeled/BTR70/BTR70
  angleX -0.381
  angleY -115.184
  angleZ -0.81
+ m_sAttachmentGroupName "btr"
 }
 $grp Vehicle : "{95C19D971E734B61}Prefabs/Vehicles/Wheeled/Ural4320/Ses_CDF/Ural4320_Ses_CDF_transport.et" {
  Ural4320_Ses_CDF_transport1 {
@@ -123,10 +124,12 @@ $grp Vehicle : "{95C19D971E734B61}Prefabs/Vehicles/Wheeled/Ural4320/Ses_CDF/Ural
   angleX -1.181
   angleY -113.844
   angleZ -0.457
+  m_sAttachmentGroupName "loxi"
  }
  Ural4320_Ses_CDF_transport2 {
   coords 2989.895 16.25 1765.307
   angleY -100.059
+  m_sAttachmentGroupName "loxi1"
  }
 }
 $grp GenericEntity : "{E521AEA6D14589B1}Prefabs/Props/Military/AmmoBoxes/AmmoBox_545x39_2160rnd.et" {
