@@ -1,0 +1,43 @@
+Vehicle : "{76B87DFCCFE628B0}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_unarmed_transport_Podval.et" {
+ ID "5A7CEB06421662F8"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{61AC9DD9ADF35174}" {
+     SourceMaterial "Exterior_Decals_C0FEB07CDCC06DC1"
+     AssignedMaterial "{D2D662B722626B92}Assets/Vehicles/Helicopters/Mi8/Data/Mi8_Exterior_Decals_RHS.emat"
+    }
+    MaterialAssignClass "{61AC9DD9ADF3514D}" {
+     SourceMaterial "Flag_decals_01_0418C5226701B4E1"
+     AssignedMaterial "{5248E04AE0225E31}Assets/Vehicles/Helicopters/Mi8/Data/MI8_Flag_decals_01_RU.emat"
+    }
+    MaterialAssignClass "{61AC9DD9ADF35147}" {
+     SourceMaterial "decals_23D9697A283FB7DF"
+     AssignedMaterial "{BACC5A891EF72B71}Assets/Vehicles/Helicopters/Mi8/Data/Helicopter_decals_01_black.emat"
+    }
+    MaterialAssignClass "{650E8E267685FC1C}" {
+     SourceMaterial "Exterier_35715EB3956D22B9"
+     AssignedMaterial "{3AD699231E40AE3C}Assets/Vehicles/Helicopters/Mi8/Data/Mi8_Body_black.emat"
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    m_Image "{5007A9979213A0FE}UI/Textures/EditorPreviews/Vehicles/Helicopters/mi8/mi8.edds"
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo door_rear {
+     Prefab "{67F445B03429FEF7}Prefabs/Vehicles/Helicopters/Mi8MT/VehParts/Mi8MT_rear_door_black.et"
+    }
+    RegisteringComponentSlotInfo jammer {
+     Prefab "{90D5E88C5BE3ED57}Prefabs/Vehicles/Helicopters/Mi8MT/VehParts/Mi8MT_IRJammer_black.et"
+    }
+    RegisteringComponentSlotInfo countermeasures {
+     Prefab "{9C57A6C02C50B980}Prefabs/Vehicles/Helicopters/Mi8MT/VehParts/Mi8MT_Countermeasures_black.et"
+    }
+   }
+  }
+ }
+}

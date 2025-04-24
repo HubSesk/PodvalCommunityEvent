@@ -1,0 +1,20 @@
+Vehicle : "{21E9A875C0A3C409}Prefabs/Vehicles/Helicopters/UH1H/UH1H_armed_gunship_HE.et" {
+ ID "5DB688595BAB2FD7"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{650CFB638E92ACFF}" {
+     SourceMaterial "UH_1H_Body01_6224CA051369DE45"
+     AssignedMaterial "{BA08A690573457FF}Assets/Vehicles/Helicopters/UH1H/Data/UH_1H_Body01_White.emat"
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo USArmyDecal {
+     Prefab "{C1C71CAF0037DDED}Prefabs/Vehicles/Helicopters/UH1H/VehParts/UH1H_USMCDecal_Podval.et"
+    }
+   }
+  }
+ }
+}

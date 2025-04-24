@@ -1,0 +1,112 @@
+Vehicle : "{3C6B3ED0C3AC30D5}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_armed_gunship_HE.et" {
+ ID "5A7CEB06421662F8"
+ components {
+  BaseLightManagerComponent "{51F88B1C7D1C1F11}" {
+   LightSlots {
+    SCR_LightSlot "{5DE2D952AF01A693}" {
+     LightPrefab "{05C56B537A2B128B}Prefabs/Vehicles/Helicopters/Mi8MT/Lights/VehicleLight_Mi8RHS_Cabin_Dim_Green.et"
+    }
+    SCR_LightSlot "{5DE461CA7C23F5C5}" {
+     LightPrefab "{05C56B537A2B128B}Prefabs/Vehicles/Helicopters/Mi8MT/Lights/VehicleLight_Mi8RHS_Cabin_Dim_Green.et"
+    }
+    SCR_LightSlot "{5DE4AC4570CEA4F8}" {
+     LightPrefab "{8DDF6EC4E8494321}Prefabs/Vehicles/Helicopters/Mi8MT/Lights/VehicleLight_Mi8RHS_Cargo_Dim_Green.et"
+    }
+    SCR_LightSlot "{5DE4C4399159FA56}" {
+     LightPrefab "{8DDF6EC4E8494321}Prefabs/Vehicles/Helicopters/Mi8MT/Lights/VehicleLight_Mi8RHS_Cargo_Dim_Green.et"
+    }
+   }
+  }
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{61AC9DD9ADF35174}" {
+     SourceMaterial "Exterior_Decals_C0FEB07CDCC06DC1"
+     AssignedMaterial "{D2D662B722626B92}Assets/Vehicles/Helicopters/Mi8/Data/Mi8_Exterior_Decals_RHS.emat"
+    }
+    MaterialAssignClass "{61AC9DD9ADF3514D}" {
+     SourceMaterial "Flag_decals_01_0418C5226701B4E1"
+     AssignedMaterial "{5248E04AE0225E31}Assets/Vehicles/Helicopters/Mi8/Data/MI8_Flag_decals_01_RU.emat"
+    }
+    MaterialAssignClass "{61AC9DD9ADF35147}" {
+     SourceMaterial "decals_23D9697A283FB7DF"
+     AssignedMaterial "{BACC5A891EF72B71}Assets/Vehicles/Helicopters/Mi8/Data/Helicopter_decals_01_black.emat"
+    }
+   }
+   ObjectHeightmapBias 0
+   ObjectHeightmapTraceBias 0
+  }
+  RHS_GroupMaterialController "{61AC9DD825A8E2BE}" {
+   m_aGroups {
+    RHS_MaterialGroupProperties "{61AC9DD83D9B833A}" {
+     m_sGroupName "side1"
+     m_iNumberOfTextures 10
+     m_bRandomize 1
+    }
+    RHS_MaterialGroupProperties "{61AC9DD83D7FD63D}" {
+     m_sGroupName "side2"
+     m_iNumberOfTextures 10
+     m_iTextureID 1
+     m_bRandomize 1
+    }
+    RHS_MaterialGroupProperties "{61AC9DD83D5B9132}" {
+     m_sGroupName "tail1"
+     m_iNumberOfTextures 10
+     m_iTextureID 2
+     m_bRandomize 1
+    }
+    RHS_MaterialGroupProperties "{61AC9DD83D47C2EF}" {
+     m_sGroupName "tail2"
+     m_iNumberOfTextures 10
+     m_bRandomize 1
+    }
+    RHS_MaterialGroupProperties "{61AC9DD83C9C3D02}" {
+     m_sGroupName "tail3"
+     m_iNumberOfTextures 10
+     m_iTextureID 4
+     m_bRandomize 1
+    }
+    RHS_MaterialGroupProperties "{61AC9DD83ED0C5EE}" {
+     m_sGroupName "tail4"
+     m_iNumberOfTextures 10
+     m_iTextureID 5
+     m_bRandomize 1
+    }
+   }
+   m_iMaxAllowedDepth 2
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo jammer {
+     MergePhysics 1
+     Prefab "{68553B671D2B65A9}Prefabs/Vehicles/Helicopters/Mi8MT/VehParts/Mi8MT_IRJammer.et"
+    }
+    RegisteringComponentSlotInfo countermeasures {
+     MergePhysics 1
+     Prefab "{EEF9E5551D67014A}Prefabs/Vehicles/Helicopters/Mi8MT/VehParts/Mi8MT_Countermeasures.et"
+     RegisterDamage 1
+    }
+    EntitySlotInfo decalsAFRF {
+     Prefab "{CC8E6CC4C782A2F8}Prefabs/Vehicles/Helicopters/Mi8MT/VehParts/Decals/mi8_static_decal.et"
+    }
+    EntitySlotInfo sidenum1 {
+     Prefab "{B7A4B923F13293B9}Prefabs/Vehicles/Helicopters/Mi8MT/VehParts/Decals/mi8_sideNum1.et"
+    }
+    EntitySlotInfo sidenum2 {
+     Prefab "{DBF08DC34DF61C97}Prefabs/Vehicles/Helicopters/Mi8MT/VehParts/Decals/mi8_sideNum2.et"
+    }
+    EntitySlotInfo tailnum1 {
+     Prefab "{A339CE410FDC41DA}Prefabs/Vehicles/Helicopters/Mi8MT/VehParts/Decals/mi8_tailNum1.et"
+    }
+    EntitySlotInfo tailnum2 {
+     Prefab "{CF6DFAA1B318CEF4}Prefabs/Vehicles/Helicopters/Mi8MT/VehParts/Decals/mi8_tailNum2.et"
+    }
+    EntitySlotInfo tailnum3 {
+     Prefab "{2AF1B658BFFD599F}Prefabs/Vehicles/Helicopters/Mi8MT/VehParts/Decals/mi8_tailNum3.et"
+    }
+    EntitySlotInfo tailnum4 {
+     Prefab "{17C59360CA91D0A8}Prefabs/Vehicles/Helicopters/Mi8MT/VehParts/Decals/mi8_tailNum4.et"
+    }
+   }
+  }
+ }
+}
