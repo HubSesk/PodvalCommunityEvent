@@ -1,0 +1,36 @@
+GenericEntity : "{092FE092D6DF1EB3}Prefabs/Props/Military/AmmoBoxes/AmmoBox_556x45_1680rnd.et" {
+ components {
+  SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+   MultiSlots {
+    MultiSlotConfiguration "{652F285F234959FF}" {
+     SlotTemplate InventoryStorageSlot InventoryStorage {
+      Prefab "{38BAE094333E31BF}Prefabs/Weapons/Ammo/Ammo_Shell_81mm_HE_M821.et"
+     }
+     NumSlots 100
+    }
+    MultiSlotConfiguration "{652F2850F60963C2}" {
+     SlotTemplate InventoryStorageSlot InventoryStorage {
+      Prefab "{F7807293E94D3C88}Prefabs/Weapons/Ammo/Ammo_Shell_81mm_Smoke_M819.et"
+     }
+     NumSlots 50
+    }
+    MultiSlotConfiguration "{652F6580F51C5B6F}" {
+     SlotTemplate InventoryStorageSlot InventorySto {
+      Prefab "{6113990D163E5249}Prefabs/Items/Equipment/BalisticTable/BalisticTable_US.et"
+     }
+     NumSlots 5
+    }
+   }
+  }
+ }
+ coords 2819.729 17.5 2297.921
+}
+Turret : "{8094D99689ABE241}Prefabs/Weapons/Mortars/M252/Mortar_M252.et" {
+ components {
+  PS_GroupAttachmentComponent "{652F28519D38194C}" {
+   m_sAttachmentGroupName "Mortar_SQUAD"
+  }
+ }
+ coords 2818.952 17.5 2300.201
+ angleY -96.01
+}
