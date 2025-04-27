@@ -63,44 +63,6 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_iOrder 1
  }
 }
-PolylineShapeEntity : "{7019844BAD5C4DD8}Prefabs/PolyZone/PolyZone_Border.et" {
- components {
-  PS_PolyZone "{60E90266F25533F6}" {
-   m_cPolygonColor 1 0.007 0 1
-   m_mPolygonTextureBorder ""
-   m_cPolygonBorderColor 1 0 0 1
-   m_bReversed 0
-   m_aVisibleForFactions {
-    "RHS_USAF"
-   }
-  }
- }
- coords 4812.742 167.308 7050.229
- Points {
-  ShapePoint "{650F1B03FFF13950}" {
-   Position -24.655 0 38.104
-  }
-  ShapePoint "{650F1B03FC65EC70}" {
-   Position -9.013 0 49.281
-  }
-  ShapePoint "{650F1B03FD135A8C}" {
-   Position -22.713 0 76.419
-  }
-  ShapePoint "{650F1B03F2DB5B01}" {
-   Position -4.247 0 86.215
-  }
-  ShapePoint "{650F1B03F3B8B6E3}" {
-   Position 6.596 0 61.12
-  }
-  ShapePoint "{650F1B03F3237BC2}" {
-   Position -2.268 0 52.427
-  }
-  ShapePoint "{650F1B03F0296415}" {
-   Position 16.102 0 7.865
-  }
- }
- LineColor 0 0.502 0.1255 1
-}
 $grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
  USAF_Objective1Normal {
   coords 4793.452 163.163 7115.898
@@ -115,13 +77,13 @@ $grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
   }
   m_iOrder 2
   m_iScore 40
-  m_sFactionKey "RHS_USAF"
+  m_sFactionKey ""
  }
  AFRF_Objective1Normal3 {
   coords 4792.769 163.163 7116.495
   m_sTitle "Задачи ОБР"
   m_sTextData "1 Как можно быстрее добраться в Монтиньяк на помощь патрулю"\
-  "2 Захватить наемников, живыми или менртвыми(форма ил документы тоже подойдут)"\
+  "2 Захватить спецотрядника, живым или мертвым(форма или документы тоже подойдут)"\
   ""
   m_aVisibleForFactions {
    "RHS_AFRF"
@@ -155,21 +117,32 @@ $grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
   }
   m_iOrder 3
   m_iScore 40
-  m_sFactionKey "RHS_USAF"
+  m_sFactionKey ""
  }
  AFRF_Objective1Normal2 {
   coords 4792.834 163.163 7116.345
   m_sTitle "Задачи патруля"
-  m_sTextData "1 Связать американцев в Монтиньяке боем и не дать им уйти"\
-  "2 Продержаться до подхода подкреплений с основной базы"\
-  ""\
-  ""
+  m_sTextData "Обследовать место крушения и найти экипаж"
   m_aVisibleForFactions {
    "RHS_AFRF"
   }
   m_iOrder 2
   m_iScore 40
   m_sFactionKey "RHS_AFRF"
+ }
+ USAF_ObjectiveSecret3 {
+  coords 4792.207 163.163 7113.896
+  m_sTitle "Документы были вывезены"
+  m_iOrder 0
+  m_iScore 40
+  m_sFactionKey "RHS_USAF"
+ }
+ USAF_ObjectiveSecret4 {
+  coords 4791.456 163.163 7113.448
+  m_sTitle "No-Wipe не попались врагу"
+  m_iOrder 0
+  m_iScore 40
+  m_sFactionKey "RHS_USAF"
  }
 }
 $grp SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
@@ -299,6 +272,63 @@ $grp PolylineShapeEntity : "{BD11B8FAA469D169}Prefabs/PolyZone/PolyZone.et" {
    }
   }
  }
+ {
+  components {
+   PS_PolyZone "{60E90266F25533F6}" {
+    m_aVisibleForFactions {
+     "RHS_USAF"
+    }
+    m_aHideOnGameModeStates {
+     0 3 5
+    }
+   }
+  }
+  coords 4807.463 167.086 7050.291
+  Points {
+   ShapePoint "{60E90266E922A02A}" {
+    Position 17.518 0 -36.83
+   }
+   ShapePoint "{65367E5E7598CAA6}" {
+    Position 6.462 0 -15.961
+   }
+   ShapePoint "{65367E5D8B80BB4C}" {
+    Position 2.567 0 -3.479
+   }
+   ShapePoint "{65367E5D8BF1E5A9}" {
+    Position 6.433 0 -1.476
+   }
+   ShapePoint "{65367E5D8B7FF7AE}" {
+    Position -18.781 0 40.105
+   }
+   ShapePoint "{65367E5D89122CC0}" {
+    Position -3.762 0 50.372
+   }
+   ShapePoint "{65367E5D8E3E21E8}" {
+    Position -15.411 0 76.186
+   }
+   ShapePoint "{65367E5D8F99D427}" {
+    Position -1.737 0 84.868
+   }
+   ShapePoint "{65367E5D8CB35927}" {
+    Position 12.469 0 58.788
+   }
+   ShapePoint "{65367E5D8C29EAE9}" {
+    Position 24.555 0 64.595
+   }
+   ShapePoint "{65367E5D9D2429AB}" {
+    Position 36.105 0 43.27
+   }
+   ShapePoint "{65367E5D8D59CF17}" {
+    Position 43.423 0 46.329
+   }
+   ShapePoint "{65367E5D8389F600}" {
+    Position 77.407 0 8.293
+   }
+   ShapePoint "{65367E5D801A3E9E}" {
+    Position 37.613 0 -31.654
+   }
+  }
+ }
 }
 $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
  USAF_ObjectiveMarker1 {
@@ -372,7 +402,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   }
  }
  USAF_ObjectiveMarker2 {
-  coords 4803.352 164.09 7088.076
+  coords 4843.538 160.747 7073.91
   angleX -3.727
   angleY 90.751
   angleZ 2.989
