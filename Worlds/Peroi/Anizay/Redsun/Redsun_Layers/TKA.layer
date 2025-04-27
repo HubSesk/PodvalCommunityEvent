@@ -1,13 +1,15 @@
 $grp Vehicle : "{5C1D77700F472327}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_TKA.et" {
  BRDM2_TKA1 {
-  coords 3956.238 145.6 9519.618
+  coords 3956.238 145.6 9519.617
   angleX 0.345
   angleY -112.646
   angleZ 0.826
+  m_sAttachmentGroupName "btr1"
  }
  BRDM2_TKA2 {
   coords 3965.874 145.562 9523.633
   angleY -112.646
+  m_sAttachmentGroupName "btr"
  }
 }
 $grp SCR_AIGroup : "{75D2AF9AD75BD3A7}Prefabs/Groups/OPFOR/Ses_TKA/Group_Ses_TKA_Base.et" {
@@ -48,7 +50,7 @@ Vehicle Ural4320_Ses_TKA_transport_covered1 : "{AC3FA513706226DD}Prefabs/Vehicle
  angleY -178.552
 }
 $grp SCR_AIGroup : "{AE3600F8B5BE83E0}Prefabs/Groups/OPFOR/Ses_TKA/Group_Ses_TKA_SpecialTeam.et" {
- {
+ spn {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "Line"
@@ -77,7 +79,7 @@ $grp SCR_AIGroup : "{AE3600F8B5BE83E0}Prefabs/Groups/OPFOR/Ses_TKA/Group_Ses_TKA
  }
 }
 $grp SCR_AIGroup : "{B8ECBEE2C3703722}Prefabs/Groups/OPFOR/Ses_TKA/Group_Ses_TKA_MedicalSection.et" {
- {
+ btr1 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "Line"
@@ -93,7 +95,7 @@ $grp SCR_AIGroup : "{B8ECBEE2C3703722}Prefabs/Groups/OPFOR/Ses_TKA/Group_Ses_TKA
    "{015EC1B41DCFA4AD}Prefabs/Characters/Factions/OPFOR/TKA/Character_TKA_Crew.et" "{88AB800C7786D8CD}Prefabs/Characters/Factions/OPFOR/TKA/Character_TKA_Crew_2.et"
   }
  }
- {
+ btr {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "Line"
@@ -134,10 +136,12 @@ $grp Vehicle : "{F3C22A3CC0664AB7}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_Ses_TKA
  UAZ469_Ses_TKA2 {
   coords 2951.35 146.125 9165.496
   angleY 74.015
+  m_sAttachmentGroupName "spn"
  }
  UAZ469_Ses_TKA3 {
   coords 2943.14 146.031 9162.763
   angleY 72.292
+  m_sAttachmentGroupName "spn"
  }
 }
 $grp SCR_AIGroup : "{F84C950E55A7BD7E}Prefabs/Groups/OPFOR/Ses_TKA/Group_Ses_TKA_RifleSquad.et" {

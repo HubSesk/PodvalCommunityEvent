@@ -1,0 +1,199 @@
+SCR_AIGroup ks : "{11FEE261D621348B}Prefabs/Groups/OPFOR/Ses_ChDKZ/Group_ChDKZ_PlatoonHQ.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "Line"
+  }
+  PS_GroupCallsignAssigner "{6530CEEC4C53A889}" {
+  }
+ }
+ coords 1428.297 283.727 11973.566
+ angleY 23.537
+}
+$grp Vehicle : "{160E1EDDBFFF8CFD}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Ses_ChDKZ.et" {
+ BTR70_Ses_ChDKZ1 {
+  coords 1409.666 285.018 11991.079
+  angleX -3.212
+  angleY 118.567
+  angleZ 0.288
+  m_sAttachmentGroupName "loxi"
+ }
+ BTR70_Ses_ChDKZ2 {
+  coords 1382.343 286.855 12006.876
+  angleX -3.212
+  angleY 118.567
+  angleZ 0.288
+  m_sAttachmentGroupName "loxi2"
+ }
+ BTR70_Ses_ChDKZ3 {
+  coords 1346.729 289.159 12025.562
+  angleX -3.963
+  angleY 109.045
+  angleZ 0.523
+  m_sAttachmentGroupName "loxi5"
+ }
+}
+$grp SCR_AIGroup : "{77820CCEB70980EE}Prefabs/Groups/OPFOR/Ses_ChDKZ/Group_ChDKZ_Base.et" {
+ loxi {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{6530CEEF5A2EA863}" {
+    m_iPlatoonCallsign 1
+   }
+  }
+  coords 1406.736 285.036 11986.261
+  angleX 0.218
+  angleY 29.826
+  angleZ 3.217
+  m_aUnitPrefabSlots + {
+   "{910C01EBD5E4146E}Prefabs/Characters/Factions/OPFOR/ChDKZ/Character_ChDKZ_Sharpshooter.et" "{6AE26CAF6AA0CE1E}Prefabs/Characters/Factions/OPFOR/ChDKZ/Character_ChDKZ_Crew.et" "{B7514D68C71897CA}Prefabs/Characters/Factions/OPFOR/ChDKZ/Character_ChDKZ_Crew_2.et"
+  }
+ }
+ loxi2 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{6530CEEF5A2EA863}" {
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 1
+   }
+  }
+  coords 1382.319 287.037 12012.673
+  angleX -0.068
+  angleY -147.519
+  angleZ -3.224
+  m_aUnitPrefabSlots + {
+   "{910C01EBD5E4146E}Prefabs/Characters/Factions/OPFOR/ChDKZ/Character_ChDKZ_Sharpshooter.et" "{6AE26CAF6AA0CE1E}Prefabs/Characters/Factions/OPFOR/ChDKZ/Character_ChDKZ_Crew.et" "{B7514D68C71897CA}Prefabs/Characters/Factions/OPFOR/ChDKZ/Character_ChDKZ_Crew_2.et"
+  }
+ }
+ loxi3 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{6530CEEF5A2EA863}" {
+    m_iCompanyCallsign 1
+   }
+  }
+  coords 1223.589 299.151 12075.021
+  angleX 0.294
+  angleY -175.286
+  angleZ -3.564
+  m_aUnitPrefabSlots + {
+   "{910C01EBD5E4146E}Prefabs/Characters/Factions/OPFOR/ChDKZ/Character_ChDKZ_Sharpshooter.et"
+  }
+ }
+ loxi4 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{6530CEEF5A2EA863}" {
+    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 1
+   }
+  }
+  coords 1193.552 301.254 12076.82
+  angleX 0.413
+  angleY -174.71
+  angleZ -4.448
+  m_aUnitPrefabSlots + {
+   "{910C01EBD5E4146E}Prefabs/Characters/Factions/OPFOR/ChDKZ/Character_ChDKZ_Sharpshooter.et"
+  }
+ }
+ loxi5 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{6530CEEF5A2EA863}" {
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 2
+   }
+  }
+  coords 1348.873 289.117 12031.243
+  angleX -0.412
+  angleY -165.309
+  angleZ -1.958
+  m_aUnitPrefabSlots + {
+   "{910C01EBD5E4146E}Prefabs/Characters/Factions/OPFOR/ChDKZ/Character_ChDKZ_Sharpshooter.et" "{6AE26CAF6AA0CE1E}Prefabs/Characters/Factions/OPFOR/ChDKZ/Character_ChDKZ_Crew.et" "{B7514D68C71897CA}Prefabs/Characters/Factions/OPFOR/ChDKZ/Character_ChDKZ_Crew_2.et"
+  }
+ }
+ loxi6 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{6530CEEF5A2EA863}" {
+    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 1
+   }
+  }
+  coords 1161.634 303.423 12076.081
+  angleX -0.142
+  angleY 176.96
+  angleZ -2.68
+  m_aUnitPrefabSlots + {
+   "{910C01EBD5E4146E}Prefabs/Characters/Factions/OPFOR/ChDKZ/Character_ChDKZ_Sharpshooter.et"
+  }
+ }
+ loxi7 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{6530CEEF5A2EA863}" {
+    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 2
+   }
+  }
+  coords 1132.983 305.38 12069.379
+  angleX 0.503
+  angleY 164.192
+  angleZ -4.783
+  m_aUnitPrefabSlots + {
+   "{910C01EBD5E4146E}Prefabs/Characters/Factions/OPFOR/ChDKZ/Character_ChDKZ_Sharpshooter.et"
+  }
+ }
+}
+$grp Vehicle : "{8918EDE86C8CB551}Prefabs/Vehicles/Wheeled/Ural4320/Ses_ChDKZ/Ural4320_Ses_ChDKZ_transport.et" {
+ Ural4320_Ses_ChDKZ_transport1 {
+  coords 1223.919 299.1 12069.468
+  angleX -4.458
+  angleY 93.658
+  angleZ -0.285
+  m_sAttachmentGroupName "loxi3"
+ }
+ Ural4320_Ses_ChDKZ_transport2 {
+  coords 1191.702 301.367 12071.723
+  angleX -4.462
+  angleY 92.646
+  angleZ -0.206
+  m_sAttachmentGroupName "loxi4"
+ }
+ Ural4320_Ses_ChDKZ_transport3 {
+  coords 1160.827 303.493 12071.941
+  angleX -2.669
+  angleY 84.01
+  angleZ 0.28
+  m_sAttachmentGroupName "loxi6"
+ }
+ Ural4320_Ses_ChDKZ_transport4 {
+  coords 1133.847 305.506 12063.177
+  angleX -4.764
+  angleY 76.133
+  angleZ -0.663
+  m_sAttachmentGroupName "loxi7"
+ }
+}
+Vehicle UAZ469_Ses_ChDKZ1 : "{EF3C004C1F1E24C6}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_Ses_ChDKZ.et" {
+ coords 1431.083 283.717 11978.027
+ angleX -2.434
+ angleY 119.117
+ angleZ 0.692
+ m_sAttachmentGroupName "ks"
+}

@@ -1,0 +1,40 @@
+$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ TKA {
+  coords 1740.043 163.648 1404.848
+  angleY 79.35
+  m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+  m_sQuadName "Task_Defend"
+  m_sDescription "Asadis Oil"
+  m_aVisibleForFactions {
+   "Ses_TKA"
+  }
+  m_aHideOnGameModeStates {
+   0 3
+  }
+ }
+ USAF {
+  coords 1739.914 163.648 1404.857
+  angleY 82.625
+  m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+  m_sQuadName "Task_Attack"
+  m_sDescription "AsadisOil"
+  m_aVisibleForFactions {
+   "RHS_USAF"
+  }
+ }
+ NAPADENIE {
+  coords 2605.543 176.772 1444.802
+  angleX 6.921
+  angleY -98.09
+  angleZ -9.825
+  m_MarkerColor 0.002 0.218 0.644 1
+  m_sQuadName "ambush"
+  m_fWorldSize 300
+  m_aVisibleForFactions {
+   "Ses_TKA"
+  }
+  m_aHideOnGameModeStates {
+   0 3 1
+  }
+ }
+}

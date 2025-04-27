@@ -2,10 +2,12 @@ $grp Vehicle : "{6F963B40DE04868A}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Ses_TKA.e
  BTR70_Ses_TKA1 {
   coords 5130.109 207.219 1745.478
   angleY 178.105
+  m_sAttachmentGroupName "ii"
  }
  BTR70_Ses_TKA2 {
   coords 5128.438 207.219 1801.875
   angleY 178.105
+  m_sAttachmentGroupName "uu"
  }
 }
 $grp SCR_AIGroup : "{75D2AF9AD75BD3A7}Prefabs/Groups/OPFOR/Ses_TKA/Group_Ses_TKA_Base.et" {
@@ -56,7 +58,7 @@ $grp SCR_AIGroup : "{75D2AF9AD75BD3A7}Prefabs/Groups/OPFOR/Ses_TKA/Group_Ses_TKA
    "{57FF966912559FBA}Prefabs/Characters/Factions/OPFOR/TKA/Character_TKA_Sharpshooter_2.et"
   }
  }
- {
+ ii {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "Line"
@@ -71,7 +73,7 @@ $grp SCR_AIGroup : "{75D2AF9AD75BD3A7}Prefabs/Groups/OPFOR/Ses_TKA/Group_Ses_TKA
    "{57FF966912559FBA}Prefabs/Characters/Factions/OPFOR/TKA/Character_TKA_Sharpshooter_2.et" "{015EC1B41DCFA4AD}Prefabs/Characters/Factions/OPFOR/TKA/Character_TKA_Crew.et" "{88AB800C7786D8CD}Prefabs/Characters/Factions/OPFOR/TKA/Character_TKA_Crew_2.et"
   }
  }
- {
+ uu {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "Line"
