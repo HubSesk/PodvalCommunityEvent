@@ -3,35 +3,36 @@ Vehicle UAZ469_uncovered_Ses_TKA1 : "{6773D9209B13A291}Prefabs/Vehicles/Wheeled/
  angleX 1.26
  angleY 140.766
  angleZ 0.127
+ m_sAttachmentGroupName "kss"
 }
 Vehicle Ural4320_Ses_TKA_transport1 : "{6C98ACF4A2DA1970}Prefabs/Vehicles/Wheeled/Ural4320/Ses_TKA/Ural4320_Ses_TKA_transport.et" {
  coords 4825.477 255.812 903.756
  angleY 47.852
+ m_sAttachmentGroupName "bb4"
 }
 $grp Vehicle : "{6F963B40DE04868A}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Ses_TKA.et" {
- BTR70_Ses_TKA1 {
-  coords 5241.673 170.375 5012.451
-  angleY 147.421
- }
  BTR70_Ses_TKA2 {
   coords 5257.581 170.431 4986.635
   angleX 0.512
   angleY 145.155
   angleZ 0.735
+  m_sAttachmentGroupName "bb1"
  }
  BTR70_Ses_TKA3 {
   coords 5273.61 170.406 4960.085
   angleY 145.155
+  m_sAttachmentGroupName "bb2"
  }
  BTR70_Ses_TKA4 {
   coords 4798.648 255.578 882.859
   angleX 2.492
   angleY 55.014
   angleZ 0.44
+  m_sAttachmentGroupName "bb5"
  }
 }
 $grp SCR_AIGroup : "{75D2AF9AD75BD3A7}Prefabs/Groups/OPFOR/Ses_TKA/Group_Ses_TKA_Base.et" {
- {
+ bb {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "Line"
@@ -43,10 +44,10 @@ $grp SCR_AIGroup : "{75D2AF9AD75BD3A7}Prefabs/Groups/OPFOR/Ses_TKA/Group_Ses_TKA
   coords 5236.269 171.508 5012.557
   angleY 59.693
   m_aUnitPrefabSlots + {
-   "{015EC1B41DCFA4AD}Prefabs/Characters/Factions/OPFOR/TKA/Character_TKA_Crew.et" "{88AB800C7786D8CD}Prefabs/Characters/Factions/OPFOR/TKA/Character_TKA_Crew_2.et" "{C07B54EE52551483}Prefabs/Characters/Factions/OPFOR/TKA/Character_TKA_Sapper.et"
+   "{015EC1B41DCFA4AD}Prefabs/Characters/Factions/OPFOR/TKA/Character_TKA_Crew.et"
   }
  }
- {
+ bb1 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "Line"
@@ -62,14 +63,14 @@ $grp SCR_AIGroup : "{75D2AF9AD75BD3A7}Prefabs/Groups/OPFOR/Ses_TKA/Group_Ses_TKA
    "{015EC1B41DCFA4AD}Prefabs/Characters/Factions/OPFOR/TKA/Character_TKA_Crew.et" "{88AB800C7786D8CD}Prefabs/Characters/Factions/OPFOR/TKA/Character_TKA_Crew_2.et" "{9D851D0B7F1C0AE9}Prefabs/Characters/Factions/OPFOR/TKA/Character_TKA_Sapper_2.et"
   }
  }
- {
+ bb2 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "Line"
    }
    PS_GroupCallsignAssigner "{651345BB824D457A}" {
     m_iPlatoonCallsign 1
-    m_iSquadCallsign 1
+    m_iSquadCallsign 2
    }
   }
   coords 5268.06 170.406 4957.079
@@ -78,7 +79,7 @@ $grp SCR_AIGroup : "{75D2AF9AD75BD3A7}Prefabs/Groups/OPFOR/Ses_TKA/Group_Ses_TKA
    "{015EC1B41DCFA4AD}Prefabs/Characters/Factions/OPFOR/TKA/Character_TKA_Crew.et" "{88AB800C7786D8CD}Prefabs/Characters/Factions/OPFOR/TKA/Character_TKA_Crew_2.et" "{C07B54EE52551483}Prefabs/Characters/Factions/OPFOR/TKA/Character_TKA_Sapper.et"
   }
  }
- {
+ bb3 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "Line"
@@ -93,7 +94,7 @@ $grp SCR_AIGroup : "{75D2AF9AD75BD3A7}Prefabs/Groups/OPFOR/Ses_TKA/Group_Ses_TKA
    "{3A44182939C9EA94}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_Sharpshooter_Random.et" "{9D851D0B7F1C0AE9}Prefabs/Characters/Factions/OPFOR/TKA/Character_TKA_Sapper_2.et"
   }
  }
- {
+ bb4 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "Line"
@@ -109,7 +110,7 @@ $grp SCR_AIGroup : "{75D2AF9AD75BD3A7}Prefabs/Groups/OPFOR/Ses_TKA/Group_Ses_TKA
    "{3A44182939C9EA94}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_Sharpshooter_Random.et" "{C07B54EE52551483}Prefabs/Characters/Factions/OPFOR/TKA/Character_TKA_Sapper.et"
   }
  }
- {
+ bb5 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "Line"
@@ -130,11 +131,19 @@ $grp SCR_AIGroup : "{75D2AF9AD75BD3A7}Prefabs/Groups/OPFOR/Ses_TKA/Group_Ses_TKA
 Vehicle Mi8MT_armed_gunship_HE_Ses_TKA1 : "{881188B12F3A0CFD}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_armed_gunship_HE_Ses_TKA.et" {
  coords 4551.628 134.966 5773.658
 }
-Vehicle Ural4320_Ses_TKA_transport_covered1 : "{AC3FA513706226DD}Prefabs/Vehicles/Wheeled/Ural4320/Ses_TKA/Ural4320_Ses_TKA_transport_covered.et" {
- coords 4845.311 255.307 923.065
- angleX -1.266
- angleY 45.041
- angleZ -0.001
+$grp Vehicle : "{AC3FA513706226DD}Prefabs/Vehicles/Wheeled/Ural4320/Ses_TKA/Ural4320_Ses_TKA_transport_covered.et" {
+ Ural4320_Ses_TKA_transport_covered1 {
+  coords 4845.311 255.307 923.065
+  angleX -1.266
+  angleY 45.041
+  angleZ -0.001
+  m_sAttachmentGroupName "bb3"
+ }
+ Ural4320_Ses_TKA_transport_covered2 {
+  coords 5240.177 170.375 5014.465
+  angleY 147.58
+  m_sAttachmentGroupName "bb"
+ }
 }
 $grp SCR_AIGroup : "{B8ECBEE2C3703722}Prefabs/Groups/OPFOR/Ses_TKA/Group_Ses_TKA_MedicalSection.et" {
  {
@@ -185,14 +194,14 @@ $grp SCR_AIGroup : "{B8ECBEE2C3703722}Prefabs/Groups/OPFOR/Ses_TKA/Group_Ses_TKA
    "{12F431E2027BF994}Prefabs/Characters/Factions/OPFOR/TKA/SpecialForces/Character_TKA_SpecialRTO.et" "{54CB5C45A0884FA8}Prefabs/Characters/Factions/OPFOR/TKA/SpecialForces/Character_TKA_TeamLeader.et" "{A38D67186A049F83}Prefabs/Characters/Factions/OPFOR/TKA/SpecialForces/Character_TKA_MG.et" "{D15C04BB3435495C}Prefabs/Characters/Factions/OPFOR/TKA/SpecialForces/Character_TKA_SpecialSoldier2.et" "{C3DAFD25B2D52251}Prefabs/Characters/Factions/OPFOR/TKA/SpecialForces/Character_TKA_SpecialSoldier.et" "{67E8A351C4DF452C}Prefabs/Characters/Factions/OPFOR/TKA/SpecialForces/Character_TKA_SF_Sharpshooter.et"
   }
  }
- {
+ kss {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "Line"
    }
    PS_GroupCallsignAssigner "{6514913A0BBE69C2}" {
     m_iPlatoonCallsign 1
-    m_iSquadCallsign 2
+    m_iSquadCallsign 3
    }
   }
   coords 5214.084 170.645 5046.842
@@ -670,7 +679,7 @@ $grp GenericEntity : "{E521AEA6D14589B1}Prefabs/Props/Military/AmmoBoxes/AmmoBox
   angleZ -1.239
  }
 }
-SCR_AIGroup : "{F21917B6C71E18E0}Prefabs/Groups/OPFOR/Ses_TKA/Group_Ses_TKA_PlatoonHQ.et" {
+SCR_AIGroup ks : "{F21917B6C71E18E0}Prefabs/Groups/OPFOR/Ses_TKA/Group_Ses_TKA_PlatoonHQ.et" {
  components {
   AIFormationComponent "{507E9DC12F541FE6}" {
    DefaultFormation "Line"
@@ -686,4 +695,5 @@ Vehicle UAZ469_Ses_TKA1 : "{F3C22A3CC0664AB7}Prefabs/Vehicles/Wheeled/UAZ469/UAZ
  angleX -1.25
  angleY 144.152
  angleZ -0.201
+ m_sAttachmentGroupName "ks"
 }
