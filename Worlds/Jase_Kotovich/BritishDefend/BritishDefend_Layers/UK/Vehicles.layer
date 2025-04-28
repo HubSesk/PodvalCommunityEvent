@@ -1,0 +1,70 @@
+$grp Vehicle : "{2BE1F8B9299B67C1}Prefabs/Vehicles/Wheeled/M923A1/M923A1_tanker.et" {
+ M923A1_tanker1 {
+  coords 1165.829 3.077 5084.417
+  angleY 119.702
+ }
+ M923A1_tanker4 {
+  coords 1169.036 3.46 5144.03
+  angleY -146.712
+ }
+ M923A1_tanker9 {
+  coords 1254.643 2.779 4968.608
+  angleY 32.518
+ }
+ M923A1_tanker6 {
+  coords 984.41 3.48 5109.437
+  angleY 121.417
+ }
+ M923A1_tanker8 {
+  coords 987.82 3.48 5114.5
+  angleY 121.417
+ }
+ M923A1_tanker7 {
+  coords 990.967 3.48 5119.653
+  angleY 121.417
+ }
+ M923A1_tanker10 {
+  coords 1240.373 2.779 4979.126
+  angleY 36.527
+ }
+ M923A1_tanker2 {
+  coords 1169.023 3.077 5090.016
+  angleY 119.702
+ }
+ M923A1_tanker3 {
+  coords 1172.274 3.077 5095.715
+  angleY 119.702
+ }
+ M923A1_tanker5 {
+  coords 1172.675 3.46 5141.641
+  angleY -146.712
+ }
+}
+Vehicle UH1H_armed_gunship_HEDP1 : "{CB4D4CF7E887B2D0}Prefabs/Vehicles/Helicopters/UH1H/UH1H_armed_gunship_HEDP.et" {
+ coords 1193.726 3.402 5060.582
+ angleY 37.162
+ m_sAttachmentGroupName "UK_G_110_3"
+}
+Vehicle UH1H_armed1 : "{DDDD9B51F1234DF3}Prefabs/Vehicles/Helicopters/UH1H/UH1H_armed.et" {
+ components {
+  SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+   FuelNodes {
+    SCR_FuelNode "{5622A70CD4036C5A}" {
+     m_fInitialFuelTankState 0
+    }
+    SCR_FuelNode "{5E9AE02488359898}" {
+     m_fInitialFuelTankState 0
+    }
+    SCR_FuelNode "{5E9AE0248101059B}" {
+     m_fInitialFuelTankState 0
+    }
+    SCR_FuelNode "{5E9AE02480691735}" {
+     m_fInitialFuelTankState 0
+    }
+   }
+  }
+ }
+ coords 1210.836 3.354 5030.777
+ angleY 34.192
+ m_sAttachmentGroupName "UK_G_102_3"
+}
