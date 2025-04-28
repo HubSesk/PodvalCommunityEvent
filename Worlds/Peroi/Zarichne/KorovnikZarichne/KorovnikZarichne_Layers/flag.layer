@@ -1,0 +1,27 @@
+$grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
+ Flag_TKA {
+  coords 3494.56 198.311 1608.356
+  m_sTitle "Контроль флага"
+  m_sFactionKey "Ses_TKA"
+ }
+ Flag_TKR {
+  coords 3494.56 198.311 1608.356
+  m_sTitle "Контроль флага"
+  m_sFactionKey "Ses_TKR"
+ }
+}
+GenericEntity : "{A799F8BA47DB69F5}PrefabsEditable/Auto/Structures/Military/Flags/FlagPole_02_V1_TKA_Editable.et" {
+ components {
+  SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+   m_aObjectiveNames {
+    "Flag_TKA" "Flag_TKR"
+   }
+   m_sFactionKey "Ses_TKA"
+   m_iAdvanceAfterSec 10
+  }
+ }
+ coords 3637.622 200.969 1618.859
+ angleX -0.668
+ angleY -1.331
+ angleZ 1.348
+}
