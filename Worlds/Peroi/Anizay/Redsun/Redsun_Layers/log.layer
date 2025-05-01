@@ -15,7 +15,7 @@ GenericEntity : "{6A3CDCFB475BF1B2}Prefabs/System/DRG_CriticalLossPrefab.et" {
     LossLogic "{652A0AE6592D3F9D}" {
      m_aLosses {
       FactionLoss "{652A0AE64501164A}" {
-       m_sFactionKey "Ses_TKR"
+       m_sFactionKey "RHS_USAF"
       }
      }
      m_bAdvanceGameStage 1
@@ -25,7 +25,19 @@ GenericEntity : "{6A3CDCFB475BF1B2}Prefabs/System/DRG_CriticalLossPrefab.et" {
    }
   }
  }
- coords 3519.755 190.847 1625.011
+ coords 4428.393 145.995 9223.145
+}
+$grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
+ {
+  coords 2711.989 128.87 7676.73
+  m_sTitle "Удержали штаб"
+  m_sFactionKey "Ses_TKA"
+ }
+ {
+  coords 2778.832 130.347 7324.009
+  m_sTitle "Захватили штаб"
+  m_sFactionKey "RHS_USAF"
+ }
 }
 GenericEntity : "{E6FC6DD69FA3479F}Prefabs/System/DRG_MissionEndTimerPrefab.et" {
  components {
@@ -36,5 +48,5 @@ GenericEntity : "{E6FC6DD69FA3479F}Prefabs/System/DRG_MissionEndTimerPrefab.et" 
    }
   }
  }
- coords 3505.012 194.134 1639.677
+ coords 4429.619 145.995 9223.025
 }
