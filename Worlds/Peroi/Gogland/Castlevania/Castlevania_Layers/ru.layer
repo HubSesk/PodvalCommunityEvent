@@ -1,0 +1,201 @@
+Vehicle Mi8MT_armed1 : "{7BD282AF716ED639}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_armed.et" {
+ coords 7149.328 6.782 5213.115
+ angleX -2.784
+ angleY -8.233
+ angleZ -0.501
+ m_sAttachmentGroupName "pil"
+}
+$grp SCR_AIGroup : "{A07675B0C083D337}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VSR/Group_RHS_RF_MSV_VSR_Team_GL.et" {
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{654257C77E3DB0C1}" {
+   }
+  }
+  coords 5888.232 4.52 3623.817
+  angleX -1.783
+  angleY 0.112
+  angleZ -3.578
+  m_aUnitPrefabSlots {
+   "{CC3E84140343D82E}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VSR/Character_RHS_RF_MSV_VSR_Officer.et" "{424464CB4B245206}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VSR/Character_RHS_RF_MSV_VSR_SR.et" "{FF487917A93A8312}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VSR/Character_RHS_RF_MSV_VSR_RTO.et" "{0F6828C84B29E924}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VSR/Character_RHS_RF_MSV_VSR_GL.et" "{A4826A1E3B092A78}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VSR/Character_RHS_RF_MSV_VSR_Sharpshooter.et"
+  }
+ }
+ pil {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{654257CC40F48A77}" {
+    m_iCompanyCallsign 4
+   }
+  }
+  coords 7156.792 6.909 5212.302
+  angleX -1.992
+  angleY -21.071
+  angleZ -0.192
+  m_aUnitPrefabSlots {
+   "{BBFE0BDC501C440F}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/Character_RHS_RF_MSV_VKPO_S_HeliPilot.et" "{BBFE0BDC501C440F}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/Character_RHS_RF_MSV_VKPO_S_HeliPilot.et" "{BBFE0BDC501C440F}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/Character_RHS_RF_MSV_VKPO_S_HeliPilot.et"
+  }
+ }
+}
+$grp SCR_AIGroup : "{CB03012D8F709807}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VSR/Group_RHS_RF_MSV_VSR_Base.et" {
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{654257C7DB13586C}" {
+    m_iPlatoonCallsign 1
+   }
+  }
+  coords 5863.527 3.836 3624.032
+  angleX 0.022
+  angleY 1.406
+  angleZ -0.895
+  m_aUnitPrefabSlots {
+   "{6F35A7F68E1A221D}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VSR/Character_RHS_RF_MSV_VSR_SL.et" "{424464CB4B245206}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VSR/Character_RHS_RF_MSV_VSR_SR.et" "{50AA88F3D2D194ED}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VSR/Character_RHS_RF_MSV_VSR_MG.et" "{DA153F28C5179E52}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VSR/Character_RHS_RF_MSV_VSR_AT.et" "{23D3F748B2D76D2B}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VSR/Character_RHS_RF_MSV_VSR_AAT.et" "{02BD56E9BC9E800E}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VSR/Character_RHS_RF_MSV_VSR_AR.et" "{A4826A1E3B092A78}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VSR/Character_RHS_RF_MSV_VSR_Sharpshooter.et"
+  }
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{654257C7DB13586C}" {
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 1
+   }
+  }
+  coords 5844.02 3.853 3625.433
+  angleX -0.655
+  angleY 42.972
+  angleZ -0.61
+  m_aUnitPrefabSlots {
+   "{6F35A7F68E1A221D}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VSR/Character_RHS_RF_MSV_VSR_SL.et" "{424464CB4B245206}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VSR/Character_RHS_RF_MSV_VSR_SR.et" "{50AA88F3D2D194ED}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VSR/Character_RHS_RF_MSV_VSR_MG.et" "{DA153F28C5179E52}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VSR/Character_RHS_RF_MSV_VSR_AT.et" "{23D3F748B2D76D2B}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VSR/Character_RHS_RF_MSV_VSR_AAT.et" "{02BD56E9BC9E800E}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VSR/Character_RHS_RF_MSV_VSR_AR.et" "{A4826A1E3B092A78}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VSR/Character_RHS_RF_MSV_VSR_Sharpshooter.et"
+  }
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{654257C7DB13586C}" {
+    m_iCompanyCallsign 1
+   }
+  }
+  coords 5381.998 7.191 4525.363
+  angleX -3.734
+  angleY 29.66
+  angleZ -6.128
+  m_aUnitPrefabSlots {
+   "{6F35A7F68E1A221D}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VSR/Character_RHS_RF_MSV_VSR_SL.et" "{424464CB4B245206}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VSR/Character_RHS_RF_MSV_VSR_SR.et" "{50AA88F3D2D194ED}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VSR/Character_RHS_RF_MSV_VSR_MG.et" "{DA153F28C5179E52}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VSR/Character_RHS_RF_MSV_VSR_AT.et" "{23D3F748B2D76D2B}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VSR/Character_RHS_RF_MSV_VSR_AAT.et" "{02BD56E9BC9E800E}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VSR/Character_RHS_RF_MSV_VSR_AR.et" "{3CEC77A6686C1BA3}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VSR/Character_RHS_RF_MSV_VSR_Rifleman.et" "{A4826A1E3B092A78}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VSR/Character_RHS_RF_MSV_VSR_Sharpshooter.et"
+  }
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{654257C7DB13586C}" {
+    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 1
+   }
+  }
+  coords 5413.389 8.218 4533.634
+  angleX -1.838
+  angleY 130.149
+  angleZ 0.791
+  m_aUnitPrefabSlots {
+   "{6F35A7F68E1A221D}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VSR/Character_RHS_RF_MSV_VSR_SL.et" "{424464CB4B245206}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VSR/Character_RHS_RF_MSV_VSR_SR.et" "{50AA88F3D2D194ED}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VSR/Character_RHS_RF_MSV_VSR_MG.et" "{DA153F28C5179E52}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VSR/Character_RHS_RF_MSV_VSR_AT.et" "{23D3F748B2D76D2B}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VSR/Character_RHS_RF_MSV_VSR_AAT.et" "{02BD56E9BC9E800E}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VSR/Character_RHS_RF_MSV_VSR_AR.et" "{3CEC77A6686C1BA3}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VSR/Character_RHS_RF_MSV_VSR_Rifleman.et" "{A4826A1E3B092A78}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VSR/Character_RHS_RF_MSV_VSR_Sharpshooter.et"
+  }
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{654257C7DB13586C}" {
+    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 1
+   }
+  }
+  coords 5413.598 6.875 4570.541
+  angleY -133.284
+  m_aUnitPrefabSlots {
+   "{6F35A7F68E1A221D}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VSR/Character_RHS_RF_MSV_VSR_SL.et" "{424464CB4B245206}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VSR/Character_RHS_RF_MSV_VSR_SR.et" "{50AA88F3D2D194ED}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VSR/Character_RHS_RF_MSV_VSR_MG.et" "{DA153F28C5179E52}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VSR/Character_RHS_RF_MSV_VSR_AT.et" "{23D3F748B2D76D2B}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VSR/Character_RHS_RF_MSV_VSR_AAT.et" "{02BD56E9BC9E800E}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VSR/Character_RHS_RF_MSV_VSR_AR.et" "{3CEC77A6686C1BA3}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VSR/Character_RHS_RF_MSV_VSR_Rifleman.et" "{A4826A1E3B092A78}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VSR/Character_RHS_RF_MSV_VSR_Sharpshooter.et"
+  }
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{654257C7DB13586C}" {
+    m_iCompanyCallsign 2
+   }
+  }
+  coords 6611.747 50.999 4230.056
+  angleX -0.348
+  angleY -76.507
+  angleZ 9.047
+  m_aUnitPrefabSlots {
+   "{6F35A7F68E1A221D}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VSR/Character_RHS_RF_MSV_VSR_SL.et" "{424464CB4B245206}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VSR/Character_RHS_RF_MSV_VSR_SR.et" "{50AA88F3D2D194ED}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VSR/Character_RHS_RF_MSV_VSR_MG.et" "{DA153F28C5179E52}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VSR/Character_RHS_RF_MSV_VSR_AT.et" "{23D3F748B2D76D2B}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VSR/Character_RHS_RF_MSV_VSR_AAT.et" "{02BD56E9BC9E800E}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VSR/Character_RHS_RF_MSV_VSR_AR.et" "{3CEC77A6686C1BA3}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VSR/Character_RHS_RF_MSV_VSR_Rifleman.et" "{A4826A1E3B092A78}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VSR/Character_RHS_RF_MSV_VSR_Sharpshooter.et"
+  }
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{654257C7DB13586C}" {
+    m_iCompanyCallsign 2
+    m_iPlatoonCallsign 1
+   }
+  }
+  coords 6605.475 55.328 4201.258
+  angleX -0.336
+  angleY -76.582
+  angleZ 9.047
+  m_aUnitPrefabSlots {
+   "{6F35A7F68E1A221D}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VSR/Character_RHS_RF_MSV_VSR_SL.et" "{424464CB4B245206}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VSR/Character_RHS_RF_MSV_VSR_SR.et" "{50AA88F3D2D194ED}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VSR/Character_RHS_RF_MSV_VSR_MG.et" "{DA153F28C5179E52}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VSR/Character_RHS_RF_MSV_VSR_AT.et" "{23D3F748B2D76D2B}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VSR/Character_RHS_RF_MSV_VSR_AAT.et" "{02BD56E9BC9E800E}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VSR/Character_RHS_RF_MSV_VSR_AR.et" "{3CEC77A6686C1BA3}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VSR/Character_RHS_RF_MSV_VSR_Rifleman.et" "{A4826A1E3B092A78}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VSR/Character_RHS_RF_MSV_VSR_Sharpshooter.et"
+  }
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{654257C7DB13586C}" {
+    m_iCompanyCallsign 3
+   }
+  }
+  coords 5868.5 33.094 4946.949
+  angleX -1.007
+  angleY -178.204
+  angleZ 3.546
+  m_aUnitPrefabSlots {
+   "{6F35A7F68E1A221D}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VSR/Character_RHS_RF_MSV_VSR_SL.et" "{424464CB4B245206}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VSR/Character_RHS_RF_MSV_VSR_SR.et" "{50AA88F3D2D194ED}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VSR/Character_RHS_RF_MSV_VSR_MG.et" "{DA153F28C5179E52}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VSR/Character_RHS_RF_MSV_VSR_AT.et" "{23D3F748B2D76D2B}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VSR/Character_RHS_RF_MSV_VSR_AAT.et" "{02BD56E9BC9E800E}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VSR/Character_RHS_RF_MSV_VSR_AR.et" "{3CEC77A6686C1BA3}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VSR/Character_RHS_RF_MSV_VSR_Rifleman.et" "{A4826A1E3B092A78}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VSR/Character_RHS_RF_MSV_VSR_Sharpshooter.et"
+  }
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{654257C7DB13586C}" {
+    m_iCompanyCallsign 3
+    m_iPlatoonCallsign 1
+   }
+  }
+  coords 5843.291 31.286 4948.163
+  angleX 0.744
+  angleY -178.067
+  angleZ 4.494
+  m_aUnitPrefabSlots {
+   "{6F35A7F68E1A221D}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VSR/Character_RHS_RF_MSV_VSR_SL.et" "{424464CB4B245206}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VSR/Character_RHS_RF_MSV_VSR_SR.et" "{50AA88F3D2D194ED}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VSR/Character_RHS_RF_MSV_VSR_MG.et" "{DA153F28C5179E52}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VSR/Character_RHS_RF_MSV_VSR_AT.et" "{23D3F748B2D76D2B}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VSR/Character_RHS_RF_MSV_VSR_AAT.et" "{02BD56E9BC9E800E}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VSR/Character_RHS_RF_MSV_VSR_AR.et" "{3CEC77A6686C1BA3}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VSR/Character_RHS_RF_MSV_VSR_Rifleman.et" "{A4826A1E3B092A78}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VSR/Character_RHS_RF_MSV_VSR_Sharpshooter.et"
+  }
+ }
+}
