@@ -6,7 +6,7 @@ GenericEntity : "{6A3CDCFB475BF1B2}Prefabs/System/DRG_CriticalLossPrefab.et" {
      m_aLosses {
       FactionLoss "{652A0AE6205858BB}" {
        m_iCriticalLossCount 4
-       m_sFactionKey "Ses_TKA"
+       m_sFactionKey "Ses_TKR"
       }
      }
      m_bAdvanceGameStage 1
@@ -15,7 +15,7 @@ GenericEntity : "{6A3CDCFB475BF1B2}Prefabs/System/DRG_CriticalLossPrefab.et" {
     LossLogic "{652A0AE6592D3F9D}" {
      m_aLosses {
       FactionLoss "{652A0AE64501164A}" {
-       m_sFactionKey "Ses_TKR"
+       m_sFactionKey "Ses_TKA"
       }
      }
      m_bAdvanceGameStage 1
@@ -25,7 +25,19 @@ GenericEntity : "{6A3CDCFB475BF1B2}Prefabs/System/DRG_CriticalLossPrefab.et" {
    }
   }
  }
- coords 3519.755 190.847 1625.011
+ coords 6182.519 223.828 2308.702
+}
+$grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
+ {
+  coords 4466.115 206.703 762.288
+  m_sTitle "Защитили SMAW"
+  m_sFactionKey "Ses_TKR"
+ }
+ {
+  coords 4532.958 208.18 409.567
+  m_sTitle "Украли SMAW"
+  m_sFactionKey "Ses_TKA"
+ }
 }
 GenericEntity : "{E6FC6DD69FA3479F}Prefabs/System/DRG_MissionEndTimerPrefab.et" {
  components {
@@ -36,5 +48,5 @@ GenericEntity : "{E6FC6DD69FA3479F}Prefabs/System/DRG_MissionEndTimerPrefab.et" 
    }
   }
  }
- coords 3505.012 194.134 1639.677
+ coords 6183.745 223.828 2308.583
 }
