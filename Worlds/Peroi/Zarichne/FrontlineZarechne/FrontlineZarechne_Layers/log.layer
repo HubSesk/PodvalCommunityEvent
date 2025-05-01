@@ -28,10 +28,22 @@ GenericEntity : "{6A3CDCFB475BF1B2}Prefabs/System/DRG_CriticalLossPrefab.et" {
  }
  coords 2520.421 17.125 2843.519
 }
+$grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
+ {
+  coords 2231.968 6.077 2215.651
+  m_sTitle "Удержили розовый маркер"
+  m_sFactionKey "RHS_AFRF"
+ }
+ {
+  coords 2244.438 6.653 2227.074
+  m_sTitle "Захватили розовый маркер"
+  m_sFactionKey "RHS_USAF"
+ }
+}
 GenericEntity : "{E6FC6DD69FA3479F}Prefabs/System/DRG_MissionEndTimerPrefab.et" {
  components {
   DRG_MissionEndTimerComponent "{651B0839B21B3BBF}" {
-   m_iMissionTime 2700
+   m_iMissionTime 2500
    m_aTimeLeftWarningTimers {
     300
    }

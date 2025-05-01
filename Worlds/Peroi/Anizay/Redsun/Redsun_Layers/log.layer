@@ -1,0 +1,52 @@
+GenericEntity : "{6A3CDCFB475BF1B2}Prefabs/System/DRG_CriticalLossPrefab.et" {
+ components {
+  DRG_CriticalLossComponent "{65213D368F1BD792}" {
+   m_aLossLogics {
+    LossLogic "{652A0AE62538D455}" {
+     m_aLosses {
+      FactionLoss "{652A0AE6205858BB}" {
+       m_iCriticalLossCount 4
+       m_sFactionKey "Ses_TKA"
+      }
+     }
+     m_bAdvanceGameStage 1
+     m_bUseMessage 1
+    }
+    LossLogic "{652A0AE6592D3F9D}" {
+     m_aLosses {
+      FactionLoss "{652A0AE64501164A}" {
+       m_sFactionKey "RHS_USAF"
+      }
+     }
+     m_bAdvanceGameStage 1
+     m_bUseMessage 1
+     m_bEventMessage "Победа обороны: Атака понесла серьёзные потери"
+    }
+   }
+  }
+ }
+ coords 4428.393 145.995 9223.145
+}
+$grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
+ {
+  coords 2711.989 128.87 7676.73
+  m_sTitle "Удержали штаб"
+  m_sFactionKey "Ses_TKA"
+ }
+ {
+  coords 2778.832 130.347 7324.009
+  m_sTitle "Захватили штаб"
+  m_sFactionKey "RHS_USAF"
+ }
+}
+GenericEntity : "{E6FC6DD69FA3479F}Prefabs/System/DRG_MissionEndTimerPrefab.et" {
+ components {
+  DRG_MissionEndTimerComponent "{651B0839B21B3BBF}" {
+   m_iMissionTime 2400
+   m_aTimeLeftWarningTimers {
+    300
+   }
+  }
+ }
+ coords 4429.619 145.995 9223.025
+}

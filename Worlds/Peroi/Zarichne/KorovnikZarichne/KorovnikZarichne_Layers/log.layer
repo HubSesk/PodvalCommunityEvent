@@ -5,7 +5,7 @@ GenericEntity : "{6A3CDCFB475BF1B2}Prefabs/System/DRG_CriticalLossPrefab.et" {
     LossLogic "{652A0AE62538D455}" {
      m_aLosses {
       FactionLoss "{652A0AE6205858BB}" {
-       m_iCriticalLossCount 3
+       m_iCriticalLossCount 4
        m_sFactionKey "Ses_CDF"
       }
      }
@@ -25,16 +25,28 @@ GenericEntity : "{6A3CDCFB475BF1B2}Prefabs/System/DRG_CriticalLossPrefab.et" {
    }
   }
  }
- coords 3519.755 190.847 1625.011
+ coords 6900.4 397.719 11341.134
+}
+$grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
+ {
+  coords 5183.996 380.594 9794.72
+  m_sTitle "Уничтожили  бензовозы"
+  m_sFactionKey "Ses_ChDKZ"
+ }
+ {
+  coords 5250.839 382.071 9441.999
+  m_sTitle "Защитили бензовозы"
+  m_sFactionKey "Ses_CDF"
+ }
 }
 GenericEntity : "{E6FC6DD69FA3479F}Prefabs/System/DRG_MissionEndTimerPrefab.et" {
  components {
   DRG_MissionEndTimerComponent "{651B0839B21B3BBF}" {
-   m_iMissionTime 2700
+   m_iMissionTime 2400
    m_aTimeLeftWarningTimers {
     300
    }
   }
  }
- coords 3505.012 194.134 1639.677
+ coords 6901.626 397.719 11341.015
 }
