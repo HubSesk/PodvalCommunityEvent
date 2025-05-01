@@ -5,7 +5,6 @@ GenericEntity : "{6A3CDCFB475BF1B2}Prefabs/System/DRG_CriticalLossPrefab.et" {
     LossLogic "{652A0AE62538D455}" {
      m_aLosses {
       FactionLoss "{652A0AE6205858BB}" {
-       m_iCriticalLossCount 4
        m_sFactionKey "Ses_TKA"
       }
      }
@@ -15,6 +14,7 @@ GenericEntity : "{6A3CDCFB475BF1B2}Prefabs/System/DRG_CriticalLossPrefab.et" {
     LossLogic "{652A0AE6592D3F9D}" {
      m_aLosses {
       FactionLoss "{652A0AE64501164A}" {
+       m_iCriticalLossCount 6
        m_sFactionKey "RHS_USAF"
       }
      }
@@ -25,12 +25,12 @@ GenericEntity : "{6A3CDCFB475BF1B2}Prefabs/System/DRG_CriticalLossPrefab.et" {
    }
   }
  }
- coords 2520.421 17.125 2843.519
+ coords 2520.421 190.576 2843.519
 }
 GenericEntity : "{E6FC6DD69FA3479F}Prefabs/System/DRG_MissionEndTimerPrefab.et" {
  components {
   DRG_MissionEndTimerComponent "{651B0839B21B3BBF}" {
-   m_iMissionTime 2700
+   m_iMissionTime 2400
    m_aTimeLeftWarningTimers {
     300
    }

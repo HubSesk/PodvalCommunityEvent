@@ -1,35 +1,3 @@
-$grp Vehicle : "{16E32C3ABEAFC2C6}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_FIA_transport.et" {
- Ural4320_FIA_transport1 {
-  coords 7926.915 124.2 2492.399
-  angleX 6.486
-  angleY -103.994
-  angleZ 0.221
- }
- Ural4320_FIA_transport2 {
-  coords 7900.288 127.534 2485.172
-  angleX 7.555
-  angleY -103.978
-  angleZ 0.869
- }
- Ural4320_FIA_transport3 {
-  coords 7869.362 131.862 2477.974
-  angleX 7.129
-  angleY -104.004
-  angleZ -0.858
- }
- Ural4320_FIA_transport4 {
-  coords 7134.055 319.372 3446.464
-  angleX -11.138
-  angleY -166.595
-  angleZ 0.974
- }
- Ural4320_FIA_transport5 {
-  coords 6667.009 200.028 1491.919
-  angleX -2.116
-  angleY -142.021
-  angleZ -1.651
- }
-}
 $grp SCR_AIGroup : "{281B7FA5A70021D5}Prefabs/Groups/INDFOR/TKR/Group_Ses_TKR_RifleSquad.et" {
  {
   components {
@@ -38,6 +6,7 @@ $grp SCR_AIGroup : "{281B7FA5A70021D5}Prefabs/Groups/INDFOR/TKR/Group_Ses_TKR_Ri
    }
    PS_GroupCallsignAssigner "{651345AB4B51FE5E}" {
     m_iCompanyCallsign 2
+    m_iPlatoonCallsign 1
    }
   }
   coords 7111.371 339.156 3558.99
@@ -112,7 +81,7 @@ $grp SCR_AIGroup : "{5842F9D00A306C15}Prefabs/Groups/INDFOR/TKR/Group_Ses_TKR_Fi
    "{BCD3E07B572DD7C4}Prefabs/Characters/Factions/INDFOR/TKR/Character_TKR_SL_GL_3.et" "{A0ACE3B6ADD4964D}Prefabs/Characters/Factions/INDFOR/TKR/Random/Character_Ses_TKR_SL_GL_Random.et" "{86E82C6AFE916FB1}Prefabs/Characters/Factions/INDFOR/TKR/Random/Character_Ses_TKR_AT_Random.et" "{46C0D0E1F0F9B0F3}Prefabs/Characters/Factions/INDFOR/TKR/Random/Character_Ses_TKR_Militiamen_AK74_Random.et" "{8681D616E91698DA}Prefabs/Characters/Factions/INDFOR/TKR/Random/Character_Ses_TKR_Militiamen_AKSU_Random.et" "{957AB5EC97848D7C}Prefabs/Characters/Factions/INDFOR/TKR/Character_TKR_Sapper_3.et" "{8C6CDBEEC8372D43}Prefabs/Characters/Factions/INDFOR/TKR/Character_TKR_Marksman.et"
   }
  }
- {
+ kk {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "Line"
@@ -129,7 +98,7 @@ $grp SCR_AIGroup : "{5842F9D00A306C15}Prefabs/Groups/INDFOR/TKR/Group_Ses_TKR_Fi
    "{8C6CDBEEC8372D43}Prefabs/Characters/Factions/INDFOR/TKR/Character_TKR_Marksman.et"
   }
  }
- {
+ kk1 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "Line"
@@ -147,7 +116,7 @@ $grp SCR_AIGroup : "{5842F9D00A306C15}Prefabs/Groups/INDFOR/TKR/Group_Ses_TKR_Fi
    "{8C6CDBEEC8372D43}Prefabs/Characters/Factions/INDFOR/TKR/Character_TKR_Marksman.et"
   }
  }
- {
+ kk2 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "Line"
@@ -167,11 +136,56 @@ $grp SCR_AIGroup : "{5842F9D00A306C15}Prefabs/Groups/INDFOR/TKR/Group_Ses_TKR_Fi
   }
  }
 }
-Vehicle BRDM2_Ses_TKR1 : "{5F112AA90CCA5367}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_Ses_TKR.et" {
- coords 7944.695 122.686 2496.128
- angleX 2.653
- angleY -98.647
- angleZ -0.403
+$grp Vehicle : "{5F112AA90CCA5367}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_Ses_TKR.et" {
+ BRDM2_Ses_TKR1 {
+  coords 7944.695 122.686 2496.128
+  angleX 2.653
+  angleY -98.647
+  angleZ -0.403
+  m_sAttachmentGroupName "kk2"
+ }
+ BRDM2_Ses_TKR2 {
+  coords 7912.515 125.94 2489.095
+  angleX 6.474
+  angleY -101.998
+  angleZ 0.446
+  m_sAttachmentGroupName "kk1"
+ }
+}
+$grp Vehicle : "{66241E0CEDFCEDFF}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered_CIV_orange.et" {
+ Ural4320_transport_covered_CIV_orange1 {
+  coords 6665.903 200.013 1491.781
+  angleX -3.938
+  angleY -138.471
+  angleZ -2.291
+ }
+ Ural4320_transport_covered_CIV_orange2 {
+  coords 7869.729 131.815 2477.987
+  angleX 7.18
+  angleY -96.697
+  angleZ 0.054
+  m_sAttachmentGroupName "kk"
+ }
+ Ural4320_transport_covered_CIV_orange3 {
+  coords 7899.471 127.648 2485.354
+  angleX 7.315
+  angleY -99.133
+  angleZ 0.626
+  m_sAttachmentGroupName "kk1"
+ }
+ Ural4320_transport_covered_CIV_orange4 {
+  coords 7927.296 124.169 2492.703
+  angleX 5.585
+  angleY -100.153
+  angleZ 0.812
+  m_sAttachmentGroupName "kk2"
+ }
+ Ural4320_transport_covered_CIV_orange5 {
+  coords 7133.842 319.506 3447.543
+  angleX -10.312
+  angleY -165.8
+  angleZ 1.039
+ }
 }
 SCR_AIGroup : "{817E13F5454DCF88}Prefabs/Groups/INDFOR/TKR/Group_Ses_TKR_PlatoonHQ.et" {
  components {
@@ -184,7 +198,7 @@ SCR_AIGroup : "{817E13F5454DCF88}Prefabs/Groups/INDFOR/TKR/Group_Ses_TKR_Platoon
  coords 6440.923 214.274 2369.452
  angleY -27.852
  m_aUnitPrefabSlots + {
-  "{E8C280FC20BF40FF}Prefabs/Characters/Factions/INDFOR/TKR/Character_TKR_Marksman_2.et"
+  "{675080F251B9CCE1}Prefabs/Characters/Factions/INDFOR/TKR/Character_TKR_Medic_2.et" "{A84E90D4E2E8044B}Prefabs/Characters/Factions/INDFOR/TKR/Character_TKR_Sapper_4.et" "{E8C280FC20BF40FF}Prefabs/Characters/Factions/INDFOR/TKR/Character_TKR_Marksman_2.et"
  }
 }
 $grp GenericEntity : "{820670FB1B583F1E}Prefabs/Yarmarka/YarmarkaBox_Community.et" {
