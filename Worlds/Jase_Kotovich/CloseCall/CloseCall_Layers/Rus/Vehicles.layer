@@ -1,0 +1,85 @@
+Vehicle Ural4320_transport1 : "{16C1F16C9B053801}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport.et" {
+ coords 9739.917 5.528 10606.477
+ angleY 85.674
+ m_sAttachmentGroupName "RHS_AFRF_G_021_3"
+}
+Vehicle Ural4320_ammo1 : "{3336BE330C4F355B}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_ammo.et" {
+ coords 9746.313 6.633 10649.305
+ angleY -180
+ m_sAttachmentGroupName "RHS_AFRF_G_021_3"
+}
+Vehicle Mi8MT_armed_gunship_HE1 : "{3C6B3ED0C3AC30D5}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_armed_gunship_HE.et" {
+ components {
+  SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+   FuelNodes {
+    SCR_FuelNode "{5622A70CD4036C5A}" {
+     m_fInitialFuelTankState 0
+    }
+    SCR_FuelNode "{5A7CE769E7A9C416}" {
+     m_fInitialFuelTankState 0
+    }
+    SCR_FuelNode "{5A7CE769E7A9C414}" {
+     m_fInitialFuelTankState 0
+    }
+   }
+  }
+ }
+ coords 9777.925 5.858 10623.141
+ angleY 107.634
+ m_sAttachmentGroupName "RHS_AFRF_G_021_3"
+}
+$grp Vehicle : "{447CFE8D73F95C3E}Prefabs/Vehicles/Wheeled/BTR70/BTR70_AFRF.et" {
+ BTR70_AFRF1 {
+  coords 4629.18 5.212 11023.491
+  angleX -5.76
+  angleY 159.074
+  angleZ -2.568
+  m_sAttachmentGroupName "RHS_AFRF_G_020_8"
+ }
+ BTR70_AFRF2 {
+  coords 4608.751 4.778 11025.766
+  angleY 163.632
+  m_sAttachmentGroupName "RHS_AFRF_G_012_8"
+ }
+ BTR70_AFRF3 {
+  coords 4637.726 5.502 10883.954
+  angleX 4.429
+  angleY 163.81
+  angleZ 2.432
+  m_sAttachmentGroupName "RHS_AFRF_G_011_8"
+ }
+ BTR70_AFRF4 {
+  coords 4703.906 11.589 10879.021
+  angleY 123.475
+  m_sAttachmentGroupName "RHS_AFRF_G_010_8"
+ }
+ BTR70_AFRF5 {
+  coords 4613.493 4.32 11048.979
+  angleX 1.111
+  angleY 163.643
+  angleZ 0.607
+  m_sAttachmentGroupName "(Минометный расчет) RHS_AFRF_G_002_7"
+ }
+ BTR70_AFRF6 {
+  coords 4632.419 4.531 11044.566
+  angleX 8.304
+  angleY 164.039
+  angleZ 3.158
+  m_sAttachmentGroupName "RHS_AFRF_G_001_6"
+ }
+}
+Vehicle Ural4320_tanker1 : "{4C81D7ED8F8C0D87}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_tanker.et" {
+ coords 9752.974 6.928 10657.352
+ angleX -14.018
+ angleY 91.059
+ angleZ -1.125
+ m_sAttachmentGroupName "RHS_AFRF_G_021_3"
+}
+Vehicle Ural4320_repair1 : "{A5647958579A4149}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_repair.et" {
+ coords 9739.495 5.707 10601.686
+ angleY 83.914
+ m_sAttachmentGroupName "RHS_AFRF_G_021_3"
+}
+GenericEntity : "{FA7A86697340C58C}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_05.et" {
+ coords 9738.706 6.699 10584.769
+}
