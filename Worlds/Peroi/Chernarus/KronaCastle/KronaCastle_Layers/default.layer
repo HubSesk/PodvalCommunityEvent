@@ -1,0 +1,21 @@
+SCR_AIWorld : "{DED05ECEF37B333A}Prefabs/AI/SCR_AIWorld_Chernarus.et" {
+ coords 1511.338 297.948 9154.847
+}
+PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 3416.963 185.784 1577.288
+}
+PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
+ components {
+  SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
+   m_iStartingHours 4
+  }
+ }
+ coords 2931.594 19.954 2318.804
+ m_iFreezeTime 300000
+}
+SCR_DestructibleBuildingEntity : "{E4D8A7786D161CB5}PrefabLibrary/Structures/Industrial/Silo_02.et" {
+ coords 1532.02 0 9146.173
+ angleX 0.422
+ angleY -64.485
+ angleZ 1.193
+}
