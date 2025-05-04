@@ -17,11 +17,12 @@ GenericEntity : "{7D39683D0F8EDB59}Prefabs/Props/Military/MilitaryCrates/CrateSt
   SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
    "Additional hit zones" {
     SCR_HitZone Default {
-     "Fragmentation multiplier" 0.25
-     "Explosive multiplier" 14
+     CriticalDamage 1
+     DamageThreshold 10
+     "Explosive multiplier" 7
     }
    }
-   m_fBaseHealth 7000
+   m_fBaseHealth 8000
    m_DestroySpawnObjects {
     SCR_ParticleSpawnable "{5A8A9D296FBD7C50}" {
     }
