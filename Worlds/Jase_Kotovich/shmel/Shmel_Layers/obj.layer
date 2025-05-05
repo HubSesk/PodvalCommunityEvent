@@ -16,7 +16,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTextData "На юг острова Гогланд была произведена высадка десанта ВС РФ. "\
   "Мы отправили разведотряды на предполагаемое место сброса. "\
   "Они смогли перехватить переговоры и русские что-то говорили о элекстростанции и её захвате."\
-  "Был поднят гарнизон и отправлен на зачистку региона."
+  "Был поднят гарнизон и отправлен на зачистку электростанции."
   m_aVisibleForFactions {
    "RHS_USAF"
   }
@@ -46,6 +46,22 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "Инженеры"
   m_sTextData "Инженеры закрепились на территории станции, у вас имееются строительные грузовики, мины и одноразовые огнеметы. "\
   "Укрепите ваши позиции до прихода противника."
+  m_aVisibleForFactions {
+   "RHS_AFRF"
+  }
+ }
+ {
+  coords 7973.396 3.894 1857.948
+  m_sTitle "Задача"
+  m_sTextData "Захватить Электростанцию - 100 очков"
+  m_aVisibleForFactions {
+   "RHS_USAF"
+  }
+ }
+ {
+  coords 7974.839 3.025 1853.98
+  m_sTitle "Задача"
+  m_sTextData "Защитить Элекстростанцию - 100 очков"
   m_aVisibleForFactions {
    "RHS_AFRF"
   }

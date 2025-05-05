@@ -616,8 +616,8 @@ class SCR_Abu_Teleporter
 		//SetVehiclesBrake();//no rolling 
 		//SetVehiclesBroke();//no starter
 		//GetGame().GetCallqueue().CallLater(UnfreezeCars,5000,true);//starter HEALTHY after freeze		
-		changeStartingDistanceOnPlayerCount();
-		GetGame().GetCallqueue().CallLater(MCU_Trcuks_Trigger,10000,true);//Check URAL KSHM's
+		//changeStartingDistanceOnPlayerCount();
+		//GetGame().GetCallqueue().CallLater(MCU_Trcuks_Trigger,10000,true);//Check URAL KSHM's
 		
         vector defendPosition = GenerateRandomSpawnPointDefendSide();
         vector attackPosition = GenerateRandomSpawnPointAttackSide(defendPosition);
