@@ -1,0 +1,52 @@
+GenericEntity : "{6A3CDCFB475BF1B2}Prefabs/System/DRG_CriticalLossPrefab.et" {
+ components {
+  DRG_CriticalLossComponent "{65213D368F1BD792}" {
+   m_aLossLogics {
+    LossLogic "{652A0AE62538D455}" {
+     m_aLosses {
+      FactionLoss "{652A0AE6205858BB}" {
+       m_iCriticalLossCount 3
+       m_sFactionKey "FIA"
+      }
+     }
+     m_bAdvanceGameStage 1
+     m_bUseMessage 1
+    }
+    LossLogic "{652A0AE6592D3F9D}" {
+     m_aLosses {
+      FactionLoss "{652A0AE64501164A}" {
+       m_iCriticalLossCount 4
+       m_sFactionKey "RHS_AFRF"
+      }
+     }
+     m_bAdvanceGameStage 1
+     m_bUseMessage 1
+     m_bEventMessage "Победа обороны: Атака понесла серьёзные потери"
+    }
+   }
+  }
+ }
+ coords 2520.421 17.125 2843.519
+}
+$grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
+ {
+  coords 804.016 0 1297.105
+  m_sTitle "Удержали замок"
+ }
+ {
+  coords 870.86 1.477 944.384
+  m_sTitle "Захватили замок"
+  m_sFactionKey "RHS_AFRF"
+ }
+}
+GenericEntity : "{E6FC6DD69FA3479F}Prefabs/System/DRG_MissionEndTimerPrefab.et" {
+ components {
+  DRG_MissionEndTimerComponent "{651B0839B21B3BBF}" {
+   m_iMissionTime 2100
+   m_aTimeLeftWarningTimers {
+    300
+   }
+  }
+ }
+ coords 2521.647 17.125 2843.4
+}
