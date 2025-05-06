@@ -1,6 +1,3 @@
-Vehicle UH1H_armed_gunship_empty1 : "{137DCF41459A89BE}Prefabs/Vehicles/Helicopters/UH1H/UH1H_armed_gunship_empty.et" {
- coords 79.882 21.029 83.605
-}
 $grp Turret : "{73530808E4B455BA}Prefabs/Weapons/Tripods/Tripod_M3_M2HB.et" {
  {
   coords 3377.605 24.481 3515.225
@@ -13,5 +10,17 @@ $grp Turret : "{73530808E4B455BA}Prefabs/Weapons/Tripods/Tripod_M3_M2HB.et" {
  {
   coords 3359.924 24.374 3507.84
   angleY -24.236
+ }
+}
+$grp Vehicle : "{B4FB836E882E1A05}Prefabs/Vehicles/Wheeled/M998/M998_USAF.et" {
+ M998_USAF1 {
+  coords 3323.486 23.739 3502.685
+  angleY -26.429
+  m_sAttachmentGroupName "ReconTeam_1"
+ }
+ M998_USAF2 {
+  coords 3326.354 23.875 3496.022
+  angleY -26.429
+  m_sAttachmentGroupName "ReconTeam_1"
  }
 }

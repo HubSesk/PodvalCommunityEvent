@@ -1,35 +1,50 @@
 $grp SCR_AIGroup : "{877F196BC06EF9B7}Prefabs/Groups/INDFOR/Ses_NAPA/Group_NAPA_RifleSquad.et" {
- squad_1 {
+ INDFOR_RS_1_100 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "s"
+   }
+   PS_GroupCallsignAssigner "{654A7D3F05B56779}" {
+    m_iCompanyCallsign 1
    }
   }
   coords 3000.893 290.703 8197.248
   angleY 45
  }
- squad_2 {
+ INDFOR_RS_2_101 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "s"
+   }
+   PS_GroupCallsignAssigner "{654A7D3F080DD48D}" {
+    m_iCompanyCallsign 1
+    m_iSquadCallsign 1
    }
   }
   coords 2967.721 290.613 8231.945
   angleY 45
  }
- squad_3 {
+ INDFOR_RS_3_102 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "s"
+   }
+   PS_GroupCallsignAssigner "{654A7D3F0E5A253D}" {
+    m_iCompanyCallsign 1
+    m_iSquadCallsign 2
    }
   }
   coords 2936.153 290.512 8264.153
   angleY 45
  }
- crew {
+ INDFOR_crew_brdm_011 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "s"
+   }
+   PS_GroupCallsignAssigner "{654A7D3F1C994F53}" {
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 1
    }
   }
   coords 2949.952 289.422 8268.791
@@ -39,41 +54,52 @@ $grp SCR_AIGroup : "{877F196BC06EF9B7}Prefabs/Groups/INDFOR/Ses_NAPA/Group_NAPA_
   }
   m_bSnapToTerrain 0
  }
- squad_4 {
+ INDFOR_RS_4_103 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "s"
+   }
+   PS_GroupCallsignAssigner "{654ABED5F1D16A84}" {
+    m_iCompanyCallsign 1
+    m_iSquadCallsign 3
    }
   }
   coords 2999.95 289.721 8219.422
   angleY -135
  }
- squad_5 {
+ INDFOR_RS_5_104 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "s"
+   }
+   PS_GroupCallsignAssigner "{654ABED5FC0D506E}" {
+    m_iCompanyCallsign 1
+    m_iSquadCallsign 4
    }
   }
   coords 2994.348 289.677 8238.764
   angleY -135
  }
 }
-SCR_AIGroup SNIPER_TEAM : "{8AB4988AFEED5234}Prefabs/Groups/INDFOR/Ses_NAPA/Group_NAPA_SharpshooterTeam.et" {
+SCR_AIGroup SNIPER_TEAM_020 : "{8AB4988AFEED5234}Prefabs/Groups/INDFOR/Ses_NAPA/Group_NAPA_SharpshooterTeam.et" {
  components {
   AIFormationComponent "{507E9DC12F541FE6}" {
    DefaultFormation "s"
   }
   PS_GroupCallsignAssigner "{6543166903DD5140}" {
+   m_iPlatoonCallsign 2
   }
  }
  coords 3008.495 293.085 8171.108
 }
-SCR_AIGroup SAPER_SQUAD : "{C887D36190CC7DB6}Prefabs/Groups/INDFOR/Ses_NAPA/Group_NAPA_SapperTeam.et" {
+SCR_AIGroup SAPER_SQUAD_011 : "{C887D36190CC7DB6}Prefabs/Groups/INDFOR/Ses_NAPA/Group_NAPA_SapperTeam.et" {
  components {
   AIFormationComponent "{507E9DC12F541FE6}" {
    DefaultFormation "1"
   }
   PS_GroupCallsignAssigner "{6543166FA99CE096}" {
+   m_iPlatoonCallsign 1
+   m_iSquadCallsign 1
   }
  }
  coords 3010.712 290.101 8204.021
@@ -84,7 +110,7 @@ SCR_AIGroup SAPER_SQUAD : "{C887D36190CC7DB6}Prefabs/Groups/INDFOR/Ses_NAPA/Grou
   "{957AB0262D5C95C2}Prefabs/Characters/Factions/INDFOR/NAPA/Random/Character_NAPA_SL_Random.et" "{A15A84CBA7CB8C4B}Prefabs/Characters/Factions/INDFOR/NAPA/Random/Character_NAPA_Sapper_Random.et" "{A15A84CBA7CB8C4B}Prefabs/Characters/Factions/INDFOR/NAPA/Random/Character_NAPA_Sapper_Random.et" "{A15A84CBA7CB8C4B}Prefabs/Characters/Factions/INDFOR/NAPA/Random/Character_NAPA_Sapper_Random.et"
  }
 }
-SCR_AIGroup HQ : "{E085F8818A48E44C}Prefabs/Groups/INDFOR/Ses_NAPA/Group_NAPA_PlatoonHQ.et" {
+SCR_AIGroup HQ_INDFOR_000 : "{E085F8818A48E44C}Prefabs/Groups/INDFOR/Ses_NAPA/Group_NAPA_PlatoonHQ.et" {
  components {
   AIFormationComponent "{507E9DC12F541FE6}" {
    DefaultFormation "s"
@@ -95,15 +121,19 @@ SCR_AIGroup HQ : "{E085F8818A48E44C}Prefabs/Groups/INDFOR/Ses_NAPA/Group_NAPA_Pl
  coords 3014.167 285.642 8277.427
  angleY 101.746
 }
-SCR_AIGroup RPG_1 : "{EAE32D0EBC745D90}Prefabs/Groups/INDFOR/Ses_NAPA/Group_NAPA_Team_AT.et" {
+SCR_AIGroup INDFOR_RPGS_010 : "{EAE32D0EBC745D90}Prefabs/Groups/INDFOR/Ses_NAPA/Group_NAPA_Team_AT.et" {
  components {
   AIFormationComponent "{507E9DC12F541FE6}" {
    DefaultFormation "1"
   }
   PS_GroupCallsignAssigner "{6543166E693BADAC}" {
+   m_iPlatoonCallsign 1
   }
  }
  coords 2966.678 289.136 8259.561
  angleY -135
+ m_aUnitPrefabSlots {
+  "{957AB0262D5C95C2}Prefabs/Characters/Factions/INDFOR/NAPA/Random/Character_NAPA_SL_Random.et" "{7367CE2391F2ABC1}Prefabs/Characters/Factions/INDFOR/NAPA/Random/Character_NAPA_AT_Random.et" "{A7EF5C3B88643C50}Prefabs/Characters/Factions/INDFOR/NAPA/Random/Character_NAPA_AAT_Random.et"
+ }
  m_sCustomNameSet "Гранатометчики"
 }
