@@ -1,0 +1,84 @@
+GenericEntity : "{42894F191BC9EDE1}Prefabs/Props/Core/AmmoBox_Base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{FE31750973EA92C7}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/EquipmentBoxWooden_Medical_01.xob"
+   Materials {
+    MaterialAssignClass "{6546527E975F0AF0}" {
+     SourceMaterial "EquipmentBoxWooden_Ammunition_01"
+     AssignedMaterial "{01344AC5F9E023E4}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/Data/EquipmentBoxWooden_Ammunition_01_FIA.emat"
+    }
+    MaterialAssignClass "{6546527E975F0AE7}" {
+     SourceMaterial "EquipmentBoxWooden_decal_US"
+     AssignedMaterial "{1BB946314607B6A7}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/Data/EquipmentBoxWooden_decal_FIA.emat"
+    }
+    MaterialAssignClass "{6546527E975F0AD3}" {
+     SourceMaterial "EquipmentBoxWooden_Medical_01"
+     AssignedMaterial "{F040F802F02B0D96}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/Data/EquipmentBoxWooden_Medical_01_USSR.emat"
+    }
+    MaterialAssignClass "{6546527E975F0AD6}" {
+     SourceMaterial "EquipmentBoxWooden_decal"
+     AssignedMaterial "{17332645A86C9BA6}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/Data/EquipmentBoxWooden_decal_USSR.emat"
+    }
+   }
+  }
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   ResponseIndex "TinyDestructible"
+  }
+  SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+   Enabled 1
+   Attributes SCR_ItemAttributeCollection "{5476CDB2EAD8225E}" {
+    CustomAttributes {
+     PreviewRenderAttributes "{6546527E975F0AC3}" {
+     }
+     PreviewRenderAttributes "{6546527E975F0AC6}" {
+      CameraOrbitAngles -25 25 0
+      CameraDistanceToItem 1.5
+      FOV 30
+      AspectRatio 1
+     }
+    }
+    m_bDraggable 0
+   }
+   Priority 1000
+   UseCapacityCoefficient 0
+   MaxCumulativeVolume 10000
+   MultiSlots {
+    MultiSlotConfiguration "{6546527E975F0AB3}" {
+     SlotTemplate InventoryStorageSlot Bandages {
+      Prefab "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et"
+     }
+     NumSlots 10
+    }
+    MultiSlotConfiguration "{6546527E8F99B432}" {
+     SlotTemplate InventoryStorageSlot SlotTemplate {
+      Prefab "{3238FC0BDB67AA78}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01_base.et"
+     }
+     NumSlots 20
+    }
+    MultiSlotConfiguration "{6546527E8F5AC79B}" {
+     SlotTemplate InventoryStorageSlot SlotTemplate {
+      Prefab "{527D7C5D2E476BDC}Prefabs/Items/Medicine/SalineBag_01/SalineBag_USSR_01.et"
+     }
+     NumSlots 10
+    }
+    MultiSlotConfiguration "{6546527E8F26F520}" {
+     SlotTemplate InventoryStorageSlot SlotTemplate {
+      Prefab "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et"
+     }
+     NumSlots 20
+    }
+   }
+   m_fMaxWeight 10000
+  }
+  ActionsManagerComponent "{5476B36C403D4CC0}" {
+   ActionContexts {
+    UserActionContext "{5476B36C47B0461A}" {
+     Position PointInfo "{5476B36C45ADDA89}" {
+      Offset 0 0.3408 0.2037
+     }
+    }
+   }
+  }
+ }
+}
