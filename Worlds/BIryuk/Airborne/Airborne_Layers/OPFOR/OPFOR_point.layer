@@ -1,9 +1,17 @@
-Vehicle Ural4320_Ses_TKA_command1 : "{5C86AB0357B39D2B}Prefabs/Vehicles/Wheeled/Ural4320/Ses_TKA/Ural4320_Ses_TKA_command.et" {
- coords 8306.501 322.187 2144.932
- angleY -105
+Vehicle Ural4320_command1 : "{1BABF6B33DA0AEB7}Prefabs/abudabi/Vehicles/Wheeled/Ural4320/Ural4320_command.et" {
+ coords 8291.234 322.187 2138.994
+ angleY 30
 }
-$grp Vehicle : "{A8BFC494FC1757A6}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_TKA.et" {
- Mi8MT_TKA5 {
+Vehicle Ural4320_tanker1 : "{4C81D7ED8F8C0D87}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_tanker.et" {
+ coords 8293.323 322.187 2132.925
+ angleY 30
+}
+Vehicle Ural4320_repair1 : "{A5647958579A4149}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_repair.et" {
+ coords 8295.428 322.187 2127.859
+ angleY 23.385
+}
+$grp Vehicle : "{DF5CCB7C0FF049F4}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_unarmed_transport.et" {
+ Mi8MT_unarmed_transport1 {
   components {
    SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
     FuelNodes {
@@ -19,10 +27,10 @@ $grp Vehicle : "{A8BFC494FC1757A6}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_TKA.e
     }
    }
   }
-  coords 8249.024 322.271 2091.391
+  coords 8205.636 322.271 2070.938
   angleY 150
  }
- Mi8MT_TKA4 {
+ Mi8MT_unarmed_transport2 {
   components {
    SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
     FuelNodes {
@@ -38,11 +46,7 @@ $grp Vehicle : "{A8BFC494FC1757A6}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_TKA.e
     }
    }
   }
-  coords 8202.638 322.271 2074.408
+  coords 8247.964 322.271 2094.419
   angleY 150
  }
-}
-Vehicle Ural4320_repair_Ses_TKA1 : "{D8CCBC0E3C722666}Prefabs/Vehicles/Wheeled/Ural4320/Ses_TKA/Ural4320_repair_Ses_TKA.et" {
- coords 8299.268 322.186 2166.539
- angleY -107.06
 }

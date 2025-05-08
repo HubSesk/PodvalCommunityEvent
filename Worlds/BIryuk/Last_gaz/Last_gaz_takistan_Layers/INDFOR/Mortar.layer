@@ -1,64 +1,261 @@
-Turret : "{D1FFE458E8AC4BDB}Prefabs/Weapons/Mortars/2B14/Mortar_2B14.et" {
- coords 5257.923 171.625 6133.462
- angleY -101.891
+$grp GenericEntity : "{41A9C55B61F375F0}Prefabs/Items/Equipment/Backpacks/Backpack_Kolobok.et" {
  {
-  $grp GenericEntity : "{8F17290FBF410605}Prefabs/Props/Military/AmmoBoxes/drg_AmmoBox_82mm_mortar_10rnd_HE.et" {
-   {
-    coords 2.235 0.049 0.043
-    angleY 174.313
-    {
-     $grp GenericEntity : "{8F17290FBF410605}Prefabs/Props/Military/AmmoBoxes/drg_AmmoBox_82mm_mortar_10rnd_HE.et" {
-      {
-       coords -0.001 0.098 -0.002
-       angleX 0.018
-       angleZ 0.023
-      }
-      {
-       coords -0.002 0.195 -0.003
-       angleX 0.018
-       angleZ 0.023
-      }
-      {
-       coords -0.003 0.292 -0.004
-       angleX 0.018
-       angleZ 0.023
-      }
-      {
-       coords -0.004 0.389 -0.005
-       angleX 0.018
-       angleZ 0.023
-      }
+  coords 5244.381 170.692 6069.687
+ }
+ {
+  coords 5421.345 191.843 6202.911
+ }
+}
+GenericEntity : "{7DF4266A58BF088F}Prefabs/Props/Military/AmmoBoxes/AmmoBox_82mm_mortar_3rnd.et" {
+ components {
+  SCR_FilteredInventoryStorageComponent "{5476A2F100DF4EFF}" {
+   MaxCumulativeVolume 16000
+   MultiSlots {
+    MultiSlotConfiguration "{655139CFA9E4EC25}" {
+     SlotTemplate InventoryStorageSlot basd {
+      Prefab "{98EC9C526AFBA282}Prefabs/Weapons/Ammo/Ammo_Shell_82mm_HE_O832DU.et"
      }
+     NumSlots 10
     }
    }
-   {
-    coords 2.11 0.053 0.607
-    angleY 169.917
-    {
-     $grp GenericEntity : "{8F17290FBF410605}Prefabs/Props/Military/AmmoBoxes/drg_AmmoBox_82mm_mortar_10rnd_HE.et" {
-      {
-       coords -0.001 0.098 -0.002
-       angleX 0.018
-       angleZ 0.023
-      }
-      {
-       coords -0.002 0.195 -0.003
-       angleX 0.018
-       angleZ 0.023
-      }
-      {
-       coords -0.003 0.292 -0.004
-       angleX 0.018
-       angleZ 0.023
-      }
-      {
-       coords -0.004 0.389 -0.005
-       angleX 0.018
-       angleZ 0.023
-      }
+   m_fMaxWeight 58
+  }
+  SCR_UniversalInventoryStorageComponent "{6550D00423163877}" {
+   MultiSlots {
+    MultiSlotConfiguration "{6550D00429F8E756}" {
+     SlotTemplate SCR_EquipmentStorageSlot sadasf {
      }
     }
    }
   }
  }
+ coords 5244.146 170.693 6071.735
+ angleY -15
+ {
+  $grp GenericEntity : "{7DF4266A58BF088F}Prefabs/Props/Military/AmmoBoxes/AmmoBox_82mm_mortar_3rnd.et" {
+   {
+    components {
+     SCR_FilteredInventoryStorageComponent "{5476A2F100DF4EFF}" {
+      MaxCumulativeVolume 16000
+      MultiSlots {
+       MultiSlotConfiguration "{655139CFA9E4EC25}" {
+        SlotTemplate InventoryStorageSlot basd {
+         Prefab "{98EC9C526AFBA282}Prefabs/Weapons/Ammo/Ammo_Shell_82mm_HE_O832DU.et"
+        }
+        NumSlots 10
+       }
+      }
+      m_fMaxWeight 58
+     }
+     SCR_UniversalInventoryStorageComponent "{6550D00423163877}" {
+      MultiSlots {
+       MultiSlotConfiguration "{6550D00429F8E756}" {
+        SlotTemplate SCR_EquipmentStorageSlot sadasf {
+        }
+       }
+      }
+     }
+    }
+    coords 0 -0.097 0
+   }
+   {
+    components {
+     SCR_FilteredInventoryStorageComponent "{5476A2F100DF4EFF}" {
+      MaxCumulativeVolume 16000
+      MultiSlots {
+       MultiSlotConfiguration "{655139CFA9E4EC25}" {
+        SlotTemplate InventoryStorageSlot basd {
+         Prefab "{98EC9C526AFBA282}Prefabs/Weapons/Ammo/Ammo_Shell_82mm_HE_O832DU.et"
+        }
+        NumSlots 10
+       }
+      }
+      m_fMaxWeight 58
+     }
+     SCR_UniversalInventoryStorageComponent "{6550D00423163877}" {
+      MultiSlots {
+       MultiSlotConfiguration "{6550D00429F8E756}" {
+        SlotTemplate SCR_EquipmentStorageSlot sadasf {
+        }
+       }
+      }
+     }
+    }
+    coords 0 0.097 0
+   }
+   {
+    components {
+     SCR_FilteredInventoryStorageComponent "{5476A2F100DF4EFF}" {
+      MaxCumulativeVolume 16000
+      MultiSlots {
+       MultiSlotConfiguration "{655139CFA9E4EC25}" {
+        SlotTemplate InventoryStorageSlot basd {
+         Prefab "{98EC9C526AFBA282}Prefabs/Weapons/Ammo/Ammo_Shell_82mm_HE_O832DU.et"
+        }
+        NumSlots 10
+       }
+      }
+      m_fMaxWeight 58
+     }
+     SCR_UniversalInventoryStorageComponent "{6550D00423163877}" {
+      MultiSlots {
+       MultiSlotConfiguration "{6550D00429F8E756}" {
+        SlotTemplate SCR_EquipmentStorageSlot sadasf {
+        }
+       }
+      }
+     }
+    }
+    coords 0 0.194 0
+   }
+   {
+    components {
+     SCR_FilteredInventoryStorageComponent "{5476A2F100DF4EFF}" {
+      MaxCumulativeVolume 16000
+      MultiSlots {
+       MultiSlotConfiguration "{655139CFA9E4EC25}" {
+        SlotTemplate InventoryStorageSlot basd {
+         Prefab "{98EC9C526AFBA282}Prefabs/Weapons/Ammo/Ammo_Shell_82mm_HE_O832DU.et"
+        }
+        NumSlots 10
+       }
+      }
+      m_fMaxWeight 58
+     }
+     SCR_UniversalInventoryStorageComponent "{6550D00423163877}" {
+      MultiSlots {
+       MultiSlotConfiguration "{6550D00429F8E756}" {
+        SlotTemplate SCR_EquipmentStorageSlot sadasf {
+        }
+       }
+      }
+     }
+    }
+    coords 0 0.291 0
+   }
+   {
+    components {
+     SCR_FilteredInventoryStorageComponent "{5476A2F100DF4EFF}" {
+      MaxCumulativeVolume 16000
+      MultiSlots {
+       MultiSlotConfiguration "{655139CFA9E4EC25}" {
+        SlotTemplate InventoryStorageSlot basd {
+         Prefab "{98EC9C526AFBA282}Prefabs/Weapons/Ammo/Ammo_Shell_82mm_HE_O832DU.et"
+        }
+        NumSlots 10
+       }
+      }
+      m_fMaxWeight 58
+     }
+     SCR_UniversalInventoryStorageComponent "{6550D00423163877}" {
+      MultiSlots {
+       MultiSlotConfiguration "{6550D00429F8E756}" {
+        SlotTemplate SCR_EquipmentStorageSlot sadasf {
+        }
+       }
+      }
+     }
+    }
+    coords 0 0.388 0
+   }
+   {
+    components {
+     SCR_FilteredInventoryStorageComponent "{5476A2F100DF4EFF}" {
+      MaxCumulativeVolume 16000
+      MultiSlots {
+       MultiSlotConfiguration "{655139CFA9E4EC25}" {
+        SlotTemplate InventoryStorageSlot basd {
+         Prefab "{98EC9C526AFBA282}Prefabs/Weapons/Ammo/Ammo_Shell_82mm_HE_O832DU.et"
+        }
+        NumSlots 10
+       }
+      }
+      m_fMaxWeight 58
+     }
+     SCR_UniversalInventoryStorageComponent "{6550D00423163877}" {
+      MultiSlots {
+       MultiSlotConfiguration "{6550D00429F8E756}" {
+        SlotTemplate SCR_EquipmentStorageSlot sadasf {
+        }
+       }
+      }
+     }
+    }
+    coords 0 0.485 0
+   }
+   {
+    components {
+     SCR_FilteredInventoryStorageComponent "{5476A2F100DF4EFF}" {
+      MaxCumulativeVolume 16000
+      MultiSlots {
+       MultiSlotConfiguration "{655139CFA9E4EC25}" {
+        SlotTemplate InventoryStorageSlot basd {
+         Prefab "{98EC9C526AFBA282}Prefabs/Weapons/Ammo/Ammo_Shell_82mm_HE_O832DU.et"
+        }
+        NumSlots 10
+       }
+      }
+      m_fMaxWeight 58
+     }
+     SCR_UniversalInventoryStorageComponent "{6550D00423163877}" {
+      MultiSlots {
+       MultiSlotConfiguration "{6550D00429F8E756}" {
+        SlotTemplate SCR_EquipmentStorageSlot sadasf {
+        }
+       }
+      }
+     }
+    }
+    coords 0 0.582 0
+   }
+   {
+    components {
+     SCR_FilteredInventoryStorageComponent "{5476A2F100DF4EFF}" {
+      MaxCumulativeVolume 16000
+      MultiSlots {
+       MultiSlotConfiguration "{655139CFA9E4EC25}" {
+        SlotTemplate InventoryStorageSlot basd {
+         Prefab "{98EC9C526AFBA282}Prefabs/Weapons/Ammo/Ammo_Shell_82mm_HE_O832DU.et"
+        }
+        NumSlots 10
+       }
+      }
+      m_fMaxWeight 58
+     }
+     SCR_UniversalInventoryStorageComponent "{6550D00423163877}" {
+      MultiSlots {
+       MultiSlotConfiguration "{6550D00429F8E756}" {
+        SlotTemplate SCR_EquipmentStorageSlot sadasf {
+        }
+       }
+      }
+     }
+    }
+    coords 0 0.679 0
+   }
+  }
+ }
+}
+$grp GenericEntity : "{AB801054310BC947}Prefabs/Weapons/Magazines/Box_BaconZU23_23x152.et" {
+ {
+  coords 5420.758 191.833 6203.591
+ }
+ {
+  coords 5421.048 191.974 6207.482
+ }
+ {
+  coords 5420.296 191.841 6202.678
+ }
+ {
+  coords 5420.026 191.836 6201.935
+ }
+}
+GameEntity : "{B41607EAB58A4252}Prefabs/Items/Equipment/BalisticTable/BalisticTable_USSR.et" {
+ coords 5244.169 171.469 6071.724
+}
+Turret : "{D1FFE458E8AC4BDB}Prefabs/Weapons/Mortars/2B14/Mortar_2B14.et" {
+ coords 5243.544 170.73 6070.395
+ angleX 2.837
+ angleY -101.906
+ angleZ -0.308
 }

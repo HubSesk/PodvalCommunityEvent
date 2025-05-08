@@ -1,3 +1,20 @@
+$grp Vehicle : "{1FBB492E86002BF5}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_transport.et" {
+ UAZ452_transport1 {
+  coords 9184.989 229.145 6812.132
+  angleY -45
+  m_sAttachmentGroupName "USSR_SPN_1"
+ }
+ UAZ452_transport2 {
+  coords 2661.625 223.132 5144.341
+  angleY -45.638
+  m_sAttachmentGroupName "USSR_SPN_1"
+ }
+ UAZ452_transport3 {
+  coords 9258.105 452.278 4488.582
+  angleY 53.326
+  m_sAttachmentGroupName "USSR_SQ_buh"
+ }
+}
 Vehicle UAZ1 : "{259EE7B78C51B624}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469.et" {
  components {
   SlotManagerComponent "{55BCE45E438E4CFF}" {
@@ -8,46 +25,36 @@ Vehicle UAZ1 : "{259EE7B78C51B624}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469.et" {
    }
   }
  }
- coords 8330.463 322.188 1885.792
- angleY 60
- m_sAttachmentGroupName "HQ_SSSR"
+ coords 9313.22 448.516 4531.406
+ angleX -3.236
+ angleY 53.822
+ angleZ -0.096
+ m_sAttachmentGroupName "USSR_HQ"
 }
 Vehicle Mi8MT_armed_gunship_HE1 : "{3C6B3ED0C3AC30D5}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_armed_gunship_HE.et" {
- coords 8239.887 322.564 1783.052
+ coords 8240.18 322.598 1782.669
  angleY -30
- m_sAttachmentGroupName "HELLI"
-}
-$grp Vehicle : "{78E46A3CAC36BB1E}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered_tan.et" {
- Ural4320_transport_covered_tan2 {
-  coords 8261.418 322.187 1843.766
-  angleY 60
-  m_sAttachmentGroupName "SSSR_1_201"
- }
- Ural4320_transport_covered_tan1 {
-  coords 8273.863 322.187 1851.479
-  angleY 60
-  m_sAttachmentGroupName "SSSR_1_200"
- }
- Ural4320_transport_covered_tan3 {
-  coords 8248.104 322.188 1834.445
-  angleY 60
-  m_sAttachmentGroupName "SSSR_1_202"
- }
 }
 $grp Vehicle : "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et" {
  BTR1 {
-  coords 8303.81 322.187 1869.566
-  angleY 57.59
+  coords 9288.469 450.218 4512.404
+  angleX -3.237
+  angleY 51.404
+  angleZ 0.041
   m_sAttachmentGroupName "SSSR_1_101"
  }
- BTR2 {
-  coords 8288.986 322.188 1860.347
-  angleY 57.59
-  m_sAttachmentGroupName "SSSR_1_102"
- }
  BTR3 {
-  coords 8319.211 322.187 1879.645
-  angleY 57.59
-  m_sAttachmentGroupName "SSSR_1_100"
+  coords 9302.693 449.208 4524.083
+  angleX -3.236
+  angleY 51.404
+  angleZ 0.041
+  m_sAttachmentGroupName "USSR_SQ_BTR1"
+ }
+ BTR2 {
+  coords 9274.726 451.174 4501.642
+  angleX -3.237
+  angleY 51.404
+  angleZ 0.041
+  m_sAttachmentGroupName "USSR_SQ_BTR3"
  }
 }
