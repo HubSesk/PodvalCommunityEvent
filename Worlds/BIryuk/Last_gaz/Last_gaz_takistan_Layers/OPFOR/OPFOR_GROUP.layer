@@ -1,0 +1,93 @@
+$grp SCR_AIGroup : "{096E2AA151C3580D}Prefabs/Groups/OPFOR/Campaign/F_USSR_drg_RifleSquad.et" {
+ SSSR_1_201 {
+  components {
+   PS_GroupCallsignAssigner "{645CD4F530E5119A}" {
+    m_iCompanyCallsign 2
+    m_iSquadCallsign 1
+   }
+  }
+  coords 8260.62 322.037 1835.233
+  angleY -31.81
+ }
+ {
+  components {
+   PS_GroupCallsignAssigner "{645CD4F530E5119A}" {
+    m_iCompanyCallsign 3
+    m_iSquadCallsign 2
+   }
+  }
+  coords 8233.953 322.187 1807.112
+  angleY -121.81
+  m_sCustomNameSet "Десант"
+ }
+ {
+  components {
+   PS_GroupCallsignAssigner "{645CD4F530E5119A}" {
+    m_iCompanyCallsign 3
+    m_iSquadCallsign 1
+   }
+  }
+  coords 8215.155 322.188 1803.33
+  angleY 58.19
+  m_sCustomNameSet "Десант"
+ }
+}
+SCR_AIGroup HELLI : "{2B2FE71BC66E6041}Prefabs/Groups/OPFOR/Campaign/S_USSR_drg_RocketHelicopter.et" {
+ components {
+  PS_GroupCallsignAssigner "{645CD4F6A6B4891B}" {
+   m_iCompanyCallsign 3
+  }
+ }
+ coords 8234.258 323.26 1792.356
+ angleY -32.314
+ m_aUnitPrefabSlots {
+  "{AE13A3EF3D1D4508}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_Pilot_Radio.et" "{8E1DE06D8C1B0EDC}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_Pilot.et"
+ }
+}
+SCR_AIGroup SSSR_1_200 : "{6CD75003D4565B9C}Prefabs/Groups/OPFOR/Campaign/F_USSR_drg_MG_Squad.et" {
+ components {
+  PS_GroupCallsignAssigner "{645CD4FCA5EDAF11}" {
+   m_iCompanyCallsign 2
+  }
+ }
+ coords 8274.111 322.192 1844.775
+ angleY -30.16
+}
+$grp SCR_AIGroup : "{A092B100ABD2BFD5}Prefabs/Groups/OPFOR/Campaign/F_USSR_drg_RifleSquad_BTR.et" {
+ SSSR_1_102 {
+  components {
+   PS_GroupCallsignAssigner "{645CD4FA3E492D2E}" {
+    m_iCompanyCallsign 1
+    m_iSquadCallsign 2
+   }
+  }
+  coords 8288.787 322.589 1853.832
+  angleY -30.213
+ }
+ SSSR_1_101 {
+  components {
+   PS_GroupCallsignAssigner "{645CD4FA3E492D2E}" {
+    m_iCompanyCallsign 1
+    m_iSquadCallsign 1
+   }
+  }
+  coords 8304.507 322.768 1863.188
+  angleY -31.627
+ }
+ SSSR_1_100 {
+  components {
+   PS_GroupCallsignAssigner "{645CD4FA3E492D2E}" {
+    m_iCompanyCallsign 1
+   }
+  }
+  coords 8319.31 322.188 1872.643
+  angleX 0.01
+  angleY -31.332
+  angleZ -0.44
+ }
+}
+SCR_AIGroup HQ_SSSR : "{E8ADB840FBFAF008}Prefabs/Groups/OPFOR/Campaign/F_USSR_drg_BattalionHQ.et" {
+ coords 8332.206 322.188 1881.329
+ angleY -31.068
+ m_sCustomNameSet "Командир Взвода"
+}
