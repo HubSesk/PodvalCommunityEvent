@@ -3,8 +3,10 @@ GenericEntity StartTeleportScript : "{58E62C5D17281925}Prefabs/Particles/Blasts/
  userScript "	private ref SCR_Abu_Teleporter Teleporter;"
  EOnInit ""\
  "		//Print(\"EOnInitEOnInitEOnInitEOnInitEOnInitEOnInit\");"\
- "		Teleporter = new SCR_Abu_Teleporter();"\
- "		Teleporter.TeleportGroups();"\
+ "		if(Replication.IsServer()){"\
+ "			Teleporter = new SCR_Abu_Teleporter();"\
+ "			Teleporter.TeleportGroups();"\
+ "		}"\
  "		"\
  "	"
 }

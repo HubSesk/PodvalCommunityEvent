@@ -1,0 +1,51 @@
+SCR_ChimeraCharacter : "{424464CB4B245206}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VSR/Character_RHS_RF_MSV_VSR_SR.et" {
+ coords 1475.446 282.734 11916.933
+}
+$grp SCR_EditorRestrictionZoneEntity : "{6144B0BE2EAC6897}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneMedium.et" {
+ {
+  coords 3817.093 311.124 8866.16
+ }
+ {
+  coords 4500.495 314.954 8244.981
+ }
+ {
+  coords 4418.235 300.52 6413.216
+ }
+ {
+  coords 2661.01 363.093 6769.325
+ }
+}
+$grp SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
+ Lager {
+  coords 2988.387 289.881 8250.552
+  m_fWarnRadius 124
+  m_fZoneRadius 164
+  m_fZoneTeleportedRadius 174
+  {
+   GenericEntity {
+    ID "59D673B36B893D84"
+    components {
+     SCR_CustomAreaMeshComponent "{59D673B22B1EBC57}" {
+      m_fRadius 124
+     }
+    }
+   }
+  }
+ }
+ Sintstok {
+  coords 1461.467 290.871 11942.831
+  m_fWarnRadius 124
+  m_fZoneRadius 164
+  m_fZoneTeleportedRadius 174
+  {
+   GenericEntity {
+    ID "59D673B36B893D84"
+    components {
+     SCR_CustomAreaMeshComponent "{59D673B22B1EBC57}" {
+      m_fRadius 124
+     }
+    }
+   }
+  }
+ }
+}

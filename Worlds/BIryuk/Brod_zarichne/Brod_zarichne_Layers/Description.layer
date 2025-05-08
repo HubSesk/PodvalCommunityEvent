@@ -1,7 +1,7 @@
 $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
  OPFOR_USLOVNOSTI {
   coords 2123.979 2.37 2206.532
-  m_sTitle "Условности и задачи. "
+  m_sTitle "Условности и задачи РФ"
   m_sTextData "<b>Задача армии РФ:</b>"\
   "1) Удержать здание штаба"\
   ""\
@@ -22,10 +22,11 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_aVisibleForFactions {
    "RHS_AFRF"
   }
+  m_bEmptyFactionVisibility 1
  }
  BLUFOR_USLOVNOSTI {
   coords 2126.553 1.973 2206.549
-  m_sTitle "Условности и задачи. "
+  m_sTitle "Условности и задачи США"
   m_sTextData "<b>Задача армии США:</b>"\
   "1) Захватить здание штаба"\
   ""\
@@ -40,6 +41,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_aVisibleForFactions {
    "RHS_USAF"
   }
+  m_bEmptyFactionVisibility 1
  }
  LOR {
   coords 2132.927 2.896 2208.649

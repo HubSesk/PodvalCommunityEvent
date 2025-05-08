@@ -53,11 +53,27 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
    "UK"
   }
  }
+ {
+  coords 6137.563 11.722 7652.933
+  m_sTitle "Задача"
+  m_sTextData "Спасти Командера 100 очков"
+  m_aVisibleForFactions {
+   "UK"
+  }
+ }
+ {
+  coords 6140.135 12.579 7654.336
+  m_sTitle "Задача"
+  m_sTextData "Убить Командера бритов 100 очков"
+  m_aVisibleForFactions {
+   "FIA"
+  }
+ }
 }
 $grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
  {
   coords 1269.879 2.75 5041.577
-  m_sTitle "Командер США убит"
+  m_sTitle "Командер Бритов убит"
  }
  {
   coords 1284.783 2.75 5042.569
@@ -71,6 +87,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   angleZ 90
   m_MarkerColor 0.07 0.193 0.562 1
   m_sQuadName "flag-2"
+  m_fWorldSize 40
   m_sDescription "Укрепленный дом"
   m_aVisibleForFactions {
    "UK"
@@ -84,6 +101,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   angleZ 90
   m_MarkerColor 0.07 0.193 0.562 1
   m_sQuadName "flag-2"
+  m_fWorldSize 40
   m_sDescription "Укрепленный дом"
   m_aVisibleForFactions {
    "UK"

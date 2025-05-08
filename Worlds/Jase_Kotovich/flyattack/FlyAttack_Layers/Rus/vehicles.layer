@@ -1,0 +1,163 @@
+$grp Vehicle : "{0B4DEA8078B78A9B}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_PKM.et" {
+ UAZ469_PKM1 {
+  coords 5908.854 35.126 5596.134
+  angleX 6.24
+  angleY 0.098
+  angleZ 0.9
+ }
+ UAZ469_PKM2 {
+  coords 7141.443 6.625 5327.571
+  angleY -90.835
+ }
+ UAZ469_PKM3 {
+  coords 5506.375 5.769 9359.335
+  angleY 141.563
+ }
+ UAZ469_PKM4 {
+  coords 4389.97 79.841 9901.761
+  angleY 49.194
+ }
+}
+Vehicle Ural4320_tanker_camo1 : "{13139B95B13DDA35}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_tanker_camo1.et" {
+ coords 5520.043 123.375 6761.167
+ angleY 51.059
+}
+Vehicle Ural4320_transport1 : "{16C1F16C9B053801}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport.et" {
+ coords 9745.261 5.501 10616.891
+ angleY -50.432
+}
+$grp Vehicle : "{259EE7B78C51B624}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469.et" {
+ UAZ1 {
+  coords 5545.316 122.865 6924.133
+  angleX -2.545
+  angleY -123.075
+  angleZ 5.905
+ }
+ UAZ2 {
+  coords 5545.17 123.071 6919.084
+  angleX -2.025
+  angleY -123.044
+  angleZ 3.447
+ }
+}
+Vehicle Ural4320_command_camo1 : "{2C95509CA3E61DE1}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_command_camo1.et" {
+ coords 5467.42 129.446 6901.145
+ angleY 45.909
+}
+Vehicle Ural4320_transport_camo1 : "{2CCD539A7AB35B2F}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_camo1.et" {
+ coords 5543.336 123.406 6839.475
+ angleY -70.544
+}
+Vehicle Ural4320_ammo1 : "{3336BE330C4F355B}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_ammo.et" {
+ coords 9778.479 5.826 10614.346
+ angleX -1.999
+ angleY -165.906
+ angleZ 0.704
+}
+$grp Vehicle : "{3C6B3ED0C3AC30D5}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_armed_gunship_HE.et" {
+ Mi8MT_armed_gunship_HE1 {
+  components {
+   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+    FuelNodes {
+     SCR_FuelNode "{5622A70CD4036C5A}" {
+      m_fInitialFuelTankState 0
+     }
+     SCR_FuelNode "{5A7CE769E7A9C416}" {
+      m_fInitialFuelTankState 0
+     }
+     SCR_FuelNode "{5A7CE769E7A9C414}" {
+      m_fInitialFuelTankState 0
+     }
+    }
+   }
+  }
+  coords 9778.54 5.858 10622.33
+  angleY 110.123
+  m_sAttachmentGroupName "RHS_AFRF_G_200_3"
+ }
+ Mi8MT_armed_gunship_HE2 {
+  coords 10055.875 3.537 10762.228
+  angleY 67.086
+  m_sAttachmentGroupName "RHS_AFRF_G_201_3"
+ }
+}
+$grp Vehicle : "{447CFE8D73F95C3E}Prefabs/Vehicles/Wheeled/BTR70/BTR70_AFRF.et" {
+ BTR70_AFRF1 {
+  components {
+   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+    FuelNodes {
+     SCR_FuelNode "{5622A70CD4036C5A}" {
+      m_fInitialFuelTankState 0
+     }
+     SCR_FuelNode "{5628CA8E08F1AAF4}" {
+      m_fInitialFuelTankState 0
+     }
+    }
+   }
+  }
+  coords 5510.478 123.429 6850.965
+  angleX 0.913
+  angleY 88.874
+  angleZ 0.877
+ }
+ BTR70_AFRF2 {
+  components {
+   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+    FuelNodes {
+     SCR_FuelNode "{5622A70CD4036C5A}" {
+      m_fInitialFuelTankState 0
+     }
+     SCR_FuelNode "{5628CA8E08F1AAF4}" {
+      m_fInitialFuelTankState 0
+     }
+    }
+   }
+  }
+  coords 5517.021 123.406 6859.803
+ }
+}
+Vehicle Ural1 : "{4597626AF36C0858}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320.et" {
+ coords 5491.623 123.527 6730.868
+ angleX -3.766
+ angleY 43.829
+ angleZ 1.34
+}
+Vehicle Ural4320_tanker1 : "{4C81D7ED8F8C0D87}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_tanker.et" {
+ coords 9764.333 5.521 10645.045
+ angleX 1.022
+ angleY -34.822
+ angleZ 1.469
+}
+Vehicle BRDM2_AFRF1 : "{9AEDF323A812F9ED}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_AFRF.et" {
+ components {
+  SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+   FuelNodes {
+    SCR_FuelNode "{5622A70CD4036C5A}" {
+     MaxFuel 0
+     m_fInitialFuelTankState 0
+     m_eFuelNodeType 0
+    }
+    SCR_FuelNode "{58F8DC78283E1F75}" {
+     MaxFuel 0
+     m_fInitialFuelTankState 0
+     m_eFuelNodeType 0
+    }
+   }
+  }
+ }
+ coords 5471.351 127.766 6722.989
+ angleX -2.714
+ angleY -92.042
+ angleZ -0.798
+}
+Vehicle Ural4320_repair1 : "{A5647958579A4149}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_repair.et" {
+ coords 9745.439 5.634 10635.664
+}
+Vehicle Ural4320_repair_camo1 : "{BED355ED51A1E859}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_repair_camo1.et" {
+ coords 5536.066 123.406 6897.614
+ angleY -33.31
+}
+GenericEntity : "{FA7A86697340C58C}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_05.et" {
+ coords 9739.74 5.241 10605.554
+ angleY 89.121
+}
