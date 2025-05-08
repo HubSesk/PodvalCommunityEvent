@@ -57,6 +57,20 @@ $grp SCR_AIGroup : "{587F6728C23551AA}Prefabs/Groups/OPFOR/Ses_TKA/Group_Ses_TKA
   m_sCustomNameSet "Расчет ЗУ-23"
  }
 }
+$grp SCR_DestructibleBuildingEntity : "{74B221077A871D91}Prefabs/Structures/Bulding/Military/fortified_nest_big_ep1.et" {
+ {
+  coords 8028.686 -0 1836.555
+  angleY 60
+ }
+ {
+  coords 8263.635 -0.195 2218.782
+  angleY 160.292
+ }
+ {
+  coords 8483.713 0 1982.273
+  angleY -109.708
+ }
+}
 SCR_AIGroup MG_sq : "{C20E852653132800}Prefabs/Groups/OPFOR/Ses_TKA/Group_Ses_TKA_MachineGunTeam.et" {
  components {
   AIFormationComponent "{507E9DC12F541FE6}" {
@@ -73,9 +87,26 @@ SCR_AIGroup MG_sq : "{C20E852653132800}Prefabs/Groups/OPFOR/Ses_TKA/Group_Ses_TK
  }
  m_bSnapToTerrain 0
 }
+SCR_DestructibleBuildingEntity : "{C7F0588E6BA15F37}Prefabs/Structures/Bulding/Military/fort_artillery_nest_ep1.et" {
+ coords 8049.688 0 1846.944
+ angleY 60
+}
+$grp SCR_DestructibleBuildingEntity : "{D25D2FE26B8DA6BE}Prefabs/Structures/Bulding/Military/fort_rampart_ep1.et" {
+ {
+  coords 8042.254 0 1835.309
+  angleY -32.535
+ }
+ {
+  coords 8036.047 0 1845.707
+  angleY 147.464
+ }
+}
 Vehicle Ural4320_Ses_TKA_tanker1 : "{DB273DFB3F84D453}Prefabs/Vehicles/Wheeled/Ural4320/Ses_TKA/Ural4320_Ses_TKA_tanker.et" {
  coords 8302.374 322.188 2156.968
  angleY -105
+}
+SCR_EditorRestrictionZoneEntity : "{EF72FA7CD87618D5}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneSmall.et" {
+ coords 6193.077 655.436 3553.625
 }
 SCR_AIGroup HQ_tka : "{F21917B6C71E18E0}Prefabs/Groups/OPFOR/Ses_TKA/Group_Ses_TKA_PlatoonHQ.et" {
  components {
