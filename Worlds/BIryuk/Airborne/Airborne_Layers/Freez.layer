@@ -1,9 +1,22 @@
-PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
- coords 5194.448 171.625 6103.658
-}
 $grp SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
  {
-  coords 8278.596 322.19 1851.476
+  coords 8278.633 322.189 2159.611
+  m_fWarnRadius 104
+  m_fZoneRadius 124
+  m_fZoneTeleportedRadius 134
+  {
+   GenericEntity {
+    ID "59D673B36B893D84"
+    components {
+     SCR_CustomAreaMeshComponent "{59D673B22B1EBC57}" {
+      m_fRadius 104
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 8906.606 304.218 5301.918
   m_fWarnRadius 164
   m_fZoneRadius 174
   m_fZoneTeleportedRadius 184
@@ -18,20 +31,15 @@ $grp SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/Restri
    }
   }
  }
+}
+$grp SCR_EditorRestrictionZoneEntity : "{EF72FA7CD87618D5}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneSmall.et" {
  {
-  coords 5197.387 178.576 6128.139
-  m_fWarnRadius 164
-  m_fZoneRadius 174
-  m_fZoneTeleportedRadius 184
-  {
-   GenericEntity {
-    ID "59D673B36B893D84"
-    components {
-     SCR_CustomAreaMeshComponent "{59D673B22B1EBC57}" {
-      m_fRadius 164
-     }
-    }
-   }
-  }
+  coords 8403.566 322.188 2054.541
+ }
+ {
+  coords 8428.305 322.536 1926.404
+ }
+ {
+  coords 7773.625 322.187 1690.49
  }
 }
