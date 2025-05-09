@@ -32,6 +32,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_aVisibleForFactions {
    "USSR"
   }
+  m_bEmptyFactionVisibility 1
  }
  USA {
   coords 4539.731 50.711 6088.385
@@ -45,6 +46,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_aVisibleForFactions {
    "US"
   }
+  m_bEmptyFactionVisibility 1
  }
  ABOUT {
   coords 4541.65 50.71 6091.422
@@ -56,10 +58,12 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  USSR_RAZVEDKA {
   coords 4542.763 50.711 6088.475
   m_sTitle "Сообщение от развед.группы"
-  m_sTextData "Американская развед.группа вооружена глушёнными м16 с оптикой, передвигаются М151А1 с крупнокалиберными пулемётами Browning."
+  m_sTextData "Американская развед.группа вооружена глушёнными м16 с оптикой, передвигаются на"\
+  " М151А1 с крупнокалиберными пулемётами Browning."
   m_aVisibleForFactions {
    "USSR"
   }
+  m_bEmptyFactionVisibility 1
  }
  RULES_US {
   coords 4443.142 59.012 6240.826
@@ -67,6 +71,10 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "— Всем бойцам, кроме развед. группы запрещено пересекать синюю линию."\
   "— При застройке, в гостинницу должен быть безпрепятственный вход (чтобы зайти не нужно менять положение персонажа или препрыгивать что-либо)."\
   "— Строить можно только мешки с песком (НЕ БУНКЕРА), колючую проволоку, и ежи."
+  m_aVisibleForFactions {
+   "US"
+  }
+  m_bEmptyFactionVisibility 1
  }
  US_RAZVEDKA {
   coords 3894.65 19.151 8299.688
@@ -75,5 +83,6 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_aVisibleForFactions {
    "US"
   }
+  m_bEmptyFactionVisibility 1
  }
 }
