@@ -1,10 +1,40 @@
 $grp Vehicle : "{B47110AA1A806556}Prefabs/Vehicles/Wheeled/BTR70/BTR70_FIA.et" {
  BTR70_FIA1 {
-  coords 1749.883 160.625 1336.223
-  angleY 123.418
+  components {
+   SCR_UniversalInventoryStorageComponent "{59168B38F20DFF74}" {
+    MultiSlots {
+     MultiSlotConfiguration "{62F4F28124BBBF3A}" {
+      NumSlots 12
+     }
+     MultiSlotConfiguration "{6552D702E9A55457}" {
+      SlotTemplate InventoryStorageSlot magzine {
+       Prefab "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et"
+      }
+      NumSlots 24
+     }
+    }
+   }
+  }
+  coords 1760.732 161.062 1319.467
+  angleY 40.112
   m_sAttachmentGroupName "TKA_100"
  }
  BTR70_FIA2 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{59168B38F20DFF74}" {
+    MultiSlots {
+     MultiSlotConfiguration "{62F4F28124BBBF3A}" {
+      NumSlots 12
+     }
+     MultiSlotConfiguration "{6552D702E9A55457}" {
+      SlotTemplate InventoryStorageSlot magzine {
+       Prefab "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et"
+      }
+      NumSlots 24
+     }
+    }
+   }
+  }
   coords 1705.234 161.611 1370.305
   angleX -1.254
   angleY 142.738
@@ -12,10 +42,25 @@ $grp Vehicle : "{B47110AA1A806556}Prefabs/Vehicles/Wheeled/BTR70/BTR70_FIA.et" {
   m_sAttachmentGroupName "TKA_101"
  }
  BTR70_FIA3 {
-  coords 1092.806 169.007 1176.027
-  angleX -1.997
-  angleY 112.705
-  angleZ 0.135
+  components {
+   SCR_UniversalInventoryStorageComponent "{59168B38F20DFF74}" {
+    MultiSlots {
+     MultiSlotConfiguration "{62F4F28124BBBF3A}" {
+      NumSlots 12
+     }
+     MultiSlotConfiguration "{6552D702E9A55457}" {
+      SlotTemplate InventoryStorageSlot magzine {
+       Prefab "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et"
+      }
+      NumSlots 24
+     }
+    }
+   }
+  }
+  coords 1110.913 168.542 1150.243
+  angleX 0.667
+  angleY 29.729
+  angleZ 2.441
   m_sAttachmentGroupName "TKA_300"
  }
 }
