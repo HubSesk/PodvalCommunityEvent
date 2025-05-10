@@ -86,7 +86,7 @@ $grp SCR_AIGroup : "{281B7FA5A70021D5}Prefabs/Groups/INDFOR/TKR/Group_Ses_TKR_Ri
   }
  }
 }
-SCR_AIGroup : "{4170F3A7E4137FDA}Prefabs/Groups/INDFOR/TKR/Group_Ses_TKR_ReconTeam.et" {
+SCR_AIGroup ff : "{4170F3A7E4137FDA}Prefabs/Groups/INDFOR/TKR/Group_Ses_TKR_ReconTeam.et" {
  components {
   AIFormationComponent "{507E9DC12F541FE6}" {
    DefaultFormation "Line"
@@ -104,10 +104,11 @@ SCR_AIGroup : "{4170F3A7E4137FDA}Prefabs/Groups/INDFOR/TKR/Group_Ses_TKR_ReconTe
  }
 }
 Vehicle BRDM2_Ses_TKR1 : "{5F112AA90CCA5367}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_Ses_TKR.et" {
- coords 1873.73 174.384 11956.769
- angleX 0.852
- angleY -177.905
- angleZ 0.031
+ coords 2883.664 91.921 9829.052
+ angleX -4.254
+ angleY 37.995
+ angleZ -0.083
+ m_sAttachmentGroupName "brd"
 }
 $grp SCR_AIGroup : "{817E13F5454DCF88}Prefabs/Groups/INDFOR/TKR/Group_Ses_TKR_PlatoonHQ.et" {
  {
@@ -126,7 +127,7 @@ $grp SCR_AIGroup : "{817E13F5454DCF88}Prefabs/Groups/INDFOR/TKR/Group_Ses_TKR_Pl
    "{8C6CDBEEC8372D43}Prefabs/Characters/Factions/INDFOR/TKR/Character_TKR_Marksman.et"
   }
  }
- {
+ brd {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "Line"
@@ -136,10 +137,10 @@ $grp SCR_AIGroup : "{817E13F5454DCF88}Prefabs/Groups/INDFOR/TKR/Group_Ses_TKR_Pl
     m_iPlatoonCallsign 1
    }
   }
-  coords 1868.492 174.331 11958.873
-  angleX -0.051
-  angleY 88.295
-  angleZ -1.704
+  coords 2886.477 92.017 9825.096
+  angleX 0.082
+  angleY -51.872
+  angleZ 4.032
   m_aUnitPrefabSlots {
    "{0EC238B0C2462457}Prefabs/Characters/Factions/INDFOR/TKR/Character_TKR_Crew.et" "{0EC238B0C2462457}Prefabs/Characters/Factions/INDFOR/TKR/Character_TKR_Crew.et"
   }
@@ -150,4 +151,5 @@ Vehicle UAZ469_covered_CIV_red1 : "{A4D16A62B432451A}Prefabs/Vehicles/Wheeled/UA
  angleX -11.458
  angleY 118.634
  angleZ 1.085
+ m_sAttachmentGroupName "ff"
 }
