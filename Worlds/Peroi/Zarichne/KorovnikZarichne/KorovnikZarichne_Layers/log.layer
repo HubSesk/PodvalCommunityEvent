@@ -1,32 +1,3 @@
-GenericEntity : "{6A3CDCFB475BF1B2}Prefabs/System/DRG_CriticalLossPrefab.et" {
- components {
-  DRG_CriticalLossComponent "{65213D368F1BD792}" {
-   m_aLossLogics {
-    LossLogic "{652A0AE62538D455}" {
-     m_aLosses {
-      FactionLoss "{652A0AE6205858BB}" {
-       m_iCriticalLossCount 4
-       m_sFactionKey "Ses_CDF"
-      }
-     }
-     m_bAdvanceGameStage 1
-     m_bUseMessage 1
-    }
-    LossLogic "{652A0AE6592D3F9D}" {
-     m_aLosses {
-      FactionLoss "{652A0AE64501164A}" {
-       m_sFactionKey "Ses_ChDKZ"
-      }
-     }
-     m_bAdvanceGameStage 1
-     m_bUseMessage 1
-     m_bEventMessage "Победа обороны: Атака понесла серьёзные потери"
-    }
-   }
-  }
- }
- coords 6900.4 397.719 11341.134
-}
 $grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
  {
   coords 5183.996 380.594 9794.72
