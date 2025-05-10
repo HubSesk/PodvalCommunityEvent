@@ -1,0 +1,37 @@
+$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ {
+  m_sTitle "Легенда"
+  m_sTextData "В лесу окупировались FIA"\
+  "Армия США решила выбить противника"\
+  "                  но"\
+  "Армия СССР так же узнала про существование FIA..."\
+  "Намечается тяжелый бой в лесу."
+  m_aVisibleForFactions {
+   "US" "USSR" "FIA"
+  }
+  m_bEmptyFactionVisibility 1
+ }
+ {
+  m_sTitle "Задачи"
+  m_sTextData "Уничтожить противника в лесу, и захватить здание."
+  m_aVisibleForFactions {
+   "USSR"
+  }
+ }
+ {
+  m_sTitle "Задачи"
+  m_sTextData "Уничтожить противника в лесу, и захватить здание."
+  m_aVisibleForFactions {
+   "US"
+  }
+ }
+ {
+  coords 5425.426 91.785 4991.668
+  m_sTitle "Задачи"
+  m_sTextData "На вас обьявлена охота..."\
+  "Удержать здание, и выжить."
+  m_aVisibleForFactions {
+   "FIA"
+  }
+ }
+}
