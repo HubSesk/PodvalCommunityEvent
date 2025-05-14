@@ -3,12 +3,9 @@ PolylineShapeEntity : "{52693A94BD70373C}Prefabs/PolyZone/PolyZone_Freeze.et" {
   PS_PolyZone "{60E90266F25533F6}" {
    m_cPolygonBorderColor 0 0.033 1 1
    m_fPolygonBorderWidth 5
-   m_bLineMode 1
    m_aVisibleForFactions {
-    "USSR"
    }
-   m_aHideOnGameModeStates + {
-    3
+   m_aHideOnGameModeStates {
    }
   }
  }
@@ -128,6 +125,8 @@ PolylineShapeEntity : "{52693A94BD70373C}Prefabs/PolyZone/PolyZone_Freeze.et" {
   PS_PolyZoneTrigger {
    ID "60FD050C87E232D8"
    TriggerShapeType Polyline
+   m_polyZoneEffect PS_PolyZoneEffectFreezeZone "{60FD050F32C8D297}" {
+   }
    m_sFactionKey "USSR"
   }
  }
@@ -135,8 +134,10 @@ PolylineShapeEntity : "{52693A94BD70373C}Prefabs/PolyZone/PolyZone_Freeze.et" {
 PolylineShapeEntity : "{BD11B8FAA469D169}Prefabs/PolyZone/PolyZone.et" {
  components {
   PS_PolyZone "{60E90266F25533F6}" {
-   m_fPolygonUVScale 0.001
-   m_cPolygonBorderColor 0 0.694 0.174 1
+   m_fPolygonUVScale 2.04
+   m_mPolygonTextureBorder "{CA01D453D39FB430}UI/layouts/Textures/ZoneBorder.edds"
+   m_cPolygonBorderColor 0.502 0 0 1
+   m_fPolygonBorderUVScale 8.67
    m_fPolygonBorderWidth 10
    m_bLineMode 1
    m_aVisibleForFactions {
@@ -197,166 +198,6 @@ PolylineShapeEntity : "{BD11B8FAA469D169}Prefabs/PolyZone/PolyZone.et" {
  }
 }
 $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
- USSR_G_000_M {
-  coords 3403.8 195.935 12934.002
-  m_sImageSet "{58E50ACB1FA4F7D7}UI/Textures/Icons/icons_wrapperUI-96-glow.imageset"
-  m_sImageSetGlow "{58E50ACB1FA4F7D7}UI/Textures/Icons/icons_wrapperUI-96-glow.imageset"
-  m_MarkerColor 0.435 0.005 0.005 1
-  m_sQuadName "players"
-  m_fWorldSize 10
-  m_sDescription "(Отделение Командира Стороны) Aktiv-11"
-  m_aVisibleForFactions {
-   "USSR"
-  }
-  m_aHideOnGameModeStates {
-   1 3
-  }
-  m_iZOrder 10
- }
- USSR_G_001_M {
-  coords 3431.168 196.92 12893.949
-  m_sImageSet "{58E50ACB1FA4F7D7}UI/Textures/Icons/icons_wrapperUI-96-glow.imageset"
-  m_sImageSetGlow "{58E50ACB1FA4F7D7}UI/Textures/Icons/icons_wrapperUI-96-glow.imageset"
-  m_MarkerColor 0.435 0.005 0.005 1
-  m_sQuadName "players"
-  m_fWorldSize 10
-  m_sDescription "(Минометное отделение) Aktiv-12"
-  m_aVisibleForFactions {
-   "USSR"
-  }
-  m_aHideOnGameModeStates {
-   1 3
-  }
-  m_iZOrder 10
- }
- USSR_G_100_M {
-  coords 3424.448 197.883 12845.929
-  m_sImageSet "{58E50ACB1FA4F7D7}UI/Textures/Icons/icons_wrapperUI-96-glow.imageset"
-  m_sImageSetGlow "{58E50ACB1FA4F7D7}UI/Textures/Icons/icons_wrapperUI-96-glow.imageset"
-  m_MarkerColor 0.435 0.005 0.005 1
-  m_sQuadName "players"
-  m_fWorldSize 10
-  m_sDescription "(Экипаж БРДМ) Buran-11"
-  m_aVisibleForFactions {
-   "USSR"
-  }
-  m_aHideOnGameModeStates {
-   1 3
-  }
-  m_iZOrder 10
- }
- USSR_G_101_M {
-  coords 3428.312 197.883 12832.244
-  m_sImageSet "{58E50ACB1FA4F7D7}UI/Textures/Icons/icons_wrapperUI-96-glow.imageset"
-  m_sImageSetGlow "{58E50ACB1FA4F7D7}UI/Textures/Icons/icons_wrapperUI-96-glow.imageset"
-  m_MarkerColor 0.435 0.005 0.005 1
-  m_sQuadName "players"
-  m_fWorldSize 10
-  m_sDescription "(Экипаж БРДМ) Buran-12"
-  m_aVisibleForFactions {
-   "USSR"
-  }
-  m_aHideOnGameModeStates {
-   1 3
-  }
-  m_iZOrder 10
- }
- USSR_G_204_M {
-  coords 3356.295 200.905 12865.533
-  m_sImageSet "{58E50ACB1FA4F7D7}UI/Textures/Icons/icons_wrapperUI-96-glow.imageset"
-  m_sImageSetGlow "{58E50ACB1FA4F7D7}UI/Textures/Icons/icons_wrapperUI-96-glow.imageset"
-  m_MarkerColor 0.435 0.005 0.005 1
-  m_sQuadName "players"
-  m_fWorldSize 10
-  m_sDescription "Kompas-14"
-  m_aVisibleForFactions {
-   "USSR"
-  }
-  m_aHideOnGameModeStates {
-   1 3
-  }
-  m_iZOrder 10
- }
- USSR_G_200_M {
-  coords 3411.627 195.076 12950.502
-  m_sImageSet "{58E50ACB1FA4F7D7}UI/Textures/Icons/icons_wrapperUI-96-glow.imageset"
-  m_sImageSetGlow "{58E50ACB1FA4F7D7}UI/Textures/Icons/icons_wrapperUI-96-glow.imageset"
-  m_MarkerColor 0.435 0.005 0.005 1
-  m_sQuadName "players"
-  m_fWorldSize 10
-  m_sDescription "Kompas-11"
-  m_aVisibleForFactions {
-   "USSR"
-  }
-  m_aHideOnGameModeStates {
-   1 3
-  }
-  m_iZOrder 10
- }
- USSR_G_201_M {
-  coords 3440.479 194.652 12950.59
-  m_sImageSet "{58E50ACB1FA4F7D7}UI/Textures/Icons/icons_wrapperUI-96-glow.imageset"
-  m_sImageSetGlow "{58E50ACB1FA4F7D7}UI/Textures/Icons/icons_wrapperUI-96-glow.imageset"
-  m_MarkerColor 0.435 0.005 0.005 1
-  m_sQuadName "players"
-  m_fWorldSize 10
-  m_sDescription "Kompas-12"
-  m_aVisibleForFactions {
-   "USSR"
-  }
-  m_aHideOnGameModeStates {
-   1 3
-  }
-  m_iZOrder 10
- }
- USSR_G_202_M {
-  coords 3459.871 193.483 12973.346
-  m_sImageSet "{58E50ACB1FA4F7D7}UI/Textures/Icons/icons_wrapperUI-96-glow.imageset"
-  m_sImageSetGlow "{58E50ACB1FA4F7D7}UI/Textures/Icons/icons_wrapperUI-96-glow.imageset"
-  m_MarkerColor 0.435 0.005 0.005 1
-  m_sQuadName "players"
-  m_fWorldSize 10
-  m_sDescription "Kompas-13"
-  m_aVisibleForFactions {
-   "USSR"
-  }
-  m_aHideOnGameModeStates {
-   1 3
-  }
-  m_iZOrder 10
- }
- USSR_G_203_M {
-  coords 3489.71 193.033 12984.913
-  m_sImageSet "{58E50ACB1FA4F7D7}UI/Textures/Icons/icons_wrapperUI-96-glow.imageset"
-  m_sImageSetGlow "{58E50ACB1FA4F7D7}UI/Textures/Icons/icons_wrapperUI-96-glow.imageset"
-  m_MarkerColor 0.435 0.005 0.005 1
-  m_sQuadName "players"
-  m_fWorldSize 10
-  m_sDescription "Kompas-14"
-  m_aVisibleForFactions {
-   "USSR"
-  }
-  m_aHideOnGameModeStates {
-   1 3
-  }
-  m_iZOrder 10
- }
- USSR_G_300_M {
-  coords 3404.072 193.474 13008.244
-  m_sImageSet "{58E50ACB1FA4F7D7}UI/Textures/Icons/icons_wrapperUI-96-glow.imageset"
-  m_sImageSetGlow "{58E50ACB1FA4F7D7}UI/Textures/Icons/icons_wrapperUI-96-glow.imageset"
-  m_MarkerColor 0.435 0.005 0.005 1
-  m_sQuadName "players"
-  m_fWorldSize 10
-  m_sDescription "(СПН) Dinamo-11"
-  m_aVisibleForFactions {
-   "USSR"
-  }
-  m_aHideOnGameModeStates {
-   1 3
-  }
-  m_iZOrder 10
- }
  {
   coords 3407.062 193.194 13017.453
   angleY 225.791
@@ -682,5 +523,167 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
    1 3
   }
   m_iZOrder 0
+ }
+ USSR_G_001_M {
+  coords 3431.168 196.92 12893.949
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "infantry"
+  m_fWorldSize 20
+  m_sDescription "(Минометное отделение) Aktiv-12"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "" "Ses_NAPA" "USSR"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 0
+  m_bShowForAnyFaction 1
+ }
+ USSR_G_000_M {
+  coords 3403.8 195.935 12934.002
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "infantry"
+  m_fWorldSize 20
+  m_sDescription "(Отделение Командира Стороны) Aktiv-11"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "" "Ses_NAPA" "USSR"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 0
+  m_bShowForAnyFaction 1
+ }
+ USSR_G_204_M {
+  coords 3404.072 193.474 13008.244
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "infantry"
+  m_fWorldSize 20
+  m_sDescription "(СПН) Kompas-14"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "" "Ses_NAPA" "USSR"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 0
+  m_bShowForAnyFaction 1
+ }
+ USSR_G_100_M {
+  coords 3424.448 197.883 12845.929
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "infantry"
+  m_fWorldSize 20
+  m_sDescription "(Экипаж БРДМ) Buran-11"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "" "Ses_NAPA" "USSR"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 0
+  m_bShowForAnyFaction 1
+ }
+ USSR_G_101_M {
+  coords 3428.312 197.883 12832.244
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "infantry"
+  m_fWorldSize 20
+  m_sDescription "(Экипаж БРДМ) Buran-12"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "" "Ses_NAPA" "USSR"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 0
+  m_bShowForAnyFaction 1
+ }
+ USSR_G_200_M {
+  coords 3411.627 195.076 12950.502
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "infantry"
+  m_fWorldSize 20
+  m_sDescription "Kompas-11"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "" "Ses_NAPA" "USSR"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 0
+  m_bShowForAnyFaction 1
+ }
+ USSR_G_201_M {
+  coords 3440.479 194.652 12950.59
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "infantry"
+  m_fWorldSize 20
+  m_sDescription "Kompas-12"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "" "Ses_NAPA" "USSR"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 0
+  m_bShowForAnyFaction 1
+ }
+ USSR_G_202_M {
+  coords 3490.709 192.506 12984.939
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "infantry"
+  m_fWorldSize 20
+  m_sDescription "Kompas-13"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "" "Ses_NAPA" "USSR"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 0
+  m_bShowForAnyFaction 1
+ }
+ USSR_G_203_M {
+  coords 3459.871 193.483 12973.346
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "infantry"
+  m_fWorldSize 20
+  m_sDescription "Kompas-14"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "" "Ses_NAPA" "USSR"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 0
+  m_bShowForAnyFaction 1
  }
 }

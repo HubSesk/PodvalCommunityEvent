@@ -5,8 +5,10 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTextData "Запрещено блокировать машинами проходы в здания"\
   "Запрещено использовать вертолет за границами карты"\
   ""\
-  "Примечание: По лору внутриигровая карта устарела. Со всех стороны выросли небольшие леса и были построенны новые здания"\
-  "У КСа обороны по правую руку стоит УАЗИК набитый взрывчаткой"
+  "Примечание: По лору внутриигровая карта устарела. Со всех стороны выросли небольшие леса(ЗЕЛЕНЫЕ ЗОНЫ НА КАРТЕ) и были построенны новые здания"\
+  "У КСа обороны по правую руку стоит УАЗИК набитый взрывчаткой"\
+  "С поселков и жилых зон вокруг Новой петровки местные не успели эвакуировать транспорт."\
+  "У Атаки огромная фризона (синий контур)"
   m_bEmptyFactionVisibility 1
   m_bShowForAnyFaction 1
  }
@@ -29,4 +31,12 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_bEmptyFactionVisibility 1
   m_bShowForAnyFaction 1
  }
+}
+GenericEntity : "{E6FC6DD69FA3479F}Prefabs/System/DRG_MissionEndTimerPrefab.et" {
+ components {
+  DRG_MissionEndTimerComponent "{651B0839B21B3BBF}" {
+   m_iMissionTime 2400
+  }
+ }
+ coords 4636.33 339.125 9689.093
 }
