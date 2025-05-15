@@ -86,6 +86,21 @@ $grp Vehicle : "{22B327C6752EC4D4}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_PKM_FIA
   m_bEnableMoveOnFreeze 1
  }
 }
+$grp GenericEntity : "{2C83CD194C70DA9C}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_Large_01/E_SupplyStack_Large_01_storage.et" {
+ {
+  coords 4667.946 339.125 9581.591
+ }
+ {
+  coords 4667.946 339.125 9580.108
+ }
+ {
+  coords 4667.946 339.125 9578.586
+ }
+}
+Vehicle Ural4320_ammo2 : "{3336BE330C4F355B}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_ammo.et" {
+ coords 4674.713 339.125 9579.843
+ angleY 88.631
+}
 Vehicle S1203_transport_beige1 : "{543799AC5C52989C}Prefabs/Vehicles/Wheeled/S1203/S1203_transport_beige.et" {
  coords 4671.923 339.125 9617.146
  angleY 90.517
@@ -134,10 +149,6 @@ Vehicle UAZ469_uncovered_CIV_red2 : "{599DFCA424399DBF}Prefabs/Vehicles/Wheeled/
 Vehicle Ural4320_transport_covered_CIV_orange1 : "{66241E0CEDFCEDFF}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered_CIV_orange.et" {
  coords 4584.489 339.125 9630.11
  m_sAttachmentGroupName "Ses_NAPA_G_011_2"
- m_bEnableMoveOnFreeze 1
-}
-Vehicle UAZ452_transport_CIV_grey1 : "{780FA841BFE4077F}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_transport_CIV_grey.et" {
- coords 4683.996 339.125 9585.743
  m_bEnableMoveOnFreeze 1
 }
 Vehicle Mi8MT_armed1 : "{7BD282AF716ED639}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_armed.et" {
@@ -201,7 +212,7 @@ $grp Vehicle : "{B47110AA1A806556}Prefabs/Vehicles/Wheeled/BTR70/BTR70_FIA.et" {
    }
   }
   coords 4644.479 339.125 9584.532
-  m_sAttachmentGroupName "(Экипаж БТР 70) Ses_NAPA_G_022_3"
+  m_sAttachmentGroupName "(Экипаж БТР 70) Ses_NAPA_G_021_3"
   m_bEnableMoveOnFreeze 1
  }
  BTR70_FIA3 {
@@ -240,11 +251,6 @@ Vehicle UAZ469_covered_CIV_PTS1 : "{BDFB2377B6B4ABBB}Prefabs/Vehicles/Wheeled/UA
  coords 4643.397 339.125 9612.477
  angleY 89.462
  m_sAttachmentGroupName "Ses_NAPA_G_002_8"
- m_bEnableMoveOnFreeze 1
-}
-Vehicle UAZ452_cargo_CIV_grey1 : "{C75DAB159B434B77}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_cargo_CIV_grey.et" {
- coords 4681.01 339.125 9585.692
- m_sAttachmentGroupName "(Минометное подразделение) Ses_NAPA_G_001_3"
  m_bEnableMoveOnFreeze 1
 }
 $grp Vehicle : "{E72D78E7F45532EC}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_UK59_FIA.et" {
@@ -333,4 +339,41 @@ Vehicle Ural4320_transport_covered_CIV_JZD1 : "{FB219B49A448A8EA}Prefabs/Vehicle
  angleY 91.189
  m_sAttachmentGroupName "Ses_NAPA_G_002_7"
  m_bEnableMoveOnFreeze 1
+}
+Vehicle Ural4320_ZU1 : "{FD109F3702AAB392}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_ZU23.et" {
+ components {
+  SCR_UniversalInventoryStorageComponent "{5916C58171230A92}" {
+   MultiSlots {
+    MultiSlotConfiguration "{5A60D38EDB3709A9}" {
+    }
+    MultiSlotConfiguration "{6120DB373E32BDDD}" {
+     SlotTemplate InventoryStorageSlot Ammo1 {
+      Enabled 0
+     }
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo TireHolder {
+    }
+    SCR_WheelSlotInfo Wheel_R03 {
+    }
+    EntitySlotInfo Label_L {
+     Enabled 0
+    }
+    EntitySlotInfo Label_R {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo cannon {
+     MergePhysics 0
+     Prefab "{8DD95C50DF47872F}Prefabs/Babon/Vehicles/Static/BaconZU23/Bacon2a82_Turret.et"
+    }
+   }
+  }
+  RplComponent "{517AACDFA78F5EE7}" {
+   AutoHierarchy 1
+  }
+ }
+ coords 4680.493 339.193 9589.351
 }

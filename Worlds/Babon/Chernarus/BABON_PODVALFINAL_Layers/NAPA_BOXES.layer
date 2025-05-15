@@ -5,47 +5,6 @@ $grp GenericEntity : "{6CD7CA627EA81509}PrefabsEditable/Auto/Props/Military/Ammo
     MultiSlots {
      MultiSlotConfiguration "{6530E5910705468D}" {
       SlotTemplate InventoryStorageSlot inventorystorageslot {
-       Prefab "{98EC9C526AFBA282}Prefabs/Weapons/Ammo/Ammo_Shell_82mm_HE_O832DU.et"
-      }
-      NumSlots 500
-     }
-     MultiSlotConfiguration "{6530E591410380FB}" {
-      SlotTemplate InventoryStorageSlot Inventorystorageslot {
-       Prefab "{C8A906FB198D1A33}Prefabs/Weapons/Ammo/Ammo_Shell_82mm_Illum_S832S.et"
-      }
-      NumSlots 4
-     }
-     MultiSlotConfiguration "{6530E59160939E2E}" {
-      SlotTemplate InventoryStorageSlot Inventorystorageslot {
-       Prefab "{A544A2C131DE2C64}Prefabs/Weapons/Ammo/Ammo_Shell_82mm_Smoke_D832DU.et"
-      }
-      NumSlots 20
-     }
-     MultiSlotConfiguration "{6534B31A2146CDAA}" {
-      SlotTemplate InventoryStorageSlot Inventorystorageslot {
-       Prefab "{B41607EAB58A4252}Prefabs/Items/Equipment/BalisticTable/BalisticTable_USSR.et"
-      }
-      NumSlots 1
-     }
-    }
-    m_fMaxWeight 50000
-   }
-   ActionsManagerComponent "{5476B36C403D4CC0}" {
-    additionalActions {
-     SCR_PickUpItemAction "{61B0B8739F7C1E29}" {
-      "Sort Priority" 1
-     }
-    }
-   }
-  }
-  coords 4680.026 339.125 9581.532
- }
- {
-  components {
-   SCR_FilteredInventoryStorageComponent "{5476A2F100DF4EFF}" {
-    MultiSlots {
-     MultiSlotConfiguration "{6530E5910705468D}" {
-      SlotTemplate InventoryStorageSlot inventorystorageslot {
        Prefab "{4A3B196E4EA820E9}Prefabs/Weapons/Ammo/RPG/RHS_AmmoRocket_OG7V.et"
       }
       NumSlots 10

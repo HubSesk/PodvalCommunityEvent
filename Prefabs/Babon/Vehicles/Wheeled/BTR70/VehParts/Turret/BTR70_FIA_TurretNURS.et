@@ -1,0 +1,24 @@
+Turret : "{66596659FB0F645B}Prefabs/Vehicles/Wheeled/BTR70/VehParts/Turret/BTR70_Turret.et" {
+ ID "51ACD0965653D003"
+ components {
+  TurretComponent "{1D3DA71B9107070D}" {
+   missileWeaponLink BaseMissileWeaponLinkClass "{655E9441C2E5B4EE}" {
+   }
+  }
+  WeaponSlotComponent "{655E944137B06545}" {
+   SignalsSourceAccess SignalsSourceAccessClass "{655E944141A6E880}" {
+    signalsSuffix "Turret"
+   }
+   useAimingType MainTurret
+   shouldHandleObstruction 0
+   AttachType InventoryStorageSlot NURS {
+    PivotID "v_turret_01"
+    Offset 0.2143 0.5966 0.1916
+    Angles 1 0 -180
+    DisablePhysicsInteraction 1
+   }
+   WeaponTemplate "{0D920C0DF31DC4D4}Prefabs/Weapons/AircraftWeapons/RocketPods/Pod_UB1657_Loaded_FRAG_S5MO.et"
+   WeaponSlotIndex 2
+  }
+ }
+}

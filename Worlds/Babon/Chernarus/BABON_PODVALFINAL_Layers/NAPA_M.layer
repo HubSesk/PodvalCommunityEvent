@@ -1,3 +1,6 @@
+SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
+ coords 4701.302 339.188 9608.189
+}
 PolylineShapeEntity : "{52693A94BD70373C}Prefabs/PolyZone/PolyZone_Freeze.et" {
  components {
   PS_PolyZone "{60E90266F25533F6}" {
@@ -14,6 +17,9 @@ PolylineShapeEntity : "{52693A94BD70373C}Prefabs/PolyZone/PolyZone_Freeze.et" {
  }
  coords 4487.934 339.156 9739.49
  Points {
+  ShapePoint "{60E90266E922A02A}" {
+   Position -13.6 -0.213 23.312
+  }
   ShapePoint "{655C8DA49EE499DE}" {
    Position -41.704 -0.377 -8.081
   }
@@ -95,210 +101,15 @@ PolylineShapeEntity : "{52693A94BD70373C}Prefabs/PolyZone/PolyZone_Freeze.et" {
   ShapePoint "{655C8DA6357E165F}" {
    Position 17.562 -0.049 53.659
   }
-  ShapePoint "{60E90266E922A02A}" {
-   Position -13.6 -0.213 23.312
-  }
  }
 }
 $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
- Ses_NAPA_G_001_M {
-  coords 4677.574 344.053 9586.417
-  m_sImageSet "{301FC1A2A46D3E0D}UI/Textures/GroupManagement/FlagIcons/GroupFlagsIndfor.imageset"
-  m_sImageSetGlow ""
-  m_sQuadName "infantry"
-  m_sDescription "(Минометное подразделение) Racek-12"
-  m_bUseWorldScale 0
-  m_aVisibleForFactions {
-   "RHS_AFRF" "RHS_USAF" "Ses_CDF" "Ses_ChDKZ" "Ses_NAPA" "USSR"
-  }
-  m_bVisibleForEmptyFaction 1
-  m_aHideOnGameModeStates {
-  }
-  m_iZOrder 10
-  m_bShowForAnyFaction 1
- }
- Ses_NAPA_G_000_M {
-  coords 4677.589 344.053 9596.992
-  m_sImageSet "{301FC1A2A46D3E0D}UI/Textures/GroupManagement/FlagIcons/GroupFlagsIndfor.imageset"
-  m_sImageSetGlow ""
-  m_sQuadName "infantry"
-  m_sDescription "(Отделение Командира Стороны) Racek-11"
-  m_bUseWorldScale 0
-  m_aVisibleForFactions {
-   "RHS_AFRF" "RHS_USAF" "Ses_CDF" "Ses_ChDKZ" "Ses_NAPA" "USSR"
-  }
-  m_bVisibleForEmptyFaction 1
-  m_aHideOnGameModeStates {
-  }
-  m_iZOrder 10
-  m_bShowForAnyFaction 1
- }
  Ses_NAPA_G_101_M {
   coords 4714.008 339.125 9578.524
   m_sImageSet "{301FC1A2A46D3E0D}UI/Textures/GroupManagement/FlagIcons/GroupFlagsIndfor.imageset"
   m_sImageSetGlow ""
   m_sQuadName "infantry"
   m_sDescription "(Пилоты) Bříza-12"
-  m_bUseWorldScale 0
-  m_aVisibleForFactions {
-   "RHS_AFRF" "RHS_USAF" "Ses_CDF" "Ses_ChDKZ" "Ses_NAPA" "USSR"
-  }
-  m_bVisibleForEmptyFaction 1
-  m_aHideOnGameModeStates {
-  }
-  m_iZOrder 10
-  m_bShowForAnyFaction 1
- }
- Ses_NAPA_G_207_M {
-  coords 4628.361 339.125 9684.317
-  m_sImageSet "{301FC1A2A46D3E0D}UI/Textures/GroupManagement/FlagIcons/GroupFlagsIndfor.imageset"
-  m_sImageSetGlow ""
-  m_sQuadName "infantry"
-  m_sDescription "(СПН) Cedr-13"
-  m_bUseWorldScale 0
-  m_aVisibleForFactions {
-   "RHS_AFRF" "RHS_USAF" "Ses_CDF" "Ses_ChDKZ" "Ses_NAPA" "USSR"
-  }
-  m_bVisibleForEmptyFaction 1
-  m_aHideOnGameModeStates {
-  }
-  m_iZOrder 10
-  m_bShowForAnyFaction 1
- }
- Ses_NAPA_G_101_M {
-  coords 4647.833 339.125 9593.831
-  m_sImageSet "{301FC1A2A46D3E0D}UI/Textures/GroupManagement/FlagIcons/GroupFlagsIndfor.imageset"
-  m_sImageSetGlow ""
-  m_sQuadName "infantry"
-  m_sDescription "(Экипаж БТР 70) Bříza-12"
-  m_bUseWorldScale 0
-  m_aVisibleForFactions {
-   "RHS_AFRF" "RHS_USAF" "Ses_CDF" "Ses_ChDKZ" "Ses_NAPA" "USSR"
-  }
-  m_bVisibleForEmptyFaction 1
-  m_aHideOnGameModeStates {
-  }
-  m_iZOrder 10
-  m_bShowForAnyFaction 1
- }
- Ses_NAPA_G_100_M {
-  coords 4647.738 339.125 9584.458
-  m_sImageSet "{301FC1A2A46D3E0D}UI/Textures/GroupManagement/FlagIcons/GroupFlagsIndfor.imageset"
-  m_sImageSetGlow ""
-  m_sQuadName "infantry"
-  m_sDescription "(Экипаж БТР 70) Bříza-11"
-  m_bUseWorldScale 0
-  m_aVisibleForFactions {
-   "RHS_AFRF" "RHS_USAF" "Ses_CDF" "Ses_ChDKZ" "Ses_NAPA" "USSR"
-  }
-  m_bVisibleForEmptyFaction 1
-  m_aHideOnGameModeStates {
-  }
-  m_iZOrder 10
-  m_bShowForAnyFaction 1
- }
- Ses_NAPA_G_201_M {
-  coords 4654.483 339.626 9640.352
-  m_sImageSet "{301FC1A2A46D3E0D}UI/Textures/GroupManagement/FlagIcons/GroupFlagsIndfor.imageset"
-  m_sImageSetGlow ""
-  m_sQuadName "infantry"
-  m_sDescription "Cedr-12"
-  m_bUseWorldScale 0
-  m_aVisibleForFactions {
-   "RHS_AFRF" "RHS_USAF" "Ses_CDF" "Ses_ChDKZ" "Ses_NAPA" "USSR"
-  }
-  m_bVisibleForEmptyFaction 1
-  m_aHideOnGameModeStates {
-  }
-  m_iZOrder 10
-  m_bShowForAnyFaction 1
- }
- Ses_NAPA_G_204_M {
-  coords 4592.27 339.125 9577.382
-  m_sImageSet "{301FC1A2A46D3E0D}UI/Textures/GroupManagement/FlagIcons/GroupFlagsIndfor.imageset"
-  m_sImageSetGlow ""
-  m_sQuadName "infantry"
-  m_sDescription "Cedr-15"
-  m_bUseWorldScale 0
-  m_aVisibleForFactions {
-   "RHS_AFRF" "RHS_USAF" "Ses_CDF" "Ses_ChDKZ" "Ses_NAPA" "USSR"
-  }
-  m_bVisibleForEmptyFaction 1
-  m_aHideOnGameModeStates {
-  }
-  m_iZOrder 10
-  m_bShowForAnyFaction 1
- }
- Ses_NAPA_G_202_M {
-  coords 4585.717 339.125 9613.803
-  m_sImageSet "{301FC1A2A46D3E0D}UI/Textures/GroupManagement/FlagIcons/GroupFlagsIndfor.imageset"
-  m_sImageSetGlow ""
-  m_sQuadName "infantry"
-  m_sDescription "Cedr-13"
-  m_bUseWorldScale 0
-  m_aVisibleForFactions {
-   "RHS_AFRF" "RHS_USAF" "Ses_CDF" "Ses_ChDKZ" "Ses_NAPA" "USSR"
-  }
-  m_bVisibleForEmptyFaction 1
-  m_aHideOnGameModeStates {
-  }
-  m_iZOrder 10
-  m_bShowForAnyFaction 1
- }
- Ses_NAPA_G_205_M {
-  coords 4623.564 339.125 9568.638
-  m_sImageSet "{301FC1A2A46D3E0D}UI/Textures/GroupManagement/FlagIcons/GroupFlagsIndfor.imageset"
-  m_sImageSetGlow ""
-  m_sQuadName "infantry"
-  m_sDescription "Cedr-11"
-  m_bUseWorldScale 0
-  m_aVisibleForFactions {
-   "RHS_AFRF" "RHS_USAF" "Ses_CDF" "Ses_ChDKZ" "Ses_NAPA" "USSR"
-  }
-  m_bVisibleForEmptyFaction 1
-  m_aHideOnGameModeStates {
-  }
-  m_iZOrder 10
-  m_bShowForAnyFaction 1
- }
- Ses_NAPA_G_203_M {
-  coords 4600.877 339.125 9604.953
-  m_sImageSet "{301FC1A2A46D3E0D}UI/Textures/GroupManagement/FlagIcons/GroupFlagsIndfor.imageset"
-  m_sImageSetGlow ""
-  m_sQuadName "infantry"
-  m_sDescription "Cedr-14"
-  m_bUseWorldScale 0
-  m_aVisibleForFactions {
-   "RHS_AFRF" "RHS_USAF" "Ses_CDF" "Ses_ChDKZ" "Ses_NAPA" "USSR"
-  }
-  m_bVisibleForEmptyFaction 1
-  m_aHideOnGameModeStates {
-  }
-  m_iZOrder 10
-  m_bShowForAnyFaction 1
- }
- Ses_NAPA_G_200_M {
-  coords 4667.397 339.125 9612.255
-  m_sImageSet "{301FC1A2A46D3E0D}UI/Textures/GroupManagement/FlagIcons/GroupFlagsIndfor.imageset"
-  m_sImageSetGlow ""
-  m_sQuadName "infantry"
-  m_sDescription "Cedr-11"
-  m_bUseWorldScale 0
-  m_aVisibleForFactions {
-   "RHS_AFRF" "RHS_USAF" "Ses_CDF" "Ses_ChDKZ" "Ses_NAPA" "USSR"
-  }
-  m_bVisibleForEmptyFaction 1
-  m_aHideOnGameModeStates {
-  }
-  m_iZOrder 10
-  m_bShowForAnyFaction 1
- }
- Ses_NAPA_G_206_M {
-  coords 4643.503 339.776 9616.938
-  m_sImageSet "{301FC1A2A46D3E0D}UI/Textures/GroupManagement/FlagIcons/GroupFlagsIndfor.imageset"
-  m_sImageSetGlow ""
-  m_sQuadName "infantry"
-  m_sDescription "Cedr-12"
   m_bUseWorldScale 0
   m_aVisibleForFactions {
    "RHS_AFRF" "RHS_USAF" "Ses_CDF" "Ses_ChDKZ" "Ses_NAPA" "USSR"
@@ -422,44 +233,8 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_iZOrder 0
  }
  {
-  coords 4681.01 339.125 9585.692
-  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
-  m_sImageSetGlow ""
-  m_MarkerColor 0.392 0.157 0.624 1
-  m_sQuadName "Car"
-  m_fWorldSize 2.265
-  m_sDescription "#AR-Vehicle_UAZ452_Cargo_Name"
-  m_bUseWorldScale 1
-  m_aVisibleForFactions {
-   "RHS_AFRF" "RHS_USAF" "Ses_CDF" "Ses_ChDKZ" "Ses_TKR" "Ses_TKA"
-  }
-  m_bVisibleForEmptyFaction 1
-  m_aHideOnGameModeStates {
-   1
-  }
-  m_iZOrder 0
- }
- {
   coords 4604.896 339.125 9604.684
   angleY 180.162
-  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
-  m_sImageSetGlow ""
-  m_MarkerColor 0.392 0.157 0.624 1
-  m_sQuadName "Car"
-  m_fWorldSize 2.265
-  m_sDescription "#AR-Vehicle_UAZ452_Transport_Name"
-  m_bUseWorldScale 1
-  m_aVisibleForFactions {
-   "RHS_AFRF" "RHS_USAF" "Ses_CDF" "Ses_ChDKZ" "Ses_TKR" "Ses_TKA"
-  }
-  m_bVisibleForEmptyFaction 1
-  m_aHideOnGameModeStates {
-   1
-  }
-  m_iZOrder 0
- }
- {
-  coords 4683.996 339.125 9585.743
   m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 0.392 0.157 0.624 1
@@ -696,5 +471,304 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
    1
   }
   m_iZOrder 0
+ }
+ {
+  coords 4680.493 338.95 9589.351
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.855 0.031 0.028 1
+  m_sQuadName "Truck"
+  m_fWorldSize 3.722
+  m_sDescription "Ural ZU23"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "RHS_AFRF" "RHS_USAF" "Ses_CDF" "Ses_ChDKZ" "Ses_TKR" "Ses_TKA"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+   1
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 4680.493 338.95 9589.351
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.855 0.031 0.028 1
+  m_sQuadName "Truck"
+  m_fWorldSize 3.722
+  m_sDescription "Ural ZU23"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "RHS_AFRF" "RHS_USAF" "Ses_CDF" "Ses_ChDKZ" "Ses_TKR" "Ses_TKA"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+   1
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 4674.713 339.125 9579.843
+  angleY 178.631
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.855 0.031 0.028 1
+  m_sQuadName "Truck"
+  m_fWorldSize 3.722
+  m_sDescription "#AR-Vehicle_Ural4320_Ammo_Name"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "RHS_AFRF" "RHS_USAF" "Ses_CDF" "Ses_ChDKZ" "Ses_TKR" "Ses_TKA"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+   1
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 4680.493 338.95 9589.351
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.855 0.031 0.028 1
+  m_sQuadName "Truck"
+  m_fWorldSize 3.722
+  m_sDescription "Ural ZU23"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "RHS_AFRF" "RHS_USAF" "Ses_CDF" "Ses_ChDKZ" "Ses_TKR" "Ses_TKA"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+   1
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 4680.493 339.193 9589.351
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.855 0.031 0.028 1
+  m_sQuadName "Truck"
+  m_fWorldSize 3.722
+  m_sDescription "Ural ZU23"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "RHS_AFRF" "RHS_USAF" "Ses_CDF" "Ses_ChDKZ" "Ses_TKR" "Ses_TKA"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+   1
+  }
+  m_iZOrder 0
+ }
+ Ses_NAPA_G_001_M {
+  coords 4677.574 344.053 9586.417
+  m_sImageSet "{301FC1A2A46D3E0D}UI/Textures/GroupManagement/FlagIcons/GroupFlagsIndfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "infantry"
+  m_sDescription "(Экипаж УРАЛ4320 ГАУБИЦЦА) Racek-12"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "" "RHS_USAF" "Ses_CDF" "Ses_NAPA" "USSR" "Ses_TKA"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 10
+ }
+ Ses_NAPA_G_000_M {
+  coords 4677.589 344.053 9596.992
+  m_sImageSet "{301FC1A2A46D3E0D}UI/Textures/GroupManagement/FlagIcons/GroupFlagsIndfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "infantry"
+  m_sDescription "(Отделение Командира Стороны) Racek-11"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "" "RHS_USAF" "Ses_CDF" "Ses_NAPA" "USSR" "Ses_TKA"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 10
+ }
+ Ses_NAPA_G_102_M {
+  coords 4714.008 339.125 9578.524
+  m_sImageSet "{301FC1A2A46D3E0D}UI/Textures/GroupManagement/FlagIcons/GroupFlagsIndfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "infantry"
+  m_sDescription "(Пилоты) Bříza-13"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "" "RHS_USAF" "Ses_CDF" "Ses_NAPA" "USSR" "Ses_TKA"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 10
+ }
+ Ses_NAPA_G_302_M {
+  coords 4628.361 339.125 9684.317
+  m_sImageSet "{301FC1A2A46D3E0D}UI/Textures/GroupManagement/FlagIcons/GroupFlagsIndfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "infantry"
+  m_sDescription "(СПН) Datel-13"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "" "RHS_USAF" "Ses_CDF" "Ses_NAPA" "USSR" "Ses_TKA"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 10
+ }
+ Ses_NAPA_G_101_M {
+  coords 4647.833 339.125 9593.831
+  m_sImageSet "{301FC1A2A46D3E0D}UI/Textures/GroupManagement/FlagIcons/GroupFlagsIndfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "infantry"
+  m_sDescription "(Экипаж БТР 70 НУРС) Bříza-12"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "" "RHS_USAF" "Ses_CDF" "Ses_NAPA" "USSR" "Ses_TKA"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 10
+ }
+ Ses_NAPA_G_100_M {
+  coords 4647.738 339.125 9584.458
+  m_sImageSet "{301FC1A2A46D3E0D}UI/Textures/GroupManagement/FlagIcons/GroupFlagsIndfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "infantry"
+  m_sDescription "(Экипаж БТР 70 НУРС) Bříza-11"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "" "RHS_USAF" "Ses_CDF" "Ses_NAPA" "USSR" "Ses_TKA"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 10
+ }
+ Ses_NAPA_G_300_M {
+  coords 4654.483 339.626 9640.352
+  m_sImageSet "{301FC1A2A46D3E0D}UI/Textures/GroupManagement/FlagIcons/GroupFlagsIndfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "infantry"
+  m_sDescription "Datel-11"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "" "RHS_USAF" "Ses_CDF" "Ses_NAPA" "USSR" "Ses_TKA"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 10
+ }
+ Ses_NAPA_G_200_M {
+  coords 4643.503 339.776 9616.938
+  m_sImageSet "{301FC1A2A46D3E0D}UI/Textures/GroupManagement/FlagIcons/GroupFlagsIndfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "infantry"
+  m_sDescription "Cedr-11"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "" "RHS_USAF" "Ses_CDF" "Ses_NAPA" "USSR" "Ses_TKA"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 10
+ }
+ Ses_NAPA_G_201_M {
+  coords 4592.27 339.125 9577.382
+  m_sImageSet "{301FC1A2A46D3E0D}UI/Textures/GroupManagement/FlagIcons/GroupFlagsIndfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "infantry"
+  m_sDescription "Cedr-12"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "" "RHS_USAF" "Ses_CDF" "Ses_NAPA" "USSR" "Ses_TKA"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 10
+ }
+ Ses_NAPA_G_301_M {
+  coords 4585.717 339.125 9613.803
+  m_sImageSet "{301FC1A2A46D3E0D}UI/Textures/GroupManagement/FlagIcons/GroupFlagsIndfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "infantry"
+  m_sDescription "Datel-12"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "" "RHS_USAF" "Ses_CDF" "Ses_NAPA" "USSR" "Ses_TKA"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 10
+ }
+ Ses_NAPA_G_202_M {
+  coords 4623.564 339.125 9568.638
+  m_sImageSet "{301FC1A2A46D3E0D}UI/Textures/GroupManagement/FlagIcons/GroupFlagsIndfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "infantry"
+  m_sDescription "Cedr-13"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "" "RHS_USAF" "Ses_CDF" "Ses_NAPA" "USSR" "Ses_TKA"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 10
+ }
+ Ses_NAPA_G_203_M {
+  coords 4600.877 339.125 9604.953
+  m_sImageSet "{301FC1A2A46D3E0D}UI/Textures/GroupManagement/FlagIcons/GroupFlagsIndfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "infantry"
+  m_sDescription "Cedr-14"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "" "RHS_USAF" "Ses_CDF" "Ses_NAPA" "USSR" "Ses_TKA"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 10
+ }
+ Ses_NAPA_G_204_M {
+  coords 4667.397 339.125 9612.255
+  m_sImageSet "{301FC1A2A46D3E0D}UI/Textures/GroupManagement/FlagIcons/GroupFlagsIndfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "infantry"
+  m_sDescription "Cedr-15"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "" "RHS_USAF" "Ses_CDF" "Ses_NAPA" "USSR" "Ses_TKA"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 10
  }
 }
