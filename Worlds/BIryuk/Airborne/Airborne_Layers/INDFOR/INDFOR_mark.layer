@@ -1,3 +1,23 @@
+GenericEntity PKM5 : "{3D5594CC62AAFB88}Prefabs/Props/Military/AmmoBoxes/AmmoBox_81mm_mortar_3rnd.et" {
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{62A30D148D0D93B0}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/EquipmentBoxWooden_Equipment_01.xob"
+  }
+  SCR_FilteredInventoryStorageComponent "{5476A2F100DF4EFF}" {
+   MaxCumulativeVolume 21000
+   MultiSlots {
+    MultiSlotConfiguration "{65512CAC81702CA5}" {
+     SlotTemplate InventoryStorageSlot Mina {
+      Prefab "{0110F6D92703114A}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N13_4Ball_1Tracer.et"
+     }
+     NumSlots 10
+    }
+   }
+   m_fMaxWeight 58
+  }
+ }
+ coords 8339.576 322.187 2134.392
+}
 $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
  Ses_TKR_G_000_M {
   coords 8780.55 301.347 5198.335
