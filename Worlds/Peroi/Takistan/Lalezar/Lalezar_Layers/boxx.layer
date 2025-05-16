@@ -1193,4 +1193,72 @@ $grp GenericEntity : "{F1FDD5669F4C26B2}Prefabs/Props/Military/AmmoBoxes/drg_Amm
   angleY -15.595
   angleZ 5.641
  }
+ {
+  components {
+   SCR_FilteredInventoryStorageComponent "{5476A2F100DF4EFF}" {
+    MultiSlots {
+     MultiSlotConfiguration "{64F707D11FA7A94D}" {
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{6502C64ED28D7103}" {
+      SlotTemplate InventoryStorageSlot "{64DCC2F489C88F5C}" {
+       Prefab "{D78C667F59829717}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_4Ball_1Tracer.et"
+      }
+     }
+     MultiSlotConfiguration "{655657FA07551514}" {
+      SlotTemplate InventoryStorageSlot InventoryStorageSlot {
+       Prefab "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{655657FA3F3B1673}" {
+      SlotTemplate InventoryStorageSlot InventoryStorageSlot {
+       Prefab "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{655657FA5E044FEF}" {
+      SlotTemplate InventoryStorageSlot InventoryStorageSlot {
+       Prefab "{892F30500E6E7E04}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Base.et"
+      }
+      NumSlots 12
+     }
+    }
+   }
+  }
+  coords 5951.843 107.413 9856.99
+  angleX 0.457
+  angleY 52.264
+  angleZ -3.584
+ }
+ {
+  components {
+   SCR_FilteredInventoryStorageComponent "{5476A2F100DF4EFF}" {
+    MultiSlots {
+     MultiSlotConfiguration "{64F707D11FA7A94D}" {
+      SlotTemplate InventoryStorageSlot "{64DCC2F489C88F5C}" {
+       Prefab "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et"
+      }
+      NumSlots 6
+     }
+     MultiSlotConfiguration "{6502C64ED28D7103}" {
+      SlotTemplate InventoryStorageSlot "{64DCC2F489C88F5C}" {
+       Prefab "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et"
+      }
+      NumSlots 6
+     }
+     MultiSlotConfiguration "{655657FB8B94DCE8}" {
+      SlotTemplate InventoryStorageSlot InventoryStorageSlot {
+       Prefab "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
+      }
+      NumSlots 8
+     }
+    }
+   }
+  }
+  coords 5951.129 107.339 9857.936
+  angleX 0.461
+  angleY 52.322
+  angleZ -3.583
+ }
 }

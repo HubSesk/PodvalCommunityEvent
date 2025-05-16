@@ -142,6 +142,25 @@ $grp SCR_AIGroup : "{4170F3A7E4137FDA}Prefabs/Groups/INDFOR/TKR/Group_Ses_TKR_Re
    "{AE23B163BB89E949}Prefabs/Characters/Factions/INDFOR/TKR/Character_Ses_TKR_SL_2.et" "{78F94996C070A8F9}Prefabs/Characters/Factions/INDFOR/TKR/Random/Character_Ses_TKR_RTO_Random.et" "{435033F647E6ECF9}Prefabs/Characters/Factions/INDFOR/TKR/Random/Character_Ses_TKR_Sapper_Random.et"
   }
  }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{6554CC512C117EEF}" {
+    m_iCompanyCallsign 3
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 2
+   }
+  }
+  coords 5953.836 107.397 9859.343
+  angleX -0.436
+  angleY -128.071
+  angleZ 3.586
+  m_aUnitPrefabSlots {
+   "{AE23B163BB89E949}Prefabs/Characters/Factions/INDFOR/TKR/Character_Ses_TKR_SL_2.et" "{78F94996C070A8F9}Prefabs/Characters/Factions/INDFOR/TKR/Random/Character_Ses_TKR_RTO_Random.et" "{435033F647E6ECF9}Prefabs/Characters/Factions/INDFOR/TKR/Random/Character_Ses_TKR_Sapper_Random.et"
+  }
+ }
 }
 $grp Vehicle : "{5F112AA90CCA5367}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_Ses_TKR.et" {
  BRDM2_Ses_TKR1 {
@@ -320,7 +339,7 @@ SCR_AIGroup : "{F84C950E55A7BD7E}Prefabs/Groups/OPFOR/Ses_TKA/Group_Ses_TKA_Rifl
  angleY -118.501
  angleZ -0.114
  m_aUnitPrefabSlots {
-  "{7A311185329FF27C}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_SL_Random.et" "{E43DF362DA97C9B8}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_Rifleman_AK74_Random.et" "{E43DF362DA97C9B8}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_Rifleman_AK74_Random.et" "{3A44182939C9EA94}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_Sharpshooter_Random.et"
+  "{7A311185329FF27C}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_SL_Random.et" "{E43DF362DA97C9B8}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_Rifleman_AK74_Random.et" "{E43DF362DA97C9B8}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_Rifleman_AK74_Random.et"
  }
  m_sCustomNameSet "Минометное отделение"
 }

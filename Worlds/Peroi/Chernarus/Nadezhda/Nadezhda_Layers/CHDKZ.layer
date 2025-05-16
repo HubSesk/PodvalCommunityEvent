@@ -72,7 +72,7 @@ $grp SCR_AIGroup : "{1A0A44D1B4D1210C}Prefabs/Groups/OPFOR/Ses_ChDKZ/Group_ChDKZ
    "{CA03E57C136F0300}Prefabs/Characters/Factions/OPFOR/ChDKZ/Character_ChDKZ_SL_2.et" "{38F8F07CF28C4CFF}Prefabs/Characters/Factions/OPFOR/ChDKZ/Random/Character_ChDKZ_SR_Random.et" "{CD34528D50BB7517}Prefabs/Characters/Factions/OPFOR/ChDKZ/Random/Character_ChDKZ_AR_Random.et" "{37E99A7C0BFDA8BD}Prefabs/Characters/Factions/OPFOR/ChDKZ/Random/Character_ChDKZ_GL_Random.et" "{090F131703E796BF}Prefabs/Characters/Factions/OPFOR/ChDKZ/Character_ChDKZ_Sharpshooter_2.et"
   }
  }
- {
+ hh {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "Line"
@@ -101,6 +101,7 @@ Vehicle UAZ469_PKM_Ses_ChDKZ1 : "{499E2EBD08B7FE17}Prefabs/Vehicles/Wheeled/UAZ4
  angleX -0.024
  angleY -135.36
  angleZ -3.793
+ m_sAttachmentGroupName "hh"
 }
 $grp Vehicle : "{66A75AF67285BE70}Prefabs/Vehicles/Wheeled/Ural4320/Ses_ChDKZ/Ural4320_Ses_ChDKZ_transport_covered.et" {
  Ural4320_Ses_ChDKZ_transport_covered1 {
@@ -1339,4 +1340,5 @@ Vehicle UAZ469_Ses_ChDKZ1 : "{EF3C004C1F1E24C6}Prefabs/Vehicles/Wheeled/UAZ469/U
  angleX -1.178
  angleY -133.684
  angleZ -3.82
+ m_sAttachmentGroupName "hh"
 }
