@@ -1,0 +1,774 @@
+PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ coords 6111.417 163.218 6373.427
+ m_sTitle "Исполнение"
+ m_sTextData "Только что на штаб бригады поступила информация,"\
+ "что противник попытается уничтожить наш узел связи."\
+ "Больше никакой информации нет."\
+ "Наша рота должна удержать позиции узла связи"\
+ "(отмечен красным маркером) до прибытия наших подкреплений."\
+ "______________________________________________"\
+ "Задача:"\
+ "1) Сохранить в рабочем состоянии хотя бы одну из трех машин Урал КШМ. "\
+ "Их можно прятать только внутри красной зоны,"\
+ "если КШМ находится вне маркера,"\
+ "ее нужно сразу же передвинуть внутрь красного маркера."\
+ "______________________________________________"\
+ "Доп.информация:"\
+ "1)Машины КШМ сейчас закреплены за отделениями"\
+ "   [1]1-1 [2]1-5 [3]1-8"\
+ "2)Инженерные Уралы, через которые можно возвести укрепления"\
+ "(на фризтайме)"\
+ "   [1]1-1 [2]1-2 [3]1-3 "\
+ "Уралы (КШМ и Инженерные) могут кататься на фризтайме"\
+ ""
+ m_aVisibleForFactions {
+  "USSR"
+ }
+ m_iOrder 1
+}
+$grp SCR_AIGroup : "{D0372E0E86076022}Prefabs/Groups/OPFOR/Spetsnaz/Group_USSR_Spetsnaz_Squad_P.et" {
+ Def_7 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation ""
+   }
+   PS_GroupCallsignAssigner "{647529866BDD7178}" {
+    m_iSquadCallsign 7
+   }
+  }
+  coords 6086.364 162.607 6403.593
+  {
+   Vehicle UAZ469_PKM1 : "{0B4DEA8078B78A9B}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_PKM.et" {
+    coords 3.521 0.674 2.787
+    angleY 87
+   }
+   GenericEntity : "{BB356AB94F4429CB}Prefabs/abudabi/NormalBoxes/abu_dup_Teleportable_NormalBox_USSR.et" {
+    coords -1.431 -0.174 0.056
+   }
+   $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+    USSR_G_188_M {
+     coords 0 0 0
+     angleY 90
+     m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+     m_sImageSetGlow ""
+     m_MarkerColor 1 1 1 1
+     m_sQuadName "undefined"
+     m_fWorldSize 50
+     m_sDescription "1-8"
+     m_bUseWorldScale 0
+     m_aVisibleForFactions {
+      "USSR"
+     }
+     m_aHideOnGameModeStates {
+      1
+     }
+     m_iZOrder 10
+    }
+    {
+     coords -2.581 -0.049 2.685
+     angleY 176
+     m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+     m_sImageSetGlow ""
+     m_MarkerColor 0.855 0.031 0.028 1
+     m_sQuadName "Car"
+     m_fWorldSize 2.043
+     m_sDescription "#AR-Vehicle_UAZ469_Name"
+     m_bUseWorldScale 1
+     m_aVisibleForFactions {
+      "USSR"
+     }
+     m_aHideOnGameModeStates {
+      1
+     }
+     m_iZOrder 10
+    }
+    {
+     coords 3.521 0.674 2.787
+     angleY 177
+     m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+     m_sImageSetGlow ""
+     m_MarkerColor 0.855 0.031 0.028 1
+     m_sQuadName "Car"
+     m_fWorldSize 2.043
+     m_sDescription "#AR-Vehicle_UAZ469_PKM_Name"
+     m_bUseWorldScale 1
+     m_aVisibleForFactions {
+      "USSR"
+     }
+     m_aHideOnGameModeStates {
+      1
+     }
+     m_iZOrder 10
+    }
+   }
+   Vehicle UAZ2 : "{259EE7B78C51B624}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469.et" {
+    components {
+     SCR_UniversalInventoryStorageComponent "{5AD4F813E67ECB5D}" {
+      MultiSlots {
+       MultiSlotConfiguration "{6504C6EEE9EB35BA}" {
+        SlotTemplate InventoryStorageSlot InventoryStorageSlot {
+         Prefab "{3B96FAC169E27037}Prefabs/Weapons/Attachments/Muzzle/Suppressor_PBS4/Suppressor_PBS4.et"
+        }
+        NumSlots 6
+       }
+      }
+     }
+    }
+    coords -2.581 -0.049 2.685
+    angleY 86
+   }
+  }
+ }
+ Def_8 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation ""
+   }
+   PS_GroupCallsignAssigner "{647529866EA9FC59}" {
+    m_iSquadCallsign 8
+   }
+  }
+  coords 6077.452 161.026 6395.342
+  {
+   Vehicle UAZ469_PKM2 : "{0B4DEA8078B78A9B}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_PKM.et" {
+    coords 2.776 0.428 2.281
+    angleY 85
+   }
+   Vehicle Target_2 : "{1BABF6B33DA0AEB6}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_command.et" {
+    coords 2.521 0.201 -3.087
+    angleY 84.94
+    m_bEnableMoveOnFreeze 1
+   }
+   GenericEntity : "{BB356AB94F4429CB}Prefabs/abudabi/NormalBoxes/abu_dup_Teleportable_NormalBox_USSR.et" {
+    coords -1.553 -0.186 -0.066
+   }
+   $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+    USSR_G_199_M {
+     coords 0.001 0 0
+     angleY 90
+     m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+     m_sImageSetGlow ""
+     m_MarkerColor 1 1 1 1
+     m_sQuadName "undefined"
+     m_fWorldSize 50
+     m_sDescription "1-9"
+     m_bUseWorldScale 0
+     m_aVisibleForFactions {
+      "USSR"
+     }
+     m_aHideOnGameModeStates {
+      1
+     }
+     m_iZOrder 11
+    }
+    {
+     coords 2.521 0.201 -3.087
+     angleY 174.94
+     m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+     m_sImageSetGlow ""
+     m_MarkerColor 0.855 0.031 0.028 1
+     m_sQuadName "Truck"
+     m_fWorldSize 3.722
+     m_sDescription "#AR-Vehicle_Ural4320_Comms_Name"
+     m_bUseWorldScale 1
+     m_aVisibleForFactions {
+      "USSR"
+     }
+     m_aHideOnGameModeStates {
+      1
+     }
+     m_iZOrder 10
+    }
+    {
+     coords -3.736 -0.41 2.069
+     angleY 172
+     m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+     m_sImageSetGlow ""
+     m_MarkerColor 0.855 0.031 0.028 1
+     m_sQuadName "Car"
+     m_fWorldSize 2.043
+     m_sDescription "#AR-Vehicle_UAZ469_Name"
+     m_bUseWorldScale 1
+     m_aVisibleForFactions {
+      "USSR"
+     }
+     m_aHideOnGameModeStates {
+      1
+     }
+     m_iZOrder 10
+    }
+    {
+     coords 2.777 0.429 2.281
+     angleY 175
+     m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+     m_sImageSetGlow ""
+     m_MarkerColor 0.855 0.031 0.028 1
+     m_sQuadName "Car"
+     m_fWorldSize 2.043
+     m_sDescription "#AR-Vehicle_UAZ469_PKM_Name"
+     m_bUseWorldScale 1
+     m_aVisibleForFactions {
+      "USSR"
+     }
+     m_aHideOnGameModeStates {
+      1
+     }
+     m_iZOrder 10
+    }
+   }
+   Vehicle UAZ3 : "{259EE7B78C51B624}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469.et" {
+    components {
+     SCR_UniversalInventoryStorageComponent "{5AD4F813E67ECB5D}" {
+      MultiSlots {
+       MultiSlotConfiguration "{6504C6EEF423C5A2}" {
+        SlotTemplate InventoryStorageSlot InventoryStorageSlot {
+         Prefab "{3B96FAC169E27037}Prefabs/Weapons/Attachments/Muzzle/Suppressor_PBS4/Suppressor_PBS4.et"
+        }
+        NumSlots 6
+       }
+      }
+     }
+    }
+    coords -3.736 -0.41 2.069
+    angleY 82
+   }
+  }
+ }
+}
+SCR_AIGroup Def_0 : "{D1B420D921CC6CD4}Prefabs/Groups/OPFOR/Group_USSR_PlatoonHQ_P.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation ""
+  }
+  PS_GroupCallsignAssigner "{6475298C0469D2E1}" {
+  }
+ }
+ coords 6153.826 164.752 6389.07
+ m_aUnitPrefabSlots {
+  "{B5AEDC813E4F4A58}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Officer_P.et" "{730A987119F129A8}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Sergeant_P.et" "{F72805D5D2D05F63}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_RTO_P.et" "{DD80FA65DDFF68B9}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Medic_P.et" "{A8A47F001DA13B73}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Sharpshooter_P.et" "{951CA4F244097071}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_MG_P.et" "{951CA4F244097071}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_MG_P.et"
+ }
+ m_aStaticVehicles {
+  "eng1"
+ }
+ {
+  Vehicle Target_0 : "{1BABF6B33DA0AEB6}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_command.et" {
+   coords 5.543 0.132 3.121
+   angleY 87
+   m_bEnableMoveOnFreeze 1
+  }
+  Vehicle eng1 : "{6E9142CD2471741C}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_engineer.et" {
+   components {
+    SlotManagerComponent "{55BCE45E438E4CFF}" {
+     Slots {
+      RegisteringComponentSlotInfo EngineerBox {
+      }
+     }
+    }
+   }
+   coords -3.61 0.081 2.606
+   angleY 83.991
+   m_sAttachmentGroupName "Def_0"
+   m_bEnableMoveOnFreeze 1
+  }
+  GenericEntity : "{BB356AB94F4429CB}Prefabs/abudabi/NormalBoxes/abu_dup_Teleportable_NormalBox_USSR.et" {
+   coords -1.633 0.082 -0.161
+  }
+  $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+   Area {
+    coords 0.028 -0.013 -0.421
+    angleY 0
+    scale 0
+    m_sImageSetGlow "{E23427CAC80DA8B7}UI/Textures/Icons/icons_mapMarkersUI.imageset"
+    m_MarkerColor 1 0 0 1
+    m_fWorldSize 750
+    m_sDescription "Зона для КШМ"
+    m_aVisibleForFactions {
+     "USSR" "US"
+    }
+    m_bVisibleForEmptyFaction 1
+    m_iZOrder 99999
+    m_bShowForAnyFaction 1
+   }
+   USSR_G_111_M {
+    coords 0.001 0 0
+    angleY 90
+    m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+    m_sImageSetGlow ""
+    m_MarkerColor 1 1 1 1
+    m_sQuadName "undefined"
+    m_fWorldSize 50
+    m_sDescription "1-1"
+    m_bUseWorldScale 0
+    m_aVisibleForFactions {
+     "USSR"
+    }
+    m_aHideOnGameModeStates {
+     1
+    }
+    m_iZOrder 10
+   }
+   {
+    coords 5.543 0.132 3.121
+    angleY 177
+    m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+    m_sImageSetGlow ""
+    m_MarkerColor 0.855 0.031 0.028 1
+    m_sQuadName "Truck"
+    m_fWorldSize 3.722
+    m_sDescription "#AR-Vehicle_Ural4320_Comms_Name"
+    m_bUseWorldScale 1
+    m_aVisibleForFactions {
+     "USSR"
+    }
+    m_aHideOnGameModeStates {
+     1
+    }
+    m_iZOrder 10
+   }
+   {
+    coords -3.61 0.081 2.606
+    angleY 173.991
+    m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+    m_sImageSetGlow ""
+    m_MarkerColor 0.855 0.031 0.028 1
+    m_sQuadName "Truck"
+    m_fWorldSize 3.722
+    m_sDescription "#AR-Vehicle_Ural4320_Engineer_Name"
+    m_bUseWorldScale 1
+    m_aVisibleForFactions {
+     "USSR"
+    }
+    m_aHideOnGameModeStates {
+     1
+    }
+    m_iZOrder 10
+   }
+  }
+ }
+}
+$grp SCR_AIGroup : "{E3545CFEDD312D54}Prefabs/Groups/OPFOR/Group_USSR_RifleSquad_P.et" {
+ Def_1 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation ""
+   }
+   PS_GroupCallsignAssigner "{6475298CEB0AE871}" {
+    m_iSquadCallsign 1
+   }
+  }
+  coords 6138.481 164.552 6388.427
+  m_aStaticVehicles {
+   "eng2"
+  }
+  {
+   Vehicle eng2 : "{6E9142CD2471741C}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_engineer.et" {
+    components {
+     SlotManagerComponent "{55BCE45E438E4CFF}" {
+      Slots {
+       RegisteringComponentSlotInfo EngineerBox {
+       }
+      }
+     }
+    }
+    coords 0.4 -0.113 -2.69
+    angleX 0.946
+    angleY 89.652
+    angleZ 2.445
+    m_sAttachmentGroupName "Def_1"
+    m_bEnableMoveOnFreeze 1
+   }
+   Vehicle Ural4320_transport6 : "{16C1F16C9B053801}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport.et" {
+    coords -0.288 0.094 2.656
+    angleY 88.633
+   }
+   GenericEntity : "{BB356AB94F4429CB}Prefabs/abudabi/NormalBoxes/abu_dup_Teleportable_NormalBox_USSR.et" {
+    coords -1.332 -0.02 0.161
+   }
+   $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+    USSR_G_122_M {
+     coords 0 0 0
+     angleY 90
+     m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+     m_sImageSetGlow ""
+     m_MarkerColor 1 1 1 1
+     m_sQuadName "undefined"
+     m_fWorldSize 50
+     m_sDescription "1-2"
+     m_bUseWorldScale 0
+     m_aVisibleForFactions {
+      "USSR"
+     }
+     m_aHideOnGameModeStates {
+      1
+     }
+     m_iZOrder 10
+    }
+    {
+     coords 0.135 0.12 3.045
+     angleY 179.109
+     m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+     m_sImageSetGlow ""
+     m_MarkerColor 0.855 0.031 0.028 1
+     m_sQuadName "APC"
+     m_fWorldSize 3.691
+     m_sDescription "#AR-Vehicle_BTR70_Name"
+     m_bUseWorldScale 1
+     m_aVisibleForFactions {
+      "USSR"
+     }
+     m_aHideOnGameModeStates {
+      1
+     }
+     m_iZOrder 10
+    }
+   }
+  }
+ }
+ Def_2 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation ""
+   }
+   PS_GroupCallsignAssigner "{6475298782ECCADF}" {
+    m_iSquadCallsign 2
+   }
+  }
+  coords 6137.032 164.948 6398.542
+  m_aStaticVehicles {
+   "eng3"
+  }
+  {
+   Vehicle eng3 : "{6E9142CD2471741C}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_engineer.et" {
+    components {
+     SlotManagerComponent "{55BCE45E438E4CFF}" {
+      Slots {
+       RegisteringComponentSlotInfo EngineerBox {
+       }
+      }
+     }
+    }
+    coords 0.083 -0.109 -2.347
+    angleX 0.946
+    angleY 89.652
+    angleZ 2.445
+    m_sAttachmentGroupName "Def_2"
+    m_bEnableMoveOnFreeze 1
+   }
+   Vehicle Ural4320_transport1 : "{16C1F16C9B053801}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport.et" {
+    coords -0.373 0.087 2.586
+    angleY 88
+   }
+   GenericEntity : "{BB356AB94F4429CB}Prefabs/abudabi/NormalBoxes/abu_dup_Teleportable_NormalBox_USSR.et" {
+    coords -2.142 -0.029 0.104
+   }
+   $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+    USSR_G_133_M {
+     coords 0.001 0 0
+     angleY 90
+     m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+     m_sImageSetGlow ""
+     m_MarkerColor 1 1 1 1
+     m_sQuadName "undefined"
+     m_fWorldSize 50
+     m_sDescription "1-3"
+     m_bUseWorldScale 0
+     m_aVisibleForFactions {
+      "USSR"
+     }
+     m_aHideOnGameModeStates {
+      1
+     }
+     m_iZOrder 10
+    }
+    {
+     coords -0.204 0.107 3.022
+     angleY 178
+     m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+     m_sImageSetGlow ""
+     m_MarkerColor 0.855 0.031 0.028 1
+     m_sQuadName "Truck"
+     m_fWorldSize 3.722
+     m_sDescription "#AR-Vehicle_Ural4320_Transport_Name"
+     m_bUseWorldScale 1
+     m_aVisibleForFactions {
+      "USSR"
+     }
+     m_aHideOnGameModeStates {
+      1
+     }
+     m_iZOrder 10
+    }
+   }
+  }
+ }
+ Def_3 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation ""
+   }
+   PS_GroupCallsignAssigner "{6475298781787171}" {
+    m_iSquadCallsign 3
+   }
+  }
+  coords 6120.031 164.852 6405.614
+  {
+   Vehicle Ural4320_transport2 : "{16C1F16C9B053801}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport.et" {
+    components {
+     SlotManagerComponent "{55BCE45E438E4CFF}" {
+      Slots {
+       RegisteringComponentSlotInfo TireHolder {
+        Enabled 0
+       }
+       SCR_WheelSlotInfo Wheel_L03 {
+       }
+       SCR_WheelSlotInfo Wheel_R02 {
+       }
+       RegisteringComponentSlotInfo Cargo {
+       }
+      }
+     }
+    }
+    coords -0.071 0.139 2.884
+    angleY 88
+   }
+   GenericEntity : "{BB356AB94F4429CB}Prefabs/abudabi/NormalBoxes/abu_dup_Teleportable_NormalBox_USSR.et" {
+    coords -1.129 -0.106 -0.966
+   }
+   $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+    USSR_G_144_M {
+     coords 0 0 0
+     angleY 90
+     m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+     m_sImageSetGlow ""
+     m_MarkerColor 1 1 1 1
+     m_sQuadName "undefined"
+     m_fWorldSize 50
+     m_sDescription "1-4"
+     m_bUseWorldScale 0
+     m_aVisibleForFactions {
+      "USSR"
+     }
+     m_aHideOnGameModeStates {
+      1
+     }
+     m_iZOrder 10
+    }
+    {
+     coords -0.071 0.139 2.884
+     angleY 178
+     m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+     m_sImageSetGlow ""
+     m_MarkerColor 0.855 0.031 0.028 1
+     m_sQuadName "Truck"
+     m_fWorldSize 3.722
+     m_sDescription "#AR-Vehicle_Ural4320_Transport_Name"
+     m_bUseWorldScale 1
+     m_aVisibleForFactions {
+      "USSR"
+     }
+     m_aHideOnGameModeStates {
+      1
+     }
+     m_iZOrder 10
+    }
+   }
+  }
+ }
+ Def_4 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation ""
+   }
+   PS_GroupCallsignAssigner "{647529879A6F9C43}" {
+    m_iSquadCallsign 4
+   }
+  }
+  coords 6117.593 163.991 6388.224
+  {
+   Vehicle Target_1 : "{1BABF6B33DA0AEB6}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_command.et" {
+    coords 2.213 -0.06 -2.914
+    angleY 88.002
+    m_bEnableMoveOnFreeze 1
+   }
+   Vehicle Ural4320_transport3 : "{16C1F16C9B053801}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport.et" {
+    coords 2.286 0.202 3.059
+    angleY 89
+   }
+   GenericEntity : "{BB356AB94F4429CB}Prefabs/abudabi/NormalBoxes/abu_dup_Teleportable_NormalBox_USSR.et" {
+    coords -1.612 -0.061 0.294
+   }
+   $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+    USSR_G_155_M {
+     coords 0 0 0
+     angleY 90
+     m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+     m_sImageSetGlow ""
+     m_MarkerColor 1 1 1 1
+     m_sQuadName "undefined"
+     m_fWorldSize 50
+     m_sDescription "1-5"
+     m_bUseWorldScale 0
+     m_aVisibleForFactions {
+      "USSR"
+     }
+     m_aHideOnGameModeStates {
+      1
+     }
+     m_iZOrder 10
+    }
+    {
+     coords 2.213 -0.06 -2.914
+     angleY 178.002
+     m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+     m_sImageSetGlow ""
+     m_MarkerColor 0.855 0.031 0.028 1
+     m_sQuadName "Truck"
+     m_fWorldSize 3.722
+     m_sDescription "#AR-Vehicle_Ural4320_Comms_Name"
+     m_bUseWorldScale 1
+     m_aVisibleForFactions {
+      "USSR"
+     }
+     m_aHideOnGameModeStates {
+      1
+     }
+     m_iZOrder 10
+    }
+    {
+     coords 2.286 0.202 3.059
+     angleY 179
+     m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+     m_sImageSetGlow ""
+     m_MarkerColor 0.855 0.031 0.028 1
+     m_sQuadName "Truck"
+     m_fWorldSize 3.722
+     m_sDescription "#AR-Vehicle_Ural4320_Transport_Name"
+     m_bUseWorldScale 1
+     m_aVisibleForFactions {
+      "USSR"
+     }
+     m_aHideOnGameModeStates {
+      1
+     }
+     m_iZOrder 10
+    }
+   }
+  }
+ }
+ Def_5 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation ""
+   }
+   PS_GroupCallsignAssigner "{64752987935EE51C}" {
+    m_iSquadCallsign 5
+   }
+  }
+  coords 6114.031 164.232 6397.593
+  {
+   Vehicle Ural4320_transport4 : "{16C1F16C9B053801}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport.et" {
+    coords -0.085 0.11 2.418
+    angleY 89
+   }
+   GenericEntity : "{BB356AB94F4429CB}Prefabs/abudabi/NormalBoxes/abu_dup_Teleportable_NormalBox_USSR.et" {
+    coords -1.183 -0.081 -0.553
+   }
+   $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+    USSR_G_166_M {
+     coords 0.001 0 0
+     angleY 90
+     m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+     m_sImageSetGlow ""
+     m_MarkerColor 1 1 1 1
+     m_sQuadName "undefined"
+     m_fWorldSize 50
+     m_sDescription "1-6"
+     m_bUseWorldScale 0
+     m_aVisibleForFactions {
+      "USSR"
+     }
+     m_aHideOnGameModeStates {
+      1
+     }
+     m_iZOrder 10
+    }
+    {
+     coords -0.084 0.11 2.418
+     angleY 179
+     m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+     m_sImageSetGlow ""
+     m_MarkerColor 0.855 0.031 0.028 1
+     m_sQuadName "Truck"
+     m_fWorldSize 3.722
+     m_sDescription "#AR-Vehicle_Ural4320_Transport_Name"
+     m_bUseWorldScale 1
+     m_aVisibleForFactions {
+      "USSR"
+     }
+     m_aHideOnGameModeStates {
+      1
+     }
+     m_iZOrder 10
+    }
+   }
+  }
+ }
+ Def_6 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation ""
+   }
+   PS_GroupCallsignAssigner "{647529879760F865}" {
+    m_iSquadCallsign 6
+   }
+  }
+  coords 6101.705 163.614 6396.827
+  {
+   Vehicle Ural4320_transport5 : "{16C1F16C9B053801}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport.et" {
+    coords 0.306 0.14 2.569
+    angleY 87
+   }
+   GenericEntity : "{BB356AB94F4429CB}Prefabs/abudabi/NormalBoxes/abu_dup_Teleportable_NormalBox_USSR.et" {
+    coords -1.46 -0.097 -0.133
+   }
+   $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+    USSR_G_177_M {
+     coords 0 0 0.001
+     angleY 90
+     m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+     m_sImageSetGlow ""
+     m_MarkerColor 1 1 1 1
+     m_sQuadName "undefined"
+     m_fWorldSize 50
+     m_sDescription "1-7"
+     m_bUseWorldScale 0
+     m_aVisibleForFactions {
+      "USSR"
+     }
+     m_aHideOnGameModeStates {
+      1
+     }
+     m_iZOrder 10
+    }
+    {
+     coords 0.306 0.14 2.57
+     angleY 177
+     m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+     m_sImageSetGlow ""
+     m_MarkerColor 0.855 0.031 0.028 1
+     m_sQuadName "Truck"
+     m_fWorldSize 3.722
+     m_sDescription "#AR-Vehicle_Ural4320_Transport_Name"
+     m_bUseWorldScale 1
+     m_aVisibleForFactions {
+      "USSR"
+     }
+     m_aHideOnGameModeStates {
+      1
+     }
+     m_iZOrder 10
+    }
+   }
+  }
+ }
+}
