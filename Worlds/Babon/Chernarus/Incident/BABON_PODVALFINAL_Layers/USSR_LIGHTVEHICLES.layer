@@ -1,0 +1,119 @@
+$grp Vehicle : "{0B4DEA8078B78A9B}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_PKM.et" {
+ UAZ469_PKM1 {
+  coords 3397.625 195.958 12935.781
+  angleY -150.88
+  m_sAttachmentGroupName "USSR_G_000_M"
+ }
+ UAZ469_PKM2 {
+  coords 3415.079 194.934 12953.582
+  angleX -1.5
+  angleY 25.501
+  m_sAttachmentGroupName "USSR_G_012_8"
+ }
+ UAZ469_PKM3 {
+  coords 3437.298 194.943 12941.666
+  angleY -79.091
+  m_sAttachmentGroupName "USSR_G_020_8"
+ }
+ UAZ469_PKM4 {
+  coords 3469.535 193.183 12974.767
+  angleX -1.33
+  angleY -2.017
+  angleZ 0.693
+  m_sAttachmentGroupName "USSR_G_021_8"
+ }
+ UAZ469_PKM5 {
+  coords 3489.338 192.906 12994.562
+  angleX 0.417
+  angleY -80.636
+  angleZ 1.441
+  m_sAttachmentGroupName "USSR_G_022_8"
+ }
+ UAZ469_PKM7 {
+  coords 3402.198 193.629 13012.45
+  angleY 133.287
+  angleZ -1.649
+  m_sAttachmentGroupName "(СПН) USSR_G_100_8"
+ }
+ UAZ469_PKM8 {
+  coords 3404.598 193.407 13014.998
+  angleY 133.287
+  angleZ -1.649
+  m_sAttachmentGroupName "(СПН) USSR_G_100_8"
+ }
+}
+Vehicle UAZ452_EXPLOSIONS : "{1247D68D2A76907D}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_ambulance_base.et" {
+ components {
+  SCR_UniversalInventoryStorageComponent "{5D7E924E84B181BC}" {
+   MultiSlots {
+    MultiSlotConfiguration "{65346B53A1939716}" {
+     SlotTemplate InventoryStorageSlot Inventorystorageslot {
+      Prefab "{97064F8597F2D7BF}Prefabs/Weapons/Explosives/DemoBlock_TSh400g/DemoBlock_TSh400g.et"
+     }
+     NumSlots 100
+    }
+    MultiSlotConfiguration "{65346B53BEF33BE5}" {
+     SlotTemplate InventoryStorageSlot Inventorystorageslot {
+      Prefab "{90976DC90A223095}Prefabs/Items/Equipment/Detonators/BlastingMachine_KPM_3U1/BlastingMachine_KPM_3U1.et"
+     }
+     NumSlots 50
+    }
+    MultiSlotConfiguration "{65347A33F54E2DFA}" {
+     SlotTemplate InventoryStorageSlot Inventorystorageslot {
+      Prefab "{41A9C55B61F375F0}Prefabs/Items/Equipment/Backpacks/Backpack_Kolobok.et"
+     }
+     NumSlots 10
+    }
+   }
+   m_fMaxWeight 100000
+  }
+ }
+ coords 3406.528 195.835 12932.004
+ angleY -155.115
+}
+$grp Vehicle : "{259EE7B78C51B624}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469.et" {
+ UAZ1 {
+  coords 3418.153 194.969 12951.928
+  angleX -2.803
+  angleY 27.556
+  m_sAttachmentGroupName "USSR_G_012_8"
+ }
+ UAZ2 {
+  coords 3438.164 194.805 12946.079
+  angleY -82.536
+  m_sAttachmentGroupName "USSR_G_020_8"
+ }
+ UAZ3 {
+  coords 3473.026 193.16 12974.719
+  angleX -2.658
+  angleY 0.021
+  angleZ 0.699
+  m_sAttachmentGroupName "USSR_G_021_8"
+ }
+ UAZ4 {
+  coords 3490.073 192.844 12997.976
+  angleX -0.938
+  angleY -78.617
+  angleZ 1.509
+  m_sAttachmentGroupName "USSR_G_022_8"
+ }
+ UAZ6 {
+  coords 3434.954 196.745 12898.688
+  angleX 0.19
+  angleY -46.08
+  angleZ 0.191
+  m_sAttachmentGroupName "(Минометное отделение) USSR_G_001_3"
+ }
+}
+$grp Vehicle : "{5555DCAFADB8CE2A}Prefabs/Vehicles/Wheeled/S105/S105_rally.et" {
+ S105_rally2 {
+  coords 3407.062 193.194 13017.453
+  angleY 135.791
+  angleZ -2.822
+ }
+ S105_rally3 {
+  coords 3409.63 193.136 13019.952
+  angleY 135.791
+  angleZ -2.822
+ }
+}
