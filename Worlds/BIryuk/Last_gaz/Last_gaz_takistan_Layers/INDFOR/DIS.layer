@@ -17,6 +17,24 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   }
   m_bEmptyFactionVisibility 1
  }
+ Sila_USSR {
+  coords 5185.896 171.731 6076.751
+  m_sTitle "Вооружение противника"
+  m_sTextData "СССР:  Ми-8 HE - 1 шт.,  БТР-70 - 3 шт.,  Уаз 452 - 3 шт., Уаз 469 - 1 шт."
+  m_aVisibleForFactions {
+   "Ses_TKR"
+  }
+  m_bEmptyFactionVisibility 1
+ }
+ Sila_NAPA {
+  coords 5185.789 171.735 6076.525
+  m_sTitle "Вооружение противника"
+  m_sTextData "У постанцев:  НСВ - 4 шт., 2б14 - 1 шт., ЗУ-23 - 1 шт., Уаз-469 - 3 шт."
+  m_aVisibleForFactions {
+   "USSR"
+  }
+  m_bEmptyFactionVisibility 1
+ }
 }
 $grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
  {
@@ -27,6 +45,6 @@ $grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
  {
   coords 5187.998 172.129 6175.417
   m_sTitle "Повстанцы удержали захваченный объект"
-  m_sFactionKey "USSR"
+  m_sFactionKey "Ses_TKR"
  }
 }
