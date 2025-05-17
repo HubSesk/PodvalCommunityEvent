@@ -1,19 +1,3 @@
-$grp Vehicle : "{3A87697F1B1415DB}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_PKM_Ses_TKA.et" {
- UAZ469_PKM_Ses_TKA1 {
-  coords 6136.665 106.884 11526.188
-  angleX -3.017
-  angleY 129.586
-  angleZ 0.084
-  m_sAttachmentGroupName "spn"
- }
- UAZ469_PKM_Ses_TKA2 {
-  coords 6117.194 108.253 11541.579
-  angleX -3.017
-  angleY 129.586
-  angleZ 0.084
-  m_sAttachmentGroupName "spn1"
- }
-}
 Vehicle Ural4320_Ses_TKA_command1 : "{5C86AB0357B39D2B}Prefabs/Vehicles/Wheeled/Ural4320/Ses_TKA/Ural4320_Ses_TKA_command.et" {
  coords 6291.737 85.997 11297.118
  angleX -0.081
@@ -60,10 +44,10 @@ $grp SCR_AIGroup : "{AE3600F8B5BE83E0}Prefabs/Groups/OPFOR/Ses_TKA/Group_Ses_TKA
     m_iCompanyCallsign 2
    }
   }
-  coords 6141.968 106.82 11530.395
-  angleX 0.02
-  angleY -138.449
-  angleZ -3.018
+  coords 6924.968 70.963 12285.69
+  angleX 0.391
+  angleY -38.782
+  angleZ -3.591
   m_aUnitPrefabSlots {
    "{54CB5C45A0884FA8}Prefabs/Characters/Factions/OPFOR/TKA/SpecialForces/Character_TKA_TeamLeader.et" "{12F431E2027BF994}Prefabs/Characters/Factions/OPFOR/TKA/SpecialForces/Character_TKA_SpecialRTO.et" "{A38D67186A049F83}Prefabs/Characters/Factions/OPFOR/TKA/SpecialForces/Character_TKA_MG.et" "{C3DAFD25B2D52251}Prefabs/Characters/Factions/OPFOR/TKA/SpecialForces/Character_TKA_SpecialSoldier.et" "{D15C04BB3435495C}Prefabs/Characters/Factions/OPFOR/TKA/SpecialForces/Character_TKA_SpecialSoldier2.et" "{B4E5FAF6A3D20293}Prefabs/Characters/Factions/OPFOR/TKA/SpecialForces/Character_TKA_Medic.et" "{67E8A351C4DF452C}Prefabs/Characters/Factions/OPFOR/TKA/SpecialForces/Character_TKA_SF_Sharpshooter.et"
   }
@@ -78,10 +62,10 @@ $grp SCR_AIGroup : "{AE3600F8B5BE83E0}Prefabs/Groups/OPFOR/Ses_TKA/Group_Ses_TKA
     m_iPlatoonCallsign 1
    }
   }
-  coords 6116.618 107.997 11533.449
-  angleX 0.073
-  angleY 39.801
-  angleZ 3.017
+  coords 6932.627 71.109 12310.75
+  angleX 0.032
+  angleY 136.523
+  angleZ -1.205
   m_aUnitPrefabSlots {
    "{54CB5C45A0884FA8}Prefabs/Characters/Factions/OPFOR/TKA/SpecialForces/Character_TKA_TeamLeader.et" "{12F431E2027BF994}Prefabs/Characters/Factions/OPFOR/TKA/SpecialForces/Character_TKA_SpecialRTO.et" "{A38D67186A049F83}Prefabs/Characters/Factions/OPFOR/TKA/SpecialForces/Character_TKA_MG.et" "{C3DAFD25B2D52251}Prefabs/Characters/Factions/OPFOR/TKA/SpecialForces/Character_TKA_SpecialSoldier.et" "{D15C04BB3435495C}Prefabs/Characters/Factions/OPFOR/TKA/SpecialForces/Character_TKA_SpecialSoldier2.et" "{B4E5FAF6A3D20293}Prefabs/Characters/Factions/OPFOR/TKA/SpecialForces/Character_TKA_Medic.et" "{67E8A351C4DF452C}Prefabs/Characters/Factions/OPFOR/TKA/SpecialForces/Character_TKA_SF_Sharpshooter.et"
   }
@@ -106,18 +90,6 @@ $grp SCR_AIGroup : "{AE3600F8B5BE83E0}Prefabs/Groups/OPFOR/Ses_TKA/Group_Ses_TKA
   }
  }
 }
-$grp Turret : "{E2E3D404C065544F}Prefabs/Vehicles/Static/BaconZU23/BaconZU23_Turret.et" {
- {
-  coords 6346.28 85.975 11267.047
-  angleX -0.631
-  angleY -146.33
-  angleZ -0.079
- }
- {
-  coords 6002.718 109.313 11459.04
-  angleY -142.959
- }
-}
 SCR_AIGroup ggg : "{F21917B6C71E18E0}Prefabs/Groups/OPFOR/Ses_TKA/Group_Ses_TKA_PlatoonHQ.et" {
  components {
   AIFormationComponent "{507E9DC12F541FE6}" {
@@ -136,17 +108,31 @@ $grp Vehicle : "{F3C22A3CC0664AB7}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_Ses_TKA
   m_sAttachmentGroupName "ggg"
  }
  UAZ469_Ses_TKA2 {
-  coords 6142.247 106.493 11521.299
-  angleX -3.016
-  angleY 128.641
-  angleZ 0.134
+  coords 6916.015 70.522 12287.457
+  angleX -4.649
+  angleY -125.879
+  angleZ -0.137
   m_sAttachmentGroupName "spn"
  }
  UAZ469_Ses_TKA3 {
-  coords 6125.501 107.662 11534.927
-  angleX -3.015
-  angleY 128.641
-  angleZ 0.134
+  coords 6933.097 71.196 12301.522
+  angleX 0.595
+  angleY -132.827
+  angleZ 0.224
+  m_sAttachmentGroupName "spn1"
+ }
+ UAZ469_Ses_TKA4 {
+  coords 6922.146 71.109 12292.216
+  angleX -4.428
+  angleY -127.76
+  angleZ -0.158
+  m_sAttachmentGroupName "spn"
+ }
+ UAZ469_Ses_TKA5 {
+  coords 6940.441 71.014 12308.832
+  angleX 0.997
+  angleY -137.109
+  angleZ -0.238
   m_sAttachmentGroupName "spn1"
  }
 }

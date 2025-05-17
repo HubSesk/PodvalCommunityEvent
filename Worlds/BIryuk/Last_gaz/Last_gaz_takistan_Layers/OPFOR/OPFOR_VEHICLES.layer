@@ -1,17 +1,21 @@
 $grp Vehicle : "{1FBB492E86002BF5}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_transport.et" {
  UAZ452_transport1 {
-  coords 9184.989 229.145 6812.132
-  angleY -45
+  coords 6957.228 146.075 8959.013
+  angleX -1.656
+  angleY -60.001
+  angleZ 0.028
   m_sAttachmentGroupName "USSR_SPN_1"
  }
  UAZ452_transport2 {
-  coords 2661.625 223.132 5144.341
-  angleY -45.638
+  coords 2644.434 223.132 5172.703
+  angleY 59.724
   m_sAttachmentGroupName "USSR_SPN_1"
  }
  UAZ452_transport3 {
-  coords 9258.105 452.278 4488.582
-  angleY 53.326
+  coords 2223.344 228.177 4529.073
+  angleX -1.415
+  angleY 42.182
+  angleZ -0.132
   m_sAttachmentGroupName "USSR_SQ_buh"
  }
 }
@@ -25,10 +29,10 @@ Vehicle UAZ1 : "{259EE7B78C51B624}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469.et" {
    }
   }
  }
- coords 9313.22 448.516 4531.406
- angleX -3.236
- angleY 53.822
- angleZ -0.096
+ coords 2269.16 229.416 4581.726
+ angleX 1.205
+ angleY 42.635
+ angleZ -0.05
  m_sAttachmentGroupName "USSR_HQ"
 }
 Vehicle Mi8MT_armed_gunship_HE1 : "{3C6B3ED0C3AC30D5}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_armed_gunship_HE.et" {
@@ -37,24 +41,38 @@ Vehicle Mi8MT_armed_gunship_HE1 : "{3C6B3ED0C3AC30D5}Prefabs/Vehicles/Helicopter
 }
 $grp Vehicle : "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et" {
  BTR1 {
-  coords 9288.469 450.218 4512.404
-  angleX -3.237
-  angleY 51.404
-  angleZ 0.041
-  m_sAttachmentGroupName "SSSR_1_101"
+  coords 2248.539 228.746 4558.304
+  angleY 40.221
+  m_sAttachmentGroupName "USSR_SQ_BTR2"
+  {
+   EnvironmentProbeEntity {
+    ID "6314FA8E09CB49D7"
+    coords -0.002 0.084 1.22
+   }
+  }
  }
  BTR3 {
-  coords 9302.693 449.208 4524.083
-  angleX -3.236
-  angleY 51.404
-  angleZ 0.041
+  coords 2260.242 229.116 4572.512
+  angleX 1.201
+  angleY 40.214
+  angleZ -0.101
   m_sAttachmentGroupName "USSR_SQ_BTR1"
+  {
+   EnvironmentProbeEntity {
+    ID "6314FA8E09CB49D7"
+    coords -0.001 0.204 1.206
+   }
+  }
  }
  BTR2 {
-  coords 9274.726 451.174 4501.642
-  angleX -3.237
-  angleY 51.404
-  angleZ 0.041
+  coords 2237.132 228.453 4545.096
+  angleY 40.221
   m_sAttachmentGroupName "USSR_SQ_BTR3"
+  {
+   EnvironmentProbeEntity {
+    ID "6314FA8E09CB49D7"
+    coords -0.001 0.089 1.214
+   }
+  }
  }
 }

@@ -1,0 +1,107 @@
+Vehicle Ural4320_Ses_TKA_transport1 : "{6C98ACF4A2DA1970}Prefabs/Vehicles/Wheeled/Ural4320/Ses_TKA/Ural4320_Ses_TKA_transport.et" {
+ coords 5862.779 109.313 11437.309
+ angleY -137.854
+ m_sAttachmentGroupName "bb1"
+}
+Vehicle BTR70_Ses_TKA2 : "{6F963B40DE04868A}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Ses_TKA.et" {
+ coords 5835.149 109.313 11408.555
+ angleY -136.064
+ m_sAttachmentGroupName "bb"
+}
+SCR_AIGroup : "{F21917B6C71E18E0}Prefabs/Groups/OPFOR/Ses_TKA/Group_Ses_TKA_PlatoonHQ.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "Line"
+  }
+  PS_GroupCallsignAssigner "{6554CC5845D4DB7A}" {
+  }
+ }
+ coords 4708.103 159.299 9530.081
+ angleX 0.252
+ angleY -116.271
+ angleZ 0.51
+}
+$grp SCR_AIGroup : "{F84C950E55A7BD7E}Prefabs/Groups/OPFOR/Ses_TKA/Group_Ses_TKA_RifleSquad.et" {
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{6554CC5842C86A8F}" {
+    m_iPlatoonCallsign 1
+   }
+  }
+  coords 4690.966 159.06 9496.133
+  angleY -28.974
+  m_aUnitPrefabSlots {
+   "{7A311185329FF27C}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_SL_Random.et" "{3DA88236C1DA39C9}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_SR_Random.et" "{9AEA5A89455DD440}Prefabs/Characters/Factions/OPFOR/TKA/Character_TKA_MG.et" "{1FB27997F1743488}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_AMG_Random.et" "{9C2C6F808E31CC7F}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_AT_Random.et" "{108F61FD1567B2B8}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_AAT_Random.et" "{C86420C763ED0021}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_AR_Random.et" "{C528FAB2DCA5A989}Prefabs/Characters/Factions/OPFOR/TKA/Character_TKA_GL.et" "{3A44182939C9EA94}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_Sharpshooter_Random.et"
+  }
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{6554CC5842C86A8F}" {
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 1
+   }
+  }
+  coords 4665.413 158.786 9481.913
+  angleX -0.024
+  angleY -28.77
+  angleZ -0.635
+  m_aUnitPrefabSlots {
+   "{7A311185329FF27C}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_SL_Random.et" "{3DA88236C1DA39C9}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_SR_Random.et" "{9AEA5A89455DD440}Prefabs/Characters/Factions/OPFOR/TKA/Character_TKA_MG.et" "{1FB27997F1743488}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_AMG_Random.et" "{9C2C6F808E31CC7F}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_AT_Random.et" "{108F61FD1567B2B8}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_AAT_Random.et" "{C86420C763ED0021}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_AR_Random.et" "{C528FAB2DCA5A989}Prefabs/Characters/Factions/OPFOR/TKA/Character_TKA_GL.et" "{3A44182939C9EA94}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_Sharpshooter_Random.et"
+  }
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{6554CC5842C86A8F}" {
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 2
+   }
+  }
+  coords 4640.286 158.768 9468.701
+  angleX -0.382
+  angleY -27.022
+  angleZ -0.124
+  m_aUnitPrefabSlots {
+   "{7A311185329FF27C}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_SL_Random.et" "{3DA88236C1DA39C9}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_SR_Random.et" "{9AEA5A89455DD440}Prefabs/Characters/Factions/OPFOR/TKA/Character_TKA_MG.et" "{1FB27997F1743488}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_AMG_Random.et" "{9C2C6F808E31CC7F}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_AT_Random.et" "{108F61FD1567B2B8}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_AAT_Random.et" "{C86420C763ED0021}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_AR_Random.et" "{C528FAB2DCA5A989}Prefabs/Characters/Factions/OPFOR/TKA/Character_TKA_GL.et" "{3A44182939C9EA94}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_Sharpshooter_Random.et"
+  }
+ }
+ bb1 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{6554CC5842C86A8F}" {
+    m_iCompanyCallsign 1
+   }
+  }
+  coords 5866.318 109.313 11431.424
+  angleY -46.484
+  m_aUnitPrefabSlots {
+   "{7A311185329FF27C}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_SL_Random.et" "{3DA88236C1DA39C9}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_SR_Random.et" "{9AEA5A89455DD440}Prefabs/Characters/Factions/OPFOR/TKA/Character_TKA_MG.et" "{1FB27997F1743488}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_AMG_Random.et" "{9C2C6F808E31CC7F}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_AT_Random.et" "{108F61FD1567B2B8}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_AAT_Random.et" "{3A44182939C9EA94}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_Sharpshooter_Random.et"
+  }
+ }
+ bb {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{6554CC5842C86A8F}" {
+    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 1
+   }
+  }
+  coords 5840.572 109.313 11404.505
+  angleY -45.17
+  m_aUnitPrefabSlots {
+   "{7A311185329FF27C}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_SL_Random.et" "{3DA88236C1DA39C9}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_SR_Random.et" "{9AEA5A89455DD440}Prefabs/Characters/Factions/OPFOR/TKA/Character_TKA_MG.et" "{1FB27997F1743488}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_AMG_Random.et" "{9C2C6F808E31CC7F}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_AT_Random.et" "{108F61FD1567B2B8}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_AAT_Random.et" "{3A44182939C9EA94}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_Sharpshooter_Random.et" "{015EC1B41DCFA4AD}Prefabs/Characters/Factions/OPFOR/TKA/Character_TKA_Crew.et" "{88AB800C7786D8CD}Prefabs/Characters/Factions/OPFOR/TKA/Character_TKA_Crew_2.et"
+  }
+ }
+}

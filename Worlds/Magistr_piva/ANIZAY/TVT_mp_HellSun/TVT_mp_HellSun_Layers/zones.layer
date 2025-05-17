@@ -122,13 +122,37 @@ PolylineShapeEntity : "{7019844BAD5C4DD8}Prefabs/PolyZone/PolyZone_Border.et" {
  }
 }
 $grp SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
- {
+ KAZA_ZONE {
   coords 1072.749 169.25 1188.215
  }
- {
+ ASADISOIL_ZONE {
   coords 1753.204 160.781 1377.984
+  m_fWarnRadius 110
+  m_fZoneRadius 140
+  {
+   GenericEntity {
+    ID "59D673B36B893D84"
+    components {
+     SCR_CustomAreaMeshComponent "{59D673B22B1EBC57}" {
+      m_fRadius 110
+     }
+    }
+   }
+  }
  }
- {
-  coords 3523.254 190.375 1527.106
+ USAF_ZONE {
+  coords 3594.105 190.375 1509.36
+  m_fWarnRadius 100
+  m_fZoneRadius 150
+  {
+   GenericEntity {
+    ID "59D673B36B893D84"
+    components {
+     SCR_CustomAreaMeshComponent "{59D673B22B1EBC57}" {
+      m_fRadius 100
+     }
+    }
+   }
+  }
  }
 }
