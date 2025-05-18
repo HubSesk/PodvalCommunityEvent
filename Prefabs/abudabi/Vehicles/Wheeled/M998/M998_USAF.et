@@ -1,0 +1,24 @@
+Vehicle : "{5674FAEB9AB7BDD0}Prefabs/Vehicles/Wheeled/M998/M998.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    m_Image "{D55EA9E9C44892FC}UI/Textures/EditorPreviews/Vehicles/m998/M998_USAF.edds"
+    m_sFaction "RHS_USAF"
+    m_aAutoLabels {
+     1677929688 122 50
+    }
+   }
+  }
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "RHS_USAF"
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Brushguard {
+     Prefab "{4C242990BA760EFF}Prefabs/Vehicles/Wheeled/M998/VehParts/M998_brushguard.et"
+    }
+   }
+  }
+ }
+}

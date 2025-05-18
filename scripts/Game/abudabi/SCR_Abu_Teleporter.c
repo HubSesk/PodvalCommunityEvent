@@ -110,242 +110,242 @@ class SCR_Abu_Teleporter
 		return (counter);
 	}
 
-//	void DeleteEntitiesInCylinder(vector center, float radius, float height)
-//	{
-//		// Get the world instance
-//		BaseWorld world = GetGame().GetWorld();
-//		if (!world)
-//		{
-//			Print("World not found!");
-//			return;
-//		}
-//
-//		// Calculate the sphere radius to cover the cylindrical area
-//		float sphereRadius = Math.Sqrt(radius * radius + height * height);
-//
-//		// Create collector and perform sphere query
-//		ref EntityCollector collector = new EntityCollector();
-//		bool queryResult = world.QueryEntitiesBySphere(center, sphereRadius, collector.OnEntity, null, EQueryEntitiesFlags.ALL);
-//
-//		// Retrieve and filter entities
-//		array<IEntity> entities = collector.GetEntities();
-//		foreach (IEntity entity : entities)
-//		{
-//			vector entityPos = entity.GetOrigin();
-//			vector delta = entityPos - center;
-//
-//			// Calculate horizontal distance (ignore Y-axis)
-//			float horizontalDistance = Math.Sqrt(delta[0] * delta[0] + delta[2] * delta[2]);
-//
-//			// Check if within horizontal radius and vertical height range
-//			if (horizontalDistance <= radius && delta[1] >= 0 && delta[1] <= height)
-//			{
-//				SCR_EntityHelper.DeleteEntityAndChildren(entity);
-//			}
-//		}
-//	}
+	void DeleteEntitiesInCylinder(vector center, float radius, float height)
+	{
+		// Get the world instance
+		BaseWorld world = GetGame().GetWorld();
+		if (!world)
+		{
+			Print("World not found!");
+			return;
+		}
 
-//	void UnfreezeCars() //On freezetime end
-//	{
-//		PS_GameModeCoop gameMode = PS_GameModeCoop.Cast(GetGame().GetGameMode());
-//		//Print("IsFreezeTimeEnd "+gameMode.IsFreezeTimeEnd());
-//		if (gameMode.IsFreezeTimeEnd())
-//		{
-//			SetVehiclesUnBroke();
-//			// Cancel the repeated call to UnfreezeCars
-//			GetGame().GetCallqueue().Remove(UnfreezeCars);
-//		};
-//	}
-//
-//	bool KSHM_Destroyed = false;
-//
-//	void MCU_Trcuks_Trigger()
-//	{
-//		bool Truck0 = false, Truck1 = false, Truck2 = false;
-//		IEntity Target0 = GetGame().GetWorld().FindEntityByName("Target_0");
-//		IEntity Target1 = GetGame().GetWorld().FindEntityByName("Target_1");
-//		IEntity Target2 = GetGame().GetWorld().FindEntityByName("Target_2");
-//
-//		// Check if all targets exist
-//		if (!Target0 || !Target1 || !Target2)
-//			return;
-//
-//		DamageManagerComponent Target0dmg = DamageManagerComponent.Cast(Target0.FindComponent(DamageManagerComponent));
-//		DamageManagerComponent Target1dmg = DamageManagerComponent.Cast(Target1.FindComponent(DamageManagerComponent));
-//		DamageManagerComponent Target2dmg = DamageManagerComponent.Cast(Target2.FindComponent(DamageManagerComponent));
-//
-//		// Check if all damage components exist
-//		if (!Target0dmg || !Target1dmg || !Target2dmg)
-//			return;
-//
-//		if (KSHM_Destroyed == false && Target0dmg.GetHealth() <= 0 && Target1dmg.GetHealth() <= 0 && Target2dmg.GetHealth() <= 0)
-//		{
-//			// Create the hint
-//			const string hintTitle = "Победа!";
-//			const string hintDescription = "Все КШМ уничтожены, победа США";
-//			const float duration = 10; // Duration in seconds
-//			EHint type = EHint.UNDEFINED; // Hint type
-//			bool isTimerVisible = true; // Show timer bar
-//			EFieldManualEntryId fieldManualEntry = EFieldManualEntryId.NONE; // No field manual link
-//
-//			// Create the hint info
-//			SCR_HintUIInfo hintInfo = SCR_HintUIInfo.CreateInfo(hintDescription, hintTitle, duration, type, fieldManualEntry, isTimerVisible);
-//
-//			// Show the hint
-//			SCR_HintManagerComponent.ShowHint(hintInfo);
-//			KSHM_Destroyed = true;
-//			//GameStateTransitions.RequestScenarioRestart();
-//			//GetGame().RequestClose();
-//		}
-//	}
+		// Calculate the sphere radius to cover the cylindrical area
+		float sphereRadius = Math.Sqrt(radius * radius + height * height);
 
-//	void CountSupremacyInTrigger()
-//	{
-//
-//		//IEntity Trigger0 = GetGame().GetWorld().FindEntityByName("Target_0");
-//	}
-//
-//
-//	int CountPlayersOnServer()
-//	{
-//		PlayerManager playerManager = GetGame().GetPlayerManager();
-//		array<int> players = {};
-//		playerManager.GetPlayers(players);
-//		return players.Count();
-//	}
-//
-//	void changeStartingDistanceOnPlayerCount()
-//	{
-//		int num=CountPlayersOnServer();
-//		if (num>=0 && num <=20){
-//			MIN_DISTANCE_ATTACK_DEFEND = 2000;
-//			MAX_DISTANCE_ATTACK_DEFEND = 3500;
-//			}
-//		if (num>20 && num <=40){
-//			MIN_DISTANCE_ATTACK_DEFEND = 2000;
-//			MAX_DISTANCE_ATTACK_DEFEND = 3500;
-//			}
-//		if (num>40 && num <=60){
-//			MIN_DISTANCE_ATTACK_DEFEND = 2000;
-//			MAX_DISTANCE_ATTACK_DEFEND = 3500;
-//			}
-//		if (num>60 && num <=80){
-//			MIN_DISTANCE_ATTACK_DEFEND = 2000;
-//			MAX_DISTANCE_ATTACK_DEFEND = 3500;
-//			}
-//		if (num>80 && num <=100){
-//			MIN_DISTANCE_ATTACK_DEFEND = 2000;
-//			MAX_DISTANCE_ATTACK_DEFEND = 3500;
-//			}
-//		if (num>100 && num <=130){
-//			MIN_DISTANCE_ATTACK_DEFEND = 2000;
-//			MAX_DISTANCE_ATTACK_DEFEND = 3500;
-//			}
-//
-//	}
-//
-//	void SetVehiclesBrake()
-//	{
-//		array<IEntity> EntitiesALL = {};
-//
-//		// Get the instance of SCR_EditableEntityCore
-//		SCR_EditableEntityCore core = SCR_EditableEntityCore.Cast(SCR_EditableEntityCore.GetInstance(SCR_EditableEntityCore));
-//		if (!core) {
-//			Print("Failed to get SCR_EditableEntityCore instance!", LogLevel.ERROR);
-//			return;
-//		}
-//
-//		// Retrieve all editable entities
-//		set<SCR_EditableEntityComponent> entities = new set<SCR_EditableEntityComponent>;
-//		core.GetAllEntities(entities, false, true);
-//
-//		// Iterate through the entities and add them to the array
-//		foreach (SCR_EditableEntityComponent comp : entities) {
-//			IEntity entity = comp.GetOwner();
-//			if (entity) {
-//				EntitiesALL.Insert(entity);
-//				typename type = entity.Type();
-//				//Print(type.ToString());
-//
-//				// Try to get the VehicleWheeledSimulation component from the entity
-//				VehicleWheeledSimulation veh = VehicleWheeledSimulation.Cast(entity.FindComponent(VehicleWheeledSimulation));
-//				if (veh) {
-//					// Set the gear to 2 (assuming 2 is the first gear)
-//					veh.SetBreak(1, 1);
-//					veh.SetGear(2);
-//					//veh.EngineStop();
-//
-//					//veh.BaseVehicleControllerComponent.SetEngineStartupChance
-//				}
-//			}
-//		}
-//
-//		// Now EntitiesALL contains all the entities retrieved from SCR_EditableEntityCore
-//	}
-//
-//	void SetVehiclesBroke()
-//	{
-//		array<IEntity> EntitiesALL = {};
-//
-//		// Get the instance of SCR_EditableEntityCore
-//		SCR_EditableEntityCore core = SCR_EditableEntityCore.Cast(SCR_EditableEntityCore.GetInstance(SCR_EditableEntityCore));
-//		if (!core) {
-//			Print("Failed to get SCR_EditableEntityCore instance!", LogLevel.ERROR);
-//			return;
-//		}
-//
-//		// Retrieve all editable entities
-//		set<SCR_EditableEntityComponent> entities = new set<SCR_EditableEntityComponent>;
-//		core.GetAllEntities(entities, false, true);
-//
-//		// Iterate through the entities and add them to the array
-//		foreach (SCR_EditableEntityComponent comp : entities) {
-//			IEntity entity = comp.GetOwner();
-//			if (entity) {
-//				EntitiesALL.Insert(entity);
-//				typename type = entity.Type();
-//				// Try to get the BaseVehicleControllerComponent from the entity
-//					BaseVehicleControllerComponent controller = BaseVehicleControllerComponent.Cast(entity.FindComponent(BaseVehicleControllerComponent));
-//					if (controller) {
-//						// Set the engine startup chance to 0
-//						controller.SetEngineStartupChance(0);
-//					}
-//				}
-//			}
-//
-//	}
-//
-//	void SetVehiclesUnBroke()
-//	{
-//		array<IEntity> EntitiesALL = {};
-//
-//		// Get the instance of SCR_EditableEntityCore
-//		SCR_EditableEntityCore core = SCR_EditableEntityCore.Cast(SCR_EditableEntityCore.GetInstance(SCR_EditableEntityCore));
-//		if (!core) {
-//			Print("Failed to get SCR_EditableEntityCore instance!", LogLevel.ERROR);
-//			return;
-//		}
-//
-//		// Retrieve all editable entities
-//		set<SCR_EditableEntityComponent> entities = new set<SCR_EditableEntityComponent>;
-//		core.GetAllEntities(entities, false, true);
-//
-//		// Iterate through the entities and add them to the array
-//		foreach (SCR_EditableEntityComponent comp : entities) {
-//			IEntity entity = comp.GetOwner();
-//			if (entity) {
-//				EntitiesALL.Insert(entity);
-//				typename type = entity.Type();
-//				// Try to get the BaseVehicleControllerComponent from the entity
-//					BaseVehicleControllerComponent controller = BaseVehicleControllerComponent.Cast(entity.FindComponent(BaseVehicleControllerComponent));
-//					if (controller) {
-//						// Set the engine startup chance to 0
-//						controller.SetEngineStartupChance(100);
-//					}
-//				}
-//			}
-//
-//	}
+		// Create collector and perform sphere query
+		ref EntityCollector collector = new EntityCollector();
+		bool queryResult = world.QueryEntitiesBySphere(center, sphereRadius, collector.OnEntity, null, EQueryEntitiesFlags.ALL);
+
+		// Retrieve and filter entities
+		array<IEntity> entities = collector.GetEntities();
+		foreach (IEntity entity : entities)
+		{
+			vector entityPos = entity.GetOrigin();
+			vector delta = entityPos - center;
+
+			// Calculate horizontal distance (ignore Y-axis)
+			float horizontalDistance = Math.Sqrt(delta[0] * delta[0] + delta[2] * delta[2]);
+
+			// Check if within horizontal radius and vertical height range
+			if (horizontalDistance <= radius && delta[1] >= 0 && delta[1] <= height)
+			{
+				SCR_EntityHelper.DeleteEntityAndChildren(entity);
+			}
+		}
+	}
+
+	void UnfreezeCars() //On freezetime end
+	{
+		PS_GameModeCoop gameMode = PS_GameModeCoop.Cast(GetGame().GetGameMode());
+		//Print("IsFreezeTimeEnd "+gameMode.IsFreezeTimeEnd());
+		if (gameMode.IsFreezeTimeEnd())
+		{
+			SetVehiclesUnBroke();
+			// Cancel the repeated call to UnfreezeCars
+			GetGame().GetCallqueue().Remove(UnfreezeCars);
+		};
+	}
+
+	bool KSHM_Destroyed = false;
+
+	void MCU_Trcuks_Trigger()
+	{
+		bool Truck0 = false, Truck1 = false, Truck2 = false;
+		IEntity Target0 = GetGame().GetWorld().FindEntityByName("Target_0");
+		IEntity Target1 = GetGame().GetWorld().FindEntityByName("Target_1");
+		IEntity Target2 = GetGame().GetWorld().FindEntityByName("Target_2");
+
+		// Check if all targets exist
+		if (!Target0 || !Target1 || !Target2)
+			return;
+
+		DamageManagerComponent Target0dmg = DamageManagerComponent.Cast(Target0.FindComponent(DamageManagerComponent));
+		DamageManagerComponent Target1dmg = DamageManagerComponent.Cast(Target1.FindComponent(DamageManagerComponent));
+		DamageManagerComponent Target2dmg = DamageManagerComponent.Cast(Target2.FindComponent(DamageManagerComponent));
+
+		// Check if all damage components exist
+		if (!Target0dmg || !Target1dmg || !Target2dmg)
+			return;
+
+		if (KSHM_Destroyed == false && Target0dmg.GetHealth() <= 0 && Target1dmg.GetHealth() <= 0 && Target2dmg.GetHealth() <= 0)
+		{
+			// Create the hint
+			const string hintTitle = "Победа!";
+			const string hintDescription = "Все КШМ уничтожены, победа США";
+			const float duration = 10; // Duration in seconds
+			EHint type = EHint.UNDEFINED; // Hint type
+			bool isTimerVisible = true; // Show timer bar
+			EFieldManualEntryId fieldManualEntry = EFieldManualEntryId.NONE; // No field manual link
+
+			// Create the hint info
+			SCR_HintUIInfo hintInfo = SCR_HintUIInfo.CreateInfo(hintDescription, hintTitle, duration, type, fieldManualEntry, isTimerVisible);
+
+			// Show the hint
+			SCR_HintManagerComponent.ShowHint(hintInfo);
+			KSHM_Destroyed = true;
+			//GameStateTransitions.RequestScenarioRestart();
+			//GetGame().RequestClose();
+		}
+	}
+
+	void CountSupremacyInTrigger()
+	{
+
+		//IEntity Trigger0 = GetGame().GetWorld().FindEntityByName("Target_0");
+	}
+
+
+	int CountPlayersOnServer()
+	{
+		PlayerManager playerManager = GetGame().GetPlayerManager();
+		array<int> players = {};
+		playerManager.GetPlayers(players);
+		return players.Count();
+	}
+
+	void changeStartingDistanceOnPlayerCount()
+	{
+		int num=CountPlayersOnServer();
+		if (num>=0 && num <=20){
+			MIN_DISTANCE_ATTACK_DEFEND = 2000;
+			MAX_DISTANCE_ATTACK_DEFEND = 3500;
+			}
+		if (num>20 && num <=40){
+			MIN_DISTANCE_ATTACK_DEFEND = 2000;
+			MAX_DISTANCE_ATTACK_DEFEND = 3500;
+			}
+		if (num>40 && num <=60){
+			MIN_DISTANCE_ATTACK_DEFEND = 2000;
+			MAX_DISTANCE_ATTACK_DEFEND = 3500;
+			}
+		if (num>60 && num <=80){
+			MIN_DISTANCE_ATTACK_DEFEND = 2000;
+			MAX_DISTANCE_ATTACK_DEFEND = 3500;
+			}
+		if (num>80 && num <=100){
+			MIN_DISTANCE_ATTACK_DEFEND = 2000;
+			MAX_DISTANCE_ATTACK_DEFEND = 3500;
+			}
+		if (num>100 && num <=130){
+			MIN_DISTANCE_ATTACK_DEFEND = 2000;
+			MAX_DISTANCE_ATTACK_DEFEND = 3500;
+			}
+
+	}
+
+	void SetVehiclesBrake()
+	{
+		array<IEntity> EntitiesALL = {};
+
+		// Get the instance of SCR_EditableEntityCore
+		SCR_EditableEntityCore core = SCR_EditableEntityCore.Cast(SCR_EditableEntityCore.GetInstance(SCR_EditableEntityCore));
+		if (!core) {
+			Print("Failed to get SCR_EditableEntityCore instance!", LogLevel.ERROR);
+			return;
+		}
+
+		// Retrieve all editable entities
+		set<SCR_EditableEntityComponent> entities = new set<SCR_EditableEntityComponent>;
+		core.GetAllEntities(entities, false, true);
+
+		// Iterate through the entities and add them to the array
+		foreach (SCR_EditableEntityComponent comp : entities) {
+			IEntity entity = comp.GetOwner();
+			if (entity) {
+				EntitiesALL.Insert(entity);
+				typename type = entity.Type();
+				//Print(type.ToString());
+
+				// Try to get the VehicleWheeledSimulation component from the entity
+				VehicleWheeledSimulation veh = VehicleWheeledSimulation.Cast(entity.FindComponent(VehicleWheeledSimulation));
+				if (veh) {
+					// Set the gear to 2 (assuming 2 is the first gear)
+					veh.SetBreak(1, 1);
+					veh.SetGear(2);
+					//veh.EngineStop();
+
+					//veh.BaseVehicleControllerComponent.SetEngineStartupChance
+				}
+			}
+		}
+
+		// Now EntitiesALL contains all the entities retrieved from SCR_EditableEntityCore
+	}
+
+	void SetVehiclesBroke()
+	{
+		array<IEntity> EntitiesALL = {};
+
+		// Get the instance of SCR_EditableEntityCore
+		SCR_EditableEntityCore core = SCR_EditableEntityCore.Cast(SCR_EditableEntityCore.GetInstance(SCR_EditableEntityCore));
+		if (!core) {
+			Print("Failed to get SCR_EditableEntityCore instance!", LogLevel.ERROR);
+			return;
+		}
+
+		// Retrieve all editable entities
+		set<SCR_EditableEntityComponent> entities = new set<SCR_EditableEntityComponent>;
+		core.GetAllEntities(entities, false, true);
+
+		// Iterate through the entities and add them to the array
+		foreach (SCR_EditableEntityComponent comp : entities) {
+			IEntity entity = comp.GetOwner();
+			if (entity) {
+				EntitiesALL.Insert(entity);
+				typename type = entity.Type();
+				// Try to get the BaseVehicleControllerComponent from the entity
+					BaseVehicleControllerComponent controller = BaseVehicleControllerComponent.Cast(entity.FindComponent(BaseVehicleControllerComponent));
+					if (controller) {
+						// Set the engine startup chance to 0
+						controller.SetEngineStartupChance(0);
+					}
+				}
+			}
+
+	}
+
+	void SetVehiclesUnBroke()
+	{
+		array<IEntity> EntitiesALL = {};
+
+		// Get the instance of SCR_EditableEntityCore
+		SCR_EditableEntityCore core = SCR_EditableEntityCore.Cast(SCR_EditableEntityCore.GetInstance(SCR_EditableEntityCore));
+		if (!core) {
+			Print("Failed to get SCR_EditableEntityCore instance!", LogLevel.ERROR);
+			return;
+		}
+
+		// Retrieve all editable entities
+		set<SCR_EditableEntityComponent> entities = new set<SCR_EditableEntityComponent>;
+		core.GetAllEntities(entities, false, true);
+
+		// Iterate through the entities and add them to the array
+		foreach (SCR_EditableEntityComponent comp : entities) {
+			IEntity entity = comp.GetOwner();
+			if (entity) {
+				EntitiesALL.Insert(entity);
+				typename type = entity.Type();
+				// Try to get the BaseVehicleControllerComponent from the entity
+					BaseVehicleControllerComponent controller = BaseVehicleControllerComponent.Cast(entity.FindComponent(BaseVehicleControllerComponent));
+					if (controller) {
+						// Set the engine startup chance to 0
+						controller.SetEngineStartupChance(100);
+					}
+				}
+			}
+
+	}
 
 
 	// Get the current local time in seconds
@@ -607,7 +607,6 @@ class SCR_Abu_Teleporter
 			//GameStateTransitions.RequestScenarioRestart();
 			GetGame().RequestClose();
 			return vector.Zero;
-			GetGame().RequestClose();
 		}
 
 	}

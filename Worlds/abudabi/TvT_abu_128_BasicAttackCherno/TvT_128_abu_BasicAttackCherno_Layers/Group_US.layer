@@ -1,0 +1,1067 @@
+PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ coords 6139.073 304.785 6374.348
+ angleX 2.526
+ angleY -0.632
+ angleZ -14.05
+ m_sTitle "Исполнение"
+ m_sTextData "Наше текущее расположение отмечено синим флагом. Противник не знает о нашем местонахождении."\
+ ""\
+ "Мы должны оперативно захватить узел связи"\
+ "(отмечен красным маркером) до прибытия подкрепления противника. "\
+ ""\
+ "Задача:"\
+ "1) Уничтожить все три машины Урал КШМ, находящиеся в пределах красного круга."\
+ ""\
+ "Доп.информация"\
+ "Сообщается что противник хорошо укрепился"\
+ "(берите лопаты)"\
+ "1-10 находится на о.Скалистый"
+ m_aVisibleForFactions {
+  "US"
+ }
+ m_iOrder 1
+}
+SCR_AIGroup Group_6 : "{93ECE153940F4452}Prefabs/abudabi/Groups/BLUFOR/Group_US_MedicalSection_P.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation ""
+  }
+  PS_GroupCallsignAssigner "{64752986713AC724}" {
+   m_iSquadCallsign 6
+  }
+ }
+ coords 4647.535 339.125 9891.926
+ angleY 0.391
+ {
+  GenericEntity : "{13C8A7A821825295}Prefabs/abudabi/NormalBoxes/abu_dup_Teleportable_NormalBox_US.et" {
+   coords -1.85 0 0.121
+   angleY 0.043
+  }
+  Vehicle M997_maxi_ambulance_USAF1 : "{4E3A86638BFF9FC7}Prefabs/abudabi/Vehicles/Wheeled/M998/M997_maxi_ambulance_USAF.et" {
+   coords 0.836 0 2.563
+   angleY 89.213
+  }
+  $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+   US_G_177_M {
+    coords 0 0 0.002
+    angleY 89.651
+    m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+    m_sImageSetGlow ""
+    m_MarkerColor 1 1 1 1
+    m_sQuadName "undefined"
+    m_fWorldSize 50
+    m_sDescription "1-7"
+    m_bUseWorldScale 0
+    m_aVisibleForFactions {
+     "US"
+    }
+    m_aHideOnGameModeStates {
+     6 6 4 3 2 1 0
+    }
+    m_iZOrder 10
+   }
+   {
+    coords 0.836 0 2.563
+    angleY 179.481
+    m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+    m_sImageSetGlow ""
+    m_MarkerColor 0.016 0.552 0.905 1
+    m_sQuadName "Car"
+    m_fWorldSize 2.399
+    m_sDescription "#AR-Vehicle_M997_Name"
+    m_bUseWorldScale 1
+    m_aVisibleForFactions {
+     "US"
+    }
+    m_aHideOnGameModeStates {
+     6 6 4 3 2 1 0
+    }
+    m_iZOrder 0
+   }
+  }
+ }
+}
+$grp SCR_AIGroup : "{ABACC233796108EE}Prefabs/abudabi/Groups/BLUFOR/Group_US_SniperTeam_P.et" {
+ zHuyuGunship {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation ""
+   }
+   PS_GroupCallsignAssigner "{6475298675F4B3C9}" {
+    m_iSquadCallsign 12
+   }
+  }
+  coords 13473.04 5.879 2811.232
+  angleX -1.263
+  angleY -131.477
+  angleZ -0.078
+  m_aUnitPrefabSlots {
+   "{E9601333852C637F}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_HeliPilot_P.et" "{0812D60CBC9DD927}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_HeliCrew_P.et"
+  }
+  m_sCustomNameSet "UH1H Gunship FFAR"
+  {
+   Vehicle UH1H_armed_gunship_HE1 : "{21E9A875C0A3C409}Prefabs/Vehicles/Helicopters/UH1H/UH1H_armed_gunship_HE.et" {
+    coords 4.974 -0.163 2.834
+    angleX 4.675
+    angleY -154.132
+    angleZ -3.153
+   }
+   $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+    {
+     coords -2.91 0.334 -14.027
+     angleX 1.758
+     angleY -59.414
+     angleZ -0.338
+     m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+     m_sImageSetGlow ""
+     m_MarkerColor 0.016 0.552 0.905 1
+     m_sQuadName "Helicopter"
+     m_fWorldSize 6.487
+     m_sDescription "#AR-Vehicle_UH1H_Armed_Name"
+     m_bUseWorldScale 1
+     m_aVisibleForFactions {
+      "US"
+     }
+     m_aHideOnGameModeStates {
+      6 6 4 3 2 1 0
+     }
+     m_iZOrder 0
+    }
+    US_G_11010_M2 {
+     coords -2.697 -0.016 -0.837
+     angleX -0.036
+     angleZ -2.001
+     m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+     m_sImageSetGlow ""
+     m_MarkerColor 1 1 1 1
+     m_sQuadName "undefined"
+     m_fWorldSize 50
+     m_sDescription "1-12"
+     m_bUseWorldScale 0
+     m_aVisibleForFactions {
+      "US"
+     }
+     m_aHideOnGameModeStates {
+      6 6 4 3 2 1 0
+     }
+     m_iZOrder 10
+    }
+   }
+  }
+ }
+ Group_7 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation ""
+   }
+   PS_GroupCallsignAssigner "{647529867700B1E5}" {
+    m_iSquadCallsign 7
+   }
+  }
+  coords 4640.192 339.125 9908.41
+  angleY -6.011
+  {
+   Vehicle M151A2_transport3 : "{0406BEC84D81A89E}Prefabs/abudabi/Vehicles/Wheeled/M151A2/M151A2_transport.et" {
+    coords 0.776 0 2.246
+    angleY 94.685
+   }
+   GenericEntity : "{13C8A7A821825295}Prefabs/abudabi/NormalBoxes/abu_dup_Teleportable_NormalBox_US.et" {
+    coords -1.554 0 -0.068
+    angleY -0.291
+   }
+   $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+    US_G_188_M {
+     coords 0 0 0
+     angleY 96.536
+     m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+     m_sImageSetGlow ""
+     m_MarkerColor 1 1 1 1
+     m_sQuadName "undefined"
+     m_fWorldSize 50
+     m_sDescription "1-8"
+     m_bUseWorldScale 0
+     m_aVisibleForFactions {
+      "US"
+     }
+     m_aHideOnGameModeStates {
+      6 6 4 3 2 1 0
+     }
+     m_iZOrder 10
+    }
+    {
+     coords 0.713 0 1.829
+     angleY 178.051
+     m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+     m_sImageSetGlow ""
+     m_MarkerColor 0.016 0.552 0.905 1
+     m_sQuadName "Car"
+     m_fWorldSize 1.844
+     m_sDescription "#AR-Vehicle_M151A2_Name"
+     m_bUseWorldScale 1
+     m_aVisibleForFactions {
+      "US"
+     }
+     m_aHideOnGameModeStates {
+      6 6 4 3 2 1 0
+     }
+     m_iZOrder 0
+    }
+   }
+  }
+ }
+}
+$grp SCR_AIGroup : "{BC357974A560F679}Prefabs/abudabi/Groups/BLUFOR/Group_US_RifleSquad_p.et" {
+ Group_1 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation ""
+   }
+   PS_GroupCallsignAssigner "{647529866463D6A7}" {
+    m_iSquadCallsign 1
+   }
+  }
+  coords 4706.573 339.125 9780.604
+  angleY -1.365
+  {
+   GenericEntity : "{13C8A7A821825295}Prefabs/abudabi/NormalBoxes/abu_dup_Teleportable_NormalBox_US.et" {
+    coords -1.546 0 0.381
+   }
+   Vehicle M1025_armed_M2HB_su231c_USAF3 : "{3277F8B1FA06A2BD}Prefabs/abudabi/Vehicles/Wheeled/M998/M1025_armed_M2HB_USAF.et" {
+    coords 4.021 0 2.606
+    angleY 90.507
+   }
+   Vehicle M998_USAF1 : "{B4FB836E882E1A06}Prefabs/abudabi/Vehicles/Wheeled/M998/M998_USAF.et" {
+    coords -1.786 0 2.678
+    angleY 88.594
+   }
+   $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+    US_G_122_M {
+     coords 0 0 0
+     angleY 91.365
+     m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+     m_sImageSetGlow ""
+     m_MarkerColor 1 1 1 1
+     m_sQuadName "undefined"
+     m_fWorldSize 50
+     m_sDescription "1-2"
+     m_bUseWorldScale 0
+     m_aVisibleForFactions {
+      "US"
+     }
+     m_aHideOnGameModeStates {
+      6 6 4 3 2 1 0
+     }
+     m_iZOrder 10
+    }
+    {
+     coords 4.021 0 2.606
+     angleY 179.143
+     m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+     m_sImageSetGlow ""
+     m_MarkerColor 0.016 0.552 0.905 1
+     m_sQuadName "Car"
+     m_fWorldSize 2.399
+     m_sDescription "#AR-Vehicle_M1025_M2_Name"
+     m_bUseWorldScale 1
+     m_aVisibleForFactions {
+      "US"
+     }
+     m_aHideOnGameModeStates {
+      6 6 4 3 2 1 0
+     }
+     m_iZOrder 0
+    }
+    {
+     coords -1.786 0 2.678
+     angleY 177.465
+     m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+     m_sImageSetGlow ""
+     m_MarkerColor 0.016 0.552 0.905 1
+     m_sQuadName "Car"
+     m_fWorldSize 2.399
+     m_sDescription "#AR-Vehicle_M998_Open_Name"
+     m_bUseWorldScale 1
+     m_aVisibleForFactions {
+      "US"
+     }
+     m_aHideOnGameModeStates {
+      6 6 4 3 2 1 0
+     }
+     m_iZOrder 0
+    }
+   }
+  }
+ }
+ Group_2 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation ""
+   }
+   PS_GroupCallsignAssigner "{647529867E375EA8}" {
+    m_iSquadCallsign 2
+   }
+  }
+  coords 4682.965 339.125 9826.147
+  angleY -0.904
+  {
+   GenericEntity : "{13C8A7A821825295}Prefabs/abudabi/NormalBoxes/abu_dup_Teleportable_NormalBox_US.et" {
+    coords -1.207 0 -0.051
+    angleY 0.072
+   }
+   Vehicle M1025_armed_M2HB_su231c_USAF5 : "{3277F8B1FA06A2BD}Prefabs/abudabi/Vehicles/Wheeled/M998/M1025_armed_M2HB_USAF.et" {
+    coords 3.503 0 2.416
+    angleY 87.522
+   }
+   Vehicle M1025_USAF2 : "{CC55611936C21F26}Prefabs/abudabi/Vehicles/Wheeled/M998/M1025_USAF.et" {
+    coords -2.111 0 2.425
+    angleY 85.447
+   }
+   $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+    US_G_133_M {
+     coords 0.002 0 0.001
+     angleY 90.904
+     m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+     m_sImageSetGlow ""
+     m_MarkerColor 1 1 1 1
+     m_sQuadName "undefined"
+     m_fWorldSize 50
+     m_sDescription "1-3"
+     m_bUseWorldScale 0
+     m_aVisibleForFactions {
+      "US"
+     }
+     m_aHideOnGameModeStates {
+      6 6 4 3 2 1 0
+     }
+     m_iZOrder 10
+    }
+    {
+     coords 3.503 0 2.416
+     angleY 176.509
+     m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+     m_sImageSetGlow ""
+     m_MarkerColor 0.016 0.552 0.905 1
+     m_sQuadName "Car"
+     m_fWorldSize 2.399
+     m_sDescription "#AR-Vehicle_M1025_M2_Name"
+     m_bUseWorldScale 1
+     m_aVisibleForFactions {
+      "US"
+     }
+     m_aHideOnGameModeStates {
+      6 6 4 3 2 1 0
+     }
+     m_iZOrder 0
+    }
+    {
+     coords -2.111 0 2.425
+     angleY 174.375
+     m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+     m_sImageSetGlow ""
+     m_MarkerColor 0.016 0.552 0.905 1
+     m_sQuadName "Car"
+     m_fWorldSize 2.399
+     m_sDescription "#AR-Vehicle_M1025_Name"
+     m_bUseWorldScale 1
+     m_aVisibleForFactions {
+      "US"
+     }
+     m_aHideOnGameModeStates {
+      6 6 4 3 2 1 0
+     }
+     m_iZOrder 0
+    }
+   }
+  }
+ }
+ Group_3 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation ""
+   }
+   PS_GroupCallsignAssigner "{647529867C1DC76B}" {
+    m_iSquadCallsign 3
+   }
+  }
+  coords 4675.104 339.125 9839.092
+  angleY 0.349
+  {
+   GenericEntity : "{13C8A7A821825295}Prefabs/abudabi/NormalBoxes/abu_dup_Teleportable_NormalBox_US.et" {
+    coords -1.347 0 -0.14
+    angleY 0.043
+   }
+   Vehicle M1025_armed_M2HB_su231c_USAF6 : "{3277F8B1FA06A2BD}Prefabs/abudabi/Vehicles/Wheeled/M998/M1025_armed_M2HB_USAF.et" {
+    coords 3.209 0 2.826
+    angleY 86.393
+   }
+   Vehicle M998_USAF2 : "{B4FB836E882E1A06}Prefabs/abudabi/Vehicles/Wheeled/M998/M998_USAF.et" {
+    coords -2.162 0 2.792
+    angleY 87.155
+   }
+   $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+    US_G_144_M {
+     coords 0 0 0
+     angleY 89.693
+     m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+     m_sImageSetGlow ""
+     m_MarkerColor 1 1 1 1
+     m_sQuadName "undefined"
+     m_fWorldSize 50
+     m_sDescription "1-4"
+     m_bUseWorldScale 0
+     m_aVisibleForFactions {
+      "US"
+     }
+     m_aHideOnGameModeStates {
+      6 6 4 3 2 1 0
+     }
+     m_iZOrder 10
+    }
+    {
+     coords -2.484 0 2.839
+     angleY 176.552
+     m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+     m_sImageSetGlow ""
+     m_MarkerColor 0.016 0.552 0.905 1
+     m_sQuadName "Car"
+     m_fWorldSize 2.399
+     m_sDescription "#AR-Vehicle_M1025_M2_Name"
+     m_bUseWorldScale 1
+     m_aVisibleForFactions {
+      "US"
+     }
+     m_aHideOnGameModeStates {
+      6 6 4 3 2 1 0
+     }
+     m_iZOrder 0
+    }
+    {
+     coords 2.769 0 3.52
+     angleY 174.431
+     m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+     m_sImageSetGlow ""
+     m_MarkerColor 0.016 0.552 0.905 1
+     m_sQuadName "Car"
+     m_fWorldSize 2.399
+     m_sDescription "#AR-Vehicle_M1025_Name"
+     m_bUseWorldScale 1
+     m_aVisibleForFactions {
+      "US"
+     }
+     m_aHideOnGameModeStates {
+      6 6 4 3 2 1 0
+     }
+     m_iZOrder 0
+    }
+   }
+  }
+ }
+ Group_4 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation ""
+   }
+   PS_GroupCallsignAssigner "{6475298672B0E302}" {
+    m_iSquadCallsign 4
+   }
+  }
+  coords 4665.364 339.125 9855.989
+  {
+   GenericEntity : "{13C8A7A821825295}Prefabs/abudabi/NormalBoxes/abu_dup_Teleportable_NormalBox_US.et" {
+    coords -1.35 0 0.087
+    angleY -0.014
+   }
+   $grp Vehicle : "{3277F8B1FA06A2BD}Prefabs/abudabi/Vehicles/Wheeled/M998/M1025_armed_M2HB_USAF.et" {
+    M1025_armed_M2HB_su231c_USAF7 {
+     coords -1.843 0 2.454
+     angleY 86.564
+    }
+    M1025_armed_M2HB_su231c_USAF8 {
+     coords 3.803 0 2.477
+     angleY 87.682
+    }
+   }
+   $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+    US_G_155_M {
+     coords 0 0 0
+     angleY 90
+     m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+     m_sImageSetGlow ""
+     m_MarkerColor 1 1 1 1
+     m_sQuadName "undefined"
+     m_fWorldSize 50
+     m_sDescription "1-5"
+     m_bUseWorldScale 0
+     m_aVisibleForFactions {
+      "US"
+     }
+     m_aHideOnGameModeStates {
+      6 6 4 3 2 1 0
+     }
+     m_iZOrder 10
+    }
+    {
+     coords -2.389 0 2.98
+     angleY 176.564
+     m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+     m_sImageSetGlow ""
+     m_MarkerColor 0.016 0.552 0.905 1
+     m_sQuadName "Car"
+     m_fWorldSize 2.399
+     m_sDescription "#AR-Vehicle_M1025_M2_Name"
+     m_bUseWorldScale 1
+     m_aVisibleForFactions {
+      "US"
+     }
+     m_aHideOnGameModeStates {
+      6 6 4 3 2 1 0
+     }
+     m_iZOrder 0
+    }
+    {
+     coords 3.209 0 3.394
+     angleY 174.458
+     m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+     m_sImageSetGlow ""
+     m_MarkerColor 0.016 0.552 0.905 1
+     m_sQuadName "Car"
+     m_fWorldSize 2.399
+     m_sDescription "#AR-Vehicle_M1025_Name"
+     m_bUseWorldScale 1
+     m_aVisibleForFactions {
+      "US"
+     }
+     m_aHideOnGameModeStates {
+      6 6 4 3 2 1 0
+     }
+     m_iZOrder 0
+    }
+   }
+  }
+ }
+ Group_5 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation ""
+   }
+   PS_GroupCallsignAssigner "{6475298670E1B3F2}" {
+    m_iSquadCallsign 5
+   }
+  }
+  coords 4656.226 339.125 9873.454
+  m_aUnitPrefabSlots {
+   "{DBC177C261C93B9D}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_SL_P.et" "{094747C4F8BE9F9F}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_TL_P.et" "{094747C4F8BE9F9F}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_TL_P.et" "{7E44CF4FB58F8FF7}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_AR_P.et" "{C262DC827577226C}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_LAT_P.et" "{A47EB499090D69B9}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_GL_P.et" "{A47EB499090D69B9}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_GL_P.et"
+  }
+  {
+   GenericEntity : "{13C8A7A821825295}Prefabs/abudabi/NormalBoxes/abu_dup_Teleportable_NormalBox_US.et" {
+    coords -1.338 0 -0.033
+   }
+   $grp Vehicle : "{3277F8B1FA06A2BD}Prefabs/abudabi/Vehicles/Wheeled/M998/M1025_armed_M2HB_USAF.et" {
+    M1025_armed_M2HB_su231c_USAF2 {
+     coords -2.196 0 2.608
+     angleY 88.506
+    }
+    M1025_armed_M2HB_su231c_USAF4 {
+     coords 3.908 0 2.693
+     angleY 89.465
+    }
+   }
+   $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+    US_G_166_M {
+     coords 0 0 0.002
+     angleY 90
+     m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+     m_sImageSetGlow ""
+     m_MarkerColor 1 1 1 1
+     m_sQuadName "undefined"
+     m_fWorldSize 50
+     m_sDescription "1-6"
+     m_bUseWorldScale 0
+     m_aVisibleForFactions {
+      "US"
+     }
+     m_aHideOnGameModeStates {
+      6 6 4 3 2 1 0
+     }
+     m_iZOrder 10
+    }
+    {
+     coords -2.196 0 2.608
+     angleY 178.454
+     m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+     m_sImageSetGlow ""
+     m_MarkerColor 0.016 0.552 0.905 1
+     m_sQuadName "Car"
+     m_fWorldSize 2.399
+     m_sDescription "#AR-Vehicle_M1025_M2_Name"
+     m_bUseWorldScale 1
+     m_aVisibleForFactions {
+      "US"
+     }
+     m_aHideOnGameModeStates {
+      6 6 4 3 2 1 0
+     }
+     m_iZOrder 0
+    }
+    {
+     coords 3.908 0 2.693
+     angleY 179.616
+     m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+     m_sImageSetGlow ""
+     m_MarkerColor 0.016 0.552 0.905 1
+     m_sQuadName "Car"
+     m_fWorldSize 2.399
+     m_sDescription "#AR-Vehicle_M1025_M2_Name"
+     m_bUseWorldScale 1
+     m_aVisibleForFactions {
+      "US"
+     }
+     m_aHideOnGameModeStates {
+      6 6 4 3 2 1 0
+     }
+     m_iZOrder 0
+    }
+   }
+  }
+ }
+}
+$grp SCR_AIGroup : "{C0CBE71EB24755DA}Prefabs/abudabi/Groups/BLUFOR/Group_US_GreenBeret_Squad_P.et" {
+ zAirborneGrp9 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation ""
+   }
+   PS_GroupCallsignAssigner "{647529864A095337}" {
+    m_iSquadCallsign 11
+   }
+  }
+  coords 13469.548 5.92 2834.679
+  angleX -0.885
+  angleY 0.678
+  angleZ -0.906
+  m_aUnitPrefabSlots + {
+   "{E9601333852C637F}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_HeliPilot_P.et" "{0812D60CBC9DD927}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_HeliCrew_P.et"
+  }
+  m_sCustomNameSet "UH1H Gunship M60"
+  {
+   Vehicle M151A2_transport4 : "{0406BEC84D81A89E}Prefabs/abudabi/Vehicles/Wheeled/M151A2/M151A2_transport.et" {
+    coords -21.226 -2.16 -28.565
+    angleX -2.941
+    angleY -39.667
+    angleZ -2.212
+   }
+   GenericEntity : "{13C8A7A821825295}Prefabs/abudabi/NormalBoxes/abu_dup_Teleportable_NormalBox_US.et" {
+    coords 5.756 0.116 -3.941
+    angleX 0.956
+    angleY -0.104
+    angleZ -6.221
+   }
+   Vehicle M151A2_M2HB1 : "{6F01946EE0B0A8B8}Prefabs/abudabi/Vehicles/Wheeled/M151A2/M151A2_M2HB.et" {
+    coords -23.982 -2.217 -21.514
+    angleX 1.12
+    angleY -17.874
+    angleZ 0.59
+   }
+   $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+    US_G_11010_M {
+     coords -1.486 0.008 0.694
+     angleX -0.884
+     angleZ -0.905
+     m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+     m_sImageSetGlow ""
+     m_MarkerColor 1 1 1 1
+     m_sQuadName "undefined"
+     m_fWorldSize 50
+     m_sDescription "1-10"
+     m_bUseWorldScale 0
+     m_aVisibleForFactions {
+      "US"
+     }
+     m_aHideOnGameModeStates {
+      6 6 4 3 2 1 0
+     }
+     m_iZOrder 10
+    }
+    {
+     coords -9.913 -1.348 -9.449
+     angleX -0.237
+     angleY 174.085
+     angleZ 7.161
+     m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+     m_sImageSetGlow ""
+     m_MarkerColor 0.016 0.552 0.905 1
+     m_sQuadName "Car"
+     m_fWorldSize 1.844
+     m_sDescription "#AR-Vehicle_M151A2_M2_Name"
+     m_bUseWorldScale 1
+     m_aVisibleForFactions {
+      "US"
+     }
+     m_aHideOnGameModeStates {
+      6 6 4 3 2 1 0
+     }
+     m_iZOrder 0
+    }
+    {
+     coords -12.564 -1.577 -5.447
+     angleX -0.69
+     angleY 177.154
+     angleZ 5.377
+     m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+     m_sImageSetGlow ""
+     m_MarkerColor 0.016 0.552 0.905 1
+     m_sQuadName "Car"
+     m_fWorldSize 1.844
+     m_sDescription "#AR-Vehicle_M151A2_Name"
+     m_bUseWorldScale 1
+     m_aVisibleForFactions {
+      "US"
+     }
+     m_aHideOnGameModeStates {
+      6 6 4 3 2 1 0
+     }
+     m_iZOrder 0
+    }
+    {
+     coords 3.884 0.846 12.755
+     angleX 11.473
+     angleY 145.488
+     angleZ 9.09
+     m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+     m_sImageSetGlow ""
+     m_MarkerColor 0.016 0.552 0.905 1
+     m_sQuadName "Helicopter"
+     m_fWorldSize 6.487
+     m_sDescription "#AR-Vehicle_UH1H_Armed_Name"
+     m_bUseWorldScale 1
+     m_aVisibleForFactions {
+      "US"
+     }
+     m_aHideOnGameModeStates {
+      6 6 4 3 2 1 0
+     }
+     m_iZOrder 0
+    }
+   }
+   Vehicle UH1H_armed1 : "{DDDD9B51F1234DF4}Prefabs/abudabi/Vehicles/Helicopters/UH1H/UH1H_armed.et" {
+    components {
+     SCR_UniversalInventoryStorageComponent "{5E1E994304F0E0D3}" {
+      InitialStorageSlots {
+       InventoryStorageSlot optik {
+        Prefab "{BD496EE1B40DC510}Prefabs/Weapons/Attachments/Optics/Optic_4x20/Optic_4x20.et"
+       }
+      }
+      MultiSlots {
+       MultiSlotConfiguration "{6504C38E7E916832}" {
+        SlotTemplate InventoryStorageSlot InventroyStorageSlot {
+         Prefab "{E52C9791E1554A5F}Prefabs/Weapons/Attachments/Muzzle/Suppressor_M16/Suppressor_M16.et"
+        }
+        NumSlots 6
+       }
+      }
+     }
+    }
+    coords -2.061 -0.051 4.304
+    angleX 6.12
+    angleY 78.541
+    angleZ -1.163
+   }
+  }
+ }
+ Group_10 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation ""
+   }
+   PS_GroupCallsignAssigner "{647529867BE199A1}" {
+    m_iSquadCallsign 9
+   }
+  }
+  coords 4699.523 339.125 9795.091
+  angleY -2.03
+  {
+   $grp Vehicle : "{0406BEC84D81A89E}Prefabs/abudabi/Vehicles/Wheeled/M151A2/M151A2_transport.et" {
+    M151A2_transport1 {
+     components {
+      SCR_UniversalInventoryStorageComponent "{5916C5825BF621D1}" {
+       MultiSlots {
+        MultiSlotConfiguration "{6504C6EE45D35B91}" {
+         SlotTemplate InventoryStorageSlot InventoryStorageSlot {
+          Prefab "{E52C9791E1554A5F}Prefabs/Weapons/Attachments/Muzzle/Suppressor_M16/Suppressor_M16.et"
+         }
+         NumSlots 6
+        }
+       }
+      }
+     }
+     coords 4.171 0 2.52
+     angleY 87.373
+    }
+    M151A2_transport5 {
+     coords -1.468 0 2.324
+     angleY 87.618
+    }
+   }
+   GenericEntity : "{13C8A7A821825295}Prefabs/abudabi/NormalBoxes/abu_dup_Teleportable_NormalBox_US.et" {
+    coords -2.245 0 -0.193
+   }
+   $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+    US_G_11111_M {
+     coords -0.404 0 -0.299
+     angleY 92.69
+     m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+     m_sImageSetGlow ""
+     m_MarkerColor 1 1 1 1
+     m_sQuadName "undefined"
+     m_fWorldSize 50
+     m_sDescription "1-11"
+     m_bUseWorldScale 0
+     m_aVisibleForFactions {
+      "US"
+     }
+     m_aHideOnGameModeStates {
+      6 6 4 3 2 1 0
+     }
+     m_iZOrder 10
+    }
+    {
+     coords 4.327 0 1.852
+     angleY 175.78
+     m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+     m_sImageSetGlow ""
+     m_MarkerColor 0.016 0.552 0.905 1
+     m_sQuadName "Car"
+     m_fWorldSize 1.844
+     m_sDescription "#AR-Vehicle_M151A2_Name"
+     m_bUseWorldScale 1
+     m_aVisibleForFactions {
+      "US"
+     }
+     m_aHideOnGameModeStates {
+      6 6 4 3 2 1 0
+     }
+     m_iZOrder 0
+    }
+    {
+     coords -0.963 0 1.787
+     angleY 174.835
+     m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+     m_sImageSetGlow ""
+     m_MarkerColor 0.016 0.552 0.905 1
+     m_sQuadName "Car"
+     m_fWorldSize 1.844
+     m_sDescription "#AR-Vehicle_M151A2_Name"
+     m_bUseWorldScale 1
+     m_aVisibleForFactions {
+      "US"
+     }
+     m_aHideOnGameModeStates {
+      6 6 4 3 2 1 0
+     }
+     m_iZOrder 0
+    }
+   }
+  }
+ }
+ Group_11 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation ""
+   }
+   PS_GroupCallsignAssigner "{6475298679DE169E}" {
+    m_iSquadCallsign 10
+   }
+  }
+  coords 4691.573 339.125 9808.777
+  angleY -3.303
+  {
+   Vehicle M151A2_transport6 : "{0406BEC84D81A89E}Prefabs/abudabi/Vehicles/Wheeled/M151A2/M151A2_transport.et" {
+    components {
+     SCR_UniversalInventoryStorageComponent "{5916C5825BF621D1}" {
+      MultiSlots {
+       MultiSlotConfiguration "{6504C6EE3C43A64A}" {
+        SlotTemplate InventoryStorageSlot InventoryStorageSlot {
+         Prefab "{E52C9791E1554A5F}Prefabs/Weapons/Attachments/Muzzle/Suppressor_M16/Suppressor_M16.et"
+        }
+        NumSlots 6
+       }
+      }
+     }
+    }
+    coords 4.923 0 2.396
+    angleY 92.859
+   }
+   GenericEntity : "{13C8A7A821825295}Prefabs/abudabi/NormalBoxes/abu_dup_Teleportable_NormalBox_US.et" {
+    coords -1.108 0 0.038
+    angleY 0.241
+   }
+   Vehicle M151A2_M2HB2 : "{6F01946EE0B0A8B8}Prefabs/abudabi/Vehicles/Wheeled/M151A2/M151A2_M2HB.et" {
+    coords -0.936 0 2.681
+    angleY 92.361
+   }
+   $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+    US_G_11212_M {
+     coords 0 0 0
+     angleY 93.774
+     m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+     m_sImageSetGlow ""
+     m_MarkerColor 1 1 1 1
+     m_sQuadName "undefined"
+     m_fWorldSize 50
+     m_sDescription "1-12"
+     m_bUseWorldScale 0
+     m_aVisibleForFactions {
+      "US"
+     }
+     m_aHideOnGameModeStates {
+      6 6 4 3 2 1 0
+     }
+     m_iZOrder 10
+    }
+    {
+     coords -0.936 0 2.681
+     angleY 178.637
+     m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+     m_sImageSetGlow ""
+     m_MarkerColor 0.016 0.552 0.905 1
+     m_sQuadName "Car"
+     m_fWorldSize 1.844
+     m_sDescription "#AR-Vehicle_M151A2_M2_Name"
+     m_bUseWorldScale 1
+     m_aVisibleForFactions {
+      "US"
+     }
+     m_aHideOnGameModeStates {
+      6 6 4 3 2 1 0
+     }
+     m_iZOrder 0
+    }
+    {
+     coords 4.923 0 2.396
+     angleY 179.093
+     m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+     m_sImageSetGlow ""
+     m_MarkerColor 0.016 0.552 0.905 1
+     m_sQuadName "Car"
+     m_fWorldSize 1.844
+     m_sDescription "#AR-Vehicle_M151A2_Name"
+     m_bUseWorldScale 1
+     m_aVisibleForFactions {
+      "US"
+     }
+     m_aHideOnGameModeStates {
+      6 6 4 3 2 1 0
+     }
+     m_iZOrder 0
+    }
+   }
+  }
+ }
+}
+SCR_AIGroup Group_0 : "{FCBE9E46702ED307}Prefabs/Groups/BLUFOR/Group_US_PlatoonHQ_P.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation ""
+  }
+  PS_GroupCallsignAssigner "{6475298666C976DC}" {
+  }
+ }
+ coords 4714.053 339.125 9766.684
+ angleY -2.269
+ m_aUnitPrefabSlots {
+  "{D164278FD7D9C81A}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_PL_P.et" "{501777EB151D644B}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Sergeant_P.et" "{501777EB151D644C}Prefabs/abudabi/Characters/Factions/BLUFOR/US_Army/abu_dup_Character_US_Crewman.et" "{501777EB151D644C}Prefabs/abudabi/Characters/Factions/BLUFOR/US_Army/abu_dup_Character_US_Crewman.et"
+ }
+ {
+  Vehicle LAV1 : "{0FBF8F010F81A4E5}Prefabs/Vehicles/Wheeled/LAV25/LAV25.et" {
+   components {
+    Hierarchy "{629299AC27C4B917}" {
+     Enabled 0
+    }
+   }
+   coords 4.92 0 -2.371
+   angleY 96.527
+  }
+  GenericEntity : "{13C8A7A821825295}Prefabs/abudabi/NormalBoxes/abu_dup_Teleportable_NormalBox_US.et" {
+   coords -1.355 0 -0.538
+  }
+  Vehicle M1025_armed_M2HB_su231c_USAF1 : "{3277F8B1FA06A2BD}Prefabs/abudabi/Vehicles/Wheeled/M998/M1025_armed_M2HB_USAF.et" {
+   coords 5.276 0 2.28
+   angleY 92.191
+  }
+  Vehicle M998_covered_long1 : "{9B1BF9644E0378D6}Prefabs/Vehicles/Wheeled/M998/M998_covered_long.et" {
+   coords -0.88 0 2.363
+   angleY 90.25
+  }
+  $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+   PositionsUS {
+    coords -9.9 0 -59.487
+    angleY 92.269
+    m_sImageSetGlow "{E23427CAC80DA8B7}UI/Textures/Icons/icons_mapMarkersUI.imageset"
+    m_MarkerColor 0 0.125 0.502 1
+    m_sQuadName "flag-2"
+    m_fWorldSize 100
+    m_sDescription "Позиции ВС США"
+    m_aVisibleForFactions {
+     "US"
+    }
+    m_aHideOnGameModeStates {
+     7 6 4 3 0
+    }
+   }
+   US_G_111_M {
+    coords 0 0 0.001
+    angleY 92.269
+    m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+    m_sImageSetGlow ""
+    m_MarkerColor 1 1 1 1
+    m_sQuadName "undefined"
+    m_fWorldSize 50
+    m_sDescription "1-1"
+    m_bUseWorldScale 0
+    m_aVisibleForFactions {
+     "US"
+    }
+    m_aHideOnGameModeStates {
+     6 6 4 3 2 1 0
+    }
+    m_iZOrder 10
+   }
+   {
+    coords 5.276 0 2.28
+    angleY 179.865
+    m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+    m_sImageSetGlow ""
+    m_MarkerColor 0.016 0.552 0.905 1
+    m_sQuadName "Car"
+    m_fWorldSize 2.399
+    m_sDescription "#AR-Vehicle_M1025_M2_Name"
+    m_bUseWorldScale 1
+    m_aVisibleForFactions {
+     "US"
+    }
+    m_aHideOnGameModeStates {
+     6 6 4 3 2 1 0
+    }
+    m_iZOrder 0
+   }
+   {
+    coords -1.049 0 2.555
+    angleY 176.283
+    m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+    m_sImageSetGlow ""
+    m_MarkerColor 0.016 0.552 0.905 1
+    m_sQuadName "Car"
+    m_fWorldSize 2.399
+    m_sDescription "#AR-Vehicle_M997_Name"
+    m_bUseWorldScale 1
+    m_aVisibleForFactions {
+     "US"
+    }
+    m_aHideOnGameModeStates {
+     6 6 4 3 2 1 0
+    }
+    m_iZOrder 0
+   }
+  }
+ }
+}

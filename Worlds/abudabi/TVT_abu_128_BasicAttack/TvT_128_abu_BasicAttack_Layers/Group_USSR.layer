@@ -6,27 +6,27 @@ PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/Ed
  "Больше никакой информации нет."\
  "Наша рота должна удержать позиции узла связи"\
  "(отмечен красным маркером) до прибытия наших подкреплений."\
- "______________________________________________"\
+ ""\
  "Задача:"\
  "1) Сохранить в рабочем состоянии хотя бы одну из трех машин Урал КШМ. "\
- "Их можно прятать только внутри красной зоны,"\
- "если КШМ находится вне маркера,"\
- "ее нужно сразу же передвинуть внутрь красного маркера."\
- "______________________________________________"\
+ "(их можно прятать только внутри красной зоны)"\
+ "(если КШМ находится вне маркера, после окончания фризтайма, "\
+ "ее нужно сразу же передвинуть внутрь красного маркера)"\
+ ""\
+ ""\
  "Доп.информация:"\
  "1)Машины КШМ сейчас закреплены за отделениями"\
- "   [1]1-1 [2]1-5 [3]1-8"\
- "2)Инженерные Уралы, через которые можно возвести укрепления"\
- "(на фризтайме)"\
- "   [1]1-1 [2]1-2 [3]1-3 "\
- "Уралы (КШМ и Инженерные) могут кататься на фризтайме"\
+ "  1. 1-1"\
+ "  2. 1-5"\
+ "  3. 1-8"\
+ "2)В отд. 1-1 есть инженерный Урал, через который можно возвести укрепления"\
  ""
  m_aVisibleForFactions {
   "USSR"
  }
  m_iOrder 1
 }
-$grp SCR_AIGroup : "{D0372E0E86076022}Prefabs/Groups/OPFOR/Spetsnaz/Group_USSR_Spetsnaz_Squad_P.et" {
+$grp SCR_AIGroup : "{D0372E0E86076023}Prefabs/abudabi/Groups/OPFOR/Spetsnaz/Group_USSR_Spetsnaz_Squad_P.et" {
  Def_7 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
@@ -38,7 +38,7 @@ $grp SCR_AIGroup : "{D0372E0E86076022}Prefabs/Groups/OPFOR/Spetsnaz/Group_USSR_S
   }
   coords 6086.364 162.607 6403.593
   {
-   Vehicle UAZ469_PKM1 : "{0B4DEA8078B78A9B}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_PKM.et" {
+   Vehicle UAZ469_PKM1 : "{0B4DEA8078B78A9C}Prefabs/abudabi/Vehicles/Wheeled/UAZ469/UAZ469_PKM.et" {
     coords 3.521 0.674 2.787
     angleY 87
    }
@@ -101,7 +101,7 @@ $grp SCR_AIGroup : "{D0372E0E86076022}Prefabs/Groups/OPFOR/Spetsnaz/Group_USSR_S
      m_iZOrder 10
     }
    }
-   Vehicle UAZ2 : "{259EE7B78C51B624}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469.et" {
+   Vehicle UAZ2 : "{CF00CF725A31B872}Prefabs/abudabi/Vehicles/Wheeled/UAZ469/UAZ469.et" {
     components {
      SCR_UniversalInventoryStorageComponent "{5AD4F813E67ECB5D}" {
       MultiSlots {
@@ -130,11 +130,11 @@ $grp SCR_AIGroup : "{D0372E0E86076022}Prefabs/Groups/OPFOR/Spetsnaz/Group_USSR_S
   }
   coords 6077.452 161.026 6395.342
   {
-   Vehicle UAZ469_PKM2 : "{0B4DEA8078B78A9B}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_PKM.et" {
+   Vehicle UAZ469_PKM2 : "{0B4DEA8078B78A9C}Prefabs/abudabi/Vehicles/Wheeled/UAZ469/UAZ469_PKM.et" {
     coords 2.776 0.428 2.281
     angleY 85
    }
-   Vehicle Target_2 : "{1BABF6B33DA0AEB6}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_command.et" {
+   Vehicle Target_2 : "{1BABF6B33DA0AEB7}Prefabs/abudabi/Vehicles/Wheeled/Ural4320/Ural4320_command.et" {
     coords 2.521 0.201 -3.087
     angleY 84.94
     m_bEnableMoveOnFreeze 1
@@ -216,7 +216,7 @@ $grp SCR_AIGroup : "{D0372E0E86076022}Prefabs/Groups/OPFOR/Spetsnaz/Group_USSR_S
      m_iZOrder 10
     }
    }
-   Vehicle UAZ3 : "{259EE7B78C51B624}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469.et" {
+   Vehicle UAZ3 : "{CF00CF725A31B872}Prefabs/abudabi/Vehicles/Wheeled/UAZ469/UAZ469.et" {
     components {
      SCR_UniversalInventoryStorageComponent "{5AD4F813E67ECB5D}" {
       MultiSlots {
@@ -235,7 +235,7 @@ $grp SCR_AIGroup : "{D0372E0E86076022}Prefabs/Groups/OPFOR/Spetsnaz/Group_USSR_S
   }
  }
 }
-SCR_AIGroup Def_0 : "{D1B420D921CC6CD4}Prefabs/Groups/OPFOR/Group_USSR_PlatoonHQ_P.et" {
+SCR_AIGroup Def_0 : "{D1B420D921CC6CD5}Prefabs/abudabi/Groups/OPFOR/Group_USSR_PlatoonHQ_P.et" {
  components {
   AIFormationComponent "{507E9DC12F541FE6}" {
    DefaultFormation ""
@@ -247,16 +247,13 @@ SCR_AIGroup Def_0 : "{D1B420D921CC6CD4}Prefabs/Groups/OPFOR/Group_USSR_PlatoonHQ
  m_aUnitPrefabSlots {
   "{B5AEDC813E4F4A58}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Officer_P.et" "{730A987119F129A8}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Sergeant_P.et" "{F72805D5D2D05F63}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_RTO_P.et" "{DD80FA65DDFF68B9}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Medic_P.et" "{A8A47F001DA13B73}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Sharpshooter_P.et" "{951CA4F244097071}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_MG_P.et" "{951CA4F244097071}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_MG_P.et"
  }
- m_aStaticVehicles {
-  "eng1"
- }
  {
-  Vehicle Target_0 : "{1BABF6B33DA0AEB6}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_command.et" {
+  Vehicle Target_0 : "{1BABF6B33DA0AEB7}Prefabs/abudabi/Vehicles/Wheeled/Ural4320/Ural4320_command.et" {
    coords 5.543 0.132 3.121
    angleY 87
    m_bEnableMoveOnFreeze 1
   }
-  Vehicle eng1 : "{6E9142CD2471741C}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_engineer.et" {
+  Vehicle Ural4320_engineer1 : "{6E9142CD2471741D}Prefabs/abudabi/Vehicles/Wheeled/Ural4320/Ural4320_engineer.et" {
    components {
     SlotManagerComponent "{55BCE45E438E4CFF}" {
      Slots {
@@ -267,7 +264,6 @@ SCR_AIGroup Def_0 : "{D1B420D921CC6CD4}Prefabs/Groups/OPFOR/Group_USSR_PlatoonHQ
    }
    coords -3.61 0.081 2.606
    angleY 83.991
-   m_sAttachmentGroupName "Def_0"
    m_bEnableMoveOnFreeze 1
   }
   GenericEntity : "{BB356AB94F4429CB}Prefabs/abudabi/NormalBoxes/abu_dup_Teleportable_NormalBox_USSR.et" {
@@ -346,7 +342,7 @@ SCR_AIGroup Def_0 : "{D1B420D921CC6CD4}Prefabs/Groups/OPFOR/Group_USSR_PlatoonHQ
   }
  }
 }
-$grp SCR_AIGroup : "{E3545CFEDD312D54}Prefabs/Groups/OPFOR/Group_USSR_RifleSquad_P.et" {
+$grp SCR_AIGroup : "{E3545CFEDD312D55}Prefabs/abudabi/Groups/OPFOR/Group_USSR_RifleSquad_p.et" {
  Def_1 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
@@ -357,27 +353,8 @@ $grp SCR_AIGroup : "{E3545CFEDD312D54}Prefabs/Groups/OPFOR/Group_USSR_RifleSquad
    }
   }
   coords 6138.481 164.552 6388.427
-  m_aStaticVehicles {
-   "eng2"
-  }
   {
-   Vehicle eng2 : "{6E9142CD2471741C}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_engineer.et" {
-    components {
-     SlotManagerComponent "{55BCE45E438E4CFF}" {
-      Slots {
-       RegisteringComponentSlotInfo EngineerBox {
-       }
-      }
-     }
-    }
-    coords 0.4 -0.113 -2.69
-    angleX 0.946
-    angleY 89.652
-    angleZ 2.445
-    m_sAttachmentGroupName "Def_1"
-    m_bEnableMoveOnFreeze 1
-   }
-   Vehicle Ural4320_transport6 : "{16C1F16C9B053801}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport.et" {
+   Vehicle Ural4320_transport6 : "{B6BA0C8D6FF01C43}Prefabs/abudabi/Vehicles/Wheeled/Ural4320/Ural4320_transport.et" {
     coords -0.288 0.094 2.656
     angleY 88.633
    }
@@ -434,32 +411,13 @@ $grp SCR_AIGroup : "{E3545CFEDD312D54}Prefabs/Groups/OPFOR/Group_USSR_RifleSquad
    }
   }
   coords 6137.032 164.948 6398.542
-  m_aStaticVehicles {
-   "eng3"
-  }
   {
-   Vehicle eng3 : "{6E9142CD2471741C}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_engineer.et" {
-    components {
-     SlotManagerComponent "{55BCE45E438E4CFF}" {
-      Slots {
-       RegisteringComponentSlotInfo EngineerBox {
-       }
-      }
-     }
-    }
-    coords 0.083 -0.109 -2.347
-    angleX 0.946
-    angleY 89.652
-    angleZ 2.445
-    m_sAttachmentGroupName "Def_2"
-    m_bEnableMoveOnFreeze 1
-   }
-   Vehicle Ural4320_transport1 : "{16C1F16C9B053801}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport.et" {
+   Vehicle Ural4320_transport1 : "{B6BA0C8D6FF01C43}Prefabs/abudabi/Vehicles/Wheeled/Ural4320/Ural4320_transport.et" {
     coords -0.373 0.087 2.586
     angleY 88
    }
    GenericEntity : "{BB356AB94F4429CB}Prefabs/abudabi/NormalBoxes/abu_dup_Teleportable_NormalBox_USSR.et" {
-    coords -2.142 -0.029 0.104
+    coords -2.154 -0.062 -0.595
    }
    $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
     USSR_G_133_M {
@@ -512,7 +470,7 @@ $grp SCR_AIGroup : "{E3545CFEDD312D54}Prefabs/Groups/OPFOR/Group_USSR_RifleSquad
   }
   coords 6120.031 164.852 6405.614
   {
-   Vehicle Ural4320_transport2 : "{16C1F16C9B053801}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport.et" {
+   Vehicle Ural4320_transport2 : "{B6BA0C8D6FF01C43}Prefabs/abudabi/Vehicles/Wheeled/Ural4320/Ural4320_transport.et" {
     components {
      SlotManagerComponent "{55BCE45E438E4CFF}" {
       Slots {
@@ -585,12 +543,12 @@ $grp SCR_AIGroup : "{E3545CFEDD312D54}Prefabs/Groups/OPFOR/Group_USSR_RifleSquad
   }
   coords 6117.593 163.991 6388.224
   {
-   Vehicle Target_1 : "{1BABF6B33DA0AEB6}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_command.et" {
+   Vehicle Target_1 : "{1BABF6B33DA0AEB7}Prefabs/abudabi/Vehicles/Wheeled/Ural4320/Ural4320_command.et" {
     coords 2.213 -0.06 -2.914
     angleY 88.002
     m_bEnableMoveOnFreeze 1
    }
-   Vehicle Ural4320_transport3 : "{16C1F16C9B053801}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport.et" {
+   Vehicle Ural4320_transport3 : "{B6BA0C8D6FF01C43}Prefabs/abudabi/Vehicles/Wheeled/Ural4320/Ural4320_transport.et" {
     coords 2.286 0.202 3.059
     angleY 89
    }
@@ -666,7 +624,7 @@ $grp SCR_AIGroup : "{E3545CFEDD312D54}Prefabs/Groups/OPFOR/Group_USSR_RifleSquad
   }
   coords 6114.031 164.232 6397.593
   {
-   Vehicle Ural4320_transport4 : "{16C1F16C9B053801}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport.et" {
+   Vehicle Ural4320_transport4 : "{B6BA0C8D6FF01C43}Prefabs/abudabi/Vehicles/Wheeled/Ural4320/Ural4320_transport.et" {
     coords -0.085 0.11 2.418
     angleY 89
    }
@@ -724,7 +682,7 @@ $grp SCR_AIGroup : "{E3545CFEDD312D54}Prefabs/Groups/OPFOR/Group_USSR_RifleSquad
   }
   coords 6101.705 163.614 6396.827
   {
-   Vehicle Ural4320_transport5 : "{16C1F16C9B053801}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport.et" {
+   Vehicle Ural4320_transport5 : "{B6BA0C8D6FF01C43}Prefabs/abudabi/Vehicles/Wheeled/Ural4320/Ural4320_transport.et" {
     coords 0.306 0.14 2.569
     angleY 87
    }
