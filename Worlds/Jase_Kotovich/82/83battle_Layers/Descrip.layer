@@ -1,0 +1,67 @@
+$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ {
+  coords 5545.311 0.611 8947.36
+  m_sTitle "Гогланд1"
+  m_sTextData "И снова за наш остров война. Силы СССР заняли город Kiiskinkyla и северную часть острова. Пригнали технику и спецназ. "\
+  "Южную часть острова удерживает Британская Королевская Армия. Штаб расположили в городе Suurkyla.  "\
+  "У британцев так же имеется тяжелая техника и группы SAF. "\
+  "Эвакуация с остров происходит полным ходом."\
+  ""
+  m_bEmptyFactionVisibility 1
+  m_bShowForAnyFaction 1
+ }
+ {
+  coords 5545.594 0.925 8948.33
+  m_sTitle "Задачи."
+  m_sTextData "Под нашим контролем Отель в городе Kiiskinkyla. Его Защита 50 очков. "\
+  "Нам надо захватить вражескую контрольную точку. Здание администрации в городе Suurkyla. Захват 50 очков."
+  m_aVisibleForFactions {
+   "USSR"
+  }
+ }
+ {
+  coords 5545.644 1.087 8948.922
+  m_sTitle "Задачи"
+  m_sTextData "Под нашим контролем Здание администрации в городе Suurkyla. Его Защита 50 очков. "\
+  "Нам надо захватить вражескую контрольную точку. Отель в городе Kiiskinkyla. Захват 50 очков."
+  m_aVisibleForFactions {
+   "UK"
+  }
+ }
+ {
+  coords 5546.509 0.932 8948.184
+  m_sTitle "Разведгруппы"
+  m_sTextData "У вас имеются разведгруппы. Вражеские разведгруппы находятся в зеркальном расположение с вашими."
+  m_bShowForAnyFaction 1
+ }
+ {
+  coords 5546.653 1.097 8948.8
+  m_sTitle "Условности."
+  m_sTextData "Миссия 60 минут. "\
+  "Захват триггера противника 50 очков. "\
+  "Защита своего триггера 50 очков. "\
+  "Уничтожение здания триггера 0 очков. Защищать или захватывать нечего. "\
+  "Миномет может вести огонь сразу. "\
+  "Триггер можно перезахватить. "
+  m_bEmptyFactionVisibility 1
+  m_bShowForAnyFaction 1
+ }
+}
+$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ {
+  coords 5271.482 15.651 8774.549
+  m_MarkerColor 0.071 0.192 0.561 1
+  m_sQuadName "mark-exclamation"
+  m_fWorldSize 50
+  m_sDescription "Силы UK"
+  m_bShowForAnyFaction 1
+ }
+ {
+  coords 6980.509 10.741 5344.544
+  m_MarkerColor 0.561 0.071 0.071 1
+  m_sQuadName "mark-exclamation"
+  m_fWorldSize 50
+  m_sDescription "Силы СССР"
+  m_bShowForAnyFaction 1
+ }
+}

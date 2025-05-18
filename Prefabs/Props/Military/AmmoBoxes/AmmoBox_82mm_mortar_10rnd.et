@@ -1,0 +1,109 @@
+GenericEntity : "{42894F191BC9EDE1}Prefabs/Props/Core/AmmoBox_Base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{BA3D1F376A1BCFDF}Assets/Props/Military/AmmoBox/AmmoBox_82mm_mortar_3rnd/AmmoBox_82mm_mortar_3rnd.xob"
+   PixelSizeScale 2
+  }
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   LayerPreset "ItemFireView"
+   Mass 5
+   ResponseIndex "SmallDestructible"
+   Static 1
+  }
+  SCR_FilteredInventoryStorageComponent "{5476A2F100DF4EFF}" {
+   Attributes SCR_ItemAttributeCollection "{5476CDB2EAD8225E}" {
+    ItemDisplayName SCR_InventoryUIInfo "{65613C72CBF67141}" {
+     Name "#AR-Ammobox_82mm_Mortar_3rnd_Name"
+     Description "#AR-Ammobox_82mm_Mortar_3rnd_Description"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{65613C72CBF67155}" {
+     Weight 0.6
+     SizeSetupStrategy Manual
+     ItemDimensions 15 15 15
+     ItemVolume 2200
+     DimensionScaler 1
+     RestingAdditiveRotationLS 0 0 0
+     RestingAdditiveOffsetLS 0 0 0
+    }
+    ItemAnimationAttributes ItemAnimationAttributes "{65613C72CBF67152}" {
+     AnimationAttachments {
+      AnimationAttachmentInfo "{65613C72CBF670AF}" {
+       AnimGraph "{44A1E0130301E5F5}Assets/Items/Equipment/workspaces/MedicalKit_supplies.agr"
+       AnimInstance "{A9CBB5C81F08B71B}Assets/Items/Equipment/workspaces/MedicalKit_supplies.asi"
+       BindingName "Gadget"
+      }
+     }
+     HandAdditiveRotation 90 0 0
+     HandAdditiveTranslation 0 0.02 0.05
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{65613C72CBF670AA}" {
+      CameraPreset Top
+      CameraOrbitAngles -10 10 0
+      CameraDistanceToItem 0.45
+      FOV 60
+      AspectRatio 1
+      LodModel 1
+     }
+     CharacterModifierAttributes "{65613C72CBF670A7}" {
+      StanceLimits 0.025 1
+      SpeedLimit 1.7
+      ADSSpeedLimit 1.7
+      SpeedLimitItemPrimaryAction 0
+      SpeedLimitHighready 1.7
+      CanBeEquippedInVehicle 0
+      AllowJumping 0
+     }
+    }
+   }
+   UseCapacityCoefficient 0
+   MaxCumulativeVolume 4800
+   MaxItemSize 8 8 16
+   SaveInLoadout 0
+   MultiSlots {
+    MultiSlotConfiguration "{65613C72CF7103F7}" {
+     SlotTemplate InventoryStorageSlot mINA {
+      Prefab "{98EC9C526AFBA282}Prefabs/Weapons/Ammo/Ammo_Shell_82mm_HE_O832DU.et"
+     }
+     NumSlots 10
+    }
+   }
+   m_aAllowedItemTypes {
+    "AMMO_MORTAR"
+   }
+   m_fMaxWeight 12
+  }
+  SCR_GadgetComponent "{65613C72CBF670A3}" {
+   m_eAnimVariable ADRIANOV
+  }
+  SCR_SoundDataComponent "{5C53391603B5CF41}" {
+   m_aAudioSourceConfiguration {
+    SCR_AudioSourceConfiguration "{5C5339160C8869E2}" {
+     m_sSoundProject "{0A400B6DFDA2B38E}Sounds/Props/Military/AmmoBoxes/Props_PickUp_AmmoBox_8xmm.acp"
+     m_sSoundEventName "SOUND_DROP"
+    }
+    SCR_AudioSourceConfiguration "{5C533916090D28B6}" {
+     m_sSoundProject "{0A400B6DFDA2B38E}Sounds/Props/Military/AmmoBoxes/Props_PickUp_AmmoBox_8xmm.acp"
+     m_sSoundEventName "SOUND_PICK_UP"
+    }
+   }
+  }
+  ActionsManagerComponent "{5476B36C403D4CC0}" {
+   ActionContexts {
+    UserActionContext "{5476B36C47B0461A}" {
+     Position PointInfo "{5476B36C45ADDA89}" {
+      Offset 0 0.0461 0
+     }
+    }
+   }
+   additionalActions {
+    SCR_PickUpItemAction "{61B0B8739F7C1E29}" : "{F39A4E9B190C1846}Prefabs/Characters/Core/Actions/PickUpItemAction.conf" {
+    }
+    SCR_LoadItemsAction "{61B0B8637EFDC52A}" : "{E4FDAEDC13236003}Prefabs/Characters/Core/Actions/LoadItemsAction.conf" {
+    }
+   }
+  }
+ }
+ coords 5240.937 170.841 6071.932
+}

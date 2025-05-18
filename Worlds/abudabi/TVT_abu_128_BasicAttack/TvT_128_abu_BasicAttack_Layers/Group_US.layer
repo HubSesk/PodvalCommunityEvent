@@ -18,7 +18,7 @@ PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/Ed
  }
  m_iOrder 1
 }
-SCR_AIGroup Group_6 : "{93ECE153940F4452}Prefabs/abudabi/Groups/BLUFOR/Group_US_MedicalSection_P.et" {
+SCR_AIGroup Group_6 : "{93ECE153940F4451}Prefabs/Groups/BLUFOR/Group_US_MedicalSection_P.et" {
  components {
   AIFormationComponent "{507E9DC12F541FE6}" {
    DefaultFormation ""
@@ -32,16 +32,16 @@ SCR_AIGroup Group_6 : "{93ECE153940F4452}Prefabs/abudabi/Groups/BLUFOR/Group_US_
  angleY -0.028
  angleZ 1.79
  {
-  GenericEntity : "{13C8A7A821825295}Prefabs/abudabi/NormalBoxes/abu_dup_Teleportable_NormalBox_US.et" {
-   coords -1.851 -0.024 0.131
-   angleX 0.895
-   angleZ -0.895
-  }
-  Vehicle M997_maxi_ambulance_USAF1 : "{4E3A86638BFF9FC7}Prefabs/abudabi/Vehicles/Wheeled/M998/M997_maxi_ambulance_USAF.et" {
+  Vehicle M997_maxi_ambulance_USAF1 : "{00C9BBE426F7D459}Prefabs/Vehicles/Wheeled/M998/M997_maxi_ambulance.et" {
    coords 0.836 0.025 2.585
    angleX 0.903
    angleY 89.459
    angleZ 0.886
+  }
+  GenericEntity : "{13C8A7A821825295}Prefabs/abudabi/NormalBoxes/abu_dup_Teleportable_NormalBox_US.et" {
+   coords -1.851 -0.024 0.131
+   angleX 0.895
+   angleZ -0.895
   }
   $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
    US_G_177_M {
@@ -85,7 +85,7 @@ SCR_AIGroup Group_6 : "{93ECE153940F4452}Prefabs/abudabi/Groups/BLUFOR/Group_US_
   }
  }
 }
-$grp SCR_AIGroup : "{ABACC233796108EE}Prefabs/abudabi/Groups/BLUFOR/Group_US_SniperTeam_P.et" {
+$grp SCR_AIGroup : "{ABACC233796108ED}Prefabs/Groups/BLUFOR/Group_US_SniperTeam_P.et" {
  zHuyuGunship {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
@@ -166,13 +166,13 @@ $grp SCR_AIGroup : "{ABACC233796108EE}Prefabs/abudabi/Groups/BLUFOR/Group_US_Sni
   coords 6158.905 166.409 6462.084
   angleX 1.79
   {
-   Vehicle M151A2_transport3 : "{0406BEC84D81A89E}Prefabs/abudabi/Vehicles/Wheeled/M151A2/M151A2_transport.et" {
-    coords 0.748 0 2.05
-    angleY 88.089
-   }
    GenericEntity : "{13C8A7A821825295}Prefabs/abudabi/NormalBoxes/abu_dup_Teleportable_NormalBox_US.et" {
     coords -1.246 -0.002 -0.201
     angleX 0.894
+   }
+   Vehicle M151A2_transport3 : "{47D94E1193A88497}Prefabs/Vehicles/Wheeled/M151A2/M151A2_transport.et" {
+    coords 0.748 0 2.05
+    angleY 88.089
    }
    $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
     US_G_188_M {
@@ -215,7 +215,7 @@ $grp SCR_AIGroup : "{ABACC233796108EE}Prefabs/abudabi/Groups/BLUFOR/Group_US_Sni
   }
  }
 }
-$grp SCR_AIGroup : "{BC357974A560F679}Prefabs/abudabi/Groups/BLUFOR/Group_US_RifleSquad_p.et" {
+$grp SCR_AIGroup : "{BC357974A560F678}Prefabs/Groups/BLUFOR/Group_US_RifleSquad_P.et" {
  Group_1 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
@@ -232,11 +232,11 @@ $grp SCR_AIGroup : "{BC357974A560F679}Prefabs/abudabi/Groups/BLUFOR/Group_US_Rif
     coords -1.561 0.024 0.353
     angleZ 0.894
    }
-   Vehicle M1025_armed_M2HB_su231c_USAF3 : "{3277F8B1FA06A2BD}Prefabs/abudabi/Vehicles/Wheeled/M998/M1025_armed_M2HB_USAF.et" {
+   Vehicle M1025_armed_M2HB_su231c_USAF3 : "{3EA6F47D95867114}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB.et" {
     coords 4.076 0.031 2.739
     angleY 89.142
    }
-   Vehicle M998_USAF1 : "{B4FB836E882E1A06}Prefabs/abudabi/Vehicles/Wheeled/M998/M998_USAF.et" {
+   Vehicle M998_USAF1 : "{5674FAEB9AB7BDD0}Prefabs/Vehicles/Wheeled/M998/M998.et" {
     coords -1.806 0.01 2.668
     angleX -0.934
     angleY 87.37
@@ -318,11 +318,11 @@ $grp SCR_AIGroup : "{BC357974A560F679}Prefabs/abudabi/Groups/BLUFOR/Group_US_Rif
     coords -1.211 0.001 -0.073
     angleX -0.895
    }
-   Vehicle M1025_armed_M2HB_su231c_USAF5 : "{3277F8B1FA06A2BD}Prefabs/abudabi/Vehicles/Wheeled/M998/M1025_armed_M2HB_USAF.et" {
+   Vehicle M1025_armed_M2HB_su231c_USAF5 : "{3EA6F47D95867114}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB.et" {
     coords 3.511 -0.031 2.515
     angleY 86.564
    }
-   Vehicle M1025_USAF2 : "{CC55611936C21F26}Prefabs/abudabi/Vehicles/Wheeled/M998/M1025_USAF.et" {
+   Vehicle M1025_USAF2 : "{4A71F755A4513227}Prefabs/Vehicles/Wheeled/M998/M1025.et" {
     coords -2.118 0 2.439
     angleY 84.458
    }
@@ -403,13 +403,13 @@ $grp SCR_AIGroup : "{BC357974A560F679}Prefabs/abudabi/Groups/BLUFOR/Group_US_Rif
     angleX 0.895
     angleZ -1.79
    }
-   Vehicle M1025_armed_M2HB_su231c_USAF6 : "{3277F8B1FA06A2BD}Prefabs/abudabi/Vehicles/Wheeled/M998/M1025_armed_M2HB_USAF.et" {
+   Vehicle M1025_armed_M2HB_su231c_USAF6 : "{3EA6F47D95867114}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB.et" {
     coords 3.21 0.065 2.837
     angleX 0.893
     angleY 86.591
     angleZ -0.054
    }
-   Vehicle M998_USAF2 : "{B4FB836E882E1A06}Prefabs/abudabi/Vehicles/Wheeled/M998/M998_USAF.et" {
+   Vehicle M998_USAF2 : "{5674FAEB9AB7BDD0}Prefabs/Vehicles/Wheeled/M998/M998.et" {
     coords -2.163 -0.019 2.824
     angleX 0.894
     angleY 87.359
@@ -494,7 +494,7 @@ $grp SCR_AIGroup : "{BC357974A560F679}Prefabs/abudabi/Groups/BLUFOR/Group_US_Rif
     angleY -0.014
     angleZ -0.895
    }
-   $grp Vehicle : "{3277F8B1FA06A2BD}Prefabs/abudabi/Vehicles/Wheeled/M998/M1025_armed_M2HB_USAF.et" {
+   $grp Vehicle : "{3EA6F47D95867114}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB.et" {
     M1025_armed_M2HB_su231c_USAF7 {
      coords -1.843 0 2.454
      angleY 86.564
@@ -581,7 +581,7 @@ $grp SCR_AIGroup : "{BC357974A560F679}Prefabs/abudabi/Groups/BLUFOR/Group_US_Rif
    GenericEntity : "{13C8A7A821825295}Prefabs/abudabi/NormalBoxes/abu_dup_Teleportable_NormalBox_US.et" {
     coords -1.338 0 -0.034
    }
-   $grp Vehicle : "{3277F8B1FA06A2BD}Prefabs/abudabi/Vehicles/Wheeled/M998/M1025_armed_M2HB_USAF.et" {
+   $grp Vehicle : "{3EA6F47D95867114}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB.et" {
     M1025_armed_M2HB_su231c_USAF2 {
      coords -2.196 0 2.654
      angleY 88.48
@@ -654,7 +654,7 @@ $grp SCR_AIGroup : "{BC357974A560F679}Prefabs/abudabi/Groups/BLUFOR/Group_US_Rif
   }
  }
 }
-$grp SCR_AIGroup : "{C0CBE71EB24755DA}Prefabs/abudabi/Groups/BLUFOR/Group_US_GreenBeret_Squad_P.et" {
+$grp SCR_AIGroup : "{C0CBE71EB24755D9}Prefabs/Groups/BLUFOR/GreenBerets/Group_US_GreenBeret_Squad_P.et" {
  zAirborneGrp9 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
@@ -670,16 +670,12 @@ $grp SCR_AIGroup : "{C0CBE71EB24755DA}Prefabs/abudabi/Groups/BLUFOR/Group_US_Gre
   }
   m_sCustomNameSet "UH1H Gunship M60"
   {
-   Vehicle M151A2_transport4 : "{0406BEC84D81A89E}Prefabs/abudabi/Vehicles/Wheeled/M151A2/M151A2_transport.et" {
-    coords -21.191 0.065 -28.599
-    angleY -39.781
-   }
    GenericEntity : "{13C8A7A821825295}Prefabs/abudabi/NormalBoxes/abu_dup_Teleportable_NormalBox_US.et" {
     coords 5.754 0.015 -3.939
    }
-   Vehicle M151A2_M2HB1 : "{6F01946EE0B0A8B8}Prefabs/abudabi/Vehicles/Wheeled/M151A2/M151A2_M2HB.et" {
-    coords -23.946 0.125 -21.55
-    angleY -17.885
+   Vehicle M151A2_transport4 : "{47D94E1193A88497}Prefabs/Vehicles/Wheeled/M151A2/M151A2_transport.et" {
+    coords -21.191 0.065 -28.599
+    angleY -39.781
    }
    $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
     US_G_11010_M {
@@ -755,7 +751,7 @@ $grp SCR_AIGroup : "{C0CBE71EB24755DA}Prefabs/abudabi/Groups/BLUFOR/Group_US_Gre
      m_iZOrder 0
     }
    }
-   Vehicle UH1H_armed1 : "{DDDD9B51F1234DF4}Prefabs/abudabi/Vehicles/Helicopters/UH1H/UH1H_armed.et" {
+   Vehicle UH1H_armed1 : "{DDDD9B51F1234DF3}Prefabs/Vehicles/Helicopters/UH1H/UH1H_armed.et" {
     components {
      SCR_UniversalInventoryStorageComponent "{5E1E994304F0E0D3}" {
       InitialStorageSlots {
@@ -776,6 +772,10 @@ $grp SCR_AIGroup : "{C0CBE71EB24755DA}Prefabs/abudabi/Groups/BLUFOR/Group_US_Gre
     coords -2.061 0.011 4.303
     angleY 78.665
    }
+   Vehicle M151A2_M2HB1 : "{F6B23D17D5067C11}Prefabs/Vehicles/Wheeled/M151A2/M151A2_M2HB.et" {
+    coords -23.946 0.125 -21.55
+    angleY -17.885
+   }
   }
  }
  Group_10 {
@@ -792,7 +792,10 @@ $grp SCR_AIGroup : "{C0CBE71EB24755DA}Prefabs/abudabi/Groups/BLUFOR/Group_US_Gre
   angleY -0.112
   angleZ -1.793
   {
-   $grp Vehicle : "{0406BEC84D81A89E}Prefabs/abudabi/Vehicles/Wheeled/M151A2/M151A2_transport.et" {
+   GenericEntity : "{13C8A7A821825295}Prefabs/abudabi/NormalBoxes/abu_dup_Teleportable_NormalBox_US.et" {
+    coords -1.66 0 -0.25
+   }
+   $grp Vehicle : "{47D94E1193A88497}Prefabs/Vehicles/Wheeled/M151A2/M151A2_transport.et" {
     M151A2_transport1 {
      components {
       SCR_UniversalInventoryStorageComponent "{5916C5825BF621D1}" {
@@ -815,9 +818,6 @@ $grp SCR_AIGroup : "{C0CBE71EB24755DA}Prefabs/abudabi/Groups/BLUFOR/Group_US_Gre
      coords -0.98 0 1.795
      angleY 84.994
     }
-   }
-   GenericEntity : "{13C8A7A821825295}Prefabs/abudabi/NormalBoxes/abu_dup_Teleportable_NormalBox_US.et" {
-    coords -1.66 0 -0.25
    }
    $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
     US_G_11111_M {
@@ -891,7 +891,11 @@ $grp SCR_AIGroup : "{C0CBE71EB24755DA}Prefabs/abudabi/Groups/BLUFOR/Group_US_Gre
   coords 6132.343 167.048 6478.552
   angleX 1.79
   {
-   Vehicle M151A2_transport6 : "{0406BEC84D81A89E}Prefabs/abudabi/Vehicles/Wheeled/M151A2/M151A2_transport.et" {
+   GenericEntity : "{13C8A7A821825295}Prefabs/abudabi/NormalBoxes/abu_dup_Teleportable_NormalBox_US.et" {
+    coords -1.151 -0.008 -0.039
+    angleX -0.895
+   }
+   Vehicle M151A2_transport6 : "{47D94E1193A88497}Prefabs/Vehicles/Wheeled/M151A2/M151A2_transport.et" {
     components {
      SCR_UniversalInventoryStorageComponent "{5916C5825BF621D1}" {
       MultiSlots {
@@ -906,16 +910,6 @@ $grp SCR_AIGroup : "{C0CBE71EB24755DA}Prefabs/abudabi/Groups/BLUFOR/Group_US_Gre
     }
     coords 5.093 -0.031 2.797
     angleY 89.087
-   }
-   GenericEntity : "{13C8A7A821825295}Prefabs/abudabi/NormalBoxes/abu_dup_Teleportable_NormalBox_US.et" {
-    coords -1.151 -0.008 -0.039
-    angleX -0.895
-   }
-   Vehicle M151A2_M2HB2 : "{6F01946EE0B0A8B8}Prefabs/abudabi/Vehicles/Wheeled/M151A2/M151A2_M2HB.et" {
-    coords -0.978 -0.029 2.692
-    angleX 0.869
-    angleY 88.371
-    angleZ -0.92
    }
    $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
     US_G_11212_M {
@@ -975,6 +969,12 @@ $grp SCR_AIGroup : "{C0CBE71EB24755DA}Prefabs/abudabi/Groups/BLUFOR/Group_US_Gre
      m_iZOrder 0
     }
    }
+   Vehicle M151A2_M2HB2 : "{F6B23D17D5067C11}Prefabs/Vehicles/Wheeled/M151A2/M151A2_M2HB.et" {
+    coords -0.978 -0.029 2.692
+    angleX 0.869
+    angleY 88.371
+    angleZ -0.92
+   }
   }
  }
 }
@@ -995,7 +995,7 @@ SCR_AIGroup Group_0 : "{FCBE9E46702ED307}Prefabs/Groups/BLUFOR/Group_US_PlatoonH
   GenericEntity : "{13C8A7A821825295}Prefabs/abudabi/NormalBoxes/abu_dup_Teleportable_NormalBox_US.et" {
    coords -1.38 0 -0.604
   }
-  Vehicle M1025_armed_M2HB_su231c_USAF1 : "{3277F8B1FA06A2BD}Prefabs/abudabi/Vehicles/Wheeled/M998/M1025_armed_M2HB_USAF.et" {
+  Vehicle M1025_armed_M2HB_su231c_USAF1 : "{3EA6F47D95867114}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB.et" {
    coords 5.372 0 2.544
    angleY 89.922
   }
