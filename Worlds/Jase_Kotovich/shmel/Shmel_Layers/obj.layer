@@ -44,7 +44,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  {
   coords 8124.836 4.996 3790.72
   m_sTitle "Инженеры"
-  m_sTextData "Инженеры закрепились на территории станции, у вас имееются строительные грузовики, мины и одноразовые огнеметы. "\
+  m_sTextData "Инженеры закрепились на территории станции, у вас имееются, мины и одноразовые огнеметы. "\
   "Укрепите ваши позиции до прихода противника."
   m_aVisibleForFactions {
    "RHS_AFRF"
@@ -66,6 +66,17 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
    "RHS_AFRF"
   }
  }
+ {
+  coords 7975.265 3.698 1860.52
+  m_sTitle "Условности"
+  m_sTextData "Защита триггера Электростанция 100 очков. "\
+  "Захват триггера Электростанция 100 очков."\
+  "Имеется возможность ченить и перезаряжать технику. "\
+  "Развед отряды двух сторон находятся в непосредсвенной близости с друг другом. "\
+  "Время миссии 45 минут."
+  m_bEmptyFactionVisibility 1
+  m_bShowForAnyFaction 1
+ }
 }
 $grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
  {
@@ -79,11 +90,29 @@ $grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
   m_sFactionKey "RHS_AFRF"
  }
 }
-PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
- coords 8010.503 5 2050.098
- angleY 0
- m_MarkerColor 0.561 0.071 0.071 1
- m_fWorldSize 40
- m_sDescription "Электростанция"
- m_bShowForAnyFaction 1
+$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ {
+  coords 8010.503 5 2050.098
+  m_MarkerColor 0.561 0.439 0.071 1
+  m_sQuadName "mark-exclamation"
+  m_fWorldSize 70
+  m_sDescription "Электростанция"
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+ }
+ {
+  coords 6941.901 80.559 4142.584
+  m_MarkerColor 0 0.125 0.502 1
+  m_sQuadName "mark-exclamation"
+  m_fWorldSize 70
+  m_sDescription "КМП США"
+  m_bShowForAnyFaction 1
+ }
+ {
+  coords 7555.044 50.638 2166.584
+  m_MarkerColor 0.502 0 0 1
+  m_sQuadName "mark-exclamation"
+  m_fWorldSize 70
+  m_sDescription "ВС РФ"
+ }
 }
