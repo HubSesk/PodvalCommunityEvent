@@ -1,0 +1,150 @@
+GameEntity : "{C95E11C60810F432}Prefabs/Items/Core/Item_Base.et" {
+ ID "508AB2013EEE1E00"
+ components {
+  InventoryItemComponent "{5222EB4D0C73006B}" {
+   Attributes SCR_ItemAttributeCollection "{5222EB4D0A2B466B}" {
+    ItemDisplayName UIInfo "{5222EB4D07D865FA}" {
+     Name "! NAME !"
+     Description "! DESCRIPTION !"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 0.1
+     SizeSetupStrategy Manual
+     ItemDimensions 5 5 5
+     ItemVolume 200
+     DimensionScaler 1
+     RestingAdditiveRotationLS 0 0 0
+     RestingAdditiveOffsetLS 0 0 0
+    }
+    ItemAnimationAttributes ItemAnimationAttributes "{65669216B995CE86}" {
+     AnimationAttachments {
+      AnimationAttachmentInfo "{65669216B995CE93}" {
+       AnimGraph "{23D570C6F82A90E5}Assets/Items/Misc/workspaces/Ballistic_Table.agr"
+       AnimInstance "{D03248D6BCD4DEB6}Assets/Items/Misc/workspaces/player_Ballistic_Table.asi"
+       BindingName "Gadget"
+      }
+     }
+     AllowInspection 1
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{65669216B995CE96}" {
+      CameraPreset Top
+      CameraOrbitAngles 35 -25 -25
+      CameraDistanceToItem 2
+      FOV 10
+      AspectRatio 1
+      LodModel 1
+     }
+     CharacterModifierAttributes "{65669216B995CE9D}" {
+      ADSSpeedLimit 1
+     }
+    }
+    m_eQuickSlotSize SLOT_1x1
+    m_SlotType SLOT_GADGETS_STORAGE
+   }
+  }
+  MeshObject "{65669216B995CEA0}" {
+   Object "{35054A71A764B615}Assets/Items/Misc/BalisticTable/RangeTable_01.xob"
+   InheritVisibility 1
+  }
+  RigidBody "{65669216B995CEA5}" {
+   Enabled 1
+   LinearDamping 0.5
+   AngularDamping 0.5
+   AngularSleepingThreashold 1
+   ModelGeometry 1
+  }
+  SCR_BallisticTableComponent "{65669216B995CEA6}" {
+   m_bReplaceZerosWithDash 1
+   m_aGridFillWeights {
+    1 1 1 1 1
+   }
+   m_eAnimVariable MAP
+  }
+  SCR_SoundDataComponent "{5B18D20ED0099A17}" {
+   m_aAudioSourceConfiguration {
+    SCR_AudioSourceConfiguration "{5B18D209080A5D15}" {
+     m_sSoundProject "{13F8D0DE67678118}Sounds/Items/_SharedData/PickUp/Items_PickUp_Map.acp"
+    }
+    SCR_AudioSourceConfiguration "{5B18D2091B885AE6}" {
+     m_sSoundProject "{13F8D0DE67678118}Sounds/Items/_SharedData/PickUp/Items_PickUp_Map.acp"
+    }
+    SCR_AudioSourceConfiguration "{5B18D20930D9E274}" {
+     m_sSoundProject "{13F8D0DE67678118}Sounds/Items/_SharedData/PickUp/Items_PickUp_Map.acp"
+    }
+   }
+  }
+  ActionsManagerComponent "{508AB5952B584B2E}" {
+   ActionContexts {
+    UserActionContext "{508AC2ABEC97066C}" {
+    }
+    UserActionContext "{65669216B995CEB1}" {
+     ContextName "NextPage"
+     Position PointInfo "{65669216B995CEB3}" {
+      Offset 0.1356 0 0
+     }
+     Radius 0.1
+    }
+    UserActionContext "{65669216B995CEB5}" {
+     ContextName "PreviousPage"
+     Position PointInfo "{65669216B995CEB4}" {
+      Offset -0.1356 0 0
+     }
+     Radius 0.1
+    }
+   }
+   additionalActions {
+    SCR_ChangeBallisticPageAction "{65669216B995CEB9}" {
+     ParentContextList {
+      "PreviousPage"
+     }
+     UIInfo UIInfo "{65669216B995CEB8}" {
+      Name "#AR-UserAction_PreviousBallisticPage"
+     }
+     m_iStep -1
+    }
+    SCR_ChangeBallisticPageAction "{65669216B995CEC0}" {
+     ParentContextList {
+      "NextPage"
+     }
+     UIInfo UIInfo "{65669216B995056E}" {
+      Name "#AR-UserAction_NextBallisticPage"
+     }
+    }
+    SCR_ChangeBallisticShellTypeAction "{65669216B9950569}" {
+     ParentContextList {
+      "PreviousPage"
+     }
+     UIInfo UIInfo "{65669216B9950568}" {
+      Name "#AR-UserAction_PreviousShellType"
+     }
+     m_iStep -1
+    }
+    SCR_ChangeBallisticShellTypeAction "{65669216B9950567}" {
+     ParentContextList {
+      "NextPage"
+     }
+     UIInfo UIInfo "{65669216B9950566}" {
+      Name "#AR-UserAction_NextShellType"
+     }
+    }
+    SCR_EquipItemAction "{6324CBA730A3A963}" : "{068D8D646964D12A}Prefabs/Characters/Core/Actions/EquipGadgetAction.conf" {
+    }
+   }
+  }
+ }
+ coords 92.603 2.434 225.295
+ {
+  PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+   ID "65669216D95D7403"
+   coords 0 0 0
+   angleY 0
+   m_MarkerColor 0 0 0 1
+   m_sQuadName "mark-question"
+   m_fWorldSize 40
+   m_sDescription "Секретная папка"
+   m_bVisibleForEmptyFaction 1
+   m_bShowForAnyFaction 1
+  }
+ }
+}

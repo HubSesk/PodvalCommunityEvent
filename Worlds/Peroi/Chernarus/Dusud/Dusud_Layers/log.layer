@@ -1,0 +1,37 @@
+$grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
+ {
+  coords 5183.996 380.594 9794.72
+  m_sTitle "Защитили Штаб ЧДКЗ"
+  m_iScore 50
+  m_sFactionKey "Ses_ChDKZ"
+ }
+ {
+  coords 5250.839 382.071 9441.999
+  m_sTitle "Захватили Штаб ЧДКЗ"
+  m_iScore 50
+  m_sFactionKey "RHS_AFRF"
+ }
+ {
+  coords 6249.911 313.214 7894.174
+  m_sTitle "Кс выжил"
+  m_iScore 50
+  m_sFactionKey "Ses_ChDKZ"
+ }
+ {
+  coords 6245.284 312.776 7893.918
+  m_sTitle "Убили Кса"
+  m_iScore 50
+  m_sFactionKey "RHS_AFRF"
+ }
+}
+GenericEntity : "{E6FC6DD69FA3479F}Prefabs/System/DRG_MissionEndTimerPrefab.et" {
+ components {
+  DRG_MissionEndTimerComponent "{651B0839B21B3BBF}" {
+   m_iMissionTime 2400
+   m_aTimeLeftWarningTimers {
+    300
+   }
+  }
+ }
+ coords 6901.626 397.719 11341.015
+}
