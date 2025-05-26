@@ -1,0 +1,42 @@
+GenericEntity : "{7A333AFB11EA847A}Prefabs/System/DRG_VehicleDestroyPrefab.et" {
+ components {
+  DRG_VehicleDestroyComponent "{65733BD6110AE8FC}" {
+   m_aVehicleLossLogics {
+    VehicleLossLogic "{6574C0BEFF0ABBC4}" {
+     m_bAdvanceGameStage 1
+     m_sSuccessObjectiveNames {
+      "objgradkill"
+     }
+     m_sFailedObjectiveNames {
+      "objgradsave"
+     }
+     m_sVehicleEntityNames {
+      "BM_21_1_Ural_TEST1" "BM_21_1_Ural_TEST2" "BM_21_1_Ural_TEST3"
+     }
+     m_sMessage "Бринанты уничтожили Грады"
+    }
+   }
+  }
+ }
+ coords 5480.832 0 3837.973
+}
+$grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
+ objgradkill {
+  coords 804.016 0 1297.105
+  m_sTitle "Уничтожили Грады"
+  m_sFactionKey "UK"
+ }
+ objgradsave {
+  coords 870.86 1.477 944.384
+  m_sTitle "Защитили Грады"
+  m_sFactionKey "USSR"
+ }
+}
+GenericEntity : "{E6FC6DD69FA3479F}Prefabs/System/DRG_MissionEndTimerPrefab.et" {
+ components {
+  DRG_MissionEndTimerComponent "{651B0839B21B3BBF}" {
+   m_iMissionTime 2400
+  }
+ }
+ coords 2515.513 267.734 10924.56
+}

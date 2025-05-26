@@ -1,0 +1,50 @@
+SCR_ChimeraCharacter : "{9DE22FB5586591CC}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{03810BEF182ADA0B}Prefabs/Items/Equipment/Binoculars/Rangefinder_Vector21.et"
+      }
+     }
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_Sniper"
+    Icon "{0A78405E73C36477}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Sharpshooter.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{334637C0D98CBE44}Prefabs/Jase_Kotovich/Weapons/Rifles/m107/Barret_M107A1.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{B96830B1D2EC36AF}Prefabs/Characters/HeadGear/Helmet_PASGT_01/Helmet_PASGT_Googles_Balaclava_Tan_CDF.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{41A9C55B61F375F0}Prefabs/Items/Equipment/Backpacks/Backpack_Kolobok.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{5F38CCE59325B11D}" {
+     PrefabsToSpawn {
+      "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{89B49CDEBBEC973A}Prefabs/Weapons/Magazines/Magazine_127x99_M107A1_10rnd_M2.et" "{89B49CDEBBEC973A}Prefabs/Weapons/Magazines/Magazine_127x99_M107A1_10rnd_M2.et" "{89B49CDEBBEC973A}Prefabs/Weapons/Magazines/Magazine_127x99_M107A1_10rnd_M2.et" "{89B49CDEBBEC973A}Prefabs/Weapons/Magazines/Magazine_127x99_M107A1_10rnd_M2.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6572BB8FF0983603}" {
+     TargetStorage "Back/Backpack_Kolobok.et"
+     PrefabsToSpawn {
+      "{89B49CDEBBEC973A}Prefabs/Weapons/Magazines/Magazine_127x99_M107A1_10rnd_M2.et" "{89B49CDEBBEC973A}Prefabs/Weapons/Magazines/Magazine_127x99_M107A1_10rnd_M2.et" "{89B49CDEBBEC973A}Prefabs/Weapons/Magazines/Magazine_127x99_M107A1_10rnd_M2.et" "{89B49CDEBBEC973A}Prefabs/Weapons/Magazines/Magazine_127x99_M107A1_10rnd_M2.et" "{1EC2D6189AD265BF}Prefabs/Items/Equipment/RangeCard/RangeCard_M107.et"
+     }
+    }
+   }
+  }
+ }
+}
