@@ -1,13 +1,37 @@
+GameEntity : "{74FC6D2BB3A217FC}Prefabs/Items/Equipment/BalisticTable/c130.et" {
+ coords 1394.341 74.22 3194.62
+ angleY 78.948
+ {
+  PS_ManualMarker {
+   ID "65669216D95D7403"
+   m_fWorldSize 20
+  }
+ }
+}
 $grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
  {
   coords 2831.869 434.767 4239.76
-  m_sTitle "Захватили аэропорт"
-  m_sFactionKey "RHS_USAF"
+  m_sTitle "Захватили секретные документы"
+  m_iScore 50
+  m_sFactionKey "RHS_AFRF"
  }
  {
   coords 2831.212 435.163 4239.13
-  m_sTitle "Удержали аэропорт"
+  m_sTitle "Не дали украсть документы"
+  m_iScore 50
+  m_sFactionKey "UK"
+ }
+ {
+  coords 1520.667 389.35 4013.598
+  m_sTitle "Убили Кса"
+  m_iScore 50
   m_sFactionKey "RHS_AFRF"
+ }
+ {
+  coords 1311.191 559.387 4035.866
+  m_sTitle "Кс выжил"
+  m_iScore 50
+  m_sFactionKey "UK"
  }
 }
 GenericEntity : "{E6FC6DD69FA3479F}Prefabs/System/DRG_MissionEndTimerPrefab.et" {
