@@ -1,0 +1,24 @@
+SCR_ChimeraCharacter : "{96BCD8ED65994666}Prefabs/Characters/Factions/BLUFOR/UK_Army/UK2/UK2_BaseLoadout.et" {
+ ID "520EC961A090B1EE"
+ components {
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_sName "Radioman"
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Radioman"
+    Icon "{BF9056C06A6FA320}UI/Icons/rto.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{C8DA73D7C1820533}Prefabs/Weapons/Rifles/L85/A1/Rifle_L85A2_op.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Back {
+     Prefab "{A3E19E754552334B}Prefabs/Items/Equipment/Radios/Radio_PRC352.et"
+    }
+   }
+  }
+ }
+}

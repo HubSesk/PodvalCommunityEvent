@@ -1,0 +1,56 @@
+GenericEntity : "{645F57AD6D6B351C}Prefabs/Weapons/Rifles/L85/LSW_A1/Rifle_L85_LSW_A1_base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  MeshObject "{CFBAA4B701F95D69}" {
+   Object "{4E8DE792794CB122}Assets/Weapons/Rifles/L85A1/L86A1_01.xob"
+  }
+  SCR_WeaponAttachmentsStorageComponent "{51F080D5CE45A1A2}" {
+   Attributes SCR_ItemAttributeCollection "{51F080D5C64F12C5}" {
+    CustomAttributes {
+     AimingModifierAttributes "{566C7D15A071B88E}" {
+      DeploymentPoints {
+       PivotPointInfoItem "{5DE743499AD16E91}" {
+        StabilizationPoints {
+         DeploymentPointInfo LLeg {
+          Offset 0 -0.0352 0.2702
+         }
+         DeploymentPointInfo RLeg {
+          Offset 0 0.0387 0.2702
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{5D9F3AF79EC9FBC8}" {
+     AttachmentSlot InventoryStorageSlot Handguard {
+      PivotID "slot_optics"
+      Offset -0.0004 -0.0213 -0.0013
+      Prefab "{CCA2C7A662439781}Prefabs/Weapons/Attachments/Rails/b18/b18.et"
+     }
+     AttachmentType AttachmentRIS1913 "{5D9F3AF677781A93}" {
+     }
+    }
+    AttachmentSlotComponent "{5D9F3AF79EC9FBD4}" {
+     AttachmentSlot InventoryStorageSlot optics {
+      Offset -0.0019 0.0076 -0.0104
+      Prefab "{30B41A4172CBD098}Prefabs/Weapons/Attachments/Optics/ta31rco/Optic_TA31RCO_ARD_army.et"
+     }
+     AttachmentType AttachmentOpticsRIS1913 "{5D9F3AF6BAF1C668}" {
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     "LEFT HAND TARGET" DeploymentPointInfo LHT {
+      Offset -0.0541 -0.0278 -0.2722
+     }
+     MagazineTemplate "{A0554460C6C95EA8}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_HP_B_30rnd_M855A1_last5tracer.et"
+    }
+   }
+  }
+ }
+ coords -0.715 0.8 2.051
+}

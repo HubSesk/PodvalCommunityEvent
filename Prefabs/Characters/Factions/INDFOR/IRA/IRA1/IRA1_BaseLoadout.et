@@ -1,0 +1,64 @@
+SCR_ChimeraCharacter : "{E12B4D930AB1417D}Prefabs/Characters/Factions/INDFOR/IRA/Character_IRA_base.et" {
+ ID "520EC961A090B1EE"
+ components {
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_sName "BASE"
+   m_bIsPlayable 1
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "BASE"
+    Icon "{3566286CC6365B1B}UI/Icons/unknow.edds"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{CB379AD8EC48690C}Prefabs/Characters/HeadGear/Balaclavas/Balaclava_v1/Balaclava_v1_BLK.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{688C4289C3B91EF3}Prefabs/Characters/Uniforms/Jacket_M70_DPM_68.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{20D80A4DAA97F6CF}Prefabs/Characters/Uniforms/Trousers_Combat_84Pat_DPM_01.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{F05A35BCC44BE9FC}Prefabs/Characters/Footwear/TankerBoots_US_01/TankerBoots_US_01.et"
+    }
+    LoadoutSlotInfo Vest {
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{4F71E7468E78DDD2}Prefabs/Characters/Handwear/Gloves_Leather_01/Gloves_Leather_01.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{65769318E3AFA709}" {
+     TargetStorage "Pants/Trousers_Combat_84Pat_DPM_01.et"
+     PrefabsToSpawn {
+      ""
+     }
+    }
+    ItemsInitConfigurationItem "{65769318E3B5ADC4}" {
+     TargetStorage "Jacket/Jacket_M70_DPM_68.et"
+     PrefabsToSpawn {
+      "" "" "" "" "" ""
+     }
+    }
+    ItemsInitConfigurationItem "{65769318EEA0C61E}" {
+     TargetStorage "Jacket/Jacket_M70_DPM_68.et"
+     PrefabsToSpawn {
+      "" "" "" "" "" ""
+     }
+    }
+    ItemsInitConfigurationItem "{65769318ECE5EB79}" {
+     TargetStorage "Pants/Trousers_Combat_84Pat_DPM_01.et"
+     PrefabsToSpawn {
+      "" ""
+     }
+    }
+   }
+  }
+ }
+}

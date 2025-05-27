@@ -1,0 +1,29 @@
+GenericEntity : "{EAD0C688A22AC7DC}Prefabs/Weapons/Rifles/L85/A1/Rifle_L85A1_base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{5D9F3AF79EC9FBC8}" {
+     AttachmentSlot InventoryStorageSlot Handguard {
+      PivotID "slot_optics"
+      Offset -0.0004 -0.0213 -0.0013
+      Prefab "{CCA2C7A662439781}Prefabs/Weapons/Attachments/Rails/b18/b18.et"
+     }
+     AttachmentType AttachmentRIS1913 "{5D9F3AF677781A93}" {
+     }
+    }
+    AttachmentSlotComponent "{5D9F3AF79EC9FBD4}" {
+     AttachmentSlot InventoryStorageSlot optics {
+     }
+     AttachmentType AttachmentOpticsRIS1913 "{5D9F3AF6BAF1C668}" {
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     MagazineTemplate "{A0554460C6C95EA8}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_HP_B_30rnd_M855A1_last5tracer.et"
+    }
+   }
+  }
+ }
+ coords -0.601 0.816 2.293
+ angleY -22.685
+}
