@@ -1,0 +1,55 @@
+SCR_ChimeraCharacter : "{ED1E2EB1E51F7BBE}Prefabs/Characters/Factions/BLUFOR/UK_Army/UK2_SPN/UK2_SPN_BaseLoadout.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{FAE8B9F7CEA49696}Prefabs/Items/Equipment/Binoculars/Rangefinder_Vector21_lc.et"
+      }
+     }
+    }
+   }
+  }
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_sName "Squad Leader"
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Icon "{A0C4B723DCAEF8FF}UI/Icons/berets.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{EA0375CBD876C102}Prefabs/Weapons/Rifles/L85/A1/SPN/Rifle_L85A2_SD_SU230.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
+   WeaponTemplate "{9C325E41A6DF40E1}Prefabs/Weapons/Handguns/Glock/Handgun_Glock45_tan.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{E086DE6B7A13D0A1}Prefabs/Characters/HeadGear/Hat_Beret_01/Hat_Beret_01_rmp_red.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{C5E7592C94DC6D4C}Prefabs/Items/Equipment/Backpacks/backpack_Wartech_BB102/Backpack_Wartech_BB102_MC.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6576CE8F77B6B572}" {
+     PrefabsToSpawn {
+      "{AA70F585A048263E}Prefabs/Items/Equipment/Radios/Radio_ANPRC152A_Multi.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6576CE8DDD038638}" {
+     TargetStorage "Back/Backpack_Wartech_BB102_MC.et"
+     PrefabsToSpawn {
+      "{3A653B65702474C1}Prefabs/Characters/HeadGear/Helmet_OPSCORE/OPSCORE_UK2_SPN.et"
+     }
+    }
+   }
+  }
+ }
+}

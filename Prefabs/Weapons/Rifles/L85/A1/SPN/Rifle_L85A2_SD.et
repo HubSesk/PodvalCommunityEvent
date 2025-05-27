@@ -1,0 +1,53 @@
+GenericEntity : "{EAD0C688A22AC7DC}Prefabs/Weapons/Rifles/L85/A1/Rifle_L85A1_base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponSoundComponent "{5A8685198A9AEEDD}" {
+   Filenames + {
+    "{0B7CADA8F1774FA0}Sounds/Weapons/Rifles/M4A1/Suppressed/RHS_Weapons_Rifles_M4A1_Shot_Suppressed.acp"
+   }
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{5D9F3AF79EC9FBC8}" {
+     AttachmentSlot InventoryStorageSlot Handguard {
+      PivotID "slot_optics"
+      Offset -0.0004 -0.0213 -0.0013
+      Prefab "{CCA2C7A662439781}Prefabs/Weapons/Attachments/Rails/b18/b18.et"
+     }
+     AttachmentType AttachmentRIS1913 "{5D9F3AF677781A93}" {
+     }
+    }
+    AttachmentSlotComponent "{5D9F3AF79EC9FBD4}" {
+     AttachmentSlot InventoryStorageSlot optics {
+      Offset 0 0.0075 0
+      Prefab "{482B9B157016B0DC}Prefabs/Weapons/Attachments/Optics/aimpoint_t1/Optic_t1_base.et"
+     }
+     AttachmentType AttachmentOpticsRIS1913 "{5D9F3AF6BAF1C668}" {
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     components {
+      AttachmentSlotComponent "{6576CE83E9588AD5}" {
+       AttachmentSlot InventoryStorageSlot "{6576CE83D3058A18}" {
+        PivotID "barrel_muzzle"
+        Offset 0 0 -0.0758
+        ChildPivotID "snap_weapon"
+        Prefab "{CB2ED665F4671DDA}Prefabs/Weapons/Attachments/Muzzle/SUREFIRE/SF_RC3.et"
+        DisablePhysicsInteraction 1
+        InspectionWidgetOffset 0 0.0812 0.4719
+       }
+       AttachmentType AttachmentMuzzle556_45 "{6576CE83C3B10B4E}" {
+       }
+      }
+      CaseEjectingEffectComponent "{5D9F3AF79EC9FB28}" {
+       OverrideByAttachment 1
+      }
+     }
+     MagazineTemplate "{A0554460C6C95EA8}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_HP_B_30rnd_M855A1_last5tracer.et"
+    }
+   }
+  }
+ }
+ coords 0 -0.143 0
+ angleY 16.16
+}

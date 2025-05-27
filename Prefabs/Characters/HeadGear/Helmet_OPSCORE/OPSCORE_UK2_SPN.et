@@ -1,0 +1,26 @@
+GameEntity : "{144F85C6489875B7}Prefabs/Characters/HeadGear/Helmet_OPSCORE/Helmet_OPSCORE_SF_Coy_Peltor.et" {
+ ID "50D485E1435D6C72"
+ components {
+  RHS_HelmetNodeStorageComponent "{5DB13C5777E6E695}" {
+   Attributes SCR_ItemAttributeCollection "{5DB13C5760610D64}" {
+    ItemDisplayName UIInfo "{5DB13C575E2AFE37}" {
+     Name "#RHS-Headgear_OPSCORE_SF_Name (#RHS-Headgear_Peltor_Name_short) - #RHS-Camo_MULTICAM"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo Masks {
+     Prefab "{B370D7A2DDBB73B7}Prefabs/Characters/HeadGear/Balaclavas/Balaclava_v1/Balaclava_v1_Coyote_brown.et"
+    }
+   }
+   WornMaterialsOverride {
+    "" "" "{D2E987702B548A41}Assets/Characters/HeadGear/Headset_Peltor/data/olive_01.emat" "{EADF6FA729614945}Assets/Characters/HeadGear/Helmet_OPSCORE_SF/data/opscore_MC_RGR.emat"
+   }
+   ItemMaterialsOverride {
+    "" "{D2E987702B548A41}Assets/Characters/HeadGear/Headset_Peltor/data/olive_01.emat" "{EADF6FA729614945}Assets/Characters/HeadGear/Helmet_OPSCORE_SF/data/opscore_MC_RGR.emat"
+   }
+  }
+ }
+ coords -0.055 1.562 1.828
+}

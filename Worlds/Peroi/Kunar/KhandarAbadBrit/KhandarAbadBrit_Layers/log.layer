@@ -1,0 +1,20 @@
+$grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
+ {
+  coords 2831.869 434.767 4239.76
+  m_sTitle "Захватили аэропорт"
+  m_sFactionKey "RHS_USAF"
+ }
+ {
+  coords 2831.212 435.163 4239.13
+  m_sTitle "Удержали аэропорт"
+  m_sFactionKey "RHS_AFRF"
+ }
+}
+GenericEntity : "{E6FC6DD69FA3479F}Prefabs/System/DRG_MissionEndTimerPrefab.et" {
+ components {
+  DRG_MissionEndTimerComponent "{651B0839B21B3BBF}" {
+   m_iMissionTime 2400
+  }
+ }
+ coords 2772.594 276.388 4116.711
+}
