@@ -1,0 +1,223 @@
+GenericEntity : "{DBEE873EA98E9D77}Prefabs/Weapons/Assault/SCAR_H/Rifle_SCAR_H_base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponSoundComponent "{5A8685198A9AEEDD}" {
+   Filenames +{
+   }
+  }
+  ProcAnimComponent "{6477216FF2D69F33}" {
+   Parameters {
+    ProcAnimParams "{6477216FFE724769}" {
+    }
+   }
+  }
+  SCR_WeaponAttachmentsStorageComponent "{51F080D5CE45A1A2}" {
+   Attributes SCR_ItemAttributeCollection "{51F080D5C64F12C5}" {
+    ItemDisplayName WeaponUIInfo "{5222CB07CFF6712A}" {
+     Name "#TF-Weapon_SCAR_H_Name MREX"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{64615D5DD76DAEAD}" {
+    }
+    ItemAnimationAttributes ItemAnimationAttributes "{5284960E1D29F45C}" {
+     IkSettings {
+      ItemIKSettings "{5284960E1C7C18A7}" {
+      }
+      ItemIKSettings "{5D48CC48D8A46AE0}" {
+      }
+      ItemIKSettings "{5284960E131A980A}" {
+      }
+     }
+    }
+    CustomAttributes {
+     AimingModifierAttributes "{566C7D15A071B88E}" {
+      DeploymentPoints {
+       PivotPointInfoItem "{64615D5DD76DAEB1}" {
+        "Point info" DeploymentPointInfo dp {
+        }
+       }
+      }
+     }
+     SCR_RecoilCameraShakeParams "{58DEF2AB0413E346}" {
+     }
+     PreviewRenderAttributes "{52BAB5E48C906DB8}" {
+     }
+     ItemOneHandAnimAttributes "{64615D5DD76DAEC5}" {
+     }
+    }
+   }
+  }
+  SlotManagerComponent "{64E49ECD40B75A80}" {
+   Slots {
+    EntitySlotInfo Handguard {
+     Offset 0 0.0091 0.1214
+     Prefab "{1A762D9E935CFDEF}Prefabs/Weapons/Attachments/Mounts/SCAR_Handguard/Handguard_SCAR_MREX_FDE.et"
+    }
+    EntitySlotInfo Buttstock {
+    }
+   }
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{64615D5DD76DAECE}" {
+     AttachmentSlot InventoryStorageSlot optic_ris {
+      Prefab "{89B977FE26BD60DD}Prefabs/Weapons/Attachments/Optics/pas13g/Optic_Thermal_pas13g_w_eyecup_dummy.et"
+     }
+     AttachmentType AttachmentOpticsRIS1913 "{6477216D9A0969C3}" {
+     }
+    }
+    AttachmentSlotComponent "{64615D5DD76DAED4}" {
+     AttachmentSlot InventoryStorageSlot BayonetSlot {
+      Offset -0.0019 0.0755 0.4307
+      Prefab "{0FFFB0BCE1A21A2E}Prefabs/Weapons/Attachments/Lasers/anpeq16/Laser_ANPEQ16.et"
+     }
+     AttachmentType AttachmentRIS1913Short "{6477216A22703BE0}" {
+     }
+    }
+    AttachmentSlotComponent "{64615D5DD76DAED7}" {
+     AttachmentSlot InventoryStorageSlot Handguard {
+     }
+     AttachmentType AttachmentHandGuardM16 "{64615D5DD76DAED5}" {
+     }
+    }
+    SightsComponent "{BB23A637957CFFF8}" {
+     SightsRanges {
+      SightRangeInfo "{64615D5DD76DAEDD}" {
+       WeaponPosition PointInfo "{64615D5DD76DAEED}" {
+       }
+      }
+      SightRangeInfo "{64615D5DD76DAEEB}" {
+       WeaponPosition PointInfo "{64615D5DD76DAEEA}" {
+       }
+      }
+      SightRangeInfo "{64615D5DD76DAEE9}" {
+       WeaponPosition PointInfo "{64615D5DD76DAEF4}" {
+       }
+      }
+      SightRangeInfo "{64615D5DD76DAEF0}" {
+       WeaponPosition PointInfo "{64615D5DD76DAEFE}" {
+       }
+      }
+      SightRangeInfo "{64615D5DD76DAEFD}" {
+       WeaponPosition PointInfo "{64615D5DD76DAEFB}" {
+       }
+      }
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     components {
+      AttachmentSlotComponent "{64615D5DD76DAE19}" {
+       AttachmentSlot InventoryStorageSlot Muzzle {
+        Prefab "{1030E826B42148BE}Prefabs/Weapons/Attachments/Muzzle/Suppressor_AAC_SDN6/Suppressor_AAC_SDN6.et"
+       }
+       AttachmentType AttachmentMuzzle762_51 "{64615D5DD76DAE26}" {
+       }
+      }
+      CaseEjectingEffectComponent "{5122AAD190FCA21D}" {
+       EffectPosition EntitySlotInfo "{5122BA87B56F471A}" {
+       }
+      }
+     }
+     MuzzleEndPositions {
+      PointInfo "{B80A64F4B6CFB9BF}" {
+      }
+     }
+     ProjectileSpawnPositions {
+      PointInfo "{50F64C476EC435CA}" {
+      }
+     }
+     FireModes {
+      BaseFireMode "{B80A64F4A8EF8333}" {
+      }
+      BaseFireMode "{619AB45BF76565F3}" {
+      }
+     }
+     MagazineWell MagazineWellSCAR_H "{64615D5D870D46EC}" {
+     }
+     WeaponAimModifiers {
+      SwayWeaponAimModifier "{521AE9A27BDC1E6F}" {
+      }
+      RecoilWeaponAimModifier "{64615D5DD76DAE31}" {
+       LinearData RecoilData "{64615D5DD76DAE3D}" {
+       }
+       AngularData RecoilData "{64615D5DD76DAE3B}" {
+       }
+       TurnOffsetData RecoilData "{64615D5DD76DAE39}" {
+       }
+      }
+      ZeroingWeaponAimModifier "{64615D5DD76DAE46}" {
+      }
+     }
+     UIInfo MuzzleUIInfo "{2FBBA72C906C627E}" {
+      m_MagIndicator SCR_MagazineIndicatorConfiguration "{565ECB55D6F6D63D}" {
+      }
+     }
+     "LEFT HAND TARGET" DeploymentPointInfo lht {
+     }
+     RIGHT_HAND_TARGET DeploymentPointInfo rht {
+     }
+     BUTSTOCK_TRANSFORMATION DeploymentPointInfo bt {
+     }
+     MagazinePosition InventoryStorageSlot "{B80A64F4C834E9CB}" {
+     }
+     MagazineTemplate "{C9DBAD43CEFA9EB2}Prefabs/Weapons/Magazines/Magazine_762x51_SCAR_H_20rnd_m61.et"
+    }
+    WeaponAnimationComponent "{60B4EA76EB15F6E0}" {
+     AnimInjection AnimationAttachmentInfo "{64615D5DD76DAE56}" {
+     }
+    }
+   }
+  }
+  ActionsManagerComponent "{A29AE67FF4D82B0F}" {
+   ActionContexts {
+    UserActionContext "{5086F9ADF588DCA4}" {
+     Position PointInfo "{5086F9ADE97650DF}" {
+     }
+    }
+    UserActionContext "{5956E32BAAADE657}" {
+     Position PointInfo "{5956E329E6B11261}" {
+     }
+    }
+    UserActionContext "{5A1E58F7B04F9BE5}" {
+     Position PointInfo "{64615D5DD76DAE58}" {
+     }
+    }
+    UserActionContext "{5A1E58F7AED270D4}" {
+     Position PointInfo "{64615D5DD76DAE67}" {
+     }
+    }
+    UserActionContext "{618A84270A2BFDC0}" {
+     UIInfo SCR_ActionContextUIInfo "{618A842787792024}" {
+     }
+     Position PointInfo "{618A842792A66B70}" {
+     }
+    }
+    UserActionContext "{64615D5DD76DAE6F}" {
+     Position PointInfo "{64615D5DD76DAE6E}" {
+     }
+    }
+    UserActionContext "{647942250D02474C}" {
+     Position PointInfo "{64794226ECAE0E18}" {
+     }
+    }
+    UserActionContext "{64EEA0D878890592}" {
+     Position PointInfo "{64794226ECAE0E18}" {
+     }
+    }
+   }
+   additionalActions {
+    TF_FlipSightUserAction "{647942266E521DD3}" {
+     UIInfo UIInfo "{64794227569F5550}" {
+     }
+    }
+    TF_FlipSightUserAction "{64EEA0D81D6EB0E0}" {
+     UIInfo UIInfo "{64794227569F5550}" {
+     }
+    }
+   }
+  }
+ }
+ coords 199.584 51.93 2439.414
+ angleX 0.055
+ angleY 89.993
+ angleZ 91.539
+}
