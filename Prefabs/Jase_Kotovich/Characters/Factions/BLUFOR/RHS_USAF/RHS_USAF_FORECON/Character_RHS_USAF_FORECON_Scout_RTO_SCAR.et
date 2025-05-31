@@ -1,0 +1,54 @@
+SCR_ChimeraCharacter : "{727988529E6D5B83}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_FORECON/Character_RHS_USAF_FORECON_Scout_RTO.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{189DAC0BA205BA31}Prefabs/Weapons/Assault/SCAR_H/Rifle_SCAR_H_STD_Su230_S.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponTemplate "{0228B8EFBA99AC1D}Prefabs/Weapons/Misc/SpectrumDevice/Device_SpectrumDevice_base.et"
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{61EAD0F3ED8E47F9}" {
+     TargetStorage "Pants/crye_pants_marpat.et"
+    }
+    ItemsInitConfigurationItem "{61EAF780835EEFEE}" {
+     TargetStorage "Vest/Vest_JPC_okinawa_Coy8.et/radio/Pouch_AVS_MBITR_Radio_Coy.et"
+    }
+    ItemsInitConfigurationItem "{63356E6E24559EFD}" {
+     TargetStorage "Jacket/Jacket_Crye_Combat_Shirt_MARPAT.et"
+    }
+    ItemsInitConfigurationItem "{623402AA8FF61A06}" {
+     TargetStorage "Vest/Vest_JPC_okinawa_Coy8.et/flex/Pouch_OpenTop_M27_1_pouch.et"
+     PrefabsToSpawn {
+      "{C9DBAD43CEFA9EB2}Prefabs/Weapons/Magazines/Magazine_762x51_SCAR_H_20rnd_m61.et" "{C9DBAD43CEFA9EB2}Prefabs/Weapons/Magazines/Magazine_762x51_SCAR_H_20rnd_m61.et" "{C9DBAD43CEFA9EB2}Prefabs/Weapons/Magazines/Magazine_762x51_SCAR_H_20rnd_m61.et"
+     }
+    }
+    ItemsInitConfigurationItem "{623402AA8FF61A0B}" {
+     TargetStorage "Vest/Vest_JPC_okinawa_Coy8.et/tako/Pouch_PCGEN3_takoPouch.et"
+     PrefabsToSpawn {
+      "{C9DBAD43CEFA9EB2}Prefabs/Weapons/Magazines/Magazine_762x51_SCAR_H_20rnd_m61.et" "{C9DBAD43CEFA9EB2}Prefabs/Weapons/Magazines/Magazine_762x51_SCAR_H_20rnd_m61.et"
+     }
+    }
+    ItemsInitConfigurationItem "{63356E6A26A63FF0}" {
+     TargetStorage "Vest/Vest_JPC_okinawa_Coy8.et/Tako/Pouch_Filbe_M18_1.et"
+    }
+    ItemsInitConfigurationItem "{63356E6A26C49280}" {
+     TargetStorage "Vest/Vest_JPC_okinawa_Coy8.et/m18_2/Pouch_Filbe_M18_2.et"
+    }
+    ItemsInitConfigurationItem "{63356E6A0952FFC2}" {
+     TargetStorage "Vest/Vest_JPC_okinawa_Coy8.et/m67_2/Pouch_Filbe_M67_Base.et"
+    }
+    ItemsInitConfigurationItem "{63356E6A08B3D3E3}" {
+     TargetStorage "Vest/Vest_JPC_okinawa_Coy8.et/m67_1/Pouch_Filbe_M67_2.et"
+    }
+    ItemsInitConfigurationItem "{657E54E589798033}" {
+     TargetStorage "Vest/Vest_JPC_okinawa_Coy8.et/tako2/Pouch_PCGEN3_takoPouch.et"
+     PrefabsToSpawn {
+      "{C9DBAD43CEFA9EB2}Prefabs/Weapons/Magazines/Magazine_762x51_SCAR_H_20rnd_m61.et" "{C9DBAD43CEFA9EB2}Prefabs/Weapons/Magazines/Magazine_762x51_SCAR_H_20rnd_m61.et"
+     }
+    }
+   }
+  }
+ }
+}

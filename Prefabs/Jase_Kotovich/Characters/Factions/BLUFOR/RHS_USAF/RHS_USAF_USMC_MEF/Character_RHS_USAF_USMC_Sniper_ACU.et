@@ -1,0 +1,83 @@
+SCR_ChimeraCharacter : "{3967948B72443B25}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_RHS_USAF_USMC_BaseLoadout.et" {
+ ID "520EC961A090BBD5"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_Sniper"
+    Icon "{0A78405E73C36477}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Sharpshooter.edds"
+    m_Image "{3E2F3E1DED88FA7F}UI/Textures/EditorPreviews/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_RHS_USAF_USMC_Sniper.edds"
+    m_aAuthoredLabels + {
+     33
+    }
+    m_aAutoLabels {
+     122 47
+    }
+   }
+  }
+  CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
+   WeaponTemplate "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+  }
+  CharacterGrenadeSlotComponent "{5A6CDA0CCF43068E}" {
+   WeaponTemplate "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{56CE827F9AD5880E}Prefabs/Weapons/Rifles/M40/Rifle_M40A5_Optic_PEQ.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
+   WeaponTemplate "{1F9DA556822C78DA}Prefabs/Weapons/Handguns/M17/Handgun_M18.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{FE551345A4A69E3D}Prefabs/Characters/HeadGear/Hat_USMC_Boonie/Hat_USMC_Boonie_Comtac.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{DE198E6D0D09D4DF}Prefabs/Characters/Uniforms/ACU_jacket/ACU_jacket_rolled_up_UCP.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{68CF844B606428D8}Prefabs/Characters/Vests/Vest_PCGen_III/Vest_PCGen_III_light.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{DA9F58F75CE6E234}Prefabs/Characters/Uniforms/ACU_pants/ACU_pants_UCP.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{8CDC9308C265ECCB}Prefabs/Characters/Footwear/ACU_boots1_base.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{9A26D311900C33EE}Prefabs/Items/Equipment/Backpacks/FILBE_hydration_pack.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{86FCDE2A2A4DD765}Prefabs/Characters/Handwear/Gloves_Oackley/Gloves_Oackley_base.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6063106E91310A3D}" {
+     TargetStorage "Pants/ACU_pants_UCP.et"
+    }
+    ItemsInitConfigurationItem "{61B52C4506FFE973}" {
+     TargetStorage "Pants/ACU_pants_UCP.et"
+    }
+    ItemsInitConfigurationItem "{651D048C906638EA}" {
+     TargetStorage "Jacket/ACU_jacket_rolled_up_UCP.et"
+    }
+    ItemsInitConfigurationItem "{652B48EE86F65FD5}" {
+     TargetStorage "Jacket/ACU_jacket_rolled_up_UCP.et"
+    }
+    ItemsInitConfigurationItem "{657055F890B3258C}" {
+     TargetStorage "Back/FILBE_hydration_pack.et"
+     PrefabsToSpawn {
+      "{925F3A6F7FE0DE64}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M61AP.et" "{925F3A6F7FE0DE64}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M61AP.et" "{925F3A6F7FE0DE64}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M61AP.et" "{925F3A6F7FE0DE64}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M61AP.et" "{925F3A6F7FE0DE64}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M61AP.et" "{925F3A6F7FE0DE64}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M61AP.et" "{925F3A6F7FE0DE64}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M61AP.et" "{925F3A6F7FE0DE64}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M61AP.et"
+     }
+    }
+    ItemsInitConfigurationItem "{657055F890B32574}" {
+     TargetStorage "Back/FILBE_hydration_pack.et"
+     PrefabsToSpawn {
+      "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et" "{8FF49793853DB2F9}Prefabs/Weapons/Magazines/m17_magazines/Magazine_9x19_m17_17rnd.et" "{8FF49793853DB2F9}Prefabs/Weapons/Magazines/m17_magazines/Magazine_9x19_m17_17rnd.et" "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+     }
+    }
+   }
+  }
+ }
+}

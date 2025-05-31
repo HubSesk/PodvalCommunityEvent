@@ -1,0 +1,28 @@
+GenericEntity : "{D0B336774F33A45B}Prefabs/Weapons/Assault/SCAR_SSR/Rifle_SCAR_SSR_base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{64E4FBE6B5E8ADA2}" {
+     AttachmentSlot InventoryStorageSlot BayonetSlot {
+     }
+    }
+    AttachmentSlotComponent "{64E4FBE6B5E8ADA4}" {
+     AttachmentSlot InventoryStorageSlot optic_ris {
+      Prefab "{ACC9B43941CE5EA6}Prefabs/Weapons/Attachments/Optics/Optic_leupoldMK4/Optic_leupoldMK4.et"
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     components {
+      AttachmentSlotComponent "{64E4FBE6B5E8ADEC}" {
+       AttachmentSlot InventoryStorageSlot Muzzle {
+        Prefab "{1030E826B42148BE}Prefabs/Weapons/Attachments/Muzzle/Suppressor_AAC_SDN6/Suppressor_AAC_SDN6.et"
+       }
+      }
+     }
+     MagazineTemplate "{C9DBAD43CEFA9EB2}Prefabs/Weapons/Magazines/Magazine_762x51_SCAR_H_20rnd_m61.et"
+    }
+   }
+  }
+ }
+}

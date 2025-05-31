@@ -1,0 +1,55 @@
+SCR_ChimeraCharacter : "{BDE77F3F89FA3EF5}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_RHS_USAF_USMC_AAT.et" {
+ ID "520EC961A090BBD5"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{E9890F026F096476}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_Acog_Rif.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{115F85FA3DB00054}Prefabs/Characters/HeadGear/Helmet_MICH_ACH/Helmet_ACH_Cov_UCP_2.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{DE198E6D0D09D4DF}Prefabs/Characters/Uniforms/ACU_jacket/ACU_jacket_rolled_up_UCP.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{DA9F58F75CE6E234}Prefabs/Characters/Uniforms/ACU_pants/ACU_pants_UCP.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{8CDC9308C265ECCB}Prefabs/Characters/Footwear/ACU_boots1_base.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{86FCDE2A2A4DD765}Prefabs/Characters/Handwear/Gloves_Oackley/Gloves_Oackley_base.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6063106E91310A3D}" {
+     TargetStorage "Pants/ACU_pants_UCP.et"
+    }
+    ItemsInitConfigurationItem "{651D048C906638EA}" {
+     TargetStorage "Jacket/ACU_jacket_rolled_up_UCP.et"
+    }
+    ItemsInitConfigurationItem "{652B48EE86F65FD5}" {
+     TargetStorage "Jacket/ACU_jacket_rolled_up_UCP.et"
+    }
+    ItemsInitConfigurationItem "{63211CCDD771C19B}" {
+     PrefabsToSpawn {
+      "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et" "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et" "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et" "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{63211CCDD771C1B3}" {
+     PrefabsToSpawn {
+      "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{64F701E100FE0F55}" {
+     PrefabsToSpawn {
+      "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
+     }
+    }
+   }
+  }
+ }
+}

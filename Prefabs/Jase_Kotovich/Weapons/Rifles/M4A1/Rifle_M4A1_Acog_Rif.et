@@ -1,0 +1,32 @@
+GenericEntity : "{283CDF7E44B5A9F8}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{5E0EEDB0BD59EE7D}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot Optics {
+      Prefab "{50475BC9E6A7ABD0}Prefabs/Weapons/Attachments/Optics/ta31rco/Optic_TA31RCO_army.et"
+     }
+    }
+    AttachmentSlotComponent "{5EA2BE949ECF03E3}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot "{5EA2BE9573F14F0C}" {
+      Prefab "{5AE8F3A22BDB534F}Prefabs/Weapons/Attachments/Lasers/anpeq15/Laser_ANPEQ15_black.et"
+     }
+    }
+    AttachmentSlotComponent "{609EE5047488AAA1}" {
+     AttachmentSlot InventoryStorageSlot REAR_IRONSIGHT {
+      Prefab "{41F3C10C4FEBC1FF}Prefabs/Weapons/Attachments/Optics/kac_folding_sights_600/kac_folding_sight_600_rear.et"
+     }
+    }
+    AttachmentSlotComponent "{629ADD528EE856C1}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot "{629ADD52ACAC8DC6}" {
+      Prefab "{C32EC74B4B0C8CA1}Prefabs/Weapons/Attachments/Lights/Light_m300c_blk.et"
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     MagazineTemplate "{A0554460C6C95EA8}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_HP_B_30rnd_M855A1_last5tracer.et"
+    }
+   }
+  }
+ }
+}
