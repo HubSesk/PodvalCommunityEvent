@@ -1,0 +1,69 @@
+$grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
+ {
+  coords 2831.869 434.767 4239.76
+  m_sTitle "Захватили высоту 1"
+  m_iScore 50
+  m_sFactionKey "Ses_TKR"
+ }
+ {
+  coords 2831.212 435.163 4239.13
+  m_sTitle "Удержали высоту 1"
+  m_iScore 50
+  m_sFactionKey "RHS_AFRF"
+ }
+ {
+  coords 1541.702 268.963 1331.719
+  m_sTitle "Удержали высоту 2"
+  m_iScore 50
+  m_sFactionKey "RHS_AFRF"
+ }
+ {
+  coords 1560.183 256.297 1334.721
+  m_sTitle "Захватили высоту 2"
+  m_iScore 50
+  m_sFactionKey "Ses_TKR"
+ }
+}
+GenericEntity : "{E6FC6DD69FA3479F}Prefabs/System/DRG_MissionEndTimerPrefab.et" {
+ components {
+  DRG_MissionEndTimerComponent "{651B0839B21B3BBF}" {
+   m_iMissionTime 2100
+  }
+ }
+ coords 2772.594 276.388 4116.711
+}
+$grp GenericEntity : "{F5EF4223ACA6169C}PrefabsEditable/Auto/Structures/Military/Flags/E_FlagPole_02_V1_AFRF.et" {
+ {
+  components {
+   SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+    m_aFlagData {
+     PS_FlagData "{6588FCB6C8DD7B29}" {
+      m_sFactionKey "RHS_AFRF"
+     }
+     PS_FlagData "{6588FCB6C83102AD}" {
+      m_sFactionKey "Ses_TKR"
+      m_iCaptureCounter 1
+     }
+    }
+   }
+  }
+  coords 2351.998 163.5 1862.771
+ }
+ {
+  components {
+   SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+    m_aFlagData {
+     PS_FlagData "{6588FCB6C8DD7B29}" {
+      m_sFactionKey "RHS_AFRF"
+     }
+     PS_FlagData "{6588FCB6C83102AD}" {
+      m_sFactionKey "Ses_TKR"
+      m_iCaptureCounter 1
+     }
+    }
+   }
+  }
+  coords 1886.636 205.656 1360.023
+  angleY -0.126
+ }
+}

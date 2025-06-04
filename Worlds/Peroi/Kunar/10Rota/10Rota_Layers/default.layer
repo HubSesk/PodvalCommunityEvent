@@ -1,0 +1,26 @@
+SCR_MapEntity MapEntity_Kunar1 : "{02367029C55BAE5E}Prefabs/World/Game/Kunar/MapEntity_Kunar.et" {
+ coords 2723.875 11.32 3354.699
+ "Map Geometry Data" "{E25E842F90019134}Worlds/Kunar/GameMaster_Kunar.topo"
+ "Satellite background image" "{332C0C32588AD77D}SatMap/satellite.edds"
+}
+SCR_AIWorld : "{E2A016456BBC697D}Prefabs/AI/SCR_AIWorld_Kunar.et" {
+ coords 2705.659 42.898 3655.054
+}
+PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 7378.353 306.536 7636.398
+}
+PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
+ components {
+  SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
+   m_iStartingHours 12
+  }
+ }
+ coords 7360.39 305.283 7645.74
+ m_bMarkersOnlyOnBriefing 1
+ m_bRemoveRedundantUnits 1
+ m_bRemoveSquadMarkers 1
+ m_iFreezeTime 300000
+ m_bDisableChat 1
+ m_bReserveSlots 1
+ m_bHolsterWeapon 1
+}
