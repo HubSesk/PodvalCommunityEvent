@@ -1,0 +1,34 @@
+$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ Description {
+  coords 941.739 0 6137.352
+  m_sTitle "Описание миссии"
+  m_sTextData "Встречный бой за контроль над лесопилкой и фермами (северная и южная)."
+  m_aVisibleForFactions {
+   "" "US" "USSR"
+  }
+  m_bEmptyFactionVisibility 1
+  m_bShowForAnyFaction 1
+ }
+ Way_To_Victory {
+  coords 961.919 0 6166.934
+  m_sTitle "Общие правила"
+  m_sTextData "СПОСОБЫ ПОБЕДЫ ДЛЯ США И СССР:"\
+  "– Захватить северную ферму (25 очков)."\
+  "– Захватить южную ферму (25 очков)."\
+  "– Захватить лесопилку (50 очков)."\
+  ""\
+  "ДЛЯ ПОБЕДЫ НУЖНО КОНТРОЛИРОВАТЬ ЛЕСОПИЛКУ И КАК МИНИМУМ ОДНУ ИЗ ФЕРМ"\
+  ""\
+  "НУЖНЫЕ ОБЪЕКТЫ ДЛЯ ЗАХВАТА ОБОЗНАЧЕНЫ РОЗОВЫМИ ФЛАГАМИ"\
+  ""\
+  "ВАЖНО:"\
+  "– Лесопилка и фермы захватываются за счёт перевеса."\
+  "– Необходимый перевес: 2:1 либо полный контроль."\
+  "– Для захвата фермы нужно быть внутри коровников."
+  m_aVisibleForFactions {
+   "" "US" "USSR"
+  }
+  m_bEmptyFactionVisibility 1
+  m_bShowForAnyFaction 1
+ }
+}
