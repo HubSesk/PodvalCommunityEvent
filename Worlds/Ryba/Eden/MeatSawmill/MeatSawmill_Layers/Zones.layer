@@ -1,0 +1,97 @@
+PolylineShapeEntity : "{7019844BAD5C4DD8}Prefabs/PolyZone/PolyZone_Border.et" {
+ components {
+  PS_PolyZone "{60E90266F25533F6}" {
+   m_cPolygonColor 1 0 0 1
+   m_cPolygonBorderColor 0.645 0.001 0.001 1
+   m_fPolygonBorderWidth 5
+  }
+ }
+ coords 2071.045 0 3731.891
+ Points {
+  ShapePoint "{60E90266E922A02A}" {
+   Position -52.327 0 -69.082
+  }
+  ShapePoint "{6588A07F27ED745C}" {
+   Position -195.608 0 289.251
+  }
+  ShapePoint "{6588A07F29F99ED2}" {
+   Position -476.828 0 861.548
+  }
+  ShapePoint "{6588A07F2F7E1933}" {
+   Position -840.106 0 1575.653
+  }
+  ShapePoint "{6588A07FD1E805F4}" {
+   Position -585.464 0 2383.633
+  }
+  ShapePoint "{6588A07FD29AD491}" {
+   Position -18.788 0 2757.885
+  }
+  ShapePoint "{6588A07FD77659A2}" {
+   Position 1064.56 0 3119.482
+  }
+  ShapePoint "{6588A07FD821C42D}" {
+   Position 1944.795 0 3225.829
+  }
+  ShapePoint "{6588A07FDA6EAF29}" {
+   Position 2281.365 0 2358.021
+  }
+  ShapePoint "{6588A07FDC86DE9E}" {
+   Position 2709.162 0 1815.01
+  }
+  ShapePoint "{6588A07FDEF47BB8}" {
+   Position 2673.436 0 663.1
+  }
+  ShapePoint "{6588A07FC2147818}" {
+   Position 2178.343 0 -363.946
+  }
+  ShapePoint "{6588A07FC741B4A7}" {
+   Position 1366.114 0 -615.872
+  }
+  ShapePoint "{6588A07FCA72D4E2}" {
+   Position 315.056 0 -206.17
+  }
+ }
+}
+$grp SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
+ US_Zone {
+  coords 4048.723 110.491 4772.025
+ }
+ USSR_Zone {
+  coords 2167.877 119.914 5437.178
+ }
+}
+PolylineShapeEntity Sawmill : "{BD11B8FAA469D169}Prefabs/PolyZone/PolyZone.et" {
+ components {
+  PS_PolyZone "{60E90266F25533F6}" {
+   m_mPolygonTexture "{928B4092981F27CB}UI/layouts/Textures/Zone.edds"
+   m_cPolygonColor 0.1 0.534 0.044 1
+   m_mPolygonTextureBorder "{CA01D453D39FB430}UI/layouts/Textures/ZoneBorder.edds"
+   m_cPolygonBorderColor 0.013 0.434 0.022 1
+   m_fPolygonBorderWidth 3.3
+   m_aVisibleForFactions {
+    "" "US" "USSR"
+   }
+  }
+ }
+ coords 3044.854 114.152 5158.039
+ Points {
+  ShapePoint "{6588A07F63DB4F2A}" {
+   Position -40.69 0 50.598
+  }
+  ShapePoint "{6588A07F62DFC4A7}" {
+   Position 50.366 0 125.866
+  }
+  ShapePoint "{6588A07F65C9F7E2}" {
+   Position 93.149 0 72.942
+  }
+  ShapePoint "{6588A07F648CB0D4}" {
+   Position 88.255 0 52.306
+  }
+  ShapePoint "{6588A07F674DC745}" {
+   Position 97.085 0 27.776
+  }
+  ShapePoint "{6588A07F6939BE85}" {
+   Position 15.123 0 4.58
+  }
+ }
+}
