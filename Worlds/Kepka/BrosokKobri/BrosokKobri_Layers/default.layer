@@ -1,0 +1,58 @@
+SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
+ coords 4707.38 339.124 10195.823
+}
+PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 4700.242 339.125 10192.511
+}
+PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
+ coords 4727.839 339.125 10164.116
+ m_bMarkersOnlyOnBriefing 1
+ m_bRemoveRedundantUnits 1
+ m_bRemoveSquadMarkers 1
+ m_iFreezeTime 300000
+ m_bDisableChat 1
+ m_bReserveSlots 1
+ m_bFreezeTimeShootingForbiden 1
+}
+$grp Vehicle : "{0EFFC9A8E672EF33}Prefabs/Vehicles/Wheeled/Ural4320/Ses_CDF/Ural4320_Ses_CDF_transport_covered.et" {
+ Ural4320_Ses_CDF_transport_covered1 {
+  coords 2728.76 361.853 6822.285
+  angleY 32.648
+  m_sAttachmentGroupName "Ses_CDF_G_012_9"
+ }
+ Ural4320_Ses_CDF_transport_covered2 {
+  coords 2719.59 363.174 6806.418
+  angleY 29.823
+  m_sAttachmentGroupName "Ses_CDF_G_011_9"
+ }
+ Ural4320_Ses_CDF_transport_covered3 {
+  coords 2709.979 364.196 6786.198
+  angleY 8.625
+  m_sAttachmentGroupName "Ses_CDF_G_010_9"
+ }
+ Ural4320_Ses_CDF_transport_covered4 {
+  coords 2686.34 361.906 6814.01
+  angleY 82.243
+  m_sAttachmentGroupName "Ses_CDF_G_002_9"
+ }
+ Ural4320_Ses_CDF_transport_covered5 {
+  coords 2663.397 361.812 6812.643
+  angleY 88.144
+  m_sAttachmentGroupName "Ses_CDF_G_001_9"
+ }
+}
+$grp Vehicle : "{52441D784D145D52}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Ses_CDF.et" {
+ BTR70_Ses_CDF1 {
+  coords 2755.414 359.627 6852.099
+  angleY 41.059
+  m_sAttachmentGroupName "Ses_CDF_G_200_9"
+ }
+ BTR70_Ses_CDF2 {
+  coords 2771.324 358.989 6870.254
+  angleY 41.059
+  m_sAttachmentGroupName "Ses_CDF_G_201_9"
+ }
+}
+SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
+ coords 2714.765 364.571 6835.598
+}
