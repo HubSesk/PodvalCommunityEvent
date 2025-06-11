@@ -1,0 +1,20 @@
+$grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
+ objgradkill {
+  coords 804.016 0 1297.105
+  m_sTitle "Захватили Вертолетную Базу"
+  m_sFactionKey "RHS_USAF"
+ }
+ objgradsave {
+  coords 870.86 1.477 944.384
+  m_sTitle "Удержали Вертолетную Базу"
+  m_sFactionKey "RHS_AFRF"
+ }
+}
+GenericEntity : "{E6FC6DD69FA3479F}Prefabs/System/DRG_MissionEndTimerPrefab.et" {
+ components {
+  DRG_MissionEndTimerComponent "{651B0839B21B3BBF}" {
+   m_iMissionTime 2400
+  }
+ }
+ coords 2515.513 267.734 10924.56
+}
