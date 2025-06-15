@@ -1,0 +1,29 @@
+SCR_MapEntity MapEntity_Zarichne1 : "{AAA23254C87C0B55}Prefabs/World/Game/Zarichne/MapEntity_Zarichne.et" {
+}
+SCR_AIWorld : "{66048E60E9D7AB77}Prefabs/AI/SCR_AIWorld_Zarichne.et" {
+ coords 0 0 0
+}
+PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 0 0 0
+}
+PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
+ components {
+  SCR_InitWeatherComponent "{61B68227C35BFE9A}" {
+   m_sInitialStartingWeatherId "Cloudy"
+  }
+  SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
+   m_iStartingHours 16
+   m_iStartingMinutes 30
+  }
+ }
+ m_bMarkersOnlyOnBriefing 1
+ m_bRemoveRedundantUnits 1
+ m_bRemoveSquadMarkers 1
+ m_iFreezeTime 300000
+ m_bDisableChat 1
+ m_bReserveSlots 1
+ m_bDisableVanillaGroupMenu 1
+ m_bDisableGarbageSystem 1
+ m_bFreezeTimeShootingForbiden 1
+ m_bDisableBuildingModeAfterFreezeTime 1
+}

@@ -1,0 +1,110 @@
+$grp Vehicle : "{3312ADBF53A16DD8}Prefabs/Vehicles/Wheeled/LAV25/LAV25_RHS.et" {
+ LAV25_RHS2 {
+  coords 4035.719 25.634 3328.349
+  angleY 156
+  m_sAttachmentGroupName "RHS_USAF_Squad_LAV25_2"
+ }
+ LAV25_RHS3 {
+  coords 4041.715 25.346 3315.898
+  angleY 156
+  m_sAttachmentGroupName "RHS_USAF_Squad_LAV25_1"
+ }
+ LAV25_RHS6 {
+  coords 4378.866 27.812 4332.841
+  angleY -98.138
+  m_sAttachmentGroupName "RHS_USAF_Squad_LAV25_3"
+ }
+ LAV25_RHS7 {
+  coords 4392.648 27.812 4334.354
+  angleY -98.138
+  m_sAttachmentGroupName "RHS_USAF_Squad_LAV25_4"
+ }
+}
+$grp Vehicle : "{3EA6F47D95867114}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB.et" {
+ M1025_armed_M2HB4 {
+  coords 4030.522 24.862 3341.609
+  angleY 154.197
+  m_sAttachmentGroupName "RHS_USAF_Squad1"
+ }
+ M1025_armed_M2HB5 {
+  coords 4018.168 24.64 3366.414
+  angleY 154.197
+  m_sAttachmentGroupName "RHS_USAF_Squad2"
+ }
+ M1025_armed_M2HB3 {
+  coords 4406.351 27.781 4335.625
+  angleY -99.934
+  m_sAttachmentGroupName "RHS_USAF_Squad3"
+ }
+ M1025_armed_M2HB6 {
+  coords 4426.974 27.781 4338.302
+  angleY -99.932
+  m_sAttachmentGroupName "RHS_USAF_Squad4"
+ }
+}
+$grp Vehicle : "{4A71F755A4513227}Prefabs/Vehicles/Wheeled/M998/M1025.et" {
+ M4 {
+  coords 4026.917 25.096 3348.573
+  angleY 151.916
+  m_sAttachmentGroupName "RHS_USAF_Squad1"
+ }
+ M5 {
+  coords 4014.565 24.675 3373.379
+  angleY 151.916
+  m_sAttachmentGroupName "RHS_USAF_Squad2"
+ }
+ M7 {
+  coords 4414.029 27.781 4336.716
+  angleY -102.204
+  m_sAttachmentGroupName "RHS_USAF_Squad3"
+ }
+ M6 {
+  coords 4437.22 27.77 4339.521
+  angleY -100.204
+  m_sAttachmentGroupName "RHS_USAF_Squad4"
+ }
+}
+Vehicle M3 : "{5674FAEB9AB7BDD0}Prefabs/Vehicles/Wheeled/M998/M998.et" {
+ coords 4049.025 25.313 3300.982
+ angleY 156
+ m_sAttachmentGroupName "RHS_USAF_HQ"
+}
+Turret : "{8094D99689ABE241}Prefabs/Weapons/Mortars/M252/Mortar_M252.et" {
+ coords 3015.178 21.126 3355.849
+ angleY -101.646
+}
+Vehicle M998_covered_long1 : "{9B1BF9644E0378D6}Prefabs/Vehicles/Wheeled/M998/M998_covered_long.et" {
+ coords 3023.394 21.479 3358.114
+ angleY 169
+ m_sAttachmentGroupName "RHS_USAF_Mortar"
+}
+GenericEntity : "{B52FAF9D4F7D48E9}Prefabs/NormalBoxes/NormalBox_AmmoBox_US.et" {
+ components {
+  SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+   MultiSlots {
+    MultiSlotConfiguration "{60E964D3F7AF8805}" {
+     SlotTemplate InventoryStorageSlot Bandages {
+      Prefab "{6113990D163E5249}Prefabs/Items/Equipment/BalisticTable/BalisticTable_US.et"
+     }
+     NumSlots 5
+    }
+    MultiSlotConfiguration "{65312EEBC487D3B5}" {
+     SlotTemplate InventoryStorageSlot Bandages {
+      Prefab "{F7807293E94D3C88}Prefabs/Weapons/Ammo/Ammo_Shell_81mm_Smoke_M819.et"
+     }
+     NumSlots 50
+    }
+    MultiSlotConfiguration "{65312EEBCA290B1A}" {
+     SlotTemplate InventoryStorageSlot Bandages {
+      Prefab "{38BAE094333E31BF}Prefabs/Weapons/Ammo/Ammo_Shell_81mm_HE_M821.et"
+     }
+     NumSlots 150
+    }
+   }
+  }
+ }
+ coords 3014.703 21.085 3358.053
+ angleX -0.297
+ angleY -9.55
+ angleZ -1.765
+}
