@@ -1,0 +1,117 @@
+Vehicle Ural4320_transport1 : "{16C1F16C9B053801}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport.et" {
+ coords 4632.624 164.028 7094.68
+}
+Vehicle APC_K17_Berezok1 : "{31F0866273C46D76}Prefabs/Vehicles/Wheeled/K17/APC_K17_Berezok.et" {
+ coords 4700.554 166.349 7093.392
+ angleX 1.728
+ angleY -178.062
+ angleZ 1.849
+ m_sAttachmentGroupName "RHS_AFRF_Bumer_Crew1"
+}
+Vehicle Ural4320_ammo1 : "{3336BE330C4F355B}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_ammo.et" {
+ coords 4639.438 164.278 7094.509
+ angleX -0.893
+ angleY 0.042
+ angleZ -2.684
+}
+Vehicle BM_21_1_Ural2 : "{3ADAB98297CE0203}Prefabs/Vehicles/Wheeled/Ural4320/BM 21-1_Ural.et" {
+ coords 4702.994 166.312 7158.911
+ angleX 0.001
+ angleY 179.976
+ angleZ 1.79
+ m_sAttachmentGroupName "RHS_AFRF_Artillery"
+}
+$grp Vehicle : "{3B899AC9449C35F0}Prefabs/Vehicles/Wheeled/K17/APC_K17_unarmed.et" {
+ APC_K17_unarmed2 {
+  coords 4683.388 165.878 7093.893
+  angleX -0.079
+  angleY -178.305
+  angleZ 2.683
+  m_sAttachmentGroupName "RHS_AFRF_Bumer_crew2"
+ }
+ APC_K17_unarmed3 {
+  coords 4717.726 167.015 7093.217
+  angleX 0.049
+  angleY 179.214
+  angleZ 3.576
+  m_sAttachmentGroupName "RHS_AFRF_Bumer_crew4"
+ }
+ APC_K17_unarmed1 {
+  coords 4683.283 158.398 7103.236
+ }
+ APC_K17_unarmed5 {
+  coords 4740.798 167.943 7092.408
+  angleX 0.049
+  angleY 179.214
+  angleZ 3.576
+  m_sAttachmentGroupName "RHS_AFRF_Bumer_crew5"
+ }
+ APC_K17_unarmed4 {
+  coords 4665.408 165.101 7093.463
+  angleX -0.079
+  angleY -178.305
+  angleZ 2.683
+  m_sAttachmentGroupName "RHS_AFRF_Bumer_crew3"
+ }
+}
+$grp Vehicle : "{3C6B3ED0C3AC30D5}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_armed_gunship_HE.et" {
+ Mi8MT_armed_gunship_HE1 {
+  coords 4623.352 164.958 7055.593
+  angleX 2.837
+  angleY 178.473
+  m_sAttachmentGroupName "RHS_AFRF_HeliCrew1"
+ }
+ Mi8MT_armed_gunship_HE2 {
+  coords 4623.604 164.271 7130.223
+  angleX 1.606
+  angleY 178.492
+  angleZ 0.68
+  m_sAttachmentGroupName "RHS_AFRF_HeliCrew2"
+ }
+}
+$grp RHS_Tank : "{48BB423641D40E77}Prefabs/Vehicles/Tracked/T14/Tank_T14.et" {
+ Tank_T1 {
+  coords 4682.048 166.014 7055.167
+  angleX 0.895
+  angleY -179.977
+  angleZ 1.79
+  m_sAttachmentGroupName "RHS_AFRF_ARMATA_crew1"
+ }
+ Tank_T2 {
+  coords 4714.323 167.01 7055.01
+  angleY 179.995
+  angleZ 1.79
+  m_sAttachmentGroupName "RHS_AFRF_ARMATA_crew2"
+ }
+}
+Vehicle Ural4320_tanker1 : "{4C81D7ED8F8C0D87}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_tanker.et" {
+ coords 4625.695 163.95 7094.701
+}
+Vehicle Ural4320_repair1 : "{A5647958579A4149}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_repair.et" {
+ coords 4645.366 164.467 7094.838
+ angleX -0.894
+ angleY 0.028
+ angleZ -1.79
+}
+Vehicle Mi8MT_unarmed_civ_blue1 : "{AB9ED3A33EE1B630}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_unarmed_civ_blue.et" {
+ coords 4527.734 159.837 7100.968
+ angleY 179.921
+ m_sAttachmentGroupName "RHS_AFRF_HQ"
+}
+$grp Vehicle : "{F86AB1BD36B33407}Prefabs/Vehicles/Wheeled/K17/APC_K17_Epoch.et" {
+ APC_K17_Epoch1 {
+  coords 4701.377 166.355 7123.835
+  angleY -178.624
+  m_sAttachmentGroupName "RHS_AFRF_Bumer_Assault_crew1"
+ }
+ APC_K17_Epoch2 {
+  coords 4683.613 165.726 7124.656
+  angleY -178.624
+  m_sAttachmentGroupName "RHS_AFRF_Bumer_Assault_crew2"
+ }
+ APC_K17_Epoch3 {
+  coords 4717.971 166.937 7124.205
+  angleY -178.624
+  m_sAttachmentGroupName "RHS_AFRF_Bumer_Assault_crew3"
+ }
+}
