@@ -1,0 +1,57 @@
+$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ {
+  coords 361.158 6.567 4422.199
+  m_sTitle "Описание"
+  m_sTextData "После многолетнего геополитического напряжения между странами Оси Востока и Запада, Россия предпринимает внезапную высадку на остров Австралии Гамильтон, захватывая город Westfield. В ответ на это США направляют экспедиционный корпус морской пехоты для немедленного контрудара и восстановления контроля над городом."
+  m_bEmptyFactionVisibility 1
+  m_bShowForAnyFaction 1
+ }
+ {
+  coords 199.863 6.946 5053.971
+  m_sTitle "Цель миссии"
+  m_sTextData "Захватить или удержать город"
+  m_bEmptyFactionVisibility 1
+  m_bShowForAnyFaction 1
+ }
+ {
+  coords 381.497 0 4546.352
+  m_sTitle "Условие"
+  m_sTextData "Для того чтоб захватить город, нужно поменять флаг, который находиться в церкви"
+ }
+ {
+  coords 262.189 0 4477.053
+  m_sTitle "Задача США"
+  m_sTextData "Поменять флаг в церкви для захвата Westfield"
+  m_aVisibleForFactions {
+   "RHS_USAF"
+  }
+ }
+ {
+  coords 269.362 0 4457.326
+  m_sTitle "Цель ВС РФ"
+  m_sTextData "Не дать США поменять флаг в церкви"
+  m_aVisibleForFactions {
+   "RHS_AFRF"
+  }
+ }
+}
+$grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
+ {
+  coords 686.79 23.876 4647.693
+  m_sTitle "Удержать город"
+  m_sFactionKey "RHS_AFRF"
+ }
+ {
+  coords 698.243 23.874 4629.4
+  m_sTitle "Освободить город"
+  m_sFactionKey "RHS_USAF"
+ }
+}
+GenericEntity : "{E6FC6DD69FA3479F}Prefabs/System/DRG_MissionEndTimerPrefab.et" {
+ components {
+  DRG_MissionEndTimerComponent "{651B0839B21B3BBF}" {
+   m_iMissionTime 2700
+  }
+ }
+ coords 239.436 0 4404.649
+}
