@@ -1,0 +1,29 @@
+SCR_ChimeraCharacter : "{E569F066E35DA06F}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO3_EMR/Character_RHS_RF_MSV_VKPO_3.0_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{37D2917D6C7CFC86}Prefabs/Weapons/Rifles/AK74M/variants/Rifle_AK105_npz_b30u_b31n_EOTPerst.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{367BEEE3BE61C597}Prefabs/Characters/HeadGear/Headgear_TSh4/Helmet_tsh4.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{45DC01791EBE2349}Prefabs/Items/Equipment/Backpacks/backpack_Wartech_BB102/Backpack_Wartech_BB102_EMR.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{65A4E6A5FF7414E8}" {
+     TargetStorage "Back/Backpack_Wartech_BB102_EMR.et"
+     PrefabsToSpawn {
+      "{E31C0D9445DA7EB5}Prefabs/Characters/HeadGear/Helmet_LShZ/variants/Helmet_LShZ_emr_kondor.et"
+     }
+    }
+   }
+  }
+ }
+ coords 4737.947 167.81 7081.082
+}

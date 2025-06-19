@@ -1,61 +1,31 @@
 $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
  {
-  coords 3712.587 136.621 6147.792
-  angleY 90
-  m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
-  m_sImageSetGlow "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
-  m_sQuadName "Task_Attack"
-  m_fWorldSize 50
-  m_sDescription "Танковые бои"
-  m_bUseWorldScale 0
-  m_bVisibleForEmptyFaction 1
-  m_bShowForAnyFaction 1
- }
- {
   coords 3952.961 117.08 5416.541
   angleY 90
   m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
   m_sImageSetGlow "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
   m_sQuadName "Task_Attack"
   m_fWorldSize 50
-  m_sDescription "Штурм укреплений "
+  m_sDescription "Передовой опорный пункт"
   m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "" "Ses_CDF" "RHS_AFRF"
+  }
   m_bVisibleForEmptyFaction 1
   m_bShowForAnyFaction 1
  }
  {
-  coords 4626.926 119.144 5141.415
+  coords 5074.527 150.411 3341.814
   angleY 90
   m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
   m_sImageSetGlow "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
   m_sQuadName "Task_Attack"
   m_fWorldSize 50
-  m_sDescription "Штурм деревни"
+  m_sDescription "Укрепрайон"
   m_bUseWorldScale 0
-  m_bVisibleForEmptyFaction 1
-  m_bShowForAnyFaction 1
- }
- {
-  coords 4345.597 117.374 4388.12
-  angleY 90
-  m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
-  m_sImageSetGlow "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
-  m_sQuadName "Task_Attack"
-  m_fWorldSize 50
-  m_sDescription "Штурм колхоза"
-  m_bUseWorldScale 0
-  m_bVisibleForEmptyFaction 1
-  m_bShowForAnyFaction 1
- }
- {
-  coords 5271.555 153.612 3312.791
-  angleY 90
-  m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
-  m_sImageSetGlow "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
-  m_sQuadName "Task_Attack"
-  m_fWorldSize 50
-  m_sDescription "Экзамен (общевойсковой бой)"
-  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "" "Ses_CDF" "RHS_AFRF"
+  }
   m_bVisibleForEmptyFaction 1
   m_bShowForAnyFaction 1
  }
@@ -64,11 +34,51 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   angleY 90
   m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
   m_sImageSetGlow "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
-  m_sQuadName "SupplyDepot"
+  m_sQuadName "RepairDepot"
   m_fWorldSize 50
   m_sDescription "Снабжение"
   m_bUseWorldScale 0
-  m_bVisibleForEmptyFaction 1
-  m_bShowForAnyFaction 1
+  m_aVisibleForFactions {
+   "RHS_AFRF"
+  }
+ }
+ {
+  coords 5212.168 154.071 3443.099
+  angleY 90
+  m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+  m_sImageSetGlow "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+  m_sQuadName "Armory"
+  m_fWorldSize 40
+  m_sDescription "Пулемётное гнездо"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_CDF" "RHS_AFRF" ""
+  }
+ }
+ {
+  coords 4589.295 142.692 3489.51
+  angleY 90
+  m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+  m_sImageSetGlow "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+  m_sQuadName "Armory"
+  m_fWorldSize 40
+  m_sDescription "Пулемётное гнездо"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_CDF" "RHS_AFRF" ""
+  }
+ }
+ {
+  coords 5346.081 157.129 3563.603
+  angleY 90
+  m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+  m_sImageSetGlow "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+  m_sQuadName "Armory"
+  m_fWorldSize 40
+  m_sDescription "Пулемётное гнездо"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_CDF" "RHS_AFRF" ""
+  }
  }
 }
