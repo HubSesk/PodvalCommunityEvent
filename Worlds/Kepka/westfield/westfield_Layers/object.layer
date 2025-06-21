@@ -16,12 +16,16 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  {
   coords 381.497 0 4546.352
   m_sTitle "Условие"
-  m_sTextData "Для того чтоб захватить город, нужно поменять флаг, который находиться в церкви"
+  m_sTextData "Для того чтоб отбить город, нужно поменять флаг в церкви."
+  m_aVisibleForFactions {
+   "RHS_USAF"
+  }
+  m_bEmptyFactionVisibility 1
  }
  {
   coords 262.189 0 4477.053
   m_sTitle "Задача США"
-  m_sTextData "Поменять флаг в церкви для захвата Westfield"
+  m_sTextData "Отбить Westfield"
   m_aVisibleForFactions {
    "RHS_USAF"
   }
@@ -29,7 +33,15 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  {
   coords 269.362 0 4457.326
   m_sTitle "Цель ВС РФ"
-  m_sTextData "Не дать США поменять флаг в церкви"
+  m_sTextData "Не дать США отбить Westfield"
+  m_aVisibleForFactions {
+   "RHS_AFRF"
+  }
+ }
+ {
+  coords 565.189 25.184 4676.516
+  m_sTitle "Условие"
+  m_sTextData "Чтоб удержать город, не дайте противнику поменять флаг в церкви"
   m_aVisibleForFactions {
    "RHS_AFRF"
   }
@@ -38,12 +50,12 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
 $grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
  {
   coords 686.79 23.876 4647.693
-  m_sTitle "Удержать город"
+  m_sTitle "Удержали город"
   m_sFactionKey "RHS_AFRF"
  }
  {
   coords 698.243 23.874 4629.4
-  m_sTitle "Освободить город"
+  m_sTitle "Освободили город"
   m_sFactionKey "RHS_USAF"
  }
 }
