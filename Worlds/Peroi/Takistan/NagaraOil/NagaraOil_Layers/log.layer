@@ -1,0 +1,34 @@
+$grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
+ {
+  coords 3885.55 93.664 9264.443
+  m_sTitle "Захватили Нефтяное месторождение"
+  m_iScore 50
+  m_sFactionKey "RHS_AFRF"
+ }
+ {
+  coords 3818.707 92.187 9617.163
+  m_sTitle "Защитили Нефтяное месторождение"
+  m_iScore 50
+  m_sFactionKey "RHS_USAF"
+ }
+ {
+  coords 6276.716 86.411 11267.313
+  m_sTitle "Уничтожили Штабную машину"
+  m_iScore 50
+  m_sFactionKey "RHS_AFRF"
+ }
+ {
+  coords 6278.085 91.251 11244.103
+  m_sTitle "Защитили Штабную машину"
+  m_iScore 50
+  m_sFactionKey "RHS_USAF"
+ }
+}
+GenericEntity : "{E6FC6DD69FA3479F}Prefabs/System/DRG_MissionEndTimerPrefab.et" {
+ components {
+  DRG_MissionEndTimerComponent "{651B0839B21B3BBF}" {
+   m_iMissionTime 2400
+  }
+ }
+ coords 6108.229 108.373 11516.165
+}
