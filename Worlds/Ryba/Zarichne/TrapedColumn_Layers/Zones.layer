@@ -1,9 +1,49 @@
 SCR_EditorRestrictionZoneEntity : "{6144B0BE2EAC6897}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneMedium.et" {
  coords 1987.405 8.132 3107.417
 }
+PolylineShapeEntity : "{7019844BAD5C4DD8}Prefabs/PolyZone/PolyZone_Border.et" {
+ components {
+  PS_PolyZone "{60E90266F25533F6}" {
+   m_mPolygonTexture "{928B4092981F27CB}UI/layouts/Textures/Zone.edds"
+   m_cPolygonColor 0 0 0 1
+   m_mPolygonTextureBorder "{CA01D453D39FB430}UI/layouts/Textures/ZoneBorder.edds"
+   m_cPolygonBorderColor 0 0 0 1
+  }
+ }
+ coords 0.249 40.218 3372.797
+ Points {
+  ShapePoint "{65C9524BEA3DF254}" {
+   Position 1316.619 0 179.678
+  }
+  ShapePoint "{65C9524BEF0C4633}" {
+   Position 1657.221 0 697.438
+  }
+  ShapePoint "{65C9524B9AE14DD4}" {
+   Position 1996.703 0 1023.18
+  }
+  ShapePoint "{65C9524B9E4901EA}" {
+   Position 3670.45 0 1075.477
+  }
+  ShapePoint "{65C9524B81E4192D}" {
+   Position 4527.464 0 1097.381
+  }
+  ShapePoint "{65C9524B85341FA2}" {
+   Position 4592.213 0 1019.512
+  }
+  ShapePoint "{65C9524B8668F3E8}" {
+   Position 4566.139 0 -737.32
+  }
+  ShapePoint "{65C9524BB24FBED2}" {
+   Position 2360.542 0 -2336.846
+  }
+  ShapePoint "{65C9524BB7D9B589}" {
+   Position 0.121 0 -3345.268
+  }
+ }
+}
 $grp SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
  {
-  coords 407.811 24.127 2092.806
+  coords 363.033 17.964 554.725
  }
  {
   coords 4025.531 27.41 3322.207
@@ -11,129 +51,108 @@ $grp SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/Restri
  {
   coords 4405.203 27.859 4332.042
  }
+ {
+  coords 2963.045 27.282 4093.436
+ }
+ {
+  coords 1226.344 10.378 3070.944
+ }
 }
 $grp PolylineShapeEntity : "{BD11B8FAA469D169}Prefabs/PolyZone/PolyZone.et" {
- Blue_border {
-  components {
-   PS_PolyZone "{60E90266F25533F6}" {
-    m_cPolygonBorderColor 0 0.002 1 1
-    m_fPolygonBorderWidth 5.8
-    m_bLineMode 1
-    m_aVisibleForFactions {
-     "" "RHS_AFRF" "RHS_USAF"
-    }
-   }
-  }
-  coords 822.496 45.168 4608.186
-  Points {
-   ShapePoint "{6596A261ED846668}" {
-    Position 0.344 0 -107.812
-   }
-   ShapePoint "{6596A261EF534E52}" {
-    Position -8.661 0 -286.642
-   }
-   ShapePoint "{6596A261EFC25654}" {
-    Position -12.874 0 -441.131
-   }
-   ShapePoint "{6596A26190DFF47C}" {
-    Position -36.911 0 -781.379
-   }
-   ShapePoint "{6596A26193A2F09C}" {
-    Position -45.839 0 -1356.412
-   }
-   ShapePoint "{6596A2619404D052}" {
-    Position -5.243 0 -2529.517
-   }
-   ShapePoint "{6596A261983F4181}" {
-    Position 262.59 0 -3329.11
-   }
-   ShapePoint "{6596A2619B1846DD}" {
-    Position 625.102 0 -4066.702
-   }
-   ShapePoint "{6596A2619A964E35}" {
-    Position 1160.179 0 -4606.002
-   }
-   ShapePoint "{6596A2619FC3C2CD}" {
-    Position -802.113 0 -4608.201
-   }
-   ShapePoint "{6596A26183AEC820}" {
-    Position -815.834 0 0.857
-   }
-  }
- }
- Red_border {
-  components {
-   PS_PolyZone "{60E90266F25533F6}" {
-    m_cPolygonBorderColor 1 0 0 1
-    m_fPolygonBorderWidth 5.6
-    m_bLineMode 1
-    m_aVisibleForFactions {
-     "" "RHS_AFRF" "RHS_USAF"
-    }
-   }
-  }
-  coords 3039.762 36.659 4593.135
-  Points {
-   ShapePoint "{6596A261A0EB80C0}" {
-    Position 11.328 0 -511.575
-   }
-   ShapePoint "{6596A261A45067E6}" {
-    Position 206.895 0 -1411.07
-   }
-   ShapePoint "{6596A261AA368C84}" {
-    Position 528.049 0 -4576.383
-   }
-   ShapePoint "{6596A261ACA06D41}" {
-    Position 1564.071 0 -4570.007
-   }
-   ShapePoint "{6596A26250F0DA82}" {
-    Position 1576.172 0 3.557
-   }
-  }
- }
  Suburban {
   components {
    PS_PolyZone "{60E90266F25533F6}" {
+    m_mPolygonTexture "{928B4092981F27CB}UI/layouts/Textures/Zone.edds"
     m_cPolygonColor 1 0 0 1
+    m_mPolygonTextureBorder "{CA01D453D39FB430}UI/layouts/Textures/ZoneBorder.edds"
     m_cPolygonBorderColor 1 0 0 1
-    m_fPolygonBorderWidth 4
+    m_fPolygonBorderWidth 4.2
     m_aVisibleForFactions {
      "" "RHS_AFRF" "RHS_USAF"
     }
    }
   }
-  coords 2032.595 6.696 3481.832
+  coords 1899.207 2.989 3161.587
   Points {
-   ShapePoint "{6596A26240125C1C}" {
-    Position -214.915 0 -29.178
+   ShapePoint "{65C9524D32DE5F4D}" {
+    Position 52.951 0 97.531
    }
-   ShapePoint "{6596A26240C39E03}" {
-    Position -243.119 0 -233.922
+   ShapePoint "{65C9524D35C202CA}" {
+    Position 103.548 0 131.166
    }
-   ShapePoint "{6596A26242209268}" {
-    Position -152.217 0 -465.005
+   ShapePoint "{65C9524D348F939D}" {
+    Position 167.099 0 0.462
    }
-   ShapePoint "{6596A2624488CE7D}" {
-    Position 46.054 0 -984.079
+   ShapePoint "{65C9524D395EC749}" {
+    Position 223.171 0 -221.274
    }
-   ShapePoint "{6596A26249FE89EF}" {
-    Position 211.435 0 -1557.08
+   ShapePoint "{65C9524D3B17E014}" {
+    Position 226.392 0 -310.089
    }
-   ShapePoint "{6596A2624F299531}" {
-    Position 326.037 0 -1750.238
+   ShapePoint "{65C9524D3A059BED}" {
+    Position 68.099 0 -347.114
    }
-   ShapePoint "{6596A2624E94DCCA}" {
-    Position 483.663 0 -1748.622
-   }
-   ShapePoint "{6596A262737E7DA7}" {
-    Position 619.974 0 -1401.59
-   }
-   ShapePoint "{6596A262771B2D6E}" {
-    Position 4.328 0 -9.616
+   ShapePoint "{65C9524D3F67BDCA}" {
+    Position 8.934 0 -34.611
    }
   }
  }
-}
-SCR_EditorRestrictionZoneEntity : "{EF72FA7CD87618D5}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneSmall.et" {
- coords 3021.517 21.435 3356.673
+ Red_Line {
+  components {
+   PS_PolyZone "{60E90266F25533F6}" {
+    m_cPolygonBorderColor 1 0.031 0 1
+    m_bLineMode 1
+    m_aVisibleForFactions {
+     "" "RHS_AFRF" "RHS_USAF"
+    }
+   }
+  }
+  coords 2473.698 22.558 4410.247
+  Points {
+   ShapePoint "{65C95248442E2D27}" {
+    Position 674.671 0 -2713.383
+   }
+   ShapePoint "{65C952484884939F}" {
+    Position 2097.375 0 -1775.162
+   }
+   ShapePoint "{65C952484C7F6927}" {
+    Position 2121.579 0 -15.395
+   }
+   ShapePoint "{65C952484F340A11}" {
+    Position 2052.8 0 59.282
+   }
+   ShapePoint "{65C9524875BDFD08}" {
+    Position 49.687 0 1.175
+   }
+  }
+ }
+ Blue_Line {
+  components {
+   PS_PolyZone "{60E90266F25533F6}" {
+    m_cPolygonBorderColor 0 0.097 1 1
+    m_bLineMode 1
+    m_aVisibleForFactions {
+     "" "RHS_AFRF" "RHS_USAF"
+    }
+   }
+  }
+  coords 1234.986 11.578 1076.251
+  Points {
+   ShapePoint "{60E90266E922A02A}" {
+    Position 74.513 0 -486.031
+   }
+   ShapePoint "{65C95248174E3D43}" {
+    Position -653.806 0 2379.395
+   }
+   ShapePoint "{65C952481EDD1447}" {
+    Position -1232.344 0 2298.373
+   }
+   ShapePoint "{65C952480596A31E}" {
+    Position -1190.903 0 -1011.463
+   }
+   ShapePoint "{65C9524808C715F7}" {
+    Position 29.45 0 -508.227
+   }
+  }
+ }
 }

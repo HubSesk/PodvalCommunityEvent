@@ -10,21 +10,21 @@ SCR_AIGroup RHS_USAF_HQ : "{0E3DC6A52A5F959E}Prefabs/Groups/BLUFOR/RHS_USAF/RHS_
  }
  m_sCustomNameSet "Командир роты"
 }
-SCR_AIGroup RHS_USAF_Mortar : "{58022D923E268D86}Prefabs/Groups/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Group_USAF_USMC_MEF_SentryTeam.et" {
+SCR_AIGroup RHS_USAF_Recon : "{D31888A77B1C4310}Prefabs/Groups/BLUFOR/RHS_USAF/RHS_USAF_FORECON/Group_USAF_USMC_FORECON_Squad.et" {
  components {
   AIFormationComponent "{507E9DC12F541FE6}" {
    DefaultFormation ""
   }
-  PS_GroupCallsignAssigner "{65931DC78520FDFD}" {
+  PS_GroupCallsignAssigner "{65C952494307BB4F}" {
    m_iCompanyCallsign 4
   }
  }
- coords 3018.355 21.272 3356.37
- angleY -103
+ coords 1226.26 10.198 3077.805
+ angleY 57.723
  m_aUnitPrefabSlots {
-  "{5C3FF716750A085F}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/RandomSoldiers/Character_RHS_USAF_USMC_TL_Random.et" "{57D7778DA629BF0F}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/RandomSoldiers/Character_RHS_USAF_USMC_Rifleman_Random.et"
+  "{B89C6B2668A11BE9}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_FORECON/RandomSoldiers/Character_RHS_USAF_FORECON_SL_Random.et" "{020316E36D4EF43C}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_FORECON/RandomSoldiers/Character_RHS_USAF_FORECON_AR_Random.et" "{1889E23C8340829C}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_FORECON/RandomSoldiers/Character_RHS_USAF_FORECON_AAR_Random.et" "{D71CB2B134CBDA20}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_FORECON/RandomSoldiers/Character_RHS_USAF_FORECON_RTO_Random.et" "{A225A3D3D7DF9C62}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_FORECON/RandomSoldiers/Character_RHS_USAF_FORECON_Medic_Random.et"
  }
- m_sCustomNameSet "Миномётный расчёт"
+ m_sCustomNameSet "Разведывательный отряд"
 }
 $grp SCR_AIGroup : "{F831DFB4A9B46152}Prefabs/Groups/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Group_USAF_USMC_MEF_RifleSquad.et" {
  RHS_USAF_Squad_LAV25_1 {
@@ -128,8 +128,8 @@ $grp SCR_AIGroup : "{F831DFB4A9B46152}Prefabs/Groups/BLUFOR/RHS_USAF/RHS_USAF_US
     m_iCompanyCallsign 3
    }
   }
-  coords 4408.69 27.772 4332.317
-  angleY -6.175
+  coords 2958.295 27.352 4083.222
+  angleY -38.175
   m_sCustomNameSet "Моторизированное отделение"
  }
  RHS_USAF_Squad4 {
@@ -142,8 +142,8 @@ $grp SCR_AIGroup : "{F831DFB4A9B46152}Prefabs/Groups/BLUFOR/RHS_USAF/RHS_USAF_US
     m_iSquadCallsign 1
    }
   }
-  coords 4428.017 27.715 4334.594
-  angleY -6.175
+  coords 2973.479 27.218 4095.396
+  angleY -38.175
   m_sCustomNameSet "Моторизированное отделение"
  }
 }

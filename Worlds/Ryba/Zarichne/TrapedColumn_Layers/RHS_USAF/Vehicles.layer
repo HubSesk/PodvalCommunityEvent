@@ -32,13 +32,13 @@ $grp Vehicle : "{3EA6F47D95867114}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB
   m_sAttachmentGroupName "RHS_USAF_Squad2"
  }
  M1025_armed_M2HB3 {
-  coords 4406.351 27.781 4335.625
-  angleY -99.934
+  coords 2954.559 27.375 4084.789
+  angleY -131.934
   m_sAttachmentGroupName "RHS_USAF_Squad3"
  }
  M1025_armed_M2HB6 {
-  coords 4426.974 27.781 4338.302
-  angleY -99.932
+  coords 2970.629 27.218 4097.988
+  angleY -131.932
   m_sAttachmentGroupName "RHS_USAF_Squad4"
  }
 }
@@ -54,13 +54,13 @@ $grp Vehicle : "{4A71F755A4513227}Prefabs/Vehicles/Wheeled/M998/M1025.et" {
   m_sAttachmentGroupName "RHS_USAF_Squad2"
  }
  M7 {
-  coords 4414.029 27.781 4336.716
-  angleY -102.204
+  coords 2960.492 27.312 4089.782
+  angleY -134.204
   m_sAttachmentGroupName "RHS_USAF_Squad3"
  }
  M6 {
-  coords 4437.22 27.77 4339.521
-  angleY -100.204
+  coords 2978.672 27.16 4104.45
+  angleY -132.204
   m_sAttachmentGroupName "RHS_USAF_Squad4"
  }
 }
@@ -68,43 +68,4 @@ Vehicle M3 : "{5674FAEB9AB7BDD0}Prefabs/Vehicles/Wheeled/M998/M998.et" {
  coords 4049.025 25.313 3300.982
  angleY 156
  m_sAttachmentGroupName "RHS_USAF_HQ"
-}
-Turret : "{8094D99689ABE241}Prefabs/Weapons/Mortars/M252/Mortar_M252.et" {
- coords 3015.178 21.126 3355.849
- angleY -101.646
-}
-Vehicle M998_covered_long1 : "{9B1BF9644E0378D6}Prefabs/Vehicles/Wheeled/M998/M998_covered_long.et" {
- coords 3023.394 21.479 3358.114
- angleY 169
- m_sAttachmentGroupName "RHS_USAF_Mortar"
-}
-GenericEntity : "{B52FAF9D4F7D48E9}Prefabs/NormalBoxes/NormalBox_AmmoBox_US.et" {
- components {
-  SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
-   MultiSlots {
-    MultiSlotConfiguration "{60E964D3F7AF8805}" {
-     SlotTemplate InventoryStorageSlot Bandages {
-      Prefab "{6113990D163E5249}Prefabs/Items/Equipment/BalisticTable/BalisticTable_US.et"
-     }
-     NumSlots 5
-    }
-    MultiSlotConfiguration "{65312EEBC487D3B5}" {
-     SlotTemplate InventoryStorageSlot Bandages {
-      Prefab "{F7807293E94D3C88}Prefabs/Weapons/Ammo/Ammo_Shell_81mm_Smoke_M819.et"
-     }
-     NumSlots 50
-    }
-    MultiSlotConfiguration "{65312EEBCA290B1A}" {
-     SlotTemplate InventoryStorageSlot Bandages {
-      Prefab "{38BAE094333E31BF}Prefabs/Weapons/Ammo/Ammo_Shell_81mm_HE_M821.et"
-     }
-     NumSlots 150
-    }
-   }
-  }
- }
- coords 3014.703 21.085 3358.053
- angleX -0.297
- angleY -9.55
- angleZ -1.765
 }
