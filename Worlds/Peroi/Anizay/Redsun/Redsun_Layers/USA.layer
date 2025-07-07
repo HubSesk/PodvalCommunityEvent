@@ -1,4 +1,11 @@
-SCR_AIGroup ka : "{673C32C19A4CD4A9}Prefabs/Groups/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/Group_USAF_USMC_MEF_D_PlatoonHQ.et" {
+Vehicle LAV25_RHS_D1 : "{123595894023C474}Prefabs/Vehicles/Wheeled/LAV25/LAV25_RHS_D.et" {
+ coords 4979.205 139.414 6984.118
+ angleX 2.827
+ angleY -69.508
+ angleZ 0.101
+ m_sAttachmentGroupName "ks"
+}
+SCR_AIGroup ks : "{673C32C19A4CD4A9}Prefabs/Groups/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/Group_USAF_USMC_MEF_D_PlatoonHQ.et" {
  components {
   AIFormationComponent "{507E9DC12F541FE6}" {
    DefaultFormation "Line"
@@ -10,8 +17,8 @@ SCR_AIGroup ka : "{673C32C19A4CD4A9}Prefabs/Groups/BLUFOR/RHS_USAF/RHS_USAF_USMC
  angleX 0.126
  angleY 22.949
  angleZ 1.997
- m_aUnitPrefabSlots + {
-  "{97ECFCC2870A3865}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/Character_RHS_USAF_USMC_D_TL_Marksman.et"
+ m_aUnitPrefabSlots {
+  "{B5D6BD36332B6A61}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/RandomSoldiers/Character_RHS_USAF_USMC_D_PL_Random.et" "{136B884279F0007B}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/RandomSoldiers/Character_RHS_USAF_USMC_D_RTO_Random.et" "{EBD042E28589DB74}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/RandomSoldiers/Character_RHS_USAF_USMC_D_Medic_Random.et" "{9A96CE9403FB66B0}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/RandomSoldiers/Character_RHS_USAF_USMC_D_CrewLdr_Random.et" "{E665F08FD3714231}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/RandomSoldiers/Character_RHS_USAF_USMC_D_Crew_Random.et"
  }
 }
 $grp SCR_AIGroup : "{77D57E626C91EABD}Prefabs/Groups/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/Group_USAF_USMC_MEF_D_Team_AT.et" {
@@ -233,13 +240,6 @@ $grp Vehicle : "{B8C827A45C1347A4}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB
   angleY -90.654
   angleZ -0.01
   m_sAttachmentGroupName "bb"
- }
- M1025_armed_M2HB_USAF_D8 {
-  coords 4978.74 139.435 6984.018
-  angleX 2.822
-  angleY -67.529
-  angleZ 0.199
-  m_sAttachmentGroupName "ks"
  }
 }
 $grp Vehicle : "{BC58478FE724BCEF}Prefabs/Vehicles/Wheeled/M998/M1025_USAF_D.et" {

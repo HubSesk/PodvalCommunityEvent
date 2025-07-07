@@ -2,45 +2,32 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  {
   coords 4617.137 146.571 9232.216
   m_sTitle "Цель миссии"
-  m_sTextData "Нам нужно захватить базу Такистанской Армии (Стройка)"
+  m_sTextData "США:"\
+  ""\
+  "Нам нужно захватить базу Такистанской Армии (Стройка)"\
+  ""\
+  "Такистанская Армия:"\
+  ""\
+  "Нам нужно удержать базу Такистанской Армии (Стройка)"
   m_aVisibleForFactions {
-   "RHS_USAF" "RHS_AFRF"
+   "RHS_USAF" "Ses_TKA"
   }
   m_bEmptyFactionVisibility 1
  }
  {
   coords 4628.404 145.946 9121.766
   m_sTitle "Условности Армии США"
-  m_sTextData "Пилотам запрещено перевозить кого то кроме Снайперских пар, остальное можно, что не запрещено правилами проекта."
+  m_sTextData "США:"\
+  ""\
+  "Пилотам запрещено перевозить кого то кроме Снайперских пар, остальное можно, что не запрещено правилами проекта."\
+  ""\
+  "Такистанская Армия:"\
+  ""\
+  "Можно все, что не запрещено правилами проекта."\
+  ""\
+  ""
   m_aVisibleForFactions {
-   "RHS_USAF" "RHS_AFRF"
-  }
-  m_bEmptyFactionVisibility 1
- }
- {
-  coords 4628.849 146.014 9111.343
-  m_sTitle "Описание миссии"
-  m_sTextData "Такистанская армия закрепилась в деревне Зарифхел и начали постройку своего штаба, Американцы хотят выбить их из этой деревни. "
-  m_aVisibleForFactions {
-   "RHS_USAF" "RHS_AFRF"
-  }
-  m_bEmptyFactionVisibility 1
- }
- {
-  coords 4627.887 145.998 9110.926
-  m_sTitle "Цель миссии"
-  m_sTextData "Нам нужно удержать базу Такистанской Армии (Стройка)"
-  m_aVisibleForFactions {
-   "Ses_TKA" "Ses_ChDKZ"
-  }
-  m_bEmptyFactionVisibility 1
- }
- {
-  coords 4619.115 145.875 9113.438
-  m_sTitle "Условности Такистанской Армии"
-  m_sTextData "Можно все, что не запрещено правилами проекта."
-  m_aVisibleForFactions {
-   "Ses_TKA" "Ses_ChDKZ"
+   "RHS_USAF" "Ses_TKA"
   }
   m_bEmptyFactionVisibility 1
  }
@@ -49,7 +36,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "Описание миссии"
   m_sTextData "Такистанская армия закрепилась в деревне Зарифхел и начали постройку своего штаба, Американцы хотят выбить их из этой деревни. "
   m_aVisibleForFactions {
-   "Ses_TKA" "Ses_ChDKZ"
+   "Ses_TKA" "RHS_USAF"
   }
   m_bEmptyFactionVisibility 1
  }
