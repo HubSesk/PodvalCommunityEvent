@@ -145,24 +145,7 @@ $grp SCR_AIGroup : "{D5BA898DF743F90B}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_3.0
   coords 4646.849 165.06 7048.989
   angleY -179.988
   m_aUnitPrefabSlots + {
-   "{4C979E19C89FC16A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO3_EMR/RandomSoldiers/Character_RHS_RF_MSV_VKPO_3.0_Sharpshooter_Random.et"
-  }
-  m_sCustomNameSet "Десантное отделение"
- }
- qwdqw2 {
-  components {
-   AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation ""
-   }
-   PS_GroupCallsignAssigner "{65A4E69197CF336E}" {
-    m_iCompanyCallsign 4
-    m_iSquadCallsign 1
-   }
-  }
-  coords 4646.666 165.02 7057.145
-  angleY -179.988
-  m_aUnitPrefabSlots + {
-   "{4C979E19C89FC16A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO3_EMR/RandomSoldiers/Character_RHS_RF_MSV_VKPO_3.0_Sharpshooter_Random.et"
+   "{4C979E19C89FC16A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO3_EMR/RandomSoldiers/Character_RHS_RF_MSV_VKPO_3.0_Sharpshooter_Random.et" "{4C979E19C89FC16A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO3_EMR/RandomSoldiers/Character_RHS_RF_MSV_VKPO_3.0_Sharpshooter_Random.et"
   }
   m_sCustomNameSet "Десантное отделение"
  }
@@ -180,5 +163,22 @@ $grp SCR_AIGroup : "{D5BA898DF743F90B}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_3.0
    "{EFD9E95B71413C6E}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO3_EMR/RandomSoldiers/Character_RHS_RF_MSV_VKPO_3.0_PL_Random.et" "{4C979E19C89FC16A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO3_EMR/RandomSoldiers/Character_RHS_RF_MSV_VKPO_3.0_Sharpshooter_Random.et" "{5C35EA02B7341881}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO3_EMR/RandomSoldiers/Character_RHS_RF_MSV_VKPO_3.0_Medic_Random.et" "{699B17C9F5D2497F}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO3_EMR/RandomSoldiers/Character_RHS_RF_MSV_VKPO_3.0_GL_Random.et" "{B80F0843E190EC33}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO3_EMR/RandomSoldiers/Character_RHS_RF_MSV_VKPO_3.0_RTO_Random.et"
   }
   m_sCustomNameSet "Управление роты"
+ }
+ bbb19 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation ""
+   }
+   PS_GroupCallsignAssigner "{65A4E691932FF4F4}" {
+    m_iCompanyCallsign 4
+    m_iPlatoonCallsign 1
+   }
+  }
+  coords 4693.446 166.357 7060.222
+  angleY -179.988
+  m_aUnitPrefabSlots {
+   "{2113EE7AFFE66688}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO3_EMR/RandomSoldiers/Character_RHS_RF_MSV_VKPO_3.0_SL_Random.et" "{9346DF38AE9494D5}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO3_EMR/RandomSoldiers/Character_RHS_RF_MSV_VKPO_3.0_AR_Random.et" "{EFF50BB1971C0976}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO3_EMR/RandomSoldiers/Character_RHS_RF_MSV_VKPO_3.0_Ammo_Random.et" "{699B17C9F5D2497F}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO3_EMR/RandomSoldiers/Character_RHS_RF_MSV_VKPO_3.0_GL_Random.et" "{C70E907F4348588B}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO3_EMR/RandomSoldiers/Character_RHS_RF_MSV_VKPO_3.0_AT_Random.et" "{5C35EA02B7341881}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO3_EMR/RandomSoldiers/Character_RHS_RF_MSV_VKPO_3.0_Medic_Random.et"
+  }
+  m_sCustomNameSet "Отделение разведки"
  }
 }
