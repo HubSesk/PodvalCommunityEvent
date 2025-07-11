@@ -1,0 +1,178 @@
+SCR_AIGroup AFRF_HQ_1 : "{0223367D44716E7B}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Summer/Group_RHS_RF_MSV_VKPO_S_PlatoonHQ.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation ""
+  }
+  PS_GroupCallsignAssigner "{65B8A5F3A6B7310B}" {
+  }
+ }
+ coords 1436.935 20.656 2366.089
+ angleY 60.85
+ m_aUnitPrefabSlots {
+  "{C9E12EB42E8CCCEE}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/RandomSoldiers/Character_RHS_RF_MSV_VKPO_S_PL_Random.et" "{4E9A85D18031A71C}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/RandomSoldiers/Character_RHS_RF_MSV_VKPO_S_GL_Random.et"
+ }
+}
+SCR_AIGroup AFRF_SOBR_1 : "{8B5C823B095566CF}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_3.0/Group_RHS_RF_MSV_VKPO_3.0_Base.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation ""
+  }
+  PS_GroupCallsignAssigner "{65B89780A2D616AF}" {
+   m_iCompanyCallsign 5
+  }
+ }
+ coords 1447.299 22.41 2369.169
+ angleY -120.087
+ m_aUnitPrefabSlots {
+  "{7284A0C1AC626E1F}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VV/RG/Blk/Character_RHS_RF_SOBR_SL.et" "{EABACB837362304D}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VV/RG/Blk/Character_RHS_RF_SOBR_Breacher.et" "{FABC8CBA1DFF203D}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VV/RG/Blk/Character_RHS_RF_SOBR_Breacher2.et" "{1F20C043111AB756}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VV/RG/Blk/Character_RHS_RF_SOBR_Breacher3.et" "{D5640BB562716235}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VV/RG/Blk/Character_RHS_RF_SOBR_Marksman.et"
+ }
+ m_sCustomNameSet "СОБР"
+}
+$grp SCR_AIGroup : "{D3940577D05FE450}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/Flora/Group_RHS_RF_MSV_Flora_RifleSquad.et" {
+ AFRF_Squad_1 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation ""
+   }
+   PS_GroupCallsignAssigner "{65B8A5F27C1E5BBF}" {
+    m_iCompanyCallsign 1
+   }
+  }
+  coords 1453.358 20.687 2358.814
+  angleY -120.595
+  m_aUnitPrefabSlots {
+   "{B3C496CCFA72D25E}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/Character_RHS_RF_MSV_Flora_SL.et" "{DE4C67D3C8F6704D}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/Character_RHS_RF_MSV_Flora_AR.et" "{D39919F23F411967}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/Character_RHS_RF_MSV_Flora_GL.et" "{8C5BB9C9A6B964AE}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/Character_RHS_RF_MSV_Flora_MG.et" "{C9CA4F02D899C1F8}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/Character_RHS_RF_MSV_Flora_AMG.et"
+  }
+ }
+ AFRF_Squad_2 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation ""
+   }
+   PS_GroupCallsignAssigner "{65B8A5F27C1E5BBF}" {
+    m_iCompanyCallsign 1
+    m_iSquadCallsign 1
+   }
+  }
+  coords 1442.704 20.565 2377.961
+  angleY -120.595
+  m_aUnitPrefabSlots {
+   "{B3C496CCFA72D25E}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/Character_RHS_RF_MSV_Flora_SL.et" "{DE4C67D3C8F6704D}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/Character_RHS_RF_MSV_Flora_AR.et" "{D39919F23F411967}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/Character_RHS_RF_MSV_Flora_GL.et" "{8C5BB9C9A6B964AE}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/Character_RHS_RF_MSV_Flora_MG.et" "{C9CA4F02D899C1F8}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/Character_RHS_RF_MSV_Flora_AMG.et"
+  }
+ }
+ AFRF_Squad_3 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation ""
+   }
+   PS_GroupCallsignAssigner "{65B8A5F27C1E5BBF}" {
+    m_iCompanyCallsign 2
+   }
+  }
+  coords 1637.052 17.653 2273.022
+  angleX -0.347
+  angleY 154.525
+  angleZ -2.807
+  m_aUnitPrefabSlots {
+   "{B3C496CCFA72D25E}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/Character_RHS_RF_MSV_Flora_SL.et" "{DE4C67D3C8F6704D}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/Character_RHS_RF_MSV_Flora_AR.et" "{D39919F23F411967}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/Character_RHS_RF_MSV_Flora_GL.et" "{8C5BB9C9A6B964AE}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/Character_RHS_RF_MSV_Flora_MG.et" "{C9CA4F02D899C1F8}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/Character_RHS_RF_MSV_Flora_AMG.et"
+  }
+ }
+ AFRF_Squad_4 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation ""
+   }
+   PS_GroupCallsignAssigner "{65B8A5F27C1E5BBF}" {
+    m_iCompanyCallsign 2
+    m_iSquadCallsign 1
+   }
+  }
+  coords 1385.324 19.781 2143.68
+  angleY 153.472
+  m_aUnitPrefabSlots {
+   "{B3C496CCFA72D25E}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/Character_RHS_RF_MSV_Flora_SL.et" "{DE4C67D3C8F6704D}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/Character_RHS_RF_MSV_Flora_AR.et" "{D39919F23F411967}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/Character_RHS_RF_MSV_Flora_GL.et" "{8C5BB9C9A6B964AE}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/Character_RHS_RF_MSV_Flora_MG.et" "{C9CA4F02D899C1F8}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/Character_RHS_RF_MSV_Flora_AMG.et"
+  }
+ }
+ AFRF_Squad_5 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation ""
+   }
+   PS_GroupCallsignAssigner "{65B8A5F27C1E5BBF}" {
+    m_iCompanyCallsign 3
+   }
+  }
+  coords 1299.978 20.656 2519.298
+  angleY -31.853
+  m_aUnitPrefabSlots {
+   "{B3C496CCFA72D25E}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/Character_RHS_RF_MSV_Flora_SL.et" "{DE4C67D3C8F6704D}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/Character_RHS_RF_MSV_Flora_AR.et" "{D39919F23F411967}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/Character_RHS_RF_MSV_Flora_GL.et" "{8C5BB9C9A6B964AE}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/Character_RHS_RF_MSV_Flora_MG.et" "{C9CA4F02D899C1F8}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/Character_RHS_RF_MSV_Flora_AMG.et"
+  }
+ }
+ AFRF_Squad_6 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation ""
+   }
+   PS_GroupCallsignAssigner "{65B8A5F27C1E5BBF}" {
+    m_iCompanyCallsign 3
+    m_iSquadCallsign 1
+   }
+  }
+  coords 1475.106 20.497 2621.314
+  angleY -30.971
+  m_aUnitPrefabSlots {
+   "{B3C496CCFA72D25E}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/Character_RHS_RF_MSV_Flora_SL.et" "{DE4C67D3C8F6704D}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/Character_RHS_RF_MSV_Flora_AR.et" "{D39919F23F411967}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/Character_RHS_RF_MSV_Flora_GL.et" "{8C5BB9C9A6B964AE}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/Character_RHS_RF_MSV_Flora_MG.et" "{C9CA4F02D899C1F8}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/Character_RHS_RF_MSV_Flora_AMG.et"
+  }
+ }
+ AFRF_Squad_7 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation ""
+   }
+   PS_GroupCallsignAssigner "{65B8A5F27C1E5BBF}" {
+    m_iCompanyCallsign 4
+   }
+  }
+  coords 1252.949 20.906 2265.944
+  angleY -104.568
+  m_aUnitPrefabSlots {
+   "{B3C496CCFA72D25E}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/Character_RHS_RF_MSV_Flora_SL.et" "{DE4C67D3C8F6704D}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/Character_RHS_RF_MSV_Flora_AR.et" "{D39919F23F411967}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/Character_RHS_RF_MSV_Flora_GL.et" "{8C5BB9C9A6B964AE}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/Character_RHS_RF_MSV_Flora_MG.et" "{C9CA4F02D899C1F8}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/Character_RHS_RF_MSV_Flora_AMG.et"
+  }
+ }
+ AFRF_Squad_8 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation ""
+   }
+   PS_GroupCallsignAssigner "{65B8A5F27C1E5BBF}" {
+    m_iCompanyCallsign 4
+    m_iSquadCallsign 1
+   }
+  }
+  coords 1566.522 18.869 2473.592
+  angleX 0.446
+  angleY 60.145
+  angleZ 0.776
+  m_aUnitPrefabSlots {
+   "{B3C496CCFA72D25E}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/Character_RHS_RF_MSV_Flora_SL.et" "{DE4C67D3C8F6704D}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/Character_RHS_RF_MSV_Flora_AR.et" "{D39919F23F411967}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/Character_RHS_RF_MSV_Flora_GL.et" "{8C5BB9C9A6B964AE}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/Character_RHS_RF_MSV_Flora_MG.et" "{C9CA4F02D899C1F8}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/Character_RHS_RF_MSV_Flora_AMG.et"
+  }
+ }
+ AFRF_Squad_9 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation ""
+   }
+   PS_GroupCallsignAssigner "{65B8A5F27C1E5BBF}" {
+    m_iCompanyCallsign 4
+    m_iSquadCallsign 2
+   }
+  }
+  coords 1491.465 20.296 2197.88
+  angleX -0.484
+  angleY 151.712
+  angleZ -2.787
+  m_aUnitPrefabSlots {
+   "{B3C496CCFA72D25E}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/Character_RHS_RF_MSV_Flora_SL.et" "{DE4C67D3C8F6704D}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/Character_RHS_RF_MSV_Flora_AR.et" "{D39919F23F411967}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/Character_RHS_RF_MSV_Flora_GL.et" "{8C5BB9C9A6B964AE}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/Character_RHS_RF_MSV_Flora_MG.et" "{C9CA4F02D899C1F8}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/Character_RHS_RF_MSV_Flora_AMG.et"
+  }
+ }
+}
