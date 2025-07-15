@@ -1,0 +1,46 @@
+$grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
+ {
+  coords 3885.55 93.664 9264.443
+  m_sTitle "Штабная машина 1 не выбита"
+  m_iScore 25
+  m_sFactionKey "RHS_AFRF"
+ }
+ {
+  coords 5117.305 137.482 9275.476
+  m_sTitle "Кс выжил"
+  m_iScore 50
+  m_sFactionKey "RHS_AFRF"
+ }
+ {
+  coords 5178.084 165.942 9092.982
+  m_sTitle "Штабная машина 1 выбита"
+  m_iScore 25
+  m_sFactionKey "RHS_USAF"
+ }
+ {
+  coords 5060.953 148.664 9272.145
+  m_sTitle "Кс убит"
+  m_iScore 50
+  m_sFactionKey "RHS_USAF"
+ }
+ {
+  coords 5454.442 159.163 8910.526
+  m_sTitle "Штабная машина 2 не выбита"
+  m_iScore 25
+  m_sFactionKey "RHS_AFRF"
+ }
+ {
+  coords 5460.543 159.349 8905.82
+  m_sTitle "Штабная машина 2 выбита"
+  m_iScore 25
+  m_sFactionKey "RHS_USAF"
+ }
+}
+GenericEntity : "{E6FC6DD69FA3479F}Prefabs/System/DRG_MissionEndTimerPrefab.et" {
+ components {
+  DRG_MissionEndTimerComponent "{651B0839B21B3BBF}" {
+   m_iMissionTime 2400
+  }
+ }
+ coords 6108.229 108.373 11516.165
+}
