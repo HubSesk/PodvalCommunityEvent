@@ -1,0 +1,54 @@
+GenericEntity : "{6A3CDCFB475BF1B2}Prefabs/System/DRG_CriticalLossPrefab.et" {
+ components {
+  DRG_CriticalLossComponent "{65213D368F1BD792}" {
+   m_iAdvanceAfterSec 5
+   m_iTestingPlayerCounts 5
+   m_aLossLogics {
+    LossLogic "{65DE85D9493F2761}" {
+     m_aLosses {
+      FactionLoss "{65DE85D8B25A71CE}" {
+       m_sFactionKey "RHS_USAF"
+      }
+     }
+     m_sObjectiveNames {
+      "KILL_USAF" "CITY_TKR"
+     }
+     m_sFailedObjectiveNames {
+      "KILL_TKR" "CITY_USAF"
+     }
+     m_bAdvanceGameStage 1
+     m_bUseMessage 1
+     m_bEventMessage "Победа обороны! ВС США понесла большие потери"
+    }
+    LossLogic "{65DE85D949C28A0E}" {
+     m_aLosses {
+      FactionLoss "{65DE85D8B6F1DF7C}" {
+       m_sFactionKey "Ses_TKR"
+      }
+     }
+     m_sObjectiveNames {
+      "KILL_TKR" "CITY_USAF"
+     }
+     m_sFailedObjectiveNames {
+      "KILL_USAF" "CITY_TKR"
+     }
+     m_bAdvanceGameStage 1
+     m_bUseMessage 1
+     m_bEventMessage "Победа атаки! Жители Такистана понесла большие потери"
+    }
+   }
+  }
+ }
+ coords 5231.513 171.049 6181.82
+}
+GenericEntity : "{E6FC6DD69FA3479F}Prefabs/System/DRG_MissionEndTimerPrefab.et" {
+ components {
+  DRG_MissionEndTimerComponent "{651B0839B21B3BBF}" {
+   m_iMissionTime 2700
+   m_aTimeLeftWarningTimers {
+    300
+   }
+  }
+ }
+ coords 5231.359 171.054 6181.176
+}
