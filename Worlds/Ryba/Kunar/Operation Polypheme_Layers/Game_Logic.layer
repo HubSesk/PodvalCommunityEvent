@@ -1,0 +1,74 @@
+GenericEntity : "{6A3CDCFB475BF1B2}Prefabs/System/DRG_CriticalLossPrefab.et" {
+ components {
+  DRG_CriticalLossComponent "{65213D368F1BD792}" {
+   m_aLossLogics {
+    LossLogic "{65BAF2ADD64E31C5}" {
+     m_aLosses {
+      FactionLoss "{65BAF2ADD8E7A35F}" {
+       m_iCriticalLossCount 4
+       m_sFactionKey "RHS_USAF"
+      }
+      FactionLoss "{65BAF2ADC0C52826}" {
+       m_iCriticalLossCount 4
+       m_sFactionKey "Ses_TKR"
+      }
+     }
+     m_sObjectiveNames {
+      "TKR_Targ2" "USA_Targ"
+     }
+    }
+   }
+  }
+ }
+ coords 968.008 0 6147.842
+}
+GenericEntity : "{93F9FBDB589D2C9A}Prefabs/System/DRG_BuildingDestroyPrefab.et" {
+ components {
+  DRG_BuildingDestroyComponent "{657476373CF666F8}" {
+   m_aBuildingDestroyLogics {
+    BuildingDestroyLogic "{65DCF2F9F296120F}" {
+     m_sSuccessObjectiveNames {
+      "USA_Crate"
+     }
+     m_sMessage "Первый ящик уничтожен."
+    }
+    BuildingDestroyLogic "{65DCF2F9F51C28DF}" {
+     m_sSuccessObjectiveNames {
+      "USA_Crate2"
+     }
+     m_sMessage "Второй ящик уничтожен."
+    }
+    BuildingDestroyLogic "{65DCF2F9F549764F}" {
+     m_sSuccessObjectiveNames {
+      "USA_Crate3"
+     }
+     m_sMessage "Третий ящик уничтожен."
+    }
+    BuildingDestroyLogic "{65DCF2F9F5D39F36}" {
+     m_sSuccessObjectiveNames {
+      "USA_Crate4"
+     }
+     m_sMessage "Четвёртый ящик уничтожен."
+    }
+    BuildingDestroyLogic "{65DCF2F9F715AB65}" {
+     m_sSuccessObjectiveNames {
+      "TKR_Targ"
+     }
+     m_sMessage "Беспилотник уничтожен."
+    }
+   }
+  }
+ }
+ coords 968.42 -2.544 6150.674
+}
+GenericEntity : "{E6FC6DD69FA3479F}Prefabs/System/DRG_MissionEndTimerPrefab.et" {
+ components {
+  DRG_MissionEndTimerComponent "{651B0839B21B3BBF}" {
+   m_iMissionTime 2400
+   m_aTimeLeftWarningTimers {
+    300
+   }
+  }
+ }
+ coords 969.141 1.058 6147.526
+}

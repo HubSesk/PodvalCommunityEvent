@@ -1,0 +1,57 @@
+Vehicle M151A2_transport1 : "{47D94E1193A88497}Prefabs/Vehicles/Wheeled/M151A2/M151A2_transport.et" {
+ coords 2061.684 138.583 1000.818
+ angleX 6.705
+ angleY 152.877
+ angleZ -1.05
+ m_sAttachmentGroupName "Ses_TKR_HQ_Sappers"
+}
+Vehicle Ural4320_transport_covered_CIV_orange1 : "{66241E0CEDFCEDFF}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered_CIV_orange.et" {
+ coords 2008.184 131.235 1067.745
+ angleX -7.341
+ angleY 74.984
+ angleZ 0.125
+ m_sAttachmentGroupName "Ses_TKR_Mortar"
+}
+Vehicle BTR70_Ses_TKG1 : "{B73E5281A78D98D6}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Ses_TKG.et" {
+ coords 2036.799 132.022 1038.875
+ angleX 9.931
+ angleY 142.914
+ angleZ 1.373
+ m_sAttachmentGroupName "Ses_TKR_Armored_Squad"
+}
+Turret : "{D1FFE458E8AC4BDB}Prefabs/Weapons/Mortars/2B14/Mortar_2B14.et" {
+ coords 2001.906 132.074 1068.571
+ angleY 79
+}
+$grp Vehicle : "{F649585ABB3706C4}Prefabs/Vehicles/Wheeled/M151A2/M151A2.et" {
+ M151A1 {
+  coords 2055.212 136.675 1014.692
+  angleX 7.948
+  angleY 150.952
+  angleZ -0.343
+  m_sAttachmentGroupName "Ses_TKR_Vehicled_Squad"
+ }
+ M151A2 {
+  coords 2048.667 134.789 1026.695
+  angleX 7.607
+  angleY 150.947
+  angleZ 0.862
+  m_sAttachmentGroupName "Ses_TKR_Vehicled_Squad2"
+ }
+}
+$grp Vehicle : "{F6B23D17D5067C11}Prefabs/Vehicles/Wheeled/M151A2/M151A2_M2HB.et" {
+ M151A2_M2HB1 {
+  coords 2058.272 137.515 1008.875
+  angleX 6.762
+  angleY 151.932
+  angleZ -0.575
+  m_sAttachmentGroupName "Ses_TKR_Vehicled_Squad"
+ }
+ M151A2_M2HB2 {
+  coords 2051.726 135.685 1020.878
+  angleX 7.953
+  angleY 151.928
+  angleZ -0.209
+  m_sAttachmentGroupName "Ses_TKR_Vehicled_Squad2"
+ }
+}

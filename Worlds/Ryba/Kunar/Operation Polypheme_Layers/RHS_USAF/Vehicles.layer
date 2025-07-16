@@ -1,0 +1,78 @@
+Vehicle M998_USAF_D1 : "{7B38CEFED1D908A1}Prefabs/Vehicles/Wheeled/M998/M998_USAF_D.et" {
+ coords 3826.878 87.43 2280.034
+ angleY 155.991
+ m_sAttachmentGroupName "RHS_USAF_SniperGroup"
+}
+Vehicle M1025_armed_M2HB_MDO_USAF_D1 : "{818BD2D100635224}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_MDO_USAF_D.et" {
+ coords 3847.319 97.884 2196.233
+ angleX 8.197
+ angleY 167.984
+ angleZ 0.073
+ m_sAttachmentGroupName "RHS_USAF_HQ"
+}
+$grp Vehicle : "{B8C827A45C1347A4}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_USAF_D.et" {
+ M1025_armed_M2HB_USAF_D1 {
+  coords 3835.361 89.843 2254.571
+  angleX 4.611
+  angleY 167.774
+  angleZ 1.371
+  m_sAttachmentGroupName "RHS_USAF_Squad2"
+ }
+ M1025_armed_M2HB_USAF_D2 {
+  coords 3841.184 92.984 2227.934
+  angleX 4.611
+  angleY 169.774
+  angleZ 1.371
+  m_sAttachmentGroupName "RHS_USAF_Squad"
+ }
+ M1025_armed_M2HB_USAF_D3 {
+  coords 3844.94 96.364 2205.965
+  angleX 8.869
+  angleY 167.846
+  angleZ -0.998
+  m_sAttachmentGroupName "RHS_USAF_Squad3"
+ }
+}
+$grp Vehicle : "{BC58478FE724BCEF}Prefabs/Vehicles/Wheeled/M998/M1025_USAF_D.et" {
+ M1025_USAF_D1 {
+  coords 3839.653 91.871 2235.921
+  angleX 5.62
+  angleY 171.827
+  angleZ 0.517
+  m_sAttachmentGroupName "RHS_USAF_Squad"
+ }
+ M1025_USAF_D2 {
+  coords 3833.043 89.057 2262.9
+  angleY 163
+  m_sAttachmentGroupName "RHS_USAF_Squad2"
+ }
+ M1025_USAF_D3 {
+  coords 3842.961 94.471 2218.202
+  angleX 8.197
+  angleY 168.011
+  angleZ 0.077
+  m_sAttachmentGroupName "RHS_USAF_Squad3"
+ }
+}
+$grp Vehicle : "{DDDD9B51F1234DF3}Prefabs/Vehicles/Helicopters/UH1H/UH1H_armed.et" {
+ UH1H_armed1 {
+  coords 2860.594 10.026 3025.577
+  angleY 32
+  m_sAttachmentGroupName "RHS_USAF_HeliCrew"
+ }
+ UH1H_armed2 {
+  coords 2830.298 10.026 3044.143
+  angleY 32
+  m_sAttachmentGroupName "RHS_USAF_HeliCrew2"
+ }
+ UH1H_armed3 {
+  coords 2683.167 8.024 3091.805
+  angleY 120.979
+  m_sAttachmentGroupName "RHS_USAF_HeliCrew3"
+ }
+ UH1H_armed4 {
+  coords 2664.542 8.026 3064.019
+  angleY 120.979
+  m_sAttachmentGroupName "RHS_USAF_HeliCrew4"
+ }
+}

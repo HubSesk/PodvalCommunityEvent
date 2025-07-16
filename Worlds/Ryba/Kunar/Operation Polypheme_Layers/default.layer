@@ -10,9 +10,7 @@ PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_Game
    m_sInitialStartingWeatherId "Cloudy"
   }
   SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
-   Enabled 0
-   m_iStartingHours 19
-   m_iStartingMinutes 40
+   m_iStartingHours 12
   }
  }
  m_bMarkersOnlyOnBriefing 1
@@ -25,15 +23,4 @@ PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_Game
  m_bDisableGarbageSystem 1
  m_bFreezeTimeShootingForbiden 1
  m_bDisableBuildingModeAfterFreezeTime 1
-}
-GenericEntity : "{04B5CC36F933A2D4}Prefabs/System/DRG_DateTimeInjectorPrefab.et" {
- components {
-  DRG_DateTimeInjectorComponent "{658E74C94A2C74AE}" {
-   m_iYear 2025
-   m_iDay 12
-   m_iHours 19
-   m_iMinutes 40
-  }
- }
- coords 0.061 0 0.16
 }

@@ -1,34 +1,26 @@
-$grp Vehicle : "{0EFFC9A8E672EF33}Prefabs/Vehicles/Wheeled/Ural4320/Ses_CDF/Ural4320_Ses_CDF_transport_covered.et" {
- Ural4320_Ses_CDF_transport_covered1 {
-  coords 5285.149 153.594 3298.291
- }
- Ural4320_Ses_CDF_transport_covered2 {
-  coords 5003.679 145.469 3808.979
-  m_sAttachmentGroupName "bbb10"
- }
+Vehicle Ural4320_Ses_CDF_transport_covered1 : "{0EFFC9A8E672EF33}Prefabs/Vehicles/Wheeled/Ural4320/Ses_CDF/Ural4320_Ses_CDF_transport_covered.et" {
+ coords 5285.149 153.594 3298.291
 }
 Turret : "{1A407760EEAE4156}Prefabs/Vehicles/Static/BaconZU23/BaconZU23_Turret_Deployed.et" {
  coords 5259.707 159.005 3303.396
 }
-$grp Vehicle : "{751AFEEA19DDFB04}Prefabs/Vehicles/Wheeled/M998/M998_covered_long_MERDC.et" {
- M998_covered_long_MERDC1 {
-  coords 3934.938 112.983 5368.206
-  angleY 158
+Vehicle Ural4320_transport_mines1 : "{349847A2905F706A}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_mines.et" {
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{65D8C8A6C6F8A1F7}" {
+     SourceMaterial "Ural_Body"
+     AssignedMaterial "{8E3AE82EEA0525F5}Assets/Vehicles/Wheeled/Ural4320/Data/Ural_4320_Body_Ses_CDF.emat"
+    }
+    MaterialAssignClass "{65D8C8A6C6F8A19C}" {
+     SourceMaterial "Ural_Details"
+     AssignedMaterial "{48D010D2764000A0}Assets/Vehicles/Wheeled/Ural4320/Data/Ural_4320_Details_Ses_CDF.emat"
+    }
+   }
+  }
  }
- M998_covered_long_MERDC2 {
-  coords 3928.834 112.8 5367.583
-  angleY -175
- }
- M998_covered_long_MERDC3 {
-  coords 3922.61 112.738 5368.802
-  angleY -154
- }
-}
-Turret : "{8094D99689ABE241}Prefabs/Weapons/Mortars/M252/Mortar_M252.et" {
- coords 5173.884 151.945 3282.599
- angleX 0.895
- angleY -0.014
- angleZ -0.895
+ coords 5002.809 145.469 3810.653
+ m_sAttachmentGroupName "bbb10"
 }
 $grp Vehicle : "{B7A8BAA37CB0AC2B}Prefabs/Vehicles/Wheeled/LAV25/LAV25_MERDC.et" {
  LAV25_MERDC1 {
@@ -41,6 +33,9 @@ $grp Vehicle : "{B7A8BAA37CB0AC2B}Prefabs/Vehicles/Wheeled/LAV25/LAV25_MERDC.et"
   angleY 78
   m_sAttachmentGroupName "bbb11"
  }
+}
+Turret : "{D1FFE458E8AC4BDB}Prefabs/Weapons/Mortars/2B14/Mortar_2B14.et" {
+ coords 5173.599 151.936 3282.365
 }
 Vehicle Ural4320_ZU1 : "{FD109F3702AAB392}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_ZU23.et" {
  coords 5238.676 153.25 3292.071
