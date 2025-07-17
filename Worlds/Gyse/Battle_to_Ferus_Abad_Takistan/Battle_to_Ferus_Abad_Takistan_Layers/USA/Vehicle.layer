@@ -1,70 +1,64 @@
-$grp Vehicle : "{123595894023C474}Prefabs/Vehicles/Wheeled/LAV25/LAV25_RHS_D.et" {
- LAV25_RHS_D1 {
-  coords 2666.72 223.49 5131.531
-  angleX -1.728
-  angleY -25.129
-  angleZ 3.004
-  m_sAttachmentGroupName "USAF_201"
- }
- LAV25_RHS_D2 {
-  coords 8945.044 291.644 5345.042
-  angleX -1.02
-  angleY 50.922
-  angleZ 0.096
-  m_sAttachmentGroupName "USAF_200"
- }
+Vehicle LAV25_RHS_D1 : "{123595894023C474}Prefabs/Vehicles/Wheeled/LAV25/LAV25_RHS_D.et" {
+ coords 6125.538 108.881 11569.638
+ angleX 1.22
+ angleY -42.844
+ angleZ -0.356
+ m_sAttachmentGroupName "USAF_103"
 }
-$grp Vehicle : "{B8C827A45C1347A4}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_USAF_D.et" {
- M1025_armed_M2HB_USAF_D1 {
-  coords 2657.202 223.036 5150.586
-  angleX -1.178
-  angleY -25.857
-  angleZ 2.779
-  m_sAttachmentGroupName "USAF_401"
- }
- M1025_armed_M2HB_USAF_D2 {
-  coords 2661.068 223.218 5142.588
-  angleX -1.178
-  angleY -25.857
-  angleZ 2.779
-  m_sAttachmentGroupName "USAF_400"
- }
- M1025_armed_M2HB_USAF_D3 {
-  coords 8930.316 291.944 5333.694
-  angleX -1.019
-  angleY 50.533
-  angleZ 0.103
+$grp Vehicle : "{81FDAD5EB644CC3D}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport_covered.et" {
+ M923A1_transport_covered1 {
+  coords 6122.203 109.26 11593.013
+  angleX 0.417
+  angleY -42.839
+  angleZ -0.386
   m_sAttachmentGroupName "USAF_100"
  }
- M1025_armed_M2HB_USAF_D4 {
-  coords 8936.233 291.822 5338.562
-  angleX -0.8
-  angleY 50.53
-  angleZ -0.077
-  m_sAttachmentGroupName "USAF_100"
+ M923A1_transport_covered2 {
+  coords 6129.688 109.179 11585.129
+  angleX 0.625
+  angleY -42.842
+  angleZ -0.58
+  m_sAttachmentGroupName "USAF_101"
+ }
+ M923A1_transport_covered3 {
+  coords 6136.867 109.043 11577.678
+  angleX 1.25
+  angleY -42.861
+  angleZ -1.16
+  m_sAttachmentGroupName "USAF_102"
  }
 }
-$grp Vehicle : "{CB4D4CF7E887B2D0}Prefabs/Vehicles/Helicopters/UH1H/UH1H_armed_gunship_HEDP.et" {
- UH1H_armed_gunship_HEDP1 {
-  coords 5753.199 109.313 11339.9
-  m_sAttachmentGroupName "USAF_304"
- }
- UH1H_armed_gunship_HEDP2 {
-  coords 5889.269 109.313 11474.988
-  m_sAttachmentGroupName "USAF_303"
- }
+Vehicle M1025_armed_M2HB_USAF_D1 : "{B8C827A45C1347A4}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_USAF_D.et" {
+ coords 6136.489 108.756 11568.981
+ angleY -45.715
+ m_sAttachmentGroupName "USAF_000"
+}
+Vehicle M1025_USAF_D1 : "{BC58478FE724BCEF}Prefabs/Vehicles/Wheeled/M998/M1025_USAF_D.et" {
+ coords 6119.007 109.094 11577.109
+ angleX 1.22
+ angleY -42.844
+ angleZ -0.356
+ m_sAttachmentGroupName "USAF_300"
+}
+Vehicle UH1H_armed_gunship_HEDP2 : "{CB4D4CF7E887B2D0}Prefabs/Vehicles/Helicopters/UH1H/UH1H_armed_gunship_HEDP.et" {
+ coords 5706.283 109.32 11473.674
+ angleY -135
+ m_sAttachmentGroupName "USAF_400"
 }
 $grp Vehicle : "{DDDD9B51F1234DF3}Prefabs/Vehicles/Helicopters/UH1H/UH1H_armed.et" {
  UH1H_armed1 {
-  coords 5864.2 109.313 11446.913
-  m_sAttachmentGroupName "USAF_300"
+  coords 5805.738 109.32 11572.834
+  angleY -135
+  m_sAttachmentGroupName "USAF_402"
  }
  UH1H_armed2 {
-  coords 5818.608 109.313 11403.324
-  m_sAttachmentGroupName "USAF_301"
+  coords 5756.558 109.32 11524.126
+  angleY -135
+  m_sAttachmentGroupName "USAF_401"
  }
  UH1H_armed3 {
-  coords 5778.933 109.313 11363.746
-  m_sAttachmentGroupName "USAF_302"
+  coords 5854.64 109.32 11622.673
+  angleY -135
+  m_sAttachmentGroupName "USAF_403"
  }
 }

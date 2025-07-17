@@ -1,33 +1,136 @@
-$grp SCR_EditorRestrictionZoneEntity : "{6144B0BE2EAC6897}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneMedium.et" {
- {
-  coords 5156.693 171.625 6116.98
+SCR_EditorRestrictionZoneEntity : "{6144B0BE2EAC6897}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneMedium.et" {
+ coords 5121.438 327.24 6906.891
+}
+PolylineShapeEntity : "{7019844BAD5C4DD8}Prefabs/PolyZone/PolyZone_Border.et" {
+ components {
+  PS_PolyZone "{60E90266F25533F6}" {
+   m_cPolygonColor 0 0 0 1
+   m_cPolygonBorderColor 0 0 0 1
+   m_aVisibleForFactions {
+    "" "RHS_USAF" "Ses_TKR"
+   }
+   m_aHideOnGameModeStates {
+    1
+   }
+  }
  }
- {
-  coords 8941.677 291.75 5339.432
- }
- {
-  coords 2660.358 223.449 5137.573
+ coords 3233.107 350.469 3569.05
+ Points {
+  ShapePoint "{65E2F54D91BDD3B3}" {
+   Position -420.521 79.522 662.037
+  }
+  ShapePoint "{65E2F54D9B541C1B}" {
+   Position -1065.135 22.952 1392.214
+  }
+  ShapePoint "{65E2F54D9BBEEAEB}" {
+   Position -774.461 58.281 2350.171
+  }
+  ShapePoint "{65E2F54D9E57C553}" {
+   Position -1223.353 -45.283 4119.249
+  }
+  ShapePoint "{65E2F54D8691C4D9}" {
+   Position 714.397 -275.56 7895.234
+  }
+  ShapePoint "{65E2F54D8AAFF9A0}" {
+   Position 2572.852 -273.296 9110.622
+  }
+  ShapePoint "{65E2F54D8854142E}" {
+   Position 3903.843 -186.505 8635.488
+  }
+  ShapePoint "{65E2F54D8D787849}" {
+   Position 5743.307 -140.258 6946.982
+  }
+  ShapePoint "{65E2F54DFA7CE3FD}" {
+   Position 5193.544 -146.063 4097.332
+  }
+  ShapePoint "{65E2F54DFD541315}" {
+   Position 4907.475 2.116 -775.564
+  }
  }
 }
 $grp SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
  {
-  coords 5817.163 109.313 11405.926
+  coords 5208.659 171.532 6121.966
  }
  {
-  coords 5856.625 109.313 11448.229
+  coords 6310.612 86.12 11265.974
  }
  {
-  coords 5771.56 109.313 11363.938
+  coords 6126.81 109.039 11577.21
+ }
+ {
+  coords 5781.409 109.312 11546.63
+  scale 1.65
  }
 }
-$grp SCR_EditorRestrictionZoneEntity : "{EF72FA7CD87618D5}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneSmall.et" {
- {
-  coords 5242.163 171.655 6142.825
+PolylineShapeEntity : "{BD11B8FAA469D169}Prefabs/PolyZone/PolyZone.et" {
+ components {
+  PS_PolyZone "{60E90266F25533F6}" {
+   m_cPolygonColor 0.109 0.871 0.301 1
+   m_cPolygonBorderColor 0.109 0.871 0.301 1
+   m_aVisibleForFactions {
+    "" "RHS_USAF" "Ses_TKR"
+   }
+   m_aHideOnGameModeStates {
+    1
+   }
+  }
  }
- {
-  coords 4383.255 437.244 6313.356
- }
- {
-  coords 6433.106 342.46 6414.335
+ coords 5495.851 166.147 6322.563
+ Points {
+  ShapePoint "{65E2F54BDF86BD66}" {
+   Position 34.519 11.693 -41.642
+  }
+  ShapePoint "{65E2F54BDC2DEB5D}" {
+   Position 102.953 26.952 -58.144
+  }
+  ShapePoint "{65E2F54BC27B6173}" {
+   Position 114.671 43.618 -86.978
+  }
+  ShapePoint "{65E2F54BC12BD7B5}" {
+   Position 16.012 53.563 -142.147
+  }
+  ShapePoint "{65E2F54BC64A7CC9}" {
+   Position -28.784 49.429 -210.15
+  }
+  ShapePoint "{65E2F54BC6F95D0E}" {
+   Position -18.295 67.598 -291.309
+  }
+  ShapePoint "{65E2F54BC4B8E7FD}" {
+   Position -67.858 76.506 -368.641
+  }
+  ShapePoint "{65E2F54BC5CA5814}" {
+   Position -136.644 75.225 -370.99
+  }
+  ShapePoint "{65E2F54BCB577E4F}" {
+   Position -166.632 31.282 -275.195
+  }
+  ShapePoint "{65E2F54BCE7FEE5E}" {
+   Position -229.089 4.663 -238.47
+  }
+  ShapePoint "{65E2F54BCF69CFF9}" {
+   Position -373.195 6.97 -264.706
+  }
+  ShapePoint "{65E2F54B33DA4F18}" {
+   Position -514.054 12.155 -350.177
+  }
+  ShapePoint "{65E2F54B37A6B9DB}" {
+   Position -565.452 13.052 -291.288
+  }
+  ShapePoint "{65E2F54B3BA1F8D4}" {
+   Position -360.453 8.04 -163.657
+  }
+  ShapePoint "{65E2F54B3917D5E9}" {
+   Position -258.548 10.657 -86.715
+  }
+  ShapePoint "{65E2F54B3D0B3696}" {
+   Position -209.104 10.038 -21.957
+  }
+  ShapePoint "{65E2F54B22D925DB}" {
+   Position -121.33 3.551 33.838
+  }
+  ShapePoint "{65E2F54B23E49001}" {
+   Position -49.554 2.583 60.215
+  }
  }
 }

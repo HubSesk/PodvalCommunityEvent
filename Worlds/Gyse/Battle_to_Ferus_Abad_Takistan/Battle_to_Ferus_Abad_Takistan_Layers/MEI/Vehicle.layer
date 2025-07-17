@@ -1,16 +1,28 @@
-Vehicle S105_red1 : "{85F0BD6AF0F42D6D}Prefabs/Vehicles/Wheeled/S105/S105_red.et" {
- coords 5240.468 171.63 6136.711
- angleX -0.123
- angleY -102.536
- angleZ -0.555
- m_sAttachmentGroupName "TKR_000"
+$grp Vehicle : "{780FA841BFE4077F}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_transport_CIV_grey.et" {
+ UAZ452_transport_CIV_grey1 {
+  coords 5191.474 171.664 6093.857
+  angleY 73.536
+  m_sAttachmentGroupName "TKR_104"
+ }
+ UAZ452_transport_CIV_grey2 {
+  coords 5248.25 171.664 6106.067
+  angleY -18.557
+  m_sAttachmentGroupName "TKR_000"
+ }
 }
-Vehicle S105_yellow1 : "{A6B0D2923262E755}Prefabs/Vehicles/Wheeled/S105/S105_yellow.et" {
- coords 5246.125 171.633 6138.12
- angleX 0.278
- angleY -102.364
- angleZ -0.061
- m_sAttachmentGroupName "TKR_000"
+$grp Vehicle : "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et" {
+ BTR1 {
+  coords 5163.392 171.625 6107.883
+  angleY 159.279
+  m_sAttachmentGroupName "TKR_100"
+ }
+ BTR2 {
+  coords 5120.155 327.234 6908.084
+  angleX 0.216
+  angleY -139.327
+  angleZ 0.185
+  m_sAttachmentGroupName "TKR_103"
+ }
 }
 $grp Vehicle : "{FB219B49A448A8EA}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered_CIV_JZD.et" {
  Ural4320_transport_covered_CIV_JZD1 {
@@ -25,9 +37,9 @@ $grp Vehicle : "{FB219B49A448A8EA}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_tra
   angleY 164.393
   m_sAttachmentGroupName "TKR_101"
  }
- Ural4320_transport_covered_CIV_JZD3 {
-  coords 5162.627 171.625 6108.405
-  angleY 164.393
-  m_sAttachmentGroupName "TKR_100"
- }
+}
+Vehicle Ural4320_ZU1 : "{FD109F3702AAB392}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_ZU23.et" {
+ coords 5243.333 171.625 6104.725
+ angleY -18.055
+ m_sAttachmentGroupName "TKR_000"
 }
