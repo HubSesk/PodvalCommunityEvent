@@ -1,0 +1,45 @@
+GenericEntity : "{7A333AFB11EA847A}Prefabs/System/DRG_VehicleDestroyPrefab.et" {
+ components {
+  DRG_VehicleDestroyComponent "{65733BD6110AE8FC}" {
+   m_aVehicleLossLogics {
+    VehicleLossLogic "{6589191B57FDD7C8}" {
+     m_bAdvanceGameStage 1
+     m_sSuccessObjectiveNames {
+      "destbenz"
+     }
+     m_sFailedObjectiveNames {
+      "savebenz"
+     }
+     m_sVehicleEntityNames {
+      "BM_21_1_Ural1" "BM_21_1_Ural2"
+     }
+     m_sMessage "Уничтожили Грады"
+    }
+   }
+  }
+ }
+ coords 572.628 16.104 2758.386
+}
+$grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
+ destbenz {
+  coords 5183.996 380.594 9794.72
+  m_sTitle "Уничтожили  Грады"
+  m_sFactionKey "UK"
+ }
+ savebenz {
+  coords 5250.839 382.071 9441.999
+  m_sTitle "Защитили Грады"
+  m_sFactionKey "RHS_AFRF"
+ }
+}
+GenericEntity : "{E6FC6DD69FA3479F}Prefabs/System/DRG_MissionEndTimerPrefab.et" {
+ components {
+  DRG_MissionEndTimerComponent "{651B0839B21B3BBF}" {
+   m_iMissionTime 2400
+   m_aTimeLeftWarningTimers {
+    300
+   }
+  }
+ }
+ coords 6901.626 397.719 11341.015
+}
