@@ -1,0 +1,31 @@
+SCR_ChimeraCharacter : "{783503FB32DD508F}Prefabs/Characters/Factions/CIV/Businessman/Character_CIV_Businessman_3.et" {
+ ID "520EC961A090B1EE"
+ components {
+  ActionsManagerComponent "{520EA1D2F659CE02}" {
+   additionalActions {
+    DRG_DeathConfirmAction "{65EF212542CD0E0F}" {
+     ParentContextList {
+      "LowerTorso"
+     }
+     UIInfo UIInfo "{65E2D0EF1870FE87}" {
+      Name "Подтвердить смерть"
+     }
+     ActionTitle "#drg_ConfirmDeathAction"
+     Duration 3
+     m_sEventMessage "#drg_ConfirmMessageDeathMessage"
+     m_aObjectivesToDone {
+      "KILL_LEADER"
+     }
+     m_aObjectivesToFail {
+      "SAVE_LEADER"
+     }
+     m_vFactionKey "RHS_USAF"
+    }
+   }
+  }
+ }
+ coords 1390.815 36.25 2353.06
+ angleX -0.891
+ angleY 95.214
+ angleZ -0.081
+}
