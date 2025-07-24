@@ -281,7 +281,7 @@ $grp GenericEntity : "{E521AEA6D14589B1}Prefabs/Props/Military/AmmoBoxes/AmmoBox
       SlotTemplate InventoryStorageSlot InventoryStorageSlot {
        Prefab "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
       }
-      NumSlots 5
+      NumSlots 10
      }
      MultiSlotConfiguration "{652A2AB2C9349859}" {
       SlotTemplate InventoryStorageSlot InventoryStorageSlot {
@@ -496,5 +496,21 @@ $grp GenericEntity : "{E521AEA6D14589B1}Prefabs/Props/Military/AmmoBoxes/AmmoBox
   }
   coords 1158.252 16.625 2771.988
   angleY -8.637
+ }
+ {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+    MultiSlots {
+     MultiSlotConfiguration "{6516A1A64BBB024F}" {
+      SlotTemplate InventoryStorageSlot InventoryStorageSlot {
+       Prefab "{C0E7CFB85EA7875E}Prefabs/ballistic_shield.et"
+      }
+      NumSlots 1
+     }
+    }
+   }
+  }
+  coords 3102.362 25.031 4290.468
+  angleY 179.335
  }
 }
