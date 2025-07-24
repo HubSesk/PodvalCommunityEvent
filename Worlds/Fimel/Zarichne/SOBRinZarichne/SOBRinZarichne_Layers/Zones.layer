@@ -1,41 +1,23 @@
-$grp SCR_EditorRestrictionZoneEntity : "{6144B0BE2EAC6897}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneMedium.et" {
- zone_freeze_USAF_1 {
-  coords 1013.11 35.303 4565.264
-  angleZ 2.826
-  m_fWarnRadius 60
-  m_fZoneRadius 75
-  m_fZoneTeleportedRadius 90
- }
- zone_freeze_USAF_2 {
-  coords 4544.873 21.348 2371.809
-  m_fWarnRadius 60
-  m_fZoneRadius 75
-  m_fZoneTeleportedRadius 90
- }
- zone_freeze_USAF_3 {
-  coords 1633.084 21.704 44.39
-  m_fWarnRadius 60
-  m_fZoneRadius 75
-  m_fZoneTeleportedRadius 90
- }
-}
 PolylineShapeEntity zone_AFRF : "{7019844BAD5C4DD8}Prefabs/PolyZone/PolyZone_Border.et" {
  components {
   PS_PolyZone "{60E90266F25533F6}" {
    m_mPolygonTexture ""
    m_cPolygonColor 1 1 1 0
    m_cPolygonBorderColor 1 0 0 1
-   m_fPolygonBorderUVScale 5
+   m_fPolygonBorderUVScale 10
    m_fPolygonBorderWidth 10
+   m_bLineMode 1
    m_aVisibleForFactions {
-    "" "RHS_AFRF"
+    "RHS_AFRF"
+   }
+   m_aHideOnGameModeStates {
    }
   }
  }
  coords 1260.044 16.944 2125.78
  Points {
   ShapePoint "{60E90266E922A02A}" {
-   Position -3.89 0 0
+   Position -3.918 0 0.007
   }
   ShapePoint "{65D69A8D507F2480}" {
    Position 1.807 0 21.368
@@ -71,7 +53,7 @@ PolylineShapeEntity zone_AFRF : "{7019844BAD5C4DD8}Prefabs/PolyZone/PolyZone_Bor
    Position 20.822 0 393.449
   }
   ShapePoint "{65D69A8D717FA16B}" {
-   Position 47.031 -0 410.214
+   Position 47.031 0 410.214
   }
   ShapePoint "{65D69A8D70BA4DA5}" {
    Position 130.501 0 459.469
@@ -163,6 +145,37 @@ PolylineShapeEntity zone_AFRF : "{7019844BAD5C4DD8}Prefabs/PolyZone/PolyZone_Bor
   ShapePoint "{65D69A8CE827FE12}" {
    Position -4.314 0 -27.42
   }
+  ShapePoint "{65F1119338D3F7EB}" {
+   Position -8.519 0 -14.499
+  }
+  ShapePoint "{65F1119350038416}" {
+   Position -3.933 0 -0.055
+  }
+  ShapePoint "{65F1119CA06456EF}" {
+   Position -3.868 0 0.193
+  }
+ }
+ {
+  PS_PolyZoneTrigger {
+   ID "60FD050E1E83544C"
+   m_sFactionKey "RHS_AFRF"
+  }
+ }
+}
+$grp SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
+ zone_freeze_USAF_1 {
+  coords 1006.874 32.533 4584.076
+  angleZ 3.407
+ }
+ zone_freeze_USAF_2 {
+  coords 4568.095 28.621 2371.443
+  angleZ -0.895
+ }
+ zone_freeze_USAF_3 {
+  coords 1637.617 16.878 8.624
+  angleX 0.895
+  angleY -0.014
+  angleZ -0.895
  }
 }
 PolylineShapeEntity zone_zarichne : "{BD11B8FAA469D169}Prefabs/PolyZone/PolyZone.et" {
@@ -206,13 +219,13 @@ PolylineShapeEntity zone_zarichne : "{BD11B8FAA469D169}Prefabs/PolyZone/PolyZone
    Position -66.381 0 339.791
   }
   ShapePoint "{65D69A8F590FC63E}" {
-   Position -65.154 -0 350.619
+   Position -65.154 0 350.619
   }
   ShapePoint "{65D69A8F598A9EA0}" {
    Position -61.612 0 357.636
   }
   ShapePoint "{65D69A8F58095870}" {
-   Position -54.423 -0 364.248
+   Position -54.423 0 364.248
   }
   ShapePoint "{65D69A8F58A3D059}" {
    Position -46.883 0 369.658

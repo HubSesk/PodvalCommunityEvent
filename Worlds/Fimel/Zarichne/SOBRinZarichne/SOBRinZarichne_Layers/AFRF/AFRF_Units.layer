@@ -7,10 +7,10 @@ SCR_AIGroup AFRF_HQ_1 : "{0FC09C311C951395}Prefabs/Groups/OPFOR/drg_AFRF_Platoon
    m_iCompanyCallsign 0
   }
  }
- coords 1437.521 20.625 2365.582
+ coords 1435.142 20.625 2370.119
  angleY 60.899
  m_aUnitPrefabSlots {
-  "{CAB92AB6CB5AEEF3}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_PL.et" "{E8648BA131EF3DF1}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_SL_v3.et"
+  "{CAB92AB6CB5AEEF3}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_PL.et"
  }
 }
 $grp SCR_AIGroup : "{3EDA372443FD105F}Prefabs/Groups/OPFOR/drg_AFRF_RifleSquad.et" {
@@ -23,52 +23,30 @@ $grp SCR_AIGroup : "{3EDA372443FD105F}Prefabs/Groups/OPFOR/drg_AFRF_RifleSquad.e
   coords 1442.29 20.625 2377.913
   angleY -117.935
   m_aUnitPrefabSlots {
-   "{53A7932FD6BDDF63}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_SL.et" "{3E2F6230E4397D70}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_AR.et" "{33FA1C11138E145A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_GL.et" "{6C38BC2A8A766993}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_MG.et" "{3AE4204A39304CE2}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_MGA.et"
+   "{53A7932FD6BDDF63}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_SL.et" "{2836211FE98BA458}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_Rifleman.et" "{2836211FE98BA458}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_Rifleman.et" "{2836211FE98BA458}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_Rifleman.et"
   }
- }
- AFRF_RS_2 {
-  components {
-   PS_GroupCallsignAssigner "{6454F7D129837B5A}" {
-    m_iCompanyCallsign 1
-    m_iSquadCallsign 1
-   }
-  }
-  coords 1453.362 20.625 2358.553
-  angleY -117.935
-  m_aUnitPrefabSlots {
-   "{53A7932FD6BDDF63}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_SL.et" "{3E2F6230E4397D70}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_AR.et" "{33FA1C11138E145A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_GL.et" "{6C38BC2A8A766993}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_MG.et" "{3AE4204A39304CE2}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_MGA.et"
-  }
- }
- AFRF_RS_3 {
-  components {
-   PS_GroupCallsignAssigner "{6454F7D129837B5A}" {
-    m_iSquadCallsign 1
-   }
-  }
-  coords 1491.654 20.344 2198.068
-  angleY 152.64
-  m_aUnitPrefabSlots {
-   "{53A7932FD6BDDF63}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_SL.et" "{3E2F6230E4397D70}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_AR.et" "{33FA1C11138E145A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_GL.et" "{6C38BC2A8A766993}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_MG.et" "{3AE4204A39304CE2}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_MGA.et"
-  }
+  m_bDeleteWhenEmpty 1
  }
  AFRF_RS_4 {
   components {
    PS_GroupCallsignAssigner "{6454F7D129837B5A}" {
-    m_iSquadCallsign 2
+    m_iSquadCallsign 1
    }
   }
   coords 1637.063 17.652 2273.073
   angleY 157.162
   m_aUnitPrefabSlots {
-   "{53A7932FD6BDDF63}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_SL.et" "{3E2F6230E4397D70}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_AR.et" "{33FA1C11138E145A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_GL.et" "{6C38BC2A8A766993}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_MG.et" "{3AE4204A39304CE2}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_MGA.et"
+   "{53A7932FD6BDDF63}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_SL.et" "{2EBF7FD7B32EE3FA}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_SR.et" "{3E2F6230E4397D70}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_AR.et" "{33FA1C11138E145A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_GL.et" "{6C38BC2A8A766993}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_MG.et" "{3AE4204A39304CE2}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_MGA.et" "{2836211FE98BA458}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_Rifleman.et"
   }
+  m_bDeleteWhenEmpty 1
  }
  AFRF_RS_5 {
   coords 1385.612 19.781 2143.854
   angleY 154.332
   m_aUnitPrefabSlots {
-   "{53A7932FD6BDDF63}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_SL.et" "{3E2F6230E4397D70}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_AR.et" "{33FA1C11138E145A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_GL.et" "{6C38BC2A8A766993}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_MG.et" "{3AE4204A39304CE2}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_MGA.et"
+   "{53A7932FD6BDDF63}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_SL.et" "{2EBF7FD7B32EE3FA}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_SR.et" "{3E2F6230E4397D70}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_AR.et" "{33FA1C11138E145A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_GL.et" "{6C38BC2A8A766993}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_MG.et" "{3AE4204A39304CE2}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_MGA.et" "{2836211FE98BA458}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_Rifleman.et"
   }
+  m_bDeleteWhenEmpty 1
  }
  AFRF_RS_6 {
   components {
@@ -79,8 +57,9 @@ $grp SCR_AIGroup : "{3EDA372443FD105F}Prefabs/Groups/OPFOR/drg_AFRF_RifleSquad.e
   coords 1300.03 20.656 2519.138
   angleY -30.545
   m_aUnitPrefabSlots {
-   "{53A7932FD6BDDF63}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_SL.et" "{3E2F6230E4397D70}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_AR.et" "{33FA1C11138E145A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_GL.et" "{6C38BC2A8A766993}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_MG.et" "{3AE4204A39304CE2}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_MGA.et"
+   "{53A7932FD6BDDF63}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_SL.et" "{2EBF7FD7B32EE3FA}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_SR.et" "{3E2F6230E4397D70}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_AR.et" "{33FA1C11138E145A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_GL.et" "{6C38BC2A8A766993}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_MG.et" "{3AE4204A39304CE2}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_MGA.et" "{2836211FE98BA458}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_Rifleman.et"
   }
+  m_bDeleteWhenEmpty 1
  }
  AFRF_RS_7 {
   components {
@@ -92,8 +71,9 @@ $grp SCR_AIGroup : "{3EDA372443FD105F}Prefabs/Groups/OPFOR/drg_AFRF_RifleSquad.e
   coords 1475.039 20.499 2621.196
   angleY -29.603
   m_aUnitPrefabSlots {
-   "{53A7932FD6BDDF63}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_SL.et" "{3E2F6230E4397D70}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_AR.et" "{33FA1C11138E145A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_GL.et" "{6C38BC2A8A766993}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_MG.et" "{3AE4204A39304CE2}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_MGA.et"
+   "{53A7932FD6BDDF63}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_SL.et" "{2EBF7FD7B32EE3FA}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_SR.et" "{3E2F6230E4397D70}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_AR.et" "{33FA1C11138E145A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_GL.et" "{6C38BC2A8A766993}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_MG.et" "{3AE4204A39304CE2}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_MGA.et" "{2836211FE98BA458}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_Rifleman.et"
   }
+  m_bDeleteWhenEmpty 1
  }
  AFRF_RS_8 {
   components {
@@ -104,8 +84,9 @@ $grp SCR_AIGroup : "{3EDA372443FD105F}Prefabs/Groups/OPFOR/drg_AFRF_RifleSquad.e
   coords 1566.516 18.87 2473.7
   angleY 62.275
   m_aUnitPrefabSlots {
-   "{53A7932FD6BDDF63}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_SL.et" "{3E2F6230E4397D70}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_AR.et" "{33FA1C11138E145A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_GL.et" "{6C38BC2A8A766993}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_MG.et" "{3AE4204A39304CE2}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_MGA.et"
+   "{53A7932FD6BDDF63}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_SL.et" "{2EBF7FD7B32EE3FA}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_SR.et" "{3E2F6230E4397D70}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_AR.et" "{33FA1C11138E145A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_GL.et" "{6C38BC2A8A766993}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_MG.et" "{3AE4204A39304CE2}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_MGA.et" "{2836211FE98BA458}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_Rifleman.et"
   }
+  m_bDeleteWhenEmpty 1
  }
  AFRF_RS_9 {
   components {
@@ -117,8 +98,9 @@ $grp SCR_AIGroup : "{3EDA372443FD105F}Prefabs/Groups/OPFOR/drg_AFRF_RifleSquad.e
   coords 1252.964 20.906 2265.733
   angleY -99.917
   m_aUnitPrefabSlots {
-   "{53A7932FD6BDDF63}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_SL.et" "{3E2F6230E4397D70}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_AR.et" "{33FA1C11138E145A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_GL.et" "{6C38BC2A8A766993}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_MG.et" "{3AE4204A39304CE2}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_MGA.et"
+   "{53A7932FD6BDDF63}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_SL.et" "{2EBF7FD7B32EE3FA}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_SR.et" "{3E2F6230E4397D70}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_AR.et" "{33FA1C11138E145A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_GL.et" "{6C38BC2A8A766993}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_MG.et" "{3AE4204A39304CE2}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_MGA.et" "{2836211FE98BA458}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_Rifleman.et"
   }
+  m_bDeleteWhenEmpty 1
  }
 }
 SCR_AIGroup AFRF_SOBR_1 : "{8B5C823B095566CF}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_3.0/Group_RHS_RF_MSV_VKPO_3.0_Base.et" {
