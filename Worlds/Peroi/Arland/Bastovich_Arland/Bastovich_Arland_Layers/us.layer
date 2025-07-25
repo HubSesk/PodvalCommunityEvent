@@ -252,21 +252,12 @@ $grp SCR_AIGroup : "{D9B32FE6DF696BE5}Prefabs/Groups/BLUFOR/drg_USAF_PlatoonHQ.e
   m_sCustomNameSet "Пилоты UH-1H"
  }
 }
-$grp Vehicle : "{DC1D0B120AD95958}Prefabs/Vehicles/Helicopters/UH1H/UH1H_armed_gunship_HEDP_Podval.et" {
- UH1H_armed_gunship_HEDP_Podval1 {
-  coords 3417.248 1.012 2222.507
-  angleX -0.343
-  angleY -168.514
-  angleZ -2.808
-  m_sAttachmentGroupName "pil"
- }
- UH1H_armed_gunship_HEDP_Podval2 {
-  coords 3424.092 1.424 2255.715
-  angleX 1.199
-  angleY 11.886
-  angleZ 2.994
-  m_sAttachmentGroupName "pil1"
- }
+Vehicle UH1H_armed_gunship_HEDP_Podval1 : "{DC1D0B120AD95958}Prefabs/Vehicles/Helicopters/UH1H/UH1H_armed_gunship_HEDP_Podval.et" {
+ coords 3420.695 1.206 2239.262
+ angleX -1.308
+ angleY -166.118
+ angleZ -2.166
+ m_sAttachmentGroupName "pil"
 }
 $grp Vehicle : "{F1FBD0972FA5FE09}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport.et" {
  M923A1_transport1 {
