@@ -109,22 +109,6 @@ $grp SCR_AIGroup : "{817E13F5454DCF88}Prefabs/Groups/INDFOR/TKR/Group_Ses_TKR_Pl
    "{8F1C3EB238CAEAF8}Prefabs/Characters/Factions/INDFOR/TKR/drg_Character_Ses_TKR_SL3.et" "{2FEBD4E090FD058D}Prefabs/Characters/Factions/INDFOR/TKR/Rookie/drg_Character_Ses_TKR_Recruit_v3.et"
   }
  }
- zu {
-  components {
-   AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation ""
-   }
-   PS_GroupCallsignAssigner "{6588B662B1758813}" {
-    m_iCompanyCallsign 1
-    m_iPlatoonCallsign 1
-   }
-  }
-  coords 1211.533 140.312 8061.53
-  angleY -29.905
-  m_aUnitPrefabSlots {
-   "{8F1C3EB238CAEAF8}Prefabs/Characters/Factions/INDFOR/TKR/drg_Character_Ses_TKR_SL3.et" "{2FEBD4E090FD058D}Prefabs/Characters/Factions/INDFOR/TKR/Rookie/drg_Character_Ses_TKR_Recruit_v3.et"
-  }
- }
  brdm2 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
@@ -140,23 +124,6 @@ $grp SCR_AIGroup : "{817E13F5454DCF88}Prefabs/Groups/INDFOR/TKR/Group_Ses_TKR_Pl
   angleX -8.045
   angleY 148.453
   angleZ 3.876
-  m_aUnitPrefabSlots {
-   "{8F1C3EB238CAEAF8}Prefabs/Characters/Factions/INDFOR/TKR/drg_Character_Ses_TKR_SL3.et" "{2FEBD4E090FD058D}Prefabs/Characters/Factions/INDFOR/TKR/Rookie/drg_Character_Ses_TKR_Recruit_v3.et"
-  }
- }
- zu2 {
-  components {
-   AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation ""
-   }
-   PS_GroupCallsignAssigner "{6588B662B1758813}" {
-    m_iCompanyCallsign 1
-    m_iPlatoonCallsign 1
-    m_iSquadCallsign 2
-   }
-  }
-  coords 1187.877 140.531 8047.134
-  angleY -29.905
   m_aUnitPrefabSlots {
    "{8F1C3EB238CAEAF8}Prefabs/Characters/Factions/INDFOR/TKR/drg_Character_Ses_TKR_SL3.et" "{2FEBD4E090FD058D}Prefabs/Characters/Factions/INDFOR/TKR/Rookie/drg_Character_Ses_TKR_Recruit_v3.et"
   }
@@ -306,19 +273,5 @@ $grp Vehicle : "{A354B4CEF8989405}Prefabs/Vehicles/Wheeled/LR_3Series/3Series_LW
   coords 2888.085 149 9926.366
   angleY -170.237
   m_sAttachmentGroupName "ks2"
- }
-}
-$grp Vehicle : "{FD109F3702AAB392}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_ZU23.et" {
- Ural4320_ZU1 {
-  coords 1210.404 140.307 8063.954
-  angleY 59.343
-  m_sAttachmentGroupName "zu"
- }
- Ural4320_ZU2 {
-  coords 1186.88 140.524 8049.595
-  angleX -1.226
-  angleY 59.35
-  angleZ -0.314
-  m_sAttachmentGroupName "zu2"
  }
 }
