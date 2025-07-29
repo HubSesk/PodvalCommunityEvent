@@ -200,16 +200,16 @@ $grp PolylineShapeEntity : "{7019844BAD5C4DD8}Prefabs/PolyZone/PolyZone_Border.e
     Position 1363.9 -0.219 67.602
    }
    ShapePoint "{6538C2E99DCB749B}" {
-    Position 1286.29 -0.219 27.542
+    Position 1230.646 -0.219 -10.486
    }
    ShapePoint "{6538C2E99FFBA7B4}" {
-    Position 1253.844 -0.219 108.209
+    Position 1193.204 -0.219 97.917
    }
    ShapePoint "{6538C2E99F7684F8}" {
-    Position 1226.1 -0.218 172.229
+    Position 1180.14 -0.219 139.59
    }
    ShapePoint "{6538C2E9998791B9}" {
-    Position 1183.386 -0.219 151.086
+    Position 1175.663 -0.219 144.672
    }
    ShapePoint "{6538C2E99ABAE56F}" {
     Position 1112.959 -0.219 132.599
@@ -304,16 +304,16 @@ $grp PolylineShapeEntity : "{7019844BAD5C4DD8}Prefabs/PolyZone/PolyZone_Border.e
     Position 1164.091 -0.201 2639.53
    }
    ShapePoint "{6538C2EF122DFFFB}" {
-    Position 1184.593 -0.201 2646.047
+    Position 1176.236 -0.201 2640.344
    }
    ShapePoint "{6538C2EF132EFCD5}" {
-    Position 1227.667 -0.201 2666.663
+    Position 1180.51 -0.201 2635.732
    }
    ShapePoint "{6538C2EF52349C7B}" {
-    Position 1245.074 -0.201 2623.332
+    Position 1194.053 -0.201 2593.913
    }
    ShapePoint "{6538C2EF5CC63B73}" {
-    Position 1288.596 -0.201 2520.36
+    Position 1230.083 -0.201 2485.389
    }
    ShapePoint "{6538C2EF5D8E7530}" {
     Position 1360.21 -0.201 2560.108
@@ -400,7 +400,10 @@ $grp PolylineShapeEntity : "{7019844BAD5C4DD8}Prefabs/PolyZone/PolyZone_Border.e
   {
    PS_PolyZoneTrigger {
     ID "60FD050E1E83544C"
-    m_sFactionKey "USSR"
+    m_polyZoneEffect PS_PolyZoneEffectRestricted "{60FD050E0DC2A2AB}" {
+     m_fKillTime 15
+    }
+    m_bReversed 0
    }
   }
  }
