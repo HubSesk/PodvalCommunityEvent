@@ -1,0 +1,42 @@
+GenericEntity : "{6A3CDCFB475BF1B2}Prefabs/System/DRG_CriticalLossPrefab.et" {
+ components {
+  DRG_CriticalLossComponent "{65213D368F1BD792}" {
+   m_aLossLogics {
+    LossLogic "{65FCCE984F17A3A5}" {
+     m_aLosses {
+      FactionLoss "{65FCCE987118847C}" {
+       m_sFactionKey "RHS_AFRF"
+      }
+     }
+     m_sObjectiveNames {
+      "USA_enemy_spotted"
+     }
+     m_bUseMessage 1
+    }
+    LossLogic "{65FCCE986FD1852B}" {
+     m_aLosses {
+      FactionLoss "{65FCCE98117D2E79}" {
+       m_sFactionKey "RHS_USAF"
+      }
+     }
+     m_sObjectiveNames {
+      "RF_enemy_spotted"
+     }
+     m_bUseMessage 1
+    }
+   }
+  }
+ }
+ coords 334.286 65.61 28.665
+}
+GenericEntity : "{E6FC6DD69FA3479F}Prefabs/System/DRG_MissionEndTimerPrefab.et" {
+ components {
+  DRG_MissionEndTimerComponent "{651B0839B21B3BBF}" {
+   m_iMissionTime 2700
+   m_aTimeLeftWarningTimers {
+    300
+   }
+  }
+ }
+ coords 330.026 65.761 28.922
+}
