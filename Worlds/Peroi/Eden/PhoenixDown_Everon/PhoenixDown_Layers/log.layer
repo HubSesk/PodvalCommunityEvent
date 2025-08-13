@@ -1,0 +1,136 @@
+$grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
+ {
+  coords 2831.869 434.767 4239.76
+  m_sTitle "Захватили Административное здание"
+  m_iScore 50
+  m_sFactionKey "USSR"
+ }
+ {
+  coords 2831.212 435.163 4239.13
+  m_sTitle "Удержали Административное здание"
+  m_iScore 50
+  m_sFactionKey "US"
+ }
+ {
+  coords 1541.702 268.963 1331.719
+  m_sTitle "Генерал Падне выжил"
+  m_iScore 50
+  m_sFactionKey "US"
+ }
+ {
+  coords 1560.183 256.297 1334.721
+  m_sTitle "Генерал Падне убит"
+  m_iScore 50
+  m_sFactionKey "USSR"
+ }
+}
+PolylineShapeEntity : "{BD11B8FAA469D169}Prefabs/PolyZone/PolyZone.et" {
+ components {
+  PS_PolyZone "{60E90266F25533F6}" {
+   m_mPolygonTexture "{928B4092981F27CB}UI/layouts/Textures/Zone.edds"
+   m_cPolygonColor 0.071 0.192 0.561 0.7
+   m_mPolygonTextureBorder "{CA01D453D39FB430}UI/layouts/Textures/ZoneBorder.edds"
+   m_cPolygonBorderColor 0.071 0.192 0.561 1
+   m_aVisibleForFactions {
+    "" "US" "USSR"
+   }
+  }
+ }
+ coords 5053.533 15.35 3980.734
+ Points {
+  ShapePoint "{661B207A9F09A557}" {
+   Position -0.927 -0.157 32.132
+  }
+  ShapePoint "{661B207A99FCFCD2}" {
+   Position -5.45 2.223 69.785
+  }
+  ShapePoint "{661B207A84258CA6}" {
+   Position 26.54 1.469 75.675
+  }
+  ShapePoint "{661B207A852BB89D}" {
+   Position 21.914 3.545 94.671
+  }
+  ShapePoint "{661B207A879BEAC8}" {
+   Position 56.439 1.266 104.431
+  }
+  ShapePoint "{661B207A8721357E}" {
+   Position 51.571 4.312 127.949
+  }
+  ShapePoint "{661B207A83AB75E0}" {
+   Position 95.028 4.815 138.173
+  }
+  ShapePoint "{661B207A8C74DDD0}" {
+   Position 109.645 3.621 119.957
+  }
+  ShapePoint "{661B207A8FDA3B69}" {
+   Position 135.406 0.345 86.926
+  }
+  ShapePoint "{661B207A88EAC55A}" {
+   Position 141.181 -0.943 62.812
+  }
+  ShapePoint "{661B207A8ADE7D1A}" {
+   Position 151.708 1.07 30.821
+  }
+  ShapePoint "{661B207A8BDC0E31}" {
+   Position 116.421 -0.444 12.812
+  }
+  ShapePoint "{661B207AB4C408FF}" {
+   Position 94.002 -0.973 3.349
+  }
+  ShapePoint "{661B207AB12EEE54}" {
+   Position 72.14 -1.319 -2.836
+  }
+  ShapePoint "{661B207AB3B36E93}" {
+   Position 46.827 -0.98 -6.259
+  }
+  ShapePoint "{661B207ABC0DCEF6}" {
+   Position 35.934 -0.748 -6.576
+  }
+  ShapePoint "{661B207ABD66F647}" {
+   Position 16.895 -0.442 -4.244
+  }
+ }
+}
+PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ coords 5179.438 26.266 4031.909
+ angleY 74.729
+ m_sImageSetGlow ""
+ m_MarkerColor 0 0 0 1
+ m_sQuadName "flag-2"
+ m_fWorldSize 55
+ m_sDescription "Административное здание"
+ m_bUseWorldScale 0
+ m_aVisibleForFactions {
+  "" "US" "USSR"
+ }
+ m_bVisibleForEmptyFaction 1
+}
+GenericEntity : "{E6FC6DD69FA3479F}Prefabs/System/DRG_MissionEndTimerPrefab.et" {
+ components {
+  DRG_MissionEndTimerComponent "{651B0839B21B3BBF}" {
+   m_iMissionTime 2400
+  }
+ }
+ coords 2772.594 276.388 4116.711
+}
+GenericEntity : "{F5EF4223ACA6169C}PrefabsEditable/Auto/Structures/Military/Flags/E_FlagPole_02_V1_AFRF.et" {
+ components {
+  SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+   m_sDefaultMaterial "{2F0DFB5EFAA6D614}Assets/Props/Fabric/Flags/Data/Flag_2_3_USA.emat"
+   m_aFlagData {
+    PS_FlagData "{6588FCB6C8DD7B29}" {
+     m_sFactionKey "US"
+    }
+    PS_FlagData "{6588FCB6C83102AD}" {
+     m_sFactionKey "USSR"
+     m_iCaptureCounter 1
+    }
+   }
+   m_sFactionKey "US"
+  }
+ }
+ coords 5174.677 17.931 4030.297
+ angleX -3.059
+ angleY -15.791
+ angleZ -31.851
+}
