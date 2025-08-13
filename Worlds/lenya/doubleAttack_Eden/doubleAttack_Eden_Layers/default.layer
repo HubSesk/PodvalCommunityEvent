@@ -1,0 +1,64 @@
+SCR_AIWorld : "{70CCCF16487C927F}Prefabs/AI/SCR_AIWorld_Eden.et" {
+ coords 7626.521 166.813 4305.961
+}
+PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 7612.078 166.824 4307.062
+}
+PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
+ coords 7601.632 166.753 4298.859
+ m_bDisablePlayablesStreaming 0
+}
+GenericEntity : "{6A3CDCFB475BF1B2}Prefabs/System/DRG_CriticalLossPrefab.et" {
+ components {
+  DRG_CriticalLossComponent "{65213D368F1BD792}" {
+   m_aLossLogics {
+    LossLogic "{661931A6BA5FE514}" {
+     m_aLosses {
+      FactionLoss "{661931A6B212C076}" {
+       m_sFactionKey "RHS_USAF"
+      }
+     }
+     m_sObjectiveNames {
+      "FLAG_AFRF"
+     }
+     m_sFailedObjectiveNames {
+      "FLAG_USAF"
+     }
+     m_bAdvanceGameStage 1
+     m_bUseMessage 1
+     m_bEventMessage "Победа ВС РФ, США понесли большие потери!"\
+     ""
+    }
+    LossLogic "{661931A72771D579}" {
+     m_aLosses {
+      FactionLoss "{661931A7B09C56BD}" {
+       m_sFactionKey "RHS_AFRF"
+      }
+     }
+     m_sObjectiveNames {
+      "FLAG_USAF"
+     }
+     m_sFailedObjectiveNames {
+      "FLAG_AFRF"
+     }
+     m_bAdvanceGameStage 1
+     m_bUseMessage 1
+     m_bEventMessage "Победа США, ВС РФ понесли большие потери!"
+    }
+   }
+  }
+ }
+ coords 7531.615 162.623 4420.71
+}
+GenericEntity : "{E6FC6DD69FA3479F}Prefabs/System/DRG_MissionEndTimerPrefab.et" {
+ components {
+  DRG_MissionEndTimerComponent "{651B0839B21B3BBF}" {
+   m_iMissionTime 2700
+   m_sMessage "Победа армии США! Им удалось продержатся до прибытия подкрепления!"
+   m_aTimeLeftWarningTimers {
+    300
+   }
+  }
+ }
+ coords 7531.135 163.196 4409.802
+}
