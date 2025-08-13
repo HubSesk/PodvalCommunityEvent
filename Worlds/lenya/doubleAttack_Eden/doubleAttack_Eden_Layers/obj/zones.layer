@@ -36,6 +36,11 @@ $grp SCR_EditorRestrictionZoneEntity : "{7846A93EA395CFBA}PrefabsEditable/Restri
 }
 $grp SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
  {
+  components {
+   SCR_ZoneRestrictionAreaMeshComponent "{56D8A3C5A31496A1}" {
+    m_fHeight 32.5
+   }
+  }
   coords 7502.899 165.739 4290.68
   m_fWarnRadius 136
   m_fZoneRadius 146
@@ -45,6 +50,7 @@ $grp SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/Restri
     ID "59D673B36B893D84"
     components {
      SCR_CustomAreaMeshComponent "{59D673B22B1EBC57}" {
+      m_fHeight 25.1
       m_fRadius 136
      }
     }
@@ -52,9 +58,24 @@ $grp SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/Restri
   }
  }
  {
+  components {
+   SCR_ZoneRestrictionAreaMeshComponent "{56D8A3C5A31496A1}" {
+    m_fHeight 34.1
+   }
+  }
   coords 10084.98 2.531 1553.321
   m_fWarnRadius 114
   m_fZoneRadius 124
+  {
+   GenericEntity {
+    ID "59D673B36B893D84"
+    components {
+     SCR_CustomAreaMeshComponent "{59D673B22B1EBC57}" {
+      m_fHeight 23.5
+     }
+    }
+   }
+  }
  }
  {
   coords 5155.661 175.266 7064.143

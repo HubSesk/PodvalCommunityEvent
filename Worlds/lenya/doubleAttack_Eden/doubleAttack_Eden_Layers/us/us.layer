@@ -1,223 +1,3 @@
-SCR_AIGroup "(MK19 Crew) RHS_USAF_G_202_3" {
- components {
-  AIBehaviorTreeComponent "{661931AE32DF0B7D}" {
-   BehaviorTree "{082D5B0D5D33DB1D}AI/BehaviorTrees/Chimera/Group/Group.bt"
-  }
-  AIFormationComponent "{661931AE32DF0B28}" {
-   DefaultFormation "Line"
-   "Min Distance to Raytrace an Offset" 1
-   "Projection distance" 10
-  }
-  AIPathfindingComponent "{661931AE32DF0B2F}" {
-   NavmeshProject "Soldiers"
-  }
-  PS_GroupCallsignAssigner "{661931AE32DF0BDC}" {
-   m_iCompanyCallsign 2
-   m_iPlatoonCallsign 0
-   m_iSquadCallsign 2
-  }
-  SCR_AIConfigComponent "{661931AE32DF0BB7}" {
-   m_aDefaultReactions {
-    SCR_AIIdleReaction "{661931AE32DF0BFB}" {
-    }
-   }
-   m_aGoalReactions {
-    SCR_AIGoalReaction_Attack "{661931AE32DF0BE3}" {
-     m_eType ANIMATE
-    }
-    SCR_AIGoalReaction_GetInVehicle "{661931AE32DF0BE7}" {
-     m_eType GET_IN_VEHICLE
-    }
-    SCR_AIGoalReaction_GetOutVehicle "{661931AE32DF0BEC}" {
-     m_eType GET_OUT_VEHICLE
-    }
-    SCR_AIGoalReaction_Heal "{661931AE32DF0B92}" {
-     m_eType HEAL
-    }
-    SCR_AIGoalReaction_Defend "{661931AE32DF0B95}" {
-     m_eType DEFEND
-    }
-    SCR_AIGoalReaction_Move "{661931AE32DF0B98}" {
-     m_eType MOVE
-    }
-    SCR_AIGoalReaction_SeekAndDestroy "{661931AE32DF0B9E}" {
-     m_eType SEEK_DESTROY
-    }
-    SCR_AIGoalReaction_PerformAction "{661931AE32DF0B81}" {
-     m_eType PERFORM_ACTION
-    }
-    SCR_AIGoalReaction_Cancel "{661931AE32DF0B86}" {
-     m_eType CANCEL
-    }
-    SCR_AIGoalReaction_Follow "{661931AE32DF0B8A}" {
-     m_eType FOLLOW
-    }
-    SCR_AIGoalReaction_Animate "{661931AE32DF0B8F}" {
-     m_eType ANIMATE
-    }
-   }
-   m_aInfoReactions {
-    SCR_AIInfoReaction_Wounded "{661931AE32DF0BB2}" {
-     m_eType WOUNDED
-    }
-    SCR_AIInfoReaction_NoAmmo "{661931AE32DF0BB6}" {
-     m_eType NO_AMMO
-    }
-   }
-  }
-  SCR_AIGroupInfoComponent "{661931AE32DF0BBB}" {
-  }
-  SCR_AIGroupMovementComponent "{661931AE32DF0BA4}" {
-   "Min Speed" 7
-   "Using Railroad" 0
-   "Max Distance to Path" 5
-   DefaultFormation "Wedge"
-  }
-  SCR_AIGroupSettingsComponent "{661931AE32DF0BA7}" {
-  }
-  SCR_AIGroupUtilityComponent "{661931AE32DF0BA9}" {
-  }
-  SCR_CallsignGroupComponent "{661931AE32DF0BAC}" {
-  }
-  SCR_EditableGroupComponent "{661931AE32DF04D6}" {
-   m_EntityType GROUP
-   m_UIInfo SCR_EditableGroupUIInfo "{661931AE32DF0419}" {
-    Name "#AR-Group_Squad"
-    m_Image "{E4745904C45FC059}UI/Textures/EditorPreviews/Groups/OPFOR/Group_USSR_RifleSquad.edds"
-    m_sFaction "USSR"
-    m_aAuthoredLabels {
-     4 10 25 34 38 27
-    }
-    m_aAutoLabels {
-     72
-    }
-    m_EntityBudgetCost {
-     SCR_EntityBudgetValue "{661931AE32DF047E}" {
-      m_BudgetType CAMPAIGN
-      m_Value 450
-     }
-     SCR_EntityBudgetValue "{661931AE32DF0462}" {
-      m_BudgetType AI_SERVER
-      m_Value 6
-     }
-    }
-    m_EntityChildrenBudgetCost {
-     SCR_EntityBudgetValue "{661931AE32DF0464}" {
-      m_BudgetType AI
-      m_Value 6
-     }
-    }
-    m_bUseUIInfoName 1
-    m_MilitarySymbol SCR_MilitarySymbol "{661931AE32DF046C}" {
-     m_Identity OPFOR
-     m_Dimension LAND
-     m_Icons INFANTRY
-     m_Amplifier SQUAD
-    }
-   }
-   m_bAutoRegister ALWAYS
-   m_vIconPos 0 5 0
-   m_Flags 9541
-  }
-  SCR_GroupIdentityComponent "{661931AE32DF04F0}" {
-   m_MilitarySymbol SCR_MilitarySymbol "{661931AE32DF04CA}" {
-    m_Identity OPFOR
-    m_Icons INFANTRY
-    m_Amplifier SQUAD
-   }
-  }
-  SCR_MailboxComponent "{661931AE32DF04F4}" {
-  }
-  SCR_PreviewEntityComponent "{661931AE32DF048D}" {
-   m_bRuntime 0
-   m_aEntries {
-    SCR_BasePreviewEntry "{661931AE32DF04E2}" {
-     m_iParentID -1
-     m_Mesh ""
-     m_Flags 3
-     m_Shape MESH
-     m_iPivotID ""
-     m_vScale 1 1 1
-     m_vPosition 0 0 0
-     m_vAngles 0 0 0
-    }
-    SCR_BasePreviewEntry "{661931AE32DF04E8}" {
-     m_iParentID 0
-     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
-     m_Flags 0
-     m_Shape PREFAB
-     m_iPivotID ""
-     m_vScale 1 1 1
-     m_vPosition 0 0 0
-     m_vAngles 0 0 0
-    }
-    SCR_BasePreviewEntry "{661931AE32DF0496}" {
-     m_iParentID 0
-     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
-     m_Flags 0
-     m_Shape PREFAB
-     m_iPivotID ""
-     m_vScale 1 1 1
-     m_vPosition 3 0 -3
-     m_vAngles 0 0 0
-    }
-    SCR_BasePreviewEntry "{661931AE32DF049B}" {
-     m_iParentID 0
-     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
-     m_Flags 0
-     m_Shape PREFAB
-     m_iPivotID ""
-     m_vScale 1 1 1
-     m_vPosition -3 0 -3
-     m_vAngles 0 0 0
-    }
-    SCR_BasePreviewEntry "{661931AE32DF049E}" {
-     m_iParentID 0
-     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
-     m_Flags 0
-     m_Shape PREFAB
-     m_iPivotID ""
-     m_vScale 1 1 1
-     m_vPosition 6 0 -6
-     m_vAngles 0 0 0
-    }
-    SCR_BasePreviewEntry "{661931AE32DF0482}" {
-     m_iParentID 0
-     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
-     m_Flags 0
-     m_Shape PREFAB
-     m_iPivotID ""
-     m_vScale 1 1 1
-     m_vPosition -6 0 -6
-     m_vAngles 0 0 0
-    }
-    SCR_BasePreviewEntry "{661931AE32DF0489}" {
-     m_iParentID 0
-     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
-     m_Flags 0
-     m_Shape PREFAB
-     m_iPivotID ""
-     m_vScale 1 1 1
-     m_vPosition 9 0 -9
-     m_vAngles 0 0 0
-    }
-   }
-  }
-  RplComponent "{661931AE32DF04B4}" {
-   "Rpl State Override" Runtime
-   Streamable Disabled
-  }
- }
- coords 7530.726 165.473 4338.454
- angleY -75.105
- DangerEventRange 200
- m_faction "RHS_USAF"
- m_aUnitPrefabSlots {
-  "{600E890491C62306}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_SL.et" "{908EF30550BE5428}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_Spotter.et" "{741676D36040EA84}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_Rifleman.et"
- }
- m_bDeleteWhenEmpty 0
- m_sCustomNameSet "HMMWV MK19"
-}
 $grp SCR_AIGroup : "{12488ED8CAB8DCDC}Prefabs/Groups/BLUFOR/DRG_Group_RHS_USAF_Squad.et" {
  "(#DRG-Sq-RifleSquad) RHS_USAF_G_002_9" {
   components {
@@ -292,7 +72,7 @@ SCR_AIGroup "(Recon Squad) RHS_USAF_G_300_3" : "{48D92BDCD96CA374}Prefabs/Groups
  }
  coords 7270.588 118.52 5627.376
  m_aUnitPrefabSlots {
-  "{9B04B586930EFE2D}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/SOCOM/drg_Role_RHS_USAF_SOCOM_SL.et" "{9FBBBCD632861C8A}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/SOCOM/drg_Role_RHS_USAF_SOCOM_Scout.et" "{AD01286E7C3D0078}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/SOCOM/drg_Role_RHS_USAF_SOCOM_ScoutRTO.et"
+  "{9B04B586930EFE2D}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/SOCOM/drg_Role_RHS_USAF_SOCOM_SL.et" "{9FBBBCD632861C8A}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/SOCOM/drg_Role_RHS_USAF_SOCOM_Scout.et" "{D1FC452D48AB3333}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/SOCOM/drg_Role_RHS_USAF_SOCOM_ScoutSapper.et"
  }
  m_sCustomNameSet "#DRG-Sq-ReconSquad"
 }
@@ -340,21 +120,36 @@ SCR_AIGroup "(#DRG-Sq-MachineGunnerSquad) RHS_USAF_G_200_4" : "{D746D84A25FC281F
   "{600E890491C62306}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_SL.et" "{36FE68EB81398B5C}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_MG_opt.et" "{D38A51C19D66AAC8}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_MGAB.et" "{FEA8A03109D0FC66}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_MGA.et"
  }
 }
-SCR_AIGroup "(SMAW Squad) RHS_USAF_G_201_3" : "{D9B32FE6DF696BE5}Prefabs/Groups/BLUFOR/drg_USAF_PlatoonHQ.et" {
- components {
-  AIFormationComponent "{507E9DC12F541FE6}" {
-   DefaultFormation "Line"
+$grp SCR_AIGroup : "{D9B32FE6DF696BE5}Prefabs/Groups/BLUFOR/drg_USAF_PlatoonHQ.et" {
+ "(SMAW Squad) RHS_USAF_G_201_3" {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{6564F033B9700B5B}" {
+    m_iCompanyCallsign 2
+    m_iPlatoonCallsign 0
+    m_iSquadCallsign 1
+   }
   }
-  PS_GroupCallsignAssigner "{6564F033B9700B5B}" {
-   m_iCompanyCallsign 2
-   m_iPlatoonCallsign 0
-   m_iSquadCallsign 1
+  coords 7590.824 166.798 4313.863
+  angleY -68.836
+  m_aUnitPrefabSlots {
+   "{600E890491C62306}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_SL.et" "{604FADEAA6112C7A}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_SMAW_Gunner.et" "{69A9873AE3BF8B1D}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_SMAW_AmmoBearer.et"
   }
+  m_sCustomNameSet "#DRG_Sqd_AT"
  }
- coords 7590.824 166.798 4313.863
- angleY -68.836
- m_aUnitPrefabSlots {
-  "{600E890491C62306}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_SL.et" "{604FADEAA6112C7A}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_SMAW_Gunner.et" "{69A9873AE3BF8B1D}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_SMAW_AmmoBearer.et"
+ "(MK-19 Crew) RHS_USAF_G_202_3" {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+  }
+  coords 7529.897 165.631 4338.193
+  angleY -74.505
+  m_aUnitPrefabSlots {
+   "{600E890491C62306}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_SL.et" "{908EF30550BE5428}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_Spotter.et" "{741676D36040EA84}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_Rifleman.et"
+  }
+  m_sCustomNameSet "MK-19 Crew"
  }
- m_sCustomNameSet "#DRG_Sqd_AT"
 }
