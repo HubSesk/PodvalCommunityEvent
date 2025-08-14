@@ -1,15 +1,17 @@
-Vehicle LAV25_RHS1 : "{3312ADBF53A16DD8}Prefabs/Vehicles/Wheeled/LAV25/LAV25_RHS.et" {
- coords 4953.581 2.156 3906.709
- angleY -145
- m_sAttachmentGroupName "USAF_100"
-}
 Vehicle M998_USAF1 : "{B4FB836E882E1A05}Prefabs/Vehicles/Wheeled/M998/M998_USAF.et" {
  coords 4957.685 2.156 3903.76
  angleY -145
  m_sAttachmentGroupName "USAF_300"
 }
-Vehicle M1240A1_MATV_Turret_Green1 : "{D9AC0E3578809137}Prefabs/Vehicles/Wheeled/M1240A1_MATV/M1240A1_MATV_Turret_Green.et" {
- coords 4940.967 2.187 3864.749
- angleY 123.55
- m_sAttachmentGroupName "USAF_000"
+$grp Vehicle : "{D9AC0E3578809137}Prefabs/Vehicles/Wheeled/M1240A1_MATV/M1240A1_MATV_Turret_Green.et" {
+ M1240A1_MATV_Turret_Green1 {
+  coords 4949.437 2.187 3910.34
+  angleY -145
+  m_sAttachmentGroupName "USAF_100"
+ }
+ M1240A1_MATV_Turret_Green2 {
+  coords 4953.592 2.158 3907.495
+  angleY -145
+  m_sAttachmentGroupName "USAF_100"
+ }
 }
