@@ -1,0 +1,124 @@
+SCR_AIGroup USSR_HQ : "{D1B420D921CC6CD4}Prefabs/Groups/OPFOR/Group_USSR_PlatoonHQ_P.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation ""
+  }
+  PS_GroupCallsignAssigner "{66134929664AA18D}" {
+  }
+ }
+ coords 5230.241 173.465 6144.487
+ angleY -109.099
+ m_sCustomNameSet "Командование гарнизона"
+}
+$grp SCR_AIGroup : "{E3545CFEDD312D54}Prefabs/Groups/OPFOR/Group_USSR_RifleSquad_P.et" {
+ USSR_Security {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation ""
+   }
+   PS_GroupCallsignAssigner "{661349291D7BFC8F}" {
+    m_iCompanyCallsign 1
+   }
+  }
+  coords 2648.788 225.209 5146.771
+  angleY 62.042
+  m_aUnitPrefabSlots {
+   "{A5F4D7FEBDB57182}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_SL_P.et" "{00716F7369F3C5E8}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_AR_P.et" "{BDA13DF416E8D9F6}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_AT_P.et" "{F9C5F4700B5D87FB}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_AAT_P.et" "{6A840CB36D1670C2}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_SR_P.et" "{951CA4F244097071}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_MG_P.et" "{D1786D7659BC2E7C}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_AMG_P.et" "{47B0BA658525301A}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman_P.et"
+  }
+  m_sCustomNameSet "Охрана блокпоста"
+ }
+ USSR_GBR {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation ""
+   }
+   PS_GroupCallsignAssigner "{6613492915BC8097}" {
+    m_iSquadCallsign 1
+   }
+  }
+  coords 5206.988 171.565 6133.45
+  angleY 73.72
+  m_sCustomNameSet "Группа быстрого реагирования"
+ }
+ USSR_Security2 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation ""
+   }
+   PS_GroupCallsignAssigner "{6613492911F8CC8F}" {
+    m_iCompanyCallsign 3
+   }
+  }
+  coords 5201.53 171.565 6152.137
+  angleY 73.72
+  m_aUnitPrefabSlots {
+   "{A5F4D7FEBDB57182}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_SL_P.et" "{00716F7369F3C5E8}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_AR_P.et" "{BDA13DF416E8D9F6}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_AT_P.et" "{F9C5F4700B5D87FB}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_AAT_P.et" "{6A840CB36D1670C2}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_SR_P.et" "{951CA4F244097071}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_MG_P.et" "{D1786D7659BC2E7C}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_AMG_P.et" "{47B0BA658525301A}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman_P.et" "{65D019481247F483}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_CC_P.et" "{19CCD8504848310D}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Crew_P.et"
+  }
+  m_sCustomNameSet "Охрана блокпоста"
+ }
+ USSR_Convoy {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation ""
+   }
+   PS_GroupCallsignAssigner "{661349290EDAC113}" {
+    m_iCompanyCallsign 4
+   }
+  }
+  coords 8281.095 322.187 2164.894
+  angleY 73.72
+  m_aUnitPrefabSlots + {
+   "{65D019481247F483}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_CC_P.et" "{19CCD8504848310D}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Crew_P.et"
+  }
+  m_sCustomNameSet "Отделение сопровождения"
+ }
+ USSR_Convoy1 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation ""
+   }
+   PS_GroupCallsignAssigner "{6613492932D7FE0B}" {
+    m_iCompanyCallsign 4
+    m_iSquadCallsign 1
+   }
+  }
+  coords 8285.174 322.187 2150.925
+  angleY 73.72
+  m_aUnitPrefabSlots {
+   "{A5F4D7FEBDB57182}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_SL_P.et" "{F72805D5D2D05F63}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_RTO_P.et" "{47B0BA658525301A}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman_P.et" "{47B0BA658525301A}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman_P.et" "{47B0BA658525301A}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman_P.et" "{47B0BA658525301A}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman_P.et" "{47B0BA658525301A}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman_P.et" "{47B0BA658525301A}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman_P.et" "{47B0BA658525301A}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman_P.et" "{47B0BA658525301A}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman_P.et"
+  }
+  m_sCustomNameSet "Отделение снабжения"
+ }
+ USSR_Security1 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation ""
+   }
+   PS_GroupCallsignAssigner "{66134929025D71D2}" {
+    m_iCompanyCallsign 2
+   }
+  }
+  coords 6347.202 350.017 5078.466
+  angleY 40.771
+  m_aUnitPrefabSlots {
+   "{A5F4D7FEBDB57182}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_SL_P.et" "{00716F7369F3C5E8}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_AR_P.et" "{BDA13DF416E8D9F6}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_AT_P.et" "{F9C5F4700B5D87FB}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_AAT_P.et" "{6A840CB36D1670C2}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_SR_P.et" "{951CA4F244097071}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_MG_P.et" "{D1786D7659BC2E7C}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_AMG_P.et" "{47B0BA658525301A}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman_P.et"
+  }
+  m_sCustomNameSet "Охрана блокпоста"
+ }
+ USSR_Helicrew {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation ""
+   }
+   PS_GroupCallsignAssigner "{66134929380632A4}" {
+    m_iCompanyCallsign 5
+   }
+  }
+  coords 8243.427 322.187 2051.207
+  angleY 149.803
+  m_aUnitPrefabSlots {
+   "{FFE45AFCB29CD014}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_HeliPilot_P.et" "{FFE45AFCB29CD014}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_HeliPilot_P.et"
+  }
+  m_sCustomNameSet "Экипаж боевой машины"
+ }
+}

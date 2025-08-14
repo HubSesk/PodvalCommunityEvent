@@ -1,7 +1,11 @@
 Vehicle UAZ469_PKM_Ses_TKA1 : "{3A87697F1B1415DB}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_PKM_Ses_TKA.et" {
- coords 8382.644 111.531 7028.622
- angleY 179.239
+ coords 7535.151 91.254 7390.265
+ angleY -163.761
  m_sAttachmentGroupName "Ses_TKA_HQ"
+}
+Vehicle UAZ469_uncovered_Ses_TKA1 : "{6773D9209B13A291}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_uncovered_Ses_TKA.et" {
+ coords 7537.217 91.524 7397.849
+ angleY -164.045
 }
 $grp Vehicle : "{6F963B40DE04868A}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Ses_TKA.et" {
  BTR70_Ses_TKA1 {
@@ -27,28 +31,41 @@ $grp Vehicle : "{6F963B40DE04868A}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Ses_TKA.e
 }
 $grp Vehicle : "{A5D524D387AEFC4B}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_transport_TKA.et" {
  UAZ452_transport_TKA1 {
-  coords 8382.837 111.532 7036.663
-  angleY -178.095
+  coords 7540.059 92.41 7406.041
+  angleY -161.095
   m_sAttachmentGroupName "Ses_TKA_Maneuver1"
  }
  UAZ452_transport_TKA2 {
-  coords 8382.696 111.531 7046.865
-  angleY -178.095
+  coords 7542.906 93.419 7415.838
+  angleY -161.095
   m_sAttachmentGroupName "Ses_TKA_Maneuver2"
  }
  UAZ452_transport_TKA3 {
-  coords 8382.72 111.531 7057.866
-  angleY -178.095
+  coords 7546.147 94.438 7426.352
+  angleY -161.095
   m_sAttachmentGroupName "Ses_TKA_Maneuver3"
  }
  UAZ452_transport_TKA4 {
-  coords 8382.701 111.531 7068.665
-  angleY -178.095
+  coords 7549.287 95.094 7436.686
+  angleY -161.095
   m_sAttachmentGroupName "Ses_TKA_Maneuver4"
  }
- UAZ452_transport_TKA5 {
-  coords 8382.805 111.531 7079.293
-  angleY -178.095
-  m_sAttachmentGroupName "Ses_TKA_Maneuver5"
+}
+Vehicle Ural4320_ZU1 : "{FD109F3702AAB392}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_ZU23.et" {
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{661D3185189BFE8B}" {
+     SourceMaterial "Ural_Body"
+     AssignedMaterial "{86C0F62FDED7BA56}Assets/Vehicles/Wheeled/Ural4320/Data/Ural_4320_Body_Ses_TKA.emat"
+    }
+    MaterialAssignClass "{661D3185189BFEAD}" {
+     SourceMaterial "Ural_Details"
+     AssignedMaterial "{402A0ED342929F03}Assets/Vehicles/Wheeled/Ural4320/Data/Ural_4320_Details_Ses_TKA.emat"
+    }
+   }
+  }
  }
+ coords 7552.526 95.193 7448.354
+ angleY -162.899
 }
