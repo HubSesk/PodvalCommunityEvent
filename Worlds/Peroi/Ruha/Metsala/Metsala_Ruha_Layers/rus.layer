@@ -1,3 +1,10 @@
+Vehicle Mi24V_armed_9M1 {
+ coords 1333.569 64.916 6801.541
+ angleX -0.55
+ angleY 161.772
+ angleZ -4.522
+ m_sAttachmentGroupName "pil"
+}
 $grp SCR_AIGroup : "{0FC09C311C951395}Prefabs/Groups/OPFOR/drg_AFRF_PlatoonHQ.et" {
  ks {
   components {
@@ -152,13 +159,6 @@ $grp SCR_AIGroup : "{3EDA372443FD105F}Prefabs/Groups/OPFOR/drg_AFRF_RifleSquad.e
   }
  }
 }
-Vehicle Mi24V_armed_9M1 : "{658B80A790C7EFA7}Prefabs/Vehicles/Helicopters/Mi24/Mi24V_armed_9M114.et" {
- coords 1333.569 64.916 6801.541
- angleX -0.55
- angleY 161.772
- angleZ -4.522
- m_sAttachmentGroupName "pil"
-}
 $grp Vehicle : "{6B7CD408BDFB94F5}Prefabs/Vehicles/Wheeled/TIGR/PKP/GAZ_TIGR_v2_PKM_Green.et" {
  GAZ_TIGR_v2_PKM_Green1 {
   coords 7961.696 93.621 3105.648
@@ -225,7 +225,7 @@ $grp SCR_AIGroup : "{F06FB64E53D6E4AE}Prefabs/Groups/OPFOR/drg_RHS_Recon_Squad.e
   coords 7964.952 113.594 763.836
   angleY -168.151
   m_aUnitPrefabSlots {
-   "{964F7C7E17A618E4}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Recon/drg_Role_RHS_AFRF_Recon_SquadLeader.et" "{89072075B73F4C52}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Recon/drg_Role_RHS_AFRF_Recon_SeniorRifleman.et" "{1AB049064B53BD02}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Recon/drg_Role_RHS_AFRF_Recon_Grenadier.et" "{DF973A765CF4CE88}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Recon/drg_Role_RHS_AFRF_Recon_Rifle_GM94.et" "{453B61A702E0B161}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Recon/drg_Role_RHS_AFRF_Recon_Sapper.et" "{FA87DB28ECBB88A4}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Recon/drg_Role_RHS_AFRF_Recon_Rifleman.et" "{2BB6F9C635CFFE8B}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Recon/drg_Role_RHS_AFRF_Recon_Sniper.et"
+   "{493F72102D5E0F98}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/GRU/Ligth/drg_Role_RHS_AFRF_GRU_SL.et" "{34279EE848CD3301}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/GRU/Ligth/drg_Role_RHS_AFRF_GRU_SR.et" "{76A05D157195B968}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/GRU/Ligth/drg_Role_RHS_AFRF_GRU_MG.et" "{458F066DE1E8215E}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/GRU/Ligth/drg_Role_RHS_AFRF_GRU_Rifleman.et" "{FC1FEACE6653B3D7}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/GRU/Ligth/drg_Role_RHS_AFRF_GRU_AT.et" "{458F066DE1E8215E}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/GRU/Ligth/drg_Role_RHS_AFRF_GRU_Rifleman.et" "{18E5431BC976B948}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/GRU/Ligth/drg_Role_RHS_AFRF_GRU_Sniper.et"
   }
  }
  {
@@ -240,7 +240,7 @@ $grp SCR_AIGroup : "{F06FB64E53D6E4AE}Prefabs/Groups/OPFOR/drg_RHS_Recon_Squad.e
   angleY -161.578
   angleZ 4.513
   m_aUnitPrefabSlots {
-   "{964F7C7E17A618E4}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Recon/drg_Role_RHS_AFRF_Recon_SquadLeader.et" "{89072075B73F4C52}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Recon/drg_Role_RHS_AFRF_Recon_SeniorRifleman.et" "{1AB049064B53BD02}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Recon/drg_Role_RHS_AFRF_Recon_Grenadier.et" "{DF973A765CF4CE88}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Recon/drg_Role_RHS_AFRF_Recon_Rifle_GM94.et" "{453B61A702E0B161}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Recon/drg_Role_RHS_AFRF_Recon_Sapper.et" "{FA87DB28ECBB88A4}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Recon/drg_Role_RHS_AFRF_Recon_Rifleman.et" "{2BB6F9C635CFFE8B}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Recon/drg_Role_RHS_AFRF_Recon_Sniper.et"
+   "{493F72102D5E0F98}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/GRU/Ligth/drg_Role_RHS_AFRF_GRU_SL.et" "{34279EE848CD3301}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/GRU/Ligth/drg_Role_RHS_AFRF_GRU_SR.et" "{76A05D157195B968}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/GRU/Ligth/drg_Role_RHS_AFRF_GRU_MG.et" "{458F066DE1E8215E}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/GRU/Ligth/drg_Role_RHS_AFRF_GRU_Rifleman.et" "{FC1FEACE6653B3D7}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/GRU/Ligth/drg_Role_RHS_AFRF_GRU_AT.et" "{458F066DE1E8215E}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/GRU/Ligth/drg_Role_RHS_AFRF_GRU_Rifleman.et" "{18E5431BC976B948}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/GRU/Ligth/drg_Role_RHS_AFRF_GRU_Sniper.et"
   }
  }
 }
