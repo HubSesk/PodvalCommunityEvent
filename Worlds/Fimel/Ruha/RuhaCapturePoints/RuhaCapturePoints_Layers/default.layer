@@ -1,0 +1,27 @@
+SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
+ coords 1258.182 0 2210.608
+}
+PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 1292.86 39 2184.528
+}
+PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
+ components {
+  SCR_InitWeatherComponent "{61B68227C35BFE9A}" {
+   m_sInitialStartingWeatherId "Rainy"
+  }
+  SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
+   m_iStartingHours 19
+  }
+ }
+ coords 1288.384 39 2176.486
+ m_bMarkersOnlyOnBriefing 1
+ m_bRemoveRedundantUnits 1
+ m_bRemoveSquadMarkers 1
+ m_iFreezeTime 180000
+ m_bDisableChat 1
+ m_bReserveSlots 1
+ m_bDisableVanillaGroupMenu 1
+ m_bDisableGarbageSystem 1
+ m_bFreezeTimeShootingForbiden 1
+ m_bDisableBuildingModeAfterFreezeTime 1
+}
