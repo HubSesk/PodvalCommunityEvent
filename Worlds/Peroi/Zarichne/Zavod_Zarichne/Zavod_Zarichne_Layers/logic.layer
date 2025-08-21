@@ -1,0 +1,38 @@
+$grp GenericEntity : "{91991AEB147C0F3B}Prefabs/System/DRG_RandomSpawnPrefab.et" {
+ {
+  components {
+   DRG_RandomSpawnComponent "{66295E1A338BA9CE}" {
+    m_TargetEntity "gg"
+    m_MarkerEntities {
+     "spawn1" "spawn2"
+    }
+   }
+  }
+  coords 3000.432 26.979 4120.933
+  angleX -0.895
+  angleY -0.014
+  angleZ 0.895
+ }
+ {
+  components {
+   DRG_RandomSpawnComponent "{66295E1A338BA9CE}" {
+    m_TargetEntity "gru1"
+    m_MarkerEntities {
+     "gruspawn1" "gruspawn2"
+    }
+   }
+  }
+  coords 1731.107 14.691 2466.658
+ }
+}
+GenericEntity : "{E6FC6DD69FA3479F}Prefabs/System/DRG_MissionEndTimerPrefab.et" {
+ components {
+  DRG_MissionEndTimerComponent "{651B0839B21B3BBF}" {
+   m_iMissionTime 2400
+   m_aTimeLeftWarningTimers {
+    300
+   }
+  }
+ }
+ coords 2521.647 17.125 2843.4
+}
