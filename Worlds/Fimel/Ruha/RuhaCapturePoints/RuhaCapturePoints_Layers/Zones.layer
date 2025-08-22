@@ -5,21 +5,34 @@ $grp SCR_EditorRestrictionZoneEntity : "{6144B0BE2EAC6897}PrefabsEditable/Restri
  }
  zone_freeze_USAF {
   coords 2768.501 65.578 3683.145
-  angleX -0.005
-  angleY -0.175
-  angleZ -1.79
+  angleX -1.78
+  angleY -83.95
+  angleZ -0.189
  }
 }
 PolylineShapeEntity zone_all : "{7019844BAD5C4DD8}Prefabs/PolyZone/PolyZone_Border.et" {
  components {
   PS_PolyZone "{60E90266F25533F6}" {
+   m_cPolygonColor 0 0.156 0.005 1
+   m_fPolygonUVScale 4
+   m_cPolygonBorderColor 0 0.021 0.474 1
+   m_fPolygonBorderWidth 8
    m_aVisibleForFactions {
     "" "RHS_AFRF" "RHS_USAF"
    }
   }
  }
- coords 1664.73 63.757 1620.766
+ coords 1665.587 65.124 1620.235
+ angleX -1.789
+ angleY -0.028
+ angleZ 0.896
  Points {
+  ShapePoint "{662CF123EED4868D}" {
+   Position 8.856 0 -6.304
+  }
+  ShapePoint "{60E90266E922A02A}" {
+   Position 0.964 0 1.102
+  }
   ShapePoint "{661CF1307D72008D}" {
    Position -141.795 0 161.781
   }
@@ -93,7 +106,7 @@ PolylineShapeEntity zone_all : "{7019844BAD5C4DD8}Prefabs/PolyZone/PolyZone_Bord
    Position 72.871 0 -32.487
   }
   ShapePoint "{661CF13FAB082ABC}" {
-   Position 12.157 0 -5.23
+   Position 12.984 0 -8.903
   }
  }
 }
