@@ -1,0 +1,50 @@
+SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
+ coords 6056.726 53.369 7257.499
+}
+PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 6061.192 53.493 7240.975
+}
+PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
+ coords 6047.417 52.763 7245.49
+ m_bDisablePlayablesStreaming 0
+}
+GenericEntity : "{6A3CDCFB475BF1B2}Prefabs/System/DRG_CriticalLossPrefab.et" {
+ components {
+  DRG_CriticalLossComponent "{65213D368F1BD792}" {
+   m_aLossLogics {
+    LossLogic "{663826F213FFD373}" {
+     m_aLosses {
+      FactionLoss "{663826F20BBC8BF2}" {
+       m_sFactionKey "Ses_CDF"
+      }
+     }
+     m_bAdvanceGameStage 1
+     m_bUseMessage 1
+     m_bEventMessage "#drg_ModuleCriticalLoss_ConditionMet_AttackWin "
+    }
+    LossLogic "{663826F2325A274C}" {
+     m_aLosses {
+      FactionLoss "{663826F2335B5334}" {
+       m_sFactionKey "RHS_AFRF"
+      }
+     }
+     m_bAdvanceGameStage 1
+     m_bUseMessage 1
+     m_bEventMessage " #drg_ModuleCriticalLoss_ConditionMet_DefendWin"
+    }
+   }
+  }
+ }
+ coords 6032.886 52.463 7239.631
+}
+GenericEntity : "{E6FC6DD69FA3479F}Prefabs/System/DRG_MissionEndTimerPrefab.et" {
+ components {
+  DRG_MissionEndTimerComponent "{651B0839B21B3BBF}" {
+   m_iMissionTime 2400
+   m_aTimeLeftWarningTimers {
+    300
+   }
+  }
+ }
+ coords 6078.696 54.073 7253.639
+}

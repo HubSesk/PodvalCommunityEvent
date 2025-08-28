@@ -1,0 +1,50 @@
+GenericEntity : "{0DBE058F13F0C7E8}PrefabsEditable/Auto/Structures/Military/Flags/E_FlagPole_02_V1_US.et" {
+ coords 7987.801 90.388 3294.796
+}
+$grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
+ {
+  coords 6186.301 58.709 5793.131
+  m_sTitle "Убить Командира ЧСО"
+  m_bShowForAnyFaction 1
+  m_iScore 50
+  m_sFactionKey "RHS_AFRF"
+ }
+ {
+  coords 6176.946 58.609 5803.461
+  m_sTitle "Захватить Опорный Пункт ЧСО"
+  m_bShowForAnyFaction 1
+  m_iScore 50
+  m_sFactionKey "RHS_AFRF"
+ }
+}
+$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ {
+  coords 7984.699 90.276 3295.711
+  angleY 0
+  m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+  m_sImageSetGlow "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+  m_sQuadName "Task_Evac"
+  m_fWorldSize 45
+  m_sDescription "Точка Эвакуации"
+  m_bUseWorldScale 0
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+ }
+ {
+  coords 6168.97 64.62 6911.412
+  m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+  m_sImageSetGlow "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+  m_sQuadName "Task_Defend"
+  m_fWorldSize 45
+  m_sDescription "Опорный Пункт"
+  m_bUseWorldScale 0
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+ }
+}
+GenericEntity : "{F9EBA10CC445ED63}PrefabsEditable/Auto/Structures/Military/Flags/FlagPole_02_V1_CDF_Editable.et" {
+ coords 6173.5 61.668 6909.678
+ angleX -1.861
+ angleY 178.136
+ angleZ -25.82
+}
