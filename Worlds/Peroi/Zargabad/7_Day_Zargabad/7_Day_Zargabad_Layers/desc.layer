@@ -1,0 +1,77 @@
+$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ {
+  coords 1576.439 77.663 2311.777
+  m_sTitle "Условности Миссии"
+  m_sTextData "ВС РФ:"\
+  ""\
+  "..."\
+  ""\
+  "США:"\
+  ""\
+  "Вертолетам запрещено таранить флаги"
+  m_aVisibleForFactions {
+   "" "RHS_USAF" "RHS_AFRF"
+  }
+  m_bEmptyFactionVisibility 1
+ }
+ {
+  coords 1568.642 77.237 2358.032
+  m_sTitle "Цель Миссии"
+  m_sTextData "США:"\
+  ""\
+  "Нужно захватить Мечеть и Стройку"\
+  ""\
+  "ВС РФ:"\
+  ""\
+  "Нужно удержать Мечеть и Стройку"\
+  ""\
+  ""\
+  "Условия захвата:"\
+  ""\
+  "Для захвата зоны нужно поднять флаг.  Флаги нельзя перезахватить. За каждый флаг дают по 50 очков"
+  m_aVisibleForFactions {
+   "" "RHS_USAF" "RHS_AFRF"
+  }
+  m_bEmptyFactionVisibility 1
+ }
+ {
+  coords 1557.878 76.931 2348.034
+  m_sTitle "Описание Миссии"
+  m_sTextData "ВС РФ закрепились в городе Заргабад, США хотят выбить их с ключевых позиций в Мечети и на Стройке."\
+  "У ВС РФ есть стационарные пулеметы."
+  m_aVisibleForFactions {
+   "" "RHS_USAF" "RHS_AFRF"
+  }
+  m_bEmptyFactionVisibility 1
+ }
+}
+$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ {
+  coords 4252.408 18.462 4163.356
+  angleY 88.867
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0 0 1
+  m_sQuadName "flag-2"
+  m_fWorldSize 55
+  m_sDescription "Мечеть"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "" "RHS_USAF" "RHS_AFRF"
+  }
+  m_bVisibleForEmptyFaction 1
+ }
+ {
+  coords 3769.233 27.133 4351.001
+  angleY 82.109
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0 0 1
+  m_sQuadName "flag-2"
+  m_fWorldSize 55
+  m_sDescription "Стройка"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "" "RHS_USAF" "RHS_AFRF"
+  }
+  m_bVisibleForEmptyFaction 1
+ }
+}
