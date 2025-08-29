@@ -1,0 +1,92 @@
+PolylineShapeEntity : "{7019844BAD5C4DD8}Prefabs/PolyZone/PolyZone_Border.et" {
+ components {
+  PS_PolyZone "{60E90266F25533F6}" {
+   m_mPolygonTexture "{928B4092981F27CB}UI/layouts/Textures/Zone.edds"
+   m_cPolygonColor 0.071 0.192 0.561 0
+   m_mPolygonTextureBorder "{CA01D453D39FB430}UI/layouts/Textures/ZoneBorder.edds"
+   m_cPolygonBorderColor 0.071 0.192 0.561 1
+   m_aVisibleForFactions {
+    "" "RHS_AFRF" "RHS_USAF"
+   }
+  }
+ }
+ coords 3967.351 22.87 3506.178
+ Points {
+  ShapePoint "{663AC5490EA6CAE1}" {
+   Position 29.917 1.944 49.089
+  }
+  ShapePoint "{663AC5490FF11C72}" {
+   Position 29.227 2.492 78.092
+  }
+  ShapePoint "{663AC549088BD64E}" {
+   Position 27.154 -0.104 110.82
+  }
+  ShapePoint "{663AC549082CCB3E}" {
+   Position -4.16 -1.164 148.627
+  }
+  ShapePoint "{663AC54909CF61FB}" {
+   Position 8.048 -2.13 206.514
+  }
+  ShapePoint "{663AC5490AF30B95}" {
+   Position 68.685 -0.777 197.108
+  }
+  ShapePoint "{663AC54934E3AD40}" {
+   Position 78.156 -1.371 180.018
+  }
+  ShapePoint "{663AC5493458CF59}" {
+   Position 121.78 -0.025 160.915
+  }
+  ShapePoint "{663AC549357EC822}" {
+   Position 173.513 2.81 148.947
+  }
+  ShapePoint "{663AC54936A30D5E}" {
+   Position 212.656 4.41 134.821
+  }
+  ShapePoint "{663AC54930236FE2}" {
+   Position 211.632 4.269 100.244
+  }
+  ShapePoint "{663AC549305566A1}" {
+   Position 208.399 3.532 75.612
+  }
+  ShapePoint "{663AC54931399A50}" {
+   Position 185.6 1.869 40.545
+  }
+  ShapePoint "{663AC5493164EF06}" {
+   Position 166.819 1.957 16.57
+  }
+  ShapePoint "{663AC5493254F589}" {
+   Position 164.384 0.922 -20.5
+  }
+  ShapePoint "{663AC5493327DF81}" {
+   Position 163.136 -2.432 -49.52
+  }
+  ShapePoint "{663AC5493353BAC6}" {
+   Position 127.855 -3.068 -51.512
+  }
+  ShapePoint "{663AC5493C8098A0}" {
+   Position 81.111 2.009 -29.424
+  }
+  ShapePoint "{663AC5493DD7158B}" {
+   Position 45.222 1.433 -16.301
+  }
+ }
+ {
+  PS_PolyZoneTrigger {
+   ID "60FD050E1E83544C"
+   m_polyZoneEffect PS_PolyZoneEffectRestricted "{60FD050E0DC2A2AB}" {
+    m_fKillTime 5
+   }
+   m_sGroupKey "def"
+  }
+ }
+}
+$grp Turret : "{73530808E4B455BA}Prefabs/Weapons/Tripods/Tripod_M3_M2HB.et" {
+ {
+  coords 4052.193 25.191 3600.378
+  angleY -71.078
+ }
+ {
+  coords 4054.929 25.125 3609.499
+  angleY -71.078
+ }
+}
