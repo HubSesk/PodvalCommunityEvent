@@ -2,13 +2,20 @@ SCR_AIGroup gg : "{02B7DC04CD35582D}Prefabs/Groups/BLUFOR/CDF/drg_CDF_PlatoonHQ.
  coords 6672.739 96.656 1273.266
  angleY 176.733
  m_aUnitPrefabSlots {
-  "{8DA9CAFC7CEFC056}Prefabs/Characters/Factions/BLUFOR/CDF_Army/drg_Character_CDF_PL.et" "{69AF9F9D049BCD5F}Prefabs/Characters/Factions/BLUFOR/CDF_Army/drg_Character_CDF_SR.et" "{1697A8132DF3C95C}Prefabs/Characters/Factions/BLUFOR/CDF_Army/drg_Character_CDF_Medic.et" "{E94CBA221C90E93D}Prefabs/Characters/Factions/BLUFOR/CDF_Army/drg_Character_CDF_Sniper.et"
+  "{8DA9CAFC7CEFC056}Prefabs/Characters/Factions/BLUFOR/CDF_Army/drg_Character_CDF_PL.et" "{69AF9F9D049BCD5F}Prefabs/Characters/Factions/BLUFOR/CDF_Army/drg_Character_CDF_SR.et" "{18E6EF765272F8AA}Prefabs/Characters/Factions/BLUFOR/CDF_Army/drg_Character_CDF_MG_opt.et" "{74EAFC5BA43B3AFF}Prefabs/Characters/Factions/BLUFOR/CDF_Army/drg_Character_CDF_GL.et" "{1697A8132DF3C95C}Prefabs/Characters/Factions/BLUFOR/CDF_Army/drg_Character_CDF_Medic.et" "{E94CBA221C90E93D}Prefabs/Characters/Factions/BLUFOR/CDF_Army/drg_Character_CDF_Sniper.et"
  }
 }
-Vehicle BRDM2_CDF1 : "{0CB42A0E046DAD18}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_CDF.et" {
- coords 6643.532 96.656 1275.011
- angleY 176.645
- m_sAttachmentGroupName "gg"
+$grp Vehicle : "{0CB42A0E046DAD18}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_CDF.et" {
+ BRDM2_CDF1 {
+  coords 6643.532 96.656 1275.011
+  angleY 176.645
+  m_sAttachmentGroupName "gg"
+ }
+ BRDM2_CDF2 {
+  coords 6633.868 96.656 1274.444
+  angleY 176.645
+  m_sAttachmentGroupName "gg"
+ }
 }
 $grp SCR_AIGroup : "{D03F49D1589BABAD}Prefabs/Groups/BLUFOR/CDF/drg_CDF_RifleSquad.et" {
  nn {
