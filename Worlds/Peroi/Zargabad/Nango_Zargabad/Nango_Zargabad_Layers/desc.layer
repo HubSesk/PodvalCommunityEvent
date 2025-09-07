@@ -1,0 +1,76 @@
+$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ {
+  coords 1576.439 77.663 2311.777
+  m_sTitle "Условности Миссии"
+  m_sTextData "Ополчение:"\
+  ""\
+  "..."\
+  ""\
+  "США:"\
+  ""\
+  "Запрещено взаимодействовать с флагами"
+  m_aVisibleForFactions {
+   "" "RHS_USAF" "Ses_TKR"
+  }
+  m_bEmptyFactionVisibility 1
+ }
+ {
+  coords 1568.642 77.237 2358.032
+  m_sTitle "Цель Миссии"
+  m_sTextData "Ополчение:"\
+  ""\
+  "Нужно захватить Завод 1 и Завод 2"\
+  ""\
+  "США:"\
+  ""\
+  "Нужно удержать Завод 1 и Завод 2"\
+  ""\
+  ""\
+  "Условия захвата:"\
+  ""\
+  "Для захвата зоны нужно поднять флаг.  Флаги нельзя перезахватить. За каждый флаг дают по 50 очков"
+  m_aVisibleForFactions {
+   "" "RHS_USAF" "Ses_TKR"
+  }
+  m_bEmptyFactionVisibility 1
+ }
+ {
+  coords 1557.878 76.931 2348.034
+  m_sTitle "Описание Миссии"
+  m_sTextData "США закрепились на Заводе Нанго, Ополчение хотят выбить их с ключевых позиций наЗаводе 1 и на Заводе 2."
+  m_aVisibleForFactions {
+   "" "RHS_USAF" "Ses_TKR"
+  }
+  m_bEmptyFactionVisibility 1
+ }
+}
+$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ {
+  coords 2938.73 40.578 4843.493
+  angleY 88.867
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0 0 1
+  m_sQuadName "flag-2"
+  m_fWorldSize 55
+  m_sDescription "Завод 1"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "" "RHS_USAF" "Ses_TKR"
+  }
+  m_bVisibleForEmptyFaction 1
+ }
+ {
+  coords 2881.922 43.121 4984.043
+  angleY 82.109
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0 0 1
+  m_sQuadName "flag-2"
+  m_fWorldSize 55
+  m_sDescription "Завод 2"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "" "RHS_USAF" "Ses_TKR"
+  }
+  m_bVisibleForEmptyFaction 1
+ }
+}

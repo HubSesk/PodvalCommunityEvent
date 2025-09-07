@@ -1,0 +1,78 @@
+$grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
+ {
+  coords 2831.869 434.767 4239.76
+  m_sTitle "Удержали Завод 1"
+  m_iScore 50
+  m_sFactionKey "RHS_USAF"
+ }
+ {
+  coords 2831.212 435.163 4239.13
+  m_sTitle "Захватили Завод 1"
+  m_iScore 50
+  m_sFactionKey "Ses_TKR"
+ }
+ {
+  coords 1541.702 268.963 1331.719
+  m_sTitle "ЗахватилиЗавод 2"
+  m_iScore 50
+  m_sFactionKey "Ses_TKR"
+ }
+ {
+  coords 1560.183 256.297 1334.721
+  m_sTitle "Удержали Завод 2"
+  m_iScore 50
+  m_sFactionKey "RHS_USAF"
+ }
+}
+GenericEntity : "{E6FC6DD69FA3479F}Prefabs/System/DRG_MissionEndTimerPrefab.et" {
+ components {
+  DRG_MissionEndTimerComponent "{651B0839B21B3BBF}" {
+   m_iMissionTime 2100
+  }
+ }
+ coords 2772.594 276.388 4116.711
+}
+$grp GenericEntity : "{F5EF4223ACA6169C}PrefabsEditable/Auto/Structures/Military/Flags/E_FlagPole_02_V1_AFRF.et" {
+ {
+  components {
+   SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+    m_sDefaultMaterial "{610803CC3F3D6649}Assets/Props/Fabric/Flags/Data/Flag_1_2_USA.emat"
+    m_aFlagData {
+     PS_FlagData "{6588FCB6C8DD7B29}" {
+      m_sFactionKey "RHS_USAF"
+     }
+     PS_FlagData "{6588FCB6C83102AD}" {
+      m_sFactionKey "Ses_TKR"
+      m_iCaptureCounter 1
+     }
+    }
+    m_sFactionKey "RHS_USAF"
+   }
+  }
+  coords 2938.394 41.366 4843.444
+  angleX 0.544
+  angleY -0.012
+  angleZ -1.219
+ }
+ {
+  components {
+   SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+    m_sDefaultMaterial "{610803CC3F3D6649}Assets/Props/Fabric/Flags/Data/Flag_1_2_USA.emat"
+    m_aFlagData {
+     PS_FlagData "{6588FCB6C8DD7B29}" {
+      m_sFactionKey "RHS_USAF"
+     }
+     PS_FlagData "{6588FCB6C83102AD}" {
+      m_sFactionKey "Ses_TKR"
+      m_iCaptureCounter 1
+     }
+    }
+    m_sFactionKey "RHS_USAF"
+   }
+  }
+  coords 2881.414 44.085 4983.905
+  angleX -1.142
+  angleY -0.144
+  angleZ -1.731
+ }
+}
