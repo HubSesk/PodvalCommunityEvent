@@ -86,7 +86,7 @@ $grp SCR_AIGroup : "{AE3600F8B5BE83E0}Prefabs/Groups/OPFOR/Ses_TKA/Group_Ses_TKA
   angleY -27.164
   angleZ -1.284
   m_aUnitPrefabSlots {
-   "{12F431E2027BF994}Prefabs/Characters/Factions/OPFOR/TKA/SpecialForces/Character_TKA_SpecialRTO.et" "{67E8A351C4DF452C}Prefabs/Characters/Factions/OPFOR/TKA/SpecialForces/Character_TKA_SF_Sharpshooter.et"
+   "{54CB5C45A0884FA8}Prefabs/Characters/Factions/OPFOR/TKA/SpecialForces/Character_TKA_TeamLeader.et" "{67E8A351C4DF452C}Prefabs/Characters/Factions/OPFOR/TKA/SpecialForces/Character_TKA_SF_Sharpshooter.et"
   }
  }
 }
@@ -100,6 +100,9 @@ SCR_AIGroup ggg : "{F21917B6C71E18E0}Prefabs/Groups/OPFOR/Ses_TKA/Group_Ses_TKA_
  }
  coords 6329.925 86.156 11283.981
  angleY -56.541
+ m_aUnitPrefabSlots {
+  "{85EB4CD1B26B623A}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_PL_Random.et" "{57780E780B86C9B3}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_Sergeant_Random.et" "{8B527E374F30265A}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_RTO_Random.et" "{32B9E83638ABDD8B}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_GL_Random.et" "{3A44182939C9EA94}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_Sharpshooter_Random.et"
+ }
 }
 $grp Vehicle : "{F3C22A3CC0664AB7}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_Ses_TKA.et" {
  UAZ469_Ses_TKA1 {
@@ -135,6 +138,13 @@ $grp Vehicle : "{F3C22A3CC0664AB7}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_Ses_TKA
   angleZ -0.238
   m_sAttachmentGroupName "spn1"
  }
+ UAZ469_Ses_TKA6 {
+  coords 4677.725 158.927 9543.54
+  angleX 0.105
+  angleY 60.125
+  angleZ -0.388
+  m_sAttachmentGroupName "spn2"
+ }
 }
 $grp SCR_AIGroup : "{F84C950E55A7BD7E}Prefabs/Groups/OPFOR/Ses_TKA/Group_Ses_TKA_RifleSquad.et" {
  ggg1 {
@@ -151,7 +161,7 @@ $grp SCR_AIGroup : "{F84C950E55A7BD7E}Prefabs/Groups/OPFOR/Ses_TKA/Group_Ses_TKA
   angleY -55.204
   angleZ 0.629
   m_aUnitPrefabSlots {
-   "{7A311185329FF27C}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_SL_Random.et" "{3DA88236C1DA39C9}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_SR_Random.et" "{C86420C763ED0021}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_AR_Random.et" "{9C2C6F808E31CC7F}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_AT_Random.et" "{108F61FD1567B2B8}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_AAT_Random.et" "{BCB00DD3227FFBA5}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_Rifleman_VZ_Random.et" "{3FB09CBA64F82F18}Prefabs/Characters/Factions/OPFOR/TKA/Character_TKA_Sharpshooter.et" "{015EC1B41DCFA4AD}Prefabs/Characters/Factions/OPFOR/TKA/Character_TKA_Crew.et" "{88AB800C7786D8CD}Prefabs/Characters/Factions/OPFOR/TKA/Character_TKA_Crew_2.et"
+   "{7A311185329FF27C}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_SL_Random.et" "{3DA88236C1DA39C9}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_SR_Random.et" "{931177EA6A224A4F}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_MG_Random.et" "{9C2C6F808E31CC7F}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_AT_Random.et" "{108F61FD1567B2B8}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_AAT_Random.et" "{32B9E83638ABDD8B}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_GL_Random.et" "{3FB09CBA64F82F18}Prefabs/Characters/Factions/OPFOR/TKA/Character_TKA_Sharpshooter.et" "{015EC1B41DCFA4AD}Prefabs/Characters/Factions/OPFOR/TKA/Character_TKA_Crew.et" "{88AB800C7786D8CD}Prefabs/Characters/Factions/OPFOR/TKA/Character_TKA_Crew_2.et"
   }
  }
  ggg2 {
@@ -169,7 +179,7 @@ $grp SCR_AIGroup : "{F84C950E55A7BD7E}Prefabs/Groups/OPFOR/Ses_TKA/Group_Ses_TKA
   angleY -55.993
   angleZ 0.789
   m_aUnitPrefabSlots {
-   "{7A311185329FF27C}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_SL_Random.et" "{3DA88236C1DA39C9}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_SR_Random.et" "{C86420C763ED0021}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_AR_Random.et" "{9C2C6F808E31CC7F}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_AT_Random.et" "{108F61FD1567B2B8}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_AAT_Random.et" "{BCB00DD3227FFBA5}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_Rifleman_VZ_Random.et" "{3FB09CBA64F82F18}Prefabs/Characters/Factions/OPFOR/TKA/Character_TKA_Sharpshooter.et" "{015EC1B41DCFA4AD}Prefabs/Characters/Factions/OPFOR/TKA/Character_TKA_Crew.et" "{88AB800C7786D8CD}Prefabs/Characters/Factions/OPFOR/TKA/Character_TKA_Crew_2.et"
+   "{7A311185329FF27C}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_SL_Random.et" "{3DA88236C1DA39C9}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_SR_Random.et" "{931177EA6A224A4F}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_MG_Random.et" "{9C2C6F808E31CC7F}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_AT_Random.et" "{108F61FD1567B2B8}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_AAT_Random.et" "{32B9E83638ABDD8B}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_GL_Random.et" "{3FB09CBA64F82F18}Prefabs/Characters/Factions/OPFOR/TKA/Character_TKA_Sharpshooter.et" "{015EC1B41DCFA4AD}Prefabs/Characters/Factions/OPFOR/TKA/Character_TKA_Crew.et" "{88AB800C7786D8CD}Prefabs/Characters/Factions/OPFOR/TKA/Character_TKA_Crew_2.et"
   }
  }
  ggg3 {
@@ -186,7 +196,7 @@ $grp SCR_AIGroup : "{F84C950E55A7BD7E}Prefabs/Groups/OPFOR/Ses_TKA/Group_Ses_TKA
   angleY -174.386
   angleZ -0.876
   m_aUnitPrefabSlots {
-   "{7A311185329FF27C}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_SL_Random.et" "{3DA88236C1DA39C9}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_SR_Random.et" "{C86420C763ED0021}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_AR_Random.et" "{9C2C6F808E31CC7F}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_AT_Random.et" "{108F61FD1567B2B8}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_AAT_Random.et" "{BCB00DD3227FFBA5}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_Rifleman_VZ_Random.et" "{3FB09CBA64F82F18}Prefabs/Characters/Factions/OPFOR/TKA/Character_TKA_Sharpshooter.et"
+   "{7A311185329FF27C}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_SL_Random.et" "{3DA88236C1DA39C9}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_SR_Random.et" "{931177EA6A224A4F}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_MG_Random.et" "{9C2C6F808E31CC7F}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_AT_Random.et" "{108F61FD1567B2B8}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_AAT_Random.et" "{32B9E83638ABDD8B}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_GL_Random.et" "{3FB09CBA64F82F18}Prefabs/Characters/Factions/OPFOR/TKA/Character_TKA_Sharpshooter.et"
   }
  }
  ggg4 {
@@ -204,7 +214,7 @@ $grp SCR_AIGroup : "{F84C950E55A7BD7E}Prefabs/Groups/OPFOR/Ses_TKA/Group_Ses_TKA
   angleY -174.399
   angleZ 0.028
   m_aUnitPrefabSlots {
-   "{7A311185329FF27C}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_SL_Random.et" "{3DA88236C1DA39C9}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_SR_Random.et" "{C86420C763ED0021}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_AR_Random.et" "{9C2C6F808E31CC7F}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_AT_Random.et" "{108F61FD1567B2B8}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_AAT_Random.et" "{BCB00DD3227FFBA5}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_Rifleman_VZ_Random.et" "{3FB09CBA64F82F18}Prefabs/Characters/Factions/OPFOR/TKA/Character_TKA_Sharpshooter.et"
+   "{7A311185329FF27C}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_SL_Random.et" "{3DA88236C1DA39C9}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_SR_Random.et" "{931177EA6A224A4F}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_MG_Random.et" "{9C2C6F808E31CC7F}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_AT_Random.et" "{108F61FD1567B2B8}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_AAT_Random.et" "{32B9E83638ABDD8B}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_GL_Random.et" "{3FB09CBA64F82F18}Prefabs/Characters/Factions/OPFOR/TKA/Character_TKA_Sharpshooter.et"
   }
  }
 }
