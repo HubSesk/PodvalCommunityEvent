@@ -122,21 +122,12 @@ SCR_AIGroup pil : "{582AA92CC9105E2F}Prefabs/Groups/BLUFOR/drg_USAF_LAV25.et" {
  }
  m_sCustomNameSet "Пилоты"
 }
-$grp Vehicle : "{7BC9C79CD8FD8CE7}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_PAS13G_USAF_D.et" {
- M1025_armed_M2HB_PAS13G_USAF_D1 {
-  coords 3911.982 11.063 2758.902
-  angleX 0.845
-  angleY -109.36
-  angleZ -0.297
-  m_sAttachmentGroupName "ks"
- }
- M1025_armed_M2HB_PAS13G_USAF_D2 {
-  coords 5061.946 33.592 1965.346
-  angleX 0.573
-  angleY 18.671
-  angleZ -1.696
-  m_sAttachmentGroupName "ks2"
- }
+Vehicle M1025_armed_M2HB_PAS13G_USAF_D2 : "{7BC9C79CD8FD8CE7}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_PAS13G_USAF_D.et" {
+ coords 5061.946 33.592 1965.346
+ angleX 0.573
+ angleY 18.671
+ angleZ -1.696
+ m_sAttachmentGroupName "ks2"
 }
 $grp Vehicle : "{7D9A9AD859069D09}Prefabs/Vehicles/Wheeled/M998/M998_covered_long_USAF_D.et" {
  M998_covered_long_USAF_D1 {
@@ -248,6 +239,13 @@ $grp Vehicle : "{B8C827A45C1347A4}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB
   angleY 19.322
   angleZ 1.689
   m_sAttachmentGroupName "hh3"
+ }
+ M1025_armed_M2HB_USAF_D5 {
+  coords 3911.354 11.072 2759.524
+  angleX 0.85
+  angleY -108.264
+  angleZ -0.28
+  m_sAttachmentGroupName "ks"
  }
 }
 $grp SCR_AIGroup : "{D9B32FE6DF696BE5}Prefabs/Groups/BLUFOR/drg_USAF_PlatoonHQ.et" {
