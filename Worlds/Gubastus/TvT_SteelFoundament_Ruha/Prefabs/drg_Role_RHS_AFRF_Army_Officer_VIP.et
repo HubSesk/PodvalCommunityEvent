@@ -1,0 +1,27 @@
+SCR_ChimeraCharacter : "{83EC1FC85CC0AADE}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_Officer.et" {
+ ID "520EC961A090B1EE"
+ components {
+  ActionsManagerComponent "{520EA1D2F659CE02}" {
+   additionalActions {
+    DRG_DeathConfirmAction "{66851403C5CFB014}" {
+     ParentContextList {
+      "LowerTorso"
+     }
+     UIInfo UIInfo "{65E2D0EF1870FE87}" {
+      Name "Подтвердить смерть"
+     }
+     ActionTitle "#drg_ConfirmDeathAction"
+     Duration 3
+     m_sEventMessage "#drg_ConfirmMessageDeathMessage"
+     m_aObjectivesToDone {
+      "US_CMD"
+     }
+     m_aObjectivesToFail {
+      "RF_CMD"
+     }
+     m_vFactionKey "RHS_USAF"
+    }
+   }
+  }
+ }
+}

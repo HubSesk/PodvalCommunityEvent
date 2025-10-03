@@ -1,0 +1,20 @@
+$grp Turret : "{1A407760EEAE4156}Prefabs/Vehicles/Static/BaconZU23/BaconZU23_Turret_Deployed.et" {
+ {
+  coords 4546.532 60.875 2053.944
+ }
+ {
+  coords 4756.883 73.02 2212.583
+ }
+}
+GenericEntity FLAG_1 : "{F638E8AF02F38272}PrefabsEditable/Auto/Structures/Military/Flags/E_FlagPole_02_V1_TKR.et" {
+ components {
+  SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+   m_aObjectiveNames {
+    "RF_FLAG" "US_FLAG"
+   }
+   m_sUseNotification 1
+   m_sNotificationText "#drg_Flag_CapturedByFaction %1, игра не закончена, флаг можно перезахватить!"
+  }
+ }
+ coords 4625.354 75.781 2083.711
+}
