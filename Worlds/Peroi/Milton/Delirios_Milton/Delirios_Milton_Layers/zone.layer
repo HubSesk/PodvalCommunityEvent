@@ -1,0 +1,45 @@
+PolylineShapeEntity : "{BD11B8FAA469D169}Prefabs/PolyZone/PolyZone.et" {
+ components {
+  PS_PolyZone "{60E90266F25533F6}" {
+   m_mPolygonTexture "{928B4092981F27CB}UI/layouts/Textures/Zone.edds"
+   m_cPolygonColor 0 0 0 0.762
+   m_mPolygonTextureBorder "{CA01D453D39FB430}UI/layouts/Textures/ZoneBorder.edds"
+   m_cPolygonBorderColor 0 0 0 1
+   m_aVisibleForFactions {
+    "" "UK" "RHS_AFRF"
+   }
+  }
+ }
+ coords 4958.995 104.715 3440.982
+ Points {
+  ShapePoint "{66869AAD2A179860}" {
+   Position -1.259 -3.281 11.964
+  }
+  ShapePoint "{66869AAD2B7A2220}" {
+   Position 3.34 -2.266 22.974
+  }
+  ShapePoint "{66869AAD5455A2F8}" {
+   Position 10.046 -2.243 19.871
+  }
+  ShapePoint "{66869AAD55127F47}" {
+   Position 16.694 -3.109 6.353
+  }
+  ShapePoint "{66869AAD563ECD38}" {
+   Position 11.125 -3.953 0.758
+  }
+ }
+}
+PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ coords 4965.619 106.273 3451.556
+ angleY 0
+ m_sImageSetGlow ""
+ m_MarkerColor 0 0 0 1
+ m_sQuadName "objective-marker"
+ m_fWorldSize 50
+ m_sDescription "Зона эвакуации"
+ m_bUseWorldScale 0
+ m_aVisibleForFactions {
+  "" "UK" "RHS_AFRF"
+ }
+ m_bVisibleForEmptyFaction 1
+}
