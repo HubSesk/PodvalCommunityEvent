@@ -1,0 +1,18 @@
+SCR_MapEntity MapEntity_Zarichne1 : "{AAA23254C87C0B55}Prefabs/World/Game/Zarichne/MapEntity_Zarichne.et" {
+ coords 2465.662 19.796 3069.353
+}
+SCR_AIWorld : "{66048E60E9D7AB77}Prefabs/AI/SCR_AIWorld_Zarichne.et" {
+ coords 2525.366 17.037 2839.243
+}
+PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 3416.963 185.784 1577.288
+}
+PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
+ components {
+  SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
+   m_iStartingHours 10
+  }
+ }
+ coords 2931.594 19.954 2318.804
+ m_iFreezeTime 180000
+}
