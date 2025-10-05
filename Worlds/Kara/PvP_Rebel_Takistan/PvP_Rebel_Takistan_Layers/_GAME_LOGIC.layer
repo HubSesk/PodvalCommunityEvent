@@ -9,6 +9,12 @@ GenericEntity : "{6A3CDCFB475BF1B2}Prefabs/System/DRG_CriticalLossPrefab.et" {
        m_sFactionKey "RHS_AFRF"
       }
      }
+     m_sObjectiveNames {
+      "FIA_1"
+     }
+     m_sFailedObjectiveNames {
+      "AFRF_1"
+     }
      m_bAdvanceGameStage 1
      m_bUseMessage 1
      m_bEventMessage "Победа обороны! Атака понесла серьёзные потери"
@@ -19,20 +25,15 @@ GenericEntity : "{6A3CDCFB475BF1B2}Prefabs/System/DRG_CriticalLossPrefab.et" {
        m_sFactionKey "FIA"
       }
      }
-     m_bAdvanceGameStage 1
-     m_bUseMessage 1
-     m_bEventMessage "Победа атаки! Оборона понесла серьёзные потери"
-    }
-    LossLogic "{668888C97CFD669A}" {
-     m_aLosses {
-      FactionLoss "{668888C9780A8875}" {
-       m_iCriticalLossCount 1
-       m_sFactionKey "CIV"
-      }
+     m_sObjectiveNames {
+      "AFRF_1"
+     }
+     m_sFailedObjectiveNames {
+      "FIA_1"
      }
      m_bAdvanceGameStage 1
      m_bUseMessage 1
-     m_bEventMessage "Победа атаки. Виталик  убит"
+     m_bEventMessage "Победа атаки! Оборона понесла серьёзные потери"
     }
    }
   }
@@ -40,5 +41,10 @@ GenericEntity : "{6A3CDCFB475BF1B2}Prefabs/System/DRG_CriticalLossPrefab.et" {
  coords 3292.892 0 2936.443
 }
 GenericEntity : "{E6FC6DD69FA3479F}Prefabs/System/DRG_MissionEndTimerPrefab.et" {
+ components {
+  DRG_MissionEndTimerComponent "{651B0839B21B3BBF}" {
+   m_iMissionTime 2700
+  }
+ }
  coords 3418.207 0 2983.398
 }
