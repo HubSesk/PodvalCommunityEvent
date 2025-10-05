@@ -1,0 +1,32 @@
+$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ ABOUT {
+  m_sTitle "ЛОР"
+  m_sTextData "ЧДКЗ готовит засаду на колонну ВСРФ, предстоит бойня."
+  m_bEmptyFactionVisibility 1
+  m_bShowForAnyFaction 1
+ }
+ RULES {
+  m_sTitle "Правила"
+  m_sTextData "1. Грузовикам разрешено ездить только по асфальтированным дорогам. При контакте с противником разрешается выехать с асфальта, но после необходимо вернутся."\
+  "2. ЧДКЗ запрещено пересекать черную линию."\
+  "3. Вертолетам запрещено таранить технику."\
+  "4. Грузовик считается доставленным после того, как заедет в красный триггер."
+  m_bEmptyFactionVisibility 1
+  m_bShowForAnyFaction 1
+ }
+ AFRF_MISSION {
+  m_sTitle "Задача ВСРФ"
+  m_sTextData "Требуется довезти минимум 5 грузовиков с припасами до аэропорта."\
+  ""\
+  "Подсказка:"\
+  "  Вертолет можно перезаряжать на аэродроме."
+  m_bEmptyFactionVisibility 1
+  m_bShowForAnyFaction 1
+ }
+ CDF_MISSION {
+  m_sTitle "Задача ЧДКЗ"
+  m_sTextData "Требуется уничтожить как можно больше грузовиков ВСРФ."
+  m_bEmptyFactionVisibility 1
+  m_bShowForAnyFaction 1
+ }
+}
