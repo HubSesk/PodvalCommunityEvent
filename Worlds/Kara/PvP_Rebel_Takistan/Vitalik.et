@@ -1,0 +1,28 @@
+SCR_ChimeraCharacter : "{783503FB32DD508F}Prefabs/Characters/Factions/CIV/Businessman/Character_CIV_Businessman_3.et" {
+ ID "520EC961A090B1EE"
+ components {
+  ActionsManagerComponent "{520EA1D2F659CE02}" {
+   additionalActions {
+    DRG_DeathConfirmAction "{668B5B2C66621207}" {
+     ParentContextList {
+      "LowerTorso"
+     }
+     UIInfo UIInfo "{65E2D0EF1870FE87}" {
+      Name "Подтвердить смерть"
+     }
+     ActionTitle "#drg_ConfirmDeathAction"
+     Duration 3
+     m_sEventMessage "Победа ВС РФ! Виталик был уничтожен!"
+     m_aObjectivesToDone {
+      "AFRF_2"
+     }
+     m_aObjectivesToFail {
+      "FIA_2"
+     }
+     m_vFactionKey "RHS_AFRF"
+    }
+   }
+  }
+ }
+ coords 8580.254 334.461 2485.907
+}
