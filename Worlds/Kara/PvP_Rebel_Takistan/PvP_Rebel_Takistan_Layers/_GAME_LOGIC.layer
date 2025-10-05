@@ -1,0 +1,44 @@
+GenericEntity : "{6A3CDCFB475BF1B2}Prefabs/System/DRG_CriticalLossPrefab.et" {
+ components {
+  DRG_CriticalLossComponent "{65213D368F1BD792}" {
+   m_iAdvanceAfterSec 5
+   m_aLossLogics {
+    LossLogic "{652AF37E6EFB5B46}" {
+     m_aLosses {
+      FactionLoss "{652AF37E6CC8FCEC}" {
+       m_sFactionKey "RHS_AFRF"
+      }
+     }
+     m_bAdvanceGameStage 1
+     m_bUseMessage 1
+     m_bEventMessage "Победа обороны! Атака понесла серьёзные потери"
+    }
+    LossLogic "{652AF37EA888F663}" {
+     m_aLosses {
+      FactionLoss "{652AF37EAC417D1C}" {
+       m_sFactionKey "FIA"
+      }
+     }
+     m_bAdvanceGameStage 1
+     m_bUseMessage 1
+     m_bEventMessage "Победа атаки! Оборона понесла серьёзные потери"
+    }
+    LossLogic "{668888C97CFD669A}" {
+     m_aLosses {
+      FactionLoss "{668888C9780A8875}" {
+       m_iCriticalLossCount 1
+       m_sFactionKey "CIV"
+      }
+     }
+     m_bAdvanceGameStage 1
+     m_bUseMessage 1
+     m_bEventMessage "Победа атаки. Виталик  убит"
+    }
+   }
+  }
+ }
+ coords 3292.892 0 2936.443
+}
+GenericEntity : "{E6FC6DD69FA3479F}Prefabs/System/DRG_MissionEndTimerPrefab.et" {
+ coords 3418.207 0 2983.398
+}
