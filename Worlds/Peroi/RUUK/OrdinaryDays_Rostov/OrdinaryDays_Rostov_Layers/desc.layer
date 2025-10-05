@@ -1,0 +1,45 @@
+$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ {
+  coords -112.057 0 2075.741
+  m_sTitle "Условности Миссии"
+  m_sTextData "ВС РФ:"\
+  ""\
+  "Запрещено вывозить взаимодействовать с БМ-21 и МИ-8.( Вывозить их с меток)"\
+  ""\
+  "Отделения Актив не могут покидать красный маркер."\
+  ""\
+  "БТРам запрещено покидать красный маркер."\
+  ""\
+  "США:"\
+  ""\
+  "Вертолетом могут управлять только пилоты."
+  m_aVisibleForFactions {
+   "" "RHS_USAF" "RHS_AFRF"
+  }
+  m_bEmptyFactionVisibility 1
+ }
+ {
+  coords -121.035 0 1985.597
+  m_sTitle "Цель Миссии"
+  m_sTextData "США:"\
+  ""\
+  "Нужно уничтожить 4 МИ-8 и 5 БМ-21."\
+  ""\
+  "ВС РФ:"\
+  ""\
+  "Нужно защитить 4 МИ-8 и 5 БМ-21."
+  m_aVisibleForFactions {
+   "" "RHS_USAF" "RHS_AFRF"
+  }
+  m_bEmptyFactionVisibility 1
+ }
+ {
+  coords -126.66 0 1872.765
+  m_sTitle "Описание Миссии"
+  m_sTextData "США хотят уничтожить технику ВС РФ. У обороны есть БТРы и стационарные пулеметы."
+  m_aVisibleForFactions {
+   "" "RHS_USAF" "RHS_AFRF"
+  }
+  m_bEmptyFactionVisibility 1
+ }
+}
