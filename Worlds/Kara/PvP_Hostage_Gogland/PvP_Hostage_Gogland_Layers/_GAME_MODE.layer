@@ -5,9 +5,27 @@ PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/Per
  coords 0 0 0
 }
 PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
+ components {
+  PS_ObjectiveManager "{60846DEA6E152749}" {
+   m_aObjectiveLavels {
+    PS_ObjectiveLevel "{60BA84343AC819B2}" {
+     m_iScore 40
+    }
+    PS_ObjectiveLevel "{60BA8437C52AEEC4}" {
+     m_iScore 40
+    }
+    PS_ObjectiveLevel "{60BA8437C9F5791C}" {
+     m_iScore 80
+    }
+    PS_ObjectiveLevel "{60BA8437D394C60C}" {
+     m_iScore 120
+    }
+   }
+  }
+ }
  coords 7261.647 5.968 5325.976
  m_bRemoveRedundantUnits 0
- m_iFreezeTime 500
+ m_iFreezeTime 5000
  {
   SCR_FactionManager "668D38E1C434DC0B" {
    ID "5ED9088735FF2D8B"

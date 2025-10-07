@@ -5,9 +5,10 @@ GenericEntity Hostages_Logic : "{630742372D9304E8}Prefabs/System/DRG_ZoneControl
     DRG_ZoneControlLogic "{668D38E1E2693907}" {
      m_sZoneEntityName "Trigger"
      m_sZonePreviewName "Зона эвакуации"
+     m_bUseTestingMode 0
      m_bAdvanceGameStage 1
      m_sSuccessObjectiveNames {
-      "US_2" "US_3" "CIV_2"
+      "US_2" "US_3" "CIV_2" "CIV_3"
      }
      m_sFailedObjectiveNames {
       "PIR_2" "PIR_3"
@@ -23,6 +24,7 @@ GenericEntity Hostages_Logic : "{630742372D9304E8}Prefabs/System/DRG_ZoneControl
     DRG_ZoneControlLogic "{668D38E597BA50D0}" {
      m_sZoneEntityName "Trigger"
      m_sZonePreviewName "Зона эвакуации"
+     m_bUseTestingMode 0
      m_sSuccessObjectiveNames {
       "US_2" "CIV_1"
      }
@@ -45,12 +47,11 @@ GenericEntity Hostages_Logic : "{630742372D9304E8}Prefabs/System/DRG_ZoneControl
 GenericEntity Losses_Logic : "{6A3CDCFB475BF1B2}Prefabs/System/DRG_CriticalLossPrefab.et" {
  components {
   DRG_CriticalLossComponent "{65213D368F1BD792}" {
-   m_iAdvanceAfterSec 5
-   m_bUseTestingMode 0
+   m_iTestingPlayerCounts -1
    m_aLossLogics {
-    LossLogic "{652AF37E6EFB5B46}" {
+    LossLogic "{668E807A8427E62C}" {
      m_aLosses {
-      FactionLoss "{652AF37E6CC8FCEC}" {
+      FactionLoss "{668E807A82264351}" {
        m_sFactionKey "US"
       }
      }
@@ -64,9 +65,9 @@ GenericEntity Losses_Logic : "{6A3CDCFB475BF1B2}Prefabs/System/DRG_CriticalLossP
      m_bUseMessage 1
      m_bEventMessage "Пираты разгромили армию США"
     }
-    LossLogic "{652AF37EA888F663}" {
+    LossLogic "{668E807A80831E2A}" {
      m_aLosses {
-      FactionLoss "{652AF37EAC417D1C}" {
+      FactionLoss "{668E807A422FEA6C}" {
        m_sFactionKey "Drg_PIR"
       }
      }
@@ -79,6 +80,34 @@ GenericEntity Losses_Logic : "{6A3CDCFB475BF1B2}Prefabs/System/DRG_CriticalLossP
      m_bAdvanceGameStage 1
      m_bUseMessage 1
      m_bEventMessage "Армия США разгромила пиратов"
+    }
+    LossLogic "{668E807A3F6DB9B6}" {
+     m_aLosses {
+      FactionLoss "{668E807A39A33EC4}" {
+       m_iCriticalLossCount 1
+       m_sFactionKey "CIV"
+      }
+     }
+     m_sFailedObjectiveNames {
+      "CIV_1" "PIR_2" "US_2"
+     }
+     m_bUseMessage 1
+     m_bEventMessage "Один заложник убит"
+    }
+    LossLogic "{668E807BCD6ABE4E}" {
+     m_aLosses {
+      FactionLoss "{668E807BCFA8CDEF}" {
+       m_iCriticalLossCount 2
+       m_sFactionKey "CIV"
+      }
+     }
+     m_sFailedObjectiveNames {
+      "CIV_2" "CIV_3" "PIR_3" "US_3"
+     }
+     m_bAdvanceGameStage 1
+     m_bUseMessage 1
+     m_bEventMessage "Все заложники убиты"\
+     ""
     }
    }
   }
