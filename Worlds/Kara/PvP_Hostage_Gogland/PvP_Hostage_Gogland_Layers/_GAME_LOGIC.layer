@@ -1,0 +1,127 @@
+GenericEntity Hostages_Logic : "{630742372D9304E8}Prefabs/System/DRG_ZoneControlPrefab.et" {
+ components {
+  DRG_ZoneControlComponent "{662B2CCC5DFEB26C}" {
+   m_aControlLogics {
+    DRG_ZoneControlLogic "{668D38E1E2693907}" {
+     m_sZoneEntityName "Trigger"
+     m_sZonePreviewName "Зона эвакуации"
+     m_bUseTestingMode 0
+     m_bAdvanceGameStage 1
+     m_sSuccessObjectiveNames {
+      "US_2" "US_3" "CIV_2" "CIV_3"
+     }
+     m_sFailedObjectiveNames {
+      "PIR_2" "PIR_3"
+     }
+     m_sMessage "Заложники спасены"
+     m_aConditions {
+      DRG_ZoneControlCondition "{668D38E14A17E5D4}" {
+       m_sFactionKey "CIV"
+       m_iCount 2
+      }
+     }
+    }
+    DRG_ZoneControlLogic "{668D38E597BA50D0}" {
+     m_sZoneEntityName "Trigger"
+     m_sZonePreviewName "Зона эвакуации"
+     m_bUseTestingMode 0
+     m_sSuccessObjectiveNames {
+      "US_2" "CIV_1"
+     }
+     m_sFailedObjectiveNames {
+      "PIR_2"
+     }
+     m_sMessage "Один заложник спасен"
+     m_aConditions {
+      DRG_ZoneControlCondition "{668D38E588121FDA}" {
+       m_sFactionKey "CIV"
+       m_iCount 1
+      }
+     }
+    }
+   }
+  }
+ }
+ coords 8032.354 5 2079.444
+}
+GenericEntity Losses_Logic : "{6A3CDCFB475BF1B2}Prefabs/System/DRG_CriticalLossPrefab.et" {
+ components {
+  DRG_CriticalLossComponent "{65213D368F1BD792}" {
+   m_iTestingPlayerCounts -1
+   m_aLossLogics {
+    LossLogic "{668E807A8427E62C}" {
+     m_aLosses {
+      FactionLoss "{668E807A82264351}" {
+       m_sFactionKey "US"
+      }
+     }
+     m_sObjectiveNames {
+      "PIR_1"
+     }
+     m_sFailedObjectiveNames {
+      "US_1"
+     }
+     m_bAdvanceGameStage 1
+     m_bUseMessage 1
+     m_bEventMessage "Пираты разгромили армию США"
+    }
+    LossLogic "{668E807A80831E2A}" {
+     m_aLosses {
+      FactionLoss "{668E807A422FEA6C}" {
+       m_sFactionKey "Drg_PIR"
+      }
+     }
+     m_sObjectiveNames {
+      "US_1"
+     }
+     m_sFailedObjectiveNames {
+      "PIR_1"
+     }
+     m_bAdvanceGameStage 1
+     m_bUseMessage 1
+     m_bEventMessage "Армия США разгромила пиратов"
+    }
+    LossLogic "{668E807A3F6DB9B6}" {
+     m_aLosses {
+      FactionLoss "{668E807A39A33EC4}" {
+       m_iCriticalLossCount 1
+       m_sFactionKey "CIV"
+      }
+     }
+     m_sFailedObjectiveNames {
+      "CIV_1" "PIR_2" "US_2"
+     }
+     m_bUseMessage 1
+     m_bEventMessage "Один заложник убит"
+    }
+    LossLogic "{668E807BCD6ABE4E}" {
+     m_aLosses {
+      FactionLoss "{668E807BCFA8CDEF}" {
+       m_iCriticalLossCount 2
+       m_sFactionKey "CIV"
+      }
+     }
+     m_sFailedObjectiveNames {
+      "CIV_2" "CIV_3" "PIR_3" "US_3"
+     }
+     m_bAdvanceGameStage 1
+     m_bUseMessage 1
+     m_bEventMessage "Все заложники убиты"\
+     ""
+    }
+   }
+  }
+ }
+ coords 3292.892 0 2936.443
+}
+GenericEntity Time_End : "{E6FC6DD69FA3479F}Prefabs/System/DRG_MissionEndTimerPrefab.et" {
+ components {
+  DRG_MissionEndTimerComponent "{651B0839B21B3BBF}" {
+   m_iMissionTime 2700
+   m_aTimeLeftWarningTimers {
+    300
+   }
+  }
+ }
+ coords 3418.207 0 2983.398
+}
