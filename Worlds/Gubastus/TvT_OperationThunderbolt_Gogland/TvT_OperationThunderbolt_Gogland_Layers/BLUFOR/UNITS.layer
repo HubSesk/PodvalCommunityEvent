@@ -2,13 +2,6 @@ SCR_AIGroup Ses_CDF_000 : "{02B7DC04CD35582D}Prefabs/Groups/BLUFOR/CDF/drg_CDF_P
  coords 5529.154 123.539 6872.954
  angleY -73.085
 }
-Vehicle LAV25_RHS3 : "{3312ADBF53A16DD8}Prefabs/Vehicles/Wheeled/LAV25/LAV25_RHS.et" {
- coords 5501.365 126.815 6901.724
- angleX -4.5
- angleY 87.674
- angleZ -0.711
- m_sAttachmentGroupName "Ses_CDF_102"
-}
 SCR_AIGroup Ses_CDF_200 : "{40BA59ECD32F6347}Prefabs/Groups/BLUFOR/drg_Group_RHS_ION_PMC_Showcase.et" {
  components {
   PS_GroupCallsignAssigner "{6674AB84DDD91FDC}" {
@@ -19,8 +12,9 @@ SCR_AIGroup Ses_CDF_200 : "{40BA59ECD32F6347}Prefabs/Groups/BLUFOR/drg_Group_RHS
  angleY -71.121
  m_faction "Ses_CDF"
  m_aUnitPrefabSlots {
-  "{E8E9AB1239963DC2}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Drg_Character_RHS_ION_PMC_SL.et" "{95F147EA5C05015B}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Drg_Character_RHS_ION_PMC_SR.et" "{DE2B5F2836908469}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Drg_Character_RHS_ION_PMC_Rifleman.et" "{254630D5216235B9}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Drg_Character_RHS_ION_PMC_Rifleman_v2.et" "{C0DA7C2C2D87A2D2}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Drg_Character_RHS_ION_PMC_Rifleman_v3.et" "{FDEE591458EB2BE5}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Drg_Character_RHS_ION_PMC_Rifleman_v4.et" "{A807C057A88855BD}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Drg_Character_RHS_ION_PMC_Sniper.et"
+  "{E8E9AB1239963DC2}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Drg_Character_RHS_ION_PMC_SL.et" "{64939E91A79CC168}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Drg_Character_RHS_ION_PMC_LAT_v2.et" "{5EF696E20CECA3F9}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Drg_Character_RHS_ION_PMC_Rifleman_AK_LAT_v3.et" "{810FD268AB795603}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Drg_Character_RHS_ION_PMC_LAT_v3.et" "{C0DA7C2C2D87A2D2}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Drg_Character_RHS_ION_PMC_Rifleman_v3.et" "{FDEE591458EB2BE5}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Drg_Character_RHS_ION_PMC_Rifleman_v4.et" "{A807C057A88855BD}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Drg_Character_RHS_ION_PMC_Sniper.et"
  }
+ m_sCustomNameSet "Наемники"
 }
 $grp SCR_AIGroup : "{D03F49D1589BABAD}Prefabs/Groups/BLUFOR/CDF/drg_CDF_RifleSquad.et" {
  Ses_CDF_100 {
