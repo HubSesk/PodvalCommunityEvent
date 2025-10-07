@@ -1,15 +1,21 @@
 $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
  LOR {
+  m_sTitle "ЛОР"
+  m_sTextData "Силы ЧСО при поддержке США и группы наемников занимает высоту. ВСРФ готовит контратаку."
+  m_bEmptyFactionVisibility 1
+  m_bShowForAnyFaction 1
  }
  RULES {
   m_sTitle "Условности"
   m_sTextData "1. Вертолету запрещено таранить технику и триггер."\
-  "2. Победа засчитывается ВСРФ, если в зоне триггера атакующих больше ЧСО в 5 раза"\
+  "2. Победа засчитывается ВСРФ, если в зоне триггера атакующих больше ЧСО в 5 раз (автоматически)."\
   ""\
   "Задачи ЧСО:"\
   "  Удержать высоту"\
   ""\
   "Задачи ВСРФ:"\
   "  Захватить высоту"
+  m_bEmptyFactionVisibility 1
+  m_bShowForAnyFaction 1
  }
 }
