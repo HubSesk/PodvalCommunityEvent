@@ -5,10 +5,9 @@ GenericEntity Hostages_Logic : "{630742372D9304E8}Prefabs/System/DRG_ZoneControl
     DRG_ZoneControlLogic "{668D38E1E2693907}" {
      m_sZoneEntityName "Trigger"
      m_sZonePreviewName "Зона эвакуации"
-     m_bUseTestingMode 0
      m_bAdvanceGameStage 1
      m_sSuccessObjectiveNames {
-      "US_2" "US_3" "CIV_2" "CIV_3"
+      "US_2" "US_3" "CIV_2" "CIV_4"
      }
      m_sFailedObjectiveNames {
       "PIR_2" "PIR_3"
@@ -24,12 +23,11 @@ GenericEntity Hostages_Logic : "{630742372D9304E8}Prefabs/System/DRG_ZoneControl
     DRG_ZoneControlLogic "{668D38E597BA50D0}" {
      m_sZoneEntityName "Trigger"
      m_sZonePreviewName "Зона эвакуации"
-     m_bUseTestingMode 0
      m_sSuccessObjectiveNames {
-      "US_2" "CIV_1"
+      "US_2" "CIV_1" "CIV_3"
      }
      m_sFailedObjectiveNames {
-      "PIR_2"
+      "PIR_3"
      }
      m_sMessage "Один заложник спасен"
      m_aConditions {
@@ -47,7 +45,6 @@ GenericEntity Hostages_Logic : "{630742372D9304E8}Prefabs/System/DRG_ZoneControl
 GenericEntity Losses_Logic : "{6A3CDCFB475BF1B2}Prefabs/System/DRG_CriticalLossPrefab.et" {
  components {
   DRG_CriticalLossComponent "{65213D368F1BD792}" {
-   m_iTestingPlayerCounts -1
    m_aLossLogics {
     LossLogic "{668E807A8427E62C}" {
      m_aLosses {
@@ -89,25 +86,10 @@ GenericEntity Losses_Logic : "{6A3CDCFB475BF1B2}Prefabs/System/DRG_CriticalLossP
       }
      }
      m_sFailedObjectiveNames {
-      "CIV_1" "PIR_2" "US_2"
+      "US_3" "PIR_3" "CIV_2" "CIV_4"
      }
      m_bUseMessage 1
      m_bEventMessage "Один заложник убит"
-    }
-    LossLogic "{668E807BCD6ABE4E}" {
-     m_aLosses {
-      FactionLoss "{668E807BCFA8CDEF}" {
-       m_iCriticalLossCount 2
-       m_sFactionKey "CIV"
-      }
-     }
-     m_sFailedObjectiveNames {
-      "CIV_2" "CIV_3" "PIR_3" "US_3"
-     }
-     m_bAdvanceGameStage 1
-     m_bUseMessage 1
-     m_bEventMessage "Все заложники убиты"\
-     ""
     }
    }
   }
