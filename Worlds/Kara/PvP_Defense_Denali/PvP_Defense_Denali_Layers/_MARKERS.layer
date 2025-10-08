@@ -1,0 +1,67 @@
+$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ BOLOTA {
+  coords 2466.147 233.71 1509.238
+  m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+  m_sImageSetGlow ""
+  m_sQuadName "Task_Defend"
+  m_fWorldSize 40
+  m_sDescription "Болота"
+  m_bUseWorldScale 0
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+ }
+ FORT {
+  coords 5088.123 392.809 1723.52
+  m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+  m_sImageSetGlow ""
+  m_sQuadName "Task_Defend"
+  m_fWorldSize 40
+  m_sDescription "Форт"
+  m_bUseWorldScale 0
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+ }
+}
+$grp GenericEntity : "{F5EF4223ACA6169C}PrefabsEditable/Auto/Structures/Military/Flags/E_FlagPole_02_V1_AFRF.et" {
+ FLAG_1 {
+  components {
+   SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+    m_aObjectiveNames {
+     "USAF_2" "AFRF_2"
+    }
+    m_aFlagData {
+     PS_FlagData "{669130716F8F7C97}" {
+      m_sFactionKey "RHS_AFRF"
+     }
+     PS_FlagData "{6691307161A77182}" {
+      m_sFactionKey "RHS_USAF"
+      m_iCaptureCounter 1
+     }
+    }
+    m_sUseNotification 1
+    m_sNotificationText "Форт захвачен США"
+   }
+  }
+  coords 5083.183 425.513 1756.328
+ }
+ FLAG_2 {
+  components {
+   SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+    m_aObjectiveNames {
+     "USAF_3" "AFRF_3"
+    }
+    m_aFlagData {
+     PS_FlagData "{66913072A410AFBE}" {
+      m_sFactionKey "RHS_AFRF"
+     }
+     PS_FlagData "{66913072A5D21B0F}" {
+      m_sFactionKey "RHS_USAF"
+     }
+    }
+    m_sUseNotification 1
+    m_sNotificationText "Болота захвачены США"
+   }
+  }
+  coords 2407.6 234.588 1529.24
+ }
+}
