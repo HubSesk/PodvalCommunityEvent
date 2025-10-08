@@ -1,6 +1,6 @@
 $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
  Zadov {
-  coords 1364.146 65.874 1394.943
+  coords 1378.674 65.874 1389.519
   m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
   m_sImageSetGlow ""
   m_sQuadName "Task_Defend"
@@ -11,7 +11,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_bShowForAnyFaction 1
  }
  Stroika {
-  coords 1662.292 67.953 1509.386
+  coords 1658.65 78.456 1463.043
   m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
   m_sImageSetGlow ""
   m_sQuadName "Task_Defend"
@@ -20,6 +20,62 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_bUseWorldScale 0
   m_bVisibleForEmptyFaction 1
   m_bShowForAnyFaction 1
+ }
+ ATTACK_0 {
+  coords 3040.677 25.309 192.105
+  angleY 52.476
+  m_sImageSet "{3262679C50EF4F01}UI/Textures/Icons/icons_wrapperUI.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.014 0.546 0.896 1
+  m_sQuadName "up"
+  m_fWorldSize 100
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_AFRF" ""
+  }
+  m_bVisibleForEmptyFaction 1
+ }
+ ATTACK_1 {
+  coords 466.192 79.633 375.247
+  angleY 130.959
+  m_sImageSet "{3262679C50EF4F01}UI/Textures/Icons/icons_wrapperUI.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.014 0.546 0.896 1
+  m_sQuadName "up"
+  m_fWorldSize 100
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_AFRF" ""
+  }
+  m_bVisibleForEmptyFaction 1
+ }
+ ATTACK_2 {
+  coords 1331.031 109.77 3074.561
+  angleY -89.148
+  m_sImageSet "{3262679C50EF4F01}UI/Textures/Icons/icons_wrapperUI.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.014 0.546 0.896 1
+  m_sQuadName "up"
+  m_fWorldSize 100
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_AFRF" ""
+  }
+  m_bVisibleForEmptyFaction 1
+ }
+ ATTACK_3 {
+  coords 2705.694 95.122 2756.935
+  angleY -52.212
+  m_sImageSet "{3262679C50EF4F01}UI/Textures/Icons/icons_wrapperUI.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.014 0.546 0.896 1
+  m_sQuadName "up"
+  m_fWorldSize 100
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_AFRF" ""
+  }
+  m_bVisibleForEmptyFaction 1
  }
 }
 $grp GenericEntity : "{F5EF4223ACA6169C}PrefabsEditable/Auto/Structures/Military/Flags/E_FlagPole_02_V1_AFRF.et" {
@@ -38,7 +94,6 @@ $grp GenericEntity : "{F5EF4223ACA6169C}PrefabsEditable/Auto/Structures/Military
       m_iCaptureCounter 1
      }
     }
-    m_sUseNotification 1
     m_sNotificationText "Стройка захвачена США"
    }
   }
@@ -59,7 +114,6 @@ $grp GenericEntity : "{F5EF4223ACA6169C}PrefabsEditable/Auto/Structures/Military
       m_iCaptureCounter 1
      }
     }
-    m_sUseNotification 1
     m_sNotificationText "Завод захвачен США"
    }
   }

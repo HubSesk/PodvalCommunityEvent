@@ -33,12 +33,18 @@ GenericEntity Loses_Logic : "{6A3CDCFB475BF1B2}Prefabs/System/DRG_CriticalLossPr
  }
  coords 2328.512 233.548 1635.516
 }
-GenericEntity FLAG_Control : "{CA1FF8EE196359C6}Prefabs/System/DRG_FlagControlPrefab.et" {
+GenericEntity Flag_Control : "{CA1FF8EE196359C6}Prefabs/System/DRG_FlagControlPrefab.et" {
  components {
   DRG_FlagControlComponent "{66294262AC006581}" {
    m_aFlagLogics {
     FlagLogic "{669057355AD62ACA}" {
      m_bAdvanceGameStage 1
+     m_sSuccessObjectiveNames {
+      "USAF_2" "USAF_3"
+     }
+     m_sFailedObjectiveNames {
+      "AFRF_2" "AFRF_3"
+     }
      m_sNotificationMessage "Все флаги захвачены США"
      m_aFlagControls {
       FlagControl "{6690573551DE2822}" {
@@ -50,13 +56,14 @@ GenericEntity FLAG_Control : "{CA1FF8EE196359C6}Prefabs/System/DRG_FlagControlPr
        m_sFlagEntityName "FLAG_2"
       }
      }
+     m_iCompleteAfterSeconds 2
     }
    }
   }
  }
  coords 5082.814 426.148 1756.052
 }
-GenericEntity : "{E6FC6DD69FA3479F}Prefabs/System/DRG_MissionEndTimerPrefab.et" {
+GenericEntity Time_End : "{E6FC6DD69FA3479F}Prefabs/System/DRG_MissionEndTimerPrefab.et" {
  components {
   DRG_MissionEndTimerComponent "{651B0839B21B3BBF}" {
    m_iMissionTime 2700

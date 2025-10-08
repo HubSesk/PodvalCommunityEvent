@@ -1,0 +1,94 @@
+$grp SCR_EditorRestrictionZoneEntity : "{6144B0BE2EAC6897}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneMedium.et" {
+ AFRF_FREEZ_100 {
+  coords 1629.648 65.125 1442.744
+ }
+ AFRF_FREEZ_200 {
+  coords 1406.232 65.563 1417.074
+ }
+ AFRF_FREEZ_300 {
+  coords 1864.007 78.987 1619.049
+ }
+ AFRF_FREEZ_301 {
+  coords 1679.24 78.719 1864.309
+ }
+ AFRF_FREEZ_400 {
+  coords 1151.496 49.375 1867.46
+ }
+}
+$grp SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
+ USAF_FREEZ_100 {
+  coords 1133.095 85.157 3241.828
+ }
+ USAF_FREEZ_200 {
+  coords 2976.455 55 3170.406
+ }
+ USAF_FREEZ_300 {
+  coords 243.997 63.141 90.336
+ }
+}
+$grp SCR_EditorRestrictionZoneEntity : "{EF72FA7CD87618D5}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneSmall.et" {
+ AFRF_FREEZ_401 {
+  coords 1371.312 62.961 1932.733
+  m_fWarnRadius 20
+  m_fZoneRadius 30
+  m_fZoneTeleportedRadius 40
+  {
+   GenericEntity {
+    ID "59D673B36B893D84"
+    components {
+     SCR_CustomAreaMeshComponent "{59D673B22B1EBC57}" {
+      m_fRadius 20
+     }
+    }
+   }
+  }
+ }
+ AFRF_FREEZ_500 {
+  coords 1369.298 63.783 2010.917
+  m_fWarnRadius 20
+  m_fZoneRadius 30
+  m_fZoneTeleportedRadius 40
+  {
+   GenericEntity {
+    ID "59D673B36B893D84"
+    components {
+     SCR_CustomAreaMeshComponent "{59D673B22B1EBC57}" {
+      m_fRadius 20
+     }
+    }
+   }
+  }
+ }
+ USAF_FREEZ_400 {
+  coords 3234.789 21.885 95.093
+  m_fWarnRadius 20
+  m_fZoneRadius 30
+  m_fZoneTeleportedRadius 40
+  {
+   GenericEntity {
+    ID "59D673B36B893D84"
+    components {
+     SCR_CustomAreaMeshComponent "{59D673B22B1EBC57}" {
+      m_fRadius 20
+     }
+    }
+   }
+  }
+ }
+ USAF_FREEZ_401 {
+  coords 171.371 39.66 589.938
+  m_fWarnRadius 20
+  m_fZoneRadius 30
+  m_fZoneTeleportedRadius 40
+  {
+   GenericEntity {
+    ID "59D673B36B893D84"
+    components {
+     SCR_CustomAreaMeshComponent "{59D673B22B1EBC57}" {
+      m_fRadius 20
+     }
+    }
+   }
+  }
+ }
+}
