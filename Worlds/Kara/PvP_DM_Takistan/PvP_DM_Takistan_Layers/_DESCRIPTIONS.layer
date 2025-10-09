@@ -1,0 +1,44 @@
+$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ "_0_ABOUT" {
+  coords 5781.41 109.312 11405.117
+  m_sTitle "О миcсии"
+  m_sTextData "Мясная миссия для практики стрельбы и движения на M2 Humvee и ГАЗ Тигр."\
+  ""
+  m_bEmptyFactionVisibility 1
+  m_bShowForAnyFaction 1
+ }
+ "_1_RULES" {
+  coords 5777.896 109.312 11407.862
+  m_sTitle "Правила миссии"
+  m_sTextData "ОБЩИЕ ПРАВИЛА "\
+  "— Всем запрещено надевать форму, головные уборы, разгрузки, бронежилеты противника (рюкзаки можно). "\
+  ""\
+  "ПРАВИЛА США"\
+  "— Запрещено покидать триггер. (Пересекать красную линию). "\
+  ""\
+  "ПРАВИЛА ВС РФ"\
+  "— Запрещено покидать триггер. (Пересекать красную линию). "\
+  ""
+  m_bEmptyFactionVisibility 1
+  m_bShowForAnyFaction 1
+ }
+ "_2_AFRF" {
+  coords 5782.359 109.313 11407.833
+  m_sTitle "ВС РФ"
+  m_sTextData "Бей и беги"\
+  ""
+  m_aVisibleForFactions {
+   "RHS_AFRF"
+  }
+ }
+ "_2_US" {
+  coords 8638.081 337.894 2492.071
+  m_sTitle "США"
+  m_sTextData "Бей и беги"\
+  ""\
+  ""
+  m_aVisibleForFactions {
+   "US"
+  }
+ }
+}
