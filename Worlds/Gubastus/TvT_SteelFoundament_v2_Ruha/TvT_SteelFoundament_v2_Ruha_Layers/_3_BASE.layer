@@ -32,8 +32,16 @@ $grp SCR_DestructibleBuildingEntity : "{1982A8DD680C416B}PrefabLibrary/Structure
   angleY -151.284
  }
  {
-  coords 4323.366 -0 2243.799
+  coords 4323.366 0 2243.799
   angleY -22.642
+ }
+}
+$grp Turret : "{1A407760EEAE4156}Prefabs/Vehicles/Static/BaconZU23/BaconZU23_Turret_Deployed.et" {
+ {
+  coords 4365.814 63.319 2196.819
+ }
+ {
+  coords 4172.226 70.536 2006.708
  }
 }
 $grp GenericEntity : "{1D1BBD7F52F71839}Prefabs/Props/Forest/WoodPile/WoodPile_02_scattered.et" {
@@ -48,7 +56,7 @@ $grp GenericEntity : "{1D1BBD7F52F71839}Prefabs/Props/Forest/WoodPile/WoodPile_0
 }
 $grp GenericEntity : "{29BA224E4FC03542}Prefabs/Props/Military/H Barrier/Hesco barrier Five.et" {
  {
-  coords 4397.29 -0 2199.136
+  coords 4397.29 0 2199.136
   angleY 23.898
   scale 2.2
  }
@@ -129,7 +137,7 @@ SCR_DestructibleBuildingEntity : "{2EBA3486062A5A53}Prefabs/Structures/Military/
 }
 $grp GenericEntity : "{3F8BE66EB83CD81F}Prefabs/Props/Military/H Barrier/Hesco barrier Five v2.et" {
  {
-  coords 4375.222 -0 2129.012
+  coords 4375.222 0 2129.012
   angleY 23.898
   scale 2.2
  }
@@ -139,7 +147,7 @@ $grp GenericEntity : "{3F8BE66EB83CD81F}Prefabs/Props/Military/H Barrier/Hesco b
   scale 2.2
  }
  {
-  coords 4388.605 -0 2159.406
+  coords 4388.605 0 2159.406
   angleY 23.898
   scale 2.2
  }
@@ -149,7 +157,7 @@ $grp GenericEntity : "{3F8BE66EB83CD81F}Prefabs/Props/Military/H Barrier/Hesco b
   scale 2.2
  }
  {
-  coords 4401.938 -0 2189.784
+  coords 4401.938 0 2189.784
   angleY 23.898
   scale 2.2
  }
@@ -184,7 +192,7 @@ $grp GenericEntity : "{3F8BE66EB83CD81F}Prefabs/Props/Military/H Barrier/Hesco b
   scale 2.2
  }
  {
-  coords 4305.646 -0 2138.247
+  coords 4305.646 0 2138.247
   angleY 23.898
   scale 2.2
  }
@@ -593,6 +601,39 @@ $grp GenericEntity : "{C1868B74D5A0C96E}Prefabs/Props/Military/CargoContainers/C
  {
   coords 4353.296 58.511 2096.775
   angleY -67.476
+ }
+}
+$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ FLAG_1_ATTACK2 {
+  coords 4366.093 63.442 2169.832
+  angleY 90
+  m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+  m_sImageSetGlow "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "Task_Attack"
+  m_fWorldSize 10
+  m_sDescription ""
+  m_aVisibleForFactions {
+   "RHS_USAF"
+  }
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 0
+ }
+ FLAG_1_DEFEND2 {
+  coords 4366.093 63.442 2169.832
+  angleY 90
+  m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+  m_sImageSetGlow "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+  m_sQuadName "Task_Defend"
+  m_fWorldSize 10
+  m_sDescription ""
+  m_aVisibleForFactions {
+   "RHS_AFRF"
+  }
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 0
  }
 }
 $grp GenericEntity : "{DC82213D62A2F621}Prefabs/Compositions/Misc/SubCompositions/Tents/Tent_Supply_Large_USSR_01.et" {
