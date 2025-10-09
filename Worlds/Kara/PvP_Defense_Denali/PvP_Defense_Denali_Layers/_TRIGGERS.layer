@@ -2,10 +2,10 @@ $grp PolylineShapeEntity {
  Trigger_bolota {
   components {
    PS_PolyZone "{6691307071A75913}" {
-    m_mPolygonTexture "{1060F9C216368D80}UI/layouts/Textures/Grid5.edds"
-    m_cPolygonColor 0.253 0 0.502 1
+    m_mPolygonTexture ""
+    m_cPolygonColor 0.253 0 0.502 0
     m_mPolygonTextureBorder ""
-    m_cPolygonBorderColor 0.253 0 0.502 0
+    m_cPolygonBorderColor 0.253 0 0.502 1
     m_fPolygonBorderWidth 5
     m_aVisibleForFactions {
      "RHS_AFRF" "RHS_USAF" ""
@@ -14,14 +14,8 @@ $grp PolylineShapeEntity {
   }
   coords 2443.142 233.525 1561.218
   Points {
-   ShapePoint "{6691307081CC6163}" {
-    Position 4.683 -0.102 2.601
-   }
-   ShapePoint "{6691307081D59038}" {
-    Position 5 -0.109 0
-   }
    ShapePoint "{66913070BDD09B9E}" {
-    Position 6.426 0 -22.642
+    Position 10.269 0 -24.518
    }
    ShapePoint "{66913070BFF0545D}" {
     Position -8.834 0 -49.994
@@ -39,23 +33,26 @@ $grp PolylineShapeEntity {
     Position -33.914 0 23.815
    }
    ShapePoint "{66913070ABBF235E}" {
-    Position 3.188 0 4.687
+    Position 0.809 0 6.929
    }
   }
   IsClosed 1
  }
- {
+ Trigger_Fort {
   components {
    PS_PolyZone "{6691307233885CE8}" {
-    m_mPolygonTexture "{1060F9C216368D80}UI/layouts/Textures/Grid5.edds"
+    m_mPolygonTexture ""
+    m_cPolygonColor 1 1 1 0
     m_mPolygonTextureBorder ""
+    m_cPolygonBorderColor 0.502 0 0 1
+    m_fPolygonBorderWidth 5
+    m_aVisibleForFactions {
+     "RHS_AFRF" "RHS_USAF" ""
+    }
    }
   }
   coords 5206.444 392.063 1716.986
   Points {
-   ShapePoint "{669130721B55E531}" {
-    Position 9.686 -3.822 1.884
-   }
    ShapePoint "{669130721B554714}" {
     Position 5 -1.973 0
    }
@@ -68,23 +65,26 @@ $grp PolylineShapeEntity {
    ShapePoint "{669130720C59B0A3}" {
     Position -79.238 0 -32.057
    }
+   ShapePoint "{66935909EC6FDBC1}" {
+    Position -99.064 0 -18.672
+   }
    ShapePoint "{669130720EC33A91}" {
     Position -120.292 0 13.725
    }
    ShapePoint "{669130720A87F258}" {
     Position -134.245 0 41.962
    }
+   ShapePoint "{66935909F1D6D725}" {
+    Position -126.198 0 76.55
+   }
    ShapePoint "{669130720433C8A2}" {
-    Position -94.617 0 105.851
+    Position -93.622 0 107.689
    }
    ShapePoint "{669130720FFA103A}" {
     Position -43.425 0 104.736
    }
    ShapePoint "{669130723E2FBB45}" {
-    Position 42.632 0 77.454
-   }
-   ShapePoint "{669130723A05B3E5}" {
-    Position 16.14 0 8.328
+    Position -12.027 4.528 53.151
    }
   }
   IsClosed 1

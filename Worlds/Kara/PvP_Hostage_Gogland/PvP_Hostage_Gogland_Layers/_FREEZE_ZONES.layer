@@ -107,7 +107,7 @@ $grp SCR_EditorRestrictionZoneEntity : "{EF72FA7CD87618D5}PrefabsEditable/Restri
    }
   }
  }
- PIR_Freez_202_203_204 {
+ PIR_Freez_2024 {
   components {
    SCR_ZoneRestrictionAreaMeshComponent "{56D8A3C5A31496A1}" {
     m_fHeight 2
@@ -210,6 +210,33 @@ $grp SCR_EditorRestrictionZoneEntity : "{EF72FA7CD87618D5}PrefabsEditable/Restri
       m_fHeight 2
       m_bFollowTerrain 1
       m_fRadius 50
+     }
+    }
+   }
+  }
+ }
+ US_Freez_110 {
+  components {
+   SCR_ZoneRestrictionAreaMeshComponent "{56D8A3C5A31496A1}" {
+    m_fHeight 2
+    m_bFollowTerrain 1
+   }
+  }
+  coords 8008.396 5 2032.302
+  angleX 1.136
+  angleY 0.09
+  angleZ 4.509
+  m_fWarnRadius 70
+  m_fZoneRadius 110
+  m_fZoneTeleportedRadius 120
+  {
+   GenericEntity {
+    ID "59D673B36B893D84"
+    components {
+     SCR_CustomAreaMeshComponent "{59D673B22B1EBC57}" {
+      m_fHeight 2
+      m_bFollowTerrain 1
+      m_fRadius 70
      }
     }
    }

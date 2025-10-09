@@ -21,6 +21,45 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_bVisibleForEmptyFaction 1
   m_bShowForAnyFaction 1
  }
+ ATTACK_0 {
+  coords 3262.422 421.69 4331.276
+  angleY 163.954
+  m_MarkerColor 0.014 0.546 0.896 1
+  m_sQuadName "arrow-large-2"
+  m_fWorldSize 200
+  m_sDescription "Направление атаки"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_AFRF" ""
+  }
+  m_bVisibleForEmptyFaction 1
+ }
+ ATTACK_1 {
+  coords 2154.59 339.569 3083.317
+  angleY 154.408
+  m_MarkerColor 0.014 0.546 0.896 1
+  m_sQuadName "arrow-large-2"
+  m_fWorldSize 200
+  m_sDescription "Направление атаки"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_AFRF" ""
+  }
+  m_bVisibleForEmptyFaction 1
+ }
+ ATTACK_2 {
+  coords 717.918 350.179 2149.284
+  angleY 163.954
+  m_MarkerColor 0.014 0.546 0.896 1
+  m_sQuadName "arrow-large-2"
+  m_fWorldSize 200
+  m_sDescription "Направление атаки"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_AFRF" ""
+  }
+  m_bVisibleForEmptyFaction 1
+ }
 }
 $grp GenericEntity : "{F5EF4223ACA6169C}PrefabsEditable/Auto/Structures/Military/Flags/E_FlagPole_02_V1_AFRF.et" {
  FLAG_1 {
@@ -38,8 +77,6 @@ $grp GenericEntity : "{F5EF4223ACA6169C}PrefabsEditable/Auto/Structures/Military
       m_iCaptureCounter 1
      }
     }
-    m_sUseNotification 1
-    m_sNotificationText "Форт захвачен США"
    }
   }
   coords 5083.183 425.513 1756.328
@@ -59,8 +96,6 @@ $grp GenericEntity : "{F5EF4223ACA6169C}PrefabsEditable/Auto/Structures/Military
       m_iCaptureCounter 1
      }
     }
-    m_sUseNotification 1
-    m_sNotificationText "Болота захвачены США"
    }
   }
   coords 2407.6 234.588 1529.24
