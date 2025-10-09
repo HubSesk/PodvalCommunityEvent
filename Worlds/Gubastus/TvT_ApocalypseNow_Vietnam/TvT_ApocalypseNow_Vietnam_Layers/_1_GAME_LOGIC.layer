@@ -1,0 +1,47 @@
+GenericEntity : "{6A3CDCFB475BF1B2}Prefabs/System/DRG_CriticalLossPrefab.et" {
+ components {
+  DRG_CriticalLossComponent "{65213D368F1BD792}" {
+   m_aLossLogics {
+    LossLogic "{66933A73835D9BDC}" {
+     m_aLosses {
+      FactionLoss "{66933A738D0BC319}" {
+       m_sFactionKey "RHS_USAF"
+      }
+     }
+     m_sObjectiveNames {
+      "VCA_SHORE" "VCA_VILLAGE"
+     }
+     m_sFailedObjectiveNames {
+      "US_SHORE" "US_VILLAGE"
+     }
+     m_bAdvanceGameStage 1
+     m_bUseMessage 1
+    }
+    LossLogic "{66933A73834C4689}" {
+     m_aLosses {
+      FactionLoss "{66933A73955C7F91}" {
+       m_sFactionKey "Drg_VCA"
+      }
+     }
+     m_sObjectiveNames {
+      "US_SHORE" "US_VILLAGE"
+     }
+     m_sFailedObjectiveNames {
+      "VCA_SHORE" "VCA_VILLAGE"
+     }
+     m_bAdvanceGameStage 1
+     m_bUseMessage 1
+    }
+   }
+  }
+ }
+ coords 0 0 0
+}
+GenericEntity : "{E6FC6DD69FA3479F}Prefabs/System/DRG_MissionEndTimerPrefab.et" {
+ components {
+  DRG_MissionEndTimerComponent "{651B0839B21B3BBF}" {
+   m_iMissionTime 1800
+  }
+ }
+ coords 0 0 0
+}
