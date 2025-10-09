@@ -1,17 +1,17 @@
 // ============================================================================
-// DRG_ZoneControlBetweenFactionsComponent.c
+// GUB_ZoneControlBetweenFactionsComponent.c
 // Считает SCR_ChimeraCharacter (игроки + ИИ) внутри PS_PolyZone и проверяет условия.
 // Триггер-обводка создаётся автоматически и покрывает полигон (радиус считается из точек).
 // Во время фризтайма (пока GameMode != GAME) подсчёты и завершение сценария не выполняются.
 // Поддержан "тестовый режим": при недостаточном числе игроков завершение логики отключается.
 // ============================================================================
 
-class DRG_ZoneControlBetweenFactionsComponentClass : DRG_MissionModuleComponentClass {}
+class GUB_ZoneControlBetweenFactionsComponentClass : DRG_MissionModuleComponentClass {}
 
-class DRG_ZoneControlBetweenFactionsComponent : DRG_MissionModuleComponent
+class GUB_ZoneControlBetweenFactionsComponent : DRG_MissionModuleComponent
 {
 	[Attribute(category: "Zone Control")]
-	ref array<ref DRG_ZoneControlBetweenFactionsLogic> m_aControlLogics;
+	ref array<ref GUB_ZoneControlBetweenFactionsLogic> m_aControlLogics;
 
 	protected PS_GameModeCoop m_GameModeCoop;
 	protected const int CHECK_INTERVAL_MS = 1000;
@@ -31,7 +31,7 @@ class DRG_ZoneControlBetweenFactionsComponent : DRG_MissionModuleComponent
 
 		if (m_aControlLogics)
 		{
-			foreach (DRG_ZoneControlBetweenFactionsLogic lg : m_aControlLogics)
+			foreach (GUB_ZoneControlBetweenFactionsLogic lg : m_aControlLogics)
 				if (lg) lg.Init(m_GameModeCoop);
 		}
 
@@ -43,7 +43,7 @@ class DRG_ZoneControlBetweenFactionsComponent : DRG_MissionModuleComponent
 		if (!m_aControlLogics)
 			return;
 
-		foreach (DRG_ZoneControlBetweenFactionsLogic logic : m_aControlLogics)
+		foreach (GUB_ZoneControlBetweenFactionsLogic logic : m_aControlLogics)
 		{
 			if (!logic)
 				continue;
@@ -61,12 +61,12 @@ class DRG_ZoneControlBetweenFactionsComponent : DRG_MissionModuleComponent
 		desc = desc + "<color hex=\"0xFFE2A74F\">" + "Контроль зоны между фракциями" + "<color name>\n";		
 		desc = desc +  "" + "\n";
 			
-		foreach (DRG_ZoneControlBetweenFactionsLogic logic : m_aControlLogics)		{
+		foreach (GUB_ZoneControlBetweenFactionsLogic logic : m_aControlLogics)		{
 			
 			desc = desc + "<color hex=\"0xFFE2A74F\">" + "Зона: " + logic.m_sZonePreviewName + "<color name>\n";
 			desc = desc + logic.m_sPreviewMessageToDescription + "\n";
 			
-			foreach (int i, DRG_ZoneControlBetweenFactionsCondition cnd : logic.m_aConditions)			
+			foreach (int i, GUB_ZoneControlBetweenFactionsCondition cnd : logic.m_aConditions)			
 			{
 				FactionManager factionManager = GetGame().GetFactionManager();				
 				Faction faction = factionManager.GetFactionByKey(cnd.m_sFactionKey);
@@ -104,7 +104,7 @@ class DRG_ZoneControlBetweenFactionsComponent : DRG_MissionModuleComponent
 
 
 [BaseContainerProps()]
-class DRG_ZoneControlBetweenFactionsCondition
+class GUB_ZoneControlBetweenFactionsCondition
 {
 	[Attribute(defvalue: "USSR", desc: "Faction Key")]
 	FactionKey m_sFactionKey;
@@ -139,7 +139,7 @@ class DRG_ZoneControlBetweenFactionsCondition
 // Логика контроля одной зоны PS_PolyZone
 // ============================================================================
 [BaseContainerProps()]
-class DRG_ZoneControlBetweenFactionsLogic
+class GUB_ZoneControlBetweenFactionsLogic
 {
 	// Имя сущности зоны (ShapeEntity / PolylineShapeEntity), на которой висит PS_PolyZone (или у её родителя)
 	[Attribute(defvalue: "", desc: "Entity name of zone (ShapeEntity) that has PS_PolyZone component")]
@@ -190,7 +190,7 @@ class DRG_ZoneControlBetweenFactionsLogic
 
 	// Условия
 	[Attribute(category: "Conditions")]
-	ref array<ref DRG_ZoneControlBetweenFactionsCondition> m_aConditions;
+	ref array<ref GUB_ZoneControlBetweenFactionsCondition> m_aConditions;
 
 	// Runtime
 	protected PS_GameModeCoop m_GameModeCoop;
@@ -282,7 +282,7 @@ class DRG_ZoneControlBetweenFactionsLogic
 		if (!ent)
 		{
 			if (m_bDebug)
-				Print(string.Format("DRG_ZoneControlBetweenFactions: zone entity '%1' not found (retry)", m_sZoneEntityName));
+				Print(string.Format("GUB_ZoneControlBetweenFactions: zone entity '%1' not found (retry)", m_sZoneEntityName));
 			return;
 		}
 
@@ -294,21 +294,21 @@ class DRG_ZoneControlBetweenFactionsLogic
 		if (!m_ZoneComp)
 		{
 			if (m_bDebug)
-				Print(string.Format("DRG_ZoneControlBetweenFactions: PS_PolyZone not found on '%1' or parent (retry)", m_sZoneEntityName));
+				Print(string.Format("GUB_ZoneControlBetweenFactions: PS_PolyZone not found on '%1' or parent (retry)", m_sZoneEntityName));
 			return;
 		}
 
 		Resource res = Resource.Load(RN_SPHERE_TRIGGER);
 		if (!res)
 		{
-			Print("DRG_ZoneControlBetweenFactions: failed to load SeizingTrigger prefab", LogLevel.ERROR);
+			Print("GUB_ZoneControlBetweenFactions: failed to load SeizingTrigger prefab", LogLevel.ERROR);
 			return;
 		}
 
 		m_Trigger = BaseGameTriggerEntity.Cast(GetGame().SpawnEntityPrefabLocal(res, GetGame().GetWorld()));
 		if (!m_Trigger)
 		{
-			Print("DRG_ZoneControlBetweenFactions: failed to spawn trigger", LogLevel.ERROR);
+			Print("GUB_ZoneControlBetweenFactions: failed to spawn trigger", LogLevel.ERROR);
 			return;
 		}
 
@@ -443,7 +443,7 @@ class DRG_ZoneControlBetweenFactionsLogic
 			{
 				string keyStr = m_mFactionCounts.GetKey(k);
 				int    val    = m_mFactionCounts.GetElement(k);
-				Print(string.Format("[DRG_ZoneControlBetweenFactions] Zone=%1 Faction=%2 Count=%3", m_sZoneEntityName, keyStr, val));
+				Print(string.Format("[GUB_ZoneControlBetweenFactions] Zone=%1 Faction=%2 Count=%3", m_sZoneEntityName, keyStr, val));
 			}
 		}
 		
@@ -469,7 +469,7 @@ class DRG_ZoneControlBetweenFactionsLogic
 
 		for (int i = 0; i < m_aConditions.Count(); i++)
 		{
-			DRG_ZoneControlBetweenFactionsCondition cond = m_aConditions[i];
+			GUB_ZoneControlBetweenFactionsCondition cond = m_aConditions[i];
 			if (!cond)
 				return;
 
@@ -564,7 +564,7 @@ class DRG_ZoneControlBetweenFactionsLogic
 
 
 	// Чистка при удалении
-	void ~DRG_ZoneControlBetweenFactionsLogic()
+	void ~GUB_ZoneControlBetweenFactionsLogic()
 	{
 		GetGame().GetCallqueue().Remove(EvaluateOnce);
 		if (m_Trigger)

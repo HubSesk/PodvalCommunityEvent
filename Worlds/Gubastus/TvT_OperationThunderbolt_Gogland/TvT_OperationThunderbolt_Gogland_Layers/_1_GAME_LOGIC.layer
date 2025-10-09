@@ -1,3 +1,33 @@
+GenericEntity : "{592E8C59C778A189}Prefabs/System/GUB_ZoneControlBetweenFactionsPrefab.et" {
+ components {
+  GUB_ZoneControlBetweenFactionsComponent "{66931217B7943C52}" {
+   m_aControlLogics {
+    GUB_ZoneControlBetweenFactionsLogic "{66931214019A497B}" {
+     m_sZoneEntityName "TRIGGER_ZONE"
+     m_sZonePreviewName "Зона триггера"
+     m_bUseTestingMode 0
+     m_bAdvanceGameStage 1
+     m_sSuccessObjectiveNames {
+      "AFRF_CAPTURE"
+     }
+     m_sFailedObjectiveNames {
+      "CDF_CAPTURE"
+     }
+     m_sMessage "ВСРФ Захватили высоту!"
+     m_sPreviewMessageToDescription "Условие победы ВСРФ"
+     m_aConditions {
+      GUB_ZoneControlBetweenFactionsCondition "{6693121411D9C469}" {
+       m_sFactionKey "RHS_AFRF"
+       m_sOtherFactionKey "Ses_CDF"
+       m_fComparisonMultiplier 5
+       m_iOperator GREATER
+      }
+     }
+    }
+   }
+  }
+ }
+}
 GenericEntity : "{6A3CDCFB475BF1B2}Prefabs/System/DRG_CriticalLossPrefab.et" {
  components {
   DRG_CriticalLossComponent "{65213D368F1BD792}" {
@@ -32,32 +62,6 @@ GenericEntity : "{E6FC6DD69FA3479F}Prefabs/System/DRG_MissionEndTimerPrefab.et" 
  components {
   DRG_MissionEndTimerComponent "{651B0839B21B3BBF}" {
    m_iMissionTime 2700
-  }
-  DRG_ZoneControlBetweenFactionsComponent "{668ED581F63A2D18}" {
-   m_aControlLogics {
-    DRG_ZoneControlBetweenFactionsLogic "{668ED581F1859F18}" {
-     m_sZoneEntityName "TRIGGER_ZONE"
-     m_sZonePreviewName "Зона триггера"
-     m_bUseTestingMode 0
-     m_bAdvanceGameStage 1
-     m_sSuccessObjectiveNames {
-      "AFRF_CAPTURE"
-     }
-     m_sFailedObjectiveNames {
-      "CDF_CAPTURE"
-     }
-     m_sMessage "ВСРФ Захватили высоту!"
-     m_sPreviewMessageToDescription "Условие победы ВСРФ"
-     m_aConditions {
-      DRG_ZoneControlBetweenFactionsCondition "{668ED581F3508E38}" {
-       m_sFactionKey "RHS_AFRF"
-       m_sOtherFactionKey "Ses_CDF"
-       m_fComparisonMultiplier 5
-       m_iOperator GREATER
-      }
-     }
-    }
-   }
   }
  }
  coords 0 0 0
