@@ -1,0 +1,87 @@
+$grp PolylineShapeEntity : "{7019844BAD5C4DD8}Prefabs/PolyZone/PolyZone_Border.et" {
+ TRIGGER_ZONE {
+  components {
+   PS_PolyZone "{60E90266F25533F6}" {
+    m_mPolygonTexture "{928B4092981F27CB}UI/layouts/Textures/Zone.edds"
+    m_cPolygonColor 1 0 0 0.5
+    m_mPolygonTextureBorder "{CA01D453D39FB430}UI/layouts/Textures/ZoneBorder.edds"
+    m_cPolygonBorderColor 1 0 0 1
+    m_bReversed 0
+    m_aVisibleForFactions {
+     "RHS_AFRF" "RHS_USAF" ""
+    }
+   }
+  }
+  coords 4358.629 58.693 2087.438
+  Points {
+   ShapePoint "{668A8A162AF936E4}" {
+    Position 47.722 0 109.299
+   }
+   ShapePoint "{668A8A1635B4AC42}" {
+    Position -16.088 0 137.958
+   }
+   ShapePoint "{668A8A1630A25A15}" {
+    Position -64.269 0 28.676
+   }
+  }
+  {
+   PS_PolyZoneTrigger {
+    ID "60FD050E1E83544C"
+    TriggerShapeType Polyline
+    m_polyZoneEffect PS_PolyZoneEffectRestricted "{60FD050E0DC2A2AB}" {
+     m_fKillTime 10
+    }
+    m_sFactionKey "RHS_AFRF"
+    m_sGroupKey "AFRF_000"
+   }
+  }
+ }
+ {
+  components {
+   PS_PolyZone "{60E90266F25533F6}" {
+    m_mPolygonTexture "{928B4092981F27CB}UI/layouts/Textures/Zone.edds"
+    m_cPolygonColor 0 0.125 0.502 0.5
+    m_mPolygonTextureBorder "{CA01D453D39FB430}UI/layouts/Textures/ZoneBorder.edds"
+    m_cPolygonBorderColor 0 0.125 0.502 1
+    m_bReversed 0
+    m_aVisibleForFactions {
+     "RHS_AFRF" "RHS_USAF" ""
+    }
+   }
+  }
+  coords 5520.865 87.339 0.586
+  Points {
+   ShapePoint "{668A8A1923A78754}" {
+    Position -4.04 0 1075.941
+   }
+   ShapePoint "{668A8A192CAC5B1D}" {
+    Position 249.791 0 1579.897
+   }
+   ShapePoint "{668A8A192FBFD12A}" {
+    Position 585.982 0 1862.394
+   }
+   ShapePoint "{668A8A192AD51741}" {
+    Position 937.646 0 2327.729
+   }
+   ShapePoint "{668A8A192B6AD371}" {
+    Position 1374.543 0 2473.964
+   }
+   ShapePoint "{668A8A1935B2EC9E}" {
+    Position 2182.858 0 2146.638
+   }
+   ShapePoint "{668A8A19305C0375}" {
+    Position 2680.515 0 1950.162
+   }
+   ShapePoint "{668A8A193CD29900}" {
+    Position 2671.236 0 -9.336
+   }
+  }
+  {
+   PS_PolyZoneTrigger {
+    ID "60FD050E1E83544C"
+    m_bReversed 0
+    m_sFactionKey "RHS_AFRF"
+   }
+  }
+ }
+}
