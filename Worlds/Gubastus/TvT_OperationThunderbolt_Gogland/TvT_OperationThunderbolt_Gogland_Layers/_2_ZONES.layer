@@ -1,18 +1,21 @@
-PolylineShapeEntity TRIGGER_ZONE : "{7019844BAD5C4DD8}Prefabs/PolyZone/PolyZone_Border.et" {
+PolylineShapeEntity TRIGGER_ZONE {
  components {
-  PS_PolyZone "{60E90266F25533F6}" {
+  PS_PolyZone "{669530CA989498BD}" {
    m_mPolygonTexture "{928B4092981F27CB}UI/layouts/Textures/Zone.edds"
    m_cPolygonColor 0 0 1 0.5
    m_mPolygonTextureBorder "{CA01D453D39FB430}UI/layouts/Textures/ZoneBorder.edds"
    m_cPolygonBorderColor 0 0 1 1
    m_bReversed 0
    m_aVisibleForFactions {
-    "RHS_AFRF" "Ses_CDF" "RHS_ION" ""
+    "RHS_AFRF" "Ses_CDF" "RHS_ION"
    }
   }
  }
  coords 5600.625 128.263 6665.508
  Points {
+  ShapePoint "{60E90266E922A02A}" {
+   Position 0 0 0
+  }
   ShapePoint "{668CC5085B23C1BE}" {
    Position 11.287 0 13.836
   }
@@ -110,4 +113,5 @@ PolylineShapeEntity TRIGGER_ZONE : "{7019844BAD5C4DD8}Prefabs/PolyZone/PolyZone_
    Position -16.172 0 7.624
   }
  }
+ IsClosed 1
 }
