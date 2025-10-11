@@ -46,6 +46,9 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_fWorldSize 35
   m_sDescription "Зона эвакуации"
   m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   ""
+  }
   m_bVisibleForEmptyFaction 1
   m_bShowForAnyFaction 1
  }
@@ -58,8 +61,9 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sDescription "Лестница"
   m_bUseWorldScale 0
   m_aVisibleForFactions {
-   "US"
+   "US" ""
   }
+  m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
    0 3
   }
@@ -73,8 +77,9 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sDescription "Лестница"
   m_bUseWorldScale 0
   m_aVisibleForFactions {
-   "US"
+   "US" ""
   }
+  m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
    0 3
   }
@@ -88,8 +93,9 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sDescription "Лестница"
   m_bUseWorldScale 0
   m_aVisibleForFactions {
-   "US"
+   "US" ""
   }
+  m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
    0 3
   }
@@ -103,8 +109,9 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sDescription "Лестница"
   m_bUseWorldScale 0
   m_aVisibleForFactions {
-   "US"
+   "US" ""
   }
+  m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
    0 3
   }
@@ -118,8 +125,9 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sDescription "Лестница"
   m_bUseWorldScale 0
   m_aVisibleForFactions {
-   "US"
+   "US" ""
   }
+  m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
    0 3
   }
@@ -133,8 +141,9 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sDescription "Лестница"
   m_bUseWorldScale 0
   m_aVisibleForFactions {
-   "US"
+   "US" ""
   }
+  m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
    0 3
   }
@@ -148,8 +157,9 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sDescription "Лестница"
   m_bUseWorldScale 0
   m_aVisibleForFactions {
-   "US"
+   "US" ""
   }
+  m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
    0 3
   }
@@ -163,10 +173,58 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sDescription "Лестница"
   m_bUseWorldScale 0
   m_aVisibleForFactions {
-   "US"
+   "US" ""
   }
+  m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
    0 3
+  }
+ }
+ ATTACK_4 {
+  coords 7938.364 0 5911.105
+  angleY -131.499
+  m_MarkerColor 0.014 0.546 0.896 1
+  m_sQuadName "arrow-large-2"
+  m_fWorldSize 150
+  m_sDescription "Направление атаки"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Drg_PIR" "CIV" ""
+  }
+  m_bVisibleForEmptyFaction 1
+ }
+ BOAT {
+  coords 7087.661 0 5897.396
+  angleY 62.43
+  m_sImageSet "{DDC385C1F877B146}UI/Textures/Editor/EditableEntities/Vehicles/EditableEntity_Vehicle_Boat3.edds"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.014 0.546 0.896 1
+  m_fWorldSize 50
+  m_sDescription "Лодка для эвакуации"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "US" ""
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+   3 0
+  }
+ }
+ BOAT2 {
+  coords 7428.164 0 4940.14
+  angleY 53.342
+  m_sImageSet "{DDC385C1F877B146}UI/Textures/Editor/EditableEntities/Vehicles/EditableEntity_Vehicle_Boat3.edds"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.014 0.546 0.896 1
+  m_fWorldSize 50
+  m_sDescription "Лодка для эвакуации"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "US" ""
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+   3 0
   }
  }
 }

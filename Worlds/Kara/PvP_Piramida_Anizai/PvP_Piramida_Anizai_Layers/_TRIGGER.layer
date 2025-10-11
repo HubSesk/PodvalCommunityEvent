@@ -1,0 +1,110 @@
+$grp PolylineShapeEntity {
+ CDF {
+  components {
+   PS_PolyZone "{6694BE91F3A96D29}" {
+    m_mPolygonTexture ""
+    m_cPolygonColor 1 1 1 0
+    m_mPolygonTextureBorder ""
+    m_cPolygonBorderColor 0.014 0.546 0.896 1
+    m_fPolygonBorderWidth 5
+    m_aVisibleForFactions {
+     "Ses_CDF" "RHS_AFRF" ""
+    }
+   }
+  }
+  coords 2158.868 166.812 1509.627
+  Points {
+   ShapePoint "{6694BE902F9DD9B4}" {
+    Position -0.467 0 1.101
+   }
+   ShapePoint "{6694BE91DF9C8DFA}" {
+    Position -103.866 0 -39.545
+   }
+   ShapePoint "{6694BE91D51BD4BC}" {
+    Position -33.455 0 -215.672
+   }
+   ShapePoint "{6694BE91D3F8CB3F}" {
+    Position 149.945 0 -143.635
+   }
+   ShapePoint "{6694BE91C459BBEC}" {
+    Position 81.076 0 32.179
+   }
+  }
+  IsClosed 1
+  {
+   PS_PolyZoneTrigger {
+    components {
+     Hierarchy "{614548BDF998E12B}" {
+     }
+    }
+    TriggerShapeType Polyline
+    SphereRadius 9223372036854775808
+    "Polyline Height" 2000
+    TriggerActivationType "All changes"
+    PeriodicQueries 1
+    UpdatePeriod 1
+    ClassesFilter {
+     "SCR_ChimeraCharacter"
+    }
+    m_polyZoneEffect PS_PolyZoneEffectRestricted "{614548BC046ADB65}" {
+    }
+    m_bReversed 1
+    m_bAliveOnly 1
+    m_sFactionKey "Ses_CDF"
+   }
+  }
+ }
+ AFRF {
+  components {
+   PS_PolyZone "{6694BE9102389A4D}" {
+    m_mPolygonTexture ""
+    m_cPolygonColor 1 1 1 0
+    m_mPolygonTextureBorder ""
+    m_cPolygonBorderColor 0.502 0 0 1
+    m_fPolygonBorderWidth 5
+    m_aVisibleForFactions {
+     "Ses_CDF" "RHS_AFRF" ""
+    }
+   }
+  }
+  coords 2090.627 166.812 1562.173
+  Points {
+   ShapePoint "{6694BE911B1FBC65}" {
+    Position 155.75 0 62.41
+   }
+   ShapePoint "{6694BE91127BB479}" {
+    Position 270.417 0 -218.359
+   }
+   ShapePoint "{6694BE910DCA8199}" {
+    Position 21.32 0 -316.653
+   }
+   ShapePoint "{6694BE910F6468A7}" {
+    Position -92.963 0 -40.278
+   }
+  }
+  IsClosed 1
+  {
+   PS_PolyZoneTrigger {
+    components {
+     Hierarchy "{614548BDF998E12B}" {
+     }
+    }
+    TriggerShapeType Polyline
+    SphereRadius 9223372036854775808
+    "Polyline Height" 2000
+    TriggerActivationType "All changes"
+    PeriodicQueries 1
+    UpdatePeriod 1
+    ClassesFilter {
+     "SCR_ChimeraCharacter"
+    }
+    m_polyZoneEffect PS_PolyZoneEffectRestricted "{614548BC046ADB65}" {
+     m_fKillTime 35
+    }
+    m_bReversed 1
+    m_bAliveOnly 1
+    m_sFactionKey "RHS_AFRF"
+   }
+  }
+ }
+}
