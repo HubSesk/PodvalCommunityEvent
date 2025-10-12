@@ -1,0 +1,80 @@
+GenericEntity : "{93F9FBDB589D2C9A}Prefabs/System/DRG_BuildingDestroyPrefab.et" {
+ components {
+  DRG_BuildingDestroyComponent "{657476373CF666F8}" {
+   m_aBuildingDestroyLogics {
+    BuildingDestroyLogic "{669867FBD38A3378}" {
+     m_sSuccessObjectiveNames {
+      "Box_US1"
+     }
+     m_sFailedObjectiveNames {
+      "Box_RU1"
+     }
+     m_aDestroableBuildings {
+      DestroableBuilding "{669867FBCD54ED42}" {
+       m_sBuildingEntityName "Box1"
+       m_sBuildingPreviewNameForDescription "Ящик 1"
+      }
+     }
+     m_sMessage "Первый ящик уничтожен"
+    }
+    BuildingDestroyLogic "{669867F85E9B3EF2}" {
+     m_sSuccessObjectiveNames {
+      "Box_US2"
+     }
+     m_sFailedObjectiveNames {
+      "Box_RU2"
+     }
+     m_aDestroableBuildings {
+      DestroableBuilding "{669867F85E9B3E76}" {
+       m_sBuildingEntityName "Box2"
+       m_sBuildingPreviewNameForDescription "Ящик 2"
+      }
+     }
+     m_sMessage "Второй ящик уничтожен"
+    }
+    BuildingDestroyLogic "{669867F841E3C810}" {
+     m_sSuccessObjectiveNames {
+      "Box_US3"
+     }
+     m_sFailedObjectiveNames {
+      "Box_RU3"
+     }
+     m_aDestroableBuildings {
+      DestroableBuilding "{669867F841E3CB8E}" {
+       m_sBuildingEntityName "Box3"
+       m_sBuildingPreviewNameForDescription "Ящик 3"
+      }
+     }
+     m_sMessage "Третий ящик уничтожен"
+    }
+    BuildingDestroyLogic "{669867F840A913AE}" {
+     m_sSuccessObjectiveNames {
+      "Box_US4"
+     }
+     m_sFailedObjectiveNames {
+      "Box_RU4"
+     }
+     m_aDestroableBuildings {
+      DestroableBuilding "{669867F840A912C7}" {
+       m_sBuildingEntityName "Box4"
+       m_sBuildingPreviewNameForDescription "Ящик 4"
+      }
+     }
+     m_sMessage "Четвёртый ящик уничтожен"
+    }
+   }
+  }
+ }
+ coords 39.219 0 28.536
+}
+GenericEntity : "{E6FC6DD69FA3479F}Prefabs/System/DRG_MissionEndTimerPrefab.et" {
+ components {
+  DRG_MissionEndTimerComponent "{651B0839B21B3BBF}" {
+   m_iMissionTime 2700
+   m_aTimeLeftWarningTimers {
+    300
+   }
+  }
+ }
+ coords 29.698 0 33.894
+}

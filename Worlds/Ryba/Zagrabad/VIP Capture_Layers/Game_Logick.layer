@@ -1,0 +1,22 @@
+GenericEntity : "{6A3CDCFB475BF1B2}Prefabs/System/DRG_CriticalLossPrefab.et" {
+ components {
+  DRG_CriticalLossComponent "{65213D368F1BD792}" {
+   m_aLossLogics {
+    LossLogic "{6655269B52E2896A}" {
+     m_aLosses {
+      FactionLoss "{6655269B57624C95}" {
+       m_iCriticalLossCount 4
+       m_sFactionKey "RHS_USAF"
+      }
+     }
+     m_sObjectiveNames {
+      "Enemy_defeated_TKR"
+     }
+     m_bUseMessage 1
+     m_bEventMessage "США понесли большие потери. Победа Боевиков."
+    }
+   }
+  }
+ }
+ coords 3251.286 52.845 8151.442
+}

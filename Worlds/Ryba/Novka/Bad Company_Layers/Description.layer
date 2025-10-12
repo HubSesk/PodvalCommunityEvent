@@ -1,0 +1,33 @@
+$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ MainDesctiption {
+  coords 30.703 0 32.309
+  m_sTitle "Описание миссии"
+  m_sTextData "ВС США штурмуют грузовой порт."
+  m_aVisibleForFactions {
+   "" "RHS_AFRF" "RHS_USAF"
+  }
+  m_bEmptyFactionVisibility 1
+  m_bShowForAnyFaction 1
+ }
+ Rules {
+  coords 28.525 0 32.41
+  m_sTitle "Общие правила"
+  m_sTextData "ВСЕМ ЗАПРЕЩЕНО:"\
+  "– надевать форму и снаряжение противника (рюкзаки можно)."\
+  "– находиться в красной зоне."\
+  ""\
+  "КРАСНЫМ ЗАПРЕЩЕНО:"\
+  "– пересекать синюю линию."\
+  ""\
+  "СПОСОБЫ ПОБЕДЫ ЗА ВС США:"\
+  "– уничтожить четыре тёмных ящика."\
+  ""\
+  "СПОСОБЫ ПОБЕДЫ ЗА ВС РФ:"\
+  "– не дать уничтожить четыре тёмных ящика."
+  m_aVisibleForFactions {
+   "" "RHS_AFRF" "RHS_USAF"
+  }
+  m_bEmptyFactionVisibility 1
+  m_bShowForAnyFaction 1
+ }
+}
