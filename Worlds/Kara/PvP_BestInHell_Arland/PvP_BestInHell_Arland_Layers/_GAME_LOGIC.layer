@@ -1,0 +1,70 @@
+GenericEntity Losses_Logic : "{6A3CDCFB475BF1B2}Prefabs/System/DRG_CriticalLossPrefab.et" {
+ components {
+  DRG_CriticalLossComponent "{65213D368F1BD792}" {
+   m_iAdvanceAfterSec 5
+   m_aLossLogics {
+    LossLogic "{652AF37E6EFB5B46}" {
+     m_aLosses {
+      FactionLoss "{652AF37E6CC8FCEC}" {
+       m_sFactionKey "RHS_AFRF"
+      }
+     }
+     m_sObjectiveNames {
+      "FIA_1"
+     }
+     m_sFailedObjectiveNames {
+      "AFRF_1"
+     }
+     m_bAdvanceGameStage 1
+     m_bUseMessage 1
+     m_bEventMessage "Победа обороны! Атака понесла серьёзные потери"
+    }
+    LossLogic "{652AF37EA888F663}" {
+     m_aLosses {
+      FactionLoss "{652AF37EAC417D1C}" {
+       m_sFactionKey "FIA"
+      }
+     }
+     m_sObjectiveNames {
+      "AFRF_1"
+     }
+     m_sFailedObjectiveNames {
+      "FIA_1"
+     }
+     m_bAdvanceGameStage 1
+     m_bUseMessage 1
+     m_bEventMessage "Победа атаки! Оборона понесла серьёзные потери"
+    }
+    LossLogic "{668F4683381060D0}" {
+     m_aLosses {
+      FactionLoss "{668F46833A5DF175}" {
+       m_iCriticalLossCount 0
+       m_sFactionKey "CIV"
+      }
+     }
+     m_sObjectiveNames {
+      "AFRF_2"
+     }
+     m_sFailedObjectiveNames {
+      "FIA_2" "CIV_1"
+     }
+     m_bUseMessage 1
+     m_bEventMessage "Виталик убит."\
+     "Для завершения миссии подтвердите убийство через взаимодействие."
+    }
+   }
+  }
+ }
+ coords 3292.892 0 2936.443
+}
+GenericEntity Time_End : "{E6FC6DD69FA3479F}Prefabs/System/DRG_MissionEndTimerPrefab.et" {
+ components {
+  DRG_MissionEndTimerComponent "{651B0839B21B3BBF}" {
+   m_iMissionTime 2700
+   m_aTimeLeftWarningTimers {
+    300
+   }
+  }
+ }
+ coords 3418.207 0 2983.398
+}
