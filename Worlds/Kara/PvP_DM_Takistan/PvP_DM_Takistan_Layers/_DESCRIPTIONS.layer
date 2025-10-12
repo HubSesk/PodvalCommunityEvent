@@ -2,8 +2,8 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  "_0_ABOUT" {
   coords 5781.41 109.312 11405.117
   m_sTitle "О миcсии"
-  m_sTextData "Мясная миссия для практики стрельбы и движения на M2 Humvee и ГАЗ Тигр."\
-  ""
+  m_sTextData "Противостояние двух сторон в борьбе за флаг и территорию возле него (синий триггер)."\
+  "Миссия завершится по потерям одной из сторон."
   m_bEmptyFactionVisibility 1
   m_bShowForAnyFaction 1
  }
@@ -25,8 +25,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  "_2_AFRF" {
   coords 5782.359 109.313 11407.833
   m_sTitle "ВС РФ"
-  m_sTextData "Бей и беги"\
-  ""
+  m_sTextData "Необходимо захватить флаг в синем триггере и удерживать его."
   m_aVisibleForFactions {
    "RHS_AFRF"
   }
@@ -34,11 +33,11 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  "_2_US" {
   coords 8638.081 337.894 2492.071
   m_sTitle "США"
-  m_sTextData "Бей и беги"\
+  m_sTextData "Необходимо захватить флаг в синем триггере и удерживать его."\
   ""\
   ""
   m_aVisibleForFactions {
-   "US"
+   "RHS_USAF"
   }
  }
 }
