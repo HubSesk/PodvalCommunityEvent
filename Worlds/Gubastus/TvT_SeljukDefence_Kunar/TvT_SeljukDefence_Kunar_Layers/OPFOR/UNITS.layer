@@ -38,7 +38,7 @@ SCR_AIGroup USSR_000 : "{D1B420D921CC6CD4}Prefabs/Groups/OPFOR/Group_USSR_Platoo
   PS_GroupCallsignAssigner "{66866EBF172131C8}" {
   }
  }
- coords 2850.484 415 219.806
+ coords 2845.375 415 221.947
  angleY -158.92
  m_aUnitPrefabSlots {
   "{AF5187B30BA58205}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_PL_P.et" "{730A987119F129A8}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Sergeant_P.et"
@@ -54,7 +54,7 @@ $grp SCR_AIGroup : "{E3545CFEDD312D54}Prefabs/Groups/OPFOR/Group_USSR_RifleSquad
     m_iSquadCallsign 2
    }
   }
-  coords 2849.345 415 209.603
+  coords 2844.235 415 211.744
   angleY 20.681
  }
  USSR_003 {
@@ -66,7 +66,7 @@ $grp SCR_AIGroup : "{E3545CFEDD312D54}Prefabs/Groups/OPFOR/Group_USSR_RifleSquad
     m_iSquadCallsign 3
    }
   }
-  coords 2842.32 415 217.493
+  coords 2837.211 415 219.634
   angleY 20.681
  }
  USSR_004 {
@@ -78,7 +78,7 @@ $grp SCR_AIGroup : "{E3545CFEDD312D54}Prefabs/Groups/OPFOR/Group_USSR_RifleSquad
     m_iSquadCallsign 4
    }
   }
-  coords 2840.49 415 213.141
+  coords 2835.381 415 215.282
   angleY 20.681
  }
  USSR_005 {
@@ -90,7 +90,7 @@ $grp SCR_AIGroup : "{E3545CFEDD312D54}Prefabs/Groups/OPFOR/Group_USSR_RifleSquad
     m_iSquadCallsign 5
    }
   }
-  coords 2838.757 414.982 208.27
+  coords 2833.648 415 210.411
   angleY 20.681
  }
  USSR_001 {
@@ -102,7 +102,61 @@ $grp SCR_AIGroup : "{E3545CFEDD312D54}Prefabs/Groups/OPFOR/Group_USSR_RifleSquad
     m_iSquadCallsign 1
    }
   }
-  coords 2851.143 415 213.957
+  coords 2846.034 415 216.098
   angleY 20.681
+ }
+ USSR_006 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation ""
+   }
+   PS_GroupCallsignAssigner "{66866EBF28E81E3F}" {
+    m_iSquadCallsign 6
+   }
+  }
+  coords 2842.586 415 207.286
+  angleY 20.681
+ }
+}
+$grp StaticModelEntity : "{FD625252F3654B76}PrefabsEditable/Auto/Structures/Military/Fortifications/E_DirtCover_01_long_v1.et" {
+ {
+  coords 3059.865 -0.041 663.679
+  angleX 0.831
+  angleY 29.977
+ }
+ {
+  coords 3057.064 -0.075 665.392
+  angleX 0.831
+  angleY 29.977
+ }
+ {
+  coords 3092.059 0.845 664.178
+  angleX -1.423
+  angleY 28.387
+  angleZ 4.61
+ }
+ {
+  coords 3079.84 1.505 667.16
+  angleX -27.12
+  angleY -45.047
+  angleZ 3.122
+ }
+ {
+  coords 3081.683 2.613 668.128
+  angleX -27.12
+  angleY -45.047
+  angleZ 3.122
+ }
+ {
+  coords 3083.975 2.778 667.183
+  angleX -1.423
+  angleY 28.388
+  angleZ 4.61
+ }
+ {
+  coords 3093.275 0.377 662.22
+  angleX -4.711
+  angleY 113.735
+  angleZ -1.04
  }
 }
