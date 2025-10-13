@@ -1,0 +1,64 @@
+GenericEntity Losses_Logic : "{6A3CDCFB475BF1B2}Prefabs/System/DRG_CriticalLossPrefab.et" {
+ components {
+  DRG_CriticalLossComponent "{65213D368F1BD792}" {
+   m_iAdvanceAfterSec 5
+   m_aLossLogics {
+    LossLogic "{652AF37E6EFB5B46}" {
+     m_aLosses {
+      FactionLoss "{652AF37E6CC8FCEC}" {
+       m_iCriticalLossCount 9
+       m_sFactionKey "RHS_USAF"
+      }
+     }
+     m_sObjectiveNames {
+      "ION_1" "TKR_1"
+     }
+     m_sFailedObjectiveNames {
+      "USAF_1"
+     }
+     m_bEventMessage ""
+    }
+    LossLogic "{652AF37EA888F663}" {
+     m_aLosses {
+      FactionLoss "{652AF37EAC417D1C}" {
+       m_sFactionKey "Ses_TKR"
+      }
+     }
+     m_sObjectiveNames {
+      "USAF_1" "ION_1"
+     }
+     m_sFailedObjectiveNames {
+      "TKR_1"
+     }
+     m_bEventMessage ""
+    }
+    LossLogic "{6699638D2F682A83}" {
+     m_aLosses {
+      FactionLoss "{6699638D2619B00C}" {
+       m_sFactionKey "RHS_ION"
+      }
+     }
+     m_sObjectiveNames {
+      "TKR_1" "USAF_1"
+     }
+     m_sFailedObjectiveNames {
+      "ION_1"
+     }
+     m_bEventMessage ""
+    }
+   }
+  }
+ }
+ coords 3292.892 0 2936.443
+}
+GenericEntity Time_End : "{E6FC6DD69FA3479F}Prefabs/System/DRG_MissionEndTimerPrefab.et" {
+ components {
+  DRG_MissionEndTimerComponent "{651B0839B21B3BBF}" {
+   m_iMissionTime 2700
+   m_aTimeLeftWarningTimers {
+    300
+   }
+  }
+ }
+ coords 3418.207 0 2983.398
+}
