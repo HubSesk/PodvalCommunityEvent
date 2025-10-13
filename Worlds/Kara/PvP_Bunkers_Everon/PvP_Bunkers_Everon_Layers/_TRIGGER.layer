@@ -1,0 +1,83 @@
+PolylineShapeEntity AFRF_TRIG {
+ components {
+  PS_PolyZone "{669AE41AE50F2D69}" {
+   m_mPolygonTexture ""
+   m_cPolygonColor 1 1 1 0
+   m_mPolygonTextureBorder ""
+   m_cPolygonBorderColor 0.502 0 0 1
+   m_fPolygonBorderWidth 5
+   m_aVisibleForFactions {
+    "RHS_USAF" "RHS_AFRF" ""
+   }
+  }
+ }
+ coords 7573.974 309.503 3027.517
+ Points {
+  ShapePoint "{669AE4192DF8DFDD}" {
+   Position 0 -0.001 0
+  }
+  ShapePoint "{669AE4192DF844CF}" {
+   Position 37.554 -40.012 -180.211
+  }
+  ShapePoint "{669AE41ADEDC98BF}" {
+   Position 378.945 0 -114.281
+  }
+  ShapePoint "{669AE41AD494B424}" {
+   Position 512.398 0 -92.943
+  }
+  ShapePoint "{669AE41AD1B5F20C}" {
+   Position 424.666 0 628.688
+  }
+  ShapePoint "{669AE41ACEBB6A6B}" {
+   Position 324.894 0 774.784
+  }
+  ShapePoint "{669AE41AC47548FB}" {
+   Position 353.843 0 898.234
+  }
+  ShapePoint "{669AE41AC50437E9}" {
+   Position 434.171 0 972.154
+  }
+  ShapePoint "{669AE41AC1DACBDE}" {
+   Position 509.3 0 1038.557
+  }
+  ShapePoint "{669AE41AC15C661D}" {
+   Position 489.516 0 1114.501
+  }
+  ShapePoint "{669AE41AC2D542BB}" {
+   Position 378.185 0 1124.088
+  }
+  ShapePoint "{669AE41AF91B55AE}" {
+   Position 260.017 0 1130.616
+  }
+  ShapePoint "{669AE41AFAF24CD3}" {
+   Position 77.09 0 986.214
+  }
+  ShapePoint "{669AE41AF08B1832}" {
+   Position -15.704 0 610.935
+  }
+ }
+ IsClosed 1
+ {
+  PS_PolyZoneTrigger AFRF_Kill {
+   components {
+    Hierarchy "{614548BDF998E12B}" {
+    }
+   }
+   TriggerShapeType Polyline
+   SphereRadius 9223372036854775808
+   "Polyline Height" 2000
+   TriggerActivationType "All changes"
+   PeriodicQueries 1
+   UpdatePeriod 1
+   ClassesFilter {
+    "SCR_ChimeraCharacter"
+   }
+   m_polyZoneEffect PS_PolyZoneEffectRestricted "{614548BC046ADB65}" {
+    m_fKillTime 35
+   }
+   m_bReversed 1
+   m_bAliveOnly 1
+   m_sFactionKey "RHS_AFRF"
+  }
+ }
+}
