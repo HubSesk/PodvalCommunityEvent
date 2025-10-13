@@ -3,5 +3,19 @@ SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
 PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
 }
 PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
- m_iFreezeTime 5000
+ components {
+  SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
+   m_iStartingMinutes 13
+   m_fDayTimeAcceleration 0.1
+   m_fNightTimeAcceleration 0.1
+   m_bUsePredefineStartingTimeAndWeather 1
+   m_aStartingWeatherAndTime {
+    SCR_TimeAndWeatherState "{669AF8491BEA2C0A}" {
+     m_sWeatherPresetName "Rainy"
+     m_iStartingMinutes 13
+    }
+   }
+   m_bAllowHeaderSettings 1
+  }
+ }
 }
