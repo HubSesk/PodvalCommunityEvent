@@ -1,0 +1,46 @@
+Vehicle AFRF_000_W : "{259EE7B78C51B624}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469.et" {
+ coords 6171.696 58 5231.801
+ angleY -176.164
+ m_sAttachmentGroupName "AFRF_000"
+}
+$grp SCR_EditorRestrictionZoneEntity : "{6144B0BE2EAC6897}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneMedium.et" {
+ AFRF_FREEZ_0 {
+  coords 6180.881 59.821 5254.961
+ }
+ AFRF_FREEZ_1 {
+  coords 5100.38 64.852 5815.764
+ }
+ USAF_FREEZ_0 {
+  coords 1376.018 60.937 139.976
+ }
+ USAF_FREEZ_1 {
+  coords 1951.868 63.922 1028.509
+ }
+ USAF_FREEZ_4 {
+  coords 2323.168 61.188 1602.431
+ }
+}
+SCR_EditorRestrictionZoneEntity AFRF_FREEZ_2 : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
+ coords 6120.348 59.501 4176.981
+ m_fWarnRadius 54
+ m_fZoneRadius 74
+ m_fZoneTeleportedRadius 94
+ {
+  GenericEntity {
+   ID "59D673B36B893D84"
+   components {
+    SCR_CustomAreaMeshComponent "{59D673B22B1EBC57}" {
+     m_fRadius 54
+    }
+   }
+  }
+ }
+}
+$grp SCR_EditorRestrictionZoneEntity : "{EF72FA7CD87618D5}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneSmall.et" {
+ USAF_FREEZ_2 {
+  coords 1846.251 66.331 1011.424
+ }
+ USAF_FREEZ_3 {
+  coords 2187.57 63.237 1545.262
+ }
+}
