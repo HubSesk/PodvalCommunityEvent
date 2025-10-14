@@ -61,56 +61,107 @@ class GUB_ZoneControlBetweenFactionsComponent : DRG_MissionModuleComponent
 		desc = desc + "<color hex=\"0xFFE2A74F\">" + "Контроль зоны между фракциями" + "<color name>\n";		
 		desc = desc +  "" + "\n";
 			
-		foreach (GUB_ZoneControlBetweenFactionsLogic logic : m_aControlLogics)		{
-			
+		foreach (GUB_ZoneControlBetweenFactionsLogic logic : m_aControlLogics) 
+		{
+			string sContinuously = "";
+			if (!logic.m_bContinuously)
+				sContinuously = "не ";
+
 			desc = desc + "<color hex=\"0xFFE2A74F\">" + "Зона: " + logic.m_sZonePreviewName + "<color name>\n";
+			desc = desc + "Удержать в течении: " + "<color hex=\"0xFFE2A74F\">" + logic.m_fTimeToComplete + " секунд" +"<color name>\n";
+			desc = desc + "Если условине нарушается, таймер " + "<color hex=\"0xFFE2A74F\">" + sContinuously + "обнуляется!" +"<color name>\n";
 			desc = desc + logic.m_sPreviewMessageToDescription + "\n";
 			
-			foreach (int i, GUB_ZoneControlBetweenFactionsCondition cnd : logic.m_aConditions)			
+			foreach (int i, GUB_ZoneControlConditionAbstract cnd : logic.m_aConditions)			
 			{
-				FactionManager factionManager = GetGame().GetFactionManager();				
-				Faction faction = factionManager.GetFactionByKey(cnd.m_sFactionKey);
-				Faction otherFaction = factionManager.GetFactionByKey(cnd.m_sOtherFactionKey);
-				
-				string factionName = faction.GetFactionName();
-				string otherFactionName = otherFaction.GetFactionName();
-								
-				string operatorStr;			
-				if (cnd.m_iOperator == DRG_ConditionOp.EQUALS)
-				{
-					operatorStr = "==";				
-				} else if (cnd.m_iOperator == DRG_ConditionOp.LESS){
-					operatorStr = "<";				
-				} else if (cnd.m_iOperator == DRG_ConditionOp.GREATER){
-					operatorStr = ">";
-				} else if (cnd.m_iOperator == DRG_ConditionOp.LESS_OR_EQUALS){
-					operatorStr = "<=";
-				} else if (cnd.m_iOperator == DRG_ConditionOp.GREATER_OR_EQUALS){
-					operatorStr = ">=";
-				}
-				
-				string multiplierText = "";
-				if (cnd.m_fComparisonMultiplier != 1.0)
-				{
-					multiplierText = " (x" + cnd.m_fComparisonMultiplier.ToString() + ")";
-				}
-						
-				desc = desc + " • " + factionName + " " + "<color hex=\"0xFFE2A74F\">" + operatorStr + "<color name>" + " " + otherFactionName + multiplierText + "\n";
+				desc += cnd.FillDescription();
 			}
 		}
 		desc = desc +  "\n\n";
 	}
 }
 
+// ============================================================================
+// Условия выполнения
+// ============================================================================
+[BaseContainerProps()]
+class GUB_ZoneControlConditionAbstract
+{
+	bool Evaluate(map<string, int> FactionCounts) {return false; }
+	string FillDescription();
+
+	protected int GetCountForFaction(map<string, int> FactionCounts, FactionKey key)
+	{
+		string skey = key;
+		if (skey == "")
+			return 0;
+
+		int v = FactionCounts.Get(skey);
+		return v;
+	}
+}
 
 [BaseContainerProps()]
-class GUB_ZoneControlBetweenFactionsCondition
+class GUB_ZoneControlCondition : GUB_ZoneControlConditionAbstract
 {
 	[Attribute(defvalue: "USSR", desc: "Faction Key")]
 	FactionKey m_sFactionKey;
 
+	[Attribute("0", UIWidgets.ComboBox, "Compare operator (=,<,>,<=,>=)", "", ParamEnumArray.FromEnum(DRG_ConditionOp))]
+	int m_iOperator;
+
+	[Attribute(defvalue: "0", desc: "Required count", uiwidget: UIWidgets.EditBox)]
+	int m_iCount;
+
+	override bool Evaluate(map<string, int> FactionCounts)
+	{
+		int FactionCount = GetCountForFaction(FactionCounts, m_sFactionKey);
+
+		switch (m_iOperator)
+		{
+			case DRG_ConditionOp.EQUALS:            return FactionCount == m_iCount;
+			case DRG_ConditionOp.LESS:              return FactionCount <  m_iCount;
+			case DRG_ConditionOp.GREATER:           return FactionCount >  m_iCount;
+			case DRG_ConditionOp.LESS_OR_EQUALS:    return FactionCount <= m_iCount;
+			case DRG_ConditionOp.GREATER_OR_EQUALS: return FactionCount >= m_iCount;
+		}
+		return false;
+	}
+
+	override string FillDescription()
+	{
+		FactionManager factionManager = GetGame().GetFactionManager();				
+		Faction faction = factionManager.GetFactionByKey(m_sFactionKey);
+		
+		string factionName = faction.GetFactionName();
+						
+		string operatorStr;			
+		if (m_iOperator == DRG_ConditionOp.EQUALS)
+		{
+			operatorStr = "==";				
+		} else if (m_iOperator == DRG_ConditionOp.LESS){
+			operatorStr = "<";				
+		} else if (m_iOperator == DRG_ConditionOp.GREATER){
+			operatorStr = ">";
+		} else if (m_iOperator == DRG_ConditionOp.LESS_OR_EQUALS){
+			operatorStr = "<=";
+		} else if (m_iOperator == DRG_ConditionOp.GREATER_OR_EQUALS){
+			operatorStr = ">=";
+		}
+				
+		string desc =" • " + factionName + " " + "<color hex=\"0xFFE2A74F\">" + operatorStr + "<color name>" + " " + m_iCount.ToString() + "\n";
+		return desc;
+	}
+}
+
+[BaseContainerProps()]
+class GUB_ZoneControlBetweenFactionsCondition : GUB_ZoneControlConditionAbstract
+{
+	[Attribute(defvalue: "USSR", desc: "Faction Key")]
+	FactionKey m_sFirstFactionKey;
+
 	[Attribute(defvalue: "US", desc: "Other Faction Key to compare with")]
-	FactionKey m_sOtherFactionKey;
+	FactionKey m_sSecondFactionKey;
 
 	[Attribute("1.0", UIWidgets.Slider, "Comparison multiplier (e.g., 5.0 means 5 times more)", "0.1 10 0.1")]
 	float m_fComparisonMultiplier;
@@ -118,21 +169,116 @@ class GUB_ZoneControlBetweenFactionsCondition
 	[Attribute("0", UIWidgets.ComboBox, "Compare operator (=,<,>,<=,>=)", "", ParamEnumArray.FromEnum(DRG_ConditionOp))]
 	int m_iOperator;
 
-	bool Evaluate(int currentCount, int otherCount)
+	override bool Evaluate(map<string, int> FactionCounts)
 	{
 		// Применяем коэффициент к количеству другой фракции
-		float adjustedOtherCount = otherCount * m_fComparisonMultiplier;
+		int firstFactionCount = GetCountForFaction(FactionCounts, m_sFirstFactionKey);
+		int secondFactionCount = GetCountForFaction(FactionCounts, m_sSecondFactionKey);
+		
+		float adjustedSecondFactionCount = secondFactionCount * m_fComparisonMultiplier;
 		
 		switch (m_iOperator)
 		{
-			case DRG_ConditionOp.EQUALS:            return currentCount == adjustedOtherCount;
-			case DRG_ConditionOp.LESS:              return currentCount <  adjustedOtherCount;
-			case DRG_ConditionOp.GREATER:           return currentCount >  adjustedOtherCount;
-			case DRG_ConditionOp.LESS_OR_EQUALS:    return currentCount <= adjustedOtherCount;
-			case DRG_ConditionOp.GREATER_OR_EQUALS: return currentCount >= adjustedOtherCount;
+			case DRG_ConditionOp.EQUALS:            return firstFactionCount == adjustedSecondFactionCount;
+			case DRG_ConditionOp.LESS:              return firstFactionCount <  adjustedSecondFactionCount;
+			case DRG_ConditionOp.GREATER:           return firstFactionCount >  adjustedSecondFactionCount;
+			case DRG_ConditionOp.LESS_OR_EQUALS:    return firstFactionCount <= adjustedSecondFactionCount;
+			case DRG_ConditionOp.GREATER_OR_EQUALS: return firstFactionCount >= adjustedSecondFactionCount;
 		}
 		return false;
 	}
+
+	override string FillDescription()
+	{
+		FactionManager factionManager = GetGame().GetFactionManager();				
+		Faction firstFaction = factionManager.GetFactionByKey(m_sFirstFactionKey);
+		Faction secondFaction = factionManager.GetFactionByKey(m_sSecondFactionKey);
+		
+		string factionName = firstFaction.GetFactionName();
+		string otherFactionName = secondFaction.GetFactionName();
+						
+		string operatorStr;			
+		if (m_iOperator == DRG_ConditionOp.EQUALS)
+		{
+			operatorStr = "==";				
+		} else if (m_iOperator == DRG_ConditionOp.LESS){
+			operatorStr = "<";				
+		} else if (m_iOperator == DRG_ConditionOp.GREATER){
+			operatorStr = ">";
+		} else if (m_iOperator == DRG_ConditionOp.LESS_OR_EQUALS){
+			operatorStr = "<=";
+		} else if (m_iOperator == DRG_ConditionOp.GREATER_OR_EQUALS){
+			operatorStr = ">=";
+		}
+		
+		string multiplierText = "";
+		if (m_fComparisonMultiplier != 1.0)
+		{
+			multiplierText = " (x" + m_fComparisonMultiplier.ToString() + ")";
+		}
+				
+		string desc = desc + " • " + factionName + " " + "<color hex=\"0xFFE2A74F\">" + operatorStr + "<color name>" + " " + otherFactionName + multiplierText + "\n";
+		return desc;
+	}
+}
+
+// ============================================================================
+// Timer
+// ============================================================================
+class GUB_ZoneControlTimer
+{
+	protected ref array<ref GUB_ZoneControlConditionAbstract> conditions;
+	protected ref map<string, int> factionCounts;
+	protected float timeToComplete;
+	protected bool continuously;
+	protected float timeNow = 0;
+
+    void SetParams(array<ref GUB_ZoneControlConditionAbstract> Conditions, 
+		map<string, int> FactionCounts, float TimeToComplete, bool Continuously)
+		{
+			conditions = Conditions;
+			factionCounts = FactionCounts;
+			timeToComplete = TimeToComplete;
+			continuously = Continuously;
+		}
+
+	void ResetTimeIfContinuously() 
+	{
+		if (continuously)
+			timeNow = 0; 
+	}
+	bool AddTime(float time)
+	{
+		timeNow += time;
+		if (timeNow >= timeToComplete)
+			return true;
+		return false;
+	}
+	bool Check(float TimePassed)
+	{
+		if (!conditions || conditions.Count() == 0)
+			return false;
+
+		for (int i = 0; i < conditions.Count(); i++)
+		{
+			GUB_ZoneControlConditionAbstract cond = conditions[i];
+			if (!cond)
+			{
+				ResetTimeIfContinuously();
+				return false;
+			}
+
+			bool ok = cond.Evaluate(factionCounts);
+			if (!ok)
+			{
+				ResetTimeIfContinuously();
+				return false;
+			}
+		}
+
+		return AddTime(TimePassed);
+	}
+
 }
 
 // ============================================================================
@@ -188,9 +334,15 @@ class GUB_ZoneControlBetweenFactionsLogic
 	[Attribute(defvalue: "", desc: "")]
 	string m_sPreviewMessageToDescription;
 
+	[Attribute(defvalue: "60.0", desc: "How much time is needed for the condition to be fully met (sec)")]
+	float m_fTimeToComplete;
+
+	[Attribute("0", UIWidgets.CheckBox, "If the condition is interrupted, should the time be counted again?")]
+	bool m_bContinuously;
+
 	// Условия
 	[Attribute(category: "Conditions")]
-	ref array<ref GUB_ZoneControlBetweenFactionsCondition> m_aConditions;
+	ref array<ref GUB_ZoneControlConditionAbstract> m_aConditions;
 
 	// Runtime
 	protected PS_GameModeCoop m_GameModeCoop;
@@ -201,6 +353,7 @@ class GUB_ZoneControlBetweenFactionsLogic
 	protected BaseGameTriggerEntity m_Trigger;      // вспомогательный сферический триггер
 	protected bool m_bQueryInFlight;
 
+	protected ref GUB_ZoneControlTimer m_Timer;
 	protected ref map<string, int> m_mFactionCounts; // счётчики по фракциям
 
 	// Префаб сферического триггера (как в Seizing)
@@ -213,8 +366,15 @@ class GUB_ZoneControlBetweenFactionsLogic
 		m_bQueryInFlight = false;
 		m_mFactionCounts = new map<string, int>();
 
+		if (m_fTimeToComplete < 0)
+			m_fTimeToComplete = 0;
+
+		m_Timer = new GUB_ZoneControlTimer();
+		m_Timer.SetParams(m_aConditions, m_mFactionCounts, m_fTimeToComplete, m_bContinuously);
+		
 		if (m_fCheckPeriod <= 0)
-			m_fCheckPeriod = 1.0;
+		m_fCheckPeriod = 1.0;
+		
 
 		ResolveZoneAndPrepare();
 	}
@@ -464,33 +624,8 @@ class GUB_ZoneControlBetweenFactionsLogic
 		if (m_bUseTestingMode && !HasEnoughPlayersForTesting())
 			return;
 
-		if (!m_aConditions || m_aConditions.Count() == 0)
-			return;
-
-		for (int i = 0; i < m_aConditions.Count(); i++)
-		{
-			GUB_ZoneControlBetweenFactionsCondition cond = m_aConditions[i];
-			if (!cond)
-				return;
-
-			int have = GetCountForFaction(cond.m_sFactionKey);
-			int otherHave = GetCountForFaction(cond.m_sOtherFactionKey);
-			bool ok = cond.Evaluate(have, otherHave);
-			if (!ok)
-				return;
-		}
-
-		Complete();
-	}
-
-	protected int GetCountForFaction(FactionKey key)
-	{
-		string skey = key;
-		if (skey == "")
-			return 0;
-
-		int v = m_mFactionCounts.Get(skey);
-		return v;
+		if (m_Timer.Check(m_fCheckPeriod))
+			Complete();
 	}
 
 	// --- Завершение/уведомления/стейт ---
