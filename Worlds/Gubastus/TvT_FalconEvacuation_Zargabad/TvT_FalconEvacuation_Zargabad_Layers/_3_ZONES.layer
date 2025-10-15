@@ -1,3 +1,52 @@
+PolylineShapeEntity US_CONTROL_ZONE : "{7019844BAD5C4DD8}Prefabs/PolyZone/PolyZone_Border.et" {
+ components {
+  PS_PolyZone "{60E90266F25533F6}" {
+   m_mPolygonTexture "{928B4092981F27CB}UI/layouts/Textures/Zone.edds"
+   m_cPolygonColor 1 1 1 0
+   m_mPolygonTextureBorder "{CA01D453D39FB430}UI/layouts/Textures/ZoneBorder.edds"
+   m_cPolygonBorderColor 0 0.125 0.502 1
+   m_bReversed 0
+   m_aVisibleForFactions {
+    "RHS_USAF" "Ses_TKR" ""
+   }
+  }
+ }
+ coords 5037.706 31.989 2931.488
+ Points {
+  ShapePoint "{60E90266E922A02A}" {
+   Position 580.102 0 384.343
+  }
+  ShapePoint "{669EFA3D617985A0}" {
+   Position -2620.808 0 295.666
+  }
+  ShapePoint "{669EFA3D63E2354E}" {
+   Position -3272.853 0 -884.832
+  }
+  ShapePoint "{669EFA3D6CE67774}" {
+   Position -2623.705 0 -1895.788
+  }
+  ShapePoint "{669EFA3D6D8BC897}" {
+   Position -464.035 0 -2283.349
+  }
+  ShapePoint "{669EFA3D682A7CB8}" {
+   Position 859.373 0 -2038.712
+  }
+  ShapePoint "{669EFA3D693AB88C}" {
+   Position 1107.06 0 -979.641
+  }
+ }
+ {
+  PS_PolyZoneTrigger {
+   ID "60FD050E1E83544C"
+   TriggerShapeType Polyline
+   "Polyline Height" 500
+   m_polyZoneEffect PS_PolyZoneEffectRestricted "{60FD050E0DC2A2AB}" {
+   }
+   m_bReversed 0
+   m_sFactionKey "Ses_TKR"
+  }
+ }
+}
 PolylineShapeEntity US_ZONE : "{BD11B8FAA469D169}Prefabs/PolyZone/PolyZone.et" {
  components {
   PS_PolyZone "{60E90266F25533F6}" {
