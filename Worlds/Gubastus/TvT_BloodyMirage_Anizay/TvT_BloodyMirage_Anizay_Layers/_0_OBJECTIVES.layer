@@ -1,0 +1,21 @@
+$grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
+ AFRF_CAPTURE {
+  m_sTitle "Аэродром захвачен"
+  m_sFactionKey "RHS_AFRF"
+ }
+ USAF_CAPTURE {
+  m_sTitle "Аэродром удержан"
+  m_iScore 20
+  m_sFactionKey "RHS_USAF"
+ }
+ AFRF_DESTROY {
+  coords 8548.688 113.641 6932.047
+  m_sTitle "Аэродром уничтожен"
+  m_sFactionKey "RHS_AFRF"
+ }
+ USAF_DESTROY {
+  m_sTitle "Аэродром не уничтожен"
+  m_iScore 80
+  m_sFactionKey "RHS_USAF"
+ }
+}

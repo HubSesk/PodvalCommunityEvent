@@ -1,0 +1,101 @@
+GenericEntity : "{592E8C59C778A189}Prefabs/System/GUB_ZoneControlBetweenFactionsPrefab.et" {
+ components {
+  GUB_ZoneControlBetweenFactionsComponent "{66931217B7943C52}" {
+   m_aControlLogics {
+    GUB_ZoneControlBetweenFactionsLogic "{66A165089580577D}" {
+     m_sZoneEntityName "TRIGGER_ZONE"
+     m_sZonePreviewName "Зона триггера"
+     m_bAdvanceGameStage 1
+     m_sSuccessObjectiveNames {
+      "AFRF_CAPTURE"
+     }
+     m_sFailedObjectiveNames {
+      "USAF_CAPTURE" "USAF_DESTROY"
+     }
+     m_sMessage "ВСРФ захватили аэродром!"
+     m_sPreviewMessageToDescription "Условия победы ВСРФ"
+     m_fTimeToComplete 300
+     m_aConditions {
+      GUB_ZoneControlBetweenFactionsCondition "{66A16508B1FADEF2}" {
+       m_sFirstFactionKey "RHS_AFRF"
+       m_sSecondFactionKey "RHS_USAF"
+       m_fComparisonMultiplier 2
+       m_iOperator GREATER
+      }
+     }
+    }
+   }
+  }
+ }
+ coords 8277.712 111.496 6995.78
+}
+GenericEntity : "{6A3CDCFB475BF1B2}Prefabs/System/DRG_CriticalLossPrefab.et" {
+ components {
+  DRG_CriticalLossComponent "{65213D368F1BD792}" {
+   m_aLossLogics {
+    LossLogic "{66A1650DCDBF3A9E}" {
+     m_aLosses {
+      FactionLoss "{66A1650DDE78B829}" {
+       m_sFactionKey "RHS_AFRF"
+      }
+     }
+     m_sObjectiveNames {
+      "USAF_CAPTURE"
+     }
+     m_sFailedObjectiveNames {
+      "AFRF_CAPTURE"
+     }
+     m_bAdvanceGameStage 1
+     m_bUseMessage 1
+     m_bEventMessage "ВСРФ понесли тяжелые потери."
+    }
+    LossLogic "{66A1650DCD07FADA}" {
+     m_aLosses {
+      FactionLoss "{66A1650DD4F02EE8}" {
+       m_iCriticalLossCount 2
+       m_sFactionKey "RHS_USAF"
+      }
+     }
+     m_sObjectiveNames {
+      "AFRF_CAPTURE"
+     }
+     m_sFailedObjectiveNames {
+      "USAF_CAPTURE"
+     }
+     m_bAdvanceGameStage 1
+     m_bUseMessage 1
+     m_bEventMessage "#drg_ModuleCriticalLoss_ConditionMet_AttackWin"
+    }
+   }
+  }
+ }
+ coords 8258.745 112.134 7020.017
+}
+GenericEntity : "{7A333AFB11EA847A}Prefabs/System/DRG_VehicleDestroyPrefab.et" {
+ components {
+  DRG_VehicleDestroyComponent "{65733BD6110AE8FC}" {
+   m_aVehicleLossLogics {
+    VehicleLossLogic "{66A1650B2CDFC57E}" {
+     m_sSuccessObjectiveNames {
+      "AFRF_DESTROY"
+     }
+     m_sFailedObjectiveNames {
+      "USAF_DESTROY"
+     }
+     m_sVehicleEntityNames {
+      "Ural4320_ZU1" "Ural4320_ZU2" "Ural4320_ZU3" "Ural4320_ZU4"
+     }
+    }
+   }
+  }
+ }
+ coords 0 0 6810.063
+}
+GenericEntity : "{E6FC6DD69FA3479F}Prefabs/System/DRG_MissionEndTimerPrefab.et" {
+ components {
+  DRG_MissionEndTimerComponent "{651B0839B21B3BBF}" {
+   m_iMissionTime 2700
+  }
+ }
+ coords 8263.554 111.599 7006.376
+}
