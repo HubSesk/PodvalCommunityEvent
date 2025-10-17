@@ -1,5 +1,37 @@
-GenericEntity : "{2F2BBFDA3A2C73D4}Prefabs/Props/Civilian/RadioSmall_01_black.et" {
- coords 2907.369 81.141 4764.841
+RadioBroadcastManager : "{66B93BC296E2F977}Prefabs/Radio/RadioBroadcastManager.et" {
+ coords 2908 81.141 4764.909
+ BroadcastAcp "{9CB7C2F1AF254D64}Worlds/Kara/PvP_Bandits_Hamland/Kara_RadioBroadcast.acp"
+ RegenerateTimes 0
+ StartMusic 1
+ MusicTimes {
+  4565 4063
+ }
+ DjTimes {
+  4063
+ }
+ {
+  GenericEntity : "{2F2BBFDA3A2C73D4}Prefabs/Props/Civilian/RadioSmall_01_black.et" {
+   components {
+    RadioBroadcastSoundComponent "{54B2D26E5EF7AA23}" {
+     Filenames {
+      "{9CB7C2F1AF254D64}Worlds/Kara/PvP_Bandits_Hamland/Kara_RadioBroadcast.acp"
+     }
+    }
+   }
+   coords -0.631 0 -0.068
+  }
+  GenericEntity : "{F76340CCD79DCC5A}Prefabs/Props/Civilian/RadioSmall_01_red.et" {
+   components {
+    RadioBroadcastSoundComponent "{54B2D26E5EF7AA23}" {
+     Filenames {
+      "{9CB7C2F1AF254D64}Worlds/Kara/PvP_Bandits_Hamland/Kara_RadioBroadcast.acp"
+     }
+    }
+   }
+   coords 522.583 105.065 -1091.732
+   angleY -145.187
+  }
+ }
 }
 $grp GenericEntity : "{BEA0CE4F25C2505B}Prefabs/Items/Equipment/RangeCard/Money.et" {
  {
@@ -45,8 +77,4 @@ $grp GenericEntity : "{D4331886ACEE151D}Prefabs/Items/MoneySafe.et" {
 GenericEntity : "{E56F1B739B9792C4}Prefabs/Props/Civilian/Ashtray_01_Full_green.et" {
  coords 3430.896 186.205 3673.423
  angleY 0
-}
-GenericEntity : "{F76340CCD79DCC5A}Prefabs/Props/Civilian/RadioSmall_01_red.et" {
- coords 3430.583 186.206 3673.177
- angleY -145.187
 }
