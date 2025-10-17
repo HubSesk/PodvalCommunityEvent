@@ -55,7 +55,7 @@ GenericEntity : "{6A3CDCFB475BF1B2}Prefabs/System/DRG_CriticalLossPrefab.et" {
     LossLogic "{66933A73835D9BDC}" {
      m_aLosses {
       FactionLoss "{66933A738D0BC319}" {
-       m_sFactionKey "RHS_USAF"
+       m_sFactionKey "US"
       }
      }
      m_sObjectiveNames {
@@ -66,6 +66,7 @@ GenericEntity : "{6A3CDCFB475BF1B2}Prefabs/System/DRG_CriticalLossPrefab.et" {
      }
      m_bAdvanceGameStage 1
      m_bUseMessage 1
+     m_bEventMessage "Победа Вьетконга! США понесли критические потери."
     }
     LossLogic "{66933A73834C4689}" {
      m_aLosses {
@@ -81,6 +82,7 @@ GenericEntity : "{6A3CDCFB475BF1B2}Prefabs/System/DRG_CriticalLossPrefab.et" {
      }
      m_bAdvanceGameStage 1
      m_bUseMessage 1
+     m_bEventMessage "Победа США! Вьетконг понес критические потери."
     }
    }
   }
