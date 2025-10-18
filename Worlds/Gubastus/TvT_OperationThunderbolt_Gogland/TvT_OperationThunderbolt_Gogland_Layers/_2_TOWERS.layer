@@ -1,0 +1,1543 @@
+$grp StaticModelEntity {
+ {
+  components {
+   SignalsManagerComponent "{66A36839FAEE5C33}" {
+   }
+   SCR_BuildingSoundComponent "{66A36839FAEE5C14}" {
+    Filenames {
+     "{3982325A574A4CB4}Sounds/Structures/Infrastructure/Power/Powerlines/Structures_PowerLine_HV_02.acp"
+    }
+    IncludeInactive 1
+    m_vMins -2 8 -2
+    m_vMaxs 2 16 2
+   }
+   LadderComponent "{66A36839FAEE5C63}" {
+    BottomFrontPositionInfo PointInfo "{66A36839FAEE5C7A}" {
+     Offset 0.1484 0.3034 0.05
+     Angles 0 90 0
+    }
+    TopFrontPositionInfo PointInfo "{66A36839FAEE5C77}" {
+     Offset 0.1484 37.1304 0.05
+    }
+    MiddleLeftsPositionInfo {
+     LadderExitPointInfo "{52AAD828B020DABF}" {
+      Offset 0.13 3.9716 0.05
+      FinalTransform PointInfo "{66A36839FAEE5C60}" {
+       Offset 0.0021 3.4357 1.0953
+      }
+     }
+    }
+   }
+   MeshObject "{66A36839FAEE5C57}" {
+    Object "{CCF186027BFD3FCE}Assets/Structures/Infrastructure/Towers/TransmitterTower_01/TransmitterTower_01_medium.xob"
+   }
+   NavmeshCustomLinkComponent "{66A36839FAEE5FAF}" {
+    LinkType NavmeshLadderLink "{66A36839FAEE5FAE}" {
+     "Navmesh setting presets" {
+      NavmeshCustomLinkSetting "{66A36839FAEE5FAD}" {
+       ProjectPresets {
+        NavmeshCustomLinkPreset "{66A36839FAEE5FB3}" {
+         ProjectName "Soldiers"
+         AreaType "Ladder"
+        }
+       }
+       BeginPoint -0.461 0 0
+       EndPoint 0.586 37.132 0
+      }
+     }
+    }
+   }
+   RigidBody "{66A36839FAEE5FA5}" {
+    ModelGeometry 1
+    Static 1
+   }
+   SCR_DestructibleBuildingComponent "{66A36839FAEE5E6B}" {
+    Enabled 1
+    "Additional hit zones" {
+     SCR_HitZone Default {
+      HZDefault 1
+      MaxHealth 10000
+      DamageReduction 50
+      DamageThreshold 100
+      "Collision multiplier" 2
+      "Melee multiplier" 0
+      "Kinetic multiplier" 0.5
+      "Fragmentation multiplier" 0.2
+      "Explosive multiplier" 6
+     }
+    }
+    m_aEffects {
+     SCR_TimedParticle Particle_Metal_01_Start {
+      m_fSpawnTime 0
+      m_bSnapToTerrain 1
+      m_Particle SCR_ParticleSpawnable "{66A36839FAEE5F17}" {
+       m_Particle "{6B3894DFD8E0E7E7}Particles/Enviroment/Building_Explosion_Debris_Metal.ptc"
+       m_bAtCenter 0
+       m_bDirectional 0
+      }
+      m_fParticlesMultiplier 1.5
+     }
+     SCR_TimedParticle Particle_Dust_01_Start {
+      m_bSnapToTerrain 1
+      m_Particle SCR_ParticleSpawnable "{66A36839FAEE5F7F}" {
+       m_Particle "{B0D882F853DE2783}Particles/Enviroment/Building_Explosion_Smoke.ptc"
+       m_bAtCenter 0
+       m_bDirectional 0
+      }
+      m_fParticlesMultiplier 0.1
+     }
+     SCR_TimedSound Sound_Metal_01_Start {
+      m_fSpawnTime 0.001
+      m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66A36839FAEE5F56}" {
+       m_sSoundProject "{65FD4046096C49D7}Sounds/Destruction/Buildings/Destruction_Buildings_Metal_Small.acp"
+       m_sSoundEventName "SOUND_BUILDING_DESTRUCTION"
+       m_eFlags 25
+      }
+     }
+     SCR_TimedSound Sound_Metal_01_End {
+      m_fSpawnTime 0.75
+      m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66A36839FAEE5EBF}" {
+       m_sSoundProject "{65FD4046096C49D7}Sounds/Destruction/Buildings/Destruction_Buildings_Metal_Small.acp"
+       m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_END"
+       m_eFlags 25
+      }
+     }
+     SCR_TimedPrefab Prefab_Ruins_01 {
+      m_fSpawnTime 0.1
+      m_sRuinsPrefab "{61191DE22A017E32}Prefabs/Structures/Military/Bunkers/AmmoDump_E_01/tower_ruins.et"
+     }
+     SCR_TimedSound Sound_Metal_01_PreStart {
+      m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66A36839FAEE5E8A}" {
+       m_sSoundProject "{65FD4046096C49D7}Sounds/Destruction/Buildings/Destruction_Buildings_Metal_Small.acp"
+       m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_PRESTART"
+       m_eFlags 25
+      }
+     }
+    }
+    m_fDelay 1
+    m_fSinkingSpeed 0.8
+    m_fSinkingSpeedGradualMultiplier 350
+    m_fRotationSpeed 1
+    m_fRotationTime 10
+    m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66A36839FAEE5EF7}" {
+     m_sSoundProject "{65FD4046096C49D7}Sounds/Destruction/Buildings/Destruction_Buildings_Metal_Small.acp"
+     m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_BOUNCE"
+     m_eFlags 25
+    }
+    m_CameraShakeCurve {
+     0 1 0.08 0.2 0.2 0.03 1 0.01
+    }
+    m_eAllowedRotations ROTATION_X
+   }
+   SCR_MapDescriptorComponent "{66A36839FAEE5E62}" {
+    MainType Transmitter
+   }
+   ScriptedRadioComponent "{66A36839FAEE5E4C}" {
+    Transceivers {
+     RelayTransceiver "{66A36839FAEE5E53}" {
+      "Transmitting Range" 4500
+     }
+    }
+   }
+   ActionsManagerComponent "{66A36839FAEE4134}" {
+    ActionContexts {
+     UserActionContext "{66A36839FAEE4191}" {
+      ContextName "top"
+      Position PointInfo "{66A36839FAEE41B3}" {
+       Offset 0.1358 37.2831 0.0583
+      }
+      Radius 1.25
+      VisibilityAngle 85
+     }
+     UserActionContext "{66A36839FAEE41F7}" {
+      ContextName "bottom"
+      Position PointInfo "{66A36839FAEE4184}" {
+       Offset 0.1041 1.4028 0.0505
+      }
+      Radius 1.25
+      Omnidirectional 0
+      VisibilityAngle 85
+     }
+     UserActionContext "{66A36839FAEE41EB}" {
+      ContextName "middle"
+      Position PointInfo "{66A36839FAEE41EA}" {
+       Offset 0.0566 4.9314 0.1001
+      }
+      Radius 1
+      Omnidirectional 0
+      VisibilityAngle 85
+     }
+    }
+    additionalActions {
+     SCR_LadderUserAction "{66A36839FAEE413D}" {
+      ParentContextList {
+       "top" "bottom" "middle"
+      }
+      UIInfo UIInfo "{66A36839FAEE41D3}" {
+       Name "#AR-UserAction_ClimbLadder"
+      }
+      VisibilityRange 0.001
+     }
+    }
+   }
+   RplComponent "{66A36839FAEE4130}" {
+   }
+  }
+  coords 6858.705 138.546 2529.822
+  {
+   GenericEntity REPLAY_5 {
+    components {
+     BaseRadioComponent "{66A368398CC831F0}" {
+      "Encryption key" "coldBorscht"
+      "Turned on" 1
+      Transceivers {
+       BaseTransceiver "{66A368398CC83209}" {
+        ChannelFrequency 42000
+        "Transmitting Range" 10000
+        "Frequency resolution" 100
+       }
+      }
+     }
+     MeshObject "{66A368398CC831D6}" {
+      Object "{CCF186027BFD3FCE}Assets/Structures/Infrastructure/Towers/TransmitterTower_01/TransmitterTower_01_medium.xob"
+     }
+     RigidBody "{66A368398CC831DD}" {
+      Layers 65538
+      LayerPreset "BuildingFireView"
+      ModelGeometry 1
+      Static 1
+     }
+     RplComponent "{66A368398CC831DE}" {
+     }
+    }
+    coords -1.804 25.056 2.602
+    scale 0.005
+   }
+   GenericEntity : "{CFE9778C5F19F2B2}Prefabs/Structures/BuildingParts/Eletrical/HazardBeacon_01/HazardBeacon_Holder_01.et" {
+    coords -2.156 38.154 1.322
+    angleY -90
+   }
+  }
+ }
+ {
+  components {
+   SignalsManagerComponent "{66A36839FAEE3013}" {
+   }
+   SCR_BuildingSoundComponent "{66A36839FAEE3006}" {
+    Filenames {
+     "{3982325A574A4CB4}Sounds/Structures/Infrastructure/Power/Powerlines/Structures_PowerLine_HV_02.acp"
+    }
+    IncludeInactive 1
+    m_vMins -2 8 -2
+    m_vMaxs 2 16 2
+   }
+   LadderComponent "{66A36839FAEE3067}" {
+    BottomFrontPositionInfo PointInfo "{66A36839FAEE3076}" {
+     Offset 0.1484 0.3034 0.05
+     Angles 0 90 0
+    }
+    TopFrontPositionInfo PointInfo "{66A36839FAEE3072}" {
+     Offset 0.1484 37.1304 0.05
+    }
+    MiddleLeftsPositionInfo {
+     LadderExitPointInfo "{52AAD828B020DABF}" {
+      Offset 0.13 3.9716 0.05
+      FinalTransform PointInfo "{66A36839FAEE3065}" {
+       Offset 0.0021 3.4357 1.0953
+      }
+     }
+    }
+   }
+   MeshObject "{66A36839FAEE305C}" {
+    Object "{CCF186027BFD3FCE}Assets/Structures/Infrastructure/Towers/TransmitterTower_01/TransmitterTower_01_medium.xob"
+   }
+   NavmeshCustomLinkComponent "{66A36839FAEEB1BB}" {
+    LinkType NavmeshLadderLink "{66A36839FAEE3049}" {
+     "Navmesh setting presets" {
+      NavmeshCustomLinkSetting "{66A36839FAEE3048}" {
+       ProjectPresets {
+        NavmeshCustomLinkPreset "{66A36839FAEE304F}" {
+         ProjectName "Soldiers"
+         AreaType "Ladder"
+        }
+       }
+       BeginPoint -0.461 0 0
+       EndPoint 0.586 37.132 0
+      }
+     }
+    }
+   }
+   RigidBody "{66A36839FAEEB1B4}" {
+    ModelGeometry 1
+    Static 1
+   }
+   SCR_DestructibleBuildingComponent "{66A36839FAEEB349}" {
+    Enabled 1
+    "Additional hit zones" {
+     SCR_HitZone Default {
+      HZDefault 1
+      MaxHealth 10000
+      DamageReduction 50
+      DamageThreshold 100
+      "Collision multiplier" 2
+      "Melee multiplier" 0
+      "Kinetic multiplier" 0.5
+      "Fragmentation multiplier" 0.2
+      "Explosive multiplier" 6
+     }
+    }
+    m_aEffects {
+     SCR_TimedParticle Particle_Metal_01_Start {
+      m_fSpawnTime 0
+      m_bSnapToTerrain 1
+      m_Particle SCR_ParticleSpawnable "{66A36839FAEEB20C}" {
+       m_Particle "{6B3894DFD8E0E7E7}Particles/Enviroment/Building_Explosion_Debris_Metal.ptc"
+       m_bAtCenter 0
+       m_bDirectional 0
+      }
+      m_fParticlesMultiplier 1.5
+     }
+     SCR_TimedParticle Particle_Dust_01_Start {
+      m_bSnapToTerrain 1
+      m_Particle SCR_ParticleSpawnable "{66A36839FAEEB21E}" {
+       m_Particle "{B0D882F853DE2783}Particles/Enviroment/Building_Explosion_Smoke.ptc"
+       m_bAtCenter 0
+       m_bDirectional 0
+      }
+      m_fParticlesMultiplier 0.1
+     }
+     SCR_TimedSound Sound_Metal_01_Start {
+      m_fSpawnTime 0.001
+      m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66A36839FAEEB229}" {
+       m_sSoundProject "{65FD4046096C49D7}Sounds/Destruction/Buildings/Destruction_Buildings_Metal_Small.acp"
+       m_sSoundEventName "SOUND_BUILDING_DESTRUCTION"
+       m_eFlags 25
+      }
+     }
+     SCR_TimedSound Sound_Metal_01_End {
+      m_fSpawnTime 0.75
+      m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66A36839FAEEB234}" {
+       m_sSoundProject "{65FD4046096C49D7}Sounds/Destruction/Buildings/Destruction_Buildings_Metal_Small.acp"
+       m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_END"
+       m_eFlags 25
+      }
+     }
+     SCR_TimedPrefab Prefab_Ruins_01 {
+      m_fSpawnTime 0.1
+      m_sRuinsPrefab "{61191DE22A017E32}Prefabs/Structures/Military/Bunkers/AmmoDump_E_01/tower_ruins.et"
+     }
+     SCR_TimedSound Sound_Metal_01_PreStart {
+      m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66A36839FAEEB2D4}" {
+       m_sSoundProject "{65FD4046096C49D7}Sounds/Destruction/Buildings/Destruction_Buildings_Metal_Small.acp"
+       m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_PRESTART"
+       m_eFlags 25
+      }
+     }
+    }
+    m_fDelay 1
+    m_fSinkingSpeed 0.8
+    m_fSinkingSpeedGradualMultiplier 350
+    m_fRotationSpeed 1
+    m_fRotationTime 10
+    m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66A36839FAEEB2E5}" {
+     m_sSoundProject "{65FD4046096C49D7}Sounds/Destruction/Buildings/Destruction_Buildings_Metal_Small.acp"
+     m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_BOUNCE"
+     m_eFlags 25
+    }
+    m_CameraShakeCurve {
+     0 1 0.08 0.2 0.2 0.03 1 0.01
+    }
+    m_eAllowedRotations ROTATION_X
+   }
+   SCR_MapDescriptorComponent "{66A36839FAEEB344}" {
+    MainType Transmitter
+   }
+   ScriptedRadioComponent "{66A36839FAEEB358}" {
+    Transceivers {
+     RelayTransceiver "{66A36839FAEEB35B}" {
+      "Transmitting Range" 4500
+     }
+    }
+   }
+   ActionsManagerComponent "{66A36839FAED177E}" {
+    ActionContexts {
+     UserActionContext "{66A36839FAEEB374}" {
+      ContextName "top"
+      Position PointInfo "{66A36839FAEEB36A}" {
+       Offset 0.1358 37.2831 0.0583
+      }
+      Radius 1.25
+      VisibilityAngle 85
+     }
+     UserActionContext "{66A36839FAEEB31D}" {
+      ContextName "bottom"
+      Position PointInfo "{66A36839FAEEB30F}" {
+       Offset 0.1041 1.4028 0.0505
+      }
+      Radius 1.25
+      Omnidirectional 0
+      VisibilityAngle 85
+     }
+     UserActionContext "{66A36839FAED175C}" {
+      ContextName "middle"
+      Position PointInfo "{66A36839FAEEB314}" {
+       Offset 0.0566 4.9314 0.1001
+      }
+      Radius 1
+      Omnidirectional 0
+      VisibilityAngle 85
+     }
+    }
+    additionalActions {
+     SCR_LadderUserAction "{66A36839FAED1774}" {
+      ParentContextList {
+       "top" "bottom" "middle"
+      }
+      UIInfo UIInfo "{66A36839FAED1762}" {
+       Name "#AR-UserAction_ClimbLadder"
+      }
+      VisibilityRange 0.001
+     }
+    }
+   }
+   RplComponent "{66A36839FAED177C}" {
+   }
+  }
+  coords 6800.844 97.083 3950.345
+  angleY -24.913
+  {
+   GenericEntity REPLAY_2 {
+    components {
+     BaseRadioComponent "{66A368398CC82C34}" {
+      "Encryption key" "coldBorscht"
+      "Turned on" 1
+      Transceivers {
+       BaseTransceiver "{66A368398CC82C4C}" {
+        ChannelFrequency 42000
+        "Transmitting Range" 10000
+        "Frequency resolution" 100
+       }
+      }
+     }
+     MeshObject "{66A368398CC82C1D}" {
+      Object "{CCF186027BFD3FCE}Assets/Structures/Infrastructure/Towers/TransmitterTower_01/TransmitterTower_01_medium.xob"
+     }
+     RigidBody "{66A368398CC82C04}" {
+      Layers 65538
+      LayerPreset "BuildingFireView"
+      ModelGeometry 1
+      Static 1
+     }
+     RplComponent "{66A368398CC82C05}" {
+     }
+    }
+    coords -1.804 25.056 2.602
+    scale 0.005
+   }
+   GenericEntity : "{CFE9778C5F19F2B2}Prefabs/Structures/BuildingParts/Eletrical/HazardBeacon_01/HazardBeacon_Holder_01.et" {
+    coords -2.156 38.154 1.322
+    angleY -90
+   }
+  }
+ }
+ {
+  components {
+   SignalsManagerComponent "{66A36839FAED1A20}" {
+   }
+   SCR_BuildingSoundComponent "{66A36839FAED1A36}" {
+    Filenames {
+     "{3982325A574A4CB4}Sounds/Structures/Infrastructure/Power/Powerlines/Structures_PowerLine_HV_02.acp"
+    }
+    IncludeInactive 1
+    m_vMins -2 8 -2
+    m_vMaxs 2 16 2
+   }
+   LadderComponent "{66A36839FAED1A4C}" {
+    BottomFrontPositionInfo PointInfo "{66A36839FAED1A3D}" {
+     Offset 0.1484 0.3034 0.05
+     Angles 0 90 0
+    }
+    TopFrontPositionInfo PointInfo "{66A36839FAED1A46}" {
+     Offset 0.1484 37.1304 0.05
+    }
+    MiddleLeftsPositionInfo {
+     LadderExitPointInfo "{52AAD828B020DABF}" {
+      Offset 0.13 3.9716 0.05
+      FinalTransform PointInfo "{66A36839FAED1A4F}" {
+       Offset 0.0021 3.4357 1.0953
+      }
+     }
+    }
+   }
+   MeshObject "{66A36839FAED1A48}" {
+    Object "{CCF186027BFD3FCE}Assets/Structures/Infrastructure/Towers/TransmitterTower_01/TransmitterTower_01_medium.xob"
+   }
+   NavmeshCustomLinkComponent "{66A36839FAEDEB7E}" {
+    LinkType NavmeshLadderLink "{66A36839FAEDEB41}" {
+     "Navmesh setting presets" {
+      NavmeshCustomLinkSetting "{66A36839FAEDEB40}" {
+       ProjectPresets {
+        NavmeshCustomLinkPreset "{66A36839FAED1A58}" {
+         ProjectName "Soldiers"
+         AreaType "Ladder"
+        }
+       }
+       BeginPoint -0.461 0 0
+       EndPoint 0.586 37.132 0
+      }
+     }
+    }
+   }
+   RigidBody "{66A36839FAEDEB7D}" {
+    ModelGeometry 1
+    Static 1
+   }
+   SCR_DestructibleBuildingComponent "{66A36839FAEDEA45}" {
+    Enabled 1
+    "Additional hit zones" {
+     SCR_HitZone Default {
+      HZDefault 1
+      MaxHealth 10000
+      DamageReduction 50
+      DamageThreshold 100
+      "Collision multiplier" 2
+      "Melee multiplier" 0
+      "Kinetic multiplier" 0.5
+      "Fragmentation multiplier" 0.2
+      "Explosive multiplier" 6
+     }
+    }
+    m_aEffects {
+     SCR_TimedParticle Particle_Metal_01_Start {
+      m_fSpawnTime 0
+      m_bSnapToTerrain 1
+      m_Particle SCR_ParticleSpawnable "{66A36839FAEDEBB9}" {
+       m_Particle "{6B3894DFD8E0E7E7}Particles/Enviroment/Building_Explosion_Debris_Metal.ptc"
+       m_bAtCenter 0
+       m_bDirectional 0
+      }
+      m_fParticlesMultiplier 1.5
+     }
+     SCR_TimedParticle Particle_Dust_01_Start {
+      m_bSnapToTerrain 1
+      m_Particle SCR_ParticleSpawnable "{66A36839FAEDEBAC}" {
+       m_Particle "{B0D882F853DE2783}Particles/Enviroment/Building_Explosion_Smoke.ptc"
+       m_bAtCenter 0
+       m_bDirectional 0
+      }
+      m_fParticlesMultiplier 0.1
+     }
+     SCR_TimedSound Sound_Metal_01_Start {
+      m_fSpawnTime 0.001
+      m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66A36839FAEDEBDB}" {
+       m_sSoundProject "{65FD4046096C49D7}Sounds/Destruction/Buildings/Destruction_Buildings_Metal_Small.acp"
+       m_sSoundEventName "SOUND_BUILDING_DESTRUCTION"
+       m_eFlags 25
+      }
+     }
+     SCR_TimedSound Sound_Metal_01_End {
+      m_fSpawnTime 0.75
+      m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66A36839FAEDEBC6}" {
+       m_sSoundProject "{65FD4046096C49D7}Sounds/Destruction/Buildings/Destruction_Buildings_Metal_Small.acp"
+       m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_END"
+       m_eFlags 25
+      }
+     }
+     SCR_TimedPrefab Prefab_Ruins_01 {
+      m_fSpawnTime 0.1
+      m_sRuinsPrefab "{61191DE22A017E32}Prefabs/Structures/Military/Bunkers/AmmoDump_E_01/tower_ruins.et"
+     }
+     SCR_TimedSound Sound_Metal_01_PreStart {
+      m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66A36839FAEDEBE8}" {
+       m_sSoundProject "{65FD4046096C49D7}Sounds/Destruction/Buildings/Destruction_Buildings_Metal_Small.acp"
+       m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_PRESTART"
+       m_eFlags 25
+      }
+     }
+    }
+    m_fDelay 1
+    m_fSinkingSpeed 0.8
+    m_fSinkingSpeedGradualMultiplier 350
+    m_fRotationSpeed 1
+    m_fRotationTime 10
+    m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66A36839FAEDEA18}" {
+     m_sSoundProject "{65FD4046096C49D7}Sounds/Destruction/Buildings/Destruction_Buildings_Metal_Small.acp"
+     m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_BOUNCE"
+     m_eFlags 25
+    }
+    m_CameraShakeCurve {
+     0 1 0.08 0.2 0.2 0.03 1 0.01
+    }
+    m_eAllowedRotations ROTATION_X
+   }
+   SCR_MapDescriptorComponent "{66A36839FAEDEA40}" {
+    MainType Transmitter
+   }
+   ScriptedRadioComponent "{66A36839FAEDEA7B}" {
+    Transceivers {
+     RelayTransceiver "{66A36839FAEDEA7A}" {
+      "Transmitting Range" 4500
+     }
+    }
+   }
+   ActionsManagerComponent "{66A36839FAEDEADD}" {
+    ActionContexts {
+     UserActionContext "{66A36839FAEDEA98}" {
+      ContextName "top"
+      Position PointInfo "{66A36839FAEDEA6F}" {
+       Offset 0.1358 37.2831 0.0583
+      }
+      Radius 1.25
+      VisibilityAngle 85
+     }
+     UserActionContext "{66A36839FAEDEA80}" {
+      ContextName "bottom"
+      Position PointInfo "{66A36839FAEDEA92}" {
+       Offset 0.1041 1.4028 0.0505
+      }
+      Radius 1.25
+      Omnidirectional 0
+      VisibilityAngle 85
+     }
+     UserActionContext "{66A36839FAEDEAB9}" {
+      ContextName "middle"
+      Position PointInfo "{66A36839FAEDEAB8}" {
+       Offset 0.0566 4.9314 0.1001
+      }
+      Radius 1
+      Omnidirectional 0
+      VisibilityAngle 85
+     }
+    }
+    additionalActions {
+     SCR_LadderUserAction "{66A36839FAEDEAA3}" {
+      ParentContextList {
+       "top" "bottom" "middle"
+      }
+      UIInfo UIInfo "{66A36839FAEDEAB1}" {
+       Name "#AR-UserAction_ClimbLadder"
+      }
+      VisibilityRange 0.001
+     }
+    }
+   }
+   RplComponent "{66A36839FAEDEADB}" {
+   }
+  }
+  coords 6330.036 88.278 5912.013
+  {
+   GenericEntity REPLAY_3 {
+    components {
+     BaseRadioComponent "{66A368398CC82E28}" {
+      "Encryption key" "coldBorscht"
+      "Turned on" 1
+      Transceivers {
+       BaseTransceiver "{66A368398CC82E21}" {
+        ChannelFrequency 42000
+        "Transmitting Range" 10000
+        "Frequency resolution" 100
+       }
+      }
+     }
+     MeshObject "{66A368398CC82E0E}" {
+      Object "{CCF186027BFD3FCE}Assets/Structures/Infrastructure/Towers/TransmitterTower_01/TransmitterTower_01_medium.xob"
+     }
+     RigidBody "{66A368398CC82DF3}" {
+      Layers 65538
+      LayerPreset "BuildingFireView"
+      ModelGeometry 1
+      Static 1
+     }
+     RplComponent "{66A368398CC82DF5}" {
+     }
+    }
+    coords -1.804 25.056 2.602
+    scale 0.005
+   }
+   GenericEntity : "{CFE9778C5F19F2B2}Prefabs/Structures/BuildingParts/Eletrical/HazardBeacon_01/HazardBeacon_Holder_01.et" {
+    coords -2.156 38.154 1.322
+    angleY -90
+   }
+  }
+ }
+ {
+  components {
+   SignalsManagerComponent "{66A36839FAEDFFD3}" {
+   }
+   SCR_BuildingSoundComponent "{66A36839FAEDFFCB}" {
+    Filenames {
+     "{3982325A574A4CB4}Sounds/Structures/Infrastructure/Power/Powerlines/Structures_PowerLine_HV_02.acp"
+    }
+    IncludeInactive 1
+    m_vMins -2 8 -2
+    m_vMaxs 2 16 2
+   }
+   LadderComponent "{66A36839FAEDFFF4}" {
+    BottomFrontPositionInfo PointInfo "{66A36839FAEDFFC1}" {
+     Offset 0.1484 0.3034 0.05
+     Angles 0 90 0
+    }
+    TopFrontPositionInfo PointInfo "{66A36839FAEDFFFF}" {
+     Offset 0.1484 37.1304 0.05
+    }
+    MiddleLeftsPositionInfo {
+     LadderExitPointInfo "{52AAD828B020DABF}" {
+      Offset 0.13 3.9716 0.05
+      FinalTransform PointInfo "{66A36839FAEDFFF7}" {
+       Offset 0.0021 3.4357 1.0953
+      }
+     }
+    }
+   }
+   MeshObject "{66A36839FAEDFFF3}" {
+    Object "{CCF186027BFD3FCE}Assets/Structures/Infrastructure/Towers/TransmitterTower_01/TransmitterTower_01_medium.xob"
+   }
+   NavmeshCustomLinkComponent "{66A36839FAEDFFE0}" {
+    LinkType NavmeshLadderLink "{66A36839FAEDFFE3}" {
+     "Navmesh setting presets" {
+      NavmeshCustomLinkSetting "{66A36839FAEDFFE2}" {
+       ProjectPresets {
+        NavmeshCustomLinkPreset "{66A36839FAEDFFE5}" {
+         ProjectName "Soldiers"
+         AreaType "Ladder"
+        }
+       }
+       BeginPoint -0.461 0 0
+       EndPoint 0.586 37.132 0
+      }
+     }
+    }
+   }
+   RigidBody "{66A36839FAEDFE1C}" {
+    ModelGeometry 1
+    Static 1
+   }
+   SCR_DestructibleBuildingComponent "{66A36839FAEDFEED}" {
+    Enabled 1
+    "Additional hit zones" {
+     SCR_HitZone Default {
+      HZDefault 1
+      MaxHealth 10000
+      DamageReduction 50
+      DamageThreshold 100
+      "Collision multiplier" 2
+      "Melee multiplier" 0
+      "Kinetic multiplier" 0.5
+      "Fragmentation multiplier" 0.2
+      "Explosive multiplier" 6
+     }
+    }
+    m_aEffects {
+     SCR_TimedParticle Particle_Metal_01_Start {
+      m_fSpawnTime 0
+      m_bSnapToTerrain 1
+      m_Particle SCR_ParticleSpawnable "{66A36839FAEDFE59}" {
+       m_Particle "{6B3894DFD8E0E7E7}Particles/Enviroment/Building_Explosion_Debris_Metal.ptc"
+       m_bAtCenter 0
+       m_bDirectional 0
+      }
+      m_fParticlesMultiplier 1.5
+     }
+     SCR_TimedParticle Particle_Dust_01_Start {
+      m_bSnapToTerrain 1
+      m_Particle SCR_ParticleSpawnable "{66A36839FAEDFE4D}" {
+       m_Particle "{B0D882F853DE2783}Particles/Enviroment/Building_Explosion_Smoke.ptc"
+       m_bAtCenter 0
+       m_bDirectional 0
+      }
+      m_fParticlesMultiplier 0.1
+     }
+     SCR_TimedSound Sound_Metal_01_Start {
+      m_fSpawnTime 0.001
+      m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66A36839FAEDFE7A}" {
+       m_sSoundProject "{65FD4046096C49D7}Sounds/Destruction/Buildings/Destruction_Buildings_Metal_Small.acp"
+       m_sSoundEventName "SOUND_BUILDING_DESTRUCTION"
+       m_eFlags 25
+      }
+     }
+     SCR_TimedSound Sound_Metal_01_End {
+      m_fSpawnTime 0.75
+      m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66A36839FAEDFE68}" {
+       m_sSoundProject "{65FD4046096C49D7}Sounds/Destruction/Buildings/Destruction_Buildings_Metal_Small.acp"
+       m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_END"
+       m_eFlags 25
+      }
+     }
+     SCR_TimedPrefab Prefab_Ruins_01 {
+      m_fSpawnTime 0.1
+      m_sRuinsPrefab "{61191DE22A017E32}Prefabs/Structures/Military/Bunkers/AmmoDump_E_01/tower_ruins.et"
+     }
+     SCR_TimedSound Sound_Metal_01_PreStart {
+      m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66A36839FAEDFE8D}" {
+       m_sSoundProject "{65FD4046096C49D7}Sounds/Destruction/Buildings/Destruction_Buildings_Metal_Small.acp"
+       m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_PRESTART"
+       m_eFlags 25
+      }
+     }
+    }
+    m_fDelay 1
+    m_fSinkingSpeed 0.8
+    m_fSinkingSpeedGradualMultiplier 350
+    m_fRotationSpeed 1
+    m_fRotationTime 10
+    m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66A36839FAEDFEBC}" {
+     m_sSoundProject "{65FD4046096C49D7}Sounds/Destruction/Buildings/Destruction_Buildings_Metal_Small.acp"
+     m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_BOUNCE"
+     m_eFlags 25
+    }
+    m_CameraShakeCurve {
+     0 1 0.08 0.2 0.2 0.03 1 0.01
+    }
+    m_eAllowedRotations ROTATION_X
+   }
+   SCR_MapDescriptorComponent "{66A36839FAEDFEE8}" {
+    MainType Transmitter
+   }
+   ScriptedRadioComponent "{66A36839FAED882D}" {
+    Transceivers {
+     RelayTransceiver "{66A36839FAEDFEE3}" {
+      "Transmitting Range" 4500
+     }
+    }
+   }
+   ActionsManagerComponent "{66A36839FAEC1FAB}" {
+    ActionContexts {
+     UserActionContext "{66A36839FAED8FCF}" {
+      ContextName "top"
+      Position PointInfo "{66A36839FAED8FDA}" {
+       Offset 0.1358 37.2831 0.0583
+      }
+      Radius 1.25
+      VisibilityAngle 85
+     }
+     UserActionContext "{66A36839FAED8FE6}" {
+      ContextName "bottom"
+      Position PointInfo "{66A36839FAED8FF4}" {
+       Offset 0.1041 1.4028 0.0505
+      }
+      Radius 1.25
+      Omnidirectional 0
+      VisibilityAngle 85
+     }
+     UserActionContext "{66A36839FAEC1FCB}" {
+      ContextName "middle"
+      Position PointInfo "{66A36839FAED8FEB}" {
+       Offset 0.0566 4.9314 0.1001
+      }
+      Radius 1
+      Omnidirectional 0
+      VisibilityAngle 85
+     }
+    }
+    additionalActions {
+     SCR_LadderUserAction "{66A36839FAEC1FA3}" {
+      ParentContextList {
+       "top" "bottom" "middle"
+      }
+      UIInfo UIInfo "{66A36839FAEC1FB4}" {
+       Name "#AR-UserAction_ClimbLadder"
+      }
+      VisibilityRange 0.001
+     }
+    }
+   }
+   RplComponent "{66A36839FAEC1FAC}" {
+   }
+  }
+  coords 5329.986 121.125 7777.99
+  {
+   GenericEntity REPLAY_4 {
+    components {
+     BaseRadioComponent "{66A368398CC82FA3}" {
+      "Encryption key" "coldBorscht"
+      "Turned on" 1
+      Transceivers {
+       BaseTransceiver "{66A368398CC82FBB}" {
+        ChannelFrequency 42000
+        "Transmitting Range" 10000
+        "Frequency resolution" 100
+       }
+      }
+     }
+     MeshObject "{66A368398CC82F8A}" {
+      Object "{CCF186027BFD3FCE}Assets/Structures/Infrastructure/Towers/TransmitterTower_01/TransmitterTower_01_medium.xob"
+     }
+     RigidBody "{66A368398CC82F70}" {
+      Layers 65538
+      LayerPreset "BuildingFireView"
+      ModelGeometry 1
+      Static 1
+     }
+     RplComponent "{66A368398CC82F71}" {
+     }
+    }
+    coords -1.804 25.056 2.602
+    scale 0.005
+   }
+   GenericEntity : "{CFE9778C5F19F2B2}Prefabs/Structures/BuildingParts/Eletrical/HazardBeacon_01/HazardBeacon_Holder_01.et" {
+    coords -2.156 38.154 1.322
+    angleY -90
+   }
+  }
+ }
+ {
+  components {
+   SignalsManagerComponent "{66A36839FAEC2926}" {
+   }
+   SCR_BuildingSoundComponent "{66A36839FAEC2919}" {
+    Filenames {
+     "{3982325A574A4CB4}Sounds/Structures/Infrastructure/Power/Powerlines/Structures_PowerLine_HV_02.acp"
+    }
+    IncludeInactive 1
+    m_vMins -2 8 -2
+    m_vMaxs 2 16 2
+   }
+   LadderComponent "{66A36839FAEC28EE}" {
+    BottomFrontPositionInfo PointInfo "{66A36839FAEC290A}" {
+     Offset 0.1484 0.3034 0.05
+     Angles 0 90 0
+    }
+    TopFrontPositionInfo PointInfo "{66A36839FAEC28F7}" {
+     Offset 0.1484 37.1304 0.05
+    }
+    MiddleLeftsPositionInfo {
+     LadderExitPointInfo "{52AAD828B020DABF}" {
+      Offset 0.13 3.9716 0.05
+      FinalTransform PointInfo "{66A36839FAEC28E9}" {
+       Offset 0.0021 3.4357 1.0953
+      }
+     }
+    }
+   }
+   MeshObject "{66A36839FAEC28D2}" {
+    Object "{CCF186027BFD3FCE}Assets/Structures/Infrastructure/Towers/TransmitterTower_01/TransmitterTower_01_medium.xob"
+   }
+   NavmeshCustomLinkComponent "{66A36839FAEC28B1}" {
+    LinkType NavmeshLadderLink "{66A36839FAEC28B0}" {
+     "Navmesh setting presets" {
+      NavmeshCustomLinkSetting "{66A36839FAEC28CF}" {
+       ProjectPresets {
+        NavmeshCustomLinkPreset "{66A36839FAEC28CE}" {
+         ProjectName "Soldiers"
+         AreaType "Ladder"
+        }
+       }
+       BeginPoint -0.461 0 0
+       EndPoint 0.586 37.132 0
+      }
+     }
+    }
+   }
+   RigidBody "{66A36839FAEC28BA}" {
+    ModelGeometry 1
+    Static 1
+   }
+   SCR_DestructibleBuildingComponent "{66A36839FAEC2F0A}" {
+    Enabled 1
+    "Additional hit zones" {
+     SCR_HitZone Default {
+      HZDefault 1
+      MaxHealth 10000
+      DamageReduction 50
+      DamageThreshold 100
+      "Collision multiplier" 2
+      "Melee multiplier" 0
+      "Kinetic multiplier" 0.5
+      "Fragmentation multiplier" 0.2
+      "Explosive multiplier" 6
+     }
+    }
+    m_aEffects {
+     SCR_TimedParticle Particle_Metal_01_Start {
+      m_fSpawnTime 0
+      m_bSnapToTerrain 1
+      m_Particle SCR_ParticleSpawnable "{66A36839FAEC284F}" {
+       m_Particle "{6B3894DFD8E0E7E7}Particles/Enviroment/Building_Explosion_Debris_Metal.ptc"
+       m_bAtCenter 0
+       m_bDirectional 0
+      }
+      m_fParticlesMultiplier 1.5
+     }
+     SCR_TimedParticle Particle_Dust_01_Start {
+      m_bSnapToTerrain 1
+      m_Particle SCR_ParticleSpawnable "{66A36839FAEC2826}" {
+       m_Particle "{B0D882F853DE2783}Particles/Enviroment/Building_Explosion_Smoke.ptc"
+       m_bAtCenter 0
+       m_bDirectional 0
+      }
+      m_fParticlesMultiplier 0.1
+     }
+     SCR_TimedSound Sound_Metal_01_Start {
+      m_fSpawnTime 0.001
+      m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66A36839FAEC2809}" {
+       m_sSoundProject "{65FD4046096C49D7}Sounds/Destruction/Buildings/Destruction_Buildings_Metal_Small.acp"
+       m_sSoundEventName "SOUND_BUILDING_DESTRUCTION"
+       m_eFlags 25
+      }
+     }
+     SCR_TimedSound Sound_Metal_01_End {
+      m_fSpawnTime 0.75
+      m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66A36839FAEC2FD0}" {
+       m_sSoundProject "{65FD4046096C49D7}Sounds/Destruction/Buildings/Destruction_Buildings_Metal_Small.acp"
+       m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_END"
+       m_eFlags 25
+      }
+     }
+     SCR_TimedPrefab Prefab_Ruins_01 {
+      m_fSpawnTime 0.1
+      m_sRuinsPrefab "{61191DE22A017E32}Prefabs/Structures/Military/Bunkers/AmmoDump_E_01/tower_ruins.et"
+     }
+     SCR_TimedSound Sound_Metal_01_PreStart {
+      m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66A36839FAEC2FAA}" {
+       m_sSoundProject "{65FD4046096C49D7}Sounds/Destruction/Buildings/Destruction_Buildings_Metal_Small.acp"
+       m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_PRESTART"
+       m_eFlags 25
+      }
+     }
+    }
+    m_fDelay 1
+    m_fSinkingSpeed 0.8
+    m_fSinkingSpeedGradualMultiplier 350
+    m_fRotationSpeed 1
+    m_fRotationTime 10
+    m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66A36839FAEC2F89}" {
+     m_sSoundProject "{65FD4046096C49D7}Sounds/Destruction/Buildings/Destruction_Buildings_Metal_Small.acp"
+     m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_BOUNCE"
+     m_eFlags 25
+    }
+    m_CameraShakeCurve {
+     0 1 0.08 0.2 0.2 0.03 1 0.01
+    }
+    m_eAllowedRotations ROTATION_X
+   }
+   SCR_MapDescriptorComponent "{66A36839FAEC2F0F}" {
+    MainType Transmitter
+   }
+   ScriptedRadioComponent "{66A36839FAEC2EFD}" {
+    Transceivers {
+     RelayTransceiver "{66A36839FAEC2EFB}" {
+      "Transmitting Range" 4500
+     }
+    }
+   }
+   ActionsManagerComponent "{66A36839FAEC2E41}" {
+    ActionContexts {
+     UserActionContext "{66A36839FAEC2EB8}" {
+      ContextName "top"
+      Position PointInfo "{66A36839FAEC2ED6}" {
+       Offset 0.1358 37.2831 0.0583
+      }
+      Radius 1.25
+      VisibilityAngle 85
+     }
+     UserActionContext "{66A36839FAEC2E82}" {
+      ContextName "bottom"
+      Position PointInfo "{66A36839FAEC2EA6}" {
+       Offset 0.1041 1.4028 0.0505
+      }
+      Radius 1.25
+      Omnidirectional 0
+      VisibilityAngle 85
+     }
+     UserActionContext "{66A36839FAEC2E70}" {
+      ContextName "middle"
+      Position PointInfo "{66A36839FAEC2E8F}" {
+       Offset 0.0566 4.9314 0.1001
+      }
+      Radius 1
+      Omnidirectional 0
+      VisibilityAngle 85
+     }
+    }
+    additionalActions {
+     SCR_LadderUserAction "{66A36839FAEC2E58}" {
+      ParentContextList {
+       "top" "bottom" "middle"
+      }
+      UIInfo UIInfo "{66A36839FAEC2E61}" {
+       Name "#AR-UserAction_ClimbLadder"
+      }
+      VisibilityRange 0.001
+     }
+    }
+   }
+   RplComponent "{66A36839FAEC2E44}" {
+   }
+  }
+  coords 4583.122 27.016 8930.744
+  {
+   GenericEntity REPLAY_6 {
+    components {
+     BaseRadioComponent "{66A368398CC829A1}" {
+      "Encryption key" "coldBorscht"
+      "Turned on" 1
+      Transceivers {
+       BaseTransceiver "{66A368398CC829B8}" {
+        ChannelFrequency 42000
+        "Transmitting Range" 10000
+        "Frequency resolution" 100
+       }
+      }
+     }
+     MeshObject "{66A368398CC8298F}" {
+      Object "{CCF186027BFD3FCE}Assets/Structures/Infrastructure/Towers/TransmitterTower_01/TransmitterTower_01_medium.xob"
+     }
+     RigidBody "{66A368398CC82976}" {
+      Layers 65538
+      LayerPreset "BuildingFireView"
+      ModelGeometry 1
+      Static 1
+     }
+     RplComponent "{66A368398CC82978}" {
+     }
+    }
+    coords -1.804 25.056 2.602
+    scale 0.005
+   }
+   GenericEntity : "{CFE9778C5F19F2B2}Prefabs/Structures/BuildingParts/Eletrical/HazardBeacon_01/HazardBeacon_Holder_01.et" {
+    coords -2.156 38.154 1.322
+    angleY -90
+   }
+  }
+ }
+ {
+  components {
+   SignalsManagerComponent "{66A36839FAEC3DF4}" {
+   }
+   SCR_BuildingSoundComponent "{66A36839FAEC3DE4}" {
+    Filenames {
+     "{3982325A574A4CB4}Sounds/Structures/Infrastructure/Power/Powerlines/Structures_PowerLine_HV_02.acp"
+    }
+    IncludeInactive 1
+    m_vMins -2 8 -2
+    m_vMaxs 2 16 2
+   }
+   LadderComponent "{66A36839FAEC3DC4}" {
+    BottomFrontPositionInfo PointInfo "{66A36839FAEC3DD5}" {
+     Offset 0.1484 0.3034 0.05
+     Angles 0 90 0
+    }
+    TopFrontPositionInfo PointInfo "{66A36839FAEC3DD8}" {
+     Offset 0.1484 37.1304 0.05
+    }
+    MiddleLeftsPositionInfo {
+     LadderExitPointInfo "{52AAD828B020DABF}" {
+      Offset 0.13 3.9716 0.05
+      FinalTransform PointInfo "{66A36839FAEC3DC3}" {
+       Offset 0.0021 3.4357 1.0953
+      }
+     }
+    }
+   }
+   MeshObject "{66A36839FAEC3DC9}" {
+    Object "{CCF186027BFD3FCE}Assets/Structures/Infrastructure/Towers/TransmitterTower_01/TransmitterTower_01_medium.xob"
+   }
+   NavmeshCustomLinkComponent "{66A36839FAEC3DA1}" {
+    LinkType NavmeshLadderLink "{66A36839FAEC3DA0}" {
+     "Navmesh setting presets" {
+      NavmeshCustomLinkSetting "{66A36839FAEC3DBF}" {
+       ProjectPresets {
+        NavmeshCustomLinkPreset "{66A36839FAEC3DBE}" {
+         ProjectName "Soldiers"
+         AreaType "Ladder"
+        }
+       }
+       BeginPoint -0.461 0 0
+       EndPoint 0.586 37.132 0
+      }
+     }
+    }
+   }
+   RigidBody "{66A36839FAEC3DA5}" {
+    ModelGeometry 1
+    Static 1
+   }
+   SCR_DestructibleBuildingComponent "{66A36839FAEC3C3D}" {
+    Enabled 1
+    "Additional hit zones" {
+     SCR_HitZone Default {
+      HZDefault 1
+      MaxHealth 10000
+      DamageReduction 50
+      DamageThreshold 100
+      "Collision multiplier" 2
+      "Melee multiplier" 0
+      "Kinetic multiplier" 0.5
+      "Fragmentation multiplier" 0.2
+      "Explosive multiplier" 6
+     }
+    }
+    m_aEffects {
+     SCR_TimedParticle Particle_Metal_01_Start {
+      m_fSpawnTime 0
+      m_bSnapToTerrain 1
+      m_Particle SCR_ParticleSpawnable "{66A36839FAEC3D31}" {
+       m_Particle "{6B3894DFD8E0E7E7}Particles/Enviroment/Building_Explosion_Debris_Metal.ptc"
+       m_bAtCenter 0
+       m_bDirectional 0
+      }
+      m_fParticlesMultiplier 1.5
+     }
+     SCR_TimedParticle Particle_Dust_01_Start {
+      m_bSnapToTerrain 1
+      m_Particle SCR_ParticleSpawnable "{66A36839FAEC3D23}" {
+       m_Particle "{B0D882F853DE2783}Particles/Enviroment/Building_Explosion_Smoke.ptc"
+       m_bAtCenter 0
+       m_bDirectional 0
+      }
+      m_fParticlesMultiplier 0.1
+     }
+     SCR_TimedSound Sound_Metal_01_Start {
+      m_fSpawnTime 0.001
+      m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66A36839FAEC3D1E}" {
+       m_sSoundProject "{65FD4046096C49D7}Sounds/Destruction/Buildings/Destruction_Buildings_Metal_Small.acp"
+       m_sSoundEventName "SOUND_BUILDING_DESTRUCTION"
+       m_eFlags 25
+      }
+     }
+     SCR_TimedSound Sound_Metal_01_End {
+      m_fSpawnTime 0.75
+      m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66A36839FAEC3CFC}" {
+       m_sSoundProject "{65FD4046096C49D7}Sounds/Destruction/Buildings/Destruction_Buildings_Metal_Small.acp"
+       m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_END"
+       m_eFlags 25
+      }
+     }
+     SCR_TimedPrefab Prefab_Ruins_01 {
+      m_fSpawnTime 0.1
+      m_sRuinsPrefab "{61191DE22A017E32}Prefabs/Structures/Military/Bunkers/AmmoDump_E_01/tower_ruins.et"
+     }
+     SCR_TimedSound Sound_Metal_01_PreStart {
+      m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66A36839FAEC3CC9}" {
+       m_sSoundProject "{65FD4046096C49D7}Sounds/Destruction/Buildings/Destruction_Buildings_Metal_Small.acp"
+       m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_PRESTART"
+       m_eFlags 25
+      }
+     }
+    }
+    m_fDelay 1
+    m_fSinkingSpeed 0.8
+    m_fSinkingSpeedGradualMultiplier 350
+    m_fRotationSpeed 1
+    m_fRotationTime 10
+    m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66A36839FAEC3CA0}" {
+     m_sSoundProject "{65FD4046096C49D7}Sounds/Destruction/Buildings/Destruction_Buildings_Metal_Small.acp"
+     m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_BOUNCE"
+     m_eFlags 25
+    }
+    m_CameraShakeCurve {
+     0 1 0.08 0.2 0.2 0.03 1 0.01
+    }
+    m_eAllowedRotations ROTATION_X
+   }
+   SCR_MapDescriptorComponent "{66A36839FAEC3C22}" {
+    MainType Transmitter
+   }
+   ScriptedRadioComponent "{66A36839FAEC3C2D}" {
+    Transceivers {
+     RelayTransceiver "{66A36839FAEC3C2C}" {
+      "Transmitting Range" 4500
+     }
+    }
+   }
+   ActionsManagerComponent "{66A36839FAECC39E}" {
+    ActionContexts {
+     UserActionContext "{66A36839FAECC3FE}" {
+      ContextName "top"
+      Position PointInfo "{66A36839FAEC3C01}" {
+       Offset 0.1358 37.2831 0.0583
+      }
+      Radius 1.25
+      VisibilityAngle 85
+     }
+     UserActionContext "{66A36839FAECC3C6}" {
+      ContextName "bottom"
+      Position PointInfo "{66A36839FAECC3E8}" {
+       Offset 0.1041 1.4028 0.0505
+      }
+      Radius 1.25
+      Omnidirectional 0
+      VisibilityAngle 85
+     }
+     UserActionContext "{66A36839FAECC3B1}" {
+      ContextName "middle"
+      Position PointInfo "{66A36839FAECC3B0}" {
+       Offset 0.0566 4.9314 0.1001
+      }
+      Radius 1
+      Omnidirectional 0
+      VisibilityAngle 85
+     }
+    }
+    additionalActions {
+     SCR_LadderUserAction "{66A36839FAECC394}" {
+      ParentContextList {
+       "top" "bottom" "middle"
+      }
+      UIInfo UIInfo "{66A36839FAECC3BC}" {
+       Name "#AR-UserAction_ClimbLadder"
+      }
+      VisibilityRange 0.001
+     }
+    }
+   }
+   RplComponent "{66A36839FAECC380}" {
+   }
+  }
+  coords 4530.599 19.339 10670.731
+  {
+   GenericEntity REPLAY_7 {
+    components {
+     BaseRadioComponent "{66A368398CC825CD}" {
+      "Encryption key" "coldBorscht"
+      "Turned on" 1
+      Transceivers {
+       BaseTransceiver "{66A368398CC825D8}" {
+        ChannelFrequency 42000
+        "Transmitting Range" 10000
+        "Frequency resolution" 100
+       }
+      }
+     }
+     MeshObject "{66A368398CC82543}" {
+      Object "{CCF186027BFD3FCE}Assets/Structures/Infrastructure/Towers/TransmitterTower_01/TransmitterTower_01_medium.xob"
+     }
+     RigidBody "{66A368398CC82532}" {
+      Layers 65538
+      LayerPreset "BuildingFireView"
+      ModelGeometry 1
+      Static 1
+     }
+     RplComponent "{66A368398CC82538}" {
+     }
+    }
+    coords -1.804 25.056 2.602
+    scale 0.005
+   }
+   GenericEntity : "{CFE9778C5F19F2B2}Prefabs/Structures/BuildingParts/Eletrical/HazardBeacon_01/HazardBeacon_Holder_01.et" {
+    coords -2.156 38.154 1.322
+    angleY -90
+   }
+  }
+ }
+ {
+  components {
+   SignalsManagerComponent "{66A36839FAEE5C33}" {
+   }
+   SCR_BuildingSoundComponent "{66A36839FAEE5C14}" {
+    Filenames {
+     "{3982325A574A4CB4}Sounds/Structures/Infrastructure/Power/Powerlines/Structures_PowerLine_HV_02.acp"
+    }
+    IncludeInactive 1
+    m_vMins -2 8 -2
+    m_vMaxs 2 16 2
+   }
+   LadderComponent "{66A36839FAEE5C63}" {
+    BottomFrontPositionInfo PointInfo "{66A36839FAEE5C7A}" {
+     Offset 0.1484 0.3034 0.05
+     Angles 0 90 0
+    }
+    TopFrontPositionInfo PointInfo "{66A36839FAEE5C77}" {
+     Offset 0.1484 37.1304 0.05
+    }
+    MiddleLeftsPositionInfo {
+     LadderExitPointInfo "{52AAD828B020DABF}" {
+      Offset 0.13 3.9716 0.05
+      FinalTransform PointInfo "{66A36839FAEE5C60}" {
+       Offset 0.0021 3.4357 1.0953
+      }
+     }
+    }
+   }
+   MeshObject "{66A36839FAEE5C57}" {
+    Object "{CCF186027BFD3FCE}Assets/Structures/Infrastructure/Towers/TransmitterTower_01/TransmitterTower_01_medium.xob"
+   }
+   NavmeshCustomLinkComponent "{66A36839FAEE5FAF}" {
+    LinkType NavmeshLadderLink "{66A36839FAEE5FAE}" {
+     "Navmesh setting presets" {
+      NavmeshCustomLinkSetting "{66A36839FAEE5FAD}" {
+       ProjectPresets {
+        NavmeshCustomLinkPreset "{66A36839FAEE5FB3}" {
+         ProjectName "Soldiers"
+         AreaType "Ladder"
+        }
+       }
+       BeginPoint -0.461 0 0
+       EndPoint 0.586 37.132 0
+      }
+     }
+    }
+   }
+   RigidBody "{66A36839FAEE5FA5}" {
+    ModelGeometry 1
+    Static 1
+   }
+   SCR_DestructibleBuildingComponent "{66A36839FAEE5E6B}" {
+    Enabled 1
+    "Additional hit zones" {
+     SCR_HitZone Default {
+      HZDefault 1
+      MaxHealth 10000
+      DamageReduction 50
+      DamageThreshold 100
+      "Collision multiplier" 2
+      "Melee multiplier" 0
+      "Kinetic multiplier" 0.5
+      "Fragmentation multiplier" 0.2
+      "Explosive multiplier" 6
+     }
+    }
+    m_aEffects {
+     SCR_TimedParticle Particle_Metal_01_Start {
+      m_fSpawnTime 0
+      m_bSnapToTerrain 1
+      m_Particle SCR_ParticleSpawnable "{66A36839FAEE5F17}" {
+       m_Particle "{6B3894DFD8E0E7E7}Particles/Enviroment/Building_Explosion_Debris_Metal.ptc"
+       m_bAtCenter 0
+       m_bDirectional 0
+      }
+      m_fParticlesMultiplier 1.5
+     }
+     SCR_TimedParticle Particle_Dust_01_Start {
+      m_bSnapToTerrain 1
+      m_Particle SCR_ParticleSpawnable "{66A36839FAEE5F7F}" {
+       m_Particle "{B0D882F853DE2783}Particles/Enviroment/Building_Explosion_Smoke.ptc"
+       m_bAtCenter 0
+       m_bDirectional 0
+      }
+      m_fParticlesMultiplier 0.1
+     }
+     SCR_TimedSound Sound_Metal_01_Start {
+      m_fSpawnTime 0.001
+      m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66A36839FAEE5F56}" {
+       m_sSoundProject "{65FD4046096C49D7}Sounds/Destruction/Buildings/Destruction_Buildings_Metal_Small.acp"
+       m_sSoundEventName "SOUND_BUILDING_DESTRUCTION"
+       m_eFlags 25
+      }
+     }
+     SCR_TimedSound Sound_Metal_01_End {
+      m_fSpawnTime 0.75
+      m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66A36839FAEE5EBF}" {
+       m_sSoundProject "{65FD4046096C49D7}Sounds/Destruction/Buildings/Destruction_Buildings_Metal_Small.acp"
+       m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_END"
+       m_eFlags 25
+      }
+     }
+     SCR_TimedPrefab Prefab_Ruins_01 {
+      m_fSpawnTime 0.1
+      m_sRuinsPrefab "{61191DE22A017E32}Prefabs/Structures/Military/Bunkers/AmmoDump_E_01/tower_ruins.et"
+     }
+     SCR_TimedSound Sound_Metal_01_PreStart {
+      m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66A36839FAEE5E8A}" {
+       m_sSoundProject "{65FD4046096C49D7}Sounds/Destruction/Buildings/Destruction_Buildings_Metal_Small.acp"
+       m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_PRESTART"
+       m_eFlags 25
+      }
+     }
+    }
+    m_fDelay 1
+    m_fSinkingSpeed 0.8
+    m_fSinkingSpeedGradualMultiplier 350
+    m_fRotationSpeed 1
+    m_fRotationTime 10
+    m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66A36839FAEE5EF7}" {
+     m_sSoundProject "{65FD4046096C49D7}Sounds/Destruction/Buildings/Destruction_Buildings_Metal_Small.acp"
+     m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_BOUNCE"
+     m_eFlags 25
+    }
+    m_CameraShakeCurve {
+     0 1 0.08 0.2 0.2 0.03 1 0.01
+    }
+    m_eAllowedRotations ROTATION_X
+   }
+   SCR_MapDescriptorComponent "{66A36839FAEE5E62}" {
+    MainType Transmitter
+   }
+   ScriptedRadioComponent "{66A36839FAEE5E4C}" {
+    Transceivers {
+     RelayTransceiver "{66A36839FAEE5E53}" {
+      "Transmitting Range" 4500
+     }
+    }
+   }
+   ActionsManagerComponent "{66A36839FAEE4134}" {
+    ActionContexts {
+     UserActionContext "{66A36839FAEE4191}" {
+      ContextName "top"
+      Position PointInfo "{66A36839FAEE41B3}" {
+       Offset 0.1358 37.2831 0.0583
+      }
+      Radius 1.25
+      VisibilityAngle 85
+     }
+     UserActionContext "{66A36839FAEE41F7}" {
+      ContextName "bottom"
+      Position PointInfo "{66A36839FAEE4184}" {
+       Offset 0.1041 1.4028 0.0505
+      }
+      Radius 1.25
+      Omnidirectional 0
+      VisibilityAngle 85
+     }
+     UserActionContext "{66A36839FAEE41EB}" {
+      ContextName "middle"
+      Position PointInfo "{66A36839FAEE41EA}" {
+       Offset 0.0566 4.9314 0.1001
+      }
+      Radius 1
+      Omnidirectional 0
+      VisibilityAngle 85
+     }
+    }
+    additionalActions {
+     SCR_LadderUserAction "{66A36839FAEE413D}" {
+      ParentContextList {
+       "top" "bottom" "middle"
+      }
+      UIInfo UIInfo "{66A36839FAEE41D3}" {
+       Name "#AR-UserAction_ClimbLadder"
+      }
+      VisibilityRange 0.001
+     }
+    }
+   }
+   RplComponent "{66A36839FAEE4130}" {
+   }
+  }
+  coords 7133.33 44.316 1325.786
+  {
+   GenericEntity REPLAY_8 {
+    components {
+     BaseRadioComponent "{66A368398CC831F0}" {
+      "Encryption key" "coldBorscht"
+      "Turned on" 1
+      Transceivers {
+       BaseTransceiver "{66A368398CC83209}" {
+        ChannelFrequency 42000
+        "Transmitting Range" 10000
+        "Frequency resolution" 100
+       }
+      }
+     }
+     MeshObject "{66A368398CC831D6}" {
+      Object "{CCF186027BFD3FCE}Assets/Structures/Infrastructure/Towers/TransmitterTower_01/TransmitterTower_01_medium.xob"
+     }
+     RigidBody "{66A368398CC831DD}" {
+      Layers 65538
+      LayerPreset "BuildingFireView"
+      ModelGeometry 1
+      Static 1
+     }
+     RplComponent "{66A368398CC831DE}" {
+     }
+    }
+    coords -1.804 25.056 2.602
+    scale 0.005
+   }
+   GenericEntity : "{CFE9778C5F19F2B2}Prefabs/Structures/BuildingParts/Eletrical/HazardBeacon_01/HazardBeacon_Holder_01.et" {
+    coords -2.156 38.154 1.322
+    angleY -90
+   }
+  }
+ }
+}
