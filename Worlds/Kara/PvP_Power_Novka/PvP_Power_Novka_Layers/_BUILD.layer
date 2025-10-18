@@ -1,10 +1,13 @@
 $grp Turret : "{1A407760EEAE4156}Prefabs/Vehicles/Static/BaconZU23/BaconZU23_Turret_Deployed.et" {
  {
-  coords 2185.573 133.928 1066.817
-  angleY -56.295
+  coords 2517.234 121.252 1362.494
+  angleX -12.298
+  angleY -82.325
+  angleZ 5.4
  }
  {
-  coords 2135.723 135.449 1033.747
+  coords 1553.192 57.344 671.889
+  angleY -77.614
  }
 }
 GenericEntity : "{6AE0184B9AAA256D}Prefabs/Props/Military/AmmoBoxes/drg_AmmoBox_82mm_mortar_3rnd_HE_test.et" {
@@ -12,7 +15,7 @@ GenericEntity : "{6AE0184B9AAA256D}Prefabs/Props/Military/AmmoBoxes/drg_AmmoBox_
   SCR_FilteredInventoryStorageComponent "{5476A2F100DF4EFF}" {
    MultiSlots {
     MultiSlotConfiguration "{64F707D11FA7A94D}" {
-     NumSlots 50
+     NumSlots 150
     }
    }
   }
@@ -27,14 +30,15 @@ $grp Turret : "{9FCEE4DA15896CD8}Prefabs/Weapons/Tripods/6G10/Tripod_6G10_AGS17_
   angleY -55.972
  }
  {
-  coords 2124.983 134.102 1031.032
-  angleX 0
-  angleY -55.972
+  coords 1893.633 147.312 857.861
+  angleX -20.55
+  angleY -54.929
+  angleZ -2.969
  }
 }
 $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
  AGS_0 {
-  coords 2180.138 135.19 1056.765
+  coords 1893.639 147.314 858.122
   m_sImageSet "{88966C7AB9720818}UI/Textures/DeployMenu/Objectives-Briefing/Objectives-briefing.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 0 0 0 1
@@ -51,7 +55,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   }
  }
  AGS_1 {
-  coords 2125.255 134.418 1030.848
+  coords 2180.084 134.831 1057.024
   m_sImageSet "{88966C7AB9720818}UI/Textures/DeployMenu/Objectives-Briefing/Objectives-briefing.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 0 0 0 1
