@@ -1,15 +1,4 @@
 $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
- _BASE {
-  coords 8520.679 334.768 2482.838
-  m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
-  m_sImageSetGlow ""
-  m_sQuadName "Task_Attack"
-  m_fWorldSize 35
-  m_sDescription "Расположение базы"
-  m_bUseWorldScale 0
-  m_bVisibleForEmptyFaction 1
-  m_bShowForAnyFaction 1
- }
  _ATTACK_1 {
   coords 9140.312 372.618 4975.578
   angleY 33.131
@@ -51,5 +40,21 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
    "FIA" "CIV" ""
   }
   m_bVisibleForEmptyFaction 1
+ }
+ SUPPLY {
+  coords 5772.077 111.899 11323.539
+  m_sImageSet "{10753564EB6CE6DA}UI/Textures/Editor/ContentBrowser/ContentBrowser_Trait_SupplyStorage_Full.edds"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.552 0.002 0 1
+  m_sQuadName "Task_Attack"
+  m_fWorldSize 5
+  m_sDescription "Ресурсы"
+  m_aVisibleForFactions {
+   "RHS_AFRF" ""
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+   3 0
+  }
  }
 }
