@@ -1,0 +1,219 @@
+SCR_AIGroup CDF_000 : "{02B7DC04CD35582D}Prefabs/Groups/BLUFOR/CDF/drg_CDF_PlatoonHQ.et" {
+ coords 1600.627 20.219 2174.878
+ angleY -125.529
+ m_aUnitPrefabSlots {
+  "{8DA9CAFC7CEFC056}Prefabs/Characters/Factions/BLUFOR/CDF_Army/drg_Character_CDF_PL.et"
+ }
+}
+$grp Vehicle : "{52441D784D145D52}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Ses_CDF.et" {
+ CDF_300_BTR {
+  coords 1672.036 15.577 2278.609
+  angleX -1.086
+  angleY 75.956
+  angleZ -4.333
+  m_sAttachmentGroupName "CDF_300"
+ }
+ CDF_301_BTR {
+  coords 1436.062 20.482 2715.153
+  angleX 0.752
+  angleY 147.187
+  angleZ -0.485
+  m_sAttachmentGroupName "CDF_301"
+ }
+ CDF_302_BTR {
+  coords 1369.261 19.572 2133.32
+  angleX -1.193
+  angleY -115.516
+  angleZ -0.422
+  m_sAttachmentGroupName "CDF_302"
+ }
+ CDF_303_BTR {
+  coords 1843.56 8.729 1520.999
+  angleX -5.327
+  angleY 84.071
+  angleZ 0.552
+  m_sAttachmentGroupName "CDF_303"
+ }
+}
+$grp SCR_AIGroup : "{D03F49D1589BABAD}Prefabs/Groups/BLUFOR/CDF/drg_CDF_RifleSquad.et" {
+ CDF_400 {
+  components {
+   PS_GroupCallsignAssigner "{6566690874531108}" {
+    m_iCompanyCallsign 4
+   }
+  }
+  coords 1451.309 16.397 2096.236
+  angleY 86.407
+  m_aUnitPrefabSlots {
+   "{6A6DFB016A8DB6F7}Prefabs/Characters/Factions/BLUFOR/CDF_Army/drg_Character_CDF_MortarTL.et" "{68F8B81E26982C8B}Prefabs/Characters/Factions/BLUFOR/CDF_Army/drg_Character_CDF_MortarGunner.et"
+  }
+  m_sCustomNameSet "Минометчики"
+ }
+ CDF_401 {
+  components {
+   PS_GroupCallsignAssigner "{6566690874531108}" {
+    m_iCompanyCallsign 4
+    m_iSquadCallsign 1
+   }
+  }
+  coords 1130.49 20.521 2445.856
+  angleY 80.305
+  m_aUnitPrefabSlots {
+   "{6A6DFB016A8DB6F7}Prefabs/Characters/Factions/BLUFOR/CDF_Army/drg_Character_CDF_MortarTL.et" "{68F8B81E26982C8B}Prefabs/Characters/Factions/BLUFOR/CDF_Army/drg_Character_CDF_MortarGunner.et"
+  }
+  m_sCustomNameSet "Минометчики"
+ }
+ CDF_100 {
+  components {
+   PS_GroupCallsignAssigner "{6566690874531108}" {
+    m_iCompanyCallsign 1
+   }
+  }
+  coords 1581.768 20.219 2158.247
+  angleY -35.838
+  m_aUnitPrefabSlots {
+   "{14B773656108F1C6}Prefabs/Characters/Factions/BLUFOR/CDF_Army/drg_Character_CDF_SL.et" "{DE035531630E1D45}Prefabs/Characters/Factions/BLUFOR/CDF_Army/drg_Character_CDF_SR2.et" "{793F827A538C53D5}Prefabs/Characters/Factions/BLUFOR/CDF_Army/drg_Character_CDF_AR.et" "{A197EBBB2A054D89}Prefabs/Characters/Factions/BLUFOR/CDF_Army/drg_Character_CDF_AT.et" "{843201041DF19B3E}Prefabs/Characters/Factions/BLUFOR/CDF_Army/drg_Character_CDF_AAT.et" "{DC6EA865F186B3D1}Prefabs/Characters/Factions/BLUFOR/CDF_Army/drg_Character_CDF_Rifleman.et"
+  }
+  m_sCustomNameSet "Стрелковое отделение"
+ }
+ CDF_101 {
+  components {
+   PS_GroupCallsignAssigner "{6566690874531108}" {
+    m_iCompanyCallsign 1
+    m_iSquadCallsign 1
+   }
+  }
+  coords 1581.21 20.219 2167.321
+  angleY 145.234
+  m_aUnitPrefabSlots {
+   "{14B773656108F1C6}Prefabs/Characters/Factions/BLUFOR/CDF_Army/drg_Character_CDF_SL.et" "{DE035531630E1D45}Prefabs/Characters/Factions/BLUFOR/CDF_Army/drg_Character_CDF_SR2.et" "{793F827A538C53D5}Prefabs/Characters/Factions/BLUFOR/CDF_Army/drg_Character_CDF_AR.et" "{A197EBBB2A054D89}Prefabs/Characters/Factions/BLUFOR/CDF_Army/drg_Character_CDF_AT.et" "{843201041DF19B3E}Prefabs/Characters/Factions/BLUFOR/CDF_Army/drg_Character_CDF_AAT.et" "{DC6EA865F186B3D1}Prefabs/Characters/Factions/BLUFOR/CDF_Army/drg_Character_CDF_Rifleman.et"
+  }
+  m_sCustomNameSet "Стрелковое отделение"
+ }
+ CDF_300 {
+  components {
+   PS_GroupCallsignAssigner "{6566690874531108}" {
+    m_iCompanyCallsign 3
+   }
+  }
+  coords 1671.721 15.498 2275.81
+  angleY -5.696
+  m_aUnitPrefabSlots {
+   "{0D8F69CA2B51D040}Prefabs/Characters/Factions/BLUFOR/CDF_Army/drg_Character_CDF_CrewGunner.et" "{EAA4CE2A03A6D9ED}Prefabs/Characters/Factions/BLUFOR/CDF_Army/drg_Character_CDF_CrewDriver.et"
+  }
+  m_sCustomNameSet "Экипаж БТР-70"
+ }
+ CDF_301 {
+  components {
+   PS_GroupCallsignAssigner "{6566690874531108}" {
+    m_iCompanyCallsign 3
+    m_iSquadCallsign 1
+   }
+  }
+  coords 1432.639 20.469 2714.241
+  angleY 58.423
+  m_aUnitPrefabSlots {
+   "{0D8F69CA2B51D040}Prefabs/Characters/Factions/BLUFOR/CDF_Army/drg_Character_CDF_CrewGunner.et" "{EAA4CE2A03A6D9ED}Prefabs/Characters/Factions/BLUFOR/CDF_Army/drg_Character_CDF_CrewDriver.et"
+  }
+  m_sCustomNameSet "Экипаж БТР-70"
+ }
+ CDF_302 {
+  components {
+   PS_GroupCallsignAssigner "{6566690874531108}" {
+    m_iCompanyCallsign 3
+    m_iSquadCallsign 2
+   }
+  }
+  coords 1368.439 19.569 2137.221
+  angleY 158.495
+  m_aUnitPrefabSlots {
+   "{0D8F69CA2B51D040}Prefabs/Characters/Factions/BLUFOR/CDF_Army/drg_Character_CDF_CrewGunner.et" "{EAA4CE2A03A6D9ED}Prefabs/Characters/Factions/BLUFOR/CDF_Army/drg_Character_CDF_CrewDriver.et"
+  }
+  m_sCustomNameSet "Экипаж БТР-70"
+ }
+ CDF_200 {
+  components {
+   PS_GroupCallsignAssigner "{6566690874531108}" {
+    m_iCompanyCallsign 2
+   }
+  }
+  coords 1125.063 16.625 2769.509
+  angleY 100.973
+  m_aUnitPrefabSlots {
+   "{14B773656108F1C6}Prefabs/Characters/Factions/BLUFOR/CDF_Army/drg_Character_CDF_SL.et" "{DE035531630E1D45}Prefabs/Characters/Factions/BLUFOR/CDF_Army/drg_Character_CDF_SR2.et" "{793F827A538C53D5}Prefabs/Characters/Factions/BLUFOR/CDF_Army/drg_Character_CDF_AR.et" "{A197EBBB2A054D89}Prefabs/Characters/Factions/BLUFOR/CDF_Army/drg_Character_CDF_AT.et" "{843201041DF19B3E}Prefabs/Characters/Factions/BLUFOR/CDF_Army/drg_Character_CDF_AAT.et" "{74EAFC5BA43B3AFF}Prefabs/Characters/Factions/BLUFOR/CDF_Army/drg_Character_CDF_GL.et" "{DC6EA865F186B3D1}Prefabs/Characters/Factions/BLUFOR/CDF_Army/drg_Character_CDF_Rifleman.et"
+  }
+  m_sCustomNameSet "Стрелковое отделение"
+ }
+ CDF_201 {
+  components {
+   PS_GroupCallsignAssigner "{6566690874531108}" {
+    m_iCompanyCallsign 2
+    m_iSquadCallsign 1
+   }
+  }
+  coords 1133.848 16.625 2762.24
+  angleY -82.395
+  m_aUnitPrefabSlots {
+   "{14B773656108F1C6}Prefabs/Characters/Factions/BLUFOR/CDF_Army/drg_Character_CDF_SL.et" "{DE035531630E1D45}Prefabs/Characters/Factions/BLUFOR/CDF_Army/drg_Character_CDF_SR2.et" "{793F827A538C53D5}Prefabs/Characters/Factions/BLUFOR/CDF_Army/drg_Character_CDF_AR.et" "{A197EBBB2A054D89}Prefabs/Characters/Factions/BLUFOR/CDF_Army/drg_Character_CDF_AT.et" "{843201041DF19B3E}Prefabs/Characters/Factions/BLUFOR/CDF_Army/drg_Character_CDF_AAT.et" "{74EAFC5BA43B3AFF}Prefabs/Characters/Factions/BLUFOR/CDF_Army/drg_Character_CDF_GL.et" "{DC6EA865F186B3D1}Prefabs/Characters/Factions/BLUFOR/CDF_Army/drg_Character_CDF_Rifleman.et"
+  }
+  m_sCustomNameSet "Стрелковое отделение"
+ }
+ CDF_210 {
+  components {
+   PS_GroupCallsignAssigner "{6566690874531108}" {
+    m_iCompanyCallsign 2
+    m_iPlatoonCallsign 1
+   }
+  }
+  coords 1199.648 9.153 3118.531
+  angleY 68.476
+  m_aUnitPrefabSlots {
+   "{14B773656108F1C6}Prefabs/Characters/Factions/BLUFOR/CDF_Army/drg_Character_CDF_SL.et" "{DE035531630E1D45}Prefabs/Characters/Factions/BLUFOR/CDF_Army/drg_Character_CDF_SR2.et" "{793F827A538C53D5}Prefabs/Characters/Factions/BLUFOR/CDF_Army/drg_Character_CDF_AR.et" "{A197EBBB2A054D89}Prefabs/Characters/Factions/BLUFOR/CDF_Army/drg_Character_CDF_AT.et" "{843201041DF19B3E}Prefabs/Characters/Factions/BLUFOR/CDF_Army/drg_Character_CDF_AAT.et" "{74EAFC5BA43B3AFF}Prefabs/Characters/Factions/BLUFOR/CDF_Army/drg_Character_CDF_GL.et" "{DC6EA865F186B3D1}Prefabs/Characters/Factions/BLUFOR/CDF_Army/drg_Character_CDF_Rifleman.et"
+  }
+  m_sCustomNameSet "Стрелковое отделение"
+ }
+ CDF_211 {
+  components {
+   PS_GroupCallsignAssigner "{6566690874531108}" {
+    m_iCompanyCallsign 2
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 1
+   }
+  }
+  coords 1516.21 15.76 2731.334
+  angleY -28.78
+  m_aUnitPrefabSlots {
+   "{14B773656108F1C6}Prefabs/Characters/Factions/BLUFOR/CDF_Army/drg_Character_CDF_SL.et" "{DE035531630E1D45}Prefabs/Characters/Factions/BLUFOR/CDF_Army/drg_Character_CDF_SR2.et" "{793F827A538C53D5}Prefabs/Characters/Factions/BLUFOR/CDF_Army/drg_Character_CDF_AR.et" "{A197EBBB2A054D89}Prefabs/Characters/Factions/BLUFOR/CDF_Army/drg_Character_CDF_AT.et" "{843201041DF19B3E}Prefabs/Characters/Factions/BLUFOR/CDF_Army/drg_Character_CDF_AAT.et" "{74EAFC5BA43B3AFF}Prefabs/Characters/Factions/BLUFOR/CDF_Army/drg_Character_CDF_GL.et" "{DC6EA865F186B3D1}Prefabs/Characters/Factions/BLUFOR/CDF_Army/drg_Character_CDF_Rifleman.et"
+  }
+  m_sCustomNameSet "Стрелковое отделение"
+ }
+ CDF_212 {
+  components {
+   PS_GroupCallsignAssigner "{6566690874531108}" {
+    m_iCompanyCallsign 2
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 2
+   }
+  }
+  coords 1988.356 9.017 1540.964
+  angleY -9.56
+  m_aUnitPrefabSlots {
+   "{14B773656108F1C6}Prefabs/Characters/Factions/BLUFOR/CDF_Army/drg_Character_CDF_SL.et" "{DE035531630E1D45}Prefabs/Characters/Factions/BLUFOR/CDF_Army/drg_Character_CDF_SR2.et" "{793F827A538C53D5}Prefabs/Characters/Factions/BLUFOR/CDF_Army/drg_Character_CDF_AR.et" "{A197EBBB2A054D89}Prefabs/Characters/Factions/BLUFOR/CDF_Army/drg_Character_CDF_AT.et" "{843201041DF19B3E}Prefabs/Characters/Factions/BLUFOR/CDF_Army/drg_Character_CDF_AAT.et" "{74EAFC5BA43B3AFF}Prefabs/Characters/Factions/BLUFOR/CDF_Army/drg_Character_CDF_GL.et" "{DC6EA865F186B3D1}Prefabs/Characters/Factions/BLUFOR/CDF_Army/drg_Character_CDF_Rifleman.et"
+  }
+  m_sCustomNameSet "Стрелковое отделение"
+ }
+ CDF_303 {
+  components {
+   PS_GroupCallsignAssigner "{6566690874531108}" {
+    m_iCompanyCallsign 3
+    m_iSquadCallsign 3
+   }
+  }
+  coords 1843.781 8.734 1517.886
+  angleY -5.876
+  m_aUnitPrefabSlots {
+   "{0D8F69CA2B51D040}Prefabs/Characters/Factions/BLUFOR/CDF_Army/drg_Character_CDF_CrewGunner.et" "{EAA4CE2A03A6D9ED}Prefabs/Characters/Factions/BLUFOR/CDF_Army/drg_Character_CDF_CrewDriver.et"
+  }
+  m_sCustomNameSet "Экипаж БТР-70"
+ }
+}

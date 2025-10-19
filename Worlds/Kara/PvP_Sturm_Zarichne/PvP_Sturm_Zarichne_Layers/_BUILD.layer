@@ -1,0 +1,173 @@
+$grp GenericEntity : "{13A99500A14FA14C}Prefabs/Props/Military/SupplyBox/SupplyShippingContainers/SupplyShippingContainers_01/SupplyShippingContainers_01_20ft.et" {
+ {
+  coords 4490.177 27.688 4337.874
+  angleY -95.059
+ }
+ {
+  coords 4490.43 27.688 4335.405
+  angleY -95.642
+ }
+ {
+  coords 4490.72 27.686 4332.903
+  angleY -95.642
+ }
+ {
+  coords 4491.021 27.664 4330.384
+  angleY -95.642
+ }
+}
+$grp Turret : "{1A407760EEAE4156}Prefabs/Vehicles/Static/BaconZU23/BaconZU23_Turret_Deployed.et" {
+ {
+  coords 1526.877 27.523 2172.209
+  angleY 155.313
+ }
+ {
+  coords 885.975 27.087 2757.547
+  angleX 3.174
+  angleY -95.963
+  angleZ -0.187
+ }
+}
+GenericEntity : "{24F98A215FAA249C}Prefabs/Structures/Signs/Military/Supplies/Sign_SupplyStorage_01_Supplies_FIA.et" {
+ components {
+  Hierarchy "{5E331960EEA0804E}" {
+   Enabled 1
+  }
+ }
+ coords 4487.475 27.636 4333.853
+ angleX -1.148
+ angleY -96.01
+ angleZ -0.456
+}
+$grp GenericEntity : "{6AE0184B9AAA256D}Prefabs/Props/Military/AmmoBoxes/drg_AmmoBox_82mm_mortar_3rnd_HE_test.et" {
+ {
+  components {
+   SCR_FilteredInventoryStorageComponent "{5476A2F100DF4EFF}" {
+    MultiSlots {
+     MultiSlotConfiguration "{64F707D11FA7A94D}" {
+      NumSlots 100
+     }
+    }
+   }
+  }
+  coords 1137.215 20.644 2448.183
+  angleZ -0.895
+ }
+ {
+  components {
+   SCR_FilteredInventoryStorageComponent "{5476A2F100DF4EFF}" {
+    MultiSlots {
+     MultiSlotConfiguration "{64F707D11FA7A94D}" {
+      NumSlots 100
+     }
+    }
+   }
+  }
+  coords 1458.121 16.513 2098.838
+  angleX 5.351
+  angleY 0.168
+  angleZ 1.798
+ }
+}
+GameEntity : "{C9866DE5BF3DB72D}Prefabs/Props/Civilian/Ladders/IndustrialComplex02_Ladder_563.et" {
+ coords 901.913 26.207 2758.883
+ angleY 87.015
+}
+$grp GenericEntity : "{D39565F5897A9C0B}Prefabs/Compositions/Misc/SubCompositions/2B14_MortarPostion.et" {
+ {
+  coords 1135.681 20.594 2445.882
+  angleY 79.686
+  {
+   GenericEntity {
+    ID "60B8D36A59BEEA13"
+    components {
+     MeshObject "{5872F0EB7FA40561}" {
+      Enabled 0
+     }
+     RigidBody "{5872F0EB7DFB5A9D}" {
+      Enabled 0
+     }
+     SCR_ArsenalComponent "{589F01C9C8D4A475}" {
+      Enabled 0
+     }
+     SCR_FactionAffiliationComponent "{5A50E7650A1AE9EC}" {
+      Enabled 0
+     }
+     SCR_ResourceComponent "{5E5ABDF371AE8B21}" {
+      Enabled 0
+     }
+     SCR_ResupplySupportStationComponent "{5E2CE1BA1701C633}" {
+      Enabled 0
+     }
+     SCR_SoundDataComponent "{5C53391603B5CF41}" {
+      Enabled 0
+     }
+     UniversalInventoryStorageComponent "{58A17A341AB8F069}" {
+      Enabled 0
+     }
+     SCR_ArsenalInventoryStorageManagerComponent "{58A0B19B1E191CC1}" {
+      Enabled 0
+     }
+     ActionsManagerComponent "{5476B36C403D4CC0}" {
+      Enabled 0
+     }
+     RplComponent "{5476B36C54387F41}" {
+      Enabled 0
+     }
+     Hierarchy "{60B8D36A59BEE5A8}" {
+      Enabled 0
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 1456.433 16.345 2096.486
+  angleX -0.792
+  angleY 79.608
+  angleZ 5.588
+  {
+   GenericEntity {
+    ID "60B8D36A59BEEA13"
+    components {
+     MeshObject "{5872F0EB7FA40561}" {
+      Enabled 0
+     }
+     RigidBody "{5872F0EB7DFB5A9D}" {
+      Enabled 0
+     }
+     SCR_ArsenalComponent "{589F01C9C8D4A475}" {
+      Enabled 0
+     }
+     SCR_FactionAffiliationComponent "{5A50E7650A1AE9EC}" {
+      Enabled 0
+     }
+     SCR_ResourceComponent "{5E5ABDF371AE8B21}" {
+      Enabled 0
+     }
+     SCR_ResupplySupportStationComponent "{5E2CE1BA1701C633}" {
+      Enabled 0
+     }
+     SCR_SoundDataComponent "{5C53391603B5CF41}" {
+      Enabled 0
+     }
+     UniversalInventoryStorageComponent "{58A17A341AB8F069}" {
+      Enabled 0
+     }
+     SCR_ArsenalInventoryStorageManagerComponent "{58A0B19B1E191CC1}" {
+      Enabled 0
+     }
+     ActionsManagerComponent "{5476B36C403D4CC0}" {
+      Enabled 0
+     }
+     RplComponent "{5476B36C54387F41}" {
+      Enabled 0
+     }
+     Hierarchy "{60B8D36A59BEE5A8}" {
+      Enabled 0
+     }
+    }
+   }
+  }
+ }
+}
