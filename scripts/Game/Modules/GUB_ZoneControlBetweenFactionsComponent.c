@@ -278,7 +278,106 @@ class GUB_ZoneControlTimer
 
 		return AddTime(TimePassed);
 	}
+	float GetCapturePercentage()
+	{
+		return timeNow / timeToComplete;
+	}
+}
 
+// ============================================================================
+// FlagController
+// ============================================================================
+class GUB_FlagController
+{
+	protected ref array<string> flagNames;
+	protected ref array<vector> flagStartLocalPoses;
+
+	protected ref array<SlotManagerComponent> slotManagers;
+	protected ref array<SCR_FlagComponent> flagComponents;
+
+	protected FactionKey startFactionKey;
+	protected FactionKey endFactionKey;
+
+	protected ref SCR_Faction startFaction;
+	protected ref SCR_Faction endFaction;
+
+	protected bool isSecondFlag = false;
+
+	void SetParams(array<string> FlagNames, FactionKey StartFactionKey, FactionKey EndFactionKey)
+	{
+		flagNames = FlagNames;
+		startFactionKey = StartFactionKey;
+		endFactionKey = EndFactionKey;
+	}
+
+	void Start()
+	{
+		slotManagers = new array<SlotManagerComponent>();
+		flagComponents = new array<SCR_FlagComponent>();
+		for (int i = 0; i < flagNames.Count(); i++)
+		{
+			slotManagers.Insert(SlotManagerComponent.Cast(GetGame().GetWorld().FindEntityByName(flagNames[i]).FindComponent(SlotManagerComponent)));
+			flagComponents.Insert(SCR_FlagComponent.Cast(GetGame().GetWorld().FindEntityByName(flagNames[i]).FindComponent(SCR_FlagComponent)));
+		}
+
+		SCR_SortedArray<SCR_Faction> outFactions = new SCR_SortedArray<SCR_Faction>();
+		SCR_FactionManager.Cast(GetGame().GetFactionManager()).GetSortedFactionsList(outFactions);
+		for(int i = 0; i < outFactions.Count(); i++)
+		{
+			if(outFactions[i].GetFactionKey() == startFactionKey)
+				startFaction = outFactions[i];
+			if (outFactions[i].GetFactionKey() == endFactionKey)
+				endFaction = outFactions[i];
+		}
+		
+		flagStartLocalPoses = new array<vector>();
+		for (int i = 0; i < flagNames.Count(); i++)
+		{
+			vector matLS[4];
+			slotManagers[i].GetSlotByName("Flag").GetLocalTransform(matLS);
+			flagStartLocalPoses.Insert(matLS[3]);
+		}
+
+		ChangeFlag(false);
+	}
+
+	void ChangeFlag(bool IsSecondFlag)
+	{
+		isSecondFlag = IsSecondFlag;
+		for (int i = 0; i < flagNames.Count(); i++)
+		{
+			if (!IsSecondFlag)
+			{
+				flagComponents[i].m_sFactionKey = startFactionKey;
+				flagComponents[i].ChangeMaterial(startFaction.GetFactionFlagMaterial());
+			}
+			else
+			{
+				flagComponents[i].m_sFactionKey = endFactionKey;
+				flagComponents[i].ChangeMaterial(endFaction.GetFactionFlagMaterial());
+			}
+		}
+	}
+
+	void Update(float percentage)
+	{
+		if (flagStartLocalPoses == null)
+			Start();
+
+		if (percentage > 0.5 && !isSecondFlag)
+			ChangeFlag(true);
+		else if (percentage <= 0.5 && isSecondFlag)
+			ChangeFlag(false);
+
+		for (int i = 0; i < flagNames.Count(); i++)
+		{
+			vector matLS[4];
+			slotManagers[i].GetSlotByName("Flag").GetLocalTransform(matLS);
+			matLS[3][1] = flagStartLocalPoses[i][1] * (Math.AbsFloat(percentage - 0.5) * 2 - 1);
+			slotManagers[i].GetSlotByName("Flag").SetAdditiveTransformLS(matLS);
+		}
+		return;
+	}
 }
 
 // ============================================================================
@@ -322,6 +421,15 @@ class GUB_ZoneControlBetweenFactionsLogic
 	[Attribute("0", UIWidgets.CheckBox, "Advance game stage to AAR (Debriefing)", "")]
 	bool m_bAdvanceGameStage;
 
+	[Attribute("", desc: "Flags, which indicates capturing status")]
+	ref array<string> m_aFlagNames;
+
+	[Attribute("")]
+	FactionKey m_fStartFactionKey;
+
+	[Attribute("")]
+	FactionKey m_fEndFactionKey;
+
 	[Attribute(defvalue: "", desc: "Objectives marked completed on success")]
 	ref array<string> m_sSuccessObjectiveNames;
 
@@ -354,6 +462,7 @@ class GUB_ZoneControlBetweenFactionsLogic
 	protected bool m_bQueryInFlight;
 
 	protected ref GUB_ZoneControlTimer m_Timer;
+	protected ref GUB_FlagController m_FlagController;
 	protected ref map<string, int> m_mFactionCounts; // счётчики по фракциям
 
 	// Префаб сферического триггера (как в Seizing)
@@ -371,6 +480,9 @@ class GUB_ZoneControlBetweenFactionsLogic
 
 		m_Timer = new GUB_ZoneControlTimer();
 		m_Timer.SetParams(m_aConditions, m_mFactionCounts, m_fTimeToComplete, m_bContinuously);
+
+		m_FlagController = new GUB_FlagController();
+		m_FlagController.SetParams(m_aFlagNames, m_fStartFactionKey, m_fEndFactionKey);
 		
 		if (m_fCheckPeriod <= 0)
 		m_fCheckPeriod = 1.0;
@@ -626,6 +738,8 @@ class GUB_ZoneControlBetweenFactionsLogic
 
 		if (m_Timer.Check(m_fCheckPeriod))
 			Complete();
+		
+		m_FlagController.Update(m_Timer.GetCapturePercentage());
 	}
 
 	// --- Завершение/уведомления/стейт ---
@@ -706,6 +820,21 @@ class GUB_ZoneControlBetweenFactionsLogic
 		{
 			delete m_Trigger;
 			m_Trigger = null;
+		}
+		if (m_Timer)
+		{
+			delete m_Timer;
+			m_Timer = null
+		}
+		if (m_FlagController)
+		{
+			delete m_FlagController;
+			m_FlagController = null;
+		}
+		if (m_FlagController)
+		{
+			delete m_FlagController;
+			m_FlagController = null;
 		}
 	}
 }
