@@ -1,0 +1,65 @@
+GenericEntity {
+ ID "66A89E380830B04F"
+ components {
+  MeshObject "{66A89E3874EA8CB5}" {
+   Object "{9109A8975C3E96DA}Assets/Structures/Military/Flags/FlagPole_02/FlagPole_02_V1.xob"
+   LODFactors {
+    1 1 1 1
+   }
+  }
+  RigidBody "{66A89E3874EA8CF8}" {
+   Enabled 0
+   ResponseIndex "TinyDestructible"
+   ModelGeometry 1
+   Static 1
+  }
+  SCR_DestructionMultiPhaseComponent "{66A89E3874EA8C7E}" {
+   Enabled 0
+   "Additional hit zones" {
+    SCR_HitZone Default {
+     HZDefault 1
+     "Melee multiplier" 1
+     "Kinetic multiplier" 1
+     "Explosive multiplier" 90
+     "Incendiary multiplier" 1
+    }
+   }
+   m_fBaseHealth 1000
+   m_fForceToDamageScale 350
+   m_DestroySpawnObjects {
+    SCR_DebrisSpawnable "{66A89E3874EA8C36}" {
+     m_ModelPrefabs {
+      "{180F19ED1440D32A}Assets/Structures/Military/Flags/FlagPole_01/dst/Flagpole_01_dst.xob"
+     }
+     m_fMass 50
+     m_eMaterialSoundType METAL_POLE
+    }
+   }
+   m_eMaterialSoundType BREAK_METAL_POLE
+  }
+  SCR_FlagComponent "{66A89E3874EA8C61}" {
+   m_sDefaultMaterial "{1D4A447A3E34C70E}Assets/Props/Fabric/Flags/Data/Flag_1_2_CDF.emat"
+  }
+  SlotManagerComponent "{66A89E3874EA8FA7}" {
+   Slots {
+    EntitySlotInfo Flag {
+     Offset 0 4.396 -0.0832
+     Prefab "{9DC80D6DF87E5344}Prefabs/Props/Fabric/Flags/Flag_1_2_CDF.et"
+    }
+   }
+  }
+  BaseActionsManagerComponent "{66A89E3874EA8FF3}" {
+   ActionContexts {
+    UserActionContext "{66A89E3874EA8F87}" {
+     ContextName "default"
+     Position PointInfo "{66A89E3874EA8F85}" {
+      Offset 0 1.1163 0
+     }
+     Radius 10
+    }
+   }
+  }
+ }
+ Flags 1027
+ coords 5474.62 134.245 6961.795
+}

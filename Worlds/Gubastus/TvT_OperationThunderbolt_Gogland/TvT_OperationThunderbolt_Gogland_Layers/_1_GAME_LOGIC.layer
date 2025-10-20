@@ -7,6 +7,11 @@ GenericEntity : "{592E8C59C778A189}Prefabs/System/GUB_ZoneControlBetweenFactions
      m_sZonePreviewName "Зона триггера"
      m_bUseTestingMode 0
      m_bAdvanceGameStage 1
+     m_aFlagNames {
+      "FLAG_1" "FLAG_2" "FLAG_3" "FLAG_4" "FLAG_5" "FLAG_6" "FLAG_7" "FLAG_8" "FLAG_9" "FLAG_10" "FLAG_11" "FLAG_12"
+     }
+     m_fStartFactionKey "Ses_CDF"
+     m_fEndFactionKey "RHS_AFRF"
      m_sSuccessObjectiveNames {
       "AFRF_CAPTURE"
      }
@@ -15,7 +20,7 @@ GenericEntity : "{592E8C59C778A189}Prefabs/System/GUB_ZoneControlBetweenFactions
      }
      m_sMessage "ВСРФ Захватили высоту!"
      m_sPreviewMessageToDescription "Условие победы ВСРФ"
-     m_fTimeToComplete 120
+     m_fTimeToComplete 180
      m_aConditions {
       GUB_ZoneControlBetweenFactionsCondition "{6693121411D9C469}" {
        m_sFirstFactionKey "RHS_AFRF"
