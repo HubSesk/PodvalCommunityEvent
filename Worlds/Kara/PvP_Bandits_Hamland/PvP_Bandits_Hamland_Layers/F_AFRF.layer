@@ -89,6 +89,11 @@ $grp Vehicle : "{53475444C47993E1}Prefabs/Vehicles/Wheeled/TIGR/KORD/drg_GAZ_TIG
   angleY -138.016
   m_sAttachmentGroupName "AFRF_111"
  }
+ AFRF_112_W {
+  coords 5281.539 159.719 3858.8
+  angleY -138.016
+  m_sAttachmentGroupName "AFRF_112"
+ }
 }
 $grp SCR_AIGroup : "{9520E7AB1B4FED25}Prefabs/Groups/OPFOR/drg_Group_RHS_AFRF_Sabotage_Showcase.et" {
  AFRF_100 {
@@ -254,6 +259,21 @@ $grp SCR_AIGroup : "{9520E7AB1B4FED25}Prefabs/Groups/OPFOR/drg_Group_RHS_AFRF_Sa
   }
   coords 412.638 1.063 4060.458
   angleY 48.878
+  m_aUnitPrefabSlots {
+   "{158AD0F1F856A3FB}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/SSO/drg_Role_RHS_AFRF_SSO_SL.et" "{06C8FEFEB2330650}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/SSO/drg_Role_RHS_AFRF_SSO_Rifleman_GM94.et" "{07E4299FECCA2E8A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/SSO/drg_Role_RHS_AFRF_SSO_Flamethrower.et" "{7ABD26EDB53E4CF8}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/SSO/drg_Role_RHS_AFRF_SSO_Rifleman.et" "{7ABD26EDB53E4CF8}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/SSO/drg_Role_RHS_AFRF_SSO_Rifleman.et" "" "" ""
+  }
+  m_sCustomNameSet "Cпецназ"
+ }
+ AFRF_112 {
+  components {
+   PS_GroupCallsignAssigner "{65BD47222F304A37}" {
+    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 2
+   }
+  }
+  coords 5280.998 159.719 3862.296
+  angleY 132.917
   m_aUnitPrefabSlots {
    "{158AD0F1F856A3FB}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/SSO/drg_Role_RHS_AFRF_SSO_SL.et" "{06C8FEFEB2330650}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/SSO/drg_Role_RHS_AFRF_SSO_Rifleman_GM94.et" "{07E4299FECCA2E8A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/SSO/drg_Role_RHS_AFRF_SSO_Flamethrower.et" "{7ABD26EDB53E4CF8}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/SSO/drg_Role_RHS_AFRF_SSO_Rifleman.et" "{7ABD26EDB53E4CF8}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/SSO/drg_Role_RHS_AFRF_SSO_Rifleman.et" "" "" ""
   }
