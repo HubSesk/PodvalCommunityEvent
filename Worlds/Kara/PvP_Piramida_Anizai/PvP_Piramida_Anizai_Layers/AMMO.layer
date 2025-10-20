@@ -26,7 +26,7 @@ $grp GenericEntity : "{F1FDD5669F4C26B2}Prefabs/Props/Military/AmmoBoxes/drg_Amm
     }
    }
   }
-  coords 2100.422 166.813 1521.972
+  coords 2100.192 166.813 1521.715
   angleY -18.542
  }
  LIGHT_000 {
@@ -46,8 +46,9 @@ $grp GenericEntity : "{F1FDD5669F4C26B2}Prefabs/Props/Military/AmmoBoxes/drg_Amm
      }
      MultiSlotConfiguration "{6502C64ED28D7103}" {
       SlotTemplate InventoryStorageSlot "{64DCC2F489C88F5C}" {
-       Enabled 0
+       Prefab "{C0E7CFB85EA7875E}Prefabs/ballistic_shield.et"
       }
+      NumSlots 1
      }
     }
     m_aAllowedItemTypes {
@@ -57,180 +58,6 @@ $grp GenericEntity : "{F1FDD5669F4C26B2}Prefabs/Props/Military/AmmoBoxes/drg_Amm
   }
   coords 2103.571 166.831 1531.896
   angleY -110.823
- }
- VG_100 {
-  components {
-   SCR_FilteredInventoryStorageComponent "{5476A2F100DF4EFF}" {
-    Attributes SCR_ItemAttributeCollection "{5476CDB2EAD8225E}" {
-     ItemDisplayName SCR_InventoryUIInfo "{64F707D10A95B574}" {
-      Name "Световые гранаты ВН-400П"
-     }
-    }
-    MultiSlots {
-     MultiSlotConfiguration "{64F707D11FA7A94D}" {
-      SlotTemplate InventoryStorageSlot "{64DCC2F489C88F5C}" {
-       Prefab "{906F07BD0366E08F}Prefabs/Weapons/Ammo/Ammo_Flare_40mm_VG40OP_White.et"
-      }
-      NumSlots 10
-     }
-     MultiSlotConfiguration "{6502C64ED28D7103}" {
-      SlotTemplate InventoryStorageSlot "{64DCC2F489C88F5C}" {
-       Enabled 0
-      }
-     }
-    }
-    m_aAllowedItemTypes {
-     "RHS_ETOOL"
-    }
-   }
-  }
-  coords 2200.631 167.004 1382.557
-  angleY -111.934
- }
- VG_101 {
-  components {
-   SCR_FilteredInventoryStorageComponent "{5476A2F100DF4EFF}" {
-    Attributes SCR_ItemAttributeCollection "{5476CDB2EAD8225E}" {
-     ItemDisplayName SCR_InventoryUIInfo "{64F707D10A95B574}" {
-      Name "Световые гранаты ВН-400П"
-     }
-    }
-    MultiSlots {
-     MultiSlotConfiguration "{64F707D11FA7A94D}" {
-      SlotTemplate InventoryStorageSlot "{64DCC2F489C88F5C}" {
-       Prefab "{906F07BD0366E08F}Prefabs/Weapons/Ammo/Ammo_Flare_40mm_VG40OP_White.et"
-      }
-      NumSlots 10
-     }
-     MultiSlotConfiguration "{6502C64ED28D7103}" {
-      SlotTemplate InventoryStorageSlot "{64DCC2F489C88F5C}" {
-       Enabled 0
-      }
-     }
-    }
-    m_aAllowedItemTypes {
-     "RHS_ETOOL"
-    }
-   }
-  }
-  coords 2214.545 166.88 1388.407
-  angleY -111.934
- }
- VG_102 {
-  components {
-   SCR_FilteredInventoryStorageComponent "{5476A2F100DF4EFF}" {
-    Attributes SCR_ItemAttributeCollection "{5476CDB2EAD8225E}" {
-     ItemDisplayName SCR_InventoryUIInfo "{64F707D10A95B574}" {
-      Name "Световые гранаты ВН-400П"
-     }
-    }
-    MultiSlots {
-     MultiSlotConfiguration "{64F707D11FA7A94D}" {
-      SlotTemplate InventoryStorageSlot "{64DCC2F489C88F5C}" {
-       Prefab "{906F07BD0366E08F}Prefabs/Weapons/Ammo/Ammo_Flare_40mm_VG40OP_White.et"
-      }
-      NumSlots 10
-     }
-     MultiSlotConfiguration "{6502C64ED28D7103}" {
-      SlotTemplate InventoryStorageSlot "{64DCC2F489C88F5C}" {
-       Enabled 0
-      }
-     }
-    }
-    m_aAllowedItemTypes {
-     "RHS_ETOOL"
-    }
-   }
-  }
-  coords 2218.462 166.856 1386.267
-  angleY -111.934
- }
- VG_200 {
-  components {
-   SCR_FilteredInventoryStorageComponent "{5476A2F100DF4EFF}" {
-    Attributes SCR_ItemAttributeCollection "{5476CDB2EAD8225E}" {
-     ItemDisplayName SCR_InventoryUIInfo "{64F707D10A95B574}" {
-      Name "Световые гранаты ВН-400П"
-     }
-    }
-    MultiSlots {
-     MultiSlotConfiguration "{64F707D11FA7A94D}" {
-      SlotTemplate InventoryStorageSlot "{64DCC2F489C88F5C}" {
-       Prefab "{906F07BD0366E08F}Prefabs/Weapons/Ammo/Ammo_Flare_40mm_VG40OP_White.et"
-      }
-      NumSlots 10
-     }
-     MultiSlotConfiguration "{6502C64ED28D7103}" {
-      SlotTemplate InventoryStorageSlot "{64DCC2F489C88F5C}" {
-       Enabled 0
-      }
-     }
-    }
-    m_aAllowedItemTypes {
-     "RHS_ETOOL"
-    }
-   }
-  }
-  coords 2223.104 166.856 1374.878
-  angleY -111.934
- }
- VG_201 {
-  components {
-   SCR_FilteredInventoryStorageComponent "{5476A2F100DF4EFF}" {
-    Attributes SCR_ItemAttributeCollection "{5476CDB2EAD8225E}" {
-     ItemDisplayName SCR_InventoryUIInfo "{64F707D10A95B574}" {
-      Name "Световые гранаты ВН-400П"
-     }
-    }
-    MultiSlots {
-     MultiSlotConfiguration "{64F707D11FA7A94D}" {
-      SlotTemplate InventoryStorageSlot "{64DCC2F489C88F5C}" {
-       Prefab "{906F07BD0366E08F}Prefabs/Weapons/Ammo/Ammo_Flare_40mm_VG40OP_White.et"
-      }
-      NumSlots 10
-     }
-     MultiSlotConfiguration "{6502C64ED28D7103}" {
-      SlotTemplate InventoryStorageSlot "{64DCC2F489C88F5C}" {
-       Enabled 0
-      }
-     }
-    }
-    m_aAllowedItemTypes {
-     "RHS_ETOOL"
-    }
-   }
-  }
-  coords 2227.741 166.853 1364.57
-  angleY -111.934
- }
- VG_202 {
-  components {
-   SCR_FilteredInventoryStorageComponent "{5476A2F100DF4EFF}" {
-    Attributes SCR_ItemAttributeCollection "{5476CDB2EAD8225E}" {
-     ItemDisplayName SCR_InventoryUIInfo "{64F707D10A95B574}" {
-      Name "Световые гранаты ВН-400П"
-     }
-    }
-    MultiSlots {
-     MultiSlotConfiguration "{64F707D11FA7A94D}" {
-      SlotTemplate InventoryStorageSlot "{64DCC2F489C88F5C}" {
-       Prefab "{906F07BD0366E08F}Prefabs/Weapons/Ammo/Ammo_Flare_40mm_VG40OP_White.et"
-      }
-      NumSlots 10
-     }
-     MultiSlotConfiguration "{6502C64ED28D7103}" {
-      SlotTemplate InventoryStorageSlot "{64DCC2F489C88F5C}" {
-       Enabled 0
-      }
-     }
-    }
-    m_aAllowedItemTypes {
-     "RHS_ETOOL"
-    }
-   }
-  }
-  coords 2232.254 166.853 1353.717
-  angleY -111.934
  }
  LIGHT_101 {
   components {
@@ -259,7 +86,7 @@ $grp GenericEntity : "{F1FDD5669F4C26B2}Prefabs/Props/Military/AmmoBoxes/drg_Amm
     }
    }
   }
-  coords 2091.205 166.812 1518.623
+  coords 2086.542 166.812 1516.263
   angleY -18.542
  }
  LIGHT_102 {
@@ -289,7 +116,7 @@ $grp GenericEntity : "{F1FDD5669F4C26B2}Prefabs/Props/Military/AmmoBoxes/drg_Amm
     }
    }
   }
-  coords 2080.847 166.812 1514.47
+  coords 2094.487 166.812 1537.617
   angleY -18.542
  }
  LIGHT_103 {
@@ -319,7 +146,7 @@ $grp GenericEntity : "{F1FDD5669F4C26B2}Prefabs/Props/Military/AmmoBoxes/drg_Amm
     }
    }
   }
-  coords 2071.858 166.812 1510.963
+  coords 2081.298 166.812 1532.157
   angleY -18.542
  }
  LIGHT_300 {
@@ -349,7 +176,7 @@ $grp GenericEntity : "{F1FDD5669F4C26B2}Prefabs/Props/Military/AmmoBoxes/drg_Amm
     }
    }
   }
-  coords 2065.681 166.781 1517.539
+  coords 2075.069 166.781 1521.175
   angleY -18.542
  }
  LIGHT_203 {
@@ -379,7 +206,7 @@ $grp GenericEntity : "{F1FDD5669F4C26B2}Prefabs/Props/Military/AmmoBoxes/drg_Amm
     }
    }
   }
-  coords 2065.215 166.79 1527.358
+  coords 2179.687 166.812 1545.099
   angleY -18.542
  }
  LIGHT_202 {
@@ -409,7 +236,7 @@ $grp GenericEntity : "{F1FDD5669F4C26B2}Prefabs/Props/Military/AmmoBoxes/drg_Amm
     }
    }
   }
-  coords 2074.658 166.812 1530.621
+  coords 2198.375 166.812 1551.638
   angleY -18.542
  }
  LIGHT_201 {
@@ -439,7 +266,7 @@ $grp GenericEntity : "{F1FDD5669F4C26B2}Prefabs/Props/Military/AmmoBoxes/drg_Amm
     }
    }
   }
-  coords 2084.202 166.813 1533.957
+  coords 2177.217 166.813 1555.961
   angleY -18.542
  }
  LIGHT_200 {
@@ -469,7 +296,7 @@ $grp GenericEntity : "{F1FDD5669F4C26B2}Prefabs/Props/Military/AmmoBoxes/drg_Amm
     }
    }
   }
-  coords 2094.02 166.813 1537.582
+  coords 2194.444 166.812 1562.437
   angleY -18.542
  }
 }

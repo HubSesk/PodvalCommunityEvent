@@ -1,22 +1,61 @@
-$grp SCR_PowerPole : "{15A01C044E105010}Prefabs/Infrastructure/Powerpoles/Powerpole With lamp.et" {
- {
-  coords 2058.548 0 1528.006
-  angleY 97.4
+GenericEntity {
+ components {
+  MeshObject "{66A929967858951E}" {
+   Object "{B5E0FA6FA5FD91D4}Assets/Editor/EffectModule/Editor_Effect_Arrow.xob"
+   CastShadow 0
+   CastFarShadow 0
+   RainOccluder 0
+   WetnessOccluder 0
+   ReceiveLight 0
+  }
  }
- {
-  coords 2067.629 0.003 1505.37
-  angleY 24.257
- }
- {
-  coords 2108.109 -0 1521.154
-  angleY -73.375
- }
- {
-  coords 2099.235 0 1542.595
-  angleY -139.256
- }
+ coords 2089.526 167.593 1528.558
+ angleX 89.675
+ angleY 64.673
+ angleZ -0.852
+ scale 0.01
 }
 GenericEntity : "{335A0EE16637C117}Prefabs/Props/Structures/Doors/FactoryFrameDoor.et" {
  coords 2142.286 166.812 1517.331
  angleY -21.141
+}
+SCR_DestructibleBuildingEntity : "{6224198C327B3E0D}Prefabs/Models/houses/tem_inside_pyramid1o.et" {
+ components {
+  MeshObject "{506EDA9D46FC6C06}" {
+   Object "{8C266BA54F7711DB}source/houses/tem_inside_pyramid1.xob"
+   CastShadow 0
+   RainOccluder 0
+   WetnessOccluder 0
+   ReceiveLight 0
+  }
+  RplComponent "{50A4E7C9B5728062}" {
+   Enabled 1
+  }
+  Hierarchy "{50B87EFBB2BAB285}" {
+   Enabled 1
+  }
+ }
+ coords 2090.044 0.755 1526.954
+ angleY -22.208
+ scale 0.014
+}
+$grp StaticModelEntity : "{B94D11DD03097D5E}PrefabsEditable/Auto/Props/Military/Furniture/E_TableMilitary_US_01.et" {
+ {
+  coords 2090.782 165.831 1527.456
+  angleY 66.939
+  scale 1.86
+ }
+ {
+  coords 2089.406 165.831 1526.87
+  angleY 66.939
+  scale 1.86
+ }
+}
+$grp GameEntity : "{CCFBDDED9E41349A}PrefabsEditable/Auto/Props/Civilian/LampKerosene_01/E_LampKerosene_01_military_USSR.et" {
+ {
+  coords 2088.491 167.505 1527.597
+ }
+ {
+  coords 2091.707 167.505 1526.745
+ }
 }
