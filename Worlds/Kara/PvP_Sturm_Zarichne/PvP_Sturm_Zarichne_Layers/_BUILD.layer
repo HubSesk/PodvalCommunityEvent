@@ -1,13 +1,5 @@
 $grp GenericEntity : "{13A99500A14FA14C}Prefabs/Props/Military/SupplyBox/SupplyShippingContainers/SupplyShippingContainers_01/SupplyShippingContainers_01_20ft.et" {
  {
-  coords 4490.177 27.688 4337.874
-  angleY -95.059
- }
- {
-  coords 4490.43 27.688 4335.405
-  angleY -95.642
- }
- {
   coords 4490.72 27.686 4332.903
   angleY -95.642
  }
@@ -26,6 +18,14 @@ $grp Turret : "{1A407760EEAE4156}Prefabs/Vehicles/Static/BaconZU23/BaconZU23_Tur
   angleX 3.174
   angleY -95.963
   angleZ -0.187
+ }
+}
+$grp StaticModelEntity : "{1BB9E9ECC5AD0E88}PrefabsEditable/Auto/Structures/Infrastructure/Towers/E_TransmitterTower_01.et" {
+ {
+  coords 3409.688 24.776 3530.41
+ }
+ {
+  coords 2534.457 6.594 1149.58
  }
 }
 GenericEntity : "{24F98A215FAA249C}Prefabs/Structures/Signs/Military/Supplies/Sign_SupplyStorage_01_Supplies_FIA.et" {
@@ -47,6 +47,18 @@ $grp GenericEntity : "{6AE0184B9AAA256D}Prefabs/Props/Military/AmmoBoxes/drg_Amm
      MultiSlotConfiguration "{64F707D11FA7A94D}" {
       NumSlots 100
      }
+     MultiSlotConfiguration "{66AB22483BF7B7A1}" {
+      SlotTemplate InventoryStorageSlot Map {
+       Prefab "{B41607EAB58A4252}Prefabs/Items/Equipment/BalisticTable/BalisticTable_USSR.et"
+      }
+      NumSlots 2
+     }
+     MultiSlotConfiguration "{66AB3384F402BCEF}" {
+      SlotTemplate InventoryStorageSlot GPS {
+       Prefab "{A55A815F28739FEC}Prefabs/Items/Equipment/Navigation/Orion/Orion.et"
+      }
+      NumSlots 2
+     }
     }
    }
   }
@@ -59,6 +71,18 @@ $grp GenericEntity : "{6AE0184B9AAA256D}Prefabs/Props/Military/AmmoBoxes/drg_Amm
     MultiSlots {
      MultiSlotConfiguration "{64F707D11FA7A94D}" {
       NumSlots 100
+     }
+     MultiSlotConfiguration "{66AB33845EBC66F0}" {
+      SlotTemplate InventoryStorageSlot MAP {
+       Prefab "{B41607EAB58A4252}Prefabs/Items/Equipment/BalisticTable/BalisticTable_USSR.et"
+      }
+      NumSlots 2
+     }
+     MultiSlotConfiguration "{66AB33845E0940C0}" {
+      SlotTemplate InventoryStorageSlot GPS {
+       Prefab "{A55A815F28739FEC}Prefabs/Items/Equipment/Navigation/Orion/Orion.et"
+      }
+      NumSlots 2
      }
     }
    }

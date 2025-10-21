@@ -80,33 +80,6 @@ $grp SCR_EditorRestrictionZoneEntity : "{EF72FA7CD87618D5}PrefabsEditable/Restri
    }
   }
  }
- AFRF_FREEZ_3 {
-  components {
-   SCR_ZoneRestrictionAreaMeshComponent "{56D8A3C5A31496A1}" {
-    m_fHeight 2
-    m_bFollowTerrain 1
-   }
-  }
-  coords 4506.365 26.281 4046.741
-  angleX 1.136
-  angleY 0.09
-  angleZ 4.509
-  m_fWarnRadius 60
-  m_fZoneRadius 80
-  m_fZoneTeleportedRadius 100
-  {
-   GenericEntity {
-    ID "59D673B36B893D84"
-    components {
-     SCR_CustomAreaMeshComponent "{59D673B22B1EBC57}" {
-      m_fHeight 2
-      m_bFollowTerrain 1
-      m_fRadius 60
-     }
-    }
-   }
-  }
- }
  AFRF_FREEZ_4 {
   components {
    SCR_ZoneRestrictionAreaMeshComponent "{56D8A3C5A31496A1}" {
@@ -412,6 +385,60 @@ $grp SCR_EditorRestrictionZoneEntity : "{EF72FA7CD87618D5}PrefabsEditable/Restri
    }
   }
   coords 1135.07 20.594 2446.046
+  angleX 1.136
+  angleY 0.09
+  angleZ 4.509
+  m_fWarnRadius 20
+  m_fZoneRadius 40
+  m_fZoneTeleportedRadius 60
+  {
+   GenericEntity {
+    ID "59D673B36B893D84"
+    components {
+     SCR_CustomAreaMeshComponent "{59D673B22B1EBC57}" {
+      m_fHeight 2
+      m_bFollowTerrain 1
+      m_fRadius 20
+     }
+    }
+   }
+  }
+ }
+ CDF_FREEZ_11 {
+  components {
+   SCR_ZoneRestrictionAreaMeshComponent "{56D8A3C5A31496A1}" {
+    m_fHeight 2
+    m_bFollowTerrain 1
+   }
+  }
+  coords 3409.652 24.776 3530.474
+  angleX 1.136
+  angleY 0.09
+  angleZ 4.509
+  m_fWarnRadius 20
+  m_fZoneRadius 40
+  m_fZoneTeleportedRadius 60
+  {
+   GenericEntity {
+    ID "59D673B36B893D84"
+    components {
+     SCR_CustomAreaMeshComponent "{59D673B22B1EBC57}" {
+      m_fHeight 2
+      m_bFollowTerrain 1
+      m_fRadius 20
+     }
+    }
+   }
+  }
+ }
+ CDF_FREEZ_12 {
+  components {
+   SCR_ZoneRestrictionAreaMeshComponent "{56D8A3C5A31496A1}" {
+    m_fHeight 2
+    m_bFollowTerrain 1
+   }
+  }
+  coords 2534.592 6.594 1149.724
   angleX 1.136
   angleY 0.09
   angleZ 4.509
