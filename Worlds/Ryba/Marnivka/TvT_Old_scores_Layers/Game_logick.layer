@@ -1,0 +1,47 @@
+GenericEntity : "{6A3CDCFB475BF1B2}Prefabs/System/DRG_CriticalLossPrefab.et" {
+ components {
+  DRG_CriticalLossComponent "{65213D368F1BD792}" {
+   m_aLossLogics {
+    LossLogic "{66AA89D72430D877}" {
+     m_aLosses {
+      FactionLoss "{66AA89D727A3709E}" {
+       m_sFactionKey "Ses_CDF"
+      }
+     }
+     m_sObjectiveNames {
+      "Losses_ChDKZ"
+     }
+     m_bAdvanceGameStage 1
+     m_bUseMessage 1
+     m_bEventMessage "#drg_ModuleCriticalLoss_ConditionMet_DefendWin"
+    }
+    LossLogic "{66AA89D7D87242D5}" {
+     m_aLosses {
+      FactionLoss "{66AA89D7DD66254D}" {
+       m_iCriticalLossCount 4
+       m_sFactionKey "Ses_ChDKZ"
+      }
+     }
+     m_sObjectiveNames {
+      "Losses_CDF"
+     }
+     m_bAdvanceGameStage 1
+     m_bUseMessage 1
+     m_bEventMessage "#drg_ModuleCriticalLoss_ConditionMet_AttackWin"
+    }
+   }
+  }
+ }
+ coords 1775.555 33.427 1086.579
+}
+GenericEntity : "{E6FC6DD69FA3479F}Prefabs/System/DRG_MissionEndTimerPrefab.et" {
+ components {
+  DRG_MissionEndTimerComponent "{651B0839B21B3BBF}" {
+   m_iMissionTime 2700
+   m_aTimeLeftWarningTimers {
+    300 900
+   }
+  }
+ }
+ coords 1775.655 33.422 1086.878
+}

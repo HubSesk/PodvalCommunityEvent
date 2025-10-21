@@ -1,0 +1,96 @@
+$grp SCR_EditorRestrictionZoneEntity : "{6144B0BE2EAC6897}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneMedium.et" {
+ {
+  coords 3008.853 19.621 367.573
+ }
+ {
+  coords 3140.919 50.583 2334.987
+ }
+}
+PolylineShapeEntity : "{7019844BAD5C4DD8}Prefabs/PolyZone/PolyZone_Border.et" {
+ components {
+  PS_PolyZone "{60E90266F25533F6}" {
+   m_mPolygonTexture "{928B4092981F27CB}UI/layouts/Textures/Zone.edds"
+   m_cPolygonColor 1 0 0 1
+   m_mPolygonTextureBorder "{CA01D453D39FB430}UI/layouts/Textures/ZoneBorder.edds"
+   m_cPolygonBorderColor 1 0 0 1
+   m_fPolygonBorderWidth 5.3
+   m_aVisibleForFactions {
+    "" "Ses_CDF" "Ses_ChDKZ"
+   }
+  }
+ }
+ coords 2337.813 39.101 52.066
+ Points {
+  ShapePoint "{66A8EAE441E3A768}" {
+   Position -263.848 0 489.489
+  }
+  ShapePoint "{66A8EAE44488270D}" {
+   Position -268.313 0 798.107
+  }
+  ShapePoint "{66A8EAE44992CDB2}" {
+   Position -95.166 0 1079.436
+  }
+  ShapePoint "{66A8EAE47030131C}" {
+   Position -366.211 0 1409.406
+  }
+  ShapePoint "{66A8EAE4738CE164}" {
+   Position 93.278 0 2806.453
+  }
+  ShapePoint "{66A8EAE41CB4A1CA}" {
+   Position 982.289 0 2726.943
+  }
+  ShapePoint "{66A8EAE40623DDD2}" {
+   Position 974.018 0 1312.784
+  }
+  ShapePoint "{66A8EAE43908957B}" {
+   Position 946.944 0 13.603
+  }
+  ShapePoint "{66A8EAE438ACD599}" {
+   Position 15.794 0 -1.07
+  }
+ }
+}
+$grp SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
+ {
+  coords 2418.34 35.937 180.084
+ }
+ {
+  coords 2829.906 20.751 375.871
+ }
+ {
+  coords 3047.24 63.794 2478.971
+ }
+}
+PolylineShapeEntity : "{BD11B8FAA469D169}Prefabs/PolyZone/PolyZone.et" {
+ components {
+  PS_PolyZone "{60E90266F25533F6}" {
+   m_mPolygonTextureBorder "{CA01D453D39FB430}UI/layouts/Textures/ZoneBorder.edds"
+   m_cPolygonBorderColor 0 0.399 1 1
+   m_fPolygonBorderWidth 5
+   m_bLineMode 1
+   m_aVisibleForFactions {
+    "" "Ses_ChDKZ" "Ses_CDF"
+   }
+  }
+ }
+ coords 1971.792 51.245 1461.543
+ Points {
+  ShapePoint "{66A8EAE5509A5C28}" {
+   Position 1340.508 0 -64.927
+  }
+ }
+}
+$grp SCR_EditorRestrictionZoneEntity : "{EF72FA7CD87618D5}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneSmall.et" {
+ {
+  coords 2791.441 89.898 2613.969
+  {
+   GenericEntity {
+    ID "59D673B36B893D84"
+    coords 0.482 0.006 0.321
+   }
+  }
+ }
+ {
+  coords 2859.733 82.969 2582.2
+ }
+}

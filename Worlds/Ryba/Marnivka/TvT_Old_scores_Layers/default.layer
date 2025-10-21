@@ -1,3 +1,8 @@
+SCR_MapEntity MapEntity1 : "{731564B66F91B107}Prefabs/World/Game/MapEntity.et" {
+ coords -2.337 -2.318 -2.117
+ "Map Geometry Data" "{2696E39EA520CF9E}worlds/MarnivkaGM/MarnivkaGM.topo"
+ "Satellite background image" "{9E865DFEFED14A64}worlds/MarnivkaGM/MarnivkaGM.edds"
+}
 SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
  coords 0 0 0
 }
@@ -11,8 +16,7 @@ PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_Game
   }
   SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
    Enabled 0
-   m_iStartingHours 19
-   m_iStartingMinutes 40
+   m_iStartingHours 12
   }
  }
  m_bMarkersOnlyOnBriefing 1
@@ -30,8 +34,8 @@ GenericEntity : "{04B5CC36F933A2D4}Prefabs/System/DRG_DateTimeInjectorPrefab.et"
  components {
   DRG_DateTimeInjectorComponent "{658E74C94A2C74AE}" {
    m_iYear 2025
-   m_iDay 12
-   m_iHours 0
+   m_iDay 6
+   m_iHours 12
    m_iMinutes 0
   }
  }
