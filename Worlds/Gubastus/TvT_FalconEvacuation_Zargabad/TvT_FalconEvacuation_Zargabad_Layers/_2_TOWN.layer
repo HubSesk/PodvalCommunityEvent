@@ -1,3 +1,18 @@
+$grp SCR_DestructibleBuildingEntity : "{08E7D4A8FDE0DB6E}Prefabs/Structures/Bulding/HouseL/House_L_1_EP1_Full.et" {
+ {
+  coords 3957.126 16.08 4114.329
+ }
+ {
+  coords 3931.654 15.991 4113.245
+ }
+ {
+  coords 4237.845 17 4117.852
+  angleY 180
+ }
+ {
+  coords 4237.844 17 4105.463
+ }
+}
 SCR_DestructibleBuildingEntity : "{0A7F65814BBE3771}Prefabs/Structures/Bulding/HouseK/House_K_3_EP1_Full.et" {
  coords 4213.542 17.498 4009.879
  angleY 31.523
@@ -14,10 +29,19 @@ $grp SCR_DestructibleBuildingEntity : "{12311D0E5C6AE54A}Prefabs/Structures/Buld
   coords 4137.422 16.874 3983.376
   angleY -169.246
  }
+ {
+  coords 4009.125 16.156 4025.47
+ }
 }
-SCR_DestructibleBuildingEntity : "{159E8F1052F9F927}Prefabs/Structures/Bulding/HouseC/House_C_9_EP1.et" {
- coords 4135.587 16.313 4252.618
- angleY 90
+$grp SCR_DestructibleBuildingEntity : "{159E8F1052F9F927}Prefabs/Structures/Bulding/HouseC/House_C_9_EP1.et" {
+ {
+  coords 4135.587 16.313 4252.618
+  angleY 90
+ }
+ {
+  coords 4244.8 16.668 4202.376
+  angleY 90
+ }
 }
 $grp GenericEntity : "{1649BD4423178DA9}Prefabs/Structures/Misc/Torba.et" {
  {
@@ -107,7 +131,7 @@ $grp GenericEntity : "{1649BD4423178DA9}Prefabs/Structures/Misc/Torba.et" {
 }
 $grp Tree : "{1B72E3F82B36964B}Prefabs/Vegetation/Tree/t_salix_fragilis/t_salix_fragilis_3s.et" {
  {
-  coords 4132.479 -0 4268.208
+  coords 4132.479 0 4268.208
   angleX -0.708
   angleY -45.004
   angleZ -2.121
@@ -119,25 +143,25 @@ $grp Tree : "{1B72E3F82B36964B}Prefabs/Vegetation/Tree/t_salix_fragilis/t_salix_
   angleZ -2.121
  }
  {
-  coords 4104.682 -0 4283.82
+  coords 4104.682 0 4283.82
   angleX -0.708
   angleY -45.004
   angleZ -2.121
  }
  {
-  coords 4146.359 -0 4283.804
+  coords 4146.359 0 4283.804
   angleX -0.708
   angleY -45.004
   angleZ -2.121
  }
  {
-  coords 4136.17 -0 4278.332
+  coords 4136.17 0 4278.332
   angleX -0.708
   angleY -45.004
   angleZ -2.121
  }
  {
-  coords 4122.3 -0 4256.129
+  coords 4122.3 0 4256.129
   angleX -0.708
   angleY -45.004
   angleZ -2.121
@@ -155,37 +179,37 @@ $grp Tree : "{1B72E3F82B36964B}Prefabs/Vegetation/Tree/t_salix_fragilis/t_salix_
   angleZ -2.121
  }
  {
-  coords 4082.189 -0 4124.689
+  coords 4082.189 0 4124.689
   angleX -0.708
   angleY -45.004
   angleZ -2.121
  }
  {
-  coords 4101.261 -0 4271.191
+  coords 4101.261 0 4271.191
   angleX -0.708
   angleY -45.004
   angleZ -2.121
  }
  {
-  coords 3995.316 -0 4151.006
+  coords 3995.316 0 4151.006
   angleX -0.708
   angleY -45.004
   angleZ -2.121
  }
  {
-  coords 4024.68 -0 4141.076
+  coords 4024.68 0 4141.076
   angleX -0.708
   angleY -45.004
   angleZ -2.121
  }
  {
-  coords 4036.6 -0 4122.784
+  coords 4036.6 0 4122.784
   angleX -0.708
   angleY -45.004
   angleZ -2.121
  }
  {
-  coords 4005.362 -0 4161.293
+  coords 4005.362 0 4161.293
   angleX -0.708
   angleY -45.004
   angleZ -2.121
@@ -197,7 +221,7 @@ $grp Tree : "{1B72E3F82B36964B}Prefabs/Vegetation/Tree/t_salix_fragilis/t_salix_
   angleZ -2.121
  }
  {
-  coords 4097.942 -0 4113.817
+  coords 4097.942 0 4113.817
   angleX -0.708
   angleY -45.004
   angleZ -2.121
@@ -209,13 +233,13 @@ $grp Tree : "{1B72E3F82B36964B}Prefabs/Vegetation/Tree/t_salix_fragilis/t_salix_
   angleZ -2.121
  }
  {
-  coords 4005.892 -0 4191.648
+  coords 4005.892 0 4191.648
   angleX -0.708
   angleY -45.004
   angleZ -2.121
  }
  {
-  coords 4139.184 -0 4133.514
+  coords 4139.184 0 4133.514
   angleX -0.708
   angleY -45.004
   angleZ -2.121
@@ -251,19 +275,19 @@ $grp Tree : "{1B72E3F82B36964B}Prefabs/Vegetation/Tree/t_salix_fragilis/t_salix_
   angleZ -2.121
  }
  {
-  coords 4036.529 -0 4196.476
+  coords 4036.529 0 4196.476
   angleX -0.708
   angleY -45.004
   angleZ -2.121
  }
  {
-  coords 4220.303 -0 4058.509
+  coords 4220.303 0 4058.509
   angleX -0.708
   angleY -45.004
   angleZ -2.121
  }
  {
-  coords 4087.08 -0 4175.569
+  coords 4087.08 0 4175.569
   angleX -0.708
   angleY -45.004
   angleZ -2.121
@@ -287,13 +311,13 @@ $grp Tree : "{1B72E3F82B36964B}Prefabs/Vegetation/Tree/t_salix_fragilis/t_salix_
   angleZ -2.121
  }
  {
-  coords 4131.119 -0 4205.762
+  coords 4131.119 0 4205.762
   angleX -0.708
   angleY -45.004
   angleZ -2.121
  }
  {
-  coords 4146.559 -0 4107.529
+  coords 4146.559 0 4107.529
   angleX -0.708
   angleY -45.004
   angleZ -2.121
@@ -305,11 +329,11 @@ $grp Tree : "{1B72E3F82B36964B}Prefabs/Vegetation/Tree/t_salix_fragilis/t_salix_
   angleZ -2.121
  }
  {
-  coords 4102.502 -0 4004.996
+  coords 4102.502 0 4004.996
   angleY 123
  }
  {
-  coords 4133.511 -0 3996.884
+  coords 4133.511 0 3996.884
   angleY 123
  }
  {
@@ -317,11 +341,11 @@ $grp Tree : "{1B72E3F82B36964B}Prefabs/Vegetation/Tree/t_salix_fragilis/t_salix_
   angleY 123
  }
  {
-  coords 4148.174 -0 3993.226
+  coords 4148.174 0 3993.226
   angleY 123
  }
  {
-  coords 4160.396 -0 3971.382
+  coords 4160.396 0 3971.382
   angleY 123
  }
  {
@@ -335,6 +359,166 @@ $grp Tree : "{1B72E3F82B36964B}Prefabs/Vegetation/Tree/t_salix_fragilis/t_salix_
   angleX -0.708
   angleY -45.004
   angleZ -2.121
+ }
+ {
+  coords 3958.981 -0 4171.413
+  angleX -0.708
+  angleY -45.004
+  angleZ -2.121
+ }
+ {
+  coords 3971.593 0 4176.026
+  angleX -0.708
+  angleY -45.004
+  angleZ -2.121
+ }
+ {
+  coords 3970.749 0 4165.173
+  angleX -0.708
+  angleY -45.004
+  angleZ -2.121
+ }
+ {
+  coords 4019.105 0 4197.324
+  angleX -0.708
+  angleY -45.004
+  angleZ -2.121
+ }
+ {
+  coords 3921.497 -0 4114.389
+  angleX -0.708
+  angleY -45.004
+  angleZ -2.121
+ }
+ {
+  coords 3970.247 0 4120.218
+  angleX -0.708
+  angleY -45.004
+  angleZ -2.121
+ }
+ {
+  coords 3954.568 -0 4118.878
+  angleX -0.708
+  angleY -45.004
+  angleZ -2.121
+ }
+ {
+  coords 3980.607 -0 4134.825
+  angleX -0.708
+  angleY -45.004
+  angleZ -2.121
+ }
+ {
+  coords 3982.792 -0 4115.85
+  angleX -0.708
+  angleY -45.004
+  angleZ -2.121
+ }
+ {
+  coords 3996.709 0 4116.615
+  angleX -0.708
+  angleY -45.004
+  angleZ -2.121
+ }
+ {
+  coords 4240.901 -0 4114.48
+  angleX 1.218
+  angleY 64.035
+  angleZ -1.588
+ }
+ {
+  coords 4223.867 -0.024 4107
+  angleX 1.218
+  angleY 64.035
+  angleZ -1.588
+ }
+ {
+  coords 4209.694 0 4109.057
+  angleX 1.218
+  angleY 64.035
+  angleZ -1.588
+ }
+ {
+  coords 4051.183 -0 4010.875
+  angleY 123
+ }
+ {
+  coords 4030.912 -0 4034.075
+  angleY 123
+ }
+ {
+  coords 4007.868 0 4032.496
+  angleY 123
+ }
+ {
+  coords 4009.859 0 4049.017
+  angleY 123
+ }
+ {
+  coords 4056.863 0 4048.517
+  angleY 123
+ }
+ {
+  coords 4049.694 0 4038.515
+  angleY 123
+ }
+ {
+  coords 3997.874 -0.03 4018.054
+  angleY 123
+ }
+}
+$grp GenericEntity : "{25B265F3E7CBDFC8}Prefabs/Props/Wrecks/BMP1_wreck.et" {
+ {
+  components {
+   BaseSlotComponent "{51126E669CF64A1D}" {
+    AttachType EntitySlotInfo "{51126E66FDA4BB72}" {
+     Angles 0 103.902 0
+    }
+   }
+  }
+  coords 3941.037 16.828 4124.161
+  angleX 25.848
+  angleY -83.013
+  angleZ 5.248
+ }
+ {
+  components {
+   BaseSlotComponent "{51126E669CF64A1D}" {
+    AttachType EntitySlotInfo "{51126E66FDA4BB72}" {
+     Angles 0 103.902 0
+    }
+   }
+  }
+  coords 3990.135 16.065 4116.706
+  angleX 2.049
+  angleY 127.451
+  angleZ -4.298
+ }
+ {
+  components {
+   BaseSlotComponent "{51126E669CF64A1D}" {
+    AttachType EntitySlotInfo "{51126E66FDA4BB72}" {
+     Angles 0 103.902 0
+    }
+   }
+  }
+  coords 3951.825 15.895 4173.467
+  angleX -4.612
+  angleY 26.402
+  angleZ -1.182
+ }
+ {
+  components {
+   BaseSlotComponent "{51126E669CF64A1D}" {
+    AttachType EntitySlotInfo "{51126E66FDA4BB72}" {
+     Angles 0 103.902 0
+    }
+   }
+  }
+  coords 4212.917 17.057 4103.267
+  angleX -0.728
+  angleY -35.621
+  angleZ 0.521
  }
 }
 $grp GenericEntity : "{25ED9C1A5F68A573}Prefabs/Props/Garbage/Bins/BinInterior_01_green.et" {
@@ -361,6 +545,60 @@ $grp GenericEntity : "{25ED9C1A5F68A573}Prefabs/Props/Garbage/Bins/BinInterior_0
   angleX 0.595
   angleY -73.897
   angleZ 0.561
+ }
+}
+SCR_DestructibleBuildingEntity : "{26D9ACB98DEC20C2}Prefabs/Structures/Wall/Wall_2_Door.et" {
+ coords 3992.237 16.126 4148.288
+ angleX 0.667
+ angleY -151.682
+ angleZ 1.598
+}
+$grp GenericEntity : "{29063844DEEAC10B}Prefabs/Props/Garbage/Generic/Junk_01/Junk_01_pile_large.et" {
+ {
+  coords 3937.797 16.051 4121.719
+  angleX -0.928
+  angleY 144.186
+  angleZ 1.773
+ }
+ {
+  coords 3937.034 16.147 4125.171
+  angleX 1.425
+  angleY 71.185
+  angleZ 1.405
+ }
+ {
+  coords 3934.899 16.148 4126.285
+  angleX 0.403
+  angleY 104.938
+  angleZ 1.96
+ }
+ {
+  coords 3996.748 16.157 4048.26
+  angleY -171.849
+ }
+ {
+  coords 3999.438 16.15 4048.027
+  angleY -171.849
+ }
+ {
+  coords 4002.806 16.156 4048.081
+  angleY -171.849
+ }
+ {
+  coords 4056.391 16.253 4046.181
+  angleY -171.849
+ }
+ {
+  coords 4055.662 16.258 4043.944
+  angleY -146.755
+ }
+ {
+  coords 4053.711 16.276 4045.715
+  angleY -87.04
+ }
+ {
+  coords 4053.915 16.25 4042.133
+  angleY -150.092
  }
 }
 $grp GenericEntity : "{2A8D029D69C5281E}Prefabs/Structures/Misc/Chair.et" {
@@ -434,6 +672,21 @@ $grp SCR_DestructibleBuildingEntity : "{2AACDC6030C1C0EA}Prefabs/Structures/Buld
   coords 4212.208 17.187 4054.125
   angleY -150
  }
+ {
+  coords 3967.21 16.122 4115.401
+  angleY -180
+ }
+ {
+  coords 3941.737 16.053 4114.316
+  angleY 180
+ }
+ {
+  coords 4219.596 17 4116.2
+ }
+}
+SCR_DestructibleEntity : "{37382E22EACF3E8A}Prefabs/Structures/Walls/Brick/BrickWall_02/BrickWall_Takistan_4m_D.et" {
+ coords 4098.356 -0.008 3984.816
+ angleY -148.296
 }
 $grp GenericEntity : "{3D54B486FA666640}Prefabs/Structures/Market/SmallStand.et" {
  {
@@ -480,6 +733,12 @@ $grp GenericEntity : "{3F0D0593590519DA}Prefabs/Props/Garbage/Tires/TirePile_01_
   angleY 15.03
   angleZ 0.232
  }
+ {
+  coords 4055.172 16.387 4044.263
+  angleX 0.38
+  angleY -64.908
+  angleZ 8.325
+ }
 }
 $grp GenericEntity : "{590D0CC992E8AC25}Prefabs/Compositions/Misc/SubCompositions/Decorations/Crate_Bottles_01.et" {
  {
@@ -520,9 +779,28 @@ $grp SCR_DestructibleBuildingEntity : "{5B22476A7FA55A62}Prefabs/Structures/Buld
   angleY 90
  }
 }
-SCR_DestructibleBuildingEntity : "{5D1B169B33219E89}Prefabs/Structures/Bulding/HouseL/House_L_7_EP1.et" {
- coords 4071.03 16.209 4191.81
- angleY -90
+$grp SCR_DestructibleBuildingEntity : "{5D1B169B33219E89}Prefabs/Structures/Bulding/HouseL/House_L_7_EP1.et" {
+ {
+  coords 4071.03 16.209 4191.81
+  angleY -90
+ }
+ {
+  coords 4042.394 16.265 4042.706
+  angleY 179.358
+ }
+}
+$grp StaticModelEntity : "{6076DDC38C977F9E}Prefabs/Structures/SideWalks/SW_ATC_A_turn_EP1.et" {
+ {
+  coords 4195.572 -0.135 4218.767
+  angleY 270
+ }
+ {
+  coords 4289.742 -0.126 4212.469
+ }
+ {
+  coords 4283.468 -0.224 4094.087
+  angleY 90
+ }
 }
 $grp GenericEntity : "{62D08E8600994BA3}Prefabs/Structures/Misc/Canister.et" {
  {
@@ -548,6 +826,350 @@ $grp GenericEntity : "{62D08E8600994BA3}Prefabs/Structures/Misc/Canister.et" {
   angleX -0.212
   angleY -122.681
   angleZ 0.189
+ }
+}
+$grp StaticModelEntity : "{6A75A7C87DD67058}Prefabs/Structures/SideWalks/SW_ATC_A_body_6m_EP1.et" {
+ {
+  coords 4221.153 -0.154 4094.084
+  angleX 0.27
+  angleY 90.003
+  angleZ 0.001
+ }
+ {
+  coords 4227.375 -0.179 4094.084
+  angleX 0.27
+  angleY 90.003
+  angleZ 0.001
+ }
+ {
+  coords 4214.972 -0.136 4094.084
+  angleX 0.27
+  angleY 90.003
+  angleZ 0.001
+ }
+ {
+  coords 4208.74 -0.085 4094.084
+  angleX 0.27
+  angleY 90.003
+  angleZ 0.001
+ }
+ {
+  coords 4245.878 -0.134 4094.083
+  angleX 0.27
+  angleY 90.003
+  angleZ 0.001
+ }
+ {
+  coords 4252.103 -0.071 4094.083
+  angleX 0.27
+  angleY 90.003
+  angleZ 0.001
+ }
+ {
+  coords 4239.7 -0.168 4094.083
+  angleX 0.27
+  angleY 90.003
+  angleZ 0.001
+ }
+ {
+  coords 4233.468 -0.192 4094.083
+  angleX 0.27
+  angleY 90.003
+  angleZ 0.001
+ }
+ {
+  coords 4270.445 -0.077 4094.082
+  angleX 0.27
+  angleY 90.003
+  angleZ 0.001
+ }
+ {
+  coords 4276.67 -0.048 4094.082
+  angleX 0.27
+  angleY 90.003
+  angleZ 0.001
+ }
+ {
+  coords 4264.268 -0.164 4094.082
+  angleX 0.27
+  angleY 90.003
+  angleZ 0.001
+ }
+ {
+  coords 4258.035 -0.106 4094.082
+  angleX 0.27
+  angleY 90.003
+  angleZ 0.001
+ }
+ {
+  coords 4189.681 -0.209 4094.085
+  angleX 0.27
+  angleY 90.003
+  angleZ 0.001
+ }
+ {
+  coords 4195.913 -0.117 4094.085
+  angleX 0.27
+  angleY 90.003
+  angleZ 0.001
+ }
+ {
+  coords 4202.094 -0.055 4094.085
+  angleX 0.27
+  angleY 90.003
+  angleZ 0.001
+ }
+ {
+  coords 4208.314 -0.087 4094.085
+  angleX 0.27
+  angleY 90.003
+  angleZ 0.001
+ }
+ {
+  coords 4189.306 0 4124.648
+  angleX 0.27
+  angleY -180
+  angleZ 0.001
+ }
+ {
+  coords 4189.306 -0.016 4130.875
+  angleX 0.27
+  angleY -180
+  angleZ 0.001
+ }
+ {
+  coords 4189.306 -0.025 4143.225
+  angleX 0.27
+  angleY -180
+  angleZ 0.001
+ }
+ {
+  coords 4189.306 -0.027 4136.999
+  angleX 0.27
+  angleY -180
+  angleZ 0.001
+ }
+ {
+  coords 4189.306 -0.079 4168.016
+  angleX 0.27
+  angleY -180
+  angleZ 0.001
+ }
+ {
+  coords 4189.306 -0.05 4161.789
+  angleX 0.27
+  angleY -180
+  angleZ 0.001
+ }
+ {
+  coords 4189.306 -0.058 4155.665
+  angleX 0.27
+  angleY -180
+  angleZ 0.001
+ }
+ {
+  coords 4189.306 -0.023 4149.438
+  angleX 0.27
+  angleY -180
+  angleZ 0.001
+ }
+ {
+  coords 4189.306 -0.106 4211.357
+  angleX 0.27
+  angleY -180
+  angleZ 0.001
+ }
+ {
+  coords 4189.306 -0.088 4205.233
+  angleX 0.27
+  angleY -180
+  angleZ 0.001
+ }
+ {
+  coords 4189.306 -0.085 4199.006
+  angleX 0.27
+  angleY -180
+  angleZ 0.001
+ }
+ {
+  coords 4189.306 -0.091 4192.794
+  angleX 0.27
+  angleY -180
+  angleZ 0.001
+ }
+ {
+  coords 4189.306 -0.096 4186.566
+  angleX 0.27
+  angleY -180
+  angleZ 0.001
+ }
+ {
+  coords 4189.306 -0.076 4180.442
+  angleX 0.27
+  angleY -180
+  angleZ 0.001
+ }
+ {
+  coords 4189.306 -0.078 4174.217
+  angleX 0.27
+  angleY -180
+  angleZ 0.001
+ }
+ {
+  coords 4284.428 -0.262 4218.771
+  angleX -0.001
+  angleY -90
+  angleZ 0.27
+ }
+ {
+  coords 4278.304 -0.27 4218.772
+  angleX -0.001
+  angleY -90
+  angleZ 0.27
+ }
+ {
+  coords 4272.076 -0.212 4218.772
+  angleX -0.001
+  angleY -90
+  angleZ 0.27
+ }
+ {
+  coords 4265.865 -0.226 4218.772
+  angleX -0.001
+  angleY -90
+  angleZ 0.27
+ }
+ {
+  coords 4259.636 -0.204 4218.772
+  angleX -0.001
+  angleY -90
+  angleZ 0.27
+ }
+ {
+  coords 4253.512 -0.196 4218.772
+  angleX -0.001
+  angleY -90
+  angleZ 0.27
+ }
+ {
+  coords 4247.286 -0.174 4218.772
+  angleX -0.001
+  angleY -90
+  angleZ 0.27
+ }
+ {
+  coords 4241.084 -0.164 4218.772
+  angleX -0.001
+  angleY -90
+  angleZ 0.27
+ }
+ {
+  coords 4234.858 -0.165 4218.772
+  angleX -0.001
+  angleY -90
+  angleZ 0.27
+ }
+ {
+  coords 4228.735 -0.166 4218.772
+  angleX -0.001
+  angleY -90
+  angleZ 0.27
+ }
+ {
+  coords 4222.507 -0.174 4218.772
+  angleX -0.001
+  angleY -90
+  angleZ 0.27
+ }
+ {
+  coords 4216.294 -0.166 4218.772
+  angleX -0.001
+  angleY -90
+  angleZ 0.27
+ }
+ {
+  coords 4210.066 -0.166 4218.772
+  angleX -0.001
+  angleY -90
+  angleZ 0.27
+ }
+ {
+  coords 4203.944 -0.134 4218.772
+  angleX -0.001
+  angleY -90
+  angleZ 0.27
+ }
+ {
+  coords 4189.306 -0.125 4213.349
+  angleX 0.27
+  angleY -180
+  angleZ 0.001
+ }
+ {
+  coords 4201.787 -0.134 4218.772
+  angleX -0.001
+  angleY -90
+  angleZ 0.27
+ }
+ {
+  coords 4289.73 -0.122 4206.221
+ }
+ {
+  coords 4289.73 -0.149 4199.983
+ }
+ {
+  coords 4289.73 -0.122 4187.505
+ }
+ {
+  coords 4289.73 -0.122 4193.744
+ }
+ {
+  coords 4289.73 -0.149 4162.556
+ }
+ {
+  coords 4289.73 -0.149 4168.795
+ }
+ {
+  coords 4289.73 -0.149 4175.034
+ }
+ {
+  coords 4289.73 -0.122 4181.272
+ }
+ {
+  coords 4289.73 -0.176 4137.656
+ }
+ {
+  coords 4289.73 -0.176 4143.895
+ }
+ {
+  coords 4289.73 -0.176 4150.134
+ }
+ {
+  coords 4289.73 -0.149 4156.372
+ }
+ {
+  coords 4289.73 -0.159 4131.458
+ }
+ {
+  coords 4289.73 -0.109 4125.219
+ }
+ {
+  coords 4289.73 -0.026 4118.98
+ }
+ {
+  coords 4289.73 0.009 4112.772
+ }
+ {
+  coords 4289.73 -0.227 4106.583
+ }
+ {
+  coords 4289.73 -0.263 4100.373
+ }
+ {
+  coords 4278.815 -0.115 4094.082
+  angleX 0.27
+  angleY 90.003
+  angleZ 0.001
  }
 }
 $grp GenericEntity : "{6C80117E4E9740AC}Prefabs/Structures/Market/Meal.et" {
@@ -601,6 +1223,23 @@ $grp SCR_DestructibleBuildingEntity : "{6FA58B435F69B179}Prefabs/Structures/Hous
   coords 4043 0.012 4210
   angleY -90
  }
+ {
+  coords 4230.026 -0.008 4104.007
+ }
+ {
+  coords 4270.453 0.018 4103.946
+ }
+ {
+  coords 4264.229 0.029 4103.946
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{77664D56B9080B79}Prefabs/Structures/Wall/Wall_ATC_L2_5m_EP1.et" {
+ {
+  coords 3987.903 16.757 4020.936
+ }
+ {
+  coords 3992.875 16.757 4020.936
+ }
 }
 $grp GenericEntity : "{795552B887CD50E7}Prefabs/Props/Industrial/ConcretePanel_01_stack.et" {
  {
@@ -640,6 +1279,12 @@ $grp SCR_DestructibleBuildingEntity : "{7C7C2357690B0BC2}Prefabs/Structures/Buld
   }
   coords 4226.314 17.568 4004.015
   angleY 34.397
+ }
+ {
+  coords 3985.116 16.154 4170.156
+  angleX -0.056
+  angleY -180
+  angleZ 0.893
  }
 }
 $grp GenericEntity : "{7E2E69AE2A6BF8AD}Prefabs/Structures/Misc/Sepet.et" {
@@ -684,6 +1329,71 @@ $grp SCR_DestructibleBuildingEntity : "{85CEB9CB24D532A0}Prefabs/Structures/Wall
  {
   coords 4061.251 16.312 4009.399
   angleY 145.024
+ }
+ {
+  coords 4242.58 17.701 4101.747
+  angleY -180
+ }
+ {
+  coords 4244.949 17.701 4101.747
+  angleY -180
+ }
+ {
+  coords 4247.391 17.701 4101.747
+  angleY -180
+ }
+ {
+  coords 4259.494 17.701 4101.747
+  angleY -180
+ }
+ {
+  coords 4261.921 17.701 4101.747
+  angleY -180
+ }
+ {
+  coords 4264.355 17.701 4101.747
+  angleY -180
+ }
+ {
+  coords 4266.851 17.701 4101.747
+  angleY -180
+ }
+ {
+  coords 4269.327 17.701 4101.747
+  angleY -180
+ }
+ {
+  coords 4271.829 17.701 4101.747
+  angleY -180
+ }
+ {
+  coords 4274.264 17.701 4101.747
+  angleY -180
+ }
+ {
+  coords 4276.642 17.701 4101.747
+  angleY -180
+ }
+ {
+  coords 4278.333 17.701 4101.747
+  angleY -180
+ }
+ {
+  coords 4014.494 16.347 4062.107
+ }
+}
+$grp GenericEntity : "{8751F77B1038FC72}Prefabs/Props/Industrial/Repair/VehicleGarbage_01_pile_large.et" {
+ {
+  coords 3944.604 16.039 4117.786
+  angleX -0.782
+  angleY 6.865
+  angleZ -0.996
+ }
+ {
+  coords 3935.204 15.98 4130.513
+  angleX -1.186
+  angleY -24.497
+  angleZ -0.444
  }
 }
 SCR_DestructibleBuildingEntity : "{89732831F26334E8}Prefabs/Structures/Bulding/HouseL/House_L_8_EP1_Full.et" {
@@ -755,6 +1465,46 @@ SCR_DestructibleBuildingEntity : "{A0E65FE503C8D6D2}Prefabs/Structures/Bulding/H
  coords 4129.111 17.32 4027.905
  angleY -150.788
 }
+$grp SCR_DestructibleBuildingEntity : "{A1AC1A578D6356CF}Prefabs/Structures/Wall/Wall_ATC_L1_5m_EP1_Zargabad.et" {
+ {
+  coords 4000.868 16.073 4173.351
+  angleY -92.163
+ }
+ {
+  coords 4190.034 17.166 4104.91
+  angleY -90
+ }
+ {
+  coords 4212.486 17.139 4099.806
+ }
+ {
+  coords 4210.976 17.139 4099.806
+ }
+ {
+  coords 4201.9 17 4119.582
+  angleY -90
+ }
+ {
+  coords 4280.783 17 4117.866
+  angleY -90
+ }
+ {
+  coords 4280.783 17 4119.317
+  angleY -90
+ }
+ {
+  coords 4271.977 16.966 4196.414
+  angleY -90
+ }
+ {
+  coords 4227.102 16.947 4196.382
+  angleY -90
+ }
+ {
+  coords 4206.6 16.965 4196.421
+  angleY -90
+ }
+}
 $grp GenericEntity : "{A446CB3C732A360D}Prefabs/Props/Garbage/Generic/Junk_01/Junk_01_pile_long.et" {
  {
   coords 4090.149 16.471 4023.572
@@ -772,6 +1522,91 @@ $grp GenericEntity : "{A446CB3C732A360D}Prefabs/Props/Garbage/Generic/Junk_01/Ju
   coords 4153.919 17.041 3997.309
   angleY -175.832
  }
+ {
+  coords 3943.212 16 4127.613
+  angleX 0.593
+  angleY 41.487
+  angleZ -0.67
+ }
+ {
+  coords 3944.897 16.042 4122.673
+  angleX -0.579
+  angleY -40.284
+  angleZ -0.683
+ }
+ {
+  coords 3939.882 15.948 4124.318
+  angleX 0.69
+  angleY 50.399
+  angleZ -0.571
+ }
+ {
+  coords 3942.154 15.983 4125.51
+  angleX 0.593
+  angleY 41.487
+  angleZ -0.67
+ }
+ {
+  coords 3937.938 16.031 4128.433
+  angleX -0.01
+  angleY -0.639
+  angleZ -0.895
+ }
+ {
+  coords 3939.731 15.961 4120.067
+  angleX -0.579
+  angleY -40.284
+  angleZ -0.683
+ }
+ {
+  coords 3935.268 15.891 4121.493
+  angleX -0.837
+  angleY -110.781
+  angleZ 0.318
+ }
+ {
+  coords 4075.947 16.375 4002.516
+  angleY -57.321
+ }
+ {
+  coords 4078.123 16.408 4006.096
+  angleY -55.44
+ }
+ {
+  coords 4081.134 16.362 4010.532
+  angleY 127.771
+ }
+}
+$grp GenericEntity : "{AE300E34EA8FF40C}Prefabs/Props/Wrecks/Ural4320_wreck_static.et" {
+ {
+  coords 3936.605 15.367 4123.645
+  angleX -7.755
+  angleY -12.376
+ }
+ {
+  coords 3939.203 15.697 4123.014
+  angleX 9.804
+  angleY -106.61
+  angleZ 7.834
+ }
+ {
+  coords 3940.962 15.581 4125.412
+  angleX -9.097
+  angleY -59.754
+  angleZ 4.889
+ }
+ {
+  coords 3963.631 15.535 4174.582
+  angleX -2.673
+  angleY 46.249
+  angleZ -1.306
+ }
+ {
+  coords 4054.892 15.695 4044.892
+  angleX 47.718
+  angleY -15.758
+  angleZ -4.471
+ }
 }
 $grp Tree : "{AF4BFBE29028A9FD}Prefabs/Vegetation/Bush/b_corylus_avellana_1l.et" {
  {
@@ -787,7 +1622,7 @@ $grp Tree : "{AF4BFBE29028A9FD}Prefabs/Vegetation/Bush/b_corylus_avellana_1l.et"
   angleZ 2.747
  }
  {
-  coords 4253.632 -0 4057.585
+  coords 4253.632 0 4057.585
   angleX 3.233
   angleY 175.43
   angleZ 2.747
@@ -799,7 +1634,7 @@ $grp Tree : "{AF4BFBE29028A9FD}Prefabs/Vegetation/Bush/b_corylus_avellana_1l.et"
   angleZ -3.119
  }
  {
-  coords 4234.984 -0 4059.008
+  coords 4234.984 0 4059.008
   angleX -3.311
   angleY -6.229
   angleZ -2.653
@@ -835,19 +1670,19 @@ $grp Tree : "{AF4BFBE29028A9FD}Prefabs/Vegetation/Bush/b_corylus_avellana_1l.et"
   angleZ -4.036
  }
  {
-  coords 4238.06 -0 4013.24
+  coords 4238.06 0 4013.24
   angleX -1.304
   angleY 27.164
   angleZ -4.036
  }
  {
-  coords 4226.368 -0 4012.897
+  coords 4226.368 0 4012.897
   angleX 4.208
   angleY 127.792
   angleZ -0.534
  }
  {
-  coords 4217.862 -0 4017.453
+  coords 4217.862 0 4017.453
   angleX -3.985
   angleY -65.022
   angleZ 1.453
@@ -859,7 +1694,7 @@ $grp Tree : "{AF4BFBE29028A9FD}Prefabs/Vegetation/Bush/b_corylus_avellana_1l.et"
   angleZ 1.602
  }
  {
-  coords 4191.337 -0 4042.611
+  coords 4191.337 0 4042.611
   angleX -3.928
   angleY -67.172
   angleZ 1.602
@@ -871,19 +1706,19 @@ $grp Tree : "{AF4BFBE29028A9FD}Prefabs/Vegetation/Bush/b_corylus_avellana_1l.et"
   angleZ 1.602
  }
  {
-  coords 4188.122 -0 4039.441
+  coords 4188.122 0 4039.441
   angleX 1.637
   angleY -157.636
   angleZ 3.913
  }
  {
-  coords 4185.113 -0 4034.994
+  coords 4185.113 0 4034.994
   angleX 1.637
   angleY -157.636
   angleZ 3.913
  }
  {
-  coords 4195.284 -0 4030.501
+  coords 4195.284 0 4030.501
   angleX 1.637
   angleY -157.636
   angleZ 3.913
@@ -895,10 +1730,22 @@ $grp Tree : "{AF4BFBE29028A9FD}Prefabs/Vegetation/Bush/b_corylus_avellana_1l.et"
   angleZ 0.974
  }
  {
-  coords 4203.086 -0 4022.259
+  coords 4203.086 0 4022.259
   angleX 4.103
   angleY 120.333
   angleZ -1.075
+ }
+ {
+  coords 4243.666 -0 4103.925
+  angleX 2.267
+  angleY 77.296
+  angleZ -3.586
+ }
+ {
+  coords 4193.602 0 4120.306
+  angleX 2.557
+  angleY 82.051
+  angleZ -3.385
  }
 }
 SCR_DestructibleBuildingEntity : "{B1BE31046E425A12}Prefabs/Structures/Bulding/HouseC/House_C_12_EP4.et" {
@@ -1122,6 +1969,12 @@ $grp SCR_DestructibleBuildingEntity : "{B7952ECEF4ADF8F8}Prefabs/Structures/Buld
  {
   coords 4087.849 0.001 4260.83
   angleY 0.342
+  {
+   GenericEntity {
+    ID "65172E3A6A641531"
+    coords 6.624 3.41 -1.178
+   }
+  }
  }
  {
   coords 4123.156 -0.001 4238.745
@@ -1147,6 +2000,53 @@ $grp SCR_DestructibleBuildingEntity : "{B7952ECEF4ADF8F8}Prefabs/Structures/Buld
   coords 4203.29 0.001 4027.088
   angleY -147.038
  }
+ {
+  components {
+   MeshObject "{650904B39E855A1C}" {
+    ClutterOccluder 1
+   }
+  }
+  coords 3967.505 -0 4129.886
+  angleY 90
+  {
+   StaticModelEntity {
+    ID "65172E3A6A661E15"
+    coords -7.173 0.447 1.971
+   }
+  }
+ }
+ {
+  coords 4197.491 0.001 4112.52
+ }
+ {
+  components {
+   MeshObject "{650904B39E855A1C}" {
+    ClutterOccluder 1
+   }
+  }
+  coords 4020.08 0.005 4041.308
+  {
+   StaticModelEntity {
+    ID "65172E3A6A661E15"
+    coords -7.173 0.447 1.971
+   }
+  }
+ }
+ {
+  components {
+   MeshObject "{650904B39E855A1C}" {
+    ClutterOccluder 1
+   }
+  }
+  coords 4001.838 0.015 4041.308
+  angleY -180
+  {
+   StaticModelEntity {
+    ID "65172E3A6A661E15"
+    coords -7.173 0.447 1.971
+   }
+  }
+ }
 }
 $grp SCR_DestructibleBuildingEntity : "{BCA7012AFAE5ACAC}Prefabs/Structures/Bulding/HouseC/House_C_4_EP3.et" {
  {
@@ -1165,6 +2065,20 @@ $grp SCR_DestructibleBuildingEntity : "{BCA7012AFAE5ACAC}Prefabs/Structures/Buld
   coords 4070.109 16.292 4007.11
   angleY -140
  }
+ {
+  coords 4061.674 16.25 4033.482
+  angleY 136.658
+ }
+}
+$grp GenericEntity : "{C51A49ACBB2EF063}Prefabs/Props/Construction/ContainerMetal_01/ContainerMetal_01_blue.et" {
+ {
+  coords 4272.785 17.023 4119.67
+  angleY 166.462
+ }
+ {
+  coords 4260.87 17.023 4119.675
+  angleY 166.462
+ }
 }
 $grp StaticModelEntity : "{C5E59A2613F85B38}Prefabs/Structures/SideWalks/SW_ATC_C_end_R_EP1.et" {
  {
@@ -1176,15 +2090,45 @@ $grp StaticModelEntity : "{C5E59A2613F85B38}Prefabs/Structures/SideWalks/SW_ATC_
   angleY 87.18
  }
 }
+$grp GenericEntity : "{C8684DCC4658226F}Prefabs/Props/Construction/ContainerMetal_01/ContainerMetal_01_grey.et" {
+ {
+  coords 3933.113 16.031 4117.966
+  angleY 2.015
+ }
+ {
+  coords 3936.504 16.006 4136.131
+  angleY 19.892
+ }
+ {
+  coords 3960.86 16.031 4124.833
+  angleY 7.115
+ }
+ {
+  coords 4029.75 16.092 4153.906
+  angleY 2.653
+ }
+ {
+  coords 4078.351 16.294 4179.233
+  angleY 7.115
+ }
+ {
+  coords 4269.253 17.013 4119.854
+  angleY 9.473
+ }
+ {
+  coords 4257.337 17.013 4119.858
+  angleY 9.473
+ }
+}
 $grp Tree : "{C98A6C1C2372354E}Prefabs/Vegetation/Bush/b_corylus_avellana_1.et" {
  {
-  coords 4116.05 -0 4284.566
+  coords 4116.05 0 4284.566
   angleX 0.503
   angleY 172.947
   angleZ -4.092
  }
  {
-  coords 4109.619 -0 4282.457
+  coords 4109.619 0 4282.457
   angleX 0.503
   angleY 172.947
   angleZ -4.092
@@ -1196,7 +2140,7 @@ $grp Tree : "{C98A6C1C2372354E}Prefabs/Vegetation/Bush/b_corylus_avellana_1.et" 
   angleZ -4.092
  }
  {
-  coords 4109.541 -0 4264.626
+  coords 4109.541 0 4264.626
   angleX 0.503
   angleY 172.947
   angleZ -4.092
@@ -1220,25 +2164,25 @@ $grp Tree : "{C98A6C1C2372354E}Prefabs/Vegetation/Bush/b_corylus_avellana_1.et" 
   angleZ -4.092
  }
  {
-  coords 4112.623 -0 4248.294
+  coords 4112.623 0 4248.294
   angleX 0.503
   angleY 172.947
   angleZ -4.092
  }
  {
-  coords 4124.572 -0 4252.332
+  coords 4124.572 0 4252.332
   angleX 0.503
   angleY 172.947
   angleZ -4.092
  }
  {
-  coords 4125.307 -0 4261.949
+  coords 4125.307 0 4261.949
   angleX 0.503
   angleY 172.947
   angleZ -4.092
  }
  {
-  coords 4118.487 -0 4261.793
+  coords 4118.487 0 4261.793
   angleX 0.503
   angleY 172.947
   angleZ -4.092
@@ -1256,7 +2200,7 @@ $grp Tree : "{C98A6C1C2372354E}Prefabs/Vegetation/Bush/b_corylus_avellana_1.et" 
   angleZ -4.092
  }
  {
-  coords 4140.465 -0 4264.059
+  coords 4140.465 0 4264.059
   angleX 0.503
   angleY 172.947
   angleZ -4.092
@@ -1268,13 +2212,13 @@ $grp Tree : "{C98A6C1C2372354E}Prefabs/Vegetation/Bush/b_corylus_avellana_1.et" 
   angleZ -4.092
  }
  {
-  coords 4142.588 -0 4270.873
+  coords 4142.588 0 4270.873
   angleX 0.503
   angleY 172.947
   angleZ -4.092
  }
  {
-  coords 4148.435 -0 4270.675
+  coords 4148.435 0 4270.675
   angleX 0.503
   angleY 172.947
   angleZ -4.092
@@ -1292,7 +2236,7 @@ $grp Tree : "{C98A6C1C2372354E}Prefabs/Vegetation/Bush/b_corylus_avellana_1.et" 
   angleZ -4.092
  }
  {
-  coords 4140.82 -0 4285.205
+  coords 4140.82 0 4285.205
   angleX 0.503
   angleY 172.947
   angleZ -4.092
@@ -1304,13 +2248,13 @@ $grp Tree : "{C98A6C1C2372354E}Prefabs/Vegetation/Bush/b_corylus_avellana_1.et" 
   angleZ -4.092
  }
  {
-  coords 4149.437 -0 4286.51
+  coords 4149.437 0 4286.51
   angleX 0.503
   angleY 172.947
   angleZ -4.092
  }
  {
-  coords 4142.82 -0 4290.48
+  coords 4142.82 0 4290.48
   angleX 0.503
   angleY 172.947
   angleZ -4.092
@@ -1340,25 +2284,25 @@ $grp Tree : "{C98A6C1C2372354E}Prefabs/Vegetation/Bush/b_corylus_avellana_1.et" 
   angleZ -4.092
  }
  {
-  coords 4086.756 -0 4206.512
+  coords 4086.756 0 4206.512
   angleX 0.503
   angleY 172.947
   angleZ -4.092
  }
  {
-  coords 4090.434 -0 4199.966
+  coords 4090.434 0 4199.966
   angleX 0.503
   angleY 172.947
   angleZ -4.092
  }
  {
-  coords 4083.2 -0 4188.535
+  coords 4083.2 0 4188.535
   angleX 0.503
   angleY 172.947
   angleZ -4.092
  }
  {
-  coords 4081.192 -0 4195.448
+  coords 4081.192 0 4195.448
   angleX 0.503
   angleY 172.947
   angleZ -4.092
@@ -1370,7 +2314,7 @@ $grp Tree : "{C98A6C1C2372354E}Prefabs/Vegetation/Bush/b_corylus_avellana_1.et" 
   angleZ -4.092
  }
  {
-  coords 4109.192 -0 4177.972
+  coords 4109.192 0 4177.972
   angleX 0.503
   angleY 172.947
   angleZ -4.092
@@ -1388,7 +2332,7 @@ $grp Tree : "{C98A6C1C2372354E}Prefabs/Vegetation/Bush/b_corylus_avellana_1.et" 
   angleZ -4.092
  }
  {
-  coords 4125.444 -0 4213.302
+  coords 4125.444 0 4213.302
   angleX 0.503
   angleY 172.947
   angleZ -4.092
@@ -1406,13 +2350,13 @@ $grp Tree : "{C98A6C1C2372354E}Prefabs/Vegetation/Bush/b_corylus_avellana_1.et" 
   angleZ -4.092
  }
  {
-  coords 4172.147 -0 4249.784
+  coords 4172.147 0 4249.784
   angleX 0.503
   angleY 172.947
   angleZ -4.092
  }
  {
-  coords 4169.149 -0 4245.657
+  coords 4169.149 0 4245.657
   angleX 0.503
   angleY 172.947
   angleZ -4.092
@@ -1430,19 +2374,19 @@ $grp Tree : "{C98A6C1C2372354E}Prefabs/Vegetation/Bush/b_corylus_avellana_1.et" 
   angleZ -4.092
  }
  {
-  coords 4175.211 -0 4179.813
+  coords 4175.211 0 4179.813
   angleX 0.503
   angleY 172.947
   angleZ -4.092
  }
  {
-  coords 4175.153 -0 4176.541
+  coords 4175.153 0 4176.541
   angleX 0.503
   angleY 172.947
   angleZ -4.092
  }
  {
-  coords 4175.651 -0 4168.981
+  coords 4175.651 0 4168.981
   angleX 0.503
   angleY 172.947
   angleZ -4.092
@@ -1472,25 +2416,25 @@ $grp Tree : "{C98A6C1C2372354E}Prefabs/Vegetation/Bush/b_corylus_avellana_1.et" 
   angleZ 0.764
  }
  {
-  coords 4152.826 -0 4275.903
+  coords 4152.826 0 4275.903
   angleX 0.503
   angleY 172.947
   angleZ -4.092
  }
  {
-  coords 4167.409 -0 4275.626
+  coords 4167.409 0 4275.626
   angleX 0.503
   angleY 172.947
   angleZ -4.092
  }
  {
-  coords 4167.075 -0 4280.12
+  coords 4167.075 0 4280.12
   angleX 0.503
   angleY 172.947
   angleZ -4.092
  }
  {
-  coords 4175.863 -0 4276.942
+  coords 4175.863 0 4276.942
   angleX 0.503
   angleY 172.947
   angleZ -4.092
@@ -1514,13 +2458,13 @@ $grp Tree : "{C98A6C1C2372354E}Prefabs/Vegetation/Bush/b_corylus_avellana_1.et" 
   angleZ -4.092
  }
  {
-  coords 4093.9 -0 4177.188
+  coords 4093.9 0 4177.188
   angleX 0.503
   angleY 172.947
   angleZ -4.092
  }
  {
-  coords 4094.818 -0 4170.59
+  coords 4094.818 0 4170.59
   angleX 0.503
   angleY 172.947
   angleZ -4.092
@@ -1532,7 +2476,7 @@ $grp Tree : "{C98A6C1C2372354E}Prefabs/Vegetation/Bush/b_corylus_avellana_1.et" 
   angleZ -4.092
  }
  {
-  coords 4079.53 -0 4168.792
+  coords 4079.53 0 4168.792
   angleX 0.503
   angleY 172.947
   angleZ -4.092
@@ -1556,7 +2500,7 @@ $grp Tree : "{C98A6C1C2372354E}Prefabs/Vegetation/Bush/b_corylus_avellana_1.et" 
   angleZ -0.613
  }
  {
-  coords 4110.695 -0 4110.634
+  coords 4110.695 0 4110.634
   angleX -5.797
   angleY -24.838
   angleZ -0.613
@@ -1598,61 +2542,61 @@ $grp Tree : "{C98A6C1C2372354E}Prefabs/Vegetation/Bush/b_corylus_avellana_1.et" 
   angleZ -0.613
  }
  {
-  coords 4156.792 -0 4115.867
+  coords 4156.792 0 4115.867
   angleX -5.797
   angleY -24.838
   angleZ -0.613
  }
  {
-  coords 4154.537 -0 4100.851
+  coords 4154.537 0 4100.851
   angleX -5.797
   angleY -24.838
   angleZ -0.613
  }
  {
-  coords 4153.887 -0 4111.476
+  coords 4153.887 0 4111.476
   angleX -5.797
   angleY -24.838
   angleZ -0.613
  }
  {
-  coords 4164.896 -0 4128.014
+  coords 4164.896 0 4128.014
   angleX -5.797
   angleY -24.838
   angleZ -0.613
  }
  {
-  coords 4165.016 -0 4134.105
+  coords 4165.016 0 4134.105
   angleX -5.797
   angleY -24.838
   angleZ -0.613
  }
  {
-  coords 4162.82 -0 4205.155
+  coords 4162.82 0 4205.155
   angleX -5.797
   angleY -24.838
   angleZ -0.613
  }
  {
-  coords 4166.137 -0 4205.062
+  coords 4166.137 0 4205.062
   angleX -5.797
   angleY -24.838
   angleZ -0.613
  }
  {
-  coords 4129.736 -0 4171.886
+  coords 4129.736 0 4171.886
   angleX 0.503
   angleY 172.947
   angleZ -4.092
  }
  {
-  coords 4131.62 -0 4193.854
+  coords 4131.62 0 4193.854
   angleX 0.503
   angleY 172.947
   angleZ -4.092
  }
  {
-  coords 4127.854 -0 4194.141
+  coords 4127.854 0 4194.141
   angleX 0.503
   angleY 172.947
   angleZ -4.092
@@ -1664,7 +2608,7 @@ $grp Tree : "{C98A6C1C2372354E}Prefabs/Vegetation/Bush/b_corylus_avellana_1.et" 
   angleZ -4.092
  }
  {
-  coords 4101.587 -0 4202.356
+  coords 4101.587 0 4202.356
   angleX 0.503
   angleY 172.947
   angleZ -4.092
@@ -1676,7 +2620,7 @@ $grp Tree : "{C98A6C1C2372354E}Prefabs/Vegetation/Bush/b_corylus_avellana_1.et" 
   angleZ -4.092
  }
  {
-  coords 4117.081 -0 4248.808
+  coords 4117.081 0 4248.808
   angleX 0.503
   angleY 172.947
   angleZ -4.092
@@ -1688,19 +2632,19 @@ $grp Tree : "{C98A6C1C2372354E}Prefabs/Vegetation/Bush/b_corylus_avellana_1.et" 
   angleZ -4.092
  }
  {
-  coords 4143.952 -0 4198.154
+  coords 4143.952 0 4198.154
   angleX 0.503
   angleY 172.947
   angleZ -4.092
  }
  {
-  coords 4143.982 -0 4193.576
+  coords 4143.982 0 4193.576
   angleX 0.503
   angleY 172.947
   angleZ -4.092
  }
  {
-  coords 4143.765 -0 4190.195
+  coords 4143.765 0 4190.195
   angleX 0.503
   angleY 172.947
   angleZ -4.092
@@ -1712,13 +2656,13 @@ $grp Tree : "{C98A6C1C2372354E}Prefabs/Vegetation/Bush/b_corylus_avellana_1.et" 
   angleZ -4.092
  }
  {
-  coords 4141.884 -0 4177.141
+  coords 4141.884 0 4177.141
   angleX 0.503
   angleY 172.947
   angleZ -4.092
  }
  {
-  coords 4141.736 -0 4173.493
+  coords 4141.736 0 4173.493
   angleX 0.503
   angleY 172.947
   angleZ -4.092
@@ -1730,13 +2674,13 @@ $grp Tree : "{C98A6C1C2372354E}Prefabs/Vegetation/Bush/b_corylus_avellana_1.et" 
   angleZ -4.092
  }
  {
-  coords 4141.492 -0 4166.659
+  coords 4141.492 0 4166.659
   angleX 0.503
   angleY 172.947
   angleZ -4.092
  }
  {
-  coords 4141.413 -0 4163.103
+  coords 4141.413 0 4163.103
   angleX 0.503
   angleY 172.947
   angleZ -4.092
@@ -1766,7 +2710,7 @@ $grp Tree : "{C98A6C1C2372354E}Prefabs/Vegetation/Bush/b_corylus_avellana_1.et" 
   angleZ -4.092
  }
  {
-  coords 4002.53 -0 4175.774
+  coords 4002.53 0 4175.774
   angleX 0.503
   angleY 172.947
   angleZ -4.092
@@ -1778,19 +2722,19 @@ $grp Tree : "{C98A6C1C2372354E}Prefabs/Vegetation/Bush/b_corylus_avellana_1.et" 
   angleZ -4.092
  }
  {
-  coords 3998.809 -0 4175.421
+  coords 3998.809 0 4175.421
   angleX 0.503
   angleY 172.947
   angleZ -4.092
  }
  {
-  coords 4014.458 -0 4184.706
+  coords 4014.458 0 4184.706
   angleX 0.503
   angleY 172.947
   angleZ -4.092
  }
  {
-  coords 4008.257 -0 4185.341
+  coords 4008.257 0 4185.341
   angleX 0.503
   angleY 172.947
   angleZ -4.092
@@ -1814,7 +2758,7 @@ $grp Tree : "{C98A6C1C2372354E}Prefabs/Vegetation/Bush/b_corylus_avellana_1.et" 
   angleZ -4.092
  }
  {
-  coords 3993.386 -0 4199.408
+  coords 3993.386 0 4199.408
   angleX 0.503
   angleY 172.947
   angleZ -4.092
@@ -1826,7 +2770,7 @@ $grp Tree : "{C98A6C1C2372354E}Prefabs/Vegetation/Bush/b_corylus_avellana_1.et" 
   angleZ -4.092
  }
  {
-  coords 4039.112 -0 4212.887
+  coords 4039.112 0 4212.887
   angleX 0.503
   angleY 172.947
   angleZ -4.092
@@ -1868,19 +2812,19 @@ $grp Tree : "{C98A6C1C2372354E}Prefabs/Vegetation/Bush/b_corylus_avellana_1.et" 
   angleZ 4.658
  }
  {
-  coords 4116.278 -0 4108.1
+  coords 4116.278 0 4108.1
   angleX -5.797
   angleY -24.838
   angleZ -0.613
  }
  {
-  coords 4152.915 -0 4139.224
+  coords 4152.915 0 4139.224
   angleX -5.797
   angleY -24.838
   angleZ -0.613
  }
  {
-  coords 4153.139 -0 4141.912
+  coords 4153.139 0 4141.912
   angleX -5.797
   angleY -24.838
   angleZ -0.613
@@ -1910,13 +2854,13 @@ $grp Tree : "{C98A6C1C2372354E}Prefabs/Vegetation/Bush/b_corylus_avellana_1.et" 
   angleZ -0.613
  }
  {
-  coords 4167.27 -0 4141.281
+  coords 4167.27 0 4141.281
   angleX -5.797
   angleY -24.838
   angleZ -0.613
  }
  {
-  coords 4127.205 -0 4125.247
+  coords 4127.205 0 4125.247
   angleX -5.797
   angleY -24.838
   angleZ -0.613
@@ -1928,13 +2872,13 @@ $grp Tree : "{C98A6C1C2372354E}Prefabs/Vegetation/Bush/b_corylus_avellana_1.et" 
   angleZ -0.613
  }
  {
-  coords 4165.269 -0 4147.875
+  coords 4165.269 0 4147.875
   angleX -5.797
   angleY -24.838
   angleZ -0.613
  }
  {
-  coords 4077.164 -0 4110.544
+  coords 4077.164 0 4110.544
   angleX -5.797
   angleY -24.838
   angleZ -0.613
@@ -1946,7 +2890,7 @@ $grp Tree : "{C98A6C1C2372354E}Prefabs/Vegetation/Bush/b_corylus_avellana_1.et" 
   angleZ -0.613
  }
  {
-  coords 4134.345 -0 4124.905
+  coords 4134.345 0 4124.905
   angleX -5.797
   angleY -24.838
   angleZ -0.613
@@ -1976,7 +2920,7 @@ $grp Tree : "{C98A6C1C2372354E}Prefabs/Vegetation/Bush/b_corylus_avellana_1.et" 
   angleZ -0.613
  }
  {
-  coords 4088.679 -0 4103.776
+  coords 4088.679 0 4103.776
   angleX -5.797
   angleY -24.838
   angleZ -0.613
@@ -1988,31 +2932,31 @@ $grp Tree : "{C98A6C1C2372354E}Prefabs/Vegetation/Bush/b_corylus_avellana_1.et" 
   angleZ -0.613
  }
  {
-  coords 4086.12 -0 4101.262
+  coords 4086.12 0 4101.262
   angleX -5.797
   angleY -24.838
   angleZ -0.613
  }
  {
-  coords 4098.198 -0 4118.811
+  coords 4098.198 0 4118.811
   angleX -5.797
   angleY -24.838
   angleZ -0.613
  }
  {
-  coords 4110.996 -0 4137.544
+  coords 4110.996 0 4137.544
   angleX -5.797
   angleY -24.838
   angleZ -0.613
  }
  {
-  coords 4118.075 -0 4145.552
+  coords 4118.075 0 4145.552
   angleX -5.797
   angleY -24.838
   angleZ -0.613
  }
  {
-  coords 4102.033 -0 4139.799
+  coords 4102.033 0 4139.799
   angleX -5.797
   angleY -24.838
   angleZ -0.613
@@ -2030,31 +2974,31 @@ $grp Tree : "{C98A6C1C2372354E}Prefabs/Vegetation/Bush/b_corylus_avellana_1.et" 
   angleZ -5.826
  }
  {
-  coords 4104.592 -0 4152.624
+  coords 4104.592 0 4152.624
   angleX -2.333
   angleY -97.365
   angleZ 5.344
  }
  {
-  coords 4111.659 -0 4152.881
+  coords 4111.659 0 4152.881
   angleX -4.535
   angleY -69.911
   angleZ 3.667
  }
  {
-  coords 4116.334 -0 4153.25
+  coords 4116.334 0 4153.25
   angleX -4.076
   angleY -76.622
   angleZ 4.171
  }
  {
-  coords 4113.832 -0 4145.575
+  coords 4113.832 0 4145.575
   angleX -5.797
   angleY -24.838
   angleZ -0.613
  }
  {
-  coords 4103.605 -0 4127.413
+  coords 4103.605 0 4127.413
   angleX -5.797
   angleY -24.838
   angleZ -0.613
@@ -2066,31 +3010,31 @@ $grp Tree : "{C98A6C1C2372354E}Prefabs/Vegetation/Bush/b_corylus_avellana_1.et" 
   angleZ 4.673
  }
  {
-  coords 4160.473 -0 4137.787
+  coords 4160.473 0 4137.787
   angleX -5.797
   angleY -24.838
   angleZ -0.613
  }
  {
-  coords 4092.529 -0 4145.942
+  coords 4092.529 0 4145.942
   angleX -5.797
   angleY -24.838
   angleZ -0.613
  }
  {
-  coords 4076.736 -0 4147.141
+  coords 4076.736 0 4147.141
   angleX -5.797
   angleY -24.838
   angleZ -0.613
  }
  {
-  coords 4097.666 -0 4145.473
+  coords 4097.666 0 4145.473
   angleX -5.797
   angleY -24.838
   angleZ -0.613
  }
  {
-  coords 4110.623 -0 4129.845
+  coords 4110.623 0 4129.845
   angleX -5.797
   angleY -24.838
   angleZ -0.613
@@ -2114,13 +3058,13 @@ $grp Tree : "{C98A6C1C2372354E}Prefabs/Vegetation/Bush/b_corylus_avellana_1.et" 
   angleZ 5.584
  }
  {
-  coords 4133.794 -0 4002.399
+  coords 4133.794 0 4002.399
   angleX -5.797
   angleY -24.838
   angleZ -0.613
  }
  {
-  coords 4126.639 -0 3993.289
+  coords 4126.639 0 3993.289
   angleX -5.797
   angleY -24.838
   angleZ -0.613
@@ -2132,7 +3076,7 @@ $grp Tree : "{C98A6C1C2372354E}Prefabs/Vegetation/Bush/b_corylus_avellana_1.et" 
   angleZ -0.613
  }
  {
-  coords 4135.665 -0 3995.636
+  coords 4135.665 0 3995.636
   angleX -5.797
   angleY -24.838
   angleZ -0.613
@@ -2144,13 +3088,13 @@ $grp Tree : "{C98A6C1C2372354E}Prefabs/Vegetation/Bush/b_corylus_avellana_1.et" 
   angleZ -0.613
  }
  {
-  coords 4131.191 -0 3998.74
+  coords 4131.191 0 3998.74
   angleX -5.797
   angleY -24.838
   angleZ -0.613
  }
  {
-  coords 4142.919 -0 3993.313
+  coords 4142.919 0 3993.313
   angleX -5.797
   angleY -24.838
   angleZ -0.613
@@ -2168,7 +3112,7 @@ $grp Tree : "{C98A6C1C2372354E}Prefabs/Vegetation/Bush/b_corylus_avellana_1.et" 
   angleZ -0.613
  }
  {
-  coords 4155.945 -0 3992.631
+  coords 4155.945 0 3992.631
   angleX -5.797
   angleY -24.838
   angleZ -0.613
@@ -2198,7 +3142,7 @@ $grp Tree : "{C98A6C1C2372354E}Prefabs/Vegetation/Bush/b_corylus_avellana_1.et" 
   angleZ -0.613
  }
  {
-  coords 4107.308 -0 4014.58
+  coords 4107.308 0 4014.58
   angleX -5.797
   angleY -24.838
   angleZ -0.613
@@ -2210,13 +3154,13 @@ $grp Tree : "{C98A6C1C2372354E}Prefabs/Vegetation/Bush/b_corylus_avellana_1.et" 
   angleZ -0.613
  }
  {
-  coords 4081.82 -0 4015.01
+  coords 4081.82 0 4015.01
   angleX -5.797
   angleY -24.838
   angleZ -0.613
  }
  {
-  coords 4166.992 -0 3980.627
+  coords 4166.992 0 3980.627
   angleX -5.797
   angleY -24.838
   angleZ -0.613
@@ -2228,7 +3172,7 @@ $grp Tree : "{C98A6C1C2372354E}Prefabs/Vegetation/Bush/b_corylus_avellana_1.et" 
   angleZ -0.613
  }
  {
-  coords 4147.175 -0 3973.749
+  coords 4147.175 0 3973.749
   angleX -5.797
   angleY -24.838
   angleZ -0.613
@@ -2240,7 +3184,7 @@ $grp Tree : "{C98A6C1C2372354E}Prefabs/Vegetation/Bush/b_corylus_avellana_1.et" 
   angleZ -0.613
  }
  {
-  coords 4214.305 -0 4058.378
+  coords 4214.305 0 4058.378
   angleX -5.797
   angleY -24.838
   angleZ -0.613
@@ -2252,7 +3196,7 @@ $grp Tree : "{C98A6C1C2372354E}Prefabs/Vegetation/Bush/b_corylus_avellana_1.et" 
   angleZ -0.613
  }
  {
-  coords 4233.181 -0 4060.181
+  coords 4233.181 0 4060.181
   angleX -5.797
   angleY -24.838
   angleZ -0.613
@@ -2264,7 +3208,7 @@ $grp Tree : "{C98A6C1C2372354E}Prefabs/Vegetation/Bush/b_corylus_avellana_1.et" 
   angleZ -0.613
  }
  {
-  coords 4199.332 -0 4074.796
+  coords 4199.332 0 4074.796
   angleX -5.797
   angleY -24.838
   angleZ -0.613
@@ -2306,13 +3250,13 @@ $grp Tree : "{C98A6C1C2372354E}Prefabs/Vegetation/Bush/b_corylus_avellana_1.et" 
   angleZ -0.613
  }
  {
-  coords 4160.608 -0 4062.542
+  coords 4160.608 0 4062.542
   angleX -5.797
   angleY -24.838
   angleZ -0.613
  }
  {
-  coords 4163.83 -0 4053.584
+  coords 4163.83 0 4053.584
   angleX -5.797
   angleY -24.838
   angleZ -0.613
@@ -2330,7 +3274,7 @@ $grp Tree : "{C98A6C1C2372354E}Prefabs/Vegetation/Bush/b_corylus_avellana_1.et" 
   angleZ -0.613
  }
  {
-  coords 4158.013 -0 4055.423
+  coords 4158.013 0 4055.423
   angleX -5.797
   angleY -24.838
   angleZ -0.613
@@ -2342,13 +3286,13 @@ $grp Tree : "{C98A6C1C2372354E}Prefabs/Vegetation/Bush/b_corylus_avellana_1.et" 
   angleZ -0.613
  }
  {
-  coords 4150.471 -0 4059.498
+  coords 4150.471 0 4059.498
   angleX -5.797
   angleY -24.838
   angleZ -0.613
  }
  {
-  coords 4155.698 -0 4062.869
+  coords 4155.698 0 4062.869
   angleX -5.797
   angleY -24.838
   angleZ -0.613
@@ -2360,7 +3304,757 @@ $grp Tree : "{C98A6C1C2372354E}Prefabs/Vegetation/Bush/b_corylus_avellana_1.et" 
   angleZ -0.613
  }
  {
-  coords 4144.644 -0 4061.46
+  coords 4144.644 0 4061.46
+  angleX -5.797
+  angleY -24.838
+  angleZ -0.613
+ }
+ {
+  coords 3974.302 0 4157.939
+  angleX 0.503
+  angleY 172.947
+  angleZ -4.092
+ }
+ {
+  coords 3968.841 -0 4161.119
+  angleX 0.503
+  angleY 172.947
+  angleZ -4.092
+ }
+ {
+  coords 3959.849 0 4164.722
+  angleX 0.503
+  angleY 172.947
+  angleZ -4.092
+ }
+ {
+  coords 3955.415 0 4167.019
+  angleX 0.503
+  angleY 172.947
+  angleZ -4.092
+ }
+ {
+  coords 3951.277 -0 4169.154
+  angleX 0.503
+  angleY 172.947
+  angleZ -4.092
+ }
+ {
+  coords 3955.052 -0 4179.906
+  angleX 0.503
+  angleY 172.947
+  angleZ -4.092
+ }
+ {
+  coords 3959.076 0 4182.513
+  angleX 0.503
+  angleY 172.947
+  angleZ -4.092
+ }
+ {
+  coords 3963.997 -0 4181.928
+  angleX 0.503
+  angleY 172.947
+  angleZ -4.092
+ }
+ {
+  coords 3969.459 0 4182.183
+  angleX 0.503
+  angleY 172.947
+  angleZ -4.092
+ }
+ {
+  coords 3974.183 0 4172.065
+  angleX 0.503
+  angleY 172.947
+  angleZ -4.092
+ }
+ {
+  coords 3974.823 -0 4167.636
+  angleX 0.503
+  angleY 172.947
+  angleZ -4.092
+ }
+ {
+  coords 3925.482 0 4117.913
+  angleX -4.728
+  angleY -162.172
+  angleZ 1.624
+ }
+ {
+  coords 3926.026 0 4112.512
+  angleX -4.728
+  angleY -162.172
+  angleZ 1.624
+ }
+ {
+  coords 3930.41 -0 4118.283
+  angleX -4.728
+  angleY -162.172
+  angleZ 1.624
+ }
+ {
+  coords 3934.126 -0 4133.543
+  angleX -4.728
+  angleY -162.172
+  angleZ 1.624
+ }
+ {
+  coords 3945.106 -0 4130.417
+  angleX -4.728
+  angleY -162.172
+  angleZ 1.624
+ }
+ {
+  coords 3950.827 -0.121 4113.326
+  angleX -4.728
+  angleY -162.172
+  angleZ 1.624
+ }
+ {
+  coords 3933.242 -0 4154.608
+  angleX -4.728
+  angleY -162.172
+  angleZ 1.624
+ }
+ {
+  coords 3935.635 0 4152.787
+  angleX -4.728
+  angleY -162.172
+  angleZ 1.624
+ }
+ {
+  coords 3947.014 0 4148.938
+  angleX -4.728
+  angleY -162.172
+  angleZ 1.624
+ }
+ {
+  coords 3950.256 0 4147.697
+  angleX -4.728
+  angleY -162.172
+  angleZ 1.624
+ }
+ {
+  coords 3952.538 -0 4146.461
+  angleX -4.728
+  angleY -162.172
+  angleZ 1.624
+ }
+ {
+  coords 3955.764 0 4145.17
+  angleX -4.728
+  angleY -162.172
+  angleZ 1.624
+ }
+ {
+  coords 3961.891 0 4140.986
+  angleX -4.728
+  angleY -162.172
+  angleZ 1.624
+ }
+ {
+  coords 3965.419 0 4139.195
+  angleX -4.728
+  angleY -162.172
+  angleZ 1.624
+ }
+ {
+  coords 3971.628 -0 4131.32
+  angleX -4.728
+  angleY -162.172
+  angleZ 1.624
+ }
+ {
+  coords 3971.684 0.025 4134.791
+  angleX -4.728
+  angleY -162.172
+  angleZ 1.624
+ }
+ {
+  coords 3971.821 0 4134.062
+  angleX -4.728
+  angleY -162.172
+  angleZ 1.624
+ }
+ {
+  coords 3978.529 -0 4136.223
+  angleX -4.728
+  angleY -162.172
+  angleZ 1.624
+ }
+ {
+  coords 3978.506 0 4133.041
+  angleX -4.728
+  angleY -162.172
+  angleZ 1.624
+ }
+ {
+  coords 3978.717 0 4129.621
+  angleX -4.728
+  angleY -162.172
+  angleZ 1.624
+ }
+ {
+  coords 3979.115 0 4126.396
+  angleX -4.728
+  angleY -162.172
+  angleZ 1.624
+ }
+ {
+  coords 3979.219 -0 4116.309
+  angleX -4.728
+  angleY -162.172
+  angleZ 1.624
+ }
+ {
+  coords 3979.49 0 4113.104
+  angleX -4.728
+  angleY -162.172
+  angleZ 1.624
+ }
+ {
+  coords 3979.836 0 4109.834
+  angleX -4.728
+  angleY -162.172
+  angleZ 1.624
+ }
+ {
+  coords 4198.928 0 4188.838
+  angleX 2.659
+  angleY 9.847
+  angleZ -3.596
+ }
+ {
+  coords 4198.825 -0 4185.291
+  angleX 2.659
+  angleY 9.847
+  angleZ -3.596
+ }
+ {
+  coords 4198.801 -0 4182.461
+  angleX 2.659
+  angleY 9.847
+  angleZ -3.596
+ }
+ {
+  coords 4198.771 -0 4179.784
+  angleX 2.659
+  angleY 9.847
+  angleZ -3.596
+ }
+ {
+  coords 4198.775 0 4176.474
+  angleX 2.659
+  angleY 9.847
+  angleZ -3.596
+ }
+ {
+  coords 4198.831 -0 4173.308
+  angleX 2.659
+  angleY 9.847
+  angleZ -3.596
+ }
+ {
+  coords 4198.648 -0 4144.861
+  angleX 2.659
+  angleY 9.847
+  angleZ -3.596
+ }
+ {
+  coords 4198.819 0 4142.001
+  angleX 2.659
+  angleY 9.847
+  angleZ -3.596
+ }
+ {
+  coords 4198.644 0 4139.471
+  angleX 2.659
+  angleY 9.847
+  angleZ -3.596
+ }
+ {
+  coords 4198.519 0 4136.681
+  angleX 2.659
+  angleY 9.847
+  angleZ -3.596
+ }
+ {
+  coords 4198.34 0 4133.982
+  angleX 2.659
+  angleY 9.847
+  angleZ -3.596
+ }
+ {
+  coords 4198.323 -0 4130.975
+  angleX 2.659
+  angleY 9.847
+  angleZ -3.596
+ }
+ {
+  coords 4198.249 -0 4127.918
+  angleX 2.659
+  angleY 9.847
+  angleZ -3.596
+ }
+ {
+  coords 4198.183 0 4125.227
+  angleX 2.659
+  angleY 9.847
+  angleZ -3.596
+ }
+ {
+  coords 4198.325 -0 4121.688
+  angleX 2.659
+  angleY 9.847
+  angleZ -3.596
+ }
+ {
+  coords 4283.96 -0 4121.993
+  angleX 2.659
+  angleY 9.847
+  angleZ -3.596
+ }
+ {
+  coords 4284.462 -0 4124.376
+  angleX 2.659
+  angleY 9.847
+  angleZ -3.596
+ }
+ {
+  coords 4285.003 0 4131.882
+  angleX 2.659
+  angleY 9.847
+  angleZ -3.596
+ }
+ {
+  coords 4284.948 0 4135.322
+  angleX 2.659
+  angleY 9.847
+  angleZ -3.596
+ }
+ {
+  coords 4285.494 2.316 4136.643
+  angleX 2.659
+  angleY 9.847
+  angleZ -3.596
+ }
+ {
+  coords 4285.125 0 4140.085
+  angleX 2.659
+  angleY 9.847
+  angleZ -3.596
+ }
+ {
+  coords 4285.232 1.601 4141.972
+  angleX 2.659
+  angleY 9.847
+  angleZ -3.596
+ }
+ {
+  coords 4285.252 0 4171.904
+  angleX 2.659
+  angleY 9.847
+  angleZ -3.596
+ }
+ {
+  coords 4285.261 0 4175.765
+  angleX 2.659
+  angleY 9.847
+  angleZ -3.596
+ }
+ {
+  coords 4285.361 0 4178.513
+  angleX 2.659
+  angleY 9.847
+  angleZ -3.596
+ }
+ {
+  coords 4285.395 0 4181.511
+  angleX 2.659
+  angleY 9.847
+  angleZ -3.596
+ }
+ {
+  coords 4285.465 -0 4185.061
+  angleX 2.659
+  angleY 9.847
+  angleZ -3.596
+ }
+ {
+  coords 4285.499 -0 4188.068
+  angleX 2.659
+  angleY 9.847
+  angleZ -3.596
+ }
+ {
+  coords 4286.188 2.401 4189.746
+  angleX 2.659
+  angleY 9.847
+  angleZ -3.596
+ }
+ {
+  coords 4285.648 0.001 4194.076
+  angleX 2.659
+  angleY 9.847
+  angleZ -3.596
+ }
+ {
+  coords 4279.208 0 4198.43
+  angleX 2.659
+  angleY 9.847
+  angleZ -3.596
+ }
+ {
+  coords 4275.884 -0 4199.326
+  angleX 2.659
+  angleY 9.847
+  angleZ -3.596
+ }
+ {
+  coords 4243.988 0 4199.73
+  angleX 2.659
+  angleY 9.847
+  angleZ -3.596
+ }
+ {
+  coords 4240.541 0 4199.758
+  angleX 2.659
+  angleY 9.847
+  angleZ -3.596
+ }
+ {
+  coords 4235.148 -0 4199.236
+  angleX 2.659
+  angleY 9.847
+  angleZ -3.596
+ }
+ {
+  coords 4202.805 -0 4199.651
+  angleX 2.659
+  angleY 9.847
+  angleZ -3.596
+ }
+ {
+  coords 4200.198 0 4198.914
+  angleX 2.659
+  angleY 9.847
+  angleZ -3.596
+ }
+ {
+  coords 4198.231 0 4197.968
+  angleX 2.659
+  angleY 9.847
+  angleZ -3.596
+ }
+ {
+  coords 4255.589 0 4163.746
+  angleX 2.659
+  angleY 9.847
+  angleZ -3.596
+ }
+ {
+  coords 4255.771 0 4155.444
+  angleX 2.659
+  angleY 9.847
+  angleZ -3.596
+ }
+ {
+  coords 4226.125 0 4154.004
+  angleX 2.659
+  angleY 9.847
+  angleZ -3.596
+ }
+ {
+  coords 4226.724 0 4162.896
+  angleX 2.659
+  angleY 9.847
+  angleZ -3.596
+ }
+ {
+  coords 4231.612 -0 4173.33
+  angleX 2.659
+  angleY 9.847
+  angleZ -3.596
+ }
+ {
+  coords 4228.962 0 4173.297
+  angleX 2.659
+  angleY 9.847
+  angleZ -3.596
+ }
+ {
+  coords 4252.661 0 4173.591
+  angleX 2.659
+  angleY 9.847
+  angleZ -3.596
+ }
+ {
+  coords 4231.317 -0 4118.772
+  angleY 47.81
+ }
+ {
+  coords 4231.754 -0 4114.073
+  angleY 47.81
+ }
+ {
+  coords 4231.947 -0 4116.924
+  angleY 47.81
+ }
+ {
+  coords 4246.784 0 4120.685
+  angleY 47.81
+ }
+ {
+  coords 4204.282 0 4120.272
+  angleY 47.81
+ }
+ {
+  coords 4191.947 -0 4105.775
+  angleY 47.81
+ }
+ {
+  coords 4278.662 0 4121.542
+  angleY 47.81
+ }
+ {
+  coords 4278.619 -0 4118.711
+  angleY 47.81
+ }
+ {
+  coords 4276.225 0 4121.135
+  angleY 47.81
+ }
+ {
+  coords 4053.595 -0 4022.493
+  angleX -5.797
+  angleY -24.838
+  angleZ -0.613
+ }
+ {
+  coords 3999.088 -0 4057.482
+  angleX -5.797
+  angleY -24.838
+  angleZ -0.613
+ }
+ {
+  coords 3999.123 0 4060.443
+  angleX -5.797
+  angleY -24.838
+  angleZ -0.613
+ }
+ {
+  coords 3993.788 0 4059.796
+  angleX -5.797
+  angleY -24.838
+  angleZ -0.613
+ }
+ {
+  coords 3999.315 -0 4054.347
+  angleX -5.797
+  angleY -24.838
+  angleZ -0.613
+ }
+ {
+  coords 3993.911 0 4056.067
+  angleX -5.797
+  angleY -24.838
+  angleZ -0.613
+ }
+ {
+  coords 4001.925 -0 4051.42
+  angleX -5.797
+  angleY -24.838
+  angleZ -0.613
+ }
+ {
+  coords 3992.45 0.072 4031.792
+  angleX -5.797
+  angleY -24.838
+  angleZ -0.613
+ }
+ {
+  coords 3989.951 0 4047.788
+  angleX -5.797
+  angleY -24.838
+  angleZ -0.613
+ }
+ {
+  coords 4064.671 0 4029.015
+  angleX -5.797
+  angleY -24.838
+  angleZ -0.613
+ }
+ {
+  coords 4008.895 0 4050.704
+  angleX -5.797
+  angleY -24.838
+  angleZ -0.613
+ }
+ {
+  coords 4032.045 -0 4052.368
+  angleX -5.797
+  angleY -24.838
+  angleZ -0.613
+ }
+ {
+  coords 4020.378 -0 4051.688
+  angleX -5.797
+  angleY -24.838
+  angleZ -0.613
+ }
+ {
+  coords 4040.851 -0 4059.967
+  angleX -5.797
+  angleY -24.838
+  angleZ -0.613
+ }
+ {
+  coords 4066.729 0 4039.565
+  angleX -5.797
+  angleY -24.838
+  angleZ -0.613
+ }
+ {
+  coords 4037.458 -0 4059.608
+  angleX -5.797
+  angleY -24.838
+  angleZ -0.613
+ }
+ {
+  coords 4034.539 -0 4052.511
+  angleX -5.797
+  angleY -24.838
+  angleZ -0.613
+ }
+ {
+  coords 4062.402 0 4046.496
+  angleX -5.797
+  angleY -24.838
+  angleZ -0.613
+ }
+ {
+  coords 4061.758 -0 4026.141
+  angleX -5.797
+  angleY -24.838
+  angleZ -0.613
+ }
+ {
+  coords 4040.719 0 4056.258
+  angleX -5.797
+  angleY -24.838
+  angleZ -0.613
+ }
+ {
+  coords 4064.484 0 4049.711
+  angleX -5.797
+  angleY -24.838
+  angleZ -0.613
+ }
+ {
+  coords 4005.406 -0 4051.09
+  angleX -5.797
+  angleY -24.838
+  angleZ -0.613
+ }
+ {
+  coords 4051.578 0 4025.717
+  angleX -5.797
+  angleY -24.838
+  angleZ -0.613
+ }
+ {
+  coords 4051.973 -0 4029.858
+  angleX -5.797
+  angleY -24.838
+  angleZ -0.613
+ }
+ {
+  coords 4055.658 0 4026.503
+  angleX -5.797
+  angleY -24.838
+  angleZ -0.613
+ }
+ {
+  coords 4064.055 -0 4040.796
+  angleX -5.797
+  angleY -24.838
+  angleZ -0.613
+ }
+ {
+  coords 4037.229 -0 4056.063
+  angleX -5.797
+  angleY -24.838
+  angleZ -0.613
+ }
+ {
+  coords 4040.381 -0 4049.766
+  angleX -5.797
+  angleY -24.838
+  angleZ -0.613
+ }
+ {
+  coords 4032.443 0 4043.035
+  angleX -5.797
+  angleY -24.838
+  angleZ -0.613
+ }
+ {
+  coords 4032.37 -0 4038.909
+  angleX -5.797
+  angleY -24.838
+  angleZ -0.613
+ }
+ {
+  coords 4036.079 0 4036.293
+  angleX -5.797
+  angleY -24.838
+  angleZ -0.613
+ }
+ {
+  coords 4032.561 -0 4030.662
+  angleX -5.797
+  angleY -24.838
+  angleZ -0.613
+ }
+ {
+  coords 4023.749 0 4031.015
+  angleX -5.797
+  angleY -24.838
+  angleZ -0.613
+ }
+ {
+  coords 4010.336 -0 4030.749
+  angleX -5.797
+  angleY -24.838
+  angleZ -0.613
+ }
+ {
+  coords 3997.169 0 4033.647
+  angleX -5.797
+  angleY -24.838
+  angleZ -0.613
+ }
+ {
+  coords 4000.729 -0 4034.106
+  angleX -5.797
+  angleY -24.838
+  angleZ -0.613
+ }
+ {
+  coords 4004.582 0 4034.262
+  angleX -5.797
+  angleY -24.838
+  angleZ -0.613
+ }
+ {
+  coords 4048.828 -0 4044.267
+  angleX -5.797
+  angleY -24.838
+  angleZ -0.613
+ }
+ {
+  coords 4049.347 0 4048.27
   angleX -5.797
   angleY -24.838
   angleZ -0.613
@@ -2379,17 +4073,33 @@ $grp SCR_DestructibleBuildingEntity : "{CB9DB26B05802278}Prefabs/Structures/Buld
   coords 4098.096 16.531 4018.315
   angleY -149.734
  }
-}
-SCR_DestructibleBuildingEntity : "{CCB26B05BF0C59FC}Prefabs/Structures/Bulding/HouseC/House_C_1_EP2.et" {
- components {
-  MeshObject "{6535384697DD4D38}" {
-   ClutterOccluder 1
-  }
+ {
+  coords 4069.547 16.375 4046.345
+  angleY 121.209
  }
- coords 4154.238 17.09 3979.526
- angleX 0.016
- angleY -170.389
- angleZ -0.384
+}
+$grp SCR_DestructibleBuildingEntity : "{CCB26B05BF0C59FC}Prefabs/Structures/Bulding/HouseC/House_C_1_EP2.et" {
+ {
+  components {
+   MeshObject "{6535384697DD4D38}" {
+    ClutterOccluder 1
+   }
+  }
+  coords 4154.238 17.09 3979.526
+  angleX 0.016
+  angleY -170.389
+  angleZ -0.384
+ }
+ {
+  components {
+   MeshObject "{6535384697DD4D38}" {
+    ClutterOccluder 1
+   }
+  }
+  coords 4026.144 15.937 4025.302
+  angleX 0.016
+  angleZ -0.384
+ }
 }
 $grp GenericEntity : "{CE99ED95803B77BE}Prefabs/Structures/Market/CarpetRack.et" {
  {
@@ -2431,7 +4141,7 @@ $grp GenericEntity : "{CE99ED95803B77BE}Prefabs/Structures/Market/CarpetRack.et"
 }
 $grp Tree : "{CEFEBF266E7040A9}Prefabs/Vegetation/Tree/t_prunus_domestica/t_prunus_domestica_2s.et" {
  {
-  coords 4088.167 -0 4247.153
+  coords 4088.167 0 4247.153
   angleX 10.349
   angleY 39.245
   angleZ -3.116
@@ -2455,25 +4165,25 @@ $grp Tree : "{CEFEBF266E7040A9}Prefabs/Vegetation/Tree/t_prunus_domestica/t_prun
   angleZ -3.116
  }
  {
-  coords 4147.459 -0 4262.748
+  coords 4147.459 0 4262.748
   angleX 10.349
   angleY 39.245
   angleZ -3.116
  }
  {
-  coords 4110.626 -0 4249.532
+  coords 4110.626 0 4249.532
   angleX 10.349
   angleY 39.245
   angleZ -3.116
  }
  {
-  coords 4140.757 -0 4187.007
+  coords 4140.757 0 4187.007
   angleX 10.349
   angleY 39.245
   angleZ -3.116
  }
  {
-  coords 4171.744 -0 4278.903
+  coords 4171.744 0 4278.903
   angleX 10.349
   angleY 39.245
   angleZ -3.116
@@ -2485,13 +4195,13 @@ $grp Tree : "{CEFEBF266E7040A9}Prefabs/Vegetation/Tree/t_prunus_domestica/t_prun
   angleZ -3.116
  }
  {
-  coords 4200.84 -0 4015.069
+  coords 4200.84 0 4015.069
   angleX 5.519
   angleY -126.137
   angleZ -7.724
  }
  {
-  coords 4081.834 -0 4145.661
+  coords 4081.834 0 4145.661
   angleX 10.349
   angleY 39.245
   angleZ -3.116
@@ -2544,6 +4254,46 @@ $grp SCR_DestructibleBuildingEntity : "{D9D81097C1CC1670}Prefabs/Structures/Buld
   coords 4110.033 16.5 3988.395
   angleY 120
  }
+ {
+  coords 4199.62 17.03 4098.877
+  angleY -90
+ }
+ {
+  coords 4284.402 17.535 4106.678
+  angleY 180
+ }
+ {
+  coords 4261.706 16.719 4203.601
+  angleY 90
+ }
+ {
+  coords 4216.86 16.719 4203.601
+  angleY 90
+ }
+ {
+  coords 4025.684 16.632 4058.836
+  angleY 89.402
+ }
+}
+$grp GenericEntity : "{DAF6B1C250F964B0}Prefabs/Structures/Market/StandCar.et" {
+ {
+  coords 4226.916 17.08 4106.171
+  angleX -2.145
+  angleY 77.063
+  angleZ -1.343
+ }
+ {
+  coords 4242.276 17 4118.946
+  angleX -1.409
+  angleY -11.18
+  angleZ 2.102
+ }
+ {
+  coords 4206.349 17 4117.4
+  angleX -1.409
+  angleY -11.18
+  angleZ 2.102
+ }
 }
 $grp GenericEntity : "{E39DBAD6A4BA12D4}Prefabs/Structures/Market/market_tent_2.et" {
  {
@@ -2580,6 +4330,16 @@ $grp GenericEntity : "{E39DBAD6A4BA12D4}Prefabs/Structures/Market/market_tent_2.
   scale 1.09
  }
 }
+$grp GenericEntity : "{E4DA6CFFCE8E5940}Prefabs/Props/Construction/ContainerMetal_01/ContainerMetal_01_green.et" {
+ {
+  coords 4265.036 17 4119.279
+  angleY 166.395
+ }
+ {
+  coords 4253.121 17 4119.284
+  angleY 166.395
+ }
+}
 StaticModelEntity : "{E8531089F4FEB825}Prefabs/Structures/SideWalks/SW_ATC_C_body_6m_EP1.et" {
  coords 4155.104 -0.029 4153.214
  angleY -92.821
@@ -2596,6 +4356,13 @@ $grp SCR_DestructibleBuildingEntity : "{F2BFC2A25264EC0C}Prefabs/Structures/Buld
  {
   coords 4140.261 16.786 4052.269
   angleY 29.991
+ }
+ {
+  coords 4008.136 16.187 4056.886
+  angleY 180
+ }
+ {
+  coords 4042.294 16.196 4027.594
  }
 }
 $grp GenericEntity : "{F39A28AB89986935}Prefabs/Structures/Misc/Table.et" {
@@ -2638,6 +4405,10 @@ $grp SCR_DestructibleBuildingEntity : "{F636A0D25A021DFA}Prefabs/Structures/Buld
  {
   coords 4086.224 16.535 4115.299
  }
+ {
+  coords 3988.635 16.174 4026.093
+  angleY 180
+ }
 }
 $grp GenericEntity : "{F6981BC58E2B46C5}Prefabs/Compositions/Misc/SubCompositions/Decorations/Crate_Paint_01.et" {
  {
@@ -2665,9 +4436,65 @@ $grp GenericEntity : "{F6981BC58E2B46C5}Prefabs/Compositions/Misc/SubComposition
   angleZ -0.092
  }
 }
+$grp SCR_DestructibleBuildingEntity : "{FA6B1B80C2532423}Prefabs/Structures/Wall/Wall_5.et" {
+ {
+  coords 3990.137 16.108 4149.419
+  angleX 0.667
+  angleY -151.682
+  angleZ 1.598
+ }
+ {
+  coords 3996.617 16.429 4145.931
+  angleX 0.667
+  angleY -151.682
+  angleZ 1.598
+ }
+ {
+  coords 4000.554 16.553 4143.812
+  angleX 0.667
+  angleY -151.682
+  angleZ 1.598
+ }
+ {
+  coords 3953.195 16.742 4181.128
+  angleX 1.56
+  angleY 115.204
+  angleZ 1.293
+ }
+ {
+  coords 3956.961 16.902 4184.223
+  angleX -0.386
+  angleY 180
+  angleZ 1.989
+ }
+ {
+  coords 3960.898 17.038 4184.222
+  angleX -0.386
+  angleY 180
+  angleZ 1.989
+ }
+ {
+  coords 3965.766 17.207 4184.221
+  angleX -0.386
+  angleY 180
+  angleZ 1.989
+ }
+ {
+  coords 3969.906 17.351 4184.22
+  angleX -0.386
+  angleY 180
+  angleZ 1.989
+ }
+ {
+  coords 3953.625 16.765 4182.044
+  angleX 1.56
+  angleY 115.204
+  angleZ 1.293
+ }
+}
 $grp SCR_DestructibleEntity : "{FF9F22E572547ED5}Prefabs/Structures/Walls/Brick/BrickWall_02/BrickWall_Takistan_8m.et" {
  {
-  coords 4177.75 -0 4167.094
+  coords 4177.75 0 4167.094
   angleY -179.068
  }
  {
@@ -2707,7 +4534,7 @@ $grp SCR_DestructibleEntity : "{FF9F22E572547ED5}Prefabs/Structures/Walls/Brick/
   angleY 1.334
  }
  {
-  coords 4181.614 -0 4102.308
+  coords 4181.614 0 4102.308
   angleY -90
  }
  {
@@ -2719,7 +4546,7 @@ $grp SCR_DestructibleEntity : "{FF9F22E572547ED5}Prefabs/Structures/Walls/Brick/
   angleY -90
  }
  {
-  coords 4101.871 1.213 3982.544
+  coords 4105.058 1.211 3980.575
   angleY -148.296
  }
  {
@@ -2729,10 +4556,6 @@ $grp SCR_DestructibleEntity : "{FF9F22E572547ED5}Prefabs/Structures/Walls/Brick/
  {
   coords 4115.511 1.181 3975.425
   angleY -156.966
- }
- {
-  coords 4115.117 1.602 3975.47
-  angleY 7.73
  }
  {
   coords 4078.453 1.394 3997.009
@@ -2753,5 +4576,177 @@ $grp SCR_DestructibleEntity : "{FF9F22E572547ED5}Prefabs/Structures/Walls/Brick/
  {
   coords 4065.644 0.602 4151.767
   angleY 1.334
+ }
+ {
+  coords 4076.032 0.168 4043.509
+  angleY 121.209
+ }
+ {
+  coords 4071.909 0.254 4036.704
+  angleY 121.209
+ }
+ {
+  coords 4068.006 0.254 4030.261
+  angleY 136.417
+ }
+ {
+  coords 4062.241 0.235 4024.774
+  angleY 136.417
+ }
+ {
+  coords 4056.917 0.285 4019.368
+  angleY -159.054
+ }
+ {
+  coords 4068.017 -0.013 3995.579
+  angleY 31.704
+ }
+ {
+  coords 4061.275 -0.006 3999.744
+  angleY 31.704
+ }
+ {
+  coords 4054.571 -0.035 4003.885
+  angleY 31.704
+ }
+ {
+  coords 4074.796 -0.049 3991.392
+  angleY 31.704
+ }
+ {
+  coords 4081.42 -0.142 3987.3
+  angleY 31.704
+ }
+ {
+  coords 4088.109 -0.193 3983.168
+  angleY 31.704
+ }
+ {
+  coords 4094.805 -0.209 3979.032
+  angleY 31.704
+ }
+ {
+  coords 4101.418 -0.193 3974.946
+  angleY 31.704
+ }
+ {
+  coords 4108.093 -0.224 3970.823
+  angleY 7.73
+ }
+ {
+  coords 4115.937 -0.26 3969.758
+  angleY 7.73
+ }
+ {
+  coords 4123.862 -0.307 3968.682
+  angleY 7.73
+ }
+ {
+  coords 4131.772 -0.404 3967.608
+  angleY 7.73
+ }
+ {
+  coords 4139.577 -0.53 3966.549
+  angleY 7.73
+ }
+ {
+  coords 4147.426 -0.653 3965.484
+  angleY 7.73
+ }
+ {
+  coords 4155.309 -0.762 3964.414
+  angleY 7.73
+ }
+ {
+  coords 4039.451 0.153 4012.183
+  angleY 31.704
+ }
+ {
+  coords 4039.451 0.153 4012.183
+  angleY 180
+ }
+ {
+  coords 4031.516 0.121 4012.183
+  angleY 180
+ }
+ {
+  coords 4023.611 0.156 4012.183
+  angleY 180
+ }
+ {
+  coords 4015.903 0.117 4012.183
+  angleY 180
+ }
+ {
+  coords 4008.025 0.15 4012.183
+  angleY 180
+ }
+ {
+  coords 4054.571 -0.035 4003.885
+  angleY 100
+ }
+ {
+  coords 4053.195 0.056 3996.078
+  angleY 100
+ }
+ {
+  coords 4051.824 0.06 3988.302
+  angleY 100
+ }
+ {
+  coords 4050.46 0.113 3980.567
+  angleY 100
+ }
+ {
+  coords 4049.756 0.129 3976.574
+  angleY 100
+ }
+ {
+  coords 4046.284 0.09 4008.138
+  angleY 100
+ }
+ {
+  coords 4044.907 0.106 4000.333
+  angleY 100
+ }
+ {
+  coords 4043.537 0.127 3992.556
+  angleY 100
+ }
+ {
+  coords 4042.173 0.115 3984.822
+  angleY 100
+ }
+ {
+  coords 4040.813 0.139 3977.109
+  angleY 100
+ }
+ {
+  coords 4039.459 0.16 3969.432
+  angleY 100
+ }
+ {
+  coords 4038.757 0.183 3965.448
+  angleY 100
+ }
+ {
+  coords 3991.319 0.339 4016.729
+  angleY 180
+ }
+ {
+  coords 3999.161 0.38 4016.729
+  angleY 180
+ }
+ {
+  coords 3987.357 0.359 4016.729
+  angleY 180
+ }
+ {
+  coords 3998.844 0.38 4016.549
+  angleY -58.381
+ }
+ {
+  coords 4115.188 1.602 3975.461
+  angleY 7.73
  }
 }
