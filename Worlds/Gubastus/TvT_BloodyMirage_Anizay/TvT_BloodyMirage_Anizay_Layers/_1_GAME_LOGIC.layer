@@ -6,7 +6,6 @@ GenericEntity : "{592E8C59C778A189}Prefabs/System/GUB_ZoneControlBetweenFactions
      m_sZoneEntityName "TRIGGER_ZONE"
      m_sZonePreviewName "Зона триггера"
      m_bUseTestingMode 0
-     m_bAdvanceGameStage 1
      m_aFlagNames {
       "FLAG_1" "FLAG_2" "FLAG_3"
      }
@@ -51,9 +50,8 @@ GenericEntity : "{6A3CDCFB475BF1B2}Prefabs/System/DRG_CriticalLossPrefab.et" {
      m_sFailedObjectiveNames {
       "AFRF_CAPTURE"
      }
-     m_bAdvanceGameStage 1
      m_bUseMessage 1
-     m_bEventMessage "ВСРФ понесли тяжелые потери."
+     m_bEventMessage "ВСРФ понесли тяжелые потери и отступили."
     }
     LossLogic "{66A1650DCD07FADA}" {
      m_aLosses {
@@ -68,9 +66,8 @@ GenericEntity : "{6A3CDCFB475BF1B2}Prefabs/System/DRG_CriticalLossPrefab.et" {
      m_sFailedObjectiveNames {
       "USAF_CAPTURE"
      }
-     m_bAdvanceGameStage 1
      m_bUseMessage 1
-     m_bEventMessage "#drg_ModuleCriticalLoss_ConditionMet_AttackWin"
+     m_bEventMessage "Оборона понесла тяжелые потери. Аэродром захвачен ВСРФ!"
     }
    }
   }
