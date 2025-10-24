@@ -40,6 +40,26 @@ GenericEntity Loses_Logic : "{6A3CDCFB475BF1B2}Prefabs/System/DRG_CriticalLossPr
  }
  coords 2328.512 233.548 1635.516
 }
+GenericEntity FLAG : "{D9DF8E01E73A2E97}PrefabsEditable/Auto/Structures/Military/Flags/FlagPole_02_V1_TKR_Editable.et" {
+ components {
+  SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+   m_aObjectiveNames {
+    "TKR_2" "USAF_2"
+   }
+   m_aFlagData {
+    PS_FlagData "{66B0B9F0E6F48D46}" {
+     m_sFactionKey "Ses_TKR"
+    }
+    PS_FlagData "{66B0B9F0E3F8A365}" {
+     m_sFactionKey "RHS_USAF"
+     m_iCaptureCounter 1
+    }
+   }
+   m_sFactionKey "Ses_TKR"
+  }
+ }
+ coords 10171.878 210.377 10072.473
+}
 GenericEntity Time_End : "{E6FC6DD69FA3479F}Prefabs/System/DRG_MissionEndTimerPrefab.et" {
  components {
   DRG_MissionEndTimerComponent "{651B0839B21B3BBF}" {

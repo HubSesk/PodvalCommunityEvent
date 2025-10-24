@@ -230,6 +230,10 @@ GenericEntity : "{157E18D526C3A7E6}Prefabs/Compositions/Misc/SubCompositions/Cra
 StaticModelEntity : "{19A773A35FF690B9}Prefabs/Structures/Bulding/Mosque/A_Mosque_small_1_EP2_Ruins.et" {
  coords 10154.118 209.94 10131.924
 }
+GenericEntity : "{23B0999AF18DDD4A}Prefabs/Tunnels/Cover.et" {
+ coords 10183.287 201.861 10104.989
+ angleY 87.583
+}
 $grp Tree : "{23C0BE9D80929DBD}Prefabs/Vegetation/Bush/b_salix_cinerea_1w.et" {
  {
   coords 10136.364 0 9984.408
@@ -239,42 +243,42 @@ $grp Tree : "{23C0BE9D80929DBD}Prefabs/Vegetation/Bush/b_salix_cinerea_1w.et" {
   scale 0.876
  }
  {
-  coords 10131.613 -0 9984.495
+  coords 10131.613 0 9984.495
   angleX -4.456
   angleY 38.341
   angleZ 3.34
   scale 0.876
  }
  {
-  coords 10133.84 -0 9986.777
+  coords 10133.84 0 9986.777
   angleX -4.456
   angleY 38.341
   angleZ 3.34
   scale 0.876
  }
  {
-  coords 10136.714 -0 9987.181
+  coords 10136.714 0 9987.181
   angleX -4.456
   angleY 38.341
   angleZ 3.34
   scale 0.876
  }
  {
-  coords 10134.296 -0 9982.612
+  coords 10134.296 0 9982.612
   angleX -4.456
   angleY 38.341
   angleZ 3.34
   scale 0.876
  }
  {
-  coords 10100.505 -0 9982.948
+  coords 10100.505 0 9982.948
   angleX -4.456
   angleY 38.341
   angleZ 3.34
   scale 0.876
  }
  {
-  coords 10103.175 -0 9983.548
+  coords 10103.175 0 9983.548
   angleX -4.456
   angleY 38.341
   angleZ 3.34
@@ -295,28 +299,28 @@ $grp Tree : "{23C0BE9D80929DBD}Prefabs/Vegetation/Bush/b_salix_cinerea_1w.et" {
   scale 0.876
  }
  {
-  coords 10100.824 -0 9989.352
+  coords 10100.824 0 9989.352
   angleX -4.456
   angleY 38.341
   angleZ 3.34
   scale 0.876
  }
  {
-  coords 10103.528 -0 9988.442
+  coords 10103.528 0 9988.442
   angleX -4.456
   angleY 38.341
   angleZ 3.34
   scale 0.876
  }
  {
-  coords 10106.624 -0 9987.569
+  coords 10106.624 0 9987.569
   angleX -4.456
   angleY 38.341
   angleZ 3.34
   scale 0.876
  }
  {
-  coords 10105.59 -0 9983.681
+  coords 10105.59 0 9983.681
   angleX -4.456
   angleY 38.341
   angleZ 3.34
@@ -330,7 +334,7 @@ $grp Tree : "{23C0BE9D80929DBD}Prefabs/Vegetation/Bush/b_salix_cinerea_1w.et" {
   scale 0.876
  }
  {
-  coords 10103.54 -0 10027.682
+  coords 10103.54 0 10027.682
   angleX -4.456
   angleY 38.341
   angleZ 3.34
@@ -344,7 +348,7 @@ $grp Tree : "{23C0BE9D80929DBD}Prefabs/Vegetation/Bush/b_salix_cinerea_1w.et" {
   scale 0.876
  }
  {
-  coords 10183.222 -0 9982.135
+  coords 10183.222 0 9982.135
   angleX -4.456
   angleY 38.341
   angleZ 3.34
@@ -379,7 +383,7 @@ $grp Tree : "{23C0BE9D80929DBD}Prefabs/Vegetation/Bush/b_salix_cinerea_1w.et" {
   scale 0.876
  }
  {
-  coords 10187.594 -0 10161.774
+  coords 10187.594 0 10161.774
   angleX -4.456
   angleY 38.341
   angleZ 3.34
@@ -428,7 +432,7 @@ $grp Tree : "{23C0BE9D80929DBD}Prefabs/Vegetation/Bush/b_salix_cinerea_1w.et" {
   scale 0.876
  }
  {
-  coords 10148.005 -0 10162.895
+  coords 10148.005 0 10162.895
   angleX -4.456
   angleY 38.341
   angleZ 3.34
@@ -449,7 +453,7 @@ $grp Tree : "{23C0BE9D80929DBD}Prefabs/Vegetation/Bush/b_salix_cinerea_1w.et" {
   scale 0.876
  }
  {
-  coords 10106.024 -0 10155.181
+  coords 10106.024 0 10155.181
   angleX -4.456
   angleY 38.341
   angleZ 3.34
@@ -463,7 +467,7 @@ $grp Tree : "{23C0BE9D80929DBD}Prefabs/Vegetation/Bush/b_salix_cinerea_1w.et" {
   scale 0.876
  }
  {
-  coords 10110.356 -0 10159.541
+  coords 10110.356 0 10159.541
   angleX -4.456
   angleY 38.341
   angleZ 3.34
@@ -477,7 +481,7 @@ $grp Tree : "{23C0BE9D80929DBD}Prefabs/Vegetation/Bush/b_salix_cinerea_1w.et" {
   scale 0.876
  }
  {
-  coords 10111.344 -0 10162.404
+  coords 10111.344 0 10162.404
   angleX -4.456
   angleY 38.341
   angleZ 3.34
@@ -867,30 +871,36 @@ $grp SCR_DestructibleBuildingEntity : "{6445B30F71CA9D1A}Prefabs/Structures/Ruin
 }
 $grp GenericEntity : "{69A8FFE5527CB776}Prefabs/Structures/BuildingParts/Entry/Entry_Direct_01.et" {
  {
-  coords 10171.252 210.693 10085.563
+  coords 10171.903 210.377 10084.343
+  angleY 0.939
  }
  {
-  coords 10156.951 210.684 10073.243
-  angleY -85.543
+  coords 10161.221 210.36 10072.537
+  angleY -89.889
  }
  {
-  coords 10170.547 209.962 10060.164
-  angleY -177.085
+  coords 10172.024 210.454 10060.583
+  angleY 179.602
  }
  {
-  coords 10184.947 210.189 10072.344
-  angleY 90.388
+  coords 10182.673 210.398 10072.242
+  angleY 90.474
  }
  {
-  coords 10162.332 210.829 10085.753
+  coords 10163.789 210.44 10084.296
+  angleY 0.529
  }
  {
-  coords 10161.417 210.117 10060.178
-  angleY -177.085
+  coords 10163.521 210.466 10060.586
+  angleY -179.776
  }
  {
-  coords 10179.678 209.83 10059.448
-  angleY -177.085
+  coords 10180.158 210.443 10060.516
+  angleY 179.965
+ }
+ {
+  coords 10180.462 210.456 10084.065
+  angleY -0.558
  }
 }
 $grp SCR_DestructibleBuildingEntity : "{6BE382F85F1A7491}Prefabs/Structures/Cultural/Castles/Castle_01_InnerWall_01.et" {
@@ -1018,6 +1028,35 @@ GenericEntity : "{792A2C359A0728C8}Prefabs/Compositions/Misc/SubCompositions/Cra
  angleX 6.112
  angleY -55.665
  angleZ 1.087
+}
+$grp SCR_DestructibleBuildingEntity : "{7F0E9789EB7F1BCF}Prefabs/Structures/Military/Bunkers/AmmoDump_E_01/AmmoDump_E_01_cover.et" {
+ {
+  coords 10180.813 206.983 10065.801
+  angleY 114.808
+ }
+ {
+  coords 10180.066 207.647 10067.337
+  angleY -179.58
+ }
+ {
+  coords 10172.433 207.458 10062.883
+  angleY -179.58
+ }
+ {
+  coords 10177.454 208.228 10082.288
+  angleY 2.734
+ }
+ {
+  coords 10172.117 208.453 10080.414
+  angleY 2.734
+  angleZ -3.189
+ }
+ {
+  coords 10179.515 207.901 10083.086
+  angleX 1.87
+  angleY 38.598
+  angleZ -2.584
+ }
 }
 $grp SCR_DestructibleBuildingEntity : "{86952D860A66DBA6}Prefabs/Structures/Culture/Castle/Castle Wall Bastion.et" {
  {
@@ -1258,12 +1297,6 @@ $grp Tree : "{A43BE7E364B5CD67}Prefabs/Vegetation/Bush/b_juniperus_communis_2w.e
   angleZ -4.351
   scale 1.19
  }
-}
-SCR_DestructibleBuildingEntity : "{AACC08B16759B842}Prefabs/Structures/Bulding/Mosque/Mosque_big_Base.et" {
- coords 10170.927 210.254 10072.889
- angleX 1.769
- angleY 1.917
- angleZ 0.93
 }
 GenericEntity : "{B3283803059E2750}Prefabs/Props/Crates/CrateWooden_01_plain.et" {
  coords 10115.087 212.004 10029.266
@@ -1657,6 +1690,10 @@ $grp StaticModelEntity : "{EA0A3BDB3297E03C}PrefabLibrary/Walls/Wooden/WoodenFen
   coords 10126.166 0.033 10130.185
   angleY 97.272
  }
+}
+SCR_DestructibleBuildingEntity : "{EC7A36B2D99BD630}Prefabs/Structures/Bulding/Mosque/mosque_big_f.et" {
+ coords 10171.95 210.332 10072.493
+ angleY -0.27
 }
 $grp SCR_DestructibleBuildingEntity : "{EEBEFB9CDBA4A63C}Prefabs/Models/houses/tem_mosque_hq_wall_gate.et" {
  {
