@@ -60,14 +60,20 @@ class GUB_FlagController : ScriptComponent
 			if (!IsSecondFlag)
 			{
 				flagComponents[i].m_sFactionKey = m_sStartFactionKey;
-				flagComponents[i].ChangeMaterial(startFaction.GetFactionFlagMaterial());
-                Rpc(UpdateFlagMaterial, m_aFlagNames[i], startFaction.GetFactionFlagMaterial());
+				// flagComponents[i].ChangeMaterial(startFaction.GetFactionFlagMaterial());
+				UpdateFlagMaterialClients(m_aFlagNames[i], startFaction.GetFactionFlagMaterial());
+                Rpc(UpdateFlagMaterialServer, m_aFlagNames[i], startFaction.GetFactionFlagMaterial());
+                Rpc(UpdateFlagMaterialOwner, m_aFlagNames[i], startFaction.GetFactionFlagMaterial());
+                Rpc(UpdateFlagMaterialClients, m_aFlagNames[i], startFaction.GetFactionFlagMaterial());
 			}
 			else
 			{
 				flagComponents[i].m_sFactionKey = m_sEndFactionKey;
-				flagComponents[i].ChangeMaterial(endFaction.GetFactionFlagMaterial());
-                Rpc(UpdateFlagMaterial, m_aFlagNames[i], endFaction.GetFactionFlagMaterial());
+				// flagComponents[i].ChangeMaterial(endFaction.GetFactionFlagMaterial());
+				UpdateFlagMaterialClients(m_aFlagNames[i], endFaction.GetFactionFlagMaterial());
+                Rpc(UpdateFlagMaterialServer, m_aFlagNames[i], endFaction.GetFactionFlagMaterial());
+                Rpc(UpdateFlagMaterialOwner, m_aFlagNames[i], endFaction.GetFactionFlagMaterial());
+                Rpc(UpdateFlagMaterialClients, m_aFlagNames[i], endFaction.GetFactionFlagMaterial());
 			}
 		}
 	}
@@ -87,19 +93,44 @@ class GUB_FlagController : ScriptComponent
 			vector matLS[4];
 			slotManagers[i].GetSlotByName("Flag").GetLocalTransform(matLS);
 			matLS[3][1] = flagStartLocalPoses[i][1] * (Math.AbsFloat(percentage - 0.5) * 2 - 1);
-			slotManagers[i].GetSlotByName("Flag").SetAdditiveTransformLS(matLS);
-            Rpc(UpdateFlagPosition, m_aFlagNames[i], matLS);
+			// slotManagers[i].GetSlotByName("Flag").SetAdditiveTransformLS(matLS);
+            UpdateFlagPositionClients(m_aFlagNames[i], matLS);
+            Rpc(UpdateFlagPositionServer, m_aFlagNames[i], matLS);
+			Rpc(UpdateFlagPositionOwner, m_aFlagNames[i], matLS);
+			Rpc(UpdateFlagPositionClients, m_aFlagNames[i], matLS);
 		}
 		return;
 	}
 
+	[RplRpc(RplChannel.Reliable, RplRcver.Server)]
+	void UpdateFlagPositionServer(string FlagName, vector MatLS[4])
+	{
+		SlotManagerComponent.Cast(GetGame().GetWorld().FindEntityByName(FlagName).FindComponent(SlotManagerComponent)).GetSlotByName("Flag").SetAdditiveTransformLS(MatLS);
+	}
+	[RplRpc(RplChannel.Reliable, RplRcver.Server)]
+	void UpdateFlagMaterialServer(string FlagName, ResourceName FlagMaterial)
+	{
+		SCR_FlagComponent.Cast(GetGame().GetWorld().FindEntityByName(FlagName).FindComponent(SCR_FlagComponent)).ChangeMaterial(FlagMaterial);
+	}
+
+	[RplRpc(RplChannel.Reliable, RplRcver.Owner)]
+	void UpdateFlagPositionOwner(string FlagName, vector MatLS[4])
+	{
+		SlotManagerComponent.Cast(GetGame().GetWorld().FindEntityByName(FlagName).FindComponent(SlotManagerComponent)).GetSlotByName("Flag").SetAdditiveTransformLS(MatLS);
+	}
+	[RplRpc(RplChannel.Reliable, RplRcver.Owner)]
+	void UpdateFlagMaterialOwner(string FlagName, ResourceName FlagMaterial)
+	{
+		SCR_FlagComponent.Cast(GetGame().GetWorld().FindEntityByName(FlagName).FindComponent(SCR_FlagComponent)).ChangeMaterial(FlagMaterial);
+	}
+
     [RplRpc(RplChannel.Reliable, RplRcver.Broadcast)]
-    void UpdateFlagPosition(string FlagName, vector MatLS[4])
+    void UpdateFlagPositionClients(string FlagName, vector MatLS[4])
     {
         SlotManagerComponent.Cast(GetGame().GetWorld().FindEntityByName(FlagName).FindComponent(SlotManagerComponent)).GetSlotByName("Flag").SetAdditiveTransformLS(MatLS);
     }
     [RplRpc(RplChannel.Reliable, RplRcver.Broadcast)]
-    void UpdateFlagMaterial(string FlagName, ResourceName FlagMaterial)
+    void UpdateFlagMaterialClients(string FlagName, ResourceName FlagMaterial)
     {
         SCR_FlagComponent.Cast(GetGame().GetWorld().FindEntityByName(FlagName).FindComponent(SCR_FlagComponent)).ChangeMaterial(FlagMaterial);
     }
