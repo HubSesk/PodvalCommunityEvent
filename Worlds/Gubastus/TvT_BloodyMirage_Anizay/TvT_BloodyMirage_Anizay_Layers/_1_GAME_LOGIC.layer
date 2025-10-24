@@ -1,3 +1,15 @@
+GenericEntity FLAGS_CONTROLLER {
+ components {
+  GUB_FlagController "{66B0B95F21173BA5}" {
+   m_aFlagNames {
+    "FLAG_1" "FLAG_2" "FLAG_3"
+   }
+   m_sStartFactionKey "RHS_USAF"
+   m_sEndFactionKey "RHS_AFRF"
+  }
+ }
+ coords 8435.626 111.531 6828.784
+}
 GenericEntity : "{592E8C59C778A189}Prefabs/System/GUB_ZoneControlBetweenFactionsPrefab.et" {
  components {
   GUB_ZoneControlBetweenFactionsComponent "{66931217B7943C52}" {
@@ -6,11 +18,7 @@ GenericEntity : "{592E8C59C778A189}Prefabs/System/GUB_ZoneControlBetweenFactions
      m_sZoneEntityName "TRIGGER_ZONE"
      m_sZonePreviewName "Зона триггера"
      m_bUseTestingMode 0
-     m_aFlagNames {
-      "FLAG_1" "FLAG_2" "FLAG_3"
-     }
-     m_fStartFactionKey "RHS_USAF"
-     m_fEndFactionKey "RHS_AFRF"
+     m_sFlagControllerName "FLAGS_CONTROLLER"
      m_sSuccessObjectiveNames {
       "AFRF_CAPTURE"
      }

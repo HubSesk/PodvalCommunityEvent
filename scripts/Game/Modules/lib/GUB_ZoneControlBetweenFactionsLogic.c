@@ -36,14 +36,8 @@ class GUB_ZoneControlBetweenFactionsLogic
 	[Attribute("0", UIWidgets.CheckBox, "Advance game stage to AAR (Debriefing)", "")]
 	bool m_bAdvanceGameStage;
 
-	[Attribute("", desc: "Flags, which indicates capturing status")]
-	ref array<string> m_aFlagNames;
-
-	[Attribute("")]
-	FactionKey m_fStartFactionKey;
-
-	[Attribute("")]
-	FactionKey m_fEndFactionKey;
+	[Attribute(defvalue: "")]
+	string m_sFlagControllerName;
 
 	[Attribute(defvalue: "", desc: "Objectives marked completed on success")]
 	ref array<string> m_sSuccessObjectiveNames;
@@ -77,7 +71,7 @@ class GUB_ZoneControlBetweenFactionsLogic
 	protected bool m_bQueryInFlight;
 
 	protected ref GUB_ZoneControlTimer m_Timer;
-	protected ref GUB_FlagController m_FlagController;
+	protected GUB_FlagController m_FlagController;
 	protected ref map<string, int> m_mFactionCounts; // счётчики по фракциям
 
 	// Префаб сферического триггера (как в Seizing)
@@ -95,14 +89,10 @@ class GUB_ZoneControlBetweenFactionsLogic
 
 		m_Timer = new GUB_ZoneControlTimer();
 		m_Timer.SetParams(m_aConditions, m_mFactionCounts, m_fTimeToComplete, m_bContinuously);
-
-		m_FlagController = new GUB_FlagController();
-		m_FlagController.SetParams(m_aFlagNames, m_fStartFactionKey, m_fEndFactionKey);
-		
+				
 		if (m_fCheckPeriod <= 0)
 		m_fCheckPeriod = 1.0;
 		
-
 		ResolveZoneAndPrepare();
 	}
 
@@ -354,6 +344,8 @@ class GUB_ZoneControlBetweenFactionsLogic
 		if (m_Timer.Check(m_fCheckPeriod))
 			Complete();
 		
+		if (!m_FlagController)
+			m_FlagController = GUB_FlagController.Cast(GetGame().GetWorld().FindEntityByName(m_sFlagControllerName).FindComponent(GUB_FlagController));
 		m_FlagController.Update(m_Timer.GetCapturePercentage());
 	}
 
@@ -440,16 +432,6 @@ class GUB_ZoneControlBetweenFactionsLogic
 		{
 			delete m_Timer;
 			m_Timer = null
-		}
-		if (m_FlagController)
-		{
-			delete m_FlagController;
-			m_FlagController = null;
-		}
-		if (m_FlagController)
-		{
-			delete m_FlagController;
-			m_FlagController = null;
 		}
 	}
 }
