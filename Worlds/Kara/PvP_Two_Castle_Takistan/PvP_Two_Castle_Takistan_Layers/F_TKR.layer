@@ -1,0 +1,86 @@
+$grp Turret : "{1A407760EEAE4156}Prefabs/Vehicles/Static/BaconZU23/BaconZU23_Turret_Deployed.et" {
+ ZU_0 {
+  coords 10259.552 240.856 10152.4
+  angleX -0.007
+  angleY 93.415
+  angleZ 0.399
+ }
+ ZU_1 {
+  coords 10087.352 242.936 9990.253
+  angleX 0.398
+  angleY -175.273
+  angleZ 0.019
+ }
+}
+$grp SCR_AIGroup : "{7DE1C37237295281}Prefabs/Groups/INDFOR/Ses_TKR/drg_TKR_RifleSquad.et" {
+ TKR_000 {
+  coords 10121.097 210.225 10006.025
+  angleY 0
+  m_aUnitPrefabSlots {
+   "{D18907EB472956F5}Prefabs/Characters/Factions/INDFOR/TKR/drg_Character_Ses_TKR_CL.et"
+  }
+  m_sCustomNameSet "Лидер"
+ }
+ TKR_100 {
+  components {
+   PS_GroupCallsignAssigner "{65154C1E6C2E8928}" {
+    m_iCompanyCallsign 1
+   }
+  }
+  coords 10124.588 210.378 10010.146
+  angleY -92.143
+  m_aUnitPrefabSlots {
+   "{60B44C26D40826FA}Prefabs/Characters/Factions/INDFOR/TKR/drg_Character_Ses_TKR_SL.et" "{2591824D3231A9C7}Prefabs/Characters/Factions/INDFOR/TKR/drg_Character_Ses_TKR_SR_Rand.et" "{7B1DE711B74EF26C}Prefabs/Characters/Factions/INDFOR/TKR/drg_Character_Ses_TKR_AT_Rand.et" "{6B6FFA5A4E0E6959}Prefabs/Characters/Factions/INDFOR/TKR/drg_Character_Ses_TKR_MG_Rand.et" "{3BACBFFF3D0BF9F3}Prefabs/Characters/Factions/INDFOR/TKR/drg_Character_Ses_TKR_Sniper_V3.et" "{D59DBF1A0CEA4C55}Prefabs/Characters/Factions/INDFOR/TKR/drg_Character_Ses_TKR_Recruit_Rand.et" "{09E76FAD9039185A}Prefabs/Characters/Factions/INDFOR/TKR/drg_Character_Ses_TKR_Rifleman_Rand.et" "{09E76FAD9039185A}Prefabs/Characters/Factions/INDFOR/TKR/drg_Character_Ses_TKR_Rifleman_Rand.et"
+  }
+ }
+ TKR_101 {
+  components {
+   PS_GroupCallsignAssigner "{65154C1E6C2E8928}" {
+    m_iCompanyCallsign 1
+    m_iSquadCallsign 1
+   }
+  }
+  coords 10118.182 211.104 10016.983
+  angleY 87.883
+  m_aUnitPrefabSlots {
+   "{60B44C26D40826FA}Prefabs/Characters/Factions/INDFOR/TKR/drg_Character_Ses_TKR_SL.et" "{2591824D3231A9C7}Prefabs/Characters/Factions/INDFOR/TKR/drg_Character_Ses_TKR_SR_Rand.et" "{7B1DE711B74EF26C}Prefabs/Characters/Factions/INDFOR/TKR/drg_Character_Ses_TKR_AT_Rand.et" "{6B6FFA5A4E0E6959}Prefabs/Characters/Factions/INDFOR/TKR/drg_Character_Ses_TKR_MG_Rand.et" "{3BACBFFF3D0BF9F3}Prefabs/Characters/Factions/INDFOR/TKR/drg_Character_Ses_TKR_Sniper_V3.et" "{D59DBF1A0CEA4C55}Prefabs/Characters/Factions/INDFOR/TKR/drg_Character_Ses_TKR_Recruit_Rand.et" "{09E76FAD9039185A}Prefabs/Characters/Factions/INDFOR/TKR/drg_Character_Ses_TKR_Rifleman_Rand.et" "{09E76FAD9039185A}Prefabs/Characters/Factions/INDFOR/TKR/drg_Character_Ses_TKR_Rifleman_Rand.et"
+  }
+ }
+ TKR_200 {
+  components {
+   PS_GroupCallsignAssigner "{65154C1E6C2E8928}" {
+    m_iCompanyCallsign 2
+   }
+  }
+  coords 10184.452 208.772 10126.463
+  angleY -88.572
+  m_aUnitPrefabSlots {
+   "{60B44C26D40826FA}Prefabs/Characters/Factions/INDFOR/TKR/drg_Character_Ses_TKR_SL.et" "{2591824D3231A9C7}Prefabs/Characters/Factions/INDFOR/TKR/drg_Character_Ses_TKR_SR_Rand.et" "{6B6FFA5A4E0E6959}Prefabs/Characters/Factions/INDFOR/TKR/drg_Character_Ses_TKR_MG_Rand.et" "{6B6FFA5A4E0E6959}Prefabs/Characters/Factions/INDFOR/TKR/drg_Character_Ses_TKR_MG_Rand.et" "{3BACBFFF3D0BF9F3}Prefabs/Characters/Factions/INDFOR/TKR/drg_Character_Ses_TKR_Sniper_V3.et" "{D59DBF1A0CEA4C55}Prefabs/Characters/Factions/INDFOR/TKR/drg_Character_Ses_TKR_Recruit_Rand.et" "{09E76FAD9039185A}Prefabs/Characters/Factions/INDFOR/TKR/drg_Character_Ses_TKR_Rifleman_Rand.et" "{09E76FAD9039185A}Prefabs/Characters/Factions/INDFOR/TKR/drg_Character_Ses_TKR_Rifleman_Rand.et"
+  }
+ }
+ TKR_201 {
+  components {
+   PS_GroupCallsignAssigner "{65154C1E6C2E8928}" {
+    m_iCompanyCallsign 2
+    m_iSquadCallsign 1
+   }
+  }
+  coords 10170.258 208.996 10134.272
+  angleY 91.87
+  m_aUnitPrefabSlots {
+   "{60B44C26D40826FA}Prefabs/Characters/Factions/INDFOR/TKR/drg_Character_Ses_TKR_SL.et" "{2591824D3231A9C7}Prefabs/Characters/Factions/INDFOR/TKR/drg_Character_Ses_TKR_SR_Rand.et" "{6B6FFA5A4E0E6959}Prefabs/Characters/Factions/INDFOR/TKR/drg_Character_Ses_TKR_MG_Rand.et" "{6B6FFA5A4E0E6959}Prefabs/Characters/Factions/INDFOR/TKR/drg_Character_Ses_TKR_MG_Rand.et" "{3BACBFFF3D0BF9F3}Prefabs/Characters/Factions/INDFOR/TKR/drg_Character_Ses_TKR_Sniper_V3.et" "{D59DBF1A0CEA4C55}Prefabs/Characters/Factions/INDFOR/TKR/drg_Character_Ses_TKR_Recruit_Rand.et" "{09E76FAD9039185A}Prefabs/Characters/Factions/INDFOR/TKR/drg_Character_Ses_TKR_Rifleman_Rand.et" "{09E76FAD9039185A}Prefabs/Characters/Factions/INDFOR/TKR/drg_Character_Ses_TKR_Rifleman_Rand.et"
+  }
+ }
+ TKR_300 {
+  components {
+   PS_GroupCallsignAssigner "{65154C1E6C2E8928}" {
+    m_iCompanyCallsign 3
+   }
+  }
+  coords 10174.521 208.88 10092.106
+  angleY -175.418
+  m_aUnitPrefabSlots {
+   "{60B44C26D40826FA}Prefabs/Characters/Factions/INDFOR/TKR/drg_Character_Ses_TKR_SL.et" "{2591824D3231A9C7}Prefabs/Characters/Factions/INDFOR/TKR/drg_Character_Ses_TKR_SR_Rand.et" "{6B6FFA5A4E0E6959}Prefabs/Characters/Factions/INDFOR/TKR/drg_Character_Ses_TKR_MG_Rand.et" "{7B1DE711B74EF26C}Prefabs/Characters/Factions/INDFOR/TKR/drg_Character_Ses_TKR_AT_Rand.et" "{D59DBF1A0CEA4C55}Prefabs/Characters/Factions/INDFOR/TKR/drg_Character_Ses_TKR_Recruit_Rand.et" "{09E76FAD9039185A}Prefabs/Characters/Factions/INDFOR/TKR/drg_Character_Ses_TKR_Rifleman_Rand.et" "{09E76FAD9039185A}Prefabs/Characters/Factions/INDFOR/TKR/drg_Character_Ses_TKR_Rifleman_Rand.et"
+  }
+ }
+}
