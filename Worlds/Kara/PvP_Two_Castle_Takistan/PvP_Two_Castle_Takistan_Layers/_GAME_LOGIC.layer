@@ -5,14 +5,14 @@ GenericEntity Loses_Logic : "{6A3CDCFB475BF1B2}Prefabs/System/DRG_CriticalLossPr
     LossLogic "{6690573BED454404}" {
      m_aLosses {
       FactionLoss "{6690573BEA15D3BF}" {
-       m_sFactionKey "RHS_ION"
+       m_sFactionKey "Ses_TKR"
       }
      }
      m_sObjectiveNames {
-      "AFRF_1"
+      "USAF_1"
      }
      m_sFailedObjectiveNames {
-      "ION_1"
+      "TKR_1"
      }
      m_bAdvanceGameStage 1
      m_bUseMessage 1
@@ -21,14 +21,15 @@ GenericEntity Loses_Logic : "{6A3CDCFB475BF1B2}Prefabs/System/DRG_CriticalLossPr
     LossLogic "{6690573BEE387727}" {
      m_aLosses {
       FactionLoss "{6690573B92ECC0AC}" {
-       m_sFactionKey "RHS_AFRF"
+       m_iCriticalLossCount 10
+       m_sFactionKey "RHS_USAF"
       }
      }
      m_sObjectiveNames {
-      "ION_1"
+      "TKR_1"
      }
      m_sFailedObjectiveNames {
-      "AFRF_1"
+      "USAF_1"
      }
      m_bAdvanceGameStage 1
      m_bUseMessage 1
