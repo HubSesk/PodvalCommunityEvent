@@ -1,0 +1,27 @@
+SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
+ coords 4540.56 295.977 1558.767
+}
+PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 4502.21 295.096 1586.441
+}
+PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
+ components {
+  PS_ObjectiveManager "{60846DEA6E152749}" {
+   m_aObjectiveLavels {
+    PS_ObjectiveLevel "{60BA84343AC819B2}" {
+     m_iScore 30
+    }
+    PS_ObjectiveLevel "{60BA8437C52AEEC4}" {
+     m_iScore 40
+    }
+    PS_ObjectiveLevel "{60BA8437C9F5791C}" {
+     m_iScore 80
+    }
+    PS_ObjectiveLevel "{60BA8437D394C60C}" {
+     m_iScore 120
+    }
+   }
+  }
+ }
+ coords 4524.191 297.768 1567.261
+}
