@@ -2,9 +2,11 @@ PolylineShapeEntity ZARGABAD_ZONE : "{7019844BAD5C4DD8}Prefabs/PolyZone/PolyZone
  components {
   PS_PolyZone "{60E90266F25533F6}" {
    m_mPolygonTexture "{928B4092981F27CB}UI/layouts/Textures/Zone.edds"
-   m_cPolygonColor 0 0 0 0
+   m_cPolygonColor 0 0 0 0.55
    m_mPolygonTextureBorder "{CA01D453D39FB430}UI/layouts/Textures/ZoneBorder.edds"
    m_cPolygonBorderColor 0 0 0 1
+   m_fPolygonBorderWidth 10
+   m_bReversed 0
    m_aVisibleForFactions {
     "RHS_AFRF" "RHS_USAF" ""
    }
@@ -134,7 +136,7 @@ PolylineShapeEntity MOSQUE_ZONE : "{BD11B8FAA469D169}Prefabs/PolyZone/PolyZone.e
  coords 4279.856 17 4124.289
  Points {
   ShapePoint "{66B37E9C3B72855B}" {
-   Position 0.741 -0 70.609
+   Position 0.741 0 70.609
   }
   ShapePoint "{66B37E9CC514A064}" {
    Position -75.706 0 69.014
