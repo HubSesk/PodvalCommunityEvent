@@ -1,0 +1,40 @@
+$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ "_0_ABOUT" {
+  coords 5781.41 109.312 11405.117
+  m_sTitle "О миcсии"
+  m_sTextData "Наступательная операция СССР на позии FIA. Для победы необходимо поменять флаги в двух городах. Флаг не перезахватываемый."\
+  ""
+  m_bEmptyFactionVisibility 1
+  m_bShowForAnyFaction 1
+ }
+ "_1_RULES" {
+  coords 5777.896 109.312 11407.862
+  m_sTitle "Правила миссии"
+  m_sTextData "ОБЩИЕ ПРАВИЛА "\
+  "— Всем запрещено надевать форму, головные уборы, разгрузки, бронежилеты противника (рюкзаки можно). "\
+  "— Вертолетами управляют только пилоты. Перевозить можно только десант. Таранить здания запрещено."\
+  ""\
+  "ПРАВИЛА FIA"\
+  "— Запрещено покидать черный триггер."
+  m_bEmptyFactionVisibility 1
+  m_bShowForAnyFaction 1
+ }
+ "_2_FIA" {
+  coords 5782.359 109.313 11407.833
+  m_sTitle "FIA"
+  m_sTextData "Необходимо отразить наступление СССР на наши позиции."\
+  ""
+  m_aVisibleForFactions {
+   "FIA"
+  }
+ }
+ "_2_USSR" {
+  coords 8638.081 337.894 2492.071
+  m_sTitle "СССР"
+  m_sTextData "Необходимо захватить города и поменять два флага."\
+  ""
+  m_aVisibleForFactions {
+   "USSR"
+  }
+ }
+}
