@@ -1,0 +1,71 @@
+GenericEntity : "{592E8C59C778A189}Prefabs/System/GUB_ZoneControlBetweenFactionsPrefab.et" {
+ components {
+  GUB_FlagController "{66B7771917B6FF65}" {
+   m_aFlagNames {
+    "FLAG"
+   }
+   m_fStartFactionKey "US"
+   m_fEndFactionKey "USSR"
+  }
+  GUB_ZoneControlBetweenFactionsComponent "{66931217B7943C52}" {
+   m_aControlLogics {
+    GUB_ZoneControlBetweenFactionsLogic "{66B6F363F1F641FF}" {
+     m_sZoneEntityName "ZONE"
+     m_bUseTestingMode 0
+     m_aFlagNames {
+      "FLAG"
+     }
+     m_fStartFactionKey "US"
+     m_fEndFactionKey "USSR"
+     m_aConditions {
+      GUB_ZoneControlCondition "{66B6F363A57C4938}" {
+       m_iOperator GREATER
+      }
+     }
+    }
+   }
+   m_bUseFlagController 1
+  }
+ }
+ coords 1465.535 38 2918.801
+}
+GenericEntity FLAG : "{8528347E5F47F2A4}PrefabsEditable/Auto/Structures/Military/Flags/E_FlagPole_02_V1_FIA.et" {
+ components {
+  SlotManagerComponent "{55DAE04E55ECE7FA}" {
+   Slots {
+    EntitySlotInfo Flag {
+    }
+   }
+  }
+ }
+ coords 1467.12 38 2918.844
+}
+PolylineShapeEntity ZONE : "{BD11B8FAA469D169}Prefabs/PolyZone/PolyZone.et" {
+ coords 1457.011 38 2901.003
+ Points {
+  ShapePoint "{66B6F363F8DACEFE}" {
+   Position 11.774 0 -1.188
+  }
+  ShapePoint "{66B6F363F89C63D2}" {
+   Position 22.098 0 5.407
+  }
+  ShapePoint "{66B6F363F8AB5DC4}" {
+   Position 24.833 0 25.858
+  }
+  ShapePoint "{66B6F363F871D40D}" {
+   Position 21.766 0 38.881
+  }
+  ShapePoint "{66B6F363F807CD74}" {
+   Position 7.254 0 43.376
+  }
+  ShapePoint "{66B6F363F9D9EC70}" {
+   Position -6.843 0 36.884
+  }
+  ShapePoint "{66B6F363F9EE9358}" {
+   Position -9.583 0 19.197
+  }
+  ShapePoint "{66B6F363F9B98629}" {
+   Position -8.273 0 6.898
+  }
+ }
+}

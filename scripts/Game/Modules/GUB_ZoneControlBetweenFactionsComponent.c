@@ -13,6 +13,9 @@ class GUB_ZoneControlBetweenFactionsComponent : DRG_MissionModuleComponent
 	[Attribute(category: "Zone Control")]
 	ref array<ref GUB_ZoneControlBetweenFactionsLogic> m_aControlLogics;
 
+	[Attribute()]
+	protected bool m_bUseFlagController;
+
 	protected PS_GameModeCoop m_GameModeCoop;
 	protected const int CHECK_INTERVAL_MS = 1000;
 
@@ -29,10 +32,16 @@ class GUB_ZoneControlBetweenFactionsComponent : DRG_MissionModuleComponent
 		if (!GetGame().InPlayMode())
 			return;
 
+		ref GUB_FlagController flagController;
+		if (m_bUseFlagController)
+		{
+			flagController = GUB_FlagController.Cast(owner.FindComponent(GUB_FlagController));
+		}
+
 		if (m_aControlLogics)
 		{
 			foreach (GUB_ZoneControlBetweenFactionsLogic lg : m_aControlLogics)
-				if (lg) lg.Init(m_GameModeCoop);
+				if (lg) lg.Init(m_GameModeCoop, flagController);
 		}
 
 		GetGame().GetCallqueue().CallLater(TickEvaluate, CHECK_INTERVAL_MS, true);

@@ -1,52 +1,58 @@
-class GUB_FlagController
+class GUB_FlagControllerClass : ScriptComponentClass {}
+
+class GUB_FlagController : ScriptComponent
 {
-	protected ref array<string> flagNames;
-	protected ref array<vector> flagStartLocalPoses;
-
-	protected ref array<SlotManagerComponent> slotManagers;
+	[Attribute()]
+	protected ref array<string> m_aFlagNames;
+	
+	[Attribute()]
+	protected FactionKey m_fStartFactionKey;
+	[Attribute()]
+	protected FactionKey m_fEndFactionKey;
+	
 	protected ref array<SCR_FlagComponent> flagComponents;
-
-	protected FactionKey startFactionKey;
-	protected FactionKey endFactionKey;
 
 	protected ref SCR_Faction startFaction;
 	protected ref SCR_Faction endFaction;
 
-	protected bool isSecondFlag = false;
+	[RplProp()]
+	protected bool m_bIsSecondFlag = false;
 
-	void SetParams(array<string> FlagNames, FactionKey StartFactionKey, FactionKey EndFactionKey)
+	override void EOnInit(IEntity owner)
 	{
-		flagNames = FlagNames;
-		startFactionKey = StartFactionKey;
-		endFactionKey = EndFactionKey;
+		super.EOnInit(owner);
+
+		if (!Replication.IsServer())
+			return;
 	}
 
-	void Start()
+	void Init()
 	{
-		slotManagers = new array<SlotManagerComponent>();
 		flagComponents = new array<SCR_FlagComponent>();
-		for (int i = 0; i < flagNames.Count(); i++)
+		for (int i = 0; i < m_aFlagNames.Count(); i++)
 		{
-			slotManagers.Insert(SlotManagerComponent.Cast(GetGame().GetWorld().FindEntityByName(flagNames[i]).FindComponent(SlotManagerComponent)));
-			flagComponents.Insert(SCR_FlagComponent.Cast(GetGame().GetWorld().FindEntityByName(flagNames[i]).FindComponent(SCR_FlagComponent)));
+			IEntity entity = GetGame().GetWorld().FindEntityByName(m_aFlagNames[i]);
+			if (!entity)
+			{
+				Debug.Error("GUB_FlagController: Can't find Entity by FlagName: {" + m_aFlagNames[i] + "}");
+			}
+			Managed component = entity.FindComponent(SCR_FlagComponent);
+			if (!component)
+			{
+				Debug.Error("GUB_FlagController: Can't find component by FlagName: {" + m_aFlagNames[i] + "}");
+				continue;
+			}
+			flagComponents.Insert(SCR_FlagComponent.Cast(component));
 		}
 
 		SCR_SortedArray<SCR_Faction> outFactions = new SCR_SortedArray<SCR_Faction>();
 		SCR_FactionManager.Cast(GetGame().GetFactionManager()).GetSortedFactionsList(outFactions);
 		for(int i = 0; i < outFactions.Count(); i++)
 		{
-			if(outFactions[i].GetFactionKey() == startFactionKey)
+			if(outFactions[i].GetFactionKey() == m_fStartFactionKey)
 				startFaction = outFactions[i];
-			if (outFactions[i].GetFactionKey() == endFactionKey)
+			if (outFactions[i].GetFactionKey() == m_fEndFactionKey)
 				endFaction = outFactions[i];
-		}
-		
-		flagStartLocalPoses = new array<vector>();
-		for (int i = 0; i < flagNames.Count(); i++)
-		{
-			vector matLS[4];
-			slotManagers[i].GetSlotByName("Flag").GetLocalTransform(matLS);
-			flagStartLocalPoses.Insert(matLS[3]);
 		}
 
 		ChangeFlag(false);
@@ -54,17 +60,17 @@ class GUB_FlagController
 
 	void ChangeFlag(bool IsSecondFlag)
 	{
-		isSecondFlag = IsSecondFlag;
-		for (int i = 0; i < flagNames.Count(); i++)
+		m_bIsSecondFlag = IsSecondFlag;
+		for (int i = 0; i < m_aFlagNames.Count(); i++)
 		{
 			if (!IsSecondFlag)
 			{
-				flagComponents[i].m_sFactionKey = startFactionKey;
+				flagComponents[i].m_sFactionKey = m_fStartFactionKey;
 				flagComponents[i].ChangeMaterial(startFaction.GetFactionFlagMaterial());
 			}
 			else
 			{
-				flagComponents[i].m_sFactionKey = endFactionKey;
+				flagComponents[i].m_sFactionKey = m_fEndFactionKey;
 				flagComponents[i].ChangeMaterial(endFaction.GetFactionFlagMaterial());
 			}
 		}
@@ -72,20 +78,23 @@ class GUB_FlagController
 
 	void Update(float percentage)
 	{
-		if (flagStartLocalPoses == null)
-			Start();
+		if (!flagComponents)
+			Init();
 
-		if (percentage > 0.5 && !isSecondFlag)
-			ChangeFlag(true);
-		else if (percentage <= 0.5 && isSecondFlag)
-			ChangeFlag(false);
+		if (!Replication.IsServer())
+			return;
 
-		for (int i = 0; i < flagNames.Count(); i++)
+		bool shouldChangeFlag = (percentage > 0.5 && !m_bIsSecondFlag) || (percentage <= 0.5 && m_bIsSecondFlag);
+		if (shouldChangeFlag)
+            ChangeFlag(percentage > 0.5);
+
+		for (int i = 0; i < m_aFlagNames.Count(); i++)
 		{
-			vector matLS[4];
-			slotManagers[i].GetSlotByName("Flag").GetLocalTransform(matLS);
-			matLS[3][1] = flagStartLocalPoses[i][1] * (Math.AbsFloat(percentage - 0.5) * 2 - 1);
-			slotManagers[i].GetSlotByName("Flag").SetAdditiveTransformLS(matLS);
+			if (!flagComponents[i])
+                continue;
+
+			float raiseLevel = (Math.AbsFloat(percentage - 0.5) * 2 - 1) * 0.85;
+            flagComponents[i].ChangeFlagRaiseLevel(raiseLevel);
 		}
 		return;
 	}
