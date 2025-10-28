@@ -35,7 +35,13 @@ class GUB_ZoneControlBetweenFactionsComponent : DRG_MissionModuleComponent
 		ref GUB_FlagController flagController;
 		if (m_bUseFlagController)
 		{
-			flagController = GUB_FlagController.Cast(owner.FindComponent(GUB_FlagController));
+			auto component = owner.FindComponent(GUB_FlagController);
+			if (!component)
+			{
+				Debug.Error("GUB_ZoneControlBetweenFactionsComponent: can't find GUB_FlagController");
+				return;
+			}
+			flagController = GUB_FlagController.Cast(component);
 		}
 
 		if (m_aControlLogics)

@@ -26,6 +26,7 @@ modded class SCR_FlagComponent
         slotManager = SlotManagerComponent.Cast(owner.FindComponent(SlotManagerComponent));
         if (!slotManager)
             return;
+        
         vector matLS[4];
         slotManager.GetSlotByName("Flag").GetLocalTransform(matLS);
         startLocalPose = matLS[3];
@@ -39,6 +40,12 @@ modded class SCR_FlagComponent
     void ChangeFlagRaiseLevel(float NewRaiseLevel)
     {
         m_fFlagRaiseLevel = NewRaiseLevel;
+
+        if (!slotManager)
+        {
+            Debug.Error("GUB_M_SCR_FlagComponent: not SlotManagerComponent in owner entity");
+            return;
+        }
 
         vector matLS[4];
         slotManager.GetSlotByName("Flag").GetLocalTransform(matLS);

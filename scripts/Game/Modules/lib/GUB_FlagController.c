@@ -15,7 +15,6 @@ class GUB_FlagController : ScriptComponent
 	protected ref SCR_Faction startFaction;
 	protected ref SCR_Faction endFaction;
 
-	[RplProp()]
 	protected bool m_bIsSecondFlag = false;
 
 	override void EOnInit(IEntity owner)
@@ -35,6 +34,7 @@ class GUB_FlagController : ScriptComponent
 			if (!entity)
 			{
 				Debug.Error("GUB_FlagController: Can't find Entity by FlagName: {" + m_aFlagNames[i] + "}");
+				continue;
 			}
 			Managed component = entity.FindComponent(SCR_FlagComponent);
 			if (!component)
@@ -63,16 +63,21 @@ class GUB_FlagController : ScriptComponent
 		m_bIsSecondFlag = IsSecondFlag;
 		for (int i = 0; i < m_aFlagNames.Count(); i++)
 		{
+			FactionKey factionKey;
+			ResourceName flagMaterial;
 			if (!IsSecondFlag)
 			{
-				flagComponents[i].m_sFactionKey = m_fStartFactionKey;
-				flagComponents[i].ChangeMaterial(startFaction.GetFactionFlagMaterial());
+				factionKey = m_fStartFactionKey;
+				flagMaterial = startFaction.GetFactionFlagMaterial();
 			}
 			else
 			{
-				flagComponents[i].m_sFactionKey = m_fEndFactionKey;
-				flagComponents[i].ChangeMaterial(endFaction.GetFactionFlagMaterial());
+				factionKey = m_fEndFactionKey;
+				flagMaterial = endFaction.GetFactionFlagMaterial()
 			}
+
+			flagComponents[i].m_sFactionKey = factionKey;
+			flagComponents[i].ChangeMaterial(flagMaterial);
 		}
 	}
 
