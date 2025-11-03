@@ -1,0 +1,88 @@
+GenericEntity : "{592E8C59C778A189}Prefabs/System/GUB_ZoneControlBetweenFactionsPrefab.et" {
+ components {
+  GUB_FlagController "{66C69949E46458F5}" {
+   m_aFlagNames {
+    "FLAG"
+   }
+   m_fStartFactionKey "USSR"
+   m_fEndFactionKey "US"
+  }
+  GUB_ZoneControlBetweenFactionsComponent "{66931217B7943C52}" {
+   m_aControlLogics {
+    GUB_ZoneControlBetweenFactionsLogic "{66C69949AE19888B}" {
+     m_sZoneEntityName "TRIGGER_ZONE"
+     m_sZonePreviewName "Пик Победы"
+     m_bWaitFreezeEnd 0
+     m_bUseTestingMode 0
+     m_aFlagNames {
+      ""
+     }
+     m_sSuccessObjectiveNames {
+      "US_CAPTURE"
+     }
+     m_sFailedObjectiveNames {
+      "USSR_CAPTURE"
+     }
+     m_fTimeToComplete 900
+     m_aConditions {
+      GUB_ZoneControlBetweenFactionsCondition "{66C6994A1ACE7791}" {
+       m_sFirstFactionKey "US"
+       m_sSecondFactionKey "USSR"
+       m_fComparisonMultiplier 2
+       m_iOperator GREATER
+      }
+     }
+    }
+   }
+   m_bUseFlagController 1
+  }
+ }
+}
+GenericEntity : "{6A3CDCFB475BF1B2}Prefabs/System/DRG_CriticalLossPrefab.et" {
+ components {
+  DRG_CriticalLossComponent "{65213D368F1BD792}" {
+   m_aLossLogics {
+    LossLogic "{66C69949F62AB1DA}" {
+     m_aLosses {
+      FactionLoss "{66C69949FC52B117}" {
+      }
+     }
+     m_sObjectiveNames {
+      "US_CAPTURE"
+      "US_EVAC"
+     }
+     m_sFailedObjectiveNames {
+      "USSR_CAPTURE"
+      "USSR_EVAC"
+     }
+     m_bUseMessage 1
+     m_bEventMessage "СССР Понесли критические потери!"
+    }
+    LossLogic "{66C69949F7D64DD8}" {
+     m_aLosses {
+      FactionLoss "{66C699498E4F40CF}" {
+       m_sFactionKey "US"
+      }
+     }
+     m_sObjectiveNames {
+      "USSR_CAPTURE"
+      "USSR_EVAC"
+     }
+     m_sFailedObjectiveNames {
+      "US_CAPTURE"
+      "US_EVAC"
+     }
+     m_bUseMessage 1
+     m_bEventMessage "США Понесли критические потери!"
+    }
+   }
+  }
+ }
+}
+GenericEntity : "{E6FC6DD69FA3479F}Prefabs/System/DRG_MissionEndTimerPrefab.et" {
+ components {
+  DRG_MissionEndTimerComponent "{651B0839B21B3BBF}" {
+   m_iMissionTime 2700
+  }
+ }
+}
