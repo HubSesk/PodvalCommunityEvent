@@ -1,0 +1,72 @@
+$grp GenericEntity : "{14B2D417839BF8A3}PrefabsEditable/Auto/Structures/Military/Flags/E_FlagPole_02_V1_USSR.et" {
+ Flag_1 {
+  components {
+   SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+    m_aObjectiveNames {
+     "US_2"
+     "USSR_2"
+    }
+    m_aFlagData {
+     PS_FlagData "{66C6C4AE985A15E6}" {
+      m_sFactionKey "USSR"
+     }
+     PS_FlagData "{66C6C4AE9416D7CA}" {
+      m_sFactionKey "US"
+      m_iCaptureCounter 1
+     }
+    }
+    m_sFactionKey "USSR"
+   }
+  }
+  coords 6876.119 437.561 6808.596
+  angles 3.802 92.033 -41.966
+ }
+ Flag_2 {
+  components {
+   SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+    m_aObjectiveNames {
+     "US_3"
+     "USSR_3"
+    }
+    m_aFlagData {
+     PS_FlagData "{66C6C4AE985A15E6}" {
+      m_sFactionKey "USSR"
+     }
+     PS_FlagData "{66C6C4AE9416D7CA}" {
+      m_sFactionKey "US"
+      m_iCaptureCounter 1
+     }
+    }
+    m_sFactionKey "USSR"
+   }
+  }
+  coords 8028.766 182.719 7756.114
+  angles 0 -51.126 0.518
+ }
+}
+$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ Flag_Marker_1 {
+  coords 6876.046 437.636 6808.527
+  m_sImageSet "{12BA7AE37121F768}UI/Textures/Icons/icons_wrapperUI-96.imageset"
+  m_sImageSetGlow "{58E50ACB1FA4F7D7}UI/Textures/Icons/icons_wrapperUI-96-glow.imageset"
+  m_MarkerColor 0.502 0 0 1
+  m_sQuadName "report"
+  m_fWorldSize 50
+  m_sDescription "Флаг №1"
+  m_bUseWorldScale 0
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+ }
+ Flag_Marker_2 {
+  coords 8028.721 182.815 7756.116
+  m_sImageSet "{12BA7AE37121F768}UI/Textures/Icons/icons_wrapperUI-96.imageset"
+  m_sImageSetGlow "{58E50ACB1FA4F7D7}UI/Textures/Icons/icons_wrapperUI-96-glow.imageset"
+  m_MarkerColor 0.502 0 0 1
+  m_sQuadName "report"
+  m_fWorldSize 50
+  m_sDescription "Флаг №2"
+  m_bUseWorldScale 0
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+ }
+}
