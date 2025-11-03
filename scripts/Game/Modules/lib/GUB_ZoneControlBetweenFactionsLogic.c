@@ -36,15 +36,6 @@ class GUB_ZoneControlBetweenFactionsLogic
 	[Attribute("0", UIWidgets.CheckBox, "Advance game stage to AAR (Debriefing)", "")]
 	bool m_bAdvanceGameStage;
 
-	[Attribute("", desc: "Flags, which indicates capturing status")]
-	ref array<string> m_aFlagNames;
-
-	[Attribute("")]
-	FactionKey m_fStartFactionKey;
-
-	[Attribute("")]
-	FactionKey m_fEndFactionKey;
-
 	[Attribute(defvalue: "", desc: "Objectives marked completed on success")]
 	ref array<string> m_sSuccessObjectiveNames;
 
