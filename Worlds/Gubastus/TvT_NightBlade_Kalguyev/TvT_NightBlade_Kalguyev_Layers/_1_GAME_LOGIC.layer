@@ -1,0 +1,85 @@
+GenericEntity : "{592E8C59C778A189}Prefabs/System/GUB_ZoneControlBetweenFactionsPrefab.et" {
+ components {
+  GUB_FlagController "{66C718BDF4D38DFB}" {
+   m_aFlagNames {
+    "FLAG1"
+    "FLAG2"
+    "FLAG3"
+    "FLAG4"
+   }
+   m_fStartFactionKey "USSR"
+   m_fEndFactionKey "US"
+  }
+  GUB_ZoneControlBetweenFactionsComponent "{66931217B7943C52}" {
+   m_aControlLogics {
+    GUB_ZoneControlBetweenFactionsLogic "{66C718BAF705E820}" {
+     m_sZoneEntityName "TRIGGER_ZONE"
+     m_sZonePreviewName "Военный объект"
+     m_bWaitFreezeEnd 0
+     m_bUseTestingMode 0
+     m_sSuccessObjectiveNames {
+      "US_WIN"
+     }
+     m_sFailedObjectiveNames {
+      "USSR_WIN"
+     }
+     m_fTimeToComplete 180
+     m_aConditions {
+      GUB_ZoneControlBetweenFactionsCondition "{66C718BA8D09FCE1}" {
+       m_sFirstFactionKey "US"
+       m_sSecondFactionKey "USSR"
+       m_fComparisonMultiplier 3
+       m_iOperator GREATER
+      }
+     }
+    }
+   }
+   m_bUseFlagController 1
+  }
+ }
+}
+GenericEntity : "{6A3CDCFB475BF1B2}Prefabs/System/DRG_CriticalLossPrefab.et" {
+ components {
+  DRG_CriticalLossComponent "{65213D368F1BD792}" {
+   m_aLossLogics {
+    LossLogic "{66C718BA1B2742EF}" {
+     m_aLosses {
+      FactionLoss "{66C718BA2DB61FFA}" {
+       m_iCriticalLossCount 2
+      }
+     }
+     m_sObjectiveNames {
+      "US_WIN"
+     }
+     m_sFailedObjectiveNames {
+      "USSR_WIN"
+     }
+     m_bUseMessage 1
+     m_bEventMessage "СССР понесли критические потери!"
+    }
+    LossLogic "{66C718BA24D157D5}" {
+     m_aLosses {
+      FactionLoss "{66C718BAD9B000E5}" {
+       m_sFactionKey "US"
+      }
+     }
+     m_sObjectiveNames {
+      "USSR_WIN"
+     }
+     m_sFailedObjectiveNames {
+      "US_WIN"
+     }
+     m_bUseMessage 1
+     m_bEventMessage "ВС США понесли критические потери!"
+    }
+   }
+  }
+ }
+}
+GenericEntity : "{E6FC6DD69FA3479F}Prefabs/System/DRG_MissionEndTimerPrefab.et" {
+ components {
+  DRG_MissionEndTimerComponent "{651B0839B21B3BBF}" {
+   m_iMissionTime 2700
+  }
+ }
+}
