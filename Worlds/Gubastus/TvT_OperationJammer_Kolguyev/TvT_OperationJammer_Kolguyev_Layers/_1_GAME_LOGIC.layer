@@ -1,0 +1,61 @@
+GenericEntity : "{6A3CDCFB475BF1B2}Prefabs/System/DRG_CriticalLossPrefab.et" {
+ components {
+  DRG_CriticalLossComponent "{65213D368F1BD792}" {
+   m_aLossLogics {
+    LossLogic "{66C8770722C358E1}" {
+     m_aLosses {
+      FactionLoss "{66C87707231DBC23}" {
+      }
+     }
+     m_sObjectiveNames {
+      "US_WIN"
+     }
+     m_sFailedObjectiveNames {
+      "USSR_WIN"
+     }
+     m_bUseMessage 1
+     m_bEventMessage "СССР понесли тяжелые потери и отступили!"
+    }
+    LossLogic "{66C8770722EBD68E}" {
+     m_aLosses {
+      FactionLoss "{66C87707D88F5341}" {
+       m_iCriticalLossCount 3
+       m_sFactionKey "US"
+      }
+     }
+     m_sObjectiveNames {
+      "USSR_WIN"
+     }
+     m_sFailedObjectiveNames {
+      "US_WIN"
+     }
+     m_bUseMessage 1
+     m_bEventMessage "США понесли тяжелые потери!"
+    }
+   }
+  }
+ }
+}
+GenericEntity : "{7A333AFB11EA847A}Prefabs/System/DRG_VehicleDestroyPrefab.et" {
+ components {
+  DRG_VehicleDestroyComponent "{65733BD6110AE8FC}" {
+   m_aVehicleLossLogics {
+    VehicleLossLogic "{66C87707A063EC04}" {
+     m_sSuccessObjectiveNames {
+      "US_WIN"
+     }
+     m_sFailedObjectiveNames {
+      "USSR_WIN"
+     }
+     m_sVehicleEntityNames {
+      "TRUCK_1"
+      "TRUCK_2"
+     }
+     m_sMessage "Грузовики уничтожены!"
+    }
+   }
+  }
+ }
+}
+GenericEntity : "{E6FC6DD69FA3479F}Prefabs/System/DRG_MissionEndTimerPrefab.et" {
+}
