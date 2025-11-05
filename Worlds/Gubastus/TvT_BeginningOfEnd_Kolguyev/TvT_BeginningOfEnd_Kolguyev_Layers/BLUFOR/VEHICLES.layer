@@ -1,0 +1,67 @@
+Vehicle M923A1_tanker1 : "{2BE1F8B9299B67C1}Prefabs/Vehicles/Wheeled/M923A1/M923A1_tanker.et" {
+ coords 2116.41 11.563 894.175
+ angles 0 105 0
+}
+$grp Vehicle : "{3133602B406D131C}Prefabs/Vehicles/Helicopters/UH1H/UH1H_armed_gunship_HEDP_sharkNose.et" {
+ UH1H_armed_gunship_HEDP_sharkNose1 {
+  coords 2186.664 8.154 877.858
+  angles 0.169 15.008 2.824
+  m_sAttachmentGroupName "USAF_302"
+ }
+ UH1H_armed_gunship_HEDP_sharkNose2 {
+  coords 2167.345 9.078 883.035
+  angles 0.169 15.008 2.824
+  m_sAttachmentGroupName "USAF_301"
+  {
+   GameEnvironmentProbeEntity {
+    ID "654C8CC81C957F97"
+    coords 0.001 8.537 1.073
+   }
+  }
+ }
+ UH1H_armed_gunship_HEDP_sharkNose3 {
+  coords 2148.026 10.221 888.211
+  angles -0.062 14.996 3.686
+  m_sAttachmentGroupName "USAF_300"
+  {
+   GameEnvironmentProbeEntity {
+    ID "654C8CC81C957F97"
+    coords 0 7.394 1.073
+   }
+  }
+ }
+}
+Vehicle M923A1_ammo1 : "{92264FF932676C13}Prefabs/Vehicles/Wheeled/M923A1/M923A1_ammo.et" {
+ coords 2118.998 11.563 903.834
+ angles 0 105 0
+}
+Vehicle M923A1_repair1 : "{A042ACE5C2B13206}Prefabs/Vehicles/Wheeled/M923A1/M923A1_repair.et" {
+ coords 2117.703 11.563 899.004
+ angles 0 105 0
+}
+$grp Vehicle : "{CAB4546B5DCE0AFB}Prefabs/Boat_base_us.et" {
+ Boat_base_us1 {
+  coords 2252.276 0 1101.933
+  angles 0 15 0
+  m_sAttachmentGroupName "USAF_102"
+ }
+ Boat_base_us2 {
+  coords 2247.93 0 1103.097
+  angles 0 15 0
+  m_sAttachmentGroupName "USAF_101"
+ }
+ Boat_base_us3 {
+  coords 2243.583 0 1104.262
+  angles 0 15 0
+  m_sAttachmentGroupName "USAF_100"
+ }
+ Boat_base_us4 {
+  coords 2239.236 0 1105.426
+  angles 0 15 0
+  m_sAttachmentGroupName "USAF_000"
+ }
+}
+Vehicle M923A1_transport1 : "{F1FBD0972FA5FE09}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport.et" {
+ coords 2115.115 11.563 889.345
+ angles 0 105 0
+}

@@ -1,0 +1,162 @@
+$grp GenericEntity : "{592E8C59C778A189}Prefabs/System/GUB_ZoneControlBetweenFactionsPrefab.et" {
+ {
+  components {
+   GUB_FlagController "{66CB50CAEBA95B37}" {
+    m_aFlagNames {
+     "FLAG_11"
+     "FLAG_12"
+    }
+    m_fStartFactionKey "RHS_AFRF"
+    m_fEndFactionKey "RHS_USAF"
+   }
+   GUB_ZoneControlBetweenFactionsComponent "{66931217B7943C52}" {
+    m_aControlLogics {
+     GUB_ZoneControlBetweenFactionsLogic "{66CB50CAFA2F4F07}" {
+      m_sZoneEntityName "TRIGGER_ZONE_1"
+      m_sZonePreviewName "Военный объект у виллы"
+      m_bWaitFreezeEnd 0
+      m_bUseTestingMode 0
+      m_sSuccessObjectiveNames {
+       "USAF_WIN"
+      }
+      m_sFailedObjectiveNames {
+       "AFRF_WIN"
+      }
+      m_sMessage "ВС США захватили военный объект!"
+      m_fTimeToComplete 1800
+      m_aConditions {
+       GUB_ZoneControlBetweenFactionsCondition "{66CB50CB44C0EB86}" {
+        m_sFirstFactionKey "RHS_USAF"
+        m_sSecondFactionKey "RHS_AFRF"
+        m_fComparisonMultiplier 3
+        m_iOperator GREATER
+       }
+      }
+     }
+    }
+    m_bUseFlagController 1
+   }
+  }
+ }
+ {
+  components {
+   GUB_FlagController "{66CB50CAEBA95B37}" {
+    m_aFlagNames {
+     "FLAG_21"
+     "FLAG_22"
+     "FLAG_23"
+    }
+    m_fStartFactionKey "RHS_AFRF"
+    m_fEndFactionKey "RHS_USAF"
+   }
+   GUB_ZoneControlBetweenFactionsComponent "{66931217B7943C52}" {
+    m_aControlLogics {
+     GUB_ZoneControlBetweenFactionsLogic "{66CB50CAFA2F4F07}" {
+      m_sZoneEntityName "TRIGGER_ZONE_2"
+      m_sZonePreviewName "Военный объект у аэродрома"
+      m_bWaitFreezeEnd 0
+      m_bUseTestingMode 0
+      m_sSuccessObjectiveNames {
+       "USAF_WIN"
+      }
+      m_sFailedObjectiveNames {
+       "AFRF_WIN"
+      }
+      m_sMessage "ВС США захватили военный объект!"
+      m_fTimeToComplete 1800
+      m_aConditions {
+       GUB_ZoneControlBetweenFactionsCondition "{66CB50CB44C0EB86}" {
+        m_sFirstFactionKey "RHS_USAF"
+        m_sSecondFactionKey "RHS_AFRF"
+        m_fComparisonMultiplier 3
+        m_iOperator GREATER
+       }
+      }
+     }
+    }
+    m_bUseFlagController 1
+   }
+  }
+ }
+ {
+  components {
+   GUB_FlagController "{66CB50CAEBA95B37}" {
+    m_aFlagNames {
+     "FLAG_31"
+     "FLAG_32"
+     "FLAG_33"
+    }
+    m_fStartFactionKey "RHS_AFRF"
+    m_fEndFactionKey "RHS_USAF"
+   }
+   GUB_ZoneControlBetweenFactionsComponent "{66931217B7943C52}" {
+    m_aControlLogics {
+     GUB_ZoneControlBetweenFactionsLogic "{66CB50CAFA2F4F07}" {
+      m_sZoneEntityName "TRIGGER_ZONE_3"
+      m_sZonePreviewName "Военный объект у Угольдара"
+      m_bWaitFreezeEnd 0
+      m_bUseTestingMode 0
+      m_sSuccessObjectiveNames {
+       "USAF_WIN"
+      }
+      m_sFailedObjectiveNames {
+       "AFRF_WIN"
+      }
+      m_sMessage "ВС США захватили военный объект!"
+      m_fTimeToComplete 1800
+      m_aConditions {
+       GUB_ZoneControlBetweenFactionsCondition "{66CB50CB44C0EB86}" {
+        m_sFirstFactionKey "RHS_USAF"
+        m_sSecondFactionKey "RHS_AFRF"
+        m_fComparisonMultiplier 3
+        m_iOperator GREATER
+       }
+      }
+     }
+    }
+    m_bUseFlagController 1
+   }
+  }
+ }
+}
+GenericEntity : "{6A3CDCFB475BF1B2}Prefabs/System/DRG_CriticalLossPrefab.et" {
+ components {
+  DRG_CriticalLossComponent "{65213D368F1BD792}" {
+   m_aLossLogics {
+    LossLogic "{66CB50CA34A51FAA}" {
+     m_aLosses {
+      FactionLoss "{66CB50CA36F2977E}" {
+       m_sFactionKey "RHS_AFRF"
+      }
+     }
+     m_sObjectiveNames {
+      "USAF_WIN"
+     }
+     m_sFailedObjectiveNames {
+      "AFRF_WIN"
+     }
+     m_bUseMessage 1
+     m_bEventMessage "ВСРФ понесли тяжелые потери!"
+    }
+    LossLogic "{66CB50CA3457FD06}" {
+     m_aLosses {
+      FactionLoss "{66CB50CAD723E8FB}" {
+       m_iCriticalLossCount 3
+       m_sFactionKey "RHS_USAF"
+      }
+     }
+     m_sObjectiveNames {
+      "AFRF_WIN"
+     }
+     m_sFailedObjectiveNames {
+      "USAF_WIN"
+     }
+     m_bUseMessage 1
+     m_bEventMessage "ВС США понесли тяжелые потери!"
+    }
+   }
+  }
+ }
+}
+GenericEntity : "{E6FC6DD69FA3479F}Prefabs/System/DRG_MissionEndTimerPrefab.et" {
+}
