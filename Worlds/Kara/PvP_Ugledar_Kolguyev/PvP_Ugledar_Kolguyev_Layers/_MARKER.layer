@@ -1,0 +1,48 @@
+GenericEntity FLAG : "{8528347E5F47F2A4}PrefabsEditable/Auto/Structures/Military/Flags/E_FlagPole_02_V1_FIA.et" {
+ components {
+  SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+   m_aObjectiveNames {
+    "FIA_3"
+    "USSR_3"
+   }
+   m_aFlagData {
+    PS_FlagData "{66C97A8698672FD3}" {
+     m_sFactionKey "FIA"
+    }
+    PS_FlagData "{66C97A869B4F7765}" {
+     m_sFactionKey "USSR"
+     m_iCaptureCounter 1
+    }
+   }
+   m_sFactionKey "FIA"
+  }
+ }
+ coords 5858.317 222.074 4660.624
+ scale 0.46
+}
+$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ MINE_MARKER {
+  coords 5870.219 225.226 4634.117
+  m_sImageSet "{FDD5423E69D007F8}UI/Textures/Icons/icons_wrapperUI-128.imageset"
+  m_sImageSetGlow "{6980E83C053C9B5D}UI/Textures/Icons/icons_wrapperUI-128-glow.imageset"
+  m_MarkerColor 0 0 0 1
+  m_sQuadName "defendCommand"
+  m_fWorldSize 50
+  m_sDescription "Расположение шахты"
+  m_bUseWorldScale 0
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+ }
+ FLAG_MARKER {
+  coords 5858.34 222.084 4660.607
+  m_sImageSet "{FDD5423E69D007F8}UI/Textures/Icons/icons_wrapperUI-128.imageset"
+  m_sImageSetGlow "{6980E83C053C9B5D}UI/Textures/Icons/icons_wrapperUI-128-glow.imageset"
+  m_MarkerColor 0 0 0 1
+  m_sQuadName "report"
+  m_fWorldSize 30
+  m_sDescription "Флаг"
+  m_bUseWorldScale 0
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+ }
+}

@@ -1,0 +1,61 @@
+PolylineShapeEntity FIA_TRIG {
+ components {
+  PS_PolyZone "{66C97A8237853E87}" {
+   m_mPolygonTexture ""
+   m_cPolygonColor 1 1 1 0
+   m_cPolygonBorderColor 0 0.44 0.078 1
+   m_fPolygonBorderWidth 10
+   m_aVisibleForFactions {
+    "FIA"
+    "USSR"
+    ""
+   }
+  }
+ }
+ coords 6061.147 160.789 4458.021
+ Points {
+  ShapePoint "{66C97A821BDA5254}" {
+   Position 12.303 -3.008 -11.933
+  }
+  ShapePoint "{66C97A821BD99FF4}" {
+   Position 156.41 16.508 160.183
+  }
+  ShapePoint "{66C97A820BFFDB20}" {
+   Position 61.604 35.377 242.867
+  }
+  ShapePoint "{66C97A8207C7B847}" {
+   Position -237.374 103.602 286.543
+  }
+  ShapePoint "{66C97A82010FEC65}" {
+   Position -306.318 105.45 217.255
+  }
+  ShapePoint "{66C97A823C2497C1}" {
+   Position -210.679 29.186 -13.337
+  }
+ }
+ IsClosed 1
+ {
+  PS_PolyZoneTrigger FIA_KILL {
+   components {
+    Hierarchy "{614548BDF998E12B}" {
+    }
+   }
+   TriggerShapeType Polyline
+   SphereRadius 9223372036854775808
+   "Polyline Height" 1000
+   TriggerActivationType "All changes"
+   PeriodicQueries 1
+   UpdatePeriod 1
+   ClassesFilter {
+    "SCR_ChimeraCharacter"
+   }
+   m_polyZoneEffect PS_PolyZoneEffectRestricted "{614548BC046ADB65}" {
+    m_fKillTime 15
+   }
+   m_bReversed 1
+   m_bAliveOnly 1
+   m_sFactionKey "FIA"
+   m_sGroupKey "_DEF"
+  }
+ }
+}

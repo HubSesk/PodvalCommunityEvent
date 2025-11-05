@@ -1,0 +1,250 @@
+Vehicle USSR_000_W : "{208FEE0BF258449B}Prefabs/Scenarios/SP01/SP01_UAZ469_USSR.et" {
+ coords 4530.225 40.25 3466.342
+ angles 0 106.944 0
+ m_sAttachmentGroupName "USSR_000"
+}
+$grp Vehicle : "{7BD282AF716ED639}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_armed.et" {
+ USSR_310_W {
+  coords 2637.281 24.219 5517.833
+  angles 0 -178.799 0
+  m_sAttachmentGroupName "USSR_310"
+ }
+ USSR_300_W {
+  coords 2637.688 24.219 5466.512
+  angles 0 -178.799 0
+  m_sAttachmentGroupName "USSR_300"
+ }
+}
+$grp SCR_AIGroup : "{A092B100ABD2BFD5}Prefabs/Groups/OPFOR/Campaign/F_USSR_drg_RifleSquad_BTR.et" {
+ USSR_100 {
+  components {
+   PS_GroupCallsignAssigner "{645CD4FA3E492D2E}" {
+    m_iCompanyCallsign 1
+   }
+  }
+  coords 4525.364 40.219 3476.546
+  angles 0 -161.729 0
+  m_aUnitPrefabSlots {
+   "{4D0B26523034B581}Worlds/Kara/PvP_Power_Kolguyev/Kara_Character_USSR_SL_GL.et"
+   "{DBC2E2FDC3D25C0F}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_SR_Optic.et"
+   "{6E661A7E238ABEE5}Prefabs/Characters/Factions/OPFOR/USSR_Army/Kara_Character_USSR_MG_Opt.et"
+   "{8D15D76B163B42E6}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_MGA_B.et"
+   "{1DF32746F2762077}Prefabs/Characters/Factions/OPFOR/USSR_Army/Kara_Character_USSR_AT.et"
+   "{516B6D08CE76004B}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_Rifleman.et"
+   "{516B6D08CE76004B}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_Rifleman.et"
+   "{96B44E4B03427129}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_CrewGunner.et"
+   "{CF75C616AFC95FE8}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_CrewDriver.et"
+  }
+ }
+ USSR_101 {
+  components {
+   PS_GroupCallsignAssigner "{645CD4FA3E492D2E}" {
+    m_iCompanyCallsign 1
+    m_iSquadCallsign 1
+   }
+  }
+  coords 4511.649 40.214 3481.097
+  angles 0 -160.147 0
+  m_aUnitPrefabSlots {
+   "{4D0B26523034B581}Worlds/Kara/PvP_Power_Kolguyev/Kara_Character_USSR_SL_GL.et"
+   "{DBC2E2FDC3D25C0F}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_SR_Optic.et"
+   "{6E661A7E238ABEE5}Prefabs/Characters/Factions/OPFOR/USSR_Army/Kara_Character_USSR_MG_Opt.et"
+   "{8D15D76B163B42E6}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_MGA_B.et"
+   "{1DF32746F2762077}Prefabs/Characters/Factions/OPFOR/USSR_Army/Kara_Character_USSR_AT.et"
+   "{516B6D08CE76004B}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_Rifleman.et"
+   "{516B6D08CE76004B}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_Rifleman.et"
+   "{96B44E4B03427129}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_CrewGunner.et"
+   "{CF75C616AFC95FE8}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_CrewDriver.et"
+  }
+ }
+ USSR_110 {
+  components {
+   PS_GroupCallsignAssigner "{645CD4FA3E492D2E}" {
+    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 1
+   }
+  }
+  coords 4498.722 40.219 3485.771
+  angles 0 -160.147 0
+  m_aUnitPrefabSlots {
+   "{4D0B26523034B581}Worlds/Kara/PvP_Power_Kolguyev/Kara_Character_USSR_SL_GL.et"
+   "{DBC2E2FDC3D25C0F}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_SR_Optic.et"
+   "{6E661A7E238ABEE5}Prefabs/Characters/Factions/OPFOR/USSR_Army/Kara_Character_USSR_MG_Opt.et"
+   "{8D15D76B163B42E6}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_MGA_B.et"
+   "{1DF32746F2762077}Prefabs/Characters/Factions/OPFOR/USSR_Army/Kara_Character_USSR_AT.et"
+   "{FBECF688D117F377}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_Sniper.et"
+   "{516B6D08CE76004B}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_Rifleman.et"
+   "{516B6D08CE76004B}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_Rifleman.et"
+   "{516B6D08CE76004B}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_Rifleman.et"
+  }
+ }
+ USSR_200 {
+  components {
+   PS_GroupCallsignAssigner "{645CD4FA3E492D2E}" {
+    m_iCompanyCallsign 2
+   }
+  }
+  coords 7086.208 316.284 6071.99
+  angles 0 153.939 0
+  m_aUnitPrefabSlots {
+   "{4D0B26523034B581}Worlds/Kara/PvP_Power_Kolguyev/Kara_Character_USSR_SL_GL.et"
+   "{DBC2E2FDC3D25C0F}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_SR_Optic.et"
+   "{6E661A7E238ABEE5}Prefabs/Characters/Factions/OPFOR/USSR_Army/Kara_Character_USSR_MG_Opt.et"
+   "{8D15D76B163B42E6}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_MGA_B.et"
+   "{1DF32746F2762077}Prefabs/Characters/Factions/OPFOR/USSR_Army/Kara_Character_USSR_AT.et"
+   "{516B6D08CE76004B}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_Rifleman.et"
+   "{516B6D08CE76004B}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_Rifleman.et"
+   "{96B44E4B03427129}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_CrewGunner.et"
+   "{CF75C616AFC95FE8}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_CrewDriver.et"
+  }
+ }
+ USSR_201 {
+  components {
+   PS_GroupCallsignAssigner "{645CD4FA3E492D2E}" {
+    m_iCompanyCallsign 2
+    m_iSquadCallsign 1
+   }
+  }
+  coords 7102.064 316.211 6078.394
+  angles 0 158.954 0
+  m_aUnitPrefabSlots {
+   "{4D0B26523034B581}Worlds/Kara/PvP_Power_Kolguyev/Kara_Character_USSR_SL_GL.et"
+   "{DBC2E2FDC3D25C0F}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_SR_Optic.et"
+   "{6E661A7E238ABEE5}Prefabs/Characters/Factions/OPFOR/USSR_Army/Kara_Character_USSR_MG_Opt.et"
+   "{8D15D76B163B42E6}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_MGA_B.et"
+   "{1DF32746F2762077}Prefabs/Characters/Factions/OPFOR/USSR_Army/Kara_Character_USSR_AT.et"
+   "{516B6D08CE76004B}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_Rifleman.et"
+   "{516B6D08CE76004B}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_Rifleman.et"
+   "{96B44E4B03427129}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_CrewGunner.et"
+   "{CF75C616AFC95FE8}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_CrewDriver.et"
+  }
+ }
+ USSR_210 {
+  components {
+   PS_GroupCallsignAssigner "{645CD4FA3E492D2E}" {
+    m_iCompanyCallsign 2
+    m_iPlatoonCallsign 1
+   }
+  }
+  coords 7118.557 316.296 6084.408
+  angles 0 159.991 0
+  m_aUnitPrefabSlots {
+   "{4D0B26523034B581}Worlds/Kara/PvP_Power_Kolguyev/Kara_Character_USSR_SL_GL.et"
+   "{DBC2E2FDC3D25C0F}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_SR_Optic.et"
+   "{6E661A7E238ABEE5}Prefabs/Characters/Factions/OPFOR/USSR_Army/Kara_Character_USSR_MG_Opt.et"
+   "{8D15D76B163B42E6}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_MGA_B.et"
+   "{1DF32746F2762077}Prefabs/Characters/Factions/OPFOR/USSR_Army/Kara_Character_USSR_AT.et"
+   "{FBECF688D117F377}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_Sniper.et"
+   "{516B6D08CE76004B}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_Rifleman.et"
+   "{516B6D08CE76004B}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_Rifleman.et"
+   "{516B6D08CE76004B}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_Rifleman.et"
+  }
+ }
+}
+$grp SCR_AIGroup : "{A9166C1E1E6EB707}Prefabs/Groups/OPFOR/Campaign/S_USSR_drg_HeliGunTransport.et" {
+ USSR_300 {
+  components {
+   PS_GroupCallsignAssigner "{645CD4F6ECD5DE15}" {
+    m_iCompanyCallsign 3
+   }
+  }
+  coords 2653.743 24.219 5466.231
+  angles 0 -90.339 0
+  m_aUnitPrefabSlots {
+   "{AE13A3EF3D1D4508}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_Pilot_Radio.et"
+   "{8E1DE06D8C1B0EDC}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_Pilot.et"
+  }
+ }
+ USSR_310 {
+  components {
+   PS_GroupCallsignAssigner "{645CD4F6ECD5DE15}" {
+    m_iCompanyCallsign 3
+    m_iPlatoonCallsign 1
+   }
+  }
+  coords 2653.351 24.219 5517.452
+  angles 0 -90.339 0
+  m_aUnitPrefabSlots {
+   "{AE13A3EF3D1D4508}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_Pilot_Radio.et"
+   "{8E1DE06D8C1B0EDC}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_Pilot.et"
+  }
+ }
+}
+$grp Vehicle : "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et" {
+ USSR_100_W {
+  coords 4519.251 40.219 3469.966
+  angles 0 107.8 0
+  m_sAttachmentGroupName "USSR_100"
+ }
+ USSR_101_W {
+  coords 4505.439 40.188 3474.828
+  angles 0 109.46 0
+  m_sAttachmentGroupName "USSR_101"
+ }
+ USSR_200_W {
+  coords 7084.604 316.244 6066.35
+  angles -2 -118.62 0.072
+  m_sAttachmentGroupName "USSR_200"
+ }
+ USSR_201_W {
+  coords 7099.972 316.282 6073.019
+  angles 0.835 -111.136 -0.323
+  m_sAttachmentGroupName "USSR_201"
+ }
+}
+$grp SCR_AIGroup : "{C1F556377EBDFCAF}Prefabs/Groups/OPFOR/Campaign/S_USSR_drg_ReconSquad.et" {
+ USSR_400 {
+  components {
+   PS_GroupCallsignAssigner "{645CD4F737623E55}" {
+    m_iCompanyCallsign 4
+   }
+  }
+  coords 2657.671 24.219 5464.277
+  angles 0 -89.479 0
+  m_aUnitPrefabSlots {
+   "{C6960782BEAA6B07}Prefabs/Characters/Factions/OPFOR/USSR_Army/Recon/drg_Character_USSR_Recon_SL.et"
+   "{B6FE3479F0ED092C}Prefabs/Characters/Factions/OPFOR/USSR_Army/Recon/drg_Character_USSR_Recon_RTO.et"
+   "{82040C2F7734F9B3}Prefabs/Characters/Factions/OPFOR/USSR_Army/Recon/drg_Character_USSR_Recon_Sapper.et"
+   "{ACD9575EDC2C034D}Prefabs/Characters/Factions/OPFOR/USSR_Army/Recon/drg_Character_USSR_Recon_Medic.et"
+   "{EC89944E401BB659}Prefabs/Characters/Factions/OPFOR/USSR_Army/Recon/drg_Character_USSR_Recon_Sniper.et"
+   "{43CED484D075F274}Prefabs/Characters/Factions/OPFOR/USSR_Army/Recon/drg_Character_USSR_Recon_Rifleman.et"
+  }
+ }
+ USSR_410 {
+  components {
+   PS_GroupCallsignAssigner "{645CD4F737623E55}" {
+    m_iCompanyCallsign 4
+    m_iPlatoonCallsign 1
+   }
+  }
+  coords 2657.341 24.219 5515.572
+  angles 0 -89.479 0
+  m_aUnitPrefabSlots {
+   "{C6960782BEAA6B07}Prefabs/Characters/Factions/OPFOR/USSR_Army/Recon/drg_Character_USSR_Recon_SL.et"
+   "{B6FE3479F0ED092C}Prefabs/Characters/Factions/OPFOR/USSR_Army/Recon/drg_Character_USSR_Recon_RTO.et"
+   "{82040C2F7734F9B3}Prefabs/Characters/Factions/OPFOR/USSR_Army/Recon/drg_Character_USSR_Recon_Sapper.et"
+   "{ACD9575EDC2C034D}Prefabs/Characters/Factions/OPFOR/USSR_Army/Recon/drg_Character_USSR_Recon_Medic.et"
+   "{EC89944E401BB659}Prefabs/Characters/Factions/OPFOR/USSR_Army/Recon/drg_Character_USSR_Recon_Sniper.et"
+   "{43CED484D075F274}Prefabs/Characters/Factions/OPFOR/USSR_Army/Recon/drg_Character_USSR_Recon_Rifleman.et"
+  }
+ }
+}
+$grp Vehicle : "{D9B91FAB817A6033}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered.et" {
+ USSR_110_W {
+  coords 4492.33 40.219 3478.968
+  angles 0 110.376 0
+  m_sAttachmentGroupName "USSR_110"
+ }
+ USSR_210_W {
+  coords 7115.89 316.23 6078.826
+  angles -1.158 -111.162 -0.512
+  m_sAttachmentGroupName "USSR_210"
+ }
+}
+SCR_AIGroup USSR_000 : "{E8ADB840FBFAF008}Prefabs/Groups/OPFOR/Campaign/F_USSR_drg_BattalionHQ.et" {
+ coords 4532.762 40.25 3474.184
+ angles 0 -161.185 0
+ m_aUnitPrefabSlots {
+  "{23AFC29074BBA605}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_Officer.et"
+ }
+}
