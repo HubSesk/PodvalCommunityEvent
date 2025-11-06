@@ -44,6 +44,42 @@ $grp GenericEntity : "{24F98A215FAA249C}Prefabs/Structures/Signs/Military/Suppli
   angles 0.962 23.437 -0.775
  }
 }
+GenericEntity : "{28D63631873AA636}Prefabs/Compositions/Slotted/SlotFlatSmall/MortarPlacement_S_USSR_01.et" {
+ coords 11941.856 7.058 10560.929
+ angles 0 -104.374 0
+ {
+  GenericEntity {
+   ID "6186DB2F1DE37192"
+   {
+    GenericEntity {
+     ID "60B8D36A59BEEA13"
+     Flags 0x200000 0
+    }
+    GenericEntity {
+     ID "60B8D36A59BEEA38"
+     {
+      DecalEntity {
+       ID "56DEFDB4A9499F9B"
+       components {
+        Hierarchy "{56E0B29E66335D7C}" {
+         Enabled 0
+        }
+       }
+      }
+     }
+    }
+    GenericEntity {
+     ID "60B8D36A59BEEA17"
+     {
+      DecalEntity {
+       ID "56DF08929A14FB98"
+      }
+     }
+    }
+   }
+  }
+ }
+}
 $grp Vehicle : "{3312ADBF53A16DD8}Prefabs/Vehicles/Wheeled/LAV25/LAV25_RHS.et" {
  LAV25_0 {
   coords 8694.525 9.344 7342.267

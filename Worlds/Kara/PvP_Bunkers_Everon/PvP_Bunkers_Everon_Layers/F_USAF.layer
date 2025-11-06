@@ -1,3 +1,15 @@
+$grp Vehicle : "{00BC1E407D536A34}Prefabs/Vehicles/Helicopters/UH1H/UH1H_armed_sharkNose.et" {
+ USAF_300_W {
+  coords 3921.789 15.341 8460.117
+  angles -0.893 -86.533 -0.054
+  m_sAttachmentGroupName "USAF_300"
+ }
+ USAF_310_W {
+  coords 3893.535 15.235 8460.97
+  angles -0.04 -87.425 0.894
+  m_sAttachmentGroupName "USAF_310"
+ }
+}
 $grp SCR_AIGroup : "{12488ED8CAB8DCDC}Prefabs/Groups/BLUFOR/DRG_Group_RHS_USAF_Squad.et" {
  USAF_101 {
   components {
@@ -6,7 +18,7 @@ $grp SCR_AIGroup : "{12488ED8CAB8DCDC}Prefabs/Groups/BLUFOR/DRG_Group_RHS_USAF_S
    }
   }
   coords 2624.882 91.718 5365.506
-  angleY 10.08
+  angles 0 10.08 0
  }
  USAF_102 {
   components {
@@ -15,7 +27,7 @@ $grp SCR_AIGroup : "{12488ED8CAB8DCDC}Prefabs/Groups/BLUFOR/DRG_Group_RHS_USAF_S
    }
   }
   coords 2607.165 91.413 5367.194
-  angleY 4.5
+  angles 0 4.5 0
  }
  USAF_103 {
   components {
@@ -24,9 +36,15 @@ $grp SCR_AIGroup : "{12488ED8CAB8DCDC}Prefabs/Groups/BLUFOR/DRG_Group_RHS_USAF_S
    }
   }
   coords 2591.73 90.663 5365.394
-  angleY -9.48
+  angles 0 -9.48 0
   m_aUnitPrefabSlots {
-   "{600E890491C62306}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_SL.et" "{67C97355F74099C5}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_TL.et" "{0D86781BA3428115}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_AR.et" "{0053063A54F5E83F}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_GL.et" "{67C97355F74099C5}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_TL.et" "{0D86781BA3428115}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_AR.et" "{0053063A54F5E83F}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_GL.et"
+   "{600E890491C62306}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_SL.et"
+   "{67C97355F74099C5}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_TL.et"
+   "{0D86781BA3428115}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_AR.et"
+   "{0053063A54F5E83F}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_GL.et"
+   "{67C97355F74099C5}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_TL.et"
+   "{0D86781BA3428115}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_AR.et"
+   "{0053063A54F5E83F}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_GL.et"
   }
  }
  USAF_201 {
@@ -37,7 +55,7 @@ $grp SCR_AIGroup : "{12488ED8CAB8DCDC}Prefabs/Groups/BLUFOR/DRG_Group_RHS_USAF_S
    }
   }
   coords 4811.973 169.286 6963.759
-  angleY 58.808
+  angles 0 58.808 0
  }
  USAF_202 {
   components {
@@ -47,7 +65,7 @@ $grp SCR_AIGroup : "{12488ED8CAB8DCDC}Prefabs/Groups/BLUFOR/DRG_Group_RHS_USAF_S
    }
   }
   coords 4803.468 169.63 6980.253
-  angleY 65.275
+  angles 0 65.275 0
  }
  USAF_203 {
   components {
@@ -57,9 +75,15 @@ $grp SCR_AIGroup : "{12488ED8CAB8DCDC}Prefabs/Groups/BLUFOR/DRG_Group_RHS_USAF_S
    }
   }
   coords 4797.228 169.024 7001.322
-  angleY 79.092
+  angles 0 79.092 0
   m_aUnitPrefabSlots {
-   "{600E890491C62306}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_SL.et" "{67C97355F74099C5}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_TL.et" "{0D86781BA3428115}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_AR.et" "{0053063A54F5E83F}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_GL.et" "{67C97355F74099C5}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_TL.et" "{0D86781BA3428115}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_AR.et" "{0053063A54F5E83F}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_GL.et"
+   "{600E890491C62306}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_SL.et"
+   "{67C97355F74099C5}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_TL.et"
+   "{0D86781BA3428115}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_AR.et"
+   "{0053063A54F5E83F}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_GL.et"
+   "{67C97355F74099C5}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_TL.et"
+   "{0D86781BA3428115}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_AR.et"
+   "{0053063A54F5E83F}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_GL.et"
   }
  }
 }
@@ -71,9 +95,13 @@ $grp SCR_AIGroup : "{2FBB6A87C9E9FC4D}Prefabs/Groups/BLUFOR/drg_USAF_WeaponSquad
    }
   }
   coords 3917.698 15.338 8449.646
-  angleY 5.129
+  angles 0 5.129 0
   m_aUnitPrefabSlots {
-   "{CEDCC068342815AB}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Recon/drg_Role_RHS_USAF_Recon_SL.et" "{B3C42C9051BB2932}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Recon/drg_Role_RHS_USAF_Recon_SR.et" "{7F9C9F5B2FFAF470}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Recon/drg_Role_RHS_USAF_Recon_LAT.et" "{228A32C7A4FFE3A1}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Recon/drg_Role_RHS_USAF_Recon_Sniper.et" "{9C7B97483A24CEF9}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Recon/drg_Role_RHS_USAF_Recon_Rifleman.et"
+   "{CEDCC068342815AB}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Recon/drg_Role_RHS_USAF_Recon_SL.et"
+   "{B3C42C9051BB2932}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Recon/drg_Role_RHS_USAF_Recon_SR.et"
+   "{7F9C9F5B2FFAF470}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Recon/drg_Role_RHS_USAF_Recon_LAT.et"
+   "{228A32C7A4FFE3A1}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Recon/drg_Role_RHS_USAF_Recon_Sniper.et"
+   "{9C7B97483A24CEF9}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Recon/drg_Role_RHS_USAF_Recon_Rifleman.et"
   }
   m_sCustomNameSet "Спецназ"
  }
@@ -85,9 +113,13 @@ $grp SCR_AIGroup : "{2FBB6A87C9E9FC4D}Prefabs/Groups/BLUFOR/drg_USAF_WeaponSquad
    }
   }
   coords 3890.395 15.218 8452.04
-  angleY 5.129
+  angles 0 5.129 0
   m_aUnitPrefabSlots {
-   "{CEDCC068342815AB}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Recon/drg_Role_RHS_USAF_Recon_SL.et" "{B3C42C9051BB2932}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Recon/drg_Role_RHS_USAF_Recon_SR.et" "{7F9C9F5B2FFAF470}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Recon/drg_Role_RHS_USAF_Recon_LAT.et" "{228A32C7A4FFE3A1}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Recon/drg_Role_RHS_USAF_Recon_Sniper.et" "{9C7B97483A24CEF9}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Recon/drg_Role_RHS_USAF_Recon_Rifleman.et"
+   "{CEDCC068342815AB}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Recon/drg_Role_RHS_USAF_Recon_SL.et"
+   "{B3C42C9051BB2932}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Recon/drg_Role_RHS_USAF_Recon_SR.et"
+   "{7F9C9F5B2FFAF470}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Recon/drg_Role_RHS_USAF_Recon_LAT.et"
+   "{228A32C7A4FFE3A1}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Recon/drg_Role_RHS_USAF_Recon_Sniper.et"
+   "{9C7B97483A24CEF9}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Recon/drg_Role_RHS_USAF_Recon_Rifleman.et"
   }
   m_sCustomNameSet "Спецназ"
  }
@@ -95,130 +127,96 @@ $grp SCR_AIGroup : "{2FBB6A87C9E9FC4D}Prefabs/Groups/BLUFOR/drg_USAF_WeaponSquad
 $grp Vehicle : "{3EA6F47D95867114}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB.et" {
  USAF_100_W_0 {
   coords 2647.441 92.118 5361.363
-  angleX 1.997
-  angleY 120.278
-  angleZ 0.13
+  angles 1.997 120.278 0.13
   m_sAttachmentGroupName "USAF_100"
  }
  USAF_101_W_0 {
   coords 2632.549 91.885 5366.881
-  angleX 1.946
-  angleY 103.034
-  angleZ -0.468
+  angles 1.946 103.034 -0.468
   m_sAttachmentGroupName "USAF_101"
  }
  USAF_102_W_0 {
   coords 2616.122 91.445 5369.327
-  angleX 3.341
-  angleY 94.778
-  angleZ 2.967
+  angles 3.341 94.778 2.967
   m_sAttachmentGroupName "USAF_102"
  }
  USAF_103_W_0 {
   coords 2597.92 90.69 5369.229
-  angleX 2.721
-  angleY 88.781
-  angleZ 1.73
+  angles 2.721 88.781 1.73
   m_sAttachmentGroupName "USAF_103"
  }
  USAF_200_W_0 {
   coords 4826.593 168.889 6945.743
-  angleX -1.991
-  angleY 147.592
-  angleZ 0.204
+  angles -1.991 147.592 0.204
   m_sAttachmentGroupName "USAF_200"
  }
  USAF_201_W_0 {
   coords 4818.529 169.4 6959.055
-  angleX -2
-  angleY 151.866
-  angleZ 0.055
+  angles -2 151.866 0.055
   m_sAttachmentGroupName "USAF_201"
  }
  USAF_202_W_0 {
   coords 4809.808 169.705 6974.868
-  angleX 0.789
-  angleY 151.845
-  angleZ -0.422
+  angles 0.789 151.845 -0.422
   m_sAttachmentGroupName "USAF_202"
  }
  USAF_203_W_0 {
   coords 4801.956 169.254 6994.859
-  angleX 1.74
-  angleY 166.374
-  angleZ -0.422
+  angles 1.74 166.374 -0.422
   m_sAttachmentGroupName "USAF_203"
  }
 }
 SCR_AIGroup USAF_000 : "{4A02B745F553821E}Prefabs/Groups/BLUFOR/drg_USAF_CompanyHQ.et" {
  coords 2654.439 92.278 5353.843
- angleY 32.402
- m_aUnitPrefabSlots + {
+ angles 0 32.402 0
+ m_aUnitPrefabSlots +{
   "{893533817C25A8B0}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_Medic.et"
  }
 }
 $grp Vehicle : "{4A71F755A4513227}Prefabs/Vehicles/Wheeled/M998/M1025.et" {
  USAF_000_W {
   coords 2655.845 92.335 5356.511
-  angleX 0.475
-  angleY 122.065
-  angleZ -0.759
+  angles 0.475 122.065 -0.759
   m_sAttachmentGroupName "USAF_000"
  }
  USAF_100_W_1 {
   coords 2641.851 91.972 5364.375
-  angleX 0.362
-  angleY 118.372
-  angleZ 1.213
+  angles 0.362 118.372 1.213
   m_sAttachmentGroupName "USAF_100"
  }
  USAF_101_W_1 {
   coords 2625.692 91.779 5368.173
-  angleX 0.715
-  angleY 100.598
-  angleZ 1.044
+  angles 0.715 100.598 1.044
   m_sAttachmentGroupName "USAF_101"
  }
  USAF_102_W_1 {
   coords 2609.127 91.171 5369.575
-  angleX 1.612
-  angleY 93.715
-  angleZ 2.793
+  angles 1.612 93.715 2.793
   m_sAttachmentGroupName "USAF_102"
  }
  USAF_103_W_1 {
   coords 2590.693 90.259 5367.93
-  angleX 3.903
-  angleY 75.917
-  angleZ 0.863
+  angles 3.903 75.917 0.863
   m_sAttachmentGroupName "USAF_103"
  }
  USAF_200_W_1 {
   coords 4823.041 169.119 6951.313
-  angleX -1.99
-  angleY 147.471
-  angleZ 0.208
+  angles -1.99 147.471 0.208
   m_sAttachmentGroupName "USAF_200"
  }
  USAF_201_W_1 {
   coords 4815.184 169.669 6965.051
-  angleX -0.43
-  angleY 151.271
-  angleZ -0.785
+  angles -0.43 151.271 -0.785
   m_sAttachmentGroupName "USAF_201"
  }
  USAF_202_W_1 {
   coords 4806.735 169.636 6981.321
-  angleX 0.826
-  angleY 157.275
-  angleZ -0.346
+  angles 0.826 157.275 -0.346
   m_sAttachmentGroupName "USAF_202"
  }
  USAF_203_W_1 {
   coords 4800.179 168.983 7002.372
-  angleX 2.578
-  angleY 163.88
-  angleZ -0.745
+  angles 2.578 163.88 -0.745
   m_sAttachmentGroupName "USAF_203"
  }
 }
@@ -231,7 +229,8 @@ $grp SCR_AIGroup : "{582AA92CC9105E2F}Prefabs/Groups/BLUFOR/drg_USAF_LAV25.et" {
   }
   coords 3919.736 15.312 8454.588
   m_aUnitPrefabSlots {
-   "{CFB9AD45454644A2}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_Pilot.et" "{CFB9AD45454644A2}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_Pilot.et"
+   "{CFB9AD45454644A2}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_Pilot.et"
+   "{CFB9AD45454644A2}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_Pilot.et"
   }
   m_sCustomNameSet "Пилоты"
  }
@@ -243,19 +242,13 @@ $grp SCR_AIGroup : "{582AA92CC9105E2F}Prefabs/Groups/BLUFOR/drg_USAF_LAV25.et" {
    }
   }
   coords 3892.399 15.242 8456.365
-  angleY 0.831
+  angles 0 0.831 0
   m_aUnitPrefabSlots {
-   "{CFB9AD45454644A2}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_Pilot.et" "{CFB9AD45454644A2}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_Pilot.et"
+   "{CFB9AD45454644A2}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_Pilot.et"
+   "{CFB9AD45454644A2}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_Pilot.et"
   }
   m_sCustomNameSet "Пилоты"
  }
-}
-Vehicle USAF_300_W : "{6BB88679B1B31B5A}Prefabs/Vehicles/Helicopters/UH1H/drg_UH1H_armed_gunship_M60_BLUE.et" {
- coords 3920.946 15.327 8459.106
- angleX -0.893
- angleY -86.382
- angleZ -0.056
- m_sAttachmentGroupName "USAF_300"
 }
 SCR_AIGroup USAF_500 : "{88BE84A3E78CF73E}Prefabs/Groups/BLUFOR/drg_USAF_SniperTeam.et" {
  components {
@@ -264,14 +257,7 @@ SCR_AIGroup USAF_500 : "{88BE84A3E78CF73E}Prefabs/Groups/BLUFOR/drg_USAF_SniperT
   }
  }
  coords 3904.039 15.34 8442.278
- angleY 3.319
-}
-Vehicle USAF_310_W : "{D15C9924A2F28DC3}Prefabs/Vehicles/Helicopters/UH1H/drg_UH1H_armed_gunship_M60.et" {
- coords 3892.937 15.233 8461.112
- angleX -0.105
- angleY -83.298
- angleZ 0.889
- m_sAttachmentGroupName "USAF_310"
+ angles 0 3.319 0
 }
 $grp SCR_AIGroup : "{D746D84A25FC281F}Prefabs/Groups/BLUFOR/drg_Group_USAF_MachineGunSquad.et" {
  USAF_100 {
@@ -281,7 +267,7 @@ $grp SCR_AIGroup : "{D746D84A25FC281F}Prefabs/Groups/BLUFOR/drg_Group_USAF_Machi
    }
   }
   coords 2639.846 91.939 5361.799
-  angleY 27.417
+  angles 0 27.417 0
  }
  USAF_200 {
   components {
@@ -290,9 +276,15 @@ $grp SCR_AIGroup : "{D746D84A25FC281F}Prefabs/Groups/BLUFOR/drg_Group_USAF_Machi
    }
   }
   coords 4820.531 169.07 6949.071
-  angleY 58.341
+  angles 0 58.341 0
   m_aUnitPrefabSlots {
-   "{F910309D8C211296}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_PL.et" "{36FE68EB81398B5C}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_MG_opt.et" "{D38A51C19D66AAC8}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_MGAB.et" "{FEA8A03109D0FC66}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_MGA.et" "{36FE68EB81398B5C}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_MG_opt.et" "{D38A51C19D66AAC8}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_MGAB.et" "{FEA8A03109D0FC66}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_MGA.et"
+   "{F910309D8C211296}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_PL.et"
+   "{36FE68EB81398B5C}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_MG_opt.et"
+   "{D38A51C19D66AAC8}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_MGAB.et"
+   "{FEA8A03109D0FC66}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_MGA.et"
+   "{36FE68EB81398B5C}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_MG_opt.et"
+   "{D38A51C19D66AAC8}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_MGAB.et"
+   "{FEA8A03109D0FC66}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_MGA.et"
   }
  }
 }
