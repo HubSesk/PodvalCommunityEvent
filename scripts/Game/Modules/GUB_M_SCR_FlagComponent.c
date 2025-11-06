@@ -1,10 +1,13 @@
 modded class SCR_FlagComponent
 {
     [RplProp(onRplName: "OnFlagRaiseLevelChange")]
-	protected float m_fFlagRaiseLevel;
+	protected float m_fFlagRaiseLevel = 1.0;
 
     [RplProp(onRplName: "OnFlagRaiseLevelChange")]
     protected vector startLocalPose;
+
+    [Attribute(category: "FlagMovement")]
+    bool m_bEnabled = false;
 
     protected SlotManagerComponent slotManager;
 
@@ -12,16 +15,22 @@ modded class SCR_FlagComponent
     {
         super.EOnInit(owner);
 
-        if (!Replication.IsServer()){
-			return;
-		}
+        if (!m_bEnabled){
+            return;
+        }
 
-        m_fFlagRaiseLevel = 1.0;
+        if (!Replication.IsServer()){
+            return;
+        }
     }
 
     override void OnPostInit(IEntity owner)
     {
         super.OnPostInit(owner);
+
+        if (!m_bEnabled){
+            return;
+        }
 
         slotManager = SlotManagerComponent.Cast(owner.FindComponent(SlotManagerComponent));
         if (!slotManager)
@@ -34,11 +43,19 @@ modded class SCR_FlagComponent
 
     float GetFlagRaiseLevel()
     {
+        if (!m_bEnabled){
+            return 1.0;
+        }
+
         return m_fFlagRaiseLevel;
     }
 
     void ChangeFlagRaiseLevel(float NewRaiseLevel)
     {
+        if (!m_bEnabled){
+            return;
+        }
+        
         m_fFlagRaiseLevel = NewRaiseLevel;
 
         if (!slotManager)
@@ -58,6 +75,10 @@ modded class SCR_FlagComponent
 
     void OnFlagRaiseLevelChange()
     {
+        if (!m_bEnabled){
+            return;
+        }
+        
         ChangeFlagRaiseLevel(m_fFlagRaiseLevel);
     }
 }
