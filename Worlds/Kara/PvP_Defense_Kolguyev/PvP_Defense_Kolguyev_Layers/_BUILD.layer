@@ -81,21 +81,21 @@ GenericEntity : "{28D63631873AA636}Prefabs/Compositions/Slotted/SlotFlatSmall/Mo
  }
 }
 $grp Vehicle : "{3312ADBF53A16DD8}Prefabs/Vehicles/Wheeled/LAV25/LAV25_RHS.et" {
- LAV25_0 {
-  coords 8694.525 9.344 7342.267
-  angles 0 114.092 0
+ LAV25_RHS1 {
+  coords 8738.431 9.382 7470.437
+  angles -0.368 114.303 0.816
  }
- LAV25_1 {
-  coords 8697.821 9.344 7349.171
-  angles 0 114.092 0
+ LAV25_RHS2 {
+  coords 8731.61 9.344 7456.126
+  angles 0 114.303 0
  }
- LAV25_2 {
-  coords 8731.658 9.344 7456.083
-  angles 0 114.092 0
+ LAV25_RHS3 {
+  coords 8697.82 9.344 7349.194
+  angles 0 114.303 0
  }
- LAV25_3 {
-  coords 8738.454 9.38 7470.379
-  angles -0.365 114.087 0.817
+ LAV25_RHS4 {
+  coords 8694.539 9.344 7342.255
+  angles 0 114.303 0
  }
 }
 $grp Vehicle : "{3EA6F47D95867114}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB.et" {
@@ -116,55 +116,7 @@ $grp Vehicle : "{3EA6F47D95867114}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB
   angles 0 113.197 0
  }
 }
-$grp GenericEntity : "{C1B83AC7D67F42C6}Prefabs/Props/Military/AmmoBoxes/drg_AmmoBox_Explosive_UK.et" {
- EXP_0 {
-  components {
-   SCR_FilteredInventoryStorageComponent "{5476A2F100DF4EFF}" {
-    MultiSlots {
-     MultiSlotConfiguration "{64F707D11FA7A94D}" {
-      SlotTemplate InventoryStorageSlot "{64DCC2F489C88F5C}" {
-       Prefab "{E4C9F0A4090CFE4D}Prefabs/Weapons/Explosives/Mine_M14/Mine_M14.et"
-      }
-      NumSlots 40
-     }
-     MultiSlotConfiguration "{6502C64ED28D7103}" {
-      SlotTemplate InventoryStorageSlot "{64DCC2F489C88F5C}" {
-       Prefab "{49FFE8F373F55960}Prefabs/Weapons/Explosives/Mine_M15AT/Mine_M15AT.et"
-      }
-      NumSlots 10
-     }
-    }
-    m_fMaxWeight 50
-   }
-  }
-  coords 8721.72 9.344 7426.175
-  angles 0 -66.836 0
- }
- EXP_1 {
-  components {
-   SCR_FilteredInventoryStorageComponent "{5476A2F100DF4EFF}" {
-    MultiSlots {
-     MultiSlotConfiguration "{64F707D11FA7A94D}" {
-      SlotTemplate InventoryStorageSlot "{64DCC2F489C88F5C}" {
-       Prefab "{E4C9F0A4090CFE4D}Prefabs/Weapons/Explosives/Mine_M14/Mine_M14.et"
-      }
-      NumSlots 40
-     }
-     MultiSlotConfiguration "{6502C64ED28D7103}" {
-      SlotTemplate InventoryStorageSlot "{64DCC2F489C88F5C}" {
-       Prefab "{49FFE8F373F55960}Prefabs/Weapons/Explosives/Mine_M15AT/Mine_M15AT.et"
-      }
-      NumSlots 10
-     }
-    }
-    m_fMaxWeight 50
-   }
-  }
-  coords 8783.944 2.438 7373.477
-  angles 0 -69.84 0
- }
-}
-$grp GenericEntity : "{C910458D7E66D662}Prefabs/Props/Military/AmmoBoxes/drg_AmmoBox_Explosive.et" {
+$grp GenericEntity : "{F1FDD5669F4C26B2}Prefabs/Props/Military/AmmoBoxes/drg_AmmoBox_545.et" {
  {
   components {
    SCR_FilteredInventoryStorageComponent "{5476A2F100DF4EFF}" {
@@ -176,18 +128,25 @@ $grp GenericEntity : "{C910458D7E66D662}Prefabs/Props/Military/AmmoBoxes/drg_Amm
     MultiSlots {
      MultiSlotConfiguration "{64F707D11FA7A94D}" {
       SlotTemplate InventoryStorageSlot "{64DCC2F489C88F5C}" {
-       Prefab "{D6EF54367CECE1D9}Prefabs/Weapons/Explosives/Mine_TM62M/Mine_TM62M.et"
+       Prefab "{E4C9F0A4090CFE4D}Prefabs/Weapons/Explosives/Mine_M14/Mine_M14.et"
       }
-      NumSlots 3
+      NumSlots 20
      }
      MultiSlotConfiguration "{6502C64ED28D7103}" {
-      NumSlots 0
+      SlotTemplate InventoryStorageSlot "{64DCC2F489C88F5C}" {
+       Prefab "{49FFE8F373F55960}Prefabs/Weapons/Explosives/Mine_M15AT/Mine_M15AT.et"
+      }
+      NumSlots 5
      }
     }
+    m_aAllowedItemTypes {
+     "MINE"
+    }
+    m_fMaxWeight 100
    }
   }
-  coords 11710.694 29.926 10489.261
-  angles 0 -21.317 0
+  coords 8721.724 9.344 7426.17
+  angles 0 -67.314 0
  }
  {
   components {
@@ -200,17 +159,24 @@ $grp GenericEntity : "{C910458D7E66D662}Prefabs/Props/Military/AmmoBoxes/drg_Amm
     MultiSlots {
      MultiSlotConfiguration "{64F707D11FA7A94D}" {
       SlotTemplate InventoryStorageSlot "{64DCC2F489C88F5C}" {
-       Prefab "{D6EF54367CECE1D9}Prefabs/Weapons/Explosives/Mine_TM62M/Mine_TM62M.et"
+       Prefab "{E4C9F0A4090CFE4D}Prefabs/Weapons/Explosives/Mine_M14/Mine_M14.et"
       }
-      NumSlots 3
+      NumSlots 20
      }
      MultiSlotConfiguration "{6502C64ED28D7103}" {
-      NumSlots 0
+      SlotTemplate InventoryStorageSlot "{64DCC2F489C88F5C}" {
+       Prefab "{49FFE8F373F55960}Prefabs/Weapons/Explosives/Mine_M15AT/Mine_M15AT.et"
+      }
+      NumSlots 5
      }
     }
+    m_aAllowedItemTypes {
+     "MINE"
+    }
+    m_fMaxWeight 100
    }
   }
-  coords 11790.108 6.784 10941.249
-  angles 0 -87.667 0
+  coords 8784.194 2.438 7373.348
+  angles 0 -70.173 0
  }
 }
