@@ -1,10 +1,20 @@
 GenericEntity : "{592E8C59C778A189}Prefabs/System/GUB_ZoneControlBetweenFactionsPrefab.et" {
  components {
+  GUB_FlagController "{66CF612236E92556}" {
+   m_aFlagNames {
+    "FLAG_1"
+    "FLAG_2"
+    "FLAG_3"
+   }
+   m_fStartFactionKey "RHS_USAF"
+   m_fEndFactionKey "RHS_AFRF"
+  }
   GUB_ZoneControlBetweenFactionsComponent "{66931217B7943C52}" {
    m_aControlLogics {
     GUB_ZoneControlBetweenFactionsLogic "{66A165089580577D}" {
      m_sZoneEntityName "TRIGGER_ZONE"
      m_sZonePreviewName "Зона триггера"
+     m_bWaitFreezeEnd 0
      m_bUseTestingMode 0
      m_sSuccessObjectiveNames {
       "AFRF_CAPTURE"
@@ -26,6 +36,7 @@ GenericEntity : "{592E8C59C778A189}Prefabs/System/GUB_ZoneControlBetweenFactions
      }
     }
    }
+   m_bUseFlagController 1
   }
  }
 }
