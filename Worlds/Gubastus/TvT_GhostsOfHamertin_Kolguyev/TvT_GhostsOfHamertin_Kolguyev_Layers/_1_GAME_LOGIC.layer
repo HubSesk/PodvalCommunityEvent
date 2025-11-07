@@ -21,16 +21,12 @@ GenericEntity : "{592E8C59C778A189}Prefabs/System/GUB_ZoneControlBetweenFactions
       "FIA_WIN"
      }
      m_sMessage "СССР Захватили Хамертин!"
-     m_fTimeToComplete 240
+     m_fTimeToComplete 360
      m_aConditions {
       GUB_ZoneControlBetweenFactionsCondition "{66C6EC56E2A4D6BB}" {
        m_sSecondFactionKey "FIA"
        m_fComparisonMultiplier 3
        m_iOperator GREATER
-      }
-      GUB_ZoneControlCondition "{66C6EC56EA14F01D}" {
-       m_iOperator GREATER
-       m_iCount 5
       }
      }
     }
