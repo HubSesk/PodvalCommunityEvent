@@ -198,6 +198,63 @@ $grp Vehicle : "{3EA6F47D95867114}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB
   angles 0 113.197 0
  }
 }
+$grp GenericEntity : "{A6BA32988FC32E1F}Prefabs/Props/Military/AmmoBoxes/drg_AmmoBox_127_NSV.et" {
+ Mags {
+  components {
+   SCR_FilteredInventoryStorageComponent "{5476A2F100DF4EFF}" {
+    Attributes SCR_ItemAttributeCollection "{5476CDB2EAD8225E}" {
+     ItemDisplayName SCR_InventoryUIInfo "{64F707D10A95B574}" {
+      Name "Боеприпасы 5.56"
+     }
+    }
+    MultiSlots {
+     MultiSlotConfiguration "{64F707D11FA7A94D}" {
+      SlotTemplate InventoryStorageSlot "{64DCC2F489C88F5C}" {
+       Prefab "{B5693611B92F0BAA}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_Coy_30rnd_M855A1.et"
+      }
+      NumSlots 30
+     }
+     MultiSlotConfiguration "{6502C64ED28D7103}" {
+      SlotTemplate InventoryStorageSlot "{64DCC2F489C88F5C}" {
+       Prefab "{A540E8600876C2A2}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_Coy_30rnd_M855A1_last5tracer.et"
+      }
+      NumSlots 30
+     }
+    }
+    m_fMaxWeight 999
+   }
+  }
+  coords 11092.253 35.687 1645.709
+ }
+ Mags2 {
+  components {
+   SCR_FilteredInventoryStorageComponent "{5476A2F100DF4EFF}" {
+    Attributes SCR_ItemAttributeCollection "{5476CDB2EAD8225E}" {
+     ItemDisplayName SCR_InventoryUIInfo "{64F707D10A95B574}" {
+      Name "Боеприпасы 5.56"
+     }
+    }
+    MultiSlots {
+     MultiSlotConfiguration "{64F707D11FA7A94D}" {
+      SlotTemplate InventoryStorageSlot "{64DCC2F489C88F5C}" {
+       Prefab "{B5693611B92F0BAA}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_Coy_30rnd_M855A1.et"
+      }
+      NumSlots 30
+     }
+     MultiSlotConfiguration "{6502C64ED28D7103}" {
+      SlotTemplate InventoryStorageSlot "{64DCC2F489C88F5C}" {
+       Prefab "{A540E8600876C2A2}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_Coy_30rnd_M855A1_last5tracer.et"
+      }
+      NumSlots 30
+     }
+    }
+    m_fMaxWeight 999
+   }
+  }
+  coords 2649.382 24.219 5517.994
+  angles 0 -92.255 0
+ }
+}
 $grp GenericEntity : "{F1FDD5669F4C26B2}Prefabs/Props/Military/AmmoBoxes/drg_AmmoBox_545.et" {
  {
   components {
