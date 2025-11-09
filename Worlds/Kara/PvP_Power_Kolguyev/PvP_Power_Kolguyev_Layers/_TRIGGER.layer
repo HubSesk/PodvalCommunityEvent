@@ -1,64 +1,48 @@
-PolylineShapeEntity USSR_TRIG {
+PolylineShapeEntity : "{7019844BAD5C4DD8}Prefabs/PolyZone/PolyZone_Border.et" {
  components {
-  PS_PolyZone "{66C8E0FC4A1E7CBC}" {
+  PS_PolyZone "{60E90266F25533F6}" {
    m_mPolygonTexture ""
    m_cPolygonColor 1 1 1 0
    m_cPolygonBorderColor 0.502 0 0 1
    m_fPolygonBorderWidth 10
-   m_aVisibleForFactions {
-    "US"
-    "USSR"
-    ""
-   }
+   m_bReversed 0
   }
  }
- coords 12415.061 -1.781 10338.409
+ coords 11805.95 1.012 10180.941
  Points {
-  ShapePoint "{66C8E0FCB8AD7F03}" {
-   Position 0 -0.001 0
+  ShapePoint "{66D298F1B24FDDF1}" {
+   Position -137.673 33.279 315.045
   }
-  ShapePoint "{66C8E0FCB8AD4940}" {
-   Position 265.197 -113.668 466.475
+  ShapePoint "{66D298F1B63F35CA}" {
+   Position -58.882 0.751 814.408
   }
-  ShapePoint "{66C8E0FCB75ECCB6}" {
-   Position -17.619 -21.798 623.966
+  ShapePoint "{66D298F1BAC811CF}" {
+   Position 32.3 -36.813 964.444
   }
-  ShapePoint "{66C8E0FCB2A650FA}" {
-   Position -576.783 -34.04 807.064
+  ShapePoint "{66D298F1BF759586}" {
+   Position 591.355 -24.559 781.464
   }
-  ShapePoint "{66C8E0FCAEACC4F2}" {
-   Position -668.008 3.54 656.937
+  ShapePoint "{66D298F1BDD40430}" {
+   Position 874.082 -116.396 624.042
   }
-  ShapePoint "{66C8E0F8DB5BD293}" {
-   Position -746.754 36.061 157.528
+  ShapePoint "{66D298F1817376E3}" {
+   Position 609.097 -2.789 157.494
   }
-  ShapePoint "{66C8E0FC59151BEC}" {
-   Position -598.449 -0.594 -181.837
+  ShapePoint "{66D298F18A0B30C8}" {
+   Position 300.435 -6.056 101.143
   }
-  ShapePoint "{66C8E0FC4DF7A8BC}" {
-   Position -308.735 -3.268 -56.351
+  ShapePoint "{66D298F1E1E683C0}" {
+   Position 10.619 -3.38 -24.362
   }
  }
- IsClosed 1
  {
-  PS_PolyZoneTrigger USSR_KILL {
-   components {
-    Hierarchy "{614548BDF998E12B}" {
-    }
-   }
+  PS_PolyZoneTrigger {
+   ID "60FD050E1E83544C"
    TriggerShapeType Polyline
-   SphereRadius 9223372036854775808
    "Polyline Height" 1000
-   TriggerActivationType "All changes"
-   PeriodicQueries 1
-   UpdatePeriod 1
-   ClassesFilter {
-    "SCR_ChimeraCharacter"
-   }
-   m_polyZoneEffect PS_PolyZoneEffectRestricted "{614548BC046ADB65}" {
+   m_polyZoneEffect PS_PolyZoneEffectRestricted "{60FD050E0DC2A2AB}" {
     m_fKillTime 15
    }
-   m_bReversed 1
    m_bAliveOnly 1
    m_sFactionKey "USSR"
    m_sGroupKey "_DEF"
