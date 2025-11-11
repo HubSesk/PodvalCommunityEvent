@@ -54,6 +54,9 @@ class GUB_ZoneControlBetweenFactionsLogic
 	[Attribute("0", UIWidgets.CheckBox, "If the condition is interrupted, should the time be counted again?")]
 	bool m_bContinuously;
 
+	[Attribute()]
+	string m_sFlagControllerName;
+
 	// Условия
 	[Attribute(category: "Conditions")]
 	ref array<ref GUB_ZoneControlConditionAbstract> m_aConditions;
@@ -74,7 +77,7 @@ class GUB_ZoneControlBetweenFactionsLogic
 	// Префаб сферического триггера (как в Seizing)
 	protected const ResourceName RN_SPHERE_TRIGGER = "{59A6F1EBC6C64F79}Prefabs/Logic/SeizingTrigger.et";
 
-	void Init(PS_GameModeCoop mode, GUB_FlagController FlagController = NULL)
+	void Init(PS_GameModeCoop mode)
 	{
 		m_GameModeCoop = mode;
 		m_bCompleted = false;
@@ -89,8 +92,6 @@ class GUB_ZoneControlBetweenFactionsLogic
 
 		if (m_fCheckPeriod <= 0)
 		m_fCheckPeriod = 1.0;
-		
-		m_FlagController = FlagController;
 
 		ResolveZoneAndPrepare();
 	}
@@ -342,7 +343,17 @@ class GUB_ZoneControlBetweenFactionsLogic
 
 		if (m_Timer.Check(m_fCheckPeriod))
 			Complete();
-		
+
+		if (!m_FlagController && m_sFlagControllerName)
+		{
+				IEntity entity = GetGame().GetWorld().FindEntityByName(m_sFlagControllerName);
+				if (!entity)
+					Debug.Error("GUB_ZoneControlBetweenFactionsLogic: Can't find entity");
+				m_FlagController = GUB_FlagController.Cast(entity.FindComponent(GUB_FlagController));
+				if (!m_FlagController)
+					Debug.Error("GUB_ZoneControlBetweenFactionsLogic: Can't find component");	
+		}
+
 		if (m_FlagController)
 			m_FlagController.Update(m_Timer.GetCapturePercentage());
 	}
