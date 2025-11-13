@@ -1,12 +1,5 @@
 GenericEntity : "{592E8C59C778A189}Prefabs/System/GUB_ZoneControlBetweenFactionsPrefab.et" {
  components {
-  GUB_FlagController "{66C69949E46458F5}" {
-   m_aFlagNames {
-    "FLAG"
-   }
-   m_fStartFactionKey "USSR"
-   m_fEndFactionKey "US"
-  }
   GUB_ZoneControlBetweenFactionsComponent "{66931217B7943C52}" {
    m_aControlLogics {
     GUB_ZoneControlBetweenFactionsLogic "{66C69949AE19888B}" {
@@ -14,9 +7,6 @@ GenericEntity : "{592E8C59C778A189}Prefabs/System/GUB_ZoneControlBetweenFactions
      m_sZonePreviewName "Пик Победы"
      m_bWaitFreezeEnd 0
      m_bUseTestingMode 0
-     m_aFlagNames {
-      ""
-     }
      m_sSuccessObjectiveNames {
       "US_CAPTURE"
      }
@@ -24,6 +14,7 @@ GenericEntity : "{592E8C59C778A189}Prefabs/System/GUB_ZoneControlBetweenFactions
       "USSR_CAPTURE"
      }
      m_fTimeToComplete 900
+     m_sFlagControllerName "FC"
      m_aConditions {
       GUB_ZoneControlBetweenFactionsCondition "{66C6994A1ACE7791}" {
        m_sFirstFactionKey "US"
@@ -34,7 +25,6 @@ GenericEntity : "{592E8C59C778A189}Prefabs/System/GUB_ZoneControlBetweenFactions
      }
     }
    }
-   m_bUseFlagController 1
   }
  }
 }

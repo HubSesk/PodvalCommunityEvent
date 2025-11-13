@@ -1,12 +1,5 @@
 GenericEntity : "{592E8C59C778A189}Prefabs/System/GUB_ZoneControlBetweenFactionsPrefab.et" {
  components {
-  GUB_FlagController "{66C6EC56C0D91695}" {
-   m_aFlagNames {
-    "FLAG"
-   }
-   m_fStartFactionKey "FIA"
-   m_fEndFactionKey "USSR"
-  }
   GUB_ZoneControlBetweenFactionsComponent "{66931217B7943C52}" {
    m_aControlLogics {
     GUB_ZoneControlBetweenFactionsLogic "{66C6EC56CEE55F35}" {
@@ -22,6 +15,7 @@ GenericEntity : "{592E8C59C778A189}Prefabs/System/GUB_ZoneControlBetweenFactions
      }
      m_sMessage "СССР Захватили Хамертин!"
      m_fTimeToComplete 360
+     m_sFlagControllerName "FC"
      m_aConditions {
       GUB_ZoneControlBetweenFactionsCondition "{66C6EC56E2A4D6BB}" {
        m_sSecondFactionKey "FIA"
@@ -31,7 +25,6 @@ GenericEntity : "{592E8C59C778A189}Prefabs/System/GUB_ZoneControlBetweenFactions
      }
     }
    }
-   m_bUseFlagController 1
   }
  }
 }
