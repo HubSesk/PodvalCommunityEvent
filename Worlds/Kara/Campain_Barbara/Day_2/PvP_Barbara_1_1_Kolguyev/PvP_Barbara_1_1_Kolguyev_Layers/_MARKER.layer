@@ -1,0 +1,74 @@
+$grp GenericEntity : "{F5EF4223ACA6169C}PrefabsEditable/Auto/Structures/Military/Flags/E_FlagPole_02_V1_AFRF.et" {
+ FLAG_1 {
+  components {
+   SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+    m_aObjectiveNames {
+     "AFRF_2"
+     "USAF_2"
+    }
+    m_aFlagData {
+     PS_FlagData "{66D4290AA301D386}" {
+      m_sFactionKey "RHS_AFRF"
+     }
+     PS_FlagData "{66D4290A5CCAABE4}" {
+      m_sFactionKey "RHS_USAF"
+      m_iCaptureCounter 1
+     }
+    }
+   }
+  }
+  coords 6653.901 27.145 3915.107
+  angles 0.341 -45 -0.998
+  {
+   PS_ManualMarker Flag_Marker_1 : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+    coords -0.026 -0.336 0.025
+    angles -24.615 135 -51.058
+    m_sImageSet "{12BA7AE37121F768}UI/Textures/Icons/icons_wrapperUI-96.imageset"
+    m_sImageSetGlow "{58E50ACB1FA4F7D7}UI/Textures/Icons/icons_wrapperUI-96-glow.imageset"
+    m_MarkerColor 0.502 0 0 1
+    m_sQuadName "report"
+    m_fWorldSize 50
+    m_sDescription "Флаг №1"
+    m_bUseWorldScale 0
+    m_bVisibleForEmptyFaction 1
+    m_bShowForAnyFaction 1
+   }
+  }
+ }
+ FLAG_2 {
+  components {
+   SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+    m_aObjectiveNames {
+     "AFRF_3"
+     "USAF_3"
+    }
+    m_aFlagData {
+     PS_FlagData "{66D4290AA301D386}" {
+      m_sFactionKey "RHS_AFRF"
+     }
+     PS_FlagData "{66D4290A5CCAABE4}" {
+      m_sFactionKey "RHS_USAF"
+      m_iCaptureCounter 1
+     }
+    }
+   }
+  }
+  coords 6774.542 3.637 3543.713
+  angles 0.956 -125 0
+  {
+   PS_ManualMarker Flag_Marker_2 : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+    coords -0.027 -0.336 0.025
+    angles 0 -135 -45
+    m_sImageSet "{12BA7AE37121F768}UI/Textures/Icons/icons_wrapperUI-96.imageset"
+    m_sImageSetGlow "{58E50ACB1FA4F7D7}UI/Textures/Icons/icons_wrapperUI-96-glow.imageset"
+    m_MarkerColor 0.502 0 0 1
+    m_sQuadName "report"
+    m_fWorldSize 50
+    m_sDescription "Флаг №2"
+    m_bUseWorldScale 0
+    m_bVisibleForEmptyFaction 1
+    m_bShowForAnyFaction 1
+   }
+  }
+ }
+}
