@@ -19,14 +19,17 @@ class GUB_FlagController : ScriptComponent
 
 	override void EOnInit(IEntity owner)
 	{
-		super.EOnInit(owner);
-
 		if (!Replication.IsServer())
 			return;
+		
+		super.EOnInit(owner);
 	}
 
 	void Init()
 	{
+		if (!Replication.IsServer())
+			return;
+		
 		flagComponents = new array<SCR_FlagComponent>();
 		for (int i = 0; i < m_aFlagNames.Count(); i++)
 		{
@@ -60,6 +63,9 @@ class GUB_FlagController : ScriptComponent
 
 	void ChangeFlag(bool IsSecondFlag)
 	{
+		if (!Replication.IsServer())
+			return;
+		
 		m_bIsSecondFlag = IsSecondFlag;
 		for (int i = 0; i < m_aFlagNames.Count(); i++)
 		{
