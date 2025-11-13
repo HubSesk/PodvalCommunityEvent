@@ -1,0 +1,74 @@
+GenericEntity : "{592E8C59C778A189}Prefabs/System/GUB_ZoneControlBetweenFactionsPrefab.et" {
+ components {
+  GUB_ZoneControlBetweenFactionsComponent "{66931217B7943C52}" {
+   m_aControlLogics {
+    GUB_ZoneControlBetweenFactionsLogic "{66DAF0D14466C086}" {
+     m_sZoneEntityName "TRIGGER_ZONE"
+     m_sZonePreviewName "Бовемонт"
+     m_bWaitFreezeEnd 0
+     m_bUseTestingMode 0
+     m_sSuccessObjectiveNames {
+      "USSR_WIN"
+     }
+     m_sFailedObjectiveNames {
+      "FIA_WIN"
+     }
+     m_fTimeToComplete 300
+     m_sFlagControllerName "FC"
+     m_aConditions {
+      GUB_ZoneControlBetweenFactionsCondition "{66DAF0D100226368}" {
+       m_sSecondFactionKey "FIA"
+       m_fComparisonMultiplier 5
+       m_iOperator GREATER
+      }
+     }
+    }
+   }
+  }
+ }
+}
+GenericEntity : "{6A3CDCFB475BF1B2}Prefabs/System/DRG_CriticalLossPrefab.et" {
+ components {
+  DRG_CriticalLossComponent "{65213D368F1BD792}" {
+   m_aLossLogics {
+    LossLogic "{66DAF0D114856BB6}" {
+     m_aLosses {
+      FactionLoss "{66DAF0D116FA80C9}" {
+      }
+     }
+     m_sObjectiveNames {
+      "FIA_WIN"
+     }
+     m_sFailedObjectiveNames {
+      "USSR_WIN"
+     }
+     m_bUseMessage 1
+     m_bEventMessage "СССР Понесли критические потери!"
+    }
+    LossLogic "{66DAF0D114B16DB9}" {
+     m_aLosses {
+      FactionLoss "{66DAF0D122409B70}" {
+       m_iCriticalLossCount 2
+       m_sFactionKey "FIA"
+      }
+     }
+     m_sObjectiveNames {
+      "USSR_WIN"
+     }
+     m_sFailedObjectiveNames {
+      "FIA_WIN"
+     }
+     m_bUseMessage 1
+     m_bEventMessage "FIA понесли критические потери!"
+    }
+   }
+  }
+ }
+}
+GenericEntity : "{E6FC6DD69FA3479F}Prefabs/System/DRG_MissionEndTimerPrefab.et" {
+ components {
+  DRG_MissionEndTimerComponent "{651B0839B21B3BBF}" {
+   m_iMissionTime 2700
+  }
+ }
+}
