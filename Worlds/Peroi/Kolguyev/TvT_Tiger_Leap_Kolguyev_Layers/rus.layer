@@ -5,8 +5,8 @@ $grp SCR_AIGroup : "{0FC09C311C951395}Prefabs/Groups/OPFOR/drg_AFRF_PlatoonHQ.et
     m_iCompanyCallsign 0
    }
   }
-  coords 5620.332 12.938 3131.917
-  angles 0 162.727 0
+  coords 5827.627 15.145 3180.459
+  angles 0.171 174.526 1.782
   m_aUnitPrefabSlots {
    "{CAB92AB6CB5AEEF3}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_PL.et"
    "{4DFC393FBCBFB6BA}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_SR_opt.et"
@@ -16,7 +16,7 @@ $grp SCR_AIGroup : "{0FC09C311C951395}Prefabs/Groups/OPFOR/drg_AFRF_PlatoonHQ.et
   }
  }
  {
-  coords 6459.36 21.84 3665.093
+  coords 6380.719 22.656 3634.417
   angles 0.274 32.489 1.236
   m_aUnitPrefabSlots {
    "{0DF8C7583D0AAA9A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_SL_v2.et"
@@ -27,19 +27,37 @@ $grp SCR_AIGroup : "{0FC09C311C951395}Prefabs/Groups/OPFOR/drg_AFRF_PlatoonHQ.et
 }
 $grp Vehicle : "{2CCD539A7AB35B2F}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_camo1.et" {
  Ural4320_transport_camo1 {
-  coords 5608.211 12.937 3120.199
-  angles 0 74.89 0
+  coords 5813.72 14.808 3171.6
+  angles 0.893 85.901 -0.064
   m_sAttachmentGroupName "bb1"
+  {
+   GameEnvironmentProbeEntity {
+    ID "654C8CD3B0316F22"
+    coords 0.001 -0.516 1.356
+   }
+  }
  }
  Ural4320_transport_camo2 {
-  coords 5592.476 12.961 3120.605
-  angles -0.871 76.688 0.206
+  coords 5798.089 14.472 3175.486
+  angles 1.788 87.697 -0.072
   m_sAttachmentGroupName "bb2"
+  {
+   GameEnvironmentProbeEntity {
+    ID "654C8CD3B0316F22"
+    coords 0.008 -0.465 1.394
+   }
+  }
  }
  Ural4320_transport_camo3 {
-  coords 5581.241 13.074 3113.211
-  angles -0.871 76.688 0.206
+  coords 5786.018 14.25 3170.563
+  angles 0.895 87.699 -0.036
   m_sAttachmentGroupName "bb3"
+  {
+   GameEnvironmentProbeEntity {
+    ID "654C8CD3B0316F22"
+    coords 0.009 -0.478 1.395
+   }
+  }
  }
 }
 $grp SCR_AIGroup : "{3EDA372443FD105F}Prefabs/Groups/OPFOR/drg_AFRF_RifleSquad.et" {
@@ -50,8 +68,8 @@ $grp SCR_AIGroup : "{3EDA372443FD105F}Prefabs/Groups/OPFOR/drg_AFRF_RifleSquad.e
     m_iPlatoonCallsign 1
    }
   }
-  coords 5604.494 12.934 3115.761
-  angles 0 -15.927 0
+  coords 5808.852 14.701 3168.105
+  angles -0.06 -3.85 -0.893
   m_aUnitPrefabSlots {
    "{0DF8C7583D0AAA9A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_SL_v2.et"
    "{4DFC393FBCBFB6BA}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_SR_opt.et"
@@ -72,8 +90,8 @@ $grp SCR_AIGroup : "{3EDA372443FD105F}Prefabs/Groups/OPFOR/drg_AFRF_RifleSquad.e
     m_iSquadCallsign 1
    }
   }
-  coords 5594.808 12.938 3124.844
-  angles 0 166.008 0
+  coords 5801.72 14.558 3178.871
+  angles 0.038 177.602 0.894
   m_aUnitPrefabSlots {
    "{0DF8C7583D0AAA9A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_SL_v2.et"
    "{4DFC393FBCBFB6BA}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_SR_opt.et"
@@ -94,8 +112,8 @@ $grp SCR_AIGroup : "{3EDA372443FD105F}Prefabs/Groups/OPFOR/drg_AFRF_RifleSquad.e
     m_iSquadCallsign 2
    }
   }
-  coords 5577.979 13.125 3109.035
-  angles 0 -13.071 0
+  coords 5781.862 14.154 3167.221
+  angles -0.032 -2.058 -0.895
   m_aUnitPrefabSlots {
    "{0DF8C7583D0AAA9A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_SL_v2.et"
    "{4DFC393FBCBFB6BA}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_SR_opt.et"
@@ -114,8 +132,8 @@ $grp SCR_AIGroup : "{3EDA372443FD105F}Prefabs/Groups/OPFOR/drg_AFRF_RifleSquad.e
     m_iCompanyCallsign 1
    }
   }
-  coords 5265.28 22.497 3097.692
-  angles -1.025 2.079 3.541
+  coords 5512.971 15.627 3099.886
+  angles 0.181 -2.899 3.572
   m_aUnitPrefabSlots {
    "{0DF8C7583D0AAA9A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_SL_v2.et"
    "{4DFC393FBCBFB6BA}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_SR_opt.et"
@@ -136,8 +154,8 @@ $grp SCR_AIGroup : "{3EDA372443FD105F}Prefabs/Groups/OPFOR/drg_AFRF_RifleSquad.e
     m_iPlatoonCallsign 1
    }
   }
-  coords 5253.486 21.654 3109.635
-  angles 0.23 -176.321 -3.454
+  coords 5500.303 15.894 3110.39
+  angles 0.23 176.344 -3.454
   m_aUnitPrefabSlots {
    "{0DF8C7583D0AAA9A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_SL_v2.et"
    "{4DFC393FBCBFB6BA}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_SR_opt.et"
@@ -159,8 +177,8 @@ $grp SCR_AIGroup : "{3EDA372443FD105F}Prefabs/Groups/OPFOR/drg_AFRF_RifleSquad.e
     m_iSquadCallsign 1
    }
   }
-  coords 5223.007 22.061 3101.305
-  angles -0.452 7.399 2.54
+  coords 5470.378 18.226 3097.494
+  angles 0.119 -1.906 3.574
   m_aUnitPrefabSlots {
    "{0DF8C7583D0AAA9A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_SL_v2.et"
    "{4DFC393FBCBFB6BA}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_SR_opt.et"
@@ -177,23 +195,41 @@ $grp SCR_AIGroup : "{3EDA372443FD105F}Prefabs/Groups/OPFOR/drg_AFRF_RifleSquad.e
 }
 $grp Vehicle : "{447CFE8D73F95C3E}Prefabs/Vehicles/Wheeled/BTR70/BTR70_AFRF.et" {
  BTR70_AFRF1 {
-  coords 5269.933 22.655 3101.067
-  angles 1.789 91.495 0.047
+  coords 5516.677 15.406 3103.597
+  angles -2.668 83.738 0.293
   m_sAttachmentGroupName "bb4"
+  {
+   GameEnvironmentProbeEntity {
+    ID "654E652E0CEAC5BD"
+    coords 0.002 -0.607 1.103
+   }
+  }
  }
  BTR70_AFRF2 {
-  coords 5248.674 21.943 3106.472
-  angles -3.455 93.642 -0.227
+  coords 5495.685 16.613 3106.576
+  angles -3.57 86.687 0.206
   m_sAttachmentGroupName "bb5"
+  {
+   GameEnvironmentProbeEntity {
+    ID "654E652E0CEAC5BD"
+    coords -0.006 -0.404 1.249
+   }
+  }
  }
  BTR70_AFRF3 {
-  coords 5227.804 21.941 3103.66
-  angles -0.886 98.157 -0.127
+  coords 5475.032 17.919 3101.015
+  angles -3.609 87.734 -0.751
   m_sAttachmentGroupName "bb6"
+  {
+   GameEnvironmentProbeEntity {
+    ID "654E652E0CEAC5BD"
+    coords -0.004 -0.556 1.182
+   }
+  }
  }
 }
 Vehicle UAZ469_Camo1 : "{E1A99B5F2DC9B38A}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_Camo.et" {
- coords 5619.506 12.937 3127.97
- angles 0 72.748 0
+ coords 5825.563 15.087 3176.942
+ angles 0.89 83.938 -0.094
  m_sAttachmentGroupName "ks"
 }

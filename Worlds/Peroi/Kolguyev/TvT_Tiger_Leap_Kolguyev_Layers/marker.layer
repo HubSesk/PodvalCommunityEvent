@@ -1,9 +1,8 @@
 PolylineShapeEntity : "{7019844BAD5C4DD8}Prefabs/PolyZone/PolyZone_Border.et" {
  components {
   PS_PolyZone "{60E90266F25533F6}" {
-   m_cPolygonColor 0 0 0 1
+   m_cPolygonColor 0 0 0 0
    m_cPolygonBorderColor 0 0 0 1
-   m_bLineMode 1
    m_aVisibleForFactions {
     ""
     "Ses_CDF"
@@ -13,6 +12,9 @@ PolylineShapeEntity : "{7019844BAD5C4DD8}Prefabs/PolyZone/PolyZone_Border.et" {
  }
  coords 7633.093 21.731 5002.551
  Points {
+  ShapePoint "{60E90266E922A02A}" {
+   Position -8.349 0.991 1.662
+  }
   ShapePoint "{66DC55F653F9E69C}" {
    Position -409.467 0 61.121
   }
@@ -104,7 +106,7 @@ PolylineShapeEntity : "{7019844BAD5C4DD8}Prefabs/PolyZone/PolyZone_Border.et" {
    Position 67.172 0 -178.869
   }
   ShapePoint "{66DC55F701337BEA}" {
-   Position 0.096 0.32 0.055
+   Position 34.676 -6.505 -9.943
   }
  }
  {
@@ -115,4 +117,52 @@ PolylineShapeEntity : "{7019844BAD5C4DD8}Prefabs/PolyZone/PolyZone_Border.et" {
    }
   }
  }
+}
+PolylineShapeEntity : "{BD11B8FAA469D169}Prefabs/PolyZone/PolyZone.et" {
+ components {
+  PS_PolyZone "{60E90266F25533F6}" {
+   m_cPolygonColor 0.502 0 0 0
+   m_cPolygonBorderColor 0.502 0 0 1
+   m_bLineMode 1
+   m_aVisibleForFactions {
+    ""
+    "RHS_AFRF"
+    "Ses_CDF"
+   }
+  }
+ }
+ coords 6558.824 24.656 3762.624
+ Points {
+  ShapePoint "{60E90266E922A02A}" {
+   Position -0.052 0.097 -0.51
+  }
+  ShapePoint "{66DE5B14A3AB0110}" {
+   Position 215.788 0 194.325
+  }
+  ShapePoint "{66DE5B14AC706797}" {
+   Position 153.843 0 264.461
+  }
+  ShapePoint "{66DE5B14AFA2FEEE}" {
+   Position -64.468 0 69.904
+  }
+  ShapePoint "{66DE5B14E2737627}" {
+   Position -0.062 0 -0.556
+  }
+ }
+}
+PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ coords 6639.804 25.651 3902.93
+ angles 0 86.658 0
+ m_sImageSetGlow ""
+ m_MarkerColor 0 0 0 1
+ m_sQuadName "flag-2"
+ m_fWorldSize 60
+ m_sDescription "Площадь"
+ m_bUseWorldScale 0
+ m_aVisibleForFactions {
+  ""
+  "RHS_AFRF"
+  "Ses_CDF"
+ }
+ m_bVisibleForEmptyFaction 1
 }
