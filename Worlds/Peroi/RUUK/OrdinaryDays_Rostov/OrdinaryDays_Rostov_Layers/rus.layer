@@ -7,22 +7,9 @@ SCR_AIGroup btr3 : "{0FC09C311C951395}Prefabs/Groups/OPFOR/drg_AFRF_PlatoonHQ.et
  coords 943.286 116.531 2927.611
  m_aUnitPrefabSlots {
   "{CAB92AB6CB5AEEF3}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_PL.et"
-  "{F9DC5087D19D437A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_PLD.et"
   "{33FA1C11138E145A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_GL.et"
   "{D9234F6644B47143}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_Medic.et"
   "{6D10A06D248FCD0B}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_Sniper.et"
- }
-}
-$grp Vehicle : "{259EE7B78C51B624}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469.et" {
- UAZ1 {
-  coords 979.771 23.502 1736.067
-  angles 1.615 -25.587 -0.773
-  m_sAttachmentGroupName "spn"
- }
- UAZ2 {
-  coords 982.752 23.298 1730.112
-  angles 1.985 -27.019 -2.016
-  m_sAttachmentGroupName "spn"
  }
 }
 $grp SCR_AIGroup : "{3EDA372443FD105F}Prefabs/Groups/OPFOR/drg_AFRF_RifleSquad.et" {
@@ -133,23 +120,5 @@ $grp Vehicle : "{447CFE8D73F95C3E}Prefabs/Vehicles/Wheeled/BTR70/BTR70_AFRF.et" 
   coords 973.344 112.644 2751.394
   angles 0.153 -51.956 1.257
   m_sAttachmentGroupName "btr2"
- }
-}
-SCR_AIGroup spn : "{A2B2BA4E83C87880}Prefabs/Groups/OPFOR/drg_Group_RHS_AFRF_Shtom_Showcase.et" {
- components {
-  PS_GroupCallsignAssigner "{65EEFE9F3E1C04FF}" {
-   m_iCompanyCallsign 3
-  }
- }
- coords 987.598 23.562 1734.101
- angles 0 -115.171 0
- m_aUnitPrefabSlots {
-  "{493F72102D5E0F98}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/GRU/Ligth/drg_Role_RHS_AFRF_GRU_SL.et"
-  "{34279EE848CD3301}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/GRU/Ligth/drg_Role_RHS_AFRF_GRU_SR.et"
-  "{76A05D157195B968}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/GRU/Ligth/drg_Role_RHS_AFRF_GRU_MG.et"
-  "{458F066DE1E8215E}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/GRU/Ligth/drg_Role_RHS_AFRF_GRU_Rifleman.et"
-  "{FC1FEACE6653B3D7}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/GRU/Ligth/drg_Role_RHS_AFRF_GRU_AT.et"
-  "{458F066DE1E8215E}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/GRU/Ligth/drg_Role_RHS_AFRF_GRU_Rifleman.et"
-  "{18E5431BC976B948}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/GRU/Ligth/drg_Role_RHS_AFRF_GRU_Sniper.et"
  }
 }
