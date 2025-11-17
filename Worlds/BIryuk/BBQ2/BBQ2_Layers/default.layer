@@ -1,36 +1,16 @@
-GenericEntity : "{1592EC23A583FB04}Prefabs/Props/Garbage/Generic/LitterInterior_01/Single/LitterInterior_01_vodka_V2.et" {
- coords 3291.965 266.887 6679.595
- angles 0 161.434 0
+SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
+ coords 10229.096 0 5051.575
 }
-SCR_ChimeraCharacter : "{634B5D1262B68A69}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VSR/POlKOVNIK_SOLID_VIP.et" {
+PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 3416.963 185.784 1577.288
+}
+PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
  components {
-  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
-   Slots {
-    LoadoutSlotInfo ArmoredVest {
-     Prefab "{77492F31555EAD29}Prefabs/Characters/Vests/Vest_TV115/Vest_TV115_MC.et"
-    }
-   }
+  SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
+   m_iStartingHours 15
+   m_iStartingMinutes 30
   }
  }
- coords 3292.729 266.031 6680.399
- angles 0 179.407 0
-}
-GenericEntity : "{ACB6EFBD551A30FE}Prefabs/Compositions/Misc/SubCompositions/Furniture/Table_Ashtray_USSR_01.et" {
- coords 3292.57 266.006 6679.673
- angles 0 0 0
-}
-GenericEntity : "{C4444C5766E5387C}Prefabs/Props/Civilian/Birdhouse_01/Birdhouse_01.et" {
- coords 3294.882 268.002 6681.692
- angles 0 -137.925 0
-}
-GenericEntity : "{C9FF63225FD6B69D}Prefabs/Props/Furniture/SkewerGrill_01/SkewerGrill_01.et" {
- coords 3291.246 265.859 6687.481
- angles 1.678 57.964 -3.159
-}
-GameEntity : "{D9842C11742C00CF}Prefabs/Props/Civilian/Fireplace_01.et" {
- coords 3293.315 266.046 6688.875
-}
-GenericEntity : "{EB21D26B8D5A3232}Prefabs/Items/Food/MRE.et" {
- coords 3292.565 266.905 6679.601
- angles 0 -29.458 0
+ coords 2931.594 19.954 2318.804
+ m_iFreezeTime 300000
 }
