@@ -110,14 +110,12 @@ class GUB_ZoneControlBetweenFactionsLogic
 		if (m_bCompleted)
 			return;
 
-		if (!CheckConditions())
-			return;
-
-		if (m_Timer.AddTime(m_fCheckPeriod))
-			Complete();
-
-		if (m_FlagController)
-			m_FlagController.Update(m_Timer.GetCapturePercentage());
+		if (CheckConditions())
+		{
+			if (m_Timer.AddTime(m_fCheckPeriod))
+				Complete();
+		}
+		m_FlagController.Update(m_Timer.GetCapturePercentage());
 	}
 
 	// --- Завершение/уведомления/стейт ---
