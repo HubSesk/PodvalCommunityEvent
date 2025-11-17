@@ -1,0 +1,61 @@
+GenericEntity : "{592E8C59C778A189}Prefabs/System/GUB_ZoneControlBetweenFactionsPrefab.et" {
+ components {
+  GUB_ZoneControlBetweenFactionsComponent "{66931217B7943C52}" {
+   m_aControlLogics {
+    GUB_ZoneControlBetweenFactionsLogic "{66E296241B1C8A2C}" {
+     m_sZonePreviewName "прикол"
+     m_sPreviewMessageToDescription "хихихаха"
+     m_fCheckPeriod 1
+     m_sMessage "флаг поднят"
+     m_Timer GUB_ZoneControlTimer "{66E337DFA273160F}" {
+      timeToComplete 5000
+     }
+     m_ZoneController GUB_ZoneController "{66E337DFA254100D}" {
+      m_sZoneEntityName "TRIGGER_ZONE"
+     }
+     m_FlagController GUB_FlagController "{66E337DFA2BAA223}" {
+      m_aFlagNames {
+       "flag"
+      }
+      m_fStartFactionKey "US"
+      m_fEndFactionKey "USSR"
+     }
+     m_aConditions {
+      GUB_ZoneControlBetweenFactionsCondition "{66E29623567033C3}" {
+       m_fComparisonMultiplier 2.6
+       m_iOperator GREATER
+      }
+      GUB_ZoneControlCondition "{66E337D711C8702A}" {
+      }
+     }
+    }
+    GUB_ZoneControlBetweenFactionsLogic "{66E337D72458CDE3}" {
+     m_sZonePreviewName "прикол 2"
+     m_sPreviewMessageToDescription "ваываы"
+     m_sMessage "пап"
+     m_Timer GUB_ZoneControlTimer "{66E337D72DF51398}" {
+      timeToComplete 2252
+     }
+     m_ZoneController GUB_ZoneController "{66E337D72DAF120B}" {
+      m_sZoneEntityName "TRIGGER_ZONE"
+     }
+     m_FlagController GUB_FlagController "{66E337D72EF25211}" {
+     }
+     m_aConditions {
+      GUB_ZoneControlBetweenFactionsCondition "{66E337D7FA085FF1}" {
+      }
+     }
+    }
+   }
+  }
+ }
+}
+GenericEntity : "{6A3CDCFB475BF1B2}Prefabs/System/DRG_CriticalLossPrefab.et" {
+}
+GenericEntity : "{E6FC6DD69FA3479F}Prefabs/System/DRG_MissionEndTimerPrefab.et" {
+ components {
+  DRG_MissionEndTimerComponent "{651B0839B21B3BBF}" {
+   m_iMissionTime 2700
+  }
+ }
+}
