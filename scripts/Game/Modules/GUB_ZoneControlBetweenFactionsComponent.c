@@ -14,7 +14,6 @@ class GUB_ZoneControlBetweenFactionsComponent : DRG_MissionModuleComponent
 	ref array<ref GUB_ZoneControlBetweenFactionsLogic> m_aControlLogics;
 
 	protected PS_GameModeCoop m_GameModeCoop;
-	protected const int CHECK_INTERVAL_MS = 1000;
 
 	override protected void OnPostInit(IEntity owner)
 	{
@@ -34,49 +33,37 @@ class GUB_ZoneControlBetweenFactionsComponent : DRG_MissionModuleComponent
 			foreach (GUB_ZoneControlBetweenFactionsLogic lg : m_aControlLogics)
 				if (lg) lg.Init(m_GameModeCoop);
 		}
-
-		GetGame().GetCallqueue().CallLater(TickEvaluate, CHECK_INTERVAL_MS, true);
-	}
-
-	protected void TickEvaluate()
-	{
-		if (!m_aControlLogics)
-			return;
-
-		foreach (GUB_ZoneControlBetweenFactionsLogic logic : m_aControlLogics)
-		{
-			if (!logic)
-				continue;
-
-			if (logic.TryComplete())
-			{
-				GetGame().GetCallqueue().Remove(TickEvaluate);
-				break;
-			}
-		}
 	}
 
 	override void FillDescription(out string desc)
 	{
 		desc = desc + "<color hex=\"0xFFE2A74F\">" + "Контроль зоны между фракциями" + "<color name>\n";		
-		desc = desc +  "" + "\n";
 			
 		foreach (GUB_ZoneControlBetweenFactionsLogic logic : m_aControlLogics) 
 		{
-			string sContinuously = "";
-			if (!logic.m_bContinuously)
-				sContinuously = "не ";
-
-			desc = desc + "<color hex=\"0xFFE2A74F\">" + "Зона: " + logic.m_sZonePreviewName + "<color name>\n";
-			desc = desc + "Удержать в течении: " + "<color hex=\"0xFFE2A74F\">" + logic.m_fTimeToComplete + " секунд" +"<color name>\n";
-			desc = desc + "Если условине нарушается, таймер " + "<color hex=\"0xFFE2A74F\">" + sContinuously + "обнуляется!" +"<color name>\n";
-			desc = desc + logic.m_sPreviewMessageToDescription + "\n";
+			if (logic.m_sZonePreviewName)
+				desc = desc + "Зона: " + "<color hex=\"0xFFE2A74F\">" + logic.m_sZonePreviewName + "<color name>\n";
+			if (logic.m_sPreviewMessageToDescription)
+				desc = desc + logic.m_sPreviewMessageToDescription + "\n";
+			desc = desc + "Время захвата: " + "<color hex=\"0xFFE2A74F\">" + FormatTime(logic.GetTimeToComplete()) + "<color name>\n";
 			
-			foreach (int i, GUB_ZoneControlConditionAbstract cnd : logic.m_aConditions)			
-			{
+			foreach (int i, GUB_ZoneControlConditionAbstract cnd : logic.m_aConditions)
 				desc += cnd.FillDescription();
-			}
 		}
-		desc = desc +  "\n\n";
+		desc = desc + "\n";
+	}
+
+	string FormatTime(int seconds) {
+    // Проверка на отрицательное время
+    if (seconds < 0) {
+        return "00:00:00";
+    }
+    
+    int hours = seconds / 3600;
+    int minutes = (seconds % 3600) / 60;
+    int secs = seconds % 60;
+    
+    string result = string.Format("%1:%2:%3", hours, minutes, secs);
+    return result;
 	}
 }
