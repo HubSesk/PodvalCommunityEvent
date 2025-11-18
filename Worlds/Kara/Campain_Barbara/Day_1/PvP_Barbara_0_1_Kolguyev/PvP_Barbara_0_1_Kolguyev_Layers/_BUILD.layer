@@ -451,6 +451,9 @@ $grp StaticModelEntity : "{5824BC6E4A1AF407}Prefabs/Compositions/Misc/SubComposi
       Enabled 0
       m_bIsEnabled 0
      }
+     SCR_SoundDataComponent "{5C53391603B5CF41}" {
+      Enabled 0
+     }
      UniversalInventoryStorageComponent "{58A17A341AB8F069}" {
       Enabled 0
      }
@@ -505,6 +508,9 @@ $grp StaticModelEntity : "{5824BC6E4A1AF407}Prefabs/Compositions/Misc/SubComposi
      SCR_ResupplySupportStationComponent "{5E2CE1BA1701C633}" {
       Enabled 0
       m_bIsEnabled 0
+     }
+     SCR_SoundDataComponent "{5C53391603B5CF41}" {
+      Enabled 0
      }
      UniversalInventoryStorageComponent "{58A17A341AB8F069}" {
       Enabled 0
@@ -1048,6 +1054,37 @@ StaticModelEntity : "{B4C7CCE6E82150C0}Prefabs/Compositions/Misc/SubCompositions
 StaticModelEntity : "{B6D61E3EC914119E}Prefabs/Compositions/Misc/SubCompositions/Tent_Barrack_Camo_Cluttered_USSR_01.et" {
  coords 6658.203 25.999 3902.847
  angles 0.632 -45.021 -1.898
+ {
+  GenericEntity {
+   ID "58C28EA0C7635BA2"
+   components {
+    SCR_ArsenalComponent "{589F01C9C8D4A475}" {
+     Enabled 0
+    }
+    SCR_FactionAffiliationComponent "{5A50E7650A1AE9EC}" {
+     Enabled 0
+    }
+    SCR_ResourceComponent "{5E5ABDF371AE8B21}" {
+     Enabled 0
+    }
+    SCR_ResupplySupportStationComponent "{5E2CE1BA1701C633}" {
+     Enabled 0
+    }
+    SCR_SoundDataComponent "{5C53391603B5CF41}" {
+     Enabled 0
+    }
+    UniversalInventoryStorageComponent "{58A17A341AB8F069}" {
+     Enabled 0
+    }
+    SCR_ArsenalInventoryStorageManagerComponent "{58A0B19B1E191CC1}" {
+     Enabled 0
+    }
+    ActionsManagerComponent "{5476B36C403D4CC0}" {
+     Enabled 0
+    }
+   }
+  }
+ }
 }
 $grp GenericEntity : "{B90E5414AB7C325B}Prefabs/Props/Wrecks/BTR70_Wreck/BTR70_wreck_static.et" {
  {
@@ -1188,6 +1225,37 @@ $grp GenericEntity : "{D2299274C13B1169}PrefabsEditable/Auto/Props/Military/Sand
 StaticModelEntity : "{DA822ADE75D09EB0}Prefabs/Compositions/Misc/SubCompositions/Tent_Barrack_Camo_Cluttered_USSR_02.et" {
  coords 6665.888 26.344 3909.415
  angles 0 -45 0
+ {
+  GenericEntity {
+   ID "58C28EA0D528BDCF"
+   components {
+    SCR_ArsenalComponent "{589F01C9C8D4A475}" {
+     Enabled 0
+    }
+    SCR_FactionAffiliationComponent "{5A50E7650A1AE9EC}" {
+     Enabled 0
+    }
+    SCR_ResourceComponent "{5E5ABDF371AE8B21}" {
+     Enabled 0
+    }
+    SCR_ResupplySupportStationComponent "{5E2CE1BA1701C633}" {
+     Enabled 0
+    }
+    SCR_SoundDataComponent "{5C53391603B5CF41}" {
+     Enabled 0
+    }
+    UniversalInventoryStorageComponent "{58A17A341AB8F069}" {
+     Enabled 0
+    }
+    SCR_ArsenalInventoryStorageManagerComponent "{58A0B19B1E191CC1}" {
+     Enabled 0
+    }
+    ActionsManagerComponent "{5476B36C403D4CC0}" {
+     Enabled 0
+    }
+   }
+  }
+ }
 }
 $grp GenericEntity : "{E98385D7F126474C}Prefabs/Props/Wrecks/UH1H_wreck/UH1H_wreck_02_static.et" {
  {
@@ -1350,32 +1418,6 @@ $grp GenericEntity : "{F1FDD5669F4C26B2}Prefabs/Props/Military/AmmoBoxes/drg_Amm
   }
   coords 6726.93 3.188 3540.19
   angles 0 -33.838 0
- }
- {
-  components {
-   SCR_FilteredInventoryStorageComponent "{5476A2F100DF4EFF}" {
-    Attributes SCR_ItemAttributeCollection "{5476CDB2EAD8225E}" {
-     ItemDisplayName SCR_InventoryUIInfo "{64F707D10A95B574}" {
-      Name "Мешки с песком"
-     }
-    }
-    MultiSlots {
-     MultiSlotConfiguration "{64F707D11FA7A94D}" {
-      SlotTemplate InventoryStorageSlot "{64DCC2F489C88F5C}" {
-       Prefab "{07BC23F8D9223863}Prefabs/Items/Misc/Sandbags/Part_Sandbag_Burlap.et"
-      }
-      NumSlots 100
-     }
-     MultiSlotConfiguration "{6502C64ED28D7103}" {
-      SlotTemplate InventoryStorageSlot "{64DCC2F489C88F5C}" {
-       Enabled 0
-      }
-     }
-    }
-   }
-  }
-  coords 6739.691 3.188 3548.608
-  angles 0 -32.771 0
  }
 }
 $grp GenericEntity : "{F35FFCC271B2E4FB}Prefabs/Compositions/Misc/SubCompositions/Tire_UAZ469_pile_01.et" {

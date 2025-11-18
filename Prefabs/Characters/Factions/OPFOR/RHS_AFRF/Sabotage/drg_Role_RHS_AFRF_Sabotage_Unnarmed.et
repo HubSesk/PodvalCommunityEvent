@@ -1,0 +1,51 @@
+SCR_ChimeraCharacter : "{6344FAB9EEF674E7}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/drg_Role_RHS_AFRF_Unnarmed_base.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{295E09CA923E7C61}Prefabs/Characters/HeadGear/Balaclavas/LShZ_Balaclava/Balaclava_LShZ_black_VAR2.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{FCA156A0893654A4}Prefabs/Characters/Uniforms/Gorka_jacket/Gorka_jacket_base.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{AEA8D05BF2DC8CF2}Prefabs/Characters/Uniforms/Gorka_pants/Gorka_pants_base.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{660952F979E8EBF2}Prefabs/Characters/Footwear/Boots_solomon_ultra_x/Footwear_Altama_Boots.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{91238F347AA0B6B6}Prefabs/Characters/Vests/Vest_TV115/variants/Vest_TV115_Rifleman_OD.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{ABB779CFC2E11E89}Prefabs/Characters/Handwear/Gloves_MechanixMpact/Gloves_mpack_Covert.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6528F2E77853E654}" {
+     TargetStorage "Pants/Gorka_pants_base.et"
+    }
+    ItemsInitConfigurationItem "{6528F2E78A33803A}" {
+     TargetStorage "Jacket/Gorka_jacket_base.et"
+    }
+    ItemsInitConfigurationItem "{6528F2E079033878}" {
+     TargetStorage "Jacket/Gorka_jacket_base.et"
+     TargetPurpose 64
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{66E4518A1AAB694E}" {
+     TargetStorage "Jacket/Gorka_jacket_base.et"
+     PrefabsToSpawn {
+      "{A55A815F28739FEC}Prefabs/Items/Equipment/Navigation/Orion/Orion.et"
+     }
+    }
+   }
+  }
+ }
+}

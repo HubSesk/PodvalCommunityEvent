@@ -1,23 +1,21 @@
 $grp GenericEntity : "{13A99500A14FA14C}Prefabs/Props/Military/SupplyBox/SupplyShippingContainers/SupplyShippingContainers_01/SupplyShippingContainers_01_20ft.et" {
  {
   coords 4490.72 27.686 4332.903
-  angleY -95.642
+  angles 0 -95.642 0
  }
  {
   coords 4491.021 27.664 4330.384
-  angleY -95.642
+  angles 0 -95.642 0
  }
 }
 $grp Turret : "{1A407760EEAE4156}Prefabs/Vehicles/Static/BaconZU23/BaconZU23_Turret_Deployed.et" {
  {
   coords 1639.453 14.499 2034.999
-  angleX -0.034
-  angleY 90.54
-  angleZ 3.576
+  angles -0.034 90.54 3.576
  }
  {
   coords 1083.27 15.094 2870.684
-  angleY 90.113
+  angles 0 90.113 0
  }
 }
 $grp StaticModelEntity : "{1BB9E9ECC5AD0E88}PrefabsEditable/Auto/Structures/Infrastructure/Towers/E_TransmitterTower_01.et" {
@@ -27,6 +25,33 @@ $grp StaticModelEntity : "{1BB9E9ECC5AD0E88}PrefabsEditable/Auto/Structures/Infr
  {
   coords 2534.457 6.594 1149.58
  }
+ {
+  coords 3325.755 15 890.895
+ }
+ {
+  coords 3224.537 17.983 1862.912
+  angles 0.88 -10.451 -0.162
+ }
+ {
+  coords 3028.997 27.403 4060.741
+  angles -1.945 -43.572 1.849
+ }
+ {
+  coords 2734.88 23.106 3128.829
+  angles 0.836 -21.021 -0.321
+ }
+ {
+  coords 1851.354 10.257 3699.542
+  angles -0.193 -77.571 0.874
+ }
+ {
+  coords 1309.63 10.911 1071.598
+  angles 0.895 -88.927 0.017
+ }
+ {
+  coords 1768.013 9.969 1226.362
+  angles 0 -88.454 0
+ }
 }
 GenericEntity : "{24F98A215FAA249C}Prefabs/Structures/Signs/Military/Supplies/Sign_SupplyStorage_01_Supplies_FIA.et" {
  components {
@@ -35,9 +60,7 @@ GenericEntity : "{24F98A215FAA249C}Prefabs/Structures/Signs/Military/Supplies/Si
   }
  }
  coords 4487.475 27.636 4333.853
- angleX -1.148
- angleY -96.01
- angleZ -0.456
+ angles -1.148 -96.01 -0.456
 }
 $grp GenericEntity : "{6AE0184B9AAA256D}Prefabs/Props/Military/AmmoBoxes/drg_AmmoBox_82mm_mortar_3rnd_HE_test.et" {
  {
@@ -63,7 +86,7 @@ $grp GenericEntity : "{6AE0184B9AAA256D}Prefabs/Props/Military/AmmoBoxes/drg_Amm
    }
   }
   coords 1137.215 20.644 2448.183
-  angleZ -0.895
+  angles 0 0 -0.895
  }
  {
   components {
@@ -88,19 +111,17 @@ $grp GenericEntity : "{6AE0184B9AAA256D}Prefabs/Props/Military/AmmoBoxes/drg_Amm
    }
   }
   coords 1458.121 16.513 2098.838
-  angleX 5.351
-  angleY 0.168
-  angleZ 1.798
+  angles 5.351 0.168 1.798
  }
 }
 GameEntity : "{C9866DE5BF3DB72D}Prefabs/Props/Civilian/Ladders/IndustrialComplex02_Ladder_563.et" {
  coords 901.913 26.207 2758.883
- angleY 87.015
+ angles 0 87.015 0
 }
 $grp GenericEntity : "{D39565F5897A9C0B}Prefabs/Compositions/Misc/SubCompositions/2B14_MortarPostion.et" {
  {
   coords 1135.681 20.594 2445.882
-  angleY 79.686
+  angles 0 79.686 0
   {
    GenericEntity {
     ID "60B8D36A59BEEA13"
@@ -147,9 +168,7 @@ $grp GenericEntity : "{D39565F5897A9C0B}Prefabs/Compositions/Misc/SubComposition
  }
  {
   coords 1456.433 16.345 2096.486
-  angleX -0.792
-  angleY 79.608
-  angleZ 5.588
+  angles -0.792 79.608 5.588
   {
    GenericEntity {
     ID "60B8D36A59BEEA13"

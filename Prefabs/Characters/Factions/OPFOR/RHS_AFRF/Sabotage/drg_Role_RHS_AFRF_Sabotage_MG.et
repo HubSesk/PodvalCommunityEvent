@@ -1,0 +1,70 @@
+SCR_ChimeraCharacter : "{E02F7C3171C2735D}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Sabotage/drg_Role_RHS_AFRF_Sabotage_Rifleman_2.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#Role-SaboteurMG"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{CBF1642EC0DC8E65}Prefabs/Weapons/MachineGuns/PKM/MG_PKMN_1P78.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Back {
+     Prefab "{16C7AD0508F53A9B}Prefabs/Items/Equipment/Backpacks/backpack_Wartech_BB102/Backpack_Wartech_BB102_OD.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{54E8E1A933B59AA2}Prefabs/Characters/Vests/Vest_Taktika/Variants/Vest_Taktika_preset_taktika_PKM.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{65BD4727FB1BE6D1}" {
+     TargetStorage "Vest/Vest_Taktika_preset_taktika_PKM.et/PKM/Pouch_Mordor_PKM.et"
+     PrefabsToSpawn {
+      "{0EAB3482EA2FD181}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N13.et"
+     }
+    }
+    ItemsInitConfigurationItem "{65BD47263A048598}" {
+     TargetStorage "Vest/Vest_Taktika_preset_taktika_PKM.et/PKM3/Pouch_Mordor_PKM.et"
+     PrefabsToSpawn {
+      "{0EAB3482EA2FD181}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N13.et"
+     }
+    }
+    ItemsInitConfigurationItem "{65BD47263A9DA946}" {
+     TargetStorage "Back/Backpack_Wartech_BB102_OD.et"
+     PrefabsToSpawn {
+      "{0EAB3482EA2FD181}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N13.et" "{0EAB3482EA2FD181}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N13.et" "{0EAB3482EA2FD181}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N13.et" "{0EAB3482EA2FD181}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N13.et"
+     }
+    }
+    ItemsInitConfigurationItem "{65BD4726160632E7}" {
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{65BD47267DD74114}" {
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{65BD472655673615}" {
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{65BD472655AE1065}" {
+     TargetStorage ""
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{65BD656388727CA6}" {
+     TargetStorage "Vest/Vest_Taktika_preset_taktika_PKM.et/Radio/Pouch_UP111_radioClosed_FG.et"
+    }
+    ItemsInitConfigurationItem "{65BD6563E8B7F9F8}" {
+     TargetStorage ""
+     PrefabsToSpawn {
+     }
+    }
+   }
+  }
+ }
+}

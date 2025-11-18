@@ -1,0 +1,26 @@
+SCR_ChimeraCharacter : "{C24587D5FF9E994E}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Sabotage/drg_Role_RHS_AFRF_Sabotage_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{243948B23D90BECB}Prefabs/Items/Equipment/Binoculars/Binoculars_B8/Binoculars_B8.et"
+      }
+     }
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#DRG_Role-Saboteur"
+    Icon "{FAE464E236485906}UI/Icons/sabateur_v2_tl.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{8CA2F88AA3DC4DCE}Prefabs/Weapons/Rifles/SR3M/Rifle_SR3M_wd_rails_1p86.et"
+  }
+ }
+ coords 104.115 1 211.662
+}
