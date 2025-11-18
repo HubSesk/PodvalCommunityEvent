@@ -1,5 +1,5 @@
 [BaseContainerProps()]
-class GUB_ZoneControlBetweenFactionsLogic
+class GUB_ZoneControlLogic : GUB_ZoneControlLogicAbstract
 {
 	[Attribute(category: "Description", desc: "Preview name of zone")]
 	string m_sZonePreviewName;
@@ -45,7 +45,7 @@ class GUB_ZoneControlBetweenFactionsLogic
 
 	protected ref map<string, int> m_mFactionCounts; // счётчики по фракциям
 
-	void Init(PS_GameModeCoop mode)
+	override void Init(PS_GameModeCoop mode)
 	{
 		m_GameModeCoop = mode;
 		m_bCompleted = false;
@@ -56,17 +56,17 @@ class GUB_ZoneControlBetweenFactionsLogic
 
 		if (!m_Timer)
 		{
-			Debug.Error("GUB_ZoneControlBetweenFactionsLogic: Initialize GUB_ZoneControlTimer!");
+			Debug.Error("GUB_ZoneControlLogic: Initialize GUB_ZoneControlTimer!");
 			return;
 		}
 		if (!m_ZoneController)
 		{
-			Debug.Error("GUB_ZoneControlBetweenFactionsLogic: Initialize GUB_ZoneController!");
+			Debug.Error("GUB_ZoneControlLogic: Initialize GUB_ZoneController!");
 			return;
 		}
 		if (!m_FlagController)
 		{
-			Debug.Error("GUB_ZoneControlBetweenFactionsLogic: Initialize GUB_FlagController!");
+			Debug.Error("GUB_ZoneControlLogic: Initialize GUB_FlagController!");
 			return;
 		}
 
@@ -80,6 +80,21 @@ class GUB_ZoneControlBetweenFactionsLogic
 		GetGame().GetCallqueue().CallLater(EvaluateOnce, m_fCheckPeriod * 1000, true);
 	}
 
+	override string FillDescription()
+	{
+		string desc = "";
+		if (m_sZonePreviewName)
+			desc = desc + "Зона: " + "<color hex=\"0xFFE2A74F\">" + m_sZonePreviewName + "<color name>\n";
+		if (m_sPreviewMessageToDescription)
+			desc = desc + m_sPreviewMessageToDescription + "\n";
+		desc = desc + "Время захвата: " + "<color hex=\"0xFFE2A74F\">" + FormatTime(m_Timer.GetTimeToComplete()) + "<color name>\n";
+		
+		foreach (int i, GUB_ZoneControlConditionAbstract cnd : m_aConditions)
+			desc += cnd.FillDescription();
+
+		return desc;
+	}
+	
 	protected void EvaluateOnce()
 	{
 		m_ZoneController.EvaluateOnce();
@@ -182,13 +197,8 @@ class GUB_ZoneControlBetweenFactionsLogic
 			invoker.Invoke(null, msg);
 	}
 
-	int GetTimeToComplete()
-	{
-		return m_Timer.GetTimeToComplete();
-	}
-
 	// Чистка при удалении
-	void ~GUB_ZoneControlBetweenFactionsLogic()
+	void ~GUB_ZoneControlLogic()
 	{
 		GetGame().GetCallqueue().Remove(EvaluateOnce);
 		if (m_Timer)

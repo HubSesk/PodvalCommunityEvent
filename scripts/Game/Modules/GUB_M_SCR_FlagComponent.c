@@ -54,8 +54,6 @@ modded class SCR_FlagComponent
         matLS[3][2] = startLocalPose[2];
         slotManager.GetSlotByName("Flag").SetAdditiveTransformLS(matLS);
 
-        Print(string.Format("StartLocalPose: ", startLocalPose[0], startLocalPose[1], startLocalPose[2]));
-
         if (Replication.IsServer())
             Replication.BumpMe();
     }

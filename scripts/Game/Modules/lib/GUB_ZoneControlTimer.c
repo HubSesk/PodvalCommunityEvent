@@ -6,11 +6,24 @@ class GUB_ZoneControlTimer
 
 	protected float timeNow = 0;
 
+	// true, если пересек timeToComplete
 	bool AddTime(float time)
 	{
 		timeNow += time;
 		if (timeNow >= timeToComplete)
 			return true;
+		return false;
+	}
+
+	// true, если пересек 0
+	bool MinusTime(float time)
+	{
+		timeNow -= time;
+		if (timeNow <= 0)
+		{
+			timeNow = -1 * timeNow;
+			return true;
+		}
 		return false;
 	}
 
