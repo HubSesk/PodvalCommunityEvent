@@ -3,7 +3,8 @@ $grp GenericEntity : "{071B55C2A5E0346F}PrefabsEditable/Auto/Structures/Military
   components {
    SCR_FlagComponent "{5E3C95A1E1EE9681}" {
     m_aObjectiveNames {
-     "AFRF_4" "USAF_4"
+     "AFRF_4"
+     "USAF_4"
     }
     m_aFlagData {
      PS_FlagData "{669CD9D0C061CBF8}" {
@@ -23,7 +24,8 @@ $grp GenericEntity : "{071B55C2A5E0346F}PrefabsEditable/Auto/Structures/Military
   components {
    SCR_FlagComponent "{5E3C95A1E1EE9681}" {
     m_aObjectiveNames {
-     "AFRF_3" "USAF_3"
+     "AFRF_3"
+     "USAF_3"
     }
     m_aFlagData {
      PS_FlagData "{669CD9D0C061CBF8}" {
@@ -37,13 +39,14 @@ $grp GenericEntity : "{071B55C2A5E0346F}PrefabsEditable/Auto/Structures/Military
     m_sFactionKey "RHS_USAF"
    }
   }
-  coords 1965.788 71.118 959.319
+  coords 1969.437 64.124 961.93
  }
  Martikkalankyla_flag {
   components {
    SCR_FlagComponent "{5E3C95A1E1EE9681}" {
     m_aObjectiveNames {
-     "AFRF_2" "USAF_2"
+     "AFRF_2"
+     "USAF_2"
     }
     m_aFlagData {
      PS_FlagData "{669CD9D0C061CBF8}" {
@@ -57,7 +60,8 @@ $grp GenericEntity : "{071B55C2A5E0346F}PrefabsEditable/Auto/Structures/Military
     m_sFactionKey "RHS_USAF"
    }
   }
-  coords 1375.961 67.461 120.943
+  coords 1356.44 67.692 188.554
+  angles 40.7 41.549 0
  }
 }
 $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
@@ -74,7 +78,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_bShowForAnyFaction 1
  }
  Kantola_Marker {
-  coords 1965.737 71.22 959.327
+  coords 1969.475 64.159 961.974
   m_sImageSet "{10C0A9A305E8B3A4}UI/Imagesets/Tasks/Task_Icons.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 0 0 0 1
@@ -86,7 +90,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_bShowForAnyFaction 1
  }
  Martikkalankyla_Marker {
-  coords 1375.987 67.668 120.971
+  coords 1356.404 67.794 188.587
   m_sImageSet "{10C0A9A305E8B3A4}UI/Imagesets/Tasks/Task_Icons.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 0 0 0 1
@@ -97,25 +101,8 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_bVisibleForEmptyFaction 1
   m_bShowForAnyFaction 1
  }
- Turret_Marker_0 {
-  coords 1373.127 68.084 133.504
-  m_sImageSet "{1F7FC70A6314F7FD}UI/Textures/Editor/ContentBrowser/ContentBrowser_Vehicle_Turret.edds"
-  m_sImageSetGlow ""
-  m_MarkerColor 0 0 0 1
-  m_sQuadName "Icon_Task_Capture_UI"
-  m_fWorldSize 45
-  m_sDescription "Зенитка"
-  m_bUseWorldScale 0
-  m_aVisibleForFactions {
-   "RHS_USAF" ""
-  }
-  m_bVisibleForEmptyFaction 1
-  m_aHideOnGameModeStates {
-   3 0
-  }
- }
  Turret_Marker_1 {
-  coords 1389.584 68.233 118.029
+  coords 1379.83 65.353 122.936
   m_sImageSet "{1F7FC70A6314F7FD}UI/Textures/Editor/ContentBrowser/ContentBrowser_Vehicle_Turret.edds"
   m_sImageSetGlow ""
   m_MarkerColor 0 0 0 1
@@ -124,28 +111,13 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sDescription "Зенитка"
   m_bUseWorldScale 0
   m_aVisibleForFactions {
-   "RHS_USAF" ""
+   "RHS_USAF"
+   "RHS_AFRF"
   }
   m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
-   3 0
-  }
- }
- Turret_Marker_2 {
-  coords 1981.059 70.353 968.263
-  m_sImageSet "{1F7FC70A6314F7FD}UI/Textures/Editor/ContentBrowser/ContentBrowser_Vehicle_Turret.edds"
-  m_sImageSetGlow ""
-  m_MarkerColor 0 0 0 1
-  m_sQuadName "Icon_Task_Capture_UI"
-  m_fWorldSize 45
-  m_sDescription "Зенитка"
-  m_bUseWorldScale 0
-  m_aVisibleForFactions {
-   "RHS_USAF" ""
-  }
-  m_bVisibleForEmptyFaction 1
-  m_aHideOnGameModeStates {
-   3 0
+   SLOTSELECTION
+   PREGAME
   }
  }
  Turret_Marker_3 {
@@ -158,11 +130,13 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sDescription "Зенитка"
   m_bUseWorldScale 0
   m_aVisibleForFactions {
-   "RHS_USAF" ""
+   "RHS_USAF"
+   "RHS_AFRF"
   }
   m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
-   3 0
+   SLOTSELECTION
+   PREGAME
   }
  }
  Turret_Marker_5 {
@@ -175,28 +149,13 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sDescription "Зенитка"
   m_bUseWorldScale 0
   m_aVisibleForFactions {
-   "RHS_USAF" ""
+   "RHS_USAF"
+   "RHS_AFRF"
   }
   m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
-   3 0
-  }
- }
- Turret_Marker_4 {
-  coords 2336.353 73.469 1542.807
-  m_sImageSet "{1F7FC70A6314F7FD}UI/Textures/Editor/ContentBrowser/ContentBrowser_Vehicle_Turret.edds"
-  m_sImageSetGlow ""
-  m_MarkerColor 0 0 0 1
-  m_sQuadName "Icon_Task_Capture_UI"
-  m_fWorldSize 45
-  m_sDescription "Зенитка"
-  m_bUseWorldScale 0
-  m_aVisibleForFactions {
-   "RHS_USAF" ""
-  }
-  m_bVisibleForEmptyFaction 1
-  m_aHideOnGameModeStates {
-   3 0
+   SLOTSELECTION
+   PREGAME
   }
  }
 }

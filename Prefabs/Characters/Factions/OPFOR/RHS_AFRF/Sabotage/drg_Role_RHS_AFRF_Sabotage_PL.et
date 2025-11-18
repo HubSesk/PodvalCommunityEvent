@@ -1,0 +1,51 @@
+SCR_ChimeraCharacter : "{BC56CF0102B189DB}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Sabotage/drg_Role_RHS_AFRF_Sabotage_SL.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Back {
+     Prefab "{B31D9C2465D00D93}Prefabs/Items/Equipment/Radios/Radio_R107M_PL.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{1A1584785389F088}Prefabs/Characters/Vests/Vest_TV115/variants/drg_Vest_TV115_Rifleman_OD_radio.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{65BD4727FB1BE6D1}" {
+     TargetStorage "Vest/drg_Vest_TV115_Rifleman_OD_radio.et/sasarma1/Pouch_ArsArma_magouch_morphed_OD.et"
+    }
+    ItemsInitConfigurationItem "{65BD47263A048598}" {
+     TargetStorage "Vest/drg_Vest_TV115_Rifleman_OD_radio.et/sasarma2/Pouch_ArsArma_magouch_morphed_OD.et"
+    }
+    ItemsInitConfigurationItem "{65BD47263A9DA946}" {
+     TargetStorage "Vest/drg_Vest_TV115_Rifleman_OD_radio.et/pistol/Pouch_wartech_magpouch_mp103_OD.et"
+    }
+    ItemsInitConfigurationItem "{65BD4726160632E7}" {
+     TargetStorage "Vest/drg_Vest_TV115_Rifleman_OD_radio.et/triple/pouch_tv115_OD.et"
+    }
+    ItemsInitConfigurationItem "{65BD47267DD74114}" {
+     TargetStorage "Vest/drg_Vest_TV115_Rifleman_OD_radio.et/pistol2/Pouch_GP106_RGD_Pouch_OD.et"
+    }
+    ItemsInitConfigurationItem "{65BD472655673615}" {
+     TargetStorage "Vest/drg_Vest_TV115_Rifleman_OD_radio.et/grenade1/Pouch_GP106_RGD_Pouch_2_OD.et"
+    }
+    ItemsInitConfigurationItem "{65BD472655AE1065}" {
+     TargetStorage "Vest/drg_Vest_TV115_Rifleman_OD_radio.et/grenade2/Pouch_GP106_RGD_Pouch_2_OD.et"
+    }
+    ItemsInitConfigurationItem "{65BD656388727CA6}" {
+     TargetStorage "Vest/drg_Vest_TV115_Rifleman_OD_radio.et/radio/Pouch_UP111_radioClosed_OD.et"
+     PrefabsToSpawn {
+      "{A2DD1D2EEB52BFC0}Prefabs/Items/Equipment/Radios/Radio_R187P1_OLD_prv.et"
+     }
+    }
+    ItemsInitConfigurationItem "{65BD6563E8B7F9F8}" {
+     TargetStorage ""
+     PrefabsToSpawn {
+     }
+    }
+   }
+  }
+ }
+}
