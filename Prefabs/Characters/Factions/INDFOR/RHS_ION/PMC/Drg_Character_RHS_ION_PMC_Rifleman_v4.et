@@ -1,0 +1,25 @@
+SCR_ChimeraCharacter : "{DE2B5F2836908469}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Drg_Character_RHS_ION_PMC_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{7D12ED385A43B426}Prefabs/Characters/HeadGear/Hat_Beanie/variants/Hat_beanie_Black_ION2.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{9085DD1F36E4F876}Prefabs/Characters/Uniforms/Parka_Night/Night_parka_ion2.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{5CBBDE9220657F3B}Prefabs/Characters/Uniforms/ACU_pants/ACU_pants_MC.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6286835946BBC091}" {
+     TargetStorage "Pants/ACU_pants_MC.et"
+    }
+   }
+  }
+ }
+}

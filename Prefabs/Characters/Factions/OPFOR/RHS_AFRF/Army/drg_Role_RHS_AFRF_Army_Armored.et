@@ -1,0 +1,30 @@
+SCR_ChimeraCharacter : "{A0E6F572FD15B989}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_Unarmed.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{4BBB5FC184FB181F}Prefabs/Characters/HeadGear/Helmet_6B47/Helmet_6B47_6M2.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{B9821AF2F5D104E4}Prefabs/Characters/Vests/Vest_Ratnik_6B45/Vest_Ratnik_6B45.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{45DC01791EBE2349}Prefabs/Items/Equipment/Backpacks/backpack_Wartech_BB102/Backpack_Wartech_BB102_EMR.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{20CFD20350444288}Prefabs/Characters/Vests/Vest_Ratnik_6B45/Variants/Vest_Ratnik_6B45_rifleman.et"
+    }
+    LoadoutSlotInfo HandWear {
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6528F2E079033878}" {
+     TargetStorage "Jacket/Field_Jacket_VKPO.et"
+    }
+   }
+  }
+ }
+}

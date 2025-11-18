@@ -1,0 +1,55 @@
+SCR_ChimeraCharacter : "{F8BBBF08E5EC2802}Prefabs/Characters/Factions/BLUFOR/UK_Army/drg_Character_UK_Base.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot WristwatchSlot {
+       Prefab "{072E87366E193577}Prefabs/Items/Equipment/Watches/Watch_SandY184A_UK.et"
+      }
+     }
+    }
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Jacket {
+     Prefab "{C0FF8A6F0EE9ECB0}Prefabs/Characters/Uniforms/Smock_Combat_84Pat_DPM_01.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{20D80A4DAA97F6CF}Prefabs/Characters/Uniforms/Trousers_Combat_84Pat_DPM_01.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{3E907D6732445C0F}Prefabs/Characters/Footwear/Boots_DMS_UK_01.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6574E31B0836F9BD}" {
+     TargetStorage "Pants/Trousers_Combat_84Pat_DPM_01.et"
+     PrefabsToSpawn {
+      "{E67E7932C86FBB96}Prefabs/Items/Medicine/FieldDressing_UK_01.et" "{E67E7932C86FBB96}Prefabs/Items/Medicine/FieldDressing_UK_01.et" "{E67E7932C86FBB96}Prefabs/Items/Medicine/FieldDressing_UK_01.et" "{E67E7932C86FBB96}Prefabs/Items/Medicine/FieldDressing_UK_01.et" "{842E93279EA18647}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_UK_01.et" "{842E93279EA18647}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_UK_01.et" "{842E93279EA18647}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_UK_01.et" "{842E93279EA18647}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_UK_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6574E31B084D2289}" {
+     TargetStorage "Pants/Trousers_Combat_84Pat_DPM_01.et"
+     PrefabsToSpawn {
+      "{379F10C00559D45F}Prefabs/Items/Equipment/Maps/PaperMap_01_folded_UK.et" "{C8B6565467AA8CB7}Prefabs/Items/Equipment/Compass/Compass_Baseplate.et" "{348AFA29B6D6BE0A}Prefabs/Items/Equipment/Accessories/ETool_ALICE/ETool_ALICE_FreeRoamBuilding_Gadget_UK_OD.et" "{4A0C772C62E04F0C}Prefabs/Weapons/Attachments/Bayonets/Bayonet_L3A1_L85.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6574E31B088AADE6}" {
+     TargetStorage "Jacket/Smock_Combat_84Pat_DPM_01.et"
+     TargetPurpose 64
+     PrefabsToSpawn {
+      "{3A421547BC29F679}Prefabs/Items/Equipment/Flashlights/Flashlight_MX991/Flashlight_MX991.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6574E31835EFCC06}" {
+     TargetStorage "Jacket/Smock_Combat_84Pat_DPM_01.et"
+    }
+   }
+  }
+ }
+}

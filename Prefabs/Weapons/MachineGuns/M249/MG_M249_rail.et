@@ -1,0 +1,28 @@
+GenericEntity : "{D2B48DEBEF38D7D7}Prefabs/Weapons/MachineGuns/M249/MG_M249.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{652EF0E882778307}" {
+     AttachmentSlot InventoryStorageSlot "{652EF0E889FFB231}" {
+      PivotID "w_topcover"
+      Offset 0 -0.0109 -0.1032
+      Prefab "{CCA2C7A662439781}Prefabs/Weapons/Attachments/Rails/b18/b18.et"
+      InspectionWidgetOffset -0.025 0.1196 0
+     }
+    }
+    AttachmentSlotComponent "{652EF0E9CCB9F50B}" {
+     AttachmentSlot InventoryStorageSlot Optic {
+      PivotID "w_topcover"
+      Offset 0 0.0155 -0.1226
+      Prefab "{30B41A4172CBD098}Prefabs/Weapons/Attachments/Optics/ta31rco/Optic_TA31RCO_ARD_army.et"
+      InspectionWidgetOffset 0 0.1381 0
+     }
+     AttachmentType AttachmentOpticsRIS1913 "{652EF0EA96896AC7}" {
+     }
+     ShowInInspection 1
+    }
+   }
+  }
+ }
+}

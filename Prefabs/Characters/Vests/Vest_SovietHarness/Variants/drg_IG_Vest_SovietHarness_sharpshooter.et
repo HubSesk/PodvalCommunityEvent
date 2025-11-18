@@ -1,0 +1,38 @@
+GenericEntity : "{08155E701A94961F}Prefabs/Characters/Vests/Vest_SovietHarness/Vest_SovietHarness_assembled_base.et" {
+ ID "50D8C49B3558F152"
+ components {
+  ClothNodeStorageComponent "{5CE0BD449244C3E1}" {
+   Attributes SCR_ItemAttributeCollection "{5510AD9F02223F36}" {
+    ItemDisplayName UIInfo "{5510AD9F02223FEC}" {
+     Name "#AR-LBS_Harness_Sharpshooter_Name"
+     Description "#AR-LBS_Harness_Sharpshooter_Description"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{5510AD9F02223F81}" {
+    }
+   }
+   UseCapacityCoefficient 0
+   MaxCumulativeVolume 800
+   MaxItemSize 10 10 10
+  }
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo GrenadePouch {
+     Prefab "{C5A8B378E38AA4FF}Prefabs/Characters/Vests/Vest_SovietHarness/Vest_SovietHarness_GrenadePouch.et"
+     DeflatedOffset -0.1287 0.0733 0.1188
+     DeflatedAngles -10.2483 -35 0
+    }
+    LoadoutSlotInfo MagPouch_6Sh46 {
+     Offset 0.2739 -1.075 -0.0648
+     Angles 0.2237 51.972 -2.9917
+     Prefab "{A01218E4F8EE0DE7}Prefabs/Items/Equipment/Accessories/Pouch_Soviet_10rnd_SVD/Pouch_Soviet_10rnd_SVD.et"
+     DeflatedOffset 0.2446 -1.03 -0.0729
+     DeflatedAngles -3.2228 52.1523 -2.9964
+    }
+   }
+   WornModel "{1E1FCA5F246C96FC}Assets/Characters/Vests/Vest_SovietHarness/Vest_SovietHarness_Belt.xob"
+   ItemModel "{ACAE8AB157C7B9E6}Assets/Characters/Vests/Vest_SovietHarness/Vest_SovietHarness_Belt_item.xob"
+   DepthLeft 0.03
+   DepthRight 0.03
+  }
+ }
+}

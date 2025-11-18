@@ -1,0 +1,17 @@
+GenericEntity : "{90C1C4B1C90C55D1}Prefabs/Weapons/MachineGuns/M60/MG_M60D_base.et" {
+ ID "0000000000000001"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    MuzzleComponent "{50F64C4591CD7AA6}" {
+     FireModes {
+      BaseFireMode "{B80A64F4A8EF8333}" {
+       RoundsPerMinute 1200
+      }
+     }
+     MagazineTemplate "{6069E1EBC02C630D}Prefabs/Weapons/Magazines/drg_Box_762x51_M60_5000rnd_Tracer.et"
+    }
+   }
+  }
+ }
+}

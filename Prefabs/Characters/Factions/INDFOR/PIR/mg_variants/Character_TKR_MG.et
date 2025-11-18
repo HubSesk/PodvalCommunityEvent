@@ -1,0 +1,45 @@
+SCR_ChimeraCharacter : "{DED726BD40B7E054}Prefabs/Characters/Factions/INDFOR/TKR/Rifleman_variants/Character_TKR_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#DRG_TKR_Roles_MachineGunner"
+    Icon "{EF1F445746A3391A}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_MachineGunner.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{A89BC9D55FFB4CD8}Prefabs/Weapons/MachineGuns/PKM/MG_PKM.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Vest {
+     Prefab "{15067AD09803580D}Prefabs/Characters/Vests/Vest_SovietHarness/Variants/Vest_SovietHarness_MG.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{61D2C058EFEC64A8}" {
+     PrefabsToSpawn + {
+      "{37F6698B9513B792}Prefabs/Items/Equipment/Radios/Radio_R148_FIA_rprv_.et"
+     }
+    }
+    ItemsInitConfigurationItem "{61D2C058E2831D3F}" {
+     TargetStorage "Vest/Vest_SovietHarness_MG.et"
+    }
+    ItemsInitConfigurationItem "{61D2C05790C7AB1A}" {
+     TargetStorage "Back/Backpack_Kolobok.et"
+     PrefabsToSpawn {
+      "{E5E9C5897CF47F44}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_4Ball_1Tracer.et" "{E5E9C5897CF47F44}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_4Ball_1Tracer.et" "{E5E9C5897CF47F44}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_4Ball_1Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{61D2C0578E2FCAC6}" {
+     TargetStorage "Vest/Vest_SovietHarness_MG.et/GrenadePouch/Pouch_Soviet_100rnd_PKM.et"
+     PrefabsToSpawn {
+      "{E5E9C5897CF47F44}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_4Ball_1Tracer.et"
+     }
+    }
+   }
+  }
+ }
+}

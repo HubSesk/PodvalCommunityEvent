@@ -1,0 +1,79 @@
+SCR_ChimeraCharacter : "{64939E91A79CC168}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Drg_Character_RHS_ION_PMC_LAT_v2.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{03810BEF182ADA0B}Prefabs/Items/Equipment/Binoculars/Rangefinder_Vector21.et"
+      }
+     }
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#DRG_ION_Sniper"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{1EF6DC35952F2AFD}Prefabs/Weapons/Rifles/L1A1_SLR/drg_Rifle_L1A1_SLR_Plastic_SUIT_snip.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponTemplate "{67812A5D844880A5}Prefabs/Weapons/Rifles/MP5/Rifle_MP5.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Jacket {
+     Prefab "{6F87B8EF87A5D10A}Prefabs/Characters/Uniforms/ACU_t-shirt/drg_ACU_t-shirt_grey_OD.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{C749B2C1C2CF3863}Prefabs/Characters/Uniforms/Civi_Pants/Civi_Jeans_Blue_Ripped.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{24F6795DC36C79D7}Prefabs/Characters/Footwear/Boots_Luma/Footwear_Luma.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{DF886C6B22F49827}Prefabs/Items/Equipment/Backpacks/backpack_511_rush12/Backpack_511_rush12_black.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab ""
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6286835946BBC091}" {
+     TargetStorage "Pants/Civi_Jeans_Blue_Ripped.et"
+    }
+    ItemsInitConfigurationItem "{6674AB8213BE28D6}" {
+     TargetStorage "Jacket/drg_ACU_t-shirt_grey_OD.et"
+    }
+    ItemsInitConfigurationItem "{6674AB81F0AC56CE}" {
+     TargetStorage "Back/Backpack_511_rush12_black.et"
+     PrefabsToSpawn {
+      "{68CFC7B6DE0CC75F}Prefabs/Weapons/Magazines/Magazine_762x51_FAL_Commonwealth_20rnd_Ball.et" "{68CFC7B6DE0CC75F}Prefabs/Weapons/Magazines/Magazine_762x51_FAL_Commonwealth_20rnd_Ball.et" "{68CFC7B6DE0CC75F}Prefabs/Weapons/Magazines/Magazine_762x51_FAL_Commonwealth_20rnd_Ball.et" "{68CFC7B6DE0CC75F}Prefabs/Weapons/Magazines/Magazine_762x51_FAL_Commonwealth_20rnd_Ball.et" "{68CFC7B6DE0CC75F}Prefabs/Weapons/Magazines/Magazine_762x51_FAL_Commonwealth_20rnd_Ball.et" "{68CFC7B6DE0CC75F}Prefabs/Weapons/Magazines/Magazine_762x51_FAL_Commonwealth_20rnd_Ball.et" "{68CFC7B6DE0CC75F}Prefabs/Weapons/Magazines/Magazine_762x51_FAL_Commonwealth_20rnd_Ball.et" "{68CFC7B6DE0CC75F}Prefabs/Weapons/Magazines/Magazine_762x51_FAL_Commonwealth_20rnd_Ball.et" "{68CFC7B6DE0CC75F}Prefabs/Weapons/Magazines/Magazine_762x51_FAL_Commonwealth_20rnd_Ball.et" "{68CFC7B6DE0CC75F}Prefabs/Weapons/Magazines/Magazine_762x51_FAL_Commonwealth_20rnd_Ball.et" "{68CFC7B6DE0CC75F}Prefabs/Weapons/Magazines/Magazine_762x51_FAL_Commonwealth_20rnd_Ball.et" "{68CFC7B6DE0CC75F}Prefabs/Weapons/Magazines/Magazine_762x51_FAL_Commonwealth_20rnd_Ball.et" "{68CFC7B6DE0CC75F}Prefabs/Weapons/Magazines/Magazine_762x51_FAL_Commonwealth_20rnd_Ball.et" "{68CFC7B6DE0CC75F}Prefabs/Weapons/Magazines/Magazine_762x51_FAL_Commonwealth_20rnd_Ball.et" "{046AA0F20A54842A}Prefabs/Weapons/Magazines/Magazine_9x19_MP5_30rnd_Ball.et" "{046AA0F20A54842A}Prefabs/Weapons/Magazines/Magazine_9x19_MP5_30rnd_Ball.et" "{046AA0F20A54842A}Prefabs/Weapons/Magazines/Magazine_9x19_MP5_30rnd_Ball.et" "{046AA0F20A54842A}Prefabs/Weapons/Magazines/Magazine_9x19_MP5_30rnd_Ball.et" "{046AA0F20A54842A}Prefabs/Weapons/Magazines/Magazine_9x19_MP5_30rnd_Ball.et" "{046AA0F20A54842A}Prefabs/Weapons/Magazines/Magazine_9x19_MP5_30rnd_Ball.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6674AB891B478E9F}" {
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{6674AB89183E1F62}" {
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{6674AB891E1F2396}" {
+     TargetStorage "Back/Backpack_511_rush12_black.et"
+     PrefabsToSpawn {
+      "{0AD3E2DA8AC47BAF}Prefabs/Items/Equipment/RangeCard/RangeCard_L1A1.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6674AB8975521805}" {
+     TargetStorage "Back/Backpack_511_rush12_black.et"
+    }
+   }
+  }
+ }
+}

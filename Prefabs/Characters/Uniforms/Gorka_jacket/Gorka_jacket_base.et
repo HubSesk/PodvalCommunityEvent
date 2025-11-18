@@ -1,0 +1,32 @@
+GameEntity : "{9F546CCA2582D16F}Prefabs/Characters/Uniforms/Jacket_M88.et" {
+ ID "5104869D194C6243"
+ components {
+  MeshObject "{5104869D194C6262}" {
+   Object "{44FE3ED4A125A199}Assets/Characters/Uniforms/Gorka_jacket/gorka_jacket_item.xob"
+  }
+  SCR_UniversalInventoryStorageComponent "{5222CB01D5B9A306}" {
+   Attributes SCR_ItemAttributeCollection "{5222CB01245CDF32}" {
+    ItemDisplayName UIInfo "{5222CB0109A04AB2}" {
+     Name "Gorka jacket"
+     Description ""
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{555292467DA11B7C}" {
+      PreviewWornModel 1
+     }
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5104869D194C627A}" {
+   Slots {
+    LoadoutSlotInfo DummyBelt {
+     Enabled 0
+    }
+   }
+   WornModel "{00F3A2EA46322888}Assets/Characters/Uniforms/Gorka_jacket/gorka_jacket.xob"
+   ItemModel "{44FE3ED4A125A199}Assets/Characters/Uniforms/Gorka_jacket/gorka_jacket_item.xob"
+   DeflatedModel "{00F3A2EA46322888}Assets/Characters/Uniforms/Gorka_jacket/gorka_jacket.xob"
+  }
+ }
+ coords 179.753 50.99 2440.159
+}

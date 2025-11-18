@@ -1,0 +1,54 @@
+SCR_ChimeraCharacter : "{2442943014BAD4CF}Prefabs/Characters/Factions/INDFOR/RHS_ION/Drg_Character_RHS_ION_base.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot WristwatchSlot {
+       Prefab "{7C53E6DE2E4BD8CB}Prefabs/Items/Equipment/Watches/Watch_GarminTactixBravo.et"
+      }
+     }
+    }
+   }
+  }
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_bIsPlayable 1
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#DRG_ION_Rifleman"
+    Icon "{702AB9F4CD4CF5A2}UI/Icons/terrorist.edds"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{40ED520CE1154848}Prefabs/Characters/HeadGear/Helmet_LShZ/Balaclava_LShZ_black.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{E95480D14AEE3EF4}Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_Rolled_mcblack.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{A86E5BCD319975E8}Prefabs/Characters/Uniforms/Crye_Pants/crye_pants_mcblack.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{057E63449502EBCA}Prefabs/Characters/Footwear/Boots_Salomon/Footwear_Salomon.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{ABB779CFC2E11E89}Prefabs/Characters/Handwear/Gloves_MechanixMpact/Gloves_mpack_Covert.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6286835946BBC091}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Crye_Pants/crye_pants_mcblack.et"
+     PrefabsToSpawn {
+      "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/PaperMap_01_folded.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
+     }
+    }
+   }
+  }
+ }
+}

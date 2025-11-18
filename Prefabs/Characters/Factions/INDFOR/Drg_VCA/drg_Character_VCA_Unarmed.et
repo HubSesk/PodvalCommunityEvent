@@ -1,0 +1,67 @@
+SCR_ChimeraCharacter : "{854C04F0EA2129CC}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Unarmed.et" {
+ ID "520EC961A090B1EE"
+ components {
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_bIsPlayable 1
+  }
+  SCR_CharacterFactionAffiliationComponent "{555C98D1CD949F3E}" {
+   "faction affiliation" "Drg_VCA"
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    m_sFaction "Drg_VCA"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
+   AttachType InventoryStorageSlot "{9113A68B4D97E2E6}" {
+   }
+   WeaponTemplate "{9237E1A3F22CF6ED}prefabs/machete/machete_wood.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{6B1886AD7C324E3D}Prefabs/Characters/HeadGear/VietCong_Pitch/Viet_helmet.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{2E673D7681977A8B}Prefabs/Characters/Uniforms/Jacket_M88_vietnam.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{83E9A61C52A99AB4}Prefabs/Characters/Uniforms/Pants_M88_vietnam.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{A0E7B5B279B8C343}Prefabs/Characters/Footwear/Chanclas01.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{AF5581B91C8306E5}Prefabs/Items/Equipment/Backpacks/Backpack_Kolobok_vietnam.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{BB72D762367B7884}Prefabs/Characters/Vests/Vest_Type56/drg_Vest_Type56_TKA.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{5D7CC173FAA7C00E}" {
+     TargetStorage "Pants/Pants_M88_vietnam.et"
+     PrefabsToSpawn {
+      "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et" "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et" "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et" "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
+     }
+    }
+    ItemsInitConfigurationItem "{5D7CC173FAA7C00C}" {
+     TargetStorage "Pants/Pants_M88_vietnam.et"
+     TargetPurpose 1
+     PrefabsToSpawn {
+      "{7CEF68E2BC68CE71}Prefabs/Items/Equipment/Compass/Compass_Adrianov.et" "{F849217AB3BA88BE}Prefabs/Items/Equipment/Maps/PaperMap_01_folded_USSR.et" "{8A89D3F70713E55B}Prefabs/Items/Equipment/Accessories/ETool_MPL50/ETool_MPL50.et" "{98C79F5FAE12F9B6}Prefabs/Weapons/Attachments/Bayonets/Bayonet_6Kh4.et"
+     }
+    }
+    ItemsInitConfigurationItem "{65D68EE3434281D5}" {
+     TargetStorage "Jacket/Jacket_M88_vietnam.et"
+     TargetPurpose 64
+     PrefabsToSpawn {
+      "{3A421547BC29F679}Prefabs/Items/Equipment/Flashlights/Flashlight_MX991/Flashlight_MX991.et"
+     }
+    }
+   }
+  }
+ }
+}

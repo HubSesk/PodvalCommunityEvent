@@ -1,0 +1,50 @@
+SCR_ChimeraCharacter : "{BF3313429A87BF14}Prefabs/Characters/Factions/INDFOR/PIR/Rifleman_variants/Character_TKR_Rifleman_2.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#DRG_TKR_Roles_AT"
+    Icon "{00B30C29FAF85E1C}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_AntiTank.edds"
+   }
+   m_VariantData SCR_EditableEntityVariantData "{6552A4388FD77D0C}" {
+    m_bRandomizeDefaultVariant 0
+    m_aVariants {
+     SCR_EditableEntityVariant "{6552A4388D521087}" {
+      m_sVariantPrefab "{F845ECF411147062}Prefabs/Characters/Factions/INDFOR/PIR/AT_variants/Character_TKR_AT_1.et"
+     }
+     SCR_EditableEntityVariant "{6552A4388D67EC55}" {
+      m_sVariantPrefab "{9411D814ADD0FF4C}Prefabs/Characters/Factions/INDFOR/PIR/AT_variants/Character_TKR_AT_2.et"
+     }
+     SCR_EditableEntityVariant "{6552A4388D8FED8A}" {
+      m_sVariantPrefab "{5A988A6419A39A3C}Prefabs/Characters/Factions/INDFOR/PIR/AT_variants/Character_TKR_AT3.et"
+     }
+    }
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponTemplate "{7A82FE978603F137}Prefabs/Weapons/Launchers/RPG7/Launcher_RPG7.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Back {
+     Prefab "{6A39B5843B3F36DA}Prefabs/Items/Equipment/Backpacks/Backpack_RPG_Assistant.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{61D2C05790C7AB1A}" {
+     TargetStorage "Vest/Vest_Lifchik.et"
+     PrefabsToSpawn +{
+     }
+    }
+    ItemsInitConfigurationItem "{61D2C0578E2FCAC6}" {
+     TargetStorage "Back/Backpack_RPG_Assistant.et"
+     PrefabsToSpawn {
+      "{32E12D322E107F1C}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VM.et" "{32E12D322E107F1C}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VM.et" "{32E12D322E107F1C}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VM.et"
+     }
+    }
+   }
+  }
+ }
+}

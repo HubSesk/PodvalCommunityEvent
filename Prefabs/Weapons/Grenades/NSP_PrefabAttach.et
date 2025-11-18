@@ -1,0 +1,37 @@
+GenericEntity : "{4CC2C69DE1AEF103}Prefabs/Props/Core/Destructible_Props_Base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{86F1A44DABF20904}Assets/Weapons/Grenades/NSP/nsp.xob"
+  }
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   Mass 20
+   LinearDamping 0.3
+   AngularDamping 0.3
+   ResponseIndex "TinyDestructible"
+   ModelGeometry 1
+   Static 1
+  }
+  SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" : "{76DA308CC9E2AB84}Prefabs/Props/Core/DestructionMultiPhase_Base.ct" {
+   Enabled 1
+   m_fBaseHealth 500
+   m_fForceToDamageScale 300
+   m_fDamageThresholdMaximum 30000
+   m_DestroySpawnObjects {
+    SCR_DebrisSpawnable "{64E11DB92F11D967}" {
+     m_ModelPrefabs {
+      "{5294DDAE3EF9AD99}Assets/Props/Infrastructure/RoadBlock_01/Dst/RoadBlock_01_dst_02.xob" "{CB8A6437231E9C09}Assets/Props/Infrastructure/RoadBlock_01/Dst/RoadBlock_01_dst_01.xob"
+     }
+     m_fRandomVelocityLinear 1.5
+     m_fRandomVelocityAngular 360
+     m_eMaterialSoundType METAL_POLE
+    }
+   }
+   m_eMaterialSoundType BREAK_METAL
+  }
+  RplComponent "{5624A88DC2D9928D}" {
+   Enabled 1
+  }
+ }
+ scale 1.09
+}

@@ -1,0 +1,24 @@
+GenericEntity : "{C910458D7E66D662}Prefabs/Props/Military/AmmoBoxes/drg_AmmoBox_Explosive.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  SCR_FilteredInventoryStorageComponent "{5476A2F100DF4EFF}" {
+   Attributes SCR_ItemAttributeCollection "{5476CDB2EAD8225E}" {
+    ItemDisplayName SCR_InventoryUIInfo "{64F707D10A95B574}" {
+     Name "Взрывчатка"
+    }
+   }
+   MultiSlots {
+    MultiSlotConfiguration "{64F707D11FA7A94D}" {
+     SlotTemplate InventoryStorageSlot "{64DCC2F489C88F5C}" {
+      Prefab "{97064F8597F2D7BF}Prefabs/Weapons/Explosives/DemoBlock_TSh400g/DemoBlock_TSh400g.et"
+     }
+    }
+    MultiSlotConfiguration "{6502C64ED28D7103}" {
+     SlotTemplate InventoryStorageSlot "{64DCC2F489C88F5C}" {
+      Prefab "{97064F8597F2D7BF}Prefabs/Weapons/Explosives/DemoBlock_TSh400g/DemoBlock_TSh400g.et"
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,22 @@
+SCR_ChimeraCharacter : "{67ACD9EE1E9B5CB7}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Drg_Character_RHS_ION_PMC_Rifleman_AK_v1.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{3C57FE67CD5AB349}Prefabs/Weapons/Rifles/AK200/variants/Rifle_AK205_XPS_perst.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Pants {
+     Prefab "{C749B2C1C2CF3863}Prefabs/Characters/Uniforms/Civi_Pants/Civi_Jeans_Blue_Ripped.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6286835946BBC091}" {
+     TargetStorage "Pants/Civi_Jeans_Blue_Ripped.et"
+    }
+   }
+  }
+ }
+}

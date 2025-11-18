@@ -1,0 +1,24 @@
+GenericEntity : "{66AAEDA477051298}Prefabs/Weapons/Rifles/M27IAR/Rifle_M27IAR.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{5CC8E73BB698D287}" {
+     AttachmentSlot InventoryStorageSlot optics {
+      Offset 0 0.0031 -0.0134
+      Prefab "{50475BC9E6A7ABD0}Prefabs/Weapons/Attachments/Optics/ta31rco/Optic_TA31RCO_army.et"
+     }
+    }
+    AttachmentSlotComponent "{5CF88C80AF78DA73}" {
+     AttachmentSlot InventoryStorageSlot PicattinyRailTop {
+      Offset -0.0019 0.0928 0.1196
+      Prefab "{239CEF0C9AB5556E}Prefabs/Weapons/Attachments/Underbarrel/UGL_RHS_M203.et"
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     MagazineTemplate "{DD5358193169908B}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1.et"
+    }
+   }
+  }
+ }
+}

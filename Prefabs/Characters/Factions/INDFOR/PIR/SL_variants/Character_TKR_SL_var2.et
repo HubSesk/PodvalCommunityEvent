@@ -1,0 +1,74 @@
+SCR_ChimeraCharacter : "{1A5EC0FCCEEA79B9}Prefabs/Characters/Factions/INDFOR/TKR/Character_TKR_SL.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{243948B23D90BECB}Prefabs/Items/Equipment/Binoculars/Binoculars_B8/Binoculars_B8.et"
+      }
+     }
+    }
+   }
+  }
+  FactionAffiliationComponent "{60745A466E15E001}" {
+   "faction affiliation" "Drg_PIR"
+  }
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_bIsPlayable 1
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{939F44495E6BF876}Prefabs/Weapons/Assault/AKM/Rifle_AKMN_1P29.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{906B8F466238E651}Prefabs/Characters/HeadGear/Hat_Patrol_US_01/Hat_Patrol_CDF.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{0518C70D4EFE075A}Prefabs/Characters/Uniforms/T_Shirts/Velocity_Shirt/velocity_shirt_brown.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{922F62F22B253571}Prefabs/Characters/Uniforms/BDU_Pants/BDU_PANTS_M81.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{9713FE6DDCC9510D}Prefabs/Characters/Vests/Vest_Lifchik/Vest_Lifchik.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6074FD81D85F4351}" {
+     TargetStorage "Pants/BDU_PANTS_M81.et"
+    }
+    ItemsInitConfigurationItem "{6074FD81A7B67B88}" {
+     TargetStorage "Vest/Vest_Lifchik.et"
+    }
+    ItemsInitConfigurationItem "{60FB76D98B3CD6FB}" {
+     TargetStorage "Pants/BDU_PANTS_M81.et"
+    }
+    ItemsInitConfigurationItem "{63192993053E337D}" {
+     TargetStorage "Vest/Vest_Lifchik.et"
+     PrefabsToSpawn {
+      "{D8125552E67B5C76}Prefabs/Weapons/Attachments/Magazines/AKM/Magazine_AK_762x39_6L10_30rnd.et" "{D8125552E67B5C76}Prefabs/Weapons/Attachments/Magazines/AKM/Magazine_AK_762x39_6L10_30rnd.et" "{D8125552E67B5C76}Prefabs/Weapons/Attachments/Magazines/AKM/Magazine_AK_762x39_6L10_30rnd.et" "{D8125552E67B5C76}Prefabs/Weapons/Attachments/Magazines/AKM/Magazine_AK_762x39_6L10_30rnd.et" "{D8125552E67B5C76}Prefabs/Weapons/Attachments/Magazines/AKM/Magazine_AK_762x39_6L10_30rnd.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+     }
+    }
+    ItemsInitConfigurationItem "{631929928565B5AA}" {
+     TargetStorage "Vest/Vest_Lifchik.et"
+    }
+    ItemsInitConfigurationItem "{61D2C058EFEC64A8}" {
+     TargetStorage "Pants/BDU_PANTS_M81.et"
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{61D2C058E2831D3F}" {
+     TargetStorage "Prefabs/Characters/Uniforms/BDU_Pants/BDU_PANTS_M81.et"
+    }
+    ItemsInitConfigurationItem "{61D2C0578E2FCAC6}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_Lifchik/Vest_Lifchik.et"
+    }
+   }
+  }
+ }
+}

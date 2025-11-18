@@ -1,0 +1,30 @@
+GenericEntity : "{9B5FF7EECAD376FA}Prefabs/Weapons/Warheads/Warhead_Base.et" {
+ ID "9D9BE68EA2672F76"
+ components {
+  SignalsManagerComponent "{C572A75F88B55309}" {
+   Enabled 1
+  }
+  SoundComponent "{D092A75ECEFAE456}" {
+   Enabled 1
+   Filenames {
+    "{1C6C28C59C6AD4ED}Sounds/Vehicles/Tucha/Weapons_Tucha_Explosion.acp"
+   }
+  }
+  BaseTriggerComponent "{55129E81CBAA1390}" {
+   PROJECTILE_EFFECTS {
+    ExplosionDamageContainer "{652A90156E0E6E87}" {
+     ChargeWeight 1
+    }
+    SpawnDecalEffect "{652A90156E0E6E8B}" {
+     Enabled 0
+     Scale 0.2
+     Material "{2A3A7B73C1EF6936}Assets/Decals/Logistics/Impact/Data/Decal_Logistics_RPG_01.emat"
+    }
+   }
+  }
+  HitEffectComponent "{9D9BE68D6F65A10F}" {
+   ParticleEffect "{BFE1ECAF78A2DC13}Particles/Weapons/Smoke_GDM.ptc"
+   SoundStopOffset 500
+  }
+ }
+}

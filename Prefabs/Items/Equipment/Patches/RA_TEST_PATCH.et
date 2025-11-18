@@ -1,0 +1,36 @@
+GameEntity : "{9BC2C188BC094A24}Prefabs/Items/Equipment/Patches/RedArmy_Patch.et" {
+ ID "5DB09136945FC6DB"
+ components {
+  InventoryItemComponent "{5DB09136B1C985CE}" {
+   Attributes SCR_ItemAttributeCollection "{5DB09136B1C985C1}" {
+    ItemAnimationAttributes ItemAnimationAttributes "{658F57303DB15D11}" {
+     AnimationAttachments {
+      AnimationAttachmentInfo "{658F5730918CA543}" {
+       AnimGraph "{83675D0B0AB1B2C3}Assets/Items/Equipment/workspaces/paper_map.agr"
+       AnimInstance "{56794534F6B8C3D7}Assets/Items/Equipment/workspaces/player_map.asi"
+       BindingName "Gadget"
+      }
+     }
+     HandAdditiveRotation 90 180 0
+     HandAdditiveTranslation -0.035 0.01 0
+     AllowInspection 1
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{5DB09136B1C985C3}" {
+      IsDynamicObject 1
+     }
+    }
+   }
+  }
+  SCR_GadgetComponent "{658F5737D9A61AD1}" {
+   Enabled 0
+   m_eAnimVariable FLASHLIGHT_SOVIET_01
+  }
+  SCR_MineWeaponComponent "{658F5731BB91745C}" {
+   WeaponType SmokeGrenade
+   WeaponSlotType "throwable"
+  }
+ }
+ coords 116.597 2.076 208.62
+ angleX 90
+}

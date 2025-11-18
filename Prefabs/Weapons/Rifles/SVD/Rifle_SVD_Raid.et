@@ -1,0 +1,65 @@
+GenericEntity : "{3EB02CDAD5F23C82}Prefabs/Weapons/Rifles/SVD/Rifle_SVD.et" {
+ ID "0000000000000001"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{652A716D14A689D5}" {
+     AttachmentSlot InventoryStorageSlot RIS_Slot {
+      PivotID "eye"
+      Offset -0.0004 -0.0087 0.1555
+      ChildPivotID "snap_weapon"
+      Prefab "{6DC0EE135013FC47}Prefabs/Weapons/Attachments/Optics/ts30a2/optic_ts30a2_base.et"
+      InspectionWidgetOffset 0 0.1208 0
+     }
+     AttachmentType AttachmentOpticsRIS1913 "{652A716D14A689D3}" {
+     }
+     ShowInInspection 1
+    }
+    AttachmentSlotComponent "{652A716D14A689E7}" {
+     AttachmentSlot InventoryStorageSlot optics {
+      PivotID "slot_optic"
+      Offset 0 0.0984 0.024
+      ChildPivotID ""
+      InspectionWidgetOffset -0.025 0.1196 0
+     }
+     AttachmentType AttachmentUnderBarrelM203 "{652A716D14A689E8}" {
+     }
+     ShowInInspection 0
+    }
+    AttachmentSlotComponent "{65C29CD8DE868FFD}" {
+     AttachmentSlot InventoryStorageSlot Rail2 {
+      Offset 0 0.09845 0.0829
+      Prefab "{7279721D20AD7855}Prefabs/Weapons/Attachments/Rails/b18/drg_mlokrail.et"
+     }
+     AttachmentType AttachmentOpticsDovetailAK "{65C29CD90CD772C3}" {
+     }
+    }
+    AttachmentSlotComponent "{65C29CD9772CDA12}" {
+     AttachmentSlot InventoryStorageSlot Rail3 {
+      Offset 0 0.0983 0.1432
+      Prefab "{7279721D20AD7855}Prefabs/Weapons/Attachments/Rails/b18/drg_mlokrail.et"
+     }
+     AttachmentType AttachmentOpticsDovetailAK "{65C29CD941024097}" {
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     components {
+      AttachmentSlotComponent "{6292CE5A35393A83}" {
+       AttachmentSlot InventoryStorageSlot Muzzle {
+        Prefab "{18B5482585A88240}Prefabs/Weapons/Attachments/Muzzle/Supressor_TGPV/Supressor_TGPV2.et"
+       }
+      }
+     }
+    }
+    AttachmentSlotComponent "{65C2B15156CEC057}" {
+     AttachmentSlot InventoryStorageSlot Rail3 {
+      Offset 0 0.0983 0.0228
+      Prefab "{7279721D20AD7855}Prefabs/Weapons/Attachments/Rails/b18/drg_mlokrail.et"
+     }
+     AttachmentType AttachmentOpticsDovetailAK "{65C2B151A70963BD}" {
+     }
+    }
+   }
+  }
+ }
+}

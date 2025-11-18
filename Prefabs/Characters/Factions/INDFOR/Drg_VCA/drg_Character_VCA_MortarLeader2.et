@@ -1,0 +1,20 @@
+SCR_ChimeraCharacter : "{8085D2DE2CC67C8E}Prefabs/Characters/Factions/INDFOR/Drg_VCA/drg_Character_VCA_SR.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#DRG-Role-Mortar-TL"
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{65DE93DE98DD817F}" {
+     TargetStorage "Jacket/Jacket_M88_vietnam.et"
+     PrefabsToSpawn {
+      "{B41607EAB58A4252}Prefabs/Items/Equipment/BalisticTable/BalisticTable_USSR.et"
+     }
+    }
+   }
+  }
+ }
+}

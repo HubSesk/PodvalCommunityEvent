@@ -1,11 +1,19 @@
-SCR_ChimeraCharacter : "{741676D36040EA84}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_Rifleman.et" {
+SCR_ChimeraCharacter : "{74A02B02FD60CB8E}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_Rifleman_LAT.et" {
  ID "520EC961A090B1EE"
  components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_LightAT"
+    Icon "{008BB91082025119}UI/Icons/engineer-1.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponTemplate "{9C5C20FB0E01E64F}Prefabs/Weapons/Launchers/M72/Launcher_M72A3.et"
+  }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{652C93A709B3262F}" {
-     PrefabsToSpawn {
-      "{F7598C4D5FCA5E75}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_HP_T_30rnd_m995.et" "{F7598C4D5FCA5E75}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_HP_T_30rnd_m995.et"
+     PrefabsToSpawn +{
      }
     }
    }

@@ -1,0 +1,17 @@
+SCR_ChimeraCharacter : "{AC5DCD4A02B159E6}Prefabs/Characters/Factions/INDFOR/FIA/Dev/drg_Character_FIA_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_LightAT"
+    Icon "{008BB91082025119}UI/Icons/engineer-1.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   AttachType InventoryStorageSlot "{0C3DA650B52E127A}" {
+    Prefab ""
+   }
+   WeaponTemplate "{7C45EC94C698246B}Prefabs/Weapons/Launchers/RPG75/Launcher_RPG75.et"
+  }
+ }
+}

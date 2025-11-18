@@ -1,0 +1,35 @@
+SCR_ChimeraCharacter : "{525EE5844C6B3FB3}Prefabs/Characters/Factions/INDFOR/IG/drg_Character_IG_Rifleman_v2.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{243948B23D90BECB}Prefabs/Items/Equipment/Binoculars/Binoculars_B8/Binoculars_B8.et"
+      }
+     }
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_SeniorRifleman"
+    Icon "{44B846FB4F46E36A}UI/Icons/team_leader.edds"
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{64D476CF95D45DA3}" {
+     TargetStorage "Back/Backpack_Veshmeshok.et"
+    }
+    ItemsInitConfigurationItem "{64D476C9B7AC6DFD}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Jacket_US_BDU_02.et"
+     PrefabsToSpawn {
+      "{24048C9FFE5AF733}Prefabs/Items/Equipment/Radios/drg_Radio_ANPRC68_prv.et"
+     }
+    }
+   }
+  }
+ }
+}

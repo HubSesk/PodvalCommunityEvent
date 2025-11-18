@@ -1,0 +1,34 @@
+SCR_ChimeraCharacter : "{6A651A06B845EA4B}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_Unarmed.et" {
+ ID "520EC961A090BE1E"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{89FD00CB2909667D}Prefabs/Characters/HeadGear/Hat_M88_01/Hat_M88_01_v1_TTsKO.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{ED9FFC8C35C98B8B}Prefabs/Characters/Uniforms/Jacket_M88_TTsKO.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{7E45E8E203507300}Prefabs/Characters/Uniforms/Pants_M88_TTsKO.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{61B543E763DE9F7B}" {
+     TargetStorage "Pants/Pants_M88_TTsKO.et"
+    }
+    ItemsInitConfigurationItem "{61B543E7DB56B026}" {
+     TargetStorage "Jacket/Jacket_M88_TTsKO.et"
+    }
+    ItemsInitConfigurationItem "{667D4D6280D20F09}" {
+     TargetStorage "Jacket/Jacket_M88_TTsKO.et"
+    }
+    ItemsInitConfigurationItem "{667D4D62E0675E1A}" {
+     TargetStorage "Jacket/Jacket_M88_TTsKO.et"
+    }
+   }
+  }
+ }
+}

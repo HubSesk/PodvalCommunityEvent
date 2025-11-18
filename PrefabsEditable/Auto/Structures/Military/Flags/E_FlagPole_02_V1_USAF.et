@@ -1,0 +1,32 @@
+GenericEntity : "{0DBE058F13F0C7E8}PrefabsEditable/Auto/Structures/Military/Flags/E_FlagPole_02_V1_US.et" {
+ ID "50C6D20663830070"
+ components {
+  SCR_EditableEntityComponent "{5EF0BDF2D0AE76F6}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    m_sFaction "RHS_USAF"
+    m_aAuthoredLabels {
+     1677929688
+    }
+   }
+   m_Flags 321
+  }
+  SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+   m_aObjectiveNames {
+    "FLAG_1_AFRF" "FLAG_1_USAF"
+   }
+   m_aFlagData {
+    PS_FlagData "{6578E944D5ED2B05}" {
+     m_sFactionKey "RHS_AFRF"
+     m_iCaptureCounter 1
+    }
+    PS_FlagData "{6578E944DA2FC5F3}" {
+     m_sFactionKey "RHS_USAF"
+    }
+   }
+   m_sFactionKey "RHS_USAF"
+   m_bUseAdvanceGameState 1
+   m_sUseNotification 1
+  }
+ }
+ coords 2878.361 274.184 9705.477
+}

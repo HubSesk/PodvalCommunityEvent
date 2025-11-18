@@ -1,0 +1,31 @@
+SCR_ChimeraCharacter : "{8C381320937E8CCE}Prefabs/Characters/Factions/OPFOR/USSR_Army/Marines/drg_Character_USSR_MI_Unarmed.et" {
+ ID "520EC961A090BE1E"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{66196D85AB93D2BE}Prefabs/Characters/HeadGear/Helmet_SSh68_01/Helmet_SSh68_01_camo.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{ADE19B33DCBB9005}Prefabs/Characters/Vests/Vest_6B2/Vest_6B2.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{08155E701A949620}Prefabs/Characters/Vests/Vest_SovietHarness/Variants/Vest_SovietHarness_rifleman.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{667D4D67F1615C98}" {
+     TargetStorage "Jacket/Jacket_M88_TTsKO.et"
+    }
+    ItemsInitConfigurationItem "{667D4D643CBE4499}" {
+     TargetStorage "Pants/Pants_M88_TTsKO.et"
+     PrefabsToSpawn {
+      "{98C79F5FAE12F9B6}Prefabs/Weapons/Attachments/Bayonets/Bayonet_6Kh4.et"
+     }
+    }
+   }
+  }
+ }
+}

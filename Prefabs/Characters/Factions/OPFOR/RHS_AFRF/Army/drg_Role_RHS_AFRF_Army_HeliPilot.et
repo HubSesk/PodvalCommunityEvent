@@ -1,0 +1,46 @@
+SCR_ChimeraCharacter : "{51526393DAF170CA}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_Armored.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_HelicopterPilot"
+    Icon "{AF39CE6938074CF8}UI/Icons/pilot.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{BFEA719491610A45}Prefabs/Weapons/Rifles/AKS74U/Rifle_AKS74U.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{BFE3D93AA5B13A89}Prefabs/Characters/HeadGear/Helmet_ZSh7/Helmet_ZSh7V.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{506EF3B2F0A69D34}Prefabs/Characters/Vests/Vest_NAZ/Vest_NAZ.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{B31D9C2465D00D93}Prefabs/Items/Equipment/Radios/Radio_R107M_pl.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab ""
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6529311BA9689B82}" {
+     TargetStorage "ArmoredVest/Vest_NAZ.et"
+     PrefabsToSpawn {
+      "{1F6DC70B4798A3B4}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Ball.et" "{1F6DC70B4798A3B4}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Ball.et" "{1F6DC70B4798A3B4}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Ball.et" "{1F6DC70B4798A3B4}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Ball.et" "{E4D45E4C68E52CF0}Prefabs/Weapons/Grenades/Smoke_NSP_Orange.et" "{E4D45E4C68E52CF0}Prefabs/Weapons/Grenades/Smoke_NSP_Orange.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6529311AFB8848E5}" {
+     TargetStorage "Jacket/Field_Jacket_VKPO.et"
+     PrefabsToSpawn {
+      "{A55A815F28739FEC}Prefabs/Items/Equipment/Navigation/Orion/Orion.et"
+     }
+    }
+   }
+  }
+ }
+}

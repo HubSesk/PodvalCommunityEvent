@@ -1,0 +1,29 @@
+SCR_ChimeraCharacter : "{C0F50DDFB6CFA87B}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_AAT.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#DRG-Role-AntiTank"
+    Icon "{008BB91082025119}UI/Icons/engineer-1.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponTemplate "{E8A55396050E1762}Prefabs/Weapons/Launchers/RPG7/Launcher_RPG7_pgo7.et"
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{65290674385BB88D}" {
+     PrefabsToSpawn {
+      "{FBBF84E3B447D822}Prefabs/Weapons/Ammo/RPG/RHS_AmmoRocket_PG7VL.et" "{FBBF84E3B447D822}Prefabs/Weapons/Ammo/RPG/RHS_AmmoRocket_PG7VL.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6529112CF9EE404D}" {
+     TargetStorage "Back/Backpack_RPG_Assistant.et"
+     PrefabsToSpawn {
+      "{3F8391F77D4E7AE8}Prefabs/Weapons/Attachments/Optics/1pn93/Optic_1PN93-2RPG.et"
+     }
+    }
+   }
+  }
+ }
+}

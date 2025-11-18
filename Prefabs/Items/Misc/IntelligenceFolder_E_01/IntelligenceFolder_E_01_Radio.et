@@ -1,0 +1,38 @@
+GenericEntity : "{5CF603986376EAA9}Prefabs/Items/Misc/IntelligenceFolder_E_01/IntelligenceFolder_E_01_base.et" {
+ ID "508AB2013EEE1E00"
+ components {
+  InventoryItemComponent "{5222EB4D0C73006B}" {
+   Attributes SCR_ItemAttributeCollection "{5222EB4D0A2B466B}" {
+    ItemDisplayName UIInfo "{5222EB4D07D865FA}" {
+     Name "#AR-Intel_Name"
+     Description "#AR-Intel_Description"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 0.25
+     SizeSetupStrategy Size
+     ItemDimensions 10 1 10
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{6286B4AE37362FA1}" {
+      CameraOrbitAngles 0 0 0
+      CameraDistanceToItem 0.4
+      ItemRenderRotation -90 -90 -90
+     }
+    }
+   }
+  }
+  BaseRadioComponent "{6286B4AE1C80DBEB}" {
+   "Encryption key" "secret documents"
+   "Turned on" 1
+   Transceivers {
+    RelayTransceiver "{6286B4AE1AF50067}" {
+     "Transmitting Range" 2000
+    }
+   }
+  }
+  RHS_RadioSourceComponent "{6286B4AE0E7E9A19}" {
+   m_iSignalType Static
+  }
+ }
+ coords 3275.772 2.095 2873.216
+}

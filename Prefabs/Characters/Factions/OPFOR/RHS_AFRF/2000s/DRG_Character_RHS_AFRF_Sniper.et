@@ -1,0 +1,49 @@
+SCR_ChimeraCharacter : "{ACAE0619B9E785E7}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2000s/DRG_Character_RHS_AFRF_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_Sharpshooter"
+    Icon "{0C058E04C5ACCE05}UI/Icons/sniper.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{6415B7923DE28C1B}Prefabs/Weapons/Rifles/SVD/Rifle_SVD_PSO.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{D4028ED16DEE99EE}Prefabs/Characters/HeadGear/Helmet_SSh68_01/Helmet_SSh68_01_camonet.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{ADE19B33DCBB9005}Prefabs/Characters/Vests/Vest_6B2/Vest_6B2.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{12C8933903D18885}Prefabs/Characters/Vests/Vest_SovietHarness/Variants/Vest_SovietHarness_sharpshooter.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{64D34CAFC0AAFFB4}" {
+     TargetStorage "Vest/Vest_SovietHarness_sharpshooter.et"
+    }
+    ItemsInitConfigurationItem "{64D34CAADEE30506}" {
+     TargetStorage "Vest/Vest_SovietHarness_sharpshooter.et"
+     PrefabsToSpawn {
+      "{19600CCA33279D20}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7BZ3API.et" "{19600CCA33279D20}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7BZ3API.et" "{19600CCA33279D20}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7BZ3API.et" "{19600CCA33279D20}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7BZ3API.et" "{19600CCA33279D20}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7BZ3API.et" "{19600CCA33279D20}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7BZ3API.et" "{19600CCA33279D20}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7BZ3API.et" "{19600CCA33279D20}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7BZ3API.et"
+     }
+    }
+    ItemsInitConfigurationItem "{64D34CA83FDC3F41}" {
+     TargetStorage "Back/Backpack_Veshmeshok.et"
+     PrefabsToSpawn {
+      "{19600CCA33279D20}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7BZ3API.et" "{19600CCA33279D20}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7BZ3API.et" "{19600CCA33279D20}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7BZ3API.et" "{19600CCA33279D20}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7BZ3API.et" "{19600CCA33279D20}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7BZ3API.et" "{19600CCA33279D20}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7BZ3API.et" "{19600CCA33279D20}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7BZ3API.et" "{19600CCA33279D20}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7BZ3API.et"
+     }
+    }
+    ItemsInitConfigurationItem "{64D34CA893A652F4}" {
+     TargetStorage "Back/Backpack_Veshmeshok.et"
+    }
+   }
+  }
+ }
+}

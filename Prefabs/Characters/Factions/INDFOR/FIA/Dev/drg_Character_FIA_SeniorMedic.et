@@ -1,0 +1,20 @@
+SCR_ChimeraCharacter : "{E01219A6C433EF02}Prefabs/Characters/Factions/INDFOR/FIA/Dev/drg_Character_FIA_Medic.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#DRG-Roles-RHS_Medic"
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{65F2DDEF6BB08C71}" {
+     TargetStorage "Jacket/Jacket_M70.et"
+     PrefabsToSpawn {
+      "{DB600C5EAB00714B}Prefabs/Items/Equipment/Radios/Radio_R148_FIA_SL.et"
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,30 @@
+SCR_ChimeraCharacter : "{00F47F72680EB992}Prefabs/Characters/Factions/INDFOR/RHS_ION/Drg_Character_RHS_ION_Unarmed.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{D4ACFC8F94EDE501}Prefabs/Characters/Vests/Vest_AVS/Vest_AVS_radio_MCBlk.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{DC5ED2874B47C75A}Prefabs/Characters/Vests/Vest_AVS/Variants/Vest_AVS_MCBlk_Nobelt.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6286835946BBC091}" {
+     PrefabsToSpawn {
+      "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/PaperMap_01_folded.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6286835A4B546266}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_JPC_Pouches/Pouch_AVS_MBITR_Radio_MCBlk.et"
+     PrefabsToSpawn {
+      "{BAB50E5D149D64D9}Prefabs/Items/Equipment/Radios/drg_Radio_ANPRC152A_OLD_prv.et"
+     }
+    }
+   }
+  }
+ }
+}

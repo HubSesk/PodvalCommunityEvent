@@ -1,3 +1,18 @@
-SCR_ChimeraCharacter : "{741676D36040EA84}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_Rifleman.et" {
+SCR_ChimeraCharacter : "{D82203FB9DC2F6C6}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_RTO.et" {
  ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_RadioOperator"
+    Icon "{BF9056C06A6FA320}UI/Icons/rto.edds"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Back {
+     Prefab "{C3351EC6D64ED74A}Prefabs/Items/Equipment/Radios/drg_Radio_ANPRC77.et"
+    }
+   }
+  }
+ }
 }

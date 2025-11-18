@@ -1,0 +1,22 @@
+SCR_ChimeraCharacter : "{D3523DD9DD2CD2C2}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2000s/DRG_Character_RHS_AFRF_Unarmed.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{A7E6D7ECD5F684D7}Prefabs/Characters/HeadGear/Helmet_SSh68_01/Helmet_SSh68_01.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{4CBDC206FEF9897C}Prefabs/Characters/Vests/Vest_6B3/Vest_6B3.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{64D34CAFC0AAFFB4}" {
+     TargetStorage "ArmoredVest/Vest_6B3.et"
+    }
+   }
+  }
+ }
+}

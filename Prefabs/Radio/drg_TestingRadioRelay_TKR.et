@@ -1,0 +1,18 @@
+GenericEntity : "{897996015875B87C}Prefabs/Radio/TestingRadioRelay.et" {
+ ID "5184E59D5316275B"
+ components {
+  BaseRadioComponent "{5184E88B11518473}" {
+   "Encryption key" "candleSauce"
+   Transceivers {
+    BaseTransceiver "{5184E88B13E16492}" {
+     ChannelFrequency 52000
+     "Transmitting Range" 4000
+    }
+   }
+  }
+  MeshObject "{50B08CA0DB565082}" {
+   Object "{CCF186027BFD3FCE}Assets/Structures/Infrastructure/Towers/TransmitterTower_01/TransmitterTower_01_medium.xob"
+  }
+ }
+ scale 0.05
+}

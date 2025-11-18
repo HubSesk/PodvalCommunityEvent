@@ -1,0 +1,33 @@
+SCR_ChimeraCharacter : "{7ABD26EDB53E4CF8}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/SSO/drg_Role_RHS_AFRF_SSO_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{BCEA0EB0D764D8DD}Prefabs/Items/Equipment/Binoculars/Rangefinder_PDU4.et"
+      }
+     }
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#DRG-Squadleader_SSO"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{50FC5601DFE6D583}Prefabs/Weapons/Rifles/AK74M/variants/Rifle_AK74M_npz_b10m_b19n_tgpa_SSO_laser.et"
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{652AABA0C0E9AA74}" {
+     PrefabsToSpawn {
+      "{48B06B12F3BD7E9B}Prefabs/Items/Equipment/Radios/Radio_R187P1_OLD_SL.et"
+     }
+    }
+   }
+  }
+ }
+}

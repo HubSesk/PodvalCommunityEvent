@@ -1,0 +1,36 @@
+SCR_ChimeraCharacter : "{8A2773B291A4A297}Prefabs/Characters/Factions/INDFOR/TKR/Rifleman/drg_Character_Ses_TKR_Rifleman_v3.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#DRG_TKR_Roles_CG"
+    Icon "{008BB91082025119}UI/Icons/engineer-1.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponTemplate "{3265C13DC700E7FE}Prefabs/Weapons/Launchers/MAW_84MM/Launcher_84mm_MAW.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Back {
+     Prefab "{4BA48D3B0E53DF91}Prefabs/Items/Equipment/Backpacks/Rucksack_84mm_MAW_Carrier.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6586FC5BEC4F44F8}" {
+     PrefabsToSpawn {
+      "{F2E474689BD7C2E1}Prefabs/Weapons/Ammo/Ammo_Rocket_HEAT_L40.et" "{F2E474689BD7C2E1}Prefabs/Weapons/Ammo/Ammo_Rocket_HEAT_L40.et" "{F2E474689BD7C2E1}Prefabs/Weapons/Ammo/Ammo_Rocket_HEAT_L40.et"
+     }
+    }
+    ItemsInitConfigurationItem "{662328915C3BC805}" {
+     TargetStorage "Jacket/Chilaba02.et"
+     PrefabsToSpawn {
+      "{A7313E86D0CE3C83}Prefabs/Items/Equipment/Radios/Radio_R148_FIA_rprv.et"
+     }
+    }
+   }
+  }
+ }
+}

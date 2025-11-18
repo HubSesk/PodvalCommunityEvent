@@ -1,0 +1,29 @@
+SCR_ChimeraCharacter : "{2C3E11CA45CC467B}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/Viet/drg_Character_US_Rifleman_V.et" {
+ ID "520EC961A090BBD5"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#DRG_Roles_RHS_AT"
+    Icon "{008BB91082025119}UI/Icons/engineer-1.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponTemplate "{A6ACF0C81DCC2390}Prefabs/Weapons/Launchers/M67/BC_Launcher_M67.et"
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{61B87867FBB32E7F}" {
+     PrefabsToSpawn {
+      "{4D44C563104F77BB}Prefabs/Weapons/Ammo/BC_Ammo_Rocket_M37A1.et" "{4D44C563104F77BB}Prefabs/Weapons/Ammo/BC_Ammo_Rocket_M37A1.et" "{5971423B21CB6C16}Prefabs/Weapons/Ammo/BC_Ammo_Rocket_M590E1_Flechette_50_250.et"
+     }
+    }
+    ItemsInitConfigurationItem "{65DF35C152534DDE}" {
+     TargetStorage "Jacket/Jacket_US_BDU_02.et"
+     PrefabsToSpawn {
+      "{DB03C02C4AB1E0F0}Prefabs/Items/Equipment/Radios/Radio_ANPRC68_SL.et"
+     }
+    }
+   }
+  }
+ }
+}

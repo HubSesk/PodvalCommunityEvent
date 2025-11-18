@@ -1,0 +1,19 @@
+GenericEntity : "{3BFC0E1A2D0062CA}Prefabs/Props/Military/AmmoBoxes/drg_AmmoBox_82mm_mortar_3rnd_HE.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  SCR_FilteredInventoryStorageComponent "{5476A2F100DF4EFF}" {
+   Attributes SCR_ItemAttributeCollection "{5476CDB2EAD8225E}" {
+    ItemDisplayName SCR_InventoryUIInfo "{64F707D10A95B574}" {
+     Name "Дымовые мины"
+    }
+   }
+   MultiSlots {
+    MultiSlotConfiguration "{64F707D11FA7A94D}" {
+     SlotTemplate InventoryStorageSlot "{64DCC2F489C88F5C}" {
+      Prefab "{A544A2C131DE2C64}Prefabs/Weapons/Ammo/Ammo_Shell_82mm_Smoke_D832DU.et"
+     }
+    }
+   }
+  }
+ }
+}

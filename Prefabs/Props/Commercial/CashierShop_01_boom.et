@@ -1,0 +1,39 @@
+GenericEntity : "{4CC2C69DE1AEF103}Prefabs/Props/Core/Destructible_Props_Base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{2E11F7FDBC56CFAF}Assets/Props/Commercial/CashierShop_01/Dst/ShopCashier_01_dst_01.xob"
+  }
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   ResponseIndex "LargeDestructible"
+   ModelGeometry 1
+   Static 1
+  }
+  SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" : "{76DA308CC9E2AB84}Prefabs/Props/Core/DestructionMultiPhase_Base.ct" {
+   Enabled 1
+   "Additional hit zones" {
+    SCR_HitZone Default : "{AF71026AA37B4DF3}Configs/Destruction/MultiphaseDestruction/HitZone/HitZone_Metal_Light.conf" {
+    }
+   }
+   m_fBaseHealth 500
+   m_DestroySpawnObjects {
+    SCR_DebrisSpawnable "{6256AAAEAB37DE90}" : "{C2BD61C5E05B8971}Configs/Destruction/MultiphaseDestruction/FX_Debris/FX_Debris_Metal_Light.conf" {
+     m_ModelPrefabs {
+      "{2E11F7FDBC56CFAF}Assets/Props/Commercial/CashierShop_01/Dst/ShopCashier_01_dst_01.xob"
+     }
+     m_fMass 3
+     m_fDamageToImpulse 1
+     m_fRandomVelocityLinear 1
+    }
+    SCR_ParticleSpawnable "{6454F7B36D5E3A38}" {
+     m_Particle "{6A57903619B5C050}Particles/Props/Dest_Prop_Metal_Small.ptc"
+    }
+   }
+   m_eMaterialSoundType BREAK_METAL
+  }
+  RplComponent "{5624A88DC2D9928D}" {
+   Enabled 1
+  }
+ }
+ coords 0 0 0
+}

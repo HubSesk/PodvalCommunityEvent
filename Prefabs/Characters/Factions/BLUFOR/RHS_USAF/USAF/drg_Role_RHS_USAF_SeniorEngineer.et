@@ -1,3 +1,19 @@
-SCR_ChimeraCharacter : "{B6952AB41DCBD2E8}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_Engineer.et" {
+SCR_ChimeraCharacter : "{2C45BC3A65D618A7}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_SeniorEngineer.et" {
  ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#DRG-Roles_RHS_SeniorEngineer"
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{652C93A579636E38}" {
+     PrefabsToSpawn {
+      "{C742BD6CB3D77A5A}Prefabs/Items/Equipment/Radios/drg_Radio_ANPRC152A_OLD_SL.et"
+     }
+    }
+   }
+  }
+ }
 }

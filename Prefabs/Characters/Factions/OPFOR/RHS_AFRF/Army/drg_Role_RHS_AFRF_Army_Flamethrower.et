@@ -1,0 +1,21 @@
+SCR_ChimeraCharacter : "{2836211FE98BA458}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#DRG-Role-Flamethrower"
+    Icon "{4D1BE7A821BBAC54}UI/Icons/flamethrower.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponTemplate "{3F38EE51E904AE5B}Prefabs/Weapons/Launchers/RPOA/Launcher_RPOA.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{6C4147D00F10D01B}Prefabs/Characters/HeadGear/Helmet_6B47/Helmet_6B47_Goggles_6M2-1.et"
+    }
+   }
+  }
+ }
+}

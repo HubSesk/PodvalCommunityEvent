@@ -1,3 +1,32 @@
-SCR_ChimeraCharacter : "{9FBBBCD632861C8A}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/SOCOM/drg_Role_RHS_USAF_SOCOM_Scout.et" {
+SCR_ChimeraCharacter : "{BEEA7D7CB773EF01}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/SOCOM/drg_Role_RHS_USAF_SOCOM_Scout_AT.et" {
  ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#DRG_Roles_RHS_Scout_AT"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponTemplate "{35022055DCDDE98B}Prefabs/Weapons/Launchers/MK153/Launcher_MK153mod2.et"
+  }
+  SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
+   Identity Identity "{5584CBC6363C648B}" {
+    VisualIdentity VisualIdentity "{56E6D9456009D1C4}" {
+     Head "{0B447F0C03CD92A2}Prefabs/Characters/Heads/Head_White_10_Camo.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{653AC5E0B3E596A2}" {
+     TargetStorage "Jacket/Crye_G3_Shirt_Base.et"
+    }
+    ItemsInitConfigurationItem "{653AC5FD7C9B58B6}" {
+     PrefabsToSpawn {
+      "{27AC9FC7F5E2BEEB}Prefabs/Weapons/Magazines/MK153/Container_MK153_HEDP.et" "{27AC9FC7F5E2BEEB}Prefabs/Weapons/Magazines/MK153/Container_MK153_HEDP.et" "{27AC9FC7F5E2BEEB}Prefabs/Weapons/Magazines/MK153/Container_MK153_HEDP.et"
+     }
+    }
+   }
+  }
+ }
 }

@@ -1,0 +1,48 @@
+SCR_ChimeraCharacter : "{DED726BD40B7E054}Prefabs/Characters/Factions/INDFOR/TKR/Rifleman_variants/Character_TKR_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Icon "{AE53796BC5D21A08}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Rifleman.edds"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{1A930E6BCE930E70}Prefabs/Characters/HeadGear/Hat_Shemagh/Hat_Shemagh_Black.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{070FCE4FE5812C5D}Prefabs/Characters/Uniforms/T_Shirts/Velocity_Shirt/velocity_shirt_od.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{9C35EE1E76EFCE7F}Prefabs/Characters/Uniforms/Civi_Pants/Civi_Jeans_v1.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{41A9C55B61F375F0}Prefabs/Items/Equipment/Backpacks/Backpack_Kolobok.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{2E8829632CBA7A9B}Prefabs/Characters/Vests/Vest_ALICE/Variants/Vest_ALICE_commander.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{61D2C058EFEC64A8}" {
+     TargetStorage "Pants/Civi_Jeans_v1.et"
+    }
+    ItemsInitConfigurationItem "{61D2C058E2831D3F}" {
+     TargetStorage "Vest/Vest_ALICE_commander.et"
+    }
+    ItemsInitConfigurationItem "{61D2C05790C7AB1A}" {
+     TargetStorage "Vest/Vest_ALICE_commander.et"
+     PrefabsToSpawn {
+      "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et" "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et" "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et" "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et" "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et" "{E5912E45754CD421}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{61D2C0578E2FCAC6}" {
+     TargetStorage "Prefabs/Items/Equipment/Backpacks/Backpack_Kolobok.et"
+    }
+   }
+  }
+ }
+}

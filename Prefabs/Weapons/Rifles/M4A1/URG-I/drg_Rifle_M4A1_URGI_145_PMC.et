@@ -1,0 +1,64 @@
+GenericEntity : "{CC52FE46101A77BA}Prefabs/Weapons/Rifles/M4A1/URG-I/Rifle_M4A1_URGI_145_temp_bebra_SSO.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{5E0EEDA2A35B78B4}" {
+     AttachmentSlot InventoryStorageSlot Buffertube {
+     }
+    }
+    AttachmentSlotComponent "{5E0EEDA2E5FAA2B6}" {
+     AttachmentSlot InventoryStorageSlot Buttstock {
+      Prefab "{1FA4BF60B0648BFC}Prefabs/Weapons/Attachments/Stocks/Stock_AR15_USGI/RHS_M4_Buttstock.et"
+     }
+    }
+    AttachmentSlotComponent "{5E0EEDA47E3F452D}" {
+     AttachmentSlot InventoryStorageSlot Handguard {
+     }
+    }
+    AttachmentSlotComponent "{5E0EEDA8BD59EE7D}" {
+     AttachmentSlot InventoryStorageSlot ChargingHandle {
+      MergePhysics 1
+      Prefab "{97236D8266A2971F}Prefabs/Weapons/Attachments/Misc/M4ChargingHandles/GA_GCH_BLK.et"
+     }
+    }
+    AttachmentSlotComponent "{5E0EEDB0BD59EE7D}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot Optics {
+      Prefab "{B0D87E5898D91004}Prefabs/Weapons/Attachments/Optics/aimpoint_t1/Optic_su278pvs_low.et"
+      DisablePhysicsInteraction 1
+     }
+    }
+    AttachmentSlotComponent "{5EA2BE949ECF03E3}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot "{5EA2BE9573F14F0C}" {
+      Prefab ""
+     }
+    }
+    AttachmentSlotComponent "{609EE5047488AAA1}" {
+     AttachmentSlot InventoryStorageSlot REAR_IRONSIGHT {
+      Prefab "{677E8A0792696783}Prefabs/Weapons/Attachments/Optics/mbus/mbus_blk_folding_sight_rear.et"
+      DeactivatePhysicsOnAtaching 1
+     }
+    }
+    AttachmentSlotComponent "{609EE504E194D66F}" {
+     AttachmentSlot InventoryStorageSlot FRONT_IRONSIGHT {
+      Prefab "{B05910AE5C2526DD}Prefabs/Weapons/Attachments/Optics/mbus/mbus_blk_folding_sight_front.et"
+     }
+    }
+    AttachmentSlotComponent "{62F120CA119F8F36}" {
+     AttachmentSlot InventoryStorageSlot GasBlock {
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     components {
+      AttachmentSlotComponent "{626713EF43D3CC9E}" {
+       AttachmentSlot InventoryStorageSlot Muzzle {
+        Prefab "{7C4C82A5CC86129B}Prefabs/Weapons/Attachments/Muzzle/SUREFIRE/SF_WARDEN.et"
+       }
+      }
+     }
+     MagazineTemplate "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et"
+    }
+   }
+  }
+ }
+}

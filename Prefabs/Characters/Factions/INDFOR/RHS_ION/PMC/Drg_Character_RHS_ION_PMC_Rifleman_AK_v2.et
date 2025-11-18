@@ -1,0 +1,25 @@
+SCR_ChimeraCharacter : "{67ACD9EE1E9B5CB7}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Drg_Character_RHS_ION_PMC_Rifleman_AK_v1.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Jacket {
+     Prefab "{DBE3F9D536EFDCCE}Prefabs/Characters/Uniforms/ACU_t-shirt/drg_ACU_t-shirt_grey_BLK.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{86BB79B9A2233780}Prefabs/Characters/Uniforms/Pants_US_M65.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{320FA1CD5B1D5601}Prefabs/Characters/Footwear/Boots_USMC_Combat/Footwear_USMC_Combat.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6286835946BBC091}" {
+     TargetStorage "Pants/Pants_US_M65.et"
+    }
+   }
+  }
+ }
+}

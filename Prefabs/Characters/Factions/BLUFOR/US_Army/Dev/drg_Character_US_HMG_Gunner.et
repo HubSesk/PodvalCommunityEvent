@@ -1,0 +1,41 @@
+SCR_ChimeraCharacter : "{903097F658A99BE3}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_Rifleman.et" {
+ ID "520EC961A090BBD5"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{0CF54B9A85D8E0D4}Prefabs/Items/Equipment/Binoculars/Binoculars_M22/Binoculars_M22.et"
+      }
+     }
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#DRG_HeavyMG_TL"
+    Icon "{F98CF71C0B32DEF4}UI/Icons/heave_machine_gunner.edds"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Back {
+     Prefab "{9B625CAE6DEE1DAB}Prefabs/Items/Equipment/Tripods/M2/Part_M2_Gun.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{61B87867FBB32E7F}" {
+    }
+    ItemsInitConfigurationItem "{669A89B555BB9088}" {
+     TargetStorage "Jacket/Jacket_US_BDU.et"
+     PrefabsToSpawn {
+      "{DB03C02C4AB1E0F0}Prefabs/Items/Equipment/Radios/Radio_ANPRC68_SL.et"
+     }
+    }
+   }
+  }
+ }
+}

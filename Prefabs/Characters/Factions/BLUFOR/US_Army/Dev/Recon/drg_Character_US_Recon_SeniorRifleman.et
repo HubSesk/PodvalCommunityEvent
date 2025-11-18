@@ -1,0 +1,47 @@
+SCR_ChimeraCharacter : "{4438AEFF45A8CE9E}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/Recon/drg_Character_US_Recon_Rifleman.et" {
+ ID "520EC961A090BBD5"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{0CF54B9A85D8E0D4}Prefabs/Items/Equipment/Binoculars/Binoculars_M22/Binoculars_M22.et"
+      }
+     }
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#DRG-Role_ReconSeniorScount"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{877128FBE22FF2C9}Prefabs/Weapons/Rifles/M16/Variants/Rifle_M16A2_carbine_suppressor_AP2K_OliveGreen_Sand_Stripes.et"
+  }
+  SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
+   Identity Identity "{5584CBC6363C648B}" {
+    VisualIdentity VisualIdentity "{56E6D9456009D1C4}" {
+     Head "{E978B7D98D71E15A}Prefabs/Characters/Heads/Head_White_06_Camo.et"
+     Body "{0023F898C0FF18AA}Prefabs/Characters/Basebody/CharacterBasebody.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{61B87867EA32507F}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Jacket_US_BDU_02.et"
+     PrefabsToSpawn {
+      "{BA2D0EE170E44DC7}Prefabs/Items/Equipment/Radios/Radio_ANPRC68_rprv.et"
+     }
+    }
+    ItemsInitConfigurationItem "{61B87CCA62BE05FA}" {
+     TargetStorage "Back/Backpack_ALICE_Medium.et"
+     PrefabsToSpawn +{
+     }
+    }
+   }
+  }
+ }
+}

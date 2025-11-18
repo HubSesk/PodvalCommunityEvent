@@ -1,0 +1,60 @@
+GenericEntity : "{22FE865CD8F1AAFC}Prefabs/Weapons/Assault/AKM/Rifle_AKM_base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  SCR_WeaponAttachmentsStorageComponent "{51F080D5CE45A1A2}" {
+   Attributes SCR_ItemAttributeCollection "{51F080D5C64F12C5}" {
+    ItemDisplayName WeaponUIInfo "{5222CB07CFF6712A}" {
+     Name "#TF-Weapon_AKMN_Name"
+     Description "#TF-Weapon_AKMN_Description"
+    }
+   }
+  }
+  SlotManagerComponent "{633CDCF43ABDF2B7}" {
+   Slots {
+    EntitySlotInfo Dovetail {
+     Offset 0 0 0
+     Prefab "{3BE0AFBB8581C430}Prefabs/Weapons/Attachments/Mounts/AK_Dovetail/Dovetail_AKMN.et"
+    }
+   }
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{60993CDFD79EE36A}" {
+     AttachmentSlot InventoryStorageSlot underbarrel {
+      Enabled 1
+      Prefab ""
+     }
+    }
+    AttachmentSlotComponent "{633CDCF44329FE83}" {
+     AttachmentSlot InventoryStorageSlot "{633CDCF459F07AB6}" {
+      Offset -0.0063 0.0153 -0.0501
+      Enabled 1
+      Prefab "{ACDF49FACD0701A8}Prefabs/Weapons/Attachments/Optics/Optic_1P29/Optic_1P29.et"
+      InspectionWidgetOffset -0.0385 0.0521 -0.011
+     }
+     AttachmentType AttachmentOpticsDovetailAK "{6515511616BB1DA6}" {
+     }
+     ShowInInspection 1
+    }
+    AttachmentSlotComponent "{633CDCF448BDB062}" {
+     AttachmentSlot InventoryStorageSlot "{633CDCF46F100AA7}" {
+      Offset 0 0.0007 -0.0938
+     }
+     AttachmentType AttachmentBayonet6Kh4 "{6515511616BB1DAA}" {
+     }
+     ShowInInspection 1
+    }
+   }
+  }
+  ActionsManagerComponent "{A29AE67FF4D82B0F}" {
+   ActionContexts {
+    UserActionContext "{60993CDFD79F7732}" {
+     Position PointInfo "{60993CDFD79F7731}" {
+      Offset 0 -0.0106 -0.1002
+     }
+    }
+   }
+  }
+ }
+ coords -0.016 -0.291 0.44
+}

@@ -1,0 +1,153 @@
+GenericEntity : "{0DCE9A9A4F31BE1C}Prefabs/Weapons/Core/SmokeGrenade_Base.et" {
+ ID "51FC8327BE43FED2"
+ components {
+  SoundComponent "{57227A5D228316FB}" {
+   Filenames {
+    "{12A94705DF2BFD25}Sounds/Items/_SharedData/PickUp/Items_PickUp_Generic.acp" "{6BE8D45ED5ADD202}Sounds/Weapons/Grenades/_SharedData/Weapons_Grenade_Impacts_RDG2.acp" "{27E5FEBCE92BE40B}Sounds/Weapons/_SharedData/Melee/Weapons_Melee.acp" "{78AABDC24E452BB8}Sounds/Weapons/_SharedData/Drop/Weapons_Drop_Grenade_Cardboard.acp" "{B24CD5945953ADA5}Sounds/Weapons/Grenades/SmokeGrenades/Weapons_SmokeGrenade_RGD2_Unpin.acp" "{982B12014C97FEF7}Sounds/Weapons/Grenades/SmokeGrenades/Weapons_SmokeGrenade_SmokeLoop.acp"
+   }
+  }
+  TimerTriggerComponent "{5934C8C5C9FDF999}" {
+   PROJECTILE_EFFECTS {
+    SpawnParticleEffect "{5CAADB9AD0C61F3F}" {
+     ParticleEffect "{E456EEED7BDD5218}Particles/Weapon/Smoke_grenade_NSP_Orange.ptc"
+     SoundStopOffset 5000
+    }
+   }
+   TIMER 0
+  }
+  BaseAttachmentSlotComponent "{64E1233BE6115356}" {
+  }
+  GrenadeMoveComponent "{1F80A73ADE35BFF1}" {
+   InitSpeed 30
+   Mass 0.397
+   BallisticTableConfig "{900E362C5B4A1B69}Configs/Weapons/AIBallisticTables/AIBT_Smoke_RDG2.conf"
+   SingleSafety 1
+  }
+  InventoryItemComponent "{51FAA3E3CF6F087A}" {
+   Attributes SCR_ItemAttributeCollection "{51FAA3E3C2D19BD4}" {
+    ItemDisplayName WeaponUIInfo "{61CAF7F4E7023074}" {
+     Name "#DRG-Weapon_NSP_Name"
+     Description "#DRG-Weapon_NSP_Description"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{61CAF7F4E7023043}" {
+     Weight 0.43
+     SizeSetupStrategy Manual
+     ItemDimensions 10 10 10
+     ItemVolume 200
+    }
+    ItemAnimationAttributes ItemAnimationAttributes "{5284A988FFFB3DAC}" {
+     AnimationIKPose "{DF96CCB6ADFD8139}Assets/Weapons/Grenades/RDG2/anims/anm/p_rdg2_ik.anm"
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{52D2D341931DB0B8}" {
+      CameraPreset Left
+      CameraOrbitAngles -25 25 0
+      CameraDistanceToItem 1.2
+      FOV 10
+      PreviewModel "{86F1A44DABF20904}Assets/Weapons/Grenades/NSP/nsp.xob"
+      LodModel 0
+     }
+    }
+   }
+  }
+  MeshObject "{51EC93F29BA5F234}" {
+   Object "{0A614AE28850F9BA}Assets/Weapons/Grenades/RDG2/Smoke_RDG2.xob"
+   Materials {
+    MaterialAssignClass "{64E1233B386ECF68}" {
+     SourceMaterial "RDG2"
+     AssignedMaterial "{1E4FC06AB6DBB3AD}Assets/Characters/Vests/Vest_Common/Data/EmptyMaterial.emat"
+    }
+   }
+  }
+  RigidBody "{0F2AA6AEC948C9D6}" {
+   Mass 0.397
+  }
+  SCR_WeaponAttachmentsStorageComponent "{61CAF7F4E7023048}" {
+   Enabled 0
+   Attributes SCR_ItemAttributeCollection "{61CAF7F4E702304F}" {
+    ItemDisplayName WeaponUIInfo "{61CAF7F4E702304E}" {
+     Name "#DRG-Weapon_NSP_Name"
+     Description "#DRG-Weapon_NSP_Description"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{61CAF7F4E702304D}" {
+     Weight 0.43
+     SizeSetupStrategy Volume
+     ItemVolume 200
+    }
+    ItemAnimationAttributes ItemAnimationAttributes "{61CAF7F4E7023053}" {
+     IkSettings {
+      ItemIKSettings "{61CAF7F4E7023052}" {
+       MovementSpeedRange 0 3
+      }
+      ItemIKSettings "{61CAF7F4E7023051}" {
+       Lowered 1
+       InAds 0
+       OutAds 0
+      }
+      ItemIKSettings "{61CAF7F4E7023050}" {
+       Jumping 1
+       InAds 0
+       OutAds 0
+      }
+     }
+     AnimationInstance "{4FCBEA45CAEBC9C0}anims/workspaces/player/player_main_1h.asi"
+     AnimInstanceBlendDuration 0.3
+     ExcludeBonesBlend {
+      "RightHandProp"
+     }
+     AnimationIKPose "{DF96CCB6ADFD8139}Assets/Weapons/Grenades/RDG2/anims/anm/p_rdg2_ik.anm"
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{61CAF7F4E702305A}" {
+      CameraDistanceToItem 1
+      FOV 8
+     }
+    }
+    m_Size SLOT_1x1
+   }
+   StoragePurpose 32
+  }
+  WeaponComponent "{6D23670EA18BF513}" {
+   components {
+    AttachmentSlotComponent "{64E1233A2B91C82E}" {
+     AttachmentSlot InventoryStorageSlot NSP {
+      PivotID "g_root"
+      Offset 0 0.0469 0
+      ChildPivotID "snap_weapon"
+      Prefab "{83066BB264D05D84}Prefabs/Weapons/Grenades/NSP_PrefabAttach.et"
+     }
+     AttachmentType AttachmentMuzzle "{64E1233AE2F99C9C}" {
+     }
+    }
+    BaseItemAnimationComponent "{61CAF7F4E702305E}" {
+     AnimGraph "{55A20911FA0F2BC0}Assets/Weapons/Grenades/workspaces/Grenade_RGD2.agr"
+     AnimInstance "{EC8525C4EF9B04A6}Assets/Weapons/Grenades/workspaces/Grenade_RDG2.asi"
+     AnimInjection AnimationAttachmentInfo "{61CAF7F4E702305C}" {
+      AnimGraph "{55A20911FA0F2BC0}Assets/Weapons/Grenades/workspaces/Grenade_RGD2.agr"
+      AnimInstance "{8024781CF8E3A916}Assets/Weapons/Grenades/workspaces/Player_RDG2.asi"
+      BindingName "Grenade"
+     }
+     BindWithInjection 1
+     MeshVisibilityConfigurations {
+      MeshesVisibilitySwitchConfig "{61CAF7F4E7023029}" {
+       Event "HidePin"
+       Meshes {
+        "RDG2_topPin"
+       }
+      }
+     }
+    }
+   }
+   SoundInt 1000100
+   UIInfo GrenadeUIInfo "{172367262E10E042}" {
+    Name "#DRG-Weapon_NSP_Name"
+    Description "#DRG-Weapon_NSP_Name"
+    m_MagIndicator SCR_MagazineIndicatorConfiguration "{5874D63FFD3D5993}" : "{CB5EE05B7C8C1244}Configs/WeaponInfo/MagazineIndicators/smoke_rgd2.conf" {
+    }
+    m_sAmmoType "#DRG-Weapon_NSP_Name"
+   }
+  }
+  Hierarchy "{61CAF7F4E7023030}" {
+  }
+ }
+}

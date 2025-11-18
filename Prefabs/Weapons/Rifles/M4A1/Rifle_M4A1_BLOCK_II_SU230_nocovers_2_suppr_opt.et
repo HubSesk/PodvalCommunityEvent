@@ -1,0 +1,24 @@
+GenericEntity : "{432DBDCEDAF1376B}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_BLOCK_II_SU230_nocovers_2.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{5E0EEDB0BD59EE7D}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot Optics {
+      Prefab "{E78D21AD695D0342}Prefabs/Weapons/Attachments/Optics/vc18dsco/optic_vc18dsco_rmr.et"
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     components {
+      AttachmentSlotComponent "{626713EF43D3CC9E}" {
+       AttachmentSlot InventoryStorageSlot Muzzle {
+        Prefab "{B591C94754DB4893}Prefabs/Weapons/Attachments/Muzzle/KAC_NT4_QDSS/KAC_NT4_QDSS_Covered_Multicam.et"
+       }
+      }
+     }
+     MagazineTemplate "{7F519F63E96020D4}Prefabs/Weapons/Magazines/PmagUnwindowed/Magazine_556x45_PMAG_30rnd_m995.et"
+    }
+   }
+  }
+ }
+}

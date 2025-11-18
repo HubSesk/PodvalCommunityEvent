@@ -1,0 +1,82 @@
+Vehicle : "{4597626AF36C0858}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320.et" {
+ ID "0000000000000001"
+ components {
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "#AR-Vehicle_Ural4320_Transport_Name"
+    Icon "{9EBE212C91B36BBE}UI/Textures/Editor/EditableEntities/Vehicles/EditableEntity_Vehicle_Truck.edds"
+    m_Image "{47CFFF79C2C0BD20}UI/Textures/EditorPreviews/Vehicles/Wheeled/Ural4320/Ural4320_transport.edds"
+    m_sFaction "USSR"
+    m_aAuthoredLabels + {
+     37 210
+    }
+    m_aAutoLabels +{
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
+      m_Value 200
+     }
+    }
+    m_bEditorPlaceAsOneGroup 0
+    m_aOccupantFillCompartmentTypes +{
+    }
+    m_aPassengerEntityBudgetCost {
+     SCR_EntityBudgetValue "{5A5EA70BD2719A94}" {
+      m_BudgetType AI
+      m_Value 8
+     }
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{5916C58171230A92}" {
+   MaxCumulativeVolume 1000000
+   MaxItemSize 40 40 40
+   MultiSlots {
+    MultiSlotConfiguration "{64DCC2F5C239474F}" {
+     SlotTemplate InventoryStorageSlot "{64DCC2F489C88F5C}" {
+      Prefab "{98EC9C526AFBA282}Prefabs/Weapons/Ammo/Ammo_Shell_82mm_HE_O832DU.et"
+     }
+     NumSlots 240
+    }
+    MultiSlotConfiguration "{64DCC2F5BD503761}" {
+     SlotTemplate InventoryStorageSlot "{64DCC2F489C88F5C}" {
+      Prefab "{A544A2C131DE2C64}Prefabs/Weapons/Ammo/Ammo_Shell_82mm_Smoke_D832DU.et"
+     }
+     NumSlots 80
+    }
+    MultiSlotConfiguration "{64DCC2F5BD198E06}" {
+     SlotTemplate InventoryStorageSlot "{64DCC2F489C88F5C}" {
+      Prefab "{C8A906FB198D1A33}Prefabs/Weapons/Ammo/Ammo_Shell_82mm_Illum_S832S.et"
+     }
+     NumSlots 80
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Cargo {
+     MergePhysics 1
+     Prefab "{58B3FB7F102A8B1B}Prefabs/Vehicles/Wheeled/Ural4320/VehParts/Ural4320_cargo.et"
+     DisablePhysicsInteraction 1
+     RegisterActions 1
+     RegisterDamage 1
+     RegisterControllers 1
+     RegisterCompartments 1
+     RegisterLights 1
+    }
+   }
+  }
+  ActionsManagerComponent "{C97BE5489221AE18}" {
+   ActionContexts {
+    UserActionContext "{64DCC2F5D275F1E0}" {
+     ContextName "cargo_open"
+     Position PointInfo "{64DCC2F5D275F1E8}" {
+      Offset 0 1.8 -3.9
+     }
+    }
+   }
+  }
+ }
+ coords -7.183 -2.498 -14.395
+ m_eVehicleType SUPPLY_TRUCK
+}

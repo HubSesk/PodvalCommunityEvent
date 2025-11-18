@@ -1,0 +1,36 @@
+SCR_ChimeraCharacter : "{67462C04AB794520}Prefabs/Characters/Factions/INDFOR/TKR/SR_variants/Character_TKR_SR.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{939F44495E6BF876}Prefabs/Weapons/Assault/AKM/Rifle_AKMN_1P29.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{1C7BF9EFC11B29D9}Prefabs/Characters/HeadGear/Hat_Shemagh/Hat_Shemagh_Green.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab ""
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{61D2C058E2831D3F}" {
+     TargetStorage "Vest/Vest_Lifchik_TKA.et"
+    }
+    ItemsInitConfigurationItem "{61D2C05790C7AB1A}" {
+     PrefabsToSpawn {
+      "{D8125552E67B5C76}Prefabs/Weapons/Attachments/Magazines/AKM/Magazine_AK_762x39_6L10_30rnd.et" "{D8125552E67B5C76}Prefabs/Weapons/Attachments/Magazines/AKM/Magazine_AK_762x39_6L10_30rnd.et" "{D8125552E67B5C76}Prefabs/Weapons/Attachments/Magazines/AKM/Magazine_AK_762x39_6L10_30rnd.et" "{D8125552E67B5C76}Prefabs/Weapons/Attachments/Magazines/AKM/Magazine_AK_762x39_6L10_30rnd.et" "{D8125552E67B5C76}Prefabs/Weapons/Attachments/Magazines/AKM/Magazine_AK_762x39_6L10_30rnd.et" "{D8125552E67B5C76}Prefabs/Weapons/Attachments/Magazines/AKM/Magazine_AK_762x39_6L10_30rnd.et"
+     }
+    }
+    ItemsInitConfigurationItem "{61D2C0578E2FCAC6}" {
+     TargetStorage "Back/Backpack_Kolobok.et"
+     PrefabsToSpawn {
+      "{D8125552E67B5C76}Prefabs/Weapons/Attachments/Magazines/AKM/Magazine_AK_762x39_6L10_30rnd.et" "{D8125552E67B5C76}Prefabs/Weapons/Attachments/Magazines/AKM/Magazine_AK_762x39_6L10_30rnd.et" "{D8125552E67B5C76}Prefabs/Weapons/Attachments/Magazines/AKM/Magazine_AK_762x39_6L10_30rnd.et" "{D8125552E67B5C76}Prefabs/Weapons/Attachments/Magazines/AKM/Magazine_AK_762x39_6L10_30rnd.et" "{D8125552E67B5C76}Prefabs/Weapons/Attachments/Magazines/AKM/Magazine_AK_762x39_6L10_30rnd.et" "{D8125552E67B5C76}Prefabs/Weapons/Attachments/Magazines/AKM/Magazine_AK_762x39_6L10_30rnd.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,41 @@
+GenericEntity : "{3537FF91E6678FAA}Prefabs/Weapons/Rifles/M4A1/URG-I/Rifle_M4A1_URGI_145_temp_bebra.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{5E0EEDA47E3F452D}" {
+     AttachmentSlot InventoryStorageSlot Handguard {
+      Prefab "{64C3155B05300C57}Prefabs/Weapons/Attachments/Handguards/Handguard_AR15_MK16_URGI/RHS_M4A1_MK16_135_QD_BLK_RIS.et"
+     }
+    }
+    AttachmentSlotComponent "{5EA2BE949ECF03E3}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot "{5EA2BE9573F14F0C}" {
+      Offset 0.0226 0.0832 0.3286
+      Angles 0 0 88.9
+      Prefab "{5AE8F3A22BDB534F}Prefabs/Weapons/Attachments/Lasers/anpeq15/Laser_ANPEQ15_black.et"
+     }
+    }
+    AttachmentSlotComponent "{609EE5047488AAA1}" {
+     AttachmentSlot InventoryStorageSlot REAR_IRONSIGHT {
+      Prefab ""
+     }
+    }
+    AttachmentSlotComponent "{609EE504E194D66F}" {
+     AttachmentSlot InventoryStorageSlot FRONT_IRONSIGHT {
+      Prefab ""
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     components {
+      AttachmentSlotComponent "{626713EF43D3CC9E}" {
+       AttachmentSlot InventoryStorageSlot Muzzle {
+        Prefab "{6C607325B88CDA9A}Prefabs/Weapons/Attachments/Muzzle/SUREFIRE/SF_RC3_TAN.et"
+       }
+      }
+     }
+     MagazineTemplate "{AE484B2A9DBDF18E}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_Coy_30rnd_M995.et"
+    }
+   }
+  }
+ }
+}

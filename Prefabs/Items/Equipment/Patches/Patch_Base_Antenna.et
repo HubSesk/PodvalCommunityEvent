@@ -1,0 +1,100 @@
+GameEntity : "{0B201E22AD2DFA7F}Prefabs/Items/Equipment/Accessories/ClothAttachment_Base.et" {
+ ID "5DB09136945FC6DB"
+ components {
+  InventoryItemComponent "{5DB09136B1C985CE}" {
+   Attributes SCR_ItemAttributeCollection "{5DB09136B1C985C1}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{5DB09136B1C985EB}" {
+     Name "Patch"
+     Description "Velcro patch"
+     m_aItemHints {
+      SCR_InventoryItemHintUIInfo "{61CC8C4C7DC3AE72}" {
+       Name "#RHS-UI_InventoryHint_CanBeattachedToVelcro"
+       Icon "{72869FB002B6ABC2}UI/Textures/InventoryIcons/Inspection-gizmo-patch-slot-M-alt-UI.edds"
+      }
+     }
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{5DB09136B1C985D2}" {
+     Weight 0.02
+     ItemDimensions 1 1 1
+     RestingUP Forward
+     ActivePhysicalSimulation None
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{5DB09136B1C985C3}" {
+      CameraDistanceToItem 0.7
+      ItemRenderRotation 20 0 20
+      PreviewWornModel 0
+     }
+     RHS_CustomAttributes "{5DB8F5B98D9963BA}" : "{29F1EFAA1B1C6CBA}Prefabs/Items/Equipment/Accessories/Core/RHS_CustomAttributes_VelcroMedium.conf" {
+     }
+    }
+    CommonItemType "RHS_PATCH"
+    m_Size SLOT_1x1
+    m_SlotType SLOT_GADGETS_STORAGE
+    m_bStackable 0
+   }
+  }
+  MeshObject "{5DB09136B1C985B5}" {
+   Object "{127B0703D07469C5}Assets/Items/Equipment/Radios/Radio_ANPRC152/PRC_152_Antenna.xob"
+  }
+  ParametricMaterialInstanceComponent "{65F74A0E65AAE9FB}" {
+   UserParamAlpha 1
+   ApplyPropertiesWhenMeshChanged 1
+  }
+  BaseLoadoutClothComponent "{5DB09136B1C9859A}" {
+   AreaType RHS_LoadoutMediumVelcroSlotArea "{5DB0A07091EE92E2}" {
+   }
+   WornModel ""
+   ItemModel ""
+  }
+  ActionsManagerComponent "{5DB09136B1C99451}" {
+   additionalActions {
+    RHS_AttachToClothAction "{5DB0A0703A3A47C8}" {
+     m_ClothFromArea LoadoutJacketArea "{5D7F084A60E36DA2}" {
+     }
+    }
+    RHS_ReplaceClothAction "{5DB6D278A139E6CD}" {
+     m_ClothFromArea LoadoutAreaType "{5DB6D27891A42F11}" {
+     }
+    }
+    RHS_AttachToClothAction "{65F74A0E65AAE9EB}" {
+     ParentContextList {
+      "default"
+     }
+     UIInfo UIInfo "{65F74A0E65AAE9EA}" {
+      Name "#RHS-Action_Attach_To"
+     }
+     "Inventory action" 1
+     m_ClothFromArea LoadoutHeadCoverArea "{65F74A0E65AAE9D6}" {
+     }
+    }
+    RHS_AttachToClothAction "{65F74A0E65AAE9D5}" {
+     ParentContextList {
+      "default"
+     }
+     UIInfo UIInfo "{65F74A0E65AAE9D4}" {
+      Name "#RHS-Action_Attach_To"
+     }
+     "Inventory action" 1
+     m_ClothFromArea LoadoutArmoredVestSlotArea "{65F74A0E65AAE9D3}" {
+     }
+    }
+    RHS_AttachToClothAction "{65F74A0E65AAE9D2}" {
+     ParentContextList {
+      "default"
+     }
+     UIInfo UIInfo "{65F74A0E65AAE9D1}" {
+      Name "#RHS-Action_Attach_To"
+     }
+     "Inventory action" 1
+     m_ClothFromArea LoadoutVestArea "{65F74A0E65AAE9DF}" {
+     }
+    }
+   }
+  }
+  BaseItemAnimationComponent "{65F74A0E65AAE9DE}" {
+   AnimGraph "{6A8EE4A914596E5F}anims/workspaces/animals/Columba_livia_domestica/Columba_livia_domestica.agr"
+   AnimInstance "{8D91E38B00B5505F}anims/workspaces/animals/Columba_livia_domestica/pigeon.asi"
+  }
+ }
+}

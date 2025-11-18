@@ -1,0 +1,54 @@
+SCR_ChimeraCharacter : "{EC325FC7AF4DDF9E}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/SSO/drg_Role_RHS_AFRF_SSO_Unarmed.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot WristwatchSlot {
+       Prefab "{57C7E2D1FB25A85E}Prefabs/Items/Equipment/Watches/Watch_GarminTactixBravo_green.et"
+      }
+     }
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_Unarmed"
+    Icon "{D7F5BF1ECF66FB8F}UI/Icons/unarmed.edds"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{C6E46CFDDE144A6B}Prefabs/Characters/HeadGear/Helmet_LShZ/variants/Helmet_LShZ_HC_atacs_NVG.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{436D20807E4334A9}Prefabs/Characters/Vests/Vest_Taktika/Vest_Taktika_groin_neck_protection.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{80D146923D4A34FE}Prefabs/Characters/Vests/Vest_Taktika/Variants/Vest_Taktika_belt_arsarma_1.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6528F2E079033878}" {
+     TargetPurpose 64
+    }
+    ItemsInitConfigurationItem "{652AABA0C0E9AA74}" {
+     TargetStorage "Vest/Vest_Taktika_belt_arsarma_1.et/radio/Pouch_UP111_radioClosed_FG.et"
+     PrefabsToSpawn {
+      "{A2DD1D2EEB52BFC0}Prefabs/Items/Equipment/Radios/Radio_R187P1_OLD_prv.et"
+     }
+    }
+    ItemsInitConfigurationItem "{652AB88639EB6169}" {
+     TargetStorage "Vest/Vest_Taktika_belt_arsarma_1.et/GMR/Minimap_ArsArma_GMR_FG.et"
+     PrefabsToSpawn {
+      "{A55A815F28739FEC}Prefabs/Items/Equipment/Navigation/Orion/Orion.et"
+     }
+    }
+   }
+  }
+ }
+}

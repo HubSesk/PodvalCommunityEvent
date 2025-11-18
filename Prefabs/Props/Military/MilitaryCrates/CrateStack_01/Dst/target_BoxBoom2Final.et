@@ -1,0 +1,45 @@
+GenericEntity : "{7D39683D0F8EDB59}Prefabs/Props/Military/MilitaryCrates/CrateStack_01/Dst/CrateStack_01_Dst_3_dark.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  PS_SpectatorLabel "{65DEC36907948B63}" {
+   m_sMarkerPrefab "{52CA8FF5F56C6F31}UI/Map/ManualMapMarkerBase.layout"
+   m_cMapMarkerConfig PS_ManualMarkerConfig "{65DEC36907948B56}" {
+    m_MarkerColor 0.502 0.376 0 1
+    m_sQuadName "supplies"
+    m_fWorldSize 30
+    m_sDescription "Weapon Create"
+    m_bUseWorldScale 0
+    m_iZOrder 0
+    m_fMinSize 0
+   }
+   m_sSpectatorLabelLayout "{3F39DAD431B04920}UI/Spectator/BoxLable.layout"
+  }
+  SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+   "Additional hit zones" {
+    SCR_HitZone Default {
+     CriticalDamage 1
+     DamageThreshold 10
+     "Explosive multiplier" 7
+    }
+   }
+   m_fBaseHealth 8000
+   m_DestroySpawnObjects {
+    SCR_ParticleSpawnable "{5A8A9D296FBD7C50}" {
+    }
+    SCR_PrefabSpawnable "{5A8C8B22AE085375}" {
+     m_bSpawnAsChildren 0
+    }
+    SCR_PrefabSpawnable "{65DEC36907948B41}" {
+     m_Prefabs {
+      "{5389A7993D65A0ED}Prefabs/Weapons/Warheads/Explosions/Explosion_Battery.et"
+     }
+    }
+    SCR_ParticleSpawnable "{65DEC36907948B4C}" {
+     m_vOffsetPosition 0 0 2.5
+     m_Particle "{D04A8E15686D6FDB}Particles/Props/Smoke_RPL5_Damaged.ptc"
+    }
+   }
+  }
+ }
+ coords 10643.049 185.952 2500.134
+}

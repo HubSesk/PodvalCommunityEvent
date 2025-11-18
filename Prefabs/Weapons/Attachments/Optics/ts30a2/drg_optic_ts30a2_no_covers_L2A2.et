@@ -1,0 +1,19 @@
+GameEntity : "{6DC0EE135013FC47}Prefabs/Weapons/Attachments/Optics/ts30a2/optic_ts30a2_base.et" {
+ ID "4BA426CBAED42A14"
+ components {
+  MeshObject "{5D0CC83435B55858}" {
+   Object "{6D4795E5DC72C304}Assets/Weapons/Attachments/Optics/ts30a2/ts30a2_no_covers.xob"
+  }
+  RHS_2DPIPSightsComponent "{5D0CC83435B55855}" {
+   m_bIsConfiguratedForRHSNVG 0
+  }
+  ActionsManagerComponent "{5284E0EFF569AD07}" {
+   additionalActions {
+    SCR_AdjustSignalAction "{61AECC1B06EE77EA}" {
+     ParentContextList {
+     }
+    }
+   }
+  }
+ }
+}

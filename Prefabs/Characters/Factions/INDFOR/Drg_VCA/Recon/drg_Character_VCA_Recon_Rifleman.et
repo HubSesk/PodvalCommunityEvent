@@ -1,0 +1,43 @@
+SCR_ChimeraCharacter : "{AFD656F1D9ACD98F}Prefabs/Characters/Factions/INDFOR/Drg_VCA/drg_Character_VCA_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{3292BA8429AE5743}Prefabs/Characters/HeadGear/RiceHat/Rice_hat_v2.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{713F95071786AC64}Prefabs/Characters/Uniforms/Jacket_M88_rolledup_vietnam_blk.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{75297D1CED46CE60}Prefabs/Characters/Uniforms/Pants_M88_vietnam_blk.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{7E39B0D238FA92D1}Prefabs/Items/Equipment/Backpacks/Backpack_Kolobok_vietnam_blk.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{95E30DDE2495E6B0}Prefabs/Characters/Vests/Vest_Type56/Vest_Type56_base_vietnam_blk.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{5D7CC173FAA7C00E}" {
+     TargetStorage "Pants/Pants_M88_vietnam_blk.et"
+    }
+    ItemsInitConfigurationItem "{5D7CC173FAA7C00C}" {
+     TargetStorage "Pants/Pants_M88_vietnam_blk.et"
+    }
+    ItemsInitConfigurationItem "{65D68EE3434281D5}" {
+     TargetStorage "Jacket/Jacket_M88_rolledup_vietnam_blk.et"
+    }
+    ItemsInitConfigurationItem "{65D68EE3DC040E80}" {
+     TargetStorage "Vest/Vest_Type56_base_vietnam_blk.et"
+    }
+    ItemsInitConfigurationItem "{65D68EE3DC8A11DC}" {
+     TargetStorage "Back/Backpack_Kolobok_vietnam_blk.et"
+    }
+   }
+  }
+ }
+}

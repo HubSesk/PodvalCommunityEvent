@@ -1,0 +1,56 @@
+GenericEntity : "{08155E701A94961F}Prefabs/Characters/Vests/Vest_SovietHarness/Vest_SovietHarness_assembled_base.et" {
+ ID "50D8C49B3558F152"
+ components {
+  ClothNodeStorageComponent "{5CE0BD449244C3E1}" {
+   Attributes SCR_ItemAttributeCollection "{5510AD9F02223F36}" {
+    ItemDisplayName UIInfo "{5510AD9F02223FEC}" {
+     Name "#AR-LBS_Harness_Commander_Name"
+     Description "#AR-LBS_Harness_Commander_Description"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{5510AD9F02223F81}" {
+     SizeSetupStrategy Manual
+    }
+   }
+   UseCapacityCoefficient 0
+   MaxCumulativeVolume 2400
+   MaxItemSize 10 10 10
+  }
+  MeshObject "{5312D798A817A294}" {
+   Object "{ACAE8AB157C7B9E6}Assets/Characters/Vests/Vest_SovietHarness/Vest_SovietHarness_Belt_item.xob"
+  }
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo GrenadePouch {
+     Offset -0.1013 0.028 0.0925
+     Angles -6.5423 -44.5347 -0.0629
+     Prefab "{C5A8B378E38AA4FF}Prefabs/Characters/Vests/Vest_SovietHarness/Vest_SovietHarness_GrenadePouch.et"
+     DeflatedOffset -0.1287 0.0776 0.1196
+     DeflatedAngles -6.0829 -37.3391 0.248
+    }
+    LoadoutSlotInfo MagPouch_6Sh46 {
+     Offset 0.1011 0.0243 0.0958
+     Angles 0 40.4253 0
+     Prefab "{8C9F39278B899AE6}Prefabs/Items/Equipment/Accessories/Pouch_Soviet_30rnd_AK74/Pouch_Soviet_30rnd_AK74.et"
+     DeflatedOffset 0.1174 0.0664 0.1296
+     DeflatedAngles -4.2116 37.9819 -3.8896
+    }
+    LoadoutSlotInfo Bayonet {
+     Offset 0.1009 0.0396 -0.1047
+     Angles 11.0991 156.9583 4.3641
+     DeflatedOffset 0.1616 0.0892 -0.1012
+     DeflatedAngles 2.7661 124.0619 1.8062
+    }
+    LoadoutSlotInfo Holster {
+     PivotID "Spine3"
+     Offset 0.1821 -0.0024 -0.0492
+     Angles 7.2165 100.8907 0
+     Prefab "{50084B2B2B8004FA}Prefabs/Items/Equipment/Accessories/Holster_PM/Holster_PM.et"
+     EnableDeflatedOffset 1
+     DeflatedOffset 0.216 0.0379 -0.0094
+     DeflatedAngles 0.0118 84.16499 -6.39
+    }
+   }
+   DeflatedModel ""
+  }
+ }
+}

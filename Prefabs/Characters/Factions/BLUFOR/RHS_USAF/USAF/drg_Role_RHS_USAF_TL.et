@@ -1,10 +1,28 @@
-SCR_ChimeraCharacter : "{741676D36040EA84}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_Rifleman.et" {
+SCR_ChimeraCharacter : "{67C97355F74099C5}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_TL.et" {
  ID "520EC961A090B1EE"
  components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_TeamLeader"
+    Icon "{44B846FB4F46E36A}UI/Icons/team_leader.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{E799D6F15367FC6A}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_RAS_ACOG.et"
+  }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{652C93A709B3262F}" {
      PrefabsToSpawn +{
+     }
+    }
+    ItemsInitConfigurationItem "{652C93A1E33FC67D}" {
+     TargetStorage "Back/Backpack_Wartech_BB102_MC.et"
+    }
+    ItemsInitConfigurationItem "{652C93BF7F12D4E1}" {
+     TargetStorage "Back/Backpack_Wartech_BB102_MC.et"
+     PrefabsToSpawn {
+      "{D41D22DD1B8E921E}Prefabs/Weapons/Grenades/M18/Smoke_M18_Green.et" "{D41D22DD1B8E921E}Prefabs/Weapons/Grenades/M18/Smoke_M18_Green.et" "{3343A055A83CB30D}Prefabs/Weapons/Grenades/M18/Smoke_M18_Red.et" "{3343A055A83CB30D}Prefabs/Weapons/Grenades/M18/Smoke_M18_Red.et" "{14C1A0F061D9DDEE}Prefabs/Weapons/Grenades/M18/Smoke_M18_Violet.et" "{14C1A0F061D9DDEE}Prefabs/Weapons/Grenades/M18/Smoke_M18_Violet.et" "{9BBDEE253A16CC66}Prefabs/Weapons/Grenades/M18/Smoke_M18_Yellow.et" "{9BBDEE253A16CC66}Prefabs/Weapons/Grenades/M18/Smoke_M18_Yellow.et"
      }
     }
    }

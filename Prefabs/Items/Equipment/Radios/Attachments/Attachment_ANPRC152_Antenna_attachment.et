@@ -1,0 +1,108 @@
+GenericEntity {
+ ID "65F8C0AD3E1EFFE4"
+ components {
+  SignalsManagerComponent "{65F8C0AD3E1EFFEF}" {
+  }
+  SoundComponent "{65F8C0AD3E1EFFD5}" {
+   Filenames {
+    "{12A94705DF2BFD25}Sounds/Items/_SharedData/PickUp/Items_PickUp_Generic.acp" "{CC0E5A1324E761C1}Sounds/Items/_SharedData/Drop/Items_Drop_Generic.acp"
+   }
+  }
+  InventoryItemComponent "{65F8C0AD3E1EFFD0}" {
+   Attributes SCR_ItemAttributeCollection "{65F8C0AD3E1EFFDD}" {
+    ItemDisplayName UIInfo "{65F8C0AD3E1EFFDB}" {
+     Name "#RHS-Item_ANPRC152_Antenna_Name"
+     Description "#RHS-Item_ANPRC152_Antenna_Description"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{65F8C0AD3E1EFFD8}" {
+     Weight 0.22
+     SizeSetupStrategy Manual
+     ItemDimensions 3 3 15
+     ItemVolume 135
+     RestingUP Forward
+     RestingAdditiveRotationLS 0 0 0
+     PivotBoneName "Scene_Root"
+     RestingAdditiveOffsetLS 0 0 0
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{65F8C0AD3E1EFFC5}" {
+      CameraOrbitAngles 0 0 0
+      CameraDistanceToItem 1
+      CameraOffset 0.34 -0.26 0
+      ItemRenderRotation 0 0 80
+      FOV 8
+      IsDynamicObject 0
+      PreviewModel "{8CADE6D2BB622615}Assets/Items/Equipment/Radios/Radio_ANPRC152/PRC_152_Antenna_Item.xob"
+     }
+    }
+    CommonItemType "NONE"
+    m_Size SLOT_2x1
+    m_SlotType SLOT_LBS_BUTTPACK
+    m_bDraggable 0
+    m_bVisible 0
+    m_bStackable 0
+    m_bRefundable 0
+   }
+  }
+  MeshObject "{65F8C0AD3E1EFFCD}" {
+   Object "{127B0703D07469C5}Assets/Items/Equipment/Radios/Radio_ANPRC152/PRC_152_Antenna.xob"
+   Materials {
+    MaterialAssignClass "{65F8C0AD3E1EFFCB}" {
+     SourceMaterial "{F287933F15C9CA14}Assets/Items/Equipment/Radios/PRC-152/data/AntennaItem.emat"
+    }
+   }
+  }
+  RHS_AttachmentTypeComponent "{65F8C0AD3E1EFFC9}" {
+   m_iAttachmentType EARS_ANTENNA
+   m_iAttachmentBoneName "i_antenna"
+   m_iCompatibleRadios {
+    5 6
+   }
+  }
+  RHS_RadioAntennaComponent "{65F8C0AD3E1EFFB7}" {
+   m_bCanBeFolded 1
+  }
+  RigidBody "{65F8C0AD3E1EFFB6}" {
+   Enabled 0
+   ModelGeometry 1
+  }
+  ProcAnimComponent "{65F8C0AD3E1EFFB2}" {
+   Parameters {
+    ProcAnimParams "{65F8C0AD3E1EFFA7}" {
+     ResourceName "{1564D343067FDB20}Anims/proc/ANPRC152_Antenna.pap"
+     BoneNames {
+      "2" "3" "4" "5" "6" "7" "8" "9" "10" "11" "12" "13" "14" "15"
+     }
+     AlwaysSimulateOwner 0
+    }
+   }
+  }
+  ActionsManagerComponent "{65F8C0AD3E1EFFA4}" {
+   ActionContexts {
+    UserActionContext "{65F8C0AD3E1EFFA3}" {
+     ContextName "default"
+     Position PointInfo "{65F8C0AD3E1EFFA0}" {
+      PivotID "Scene_Root"
+     }
+    }
+   }
+   additionalActions {
+    SCR_PickUpItemAction "{65F8C0AD3E1EFFAD}" {
+     ParentContextList {
+      "default"
+     }
+     UIInfo UIInfo "{65F8C0AD3E1EFFAC}" {
+      Name "#AR-Inventory_PickUp"
+     }
+    }
+   }
+  }
+  RplComponent "{65F8C0AD3E1EFFAA}" {
+   "Parent Node From Parent Entity" 0
+  }
+  Hierarchy "{65F8C0AD3E1EFFA9}" {
+  }
+ }
+ Flags 4194307
+ coords 125.447 1.001 120.47
+}

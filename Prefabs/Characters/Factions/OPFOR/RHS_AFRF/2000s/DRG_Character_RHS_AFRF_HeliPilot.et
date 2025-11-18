@@ -1,0 +1,67 @@
+SCR_ChimeraCharacter : "{ACAE0619B9E785E7}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2000s/DRG_Character_RHS_AFRF_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_HelicopterPilot"
+    Icon "{AF39CE6938074CF8}UI/Icons/pilot.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{BFEA719491610A45}Prefabs/Weapons/Rifles/AKS74U/Rifle_AKS74U.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{E49D9EE7E2B3016C}Prefabs/Characters/HeadGear/Helmet_ZSh5_01/Helmet_ZSh5_01.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{34B89390DAD5390B}Prefabs/Characters/Uniforms/Jacket_M88_VSR_rolledup.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{506EF3B2F0A69D34}Prefabs/Characters/Vests/Vest_NAZ/Vest_NAZ.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{AE4A4446787BFB2D}Prefabs/Characters/Uniforms/Pants_M88_VSR.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{64D34CAFC10C6C54}" {
+     TargetStorage "Pants/Pants_M88_VSR.et"
+    }
+    ItemsInitConfigurationItem "{64D34CAFC0AAFFB4}" {
+     TargetStorage "Jacket/Jacket_M88_VSR_rolledup.et"
+    }
+    ItemsInitConfigurationItem "{6532E10D51F75594}" {
+     TargetStorage "Pants/Pants_M88_VSR.et"
+    }
+    ItemsInitConfigurationItem "{64D34CAADEE30506}" {
+     TargetStorage "Jacket/Jacket_M88_VSR_rolledup.et"
+     PrefabsToSpawn {
+      "{F14913F524AA2C55}Prefabs/Characters/HeadGear/Hat_Beanie/Hat_beanie_Black.et"
+     }
+    }
+    ItemsInitConfigurationItem "{64D34CA83FDC3F41}" {
+     TargetStorage "ArmoredVest/Vest_NAZ.et"
+     PrefabsToSpawn {
+      "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et" "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et" "{E5912E45754CD421}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{64D34CA893A652F4}" {
+     TargetStorage "Back/Backpack_Veshmeshok.et"
+     PrefabsToSpawn {
+      "{E4D45E4C68E52CF0}Prefabs/Weapons/Grenades/Smoke_NSP_Orange.et" "{E4D45E4C68E52CF0}Prefabs/Weapons/Grenades/Smoke_NSP_Orange.et" "{E4D45E4C68E52CF0}Prefabs/Weapons/Grenades/Smoke_NSP_Orange.et" "{E4D45E4C68E52CF0}Prefabs/Weapons/Grenades/Smoke_NSP_Orange.et"
+     }
+    }
+    ItemsInitConfigurationItem "{65C518D0E6C9B46F}" {
+     TargetStorage "Jacket/Jacket_M88_VSR_rolledup.et"
+     PrefabsToSpawn {
+      "{92B819C350698359}Prefabs/Items/Equipment/Radios/Radio_R148_rprv.et"
+     }
+    }
+   }
+  }
+ }
+}

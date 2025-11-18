@@ -1,0 +1,47 @@
+SCR_ChimeraCharacter : "{BC59B0EFF0344FC8}Prefabs/Characters/Factions/INDFOR/TKR/Rifleman/drg_Character_Ses_TKR_Rifleman_base.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#DRG_TKR_Roles_Sniper"
+    Icon "{0C058E04C5ACCE05}UI/Icons/sniper.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{81EB948E6414BD6F}Prefabs/Weapons/Rifles/M14/Rifle_M21_ARTII.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{FF677B92F9207EEF}Prefabs/Characters/HeadGear/Hat_FlatCap_01/TurbanT01.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{296EFDD750A7B7CB}Prefabs/Characters/Uniforms/TakShirts/ChilabaFull05.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6586FC580B8096AD}" {
+     TargetStorage "Jacket/ChilabaFull05.et"
+    }
+    ItemsInitConfigurationItem "{6586FC580BD1FA4A}" {
+     TargetStorage "Jacket/ChilabaFull05.et"
+    }
+    ItemsInitConfigurationItem "{6586FC580BEFCB9E}" {
+     TargetStorage "Vest/Vest_Type56.et"
+    }
+    ItemsInitConfigurationItem "{6586FC5BBC416173}" {
+     PrefabsToSpawn {
+      "{BCB5E5C608ECFF50}Prefabs/Weapons/Magazines/Magazine_762x51_M14_20rnd_M80.et" "{BCB5E5C608ECFF50}Prefabs/Weapons/Magazines/Magazine_762x51_M14_20rnd_M80.et" "{BCB5E5C608ECFF50}Prefabs/Weapons/Magazines/Magazine_762x51_M14_20rnd_M80.et" "{BCB5E5C608ECFF50}Prefabs/Weapons/Magazines/Magazine_762x51_M14_20rnd_M80.et" "{BCB5E5C608ECFF50}Prefabs/Weapons/Magazines/Magazine_762x51_M14_20rnd_M80.et" "{BCB5E5C608ECFF50}Prefabs/Weapons/Magazines/Magazine_762x51_M14_20rnd_M80.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6586FC5BEC4F44F8}" {
+     PrefabsToSpawn {
+      "{BCB5E5C608ECFF50}Prefabs/Weapons/Magazines/Magazine_762x51_M14_20rnd_M80.et" "{BCB5E5C608ECFF50}Prefabs/Weapons/Magazines/Magazine_762x51_M14_20rnd_M80.et" "{BCB5E5C608ECFF50}Prefabs/Weapons/Magazines/Magazine_762x51_M14_20rnd_M80.et" "{BCB5E5C608ECFF50}Prefabs/Weapons/Magazines/Magazine_762x51_M14_20rnd_M80.et" "{BCB5E5C608ECFF50}Prefabs/Weapons/Magazines/Magazine_762x51_M14_20rnd_M80.et" "{BCB5E5C608ECFF50}Prefabs/Weapons/Magazines/Magazine_762x51_M14_20rnd_M80.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+     }
+    }
+   }
+  }
+ }
+}

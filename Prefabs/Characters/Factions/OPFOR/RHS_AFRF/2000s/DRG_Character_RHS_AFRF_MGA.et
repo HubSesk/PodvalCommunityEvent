@@ -1,0 +1,31 @@
+SCR_ChimeraCharacter : "{AF8BD3C1C0225999}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2000s/DRG_Character_RHS_AFRF_MGAB.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab ""
+      }
+     }
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_AmmoBearer"
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{64D34CAADEE30506}" {
+     TargetStorage "ArmoredVest/Vest_6B3.et"
+    }
+    ItemsInitConfigurationItem "{64D34CA83FDC3F41}" {
+     TargetStorage "Back/Backpack_Kolobok.et"
+    }
+   }
+  }
+ }
+}

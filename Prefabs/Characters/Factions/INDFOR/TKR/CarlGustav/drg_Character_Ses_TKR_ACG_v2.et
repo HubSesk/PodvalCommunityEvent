@@ -1,0 +1,27 @@
+SCR_ChimeraCharacter : "{528F1A73E82DBCCB}Prefabs/Characters/Factions/INDFOR/TKR/Rifleman/drg_Character_Ses_TKR_Rifleman_v5.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#DRG_TKR_Roles_Ammobearer"
+    Icon "{EA3F6C9AF1C5F780}UI/Icons/supplie.edds"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Back {
+     Prefab "{4BA48D3B0E53DF91}Prefabs/Items/Equipment/Backpacks/Rucksack_84mm_MAW_Carrier.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6586FC5BEC4F44F8}" {
+     PrefabsToSpawn {
+      "{F2E474689BD7C2E1}Prefabs/Weapons/Ammo/Ammo_Rocket_HEAT_L40.et" "{F2E474689BD7C2E1}Prefabs/Weapons/Ammo/Ammo_Rocket_HEAT_L40.et" "{F2E474689BD7C2E1}Prefabs/Weapons/Ammo/Ammo_Rocket_HEAT_L40.et"
+     }
+    }
+   }
+  }
+ }
+}

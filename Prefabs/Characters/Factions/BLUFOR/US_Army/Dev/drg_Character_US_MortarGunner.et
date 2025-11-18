@@ -1,0 +1,21 @@
+SCR_ChimeraCharacter : "{903097F658A99BE3}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_Rifleman.et" {
+ ID "520EC961A090BBD5"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#DRG-Role-MortarGunner"
+    Icon "{E897433F42FEC3C0}UI/Icons/mortar.edds"
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{64CF2A7B4E32A917}" {
+     TargetStorage "Jacket/Jacket_US_BDU.et"
+     PrefabsToSpawn {
+      "{6113990D163E5249}Prefabs/Items/Equipment/BalisticTable/BalisticTable_US.et"
+     }
+    }
+   }
+  }
+ }
+}

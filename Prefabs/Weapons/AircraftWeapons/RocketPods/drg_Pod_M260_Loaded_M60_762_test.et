@@ -1,0 +1,55 @@
+GenericEntity : "{CA43E7527570A5ED}Prefabs/Weapons/AircraftWeapons/RocketPods/Pod_M260.et" {
+ ID "5102FE5B14D4181C"
+ components {
+  WeaponSoundComponent "{5A8685198A9AEEDD}" {
+   Filenames {
+    "{D10BFA0E62F81545}Sounds/Weapons/Machineguns/M60D/Weapons_Machineguns_M60D_Shot.acp" "{EEAE2427DD990D12}Sounds/Weapons/AircraftWeapons/RocketPods/Weapons_RocketPods_Generic_Handling.acp"
+   }
+  }
+  MeshObject "{CFBAA4B701F95D69}" {
+   Object "{5834630A2187FFA8}Assets/Weapons/MachineGuns/M60D/M60D_body.xob"
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    SCR_RocketEjectorMuzzleComponent "{61A6977B6DC1FE72}" {
+     components {
+      MultiBarrelMuzzleEffectComponent "{61A6977B64FD4BE6}" {
+       ParticleEffect "{EE9477AA6CC1C722}Particles/Weapon/Muzzle_M60.ptc"
+      }
+      MuzzleEffectComponent "{61A8B0C343680103}" {
+       ParticleEffect "{EE9477AA6CC1C722}Particles/Weapon/Muzzle_M60.ptc"
+      }
+     }
+     FireModes {
+      BaseFireMode "{61A6A08EA527A7A9}" {
+      }
+     }
+     ProjectilePositions {
+      InventoryStorageSlot rocket01 {
+       Prefab "{9F39DD07E2860466}Prefabs/Weapons/Ammo/SmallArms/Ammo_762x51_AP_M61.et"
+      }
+      InventoryStorageSlot rocket02 {
+       Prefab "{9F39DD07E2860466}Prefabs/Weapons/Ammo/SmallArms/Ammo_762x51_AP_M61.et"
+      }
+      InventoryStorageSlot rocket03 {
+       Prefab "{9F39DD07E2860466}Prefabs/Weapons/Ammo/SmallArms/Ammo_762x51_AP_M61.et"
+      }
+      InventoryStorageSlot rocket04 {
+       Prefab "{9F39DD07E2860466}Prefabs/Weapons/Ammo/SmallArms/Ammo_762x51_AP_M61.et"
+      }
+      InventoryStorageSlot rocket05 {
+       Prefab "{9F39DD07E2860466}Prefabs/Weapons/Ammo/SmallArms/Ammo_762x51_AP_M61.et"
+      }
+      InventoryStorageSlot rocket06 {
+       Prefab "{9F39DD07E2860466}Prefabs/Weapons/Ammo/SmallArms/Ammo_762x51_AP_M61.et"
+      }
+      InventoryStorageSlot rocket07 {
+       Prefab "{9F39DD07E2860466}Prefabs/Weapons/Ammo/SmallArms/Ammo_762x51_AP_M61.et"
+      }
+     }
+     m_sDefaultAmmoPrefab "{9CCBDD2ACB73FFA9}Prefabs/Weapons/Ammo/SmallArms/Ammo_762x51_Tracer_M62.et"
+    }
+   }
+  }
+ }
+}

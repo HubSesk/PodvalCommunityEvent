@@ -1,0 +1,27 @@
+GenericEntity : "{DAE1063D0AF1A9C4}Prefabs/Props/Military/HolyShitAmmoBox/draggableBox.et" {
+ ID "5968D2B6A82C6019"
+ components {
+  MeshObject "{5968D9C73C08706E}" {
+   Materials {
+    MaterialAssignClass "{6503489B099C8BAC}" {
+     SourceMaterial "EquipmentBoxWooden_Explosives_01"
+     AssignedMaterial "{8024926C8E4B04DA}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/Data/EquipmentBoxWooden_Explosives_01_USSR.emat"
+    }
+    MaterialAssignClass "{6503489B099C8B87}" {
+     SourceMaterial "EquipmentBoxWooden_decal"
+     AssignedMaterial "{17332645A86C9BA6}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/Data/EquipmentBoxWooden_decal_USSR.emat"
+    }
+   }
+  }
+  SCR_FilteredInventoryStorageComponent "{6502F4865972C6CB}" {
+   MultiSlots {
+    MultiSlotConfiguration "{65033D740881BB71}" {
+     SlotTemplate InventoryStorageSlot attachment {
+      Prefab "{98EC9C526AFBA282}Prefabs/Weapons/Ammo/Ammo_Shell_82mm_HE_O832DU.et"
+     }
+     NumSlots 40
+    }
+   }
+  }
+ }
+}

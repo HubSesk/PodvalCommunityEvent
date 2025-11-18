@@ -1,0 +1,59 @@
+GenericEntity : "{8BE7138FF2EDB2F5}Prefabs/Weapons/Assault/SCAR_H/Rifle_SCAR_H_MREX_EOT.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{64615D5DD76DAECE}" {
+     AttachmentSlot InventoryStorageSlot optic_ris {
+      Prefab "{7FC82F39B98AF906}Prefabs/Weapons/Attachments/Optics/ts30a2/optic_ts30a2_no_covers.et"
+     }
+    }
+    AttachmentSlotComponent "{64615D5DD76DAED4}" {
+     AttachmentSlot InventoryStorageSlot BayonetSlot {
+     }
+    }
+    AttachmentSlotComponent "{65D1526A0C9970AA}" {
+     AttachmentSlot EquipmentStorageSlot rails_left {
+      Offset 0.0254 0.0346 0.3045
+      Angles 0 0 90
+      Prefab "{7279721D20AD7855}Prefabs/Weapons/Attachments/Rails/b18/drg_mlokrail.et"
+     }
+     AttachmentType AttachmentM40Rail "{65D1526A18AD0408}" {
+     }
+    }
+    AttachmentSlotComponent "{65D1526AACED1AE5}" {
+     AttachmentSlot InventoryStorageSlot rangefinder {
+      Offset -0.0354 0.0324 0.3373
+      Angles 0 0 270
+      ChildPivotID "snap_weapon"
+      Prefab "{A7C848BABE4F4577}Prefabs/Weapons/Attachments/Lasers/psq23/LaserRangefinder_PSQ23_base.et"
+      InspectionWidgetOffset -0.0589 0.0324 0.2548
+     }
+     AttachmentType AttachmentRIS1913Short "{65D1526965F5F8B3}" {
+     }
+     ShowInInspection 1
+    }
+    AttachmentSlotComponent "{65D1526BBCB490D0}" {
+     AttachmentSlot InventoryStorageSlot rails_left {
+      Offset -0.026 0.0346 0.3049
+      Angles 0 0 270
+      Prefab "{7279721D20AD7855}Prefabs/Weapons/Attachments/Rails/b18/drg_mlokrail.et"
+     }
+     AttachmentType AttachmentM40Rail "{65D1526B9D048658}" {
+     }
+    }
+    AttachmentSlotComponent "{65D1526FB7589397}" {
+     AttachmentSlot InventoryStorageSlot "{65D1526F8331F203}" {
+      Offset 0.0363 0.0338 0.3373
+      Angles 0 0 90
+      ChildPivotID "snap_weapon"
+      InspectionWidgetOffset 0.0463 0.0338 0.2735
+     }
+     AttachmentType AttachmentRIS1913Short "{65D1526D510E34D4}" {
+     }
+     ShowInInspection 1
+    }
+   }
+  }
+ }
+}

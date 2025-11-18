@@ -1,0 +1,26 @@
+SCR_ChimeraCharacter : "{8085D2DE2CC67C8E}Prefabs/Characters/Factions/INDFOR/Drg_VCA/drg_Character_VCA_SR.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_SquadLeader"
+    Icon "{61B33057F7F0A4AE}UI/Icons/squad_leader.edds"
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{65D68EE72CEBEB70}" {
+     PrefabsToSpawn {
+      "{E07B25D9851B3AAA}Prefabs/Items/Equipment/Radios/drg_VCA_Radio_R148_SL.et"
+     }
+    }
+    ItemsInitConfigurationItem "{65D68EE6F0D9C23C}" {
+     TargetStorage "Back/Backpack_Kolobok_vietnam.et"
+     PrefabsToSpawn {
+      "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+     }
+    }
+   }
+  }
+ }
+}

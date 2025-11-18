@@ -1,3 +1,21 @@
-SCR_ChimeraCharacter : "{AD01286E7C3D0078}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/SOCOM/drg_Role_RHS_USAF_SOCOM_ScoutRTO.et" {
+SCR_ChimeraCharacter : "{77CEB3DBF1D962A2}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/SOCOM/drg_Role_RHS_USAF_SOCOM_Officer.et" {
  ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{03810BEF182ADA0B}Prefabs/Items/Equipment/Binoculars/Rangefinder_Vector21.et"
+      }
+     }
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#DRG-Role_Recon_Officer"
+   }
+  }
+ }
 }

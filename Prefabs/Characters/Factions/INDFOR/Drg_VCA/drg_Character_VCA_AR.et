@@ -1,0 +1,29 @@
+SCR_ChimeraCharacter : "{AFD656F1D9ACD98F}Prefabs/Characters/Factions/INDFOR/Drg_VCA/drg_Character_VCA_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#DRG-Role-SubmachineGunner"
+    Icon "{0284ABAAB8CCDEF1}UI/Icons/automatic_rifleman.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{6AA1C567A2F7F8CE}Prefabs/Weapons/Rifles/PPSH41/BC_PPSh41.et"
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{65D68EE3DC040E80}" {
+     PrefabsToSpawn {
+      "{4198718E0E2A3A83}Prefabs/Weapons/Magazines/PPSH41/BC_Magazine_71rd_PPSH41.et" "{4198718E0E2A3A83}Prefabs/Weapons/Magazines/PPSH41/BC_Magazine_71rd_PPSH41.et" "{4198718E0E2A3A83}Prefabs/Weapons/Magazines/PPSH41/BC_Magazine_71rd_PPSH41.et" "{4198718E0E2A3A83}Prefabs/Weapons/Magazines/PPSH41/BC_Magazine_71rd_PPSH41.et" "{4198718E0E2A3A83}Prefabs/Weapons/Magazines/PPSH41/BC_Magazine_71rd_PPSH41.et" "{4198718E0E2A3A83}Prefabs/Weapons/Magazines/PPSH41/BC_Magazine_71rd_PPSH41.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+     }
+    }
+    ItemsInitConfigurationItem "{65D68EE3DC8A11DC}" {
+     TargetStorage "Back/Backpack_Kolobok_vietnam.et"
+     PrefabsToSpawn {
+      "{4198718E0E2A3A83}Prefabs/Weapons/Magazines/PPSH41/BC_Magazine_71rd_PPSH41.et" "{4198718E0E2A3A83}Prefabs/Weapons/Magazines/PPSH41/BC_Magazine_71rd_PPSH41.et" "{4198718E0E2A3A83}Prefabs/Weapons/Magazines/PPSH41/BC_Magazine_71rd_PPSH41.et" "{4198718E0E2A3A83}Prefabs/Weapons/Magazines/PPSH41/BC_Magazine_71rd_PPSH41.et" "{4198718E0E2A3A83}Prefabs/Weapons/Magazines/PPSH41/BC_Magazine_71rd_PPSH41.et" "{4198718E0E2A3A83}Prefabs/Weapons/Magazines/PPSH41/BC_Magazine_71rd_PPSH41.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+     }
+    }
+   }
+  }
+ }
+}

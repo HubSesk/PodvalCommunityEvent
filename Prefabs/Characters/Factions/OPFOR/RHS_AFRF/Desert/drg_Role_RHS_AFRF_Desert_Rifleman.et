@@ -1,0 +1,79 @@
+SCR_ChimeraCharacter : "{3029E2F540F16EBC}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Desert/drg_Role_RHS_AFRF_Desert_Unnarmed.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_Rifleman"
+    Icon "{29DF9BB937ACDCDE}UI/Icons/rifleman.edds"
+   }
+  }
+  CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
+   WeaponTemplate "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+  }
+  CharacterGrenadeSlotComponent "{5A6CDA0CCF43068E}" {
+   WeaponTemplate "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{FA8BE6075AFFBCA8}Prefabs/Weapons/Rifles/AK74M/Rifle_AK74M.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{4BBB5FC184FB181F}Prefabs/Characters/HeadGear/Helmet_6B47/Helmet_6B47_6M2.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{B9821AF2F5D104E4}Prefabs/Characters/Vests/Vest_Ratnik_6B45/Vest_Ratnik_6B45.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{21B331B5FA807997}Prefabs/Characters/Footwear/Boots_Rocky_SV2/Footwear_Rocky_SV2.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{45DC01791EBE2349}Prefabs/Items/Equipment/Backpacks/backpack_Wartech_BB102/Backpack_Wartech_BB102_EMR.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{20CFD20350444288}Prefabs/Characters/Vests/Vest_Ratnik_6B45/Variants/Vest_Ratnik_6B45_rifleman.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{E9BD1B8888B6F37D}Prefabs/Characters/Handwear/Ratnik_gloves/Ratnik_gloves.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6528F2E079033878}" {
+     TargetStorage "Jacket/Jacket_6Sh122_Syrian_Digital.et"
+    }
+    ItemsInitConfigurationItem "{6620DBCB240C83F8}" {
+     TargetStorage "Jacket/Jacket_6Sh122_Syrian_Digital.et"
+     PrefabsToSpawn {
+      "{A2DD1D2EEB52BFC0}Prefabs/Items/Equipment/Radios/Radio_R187P1_OLD_prv.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6620DBCB021F128E}" {
+     TargetStorage "Vest/Vest_Ratnik_6B45_rifleman.et/Pouch1/Pouch_Ratnik_ak_1_pouch.et"
+     PrefabsToSpawn {
+      "{1F6DC70B4798A3B4}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Ball.et" "{1F6DC70B4798A3B4}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Ball.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6620DBCB025E3BB6}" {
+     TargetStorage "Vest/Vest_Ratnik_6B45_rifleman.et/Pouch2/Pouch_Ratnik_ak_2_pouch.et"
+     PrefabsToSpawn {
+      "{1F6DC70B4798A3B4}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Ball.et" "{1F6DC70B4798A3B4}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Ball.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6620DBCB02D0500A}" {
+     TargetStorage "Vest/Vest_Ratnik_6B45_rifleman.et/Pouch3/Pouch_Ratnik_ak_3_pouch.et"
+     PrefabsToSpawn {
+      "{1F6DC70B4798A3B4}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Ball.et" "{1F6DC70B4798A3B4}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Ball.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6620DBCB11851631}" {
+     TargetStorage "Back/Backpack_Wartech_BB102_EMR.et"
+     PrefabsToSpawn {
+      "{1F6DC70B4798A3B4}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Ball.et" "{1F6DC70B4798A3B4}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Ball.et" "{1F6DC70B4798A3B4}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Ball.et" "{1F6DC70B4798A3B4}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Ball.et" "{1F6DC70B4798A3B4}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Ball.et" "{1F6DC70B4798A3B4}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Ball.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,106 @@
+GenericEntity : "{42894F191BC9EDE1}Prefabs/Props/Core/AmmoBox_Base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{E6010A8C85942B48}Assets/Props/Military/AmmoBox/AmmoBox_81mm_mortar_3rnd/AmmoBox_81mm_mortar_3rnd.xob"
+  }
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   ResponseIndex "SmallDestructible"
+   Static 1
+  }
+  SCR_FilteredInventoryStorageComponent "{5476A2F100DF4EFF}" {
+   Attributes SCR_ItemAttributeCollection "{5476CDB2EAD8225E}" {
+    ItemDisplayName SCR_InventoryUIInfo "{64DCE9F0DEE5CC57}" {
+     Name "Осколочные мины"
+     Description "#AR-Ammobox_81mm_Mortar_3rnd_Description"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{64DCE9F0DEE5CC5D}" {
+     Weight 0.9
+     SizeSetupStrategy Manual
+     ItemDimensions 15 15 15
+     ItemVolume 2500
+     DimensionScaler 1
+     RestingAdditiveRotationLS 0 0 0
+     RestingAdditiveOffsetLS 0 0 0
+    }
+    ItemAnimationAttributes ItemAnimationAttributes "{64DCE9F0DEE5CC22}" {
+     AnimationAttachments {
+      AnimationAttachmentInfo "{64DCE9F0DEE5CC20}" {
+       AnimGraph "{44A1E0130301E5F5}Assets/Items/Equipment/workspaces/MedicalKit_supplies.agr"
+       AnimInstance "{A9CBB5C81F08B71B}Assets/Items/Equipment/workspaces/MedicalKit_supplies.asi"
+       BindingName "Gadget"
+      }
+     }
+     HandAdditiveTranslation 0 -0.34 0
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{64DCE9F0DEE5CC2B}" {
+      CameraOrbitAngles -10 10 0
+      CameraDistanceToItem 0.65
+      FOV 60
+      AspectRatio 1
+      LodModel 1
+     }
+     CharacterModifierAttributes "{64DCE9F0DEE5CC28}" {
+      StanceLimits 0.025 1
+      SpeedLimit 1.7
+      ADSSpeedLimit 1.7
+      SpeedLimitItemPrimaryAction 0
+      SpeedLimitHighready 1.7
+      CanBeEquippedInVehicle 0
+      AllowJumping 0
+     }
+    }
+   }
+   UseCapacityCoefficient 0
+   MaxCumulativeVolume 6300
+   MaxItemSize 8 8 20
+   SaveInLoadout 0
+   MultiSlots {
+    MultiSlotConfiguration "{64DCE9F0D467E3A0}" {
+     SlotTemplate InventoryStorageSlot "{64DCC2F489C88F5C}" {
+      Prefab "{8AEB3E3846780747}Prefabs/Weapons/Ammo/Ammo_Shell_81mm_HE_M821_EffectModule.et"
+     }
+     NumSlots 3
+    }
+   }
+   m_aAllowedItemTypes {
+    "AMMO_MORTAR"
+   }
+   m_fMaxWeight 17
+  }
+  SCR_GadgetComponent "{64DCE9F0DEE5CC2C}" {
+   m_eAnimVariable ADRIANOV
+  }
+  SCR_SoundDataComponent "{5C53391603B5CF41}" {
+   m_aAudioSourceConfiguration {
+    SCR_AudioSourceConfiguration "{5C5339160C8869E2}" {
+     m_sSoundProject "{0A400B6DFDA2B38E}Sounds/Props/Military/AmmoBoxes/Props_PickUp_AmmoBox_8xmm.acp"
+     m_sSoundEventName "SOUND_DROP"
+    }
+    SCR_AudioSourceConfiguration "{5C533916090D28B6}" {
+     m_sSoundProject "{0A400B6DFDA2B38E}Sounds/Props/Military/AmmoBoxes/Props_PickUp_AmmoBox_8xmm.acp"
+     m_sSoundEventName "SOUND_PICK_UP"
+    }
+   }
+  }
+  ActionsManagerComponent "{5476B36C403D4CC0}" {
+   ActionContexts {
+    UserActionContext "{5476B36C47B0461A}" {
+     Position PointInfo "{5476B36C45ADDA89}" {
+      Offset 0 0.25 0
+     }
+    }
+   }
+   additionalActions {
+    SCR_PickUpItemAction "{61B0B873996B6099}" : "{F39A4E9B190C1846}Prefabs/Characters/Core/Actions/PickUpItemAction.conf" {
+    }
+    SCR_LoadItemsAction "{61B0B8637C7F0826}" : "{E4FDAEDC13236003}Prefabs/Characters/Core/Actions/LoadItemsAction.conf" {
+    }
+   }
+  }
+  RplComponent "{5476B36C54387F41}" {
+   "Parent Node From Parent Entity" 0
+  }
+ }
+}

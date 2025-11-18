@@ -1,0 +1,35 @@
+FrameWidgetClass {
+ Name "rootFrame"
+ components {
+  PS_MissionDescriptionContentUI "{5EC27C7C182EA2DF}" {
+  }
+  PS_MissionDescriptionEditableUI "{5EE526C61B2016C3}" {
+  }
+ }
+ {
+  ScrollLayoutWidgetClass "{60D4D4770A4C8F58}" {
+   Name "ScrollLayout0"
+   Slot FrameWidgetSlot "{60D4D4770A4C8F0F}" {
+    PositionX 15
+    OffsetLeft 15
+    PositionY 15
+    OffsetTop 15
+    SizeX 465
+    OffsetRight -480
+    SizeY 586
+    OffsetBottom -601
+   }
+   {
+    RichTextWidgetClass "{60D4D4770C5B1298}" {
+     Name "RichTextEditable"
+     Slot AlignableSlot "{60D4D4770A2A043D}" {
+     }
+     Text ""
+     "Font Size" 20
+     "Min Font Size" 20
+     Wrap 1
+    }
+   }
+  }
+ }
+}

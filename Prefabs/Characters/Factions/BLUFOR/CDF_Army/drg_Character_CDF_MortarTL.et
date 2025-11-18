@@ -1,0 +1,34 @@
+SCR_ChimeraCharacter : "{14B773656108F1C6}Prefabs/Characters/Factions/BLUFOR/CDF_Army/drg_Character_CDF_SL.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#DRG-Role-Mortar-TL"
+    Icon "{E897433F42FEC3C0}UI/Icons/mortar.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{FA5C25BF66A53DCF}Prefabs/Weapons/Rifles/AK74/Rifle_AK74.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{4D8F3F77D46DB43A}Prefabs/Characters/HeadGear/Helmet_PASGT_01/Helmet_Dubok_PASGT_Googles_CDF.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{C3351EC6D64ED74A}Prefabs/Items/Equipment/Radios/drg_Radio_ANPRC77.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6513184ED09FE395}" {
+     TargetStorage "ArmoredVest/Vest_6B3_Dubok_CDF.et"
+     PrefabsToSpawn {
+      "{B41607EAB58A4252}Prefabs/Items/Equipment/BalisticTable/BalisticTable_USSR.et"
+     }
+    }
+   }
+  }
+ }
+}

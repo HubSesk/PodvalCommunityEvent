@@ -1,0 +1,21 @@
+GenericEntity : "{D30D4FA5A82D6F0D}Prefabs/Items/Equipment/RangeCard/RangeCard_Notepad_Base.et" {
+ ID "508AB2013EEE1E00"
+ components {
+  Drg_NotepadRtComponent "{61ECFCAC76676880}" {
+   Enabled 1
+   m_sText "Вы в целом нейтральный человек, можете помочь как и провоохранительным органам, так и преступникам, всё зависит от происходящего. "
+  }
+  SCR_EditableEntityComponent "{6454F7BC2D92720E}" {
+   m_VariantData SCR_EditableEntityVariantData "{6454F7BC2FA801A1}" {
+    m_aVariants {
+     SCR_EditableEntityVariant "{6454F7BC293D9C86}" {
+      m_sVariantPrefab "{5D991E8E44D7A50D}Prefabs/Items/Equipment/RangeCard/Note_bad.et"
+     }
+     SCR_EditableEntityVariant "{6454F7BC28C8585F}" {
+      m_sVariantPrefab "{AD0EB444380A16CA}Prefabs/Items/Equipment/RangeCard/Note_good.et"
+     }
+    }
+   }
+  }
+ }
+}

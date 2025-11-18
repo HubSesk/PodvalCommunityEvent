@@ -1,0 +1,142 @@
+GenericEntity : "{5879D8E9C56E358D}Prefabs/Items/Core/Radio_base.et" {
+ ID "508AB2013EEE1E00"
+ components {
+  BaseRadioComponent "{5A30BAE7673C63CA}" {
+   "Encryption key" "royalCrown"
+   "Turned on" 1
+   Transceivers {
+    RadioTransceiver "{6574E3181BCB950D}" {
+     ChannelFrequency 37000
+     "Transmitting Range" 1500
+     "Min tunable frequency" 37000
+     "Max tunable frequency" 46500
+     "Frequency resolution" 100
+    }
+    RadioTransceiver "{6574E3181BCB9513}" {
+     ChannelFrequency 46000
+     "Transmitting Range" 1500
+     "Min tunable frequency" 37000
+     "Max tunable frequency" 46500
+     "Frequency resolution" 100
+    }
+   }
+  }
+  InventoryItemComponent "{5222EB4D0C73006B}" {
+   Attributes SCR_ItemAttributeCollection "{5222EB4D0A2B466B}" {
+    ItemDisplayName UIInfo "{5222EB4D07D865FA}" {
+     Name "#BF-Item_Radio_PRC349_Name"
+     Description "#BF-Item_Radio_PRC349_Description"
+     Icon "{2FBD8DA665FB8AF1}UI/Textures/VON/ANPRC68-100px_UI.edds"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 1.6
+     SizeSetupStrategy Manual
+     ItemVolume 300
+     RestingUP Forward
+     RestingAdditiveOffsetLS 0 0 0.15
+    }
+    ItemAnimationAttributes ItemAnimationAttributes "{6574E3181BCB951B}" {
+     AnimationInstance "{332D4A7512E78419}Assets/Items/Equipment/workspaces/Radio_ANPRC68_player.asi"
+     AnimationAttachments {
+      AnimationAttachmentInfo "{6574E3181BCB9519}" {
+       AnimGraph "{402BB5FA2891D687}Assets/Items/Equipment/workspaces/Radio_ANPRC68.agr"
+       AnimInstance "{332D4A7512E78419}Assets/Items/Equipment/workspaces/Radio_ANPRC68_player.asi"
+       BindingName "Gadget"
+      }
+     }
+     AllowInspection 1
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{6574E3181BCB95E5}" {
+      CameraPreset Back
+      CameraOrbitAngles 0 -30 180
+      CameraDistanceToItem 0.3
+      CameraOffset 0 -0.19 0
+      FOV 60
+     }
+     SCR_VONPreviewAttributes "{6574E3181BCB95E2}" {
+      CameraPreset Back
+      CameraOrbitAngles 0 -30 180
+      CameraDistanceToItem 0.4
+      CameraOffset 0 -0.18 0
+      FOV 60
+     }
+    }
+    CommonItemType "RADIO"
+    m_SlotType SLOT_GADGETS_STORAGE
+   }
+  }
+  MeshObject "{5A30BAE7673C63D1}" {
+   Object "{1E599BEBF5DBF72A}Assets/Items/Equipment/Radios/PRC349/Game_PRC349.xob"
+  }
+  RigidBody "{5A30BAE7673C63D3}" {
+   CenterOfMass 0 0.1 0
+   ModelGeometry 1
+   CCDRadius 0.015
+  }
+  ProcAnimComponent "{6574E3181BCB95ED}" {
+   Enabled 0
+   Parameters {
+    ProcAnimParams "{6574E3181BCB95E9}" {
+     ResourceName "{F335B90D4353B9A4}Assets/Items/Equipment/Radios/Radio_ANPRC68/Radio_ANPRC68_01.pap"
+     BoneNames {
+      "" "i_power" "i_volume"
+     }
+     SimulationDistance 20
+     SimulateOnDedicatedServer 0
+    }
+   }
+  }
+  SCR_RadioComponent "{5A30BAE7673C63D4}" {
+   m_eAnimVariable ANPRC68
+  }
+  ActionsManagerComponent "{508AB5952B584B2E}" {
+   ActionContexts {
+    UserActionContext "{508AC2ABEC97066C}" {
+     Position PointInfo "{508AC2ABEAC4A0F5}" {
+      Offset 0 0.1 0
+     }
+     Radius 0.115
+    }
+    UserActionContext "{6574E3181BCB95F2}" {
+     ContextName "knob_channel"
+     Position PointInfo "{6574E3181BCB95F1}" {
+      Offset -0.0213 0.1458 -0.0246
+     }
+     Radius 0.1
+    }
+    UserActionContext "{6574E3181BCB95F0}" {
+     ContextName "knob_toggle"
+     Position PointInfo "{6574E3181BCB95FF}" {
+      Offset 0.0031 0.2186 -0.0025
+     }
+     Radius 0.1
+    }
+   }
+   additionalActions {
+    SCR_EquipItemAction "{553AEBE8F3B60801}" : "{068D8D646964D12A}Prefabs/Characters/Core/Actions/EquipGadgetAction.conf" {
+    }
+    SCR_RadioTuningUserAction "{6574E3181BCB95FC}" {
+     ParentContextList {
+      "knob_channel"
+     }
+     UIInfo UIInfo "{6574E3181BCB95C6}" {
+     }
+    }
+    SCR_RadioTuningUserAction "{6574E3181BCB95C5}" {
+     ParentContextList {
+      "knob_channel"
+     }
+     UIInfo UIInfo "{6574E3181BCB95C4}" {
+     }
+     m_bTuneUp 1
+    }
+    SCR_RadioToggleUserAction "{6574E3181BCB95C3}" {
+     ParentContextList {
+      "knob_toggle"
+     }
+    }
+   }
+  }
+ }
+}

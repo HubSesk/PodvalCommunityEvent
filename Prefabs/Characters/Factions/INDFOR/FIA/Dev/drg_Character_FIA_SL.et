@@ -1,0 +1,27 @@
+SCR_ChimeraCharacter : "{8E7BF2B7BBF131CA}Prefabs/Characters/Factions/INDFOR/FIA/Dev/drg_Character_FIA_SR.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_SquadLeader"
+    Icon "{61B33057F7F0A4AE}UI/Icons/squad_leader.edds"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{AA5BAD3BE4FFAE3A}Prefabs/Characters/Vests/Vest_6B2/drg_Vest_6B2_FIA.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{65F2DDE3D7694BDA}" {
+     PrefabsToSpawn {
+      "{DB600C5EAB00714B}Prefabs/Items/Equipment/Radios/Radio_R148_FIA_SL.et"
+     }
+    }
+   }
+  }
+ }
+}

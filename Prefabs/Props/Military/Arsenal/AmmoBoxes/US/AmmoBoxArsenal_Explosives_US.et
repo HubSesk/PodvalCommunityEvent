@@ -1,0 +1,45 @@
+GenericEntity : "{541D161EFAF67003}Prefabs/Props/Military/Arsenal/AmmoBoxes/AmmoBoxArsenal_Explosives_Base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{26602B855125635D}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/EquipmentBoxWooden_Explosives_01.xob"
+  }
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   ResponseIndex "TinyDestructible"
+  }
+  SCR_ArsenalComponent "{589F01C9C8D4A475}" {
+   Enabled 0
+  }
+  SCR_FactionAffiliationComponent "{5A50E7650A1AE9EC}" {
+   Enabled 0
+   "faction affiliation" "US"
+  }
+  SCR_ResourceComponent "{5E5ABDF371AE8B21}" {
+   Enabled 0
+  }
+  SCR_ResupplySupportStationComponent "{5E2CE1BA1701C633}" {
+   Enabled 0
+  }
+  SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+   Enabled 1
+   MultiSlots {
+    MultiSlotConfiguration "{6454F7B888021115}" {
+     SlotTemplate InventoryStorageSlot "{6454F7B8814B93F4}" {
+      Prefab "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et"
+     }
+     NumSlots 2
+    }
+   }
+  }
+  UniversalInventoryStorageComponent "{58A17A341AB8F069}" {
+   Attributes SCR_ItemAttributeCollection "{58A17A346E386320}" {
+    ItemDisplayName SCR_InventoryUIInfo "{58A17A3474A3430E}" {
+     Name "#AR-EditableEntity_AmmoBoxArsenal_Explosives_US_Name"
+    }
+   }
+  }
+  SCR_ArsenalInventoryStorageManagerComponent "{58A0B19B1E191CC1}" {
+   Enabled 0
+  }
+ }
+}

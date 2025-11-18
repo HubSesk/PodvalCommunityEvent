@@ -1,0 +1,25 @@
+SCR_ChimeraCharacter : "{6FC401AA6604AD96}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_Rebel_P.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Jacket {
+     Prefab "{7F1451790F3D75BD}Prefabs/Characters/Uniforms/Jacket_Raincoat_01/Jacket_Raincoat_01_green.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{E65D5C9848AC18E9}Prefabs/Characters/Uniforms/Pants_Suit_01/Pants_Suit_01_brown_V1.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{5D7CC173FAA7C00E}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Pants_Suit_01/Pants_Suit_01_brown_V1.et"
+    }
+    ItemsInitConfigurationItem "{5D7CC173FAA7C00C}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Jacket_Raincoat_01/Jacket_Raincoat_01_green.et"
+    }
+   }
+  }
+ }
+}

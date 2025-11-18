@@ -1,0 +1,52 @@
+GenericEntity : "{9B6B61BB3FE3DFB0}Prefabs/Items/Equipment/Radios/Radio_ANPRC77.et" {
+ ID "508AB2013EEE1E00"
+ components {
+  BaseRadioComponent "{5A30BAE7673C63CA}" {
+   "Encryption key" "royalCrown"
+   "Turned on" 1
+   Transceivers {
+    RadioTransceiver "{5EA4A89F0D06E18F}" {
+     ChannelFrequency 46000
+     "Transmitting Range" 5000
+     "Min tunable frequency" 36000
+     "Max tunable frequency" 56500
+     "Frequency resolution" 100
+    }
+   }
+  }
+  MeshObject "{5A30BAE7673C63D1}" {
+   Object "{2B2DB1B26184D8AA}Assets/Items/Equipment/Radios/Radio_RF10/Radio_RF10_01_item_02.xob"
+  }
+  SCR_DeployableInventoryItemInventoryComponent "{5222EB4D0C73006B}" {
+   Attributes SCR_ItemAttributeCollection "{5222EB4D0A2B466B}" {
+    ItemDisplayName UIInfo "{5222EB4D07D865FA}" {
+     Name "#BF-Item_Radio_PRC350_Name"
+     Description "#BF-Item_Radio_PRC350_Description"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 3.6
+     ItemDimensions 15 15 15
+     ItemVolume 5000
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{5EA4A89F0D06E1A6}" {
+      PreviewModel "{27624CDFD16D0A5E}Assets/Items/Equipment/Radios/Radio_RF10/Radio_RF10_01.xob"
+     }
+    }
+    m_Size SLOT_2x1
+   }
+  }
+  SCR_RestrictedDeployableSpawnPointComponent "{5EA4A89F0D06E1A8}" {
+   m_sReplacementPrefab "{83ECD6FA95E9DDEC}Prefabs/Systems/DeployableRadios/DeployableItemRadioReplacementUK.et"
+   m_FactionKey "UK"
+   m_fSuppliesValue 100
+   m_iMaxRespawns 3
+  }
+  BaseLoadoutClothComponent "{5EA4A89F0D06E1DE}" {
+   WornModel "{27624CDFD16D0A5E}Assets/Items/Equipment/Radios/Radio_RF10/Radio_RF10_01.xob"
+   ItemModel "{2B2DB1B26184D8AA}Assets/Items/Equipment/Radios/Radio_RF10/Radio_RF10_01_item_02.xob"
+   DeflatedModel "{56E6A1DF76D55753}Assets/Items/Equipment/Radios/Radio_RF10/Radio_RF10_01_Inflated.xob"
+  }
+ }
+ coords 0.38 0.947 -3.138
+}

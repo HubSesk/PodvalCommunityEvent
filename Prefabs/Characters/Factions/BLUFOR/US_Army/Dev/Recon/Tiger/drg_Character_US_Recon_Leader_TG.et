@@ -1,0 +1,57 @@
+SCR_ChimeraCharacter : "{3E31CE9955D03D5F}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/Recon/Tiger/drg_Character_US_Recon_SeniorRifleman_TG.et" {
+ ID "520EC961A090BBD5"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#DRG-Role_ReconSL"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{AE81219082244685}Prefabs/Weapons/Rifles/M16/Variants/Rifle_M16A2_carbine_suppressor_M203_OliveGreen_Sand_Stripes.et"
+  }
+  SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
+   Identity Identity "{5584CBC6363C648B}" {
+    VisualIdentity VisualIdentity "{56E6D9456009D1C4}" {
+     Head "{DF1FE2B1475AD1E8}Prefabs/Characters/Heads/Head_White_09_Camo.et"
+    }
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Vest {
+     Prefab "{18B8B9316B590643}Prefabs/Characters/Vests/Vest_ALICE/Variants/Vest_ALICE_GL.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{61B87CCDC52A0DBF}" {
+     TargetStorage "Vest/Vest_ALICE_GL.et/MagPouch/Pouch_ALICE_30rnd_STANAG_base.et"
+    }
+    ItemsInitConfigurationItem "{61B87CCDC5EFD4EB}" {
+     TargetStorage "Vest/Vest_ALICE_GL.et/Suspenders/Vest_ALICE_suspenders_2.et"
+    }
+    ItemsInitConfigurationItem "{61B87CCA01B3CC3E}" {
+     TargetStorage "Vest/Vest_ALICE_GL.et/MagPouch2/Pouch_ALICE_30rnd_STANAG_base.et"
+    }
+    ItemsInitConfigurationItem "{669A82E1F9473FF2}" {
+     PrefabsToSpawn {
+      "{DB03C02C4AB1E0F0}Prefabs/Items/Equipment/Radios/Radio_ANPRC68_SL.et" "{B8764E1CDC4F4F22}Prefabs/Weapons/Attachments/Optics/Optic_AP2k/Collim_AP2k_OliveGreen_Solid.et"
+     }
+    }
+    ItemsInitConfigurationItem "{669A82E07E1EFAAB}" {
+     TargetStorage "Back/Backpack_ALICE_Medium.et"
+     PrefabsToSpawn {
+      "{5375FA7CB1F68573}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_M406.et" "{5375FA7CB1F68573}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_M406.et" "{5375FA7CB1F68573}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_M406.et" "{5375FA7CB1F68573}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_M406.et" "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et" "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et" "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et" "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et" "{2A63C909016C4C41}Prefabs/Weapons/Ammo/Ammo_Flare_40mm_M662_Red.et" "{0AF10C206CF1A283}Prefabs/Weapons/Ammo/Ammo_Flare_40mm_M661_Green.et" "{906F07BD0366E08F}Prefabs/Weapons/Ammo/Ammo_Flare_40mm_VG40OP_White.et" "{906F07BD0366E08F}Prefabs/Weapons/Ammo/Ammo_Flare_40mm_VG40OP_White.et"
+     }
+    }
+    ItemsInitConfigurationItem "{669A82E050A984B2}" {
+     TargetStorage "Vest/Vest_ALICE_GL.et/FirstAid/Vest_M79GrenadeCarrier.et"
+     PrefabsToSpawn {
+      "{5375FA7CB1F68573}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_M406.et" "{5375FA7CB1F68573}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_M406.et" "{5375FA7CB1F68573}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_M406.et" "{5375FA7CB1F68573}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_M406.et" "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et" "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et" "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et" "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et" "{2A63C909016C4C41}Prefabs/Weapons/Ammo/Ammo_Flare_40mm_M662_Red.et" "{0AF10C206CF1A283}Prefabs/Weapons/Ammo/Ammo_Flare_40mm_M661_Green.et" "{906F07BD0366E08F}Prefabs/Weapons/Ammo/Ammo_Flare_40mm_VG40OP_White.et" "{906F07BD0366E08F}Prefabs/Weapons/Ammo/Ammo_Flare_40mm_VG40OP_White.et"
+     }
+    }
+   }
+  }
+ }
+}

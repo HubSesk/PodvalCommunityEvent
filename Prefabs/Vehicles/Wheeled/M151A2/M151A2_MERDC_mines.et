@@ -1,0 +1,42 @@
+Vehicle : "{F649585ABB3706C4}Prefabs/Vehicles/Wheeled/M151A2/M151A2.et" {
+ ID "44EC665ABD2FF04B"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{64DCC2FAD46E2FE7}" {
+     SourceMaterial "M151A2_Body"
+     AssignedMaterial "{8E56AB1F90705C7A}Assets/Vehicles/Wheeled/M151A2/Data/M151A2_Body_MERDC.emat"
+    }
+    MaterialAssignClass "{64DCC2FAD46E2FF1}" {
+     SourceMaterial "M151A2_Decals"
+     AssignedMaterial "{9E7DD7368234C794}Assets/Vehicles/Wheeled/M151A2/Data/M151A2_Decals_MERDC.emat"
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "#AR-Vehicle_M151A2_Open_Name"
+    m_Image "{AAAC4F34EA19B252}UI/Textures/EditorPreviews/Vehicles/Wheeled/M151A2/M151A2_MERDC.edds"
+    m_sFaction "US"
+    m_aAutoLabels +{
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{5916C5825BF621D1}" {
+   MultiSlots {
+    MultiSlotConfiguration "{64DCC2FACB54306A}" {
+     SlotTemplate InventoryStorageSlot Jerrycan {
+      Prefab "{D6EF54367CECE1D9}Prefabs/Weapons/Explosives/Mine_TM62M/Mine_TM62M.et"
+     }
+     NumSlots 4
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Bench {
+    }
+   }
+  }
+ }
+}

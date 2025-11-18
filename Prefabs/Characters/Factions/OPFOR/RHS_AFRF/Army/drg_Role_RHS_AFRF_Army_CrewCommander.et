@@ -1,0 +1,27 @@
+SCR_ChimeraCharacter : "{F6339F4933B793A5}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_CrewDriver.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#DRG-Role_CrewCommanderV"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Back {
+     Prefab "{B163A8898F269BDD}Prefabs/Items/Equipment/Radios/INDFOR_Radio_R107M_pl.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{65290674385BB88D}" {
+     TargetStorage "Jacket/Field_Jacket_VKPO.et"
+     PrefabsToSpawn {
+      "{94493910A15ECDC6}Prefabs/Characters/HeadGear/Hat_VKPO_Cap/Hat_VKPO_Cap.et"
+     }
+    }
+   }
+  }
+ }
+}

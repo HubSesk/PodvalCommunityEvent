@@ -1,0 +1,25 @@
+GenericEntity : "{3E413771E1834D2F}Prefabs/Weapons/Rifles/M16/Rifle_M16A2.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  SCR_WeaponAttachmentsStorageComponent "{51F080D5CE45A1A2}" {
+   Attributes SCR_ItemAttributeCollection "{51F080D5C64F12C5}" {
+    ItemDisplayName WeaponUIInfo "{5222CB07CFF6712A}" {
+     Name "M16A3"
+     Description ""
+    }
+   }
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     FireModes {
+      BaseFireMode "{5534745C44D1EF22}" {
+       MaxBurst -1
+       UIName "Auto"
+      }
+     }
+    }
+   }
+  }
+ }
+}

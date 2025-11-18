@@ -1,3 +1,54 @@
-SCR_ChimeraCharacter : "{9FBBBCD632861C8A}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/SOCOM/drg_Role_RHS_USAF_SOCOM_Scout.et" {
+SCR_ChimeraCharacter : "{D4633FDB32DBEC93}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/SOCOM/drg_Role_RHS_USAF_SOCOM_Sniper_M107.et" {
  ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{0CF54B9A85D8E0D4}Prefabs/Items/Equipment/Binoculars/Binoculars_M22/Binoculars_M22.et"
+      }
+     }
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#DRG_Roles_RHS_ScoutSniper"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{3598DCC1129110CC}Prefabs/Weapons/Rifles/m107/Barret_M107A1_Mk4.et"
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{653AC5FD041455C1}" {
+     PrefabsToSpawn {
+      "{89B49CDEBBEC973A}Prefabs/Weapons/Magazines/M107A1/Magazine_127x99_M107A1_10rnd_M2.et" "{89B49CDEBBEC973A}Prefabs/Weapons/Magazines/M107A1/Magazine_127x99_M107A1_10rnd_M2.et"
+     }
+    }
+    ItemsInitConfigurationItem "{653AC5FD045647A2}" {
+     PrefabsToSpawn {
+      "{89B49CDEBBEC973A}Prefabs/Weapons/Magazines/M107A1/Magazine_127x99_M107A1_10rnd_M2.et" "{89B49CDEBBEC973A}Prefabs/Weapons/Magazines/M107A1/Magazine_127x99_M107A1_10rnd_M2.et"
+     }
+    }
+    ItemsInitConfigurationItem "{653AC5FD6F26E017}" {
+     PrefabsToSpawn {
+      "{89B49CDEBBEC973A}Prefabs/Weapons/Magazines/M107A1/Magazine_127x99_M107A1_10rnd_M2.et" "{89B49CDEBBEC973A}Prefabs/Weapons/Magazines/M107A1/Magazine_127x99_M107A1_10rnd_M2.et"
+     }
+    }
+    ItemsInitConfigurationItem "{653AC5FD7C9B58B6}" {
+     PrefabsToSpawn {
+      "{89B49CDEBBEC973A}Prefabs/Weapons/Magazines/M107A1/Magazine_127x99_M107A1_10rnd_M2.et" "{89B49CDEBBEC973A}Prefabs/Weapons/Magazines/M107A1/Magazine_127x99_M107A1_10rnd_M2.et" "{89B49CDEBBEC973A}Prefabs/Weapons/Magazines/M107A1/Magazine_127x99_M107A1_10rnd_M2.et" "{89B49CDEBBEC973A}Prefabs/Weapons/Magazines/M107A1/Magazine_127x99_M107A1_10rnd_M2.et" "{89B49CDEBBEC973A}Prefabs/Weapons/Magazines/M107A1/Magazine_127x99_M107A1_10rnd_M2.et" "{89B49CDEBBEC973A}Prefabs/Weapons/Magazines/M107A1/Magazine_127x99_M107A1_10rnd_M2.et"
+     }
+    }
+    ItemsInitConfigurationItem "{656688A2F47AE9F4}" {
+     TargetStorage "Jacket/Crye_G3_Shirt_Base.et"
+     PrefabsToSpawn {
+      "{1EC2D6189AD265BF}Prefabs/Items/Equipment/RangeCard/RangeCard_M107.et"
+     }
+    }
+   }
+  }
+ }
 }

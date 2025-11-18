@@ -1,0 +1,28 @@
+SCR_ChimeraCharacter : "{29D8CA80E149E1B2}Prefabs/Characters/Factions/OPFOR/USSR_Army/Marines/drg_Character_USSR_MI_HMG_Assistant.et" {
+ ID "520EC961A090BE1E"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_AmmoBearer"
+    Icon "{EA3F6C9AF1C5F780}UI/Icons/supplie.edds"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Back {
+     Prefab "{41A9C55B61F375F0}Prefabs/Items/Equipment/Backpacks/Backpack_Kolobok.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{667D4D645DB25CC7}" {
+     TargetStorage "Back/Backpack_Kolobok.et"
+     PrefabsToSpawn {
+      "{843D9B182BCD2765}Prefabs/Weapons/Magazines/NSV/Box_127x108_NSV_50rnd_4AP_1APIT.et" "{843D9B182BCD2765}Prefabs/Weapons/Magazines/NSV/Box_127x108_NSV_50rnd_4AP_1APIT.et" "{843D9B182BCD2765}Prefabs/Weapons/Magazines/NSV/Box_127x108_NSV_50rnd_4AP_1APIT.et" "{843D9B182BCD2765}Prefabs/Weapons/Magazines/NSV/Box_127x108_NSV_50rnd_4AP_1APIT.et"
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,27 @@
+SCR_ChimeraCharacter : "{9F809A16C8265C6C}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_PL.et" {
+ ID "520EC961A090BBD5"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#DRG-Role_CompanyLeader"
+    Icon "{631E0A0EDCB63B8A}UI/Icons/company_leader.edds"
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{61B75C986066B4C1}" {
+     TargetStorage "Vest/Vest_ALICE_commander.et"
+    }
+    ItemsInitConfigurationItem "{61B87867AD2AC1E7}" {
+     TargetStorage "Vest/Vest_ALICE_commander.et/MagPouch/Pouch_ALICE_30rnd_STANAG.et"
+    }
+    ItemsInitConfigurationItem "{61B87867ADF0F768}" {
+     TargetStorage "Vest/Vest_ALICE_commander.et/MagPouch2/Pouch_ALICE_30rnd_STANAG.et"
+    }
+    ItemsInitConfigurationItem "{61B87867B1643253}" {
+     TargetStorage "Vest/Vest_ALICE_commander.et/Suspenders/Vest_ALICE_suspenders_2.et"
+    }
+   }
+  }
+ }
+}

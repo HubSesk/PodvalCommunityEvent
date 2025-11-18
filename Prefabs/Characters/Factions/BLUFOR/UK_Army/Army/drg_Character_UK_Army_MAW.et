@@ -1,0 +1,21 @@
+SCR_ChimeraCharacter : "{2C99DC921215206A}Prefabs/Characters/Factions/BLUFOR/UK_Army/Army/drg_Character_UK_Army_SL.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_AntiTank"
+    Icon "{008BB91082025119}UI/Icons/engineer-1.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponTemplate "{AE8BF1F7476AA76D}Prefabs/Weapons/Launchers/MAW_84MM/Launcher_84mm_MAW_Optic.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Back {
+     Prefab "{4BA48D3B0E53DF91}Prefabs/Items/Equipment/Backpacks/Rucksack_84mm_MAW_Carrier.et"
+    }
+   }
+  }
+ }
+}

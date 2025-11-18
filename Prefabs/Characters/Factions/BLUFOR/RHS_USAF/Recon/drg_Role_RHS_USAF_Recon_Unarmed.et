@@ -1,3 +1,32 @@
-SCR_ChimeraCharacter : "{D0A4FBFC3F2FBE5A}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/drg_Role_RHS_USAF_Base_Unarmed.et" {
+SCR_ChimeraCharacter : "{629381DD0AE1F7F0}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Recon/drg_Role_RHS_USAF_Recon_Unarmed.et" {
  ID "520EC961A090B1EE"
+ components {
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_bIsPlayable 1
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Jacket {
+     Prefab "{13C41E9932685FAC}Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_CoyoteBrown.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{ECCC7BDEA2F3D3A5}Prefabs/Characters/Uniforms/Crye_Pants/crye_pants_CoyoteBrown.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{652C93AEBD1EDE56}" {
+     TargetStorage "Pants/crye_pants_CoyoteBrown.et"
+    }
+    ItemsInitConfigurationItem "{652C93AE8849C9D9}" {
+     TargetStorage "Pants/crye_pants_CoyoteBrown.et"
+    }
+    ItemsInitConfigurationItem "{652C93AFA7C32F0A}" {
+     TargetStorage "Jacket/Jacket_Crye_Combat_Shirt_CoyoteBrown.et"
+     TargetPurpose 64
+    }
+   }
+  }
+ }
 }

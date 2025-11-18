@@ -1,0 +1,58 @@
+SCR_ChimeraCharacter : "{0D02798B07380183}Prefabs/Characters/Factions/BLUFOR/UK_Army/SAS/drg_Character_UK_SAS_Recon.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{9065E77698E63C1B}Prefabs/Items/Equipment/Binoculars/Binoculars_L12A1_Avimo.et"
+      }
+     }
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#DRG-Role_ReconSniper"
+    Icon "{A0C4B723DCAEF8FF}UI/Icons/berets.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{D87F9CD3863BF6E4}Prefabs/Weapons/Rifles/PM/Rifle_AI_PMSD_PM6x42.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponTemplate "{232DA7FA5FC47802}Prefabs/Weapons/Rifles/MP5/Rifle_MP5SD3.et"
+  }
+  SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
+   Identity Identity "{5584CBC6363C648B}" {
+    VisualIdentity VisualIdentity "{56E6D9456009D1C4}" {
+     Head "{0B447F0C03CD92A2}Prefabs/Characters/Heads/Head_White_10_Camo.et"
+    }
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{0B262DD9B6D67DFE}Prefabs/Characters/HeadGear/Hat_Boonie_US_01/Hat_Boonie_US_DPM_01.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6574F98D540396E9}" {
+     TargetStorage "Back/Rucksack_P58_Large_Pack.et"
+     PrefabsToSpawn {
+      "{4EBDF52AD20AC6D1}Prefabs/Weapons/Magazines/Magazine_762x51_AIPM_10rnd_Ball_L2A2.et" "{4EBDF52AD20AC6D1}Prefabs/Weapons/Magazines/Magazine_762x51_AIPM_10rnd_Ball_L2A2.et" "{4EBDF52AD20AC6D1}Prefabs/Weapons/Magazines/Magazine_762x51_AIPM_10rnd_Ball_L2A2.et" "{4EBDF52AD20AC6D1}Prefabs/Weapons/Magazines/Magazine_762x51_AIPM_10rnd_Ball_L2A2.et" "{4EBDF52AD20AC6D1}Prefabs/Weapons/Magazines/Magazine_762x51_AIPM_10rnd_Ball_L2A2.et" "{4EBDF52AD20AC6D1}Prefabs/Weapons/Magazines/Magazine_762x51_AIPM_10rnd_Ball_L2A2.et" "{4EBDF52AD20AC6D1}Prefabs/Weapons/Magazines/Magazine_762x51_AIPM_10rnd_Ball_L2A2.et" "{4EBDF52AD20AC6D1}Prefabs/Weapons/Magazines/Magazine_762x51_AIPM_10rnd_Ball_L2A2.et" "{4EBDF52AD20AC6D1}Prefabs/Weapons/Magazines/Magazine_762x51_AIPM_10rnd_Ball_L2A2.et" "{4EBDF52AD20AC6D1}Prefabs/Weapons/Magazines/Magazine_762x51_AIPM_10rnd_Ball_L2A2.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6574F98D82D7646D}" {
+     TargetStorage "Jacket/Smock_Combat_84Pat_DPM_01.et"
+     PrefabsToSpawn {
+      "{0CE7514F7E41F893}Prefabs/Items/Equipment/RangeCard/RangeCard_L96A1.et"
+     }
+    }
+   }
+  }
+ }
+}

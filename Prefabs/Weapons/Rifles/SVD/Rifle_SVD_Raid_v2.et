@@ -1,0 +1,66 @@
+GenericEntity : "{7AF1C4F7220066F9}Prefabs/Weapons/Rifles/SVD/Rifle_SVD_Raid.et" {
+ ID "0000000000000001"
+ components {
+  SCR_WeaponAttachmentsStorageComponent "{51F080D5CE45A1A2}" {
+   Attributes SCR_ItemAttributeCollection "{51F080D5C64F12C5}" {
+    CustomAttributes {
+     AimingModifierAttributes "{566C7D15A071B88E}" {
+      DeploymentPoints {
+       PivotPointInfoItem "{5A4C695B72BEBBD8}" {
+        "Point info" DeploymentPointInfo dp : BarrelPointInfo {
+         PivotID "Scene_Root"
+         Offset 0 0.049 0.3587
+        }
+        StabilizationPoints {
+         DeploymentPointInfo bipod_pos {
+          PivotID "w_sight"
+          Offset 0 -0.0874 0.1575
+         }
+         DeploymentPointInfo bipod_pos_2 {
+          PivotID "w_sight"
+          Offset 0 -0.2179 0.1575
+         }
+        }
+        StabilizationSize 0.05 0.01 0.2
+       }
+      }
+     }
+    }
+   }
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{65C2B1550FFBCC60}" {
+     AttachmentSlot InventoryStorageSlot Zenitco {
+      PivotID "w_sight"
+      Offset 0 -0.0563 0.162
+      Angles 0 0 180
+      Prefab "{7279721D20AD7855}Prefabs/Weapons/Attachments/Rails/b18/drg_mlokrail.et"
+     }
+    }
+    AttachmentSlotComponent "{65C2B155ED45C6E4}" {
+     AttachmentSlot InventoryStorageSlot bipod {
+      Offset 0 0.0576 0.4676
+      MergePhysics 1
+      Prefab "{23D34FB66BBC8BEE}Prefabs/Weapons/Attachments/Bipods/harris_bipod/rhs_lt706_harris.et"
+      DisablePhysicsInteraction 1
+     }
+     AttachmentType AttachmentRIS1913Bipod "{65C2B155F57DFC6F}" {
+     }
+     ShowInInspection 1
+    }
+   }
+  }
+  ActionsManagerComponent "{A29AE67FF4D82B0F}" {
+   ActionContexts {
+    UserActionContext "{5956E32BAAADE657}" {
+     Position PointInfo "{5956E329E6B11261}" {
+      Offset 0 0.0149 0.6153
+     }
+    }
+   }
+  }
+  RHS_WeaponRplComponent "{65C2B15B2D1F0A8C}" {
+  }
+ }
+}

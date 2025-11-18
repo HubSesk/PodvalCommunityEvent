@@ -1,0 +1,38 @@
+SCR_ChimeraCharacter : "{6344FAB9EEF674E7}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/drg_Role_RHS_AFRF_Unnarmed_base.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_Unarmed"
+    Icon "{D7F5BF1ECF66FB8F}UI/Icons/unarmed.edds"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Jacket {
+     Prefab "{4CE32EDC792572E4}Prefabs/Characters/Uniforms/6Sh122_Jacket/Jacket_6Sh122_Syrian_Digital.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{CBEC4553081D6472}Prefabs/Characters/Uniforms/6Sh122_Pants/Pants_6Sh122_Syrian_Digital.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{AB9E3D5524876346}Prefabs/Characters/Footwear/Boots_Faradey_1085/Footware_Faradey_1085.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6528F2E77853E654}" {
+     TargetStorage "Pants/Pants_6Sh122_Syrian_Digital.et"
+    }
+    ItemsInitConfigurationItem "{6528F2E78A33803A}" {
+     TargetStorage "Pants/Pants_6Sh122_Syrian_Digital.et"
+    }
+    ItemsInitConfigurationItem "{6528F2E079033878}" {
+     TargetStorage "Jacket/Jacket_6Sh122_Syrian_Digital.et"
+     TargetPurpose 64
+    }
+   }
+  }
+ }
+}

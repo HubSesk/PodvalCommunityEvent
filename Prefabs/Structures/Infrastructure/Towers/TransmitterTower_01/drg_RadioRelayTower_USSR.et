@@ -1,0 +1,19 @@
+StaticModelEntity : "{4D6EF868C5113C11}Prefabs/Structures/Infrastructure/Towers/TransmitterTower_01/drg_RadioRelayTower_TRK.et" {
+ ID "50D67C36F43527FE"
+ {
+  GenericEntity {
+   ID "65EE6D15AB8813E5"
+   components {
+    BaseRadioComponent "{5184E88B11518473}" {
+     "Encryption key" "coldBorscht"
+     Transceivers {
+      RelayTransceiver "{5184E88B13E16492}" {
+       ChannelFrequency 42000
+       "Frequency resolution" 100
+      }
+     }
+    }
+   }
+  }
+ }
+}

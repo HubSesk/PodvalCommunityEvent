@@ -1,0 +1,24 @@
+GenericEntity : "{BCEF9B6B525600EC}Prefabs/Weapons/Rifles/AK74M/variants/Rifle_AK74M_npz_b10m_b19n_tgpa_SSO.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{5D5100CE8CA5075D}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot RIS_Slot {
+      Prefab "{B0D87E5898D91004}Prefabs/Weapons/Attachments/Optics/aimpoint_t1/Optic_su278pvs_low.et"
+     }
+    }
+    AttachmentSlotComponent "{60D6BDAA2150CFBF}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot "{60D6BDAA23534844}" {
+      Offset 0.0195 0.0784 0.2458
+      Angles 0 0 90.9
+      Prefab "{CB8AB382E3F45336}Prefabs/Weapons/Attachments/Lasers/perst_classic/Laser_perst_classic_base.et"
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     MagazineTemplate "{681E772288F937F0}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_7n22ap_camo.et"
+    }
+   }
+  }
+ }
+}

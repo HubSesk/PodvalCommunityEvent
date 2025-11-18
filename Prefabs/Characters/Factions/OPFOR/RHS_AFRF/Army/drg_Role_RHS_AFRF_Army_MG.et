@@ -1,0 +1,52 @@
+SCR_ChimeraCharacter : "{FAC6AB61E4CA97F5}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_MGAB.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab ""
+      }
+     }
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_MachineGunner"
+    Icon "{F98CF71C0B32DEF4}UI/Icons/heave_machine_gunner.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{5995414BD20D4290}Prefabs/Weapons/MachineGuns/PKM/MG_PKM_B51_1p87.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Vest {
+     Prefab "{CCB46533102B7298}Prefabs/Characters/Vests/Vest_Ratnik_6B45/Variants/Vest_Ratin6B45_BebraPKM_1.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6529017B4C6F28DF}" {
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{652904F26F364A66}" {
+     TargetStorage "Vest/Vest_Ratin6B45_BebraPKM_1.et/PKM2/Pouch_Mordor_PKM_EMR.et"
+     PrefabsToSpawn {
+      "{0EAB3482EA2FD181}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N13.et"
+     }
+    }
+    ItemsInitConfigurationItem "{652904F26F794843}" {
+     TargetStorage "Vest/Vest_Ratin6B45_BebraPKM_1.et/PKM1/Pouch_Mordor_PKM_EMR.et"
+     PrefabsToSpawn {
+      "{0EAB3482EA2FD181}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N13.et"
+     }
+    }
+   }
+  }
+ }
+}

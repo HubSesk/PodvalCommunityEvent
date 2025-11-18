@@ -1,0 +1,72 @@
+SCR_ChimeraCharacter : "{8B954D956707400D}Prefabs/Characters/Factions/INDFOR/IG/drg_Character_IG_Unarmed.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_Rifleman"
+    Icon "{29DF9BB937ACDCDE}UI/Icons/rifleman.edds"
+   }
+   m_VariantData SCR_EditableEntityVariantData "{64D4AB018BF8F955}" {
+    m_bRandomizeDefaultVariant 0
+    m_aVariants {
+     SCR_EditableEntityVariant "{64D4AB01864270E1}" {
+      m_sVariantPrefab "{3E0AD164F0AFB09D}Prefabs/Characters/Factions/INDFOR/IG/drg_Character_IG_Rifleman_v1.et"
+     }
+     SCR_EditableEntityVariant "{64D4AB0186647061}" {
+      m_sVariantPrefab "{525EE5844C6B3FB3}Prefabs/Characters/Factions/INDFOR/IG/drg_Character_IG_Rifleman_v2.et"
+     }
+     SCR_EditableEntityVariant "{64D4AB01861E0B44}" {
+      m_sVariantPrefab "{B7C2A97D408EA8D8}Prefabs/Characters/Factions/INDFOR/IG/drg_Character_IG_Rifleman_v3.et"
+     }
+     SCR_EditableEntityVariant "{64D4AB018630B35F}" {
+      m_sVariantPrefab "{8AF68C4535E221EF}Prefabs/Characters/Factions/INDFOR/IG/drg_Character_IG_Rifleman_v4.et"
+     }
+     SCR_EditableEntityVariant "{64D4AB0181E1DC7A}" {
+      m_sVariantPrefab "{6F6AC0BC3907B684}Prefabs/Characters/Factions/INDFOR/IG/drg_Character_IG_Rifleman_v5.et"
+     }
+     SCR_EditableEntityVariant "{64D4AB026D71988A}" {
+      m_sVariantPrefab "{033EF45C85C339AA}Prefabs/Characters/Factions/INDFOR/IG/drg_Character_IG_Rifleman_v6.et"
+     }
+    }
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{FA5C25BF66A53DCF}Prefabs/Weapons/Rifles/AK74/Rifle_AK74.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Boots {
+     Prefab ""
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{3DE0155EC9767B98}Prefabs/Items/Equipment/Backpacks/Backpack_Veshmeshok.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{ED5574EA7F63B457}Prefabs/Characters/Vests/Vest_Type56/Vest_Type56.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{64D476C2404F583A}" {
+     TargetStorage "Pants/Pants_KZS.et"
+    }
+    ItemsInitConfigurationItem "{64D476C2400BF5EA}" {
+     TargetStorage "Vest/Vest_Type56.et"
+    }
+    ItemsInitConfigurationItem "{64D4AB01972A7540}" {
+     TargetStorage "Vest/Vest_Type56.et"
+     PrefabsToSpawn {
+      "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et" "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et" "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et" "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et" "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et" "{E5912E45754CD421}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Tracer.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+     }
+    }
+    ItemsInitConfigurationItem "{64D4AB01972A754F}" {
+     TargetStorage "Back/Backpack_Veshmeshok.et"
+     PrefabsToSpawn {
+      "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et" "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et" "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et" "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et" "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et" "{E5912E45754CD421}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Tracer.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+     }
+    }
+   }
+  }
+ }
+}

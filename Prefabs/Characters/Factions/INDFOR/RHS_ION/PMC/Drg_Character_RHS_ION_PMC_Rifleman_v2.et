@@ -1,0 +1,25 @@
+SCR_ChimeraCharacter : "{DE2B5F2836908469}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Drg_Character_RHS_ION_PMC_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Jacket {
+     Prefab "{940ECDB0F69CBC5E}Prefabs/Characters/Uniforms/T_Shirts/ION_Shirt/ION_Casual_Shirt_Brand.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{75297D1CED46CE60}Prefabs/Characters/Uniforms/Pants_M88_vietnam_blk.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{934C7275AC865817}Prefabs/Characters/Footwear/Boots_BCT/Footwear_BCT.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6286835946BBC091}" {
+     TargetStorage "Pants/Pants_M88_vietnam_blk.et"
+    }
+   }
+  }
+ }
+}

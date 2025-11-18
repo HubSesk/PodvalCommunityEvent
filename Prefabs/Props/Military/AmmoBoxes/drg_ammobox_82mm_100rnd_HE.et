@@ -1,0 +1,35 @@
+GenericEntity : "{E521AEA6D14589B1}Prefabs/Props/Military/AmmoBoxes/AmmoBox_545x39_2160rnd.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{26602B855125635D}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/EquipmentBoxWooden_Explosives_01.xob"
+   Materials {
+    MaterialAssignClass "{5F0EC8C9545899FD}" {
+     SourceMaterial "EquipmentBoxWooden_Explosives_01"
+     AssignedMaterial "{8024926C8E4B04DA}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/Data/EquipmentBoxWooden_Explosives_01_USSR.emat"
+    }
+    MaterialAssignClass "{5F0EC8C9545899DF}" {
+     SourceMaterial "EquipmentBoxWooden_decal"
+     AssignedMaterial "{17332645A86C9BA6}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/Data/EquipmentBoxWooden_decal_USSR.emat"
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+   UseCapacityCoefficient 0
+   MaxCumulativeVolume 250000
+   SaveInLoadout 0
+   MultiSlots {
+    MultiSlotConfiguration "{5EBE9BE3CEFB5AFA}" {
+     SlotTemplate InventoryStorageSlot Saline {
+      Prefab "{98EC9C526AFBA282}Prefabs/Weapons/Ammo/Ammo_Shell_82mm_HE_O832DU.et"
+     }
+     NumSlots 100
+    }
+   }
+  }
+ }
+ coords 3474.5 246.184 4931.274
+ angleX -0.732
+ angleY 32.248
+ angleZ -1.475
+}

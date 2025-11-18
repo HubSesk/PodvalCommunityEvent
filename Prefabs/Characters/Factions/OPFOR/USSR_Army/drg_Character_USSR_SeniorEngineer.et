@@ -1,0 +1,20 @@
+SCR_ChimeraCharacter : "{93E8316FB3FD3827}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_Engineer.et" {
+ ID "520EC961A090BE1E"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#DRG-Role-SeniorEngineer"
+    Icon "{4DFF187036C8DC3E}UI/Icons/senior_engineer.edds"
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{645CD4E1B74878F9}" {
+     PrefabsToSpawn {
+      "{6492196F107687BC}Prefabs/Items/Equipment/Radios/Radio_R148_SL.et"
+     }
+    }
+   }
+  }
+ }
+}

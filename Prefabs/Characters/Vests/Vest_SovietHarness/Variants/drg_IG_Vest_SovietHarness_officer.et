@@ -1,0 +1,66 @@
+GenericEntity : "{08155E701A94961F}Prefabs/Characters/Vests/Vest_SovietHarness/Vest_SovietHarness_assembled_base.et" {
+ ID "50D8C49B3558F152"
+ components {
+  ClothNodeStorageComponent "{5CE0BD449244C3E1}" {
+   Attributes SCR_ItemAttributeCollection "{5510AD9F02223F36}" {
+    ItemDisplayName UIInfo "{5510AD9F02223FEC}" {
+     Name "#AR-LBS_Harness_Officer_Name"
+     Description "#AR-LBS_Harness_Officer_Description"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{5510AD9F02223F81}" {
+     SizeSetupStrategy Manual
+     ItemDimensions 15 15 15
+     ItemVolume 1000
+    }
+   }
+   UseCapacityCoefficient 0
+   MaxCumulativeVolume 150
+   MaxItemSize 5 5 5
+  }
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo Suspenders {
+    }
+    LoadoutSlotInfo GrenadePouch {
+     PivotID "Spine3"
+    }
+    LoadoutSlotInfo MagPouch_6Sh46 {
+     PivotID "Spine3"
+     Offset -0.1304 0.0192 0.0965
+     Angles 2.8465 -143.1024 -2.1026
+     Prefab "{D3C36A56E140D8AB}Prefabs/Items/Equipment/Accessories/Holster_PM/Holster_PM_magpouch.et"
+     DeflatedOffset -0.1538 0.0629 0.1191
+     DeflatedAngles 1.7934 -133.08459 12.044
+    }
+    LoadoutSlotInfo Canteen {
+     PivotID "Spine3"
+    }
+    LoadoutSlotInfo Etool {
+     PivotID "Spine3"
+     Offset 0.0862 -0.0277 -0.1141
+     Angles 4.1739 168.61971 0
+     DeflatedOffset 0.1018 0.024 -0.151
+     DeflatedAngles 0 162.3306 0
+    }
+    LoadoutSlotInfo Bayonet {
+     PivotID "Spine3"
+     Offset 0.1509 0.0402 -0.0432
+     Angles 7.2165 100.8907 0
+     DeflatedOffset 0.1882 0.085 -0.0502
+     DeflatedAngles 4.593 100.8907 0
+    }
+    LoadoutSlotInfo PistolHolster {
+     PivotID "Spine3"
+     Offset 0.1659 -0.0142 0.0531
+     Angles -2.3965 59.5213 -5.5084
+     Prefab "{50084B2B2B8004FA}Prefabs/Items/Equipment/Accessories/Holster_PM/Holster_PM.et"
+     EnableDeflatedOffset 1
+     DeflatedOffset 0.1956 0.0315 0.0758
+     DeflatedAngles -2.144 62.1166 -5.6112
+    }
+   }
+   WornModel "{1E1FCA5F246C96FC}Assets/Characters/Vests/Vest_SovietHarness/Vest_SovietHarness_Belt.xob"
+   ItemModel "{ACAE8AB157C7B9E6}Assets/Characters/Vests/Vest_SovietHarness/Vest_SovietHarness_Belt_item.xob"
+  }
+ }
+}

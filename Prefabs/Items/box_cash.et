@@ -1,0 +1,56 @@
+GenericEntity : "{CC03E3F4B1E5E1B8}Prefabs/Items/Bulba_basic.et" {
+ ID "60473270075E5C96"
+ components {
+  MeshObject "{604732700271E225}" {
+   Object "{CD7B21DA4D8AE5FB}Assets/Props/Commercial/CashierShop_01/CashierShop_01.xob"
+  }
+  RigidBody "{604732700271E266}" {
+   Mass 50
+  }
+  SCR_MineInventoryItemComponent "{604732700271ECF7}" {
+   Attributes SCR_ItemAttributeCollection "{604732700271ECE8}" {
+    ItemPhysAttributes ItemPhysicalAttributes "{604732700271E31E}" {
+     Weight 25
+     ItemVolume 10000
+    }
+    ItemAnimationAttributes ItemAnimationAttributes "{604732700271E379}" {
+    }
+    CustomAttributes {
+     HolsteredItemAttributes "{604732700271EC90}" {
+      LinearOffset 0 -0.1 -0.1
+      AngularOffset 0 0 0
+     }
+    }
+   }
+  }
+  SCR_MineWeaponComponent "{604732700271EDBF}" {
+   UIInfo GrenadeUIInfo "{604732700271EC7A}" {
+    Name "Специальный груз"
+    Description "Какой то очень секретный груз КМП США"
+   }
+  }
+  ActionsManagerComponent "{604732700271EEA7}" {
+   ActionContexts {
+    UserActionContext "{604732700271ED9E}" {
+     Position PointInfo "{604732700271ED9D}" {
+      Offset 0 0.5 0
+     }
+     Radius 1
+    }
+   }
+  }
+  BaseRadioComponent "{6454F7A15F0D71B6}" {
+   "Encryption key" "cash #1"
+   "Turned on" 1
+   Transceivers {
+    RelayTransceiver "{6454F7A1156BB26C}" {
+     "Transmitting Range" 20000
+    }
+   }
+  }
+  RHS_RadioSourceComponent "{6454F7A145087B0A}" {
+   m_vGroundOffset 0 300 0
+   m_iSignalType Static
+  }
+ }
+}

@@ -1,0 +1,78 @@
+GenericEntity : "{2D2D5A7CBCFFC35B}Prefabs/Items/Box_bulba.et" {
+ ID "60473270075E5C96"
+ components {
+  MeshObject "{604732700271E225}" {
+   Object "{6EF1EA2E0BBB512E}Assets/Props/Commercial/CabinetCardFile_01/CabinetCardFile_01.xob"
+  }
+  PS_BulbaComponent "{6047326A7F7D7CAE}" {
+   Enabled 0
+  }
+  SCR_MineInventoryItemComponent "{604732700271ECF7}" {
+   Enabled 0
+  }
+  SCR_PlaceableItemComponent "{604732700271ECD4}" {
+   m_ePlacementType XZ_FIXED
+  }
+  SCR_UniversalInventoryStorageComponent "{6454F7B414316EB4}" {
+   Attributes SCR_ItemAttributeCollection "{6454F7B414316EBC}" {
+    ItemDisplayName SCR_InventoryUIInfo "{6454F7B414316E82}" {
+     Name "#AR-Ammobox_Name"
+     Description "#AR-Ammobox_Name"
+     m_aItemHints {
+      SCR_SupplyAvailableItemHintUIInfo "{6454F7B414316E85}" {
+       Name "#AR-Item_SupplyConsumer_Hint1"
+       Icon "{8EB808BFA227C080}UI/Textures/Icons/InventoryHints/InventoryHint_SuppliesStored.edds"
+       m_cColor 1 1 1 1
+       m_bHideInArsenal 1
+      }
+     }
+    }
+    ItemAnimationAttributes ItemAnimationAttributes "{6454F7B414316E89}" {
+     IkSettings {
+      ItemIKSettings "{6454F7B414316E8F}" {
+       InAds 0
+       OutAds 0
+       MovementSpeedRange 0 1
+       IkSettingsStand 6
+       IkSettingsCrouch 6
+       IkSettingsProne 6
+      }
+     }
+     AnimationInstance "{AF06D3F738A50403}anims/workspaces/player/player_main_heavy.asi"
+     AnimationIKPose "{5EF679CCFE1123FD}Assets/Weapons/Explosives/Mine_M15AT/anims/p_mine_ik.anm"
+    }
+   }
+   MultiSlots {
+    MultiSlotConfiguration "{6454F7B414316E92}" {
+     SlotTemplate InventoryStorageSlot Saline {
+      Prefab "{BEA0CE4F25C2505B}Prefabs/Items/Equipment/RangeCard/Money.et"
+     }
+     NumSlots 100
+    }
+   }
+  }
+  ActionsManagerComponent "{604732700271EEA7}" {
+   ActionContexts {
+    UserActionContext "{604732700271ED9E}" {
+     Radius 0.6
+    }
+   }
+   additionalActions {
+    SCR_OpenStorageAction "{6454F7B414316E9A}" {
+     ParentContextList {
+      "default"
+     }
+     UIInfo UIInfo "{6454F7B414316E98}" {
+      Name "#AR-Inventory_OpenStorage"
+     }
+    }
+   }
+  }
+  SCR_MineAnimationComponent "{604732700271EE92}" {
+   Enabled 0
+  }
+ }
+ coords 1281.864 2.75 5004.299
+ angleY -53.951
+ scale 1.05
+}

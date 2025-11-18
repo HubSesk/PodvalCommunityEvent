@@ -1,0 +1,34 @@
+SCR_ChimeraCharacter : "{95F147EA5C05015B}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Drg_Character_RHS_ION_PMC_SR.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#DRG_ION_TeamLeader"
+    Icon "{E6BCD59435D5DF18}UI/Icons/pmc_tl.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{A6E8126D183334E2}Prefabs/Weapons/Rifles/M4A1/URG-I/drg_Rifle_M4A1_URGI_145_PMC_suppr_OPT.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Jacket {
+     Prefab "{61C8AE257C7545A9}Prefabs/Characters/Uniforms/Parka_Night/Night_parka_navyblue.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{75297D1CED46CE60}Prefabs/Characters/Uniforms/Pants_M88_vietnam_blk.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{320FA1CD5B1D5601}Prefabs/Characters/Footwear/Boots_USMC_Combat/Footwear_USMC_Combat.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6286835946BBC091}" {
+     TargetStorage "Pants/Pants_M88_vietnam_blk.et"
+    }
+   }
+  }
+ }
+}

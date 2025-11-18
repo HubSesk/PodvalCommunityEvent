@@ -1,0 +1,26 @@
+SCR_ChimeraCharacter : "{404E4DF1D42FF62C}Prefabs/Characters/Factions/BLUFOR/UK_Army/SAS/drg_Character_UK_SAS_SeniorRecon.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#DRG-Role_ReconSL"
+   }
+  }
+  SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
+   Identity Identity "{5584CBC6363C648B}" {
+    VisualIdentity VisualIdentity "{56E6D9456009D1C4}" {
+     Head "{E978B7D98D71E15A}Prefabs/Characters/Heads/Head_White_06_Camo.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6574E31835EFCC06}" {
+     PrefabsToSpawn {
+      "{97BE34E375896C8B}Prefabs/Items/Equipment/Radios/Radio_PRC349_SL.et"
+     }
+    }
+   }
+  }
+ }
+}

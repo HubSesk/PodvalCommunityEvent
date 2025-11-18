@@ -1,0 +1,25 @@
+SCR_ChimeraCharacter : "{A65224DA772312DE}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_Rebel_P_v2.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Jacket {
+     Prefab "{50F8B1F928F93ABD}Prefabs/Characters/Uniforms/Shirt_Turtleneck_01/Shirt_Turtleneck_01_beige.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{27364244288DA83B}Prefabs/Characters/Uniforms/Pants_TAZ83/Pants_TAZ83_01.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{5D7CC173FAA7C00E}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Pants_TAZ83/Pants_TAZ83_01.et"
+    }
+    ItemsInitConfigurationItem "{5D7CC173FAA7C00C}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Shirt_Turtleneck_01/Shirt_Turtleneck_01_beige.et"
+    }
+   }
+  }
+ }
+}

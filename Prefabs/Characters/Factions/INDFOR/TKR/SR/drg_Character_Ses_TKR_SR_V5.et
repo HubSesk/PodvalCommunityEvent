@@ -1,0 +1,31 @@
+SCR_ChimeraCharacter : "{1DACA0DEB19B1A63}Prefabs/Characters/Factions/INDFOR/TKR/SR/drg_Character_Ses_TKR_SR_base.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{862BAB1E020D6C3F}Prefabs/Characters/HeadGear/Hat_FlatCap_01/TurbanC02.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{780EEC0F990FB1D2}Prefabs/Characters/Uniforms/TakShirts/ChilabaFull01.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6586FC580B8096AD}" {
+     TargetStorage "Jacket/ChilabaFull01.et"
+    }
+    ItemsInitConfigurationItem "{6586FC580BD1FA4A}" {
+     TargetStorage "Jacket/ChilabaFull01.et"
+    }
+    ItemsInitConfigurationItem "{6586FC580BEFCB9E}" {
+     TargetStorage "Vest/Vest_Type56.et"
+    }
+    ItemsInitConfigurationItem "{6586FC58084F14A3}" {
+     TargetStorage "Jacket/ChilabaFull01.et"
+    }
+   }
+  }
+ }
+}

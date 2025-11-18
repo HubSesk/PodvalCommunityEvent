@@ -1,0 +1,30 @@
+GameEntity : "{9723923821F574EA}Prefabs/Characters/HeadGear/Helmet_PASGT_01/Helmet_PASGT_01_ses.et" {
+ ID "50D485E1435D6C72"
+ components {
+  MeshObject "{5112706CD4157AE0}" {
+   Object "{6298E440DEE27B19}Assets/Characters/HeadGear/Helmet_PASGT/Helmet_PASGT_01_cover_item.xob"
+  }
+  RHS_ClothNodeStorageComponent "{5DB13C5777E6E695}" {
+   Enabled 1
+  }
+  SCR_ItemOutfitFactionComponent "{618AD7BB075F1045}" {
+   m_OutfitDataHolder SCR_OutfitFactionDataHolder "{61A8D96650B5696D}" {
+    m_aOutfitFactionData {
+     SCR_OutfitFactionData "{61A8D96650441EDE}" {
+      m_AffiliatedFactionKey "Ses_CDF"
+     }
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   WornModel "{D4DF94843E9B7823}Assets/Characters/HeadGear/Helmet_PASGT/Helmet_PASGT_01_cover.xob"
+   WornMaterialsOverride {
+    "{10D1F0BF33272652}Assets/Characters/HeadGear/Helmet_PASGT/data/Helmet_Dubok_PASGT_CDF.emat"
+   }
+   ItemModel "{6298E440DEE27B19}Assets/Characters/HeadGear/Helmet_PASGT/Helmet_PASGT_01_cover_item.xob"
+   ItemMaterialsOverride {
+    "{10D1F0BF33272652}Assets/Characters/HeadGear/Helmet_PASGT/data/Helmet_Dubok_PASGT_CDF.emat"
+   }
+  }
+ }
+}

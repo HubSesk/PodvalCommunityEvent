@@ -1,0 +1,27 @@
+SCR_ChimeraCharacter : "{E953678D10B094EA}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/Viet/drg_Character_US_SL.et" {
+ ID "520EC961A090BBD5"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_PlatoonLeader"
+    Icon "{208FDC0A49380FD7}UI/Icons/platoon_leader.edds"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Back {
+     Prefab "{0C6056970C640273}Prefabs/Items/Equipment/Radios/Radio_ANPRC77_PL.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{65DF1943CE3710CB}" {
+     PrefabsToSpawn {
+      "{BA2D0EE170E44DC7}Prefabs/Items/Equipment/Radios/Radio_ANPRC68_rprv.et"
+     }
+    }
+   }
+  }
+ }
+}
