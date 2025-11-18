@@ -1,50 +1,21 @@
 GenericEntity : "{592E8C59C778A189}Prefabs/System/GUB_ZoneControlBetweenFactionsPrefab.et" {
  components {
-  GUB_ZoneControlBetweenFactionsComponent "{66931217B7943C52}" {
+  GUB_ZoneControlComponent "{66E34DFE0E54C4B7}" {
    m_aControlLogics {
-    GUB_ZoneControlBetweenFactionsLogic "{66E296241B1C8A2C}" {
-     m_sZonePreviewName "прикол"
-     m_sPreviewMessageToDescription "хихихаха"
-     m_fCheckPeriod 1
-     m_sMessage "флаг поднят"
-     m_Timer GUB_ZoneControlTimer "{66E337DFA273160F}" {
-      timeToComplete 5000
+    GUB_ZoneControlLogicCapture "{66E34D0CF1D228FA}" {
+     m_sMessage "Флаг захвачен!"
+     m_Timer GUB_ZoneControlTimer "{66E34D0CFCC6D86B}" {
+      timeToComplete 10
      }
-     m_ZoneController GUB_ZoneController "{66E337DFA254100D}" {
+     m_ZoneController GUB_ZoneController "{66E34D0CF3128905}" {
       m_sZoneEntityName "TRIGGER_ZONE"
      }
-     m_FlagController GUB_FlagController "{66E337DFA2BAA223}" {
+     m_FlagControllerCapture GUB_FlagControllerCapture "{66E34D0CF357DC9E}" {
       m_aFlagNames {
        "flag"
       }
-      m_fStartFactionKey "US"
-      m_fEndFactionKey "USSR"
      }
-     m_aConditions {
-      GUB_ZoneControlBetweenFactionsCondition "{66E29623567033C3}" {
-       m_fComparisonMultiplier 2.6
-       m_iOperator GREATER
-      }
-      GUB_ZoneControlCondition "{66E337D711C8702A}" {
-      }
-     }
-    }
-    GUB_ZoneControlBetweenFactionsLogic "{66E337D72458CDE3}" {
-     m_sZonePreviewName "прикол 2"
-     m_sPreviewMessageToDescription "ваываы"
-     m_sMessage "пап"
-     m_Timer GUB_ZoneControlTimer "{66E337D72DF51398}" {
-      timeToComplete 2252
-     }
-     m_ZoneController GUB_ZoneController "{66E337D72DAF120B}" {
-      m_sZoneEntityName "TRIGGER_ZONE"
-     }
-     m_FlagController GUB_FlagController "{66E337D72EF25211}" {
-     }
-     m_aConditions {
-      GUB_ZoneControlBetweenFactionsCondition "{66E337D7FA085FF1}" {
-      }
-     }
+     neutralFaction "FIA"
     }
    }
   }
