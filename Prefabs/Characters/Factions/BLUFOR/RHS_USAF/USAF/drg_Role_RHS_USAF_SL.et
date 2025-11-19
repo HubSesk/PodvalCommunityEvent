@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{600E890491C62306}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_SL.et" {
+SCR_ChimeraCharacter : "{67C97355F74099C5}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_TL.et" {
  ID "520EC961A090B1EE"
  components {
   SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
@@ -21,8 +21,7 @@ SCR_ChimeraCharacter : "{600E890491C62306}Prefabs/Characters/Factions/BLUFOR/RHS
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{652C93A579636E38}" {
-     PrefabsToSpawn {
-      "{C742BD6CB3D77A5A}Prefabs/Items/Equipment/Radios/drg_Radio_ANPRC152A_OLD_SL.et"
+     PrefabsToSpawn +{
      }
     }
     ItemsInitConfigurationItem "{652C93A709B3262F}" {
@@ -31,8 +30,7 @@ SCR_ChimeraCharacter : "{600E890491C62306}Prefabs/Characters/Factions/BLUFOR/RHS
     }
     ItemsInitConfigurationItem "{6623549EB783D169}" {
      TargetStorage "Jacket/ACU_jacket_base_MC.et"
-     PrefabsToSpawn {
-      "{B1798B0F1258B765}Prefabs/Items/Equipment/Navigation/DAGR/DAGR.et"
+     PrefabsToSpawn +{
      }
     }
    }

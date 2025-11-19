@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{26AD8B80E8C02793}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_Marksman.et" {
+SCR_ChimeraCharacter : "{741676D36040EA84}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_Rifleman.et" {
  ID "520EC961A090B1EE"
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
@@ -18,7 +18,8 @@ SCR_ChimeraCharacter : "{26AD8B80E8C02793}Prefabs/Characters/Factions/BLUFOR/RHS
     }
     ItemsInitConfigurationItem "{652CBB14FA349FD3}" {
      TargetStorage "Jacket/ACU_jacket_base_MC.et"
-     PrefabsToSpawn +{
+     PrefabsToSpawn {
+      "{2A7C01B93CC92ACE}Prefabs/Items/Equipment/RangeCard/RangeCard_Notepad_AUTO.et"
      }
     }
    }

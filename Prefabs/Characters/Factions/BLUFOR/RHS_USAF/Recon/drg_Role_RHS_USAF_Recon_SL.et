@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{CEDCC068342815AB}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Recon/drg_Role_RHS_USAF_Recon_SL.et" {
+SCR_ChimeraCharacter : "{B3C42C9051BB2932}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Recon/drg_Role_RHS_USAF_Recon_SR.et" {
  ID "520EC961A090B1EE"
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
@@ -11,11 +11,11 @@ SCR_ChimeraCharacter : "{CEDCC068342815AB}Prefabs/Characters/Factions/BLUFOR/RHS
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
-    LoadoutSlotInfo Vest {
-     Prefab "{8FF4A5E9BBEC83D1}Prefabs/Characters/Vests/Vest_JPC/variants/Vest_JPC_MC_UBGL.et"
-    }
     LoadoutSlotInfo Back {
      Prefab ""
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{8FF4A5E9BBEC83D1}Prefabs/Characters/Vests/Vest_JPC/variants/Vest_JPC_MC_UBGL.et"
     }
    }
   }
@@ -23,8 +23,7 @@ SCR_ChimeraCharacter : "{CEDCC068342815AB}Prefabs/Characters/Factions/BLUFOR/RHS
    InitialInventoryItems {
     ItemsInitConfigurationItem "{652D42988DB903F7}" {
      TargetStorage "Vest/Vest_JPC_MC_UBGL.et/saw/Pouch_AVS_MBITR_Radio_MC.et"
-     PrefabsToSpawn {
-      "{C742BD6CB3D77A5A}Prefabs/Items/Equipment/Radios/drg_Radio_ANPRC152A_OLD_SL.et"
+     PrefabsToSpawn +{
      }
     }
     ItemsInitConfigurationItem "{652D429BCC6A7C35}" {
@@ -34,9 +33,13 @@ SCR_ChimeraCharacter : "{CEDCC068342815AB}Prefabs/Characters/Factions/BLUFOR/RHS
     }
     ItemsInitConfigurationItem "{652D429AAB09FDD2}" {
      TargetStorage "Vest/Vest_JPC_MC_UBGL.et/Zip/Minimap_JPC_ZipOnPanel2.0_MC.et"
+     PrefabsToSpawn +{
+     }
     }
     ItemsInitConfigurationItem "{652D429ABB558D7B}" {
      TargetStorage "Vest/Vest_JPC_MC_UBGL.et/HSGI/Pouch_Highspeed_Bleeder_MC.et"
+     PrefabsToSpawn +{
+     }
     }
     ItemsInitConfigurationItem "{652D429F8B866260}" {
      TargetStorage "Vest/Vest_JPC_MC_UBGL.et/ubgl2/Pouch_Filbe_M18_1.et"
@@ -49,13 +52,13 @@ SCR_ChimeraCharacter : "{CEDCC068342815AB}Prefabs/Characters/Factions/BLUFOR/RHS
     }
     ItemsInitConfigurationItem "{652D429F94A48E7B}" {
      TargetStorage "Vest/Vest_JPC_MC_UBGL.et/bandolier/Pouch_Filbe_bandolier.et"
-     PrefabsToSpawn {
-      "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et" "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et" "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et" "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et" "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et" "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et" "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et" "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et" "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et" "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et" "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et" "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et" "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et" "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et"
+     PrefabsToSpawn +{
      }
     }
     ItemsInitConfigurationItem "{652D42812661BDF2}" {
      TargetStorage "Vest/Vest_JPC_MC_UBGL.et/Zip/Minimap_JPC_ZipOnPanel2.0_MC.et"
-     PrefabsToSpawn +{
+     PrefabsToSpawn {
+      "{9749CCE07F466A68}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M995.et" "{9749CCE07F466A68}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M995.et" "{9749CCE07F466A68}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M995.et" "{9749CCE07F466A68}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M995.et" "{9749CCE07F466A68}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M995.et" "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et" "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et" "{3343A055A83CB30D}Prefabs/Weapons/Grenades/M18/Smoke_M18_Red.et" "{14C1A0F061D9DDEE}Prefabs/Weapons/Grenades/M18/Smoke_M18_Violet.et" "{9BBDEE253A16CC66}Prefabs/Weapons/Grenades/M18/Smoke_M18_Yellow.et"
      }
     }
    }

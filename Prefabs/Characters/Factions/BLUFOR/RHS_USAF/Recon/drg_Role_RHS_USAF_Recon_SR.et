@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{B3C42C9051BB2932}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Recon/drg_Role_RHS_USAF_Recon_SR.et" {
+SCR_ChimeraCharacter : "{9C7B97483A24CEF9}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Recon/drg_Role_RHS_USAF_Recon_Rifleman.et" {
  ID "520EC961A090B1EE"
  components {
   SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
@@ -25,13 +25,21 @@ SCR_ChimeraCharacter : "{B3C42C9051BB2932}Prefabs/Characters/Factions/BLUFOR/RHS
     ItemsInitConfigurationItem "{652D429BCC6A7C35}" {
      TargetStorage "Vest/Vest_JPC_okinawa_Coy5.et/Pouch1/Pouch_avs_front_elastic_Coy.et"
      PrefabsToSpawn {
-      "{F7598C4D5FCA5E75}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_HP_T_30rnd_m995.et" "{F7598C4D5FCA5E75}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_HP_T_30rnd_m995.et" "{F7598C4D5FCA5E75}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_HP_T_30rnd_m995.et" "{7F519F63E96020D4}Prefabs/Weapons/Magazines/PmagUnwindowed/Magazine_556x45_PMAG_30rnd_m995.et"
+      "{9749CCE07F466A68}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M995.et" "{9749CCE07F466A68}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M995.et" "{9749CCE07F466A68}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M995.et" "{9749CCE07F466A68}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M995.et"
      }
     }
     ItemsInitConfigurationItem "{652D429AAB09FDD2}" {
      TargetStorage "Vest/Vest_JPC_okinawa_Coy5.et/Tako/Pouch_FILBE_doubleM4_2.et"
+     PrefabsToSpawn +{
+     }
     }
     ItemsInitConfigurationItem "{652D429ABB558D7B}" {
+     PrefabsToSpawn +{
+     }
+    }
+    ItemsInitConfigurationItem "{652D42812661BDF2}" {
+     PrefabsToSpawn +{
+     }
     }
    }
   }
