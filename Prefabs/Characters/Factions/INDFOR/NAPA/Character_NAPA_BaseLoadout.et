@@ -1,0 +1,23 @@
+SCR_ChimeraCharacter : "{1D7F18F58ED1AECF}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_base.et" {
+ ID "520EC961A090B1EE"
+ components {
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_bIsPlayable 1
+  }
+  CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
+   WeaponTemplate "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+  }
+  CharacterGrenadeSlotComponent "{5A6CDA0CCF43068E}" {
+   WeaponTemplate "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{604D1A6C3872EC54}" {
+     PrefabsToSpawn +{
+     }
+    }
+   }
+  }
+ }
+ coords 865.084 39 2658.673
+}

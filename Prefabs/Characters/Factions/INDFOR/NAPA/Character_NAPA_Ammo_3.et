@@ -1,0 +1,20 @@
+SCR_ChimeraCharacter : "{08AB1E11A971C5F2}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_Ammo.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Jacket {
+     Prefab "{C0C09CFB920B7E38}Prefabs/Characters/Uniforms/NAPA/Jacket_NAPA_BDU.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{66E85707ED2866EA}" {
+     TargetStorage "Jacket/Jacket_NAPA_BDU.et"
+    }
+   }
+  }
+ }
+ coords 860.456 39 2657.829
+}

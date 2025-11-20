@@ -1,0 +1,103 @@
+SCR_AIGroup : "{291B350C71AACEDC}Prefabs/Groups/INDFOR/Ses_NAPA/Group_NAPA_Base.et" {
+ ID "0000000000000001"
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation ""
+  }
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Name "#AR-Group_AntiTankTeam"
+    m_Image "{9AB248E9AF06FE78}UI/Textures/EditorPreviews/Groups/INDFOR/Group_FIA_Team_AT.edds"
+    m_aAutoLabels {
+     GROUPSIZE_MEDIUM
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{604482963251834C}" {
+      m_Value 300
+     }
+     SCR_EntityBudgetValue "{609AE1834A64CEC1}" {
+      m_Value 4
+     }
+    }
+    m_EntityChildrenBudgetCost {
+     SCR_EntityBudgetValue "{66E33E21E0083A55}" {
+      m_BudgetType AI
+      m_Value 4
+     }
+    }
+    m_bUseUIInfoName 1
+    m_MilitarySymbol SCR_MilitarySymbol "{66E33E21E0082217}" {
+     m_Identity INDFOR
+     m_Dimension LAND
+     m_Icons ANTITANK
+     m_Amplifier TEAM
+    }
+   }
+  }
+  SCR_GroupIdentityComponent "{56366C5C50AD3CF2}" {
+   m_MilitarySymbol SCR_MilitarySymbol "{56366C5C4E32A359}" {
+    m_Icons ANTITANK
+    m_Amplifier NONE
+   }
+  }
+  SCR_PreviewEntityComponent "{5706E13399600A71}" : "{6CADA7A88A6265FD}Prefabs/Editor/Components/PreviewEntityComponentClass.ct" {
+   m_bRuntime 0
+   m_aEntries {
+    SCR_BasePreviewEntry "{66E33E21E0082269}" {
+     m_iParentID -1
+     m_Mesh ""
+     m_Flags 3
+     m_Shape MESH
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 0 0 0
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{66E33E21E0082266}" {
+     m_iParentID 0
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Flags 0
+     m_Shape PREFAB
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 0 0 0
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{66E33E21E0082265}" {
+     m_iParentID 0
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Flags 0
+     m_Shape PREFAB
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 3 0 -3
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{66E33E21E0082263}" {
+     m_iParentID 0
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Flags 0
+     m_Shape PREFAB
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition -3 0 -3
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{66E33E21E0082261}" {
+     m_iParentID 0
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Flags 0
+     m_Shape PREFAB
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 6 0 -6
+     m_vAngles 0 0 0
+    }
+   }
+  }
+ }
+ coords 866.317 39 2647.57
+ m_aUnitPrefabSlots {
+  "{4B19E30E5FBE6920}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_BaseLoadout.et" "{89A8633875C983BA}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_AAT.et" "{537A15C51C476EF4}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_AAT_2.et" "{B6E6593C10A2F99F}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_AAT_3.et" "{8BD27C0465CE70A8}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_AAT_4.et" "{0317D4E3620F8905}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_AMG.et" "{7BC78CC34EA6C773}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_AMG_2.et" "{9E5BC03A42435018}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_AMG_3.et" "{A36FE502372FD92F}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_AMG_4.et" "{113CCCAA468FFE30}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_AMG_PKM.et" "{D8BE7774193D2A86}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_AMG_PKM_2.et" "{14620E60CE394C79}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_AMG_PKM_3.et" "{29562B58BB55C54E}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_AMG_PKM_4.et" "{08AB1E11A971C5F2}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_Ammo.et" "{22B984561AAFB146}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_Ammo_2.et" "{C725C8AF164A262D}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_Ammo_3.et" "{FA11ED976326AF1A}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_Ammo_4.et" "{0510EDC0E364FCD6}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_AR.et" "{199B7FD0996DB0A7}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_AR_2.et" "{FC073329958827CC}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_AR_3.et" "{C1331611E0E4AEFB}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_AR_4.et" "{DDB884019AEDE28A}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_AT.et" "{A44B2D57E676ACB9}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_AT_2.et" "{41D761AEEA933BD2}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_AT_3.et" "{7CE344969FFFB2E5}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_AT_4.et" "{09E8D6A0898E9BAA}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_CC.et" "{7C3A09EBE2D981CC}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_CC_2.et" "{1CFF4E8E34E4C9D3}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_Crew.et" "{7D2E61FEEDE0394A}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_Crew_2.et" "{08C593E114D395FC}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_GL.et" "{C3A1040625EF56E9}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_GL_2.et" "{263D48FF290AC182}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_GL_3.et" "{1B096DC75C6648B5}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_GL_4.et" "{CD129913E6D6649A}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_LAT.et" "{738BE3E6047A233A}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_LAT_2.et" "{9617AF1F089FB451}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_LAT_3.et" "{AB238A277DF33D66}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_LAT_4.et" "{E6A32FEAA73639D4}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_Medic.et" "{9671D6B41CFB245A}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_Medic_2.et" "{73ED9A4D101EB331}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_Medic_3.et" "{4ED9BF7565723A06}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_Medic_4.et" "{570733DA8D2BE835}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_MG.et" "{8CF6B451B497053E}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_MG_2.et" "{696AF8A8B8729255}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_MG_3.et" "{545EDD90CD1E1B62}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_MG_4.et" "{825CF2A0231AA133}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_MG_UK.et" "{115D19BBCA329B55}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_MG_UK_2.et" "{115D19BBCA329B55}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_MG_UK_2.et" "{F4C15542C6D70C3E}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_MG_UK_3.et" "{C9F5707AB3BB8509}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_MG_UK_4.et" "{F186A546CC076F55}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_PL.et" "{B6BB9710FB3BF74A}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_PL_2.et" "{5327DBE9F7DE6021}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_PL_3.et" "{6E13FED182B2E916}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_PL_4.et" "{81AABF85182C9FA3}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_Rifleman_AK74.et" "{28516DB3285DAF3D}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_Rifleman_AK74_2.et" "{CDCD214A24B83856}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_Rifleman_AK74_3.et" "{F0F9047251D4B161}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_Rifleman_AK74_4.et" "{6436F37C14C908C8}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_Rifleman_AKSU.et" "{9A5264FC76199554}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_Rifleman_AKSU_2.et" "{7FCE28057AFC023F}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_Rifleman_AKSU_3.et" "{42FA0D3D0F908B08}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_Rifleman_AKSU_4.et" "{DCD11431A73AEC78}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_RTO.et" "{5D97E460C5CAB66C}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_RTO_2.et" "{B80BA899C92F2107}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_RTO_3.et" "{E1AF9D8C921613D7}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_Sapper.et" "{95F83066561F4C57}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_Sapper_2.et" "{70647C9F5AFADB3C}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_Sapper_3.et" "{4D5059A72F96520B}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_Sapper_4.et" "{EC4FA9F1875AA6C1}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_Scout.et" "{167342C13E860A50}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_Scout_2.et" "{F3EF0E3832639D3B}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_Scout_3.et" "{CEDB2B00470F140C}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_Scout_4.et" "{4402179619992EC2}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_Sharpshooter.et" "{F75391F3FF0DCCF2}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_Sharpshooter_2.et" "{12CFDD0AF3E85B99}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_Sharpshooter_3.et" "{68981CDFD1E05EC5}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_SL.et" "{BC1EC75D4D2B04CD}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_SL_2.et" "{59828BA441CE93A6}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_SL_3.et" "{64B6AE9C34A21A91}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_SL_4.et"
+ }
+}
