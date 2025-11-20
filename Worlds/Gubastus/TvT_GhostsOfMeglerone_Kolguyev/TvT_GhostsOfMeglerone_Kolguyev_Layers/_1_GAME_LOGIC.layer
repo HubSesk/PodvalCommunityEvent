@@ -1,0 +1,40 @@
+GenericEntity : "{6A3CDCFB475BF1B2}Prefabs/System/DRG_CriticalLossPrefab.et" {
+ components {
+  DRG_CriticalLossComponent "{65213D368F1BD792}" {
+   m_aLossLogics {
+    LossLogic "{66E8E199A0C98320}" {
+     m_aLosses {
+      FactionLoss "{66E8E199A1847FDB}" {
+      }
+     }
+     m_sObjectiveNames {
+      "FIA_WIN"
+     }
+     m_sFailedObjectiveNames {
+      "USSR_WIN"
+     }
+     m_bUseMessage 1
+     m_bEventMessage "СССР понесли критические потери и отступили!"
+    }
+    LossLogic "{66E8E199A0F8B0C0}" {
+     m_aLosses {
+      FactionLoss "{66E8E19867D05FA6}" {
+       m_iCriticalLossCount 2
+       m_sFactionKey "FIA"
+      }
+     }
+     m_sObjectiveNames {
+      "USSR_WIN"
+     }
+     m_sFailedObjectiveNames {
+      "FIA_WIN"
+     }
+     m_bUseMessage 1
+     m_bEventMessage "FIA понесли критические потери!"
+    }
+   }
+  }
+ }
+}
+GenericEntity : "{E6FC6DD69FA3479F}Prefabs/System/DRG_MissionEndTimerPrefab.et" {
+}
