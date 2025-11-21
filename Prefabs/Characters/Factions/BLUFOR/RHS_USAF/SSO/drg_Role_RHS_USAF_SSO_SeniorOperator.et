@@ -1,34 +1,3 @@
-SCR_ChimeraCharacter : "{B26137637A9893A7}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/SSO/drg_Role_RHS_USAF_SSO_SeniorOperator.et" {
+SCR_ChimeraCharacter : "{31125446007C2C87}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/SSO/drg_Role_RHS_USAF_SSO_Operator.et" {
  ID "520EC961A090B1EE"
- components {
-  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
-   components {
-    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
-     InitialStorageSlots {
-      SCR_EquipmentStorageSlot BinocularSlot {
-       Prefab "{03810BEF182ADA0B}Prefabs/Items/Equipment/Binoculars/Rangefinder_Vector21.et"
-      }
-     }
-    }
-   }
-  }
-  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
-   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
-    Name "#DRG-SR_SSO"
-   }
-  }
-  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{F358D5B2FD984C86}Prefabs/Weapons/Rifles/M4A1/URG-I/Rifle_M4A1_URGI_145_temp_bebra_thermal_SSO.et"
-  }
-  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
-   InitialInventoryItems {
-    ItemsInitConfigurationItem "{6530D654FF1D4660}" {
-     TargetStorage "Vest/Vest_JPC_okinawa_MC3.et/zip/Minimap_JPC_ZipOnPanel2.0_MC.et"
-     PrefabsToSpawn {
-      "{4AF36B835267F3ED}Prefabs/Weapons/Attachments/Optics/exps/Optic_su231A_tan.et"
-     }
-    }
-   }
-  }
- }
 }

@@ -1,31 +1,3 @@
-SCR_ChimeraCharacter : "{D0A4FBFC3F2FBE5B}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_Unarmed.et" {
+SCR_ChimeraCharacter : "{D0A4FBFC3F2FBE5A}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/drg_Role_RHS_USAF_Base_Unarmed.et" {
  ID "520EC961A090B1EE"
- components {
-  PS_PlayableComponent "{5EFCC1946F475F15}" {
-   m_bIsPlayable 1
-  }
-  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
-   Slots {
-    LoadoutSlotInfo Jacket {
-     Prefab "{C7AB6F6342093F30}Prefabs/Characters/Uniforms/ACU_jacket/ACU_jacket_base_MC.et"
-    }
-    LoadoutSlotInfo Pants {
-     Prefab "{FFC8049A506A0F9F}Prefabs/Characters/Uniforms/ACU_pants/ACU_pants_MC_base.et"
-    }
-   }
-  }
-  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
-   InitialInventoryItems {
-    ItemsInitConfigurationItem "{652C93AEBD1EDE56}" {
-     TargetStorage "Pants/ACU_pants_MC_base.et"
-    }
-    ItemsInitConfigurationItem "{652C93AE8849C9D9}" {
-     TargetStorage "Pants/ACU_pants_MC_base.et"
-    }
-    ItemsInitConfigurationItem "{652C93AFA7C32F0A}" {
-     TargetStorage "Jacket/ACU_jacket_base_MC.et"
-    }
-   }
-  }
- }
 }

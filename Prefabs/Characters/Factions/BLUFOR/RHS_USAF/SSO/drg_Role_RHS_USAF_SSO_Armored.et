@@ -1,31 +1,3 @@
-SCR_ChimeraCharacter : "{6364D1EC200DE574}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/SSO/drg_Role_RHS_USAF_SSO_Armored.et" {
+SCR_ChimeraCharacter : "{F2B0D6D08CA86643}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/SSO/drg_Role_RHS_USAF_SSO_Unarmed.et" {
  ID "520EC961A090B1EE"
- components {
-  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
-   Slots {
-    LoadoutSlotInfo Hat {
-     Prefab "{F2506134D53FC05C}Prefabs/Characters/HeadGear/Helmet_LShZ/variants/SSO/Helmet_LShZ_new_OD_HC_Peltor_SSO6.et"
-    }
-    LoadoutSlotInfo ArmoredVest {
-     Prefab "{4A11957AAD447582}Prefabs/Characters/Vests/Vest_JPC/Vest_JPC_MC.et"
-    }
-    LoadoutSlotInfo Vest {
-     Prefab "{7BF7C702071E7B45}Prefabs/Characters/Vests/Vest_JPC/variants/Vest_JPC_okinawa_MC3.et"
-    }
-    LoadoutSlotInfo HandWear {
-     Prefab "{4E37FE174E8C266C}Prefabs/Characters/Handwear/Gloves_MechanixMpact/Gloves_mpack_Coyote.et"
-    }
-   }
-  }
-  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
-   InitialInventoryItems {
-    ItemsInitConfigurationItem "{652F64E5F6201296}" {
-     TargetStorage "Vest/Vest_JPC_okinawa_MC3.et/radio/Pouch_AVS_MBITR_Radio_MC.et"
-     PrefabsToSpawn {
-      "{BAB50E5D149D64D9}Prefabs/Items/Equipment/Radios/drg_Radio_ANPRC152A_OLD_prv.et"
-     }
-    }
-   }
-  }
- }
 }

@@ -1,28 +1,24 @@
 GenericEntity : "{592E8C59C778A189}Prefabs/System/GUB_ZoneControlBetweenFactionsPrefab.et" {
  components {
-  GUB_ZoneControlComponent "{66E34DFE0E54C4B7}" {
+  GUB_ZoneControlBetweenFactionsComponent "{66931217B7943C52}" {
    m_aControlLogics {
-    GUB_ZoneControlLogic "{66E75DD72479D361}" {
+    GUB_ZoneControlBetweenFactionsLogic "{66DAF0D14466C086}" {
+     m_sZoneEntityName "TRIGGER_ZONE"
      m_sZonePreviewName "Бовемонт"
-     m_sMessage "СССР захватили Бовемонт!"
-     m_Timer GUB_ZoneControlTimer "{66E75DD72EBFBD2B}" {
-      timeToComplete 300
+     m_bWaitFreezeEnd 0
+     m_bUseTestingMode 0
+     m_sSuccessObjectiveNames {
+      "USSR_WIN"
      }
-     m_ZoneController GUB_ZoneController "{66E75DD728125E4E}" {
-      m_sZoneEntityName "TRIGGER_ZONE"
+     m_sFailedObjectiveNames {
+      "FIA_WIN"
      }
-     m_FlagController GUB_FlagController "{66E75DD72B3596FF}" {
-      m_aFlagNames {
-       "FLAG_1"
-       "FLAG_2"
-      }
-      m_fStartFactionKey "FIA"
-      m_fEndFactionKey "USSR"
-     }
+     m_fTimeToComplete 300
+     m_sFlagControllerName "FC"
      m_aConditions {
-      GUB_ZoneControlBetweenFactionsCondition "{66E75DD73DF86639}" {
+      GUB_ZoneControlBetweenFactionsCondition "{66DAF0D100226368}" {
        m_sSecondFactionKey "FIA"
-       m_fComparisonMultiplier 3
+       m_fComparisonMultiplier 5
        m_iOperator GREATER
       }
      }

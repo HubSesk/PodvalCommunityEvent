@@ -1,26 +1,30 @@
+GenericEntity zona : "{0B10CF53C0ADE9A8}Prefabs/System/GUB_FlagControllerPrefab.et" {
+ components {
+  GUB_FlagController "{66D7006C2F3A6AC3}" {
+   m_aFlagNames {
+    "flag"
+   }
+   m_fStartFactionKey "UK"
+   m_fEndFactionKey "RHS_AFRF"
+  }
+ }
+ coords 11511.613 0 1577.011
+}
 GenericEntity : "{592E8C59C778A189}Prefabs/System/GUB_ZoneControlBetweenFactionsPrefab.et" {
  components {
-  GUB_ZoneControlComponent "{66E34DFE0E54C4B7}" {
+  GUB_ZoneControlBetweenFactionsComponent "{66931217B7943C52}" {
    m_aControlLogics {
-    GUB_ZoneControlLogic "{66E8E19D68B2749F}" {
-     m_Timer GUB_ZoneControlTimer "{66E8E19D7370E6F4}" {
-      timeToComplete 300
-     }
-     m_ZoneController GUB_ZoneController "{66E8E19D7357BC00}" {
-      m_sZoneEntityName "trigger"
-     }
-     m_FlagController GUB_FlagController "{66E8E19D73825CB7}" {
-      m_aFlagNames {
-       "flag"
-      }
-      m_fStartFactionKey "RHS_AFRF"
-      m_fEndFactionKey "UK"
-     }
+    GUB_ZoneControlBetweenFactionsLogic "{66DEBA97E8215633}" {
+     m_sZoneEntityName "trigger"
+     m_bWaitFreezeEnd 0
+     m_bUseTestingMode 0
+     m_fTimeToComplete 300
+     m_sFlagControllerName "zona"
      m_aConditions {
-      GUB_ZoneControlBetweenFactionsCondition "{66E8E19D1EBB33E5}" {
+      GUB_ZoneControlBetweenFactionsCondition "{66DEBA9632B4AB8E}" {
        m_sFirstFactionKey "RHS_AFRF"
        m_sSecondFactionKey "UK"
-       m_fComparisonMultiplier 3
+       m_fComparisonMultiplier 2
        m_iOperator GREATER
       }
      }

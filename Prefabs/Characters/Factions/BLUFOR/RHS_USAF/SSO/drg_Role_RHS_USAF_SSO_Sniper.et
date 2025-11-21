@@ -1,34 +1,3 @@
-SCR_ChimeraCharacter : "{65B0F013D169B447}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/SSO/drg_Role_RHS_USAF_SSO_Sniper.et" {
+SCR_ChimeraCharacter : "{31125446007C2C87}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/SSO/drg_Role_RHS_USAF_SSO_Operator.et" {
  ID "520EC961A090B1EE"
- components {
-  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
-   components {
-    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
-     InitialStorageSlots {
-      SCR_EquipmentStorageSlot BinocularSlot {
-       Prefab "{03810BEF182ADA0B}Prefabs/Items/Equipment/Binoculars/Rangefinder_Vector21.et"
-      }
-     }
-    }
-   }
-  }
-  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
-   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
-    Name "#DRG-Marksman_SSO"
-   }
-  }
-  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{F4B9EAE6CBD0AD47}Prefabs/Weapons/Rifles/M27IAR/Rifle_M38SDMR_PAS13PSQ23.et"
-  }
-  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
-   InitialInventoryItems {
-    ItemsInitConfigurationItem "{6531281394AB2014}" {
-     TargetStorage "Jacket/Jacket_Crye_Combat_Shirt_MC.et"
-     PrefabsToSpawn {
-      "{9C0CD692B40776A9}Prefabs/Items/Equipment/RangeCard/RangeCard_M38.et"
-     }
-    }
-   }
-  }
- }
 }
