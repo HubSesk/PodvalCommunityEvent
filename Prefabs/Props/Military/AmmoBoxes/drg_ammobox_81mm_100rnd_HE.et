@@ -1,0 +1,30 @@
+GenericEntity : "{645F518F95682567}Prefabs/Props/Military/AmmoBoxes/drg_ammobox_82mm_100rnd_HE.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Materials {
+    MaterialAssignClass "{5F0EC8C9545899FD}" {
+     SourceMaterial "EquipmentBoxWooden_Explosives_01"
+     AssignedMaterial "{F422577A111BA80D}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/Data/EquipmentBoxWooden_Explosives_01_US.emat"
+    }
+    MaterialAssignClass "{5F0EC8C9545899DF}" {
+     SourceMaterial "EquipmentBoxWooden_decal"
+     AssignedMaterial "{012E52E127F407FD}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/Data/EquipmentBoxWooden_decal_US.emat"
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+   UseCapacityCoefficient 0
+   MaxCumulativeVolume 250000
+   SaveInLoadout 0
+   MultiSlots {
+    MultiSlotConfiguration "{5EBE9BE3CEFB5AFA}" {
+     SlotTemplate InventoryStorageSlot Saline {
+      Prefab "{38BAE094333E31BF}Prefabs/Weapons/Ammo/Ammo_Shell_81mm_HE_M821.et"
+     }
+    }
+   }
+   m_fMaxWeight 1100
+  }
+ }
+}

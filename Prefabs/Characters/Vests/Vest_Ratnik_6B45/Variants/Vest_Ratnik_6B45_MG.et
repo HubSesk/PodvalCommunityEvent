@@ -1,0 +1,55 @@
+GenericEntity : "{1EED0C006408490B}Prefabs/Characters/Vests/Vest_Ratnik_6B45/Vest_Ratnik_6B45_Loadout_base.et" {
+ ID "50D8C49B3558F152"
+ components {
+  ClothNodeStorageComponent "{5DEB2A8AB559C576}" {
+   Attributes SCR_ItemAttributeCollection "{5DEB2A8AB559C568}" {
+    ItemDisplayName UIInfo "{5DEB2A8AB559C56B}" {
+     Name "#DRG-Vest_Ratnik_6B45_MG_Name"
+     Description "#DRG-Vest_Ratnik_6B45_MG_Description"
+    }
+   }
+  }
+  MeshObject "{5312D798A817A294}" {
+   Object "{8D7B9D2378659684}Assets/Characters/Vests/Vest_Common/rhs_equipment_empty_item.xob"
+  }
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo Pouch1 {
+     PivotID "Spine5"
+     Offset 0.2168 -0.2534 -0.0005
+     Angles -3.4295 88.2977 -2.4243
+     AutoTransform 1
+     Prefab "{F03EAAE51C256CFA}Prefabs/Items/Equipment/Accessories/Pouch_Soviet_100rnd_PKM/Pouch_Soviet_100rnd_PKM.et"
+     AreaType LoadoutVestArea "{61CEB75E58E0B3D1}" {
+     }
+    }
+    LoadoutSlotInfo Pouch2 {
+     PivotID "Spine5"
+     Offset -0.009 0.1518 0.1852
+     Angles 0.8163 -2.8629 38.6867
+     Prefab "{29F12A128C12B660}Prefabs/Characters/Vests/Vest_Taktika_Pouches/Pouch_Taktika_holster.et"
+    }
+    LoadoutSlotInfo Pouch3 {
+     Prefab ""
+    }
+    LoadoutSlotInfo Bayonet {
+     PivotID "Spine5"
+     Offset 0.17 0.08 0.142
+     Angles 0 210 1
+     Prefab "{D03F61DB37599FA8}Prefabs/Items/Equipment/Accessories/Scabbard_Bayonet_6X9-1/Scabbard_Bayonet_6X9-1_equip.et"
+    }
+    LoadoutSlotInfo FirstAid {
+     Offset 0 -0.2596 0
+     Prefab "{ADF17AE969E9C691}Prefabs/Characters/Vests/Vest_Ratnik_Pouches/Pouch_Ratnik_appi_pouch.et"
+    }
+    LoadoutSlotInfo Etool {
+     PivotID "Spine5"
+     Offset 0.2013 -0.053 -0.0457
+     Angles -3.3068 98.44891 0.2473
+     Prefab "{FC07732ADAE70D5C}Prefabs/Items/Equipment/Accessories/ETool_MPL50/RHS_MPL50_Carrier.et"
+    }
+   }
+   DebugWornModel 0
+  }
+ }
+}

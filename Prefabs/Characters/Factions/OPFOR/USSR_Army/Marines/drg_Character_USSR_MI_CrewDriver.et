@@ -1,0 +1,40 @@
+SCR_ChimeraCharacter : "{4BFD7347345A2281}Prefabs/Characters/Factions/OPFOR/USSR_Army/Marines/drg_Character_USSR_MI_Rifleman.et" {
+ ID "520EC961A090BE1E"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#DRG-Role_CrewDriver"
+    Icon "{FC10C2531B4A5AFF}UI/Icons/sso_meh.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{BFEA719491610A45}Prefabs/Weapons/Rifles/AKS74U/Rifle_AKS74U.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{EB2F05A3751B905A}Prefabs/Characters/HeadGear/Helmet_TSh4_01/Helmet_TSh4_01.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab ""
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{668274F804DDF10D}" {
+     TargetStorage "Back/Backpack_Veshmeshok.et"
+     PrefabsToSpawn {
+      "{33B2DFDCD0EBA3DB}Prefabs/Items/Equipment/Kits/RepairKit_01/RepairKit_01_wrench.et" "{89FD00CB2909667D}Prefabs/Characters/HeadGear/Hat_M88_01/Hat_M88_01_v1_TTsKO.et"
+     }
+    }
+    ItemsInitConfigurationItem "{668274F8A44199AC}" {
+     TargetStorage "Jacket/Jacket_M88_TTsKO.et"
+     PrefabsToSpawn {
+      "{92B819C350698359}Prefabs/Items/Equipment/Radios/Radio_R148_rprv.et"
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,98 @@
+Vehicle : "{D9B91FAB817A6033}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{662328950704B85D}" {
+     SourceMaterial "Ural_Body"
+     AssignedMaterial "{86C0F62FDED7BA56}Assets/Vehicles/Wheeled/Ural4320/Data/Ural_4320_Body_Ses_TKA.emat"
+    }
+    MaterialAssignClass "{662328950704B84E}" {
+     SourceMaterial "Ural_Details"
+     AssignedMaterial "{402A0ED342929F03}Assets/Vehicles/Wheeled/Ural4320/Data/Ural_4320_Details_Ses_TKA.emat"
+    }
+   }
+  }
+  SCR_BaseCompartmentManagerComponent "{20FB66C5DCB8DF72}" {
+   CompartmentSlots {
+    PilotCompartmentSlot PilotCompartment {
+     m_DefaultOccupantData SCR_DefaultOccupantData "{662328950704B834}" {
+      m_sDefaultOccupantPrefab "{84B40583F4D1B7A3}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Rifleman.et"
+     }
+    }
+    CargoCompartmentSlot Passenger_r01 {
+     m_DefaultOccupantData SCR_DefaultOccupantData "{59BA9CCC7AFDE010}" {
+      m_sDefaultOccupantPrefab "{84B40583F4D1B7A3}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Rifleman.et"
+     }
+    }
+    CargoCompartmentSlot Passenger_m01 {
+     m_DefaultOccupantData SCR_DefaultOccupantData "{59BA9CCC78C46847}" {
+      m_sDefaultOccupantPrefab "{84B40583F4D1B7A3}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Rifleman.et"
+     }
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "#AR-Vehicle_Ural4320_Transport_Covered_Name"
+    m_Image "{5043D7509B1A3C90}UI/Textures/EditorPreviews/Vehicles/Wheeled/Ural4320/Ses_TKA/Ural4320_Ses_TKA_transport_covered.edds"
+    m_sFaction "Ses_TKA"
+    m_aAuthoredLabels +{
+    }
+    m_aAutoLabels {
+     17 122 54
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{662328950704B83A}" {
+      m_BudgetType VEHICLES
+      m_Value 1
+     }
+     SCR_EntityBudgetValue "{662328950704B839}" {
+      m_BudgetType CAMPAIGN
+      m_Value 200
+     }
+     SCR_EntityBudgetValue "{662328950704AAF6}" {
+      m_BudgetType COOLDOWN
+      m_Value 1
+     }
+    }
+    m_aOccupantFillCompartmentTypes +{
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{5916C58171230A92}" {
+   MultiSlots {
+    MultiSlotConfiguration "{5A60D38EDB3709A9}" {
+     SlotTemplate InventoryStorageSlot Bandages {
+      Prefab "{F2E474689BD7C2E1}Prefabs/Weapons/Ammo/Ammo_Rocket_HEAT_L40.et"
+     }
+     NumSlots 40
+    }
+   }
+  }
+  SCR_VehicleDamageManagerComponent "{141326E9FD94FE40}" {
+   m_fVehicleDestroyDamage 14217.9
+  }
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "Ses_TKR"
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    EntitySlotInfo Label_L {
+     Enabled 0
+    }
+    EntitySlotInfo Label_R {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo Cargo {
+     Prefab "{28FA9FC83F328711}Prefabs/Vehicles/Wheeled/Ural4320/VehParts/Ses_TKA/Ural4320_TKA_cargo_canvas.et"
+     DisablePhysicsInteraction 1
+    }
+    RegisteringComponentSlotInfo FIA_CoatOfArms_decal {
+     Prefab "{5593C6FEC45037AB}Prefabs/Vehicles/Wheeled/Ural4320/VehParts/CoatOfArms/Ural4320_TKA_CoatOfArms_decal.et"
+     InheritParentSkeleton 1
+    }
+   }
+  }
+ }
+}

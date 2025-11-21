@@ -1,0 +1,46 @@
+GenericEntity : "{37D9E315CA4CEFE2}Prefabs/Structures/Military/Flags/FlagPole_02/FlagPole_02_V1_Chernarus.et" {
+ ID "50C6D20663830070"
+ components {
+  SCR_EditableEntityComponent "{64D476DD2469D529}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{64D476DD2469D532}" {
+    Name "IGF flag v1"
+    m_Image "{8D4277D88CDD85DE}Assets/Props/Fabric/Flags/IGF_Flag_big.edds"
+    m_sFaction "Drg_IGF"
+    m_aAuthoredLabels {
+     9996
+    }
+    m_aAutoLabels {
+     108 1 122
+    }
+   }
+  }
+  SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+   m_sDefaultMaterial "{7E0DB870B3D6C66F}Assets/Props/Fabric/Flags/Data/Flag_1_2_IGF.emat"
+  }
+  SCR_PreviewEntityComponent "{64D476DD2469D53C}" {
+   m_bRuntime 0
+   m_aEntries {
+    SCR_BasePreviewEntry "{64D476DD2469D53D}" {
+     m_iParentID -1
+     m_Mesh "{E9A0740046C9DFA1}Assets/Structures/Military/Flags/FlagPole_02/FlagPole_02.xob"
+     m_Flags HORIZONTAL
+     m_Shape MESH
+     m_iPivotID ""
+     m_vPosition 0 0 0
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{64D476DD2469D501}" {
+     m_iParentID 0
+     m_Mesh "{94F7CE276B05E84B}Assets/Props/Fabric/Flags/Flag_1_2.xob"
+     m_Flags 0
+     m_Shape MESH
+     m_iPivotID ""
+     m_vPosition 0 4.396 -0.083
+     m_vAngles 0 0 0
+    }
+   }
+  }
+  RplComponent "{64D476DD2469D504}" {
+  }
+ }
+}

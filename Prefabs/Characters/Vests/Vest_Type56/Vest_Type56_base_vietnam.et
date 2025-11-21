@@ -1,0 +1,93 @@
+GenericEntity : "{93690AE7A4BAD926}Prefabs/Characters/Core/Vest_Base.et" {
+ ID "50D8C49B3558F152"
+ components {
+  MeshObject "{5312D798A817A294}" {
+   Object "{086123E5FA3CE431}Assets/Characters/Vests/Vest_Type56/Vest_Type56_item.xob"
+   Materials {
+    MaterialAssignClass "{65D57DD1049994B8}" {
+     SourceMaterial "Type_56_ChestRig"
+     AssignedMaterial "{33BF83EB1F15C538}Assets/Characters/Vests/Vest_Type56/Data/Type_56_ChestRig.emat"
+    }
+   }
+  }
+  RigidBody "{5312D798AF7A9E28}" {
+   ModelGeometry 1
+  }
+  SCR_UniversalInventoryStorageComponent "{65D57276DD95B3D8}" {
+   components {
+    SCR_EquipmentStorageComponent "{65D57276DD95B3CE}" {
+     Priority 60
+     StoragePurpose 64
+     UseVirtualInventoryReplication 0
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot FlashlightSlot {
+       PivotID "Spine5"
+       Offset -0.1 0.075 0.17
+       Angles 15 0 -3
+       AllowedItemTypes {
+        "FLASHLIGHT"
+       }
+       AnimatedMeshRefference "{65B695FBFE5EC1D5}Assets/Characters/Vests/Vest_Type56/Vest_Type56.xob"
+      }
+     }
+    }
+   }
+   Attributes SCR_ItemAttributeCollection "{65D57276DD95B3B7}" {
+    ItemDisplayName UIInfo "{65D57276DD95B3B5}" {
+     Name "#AR-LBS_Type56_Name"
+     Description "#AR-LBS_Type56_Description"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{65D57276DD95B3B3}" {
+     Weight 0.5
+     SizeSetupStrategy Manual
+     ItemDimensions 15 15 15
+     ItemVolume 800
+     DimensionScaler 1
+     RestingAdditiveRotationLS 0 0 0
+     RestingAdditiveOffsetLS 0 0 0
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{65D57276DD95B3B0}" {
+      CameraDistanceToItem 3.5
+      FOV 10
+      PreviewModel "{65B695FBFE5EC1D5}Assets/Characters/Vests/Vest_Type56/Vest_Type56.xob"
+     }
+    }
+    m_Size SLOT_2x2
+   }
+   Priority 30
+   UseCapacityCoefficient 0
+   MaxItemSize 10 10 10
+   m_fMaxWeight 10
+  }
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   AreaType LoadoutVestArea "{65D57276DD95B3BA}" {
+   }
+   WornModel "{65B695FBFE5EC1D5}Assets/Characters/Vests/Vest_Type56/Vest_Type56.xob"
+   ItemModel "{086123E5FA3CE431}Assets/Characters/Vests/Vest_Type56/Vest_Type56_item.xob"
+   ItemMaterialsOverride {
+   }
+   DebugWornModel 0
+   DepthFront 0.05
+   DepthLeft 0.03
+   DepthRight 0.02
+   AreaOcludders {
+    "ChestLeftTopFront" "ChestRightTopFront" "ChestLeftBottomFront" "ChestRightBottomFront" "BeltFrontLeft" "BeltFrontRight"
+   }
+   DeflatedModel "{25C81C2E18975951}Assets/Characters/Vests/Vest_Type56/Vest_Type56_Inflated.xob"
+   AreaTypeWhenModelChange {
+    LoadoutArmoredVestSlotArea "{65D57276DD95B3A7}" {
+    }
+   }
+  }
+  ActionsManagerComponent "{53153A1F9AB97FF6}" {
+   ActionContexts {
+    UserActionContext "{5315328F7AEDED0B}" {
+     Position PointInfo "{5315328F7AEDED30}" {
+      Offset 0 0.3 0
+     }
+    }
+   }
+  }
+ }
+}

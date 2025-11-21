@@ -1,0 +1,74 @@
+GameEntity : "{916484D0EB7F9923}Prefabs/Characters/Core/AttachableHeadgear_Base.et" {
+ ID "5112706CD4157AC7"
+ components {
+  InventoryItemComponent "{5244E4431E28A759}" {
+   Attributes SCR_ItemAttributeCollection "{52C8D601873E6784}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{5DB13C575E2AFE37}" {
+     Name "#RHS-Item_tor_cover_Name"
+     Description "#RHS-Item_tor_cover_Description"
+     m_aItemHints {
+      SCR_InventoryItemHintUIInfo "{61CC91EC7E01D20D}" {
+       Name "#RHS-UI_InventoryHint_CanBeattachedToHelmet"
+       Icon "{57075D9983C07F48}UI/Textures/InventoryIcons/Inspection-gizmo-helmet-cover-slot-UI.edds"
+      }
+     }
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{5DB140EE28B043EA}" {
+     ItemDimensions 5 2 5
+     ItemVolume 50
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{5DB0D374F851F850}" {
+      CameraPreset Top
+     }
+     RHS_CustomAttributes "{5DB8FCFA57CB5068}" {
+      m_sShortName "#RHS-Item_tor_cover_emr_Name"
+      m_sCompatibleSlotNames {
+       "MeshCover"
+      }
+     }
+     RHS_HelmetCoverAttributes "{6182B3DB9F242195}" : "{4AE0A6A6323E09EF}Prefabs/Characters/Core/Configs/HelmetCovers/DefaultHelmetCoverAttributes.conf" {
+      m_aInflatedSlotInfo {
+       RHS_InflatedSlotInfo "{61793699DFF446BF}" {
+        m_vInflatedOffset 0 0.014 0
+        m_vInflatedRotation 0 9 0
+       }
+       RHS_InflatedSlotInfo "{61793699DFF446A0}" {
+        m_vInflatedOffset 0 0 0.002
+       }
+       RHS_InflatedSlotInfo "{61793699DFF446A1}" {
+        m_vInflatedOffset 0 0.002 0.003
+        m_vInflatedRotation 0 5 0
+       }
+       RHS_InflatedSlotInfo "{61793699DFF446AC}" {
+        m_vInflatedOffset 0 0 0.001
+       }
+      }
+     }
+    }
+   }
+  }
+  MeshObject "{5112706CD4157AE0}" {
+   Object "{15FC2DDD57A59CE8}Assets/Characters/HeadGear/Helmet_TOR/npp_tor_cover_item.xob"
+   Materials {
+    MaterialAssignClass "{65F743ED130E3061}" {
+     SourceMaterial "torcover"
+     AssignedMaterial "{B75905362602B16D}Assets/Characters/Uniforms/Goblin_jacket/Data/Leaves_Foliage.emat"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   AreaType RHS_LoadoutTORCoverSlotArea "{5AD4C744691240D1}" {
+   }
+   WornModel "{4BF74DFE689D7563}Assets/Characters/HeadGear/Helmet_TOR/npp_tor_cover.xob"
+   WornMaterialsOverride {
+    "{B75905362602B16D}Assets/Characters/Uniforms/Goblin_jacket/Data/Leaves_Foliage.emat"
+   }
+   ItemModel "{15FC2DDD57A59CE8}Assets/Characters/HeadGear/Helmet_TOR/npp_tor_cover_item.xob"
+   ItemMaterialsOverride {
+    "{B75905362602B16D}Assets/Characters/Uniforms/Goblin_jacket/Data/Leaves_Foliage.emat"
+   }
+  }
+ }
+ coords 872.885 50.58 2440.408
+}

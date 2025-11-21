@@ -1,0 +1,28 @@
+GenericEntity : "{DBEE873EA98E9D77}Prefabs/Weapons/Assault/SCAR_H/Rifle_SCAR_H_base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{64615D5DD76DAECE}" {
+     AttachmentSlot InventoryStorageSlot optic_ris {
+      Prefab "{D0453107F44917CF}Prefabs/Weapons/Attachments/Optics/exps/Optic_su231A_black.et"
+     }
+    }
+    AttachmentSlotComponent "{64615D5DD76DAED4}" {
+     AttachmentSlot InventoryStorageSlot BayonetSlot {
+      Prefab "{0FFFB0BCE1A21A2E}Prefabs/Weapons/Attachments/Lasers/anpeq16/Laser_ANPEQ16.et"
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     components {
+      AttachmentSlotComponent "{64615D5DD76DAE19}" {
+       AttachmentSlot InventoryStorageSlot Muzzle {
+        Prefab "{1030E826B42148BE}Prefabs/Weapons/Attachments/Muzzle/Suppressor_AAC_SDN6/Suppressor_AAC_SDN6.et"
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

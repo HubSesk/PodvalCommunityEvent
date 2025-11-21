@@ -1,0 +1,23 @@
+GenericEntity : "{A8ECA836DE9378B4}Prefabs/Weapons/Rifles/AK200/Rifle_AK200.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{662EBD3033C84A71}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot AttachmentSlot {
+      Prefab "{F727A9D4939E89EE}Prefabs/Weapons/Attachments/Optics/1p86/Optic_1p86-1.et"
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     components {
+      AttachmentSlotComponent "{4E2B66CBA589F625}" {
+       AttachmentSlot InventoryStorageSlot Muzzle {
+        Prefab "{F3DD3F69F633AD36}Prefabs/Weapons/Attachments/Muzzle/Supressor_TGPA/Supressor_TGPA.et"
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,38 @@
+GenericEntity : "{8777F96EBE817623}Prefabs/Props/Military/Sandbags/Sandbag_01_wall_solid_base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Materials {
+    MaterialAssignClass "{6646EA2935F076EF}" {
+     SourceMaterial "Sandbags_01_wall"
+     AssignedMaterial "{BA649E49FAB0440C}Assets/Props/Military/Sandbags/Data/Sandbags_01_wall_Burlap.emat"
+    }
+    MaterialAssignClass "{6646EA2935F076D1}" {
+     SourceMaterial "Sandbags_01_Wall_MLOD"
+     AssignedMaterial "{EB1461D010879CA5}Assets/Props/Military/Sandbags/Data/Sandbags_01_Wall_Burlap_MLOD.emat"
+    }
+   }
+  }
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   Static 1
+  }
+  SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+   m_DestroySpawnObjects {
+    SCR_DebrisSpawnable "{5D3462C011C09E3E}" : "{6EDFE5C9F2EAD37F}Configs/Destruction/MultiphaseDestruction/FX_Debris/FX_Debris_Snadbags_Burlap.conf" {
+     m_vOffsetPosition -0.8 1 0
+     m_eMaterialSoundType SANDBAG
+    }
+    SCR_DebrisSpawnable "{5D3462C010A61480}" : "{6EDFE5C9F2EAD37F}Configs/Destruction/MultiphaseDestruction/FX_Debris/FX_Debris_Snadbags_Burlap.conf" {
+     m_vOffsetPosition 0.8 1 0
+     m_eMaterialSoundType SANDBAG
+    }
+   }
+   m_aDamagePhases {
+    SCR_DamagePhaseData "{5E4CB75C6BD4C300}" {
+     m_PhaseModel "{D141C8D61B585F3F}Assets/Props/Military/Sandbags/Dst/Sandbag_01_Single_dst_03.xob"
+    }
+   }
+  }
+ }
+ coords -11.979 16.043 13.344
+}

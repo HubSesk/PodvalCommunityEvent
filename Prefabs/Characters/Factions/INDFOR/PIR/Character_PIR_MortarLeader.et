@@ -1,0 +1,45 @@
+SCR_ChimeraCharacter : "{9A132AE865F1DB2D}Prefabs/Characters/Factions/INDFOR/PIR/Character_TKR_PL.et" {
+ ID "520EC961A090B1EE"
+ components {
+  FactionAffiliationComponent "{60745A466E15E001}" {
+   "faction affiliation" "Drg_PIR"
+  }
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_bIsPlayable 1
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#DRG_TKR_Roles_MortarLeader"
+    Icon "{E897433F42FEC3C0}UI/Icons/mortar.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{87D1627219526B86}Prefabs/Weapons/Assault/AKM/Rifle_AKM.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{1C7BF9EFC11B29D9}Prefabs/Characters/HeadGear/Hat_Shemagh/Hat_Shemagh_Green.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{DCF980831E880F6A}Prefabs/Characters/Uniforms/Pants_M88.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6074FD81D85F4351}" {
+     TargetStorage "Pants/Pants_M88.et"
+    }
+    ItemsInitConfigurationItem "{60FB76D98B3CD6FB}" {
+     TargetStorage "Jacket/Jacket_TAZ83_01.et"
+    }
+    ItemsInitConfigurationItem "{63192993053E337D}" {
+     PrefabsToSpawn {
+      "{D8125552E67B5C76}Prefabs/Weapons/Attachments/Magazines/AKM/Magazine_AK_762x39_6L10_30rnd.et" "{D8125552E67B5C76}Prefabs/Weapons/Attachments/Magazines/AKM/Magazine_AK_762x39_6L10_30rnd.et" "{D8125552E67B5C76}Prefabs/Weapons/Attachments/Magazines/AKM/Magazine_AK_762x39_6L10_30rnd.et" "{D8125552E67B5C76}Prefabs/Weapons/Attachments/Magazines/AKM/Magazine_AK_762x39_6L10_30rnd.et" "{D8125552E67B5C76}Prefabs/Weapons/Attachments/Magazines/AKM/Magazine_AK_762x39_6L10_30rnd.et" "{B41607EAB58A4252}Prefabs/Items/Equipment/BalisticTable/BalisticTable_USSR.et" "{6113990D163E5249}Prefabs/Items/Equipment/BalisticTable/BalisticTable_US.et"
+     }
+    }
+   }
+  }
+ }
+}

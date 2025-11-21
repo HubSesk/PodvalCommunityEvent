@@ -1,0 +1,55 @@
+SCR_ChimeraCharacter : "{1E5D9B21280870AA}Prefabs/Characters/Factions/CIV/ConstructionWorker/Character_CIV_ConstructionWorker_Base.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Random_Civilian_ConstructionWorker_Name"
+    Icon "{C431FD61793AA13F}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Random.edds"
+    m_Image "{7B22D7684E370E2F}UI/Textures/EditorPreviews/Characters/CIV/Character_CIV_ConstructionWorker_Randomized.edds"
+    m_aAuthoredLabels {
+     290 70 2 13 22
+    }
+   }
+   m_VariantData SCR_EditableEntityVariantData "{61D2C0544460D647}" {
+    m_bRandomizeDefaultVariant 0
+    m_aVariants {
+     SCR_EditableEntityVariant "{61D2C0544460D64E}" {
+      m_sVariantPrefab "{6F5A71376479B353}Prefabs/Characters/Factions/CIV/ConstructionWorker/Character_CIV_ConstructionWorker_1.et"
+     }
+     SCR_EditableEntityVariant "{61D2C0544460D650}" {
+      m_sVariantPrefab "{C97B985FCFC3E4D6}Prefabs/Characters/Factions/CIV/ConstructionWorker/Character_CIV_ConstructionWorker_2.et"
+     }
+     SCR_EditableEntityVariant "{61D2C0544460D655}" {
+      m_sVariantPrefab "{2CE7D4A6C32673BD}Prefabs/Characters/Factions/CIV/ConstructionWorker/Character_CIV_ConstructionWorker_3.et"
+     }
+     SCR_EditableEntityVariant "{61D2C0544460D65B}" {
+      m_sVariantPrefab "{11D3F19EB64AFA8A}Prefabs/Characters/Factions/CIV/ConstructionWorker/Character_CIV_ConstructionWorker_4.et"
+     }
+     SCR_EditableEntityVariant "{61D2C0544460D659}" {
+      m_sVariantPrefab "{F44FBD67BAAF6DE1}Prefabs/Characters/Factions/CIV/ConstructionWorker/Character_CIV_ConstructionWorker_5.et"
+     }
+    }
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{8F5261C6B57B95C8}Prefabs/Characters/HeadGear/Hat_Hard_01/Hat_Hard_01_yellow.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{FEEC97AEB32EFB9B}Prefabs/Characters/Uniforms/Shirt_CottonShirt_01/Shirt_CottonShirt_01_V2_Dirty.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{537FD11C135757AC}Prefabs/Characters/Uniforms/Pants_Trousers_01/Pants_Trousers_01_DarkGrey_Dirty.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{60DCBCECAC6C6E65}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Pants_Trousers_01/Pants_Trousers_01_DarkGrey_Dirty.et"
+    }
+   }
+  }
+ }
+}

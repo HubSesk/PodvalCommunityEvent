@@ -1,0 +1,30 @@
+GameEntity : "{2E673D7681977A8B}Prefabs/Characters/Uniforms/Jacket_M88_vietnam.et" {
+ ID "5104869D194C6243"
+ components {
+  MeshObject "{5104869D194C6262}" {
+   Materials {
+    MaterialAssignClass "{65D569EF5E202554}" {
+     SourceMaterial "Jacket_M88_01_Item"
+     AssignedMaterial "{18C25D5F4732B4B9}Assets/Characters/Uniforms/Jacket_M88/Data/Jacket_M88_01_item_vietnam_blk.emat"
+    }
+   }
+  }
+  SCR_ItemOutfitFactionComponent "{618AD7BA742C881B}" {
+   m_OutfitDataHolder SCR_OutfitFactionDataHolder "{61A8A841FFD3695A}" {
+    m_aOutfitFactionData {
+     SCR_OutfitFactionData "{61A8A841FF4AEFAF}" {
+      m_AffiliatedFactionKey "Drg_VCA"
+     }
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5104869D194C627A}" {
+   WornMaterialsOverride {
+    "{B790D8D027D5AAEA}Assets/Characters/Uniforms/Jacket_M88/Data/Jacket_M88_01_vietnam_blk.emat"
+   }
+   ItemMaterialsOverride {
+    "{B790D8D027D5AAEA}Assets/Characters/Uniforms/Jacket_M88/Data/Jacket_M88_01_vietnam_blk.emat"
+   }
+  }
+ }
+}

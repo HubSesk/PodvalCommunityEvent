@@ -1,0 +1,48 @@
+SCR_ChimeraCharacter : "{EC0FA9C8693899D5}Prefabs/Characters/Factions/INDFOR/PIR/Character_TKR_Rifleman_Random.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#DRG_TKR_Roles_SL"
+    Icon "{A26C465A6AE2AA17}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Leader.edds"
+   }
+   m_VariantData SCR_EditableEntityVariantData "{61D2C05410E875A1}" {
+    m_aVariants {
+     SCR_EditableEntityVariant "{61D2C0544460D64E}" {
+      m_sVariantPrefab "{DAF8962F21247734}Prefabs/Characters/Factions/INDFOR/PIR/SL_variants/Character_TKR_SL_var2.et"
+     }
+     SCR_EditableEntityVariant "{61D2C0544460D650}" {
+      m_sVariantPrefab "{DAF8962F21247734}Prefabs/Characters/Factions/INDFOR/PIR/SL_variants/Character_TKR_SL_var2.et"
+     }
+     SCR_EditableEntityVariant "{61D2C0544460D655}" {
+      m_sVariantPrefab "{3F64DAD62DC1E05F}Prefabs/Characters/Factions/INDFOR/PIR/SL_variants/Character_TKR_SL_var3.et"
+     }
+     SCR_EditableEntityVariant "{61D2C0544460D65B}" {
+      m_sVariantPrefab "{0250FFEE58AD6968}Prefabs/Characters/Factions/INDFOR/PIR/SL_variants/Character_TKR_SL_var4.et"
+     }
+     SCR_EditableEntityVariant "{61D2C0539884028C}" {
+      m_sVariantPrefab "{0250FFEE58AD6968}Prefabs/Characters/Factions/INDFOR/PIR/SL_variants/Character_TKR_SL_var4.et"
+     }
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{61D2C058EFEC64A8}" {
+     PrefabsToSpawn {
+      "{119D0AA19EF023A7}Prefabs/Items/Equipment/Radios/INDFOR_Radio_R187P1_OLD_SL.et" "{7CEF68E2BC68CE71}Prefabs/Items/Equipment/Compass/Compass_Adrianov.et" "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/PaperMap_01_folded.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{062E2F1D7F6739D6}Prefabs/Items/Equipment/Accessories/ETool_MPL50/ETool_MPL50_FreeRoamBuilding_Gadget.et"
+     }
+    }
+    ItemsInitConfigurationItem "{61D2C058E2831D3F}" {
+     TargetStorage "Vest/Vest_Lifchik_TKA.et"
+    }
+    ItemsInitConfigurationItem "{61D2C05790C7AB1A}" {
+     TargetStorage "Vest/Vest_Lifchik_TKA.et"
+    }
+    ItemsInitConfigurationItem "{61D2C0578E2FCAC6}" {
+     TargetStorage "Back/Backpack_Kolobok.et"
+    }
+   }
+  }
+ }
+}

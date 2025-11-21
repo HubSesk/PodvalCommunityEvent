@@ -1,0 +1,20 @@
+SCR_ChimeraCharacter : "{A0353AA0B2D21DE6}Prefabs/Characters/Factions/INDFOR/Drg_VCA/Recon/drg_Character_VCA_Recon_SL.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_SeniorRifleman"
+    Icon "{44B846FB4F46E36A}UI/Icons/team_leader.edds"
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{65D6BA6F4A2ECBEE}" {
+     PrefabsToSpawn {
+      "{1767D6A5BAFCB460}Prefabs/Items/Equipment/Radios/drg_VCA_Radio_R148_rprv.et"
+     }
+    }
+   }
+  }
+ }
+}

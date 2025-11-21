@@ -1,0 +1,42 @@
+SCR_ChimeraCharacter : "{E3FA22BDD5A61740}Prefabs/Characters/Factions/OPFOR/USSR_Army/Marines/drg_Character_USSR_MI_SL.et" {
+ ID "520EC961A090BE1E"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#DRG-Role-Mortar-TL"
+    Icon "{E897433F42FEC3C0}UI/Icons/mortar.edds"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{22963D69CA50EB9E}Prefabs/Characters/HeadGear/Helmet_SSh68_01/Helmet_SSh68_01_net.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{B31D9C2465D00D93}Prefabs/Items/Equipment/Radios/Radio_R107M_PL.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{9713FE6DDCC9510D}Prefabs/Characters/Vests/Vest_Lifchik/Vest_Lifchik.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{667D4D645CFAA944}" {
+     TargetStorage "Vest/Vest_Lifchik.et"
+    }
+    ItemsInitConfigurationItem "{667D4D645DB25CC7}" {
+     TargetStorage "Jacket/Jacket_M88_TTsKO.et"
+     PrefabsToSpawn {
+      "{B41607EAB58A4252}Prefabs/Items/Equipment/BallisticTable/BallisticTable_USSR.et"
+     }
+    }
+    ItemsInitConfigurationItem "{667D4D60C22B7554}" {
+     PrefabsToSpawn {
+      "{97803BFD13AFA67F}Prefabs/Items/Equipment/Radios/Radio_R148_Prv.et"
+     }
+    }
+   }
+  }
+ }
+}

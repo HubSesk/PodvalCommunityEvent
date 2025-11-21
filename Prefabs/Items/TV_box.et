@@ -1,0 +1,43 @@
+GenericEntity : "{CC03E3F4B1E5E1B8}Prefabs/Items/Bulba_basic.et" {
+ ID "60473270075E5C96"
+ components {
+  MeshObject "{604732700271E225}" {
+   Object "{C5C0F74E1FA90A8D}Assets/Props/Furniture/TVset_01/TVset_01.xob"
+  }
+  RigidBody "{604732700271E266}" {
+   Mass 50
+  }
+  SCR_MineInventoryItemComponent "{604732700271ECF7}" {
+   Attributes SCR_ItemAttributeCollection "{604732700271ECE8}" {
+    ItemPhysAttributes ItemPhysicalAttributes "{604732700271E31E}" {
+     Weight 25
+     ItemVolume 10000
+    }
+    ItemAnimationAttributes ItemAnimationAttributes "{604732700271E379}" {
+    }
+    CustomAttributes {
+     HolsteredItemAttributes "{604732700271EC90}" {
+      LinearOffset 0 -0.1 -0.1
+      AngularOffset 90 0 0
+     }
+    }
+   }
+  }
+  SCR_MineWeaponComponent "{604732700271EDBF}" {
+   UIInfo GrenadeUIInfo "{604732700271EC7A}" {
+    Name "Специальный груз"
+    Description "Какой то очень секретный груз КМП США"
+   }
+  }
+  ActionsManagerComponent "{604732700271EEA7}" {
+   ActionContexts {
+    UserActionContext "{604732700271ED9E}" {
+     Position PointInfo "{604732700271ED9D}" {
+      Offset 0 0.5 0
+     }
+     Radius 1
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,18 @@
+SCR_ChimeraCharacter : "{158AD0F1F856A3FB}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/SSO/drg_Role_RHS_AFRF_SSO_SL.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{138B6702FFE14FA2}Prefabs/Weapons/Rifles/AK74M/variants/Rifle_AK74M_npz_b10m_b19n_tgpa_Thermal.et"
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{652ABD1CBDF0FF71}" {
+     TargetStorage "Vest/Vest_Taktika_belt_arsarma_1.et/GMR/Minimap_ArsArma_GMR_FG.et"
+     PrefabsToSpawn {
+      "{B0D87E5898D91004}Prefabs/Weapons/Attachments/Optics/aimpoint_t1/Optic_su278pvs_low.et"
+     }
+    }
+   }
+  }
+ }
+}

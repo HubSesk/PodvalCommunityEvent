@@ -1,0 +1,72 @@
+GenericEntity : "{5879D8E9C56E358E}Prefabs/Items/Equipment/Radios/Radio_Deployable_Base.et" {
+ ID "508AB2013EEE1E00"
+ components {
+  BaseRadioComponent "{5A30BAE7673C63CA}" {
+   "Encryption key" "Bamboo"
+   "Turned on" 1
+   Transceivers {
+    RadioTransceiver "{5EA4A89F0D06E18F}" {
+     ChannelFrequency 46000
+     "Transmitting Range" 5000
+     "Frequency resolution" 100
+    }
+   }
+  }
+  MeshObject "{5A30BAE7673C63D1}" {
+   Object "{77C9FCF3FB1246E9}Assets/Items/Equipment/Radios/Radio_R107M/Radio_R107M_01_item.xob"
+  }
+  RigidBody "{5A30BAE7673C63D3}" {
+   ModelGeometry 1
+  }
+  SCR_DeployableInventoryItemInventoryComponent "{5222EB4D0C73006B}" {
+   Attributes SCR_ItemAttributeCollection "{5222EB4D0A2B466B}" {
+    ItemDisplayName UIInfo "{5222EB4D07D865FA}" {
+     Name "#AR-Item_R107M_Name"
+     Description "#AR-Item_R107M_Description"
+     Icon "{650E1AA9B7CB1F9A}UI/Textures/VON/R107M-100px_UI.edds"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 18.5
+     SizeSetupStrategy Manual
+     ItemDimensions 25 25 25
+     ItemVolume 10000
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{5EA4A89F0D06E1A6}" {
+      CameraDistanceToItem 4
+      CameraOffset 0 -0.1 0
+      AspectRatio 1
+      PreviewModel "{518A95342557BC80}Assets/Items/Equipment/Radios/Radio_R107M/Radio_R107M_01.xob"
+     }
+     SCR_VONPreviewAttributes "{5EA4A89F0D06E1A1}" {
+      CameraOrbitAngles 0 -150 4
+      CameraDistanceToItem 1.3
+      CameraOffset 0.05 -0.1 0
+      AspectRatio 1
+     }
+    }
+    m_Size SLOT_2x2
+    m_SlotType SLOT_BACKPACK
+   }
+  }
+  SCR_RadioComponent "{5A30BAE7673C63D4}" {
+   m_iRadioCategory MANPACK
+   m_iRadioType R107M
+  }
+  SCR_RestrictedDeployableSpawnPointComponent "{5EA4A89F0D06E1A8}" {
+   m_sReplacementPrefab "{04F7BB1A1EA8BA23}Prefabs/Systems/DeployableRadios/DeployableItemRadioReplacementUSSR.et"
+   m_FactionKey "USSR"
+  }
+  BaseLoadoutClothComponent "{5EA4A89F0D06E1DE}" {
+   AreaType LoadoutBackpackArea "{65D68EE0E09DF7E3}" {
+   }
+   WornModel "{518A95342557BC80}Assets/Items/Equipment/Radios/Radio_R107M/Radio_R107M_01.xob"
+   ItemModel "{77C9FCF3FB1246E9}Assets/Items/Equipment/Radios/Radio_R107M/Radio_R107M_01_item.xob"
+   VisibleInVehicle 0
+   DepthBack 0.025
+   OffsetShoulderLeft -0.1
+   OffsetShoulderRight 0.1
+   DeflatedModel "{302BB60AB83B93E7}Assets/Items/Equipment/Radios/Radio_R107M/Radio_R107M_01_Inflated.xob"
+  }
+ }
+}

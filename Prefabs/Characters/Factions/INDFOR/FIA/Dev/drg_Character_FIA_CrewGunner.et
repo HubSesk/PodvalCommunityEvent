@@ -1,0 +1,20 @@
+SCR_ChimeraCharacter : "{D014086FB76CBD77}Prefabs/Characters/Factions/INDFOR/FIA/Dev/drg_Character_FIA_CrewDriver.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#DRG-Role_CrewGunner"
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{65F2DDEEBF207C7A}" {
+     TargetStorage "Jacket/Jacket_M70.et"
+     PrefabsToSpawn {
+      "{A7313E86D0CE3C83}Prefabs/Items/Equipment/Radios/Radio_R148_FIA_rprv.et"
+     }
+    }
+   }
+  }
+ }
+}

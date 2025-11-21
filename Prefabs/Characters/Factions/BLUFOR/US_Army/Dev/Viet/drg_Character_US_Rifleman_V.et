@@ -1,0 +1,40 @@
+SCR_ChimeraCharacter : "{903097F658A99BE3}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_Rifleman.et" {
+ ID "520EC961A090BBD5"
+ components {
+  CharacterGrenadeSlotComponent "{5A6CDA0CCF43068E}" {
+   WeaponTemplate "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{F1290C76103E99E6}Prefabs/Weapons/Rifles/M16A1/BC_Rifle_M16A1.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{2E1199EFECE50F35}Prefabs/Characters/HeadGear/Helmet_M1_01/Helmet_M1_01_Cover_ERDL.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{293F577C298061E3}Prefabs/Characters/Uniforms/Jacket_US_BDU_02.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab ""
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{86BB79B9A2233780}Prefabs/Characters/Uniforms/Pants_US_M65.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{61B75C981AA2A498}" {
+     TargetStorage "Pants/Pants_US_M65.et"
+    }
+    ItemsInitConfigurationItem "{61B75C986066B4C1}" {
+     TargetStorage "Jacket/Jacket_US_BDU_02.et"
+    }
+    ItemsInitConfigurationItem "{61B87867EA32507F}" {
+     TargetStorage "Vest/Vest_ALICE_rifleman.et"
+    }
+   }
+  }
+ }
+}

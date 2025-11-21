@@ -1,0 +1,40 @@
+SCR_ChimeraCharacter : "{69AF9F9D049BCD5F}Prefabs/Characters/Factions/BLUFOR/CDF_Army/drg_Character_CDF_SR.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_SquadLeader"
+    Icon "{A26C465A6AE2AA17}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Leader.edds"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{9723923821F574EA}Prefabs/Characters/HeadGear/Helmet_PASGT_01/Helmet_PASGT_01_ses.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{57A900636700FA35}Prefabs/Characters/Vests/Vest_6B3/Vest_6B3_Dubok_CDF.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{62387670C065B659}" {
+    }
+    ItemsInitConfigurationItem "{654AD37418827625}" {
+     PrefabsToSpawn {
+      "{CCEEA6BC6177C51F}Prefabs/Items/Equipment/Radios/drg_Radio_ANPRC152A_OLD_SL_CDF.et"
+     }
+    }
+    ItemsInitConfigurationItem "{623876773B28341A}" {
+     TargetStorage "ArmoredVest/Vest_6B3_Dubok_CDF.et"
+    }
+    ItemsInitConfigurationItem "{623876773A154FCC}" {
+     TargetStorage "Prefabs/Items/Equipment/Backpacks/Backpack_Veshmeshok.et"
+     PrefabsToSpawn +{
+     }
+    }
+   }
+  }
+ }
+}

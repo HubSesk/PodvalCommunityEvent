@@ -1,0 +1,28 @@
+SCR_DestructibleBuildingEntity : "{1D4AA0AA6AF86050}Prefabs/Structures/Infrastructure/Waterworks/WaterStation_01/WaterStation_01_base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  BaseSlotComponent "{6574A4ED18F3118E}" {
+   Enabled 0
+  }
+  MapDescriptorComponent "{6574A4ED18F3107F}" {
+   MainType "Water Pump"
+  }
+  MeshObject "{506EDA9D46FC6C06}" {
+   Object "{875C08FA2E2EFA34}Assets/Structures/Infrastructure/Waterworks/WaterStation_01/WaterStation_01_Uncovered.xob"
+  }
+ }
+ {
+  GenericEntity : "{0D8F2E2E29423C5B}Prefabs/Structures/Infrastructure/Waterworks/WaterStation_01/Furniture/WaterStation_01_furniture_01.et" {
+   ID "6574A4ED18F31198"
+   coords 0 0 0
+  }
+  Building : "{D3F903272380C266}Prefabs/Structures/BuildingParts/Windows/Win_Office_E_A/Win_Office_E_130x72_1_B.et" {
+   ID "6574A4ED18F31184"
+   components {
+    Hierarchy "{6574A4ED18F31063}" {
+     PivotID "socket_win_72x130"
+    }
+   }
+  }
+ }
+}

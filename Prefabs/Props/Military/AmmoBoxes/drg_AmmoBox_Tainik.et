@@ -1,0 +1,53 @@
+GenericEntity : "{F1FDD5669F4C26B2}Prefabs/Props/Military/AmmoBoxes/drg_AmmoBox_545.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  SCR_FilteredInventoryStorageComponent "{5476A2F100DF4EFF}" {
+   Attributes SCR_ItemAttributeCollection "{5476CDB2EAD8225E}" {
+    ItemDisplayName SCR_InventoryUIInfo "{64F707D10A95B574}" {
+     Name "Тайник"
+    }
+   }
+   MultiSlots {
+    MultiSlotConfiguration "{6502C64ED28D7103}" {
+     SlotTemplate InventoryStorageSlot "{64DCC2F489C88F5C}" {
+      Prefab "{1746BD63CAD676C2}Prefabs/Weapons/Rifles/AK74M/variants/Rifle_AK74M_npz_VKPO3.0_2.et"
+     }
+     NumSlots 1
+    }
+    MultiSlotConfiguration "{65E0D8944E23572D}" {
+     SlotTemplate InventoryStorageSlot "{64DCC2F489C88F5C}" {
+      Prefab "{E05D8C4D2B36C8F3}Prefabs/Characters/Uniforms/Jacket_6b51_VKPO.et"
+     }
+     NumSlots 10
+    }
+    MultiSlotConfiguration "{65E0D8944ED2CD94}" {
+     SlotTemplate InventoryStorageSlot "{64DCC2F489C88F5C}" {
+      Prefab "{738798231DAF3078}Prefabs/Characters/Uniforms/Pants_6b51_VKPO.et"
+     }
+     NumSlots 1
+    }
+    MultiSlotConfiguration "{65E0D8944FD8ACA3}" {
+     SlotTemplate InventoryStorageSlot "{64DCC2F489C88F5C}" {
+      Prefab "{B9821AF2F5D104E4}Prefabs/Characters/Vests/Vest_Ratnik_6B45/Vest_Ratnik_6B45.et"
+     }
+     NumSlots 1
+    }
+    MultiSlotConfiguration "{65E0D894D13899E1}" {
+     SlotTemplate InventoryStorageSlot "{64DCC2F489C88F5C}" {
+      Prefab "{20CFD20350444288}Prefabs/Characters/Vests/Vest_Ratnik_6B45/Variants/Vest_Ratnik_6B45_rifleman.et"
+     }
+     NumSlots 1
+    }
+    MultiSlotConfiguration "{65E0D895AEA4A43A}" {
+     SlotTemplate InventoryStorageSlot "{64DCC2F489C88F5C}" {
+      Prefab "{7D80183CA355F8F7}Prefabs/Characters/HeadGear/Helmet_6B47/variants/Helmet_6B47_FastStrap_VKPO30.et"
+     }
+     NumSlots 1
+    }
+   }
+   m_aAllowedItemTypes {
+    "NONE"
+   }
+  }
+ }
+}

@@ -1,0 +1,20 @@
+SCR_ChimeraCharacter : "{066AFB1CF3A3B1F1}Prefabs/Characters/Factions/OPFOR/USSR_Army/Recon/drg_Character_USSR_Recon_CrewDriver.et" {
+ ID "520EC961A090BE1E"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#DRG-Role_CrewGunner"
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6550DAA1847C9AB7}" {
+     TargetStorage "Jacket/Suit_KLMK.et"
+     PrefabsToSpawn {
+      "{6492196F107687BC}Prefabs/Items/Equipment/Radios/Radio_R148_SL.et"
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,18 @@
+SCR_ChimeraCharacter : "{E024A74F8A4BC644}Prefabs/Characters/Factions/CIV/Businessman/Character_CIV_Businessman_1.et" {
+ ID "520EC961A090B1EE"
+ components {
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_bIsPlayable 1
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6454F7A57B363F47}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Pants_Suit_01/Pants_Suit_01_grey_V1.et"
+     PrefabsToSpawn {
+      "{AD0EB444380A16CA}Prefabs/Items/Equipment/RangeCard/Note_good.et"
+     }
+    }
+   }
+  }
+ }
+}

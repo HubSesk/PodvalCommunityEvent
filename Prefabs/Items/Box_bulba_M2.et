@@ -1,0 +1,25 @@
+GenericEntity : "{CC03E3F4B1E5E1B8}Prefabs/Items/Bulba_basic.et" {
+ ID "60473270075E5C96"
+ components {
+  MeshObject "{604732700271E225}" {
+   Object "{26602B855125635D}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/EquipmentBoxWooden_Explosives_01.xob"
+  }
+  RigidBody "{604732700271E266}" {
+   Mass 50
+  }
+  SCR_MineInventoryItemComponent "{604732700271ECF7}" {
+   Attributes SCR_ItemAttributeCollection "{604732700271ECE8}" {
+    ItemPhysAttributes ItemPhysicalAttributes "{604732700271E31E}" {
+     Weight 25
+     ItemVolume 10000
+    }
+   }
+  }
+  SCR_MineWeaponComponent "{604732700271EDBF}" {
+   UIInfo GrenadeUIInfo "{604732700271EC7A}" {
+    Name "Специальный груз"
+    Description "Какой то очень секретный груз КМП США"
+   }
+  }
+ }
+}

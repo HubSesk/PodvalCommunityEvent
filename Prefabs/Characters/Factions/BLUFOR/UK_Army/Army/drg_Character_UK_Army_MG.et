@@ -1,0 +1,41 @@
+SCR_ChimeraCharacter : "{0BAD475116154D68}Prefabs/Characters/Factions/BLUFOR/UK_Army/Army/drg_Character_UK_Army_Armored.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_MachineGunner"
+    Icon "{F98CF71C0B32DEF4}UI/Icons/heave_machine_gunner.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{78975C5D9C1AFA4C}Prefabs/Weapons/MachineGuns/GPMG/MG_GPMG_L7A2.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Back {
+     Prefab "{816B4F309B3B3D39}Prefabs/Items/Equipment/Backpacks/Rucksack_GS_assembled.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6574E31E1E7E2CE6}" {
+     PrefabsToSpawn {
+      "{84CF6E93A62792DA}Prefabs/Weapons/Magazines/Box_762x51_GPMG_50rnd_1Ball_1Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6574E31E981CB019}" {
+     PrefabsToSpawn {
+      "{84CF6E93A62792DA}Prefabs/Weapons/Magazines/Box_762x51_GPMG_50rnd_1Ball_1Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6574F43807564191}" {
+     TargetStorage "Back/Rucksack_GS_assembled.et"
+     PrefabsToSpawn {
+      "{84CF6E93A62792DA}Prefabs/Weapons/Magazines/Box_762x51_GPMG_50rnd_1Ball_1Tracer.et" "{84CF6E93A62792DA}Prefabs/Weapons/Magazines/Box_762x51_GPMG_50rnd_1Ball_1Tracer.et" "{84CF6E93A62792DA}Prefabs/Weapons/Magazines/Box_762x51_GPMG_50rnd_1Ball_1Tracer.et" "{84CF6E93A62792DA}Prefabs/Weapons/Magazines/Box_762x51_GPMG_50rnd_1Ball_1Tracer.et"
+     }
+    }
+   }
+  }
+ }
+}

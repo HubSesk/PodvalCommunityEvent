@@ -1,0 +1,63 @@
+GenericEntity : "{07115F3FCE86BDB7}Prefabs/Weapons/Rifles/SR3M/Rifle_SR3M_wd.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{5EE3717254A87257}" {
+     AttachmentSlot InventoryStorageSlot optics {
+      Offset -0.0023 0.0001 -0.075
+     }
+    }
+    AttachmentSlotComponent "{5EE4B6E06A50CD02}" {
+     AttachmentSlot InventoryStorageSlot opticPso {
+      PivotID "slot_optic"
+      Offset 0.0165 0.0082 0
+      ChildPivotID ""
+      Prefab ""
+     }
+    }
+    AttachmentSlotComponent "{65BD47287E23F5E1}" {
+     AttachmentSlot InventoryStorageSlot Optics {
+      Offset 0 0.0806 0.0183
+      Enabled 1
+      Prefab "{1DAEA9434BBB003E}Prefabs/Weapons/Attachments/Optics/aimpoint_t1/Optic_t1_low.et"
+     }
+     AttachmentType AttachmentOpticsRIS1913 "{65BD472847A4E46B}" {
+     }
+    }
+    AttachmentSlotComponent "{65BD472996E8E226}" {
+     AttachmentSlot InventoryStorageSlot Rail {
+      Offset 0 0.07065 0.0257
+      Prefab "{7279721D20AD7855}Prefabs/Weapons/Attachments/Rails/b18/drg_mlokrail.et"
+     }
+    }
+    AttachmentSlotComponent "{65BD472F2D34F915}" {
+     AttachmentSlot InventoryStorageSlot Rail2 {
+      Offset 0 0.0706 -0.0345
+      Prefab "{7279721D20AD7855}Prefabs/Weapons/Attachments/Rails/b18/drg_mlokrail.et"
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     components {
+      AttachmentSlotComponent "{626129F687924D4C}" {
+       AttachmentSlot InventoryStorageSlot Muzzle {
+        Prefab "{94909AABD52A245E}Prefabs/Weapons/Attachments/Muzzle/SR3M_Supressor/Supressor_SR3M.et"
+       }
+      }
+     }
+     MagazineTemplate "{9F9D2A11F3D39866}Prefabs/Weapons/Magazines/sr3m_magazine_30rnd/Magazine_9x39_SR3M_30rnd_SP6_base.et"
+    }
+    AttachmentSlotComponent "{65F370427A4055B7}" {
+     AttachmentSlot InventoryStorageSlot "{65F370427FCD3F21}" {
+      PivotID "slot_optics"
+      Offset 0.0162 0.0373 -0.0075
+      ChildPivotID "snap_weapon"
+      InspectionWidgetOffset -0.025 0.0527 -0.0702
+     }
+     AttachmentType AttachmentOpticsDovetailAK "{65F370424A66FDF7}" {
+     }
+    }
+   }
+  }
+ }
+}

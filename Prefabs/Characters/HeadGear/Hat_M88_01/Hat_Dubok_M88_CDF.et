@@ -1,0 +1,33 @@
+GameEntity : "{6ED66E4BF74756C0}Prefabs/Characters/HeadGear/Hat_M88_01/Hat_M88_01_base.et" {
+ ID "5112706CD4157AC7"
+ components {
+  MeshObject "{5112706CD4157AE0}" {
+   Object "{EE185A2AB1325C43}Assets/Characters/HeadGear/Hat_M88/Hat_M88_02_item.xob"
+   Materials {
+    MaterialAssignClass "{6511014155145525}" {
+     SourceMaterial "Hat_M88_02"
+     AssignedMaterial "{B3480C7691866818}Assets/Characters/HeadGear/Hat_M88/Data/Hat_M88_CDF.emat"
+    }
+   }
+  }
+  SCR_ItemOutfitFactionComponent "{618AD7BA20E80EAB}" {
+   m_OutfitDataHolder SCR_OutfitFactionDataHolder "{61A8D966FA4073A9}" {
+    m_aOutfitFactionData {
+     SCR_OutfitFactionData "{61A8D966F923B316}" {
+      m_AffiliatedFactionKey "Ses_CDF"
+     }
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   WornModel "{8CBBAA553B2BD2F0}Assets/Characters/HeadGear/Hat_M88/Hat_M88_02.xob"
+   WornMaterialsOverride {
+    "{9C615D096CF08F5E}Assets/Characters/HeadGear/Hat_M88/Data/Hat_Dubok_M88_CDF.emat"
+   }
+   ItemModel "{EE185A2AB1325C43}Assets/Characters/HeadGear/Hat_M88/Hat_M88_02_item.xob"
+   ItemMaterialsOverride {
+    "{9C615D096CF08F5E}Assets/Characters/HeadGear/Hat_M88/Data/Hat_Dubok_M88_CDF.emat"
+   }
+  }
+ }
+}

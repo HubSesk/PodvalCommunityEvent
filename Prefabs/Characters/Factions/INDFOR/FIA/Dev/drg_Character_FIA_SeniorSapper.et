@@ -1,0 +1,20 @@
+SCR_ChimeraCharacter : "{481A5CED9073A2FD}Prefabs/Characters/Factions/INDFOR/FIA/Dev/drg_Character_FIA_Sapper.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#DRG-Role_EngineerSeniorSapper"
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{65F2DDE0FA999F5D}" {
+     TargetStorage "Jacket/Jacket_M70.et"
+     PrefabsToSpawn {
+      "{E07B25D9851B3AAA}Prefabs/Items/Equipment/Radios/drg_VCA_Radio_R148_SL.et"
+     }
+    }
+   }
+  }
+ }
+}

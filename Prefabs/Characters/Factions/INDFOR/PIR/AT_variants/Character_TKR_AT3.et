@@ -1,0 +1,49 @@
+SCR_ChimeraCharacter : "{5AAF5FBB9662287F}Prefabs/Characters/Factions/INDFOR/PIR/Rifleman_variants/Character_TKR_Rifleman_3.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#DRG_TKR_Roles_AT"
+    Icon "{00B30C29FAF85E1C}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_AntiTank.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponTemplate "{7A82FE978603F137}Prefabs/Weapons/Launchers/RPG7/Launcher_RPG7.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Back {
+     Prefab "{6A39B5843B3F36DA}Prefabs/Items/Equipment/Backpacks/Backpack_RPG_Assistant.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{61D2C05790C7AB1A}" {
+     TargetStorage "Back/Backpack_RPG_Assistant.et"
+     PrefabsToSpawn {
+      "{32E12D322E107F1C}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VM.et" "{32E12D322E107F1C}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VM.et" "{32E12D322E107F1C}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VM.et"
+     }
+    }
+    ItemsInitConfigurationItem "{61D2C0578E2FCAC6}" {
+     TargetStorage "Vest/Vest_ALICE_commander.et"
+     PrefabsToSpawn {
+      "{D8125552E67B5C76}Prefabs/Weapons/Attachments/Magazines/AKM/Magazine_AK_762x39_6L10_30rnd.et" "{D8125552E67B5C76}Prefabs/Weapons/Attachments/Magazines/AKM/Magazine_AK_762x39_6L10_30rnd.et" "{D8125552E67B5C76}Prefabs/Weapons/Attachments/Magazines/AKM/Magazine_AK_762x39_6L10_30rnd.et"
+     }
+    }
+    ItemsInitConfigurationItem "{61D2EE94B45C5FC9}" {
+     TargetStorage "Vest/Vest_ALICE_commander.et/MagPouch/Pouch_ALICE_30rnd_STANAG.et"
+     PrefabsToSpawn {
+      "{D8125552E67B5C76}Prefabs/Weapons/Attachments/Magazines/AKM/Magazine_AK_762x39_6L10_30rnd.et" "{D8125552E67B5C76}Prefabs/Weapons/Attachments/Magazines/AKM/Magazine_AK_762x39_6L10_30rnd.et" "{D8125552E67B5C76}Prefabs/Weapons/Attachments/Magazines/AKM/Magazine_AK_762x39_6L10_30rnd.et"
+     }
+    }
+    ItemsInitConfigurationItem "{61D2EE94B468425A}" {
+     TargetStorage "Vest/Vest_ALICE_commander.et/MagPouch2/Pouch_ALICE_30rnd_STANAG.et"
+     PrefabsToSpawn {
+      "{D8125552E67B5C76}Prefabs/Weapons/Attachments/Magazines/AKM/Magazine_AK_762x39_6L10_30rnd.et" "{D8125552E67B5C76}Prefabs/Weapons/Attachments/Magazines/AKM/Magazine_AK_762x39_6L10_30rnd.et" "{D8125552E67B5C76}Prefabs/Weapons/Attachments/Magazines/AKM/Magazine_AK_762x39_6L10_30rnd.et" "{D8125552E67B5C76}Prefabs/Weapons/Attachments/Magazines/AKM/Magazine_AK_762x39_6L10_30rnd.et" "{D8125552E67B5C76}Prefabs/Weapons/Attachments/Magazines/AKM/Magazine_AK_762x39_6L10_30rnd.et" "{D8125552E67B5C76}Prefabs/Weapons/Attachments/Magazines/AKM/Magazine_AK_762x39_6L10_30rnd.et"
+     }
+    }
+   }
+  }
+ }
+}

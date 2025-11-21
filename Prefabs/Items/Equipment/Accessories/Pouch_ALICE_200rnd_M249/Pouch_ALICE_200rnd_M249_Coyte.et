@@ -1,0 +1,22 @@
+GenericEntity : "{9DE547DE239F120C}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_200rnd_M249/Pouch_ALICE_200rnd_M249_base.et" {
+ ID "521AC0491712FB3A"
+ components {
+  SCR_UniversalInventoryStorageComponent "{54848ED08E74CFC4}" {
+   Attributes SCR_ItemAttributeCollection "{54848ED08E74CFCE}" {
+    ItemDisplayName UIInfo "{54848ED08E74CFCD}" {
+     Name "#AR-LBSComponent_AmmoPouch_M249_Name"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{54848ED08E74CFCC}" {
+     Weight 0.35
+     SizeSetupStrategy Manual
+     ItemDimensions 15 15 15
+     ItemVolume 1400
+    }
+   }
+   UseCapacityCoefficient 0
+   MaxCumulativeVolume 1400
+   MaxItemSize 15 15 15
+   m_fMaxWeight 5
+  }
+ }
+}

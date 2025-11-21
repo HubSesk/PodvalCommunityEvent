@@ -1,0 +1,44 @@
+SCR_ChimeraCharacter : "{3E0AD164F0AFB09D}Prefabs/Characters/Factions/INDFOR/IG/drg_Character_IG_Rifleman_v1.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{8D75122D5BF561FB}Prefabs/Characters/HeadGear/Hat_Boonie_US_01/Hat_Boonie_US_02.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{49C8C96043852020}Prefabs/Characters/Uniforms/LongSleeve_Shirts/Hoodie_RHS_Shirt_black_dots.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{9C35EE1E76EFCE7F}Prefabs/Characters/Uniforms/Civi_Pants/Civi_Jeans_v1.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{ED5574EA7F63B457}Prefabs/Characters/Vests/Vest_Type56/Vest_Type56.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab ""
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{64D476C2404F583A}" {
+     TargetStorage "Pants/Civi_Jeans_v1.et"
+    }
+    ItemsInitConfigurationItem "{64D476C2400BF5EA}" {
+    }
+    ItemsInitConfigurationItem "{64D476CF95D45DA3}" {
+     PrefabsToSpawn +{
+     }
+    }
+    ItemsInitConfigurationItem "{64D476C9C675D4ED}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_Type56/Vest_Type56.et"
+    }
+    ItemsInitConfigurationItem "{64D476C9B1037959}" {
+     PrefabsToSpawn {
+     }
+    }
+   }
+  }
+ }
+}

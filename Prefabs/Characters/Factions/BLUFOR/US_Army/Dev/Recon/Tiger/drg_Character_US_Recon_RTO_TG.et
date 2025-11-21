@@ -1,0 +1,24 @@
+SCR_ChimeraCharacter : "{5ED9B8A4E49FF118}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/Recon/Tiger/drg_Character_US_Recon_Rifleman_TG.et" {
+ ID "520EC961A090BBD5"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#DRG-Role_ReconRTO"
+   }
+  }
+  SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
+   Identity Identity "{5584CBC6363C648B}" {
+    VisualIdentity VisualIdentity "{56E6D9456009D1C4}" {
+     Head "{E29330565BD41436}Prefabs/Characters/Heads/Head_White_04_Camo.et"
+    }
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Back {
+     Prefab "{0C6056970C640273}Prefabs/Items/Equipment/Radios/Radio_ANPRC77_PL.et"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,22 @@
+SCR_ChimeraCharacter : "{EAA4CE2A03A6D9ED}Prefabs/Characters/Factions/BLUFOR/CDF_Army/drg_Character_CDF_CrewDriver.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#DRG-GUNNER"
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{654AD37418827625}" {
+     PrefabsToSpawn {
+      "{CCEEA6BC6177C51F}Prefabs/Items/Equipment/Radios/drg_Radio_ANPRC152A_OLD_SL_CDF.et"
+     }
+    }
+    ItemsInitConfigurationItem "{623876773A154FCC}" {
+     TargetStorage "Back/Backpack_Veshmeshok.et"
+    }
+   }
+  }
+ }
+}

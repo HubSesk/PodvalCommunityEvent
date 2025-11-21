@@ -1,0 +1,26 @@
+SCR_ChimeraCharacter : "{157F5905448E2DA0}Prefabs/Characters/Factions/INDFOR/IG/drg_Character_IG_SeniorRifleman_v2.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_SquadLeader"
+    Icon "{61B33057F7F0A4AE}UI/Icons/squad_leader.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{63E8322E2ADD4AA7}Prefabs/Weapons/Rifles/AK74/Rifle_AK74_GP25.et"
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{64D476CFAB0241CC}" {
+     PrefabsToSpawn +{
+     }
+    }
+    ItemsInitConfigurationItem "{64D476D480A0741B}" {
+     PrefabsToSpawn +{
+     }
+    }
+   }
+  }
+ }
+}

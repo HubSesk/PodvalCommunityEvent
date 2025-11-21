@@ -1,0 +1,59 @@
+GenericEntity : "{9C86BA57C1B1BE03}Prefabs/Characters/Vests/Vest_Taktika/Variants/Vest_Taktika_preset_base.et" {
+ ID "60633E89449A0B9A"
+ components {
+  MeshObject "{60633E894989E482}" {
+   Object "{7D2272F6DDD7984C}Assets/Characters/Belts/Belt_NppKlass_Taktika/taktika_belt_ground.xob"
+  }
+  RHS_ClothNodeStorageComponent "{60633E894989E44F}" {
+   Attributes SCR_ItemAttributeCollection "{60633E894989E477}" {
+    ItemDisplayName UIInfo "{60633E894989E4CB}" {
+     Name "#RHS-Vest_Preset_Prefix #RHS-Vest_Taktika_Base_Name [SR3M] - #RHS-Color_BLK"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{60633E894989E6AD}" {
+   Slots {
+    LoadoutSlotInfo medkit {
+     PivotID "Spine1"
+     Offset -0.1948 0.0017 -0.1067
+     Angles 2.4636 -125.6729 -2.0552
+     Prefab "{70C774BCEB3FFAAE}Prefabs/Characters/Vests/Vest_Taktika_Pouches/Pouch_Taktika_medpouch_BLK.et"
+    }
+    LoadoutSlotInfo pistol1 {
+     PivotID "Spine1"
+     Offset 0.2382 0.0242 -0.0097
+     Angles -1.8948 99.31865 5.8838
+     Prefab "{84C4ED4CE6DD42F0}Prefabs/Characters/Vests/Vest_Taktika_Pouches/Pouch_Taktika_magpouch_pistol_BLK.et"
+    }
+    LoadoutSlotInfo pistol2 {
+     PivotID "Spine1"
+     Offset 0.2312 0.0222 0.0401
+     Angles -0.1777 83.1712 1.2101
+     Prefab "{84C4ED4CE6DD42F0}Prefabs/Characters/Vests/Vest_Taktika_Pouches/Pouch_Taktika_magpouch_pistol_BLK.et"
+    }
+    LoadoutSlotInfo radio {
+     PivotID "Spine5"
+     Offset -0.2162 0.0027 0.1215
+     Angles -2.4826 -48.5931 3.1942
+     Prefab "{BD1AE23200E4CA1E}Prefabs/Characters/Vests/Vest_Taktika_Pouches/Pouch_Taktika_radioPouch_BLK.et"
+    }
+    LoadoutSlotInfo pistolHolster {
+     PivotID "Spine1"
+     Offset 0.2054 0.0104 0.1062
+     Angles 0.8308 53.4717 4.1426
+     Prefab "{F75348AF05B91DD7}Prefabs/Characters/Vests/Vest_Taktika_Pouches/Pouch_Taktika_holster_BLK.et"
+    }
+   }
+   WornModel "{9F1C9F6BB9865655}Assets/Characters/Belts/Belt_NppKlass_Taktika/belt_taktika.xob"
+   WornMaterialsOverride {
+    "{FC1BB7A666BDC671}Assets/Characters/Belts/Belt_NppKlass_Taktika/data/taktika_belt_Black.emat"
+   }
+   ItemModel "{7D2272F6DDD7984C}Assets/Characters/Belts/Belt_NppKlass_Taktika/taktika_belt_ground.xob"
+   ItemMaterialsOverride {
+    "{FC1BB7A666BDC671}Assets/Characters/Belts/Belt_NppKlass_Taktika/data/taktika_belt_Black.emat"
+   }
+   DebugWornModel 0
+  }
+ }
+ coords 716.188 51 2385.322
+}

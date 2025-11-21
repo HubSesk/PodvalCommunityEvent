@@ -1,0 +1,41 @@
+GameEntity : "{17674905311133D7}Prefabs/Characters/HeadGear/Hat_TruckerCap_01/Hat_TruckerCap_01_alsworth.et" {
+ ID "5112706CD4157AC7"
+ components {
+  InventoryItemComponent "{5244E4431E28A759}" {
+   Attributes SCR_ItemAttributeCollection "{59FAD938B003E6B2}" {
+    ItemDisplayName UIInfo "{59FAD938B003E644}" {
+     Name "Rice hat"
+     Description ""
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{59FAD938B003E65F}" {
+      CameraOrbitAngles 0 0 0
+     }
+    }
+   }
+  }
+  MeshObject "{5112706CD4157AE0}" {
+   Object "{D9255D1EFC0A33E8}Assets/Characters/HeadGear/RiceHat/rice_hat_item.xob"
+  }
+  SCR_ItemOutfitFactionComponent "{6196E6B24DFC8811}" {
+   m_OutfitDataHolder SCR_OutfitFactionDataHolder "{61A8D96689DB8CC5}" {
+    m_aOutfitFactionData {
+     SCR_OutfitFactionData "{61A8D96688AA6724}" {
+      m_AffiliatedFactionKey "Drg_VCA"
+     }
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   WornModel "{33953084743F2122}Assets/Characters/HeadGear/RiceHat/rice_hat.xob"
+   WornMaterialsOverride {
+    ""
+   }
+   ItemModel "{D9255D1EFC0A33E8}Assets/Characters/HeadGear/RiceHat/rice_hat_item.xob"
+   ItemMaterialsOverride {
+    ""
+   }
+  }
+ }
+ coords 193.951 51 2436.294
+}

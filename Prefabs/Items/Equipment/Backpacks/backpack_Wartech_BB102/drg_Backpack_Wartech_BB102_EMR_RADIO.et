@@ -1,0 +1,104 @@
+GenericEntity : "{FD201F51636A9ACD}Prefabs/Items/Equipment/Backpacks/backpack_Wartech_BB102/Backpack_Wartech_BB102_base.et" {
+ ID "511E9C6ADE70F798"
+ components {
+  MeshObject "{511E9C6ADE70F7BD}" {
+   Object "{7DBC1E2E69D2DCCA}Assets/Items/Equipment/Backpacks/Wartech_BB102_Backpack/BB102.xob"
+  }
+  SCR_UniversalInventoryStorageComponent "{5222CB03A40528FA}" {
+   Enabled 0
+   Attributes SCR_ItemAttributeCollection "{5222CB039E9715D1}" {
+    ItemDisplayName UIInfo "{5222CB03904B414C}" {
+     Name "#RHS-Backpack_WartechBB102_Name - #RHS-Camo_EMR_SUMMER"
+    }
+   }
+   MaxCumulativeVolume 0
+   m_fMaxWeight 0
+  }
+  BaseLoadoutClothComponent "{511E9C6ADE70F7BB}" {
+   Slots {
+    RHS_LoadoutSlotInfo LeftVelcro {
+    }
+    LoadoutSlotInfo Antenna {
+     PivotID "Spine5"
+     Offset -0.0583 0.142 -0.2561
+     Prefab "{D689895BB00A9711}Prefabs/Items/Equipment/Radios/Attachments/Attachment_ANPRC152_Antenna_attachment.et"
+     DisablePhysicsInteraction 1
+     EnableDeflatedOffset 1
+     DeflatedOffset -0.0583 0.142 -0.3136
+    }
+   }
+   WornMaterialsOverride {
+    "{0A0C27321F50BF83}Assets/Items/Equipment/Backpacks/Wartech_BB102_Backpack/data/BB102_EMR.emat"
+   }
+   ItemMaterialsOverride {
+    "{0A0C27321F50BF83}Assets/Items/Equipment/Backpacks/Wartech_BB102_Backpack/data/BB102_EMR.emat"
+   }
+   DebugWornModel 0
+   DebugDeflatedModel 0
+  }
+  SCR_DeployableInventoryItemInventoryComponent "{65F8C0ADE80C4602}" {
+   Attributes SCR_IdentityItemAttributeCollection "{65F8C0ADECE34AAC}" {
+    ItemDisplayName UIInfo "{5222EB4D07D865FA}" {
+     Name "#AR-Item_R107M_Name"
+     Description "#AR-Item_R107M_Description"
+     Icon "{650E1AA9B7CB1F9A}UI/Textures/VON/R107M-100px_UI.edds"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 9
+     SizeSetupStrategy Manual
+     ItemDimensions 25 25 25
+     ItemVolume 10000
+     DimensionScaler 1
+     RestingAdditiveRotationLS 0 0 0
+     RestingAdditiveOffsetLS 0 0 0
+    }
+    CustomAttributes {
+     CharacterModifierAttributes "{5C66B22DC41BB5B2}" {
+     }
+     PreviewRenderAttributes "{5EA4A89F0D06E1A6}" {
+      CameraPreset Back
+      CameraOrbitAngles 25 -25 180
+      CameraDistanceToItem 4
+      CameraOffset 0 -0.1 0
+      FOV 10
+      AspectRatio 1
+      PreviewModel "{7DBC1E2E69D2DCCA}Assets/Items/Equipment/Backpacks/Wartech_BB102_Backpack/BB102.xob"
+     }
+     SCR_VONPreviewAttributes "{5EA4A89F0D06E1A1}" {
+      CameraOrbitAngles 0 -150 4
+      CameraDistanceToItem 1.3
+      CameraOffset 0.05 -0.1 0
+      FOV 40
+      AspectRatio 1
+     }
+    }
+    CommonItemType "RHS_RADIO_MANPACK"
+    m_Size SLOT_2x2
+    m_SlotType SLOT_BACKPACK
+   }
+  }
+  BaseRadioComponent "{65F8C0AC2A4531B1}" {
+   "Encryption key" "coldBorscht"
+   "Turned on" 1
+   Transceivers {
+    RadioTransceiver "{65F8C0AC30FA3316}" {
+     "Transmitting Range" 5000
+     "Min tunable frequency" 30000
+     "Max tunable frequency" 76000
+     "Frequency resolution" 100
+    }
+   }
+  }
+  SCR_RadioComponent "{65F8C0AC6BA781EA}" {
+   m_bCanBeHeld 0
+   m_iRadioCategory MANPACK
+   m_iRadioType R107M
+  }
+  RHS_RadioSourceActiveComponent "{65F8C0AC503E2FBE}" {
+   m_vGroundOffset 0 5 0
+  }
+  RHS_SGC_RadialMenuComponent "{65F8C0ACA7A24BA4}" {
+  }
+ }
+ coords 125.869 0.88 127.803
+}

@@ -1,0 +1,59 @@
+GenericEntity : "{E521AEA6D14589B1}Prefabs/Props/Military/AmmoBoxes/AmmoBox_545x39_2160rnd.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{FE31750973EA92C7}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/EquipmentBoxWooden_Medical_01.xob"
+   Materials {
+    MaterialAssignClass "{653C881E28FBE863}" {
+     SourceMaterial "EquipmentBoxWooden_Explosives_01"
+     AssignedMaterial "{8024926C8E4B04DA}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/Data/EquipmentBoxWooden_Explosives_01_USSR.emat"
+    }
+    MaterialAssignClass "{653C881E28FBE876}" {
+     SourceMaterial "EquipmentBoxWooden_decal"
+     AssignedMaterial "{012E52E127F407FD}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/Data/EquipmentBoxWooden_decal_US.emat"
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+   UseCapacityCoefficient 0
+   MaxCumulativeVolume 250000
+   SaveInLoadout 0
+   MultiSlots {
+    MultiSlotConfiguration "{653C881E28FBE870}" {
+     SlotTemplate InventoryStorageSlot Saline {
+      Prefab "{00E36F41CA310E2A}Prefabs/Items/Medicine/SalineBag_01/SalineBag_US_01.et"
+     }
+     NumSlots 20
+    }
+    MultiSlotConfiguration "{653C881E71443D32}" {
+     SlotTemplate InventoryStorageSlot "{653C881E4516140F}" {
+      Prefab "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et"
+     }
+     NumSlots 60
+    }
+    MultiSlotConfiguration "{653C881E718FB09E}" {
+     SlotTemplate InventoryStorageSlot "{653C881E4AC5F9EF}" {
+      Prefab "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et"
+     }
+     NumSlots 120
+    }
+    MultiSlotConfiguration "{653C881E767E5D37}" {
+     SlotTemplate InventoryStorageSlot "{653C881E4BDD3F34}" {
+      Prefab "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
+     }
+     NumSlots 20
+    }
+    MultiSlotConfiguration "{653C881D92172C25}" {
+     SlotTemplate InventoryStorageSlot "{653C881D9610E7A6}" {
+      Prefab "{AE578EEA4244D41F}Prefabs/Items/Equipment/Kits/MedicalKit_01/MedicalKit_01_US.et"
+     }
+     NumSlots 3
+    }
+   }
+  }
+ }
+ coords 3474.5 246.184 4931.274
+ angleX -0.732
+ angleY 32.248
+ angleZ -1.475
+}

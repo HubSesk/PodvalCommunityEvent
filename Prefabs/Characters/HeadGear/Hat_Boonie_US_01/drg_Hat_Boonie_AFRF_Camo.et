@@ -1,0 +1,33 @@
+GameEntity : "{8D75122D5BF561FB}Prefabs/Characters/HeadGear/Hat_Boonie_US_01/Hat_Boonie_US_02.et" {
+ ID "5112706CD4157AC7"
+ components {
+  SCR_ItemOutfitFactionComponent "{618AD7BA9EE725D7}" {
+   m_OutfitDataHolder SCR_OutfitFactionDataHolder "{61A8D966DE76BABC}" {
+    m_aOutfitFactionData {
+     SCR_OutfitFactionData "{61A8D966DC437F32}" {
+      m_AffiliatedFactionKey "RHS_AFRF"
+     }
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo Mask {
+     Offset 0 0 0
+     Prefab ""
+     AreaType LoadoutHeadCoverArea "{65F34C39A5EEF331}" {
+     }
+     m_sInspectIconTexture "{9D824B02D8CE6328}UI/Textures/InventoryIcons/Inspection-gizmo-mask-slot-UI.edds"
+    }
+    RHS_LoadoutSlotInfo HeadSet {
+     Enabled 0
+     InspectionWidgetOffset 0.1 1.67 0
+     AreaType LoadoutHeadCoverArea "{65F34C3E7551677B}" {
+     }
+     m_sInspectIconTexture "{EA640FDAF6A450BD}UI/Textures/InventoryIcons/Inspection-gizmo-headset-slot-UI.edds"
+    }
+   }
+   DebugWornModel 0
+  }
+ }
+}

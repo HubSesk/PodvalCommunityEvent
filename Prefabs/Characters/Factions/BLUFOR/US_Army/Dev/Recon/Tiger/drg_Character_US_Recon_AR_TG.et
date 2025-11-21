@@ -1,0 +1,52 @@
+SCR_ChimeraCharacter : "{5ED9B8A4E49FF118}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/Recon/Tiger/drg_Character_US_Recon_Rifleman_TG.et" {
+ ID "520EC961A090BBD5"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#DRG-Role_ReconAR"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{D2B48DEBEF38D7D7}Prefabs/Weapons/MachineGuns/M249/MG_M249.et"
+  }
+  SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
+   Identity Identity "{5584CBC6363C648B}" {
+    VisualIdentity VisualIdentity "{56E6D9456009D1C4}" {
+     Head "{E30EF7A856618FEC}Prefabs/Characters/Heads/Head_Black_02_Camo.et"
+    }
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Vest {
+     Prefab "{156DC7109CEE6F69}Prefabs/Characters/Vests/Vest_ALICE/Variants/Vest_ALICE_AR.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{61B87CCDC52A0DBF}" {
+     TargetStorage "Vest/Vest_ALICE_AR.et/MagPouch/Pouch_ALICE_200rnd_M249.et"
+     PrefabsToSpawn {
+      "{4FCBBDF274FD2157}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_Ball.et"
+     }
+    }
+    ItemsInitConfigurationItem "{61B87CCDC5EFD4EB}" {
+     TargetStorage "Vest/Vest_ALICE_AR.et/MagPouch2/Pouch_ALICE_200rnd_M249.et"
+     PrefabsToSpawn {
+      "{4FCBBDF274FD2157}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_Ball.et"
+     }
+    }
+    ItemsInitConfigurationItem "{61B87CCA01B3CC3E}" {
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{61B87CCA62BE05FA}" {
+     PrefabsToSpawn {
+      "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et" "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et" "{3343A055A83CB30D}Prefabs/Weapons/Grenades/M18/Smoke_M18_Red.et" "{D41D22DD1B8E921E}Prefabs/Weapons/Grenades/M18/Smoke_M18_Green.et" "{14C1A0F061D9DDEE}Prefabs/Weapons/Grenades/M18/Smoke_M18_Violet.et" "{9BBDEE253A16CC66}Prefabs/Weapons/Grenades/M18/Smoke_M18_Yellow.et" "{B8921B7BFE8CAEF0}Prefabs/Weapons/Magazines/Box_127x99_M2_100rnd_Ball.et" "{B8921B7BFE8CAEF0}Prefabs/Weapons/Magazines/Box_127x99_M2_100rnd_Ball.et" "{B8921B7BFE8CAEF0}Prefabs/Weapons/Magazines/Box_127x99_M2_100rnd_Ball.et"
+     }
+    }
+   }
+  }
+ }
+}

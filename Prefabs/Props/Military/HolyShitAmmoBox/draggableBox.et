@@ -1,0 +1,163 @@
+GenericEntity : "{CCC00D009D4949B0}Prefabs/Weapons/Explosives/Mine_TM62M/Mine_TM62M_base.et" {
+ ID "5968D2B6A82C6019"
+ components {
+  SoundComponent "{5A6B57364EA203C7}" {
+   Enabled 0
+  }
+  BaseTriggerComponent "{59E4E69D8E9B4323}" {
+   Enabled 0
+  }
+  MeshObject "{5968D9C73C08706E}" {
+   Object "{26602B855125635D}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/EquipmentBoxWooden_Explosives_01.xob"
+  }
+  PS_BulbaComponent "{65033D759CC91D8C}" {
+  }
+  RigidBody "{5968D9C731425A95}" {
+   Layers 16640
+   Active Inactive
+   Mass 15
+   ResponseIndex "Normal"
+   Static 0
+   Kinematic 0
+  }
+  SCR_FilteredInventoryStorageComponent "{6502F4865972C6CB}" {
+   Attributes SCR_ItemAttributeCollection "{6502F4864C79A28E}" {
+    ItemDisplayName SCR_InventoryUIInfo "{6503398BD8FEAC65}" {
+     Name "ящик говна"
+     Description ""
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{6503398B8EA54EB9}" {
+     Weight 0.6
+     SizeSetupStrategy Manual
+     ItemDimensions 15 15 15
+     ItemVolume 2200
+     DimensionScaler 1
+     RestingAdditiveRotationLS 0 0 0
+     RestingAdditiveOffsetLS 0 0 0
+    }
+    ItemAnimationAttributes ItemAnimationAttributes "{622065B5473A7ECC}" {
+     IkSettings {
+      ItemIKSettings "{6502F485409B9932}" {
+       InAds 0
+       OutAds 0
+       MovementSpeedRange 0 1
+       IkSettingsStand 6
+       IkSettingsCrouch 6
+       IkSettingsProne 6
+      }
+     }
+     AnimationInstance "{AF06D3F738A50403}anims/workspaces/player/player_main_heavy.asi"
+     AnimationIKPose "{5EF679CCFE1123FD}Assets/Weapons/Explosives/Mine_M15AT/anims/p_mine_ik.anm"
+     AnimationAttachments {
+      AnimationAttachmentInfo "{5E02C300F160D879}" {
+       StartNode ""
+      }
+     }
+     HandAdditiveRotation 90 0 0
+     HandAdditiveTranslation 0 0.02 0.05
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{61B08213685BB42B}" {
+      AnimationInstance "{EFDC6FADA926C158}anims/workspaces/player/player_inventory_heavy.asi"
+     }
+     CharacterModifierAttributes "{627C7CD82289C5D4}" {
+      StanceLimits 0.05 1
+      SpeedLimit 1.6
+      ADSSpeedLimit 1
+      SpeedLimitHighready 1
+      AllowGadgetUse 0
+      AllowJumping 0
+     }
+    }
+    CommonItemType "NONE"
+    m_SlotType SLOT_ANY
+    m_bDraggable 1
+    m_bStackable 1
+    m_bRefundable 1
+   }
+   UseCapacityCoefficient 0
+   MultiSlots {
+    MultiSlotConfiguration "{65033D740881BB71}" {
+     SlotTemplate InventoryStorageSlot attachment {
+      Prefab "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et"
+     }
+     NumSlots 10
+    }
+   }
+  }
+  SCR_MineDamageManager "{5A187C4DB2CF86F2}" {
+   Enabled 0
+  }
+  SCR_MineInventoryItemComponent "{59E4E694B93DC656}" {
+   Enabled 0
+   Attributes SCR_ItemAttributeCollection "{5A10B8E3F1D55606}" {
+    CommonItemType "NONE"
+    m_Size SLOT_2x1
+    m_bDraggable 0
+    m_bVisible 0
+   }
+  }
+  SCR_PlaceableItemComponent "{5A127CDA1D1B58E6}" {
+   Enabled 0
+  }
+  SCR_PressureTriggerComponent "{59E6BE151DCC9953}" {
+   Enabled 0
+  }
+  SCR_MineWeaponComponent "{59F2DC2C202D1AFB}" {
+   UIInfo GrenadeUIInfo "{5CDCD73FE938D67D}" {
+    Name "yashik govna"
+    Description ""
+    m_sAmmoType "Potato"
+    m_bShowAmmoTypeText 1
+    m_eAmmoTypeFlags 0
+   }
+  }
+  ActionsManagerComponent "{59E4E6938E65C2ED}" {
+   ActionContexts {
+    UserActionContext "{59E4E6938105F844}" {
+     Radius 0.65
+    }
+   }
+   additionalActions {
+    SCR_MinePickUpItemAction "{59E4E69368FB23DB}" {
+     ParentContextList {
+     }
+    }
+    SCR_MineEquipWeaponAction "{59E4E69349194C2B}" {
+     ParentContextList {
+     }
+    }
+    SCR_MineEquipHolsterAction "{5A78F5000397EFB7}" {
+     ParentContextList {
+     }
+    }
+    SCR_ActivateMineUserAction "{59F2823F52BEB01F}" {
+     ParentContextList {
+     }
+    }
+    SCR_MineAddFlagAction "{5A08900C4003096E}" {
+     ParentContextList {
+     }
+    }
+    SCR_OpenStorageAction "{6503398FA16F9E13}" {
+     ParentContextList {
+      "default"
+     }
+     UIInfo UIInfo "{6503398FF75B727E}" {
+      Name "#AR-Inventory_OpenStorage"
+     }
+    }
+    SCR_BulbaAction "{65033D75F9A6CC3E}" {
+     ParentContextList {
+      "default"
+     }
+     UIInfo UIInfo "{604732700271EDD4}" {
+      Name "#AR-Inventory_Pickup"
+     }
+     "Sort Priority" 1
+    }
+   }
+  }
+ }
+ coords 1228.92 51 1371.164
+}

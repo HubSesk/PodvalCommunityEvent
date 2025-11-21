@@ -1,0 +1,22 @@
+Vehicle : "{21E9A875C0A3C409}Prefabs/Vehicles/Helicopters/UH1H/UH1H_armed_gunship_HE.et" {
+ ID "5DB688595BAB2FD7"
+ components {
+  SCR_UniversalInventoryStorageComponent "{5E1E994304F0E0D3}" {
+   MultiSlots {
+    MultiSlotConfiguration "{60F6C785F08E4AE4}" {
+     NumSlots 20
+    }
+    MultiSlotConfiguration "{60F686523ED8885E}" {
+     NumSlots 15
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    SCR_WeaponRackSlotInfo M260CarrierVirtual {
+     Prefab "{DC2D35A013F6EF27}Prefabs/Vehicles/Helicopters/UH1H/VehParts/WeapSystems/M260Carrier/drg_UH1H_M60_bl.et"
+    }
+   }
+  }
+ }
+}

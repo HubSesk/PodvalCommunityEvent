@@ -1,0 +1,45 @@
+SCR_ChimeraCharacter : "{AFD656F1D9ACD98F}Prefabs/Characters/Factions/INDFOR/Drg_VCA/drg_Character_VCA_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#DRG-Role_AntiTank"
+    Icon "{008BB91082025119}UI/Icons/engineer-1.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{AD1B343E015F2D11}Prefabs/Weapons/Rifles/M3A1/BC_M3A1.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponTemplate "{7A82FE978603F137}Prefabs/Weapons/Launchers/RPG7/Launcher_RPG7.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Back {
+     Prefab "{0D39750E5695B9D8}Prefabs/Items/Equipment/Backpacks/Backpack_RPG_Gunner.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{65D68EE3DC040E80}" {
+     PrefabsToSpawn {
+      "{0B17FB1F4A9F5289}Prefabs/Weapons/Magazines/M3A1/BC_Magazine_45acp_M3A1_30rnd_Ball.et" "{0B17FB1F4A9F5289}Prefabs/Weapons/Magazines/M3A1/BC_Magazine_45acp_M3A1_30rnd_Ball.et" "{0B17FB1F4A9F5289}Prefabs/Weapons/Magazines/M3A1/BC_Magazine_45acp_M3A1_30rnd_Ball.et" "{0B17FB1F4A9F5289}Prefabs/Weapons/Magazines/M3A1/BC_Magazine_45acp_M3A1_30rnd_Ball.et" "{0B17FB1F4A9F5289}Prefabs/Weapons/Magazines/M3A1/BC_Magazine_45acp_M3A1_30rnd_Ball.et" "{0B17FB1F4A9F5289}Prefabs/Weapons/Magazines/M3A1/BC_Magazine_45acp_M3A1_30rnd_Ball.et"
+     }
+    }
+    ItemsInitConfigurationItem "{65D68EE3DC8A11DC}" {
+     TargetStorage "Back/Backpack_RPG_Gunner.et"
+     PrefabsToSpawn {
+      "{32E12D322E107F1C}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VM.et" "{32E12D322E107F1C}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VM.et" "{32E12D322E107F1C}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VM.et"
+     }
+    }
+    ItemsInitConfigurationItem "{65D68EE683DFC7F4}" {
+     TargetStorage "Jacket/Jacket_M88_vietnam.et"
+     PrefabsToSpawn {
+      "{1767D6A5BAFCB460}Prefabs/Items/Equipment/Radios/drg_VCA_Radio_R148_rprv.et"
+     }
+    }
+   }
+  }
+ }
+}

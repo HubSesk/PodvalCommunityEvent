@@ -1,0 +1,20 @@
+SCR_ChimeraCharacter : "{52B3CB912522A390}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_Engineer.et" {
+ ID "520EC961A090BBD5"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#DRG-Role_EngineerSeniorSapper"
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{64607D05FAC730A7}" {
+     TargetStorage "Jacket/Jacket_US_BDU.et"
+     PrefabsToSpawn {
+      "{BA2D0EE170E44DC7}Prefabs/Items/Equipment/Radios/Radio_ANPRC68_rprv.et"
+     }
+    }
+   }
+  }
+ }
+}

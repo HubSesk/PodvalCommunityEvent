@@ -1,0 +1,30 @@
+GenericEntity : "{7D7C2DB551E9C36E}Prefabs/Structures/BuildingParts/Signs/Commercial/SignCommercial_01_Base.et" {
+ ID "51E0C94D976168D5"
+ components {
+  MeshObject "{5111E74D5E891458}" {
+   Materials {
+    MaterialAssignClass "{6454F78C28AC7523}" {
+     SourceMaterial "Collor_Palette"
+     AssignedMaterial "{3647FBFD6DE4766A}Assets/Structures/BuildingsParts/Signs/SignCommercial_01/Data/SignCommercial_01_Pub_V1_MLOD.emat"
+    }
+    MaterialAssignClass "{6454F78C28AC752F}" {
+     SourceMaterial "SignCommercial_01"
+     AssignedMaterial "{492AFC8DAA7E89E2}Assets/Structures/BuildingsParts/Signs/SignCommercial_01/Data/Scumbank_SignCommercial_01_Pub_V1.emat"
+    }
+   }
+  }
+  RigidBody "{5111E74C06F5C1E1}" {
+   ResponseIndex "HugeDestructible"
+  }
+  SCR_DestructionMultiPhaseComponent "{58F896B4CD371A8B}" {
+   m_fBaseHealth 1000
+   m_aDamagePhases {
+    SCR_DamagePhaseData "{6454F78C28AC7537}" {
+     m_fPhaseHealth 3000
+     m_PhaseModel "{B1C79D9EE480697A}Assets/Structures/BuildingsParts/Signs/SignCommercial_01/Dst/SignCommercial_01_dst_01.xob"
+    }
+   }
+  }
+ }
+ coords 1475.77 41.552 2791.884
+}

@@ -1,0 +1,44 @@
+SCR_ChimeraCharacter : "{4438AEFF45A8CE9E}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/Recon/drg_Character_US_Recon_Rifleman.et" {
+ ID "520EC961A090BBD5"
+ components {
+  SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
+   Identity Identity "{5584CBC6363C648B}" {
+    VisualIdentity VisualIdentity "{56E6D9456009D1C4}" {
+     Head "{E978B7D98D71E15A}Prefabs/Characters/Heads/Head_White_06_Camo.et"
+    }
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{19231774D1D67091}Prefabs/Characters/HeadGear/Hat_Boonie_US_01/Hat_Boonie_US_TigerStripe.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{3D17E4FA8F819ECD}Prefabs/Characters/Uniforms/Jacket_US_BDU_TigerStripe.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab ""
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{C6BE0A871E7DE807}Prefabs/Characters/Uniforms/Pants_US_BDU_TigerStripe.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{61B75C981AA2A498}" {
+     TargetStorage "Pants/Pants_US_BDU_TigerStripe.et"
+    }
+    ItemsInitConfigurationItem "{61B75C986066B4C1}" {
+     TargetStorage "Jacket/Jacket_US_BDU_TigerStripe.et"
+    }
+    ItemsInitConfigurationItem "{61B87867EA32507F}" {
+     TargetStorage "Jacket/Jacket_US_BDU_TigerStripe.et"
+    }
+    ItemsInitConfigurationItem "{668274F01C31DCF7}" {
+     TargetStorage "Jacket/Jacket_US_BDU_TigerStripe.et"
+    }
+   }
+  }
+ }
+}

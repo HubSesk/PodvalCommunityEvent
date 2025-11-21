@@ -1,0 +1,192 @@
+GenericEntity {
+ ID "60473270075E5C96"
+ components {
+  SignalsManagerComponent "{604732700272E96E}" {
+  }
+  SoundComponent "{604732700272E95E}" {
+   Filenames {
+    "{CEB036D3FA90F3C3}Sounds/Weapons/_SharedData/PickUp/Weapons_PickUp_ATMine_Generic.acp" "{A7B672B164032EE4}Sounds/Weapons/_SharedData/Drop/Weapons_Drop_ATMine_Generic.acp" "{49BA74662F0ACA8C}Sounds/Weapons/Explosives/Mine_TM62M/Weapons_Explosives_TM62M_Handling.acp" "{764506B0AF57183F}Sounds/Weapons/Explosives/_SharedData/Weapons_Explosives_ATMine_Generic_Placement.acp"
+   }
+  }
+  BaseTriggerComponent "{604732700272EA9E}" {
+   Enabled 0
+   PROJECTILE_EFFECTS {
+    ExplosionEffect "{604732700272EA8D}" {
+     EffectPrefab "{BD25277C883BF4DC}Prefabs/Weapons/Warheads/Warhead_Mine_TM62M.et"
+     SoundEvent "SOUND_EXPLOSION"
+    }
+   }
+  }
+  MeshObject "{604732700271E225}" {
+   Object "{F4A6B9CC408CD0F4}Assets/Props/Military/Sandbags/Sandbag_01_single.xob"
+   Materials {
+    MaterialAssignClass "{6048C48B488B7BBD}" {
+     SourceMaterial "Sandbags_01_End"
+     AssignedMaterial "{2392C281DF136B3B}Assets/Props/Military/Sandbags/Data/Sandbags_01_end_Burlap.emat"
+    }
+   }
+   PixelSizeScale 3
+  }
+  PS_BulbaComponent "{6047326A7F7D7CAE}" {
+  }
+  RigidBody "{604732700271E266}" {
+   Mass 15
+   LinearSleepingThreashold 0.5
+   AngularSleepingThreashold 0.5
+   ResponseIndex "TinyDestructible"
+   ModelGeometry 1
+   Static 0
+  }
+  SCR_MineDamageManager "{604732700271E3EC}" {
+   Enabled 0
+   "Additional hit zones" {
+    SCR_MineHitZone Main {
+     ColliderNames {
+      "UCL_TM_62M"
+     }
+     HZDefault 1
+     IgnoreExplosions 1
+     MaxHealth 50000
+     DamageReduction 50
+     "Explosive multiplier" 0.001
+    }
+   }
+   EnableDamage 0
+  }
+  SCR_MineInventoryItemComponent "{604732700271ECF7}" {
+   Attributes SCR_ItemAttributeCollection "{604732700271ECE8}" {
+    ItemDisplayName WeaponUIInfo "{604732700271E321}" {
+     Name "Мешок картошки"
+     Description "Свеже выкопанная, рассыпчатая картошка, употреблять с маслом."
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{604732700271E31E}" {
+     Weight 4.2
+     SizeSetupStrategy Manual
+     ItemDimensions 20 20 20
+     ItemVolume 4000
+     RestingAdditiveRotationLS 0 0 0
+    }
+    ItemAnimationAttributes ItemAnimationAttributes "{604732700271E379}" {
+     IkSettings {
+      ItemIKSettings "{604732700271E378}" {
+       InAds 0
+       OutAds 0
+       MovementSpeedRange 0 1
+       IkSettingsStand 6
+       IkSettingsCrouch 6
+       IkSettingsProne 6
+      }
+     }
+     AnimationInstance "{AF06D3F738A50403}anims/workspaces/player/player_main_heavy.asi"
+     AnimationIKPose "{5EF679CCFE1123FD}Assets/Weapons/Explosives/Mine_M15AT/anims/p_mine_ik.anm"
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{604732700271ECB8}" {
+      CameraPreset Left
+      CameraOrbitAngles 0 225 0
+      CameraDistanceToItem 0.35
+      CameraOffset 0 0 0
+      AnimationInstance "{EFDC6FADA926C158}anims/workspaces/player/player_inventory_heavy.asi"
+     }
+     CharacterModifierAttributes "{604732700271EC89}" {
+      StanceLimits 0.05 1
+      SpeedLimit 1
+      ADSSpeedLimit 1
+      SpeedLimitItemPrimaryAction 1
+      SpeedLimitHighready 1
+      TurnLimit 65
+      AllowGadgetUse 0
+      AllowJumping 0
+     }
+     HolsteredItemAttributes "{604732700271EC90}" {
+      HiddenHolstered 1
+     }
+    }
+    CommonItemType "NONE"
+   }
+  }
+  SCR_PlaceableItemComponent "{604732700271ECD4}" {
+   Enabled 0
+   m_fMaxPlacementDistance 2
+   m_ePlacementType XYZ
+  }
+  SCR_PressureTriggerComponent "{604732700271EC3A}" {
+   Enabled 0
+   m_sFuzeMeshName "Mine_Fuse_TM_62M"
+   m_fMinWeight 150
+  }
+  SCR_MineWeaponComponent "{604732700271EDBF}" {
+   AllowedRaise "Only lowered"
+   UIInfo GrenadeUIInfo "{604732700271EC7A}" {
+    Name "Мешок картошки"
+    Description "Свеже выкопанная, рассыпчатая картошка, употреблять с маслом."
+    m_bShowWeaponName 0
+    m_MagIndicator SCR_MagazineIndicatorConfiguration "{604732700271EC74}" {
+     m_sImagesetIcons "{9DA6A249AD4D71C4}UI/Textures/Icons/icons_wrapperUI-48.imageset"
+     m_sImagesetGlows "{5D85FA1AA039B2F8}UI/Textures/Icons/icons_wrapperUI-48-glow.imageset"
+     m_sOutline "building"
+     m_bProgressBar 0
+    }
+    m_sAmmoType "Potato"
+    m_bShowAmmoTypeText 1
+    m_eAmmoTypeFlags 0
+   }
+   WeaponSlotType "primary"
+   BeActiveWhenDropped 1
+   BeActiveWhenInitWithoutParent 1
+  }
+  ActionsManagerComponent "{604732700271EEA7}" {
+   ActionContexts {
+    UserActionContext "{604732700271ED9E}" {
+     ContextName "default"
+     Position PointInfo "{604732700271ED9D}" {
+     }
+    }
+   }
+   additionalActions {
+    SCR_BulbaAction "{604732700271ED36}" {
+     ParentContextList {
+      "default"
+     }
+     UIInfo UIInfo "{604732700271EDD4}" {
+      Name "#AR-Inventory_Pickup"
+     }
+     "Sort Priority" 1
+    }
+   }
+  }
+  SCR_MineAnimationComponent "{604732700271EE92}" {
+   AnimGraph "{61DD6C3BDA7D48F5}Assets/Weapons/Explosives/workspace/mine_TM62M.agr"
+   AnimInstance "{95992E047B24E710}Assets/Weapons/Explosives/workspace/TM62M_weapon.asi"
+   AlwaysActive 1
+   AnimInjection AnimationAttachmentInfo "{604732700271EE80}" {
+    AnimGraph "{61DD6C3BDA7D48F5}Assets/Weapons/Explosives/workspace/mine_TM62M.agr"
+    AnimInstance "{6EC7BF35E32583FC}Assets/Weapons/Explosives/workspace/TM62M_player.asi"
+    BindingName "Heavy"
+   }
+   BindWithInjection 1
+   AutoVariablesBind 1
+   MeshVisibilityConfigurations {
+    MeshesVisibilitySwitchConfig "{604732700271EE8C}" {
+     Event "ShowFuze"
+     Meshes {
+      "Mine_Fuse_TM_62M" "TM_62M_pin"
+     }
+     HideMesh 0
+    }
+    MeshesVisibilitySwitchConfig "{604732700271EE90}" {
+     Event "HidePin"
+     Meshes {
+      "TM_62M_pin"
+     }
+    }
+   }
+  }
+  RplComponent "{604732700271EE9A}" {
+   "Rpl State Override" Runtime
+  }
+  Hierarchy "{604732700271EE9E}" {
+  }
+ }
+ coords 129.242 1 106.205
+}

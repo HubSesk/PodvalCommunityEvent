@@ -1,0 +1,82 @@
+Vehicle : "{AC12E5669B411D57}Prefabs/Vehicles/Wheeled/TIGR/KORD/GAZ_TIGR_v2_KORD.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{62231CDD4DA00603}" {
+     SourceMaterial "ext_1"
+     AssignedMaterial "{4A23B59EB8C74AC2}Assets/Vehicles/Wheeled/GAZ_TIGR_233014/Data/Ext1/ext_1_Tan_Multi.emat"
+    }
+    MaterialAssignClass "{62231CDD4DA0062F}" {
+     SourceMaterial "ext_2"
+     AssignedMaterial "{42C71C00E1007DAE}Assets/Vehicles/Wheeled/GAZ_TIGR_233014/Data/Ext2/ext_2_Tan_Multi.emat"
+    }
+    MaterialAssignClass "{62231CDD4DA039D9}" {
+     SourceMaterial "ext_3"
+     AssignedMaterial "{4564848AD642908A}Assets/Vehicles/Wheeled/GAZ_TIGR_233014/Data/Ext3/ext_3_Tan_Multi.emat"
+    }
+    MaterialAssignClass "{62231CDD4DA039DE}" {
+     SourceMaterial "ext_4"
+     AssignedMaterial "{530E4F3C528E1376}Assets/Vehicles/Wheeled/GAZ_TIGR_233014/Data/Ext4/ext_4_Tan_Multi.emat"
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "#TF-Vehicle-Gaz233114 - #TF-Vehicle-Color-Green (#TF-Vehicle-Weapons-KORD)"
+    m_Image "{A26977FE7CB2D6B2}UI/Textures/EditorPreviews/Vehicles/Wheeled/GAZ_TIGR/GAZ233114_KORD_Tan.edds"
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{62B233ED7C26143C}" {
+   MultiSlots {
+    MultiSlotConfiguration "{62B233ED7C2615D2}" {
+     SlotTemplate InventoryStorageSlot PKMT {
+      Prefab "{6D518F289805B8A1}Prefabs/Weapons/Magazines/NSV/Box_127x108_KORD_50rnd_4AP_1APIT.et"
+     }
+     NumSlots 5
+    }
+    MultiSlotConfiguration "{62B43BCFC2E913DB}" {
+     SlotTemplate InventoryStorageSlot AGS {
+      Prefab "{6D518F289805B8A1}Prefabs/Weapons/Magazines/NSV/Box_127x108_KORD_50rnd_4AP_1APIT.et"
+     }
+     NumSlots 5
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    SCR_WheelSlotInfo Wheel_L01 {
+     Prefab "{70D0C5F8186C917B}Prefabs/Vehicles/Wheeled/BTR70/VehParts/Wheels/BTR70_wheel_left_01_tan.et"
+    }
+    SCR_WheelSlotInfo Wheel_L02 {
+     Prefab "{70D0C5F8186C917B}Prefabs/Vehicles/Wheeled/BTR70/VehParts/Wheels/BTR70_wheel_left_01_tan.et"
+    }
+    SCR_WheelSlotInfo Wheel_R01 {
+     Prefab "{8EDF14CE322DBEBE}Prefabs/Vehicles/Wheeled/BTR70/VehParts/Wheels/BTR70_wheel_right_01_tan.et"
+    }
+    SCR_WheelSlotInfo Wheel_R02 {
+     Prefab "{8EDF14CE322DBEBE}Prefabs/Vehicles/Wheeled/BTR70/VehParts/Wheels/BTR70_wheel_right_01_tan.et"
+    }
+    RegisteringComponentSlotInfo Turret {
+     Prefab "{664F99E63CD88231}Prefabs/Vehicles/Wheeled/TIGR/VehParts/Turrets/TIGR_KORD_Turret_Tan.et"
+    }
+    EntitySlotInfo Flag {
+     Offset 0.7374 3.8787 -2.0233
+     Prefab "{0338C21739980995}Prefabs/Props/Fabric/Flags/drg_Flag_1_2_AFRF_0.et"
+     DisablePhysicsInteraction 1
+    }
+    EntitySlotInfo Palka1 {
+     Offset -0.0211 -0.1169 -2.3837
+     Prefab "{7DB0F50FF4E59ADA}Prefabs/Vehicles/Tracked/T14/VehParts/Era/t14_antenna1.et"
+     DisablePhysicsInteraction 1
+    }
+    EntitySlotInfo Palka2 {
+     Offset -0.0212 0.5889 -2.3837
+     Prefab "{7DB0F50FF4E59ADA}Prefabs/Vehicles/Tracked/T14/VehParts/Era/t14_antenna1.et"
+     DisablePhysicsInteraction 1
+    }
+   }
+  }
+ }
+ coords 1666.679 39 2924.908
+}

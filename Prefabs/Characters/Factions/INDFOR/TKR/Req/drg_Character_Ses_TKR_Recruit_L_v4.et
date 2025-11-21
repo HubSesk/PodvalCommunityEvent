@@ -1,0 +1,25 @@
+SCR_ChimeraCharacter : "{685C05A81C17991E}Prefabs/Characters/Factions/INDFOR/TKR/Req/drg_Character_Ses_TKR_Recruit_L_base.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{A4C49AAA6A130633}Prefabs/Characters/HeadGear/Hat_FlatCap_01/TakHat01.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{296EFDD750A7B7CB}Prefabs/Characters/Uniforms/TakShirts/ChilabaFull05.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6586FC580B8096AD}" {
+     TargetStorage "Jacket/ChilabaFull05.et"
+    }
+    ItemsInitConfigurationItem "{6586FC580BD1FA4A}" {
+     TargetStorage "Jacket/ChilabaFull05.et"
+    }
+   }
+  }
+ }
+}

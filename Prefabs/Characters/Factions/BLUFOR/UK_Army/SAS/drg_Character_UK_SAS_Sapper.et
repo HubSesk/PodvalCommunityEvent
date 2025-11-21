@@ -1,0 +1,37 @@
+SCR_ChimeraCharacter : "{0D02798B07380183}Prefabs/Characters/Factions/BLUFOR/UK_Army/SAS/drg_Character_UK_SAS_Recon.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#DRG-Role_ReconSapper"
+   }
+  }
+  SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
+   Identity Identity "{5584CBC6363C648B}" {
+    VisualIdentity VisualIdentity "{56E6D9456009D1C4}" {
+     Head "{FEAFB8C6203A0B82}Prefabs/Characters/Heads/Head_White_02_Camo.et"
+    }
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Back {
+     Prefab "{816B4F309B3B3D39}Prefabs/Items/Equipment/Backpacks/Rucksack_GS_assembled.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6574F98C023F00F2}" {
+     TargetStorage "Back/Rucksack_GS_assembled.et"
+    }
+    ItemsInitConfigurationItem "{65750176F8EF8FB7}" {
+     TargetStorage "Back/Rucksack_GS_assembled.et"
+     PrefabsToSpawn {
+      "{9F268F34D83C9519}Prefabs/Items/Equipment/Detonators/BlastingMachine_M34/BlastingMachine_Shrike.et" "{1F9E536AD45F48C7}Prefabs/Weapons/Explosives/DemoBlock_PE4/DemoBlock_PE4.et" "{1F9E536AD45F48C7}Prefabs/Weapons/Explosives/DemoBlock_PE4/DemoBlock_PE4.et" "{1F9E536AD45F48C7}Prefabs/Weapons/Explosives/DemoBlock_PE4/DemoBlock_PE4.et" "{1F9E536AD45F48C7}Prefabs/Weapons/Explosives/DemoBlock_PE4/DemoBlock_PE4.et" "{1F9E536AD45F48C7}Prefabs/Weapons/Explosives/DemoBlock_PE4/DemoBlock_PE4.et" "{1F9E536AD45F48C7}Prefabs/Weapons/Explosives/DemoBlock_PE4/DemoBlock_PE4.et" "{1F9E536AD45F48C7}Prefabs/Weapons/Explosives/DemoBlock_PE4/DemoBlock_PE4.et" "{1F9E536AD45F48C7}Prefabs/Weapons/Explosives/DemoBlock_PE4/DemoBlock_PE4.et" "{1F9E536AD45F48C7}Prefabs/Weapons/Explosives/DemoBlock_PE4/DemoBlock_PE4.et" "{1F9E536AD45F48C7}Prefabs/Weapons/Explosives/DemoBlock_PE4/DemoBlock_PE4.et" "{1F9E536AD45F48C7}Prefabs/Weapons/Explosives/DemoBlock_PE4/DemoBlock_PE4.et" "{1F9E536AD45F48C7}Prefabs/Weapons/Explosives/DemoBlock_PE4/DemoBlock_PE4.et"
+     }
+    }
+   }
+  }
+ }
+}

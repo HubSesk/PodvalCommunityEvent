@@ -1,0 +1,56 @@
+SCR_ChimeraCharacter : "{67ACD9EE1E9B5CB7}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Drg_Character_RHS_ION_PMC_Rifleman_AK_v1.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{EA7BCB31D5B3F266}Prefabs/Weapons/Rifles/AK74M/Rifle_AK103_b10m_b19_b33_pt1_rk3_b9m_FDE_RK1.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{C2372185306F6E6C}Prefabs/Characters/HeadGear/Hat_BallCap/variants/Hat_ballcap_OD_Wartech.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{61C8AE257C7545A9}Prefabs/Characters/Uniforms/Parka_Night/Night_parka_navyblue.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{820D1188C5C177C5}Prefabs/Characters/Uniforms/BDU_Pants/BDU_PANTS_OD.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{320FA1CD5B1D5601}Prefabs/Characters/Footwear/Boots_USMC_Combat/Footwear_USMC_Combat.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6286835946BBC091}" {
+     TargetStorage "Pants/BDU_PANTS_OD.et"
+    }
+    ItemsInitConfigurationItem "{6674AB936384366B}" {
+     PrefabsToSpawn {
+      "{03D467E505692C3F}Prefabs/Weapons/Magazines/AK103_magazine/Magazine_762x39_plastic_AK_30rnd_57N231.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6674AB936DC36034}" {
+     PrefabsToSpawn {
+      "{03D467E505692C3F}Prefabs/Weapons/Magazines/AK103_magazine/Magazine_762x39_plastic_AK_30rnd_57N231.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6674AB93720B0C58}" {
+     PrefabsToSpawn {
+      "{03D467E505692C3F}Prefabs/Weapons/Magazines/AK103_magazine/Magazine_762x39_plastic_AK_30rnd_57N231.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6674AB93D0D0C06A}" {
+     PrefabsToSpawn {
+      "{03D467E505692C3F}Prefabs/Weapons/Magazines/AK103_magazine/Magazine_762x39_plastic_AK_30rnd_57N231.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6674AB93D11944BD}" {
+     PrefabsToSpawn {
+      "{03D467E505692C3F}Prefabs/Weapons/Magazines/AK103_magazine/Magazine_762x39_plastic_AK_30rnd_57N231.et"
+     }
+    }
+   }
+  }
+ }
+}

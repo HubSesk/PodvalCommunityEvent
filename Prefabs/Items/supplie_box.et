@@ -1,0 +1,245 @@
+GenericEntity {
+ ID "62CAAA29D3B31894"
+ components {
+  SignalsManagerComponent "{62CAAA29D3B31878}" {
+  }
+  SoundComponent "{62CAAA29D3B3184A}" {
+   Filenames {
+    "{CEB036D3FA90F3C3}Sounds/Weapons/_SharedData/PickUp/Weapons_PickUp_ATMine_Generic.acp" "{A7B672B164032EE4}Sounds/Weapons/_SharedData/Drop/Weapons_Drop_ATMine_Generic.acp" "{49BA74662F0ACA8C}Sounds/Weapons/Explosives/Mine_TM62M/Weapons_Explosives_TM62M_Handling.acp" "{764506B0AF57183F}Sounds/Weapons/Explosives/_SharedData/Weapons_Explosives_ATMine_Generic_Placement.acp"
+   }
+  }
+  BaseTriggerComponent "{62CAAA29D3B31855}" {
+   Enabled 0
+   PROJECTILE_EFFECTS {
+    ExplosionEffect "{62CAAA29D3B3185F}" {
+     EffectPrefab "{BD25277C883BF4DC}Prefabs/Weapons/Warheads/Warhead_Mine_TM62M.et"
+     SoundEvent "SOUND_EXPLOSION"
+    }
+   }
+  }
+  MeshObject "{62CAAA29D3B31821}" {
+   Object "{26602B855125635D}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/EquipmentBoxWooden_Explosives_01.xob"
+   Materials {
+    MaterialAssignClass "{62CAAA29D3B31827}" {
+     SourceMaterial "Sandbags_01_End"
+     AssignedMaterial "{2392C281DF136B3B}Assets/Props/Military/Sandbags/Data/Sandbags_01_end_Burlap.emat"
+    }
+    MaterialAssignClass "{62CAAA29A26B59FE}" {
+     SourceMaterial "EquipmentBoxWooden_Explosives_01"
+     AssignedMaterial "{8BB3B94F7F3FBD15}Assets/Props/Military/SupplyBox/SupplyStack/SupplyStack_Large_01/Data/SupplyStack_Large_01_Explosives.emat"
+    }
+   }
+   PixelSizeScale 3
+  }
+  PS_BulbaComponent "{62CAAA29D3B31829}" {
+  }
+  RigidBody "{62CAAA29D3B31828}" {
+   Mass 15
+   LinearSleepingThreashold 0.5
+   AngularSleepingThreashold 0.5
+   ResponseIndex "TinyDestructible"
+   ModelGeometry 1
+   Static 0
+  }
+  SCR_MineDamageManager "{62CAAA29D3B3182D}" {
+   Enabled 0
+   "Additional hit zones" {
+    SCR_MineHitZone Main {
+     ColliderNames {
+      "UCL_TM_62M"
+     }
+     HZDefault 1
+     IgnoreExplosions 1
+     MaxHealth 50000
+     DamageReduction 50
+     "Explosive multiplier" 0.001
+    }
+   }
+   EnableDamage 0
+  }
+  SCR_MineInventoryItemComponent "{62CAAA29D3B31835}" {
+   Attributes SCR_ItemAttributeCollection "{62CAAA29D3B3183B}" {
+    ItemDisplayName WeaponUIInfo "{62CAAA29D3B31839}" {
+     Name "Ресурсы"
+     Description "Ресурсы снабжения, необходимы для ремонтной, инженерной техники."
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{62CAAA29D3B3183F}" {
+     Weight 4.2
+     SizeSetupStrategy Manual
+     ItemDimensions 20 20 20
+     ItemVolume 4000
+     RestingAdditiveRotationLS 0 0 0
+    }
+    ItemAnimationAttributes ItemAnimationAttributes "{62CAAA29D3B3180B}" {
+     IkSettings {
+      ItemIKSettings "{62CAAA29D3B3180A}" {
+       InAds 0
+       OutAds 0
+       MovementSpeedRange 0 1
+       IkSettingsStand 6
+       IkSettingsCrouch 6
+       IkSettingsProne 6
+      }
+     }
+     AnimationInstance "{AF06D3F738A50403}anims/workspaces/player/player_main_heavy.asi"
+     AnimationIKPose "{5EF679CCFE1123FD}Assets/Weapons/Explosives/Mine_M15AT/anims/p_mine_ik.anm"
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{62CAAA29D3B3180C}" {
+      CameraPreset Left
+      CameraOrbitAngles 0 225 0
+      CameraDistanceToItem 0.35
+      CameraOffset 0 0 0
+      AnimationInstance "{EFDC6FADA926C158}anims/workspaces/player/player_inventory_heavy.asi"
+     }
+     CharacterModifierAttributes "{62CAAA29D3B31810}" {
+      StanceLimits 0.05 1
+      SpeedLimit 1
+      ADSSpeedLimit 1
+      SpeedLimitItemPrimaryAction 1
+      SpeedLimitHighready 1
+      TurnLimit 65
+      AllowGadgetUse 0
+      AllowJumping 0
+     }
+     HolsteredItemAttributes "{62CAAA29D3B31816}" {
+      HiddenHolstered 1
+     }
+    }
+    CommonItemType "NONE"
+   }
+  }
+  SCR_PlaceableItemComponent "{62CAAA29D3B31814}" {
+   Enabled 0
+   m_fMaxPlacementDistance 2
+   m_ePlacementType XYZ
+  }
+  SCR_PressureTriggerComponent "{62CAAA29D3B3181A}" {
+   Enabled 0
+   m_sFuzeMeshName "Mine_Fuse_TM_62M"
+   m_fMinWeight 150
+  }
+  SCR_MineWeaponComponent "{62CAAA29D3B31819}" {
+   AllowedRaise "Only lowered"
+   UIInfo GrenadeUIInfo "{62CAAA29D3B3181F}" {
+    Name "Ресурсы"
+    Description "Ресурсы снабжения, необходимы для ремонтной, инженерной техники."
+    m_bShowWeaponName 0
+    m_MagIndicator SCR_MagazineIndicatorConfiguration "{62CAAA29D3B319E3}" {
+     m_sImagesetIcons "{9DA6A249AD4D71C4}UI/Textures/Icons/icons_wrapperUI-48.imageset"
+     m_sImagesetGlows "{5D85FA1AA039B2F8}UI/Textures/Icons/icons_wrapperUI-48-glow.imageset"
+     m_sOutline "repairCircle"
+     m_bProgressBar 0
+    }
+    m_sAmmoType "Potato"
+    m_bShowAmmoTypeText 1
+    m_eAmmoTypeFlags 0
+   }
+   WeaponSlotType "primary"
+   BeActiveWhenDropped 1
+   BeActiveWhenInitWithoutParent 1
+  }
+  ActionsManagerComponent "{62CAAA29D3B319E6}" {
+   ActionContexts {
+    UserActionContext "{62CAAA29D3B319ED}" {
+     ContextName "default"
+     Position PointInfo "{62CAAA29D3B319F2}" {
+     }
+    }
+   }
+   additionalActions {
+    SCR_BulbaAction "{62CAAA29D3B319F7}" {
+     ParentContextList {
+      "default"
+     }
+     UIInfo UIInfo "{62CAAA29D3B319F6}" {
+      Name "#AR-Inventory_Pickup"
+     }
+     "Sort Priority" 1
+    }
+   }
+  }
+  SCR_MineAnimationComponent "{62CAAA29D3B319FA}" {
+   AnimGraph "{61DD6C3BDA7D48F5}Assets/Weapons/Explosives/workspace/mine_TM62M.agr"
+   AnimInstance "{95992E047B24E710}Assets/Weapons/Explosives/workspace/TM62M_weapon.asi"
+   AlwaysActive 1
+   AnimInjection AnimationAttachmentInfo "{62CAAA29D3B319F8}" {
+    AnimGraph "{61DD6C3BDA7D48F5}Assets/Weapons/Explosives/workspace/mine_TM62M.agr"
+    AnimInstance "{6EC7BF35E32583FC}Assets/Weapons/Explosives/workspace/TM62M_player.asi"
+    BindingName "Heavy"
+   }
+   BindWithInjection 1
+   AutoVariablesBind 1
+   MeshVisibilityConfigurations {
+    MeshesVisibilitySwitchConfig "{62CAAA29D3B319FD}" {
+     Event "ShowFuze"
+     Meshes {
+      "Mine_Fuse_TM_62M" "TM_62M_pin"
+     }
+     HideMesh 0
+    }
+    MeshesVisibilitySwitchConfig "{62CAAA29D3B319FC}" {
+     Event "HidePin"
+     Meshes {
+      "TM_62M_pin"
+     }
+    }
+   }
+  }
+  RplComponent "{62CAAA29D3B319C0}" {
+   "Rpl State Override" Runtime
+  }
+  Hierarchy "{62CAAA29D3B319C7}" {
+  }
+  SCR_ResourceComponent "{62CAAA285BA16F84}" {
+   m_aContainers {
+    SCR_ResourceContainer "{62CAAA2853AD2DFA}" {
+     m_eResourceRights ALL
+     m_fResourceValueCurrent 100
+     m_fResourceValueMax 100
+     m_fResourceGain 0
+     m_fResourceGainTickrate 1
+     m_fResourceGainTimeout 0
+     m_fResourceDecay 34
+     m_fResourceDecayTickrate 60
+     m_fResourceDecayTimeout 1200
+     m_eOnEmptyBehavior DELETE
+    }
+   }
+   m_aConsumers {
+    SCR_ResourceConsumer "{62CAAA2845DF61B8}" {
+     m_eResourceRights SELF
+     m_fResourceRange 0
+     m_fSellMultiplier 0
+     m_ContainerQueue SCR_ResourceConsumerContainerQueue "{5D3CDAE7127485AE}" {
+      m_StoragePolicies {
+       SCR_ResourceConsumerStoragePolicyGeneric "{5DB893A6144CDA2A}" {
+       }
+      }
+     }
+    }
+   }
+   m_aGenerators {
+    SCR_ResourceGenerator "{62CAAA283EC2656D}" {
+     m_eResourceRights ALL
+     m_eIdentifier DEFAULT_STORAGE
+     m_fResourceMultiplier 1
+     m_fStorageRange 20
+     m_bIsIgnoringItself 1
+     m_ContainerQueue SCR_ResourceGeneratorContainerQueue "{5D3CDAE732723AB3}" {
+      m_StoragePolicies {
+       SCR_ResourceGeneratorStoragePolicy "{5DB893A6025B8913}" {
+       }
+      }
+     }
+     m_aActions {
+      SCR_ResourceGeneratorActionStore "{5DB893A68E13BDD6}" {
+      }
+     }
+    }
+   }
+   m_eDebugVisualizationFlags CONTAINER
+  }
+ }
+ coords 129.242 1 106.205
+}

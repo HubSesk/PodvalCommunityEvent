@@ -1,0 +1,38 @@
+GenericEntity : "{FD201F51636A9ACD}Prefabs/Items/Equipment/Backpacks/backpack_Wartech_BB102/Backpack_Wartech_BB102_base.et" {
+ ID "511E9C6ADE70F798"
+ components {
+  MeshObject "{511E9C6ADE70F7BD}" {
+   Object "{1F2390C7C31666DE}Assets/Items/Equipment/Backpacks/Backpack_ALICE_Medium/Backpack_ALICE_Medium_frame.xob"
+  }
+  SCR_UniversalInventoryStorageComponent "{5222CB03A40528FA}" {
+   Attributes SCR_ItemAttributeCollection "{5222CB039E9715D1}" {
+    ItemDisplayName UIInfo "{5222CB03904B414C}" {
+     Name "#RHS-Backpack_WartechBB102_Name - #RHS-Camo_EMR_SUMMER"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{511E9C6ADE70F7BB}" {
+   Slots {
+    RHS_LoadoutSlotInfo LeftVelcro {
+     Offset 0.036 0.2382 -0.0909
+     Angles 70.72619 0 0
+     Prefab "{3F38EE51E904AE5B}Prefabs/Weapons/Launchers/RPOA/Launcher_RPOA.et"
+    }
+    RHS_LoadoutSlotInfo RightVelcro {
+     Offset -0.1051 0.2458 -0.0877
+     Angles 70.72618 0 0
+     Prefab "{3F38EE51E904AE5B}Prefabs/Weapons/Launchers/RPOA/Launcher_RPOA.et"
+    }
+   }
+   WornModel "{1F2390C7C31666DE}Assets/Items/Equipment/Backpacks/Backpack_ALICE_Medium/Backpack_ALICE_Medium_frame.xob"
+   WornMaterialsOverride {
+    "{0A0C27321F50BF83}Assets/Items/Equipment/Backpacks/Wartech_BB102_Backpack/data/BB102_EMR.emat"
+   }
+   ItemMaterialsOverride {
+    "{D19C3A89FD25E590}Assets/Items/Equipment/Backpacks/Backpack_ALICE_Medium/Data/Backpack_ALICE_Medium_frame.emat"
+   }
+   DeflatedModel "{1F2390C7C31666DE}Assets/Items/Equipment/Backpacks/Backpack_ALICE_Medium/Backpack_ALICE_Medium_frame.xob"
+  }
+ }
+ coords 125.869 0.88 127.803
+}

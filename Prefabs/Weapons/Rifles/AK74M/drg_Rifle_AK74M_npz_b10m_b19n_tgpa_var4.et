@@ -1,0 +1,42 @@
+GenericEntity : "{5A64E5FC5622A204}Prefabs/Weapons/Rifles/AK74M/Rifle_AK74M_npz_b10m_b19n.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponSoundComponent "{5A8685198A9AEEDD}" {
+   Filenames {
+    "{D335D51093EA8456}Sounds/Weapons/Rifles/AK74M/Suppressed/RHS_Weapons_Rifles_AK74M_Suppressed.acp" "{83BF13405E50D896}Sounds/Weapons/Rifles/AK74M/RHS_Weapons_Rifles_AK74M_Handling.acp" "{68E023371FDD3B12}Sounds/Weapons/_SharedData/Drop/Weapons_Drop_Rifle_WoodMetal.acp" "{A84D9F22F2C0D9CE}Sounds/Weapons/_SharedData/PickUp/Weapons_PickUp_Rifle_WoodMetal.acp" "{332983CC95EE1E1E}Sounds/Weapons/_SharedData/Melee/Weapons_Melee_Rifle.acp" "{D8F675F3468362E2}Sounds/Weapons/_SharedData/Weapons_Sights_Actions.acp" "{10C1421961C34D26}Sounds/Weapons/_SharedData/Weapons_Deployment.acp"
+   }
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{5D5100CE8CA5075D}" {
+     AttachmentSlot InventoryStorageSlot RIS_Slot {
+      Prefab "{F016B4DEF5F4DD5D}Prefabs/Weapons/Attachments/Optics/exps/Optic_EXPS3-2.et"
+     }
+    }
+    AttachmentSlotComponent "{60D6BDAA76F91C71}" {
+     AttachmentSlot InventoryStorageSlot "{60D6BDAA7004C0CA}" {
+      Offset 0.0194 0.0848 0.256
+      Angles 0 0 90
+      Prefab "{CB8AB382E3F45336}Prefabs/Weapons/Attachments/Lasers/perst_classic/Laser_perst_classic_base.et"
+      Name "FrontRis"
+      InspectionWidgetOffset 0 0.1087 0.3642
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     components {
+      AttachmentSlotComponent "{4E2B66CBA589F625}" {
+       AttachmentSlot InventoryStorageSlot Muzzle {
+        Prefab "{F3DD3F69F633AD36}Prefabs/Weapons/Attachments/Muzzle/Supressor_TGPA/Supressor_TGPA.et"
+       }
+      }
+      SCR_MuzzleEffectComponent "{C9B3271BB22CDB68}" {
+       EffectPosition EntitySlotInfo "{C9B3271BB85B5D32}" {
+        Offset 0 0 0.1662
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

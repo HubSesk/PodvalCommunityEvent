@@ -1,0 +1,20 @@
+SCR_ChimeraCharacter : "{C8917EA9B578E2CE}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_Medic.et" {
+ ID "520EC961A090BE1E"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#DRG-Roles-RHS_Medic"
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{654F2E03F82A3F13}" {
+     TargetStorage "Jacket/Jacket_M88_base.et"
+     PrefabsToSpawn {
+      "{6492196F107687BC}Prefabs/Items/Equipment/Radios/Radio_R148_SL.et"
+     }
+    }
+   }
+  }
+ }
+}

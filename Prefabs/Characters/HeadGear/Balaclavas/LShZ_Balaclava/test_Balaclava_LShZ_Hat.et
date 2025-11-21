@@ -1,0 +1,30 @@
+GameEntity : "{338A1C13304023FE}Prefabs/Characters/HeadGear/Balaclavas/Balaclava_base.et" {
+ ID "5112706CD4157AC7"
+ components {
+  InventoryItemComponent "{5244E4431E28A759}" {
+   Attributes SCR_ItemAttributeCollection "{52C8D601873E6784}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{5DB13C575E2AFE37}" {
+     Name "#RHS-Headgear_LShZ_Balaclava_Name - #RHS-Color_OLIVE"
+     Description "#RHS-Headgear_LShZ_Balaclava_Description"
+    }
+   }
+  }
+  MeshObject "{5112706CD4157AE0}" {
+   Object "{255BED99DBB40458}Assets/Characters/HeadGear/Balaclavas/LShZ_Balaclava/rhs_lshz_balaclava_item.xob"
+  }
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    LoadoutSlotInfo Headset {
+     Offset 0 0.01 0
+    }
+    LoadoutSlotInfo Head {
+     Offset 0 0 0
+     Prefab "{793A3E3A4FD0EBBF}Prefabs/Characters/HeadGear/Hat_Boonie_US_01/drg_Hat_Boonie_AFRF_Camo.et"
+    }
+   }
+   WornModel "{AF8EC0D1381C8D59}Assets/Characters/HeadGear/Balaclavas/LShZ_Balaclava/rhs_lshz_balaclava_1.xob"
+   ItemModel "{255BED99DBB40458}Assets/Characters/HeadGear/Balaclavas/LShZ_Balaclava/rhs_lshz_balaclava_item.xob"
+  }
+ }
+ coords 131.404 1.448 133.784
+}

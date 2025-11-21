@@ -1,0 +1,51 @@
+GenericEntity : "{CA899A26D86EE56B}Prefabs/Items/sattelite_unit.et" {
+ ID "60473270075E5C96"
+ components {
+  BaseRadioComponent "{6454F7A15F0D71B6}" {
+   "Encryption key" "SATTELITE MODULE"
+  }
+  MeshObject "{604732700271E225}" {
+   Object "{E478689E643AC3CA}Assets/Props/Civilian/Heater_01/Heater_01.xob"
+   Materials {
+    MaterialAssignClass "{65C682F18225F9FE}" {
+     SourceMaterial "Heater_01_green"
+     AssignedMaterial "{8B696CDA98063EE0}Assets/Props/Civilian/Heater_01/Data/Heater_01_orange.emat"
+    }
+   }
+  }
+ }
+ coords 3480.467 82.781 7129.875
+ {
+  $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+   marker2 {
+    ID "65C6A75114B06FB9"
+    coords 0 0 0
+    angleY -40.037
+    m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+    m_sImageSetGlow ""
+    m_sQuadName "US_Relay"
+    m_fWorldSize 35
+    m_bUseWorldScale 0
+    m_aVisibleForFactions {
+     "CIV"
+    }
+    m_aHideOnGameModeStates {
+    }
+   }
+   marker {
+    ID "65C6A75114B1E461"
+    coords 0 0 0
+    angleY 90
+    m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+    m_sImageSetGlow ""
+    m_sQuadName "US_Relay"
+    m_fWorldSize 35
+    m_bUseWorldScale 0
+    m_bVisibleForEmptyFaction 1
+    m_aHideOnGameModeStates {
+     0 5
+    }
+   }
+  }
+ }
+}

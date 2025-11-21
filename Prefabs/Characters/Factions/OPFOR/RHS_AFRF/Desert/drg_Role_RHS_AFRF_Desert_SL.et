@@ -1,0 +1,26 @@
+SCR_ChimeraCharacter : "{FC586DF650BDF143}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Desert/drg_Role_RHS_AFRF_Desert_SR.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_SquadLeader"
+    Icon "{61B33057F7F0A4AE}UI/Icons/squad_leader.edds"
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6620DBCB240C83F8}" {
+     PrefabsToSpawn {
+      "{48B06B12F3BD7E9B}Prefabs/Items/Equipment/Radios/Radio_R187P1_OLD_SL.et"
+     }
+    }
+    ItemsInitConfigurationItem "{66216D28C2938895}" {
+     TargetStorage "Jacket/Jacket_6Sh122_Syrian_Digital.et"
+     PrefabsToSpawn {
+      "{A55A815F28739FEC}Prefabs/Items/Equipment/Navigation/Orion/Orion.et"
+     }
+    }
+   }
+  }
+ }
+}

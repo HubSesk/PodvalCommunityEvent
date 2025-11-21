@@ -1,0 +1,93 @@
+SCR_ChimeraCharacter : "{4398E9E35D42AE93}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/SSO/drg_Role_RHS_AFRF_SSO_Rifleman_Backpack.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#DRG-MG_SSO"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{4BE4931DF7B1ABCD}Prefabs/Weapons/MachineGuns/PKM/MG_PKM_B51_Eot.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Vest {
+     Prefab "{6EAF16F58A111439}Prefabs/Characters/Vests/Vest_AACPC/variants/Vest_AACPC_arsarmaHSGI_FG_MG.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{652AABA0C0E9AA74}" {
+     TargetStorage "Vest/Vest_AACPC_arsarmaHSGI_FG_MG.et/radio/Pouch_UP111_radioClosed_OD.et"
+    }
+    ItemsInitConfigurationItem "{652AB88639EB6169}" {
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{652AB887490AEFFB}" {
+     TargetStorage "Vest/Vest_AACPC_arsarmaHSGI_FG_MG.et/pkm_1/Pouch_Mordor_PKM.et"
+     PrefabsToSpawn {
+      "{0110F6D92703114A}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N13_4Ball_1Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{652AB887AE7B52E0}" {
+     TargetStorage "Vest/Vest_AACPC_arsarmaHSGI_FG_MG.et/pkm_2/Pouch_Mordor_PKM.et"
+     PrefabsToSpawn {
+      "{0110F6D92703114A}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N13_4Ball_1Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{652AB887B794F391}" {
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{652AB887BF952938}" {
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{652AB887E835217E}" {
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{652AB887F5DAAFB3}" {
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{652AB887CFE6A8D1}" {
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{652ABAEA71BC68A3}" {
+     TargetStorage "Vest/Vest_AACPC_arsarmaHSGI_FG_MG.et/mp118_camer/Pouch_MP118_PistolTako_OD.et"
+    }
+    ItemsInitConfigurationItem "{652ABAEA43ACF7C2}" {
+     TargetStorage "Vest/Vest_AACPC_arsarmaHSGI_FG_MG.et/mp118_2/Pouch_MP118_PistolTako2_OD.et"
+    }
+    ItemsInitConfigurationItem "{652ABAEA43E58CFA}" {
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{652ABAEA89E71D77}" {
+     TargetStorage "Vest/Vest_AACPC_arsarmaHSGI_FG_MG.et/grn1/Pouch_GP106_RGD_Pouch_OD.et"
+    }
+    ItemsInitConfigurationItem "{652ABAEAE6F09353}" {
+     TargetStorage "Vest/Vest_AACPC_arsarmaHSGI_FG_MG.et/grn2/Pouch_GP106_RGD_Pouch_2_OD.et"
+    }
+    ItemsInitConfigurationItem "{652ABAEAE70CF445}" {
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{652ABAEAFDBB9B39}" {
+     TargetStorage "Jacket/Jacket_Crye_Combat_Shirt_ATACS.et"
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{652ABAEAD6299B39}" {
+     PrefabsToSpawn {
+      "{0110F6D92703114A}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N13_4Ball_1Tracer.et" "{0110F6D92703114A}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N13_4Ball_1Tracer.et" "{0110F6D92703114A}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N13_4Ball_1Tracer.et" "{3A4E2F9091E70EC7}Prefabs/Weapons/Attachments/Optics/infratech1tws/Optic_Infratech1tws.et"
+     }
+    }
+   }
+  }
+ }
+}

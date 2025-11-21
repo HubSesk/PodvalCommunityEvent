@@ -1,0 +1,28 @@
+GenericEntity : "{D30D4FA5A82D6F0D}Prefabs/Items/Equipment/RangeCard/RangeCard_Notepad_Base.et" {
+ ID "508AB2013EEE1E00"
+ components {
+  Drg_NotepadRtComponent "{61ECFCAC76676880}" {
+   Enabled 0
+  }
+  InventoryItemComponent "{5222EB4D0C73006B}" {
+   Attributes SCR_ItemAttributeCollection "{5222EB4D0A2B466B}" {
+    ItemDisplayName UIInfo "{5222EB4D07D865FA}" {
+     Name "#DRG-Scam-Dollars"
+     Description "#DRG-Scam-Dollars"
+    }
+    ItemAnimationAttributes ItemAnimationAttributes "{61EA9D1BBDB999F5}" {
+     HandAdditiveRotation -10 -20 20
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{61EA9D1BBDB999C8}" {
+      CameraPreset Top
+      CameraOrbitAngles 0 0 0
+     }
+    }
+   }
+  }
+  MeshObject "{61EA9D1BBDB999D3}" {
+   Object "{1910E1E4E43AC8AC}Assets/Money/Wad.FBX.xob"
+  }
+ }
+}

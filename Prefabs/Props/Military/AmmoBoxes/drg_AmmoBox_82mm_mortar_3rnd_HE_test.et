@@ -1,0 +1,52 @@
+GenericEntity : "{3BFC0E1A2D0062CA}Prefabs/Props/Military/AmmoBoxes/drg_AmmoBox_82mm_mortar_3rnd_HE.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{26602B855125635D}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/EquipmentBoxWooden_Explosives_01.xob"
+  }
+  SCR_FilteredInventoryStorageComponent "{5476A2F100DF4EFF}" {
+   Attributes SCR_ItemAttributeCollection "{5476CDB2EAD8225E}" {
+    ItemAnimationAttributes ItemAnimationAttributes "{64F707D10A95B578}" {
+     IkSettings {
+      ItemIKSettings "{6502C64628DCD2EA}" {
+       InAds 0
+       OutAds 0
+       MovementSpeedRange 0 1
+       IkSettingsStand 6
+       IkSettingsCrouch 6
+       IkSettingsProne 6
+      }
+      ItemIKSettings "{604732700271E378}" {
+       InAds 0
+       OutAds 0
+       MovementSpeedRange 0 1
+       IkSettingsStand 6
+       IkSettingsCrouch 6
+       IkSettingsProne 6
+      }
+     }
+     AnimationInstance "{AF06D3F738A50403}anims/workspaces/player/player_main_heavy.asi"
+     AnimationIKPose "{5EF679CCFE1123FD}Assets/Weapons/Explosives/Mine_M15AT/anims/p_mine_ik.anm"
+     IncludeBonesInIkBlend {
+     }
+     AnimationAttachments {
+      AnimationAttachmentInfo "{64F707D10A95B566}" {
+       AnimGraph "{61DD6C3BDA7D48F5}Assets/Weapons/Explosives/workspace/mine_TM62M.agr"
+       AnimInstance "{6EC7BF35E32583FC}Assets/Weapons/Explosives/workspace/TM62M_player.asi"
+       BindingName "Heavy"
+      }
+     }
+     HandAdditiveRotation 0 0 0
+     HandAdditiveTranslation 0 0 0
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{64F707D10A95B562}" {
+      AnimationInstance "{EFDC6FADA926C158}anims/workspaces/player/player_inventory_heavy.asi"
+      LodModel 2
+     }
+    }
+   }
+   m_fMaxWeight 40
+  }
+ }
+}

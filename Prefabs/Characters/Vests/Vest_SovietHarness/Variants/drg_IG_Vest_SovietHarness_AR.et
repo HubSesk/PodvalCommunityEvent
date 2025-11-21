@@ -1,0 +1,45 @@
+GenericEntity : "{08155E701A94961F}Prefabs/Characters/Vests/Vest_SovietHarness/Vest_SovietHarness_assembled_base.et" {
+ ID "50D8C49B3558F152"
+ components {
+  ClothNodeStorageComponent "{5CE0BD449244C3E1}" {
+   Attributes SCR_ItemAttributeCollection "{5510AD9F02223F36}" {
+    ItemDisplayName UIInfo "{5510AD9F02223FEC}" {
+     Name "#AR-LBS_Harness_AR_Name"
+     Description "#AR-LBS_Harness_AR_Description"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{5510AD9F02223F81}" {
+     SizeSetupStrategy Manual
+     ItemDimensions 15 15 15
+    }
+   }
+   UseCapacityCoefficient 0
+   MaxCumulativeVolume 2400
+   MaxItemSize 10 10 10
+  }
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo Suspenders {
+    }
+    LoadoutSlotInfo GrenadePouch {
+     Offset -0.1132 -0.0275 0.0858
+     Angles -1.0683 -41.6368 0.1243
+     Prefab "{B6EEF03975F21E4E}Prefabs/Items/Equipment/Accessories/Pouch_Soviet_45rnd_RPK74/Pouch_Soviet_45rnd_RPK74.et"
+     DeflatedOffset -0.1281 0.0176 0.1184
+     DeflatedAngles -6.0829 -37.3391 0.248
+    }
+    LoadoutSlotInfo MagPouch_6Sh46 {
+     Offset 0.1117 -0.0266 0.0903
+     Angles 0 40.4253 0
+     Prefab "{B6EEF03975F21E4E}Prefabs/Items/Equipment/Accessories/Pouch_Soviet_45rnd_RPK74/Pouch_Soviet_45rnd_RPK74.et"
+     DeflatedOffset 0.1178 0.0171 0.1303
+     DeflatedAngles -4.2116 37.9819 0
+    }
+    LoadoutSlotInfo Canteen {
+    }
+    LoadoutSlotInfo Bayonet {
+    }
+   }
+   DeflatedModel ""
+  }
+ }
+}

@@ -1,0 +1,51 @@
+SCR_ChimeraCharacter : "{352765E58A0E08C8}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Drg_Character_RHS_ION_PMC_Unarmed.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Icon "{14AE995347CE8E7E}UI/Icons/pmc.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{5E48F2AEE83F80D5}Prefabs/Weapons/Rifles/M4A1/URG-I/drg_Rifle_M4A1_URGI_145_PMC.et"
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6674AB8213BE28D6}" {
+     TargetStorage "Vest/drg_Vest_AVS_Blk_NoBelt_Light.et/hsgi/Pouch_AVS_MBITR_Radio_Blk.et"
+    }
+    ItemsInitConfigurationItem "{6674AB81F0AC56CE}" {
+     TargetStorage "Vest/drg_Vest_AVS_Blk_NoBelt_Light.et/Pouch1/Pouch_avs_front_elastic_Blk.et"
+     TargetPurpose 1
+     PrefabsToSpawn {
+      "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et" "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et" "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6674AB891B478E9F}" {
+     TargetStorage "Vest/drg_Vest_AVS_Blk_NoBelt_Light.et/flex2/Pouch_PCGEN3_takoPouch_MCBlk.et"
+     PrefabsToSpawn {
+      "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et" "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6674AB89183E1F62}" {
+     TargetStorage "Vest/drg_Vest_AVS_Blk_NoBelt_Light.et/tako/Pouch_PCGEN3_takoPouch_MCBlk.et"
+     PrefabsToSpawn {
+      "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et" "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6674AB891E1F2396}" {
+     TargetStorage "Vest/drg_Vest_AVS_Blk_NoBelt_Light.et/mbitr/Pouch_PCGEN3_takoPouch_MCBlk.et"
+     PrefabsToSpawn {
+      "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et" "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6674AB8975521805}" {
+     TargetStorage "Vest/drg_Vest_AVS_Blk_NoBelt_Light.et/raid/Pouch_Shaw_Raid_MCBlk.et"
+     PrefabsToSpawn {
+      "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+     }
+    }
+   }
+  }
+ }
+}

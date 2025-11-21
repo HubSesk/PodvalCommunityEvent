@@ -1,0 +1,68 @@
+GenericEntity : "{C95E11C60810F432}Prefabs/Items/Core/Item_Base.et" {
+ ID "508AB2013EEE1E00"
+ components {
+  InventoryItemComponent "{5222EB4D0C73006B}" {
+   Enabled 1
+   Attributes SCR_ItemAttributeCollection "{5222EB4D0A2B466B}" {
+   }
+  }
+  SCR_ArsenalComponent "{5E3CC268A92CDE62}" {
+   Enabled 0
+  }
+  SCR_HealSupportStationComponent "{5E68A54C698EFD84}" {
+   m_iSupplyCostDamageHealed 3
+  }
+  SCR_ResourceComponent "{5E4A957708B43723}" {
+   Enabled 0
+   m_aConsumers {
+    SCR_ResourceConsumer "{5E4EDEA541710E5E}" {
+     m_fSellMultiplier 0
+    }
+   }
+  }
+  SCR_ResupplyMedicalGadgetSupportStationComponent "{5E3CC26A2C28361C}" {
+   Enabled 0
+  }
+  SCR_SupportStationGadgetComponent "{5DF4D9A1113FBAD9}" {
+   m_aSupportStationTypes {
+    300
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{5E4E8A7876A50FDC}" {
+   Attributes SCR_ItemAttributeCollection "{5E4E8A78F11700F6}" {
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 0.01
+     ItemDimensions 0.1 0.1 0.1
+    }
+   }
+  }
+  SCR_FilteredInventoryStorageComponent "{6522A12C3562546F}" {
+   Attributes SCR_ItemAttributeCollection "{6522A12C3FCFDA1D}" {
+    ItemDisplayName SCR_InventoryUIInfo "{64F707D10A95B574}" {
+     Name "Медицина"
+    }
+    ItemAnimationAttributes ItemAnimationAttributes "{64F707D10A95B578}" {
+     AnimationAttachments {
+      AnimationAttachmentInfo "{64F707D10A95B566}" {
+      }
+     }
+     HandAdditiveRotation 180 90 90
+     HandAdditiveTranslation 0 -0.03 0.07
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{64F707D10A95B562}" {
+     }
+     CharacterModifierAttributes "{64F707D10A95B560}" {
+     }
+    }
+   }
+   MultiSlots {
+    MultiSlotConfiguration "{6522A12C1EB3112E}" {
+     SlotTemplate InventoryStorageSlot "{64DCC2F489C88F5C}" {
+      Prefab "{C98FCC6CA6C56069}Prefabs/Items/Medicine/AspirinBottle.et"
+     }
+    }
+   }
+  }
+ }
+}

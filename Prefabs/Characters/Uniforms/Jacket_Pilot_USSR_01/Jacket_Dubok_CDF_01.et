@@ -1,0 +1,31 @@
+GameEntity : "{2C65F4899E862CF8}Prefabs/Characters/Uniforms/Jacket_Pilot_USSR_01/Jacket_Pilot_USSR_01_base.et" {
+ ID "5104869D194C6243"
+ components {
+  MeshObject "{5104869D194C6262}" {
+   Materials {
+    MaterialAssignClass "{6512B6FBDC1C22D5}" {
+     SourceMaterial "Jacket_Pilot_USSR_01_Item"
+     AssignedMaterial "{C338A9706F348592}Assets/Characters/Uniforms/Jacket_Pilot_USSR_01/Data/Jacket_Dubok_CDF_01_Item.emat"
+    }
+   }
+  }
+  SCR_ItemOutfitFactionComponent "{618AD7B9B991C864}" {
+   m_OutfitDataHolder SCR_OutfitFactionDataHolder "{61A8D9667DC79B88}" {
+    m_aOutfitFactionData {
+     SCR_OutfitFactionData "{61A8D9667D61FF0D}" {
+      m_AffiliatedFactionKey "Ses_CDF"
+      m_iOutfitFactionValue 0
+     }
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5104869D194C627A}" {
+   WornMaterialsOverride {
+    "{16D76926ACB406F7}Assets/Characters/Uniforms/Jacket_Pilot_USSR_01/Data/Jacket_Dubok_USSR_01.emat"
+   }
+   ItemMaterialsOverride {
+    "{C338A9706F348592}Assets/Characters/Uniforms/Jacket_Pilot_USSR_01/Data/Jacket_Dubok_CDF_01_Item.emat"
+   }
+  }
+ }
+}

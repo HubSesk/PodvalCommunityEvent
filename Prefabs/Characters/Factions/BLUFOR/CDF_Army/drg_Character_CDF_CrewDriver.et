@@ -1,0 +1,28 @@
+SCR_ChimeraCharacter : "{DC6EA865F186B3D1}Prefabs/Characters/Factions/BLUFOR/CDF_Army/drg_Character_CDF_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#DRG-DRIVER"
+    Icon "{FC10C2531B4A5AFF}UI/Icons/sso_meh.edds"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{367BEEE3BE61C597}Prefabs/Characters/HeadGear/Headgear_TSh4/Helmet_tsh4.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{623876773A154FCC}" {
+     TargetStorage "Back/Backpack_Veshmeshok.et"
+     PrefabsToSpawn + {
+      "{2D16A8A6235F6DF1}Prefabs/Characters/HeadGear/Helmet_PASGT_01/Helmet_Dubok_PASGT_01_CDF.et"
+     }
+    }
+   }
+  }
+ }
+}

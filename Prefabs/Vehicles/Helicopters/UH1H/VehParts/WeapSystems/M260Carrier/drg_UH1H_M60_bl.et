@@ -1,0 +1,337 @@
+Turret {
+ ID "65E52C7603B57A27"
+ components {
+  EventHandlerManagerComponent "{65E52C7630D72A0A}" {
+  }
+  SignalsManagerComponent "{65E52C7630D72AF4}" {
+  }
+  ColliderHistoryComponent "{65E52C7630D72AFF}" {
+  }
+  ControllersManagerComponent "{65E52C7630D72AFB}" {
+  }
+  MeshObject "{65E52C7630D70A90}" {
+   Object "{B04D2E9978CD08B1}Assets/Vehicles/Helicopters/UH1H/VehParts/UH1H_carriers.xob"
+   LODFactors {
+    1 1 1 1
+   }
+   PixelSizeScale 10
+  }
+  MultiFireWeaponManagerComponent "{65E52C7630D70A8F}" {
+  }
+  RigidBody "{65E52C7630D70D5C}" {
+   SimState Collision
+   ModelGeometry 1
+   Static 0
+   Kinematic 1
+  }
+  ProcAnimComponent "{65E52C7630D70D44}" {
+   Enabled 0
+  }
+  SCR_BaseCompartmentManagerComponent "{65E52C7630D66C92}" {
+   Enabled 0
+   CompartmentSlots {
+    TurretCompartmentSlot TurretCompartment {
+     CompartmentAction SCR_GetInUserAction "{65E52C7630D70D00}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo SCR_ActionUIInfo "{65E52C7630D70D1E}" {
+       Name "#AR-UserAction_GetIn"
+       Icon "{77DC267E0B210FCC}UI/Textures/UserActions/getinturretaction.edds"
+       m_sIconName "veh_gunner"
+      }
+      "Sort Priority" 1
+     }
+     GetOutAction SCR_GetOutAction "{65E52C7630D76ACD}" {
+      UIInfo SCR_ActionUIInfo "{65E52C7630D70DF5}" {
+       Name "#AR-UserAction_GetOut"
+       m_sIconName "getOutCommand"
+      }
+      Duration 0
+     }
+     JumpOutAction SCR_JumpOutAction "{65E52C7630D6E055}" {
+      UIInfo SCR_ActionUIInfo "{65E52C7630D76AC3}" {
+       Name "#AR-Keybind_Eject"
+       m_sIconName "getOutCommand"
+      }
+      "Sort Priority" 1
+     }
+     SwitchSeatAction SCR_SwitchSeatAction "{65E52C7630D6E073}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo SCR_ActionUIInfo "{65E52C7630D6E04C}" {
+       Name "#AR-UserAction_SwitchSeat"
+       m_sIconName "veh_gunner"
+      }
+      Duration 0.5
+     }
+     AdditionalActions {
+      SCR_RemoveCasualtyUserAction "{65E52C7630D6F859}" {
+       UIInfo SCR_ActionUIInfo "{65E52C7630D6E01A}" {
+        Name "#AR-UserAction_RemoveCasualty"
+        m_sIconName "use"
+       }
+       Duration 1
+       CanAggregate 1
+       "Sort Priority" 9
+       m_bInteriorOnly 1
+      }
+      SCR_RemoveCasualtyUserAction "{65E52C7630D66D71}" {
+       UIInfo SCR_ActionUIInfo "{65E52C7630D6F857}" {
+        Name "#AR-UserAction_RemoveCasualty"
+        m_sIconName "use"
+       }
+       Duration 1
+       CanAggregate 1
+       "Sort Priority" 9
+       m_bExteriorOnly 1
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{B1CB25848A3D93A8}" {
+     }
+     ForcedFreeLook 1
+     SeatType 5
+     UIInfo SCR_ActionUIInfo "{65E52C7630D66D65}" {
+      Name "#AR-VehiclePosition_Gunner"
+      m_sIconName "veh_gunner"
+     }
+     RestrictedItemTypes {
+      "BINOCULARS"
+     }
+     CharacterWeaponHandling 1
+     m_ScreenShakeData SCR_BaseScreenShakeData "{65E52C7630D66D51}" {
+     }
+     m_fFreelookAimLimitOverrideDown -78
+    }
+   }
+  }
+  SCR_BaseHUDComponent "{65E52C7630D66CF3}" {
+   InfoDisplays {
+    SCR_WeaponInfoVehicle "{65E52C7630D66CF2}" {
+     m_LayoutPath "{8170DE93810F928A}UI/layouts/HUD/WeaponInfo/WeaponInfo.layout"
+     m_bAdaptiveOpacity 1
+     m_aHandlers {
+      SCR_InfoDisplaySlotHandler "{65E52C7630D66CF1}" {
+       m_bCanUpdate 1
+       m_sSlotName "Slot_WeaponInfo"
+      }
+     }
+     m_sInterfaceSettingName "m_bShowWeaponInfo"
+    }
+   }
+  }
+  SCR_DamageManagerComponent "{65E52C7630D66C3F}" {
+   "Additional hit zones" {
+    SCR_DestructibleHitzone Turret {
+     HZDefault 1
+     IgnoreExplosions 1
+     BaseDamageMultiplier 0
+     "Collision multiplier" 0
+     m_aDamagePassRules {
+      SCR_DamagePassRule "{65E52C7630D66CD9}" {
+       m_fMultiplier 1
+       m_bPassToParent 1
+      }
+     }
+     m_pDestructionHandler SCR_DestructionBaseHandler "{65E52C7630D66CD6}" {
+      m_bAllowHideWreck 0
+     }
+    }
+   }
+  }
+  SCR_FireModeManagerComponent "{65E52C7630D67249}" {
+   m_aWeaponGroups {
+    SCR_WeaponGroup "{65E52C7630D66C32}" {
+     m_sWeaponGroupName "#AR-UserAction_Helicopter_WeaponSelect_UH1H_All"
+     m_aWeaponsGroupIds {
+      0 1
+     }
+     m_eFireMode SEQUENTIAL
+    }
+   }
+  }
+  SCR_VehicleCameraDataComponent "{65E52C7630D67274}" {
+   m_fBobScale 0
+   m_fShakeScale 0
+   m_fDist_Max 6
+   m_fDist_Min 4
+   m_fDist_Desired 5
+   m_pCameraAlignData SCR_VehicleCameraAlignment "{65E52C7630D67275}" {
+   }
+  }
+  TurretControllerComponent "{65E52C7630D6721D}" {
+   components {
+    AITurretAimingComponent "{65E52C7630D67266}" {
+     AimingPID 5 8 0
+     AimingPIDMaxErrorIntegral 0.07
+     AimingBasePID 5 2 0
+     AimingBasePIDMaxErrorIntegral 0.3
+    }
+   }
+   GetUpdateEventsWhenEmpty 1
+   CanBeOverridden 1
+   UniqueTurretName "UHCarrier"
+  }
+  TurretComponent "{65E52C7630D67226}" {
+   SignalsSourceAccess SignalsSourceAccessClass "{65E52C7630D67217}" {
+    signalsSuffix "Turret"
+   }
+  }
+  WeaponSlotComponent "{65E52C7630D6714B}" {
+   SignalsSourceAccess SignalsSourceAccessClass "{65E52C7630D67182}" {
+    signalsSuffix "Turret"
+   }
+   AttachType InventoryStorageSlot Pylon {
+    Offset 1.5903 0.5684 -0.0801
+    DisablePhysicsInteraction 1
+    UpdateReplicationParent 1
+   }
+   WeaponTemplate "{44801DB5AA8BF8F9}Prefabs/Weapons/MachineGuns/M60/drg_MG_M60D_3000MG_Tracer.et"
+   WeaponSlotIndex 1
+  }
+  WeaponSlotComponent "{65E52C7630D67185}" {
+   SignalsSourceAccess SignalsSourceAccessClass "{65E52C7630D671D6}" {
+    signalsSuffix "Turret"
+   }
+   AttachType InventoryStorageSlot "{0AACE7470E421D82}" {
+    PivotID "v_gun_01"
+    Offset -1.5625 0.5592 -0.0801
+    DisablePhysicsInteraction 1
+    UpdateReplicationParent 1
+   }
+   WeaponTemplate "{44801DB5AA8BF8F9}Prefabs/Weapons/MachineGuns/M60/drg_MG_M60D_3000MG_Tracer.et"
+  }
+  ActionsManagerComponent "{65E52C7630D4ACE5}" {
+   ActionContexts {
+    UserActionContext "{65E52C7630D67167}" {
+     UIInfo SCR_ActionContextUIInfo "{65E52C7630D6716F}" {
+     }
+     ContextName "default"
+     Position PointInfo "{65E52C7630D67164}" {
+      Offset 0 1 0
+     }
+    }
+    UserActionContext "{65E52C7630D6711F}" {
+     UIInfo SCR_ActionContextUIInfo "{65E52C7630D6711D}" {
+     }
+     ContextName "weapons_panel"
+     Position PointInfo "{65E52C7630D6711C}" {
+      Offset -0.0873 1.1641 2.3388
+     }
+     Radius 0.1
+     Height 0
+     Omnidirectional 0
+     VisibilityAngle 110
+    }
+    UserActionContext "{65E52C7630D65DC7}" {
+     ContextName "Pylon0"
+     Position PointInfo "{65E52C7630D67115}" {
+      Offset -1.6053 0.7827 -0.0697
+     }
+    }
+    UserActionContext "{65E52C7630D65DC2}" {
+     ContextName "Pylon1"
+     Position PointInfo "{65E52C7630D65DC3}" {
+      Offset 1.6053 0.7827 -0.0697
+     }
+    }
+   }
+   additionalActions {
+    SCR_VehicleWeaponGroupSelectAction "{65E52C7630D65DD3}" {
+     ParentContextList {
+      "weapons_panel"
+     }
+     UIInfo UIInfo "{65E52C7630D65DD5}" {
+      Name "#AR-UserAction_Helicopter_WeaponStation"
+     }
+     ActionTitle "Select weapon"
+     m_sActionSoundEvent "SOUND_WEAPONS_GROUP"
+    }
+    SCR_VehicleWeaponFireModeSwitchAction "{65E52C7630D65DEC}" {
+     ParentContextList {
+      "weapons_panel"
+     }
+     UIInfo UIInfo "{65E52C7630D65DED}" {
+      Name "#AR-UserAction_Helicopter_FireMode"
+     }
+     ActionTitle "Firemode switch"
+     "Sort Priority" 1
+     m_sActionSoundEvent "SOUND_FIREMODE"
+    }
+    SCR_RippleFireQuantityAction "{65E52C7630D58266}" {
+     ParentContextList {
+      "weapons_panel"
+     }
+     UIInfo UIInfo "{65E52C7630D65DE6}" {
+      Name "#AR-UserAction_Helicopter_RippleQuantity"
+     }
+     CanAggregate 1
+     "Sort Priority" 3
+     m_bPilotOnly 1
+     m_sActionSoundEvent "SOUND_RIPPLE_QUANTITY"
+    }
+    SCR_RippleFireIntervalAction "{65E52C7630D58279}" {
+     UIInfo UIInfo "{65E52C7630D5827B}" {
+      Name "#AR-UserAction_Helicopter_RippleInterval"
+     }
+     Duration -1
+     CanAggregate 1
+     PerformPerFrame 1
+     "Sort Priority" 11
+     "Signal name" "ripple_interval"
+     "Max value" 2000
+     "Min value" 200
+     m_fAdjustmentStep 200
+     m_bManualAdjustment 1
+     m_sMovementSoundEvent "SOUND_RIPPLE_INTERVAL"
+     m_sMovementStopSoundEvent "SOUND_RIPPLE_INTERVAL"
+     m_bPilotOnly 1
+    }
+    SCR_AttachPylonSupportStationAction "{65E52C7630D50696}" {
+     ParentContextList {
+      "Pylon0"
+     }
+     UIInfo UIInfo "{65E52C7630D5838F}" {
+      Name "#AR-SupportStation_Attach_Helicopter_Pylon_ActionName"
+     }
+     Duration 1.5
+     m_ResupplyData SCR_ResupplyItemSupportStationData "{65E52C7630D5838A}" {
+      m_sItemPrefab "{CA43E7527570A5ED}Prefabs/Weapons/AircraftWeapons/RocketPods/Pod_M260.et"
+     }
+    }
+    SCR_AttachPylonSupportStationAction "{65E52C7630D4ACF8}" {
+     ParentContextList {
+      "Pylon1"
+     }
+     UIInfo UIInfo "{65E52C7630D50699}" {
+      Name "#AR-SupportStation_Attach_Helicopter_Pylon_ActionName"
+     }
+     Duration 1.5
+     m_ResupplyData SCR_ResupplyItemSupportStationData "{65E52C7630D5069F}" {
+      m_sItemPrefab "{CA43E7527570A5ED}Prefabs/Weapons/AircraftWeapons/RocketPods/Pod_M260.et"
+     }
+     m_iPylonIndex 1
+    }
+   }
+   AllowCrossHierarchy 1
+  }
+  BaseItemAnimationComponent "{65E52C7630D4ACAA}" {
+   Enabled 0
+   AnimGraph "{3E44648DB74CBBA2}Assets/Weapons/HeavyWeapons/workspaces/M2HB_m151a2.agr"
+   AnimInstance "{080604593C99C8DB}Assets/Weapons/HeavyWeapons/workspaces/M2HB_Weapon_m151a2.asi"
+   AnimInjection AnimationAttachmentInfo "{65E52C7630D4ACE9}" {
+    AnimGraph "{3E44648DB74CBBA2}Assets/Weapons/HeavyWeapons/workspaces/M2HB_m151a2.agr"
+    AnimInstance "{F3589568A498AC37}Assets/Weapons/HeavyWeapons/workspaces/M2HB_Player_m151a2.asi"
+    BindingName "Vehicle"
+   }
+   AutoCommandBind 0
+  }
+  RplComponent "{65E52C7630D4AC9D}" {
+   "Rpl State Override" Runtime
+  }
+  Hierarchy "{65E52C7630D4AC9A}" {
+  }
+ }
+ coords 5626.892 3.982 6956.815
+}

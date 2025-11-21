@@ -1,0 +1,30 @@
+GameEntity : "{DCF980831E880F6A}Prefabs/Characters/Uniforms/Pants_M88.et" {
+ ID "5104869D194C6243"
+ components {
+  MeshObject "{5104869D194C6262}" {
+   Materials {
+    MaterialAssignClass "{65D571D10E7B9A07}" {
+     SourceMaterial "pants_M88_01"
+     AssignedMaterial "{1560AB2005636502}Assets/Characters/Uniforms/Pants_M88/Data/Pants_M88_01_vietnam.emat"
+    }
+   }
+  }
+  SCR_ItemOutfitFactionComponent "{618AD7B9978F2816}" {
+   m_OutfitDataHolder SCR_OutfitFactionDataHolder "{61A8A841E90BF8D6}" {
+    m_aOutfitFactionData {
+     SCR_OutfitFactionData "{61A8A841E893212E}" {
+      m_AffiliatedFactionKey "Drg_VCA"
+     }
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5104869D194C627A}" {
+   WornMaterialsOverride {
+    "{1560AB2005636502}Assets/Characters/Uniforms/Pants_M88/Data/Pants_M88_01_vietnam.emat"
+   }
+   ItemMaterialsOverride {
+    "{B2866AF7311A5E87}Assets/Characters/Uniforms/Pants_M88/Data/Pants_M88_01_item_vietnam.emat"
+   }
+  }
+ }
+}

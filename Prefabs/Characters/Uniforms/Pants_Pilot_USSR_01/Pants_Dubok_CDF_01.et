@@ -1,0 +1,31 @@
+GameEntity : "{D7CC1AF40F7A5A32}Prefabs/Characters/Uniforms/Pants_Pilot_USSR_01/Pants_Pilot_USSR_01_base.et" {
+ ID "5104869D194C6243"
+ components {
+  MeshObject "{5104869D194C6262}" {
+   Materials {
+    MaterialAssignClass "{6512B6FBA632FBE6}" {
+     SourceMaterial "Pants_Pilot_USSR_01_Item"
+     AssignedMaterial "{2B56630D23D642C0}Assets/Characters/Uniforms/Pants_Pilot_USSR_01/Data/Pants_Dubok_CDF_01_Item.emat"
+    }
+   }
+  }
+  SCR_ItemOutfitFactionComponent "{618AD7B9A851D297}" {
+   m_OutfitDataHolder SCR_OutfitFactionDataHolder "{61A8D96609C15086}" {
+    m_aOutfitFactionData {
+     SCR_OutfitFactionData "{61A8D966094CF442}" {
+      m_AffiliatedFactionKey "Ses_CDF"
+      m_iOutfitFactionValue 0
+     }
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5104869D194C627A}" {
+   WornMaterialsOverride {
+    "{2E6D706AFAF93016}Assets/Characters/Uniforms/Pants_Pilot_USSR_01/Data/Pants_Dubok_CDF_USSR_01.emat"
+   }
+   ItemMaterialsOverride {
+    "{2B56630D23D642C0}Assets/Characters/Uniforms/Pants_Pilot_USSR_01/Data/Pants_Dubok_CDF_01_Item.emat"
+   }
+  }
+ }
+}

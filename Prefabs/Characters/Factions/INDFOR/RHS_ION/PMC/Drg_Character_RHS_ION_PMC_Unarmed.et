@@ -1,0 +1,43 @@
+SCR_ChimeraCharacter : "{00F47F72680EB992}Prefabs/Characters/Factions/INDFOR/RHS_ION/Drg_Character_RHS_ION_Unarmed.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{CC99CC29A9A6D0A8}Prefabs/Characters/HeadGear/Hat_Boonie_US_01/drg_Hat_Boonie_ION_PMC.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{129D93F9A97CDBEB}Prefabs/Characters/Uniforms/ACU_t-shirt/ACU_t-shirt_grey.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{DCFAD802CF90F4B8}Prefabs/Characters/Vests/Vest_Shaw_ARC/Vest_Shaw_ARC_MC_Blk.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{C749B2C1C2CF3863}Prefabs/Characters/Uniforms/Civi_Pants/Civi_Jeans_Blue_Ripped.et"
+    }
+    LoadoutSlotInfo Back {
+    }
+    LoadoutSlotInfo Vest {
+     Enabled 1
+     Prefab "{841C3B5572D90802}Prefabs/Characters/Vests/Vest_AVS/Variants/ION/drg_Vest_AVS_Blk_NoBelt_Light.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6286835946BBC091}" {
+     TargetStorage "Pants/Civi_Jeans_Blue_Ripped.et"
+     PrefabsToSpawn {
+      "{922F95F91943F69A}Prefabs/Items/Equipment/Maps/PaperMap_01_folded_US.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6674AB8213BE28D6}" {
+     TargetStorage "Vest/drg_Vest_AVS_Blk_NoBelt_Light.et/Radio/Pouch_AVS_MBITR_Radio_Blk.et"
+     PrefabsToSpawn {
+      "{88184F34B71C4C03}Prefabs/Items/Equipment/Radios/drg_Radio_ANPRC152A_OLD_prv_PMC.et"
+     }
+    }
+   }
+  }
+ }
+}

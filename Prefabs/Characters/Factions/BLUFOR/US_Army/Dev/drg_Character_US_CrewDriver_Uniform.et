@@ -1,0 +1,38 @@
+SCR_ChimeraCharacter : "{4F6C9EDA416D83D3}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/Recon/drg_Character_US_Recon_CrewDriver.et" {
+ ID "520EC961A090BBD5"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{F97A4AC994231900}Prefabs/Weapons/Rifles/M16/Rifle_M16A2_carbine.et"
+  }
+  SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
+   Override 0
+   Identity Identity "{5584CBC6363C648B}" {
+    VisualIdentity VisualIdentity "{56E6D9456009D1C4}" {
+     Head "{2F3375E395C46AB3}Prefabs/Characters/Heads/Head_BaseBody_01.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{61B75C986066B4C1}" {
+     TargetStorage "Jacket/Suit_Tanker_US_01.et"
+    }
+    ItemsInitConfigurationItem "{669C73B22A30D490}" {
+     TargetStorage "Jacket/Suit_Tanker_US_01.et"
+     PrefabsToSpawn {
+      "{24048C9FFE5AF733}Prefabs/Items/Equipment/Radios/drg_Radio_ANPRC68_prv.et"
+     }
+    }
+    ItemsInitConfigurationItem "{61B87867EA32507F}" {
+     TargetStorage "Jacket/Suit_Tanker_US_01.et"
+    }
+    ItemsInitConfigurationItem "{668274F01C31DCF7}" {
+     TargetStorage "Jacket/Suit_Tanker_US_01.et"
+    }
+    ItemsInitConfigurationItem "{669C73B3CA62C2A3}" {
+     TargetStorage "Jacket/Suit_Tanker_US_01.et"
+    }
+   }
+  }
+ }
+}

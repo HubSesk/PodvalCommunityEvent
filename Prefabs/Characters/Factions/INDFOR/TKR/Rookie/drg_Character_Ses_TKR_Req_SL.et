@@ -1,0 +1,20 @@
+SCR_ChimeraCharacter : "{A623ACF920DC1DC8}Prefabs/Characters/Factions/INDFOR/TKR/Rookie/drg_Character_Ses_TKR_Recruit_v1.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#DRG_TKR_Roles_SL"
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6586FC58084F14A3}" {
+     TargetStorage "Back/Backpack_Veshmeshok.et"
+     PrefabsToSpawn {
+      "{DB600C5EAB00714B}Prefabs/Items/Equipment/Radios/Radio_R148_FIA_SL.et"
+     }
+    }
+   }
+  }
+ }
+}

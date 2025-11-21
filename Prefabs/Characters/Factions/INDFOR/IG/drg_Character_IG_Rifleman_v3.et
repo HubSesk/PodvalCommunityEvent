@@ -1,0 +1,43 @@
+SCR_ChimeraCharacter : "{3E0AD164F0AFB09D}Prefabs/Characters/Factions/INDFOR/IG/drg_Character_IG_Rifleman_v1.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{E12126CDE731EED5}Prefabs/Characters/HeadGear/Hat_Boonie_US_01/Hat_Boonie_US_01.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{3C44AF5729CA80AB}Prefabs/Characters/Uniforms/Shirt_Turtleneck_01/Shirt_Turtleneck_01_beige_Dirty.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{604BB72BE8E023C2}Prefabs/Characters/Uniforms/Pants_US_BDU.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{2E8829632CBA7A9B}Prefabs/Characters/Vests/Vest_ALICE/Variants/Vest_ALICE_commander.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{64D476C2404F583A}" {
+     TargetStorage "Pants/Pants_US_BDU.et"
+    }
+    ItemsInitConfigurationItem "{64D476C2400BF5EA}" {
+     TargetStorage "Vest/Vest_ALICE_commander.et"
+    }
+    ItemsInitConfigurationItem "{64D476CFAB0241CC}" {
+     TargetStorage "Vest/Vest_ALICE_commander.et"
+    }
+    ItemsInitConfigurationItem "{64D476CF95D45DA3}" {
+     TargetStorage "Back/Backpack_Veshmeshok.et"
+    }
+    ItemsInitConfigurationItem "{64D476C9C675D4ED}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_ALICE/Vest_ALICE_buttpack.et"
+     PrefabsToSpawn {
+      "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et" "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et" "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et" "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et" "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et" "{E5912E45754CD421}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Tracer.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+     }
+    }
+   }
+  }
+ }
+}

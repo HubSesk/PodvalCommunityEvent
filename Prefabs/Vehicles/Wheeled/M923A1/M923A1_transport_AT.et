@@ -1,0 +1,61 @@
+Vehicle : "{9A0D72816DFFDB7F}Prefabs/Vehicles/Wheeled/M923A1/M923A1.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "#AR-Vehicle_M923A1_Transport_Name"
+    Icon "{9EBE212C91B36BBE}UI/Textures/Editor/EditableEntities/Vehicles/EditableEntity_Vehicle_Truck.edds"
+    m_Image "{B8CFF80F79640C1E}UI/Textures/EditorPreviews/Vehicles/Wheeled/M923A1/M923A1_transport.edds"
+    m_sFaction "US"
+    m_aAuthoredLabels + {
+     37 210
+    }
+    m_aAutoLabels +{
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
+      m_Value 200
+     }
+    }
+    m_bEditorPlaceAsOneGroup 0
+    m_aOccupantFillCompartmentTypes +{
+    }
+    m_aPassengerEntityBudgetCost {
+     SCR_EntityBudgetValue "{5A5EA70BBF190672}" {
+      m_BudgetType AI
+      m_Value 10
+     }
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{5916C580F1DA28BB}" {
+   MaxCumulativeVolume 1000000
+   MaxItemSize 40 40 40
+   MultiSlots {
+    MultiSlotConfiguration "{64DCE9F5ED94070B}" {
+     SlotTemplate InventoryStorageSlot "{64CB51EF86678406}" {
+      Prefab "{9C5C20FB0E01E64F}Prefabs/Weapons/Launchers/M72/Launcher_M72A3.et"
+     }
+     NumSlots 6
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Cargo {
+     MergePhysics 1
+     Prefab "{5A7E3ECE4599214B}Prefabs/Vehicles/Wheeled/M923A1/M923A1_cargo.et"
+     RegisterActions 1
+     RegisterDamage 1
+     RegisterControllers 1
+     RegisterCompartments 1
+     RegisterLights 1
+    }
+   }
+  }
+  VehicleAnimationComponent "{50B803EAA459B0AF}" {
+   StartNode "VehicleMasterControl"
+  }
+ }
+ m_eVehicleType SUPPLY_TRUCK
+}

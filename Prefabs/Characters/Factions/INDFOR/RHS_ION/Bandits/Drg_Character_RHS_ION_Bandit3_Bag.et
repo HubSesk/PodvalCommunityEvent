@@ -1,0 +1,22 @@
+SCR_ChimeraCharacter : "{E6D720D4D27A5BE3}Prefabs/Characters/Factions/INDFOR/RHS_ION/Bandits/Drg_Character_RHS_ION_Bandit_Bag.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Jacket {
+     Prefab "{C6A69BD0EC2CCF9F}Prefabs/Characters/Uniforms/Shirt_flannel/flannel_shirt_white_1.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{9C35EE1E76EFCE7F}Prefabs/Characters/Uniforms/Civi_Pants/Civi_Jeans_v1.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6286835946BBC091}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Civi_Pants/Civi_Jeans_v1.et"
+    }
+   }
+  }
+ }
+}

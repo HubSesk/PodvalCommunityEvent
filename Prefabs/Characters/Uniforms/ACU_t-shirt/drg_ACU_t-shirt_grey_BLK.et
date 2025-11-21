@@ -1,0 +1,43 @@
+GameEntity : "{75C371D1002B99FC}Prefabs/Characters/Uniforms/ACU_t-shirt/ACU_t-shirt_base.et" {
+ ID "5104869D194C6243"
+ components {
+  MeshObject "{5104869D194C6262}" {
+   Object "{E0459513343108B8}Assets/Characters/Uniforms/ACU_jacket/ACU_jacket_item.xob"
+   Materials {
+    MaterialAssignClass "{6674AB92F64DEBD2}" {
+     SourceMaterial "usmps_suit_01"
+     AssignedMaterial "{B135F5F2C5898CE8}Assets/Characters/Uniforms/ACU_t-shirt/Data/drg_ACU_t-shirt_UCP_OD.emat"
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{5222CB01D5B9A306}" {
+   Attributes SCR_ItemAttributeCollection "{5222CB01245CDF32}" {
+    ItemDisplayName UIInfo "{5222CB0109A04AB2}" {
+     Name "#TF-Uniform_TShort_Name"
+     Description "#TF-Uniform_TShort_Description"
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{555292467DA11B7C}" {
+      PreviewWornModel 1
+     }
+    }
+   }
+   MaxCumulativeVolume 400
+   MaxItemSize 5 5 10
+   m_fMaxWeight 1
+  }
+  BaseLoadoutClothComponent "{5104869D194C627A}" {
+   WornModel "{A1BA7FE56F437380}Assets/Characters/Uniforms/ACU_t-shirt/ACU_t-shirt.xob"
+   WornMaterialsOverride {
+    "{B135F5F2C5898CE8}Assets/Characters/Uniforms/ACU_t-shirt/Data/drg_ACU_t-shirt_UCP_OD.emat"
+   }
+   ItemModel "{C871B1A260E6BEC8}Assets/Characters/Uniforms/ACU_t-shirt/ACU_t-shirt_item.xob"
+   ItemMaterialsOverride {
+    "{B135F5F2C5898CE8}Assets/Characters/Uniforms/ACU_t-shirt/Data/drg_ACU_t-shirt_UCP_OD.emat"
+   }
+   DeflatedModel "{A1BA7FE56F437380}Assets/Characters/Uniforms/ACU_t-shirt/ACU_t-shirt.xob"
+   IgnoreCloth 1
+  }
+ }
+ coords 191.22 51 2436.944
+}

@@ -1,0 +1,36 @@
+SCR_ChimeraCharacter : "{2836211FE98BA458}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#DRG-Role_CrewDriver"
+    Icon "{916C4E2CE39A8915}UI/Icons/crew.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{BFEA719491610A45}Prefabs/Weapons/Rifles/AKS74U/Rifle_AKS74U.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{D6B1ACA46036E9CE}Prefabs/Characters/HeadGear/Helmet_TSh4_01/Helmet_TSh4_01_open.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{65290674385BB88D}" {
+     PrefabsToSpawn + {
+      "{4BBB5FC184FB181F}Prefabs/Characters/HeadGear/Helmet_6B47/Helmet_6B47_6M2.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6529112A5B4D410C}" {
+     TargetStorage "Jacket/Field_Jacket_VKPO.et"
+     PrefabsToSpawn {
+      "{A55A815F28739FEC}Prefabs/Items/Equipment/Navigation/Orion/Orion.et"
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,22 @@
+SCR_ChimeraCharacter : "{33CF9EF9FADA7F4F}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_RTO.et" {
+ ID "520EC961A090BE1E"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{F2539FA5706E51E4}Prefabs/Items/Equipment/Binoculars/Binoculars_B12/Binoculars_B12.et"
+      }
+     }
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#DRG-Role_AirSpotter"
+    Icon "{DCF0F63BF8F4B59B}UI/Icons/spotter.edds"
+   }
+  }
+ }
+}

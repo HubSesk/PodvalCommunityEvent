@@ -1,0 +1,39 @@
+GameEntity : "{D4BC1F7EC5C290A3}Prefabs/Characters/HeadGear/Hat_Boonie_US_01/Hat_Boonie_US_01_base.et" {
+ ID "5112706CD4157AC7"
+ components {
+  InventoryItemComponent "{5244E4431E28A759}" {
+   Attributes SCR_ItemAttributeCollection "{52C8D6017C371EA6}" {
+    ItemDisplayName UIInfo "{52C8D60173B1164A}" {
+     Name "#AR-Headgear_BoonieHat_Olive_Name"
+     Description "#AR-Headgear_BoonieHat_Olive_Description"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{52C8D6017161AECA}" {
+     SizeSetupStrategy Manual
+    }
+   }
+  }
+  MeshObject "{5112706CD4157AE0}" {
+   Materials {
+    MaterialAssignClass "{6674AB87734F044F}" {
+     SourceMaterial "Hat_Boonie_US_01"
+     AssignedMaterial "{25EE8BAA7E3D4FB6}Assets/Characters/HeadGear/Hat_Boonie_US_01/Data/Hat_Boonie_US_02_pmc.emat"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo Googles {
+     Prefab "{608F66AB8B36B85D}Prefabs/Characters/Eyewear/crossbow/Eyewear_ess_crossbow_blk.et"
+     InspectionWidgetOffset 0 1.6901 0.0813
+     m_sInspectIconTexture "{8C5C7CED1FFCE9F6}UI/Textures/InventoryIcons/Inspection-gizmo-goggles-slot-UI.edds"
+    }
+   }
+   WornMaterialsOverride {
+    "{25EE8BAA7E3D4FB6}Assets/Characters/HeadGear/Hat_Boonie_US_01/Data/Hat_Boonie_US_02_pmc.emat"
+   }
+   ItemMaterialsOverride {
+    "{25EE8BAA7E3D4FB6}Assets/Characters/HeadGear/Hat_Boonie_US_01/Data/Hat_Boonie_US_02_pmc.emat"
+   }
+  }
+ }
+}

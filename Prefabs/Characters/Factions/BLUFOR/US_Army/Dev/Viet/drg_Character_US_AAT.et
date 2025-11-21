@@ -1,0 +1,22 @@
+SCR_ChimeraCharacter : "{5C73FF535BBD28A5}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/Viet/drg_Character_US_AT.et" {
+ ID "520EC961A090BBD5"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#DRG_Roles_RHS_AAT"
+    Icon "{EA3F6C9AF1C5F780}UI/Icons/supplie.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponTemplate ""
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{65DF35C152534DDE}" {
+     PrefabsToSpawn {
+     }
+    }
+   }
+  }
+ }
+}

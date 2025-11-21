@@ -1,0 +1,33 @@
+SCR_ChimeraCharacter : "{E3C185DC8DBB377B}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/Recon/drg_Character_US_Recon_PL.et" {
+ ID "520EC961A090BBD5"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#DRG-Role_Recon_Officer"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{83CE659F2C763F28}Prefabs/Weapons/Rifles/M16/Variants/Rifle_M16A2_carbine_suppressor_OliveGreen_Sand_Stripes.et"
+  }
+  SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
+   Override 1
+   Identity Identity "{5584CBC6363C648B}" {
+    VisualIdentity VisualIdentity "{56E6D9456009D1C4}" {
+     Head "{E978B7D98D71E15A}Prefabs/Characters/Heads/Head_White_06_Camo.et"
+     Body "{0023F898C0FF18AA}Prefabs/Characters/Basebody/CharacterBasebody.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{61B87867EA32507F}" {
+     TargetStorage "Jacket/Jacket_US_BDU_02.et"
+     PrefabsToSpawn +{
+     }
+    }
+    ItemsInitConfigurationItem "{61B87CCA62BE05FA}" {
+    }
+   }
+  }
+ }
+}

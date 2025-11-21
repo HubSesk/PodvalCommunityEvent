@@ -1,0 +1,22 @@
+SCR_ChimeraCharacter : "{0A094940386CC0EF}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_BaseLoadout.et" {
+ ID "520EC961A090BE1E"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Jacket {
+     Prefab "{F1E29085C62F0D55}Prefabs/Characters/Uniforms/Jacket_KZS/Jacket_KZS.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{5E17C1AE66A6FF00}Prefabs/Characters/Uniforms/Pants_KZS/Pants_KZS.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{61B543E763DE9F7B}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Pants_KZS/Pants_KZS.et"
+    }
+   }
+  }
+ }
+}

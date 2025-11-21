@@ -1,0 +1,46 @@
+SCR_ChimeraCharacter : "{30848A84E27BFA64}Prefabs/Characters/Factions/INDFOR/Drg_VCA/Recon/drg_Character_VCA_Recon_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{243948B23D90BECB}Prefabs/Items/Equipment/Binoculars/Binoculars_B8/Binoculars_B8.et"
+      }
+     }
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_SquadLeader"
+    Icon "{61B33057F7F0A4AE}UI/Icons/squad_leader.edds"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{9F601FC77AD72785}Prefabs/Characters/HeadGear/Hat_Boonie_US_01/Hat_Boonie_US_02_vietnam_blk.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{7E39B0D238FA92D1}Prefabs/Items/Equipment/Backpacks/Backpack_Kolobok_vietnam_blk.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{65D68EE3DC8A11DC}" {
+     PrefabsToSpawn +{
+     }
+    }
+    ItemsInitConfigurationItem "{65D6BA6F4A2ECBEE}" {
+     TargetStorage "Jacket/Jacket_M88_rolledup_vietnam_blk.et"
+     PrefabsToSpawn {
+      "{E07B25D9851B3AAA}Prefabs/Items/Equipment/Radios/drg_VCA_Radio_R148_SL.et"
+     }
+    }
+   }
+  }
+ }
+}
