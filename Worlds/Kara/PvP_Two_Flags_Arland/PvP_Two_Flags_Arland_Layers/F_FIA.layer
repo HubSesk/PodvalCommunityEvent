@@ -1,187 +1,179 @@
-$grp SCR_AIGroup : "{5BEA04939D148B1D}Prefabs/Groups/INDFOR/Group_FIA_FireTeam.et" {
- FIA_100 {
-  components {
-   AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "collumn"
-   }
-   PS_GroupCallsignAssigner "{66B751D1FF8DAE43}" {
-    m_iCompanyCallsign 1
-   }
-  }
-  coords 3151.501 11.698 2782.614
-  angles 0 132.42 0
-  m_aUnitPrefabSlots {
-   "{677B515F119222C2}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_SL.et"
-   "{D25BC9815A9F9E8D}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_AT.et"
-   "{FF43925D26526B95}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_AAT.et"
-   "{75FC25863194612A}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_AMG.et"
-   "{84B40583F4D1B7A3}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Rifleman.et"
-   "{BF1E43FF39AA526B}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Scout.et"
-   "{CE33AB22F61F3365}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Sharpshooter.et"
-  }
-  m_sCustomNameSet "Стрелковое отделение"
-  m_bSetPlayable 1
- }
+$grp SCR_AIGroup : "{17C7309FFE4775B0}Prefabs/Groups/INDFOR/Group_FIA_RifleSquad_P.et" {
  FIA_101 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "collumn"
+    DefaultFormation "Column "
    }
-   PS_GroupCallsignAssigner "{66B751D1FF8DAE43}" {
+   PS_GroupCallsignAssigner "{5F0CF2CA5860FA6D}" {
     m_iCompanyCallsign 1
     m_iSquadCallsign 1
    }
   }
-  coords 3150.792 11.834 2773.14
-  angles 0 -47.505 0
+  coords 3150.862 11.334 2773.149
+  angles 0 -48.857 0
   m_aUnitPrefabSlots {
-   "{677B515F119222C2}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_SL.et"
-   "{D25BC9815A9F9E8D}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_AT.et"
-   "{FF43925D26526B95}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_AAT.et"
-   "{58E47E5A4D599432}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_MG.et"
-   "{75FC25863194612A}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_AMG.et"
-   "{84B40583F4D1B7A3}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Rifleman.et"
-   "{BF1E43FF39AA526B}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Scout.et"
-   "{CE33AB22F61F3365}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Sharpshooter.et"
+   "{5E10F18AF4717622}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_SL_P.et"
+   "{91602AC724D27762}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_SR_P.et"
+   "{46451B805F2CDE56}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_AT_P.et"
+   "{CE2C005A0F9D7E23}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_AAT_P.et"
+   "{6EF882860DCD77D1}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_MG_P.et"
+   "{E691995C5D7CD7A4}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_AMG_P.et"
+   "{950D59E028D3F268}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_Sharpshooter_P.et"
+   "{BF44997B8982C009}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_Rifleman_P.et"
   }
   m_sCustomNameSet "Стрелковое отделение"
-  m_bSetPlayable 1
  }
- FIA_110 {
+ FIA_100 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "collumn"
+    DefaultFormation "Column "
    }
-   PS_GroupCallsignAssigner "{66B751D1FF8DAE43}" {
+   PS_GroupCallsignAssigner "{5F0CF2CA5860FA6D}" {
     m_iCompanyCallsign 1
-    m_iPlatoonCallsign 1
+    m_iSquadCallsign 0
    }
   }
-  coords 3122.173 15.403 2696.362
-  angles 0 -54.348 0
+  coords 3151.525 11.722 2782.613
+  angles 0 130.851 0
   m_aUnitPrefabSlots {
-   "{7B171A8ADD2664FE}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_CC.et"
-   "{641AD7731E23454B}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Crew.et"
-   "{23D81C023DBF85AC}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_RTO.et"
-   "{58E47E5A4D599432}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_MG.et"
+   "{5E10F18AF4717622}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_SL_P.et"
+   "{91602AC724D27762}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_SR_P.et"
+   "{46451B805F2CDE56}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_AT_P.et"
+   "{CE2C005A0F9D7E23}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_AAT_P.et"
+   "{6EF882860DCD77D1}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_MG_P.et"
+   "{E691995C5D7CD7A4}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_AMG_P.et"
+   "{950D59E028D3F268}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_Sharpshooter_P.et"
+   "{BF44997B8982C009}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_Rifleman_P.et"
   }
-  m_sCustomNameSet "Экипаж БТР-70"
-  m_bSetPlayable 1
- }
- FIA_111 {
-  components {
-   AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "collumn"
-   }
-   PS_GroupCallsignAssigner "{66B751D1FF8DAE43}" {
-    m_iCompanyCallsign 1
-    m_iPlatoonCallsign 1
-    m_iSquadCallsign 1
-   }
-  }
-  coords 3067.355 11.75 2869.689
-  angles 0 38.237 0
-  m_aUnitPrefabSlots {
-   "{7B171A8ADD2664FE}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_CC.et"
-   "{641AD7731E23454B}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Crew.et"
-   "{23D81C023DBF85AC}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_RTO.et"
-   "{58E47E5A4D599432}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_MG.et"
-  }
-  m_sCustomNameSet "Экипаж БТР-70"
-  m_bSetPlayable 1
+  m_sCustomNameSet "Стрелковое отделение"
  }
  FIA_200 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "collumn"
+    DefaultFormation "Column "
    }
-   PS_GroupCallsignAssigner "{66B751D1FF8DAE43}" {
-    m_iCompanyCallsign 2
+   PS_GroupCallsignAssigner "{5F0CF2CA5860FA6D}" {
+    m_iSquadCallsign 0
    }
   }
-  coords 2783.932 73.818 1629.453
-  angles 0 153.461 0
+  coords 2783.793 74.602 1629.126
+  angles 0 155.016 0
   m_aUnitPrefabSlots {
-   "{FE65E8C60C751352}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_PL.et"
-   "{677B515F119222C2}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_SL.et"
-   "{D25BC9815A9F9E8D}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_AT.et"
-   "{FF43925D26526B95}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_AAT.et"
-   "{58E47E5A4D599432}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_MG.et"
-   "{75FC25863194612A}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_AMG.et"
-   "{84B40583F4D1B7A3}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Rifleman.et"
-   "{BF1E43FF39AA526B}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Scout.et"
-   "{CE33AB22F61F3365}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Sharpshooter.et"
+   "{5E10F18AF4717622}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_SL_P.et"
+   "{91602AC724D27762}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_SR_P.et"
+   "{46451B805F2CDE56}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_AT_P.et"
+   "{CE2C005A0F9D7E23}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_AAT_P.et"
+   "{6EF882860DCD77D1}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_MG_P.et"
+   "{E691995C5D7CD7A4}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_AMG_P.et"
+   "{950D59E028D3F268}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_Sharpshooter_P.et"
+   "{BF44997B8982C009}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_Rifleman_P.et"
   }
   m_sCustomNameSet "Стрелковое отделение"
-  m_bSetPlayable 1
  }
  FIA_201 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "collumn"
+    DefaultFormation "Column "
    }
-   PS_GroupCallsignAssigner "{66B751D1FF8DAE43}" {
-    m_iCompanyCallsign 2
+   PS_GroupCallsignAssigner "{5F0CF2CA5860FA6D}" {
     m_iSquadCallsign 1
    }
   }
-  coords 2782.007 73.794 1617.295
-  angles 0 -26.519 0
+  coords 2781.035 74.809 1617.774
+  angles 0 -23.087 0
   m_aUnitPrefabSlots {
-   "{677B515F119222C2}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_SL.et"
-   "{D25BC9815A9F9E8D}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_AT.et"
-   "{FF43925D26526B95}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_AAT.et"
-   "{58E47E5A4D599432}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_MG.et"
-   "{75FC25863194612A}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_AMG.et"
-   "{84B40583F4D1B7A3}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Rifleman.et"
-   "{BF1E43FF39AA526B}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Scout.et"
-   "{CE33AB22F61F3365}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Sharpshooter.et"
+   "{5E10F18AF4717622}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_SL_P.et"
+   "{91602AC724D27762}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_SR_P.et"
+   "{46451B805F2CDE56}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_AT_P.et"
+   "{CE2C005A0F9D7E23}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_AAT_P.et"
+   "{6EF882860DCD77D1}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_MG_P.et"
+   "{E691995C5D7CD7A4}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_AMG_P.et"
+   "{950D59E028D3F268}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_Sharpshooter_P.et"
+   "{BF44997B8982C009}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_Rifleman_P.et"
   }
   m_sCustomNameSet "Стрелковое отделение"
-  m_bSetPlayable 1
+ }
+ FIA_110 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Column "
+   }
+   PS_GroupCallsignAssigner "{5F0CF2CA5860FA6D}" {
+    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 0
+   }
+  }
+  coords 3122.264 15.441 2696.407
+  angles 0 -59.315 0
+  m_aUnitPrefabSlots {
+   "{5E10F18AF4717622}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_SL_P.et"
+   "{0A8F0A806F9AB5B3}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_CrewDriver.et"
+   "{0A8F0A806F9AB5B4}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_CrewGunner.et"
+   "{B63BF32359017C54}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_Sapper.et"
+  }
+  m_sCustomNameSet "Экипаж БТР-70"
+ }
+ FIA_111 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Column "
+   }
+   PS_GroupCallsignAssigner "{5F0CF2CA5860FA6D}" {
+    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 1
+   }
+  }
+  coords 3067.347 11.75 2869.641
+  angles 0 36.815 0
+  m_aUnitPrefabSlots {
+   "{5E10F18AF4717622}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_SL_P.et"
+   "{0A8F0A806F9AB5B3}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_CrewDriver.et"
+   "{0A8F0A806F9AB5B4}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_CrewGunner.et"
+   "{B63BF32359017C54}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_Sapper.et"
+  }
+  m_sCustomNameSet "Экипаж БТР-70"
  }
  FIA_210 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "collumn"
+    DefaultFormation "Column "
    }
-   PS_GroupCallsignAssigner "{66B751D1FF8DAE43}" {
-    m_iCompanyCallsign 2
+   PS_GroupCallsignAssigner "{5F0CF2CA5860FA6D}" {
     m_iPlatoonCallsign 1
+    m_iSquadCallsign 0
    }
   }
-  coords 2860.519 71.898 1658.011
-  angles 0 -36.915 0
+  coords 2860.477 71.899 1658.004
+  angles 0 -33.658 0
   m_aUnitPrefabSlots {
-   "{7B171A8ADD2664FE}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_CC.et"
-   "{641AD7731E23454B}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Crew.et"
-   "{23D81C023DBF85AC}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_RTO.et"
-   "{58E47E5A4D599432}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_MG.et"
+   "{5E10F18AF4717622}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_SL_P.et"
+   "{0A8F0A806F9AB5B3}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_CrewDriver.et"
+   "{0A8F0A806F9AB5B4}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_CrewGunner.et"
+   "{B63BF32359017C54}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_Sapper.et"
   }
   m_sCustomNameSet "Экипаж БТР-70"
-  m_bSetPlayable 1
  }
  FIA_211 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "collumn"
+    DefaultFormation "Column "
    }
-   PS_GroupCallsignAssigner "{66B751D1FF8DAE43}" {
-    m_iCompanyCallsign 2
+   PS_GroupCallsignAssigner "{5F0CF2CA5860FA6D}" {
     m_iPlatoonCallsign 1
     m_iSquadCallsign 1
    }
   }
-  coords 2659.797 79.8 1794.279
-  angles 0 88.067 0
+  coords 2659.808 79.824 1794.276
+  angles 0 87.505 0
   m_aUnitPrefabSlots {
-   "{7B171A8ADD2664FE}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_CC.et"
-   "{641AD7731E23454B}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Crew.et"
-   "{23D81C023DBF85AC}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_RTO.et"
-   "{58E47E5A4D599432}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_MG.et"
+   "{5E10F18AF4717622}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_SL_P.et"
+   "{0A8F0A806F9AB5B3}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_CrewDriver.et"
+   "{0A8F0A806F9AB5B4}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_CrewGunner.et"
+   "{B63BF32359017C54}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_Sapper.et"
   }
   m_sCustomNameSet "Экипаж БТР-70"
-  m_bSetPlayable 1
  }
 }
 $grp Vehicle : "{B47110AA1A806556}Prefabs/Vehicles/Wheeled/BTR70/BTR70_FIA.et" {
@@ -206,19 +198,12 @@ $grp Vehicle : "{B47110AA1A806556}Prefabs/Vehicles/Wheeled/BTR70/BTR70_FIA.et" {
   m_sAttachmentGroupName "FIA_211"
  }
 }
-SCR_AIGroup FIA_000 : "{EE92725E9B949C3D}Prefabs/Groups/INDFOR/Group_FIA_PlatoonHQ.et" {
- components {
-  AIFormationComponent "{507E9DC12F541FE6}" {
-   DefaultFormation "collumn"
-  }
-  PS_GroupCallsignAssigner "{66B751D0B929E763}" {
-  }
- }
- coords 3146.082 11.896 2772.231
- angles 0 38.255 0
+SCR_AIGroup FIA_000 : "{CA73F9230999408B}Prefabs/Groups/INDFOR/Group_FIA_PlatoonHQ_P.et" {
+ coords 3146.01 11.433 2772.301
+ angles 0 41.319 0
  m_aUnitPrefabSlots {
-  "{FE65E8C60C751352}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_PL.et"
+  "{156CA8B61F1F1CD7}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_Officer_P.et"
+  "{B63BF32359017C54}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_Sapper.et"
  }
  m_sCustomNameSet "Командующий"
- m_bSetPlayable 1
 }
