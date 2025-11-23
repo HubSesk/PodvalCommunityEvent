@@ -20,14 +20,21 @@ SCR_ChimeraCharacter : "{8DA9CAFC7CEFC056}Prefabs/Characters/Factions/BLUFOR/CDF
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
+    ItemsInitConfigurationItem "{62387670C065B659}" {
+     PrefabsToSpawn +{
+     }
+    }
+    ItemsInitConfigurationItem "{654AD37418827625}" {
+     PrefabsToSpawn +{
+     }
+    }
     ItemsInitConfigurationItem "{623876773B28341A}" {
      TargetStorage "Jacket/Jacket_Dubok_CDF_01.et"
     }
     ItemsInitConfigurationItem "{623876773A154FCC}" {
      Enabled 1
      TargetStorage "Pants/Pants_Dubok_CDF_01.et"
-     PrefabsToSpawn {
-      "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et" "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et" "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et"
+     PrefabsToSpawn +{
      }
     }
    }
