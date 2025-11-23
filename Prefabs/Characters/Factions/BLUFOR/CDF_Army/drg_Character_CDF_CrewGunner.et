@@ -9,12 +9,17 @@ SCR_ChimeraCharacter : "{EAA4CE2A03A6D9ED}Prefabs/Characters/Factions/BLUFOR/CDF
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{654AD37418827625}" {
-     PrefabsToSpawn {
-      "{CCEEA6BC6177C51F}Prefabs/Items/Equipment/Radios/drg_Radio_ANPRC152A_OLD_SL_CDF.et"
+     PrefabsToSpawn +{
      }
+    }
+    ItemsInitConfigurationItem "{623876773B28341A}" {
+     Enabled 0
     }
     ItemsInitConfigurationItem "{623876773A154FCC}" {
      TargetStorage "Back/Backpack_Veshmeshok.et"
+     PrefabsToSpawn {
+      "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et" "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et" "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et" "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et" "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et" "{E5912E45754CD421}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Tracer.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{2D16A8A6235F6DF1}Prefabs/Characters/HeadGear/Helmet_PASGT_01/Helmet_Dubok_PASGT_01_CDF.et"
+     }
     }
    }
   }
