@@ -1,0 +1,51 @@
+GenericEntity : "{592E8C59C778A189}Prefabs/System/GUB_ZoneControlBetweenFactionsPrefab.et" {
+ components {
+  GUB_ZoneControlComponent "{66E34DFE0E54C4B7}" {
+   m_aControlLogics {
+    GUB_ZoneControlLogicCapture "{66F11D646DF8E364}" {
+     m_Timer GUB_ZoneControlTimer "{66F11D646E9BB3AC}" {
+      timeToComplete 900
+     }
+     m_ZoneController GUB_ZoneController "{66F11D646F7B7678}" {
+      m_sZoneEntityName "SECOND_ZONE"
+     }
+     m_FlagControllerCapture GUB_FlagControllerCapture "{66F11D646A22D56C}" {
+      m_aFlagNames {
+       "FLAG_20"
+       "FLAG_21"
+       "FLAG_22"
+       "FLAG_23"
+       "FLAG_24"
+      }
+     }
+    }
+    GUB_ZoneControlLogicCapture "{66F11D640746510B}" {
+     m_Timer GUB_ZoneControlTimer "{66F11D640009EBE8}" {
+      timeToComplete 900
+     }
+     m_ZoneController GUB_ZoneController "{66F11D640138463F}" {
+      m_sZoneEntityName "THIRD_ZONE"
+     }
+     m_FlagControllerCapture GUB_FlagControllerCapture "{66F11D640DE7D991}" {
+      m_aFlagNames {
+       "FLAG_30"
+       "FLAG_31"
+       "FLAG_32"
+       "FLAG_33"
+       "FLAG_34"
+       "FLAG_35"
+       "FLAG_36"
+      }
+     }
+    }
+   }
+  }
+ }
+}
+GenericEntity : "{E6FC6DD69FA3479F}Prefabs/System/DRG_MissionEndTimerPrefab.et" {
+ components {
+  DRG_MissionEndTimerComponent "{651B0839B21B3BBF}" {
+   m_iMissionTime 1800
+  }
+ }
+}
