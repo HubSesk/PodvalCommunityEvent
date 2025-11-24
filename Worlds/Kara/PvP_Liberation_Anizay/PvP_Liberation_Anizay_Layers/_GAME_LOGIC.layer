@@ -1,0 +1,51 @@
+GenericEntity : "{6A3CDCFB475BF1B2}Prefabs/System/DRG_CriticalLossPrefab.et" {
+ components {
+  DRG_CriticalLossComponent "{65213D368F1BD792}" {
+   m_aLossLogics {
+    LossLogic "{66C57AC4A7A179B9}" {
+     m_aLosses {
+      FactionLoss "{66C6C4A1CB0C61DA}" {
+       m_sFactionKey "Ses_TKR"
+      }
+     }
+     m_sObjectiveNames {
+      "USAF_1"
+     }
+     m_sFailedObjectiveNames {
+      "TKR_1"
+     }
+     m_bAdvanceGameStage 1
+     m_bUseMessage 1
+     m_bEventMessage "Армия Такистана понесла критически потери. Победа ВС США"
+    }
+    LossLogic "{66C6C4A1F5FF23D6}" {
+     m_aLosses {
+      FactionLoss "{66C6C4A1F7826CB5}" {
+       m_sFactionKey "RHS_USAF"
+      }
+     }
+     m_sObjectiveNames {
+      "TKR_1"
+     }
+     m_sFailedObjectiveNames {
+      "USAF_1"
+     }
+     m_bAdvanceGameStage 1
+     m_bUseMessage 1
+     m_bEventMessage "ВС США понесли критически потери. Победа Армии Такистана."
+    }
+   }
+  }
+ }
+ coords 10689.084 91.152 10080.779
+}
+GenericEntity : "{E6FC6DD69FA3479F}Prefabs/System/DRG_MissionEndTimerPrefab.et" {
+ components {
+  DRG_MissionEndTimerComponent "{651B0839B21B3BBF}" {
+   m_aTimeLeftWarningTimers {
+    300
+   }
+  }
+ }
+ coords 6334.65 431.148 6361.963
+}

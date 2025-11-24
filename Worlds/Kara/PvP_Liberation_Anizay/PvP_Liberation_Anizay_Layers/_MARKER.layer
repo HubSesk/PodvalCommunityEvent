@@ -1,0 +1,43 @@
+PS_ManualMarker Flag_Marker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ coords 1379.16 173.167 7294.079
+ m_sImageSet "{12BA7AE37121F768}UI/Textures/Icons/icons_wrapperUI-96.imageset"
+ m_sImageSetGlow "{58E50ACB1FA4F7D7}UI/Textures/Icons/icons_wrapperUI-96-glow.imageset"
+ m_MarkerColor 0 0 0 1
+ m_sQuadName "report"
+ m_fWorldSize 50
+ m_sDescription "Флаг"
+ m_bUseWorldScale 0
+ m_aVisibleForFactions {
+  "Ses_TKR"
+  "RHS_USAF"
+  ""
+ }
+ m_bVisibleForEmptyFaction 1
+ m_bShowForAnyFaction 1
+}
+GenericEntity FLAG : "{F638E8AF02F38272}PrefabsEditable/Auto/Structures/Military/Flags/E_FlagPole_02_V1_TKR.et" {
+ components {
+  SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+   m_sDefaultMaterial "{1798824B80443F35}Assets/Props/Fabric/Flags/Data/Flag_1_2_TKR.emat"
+   m_aObjectiveNames {
+    "USAF_2"
+    "TKR_2"
+   }
+   m_aFlagData {
+    PS_FlagData "{66F040975ECC9AAD}" {
+     m_sFactionKey "Ses_TKR"
+    }
+    PS_FlagData "{66F0409756D1BFD4}" {
+     m_sFactionKey "RHS_USAF"
+     m_iCaptureCounter 1
+    }
+   }
+   m_sFactionKey "Ses_TKR"
+   m_bUseAdvanceGameState 1
+   m_sUseNotification 1
+   m_sNotificationText "Города захвачен ВС США"
+  }
+ }
+ coords 1379.232 173.14 7294.172
+ angles 15.69 -29.02 -43.258
+}
