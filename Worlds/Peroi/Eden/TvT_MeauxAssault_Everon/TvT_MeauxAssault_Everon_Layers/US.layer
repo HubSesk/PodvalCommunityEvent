@@ -1,0 +1,314 @@
+Vehicle AH1G_Armed1 : "{1C87A29CF461FFAA}Prefabs/Vehicles/Helicopters/AH1G/AH1G_Armed.et" {
+ coords 10662.137 2.343 11796.398
+ angles 0 -106.524 0
+ m_sAttachmentGroupName "pil"
+}
+Vehicle LAV25_RHS1 : "{3312ADBF53A16DD8}Prefabs/Vehicles/Wheeled/LAV25/LAV25_RHS.et" {
+ coords 4973.024 28.281 11950.478
+ angles 0 -87.842 0
+ m_sAttachmentGroupName "lav"
+}
+Vehicle M151A2_transport1 : "{47D94E1193A88497}Prefabs/Vehicles/Wheeled/M151A2/M151A2_transport.et" {
+ coords 4958.636 28.354 11874.927
+ angles -0.016 -178.972 0.895
+ m_sAttachmentGroupName "ks"
+}
+$grp Vehicle : "{81FDAD5EB644CC3D}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport_covered.et" {
+ M923A1_transport_covered1 {
+  coords 4950.377 28.432 11889.969
+  angles -0.025 178.398 -0.895
+  m_sAttachmentGroupName "bb"
+ }
+ M923A1_transport_covered2 {
+  coords 4953.726 28.331 11906.871
+  angles 0.895 178.397 -0.025
+  m_sAttachmentGroupName "bb1"
+ }
+ M923A1_transport_covered3 {
+  coords 4949.554 28.25 11919.655
+  angles 0 178.397 0
+  m_sAttachmentGroupName "bb2"
+ }
+ M923A1_transport_covered4 {
+  coords 4953.14 28.281 11938.531
+  angles 0 176.939 0
+  m_sAttachmentGroupName "hh"
+ }
+ M923A1_transport_covered5 {
+  coords 4946.705 28.333 11954.323
+  angles -0.022 178.59 -0.895
+  m_sAttachmentGroupName "hh1"
+ }
+}
+$grp Vehicle : "{BDE43262FC05B4D7}Prefabs/Vehicles/Helicopters/UH1H/UH1H_armed_gunship_empty_sharkNose.et" {
+ UH1H_armed_gunship_empty_sharkNose1 {
+  coords 4893.173 28.593 11776.526
+  angles 0 -90.83 0
+  m_sAttachmentGroupName "pil2"
+ }
+ UH1H_armed_gunship_empty_sharkNose2 {
+  coords 4893.582 28.593 11748.276
+  angles 0 -90.83 0
+  m_sAttachmentGroupName "pil3"
+ }
+}
+$grp SCR_AIGroup : "{FCBE9E46702ED307}Prefabs/Groups/BLUFOR/Group_US_PlatoonHQ_P.et" {
+ ks {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation ""
+   }
+   PS_GroupCallsignAssigner "{66F2E3D98CDA767D}" {
+   }
+  }
+  coords 4961.702 28.383 11873.497
+  angles 0.001 -90.047 0.895
+  m_aUnitPrefabSlots {
+   "{D164278FD7D9C81A}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_PL_P.et"
+   "{501777EB151D644B}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Sergeant_P.et"
+   "{EC7EDB04B4C7B73A}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_RTO_P.et"
+   "{B452527EA042DFF0}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Sniper_P.et"
+  }
+  m_sCustomNameSet "Командир взвода"
+ }
+ bb {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation ""
+   }
+   PS_GroupCallsignAssigner "{66F2E3D98CDA767D}" {
+    m_iPlatoonCallsign 1
+   }
+  }
+  coords 4946.809 28.511 11894.493
+  angles -0.04 87.471 -0.894
+  m_aUnitPrefabSlots {
+   "{DBC177C261C93B9D}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_SL_P.et"
+   "{094747C4F8BE9F9F}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_TL_P.et"
+   "{C262DC827577226C}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_LAT_P.et"
+   "{A47EB499090D69B9}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_GL_P.et"
+   "{892C4E0784F3AAE1}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Rifleman_Variant_1_P.et"
+   "{094747C4F8BE9F9F}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_TL_P.et"
+   "{7E44CF4FB58F8FF7}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_AR_P.et"
+   "{C262DC827577226C}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_LAT_P.et"
+   "{B452527EA042DFF0}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Sniper_P.et"
+  }
+ }
+ bb1 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation ""
+   }
+   PS_GroupCallsignAssigner "{66F2E3D98CDA767D}" {
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 1
+   }
+  }
+  coords 4957.216 28.363 11903.931
+  angles 0.03 -91.927 0.895
+  m_aUnitPrefabSlots {
+   "{DBC177C261C93B9D}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_SL_P.et"
+   "{094747C4F8BE9F9F}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_TL_P.et"
+   "{C262DC827577226C}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_LAT_P.et"
+   "{A47EB499090D69B9}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_GL_P.et"
+   "{892C4E0784F3AAE1}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Rifleman_Variant_1_P.et"
+   "{094747C4F8BE9F9F}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_TL_P.et"
+   "{7E44CF4FB58F8FF7}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_AR_P.et"
+   "{C262DC827577226C}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_LAT_P.et"
+   "{B452527EA042DFF0}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Sniper_P.et"
+  }
+ }
+ bb2 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation ""
+   }
+   PS_GroupCallsignAssigner "{66F2E3D98CDA767D}" {
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 2
+   }
+  }
+  coords 4945.476 28.04 11924.666
+  angles -0.04 87.471 -0.894
+  m_aUnitPrefabSlots {
+   "{DBC177C261C93B9D}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_SL_P.et"
+   "{094747C4F8BE9F9F}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_TL_P.et"
+   "{C262DC827577226C}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_LAT_P.et"
+   "{A47EB499090D69B9}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_GL_P.et"
+   "{892C4E0784F3AAE1}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Rifleman_Variant_1_P.et"
+   "{094747C4F8BE9F9F}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_TL_P.et"
+   "{7E44CF4FB58F8FF7}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_AR_P.et"
+   "{C262DC827577226C}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_LAT_P.et"
+   "{B452527EA042DFF0}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Sniper_P.et"
+  }
+ }
+ hh {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation ""
+   }
+   PS_GroupCallsignAssigner "{66F2E3D98CDA767D}" {
+    m_iCompanyCallsign 1
+   }
+  }
+  coords 4956.172 27.878 11934.939
+  angles 0.03 -91.927 0.895
+  m_aUnitPrefabSlots {
+   "{DBC177C261C93B9D}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_SL_P.et"
+   "{094747C4F8BE9F9F}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_TL_P.et"
+   "{EB2904CE98753A6E}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_MG_P.et"
+   "{CA2EB3A73FABC625}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_AMG_P.et"
+   "{094747C4F8BE9F9F}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_TL_P.et"
+   "{EB2904CE98753A6E}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_MG_P.et"
+   "{CA2EB3A73FABC625}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_AMG_P.et"
+  }
+ }
+ hh1 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation ""
+   }
+   PS_GroupCallsignAssigner "{66F2E3D98CDA767D}" {
+    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 1
+   }
+  }
+  coords 4943.733 28.42 11959.027
+  angles -0.031 88.011 -0.895
+  m_aUnitPrefabSlots {
+   "{DBC177C261C93B9D}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_SL_P.et"
+   "{094747C4F8BE9F9F}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_TL_P.et"
+   "{EB2904CE98753A6E}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_MG_P.et"
+   "{CA2EB3A73FABC625}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_AMG_P.et"
+   "{094747C4F8BE9F9F}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_TL_P.et"
+   "{EB2904CE98753A6E}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_MG_P.et"
+   "{CA2EB3A73FABC625}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_AMG_P.et"
+  }
+ }
+ lav {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation ""
+   }
+   PS_GroupCallsignAssigner "{66F2E3D98CDA767D}" {
+    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 1
+   }
+  }
+  coords 4969.28 28.282 11946.602
+  angles -0.895 1.285 -0.02
+  m_aUnitPrefabSlots {
+   "{DBC177C261C93B9D}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_SL_P.et"
+   "{094747C4F8BE9F9F}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_TL_P.et"
+   "{A47EB499090D69B9}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_GL_P.et"
+   "{7E44CF4FB58F8FF7}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_AR_P.et"
+   "{C262DC827577226C}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_LAT_P.et"
+   "{B452527EA042DFF0}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Sniper_P.et"
+   "{7C589F7F29FA6FE8}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Crew_P.et"
+   "{7C589F7F29FA6FE8}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Crew_P.et"
+  }
+ }
+ pil {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation ""
+   }
+   PS_GroupCallsignAssigner "{66F2E3D98CDA767D}" {
+    m_iCompanyCallsign 2
+   }
+  }
+  coords 10661.407 2.344 11802.424
+  angles 0.4 -116.548 0.8
+  m_aUnitPrefabSlots {
+   "{E9601333852C637F}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_HeliPilot_P.et"
+   "{E9601333852C637F}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_HeliPilot_P.et"
+  }
+  m_sCustomNameSet "Пилоты 1H1G"
+ }
+ spn {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation ""
+   }
+   PS_GroupCallsignAssigner "{66F2E3D98CDA767D}" {
+    m_iCompanyCallsign 3
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 2
+   }
+  }
+  coords 4908.909 28.594 11745.312
+  angles 0 -91.265 0
+  m_aUnitPrefabSlots {
+   "{BFEFEA64D52B34EE}Prefabs/Characters/Factions/BLUFOR/US_Army/GreenBerets/Suppressed/Character_US_SF_SL_S_P.et"
+   "{4F3E828EBD112266}Prefabs/Characters/Factions/BLUFOR/US_Army/GreenBerets/Suppressed/Character_US_SF_RTO_S_P.et"
+   "{F764D905CD4F7556}Prefabs/Characters/Factions/BLUFOR/US_Army/GreenBerets/Suppressed/Character_US_SF_GL_S_P.et"
+   "{502410DA7C2D7F02}Prefabs/Characters/Factions/BLUFOR/US_Army/GreenBerets/Suppressed/Character_US_SF_S_P.et"
+   "{FF6F48ABEFB21B64}Prefabs/Characters/Factions/BLUFOR/US_Army/GreenBerets/Suppressed/Character_US_SF_Sapper_S_P.et"
+   "{F764D905CD4F7556}Prefabs/Characters/Factions/BLUFOR/US_Army/GreenBerets/Suppressed/Character_US_SF_GL_S_P.et"
+   "{502410DA7C2D7F02}Prefabs/Characters/Factions/BLUFOR/US_Army/GreenBerets/Suppressed/Character_US_SF_S_P.et"
+   "{50784230D911DE59}Prefabs/Characters/Factions/BLUFOR/US_Army/GreenBerets/Suppressed/Character_US_SF_Sharpshooter_S_P.et"
+  }
+  m_sCustomNameSet "Разведка"
+ }
+ spn2 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation ""
+   }
+   PS_GroupCallsignAssigner "{66F2E3D98CDA767D}" {
+    m_iCompanyCallsign 3
+    m_iPlatoonCallsign 1
+   }
+  }
+  coords 4908.296 28.594 11773.239
+  angles 0 -90.664 0
+  m_aUnitPrefabSlots {
+   "{BFEFEA64D52B34EE}Prefabs/Characters/Factions/BLUFOR/US_Army/GreenBerets/Suppressed/Character_US_SF_SL_S_P.et"
+   "{4F3E828EBD112266}Prefabs/Characters/Factions/BLUFOR/US_Army/GreenBerets/Suppressed/Character_US_SF_RTO_S_P.et"
+   "{F764D905CD4F7556}Prefabs/Characters/Factions/BLUFOR/US_Army/GreenBerets/Suppressed/Character_US_SF_GL_S_P.et"
+   "{502410DA7C2D7F02}Prefabs/Characters/Factions/BLUFOR/US_Army/GreenBerets/Suppressed/Character_US_SF_S_P.et"
+   "{FF6F48ABEFB21B64}Prefabs/Characters/Factions/BLUFOR/US_Army/GreenBerets/Suppressed/Character_US_SF_Sapper_S_P.et"
+   "{F764D905CD4F7556}Prefabs/Characters/Factions/BLUFOR/US_Army/GreenBerets/Suppressed/Character_US_SF_GL_S_P.et"
+   "{502410DA7C2D7F02}Prefabs/Characters/Factions/BLUFOR/US_Army/GreenBerets/Suppressed/Character_US_SF_S_P.et"
+   "{50784230D911DE59}Prefabs/Characters/Factions/BLUFOR/US_Army/GreenBerets/Suppressed/Character_US_SF_Sharpshooter_S_P.et"
+  }
+  m_sCustomNameSet "Разведка"
+ }
+ pil2 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation ""
+   }
+   PS_GroupCallsignAssigner "{66F2E3D98CDA767D}" {
+    m_iCompanyCallsign 3
+   }
+  }
+  coords 4892.501 28.594 11767.117
+  angles -0.893 -2.558 0.04
+  m_aUnitPrefabSlots {
+   "{E9601333852C637F}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_HeliPilot_P.et"
+   "{E9601333852C637F}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_HeliPilot_P.et"
+  }
+  m_sCustomNameSet "Пилоты"
+ }
+ pil3 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation ""
+   }
+   PS_GroupCallsignAssigner "{66F2E3D98CDA767D}" {
+    m_iCompanyCallsign 3
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 1
+   }
+  }
+  coords 4893.661 29.041 11738.498
+  angles -0.894 0.369 -0.005
+  m_aUnitPrefabSlots {
+   "{E9601333852C637F}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_HeliPilot_P.et"
+   "{E9601333852C637F}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_HeliPilot_P.et"
+  }
+  m_sCustomNameSet "Пилоты"
+ }
+}

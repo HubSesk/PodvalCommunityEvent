@@ -1,0 +1,93 @@
+$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ {
+  coords 1576.439 77.663 2311.777
+  m_sTitle "Условности Миссии"
+  m_sTextData "США:"\
+  ""\
+  "Вертолетам запрещено таранить флаги."\
+  ""\
+  "AH1G запрещено стрелять по домам с флагами (Административное здание и Порт)"\
+  ""\
+  "Вертолеты могут перевозить только разведку."\
+  ""\
+  "Управлять вертолетами могут только пилоты."\
+  ""\
+  "ВС РФ:"\
+  ""\
+  "Запрещено взаимодействовать с флагами."
+  m_aVisibleForFactions {
+   ""
+   "US"
+   "USSR"
+  }
+  m_bEmptyFactionVisibility 1
+ }
+ {
+  coords 1568.642 77.237 2358.032
+  m_sTitle "Цель Миссии"
+  m_sTextData "США:"\
+  ""\
+  "Нужно захватить Административное здание и Порт."\
+  ""\
+  "СССР:"\
+  ""\
+  "Нужно удержать Административное здание и Порт."\
+  ""\
+  ""\
+  "Условия захвата:"\
+  ""\
+  "Для захвата зоны нужно поднять флаг.  Флаги нельзя перезахватить. За каждый флаг дают по 50 очков"
+  m_aVisibleForFactions {
+   ""
+   "US"
+   "USSR"
+  }
+  m_bEmptyFactionVisibility 1
+ }
+ {
+  coords 1557.878 76.931 2348.034
+  m_sTitle "Описание Миссии"
+  m_sTextData "СССР закрепились в городе Мо, США хотят выбить их с ключевых позиций в Административном здании и в Порту."\
+  "У СССР есть два стационарных ЗУ."
+  m_aVisibleForFactions {
+   ""
+   "US"
+   "USSR"
+  }
+  m_bEmptyFactionVisibility 1
+ }
+}
+$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ {
+  coords 4297.686 8.074 9561.688
+  angles -8.632 91.685 8.338
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0 0 1
+  m_sQuadName "flag-2"
+  m_fWorldSize 60
+  m_sDescription "Порт"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   ""
+   "US"
+   "USSR"
+  }
+  m_bVisibleForEmptyFaction 1
+ }
+ {
+  coords 4509.671 26.284 9490.082
+  angles 0 89.561 0
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0 0 1
+  m_sQuadName "flag-2"
+  m_fWorldSize 60
+  m_sDescription "Административное здание"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   ""
+   "US"
+   "USSR"
+  }
+  m_bVisibleForEmptyFaction 1
+ }
+}
