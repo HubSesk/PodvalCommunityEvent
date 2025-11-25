@@ -1,0 +1,37 @@
+GenericEntity : "{9713FE6DDCC9510D}Prefabs/Characters/Vests/Vest_Lifchik/Vest_Lifchik.et" {
+ ID "50E0B40D7407B664"
+ components {
+  SCR_UniversalInventoryStorageComponent "{5222CB03D1147687}" {
+   Attributes SCR_ItemAttributeCollection "{5222CB03CBA95936}" {
+    ItemDisplayName UIInfo "{5222CB03C0C44D6C}" {
+     Name "#AR-LBS_LifchikGrenadier_Name"
+     Description "#AR-LBS_LifchikGrenadier_Description"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 0.75
+     ItemVolume 1000
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{52BCBDD25D8B867D}" {
+     }
+    }
+   }
+   MaxCumulativeVolume 3000
+   m_fMaxWeight 20
+  }
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo Canteen {
+     Prefab ""
+    }
+    LoadoutSlotInfo Belt {
+     Prefab ""
+    }
+    LoadoutSlotInfo GrenadeBelt {
+     Prefab "{AB84E597273FAECA}Prefabs/Characters/Vests/Vest_Lifchik/Vest_Lifchik_GrenadeBelt.et"
+    }
+   }
+  }
+ }
+ coords 711.492 39.004 2614.744
+}

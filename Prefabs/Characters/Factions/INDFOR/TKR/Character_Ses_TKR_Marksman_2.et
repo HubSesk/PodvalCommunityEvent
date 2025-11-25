@@ -1,0 +1,32 @@
+SCR_ChimeraCharacter : "{8C6CDBEEC8372D43}Prefabs/Characters/Factions/INDFOR/TKR/Character_Ses_TKR_Marksman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{79CFB5C05B450BC5}Prefabs/Characters/HeadGear/Hat_FlatCap_01/TurbanM01.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{B817AEEB41452A9A}Prefabs/Characters/Uniforms/TakShirts/ChilabaFull03_extra.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6074FD81D85F4351}" {
+     TargetStorage "Jacket/ChilabaFull03_extra.et"
+    }
+    ItemsInitConfigurationItem "{6074FD81A7B67B88}" {
+     TargetStorage "Jacket/ChilabaFull03_extra.et"
+    }
+    ItemsInitConfigurationItem "{60FB76D98B3CD6FB}" {
+     TargetStorage "Jacket/ChilabaFull03_extra.et"
+    }
+    ItemsInitConfigurationItem "{6532F52F48A8EFEF}" {
+     TargetStorage "Jacket/ChilabaFull03_extra.et"
+    }
+   }
+  }
+ }
+ coords 706.842 39 2612.468
+}

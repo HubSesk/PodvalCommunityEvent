@@ -1,0 +1,32 @@
+SCR_ChimeraCharacter : "{F70341CEA336475D}Prefabs/Characters/Factions/INDFOR/TKR/Character_Ses_TKR_RTO.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Jacket {
+     Prefab "{25D27B9DE9AD50A3}Prefabs/Characters/Uniforms/TakShirts/TakShirt01.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{B22169A0DA2BE974}Prefabs/Characters/Uniforms/TakPants/TakPant07.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6074FD81D85F4351}" {
+     TargetStorage "Jacket/TakShirt01.et"
+    }
+    ItemsInitConfigurationItem "{6074FD81A7B67B88}" {
+     TargetStorage "Jacket/TakShirt01.et"
+    }
+    ItemsInitConfigurationItem "{60FB76D98B3CD6FB}" {
+     TargetStorage "Jacket/TakShirt01.et"
+    }
+    ItemsInitConfigurationItem "{6532F52F48A8EFEF}" {
+     TargetStorage "Jacket/TakShirt01.et"
+    }
+   }
+  }
+ }
+ coords 705.666 39 2612.795
+}

@@ -1,0 +1,41 @@
+SCR_ChimeraCharacter : "{C5520722FCCA576E}Prefabs/Characters/Factions/INDFOR/TKR/Character_Ses_TKR_BaseLoadout.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{FD7A125C90244F00}Prefabs/Characters/Uniforms/TakShirts/TakShirt07.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{3BE911B96A0AF131}Prefabs/Characters/Uniforms/TakPants/TakPant05.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{4063994E4E7DC7D6}Prefabs/Characters/Vests/Vest_Lifchik/Vest_Lifchik_no_belt.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6074FD81D85F4351}" {
+     TargetStorage "Jacket/TakShirt07.et"
+    }
+    ItemsInitConfigurationItem "{6074FD81A7B67B88}" {
+     TargetStorage "Jacket/TakShirt07.et"
+    }
+    ItemsInitConfigurationItem "{60FB76D98B3CD6FB}" {
+     TargetStorage "Pants/TakPant05.et"
+    }
+    ItemsInitConfigurationItem "{6532F52F48A8EFEF}" {
+     TargetStorage "Pants/TakPant05.et"
+    }
+    ItemsInitConfigurationItem "{6076B6E0A7B94BAF}" {
+     TargetStorage "Vest/Vest_Lifchik_no_belt.et"
+    }
+   }
+  }
+ }
+ coords 708.483 39 2612.983
+ angles 0 -15 0
+}

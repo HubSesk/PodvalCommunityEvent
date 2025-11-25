@@ -1,0 +1,53 @@
+SCR_ChimeraCharacter : "{CB6F0A17F436FFE9}Prefabs/Characters/Factions/INDFOR/TKR/Character_Ses_TKR_Militiamen_VZ.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{87D1627219526B86}Prefabs/Weapons/Rifles/AKM/Rifle_AKM.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Jacket {
+     Prefab "{25D27B9DE9AD50A3}Prefabs/Characters/Uniforms/TakShirts/TakShirt01.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{B22169A0DA2BE974}Prefabs/Characters/Uniforms/TakPants/TakPant07.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{443304F1EC50BC27}Prefabs/Items/Equipment/Backpacks/Backpack_Veshmeshok_Black.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{4063994E4E7DC7D6}Prefabs/Characters/Vests/Vest_Lifchik/Vest_Lifchik_no_belt.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6074FD81D85F4351}" {
+     TargetStorage "Jacket/TakShirt01.et"
+    }
+    ItemsInitConfigurationItem "{6074FD81A7B67B88}" {
+     TargetStorage "Jacket/TakShirt01.et"
+    }
+    ItemsInitConfigurationItem "{60FB76D98B3CD6FB}" {
+     TargetStorage "Pants/TakPant07.et"
+    }
+    ItemsInitConfigurationItem "{6532F52F48A8EFEF}" {
+     TargetStorage "Pants/TakPant07.et"
+    }
+    ItemsInitConfigurationItem "{6076B6E0FFEB219C}" {
+     TargetStorage "Vest/Vest_Lifchik_no_belt.et"
+     PrefabsToSpawn {
+      "{75333E1251221E62}Prefabs/Weapons/Magazines/AKM/Magazine_AK_762x39_6L10_30rnd.et" "{3DCA1009B328332A}Prefabs/Weapons/Magazines/AKM/Magazine_AK_762x39_AK55_30rnd.et" "{75333E1251221E62}Prefabs/Weapons/Magazines/AKM/Magazine_AK_762x39_6L10_30rnd.et" "{75333E1251221E62}Prefabs/Weapons/Magazines/AKM/Magazine_AK_762x39_6L10_30rnd.et" "{3DCA1009B328332A}Prefabs/Weapons/Magazines/AKM/Magazine_AK_762x39_AK55_30rnd.et" "{3DCA1009B328332A}Prefabs/Weapons/Magazines/AKM/Magazine_AK_762x39_AK55_30rnd.et" "{3DCA1009B328332A}Prefabs/Weapons/Magazines/AKM/Magazine_AK_762x39_AK55_30rnd.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+     }
+    }
+    ItemsInitConfigurationItem "{62467E897C0A333F}" {
+     TargetStorage "Back/Backpack_Veshmeshok_Black.et"
+     PrefabsToSpawn + {
+      "{B05A816C0BF50802}Prefabs/Weapons/Explosives/Mine_PMN4/Mine_PMN4.et" "{B05A816C0BF50802}Prefabs/Weapons/Explosives/Mine_PMN4/Mine_PMN4.et" "{B05A816C0BF50802}Prefabs/Weapons/Explosives/Mine_PMN4/Mine_PMN4.et" "{B05A816C0BF50802}Prefabs/Weapons/Explosives/Mine_PMN4/Mine_PMN4.et" "{B05A816C0BF50802}Prefabs/Weapons/Explosives/Mine_PMN4/Mine_PMN4.et" "{D6EF54367CECE1D9}Prefabs/Weapons/Explosives/Mine_TM62M/Mine_TM62M.et"
+     }
+    }
+   }
+  }
+ }
+ coords 709.166 39 2612.8
+}

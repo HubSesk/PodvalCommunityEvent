@@ -1,0 +1,44 @@
+GameEntity : "{43D84EA05C66258C}Prefabs/Characters/Uniforms/Jacket_Denim_01/Jacket_Denim_01_base.et" {
+ ID "5104869D194C6243"
+ components {
+  MeshObject "{5104869D194C6262}" {
+   Object "{D90ADA8CD0540A24}Assets/Shirt/Shirt01/Shirt01_item.xob"
+   Materials {
+    MaterialAssignClass "{66F22189265D164F}" {
+     SourceMaterial "DefaultGeneratedMaterial"
+     AssignedMaterial "{690B547789E97390}Assets/Shirt/Shirt01/Data/tak_civil01_3_s.emat"
+    }
+   }
+  }
+  SCR_ItemOutfitFactionComponent "{6196E41F5B150B2C}" {
+   m_OutfitDataHolder SCR_OutfitFactionDataHolder "{61A8D9664DCC7385}" {
+    m_aOutfitFactionData {
+     SCR_OutfitFactionData "{61A8D9664D441CF3}" {
+      m_AffiliatedFactionKey "MEI"
+     }
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{5222CB01D5B9A306}" {
+   Attributes SCR_ItemAttributeCollection "{5222CB01245CDF32}" {
+    ItemDisplayName UIInfo "{5222CB0109A04AB2}" {
+     Name "Arab Shirt"
+     Description ""
+    }
+   }
+   MaxCumulativeVolume 1200
+  }
+  BaseLoadoutClothComponent "{5104869D194C627A}" {
+   WornModel "{51B855BCF455C193}Assets/Shirt/Shirt01/Shirt01.xob"
+   WornMaterialsOverride {
+    "{690B547789E97390}Assets/Shirt/Shirt01/Data/tak_civil01_3_s.emat"
+   }
+   ItemModel "{D90ADA8CD0540A24}Assets/Shirt/Shirt01/Shirt01_item.xob"
+   ItemMaterialsOverride {
+    "{690B547789E97390}Assets/Shirt/Shirt01/Data/tak_civil01_3_s.emat"
+   }
+   DeflatedModel ""
+  }
+ }
+ coords -0.957 0.704 -0.337
+}

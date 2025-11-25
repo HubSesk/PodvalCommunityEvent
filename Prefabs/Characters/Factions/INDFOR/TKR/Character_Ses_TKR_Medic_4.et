@@ -1,0 +1,26 @@
+SCR_ChimeraCharacter : "{3809AA34C6EE551D}Prefabs/Characters/Factions/INDFOR/TKR/Character_Ses_TKR_Medic.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{C890AE4AD6D7891D}Prefabs/Characters/HeadGear/Hat_FlatCap_01/TakHat02.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{E9A54A2A380E88E8}Prefabs/Characters/Uniforms/TakShirts/Chilaba02_extra.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6074FD81D85F4351}" {
+     TargetStorage "Jacket/Chilaba02_extra.et"
+    }
+    ItemsInitConfigurationItem "{6074FD81A7B67B88}" {
+     TargetStorage "Jacket/Chilaba02_extra.et"
+    }
+   }
+  }
+ }
+ coords 708.768 39 2613.478
+}

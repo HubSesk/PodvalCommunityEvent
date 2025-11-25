@@ -1,0 +1,43 @@
+SCR_ChimeraCharacter : "{9EA74C682A2035BA}Prefabs/Characters/Factions/INDFOR/TKR/Character_Ses_TKR_PL.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{B56AC45A258C3C1F}Prefabs/Characters/HeadGear/Hat_FlatCap_01/TakHat02_b.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{A9556B0F8E120AAF}Prefabs/Characters/Uniforms/TakShirts/Chilaba01_extra.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{DCF980831E880F6A}Prefabs/Characters/Uniforms/Pants_M88.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{4C6029AB8BF5C044}Prefabs/Characters/Footwear/CombatBoots_Soviet_01_Dirty.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6074FD81D85F4351}" {
+     TargetStorage "Jacket/Chilaba01_extra.et"
+    }
+    ItemsInitConfigurationItem "{6074FD81A7B67B88}" {
+     TargetStorage "Jacket/Chilaba01_extra.et"
+    }
+    ItemsInitConfigurationItem "{6532F52F48A8EFEF}" {
+     TargetStorage "Pants/Pants_M88.et"
+    }
+    ItemsInitConfigurationItem "{6264D21FCEA6634C}" {
+     TargetStorage "Pants/Pants_M88.et"
+    }
+    ItemsInitConfigurationItem "{6264D21FCEA6637D}" {
+     PrefabsToSpawn {
+      "{3DCA1009B328332A}Prefabs/Weapons/Magazines/AKM/Magazine_AK_762x39_AK55_30rnd.et" "{75333E1251221E62}Prefabs/Weapons/Magazines/AKM/Magazine_AK_762x39_6L10_30rnd.et" "{3DCA1009B328332A}Prefabs/Weapons/Magazines/AKM/Magazine_AK_762x39_AK55_30rnd.et" "{3DCA1009B328332A}Prefabs/Weapons/Magazines/AKM/Magazine_AK_762x39_AK55_30rnd.et" "{75333E1251221E62}Prefabs/Weapons/Magazines/AKM/Magazine_AK_762x39_6L10_30rnd.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et" "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et"
+     }
+    }
+   }
+  }
+ }
+ coords 704.316 39 2612.757
+}

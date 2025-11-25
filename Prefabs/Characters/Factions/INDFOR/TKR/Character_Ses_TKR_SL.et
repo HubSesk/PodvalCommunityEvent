@@ -1,0 +1,54 @@
+SCR_ChimeraCharacter : "{C5520722FCCA576E}Prefabs/Characters/Factions/INDFOR/TKR/Character_Ses_TKR_BaseLoadout.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{87D1627219526B86}Prefabs/Weapons/Rifles/AKM/Rifle_AKM.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{EA7F9FFEBEC9E311}Prefabs/Characters/HeadGear/Hat_FlatCap_01/TurbanC01.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{318BF42CA23BDAAD}Prefabs/Characters/Uniforms/TakShirts/Chilaba01.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{DCF980831E880F6A}Prefabs/Characters/Uniforms/Pants_M88.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{4C6029AB8BF5C044}Prefabs/Characters/Footwear/CombatBoots_Soviet_01_Dirty.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{4063994E4E7DC7D6}Prefabs/Characters/Vests/Vest_Lifchik/Vest_Lifchik_no_belt.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6074FD81D85F4351}" {
+     PrefabsToSpawn + {
+      "{3DCA1009B328332A}Prefabs/Weapons/Magazines/AKM/Magazine_AK_762x39_AK55_30rnd.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6074FD81A7B67B88}" {
+     TargetStorage "Jacket/Chilaba01.et"
+    }
+    ItemsInitConfigurationItem "{60FB76D98B3CD6FB}" {
+     TargetStorage "Jacket/Chilaba01.et"
+     PrefabsToSpawn +{
+     }
+    }
+    ItemsInitConfigurationItem "{6532F52F48A8EFEF}" {
+     TargetStorage "Pants/Pants_M88.et"
+    }
+    ItemsInitConfigurationItem "{63192993053E337D}" {
+     TargetStorage "Vest/Vest_Lifchik_no_belt.et"
+     PrefabsToSpawn {
+      "{3DCA1009B328332A}Prefabs/Weapons/Magazines/AKM/Magazine_AK_762x39_AK55_30rnd.et" "{3DCA1009B328332A}Prefabs/Weapons/Magazines/AKM/Magazine_AK_762x39_AK55_30rnd.et" "{3DCA1009B328332A}Prefabs/Weapons/Magazines/AKM/Magazine_AK_762x39_AK55_30rnd.et" "{3DCA1009B328332A}Prefabs/Weapons/Magazines/AKM/Magazine_AK_762x39_AK55_30rnd.et" "{75333E1251221E62}Prefabs/Weapons/Magazines/AKM/Magazine_AK_762x39_6L10_30rnd.et" "{75333E1251221E62}Prefabs/Weapons/Magazines/AKM/Magazine_AK_762x39_6L10_30rnd.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{3DCA1009B328332A}Prefabs/Weapons/Magazines/AKM/Magazine_AK_762x39_AK55_30rnd.et" "{3DCA1009B328332A}Prefabs/Weapons/Magazines/AKM/Magazine_AK_762x39_AK55_30rnd.et"
+     }
+    }
+   }
+  }
+ }
+ coords 703.825 39 2606.708
+}

@@ -1,0 +1,50 @@
+SCR_ChimeraCharacter : "{C5520722FCCA576E}Prefabs/Characters/Factions/INDFOR/TKR/Character_Ses_TKR_BaseLoadout.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{AB55FB7E6A352420}Prefabs/Weapons/Rifles/AKM/Rifle_AKMN_PBS1.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Jacket {
+     Prefab "{628E14D57618CBFB}Prefabs/Characters/Uniforms/TakShirts/TakShirt08.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{B22169A0DA2BE974}Prefabs/Characters/Uniforms/TakPants/TakPant07.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{AED62B7248A5B063}Prefabs/Characters/Footwear/TakShoes01.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{4063994E4E7DC7D6}Prefabs/Characters/Vests/Vest_Lifchik/Vest_Lifchik_no_belt.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6074FD81D85F4351}" {
+     TargetStorage "Jacket/TakShirt08.et"
+    }
+    ItemsInitConfigurationItem "{6074FD81A7B67B88}" {
+     TargetStorage "Jacket/TakShirt08.et"
+    }
+    ItemsInitConfigurationItem "{60FB76D98B3CD6FB}" {
+     TargetStorage "Pants/TakPant07.et"
+    }
+    ItemsInitConfigurationItem "{6532F52F48A8EFEF}" {
+     TargetStorage "Pants/TakPant07.et"
+    }
+    ItemsInitConfigurationItem "{6264D21848A87396}" {
+     TargetStorage "Vest/Vest_Lifchik_no_belt.et"
+     PrefabsToSpawn {
+      "{75333E1251221E62}Prefabs/Weapons/Magazines/AKM/Magazine_AK_762x39_6L10_30rnd.et" "{75333E1251221E62}Prefabs/Weapons/Magazines/AKM/Magazine_AK_762x39_6L10_30rnd.et" "{3DCA1009B328332A}Prefabs/Weapons/Magazines/AKM/Magazine_AK_762x39_AK55_30rnd.et" "{3DCA1009B328332A}Prefabs/Weapons/Magazines/AKM/Magazine_AK_762x39_AK55_30rnd.et" "{75333E1251221E62}Prefabs/Weapons/Magazines/AKM/Magazine_AK_762x39_6L10_30rnd.et" "{75333E1251221E62}Prefabs/Weapons/Magazines/AKM/Magazine_AK_762x39_6L10_30rnd.et" "{75333E1251221E62}Prefabs/Weapons/Magazines/AKM/Magazine_AK_762x39_6L10_30rnd.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6264D21848A87380}" {
+     Enabled 0
+    }
+   }
+  }
+ }
+ coords 709.455 39 2612.355
+}

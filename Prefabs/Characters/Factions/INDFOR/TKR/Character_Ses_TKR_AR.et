@@ -1,0 +1,53 @@
+SCR_ChimeraCharacter : "{C5520722FCCA576E}Prefabs/Characters/Factions/INDFOR/TKR/Character_Ses_TKR_BaseLoadout.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{79CFB5C05B450BC5}Prefabs/Characters/HeadGear/Hat_FlatCap_01/TurbanM01.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{A9556B0F8E120AAF}Prefabs/Characters/Uniforms/TakShirts/Chilaba01_extra.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{86BB79B9A2233780}Prefabs/Characters/Uniforms/Pants_US_M65.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{4C6029AB8BF5C044}Prefabs/Characters/Footwear/CombatBoots_Soviet_01_Dirty.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{4063994E4E7DC7D6}Prefabs/Characters/Vests/Vest_Lifchik/Vest_Lifchik_no_belt.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6074FD81D85F4351}" {
+     TargetStorage "Jacket/Chilaba01_extra.et"
+    }
+    ItemsInitConfigurationItem "{6074FD81A7B67B88}" {
+     TargetStorage "Jacket/Chilaba01_extra.et"
+    }
+    ItemsInitConfigurationItem "{60FB76D98B3CD6FB}" {
+     TargetStorage "Pants/Pants_US_M65.et"
+    }
+    ItemsInitConfigurationItem "{6532F52F48A8EFEF}" {
+     TargetStorage "Pants/Pants_US_M65.et"
+    }
+    ItemsInitConfigurationItem "{6076B6E2D11AA85A}" {
+     TargetStorage "Vest/Vest_Lifchik_no_belt.et"
+     PrefabsToSpawn + {
+      "{D78C667F59829717}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_4Ball_1Tracer.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6076B6E2AFB6D3C5}" {
+     TargetStorage "Pants/Pants_US_M65.et"
+     PrefabsToSpawn + {
+      "{D78C667F59829717}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_4Ball_1Tracer.et" "{D78C667F59829717}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_4Ball_1Tracer.et"
+     }
+    }
+   }
+  }
+ }
+ coords 705.813 39 2611.23
+}

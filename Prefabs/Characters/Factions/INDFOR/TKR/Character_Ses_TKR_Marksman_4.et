@@ -1,0 +1,35 @@
+SCR_ChimeraCharacter : "{8C6CDBEEC8372D43}Prefabs/Characters/Factions/INDFOR/TKR/Character_Ses_TKR_Marksman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{CD33E8E19E089AB7}Prefabs/Characters/HeadGear/Hat_FlatCap_01/TurbanM04.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{17A50A6FCD5CE4A4}Prefabs/Characters/Uniforms/TakShirts/Chilaba03_extra.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{C6BE0A871E7DE807}Prefabs/Characters/Uniforms/Pants_US_BDU_TigerStripe.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6074FD81D85F4351}" {
+     TargetStorage "Jacket/Chilaba03_extra.et"
+    }
+    ItemsInitConfigurationItem "{6074FD81A7B67B88}" {
+     TargetStorage "Jacket/Chilaba03_extra.et"
+    }
+    ItemsInitConfigurationItem "{60FB76D98B3CD6FB}" {
+     TargetStorage "Pants/Pants_US_BDU_TigerStripe.et"
+    }
+    ItemsInitConfigurationItem "{6532F52F48A8EFEF}" {
+     TargetStorage "Pants/Pants_US_BDU_TigerStripe.et"
+    }
+   }
+  }
+ }
+ coords 704.126 39 2611.926
+}
