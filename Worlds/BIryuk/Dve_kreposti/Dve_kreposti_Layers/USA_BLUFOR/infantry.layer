@@ -1,0 +1,60 @@
+$grp SCR_AIGroup : "{12488ED8CAB8DCDC}Prefabs/Groups/BLUFOR/DRG_Group_RHS_USAF_Squad.et" {
+ EAST_MORTAR_1 {
+  coords 1462.96 104.438 3118.883
+  angles 0 -141.092 0
+  m_aUnitPrefabSlots {
+   "{A25CCAC020E867E6}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_Mortar_TeamLeader.et"
+   "{1CB207D10EB55F66}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_MortarGunner.et"
+   "{D851B6F91F3B31BA}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_MortarLoader.et"
+  }
+ }
+ EAST_FireSupport_squad {
+  coords 1465.293 104.342 3111.012
+  angles 0 -92.731 0
+  m_aUnitPrefabSlots {
+   "{600E890491C62306}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_SL.et"
+   "{36FE68EB81398B5C}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_MG_opt.et"
+   "{FEA8A03109D0FC66}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_MGA.et"
+  }
+ }
+ EAST_SQUAD_1 {
+  coords 1443.925 106.091 3115.816
+  angles 0 85.186 0
+ }
+ WEAST_SQUAD_1 {
+  coords 929.17 193.034 2872.5
+  angles 0 110.146 0
+ }
+ WEAST_MATV_SQUAD_1 {
+  components {
+   PS_GroupCallsignAssigner "{624D56B5FDC6118E}" {
+    m_iCompanyCallsign 0
+   }
+  }
+  coords 309.996 41.59 3159.372
+  angles 0 -99.47 -2.062
+ }
+ EAST_JLTV_SQUAD_1 {
+  coords 2282.451 30.025 3788.649
+  angles 0 -122.318 0
+ }
+ EAST_JLTV_SQUAD_2 {
+  coords 2332.372 30.025 3829.185
+  angles 0 -122.948 0
+ }
+ EAST_JLTV_FireSupport_squad {
+  coords 2291.911 22.122 3861.672
+  angles 0 128.706 0
+  m_aUnitPrefabSlots {
+   "{600E890491C62306}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_SL.et"
+   "{67C97355F74099C5}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_TL.et"
+   "{36FE68EB81398B5C}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_MG_opt.et"
+   "{D38A51C19D66AAC8}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_MGAB.et"
+   "{FEA8A03109D0FC66}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_MGA.et"
+  }
+ }
+}
+SCR_AIGroup EAST_HQ_all : "{4A02B745F553821E}Prefabs/Groups/BLUFOR/drg_USAF_CompanyHQ.et" {
+ coords 1455.696 104.354 3122.798
+ angles 0 161.825 0
+}
