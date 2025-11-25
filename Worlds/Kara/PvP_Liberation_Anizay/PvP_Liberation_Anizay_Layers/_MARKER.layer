@@ -1,19 +1,42 @@
-PS_ManualMarker Flag_Marker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
- coords 1379.16 173.167 7294.079
- m_sImageSet "{12BA7AE37121F768}UI/Textures/Icons/icons_wrapperUI-96.imageset"
- m_sImageSetGlow "{58E50ACB1FA4F7D7}UI/Textures/Icons/icons_wrapperUI-96-glow.imageset"
- m_MarkerColor 0 0 0 1
- m_sQuadName "report"
- m_fWorldSize 50
- m_sDescription "Флаг"
- m_bUseWorldScale 0
- m_aVisibleForFactions {
-  "Ses_TKR"
-  "RHS_USAF"
-  ""
+Turret ZU : "{1A407760EEAE4156}Prefabs/Vehicles/Static/BaconZU23/BaconZU23_Turret_Deployed.et" {
+ coords 1281.645 142.421 7235.856
+ angles 0.039 88.516 0.04
+}
+$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ Flag_Marker {
+  coords 1379.16 173.167 7294.079
+  m_sImageSet "{12BA7AE37121F768}UI/Textures/Icons/icons_wrapperUI-96.imageset"
+  m_sImageSetGlow "{58E50ACB1FA4F7D7}UI/Textures/Icons/icons_wrapperUI-96-glow.imageset"
+  m_MarkerColor 0 0 0 1
+  m_sQuadName "report"
+  m_fWorldSize 50
+  m_sDescription "Флаг"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_TKR"
+   "RHS_USAF"
+   ""
+  }
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
  }
- m_bVisibleForEmptyFaction 1
- m_bShowForAnyFaction 1
+ ZU_Marker {
+  coords 1281.324 142.805 7235.812
+  m_sImageSet "{FDD5423E69D007F8}UI/Textures/Icons/icons_wrapperUI-128.imageset"
+  m_sImageSetGlow "{6980E83C053C9B5D}UI/Textures/Icons/icons_wrapperUI-128-glow.imageset"
+  m_MarkerColor 0 0 0 1
+  m_sQuadName "exclamationCircle"
+  m_fWorldSize 50
+  m_sDescription "ZU-23"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_TKR"
+   "RHS_USAF"
+   ""
+  }
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+ }
 }
 GenericEntity FLAG : "{F638E8AF02F38272}PrefabsEditable/Auto/Structures/Military/Flags/E_FlagPole_02_V1_TKR.et" {
  components {

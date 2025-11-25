@@ -1,10 +1,169 @@
-SCR_ChimeraCharacter : "{484932313C989315}Prefabs/Characters/Factions/INDFOR/TKR/MG/drg_Character_Ses_TKR_MG_V4.et" {
- coords 1361.102 137.245 7296.567
+$grp Vehicle : "{04B2A928ED8A2753}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Ses_TKR.et" {
+ TKR_400_W {
+  coords 1359.94 138.688 7355.009
+  angles 1.778 -6.521 -0.203
+  m_sAttachmentGroupName "TKR_400"
+ }
+ TKR_401_W {
+  coords 1483.165 137.223 7282.765
+  angles 2.823 67.836 -0.184
+  m_sAttachmentGroupName "TKR_401"
+ }
 }
-SCR_AIGroup : "{B2B593BFF7A53927}Prefabs/Groups/INDFOR/TGK/drg_TKR_Showcase.et" {
- coords 1364.163 137.25 7292.871
- angles 0 -88.411 0
-}
-SCR_ChimeraCharacter : "{BC59B0EFF0344FC8}Prefabs/Characters/Factions/INDFOR/TKR/Rifleman/drg_Character_Ses_TKR_Rifleman_base.et" {
- coords 1361.839 137.247 7292.713
+$grp SCR_AIGroup : "{FD47A0A8CE51D3BE}Prefabs/Groups/INDFOR/TGK/drg_TKR_RifleSquad.et" {
+ TKR_100 {
+  components {
+   PS_GroupCallsignAssigner "{65154C1E6C2E8928}" {
+    m_iCompanyCallsign 1
+   }
+  }
+  coords 1367.186 137.25 7293.754
+  angles 0 -89.017 0
+  m_aUnitPrefabSlots {
+   "{60B44C26D40826FA}Prefabs/Characters/Factions/INDFOR/TKR/drg_Character_Ses_TKR_SL.et"
+   "{2591824D3231A9C7}Prefabs/Characters/Factions/INDFOR/TKR/drg_Character_Ses_TKR_SR_Rand.et"
+   "{7B1DE711B74EF26C}Prefabs/Characters/Factions/INDFOR/TKR/drg_Character_Ses_TKR_AT_Rand.et"
+   "{6B6FFA5A4E0E6959}Prefabs/Characters/Factions/INDFOR/TKR/drg_Character_Ses_TKR_MG_Rand.et"
+   "{3BACBFFF3D0BF9F3}Prefabs/Characters/Factions/INDFOR/TKR/drg_Character_Ses_TKR_Sniper_V3.et"
+   "{09E76FAD9039185A}Prefabs/Characters/Factions/INDFOR/TKR/drg_Character_Ses_TKR_Rifleman_Rand.et"
+   "{09E76FAD9039185A}Prefabs/Characters/Factions/INDFOR/TKR/drg_Character_Ses_TKR_Rifleman_Rand.et"
+   "{09E76FAD9039185A}Prefabs/Characters/Factions/INDFOR/TKR/drg_Character_Ses_TKR_Rifleman_Rand.et"
+  }
+ }
+ TKR_000 {
+  components {
+   PS_GroupCallsignAssigner "{65154C1E6C2E8928}" {
+    m_iCompanyCallsign 0
+   }
+  }
+  coords 1367.205 137.406 7306.529
+  angles 0 -89.84 0
+  m_aUnitPrefabSlots {
+   "{D18907EB472956F5}Prefabs/Characters/Factions/INDFOR/TKR/drg_Character_Ses_TKR_CL.et"
+  }
+  m_sCustomNameSet "#DRG-Sq-PlatoonHQ"
+ }
+ TKR_101 {
+  components {
+   PS_GroupCallsignAssigner "{65154C1E6C2E8928}" {
+    m_iCompanyCallsign 1
+    m_iSquadCallsign 1
+   }
+  }
+  coords 1366.895 137.25 7276.767
+  angles 0 -89.017 0
+  m_aUnitPrefabSlots {
+   "{60B44C26D40826FA}Prefabs/Characters/Factions/INDFOR/TKR/drg_Character_Ses_TKR_SL.et"
+   "{2591824D3231A9C7}Prefabs/Characters/Factions/INDFOR/TKR/drg_Character_Ses_TKR_SR_Rand.et"
+   "{7B1DE711B74EF26C}Prefabs/Characters/Factions/INDFOR/TKR/drg_Character_Ses_TKR_AT_Rand.et"
+   "{6B6FFA5A4E0E6959}Prefabs/Characters/Factions/INDFOR/TKR/drg_Character_Ses_TKR_MG_Rand.et"
+   "{3BACBFFF3D0BF9F3}Prefabs/Characters/Factions/INDFOR/TKR/drg_Character_Ses_TKR_Sniper_V3.et"
+   "{09E76FAD9039185A}Prefabs/Characters/Factions/INDFOR/TKR/drg_Character_Ses_TKR_Rifleman_Rand.et"
+   "{09E76FAD9039185A}Prefabs/Characters/Factions/INDFOR/TKR/drg_Character_Ses_TKR_Rifleman_Rand.et"
+   "{09E76FAD9039185A}Prefabs/Characters/Factions/INDFOR/TKR/drg_Character_Ses_TKR_Rifleman_Rand.et"
+  }
+ }
+ TKR_200 {
+  components {
+   PS_GroupCallsignAssigner "{65154C1E6C2E8928}" {
+    m_iCompanyCallsign 2
+   }
+  }
+  coords 1366.351 138.475 7258.324
+  angles 0 -89.017 0
+  m_aUnitPrefabSlots {
+   "{60B44C26D40826FA}Prefabs/Characters/Factions/INDFOR/TKR/drg_Character_Ses_TKR_SL.et"
+   "{2591824D3231A9C7}Prefabs/Characters/Factions/INDFOR/TKR/drg_Character_Ses_TKR_SR_Rand.et"
+   "{7B1DE711B74EF26C}Prefabs/Characters/Factions/INDFOR/TKR/drg_Character_Ses_TKR_AT_Rand.et"
+   "{6B6FFA5A4E0E6959}Prefabs/Characters/Factions/INDFOR/TKR/drg_Character_Ses_TKR_MG_Rand.et"
+   "{6B6FFA5A4E0E6959}Prefabs/Characters/Factions/INDFOR/TKR/drg_Character_Ses_TKR_MG_Rand.et"
+   "{09E76FAD9039185A}Prefabs/Characters/Factions/INDFOR/TKR/drg_Character_Ses_TKR_Rifleman_Rand.et"
+   "{09E76FAD9039185A}Prefabs/Characters/Factions/INDFOR/TKR/drg_Character_Ses_TKR_Rifleman_Rand.et"
+   "{09E76FAD9039185A}Prefabs/Characters/Factions/INDFOR/TKR/drg_Character_Ses_TKR_Rifleman_Rand.et"
+  }
+ }
+ TKR_201 {
+  components {
+   PS_GroupCallsignAssigner "{65154C1E6C2E8928}" {
+    m_iCompanyCallsign 2
+    m_iSquadCallsign 1
+   }
+  }
+  coords 1366.06 138.475 7241.363
+  angles 0 -89.017 0
+  m_aUnitPrefabSlots {
+   "{60B44C26D40826FA}Prefabs/Characters/Factions/INDFOR/TKR/drg_Character_Ses_TKR_SL.et"
+   "{2591824D3231A9C7}Prefabs/Characters/Factions/INDFOR/TKR/drg_Character_Ses_TKR_SR_Rand.et"
+   "{7B1DE711B74EF26C}Prefabs/Characters/Factions/INDFOR/TKR/drg_Character_Ses_TKR_AT_Rand.et"
+   "{6B6FFA5A4E0E6959}Prefabs/Characters/Factions/INDFOR/TKR/drg_Character_Ses_TKR_MG_Rand.et"
+   "{6B6FFA5A4E0E6959}Prefabs/Characters/Factions/INDFOR/TKR/drg_Character_Ses_TKR_MG_Rand.et"
+   "{09E76FAD9039185A}Prefabs/Characters/Factions/INDFOR/TKR/drg_Character_Ses_TKR_Rifleman_Rand.et"
+   "{09E76FAD9039185A}Prefabs/Characters/Factions/INDFOR/TKR/drg_Character_Ses_TKR_Rifleman_Rand.et"
+   "{09E76FAD9039185A}Prefabs/Characters/Factions/INDFOR/TKR/drg_Character_Ses_TKR_Rifleman_Rand.et"
+  }
+ }
+ TKR_300 {
+  components {
+   PS_GroupCallsignAssigner "{65154C1E6C2E8928}" {
+    m_iCompanyCallsign 3
+   }
+  }
+  coords 1458.107 136.342 7261.178
+  angles 0 -34.021 0
+  m_aUnitPrefabSlots {
+   "{60B44C26D40826FA}Prefabs/Characters/Factions/INDFOR/TKR/drg_Character_Ses_TKR_SL.et"
+   "{2591824D3231A9C7}Prefabs/Characters/Factions/INDFOR/TKR/drg_Character_Ses_TKR_SR_Rand.et"
+   "{7B1DE711B74EF26C}Prefabs/Characters/Factions/INDFOR/TKR/drg_Character_Ses_TKR_AT_Rand.et"
+   "{6B6FFA5A4E0E6959}Prefabs/Characters/Factions/INDFOR/TKR/drg_Character_Ses_TKR_MG_Rand.et"
+   "{3BACBFFF3D0BF9F3}Prefabs/Characters/Factions/INDFOR/TKR/drg_Character_Ses_TKR_Sniper_V3.et"
+   "{09E76FAD9039185A}Prefabs/Characters/Factions/INDFOR/TKR/drg_Character_Ses_TKR_Rifleman_Rand.et"
+   "{09E76FAD9039185A}Prefabs/Characters/Factions/INDFOR/TKR/drg_Character_Ses_TKR_Rifleman_Rand.et"
+   "{09E76FAD9039185A}Prefabs/Characters/Factions/INDFOR/TKR/drg_Character_Ses_TKR_Rifleman_Rand.et"
+  }
+ }
+ TKR_301 {
+  components {
+   PS_GroupCallsignAssigner "{65154C1E6C2E8928}" {
+    m_iCompanyCallsign 3
+    m_iSquadCallsign 1
+   }
+  }
+  coords 1241.953 137.468 7159.085
+  angles 0 -26.697 0
+  m_aUnitPrefabSlots {
+   "{60B44C26D40826FA}Prefabs/Characters/Factions/INDFOR/TKR/drg_Character_Ses_TKR_SL.et"
+   "{2591824D3231A9C7}Prefabs/Characters/Factions/INDFOR/TKR/drg_Character_Ses_TKR_SR_Rand.et"
+   "{7B1DE711B74EF26C}Prefabs/Characters/Factions/INDFOR/TKR/drg_Character_Ses_TKR_AT_Rand.et"
+   "{6B6FFA5A4E0E6959}Prefabs/Characters/Factions/INDFOR/TKR/drg_Character_Ses_TKR_MG_Rand.et"
+   "{3BACBFFF3D0BF9F3}Prefabs/Characters/Factions/INDFOR/TKR/drg_Character_Ses_TKR_Sniper_V3.et"
+   "{09E76FAD9039185A}Prefabs/Characters/Factions/INDFOR/TKR/drg_Character_Ses_TKR_Rifleman_Rand.et"
+   "{09E76FAD9039185A}Prefabs/Characters/Factions/INDFOR/TKR/drg_Character_Ses_TKR_Rifleman_Rand.et"
+   "{09E76FAD9039185A}Prefabs/Characters/Factions/INDFOR/TKR/drg_Character_Ses_TKR_Rifleman_Rand.et"
+  }
+ }
+ TKR_401 {
+  components {
+   PS_GroupCallsignAssigner "{65154C1E6C2E8928}" {
+    m_iSquadCallsign 1
+   }
+  }
+  coords 1482.619 137.252 7286.252
+  angles 0 153.04 0
+  m_aUnitPrefabSlots {
+   "{60B44C26D40826FA}Prefabs/Characters/Factions/INDFOR/TKR/drg_Character_Ses_TKR_SL.et"
+   "{09E76FAD9039185A}Prefabs/Characters/Factions/INDFOR/TKR/drg_Character_Ses_TKR_Rifleman_Rand.et"
+   "{09E76FAD9039185A}Prefabs/Characters/Factions/INDFOR/TKR/drg_Character_Ses_TKR_Rifleman_Rand.et"
+  }
+  m_sCustomNameSet "Экипаж БТР-70"
+ }
+ TKR_400 {
+  coords 1362.629 138.67 7354.438
+  angles 0 -95.089 0
+  m_aUnitPrefabSlots {
+   "{60B44C26D40826FA}Prefabs/Characters/Factions/INDFOR/TKR/drg_Character_Ses_TKR_SL.et"
+   "{09E76FAD9039185A}Prefabs/Characters/Factions/INDFOR/TKR/drg_Character_Ses_TKR_Rifleman_Rand.et"
+   "{09E76FAD9039185A}Prefabs/Characters/Factions/INDFOR/TKR/drg_Character_Ses_TKR_Rifleman_Rand.et"
+  }
+  m_sCustomNameSet "Экипаж БТР-70"
+ }
 }
