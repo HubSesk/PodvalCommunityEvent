@@ -1,0 +1,45 @@
+GameEntity : "{43D84EA05C66258C}Prefabs/Characters/Uniforms/Jacket_Denim_01/Jacket_Denim_01_base.et" {
+ ID "5104869D194C6243"
+ components {
+  MeshObject "{5104869D194C6262}" {
+   Object "{D8430DB56EBDA0AD}Assets/Shirt/Chilaba02/Chilaba02_item.xob"
+  }
+  SCR_ItemOutfitFactionComponent "{6196E41F5B150B2C}" {
+   m_OutfitDataHolder SCR_OutfitFactionDataHolder "{61A8D9664DCC7385}" {
+    m_aOutfitFactionData {
+     SCR_OutfitFactionData "{61A8D9664D441CF3}" {
+      m_AffiliatedFactionKey "MEI"
+     }
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{5222CB01D5B9A306}" {
+   Attributes SCR_ItemAttributeCollection "{5222CB01245CDF32}" {
+    ItemDisplayName UIInfo "{5222CB0109A04AB2}" {
+     Name "Djellaba full"
+    }
+   }
+   MaxCumulativeVolume 2400
+   m_fMaxWeight 10
+  }
+  BaseLoadoutClothComponent "{5104869D194C627A}" {
+   WornModel "{1E097A275BF5EE21}Assets/Shirt/Chilaba02/Chilaba02.xob"
+   WornMaterialsOverride {
+    "{56F31AEF41FCAB84}Assets/Shirt/Chilaba02/Data/tak_civil02_1.emat"
+   }
+   ItemModel "{D8430DB56EBDA0AD}Assets/Shirt/Chilaba02/Chilaba02_item.xob"
+   ItemMaterialsOverride {
+    "{56F31AEF41FCAB84}Assets/Shirt/Chilaba02/Data/tak_civil02_1.emat"
+   }
+   OverrideMeshesToHide {
+    "Torso" "Buttocks" "Thigh_L" "Thigh_R" "Arm_L" "Arm_R" "ArmUpper_L" "ArmUpper_R" "Leg_L" "Leg_R" "Groin" "Calf_L" "Calf_R"
+   }
+   DeflatedModel ""
+   BlockedSlots {
+    LoadoutPantsArea "{66F0572B2B1734B2}" {
+    }
+   }
+  }
+ }
+ coords 704.536 39 2614.011
+}
