@@ -1,0 +1,59 @@
+$grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
+ destbenz {
+  coords 5183.996 380.594 9794.72
+  m_sTitle "Убили Виктора"
+  m_sFactionKey "Ses_CDF"
+ }
+ savebenz {
+  coords 5250.839 382.071 9441.999
+  m_sTitle "Не дали убить Виктора"
+  m_sFactionKey "Ses_ChDKZ"
+ }
+}
+PolylineShapeEntity : "{BD11B8FAA469D169}Prefabs/PolyZone/PolyZone.et" {
+ components {
+  PS_PolyZone "{60E90266F25533F6}" {
+   m_mPolygonTexture "{928B4092981F27CB}UI/layouts/Textures/Zone.edds"
+   m_cPolygonColor 0.502 0 0 0.737
+   m_mPolygonTextureBorder "{CA01D453D39FB430}UI/layouts/Textures/ZoneBorder.edds"
+   m_cPolygonBorderColor 0.502 0 0 1
+   m_aVisibleForFactions {
+    ""
+    "Ses_CDF"
+    "Ses_ChDKZ"
+   }
+  }
+ }
+ coords 6302.937 37.415 8156.932
+ Points {
+  ShapePoint "{66F35AF83B60FA39}" {
+   Position 95.746 0 -2.269
+  }
+  ShapePoint "{66F35AF826027B16}" {
+   Position 89.127 0.071 -138.729
+  }
+  ShapePoint "{66F35AF82ECF7C4C}" {
+   Position 4.041 -0.01 -167.646
+  }
+  ShapePoint "{66F35AF85481FD18}" {
+   Position -16.073 0 -145.072
+  }
+  ShapePoint "{66F35AF857A7E2E8}" {
+   Position -16.711 0 -131.27
+  }
+  ShapePoint "{66F35AF851D3098B}" {
+   Position -15.846 0 -102.848
+  }
+  ShapePoint "{66F35AF85CBFBFB4}" {
+   Position -3.126 0 -53.6
+  }
+ }
+}
+GenericEntity : "{E6FC6DD69FA3479F}Prefabs/System/DRG_MissionEndTimerPrefab.et" {
+ components {
+  DRG_MissionEndTimerComponent "{651B0839B21B3BBF}" {
+   m_iMissionTime 2400
+  }
+ }
+ coords 6663.271 43.758 4233.997
+}
