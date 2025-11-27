@@ -5,18 +5,18 @@ GenericEntity : "{6A3CDCFB475BF1B2}Prefabs/System/DRG_CriticalLossPrefab.et" {
     LossLogic "{66C57AC4A7A179B9}" {
      m_aLosses {
       FactionLoss "{66C6C4A1CB0C61DA}" {
-       m_sFactionKey "Ses_TKR"
+       m_sFactionKey "RHS_AFRF"
       }
      }
      m_sObjectiveNames {
       "USAF_1"
      }
      m_sFailedObjectiveNames {
-      "TKR_1"
+      "AFRF_1"
      }
      m_bAdvanceGameStage 1
      m_bUseMessage 1
-     m_bEventMessage "Армия Такистана понесла критически потери. Победа ВС США"
+     m_bEventMessage "ВС РФ понесли критичсекие потери. Победа ВС США"
     }
     LossLogic "{66C6C4A1F5FF23D6}" {
      m_aLosses {
@@ -25,19 +25,61 @@ GenericEntity : "{6A3CDCFB475BF1B2}Prefabs/System/DRG_CriticalLossPrefab.et" {
       }
      }
      m_sObjectiveNames {
-      "TKR_1"
+      "AFRF_1"
      }
      m_sFailedObjectiveNames {
       "USAF_1"
      }
      m_bAdvanceGameStage 1
      m_bUseMessage 1
-     m_bEventMessage "ВС США понесли критически потери. Победа Армии Такистана."
+     m_bEventMessage "ВС США понесли критически потери. Победа ВС РФ"
     }
    }
   }
  }
  coords 10689.084 91.152 10080.779
+}
+GenericEntity : "{7A333AFB11EA847A}Prefabs/System/DRG_VehicleDestroyPrefab.et" {
+ components {
+  DRG_VehicleDestroyComponent "{65733BD6110AE8FC}" {
+   m_aVehicleLossLogics {
+    VehicleLossLogic "{66F7316828F12C99}" {
+     m_sSuccessObjectiveNames {
+      "USAF_2"
+     }
+     m_sFailedObjectiveNames {
+      "AFRF_2"
+     }
+     m_sVehicleEntityNames {
+      "AFRF_200_W0"
+     }
+    }
+    VehicleLossLogic "{66F7316825FAF455}" {
+     m_sSuccessObjectiveNames {
+      "USAF_3"
+     }
+     m_sFailedObjectiveNames {
+      "AFRF_3"
+     }
+     m_sVehicleEntityNames {
+      "AFRF_201_W0"
+     }
+    }
+    VehicleLossLogic "{66F7316825C8F363}" {
+     m_sSuccessObjectiveNames {
+      "USAF_4"
+     }
+     m_sFailedObjectiveNames {
+      "AFRF_4"
+     }
+     m_sVehicleEntityNames {
+      "AFRF_202_W0"
+     }
+    }
+   }
+  }
+ }
+ coords 5190.131 207.171 1761.009
 }
 GenericEntity : "{E6FC6DD69FA3479F}Prefabs/System/DRG_MissionEndTimerPrefab.et" {
  components {

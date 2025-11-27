@@ -1,23 +1,152 @@
+$grp Vehicle : "{447CFE8D73F95C3E}Prefabs/Vehicles/Wheeled/BTR70/BTR70_AFRF.et" {
+ AFRF_100_W {
+  coords 8412.474 111.531 7051.884
+  angles 0 -180 0
+  m_sAttachmentGroupName "AFRF_100"
+ }
+ AFRF_101_W {
+  coords 8412.474 111.531 7082.596
+  angles 0 180 0
+  m_sAttachmentGroupName "AFRF_101"
+ }
+ AFRF_102_W {
+  coords 8412.474 111.531 7112.936
+  angles 0 -180 0
+  m_sAttachmentGroupName "AFRF_102"
+ }
+}
 SCR_AIGroup AFRF_000 : "{52DBD8AD794AA412}Prefabs/Groups/OPFOR/drg_AFRF_CompanyHQ.et" {
- coords 8407.344 111.531 7035.391
+ coords 8407.344 111.531 7040.56
  angles 0 90 0
  m_aUnitPrefabSlots {
   "{7FC44DF88B7C8DB0}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Desert/drg_Role_RHS_AFRF_Desert_CL.et"
  }
 }
-$grp Vehicle : "{8291D80F4C633078}Prefabs/Vehicles/Wheeled/Ural_4320_Grad/BM 21-1_3M16.et" {
- BM_21_1_3M1 {
-  coords 8352.512 111.531 7081.316
-  angles 0 90 0
+$grp Vehicle : "{78E46A3CAC36BB1E}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered_tan.et" {
+ AFRF_200_W {
+  coords 8412.539 111.531 7066.719
+  angles 0 180 0
+  m_sAttachmentGroupName "AFRF_200"
  }
- BM_21_1_3M2 {
-  coords 8352.512 111.531 7091.436
-  angles 0 90 0
+ AFRF_201_W {
+  coords 8412.539 111.531 7097.317
+  angles 0 -180 0
+  m_sAttachmentGroupName "AFRF_201"
  }
- BM_21_1_3M3 {
-  coords 8352.512 111.531 7101.692
-  angles 0 90 0
+ AFRF_202_W {
+  coords 8412.539 111.531 7128.169
+  angles 0 -180 0
+  m_sAttachmentGroupName "AFRF_202"
  }
+}
+$grp Vehicle : "{BA51FA27A606610E}Prefabs/Vehicles/Wheeled/Ural_4320_Grad/BM 21-1_3M16_tan.et" {
+ AFRF_200_W0 {
+  components {
+   MeshObject "{51DAA09FEFBFC0E7}" {
+    Materials {
+     MaterialAssignClass "{66F57AB42F53EE55}" {
+      SourceMaterial "Ural_Body"
+      AssignedMaterial "{877194EA94C1DE33}Assets/Vehicles/Wheeled/Ural4320/Data/Ural_4320_Body_tan.emat"
+     }
+     MaterialAssignClass "{66F57AB42F53EE62}" {
+      SourceMaterial "Ural_Details"
+      AssignedMaterial "{184D82D81EA136B1}Assets/Vehicles/Wheeled/Ural4320/Data/Ural_4320_Details_tan.emat"
+     }
+     MaterialAssignClass "{66F57AB42F53EE69}" {
+      SourceMaterial "Ural_Interior_01"
+      AssignedMaterial "{0FFA8CAB35F7C95D}Assets/Vehicles/Wheeled/Ural4320/Data/Ural_4320_Interior_tan.emat"
+     }
+     MaterialAssignClass "{66F57AB42F53EE72}" {
+      SourceMaterial "Ural_Interior_02"
+      AssignedMaterial "{D7BBAC0CA2E47607}Assets/Vehicles/Wheeled/Ural4320/Data/Ural_4320_Interior_Metals_tan.emat"
+     }
+    }
+   }
+   SlotManagerComponent "{55BCE45E438E4CFF}" {
+    Slots {
+     SCR_WeaponRackSlotInfo Weapon {
+      Prefab "{3013B19BFB4DFDD5}Prefabs/Vehicles/Wheeled/Ural_4320_Grad/VehParts/BM_21_Turret_3M16_tan.et"
+     }
+    }
+   }
+  }
+  coords 8351.341 111.531 7081.328
+  angles 0 90 0
+  m_sAttachmentGroupName "AFRF_200"
+ }
+ AFRF_201_W0 {
+  components {
+   MeshObject "{51DAA09FEFBFC0E7}" {
+    Materials {
+     MaterialAssignClass "{66F57AB42F53EE55}" {
+      SourceMaterial "Ural_Body"
+      AssignedMaterial "{877194EA94C1DE33}Assets/Vehicles/Wheeled/Ural4320/Data/Ural_4320_Body_tan.emat"
+     }
+     MaterialAssignClass "{66F57AB42F53EE62}" {
+      SourceMaterial "Ural_Details"
+      AssignedMaterial "{184D82D81EA136B1}Assets/Vehicles/Wheeled/Ural4320/Data/Ural_4320_Details_tan.emat"
+     }
+     MaterialAssignClass "{66F57AB42F53EE69}" {
+      SourceMaterial "Ural_Interior_01"
+      AssignedMaterial "{0FFA8CAB35F7C95D}Assets/Vehicles/Wheeled/Ural4320/Data/Ural_4320_Interior_tan.emat"
+     }
+     MaterialAssignClass "{66F57AB42F53EE72}" {
+      SourceMaterial "Ural_Interior_02"
+      AssignedMaterial "{D7BBAC0CA2E47607}Assets/Vehicles/Wheeled/Ural4320/Data/Ural_4320_Interior_Metals_tan.emat"
+     }
+    }
+   }
+   SlotManagerComponent "{55BCE45E438E4CFF}" {
+    Slots {
+     SCR_WeaponRackSlotInfo Weapon {
+      Prefab "{3013B19BFB4DFDD5}Prefabs/Vehicles/Wheeled/Ural_4320_Grad/VehParts/BM_21_Turret_3M16_tan.et"
+     }
+    }
+   }
+  }
+  coords 8351.309 111.531 7091.512
+  angles 0 90 0
+  m_sAttachmentGroupName "AFRF_201"
+ }
+ AFRF_202_W0 {
+  components {
+   MeshObject "{51DAA09FEFBFC0E7}" {
+    Materials {
+     MaterialAssignClass "{66F57AB42F53EE55}" {
+      SourceMaterial "Ural_Body"
+      AssignedMaterial "{877194EA94C1DE33}Assets/Vehicles/Wheeled/Ural4320/Data/Ural_4320_Body_tan.emat"
+     }
+     MaterialAssignClass "{66F57AB42F53EE62}" {
+      SourceMaterial "Ural_Details"
+      AssignedMaterial "{184D82D81EA136B1}Assets/Vehicles/Wheeled/Ural4320/Data/Ural_4320_Details_tan.emat"
+     }
+     MaterialAssignClass "{66F57AB42F53EE69}" {
+      SourceMaterial "Ural_Interior_01"
+      AssignedMaterial "{0FFA8CAB35F7C95D}Assets/Vehicles/Wheeled/Ural4320/Data/Ural_4320_Interior_tan.emat"
+     }
+     MaterialAssignClass "{66F57AB42F53EE72}" {
+      SourceMaterial "Ural_Interior_02"
+      AssignedMaterial "{D7BBAC0CA2E47607}Assets/Vehicles/Wheeled/Ural4320/Data/Ural_4320_Interior_Metals_tan.emat"
+     }
+    }
+   }
+   SlotManagerComponent "{55BCE45E438E4CFF}" {
+    Slots {
+     SCR_WeaponRackSlotInfo Weapon {
+      Prefab "{3013B19BFB4DFDD5}Prefabs/Vehicles/Wheeled/Ural_4320_Grad/VehParts/BM_21_Turret_3M16_tan.et"
+     }
+    }
+   }
+  }
+  coords 8351.185 111.531 7101.723
+  angles 0 90 0
+  m_sAttachmentGroupName "AFRF_202"
+ }
+}
+Vehicle AFRF_000_W : "{F0383F4EEF087C59}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_command_tan.et" {
+ coords 8412.56 111.531 7040.435
+ angles 0 -180 0
+ m_sAttachmentGroupName "AFRF_000"
 }
 $grp SCR_AIGroup : "{F7F7682FD696D05B}Prefabs/Groups/OPFOR/drg_Group_RHS_AFRF_Desert_ShowCase.et" {
  AFRF_100 {
@@ -39,11 +168,12 @@ $grp SCR_AIGroup : "{F7F7682FD696D05B}Prefabs/Groups/OPFOR/drg_Group_RHS_AFRF_De
    "{5203F4A341926381}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Desert/drg_Role_RHS_AFRF_Desert_CrewDriver.et"
    "{B528534369656A2C}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Desert/drg_Role_RHS_AFRF_Desert_CrewGunner.et"
   }
+  m_sCustomNameSet "#DRG-Sq-RifleSquad"
  }
- AFRF_8 {
+ AFRF_200 {
   components {
    PS_GroupCallsignAssigner "{6620DBC8E2862E45}" {
-    m_iCompanyCallsign 1
+    m_iCompanyCallsign 2
    }
   }
   coords 8407.419 111.531 7071.029
@@ -59,11 +189,13 @@ $grp SCR_AIGroup : "{F7F7682FD696D05B}Prefabs/Groups/OPFOR/drg_Group_RHS_AFRF_De
    "{585C783191900F1B}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Desert/drg_Role_RHS_AFRF_Desert_Sapper.et"
    "{7983C2C66F11BD38}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Desert/drg_Role_RHS_AFRF_Desert_Rifleman.et"
   }
+  m_sCustomNameSet "#DRG-Sq-RifleSquad"
  }
- AFRF_5 {
+ AFRF_101 {
   components {
    PS_GroupCallsignAssigner "{6620DBC8E2862E45}" {
     m_iCompanyCallsign 1
+    m_iSquadCallsign 1
    }
   }
   coords 8407.419 111.531 7086.376
@@ -79,11 +211,13 @@ $grp SCR_AIGroup : "{F7F7682FD696D05B}Prefabs/Groups/OPFOR/drg_Group_RHS_AFRF_De
    "{5203F4A341926381}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Desert/drg_Role_RHS_AFRF_Desert_CrewDriver.et"
    "{B528534369656A2C}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Desert/drg_Role_RHS_AFRF_Desert_CrewGunner.et"
   }
+  m_sCustomNameSet "#DRG-Sq-RifleSquad"
  }
- AFRF_6 {
+ AFRF_201 {
   components {
    PS_GroupCallsignAssigner "{6620DBC8E2862E45}" {
-    m_iCompanyCallsign 1
+    m_iCompanyCallsign 2
+    m_iSquadCallsign 1
    }
   }
   coords 8407.419 111.531 7101.702
@@ -99,11 +233,13 @@ $grp SCR_AIGroup : "{F7F7682FD696D05B}Prefabs/Groups/OPFOR/drg_Group_RHS_AFRF_De
    "{585C783191900F1B}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Desert/drg_Role_RHS_AFRF_Desert_Sapper.et"
    "{7983C2C66F11BD38}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Desert/drg_Role_RHS_AFRF_Desert_Rifleman.et"
   }
+  m_sCustomNameSet "#DRG-Sq-RifleSquad"
  }
- AFRF_7 {
+ AFRF_102 {
   components {
    PS_GroupCallsignAssigner "{6620DBC8E2862E45}" {
     m_iCompanyCallsign 1
+    m_iSquadCallsign 2
    }
   }
   coords 8407.419 111.531 7117.017
@@ -119,11 +255,13 @@ $grp SCR_AIGroup : "{F7F7682FD696D05B}Prefabs/Groups/OPFOR/drg_Group_RHS_AFRF_De
    "{5203F4A341926381}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Desert/drg_Role_RHS_AFRF_Desert_CrewDriver.et"
    "{B528534369656A2C}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Desert/drg_Role_RHS_AFRF_Desert_CrewGunner.et"
   }
+  m_sCustomNameSet "#DRG-Sq-RifleSquad"
  }
- AFRF_9 {
+ AFRF_202 {
   components {
    PS_GroupCallsignAssigner "{6620DBC8E2862E45}" {
-    m_iCompanyCallsign 1
+    m_iCompanyCallsign 2
+    m_iSquadCallsign 2
    }
   }
   coords 8407.419 111.531 7132.341
@@ -139,5 +277,6 @@ $grp SCR_AIGroup : "{F7F7682FD696D05B}Prefabs/Groups/OPFOR/drg_Group_RHS_AFRF_De
    "{585C783191900F1B}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Desert/drg_Role_RHS_AFRF_Desert_Sapper.et"
    "{7983C2C66F11BD38}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Desert/drg_Role_RHS_AFRF_Desert_Rifleman.et"
   }
+  m_sCustomNameSet "#DRG-Sq-RifleSquad"
  }
 }
