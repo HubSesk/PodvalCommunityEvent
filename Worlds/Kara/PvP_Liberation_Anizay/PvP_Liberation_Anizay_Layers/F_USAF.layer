@@ -191,13 +191,14 @@ SCR_AIGroup USAF_410 : "{88BE84A3E78CF73E}Prefabs/Groups/BLUFOR/drg_USAF_SniperT
  }
  coords 8525.022 111.531 6569.849
  angles 0 -90 0
- m_aUnitPrefabSlots {
-  "{D13AD1B898B26305}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_Sniper_M107.et"
-  "{6C9433CEFA84F73C}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_Spotter_M107.et"
-  "{D82203FB9DC2F6C6}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_RTO.et"
+ m_aUnitPrefabSlots +{
   "{893533817C25A8B0}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_Medic.et"
  }
  m_sCustomNameSet "Снайпера"
+}
+Vehicle USAF_310_W : "{AF950919C81D91B4}Prefabs/Vehicles/Helicopters/AH6M/MH6M.et" {
+ coords 8497.601 111.551 6571.544
+ m_sAttachmentGroupName "USAF_310"
 }
 $grp Vehicle : "{BC58478FE724BCEF}Prefabs/Vehicles/Wheeled/M998/M1025_USAF_D.et" {
  USAF_100_W0 {
@@ -271,15 +272,9 @@ SCR_AIGroup USAF_000 : "{D9B32FE6DF696BE5}Prefabs/Groups/BLUFOR/drg_USAF_Platoon
   ""
  }
 }
-$grp Vehicle : "{DDDD9B51F1234DF3}Prefabs/Vehicles/Helicopters/UH1H/UH1H_armed.et" {
- USAF_310_W {
-  coords 8496.515 111.551 6571.533
-  m_sAttachmentGroupName "USAF_310"
- }
- USAF_300_W {
-  coords 8497.371 111.551 6609.227
-  m_sAttachmentGroupName "USAF_300"
- }
+Vehicle USAF_300_W : "{DDDD9B51F1234DF3}Prefabs/Vehicles/Helicopters/UH1H/UH1H_armed.et" {
+ coords 8497.371 111.551 6609.227
+ m_sAttachmentGroupName "USAF_300"
 }
 SCR_AIGroup USAF_400 : "{FE3EB0683DD1C6DD}Prefabs/Groups/BLUFOR/drg_Group_RHS_SOCOM_Team.et" {
  components {
