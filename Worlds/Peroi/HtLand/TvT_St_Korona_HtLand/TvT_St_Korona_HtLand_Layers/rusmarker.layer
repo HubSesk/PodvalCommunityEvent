@@ -1,26 +1,4 @@
 $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
- RHS_AFRF_G_200_M {
-  coords 2259.857 0.065 393.72
-  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
-  m_sImageSetGlow ""
-  m_MarkerColor 1 1 1 1
-  m_sQuadName "undefined"
-  m_fWorldSize 50
-  m_sDescription "(Разведка) Kompas 1–1"
-  m_bUseWorldScale 0
-  m_aVisibleForFactions {
-   "RHS_AFRF"
-   "RHS_USAF"
-   "Ses_CDF"
-   "Ses_ChDKZ"
-   "Ses_TKR"
-   "Ses_TKA"
-  }
-  m_bVisibleForEmptyFaction 1
-  m_aHideOnGameModeStates {
-  }
-  m_iZOrder 10
- }
  RHS_AFRF_G_000_M {
   coords 2045.997 8.521 528.329
   m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
@@ -153,16 +131,15 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   }
   m_iZOrder 10
  }
- {
-  coords 2266.718 0 393.552
-  angles -0.611 223.025 0.654
-  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+ RHS_AFRF_G_200_M {
+  coords 1923.848 8.987 676.978
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
   m_sImageSetGlow ""
-  m_MarkerColor 0.855 0.031 0.028 1
-  m_sQuadName "Helicopter"
-  m_fWorldSize 2.51
-  m_sDescription "#BELL-Vehicle_Boat_name"
-  m_bUseWorldScale 1
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "undefined"
+  m_fWorldSize 50
+  m_sDescription "(Разведка) Kompas 1–1"
+  m_bUseWorldScale 0
   m_aVisibleForFactions {
    "RHS_AFRF"
    "RHS_USAF"
@@ -173,8 +150,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   }
   m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
-   GAME
   }
-  m_iZOrder 0
+  m_iZOrder 10
  }
 }
