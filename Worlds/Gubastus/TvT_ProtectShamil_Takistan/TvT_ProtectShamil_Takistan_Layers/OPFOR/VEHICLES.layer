@@ -5,15 +5,21 @@ $grp Vehicle : "{03D9932135924AEF}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_Camo_un
   m_sAttachmentGroupName "AFRF_200"
  }
  UAZ469_Camo_uncovered2 {
-  coords 1271.017 472.034 7102.173
-  angles -1.993 90.933 0.252
+  coords 683.852 544.913 7537.885
+  angles 1.653 62.643 0.104
   m_sAttachmentGroupName "AFRF_100"
  }
 }
 Vehicle Ural4320_command_camo1 : "{2C95509CA3E61DE1}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_command_camo1.et" {
- coords 1310.725 471.184 7101.57
- angles 0 90 0
+ coords 719.17 545.046 7556.007
+ angles -0.385 61.804 -0.116
  m_sAttachmentGroupName "AFRF_000"
+ {
+  GameEnvironmentProbeEntity {
+   ID "654C8CD3B0316F22"
+   coords 0.028 -0.583 1.355
+  }
+ }
 }
 Vehicle Mi8MT_armed_gunship_HE1 : "{3C6B3ED0C3AC30D5}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_armed_gunship_HE.et" {
  coords 8330.854 322.187 1943.802
@@ -32,14 +38,26 @@ $grp Vehicle : "{447CFE8D73F95C3E}Prefabs/Vehicles/Wheeled/BTR70/BTR70_AFRF.et" 
   m_sAttachmentGroupName "AFRF_202"
  }
  BTR70_AFRF3 {
-  coords 1238.137 473.513 7103.128
-  angles -5.665 90.963 -0.095
+  coords 654.427 543.86 7523.188
+  angles 2.792 62.464 -0.174
   m_sAttachmentGroupName "AFRF_102"
+  {
+   GameEnvironmentProbeEntity {
+    ID "654E652E0CEAC5BD"
+    coords -0.002 -0.351 1.302
+   }
+  }
  }
  BTR70_AFRF4 {
-  coords 1223.03 475.173 7103.369
-  angles -7.317 92.556 -0.89
+  coords 640.998 543.123 7516.278
+  angles 2.795 63.979 -0.1
   m_sAttachmentGroupName "AFRF_103"
+  {
+   GameEnvironmentProbeEntity {
+    ID "654E652E0CEAC5BD"
+    coords -0.024 -0.271 1.335
+   }
+  }
  }
 }
 $grp Vehicle : "{9AEDF323A812F9ED}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_AFRF.et" {
@@ -49,8 +67,14 @@ $grp Vehicle : "{9AEDF323A812F9ED}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_AFRF.et" 
   m_sAttachmentGroupName "AFRF_201"
  }
  BRDM2_AFRF2 {
-  coords 1255.647 472.642 7102.562
-  angles -2.273 90 0
+  coords 670.125 544.55 7530.958
+  angles 1.52 61.682 -0.174
   m_sAttachmentGroupName "AFRF_101"
+  {
+   GameEnvironmentProbeEntity {
+    ID "654E62C3B5F7E16E"
+    coords 0.001 -0.553 1.003
+   }
+  }
  }
 }

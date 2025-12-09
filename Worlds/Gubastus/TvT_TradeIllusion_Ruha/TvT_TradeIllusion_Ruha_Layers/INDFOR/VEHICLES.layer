@@ -1,11 +1,3 @@
-$grp Turret : "{1A407760EEAE4156}Prefabs/Vehicles/Static/BaconZU23/BaconZU23_Turret_Deployed.et" {
- {
-  coords 5973.108 65.061 6877.961
- }
- {
-  coords 6119.396 56.625 7059.816
- }
-}
 $grp Vehicle : "{442939C9617DF228}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_FIA.et" {
  BRDM2_FIA2 {
   coords 6171.576 53.875 8043.974
@@ -46,8 +38,8 @@ $grp Vehicle : "{E6AEC014D162D686}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_FIA
     "Encryption key" "candleSauce"
    }
   }
-  coords 6106.481 56.406 6958.85
-  angles 0 141.895 0
+  coords 6023.165 57.407 6881.385
+  angles 0 -85 0
   m_sAttachmentGroupName ""
  }
  Ural4320_FIA_command2 {
@@ -56,8 +48,8 @@ $grp Vehicle : "{E6AEC014D162D686}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_FIA
     "Encryption key" "candleSauce"
    }
   }
-  coords 6097.397 56.406 6969.89
-  angles 0 141.895 0
+  coords 6021.598 57.407 6869.164
+  angles 0 -85 0
   m_sAttachmentGroupName ""
  }
 }
@@ -72,8 +64,13 @@ Vehicle Ural4320_transport_covered_CIV_blue1 : "{F66EAD0D2016B6BA}Prefabs/Vehicl
   }
  }
 }
-Vehicle Ural4320_transport_covered_CIV_JZD1 : "{FB219B49A448A8EA}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered_CIV_JZD.et" {
- coords 6024.148 57 6934.05
- angles 0 86.709 0
- m_sAttachmentGroupName "NAPA_103"
+$grp Vehicle : "{FD109F3702AAB392}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_ZU23.et" {
+ Ural4320_ZU2 {
+  coords 6104.819 56.406 6972.769
+  angles 0 140.63 0
+ }
+ Ural4320_ZU1 {
+  coords 6098.969 56.406 6967.809
+  angles 0 140.63 0
+ }
 }
