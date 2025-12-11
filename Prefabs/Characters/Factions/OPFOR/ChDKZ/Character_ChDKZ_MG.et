@@ -3,6 +3,9 @@ SCR_ChimeraCharacter : "{3333379EC5576A15}Prefabs/Characters/Factions/OPFOR/ChDK
  components {
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
+    LoadoutSlotInfo Back {
+     Prefab "{41A9C55B61F375F0}Prefabs/Items/Equipment/Backpacks/Backpack_Kolobok.et"
+    }
     LoadoutSlotInfo Vest {
     }
    }
@@ -18,9 +21,14 @@ SCR_ChimeraCharacter : "{3333379EC5576A15}Prefabs/Characters/Factions/OPFOR/ChDK
     ItemsInitConfigurationItem "{66E2D084ECE93524}" {
      TargetStorage "Jacket/Jacket_M88_ChDKZ_rolledup.et"
     }
+    ItemsInitConfigurationItem "{6716CE5A80E1F197}" {
+     TargetStorage "Back/Backpack_Kolobok.et"
+     PrefabsToSpawn {
+      "{E5E9C5897CF47F44}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_4Ball_1Tracer.et" "{E5E9C5897CF47F44}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_4Ball_1Tracer.et"
+     }
+    }
    }
   }
  }
- coords 868.49 39 2655.936
- angles 0 -15 0
+ coords 712.233 39 2609.76
 }
