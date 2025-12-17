@@ -1,0 +1,15 @@
+SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
+ coords 4510.301 175.342 4062.316
+}
+PerceptionManager PerceptionManager3 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 3139.12 98.12 10130.56
+}
+PS_GameModeCoop PS_GameMode_Lobby2 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
+ components {
+  SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
+   m_iStartingHours 9
+  }
+ }
+ coords 3143.871 101.145 10153.628
+ m_iFreezeTime 180000
+}
