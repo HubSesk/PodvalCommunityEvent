@@ -1,0 +1,82 @@
+$grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
+ {
+  coords 2831.869 434.767 4239.76
+  m_sTitle "Захватили Штаб"
+  m_iScore 50
+  m_sFactionKey "RHS_USAF"
+ }
+ {
+  coords 2831.212 435.163 4239.13
+  m_sTitle "Удержали Штаб"
+  m_iScore 50
+  m_sFactionKey "RHS_AFRF"
+ }
+ {
+  coords 1541.702 268.963 1331.719
+  m_sTitle "Удержали Блиндаж"
+  m_iScore 50
+  m_sFactionKey "RHS_AFRF"
+ }
+ {
+  coords 1560.183 256.297 1334.721
+  m_sTitle "Захватили Блиндаж"
+  m_iScore 50
+  m_sFactionKey "RHS_USAF"
+ }
+}
+GenericEntity : "{E6FC6DD69FA3479F}Prefabs/System/DRG_MissionEndTimerPrefab.et" {
+ components {
+  DRG_MissionEndTimerComponent "{651B0839B21B3BBF}" {
+   m_iMissionTime 2400
+  }
+ }
+ coords 2772.594 276.388 4116.711
+}
+$grp GenericEntity : "{F5EF4223ACA6169C}PrefabsEditable/Auto/Structures/Military/Flags/E_FlagPole_02_V1_AFRF.et" {
+ {
+  components {
+   SCR_EditableEntityComponent "{5EF0BDF2D0A30F85}" {
+    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+     m_sFaction "RHS_ION"
+    }
+   }
+   SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+    m_aFlagData {
+     PS_FlagData "{6588FCB6C8DD7B29}" {
+      m_sFactionKey "RHS_AFRF"
+     }
+     PS_FlagData "{6588FCB6C83102AD}" {
+      m_sFactionKey "RHS_USAF"
+      m_iCaptureCounter 1
+     }
+    }
+   }
+  }
+  coords 4920.257 299.501 9442.993
+  angles -0.124 -47.536 29.485
+  scale 1.31
+ }
+ {
+  components {
+   SCR_EditableEntityComponent "{5EF0BDF2D0A30F85}" {
+    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+     m_sFaction "RHS_ION"
+    }
+   }
+   SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+    m_aFlagData {
+     PS_FlagData "{6588FCB6C8DD7B29}" {
+      m_sFactionKey "RHS_AFRF"
+     }
+     PS_FlagData "{6588FCB6C83102AD}" {
+      m_sFactionKey "RHS_USAF"
+      m_iCaptureCounter 1
+     }
+    }
+   }
+  }
+  coords 4684.276 276.295 9508.81
+  angles 0.067 -7.866 -28.363
+  scale 1.17
+ }
+}
