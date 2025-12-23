@@ -1,0 +1,178 @@
+SCR_AIGroup CDF00 : "{0EEC68B499065772}Prefabs/Groups/BLUFOR/Ses_CDF/Group_Ses_CDF_PlatoonHQ.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "0"
+  }
+  PS_GroupCallsignAssigner "{672EBE6A6B7D10F4}" {
+  }
+ }
+ coords 5793.568 39.715 5819.847
+ angles 0 64.506 0
+ m_aUnitPrefabSlots {
+  "{DCDB97BE32744632}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Random/Character_CDF_PL_Random.et"
+  "{C0B22110761AA2E9}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Random/Character_CDF_Medic_Random.et"
+  "{03A6062FDF62A7F9}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_Sniper.et"
+ }
+ m_bSnapToTerrain 0
+ m_sCustomNameSet "Управление взвода"
+}
+SCR_AIGroup CDF30 : "{1F26994029F145CD}Prefabs/Groups/BLUFOR/Ses_CDF/Group_Ses_CDF_SapperTeam.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "0"
+  }
+  PS_GroupCallsignAssigner "{672ED66DBC4900C5}" {
+   m_iCompanyCallsign 3
+  }
+ }
+ coords 6260.129 48.875 5092.513
+ angles 0 -174.363 0
+ m_aUnitPrefabSlots {
+  "{759D8C8B4213D504}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_Sapper.et"
+  "{33D3F01D83B36B8F}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_Sapper_2.et"
+  "{D64FBCE48F56FCE4}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_Sapper_3.et"
+ }
+ m_sCustomNameSet "Группа саперов"
+}
+$grp SCR_AIGroup : "{338E63B617C13325}Prefabs/Groups/BLUFOR/Ses_CDF/Group_Ses_CDF_FireTeam.et" {
+ CDF10 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "0"
+   }
+   PS_GroupCallsignAssigner "{672EBE6BB5D76260}" {
+    m_iCompanyCallsign 1
+   }
+  }
+  coords 5696.725 4.497 8358.796
+  angles 0 -126.795 0
+  m_aUnitPrefabSlots {
+   "{03A6062FDF62A7F8}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_SR.et"
+   "{7B9EAE5EB616387A}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_AR.et"
+   "{764BD07F41A15150}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_GL.et"
+   "{03A6062FDF62A7F9}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_Sniper.et"
+  }
+  m_sCustomNameSet "Развед.отделение"
+ }
+ CDF20 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "0"
+   }
+   PS_GroupCallsignAssigner "{672EBE64B554396C}" {
+    m_iCompanyCallsign 2
+   }
+  }
+  coords 4756.385 6.985 8686.115
+  angles 0 -80.342 0
+  m_aUnitPrefabSlots {
+   "{03A6062FDF62A7F8}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_SR.et"
+   "{7B9EAE5EB616387A}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_AR.et"
+   "{764BD07F41A15150}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_GL.et"
+   "{03A6062FDF62A7F9}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_Sniper.et"
+  }
+  m_sCustomNameSet "Развед.отделение"
+ }
+}
+$grp SCR_AIGroup : "{50DE534A7953C1CC}Prefabs/Groups/BLUFOR/Ses_CDF/Group_Ses_CDF_RifleSquad.et" {
+ CDF01 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "0"
+   }
+   PS_GroupCallsignAssigner "{672EBE6A4A685B43}" {
+    m_iSquadCallsign 1
+   }
+  }
+  coords 5801.494 39.611 5828.757
+  angles 0 -112.717 0
+  m_aUnitPrefabSlots {
+   "{EB4AE2CBF1083C82}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_SL_4.et"
+   "{243A398621AB3DC2}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_SR_4.et"
+   "{7B9EAE5EB616387A}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_AR.et"
+   "{6DA7E54B8E4F3FC3}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_LAT.et"
+   "{6579D9103B972A23}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_LAT_2.et"
+   "{764BD07F41A15150}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_GL.et"
+   "{9DE22FB5586591CC}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_Rifleman.et"
+   "{16165F4184929A69}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_Medic.et"
+   "{03A6062FDF62A7F9}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_Sniper.et"
+  }
+  m_bSnapToTerrain 0
+  m_sCustomNameSet "Стрелковое отделение"
+ }
+ CDF02 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "0"
+   }
+   PS_GroupCallsignAssigner "{672EBE6A4CDE6569}" {
+    m_iSquadCallsign 2
+   }
+  }
+  coords 5807.537 39.579 5812.746
+  angles 0 -111.645 0
+  m_aUnitPrefabSlots {
+   "{EB4AE2CBF1083C82}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_SL_4.et"
+   "{243A398621AB3DC2}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_SR_4.et"
+   "{7B9EAE5EB616387A}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_AR.et"
+   "{6DA7E54B8E4F3FC3}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_LAT.et"
+   "{6579D9103B972A23}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_LAT_2.et"
+   "{764BD07F41A15150}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_GL.et"
+   "{9DE22FB5586591CC}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_Rifleman.et"
+   "{16165F4184929A69}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_Medic.et"
+   "{03A6062FDF62A7F9}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_Sniper.et"
+  }
+  m_bSnapToTerrain 0
+  m_sCustomNameSet "Стрелковое отделение"
+ }
+ CDF03 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "0"
+   }
+   PS_GroupCallsignAssigner "{672EBE6A441BCC3A}" {
+    m_iSquadCallsign 3
+   }
+  }
+  coords 5785.436 39.633 5816.431
+  angles 0 66.032 0
+  m_aUnitPrefabSlots {
+   "{EB4AE2CBF1083C82}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_SL_4.et"
+   "{243A398621AB3DC2}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_SR_4.et"
+   "{7B9EAE5EB616387A}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_AR.et"
+   "{6DA7E54B8E4F3FC3}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_LAT.et"
+   "{6579D9103B972A23}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_LAT_2.et"
+   "{764BD07F41A15150}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_GL.et"
+   "{9DE22FB5586591CC}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_Rifleman.et"
+   "{16165F4184929A69}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_Medic.et"
+   "{03A6062FDF62A7F9}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_Sniper.et"
+  }
+  m_bSnapToTerrain 0
+  m_sCustomNameSet "Стрелковое отделение"
+ }
+ CDF04 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "0"
+   }
+   PS_GroupCallsignAssigner "{672EBE6BB15C30E3}" {
+    m_iSquadCallsign 4
+   }
+  }
+  coords 5780.771 39.603 5827.944
+  angles 0 68.157 0
+  m_aUnitPrefabSlots {
+   "{EB4AE2CBF1083C82}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_SL_4.et"
+   "{243A398621AB3DC2}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_SR_4.et"
+   "{7B9EAE5EB616387A}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_AR.et"
+   "{6DA7E54B8E4F3FC3}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_LAT.et"
+   "{6579D9103B972A23}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_LAT_2.et"
+   "{764BD07F41A15150}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_GL.et"
+   "{9DE22FB5586591CC}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_Rifleman.et"
+   "{16165F4184929A69}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_Medic.et"
+   "{03A6062FDF62A7F9}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_Sniper.et"
+  }
+  m_bSnapToTerrain 0
+  m_sCustomNameSet "Стрелковое отделение"
+ }
+}
