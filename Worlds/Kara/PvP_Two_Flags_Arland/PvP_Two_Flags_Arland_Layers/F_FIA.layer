@@ -1,3 +1,34 @@
+SCR_ChimeraCharacter : "{156CA8B61F1F1CD7}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_Officer_P.et" {
+ components {
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{5D7CC173FAA7C00E}" {
+     PrefabsToSpawn {
+      "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et"
+      "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et"
+      "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et"
+      "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et"
+      "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et"
+      "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et"
+      "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et"
+      "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et"
+      "{3F1B1BAD1F6DDC28}Prefabs/Weapons/Attachments/Bayonets/Bayonet_VZ58/Bayonet_VZ58_v1.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6064823EBE518957}" {
+     PrefabsToSpawn +{
+      "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
+      "{A7313E86D0CE3C83}Prefabs/Items/Equipment/Radios/Radio_R148_FIA_rprv.et"
+      "{7CEF68E2BC68CE71}Prefabs/Items/Equipment/Compass/Compass_Adrianov.et"
+      "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/Map_Paper_01/PaperMap_01_folded.et"
+      "{062E2F1D7F6739D6}Prefabs/Items/Equipment/Accessories/ETool_MPL50/ETool_MPL50_FreeRoamBuilding_Gadget.et"
+     }
+    }
+   }
+  }
+ }
+ coords 3145.018 11.45 2773.192
+}
 $grp SCR_AIGroup : "{17C7309FFE4775B0}Prefabs/Groups/INDFOR/Group_FIA_RifleSquad_P.et" {
  FIA_101 {
   components {
@@ -12,14 +43,14 @@ $grp SCR_AIGroup : "{17C7309FFE4775B0}Prefabs/Groups/INDFOR/Group_FIA_RifleSquad
   coords 3150.862 11.334 2773.149
   angles 0 -48.857 0
   m_aUnitPrefabSlots {
-   "{5E10F18AF4717622}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_SL_P.et"
+   "{5E10F18AF4717622}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_SL_P.et"
    "{91602AC724D27762}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_SR_P.et"
-   "{46451B805F2CDE56}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_AT_P.et"
-   "{CE2C005A0F9D7E23}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_AAT_P.et"
-   "{6EF882860DCD77D1}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_MG_P.et"
-   "{E691995C5D7CD7A4}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_AMG_P.et"
-   "{950D59E028D3F268}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_Sharpshooter_P.et"
-   "{BF44997B8982C009}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_Rifleman_P.et"
+   "{46451B805F2CDE56}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_AT_P.et"
+   "{CE2C005A0F9D7E23}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_AAT_P.et"
+   "{6EF882860DCD77D1}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_MG_P.et"
+   "{E691995C5D7CD7A4}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_AMG_P.et"
+   "{950D59E028D3F268}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Sharpshooter_P.et"
+   "{BF44997B8982C009}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Rifleman_P.et"
   }
   m_sCustomNameSet "Стрелковое отделение"
  }
@@ -36,14 +67,14 @@ $grp SCR_AIGroup : "{17C7309FFE4775B0}Prefabs/Groups/INDFOR/Group_FIA_RifleSquad
   coords 3151.525 11.722 2782.613
   angles 0 130.851 0
   m_aUnitPrefabSlots {
-   "{5E10F18AF4717622}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_SL_P.et"
+   "{5E10F18AF4717622}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_SL_P.et"
    "{91602AC724D27762}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_SR_P.et"
-   "{46451B805F2CDE56}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_AT_P.et"
-   "{CE2C005A0F9D7E23}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_AAT_P.et"
-   "{6EF882860DCD77D1}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_MG_P.et"
-   "{E691995C5D7CD7A4}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_AMG_P.et"
-   "{950D59E028D3F268}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_Sharpshooter_P.et"
-   "{BF44997B8982C009}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_Rifleman_P.et"
+   "{46451B805F2CDE56}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_AT_P.et"
+   "{CE2C005A0F9D7E23}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_AAT_P.et"
+   "{6EF882860DCD77D1}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_MG_P.et"
+   "{E691995C5D7CD7A4}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_AMG_P.et"
+   "{950D59E028D3F268}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Sharpshooter_P.et"
+   "{BF44997B8982C009}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Rifleman_P.et"
   }
   m_sCustomNameSet "Стрелковое отделение"
  }
@@ -59,14 +90,14 @@ $grp SCR_AIGroup : "{17C7309FFE4775B0}Prefabs/Groups/INDFOR/Group_FIA_RifleSquad
   coords 2783.793 74.602 1629.126
   angles 0 155.016 0
   m_aUnitPrefabSlots {
-   "{5E10F18AF4717622}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_SL_P.et"
+   "{5E10F18AF4717622}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_SL_P.et"
    "{91602AC724D27762}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_SR_P.et"
-   "{46451B805F2CDE56}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_AT_P.et"
-   "{CE2C005A0F9D7E23}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_AAT_P.et"
-   "{6EF882860DCD77D1}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_MG_P.et"
-   "{E691995C5D7CD7A4}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_AMG_P.et"
-   "{950D59E028D3F268}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_Sharpshooter_P.et"
-   "{BF44997B8982C009}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_Rifleman_P.et"
+   "{46451B805F2CDE56}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_AT_P.et"
+   "{CE2C005A0F9D7E23}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_AAT_P.et"
+   "{6EF882860DCD77D1}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_MG_P.et"
+   "{E691995C5D7CD7A4}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_AMG_P.et"
+   "{950D59E028D3F268}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Sharpshooter_P.et"
+   "{BF44997B8982C009}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Rifleman_P.et"
   }
   m_sCustomNameSet "Стрелковое отделение"
  }
@@ -82,14 +113,14 @@ $grp SCR_AIGroup : "{17C7309FFE4775B0}Prefabs/Groups/INDFOR/Group_FIA_RifleSquad
   coords 2781.035 74.809 1617.774
   angles 0 -23.087 0
   m_aUnitPrefabSlots {
-   "{5E10F18AF4717622}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_SL_P.et"
+   "{5E10F18AF4717622}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_SL_P.et"
    "{91602AC724D27762}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_SR_P.et"
-   "{46451B805F2CDE56}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_AT_P.et"
-   "{CE2C005A0F9D7E23}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_AAT_P.et"
-   "{6EF882860DCD77D1}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_MG_P.et"
-   "{E691995C5D7CD7A4}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_AMG_P.et"
-   "{950D59E028D3F268}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_Sharpshooter_P.et"
-   "{BF44997B8982C009}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_Rifleman_P.et"
+   "{46451B805F2CDE56}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_AT_P.et"
+   "{CE2C005A0F9D7E23}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_AAT_P.et"
+   "{6EF882860DCD77D1}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_MG_P.et"
+   "{E691995C5D7CD7A4}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_AMG_P.et"
+   "{950D59E028D3F268}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Sharpshooter_P.et"
+   "{BF44997B8982C009}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Rifleman_P.et"
   }
   m_sCustomNameSet "Стрелковое отделение"
  }
@@ -107,7 +138,7 @@ $grp SCR_AIGroup : "{17C7309FFE4775B0}Prefabs/Groups/INDFOR/Group_FIA_RifleSquad
   coords 3122.264 15.441 2696.407
   angles 0 -59.315 0
   m_aUnitPrefabSlots {
-   "{5E10F18AF4717622}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_SL_P.et"
+   "{5E10F18AF4717622}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_SL_P.et"
    "{0A8F0A806F9AB5B3}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_CrewDriver.et"
    "{0A8F0A806F9AB5B4}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_CrewGunner.et"
    "{B63BF32359017C54}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_Sapper.et"
@@ -128,7 +159,7 @@ $grp SCR_AIGroup : "{17C7309FFE4775B0}Prefabs/Groups/INDFOR/Group_FIA_RifleSquad
   coords 3067.347 11.75 2869.641
   angles 0 36.815 0
   m_aUnitPrefabSlots {
-   "{5E10F18AF4717622}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_SL_P.et"
+   "{5E10F18AF4717622}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_SL_P.et"
    "{0A8F0A806F9AB5B3}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_CrewDriver.et"
    "{0A8F0A806F9AB5B4}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_CrewGunner.et"
    "{B63BF32359017C54}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_Sapper.et"
@@ -148,7 +179,7 @@ $grp SCR_AIGroup : "{17C7309FFE4775B0}Prefabs/Groups/INDFOR/Group_FIA_RifleSquad
   coords 2860.477 71.899 1658.004
   angles 0 -33.658 0
   m_aUnitPrefabSlots {
-   "{5E10F18AF4717622}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_SL_P.et"
+   "{5E10F18AF4717622}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_SL_P.et"
    "{0A8F0A806F9AB5B3}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_CrewDriver.et"
    "{0A8F0A806F9AB5B4}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_CrewGunner.et"
    "{B63BF32359017C54}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_Sapper.et"
@@ -168,7 +199,7 @@ $grp SCR_AIGroup : "{17C7309FFE4775B0}Prefabs/Groups/INDFOR/Group_FIA_RifleSquad
   coords 2659.808 79.824 1794.276
   angles 0 87.505 0
   m_aUnitPrefabSlots {
-   "{5E10F18AF4717622}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_SL_P.et"
+   "{5E10F18AF4717622}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_SL_P.et"
    "{0A8F0A806F9AB5B3}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_CrewDriver.et"
    "{0A8F0A806F9AB5B4}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_CrewGunner.et"
    "{B63BF32359017C54}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_Sapper.et"
