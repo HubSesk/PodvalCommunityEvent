@@ -10,6 +10,38 @@ $grp Vehicle : "{00BC1E407D536A34}Prefabs/Vehicles/Helicopters/UH1H/UH1H_armed_s
   m_sAttachmentGroupName "USAF_301"
  }
 }
+$grp Vehicle : "{03708F7E58BB7A53}Prefabs/Vehicles/Wheeled/M998/M1151_armed_M2HB.et" {
+ USAF_200_W {
+  coords 3736.647 220.281 5438.115
+  angles 0 152.274 0
+  m_sAttachmentGroupName "USAF_200"
+ }
+ USAF_201_W {
+  coords 3726.323 220.281 5456.456
+  angles 0 148.921 0
+  m_sAttachmentGroupName "USAF_201"
+ }
+ USAF_202_W {
+  coords 3715.297 220.261 5475.325
+  angles -0.462 148.91 -0.767
+  m_sAttachmentGroupName "USAF_202"
+ }
+ USAF_100_W {
+  coords 2683.107 24.219 5445.124
+  angles 0 179.227 0
+  m_sAttachmentGroupName "USAF_100"
+ }
+ USAF_101_W {
+  coords 2682.81 24.219 5464.542
+  angles 0 179.227 0
+  m_sAttachmentGroupName "USAF_101"
+ }
+ USAF_102_W {
+  coords 2682.275 24.219 5484.834
+  angles 0 179.227 0
+  m_sAttachmentGroupName "USAF_102"
+ }
+}
 $grp SCR_AIGroup : "{12488ED8CAB8DCDC}Prefabs/Groups/BLUFOR/DRG_Group_RHS_USAF_Squad.et" {
  USAF_400 {
   components {
@@ -232,40 +264,8 @@ SCR_AIGroup USAF_000 : "{4A02B745F553821E}Prefabs/Groups/BLUFOR/drg_USAF_Company
   "{741676D36040EA84}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_Rifleman.et"
  }
 }
-$grp Vehicle : "{FA6820A9A52CD05B}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_MDO_USAF.et" {
- USAF_000_W {
-  coords 2683.345 24.219 5435.143
-  angles 0 179.416 0
-  m_sAttachmentGroupName "USAF_000"
- }
- USAF_100_W {
-  coords 2683.13 24.219 5445.131
-  angles 0 178.049 0
-  m_sAttachmentGroupName "USAF_100"
- }
- USAF_101_W {
-  coords 2682.818 24.219 5465.134
-  angles 0 178.744 0
-  m_sAttachmentGroupName "USAF_101"
- }
- USAF_102_W {
-  coords 2682.417 24.219 5485.173
-  angles 0 179.402 0
-  m_sAttachmentGroupName "USAF_102"
- }
- USAF_200_W {
-  coords 3735.715 220.281 5439.789
-  angles 0 151.051 0
-  m_sAttachmentGroupName "USAF_200"
- }
- USAF_201_W {
-  coords 3725.086 220.266 5459.004
-  angles 0.783 151.045 -0.433
-  m_sAttachmentGroupName "USAF_201"
- }
- USAF_202_W {
-  coords 3714.381 220.275 5476.751
-  angles -0.433 151.061 -0.783
-  m_sAttachmentGroupName "USAF_202"
- }
+Vehicle USAF_000_W : "{FA6820A9A52CD05B}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_MDO_USAF.et" {
+ coords 2683.345 24.219 5435.143
+ angles 0 179.416 0
+ m_sAttachmentGroupName "USAF_000"
 }
