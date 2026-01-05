@@ -1,0 +1,46 @@
+Vehicle UAZ469_Camo_uncovered1 : "{03D9932135924AEF}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_Camo_uncovered.et" {
+ components {
+  SCR_UniversalInventoryStorageComponent "{5AD4F813E67ECB5D}" {
+   MultiSlots {
+    MultiSlotConfiguration "{684AA44BFD97994E}" {
+     SlotTemplate InventoryStorageSlot Bandages {
+      Prefab "{33B2DFDCD0EBA3DB}Prefabs/Items/Equipment/Kits/RepairKit_01/RepairKit_01_wrench.et"
+     }
+     NumSlots 1
+    }
+   }
+  }
+ }
+ coords 1363.576 20.656 2442.737
+ angles 0 62.418 0
+ m_sAttachmentGroupName "RHS_AFRF_PTUR"
+}
+$grp Vehicle : "{2B15F98903994DA3}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered_camo1.et" {
+ Ural4320_transport_covered_camo1 {
+  coords 1265.864 22.187 1345.33
+  angles 0 -89.978 0
+  m_sAttachmentGroupName "RHS_AFRF_Rifle2"
+ }
+ Ural4320_transport_covered_camo2 {
+  coords 1285.233 22.187 1345.157
+  angles 0 -89.978 0
+  m_sAttachmentGroupName "RHS_AFRF_Rifle1"
+ }
+}
+Vehicle Ural4320_command_camo1 : "{2C95509CA3E61DE1}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_command_camo1.et" {
+ coords 1266.254 22.187 1334.273
+ angles 0 -90.603 0
+ m_sAttachmentGroupName "RHS_AFRF_HQ"
+}
+$grp Vehicle : "{447CFE8D73F95C3E}Prefabs/Vehicles/Wheeled/BTR70/BTR70_AFRF.et" {
+ BTR70_AFRF1 {
+  coords 1231.699 22.175 1338.276
+  angles 0 -2.732 0
+  m_sAttachmentGroupName "RHS_AFRF_Rifle3"
+ }
+ BTR70_AFRF2 {
+  coords 1245.522 22.218 1348.055
+  angles 0 -89.518 0
+  m_sAttachmentGroupName "RHS_AFRF_Rifle4"
+ }
+}
