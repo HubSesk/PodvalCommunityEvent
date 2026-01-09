@@ -1,0 +1,68 @@
+SCR_ChimeraCharacter : "{59AD12E2838C02FF}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/VDV/Role_Character_AFRF_VDV_Recon_Rfl_2_Winter.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Снайпер-разведчик"
+    Icon "{57289CAE0D3DA346}UI/Icons/sabateur_sniper.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{0B7DF482E239DA8C}Prefabs/Weapons/SVD/SVD_Ver2.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Vest {
+     Prefab "{54DBACA0C6FC33AD}Prefabs/Characters/Vests/Vest_KBS_Strelok/KBS_Strelok_Var3.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{684866B273C47008}" {
+     TargetStorage "Vest/KBS_Strelok_Var3.et/mag1/Pouch_avs_front_elastic_MC.et"
+     PrefabsToSpawn {
+      "{1F9F751F318EBEB0}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et" "{1F9F751F318EBEB0}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et" "{1F9F751F318EBEB0}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et"
+     }
+    }
+    ItemsInitConfigurationItem "{684866B27BAA034D}" {
+     TargetStorage "Jacket/GD_6SH122_Suit_Hood_Winter_Mask.et"
+     PrefabsToSpawn {
+      "{1F9F751F318EBEB0}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et" "{1F9F751F318EBEB0}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et"
+     }
+    }
+    ItemsInitConfigurationItem "{684866B2841C5D34}" {
+     TargetStorage "Vest/KBS_Strelok_Var3.et/gasmask/GD_Holster_SLS.et"
+     PrefabsToSpawn {
+      "{A8B4089ACB473848}Prefabs/Weapons/Handguns/MP443/Handgun_MP443.et"
+     }
+    }
+    ItemsInitConfigurationItem "{684866B28130CE95}" {
+     TargetStorage "Vest/KBS_Strelok_Var3.et/pistol/Pouch_KBS_Pistol_Base.et"
+     PrefabsToSpawn {
+      "{D2E91B2DD0D3EF30}Prefabs/Weapons/Magazines/MP443/Magazine_9x19_MP443_17rnd_7N21.et"
+     }
+    }
+    ItemsInitConfigurationItem "{684866B28D1C91B2}" {
+     TargetStorage "Vest/KBS_Strelok_Var3.et/med/Pouch_UP104_utilmini_MC.et"
+    }
+    ItemsInitConfigurationItem "{684866B294EB8306}" {
+     TargetStorage "Vest/KBS_Strelok_Var3.et/med/Pouch_UP104_utilmini_MC.et"
+    }
+    ItemsInitConfigurationItem "{6848C86DD3D4D87A}" {
+     TargetStorage "Jacket/GD_6SH122_Suit_Hood_Winter_Mask.et"
+     PrefabsToSpawn {
+      "{1F9F751F318EBEB0}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et" "{1F9F751F318EBEB0}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et" "{1F9F751F318EBEB0}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6848C86DD82C5392}" {
+     TargetStorage "Jacket/GD_6SH122_Suit_Hood_Winter_Mask.et"
+     PrefabsToSpawn {
+      "{2A7C01B93CC92ACE}Prefabs/Items/Equipment/RangeCard/RangeCard_Notepad_AUTO.et"
+     }
+    }
+   }
+  }
+ }
+ coords 128.859 1 183.089
+}

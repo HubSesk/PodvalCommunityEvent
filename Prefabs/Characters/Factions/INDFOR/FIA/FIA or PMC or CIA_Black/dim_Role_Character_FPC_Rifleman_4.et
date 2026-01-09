@@ -1,0 +1,66 @@
+SCR_ChimeraCharacter : "{37D5A8D1A92CF95F}Prefabs/Characters/Factions/INDFOR/FIA/FIA or PMC or CIA_Black/Role_Character_FPC_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{DD6C95DB1BE30414}Prefabs/Characters/Headgear/Cap/Variants/CapReverse (MilGoggles + Mask).et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{57818742F6CC806D}Prefabs/Characters/Uniforms/T-shirt/T_Shirt with GPS.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{037DD3060547B417}Prefabs/Characters/Vests/Vest_JPC/Vest_JPC_MCBlk.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{94ECE8E50D0BDB5A}Prefabs/Characters/Uniforms/Pants_Jeans/Jeans2.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{CF35ADF94798B23E}Prefabs/Characters/Vests/Vest_JPC/variants/ION/Vest_JPC_MCBlk_nobelt_2.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{5D7CC173FAA7C00E}" {
+     TargetStorage "Pants/Jeans2.et"
+    }
+    ItemsInitConfigurationItem "{5D7CC173FAA7C00C}" {
+     TargetStorage "Pants/Jeans2.et"
+    }
+    ItemsInitConfigurationItem "{6721728B73532056}" {
+     TargetStorage "Jacket/T_Shirt with GPS.et"
+    }
+    ItemsInitConfigurationItem "{6721728B9FF71F2D}" {
+     TargetStorage "Vest/Vest_JPC_MCBlk_nobelt_2.et/Pouch1/Pouch_jpc_placard_MCBLK.et"
+    }
+    ItemsInitConfigurationItem "{6721728F8A0B7683}" {
+     TargetStorage "Vest/Vest_JPC_MCBlk_nobelt_2.et/flex1/Pouch_Shaw_Flex_Blk.et"
+     PrefabsToSpawn {
+      "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6721728F903E9859}" {
+     TargetStorage "Vest/Vest_JPC_MCBlk_nobelt_2.et/flex2/Pouch_Shaw_Flex_Blk.et"
+     PrefabsToSpawn {
+      "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6721728F9C834C1E}" {
+     TargetStorage "Vest/Vest_JPC_MCBlk_nobelt_2.et/flex3/Pouch_Shaw_Flex_Blk.et"
+     PrefabsToSpawn {
+      "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6721728BA12AEE95}" {
+     Enabled 0
+     TargetStorage ""
+    }
+    ItemsInitConfigurationItem "{6721728BB7F2C211}" {
+     TargetStorage "Vest/Vest_JPC_MCBlk_nobelt_2.et/hsgi2/Pouch_Highspeed_Bleeder_MCBlk.et"
+    }
+   }
+  }
+ }
+ coords 1612.606 38.269 2912.419
+}

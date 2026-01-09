@@ -1,0 +1,62 @@
+SCR_ChimeraCharacter : "{37D5A8D1A92CF95F}Prefabs/Characters/Factions/INDFOR/FIA/FIA or PMC or CIA_Black/Role_Character_FPC_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{077E96E8B75CE3CE}Prefabs/Characters/Headgear/Balaclava/Balaclava_FullMask_Var2.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{3B704B3F03F9CCCB}Prefabs/Characters/Vests/Vest_Shaw_ARC/Vest_Shaw_ARC_base.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{7B5AF62C009F18E4}Prefabs/Characters/Uniforms/Military Pants/Military Pants Long (Holster).et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{13542D61356FFB4D}Prefabs/Characters/Vests/Vest_AVS/Variants/ION/Vest_AVS_Blk_NoBelt_Light.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{D73018D5DF4E2259}Prefabs/Characters/Handwear/Gloves_Oackley/Gloves_Oackley_Black.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{5D7CC173FAA7C00E}" {
+     TargetStorage "Pants/Military Pants Long (Holster).et"
+    }
+    ItemsInitConfigurationItem "{5D7CC173FAA7C00C}" {
+     TargetStorage "Pants/Military Pants Long (Holster).et"
+    }
+    ItemsInitConfigurationItem "{6721728B73532056}" {
+     TargetStorage "Jacket/Shirt_CottonShirt_01_Black_Dirty.et"
+    }
+    ItemsInitConfigurationItem "{6721728B9FF71F2D}" {
+     TargetStorage "Vest/Vest_AVS_Blk_NoBelt_Light.et/Pouch1/Pouch_avs_front_elastic_Blk.et"
+    }
+    ItemsInitConfigurationItem "{6721728EEE4A4A68}" {
+     TargetStorage "Vest/Vest_AVS_Blk_NoBelt_Light.et/tako/Pouch_PCGEN3_takoPouch_MCBlk.et"
+     PrefabsToSpawn {
+      "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et" "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6721728EF444316C}" {
+     TargetStorage "Vest/Vest_AVS_Blk_NoBelt_Light.et/flex1/Pouch_Shaw_Flex.et"
+     PrefabsToSpawn {
+      "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6721728EF02F47BB}" {
+     TargetStorage "Vest/Vest_AVS_Blk_NoBelt_Light.et/flex2/Pouch_Shaw_Flex.et"
+     PrefabsToSpawn {
+      "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6721728BA12AEE95}" {
+     TargetStorage "Pants/Military Pants Long (Holster).et/Holster/JPC_Holster_Black_Work.et"
+    }
+   }
+  }
+ }
+ coords 1620.746 38.523 2914.551
+}

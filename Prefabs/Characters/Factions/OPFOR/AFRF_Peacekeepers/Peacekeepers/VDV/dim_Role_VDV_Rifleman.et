@@ -1,0 +1,88 @@
+SCR_ChimeraCharacter : "{B3EA537A7710985F}Prefabs/Characters/Factions/OPFOR/AFRF_Peacekeepers/Peacekeepers/Spetsnaz/Role_AFRF_PeaceSpetznaz_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_Rifleman"
+    Icon "{141B98C585768CC4}UI/Icons/VDV.edds"
+   }
+  }
+  CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
+   WeaponTemplate "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+  }
+  CharacterGrenadeSlotComponent "{5A6CDA0CCF43068E}" {
+   WeaponTemplate "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{38628630235993BF}Prefabs/Weapons/Rifles/AK200/variants/Rifle_AK200_1p87.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   AttachType InventoryStorageSlot "{0C3DA650B52E127A}" {
+    Offset 0.0401 -0.1677 0.0736
+    Angles 74.5194 179.9998 0.0001
+   }
+   WeaponTemplate "{722CE6FEC39EE896}Prefabs/Weapons/Launchers/RPG22/Launcher_RPG22.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{A85410783957C043}Prefabs/Characters/HeadGear/RUS_6b47/Prefabs/GD_6b47_Cover_MC_Closed.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{FB4339B483CACFC0}Prefabs/Characters/Vests/Vest_Ratnik_6B45/Vest_Ratnik_6B45_folded_collar.et"
+    }
+    LoadoutSlotInfo Back {
+     Enabled 1
+     Prefab "{A6B9DDC35384FE80}Prefabs/Items/Equipment/Backpacks/Backpack_Suharka_type2.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{20CFD20350444288}Prefabs/Characters/Vests/Vest_Ratnik_6B45/Variants/Vest_Ratnik_6B45_rifleman.et"
+    }
+    LoadoutSlotInfo Belt {
+     Enabled 1
+     Prefab "{9BFCB927F0778315}Prefabs/Characters/Vests/AVS/GD_Belt.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6712BC02CEB52194}" {
+     TargetStorage "Vest/Vest_Ratnik_6B45_rifleman.et/Pouch1/Pouch_Ratnik_ak_1_pouch.et"
+     PrefabsToSpawn +{
+     }
+    }
+    ItemsInitConfigurationItem "{6712BC02D8A26F81}" {
+     TargetStorage "Back/Backpack_Suharka_type2.et"
+    }
+    ItemsInitConfigurationItem "{6712BC02D8E1BECF}" {
+     TargetStorage "Back/Backpack_Suharka_type2.et"
+    }
+    ItemsInitConfigurationItem "{6712BC030DF417E1}" {
+     TargetStorage "Back/Backpack_Suharka_type2.et"
+    }
+    ItemsInitConfigurationItem "{6712BC0339D1F083}" {
+     TargetStorage "Vest/Vest_Ratnik_6B45_rifleman.et/FirstAid/Pouch_Ratnik_appi_pouch.et"
+    }
+    ItemsInitConfigurationItem "{6712BC03432AD397}" {
+     TargetStorage "Vest/Vest_Ratnik_6B45_rifleman.et/FirstAid/Pouch_Ratnik_appi_pouch.et"
+    }
+    ItemsInitConfigurationItem "{6712BC0349DCD9E9}" {
+     TargetStorage "Belt/GD_Belt.et/holster/Pouch_HP103_Holster_EMR.et"
+    }
+    ItemsInitConfigurationItem "{6712BC0364E85768}" {
+     TargetStorage "Vest/Vest_Ratnik_6B45_rifleman.et/Pouch2/Pouch_Ratnik_ak_2_pouch.et"
+    }
+    ItemsInitConfigurationItem "{6712BC03A4F7BB57}" {
+     TargetStorage "Vest/Vest_Ratnik_6B45_rifleman.et/FirstAid/Pouch_Ratnik_appi_pouch.et"
+    }
+    ItemsInitConfigurationItem "{6712BC24AD2A6105}" {
+     TargetStorage "Vest/Vest_Ratnik_6B45_rifleman.et/Pouch1/Pouch_Ratnik_ak_1_pouch.et"
+     PrefabsToSpawn {
+      "{B39F57E7FB003434}Prefabs/Weapons/Magazines/AK12_magazine/Magazine_545x39_AK12_30rnd_Base.et"
+     }
+    }
+   }
+  }
+ }
+ coords 5109.238 53.5 4757.002
+}

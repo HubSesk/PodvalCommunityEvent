@@ -1,0 +1,85 @@
+SCR_ChimeraCharacter : "{F642DED38A0E5705}Prefabs/Characters/Factions/OPFOR/AFRF_Peacekeepers/Peacekeepers/Army/Role_AFRF_Peacekeepers_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{BCEA0EB0D764D8DD}Prefabs/Items/Equipment/Binoculars/Rangefinder_PDU4.et"
+      }
+     }
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#DRG-COMPANY_LEADER"
+    Icon "{631E0A0EDCB63B8A}UI/Icons/company_leader.edds"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{1DD05D89AC003DC3}Prefabs/Characters/Headwear/VKPO_cap/Hat_VKPO.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{C75A2590D0D08A65}Prefabs/Characters/Uniforms/VKPO/Prefabs/GD_VKPO_Jacket_MC_Rolled.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{B31D9C2465D00D93}Prefabs/Items/Equipment/Radios/Radio_R107M_PL.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{6BE00E3EF60D76DB}Prefabs/Characters/Vests/AVS/GD_belt3.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6712BC158C3682A5}" {
+     TargetStorage "Jacket/GD_VKPO_Jacket_MC_Rolled.et"
+    }
+    ItemsInitConfigurationItem "{6712BC158C779A47}" {
+     TargetStorage "Jacket/GD_VKPO_Jacket_MC_Rolled.et"
+    }
+    ItemsInitConfigurationItem "{6712BC17A498A18D}" {
+     TargetStorage "Vest/GD_belt3.et"
+    }
+    ItemsInitConfigurationItem "{6712BC17A4CCF74C}" {
+     TargetStorage "Vest/GD_belt3.et/up105/Pouch_UP105_utilbig_EMR.et"
+    }
+    ItemsInitConfigurationItem "{6712BC17A401700B}" {
+     TargetStorage "Vest/GD_belt3.et/up105/Pouch_UP105_utilbig_EMR.et"
+    }
+    ItemsInitConfigurationItem "{6712BC17A47790BC}" {
+     TargetStorage "Vest/GD_belt3.et/up103belt/Pouch_UP103_Medkit_EMR.et"
+    }
+   }
+  }
+  ActionsManagerComponent "{520EA1D2F659CE02}" {
+   additionalActions {
+    DRG_DeathConfirmAction "{67233C42DD50EEB4}" {
+     ParentContextList {
+      "LowerTorso"
+     }
+     UIInfo UIInfo "{65E2D0EF1870FE87}" {
+      Name "Подтвердить смерть"
+     }
+     ActionTitle "#drg_ConfirmDeathAction"
+     Duration 3
+     m_sEventMessage "Победа США! Командир был ликвидирован!!"
+     m_aObjectivesToDone {
+      "KILL_LEADER"
+     }
+     m_aObjectivesToFail {
+      "SAVE_LEADER"
+     }
+     m_vFactionKey "RHS_USAF"
+    }
+   }
+  }
+ }
+ coords 4291.654 59.586 1737.799
+}

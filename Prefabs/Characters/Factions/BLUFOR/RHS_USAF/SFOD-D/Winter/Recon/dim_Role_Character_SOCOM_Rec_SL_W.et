@@ -1,0 +1,23 @@
+SCR_ChimeraCharacter : "{BD9BF00F4598B42E}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/SFOD-D/Winter/Role_Character_SOCOM_SL_Winter.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{0246473FC1F49981}Prefabs/Weapons/M4A1/M4_SOCOM_V_4.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{8EB8B94706226124}Prefabs/Characters/HeadGear/All_EXFIL/Winter/Exfil_GPNVG_W_4.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{672165248C18FB8D}" {
+     TargetStorage "Pants/GD_Crye_G4_Pants_Winter.et"
+    }
+   }
+  }
+ }
+ coords 2581.915 5.719 495.124
+}

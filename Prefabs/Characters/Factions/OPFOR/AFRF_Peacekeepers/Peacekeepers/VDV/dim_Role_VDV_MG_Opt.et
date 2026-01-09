@@ -1,0 +1,81 @@
+SCR_ChimeraCharacter : "{81A46802F77A86E5}Prefabs/Characters/Factions/OPFOR/AFRF_Peacekeepers/Peacekeepers/VDV/Role_VDV_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Пулеметчик"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{BC090DB2DEE8D5FB}Prefabs/Weapons/MachineGuns/PKM/MG_PKM_B51_1p86.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   Enabled 1
+   WeaponTemplate ""
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{B79061D6D55F3377}Prefabs/RF_Peacekeepers/Characters/Headgear/6b47/Prefabs/6b47_cover_googles_mask_green.et"
+    }
+    LoadoutSlotInfo Back {
+     Enabled 1
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{CCB46533102B7298}Prefabs/Characters/Vests/Vest_Ratnik_6B45/Variants/Vest_Ratin6B45_BebraPKM_1.et"
+    }
+    LoadoutSlotInfo Belt {
+     Enabled 0
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6712BC02C0AF7E7D}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{6712BC02CEB52194}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{6712BC02D8A26F81}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{6712BC02D8E1BECF}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{6712BC030DF417E1}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{6712BC0339D1F083}" {
+     Enabled 0
+     TargetStorage ""
+    }
+    ItemsInitConfigurationItem "{6712BC03432AD397}" {
+     TargetStorage "Vest/Vest_Ratin6B45_BebraPKM_1.et/FirstAid/Pouch_Ratnik_appi_pouch.et"
+    }
+    ItemsInitConfigurationItem "{6712BC0349DCD9E9}" {
+     TargetStorage "Vest/Vest_Ratin6B45_BebraPKM_1.et/PKM2/Pouch_Mordor_PKM_EMR.et"
+     PrefabsToSpawn {
+      "{0EAB3482EA2FD181}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N13.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6712BC0364E85768}" {
+     TargetStorage "Vest/Vest_Ratin6B45_BebraPKM_1.et/PKM1/Pouch_Mordor_PKM_EMR.et"
+     PrefabsToSpawn {
+      "{0EAB3482EA2FD181}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N13.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6712BC03A4F7BB57}" {
+     TargetStorage "Vest/Vest_Ratin6B45_BebraPKM_1.et/FirstAid/Pouch_Ratnik_appi_pouch.et"
+    }
+    ItemsInitConfigurationItem "{6712BC24AD2A6105}" {
+     TargetStorage "Back/Backpack_Suharka_type2.et"
+     PrefabsToSpawn {
+      "{0EAB3482EA2FD181}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N13.et" "{0EAB3482EA2FD181}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N13.et" "{0EAB3482EA2FD181}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N13.et" "{0EAB3482EA2FD181}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N13.et"
+     }
+    }
+   }
+  }
+ }
+ coords 7678.093 70.406 7905.689
+}

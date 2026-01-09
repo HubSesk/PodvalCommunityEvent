@@ -1,0 +1,57 @@
+SCR_ChimeraCharacter : "{F1FD7BE282FC48CA}Prefabs/Characters/Factions/CIV/Businessman/Character_CIV_Businessman_1.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
+   Override 1
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Jacket {
+     Prefab "{BB68DC18E1C571D8}Prefabs/Characters/Uniforms/VKPO/Undershirt_VKPO.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{0B1F0174869E0351}Prefabs/Characters/Uniforms/Pants_Fisherman_01/Pants_Fisherman_01_green.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{60DCBCECAC6C6E65}" {
+     TargetStorage "Pants/Pants_Fisherman_01_green.et"
+     PrefabsToSpawn {
+      "{7CEF68E2BC68CE71}Prefabs/Items/Equipment/Compass/Compass_Adrianov.et" "{983B57B8E95C1F52}Prefabs/Items/Equipment/Maps/Map_Paper_01/PaperMap_01_folded_FIA.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et" "{3F1B1BAD1F6DDC28}Prefabs/Weapons/Attachments/Bayonets/Bayonet_VZ58/Bayonet_VZ58_v1.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6454F7A57B363F47}" {
+     TargetStorage "Pants/Pants_Fisherman_01_green.et"
+     PrefabsToSpawn {
+      "{6F55DC6F599AF687}Prefabs/Items/Equipment/RangeCard/Note_MGS2.et"
+     }
+    }
+   }
+  }
+  ActionsManagerComponent "{520EA1D2F659CE02}" {
+   additionalActions {
+    DRG_DeathConfirmAction "{6843717738EC9452}" {
+     ParentContextList {
+      "LowerTorso"
+     }
+     UIInfo UIInfo "{65E2D0EF1870FE87}" {
+      Name "Подтвердить смерть"
+     }
+     ActionTitle "#drg_ConfirmDeathAction"
+     Duration 3
+     m_sEventMessage "Победа XOF! Снейк убит!"
+     m_aObjectivesToDone {
+      "KILL_LEADER"
+     }
+     m_aObjectivesToFail {
+      "SAVE_LEADER"
+     }
+     m_vFactionKey "ION"
+    }
+   }
+  }
+ }
+ coords 6638.939 25.551 3900.164
+}

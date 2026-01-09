@@ -1,0 +1,90 @@
+SCR_ChimeraCharacter : "{85DC746398497A5C}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/VDV/VDV_Regular/Role_Character_VDV_Reg_Rifleman_Winter.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{BCEA0EB0D764D8DD}Prefabs/Items/Equipment/Binoculars/Rangefinder_PDU4.et"
+      }
+     }
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_SquadLeader"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{F3381C8DE5FFACE2}Prefabs/Weapons/AK200/AK200_Optics.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   AttachType InventoryStorageSlot "{0C3DA650B52E127A}" {
+    Offset 0.0401 -0.1677 0.0736
+    Angles 74.5194 179.9998 0.0001
+   }
+   WeaponTemplate "{722CE6FEC39EE896}Prefabs/Weapons/Launchers/RPG22/Launcher_RPG22.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{97BC865F254715C0}Prefabs/Characters/HeadGear/RUS_6b47/Prefabs/Winter/GD_6B47_Cover_Open_Goggle_EMR_Winter.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{915E9D97CFAB02D6}Prefabs/Characters/Vests/Vest_Ratnik_6B45/Variants/Vest_Ratnik_6B45_officer.et"
+    }
+    LoadoutSlotInfo Belt {
+     Prefab "{8E7C42C7FAE8E1B0}Prefabs/Characters/Vests/AVS/GD_belt2.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6848D549BEE2DA60}" {
+     PrefabsToSpawn {
+      "{48B06B12F3BD7E9B}Prefabs/Items/Equipment/Radios/Radio_R187P1_OLD_SL.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6848D549D677F3ED}" {
+     TargetStorage "Jacket/GD_6SH122_Suit_Winter.et"
+    }
+    ItemsInitConfigurationItem "{6848D549E5D52154}" {
+     TargetStorage "Belt/GD_belt2.et/drop/Pouch_UP113_DropPouch_EMR.et"
+    }
+    ItemsInitConfigurationItem "{6848D549E66083A7}" {
+     TargetStorage "Vest/Vest_Ratnik_6B45_officer.et/Pouch2/Pouch_Ratnik_ak_2_pouch.et"
+    }
+    ItemsInitConfigurationItem "{6848D54816E2B311}" {
+     TargetStorage "Belt/GD_belt2.et/arsbelt2/Pouch_wartech_magpouch_mp103_EMR.et"
+    }
+    ItemsInitConfigurationItem "{6848D5481DCB92E9}" {
+     TargetStorage "Belt/GD_belt2.et/arsbelt/Pouch_wartech_magpouch_mp103_EMR.et"
+    }
+    ItemsInitConfigurationItem "{6848D549E2B9AFFF}" {
+     TargetStorage "Belt/GD_belt2.et/grenade1/Pouch_GP106_RGD_Pouch_2_EMR.et"
+    }
+    ItemsInitConfigurationItem "{6848D5480D232875}" {
+     TargetStorage "Belt/GD_belt2.et/grenade3/Pouch_GP106_RGD_Pouch_EMR.et"
+    }
+    ItemsInitConfigurationItem "{6848D5486906A08D}" {
+     TargetStorage "Vest/Vest_Ratnik_6B45_officer.et/Pouch1/Pouch_Ratnik_ak_1_pouch.et"
+    }
+    ItemsInitConfigurationItem "{6848D54BE67CBC8E}" {
+     TargetStorage "Belt/GD_belt2.et/drop/Pouch_UP113_DropPouch_EMR.et"
+     PrefabsToSpawn {
+      "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6848D54F196B7AC9}" {
+     TargetStorage "Belt/GD_belt2.et/utillong/Pouch_UP108_utillong_EMR.et"
+     PrefabsToSpawn {
+      "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+     }
+    }
+   }
+  }
+ }
+ coords 590.475 6.305 997.775
+}

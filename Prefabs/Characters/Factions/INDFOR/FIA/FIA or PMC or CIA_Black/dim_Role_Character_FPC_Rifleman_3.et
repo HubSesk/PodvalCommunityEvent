@@ -1,0 +1,80 @@
+SCR_ChimeraCharacter : "{37D5A8D1A92CF95F}Prefabs/Characters/Factions/INDFOR/FIA/FIA or PMC or CIA_Black/Role_Character_FPC_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{1F60C30316C11E69}Prefabs/Characters/Headgear/Beanie/Beanie_Black (Scarf,Baf).et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{91D6F644E96E5728}Prefabs/Characters/Uniforms/Flanel_Shirt/FlanelShirt_Black_Long.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{EA6BBDCB72ED5510}Prefabs/Characters/Vests/Vest_AVS/Vest_AVS_Blk_Coy.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{CE7E0E170283A190}Prefabs/Characters/Uniforms/Pants_Trousers_01/Pants_Trousers_01_DarkGrey_Dirty.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{9FB6D7969BB672AD}Prefabs/Characters/Vests/Vest_AVS/Variants/Vest_AVS_MCBlk_ronin.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{5D7CC173FAA7C00E}" {
+     TargetStorage "Pants/Pants_Trousers_01_DarkGrey_Dirty.et"
+    }
+    ItemsInitConfigurationItem "{5D7CC173FAA7C00C}" {
+     TargetStorage "Pants/Pants_Trousers_01_DarkGrey_Dirty.et"
+    }
+    ItemsInitConfigurationItem "{6721728B73532056}" {
+     TargetStorage "Jacket/FlanelShirt_Black_Long.et"
+    }
+    ItemsInitConfigurationItem "{6721728B9FF71F2D}" {
+     TargetStorage "Vest/Vest_AVS_MCBlk_ronin.et/Tako1/Pouch_PCGEN3_takoPouch_MCBlk.et"
+     PrefabsToSpawn {
+      "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et" "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6721728CF7834C89}" {
+     TargetStorage "Vest/Vest_AVS_MCBlk_ronin.et/flex2/Pouch_Shaw_Flex_Blk.et"
+     PrefabsToSpawn {
+      "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6721728CCB0F8783}" {
+     TargetStorage "Vest/Vest_AVS_MCBlk_ronin.et/tako2/Pouch_PCGEN3_takoPouch_MCBlk.et"
+     PrefabsToSpawn {
+      "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et" "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6721728CD65F2526}" {
+     TargetStorage "Vest/Vest_AVS_MCBlk_ronin.et/tako/Pouch_PCGEN3_takoPouch_MCBlk.et"
+     PrefabsToSpawn {
+      "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et" "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6721728BA12AEE95}" {
+     TargetStorage "Vest/Vest_AVS_MCBlk_ronin.et/placard/Pouch_AVS_front_molle_MCBlk.et"
+    }
+    ItemsInitConfigurationItem "{6721728BB7F2C211}" {
+     TargetStorage "Vest/Vest_AVS_MCBlk_ronin.et/mbitr/Pouch_AVS_MBITR_Radio_MCBlk.et"
+    }
+    ItemsInitConfigurationItem "{6721728CE6F43532}" {
+     TargetStorage "Vest/Vest_AVS_MCBlk_ronin.et/hsgipistol/Pouch_Highspeed_Pistol_MCBlk.et"
+     PrefabsToSpawn {
+      "{9C05543A503DB80E}Prefabs/Weapons/Magazines/Magazine_9x19_M9_15rnd_Ball.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6721728CEF807461}" {
+     TargetStorage "Vest/Vest_AVS_MCBlk_ronin.et/hsgipistol2/Pouch_Highspeed_Pistol_MCBlk.et"
+     PrefabsToSpawn {
+      "{9C05543A503DB80E}Prefabs/Weapons/Magazines/Magazine_9x19_M9_15rnd_Ball.et"
+     }
+    }
+   }
+  }
+ }
+ coords 1627.57 38.705 2915.19
+}

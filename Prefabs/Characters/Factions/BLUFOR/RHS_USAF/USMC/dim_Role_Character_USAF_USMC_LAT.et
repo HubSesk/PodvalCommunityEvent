@@ -1,0 +1,83 @@
+SCR_ChimeraCharacter : "{E13DD599077E5D7C}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Role_Character_USAF_USMC_Rifleman2.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_LightAT"
+    Icon "{008BB91082025119}UI/Icons/engineer-1.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   AttachType InventoryStorageSlot "{0C3DA650B52E127A}" {
+    Offset 0.0297 -0.2521 -0.0498
+   }
+   WeaponTemplate "{9C5C20FB0E01E64F}Prefabs/Weapons/Launchers/M72/Launcher_M72A3.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{4B3A4E4799F742A3}Prefabs/Characters/HeadGear/USMC_Helmet_Cover/GD_ECH_Marpat_Crossbow.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{7815D23A6FADCB42}Prefabs/Characters/Uniforms/USMC/GD_USMC_Frog_Shirt_Down_Summer.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{B6A9AF599DE0F4A7}Prefabs/Characters/Uniforms/USMC/GD_USMC_Frog_Pants_In_V2_Summer.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{48602F57998AB597}Prefabs/Items/Equipment/Backpacks/FILBE_Backpack.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{B43DB54AE960B06B}Prefabs/Characters/Vests/Vest_PCGen_III/Variants/Vest_PCGen_III_rifleman_taco3_2.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6720F9CB5344D10E}" {
+     TargetStorage "Pants/GD_USMC_Frog_Pants_In_V2_Summer.et"
+    }
+    ItemsInitConfigurationItem "{6720F9CB52FFCEB5}" {
+     TargetStorage "Pants/GD_USMC_Frog_Pants_In_V2_Summer.et"
+    }
+    ItemsInitConfigurationItem "{6720F9CB52DA4A6E}" {
+     TargetStorage "Jacket/GD_USMC_Frog_Shirt_Down_Summer.et"
+    }
+    ItemsInitConfigurationItem "{6720F9CE79E73603}" {
+     TargetStorage "Pants/GD_USMC_Frog_Pants_In_V2_Summer.et"
+    }
+    ItemsInitConfigurationItem "{6720F9CF230C187D}" {
+     TargetStorage "Vest/Vest_PCGen_III_rifleman_taco3_2.et/Taco_chest3/Pouch_PCGEN3_takoPouch.et"
+    }
+    ItemsInitConfigurationItem "{6720F9CF30F74485}" {
+     TargetStorage "Vest/Vest_PCGen_III_rifleman_taco3_2.et/Taco_chest1/Pouch_PCGEN3_takoPouch.et"
+    }
+    ItemsInitConfigurationItem "{6720F9CF52C72A8A}" {
+     TargetStorage "Vest/Vest_PCGen_III_rifleman_taco3_2.et/m18_2/Pouch_Filbe_M18_2.et"
+    }
+    ItemsInitConfigurationItem "{6720F9CF58ADF554}" {
+     TargetStorage "Vest/Vest_PCGen_III_rifleman_taco3_2.et/m18_1/Pouch_Filbe_M18_1.et"
+    }
+    ItemsInitConfigurationItem "{6720F9CF60F2A09C}" {
+     TargetStorage "Vest/Vest_PCGen_III_rifleman_taco3_2.et/Util2/Pouch_Filbe_M67_2.et"
+    }
+    ItemsInitConfigurationItem "{6720F9CF6EC9F0D2}" {
+     TargetStorage "Vest/Vest_PCGen_III_rifleman_taco3_2.et/pistol2/Pouch_Filbe_M67_Base.et"
+    }
+    ItemsInitConfigurationItem "{6720F9CF7F892BA2}" {
+     TargetStorage "Vest/Vest_PCGen_III_rifleman_taco3_2.et/Taco_chest2/Pouch_PCGEN3_takoPouch.et"
+    }
+    ItemsInitConfigurationItem "{6720F9CCE45EA295}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{6720F9CCF4A8966A}" {
+     TargetStorage "Back/FILBE_Backpack.et"
+     PrefabsToSpawn {
+      "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et" "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et" "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et" "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et" "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et" "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et" "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et" "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et"
+     }
+    }
+   }
+  }
+ }
+ coords 4986.785 60.039 3027.311
+}

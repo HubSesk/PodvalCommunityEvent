@@ -1,0 +1,49 @@
+SCR_ChimeraCharacter : "{F642DED38A0E5705}Prefabs/Characters/Factions/OPFOR/AFRF_Peacekeepers/Peacekeepers/Army/Role_AFRF_Peacekeepers_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#DRG-Role_CrewGunner"
+    Icon "{916C4E2CE39A8915}UI/Icons/crew.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{BFEA719491610A45}Prefabs/Weapons/Rifles/AKS74U/Rifle_AKS74U.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{EB2F05A3751B905A}Prefabs/Characters/HeadGear/Helmet_TSh4_01/Helmet_TSh4_01.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{099AE885BB314867}Prefabs/Characters/Vests/Vest_Ratnik3K_6B48/Vest_Ratnik_6B48.et"
+    }
+    LoadoutSlotInfo Back {
+     Enabled 0
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{B3A5684BA5F8E100}Prefabs/Characters/Vests/Vest_6B45/Pouches/Pouches_6b45_Rifleman.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6712BC17A498A18D}" {
+     TargetStorage "Vest/Pouches_6b45_Rifleman.et/AK1_Pouch/Pouch_Ratnik_AK_1.et"
+    }
+    ItemsInitConfigurationItem "{6712BC17A4CCF74C}" {
+     TargetStorage "Vest/Pouches_6b45_Rifleman.et/AK2_Pouch/Pouch_Ratnik_AK_2.et"
+    }
+    ItemsInitConfigurationItem "{6712BC17A401700B}" {
+     TargetStorage "Vest/Pouches_6b45_Rifleman.et/AK3_Pouch/Pouch_Ratnik_AK_3.et"
+    }
+    ItemsInitConfigurationItem "{6712BC17A47790BC}" {
+     Enabled 0
+     PrefabsToSpawn {
+     }
+    }
+   }
+  }
+ }
+ coords 4294.929 59.662 1738.731
+}

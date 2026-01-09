@@ -1,0 +1,62 @@
+SCR_ChimeraCharacter : "{3C14547A38D2B48C}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/SFOD-D/Role_Character_USAF_SFOD_Scout.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#DRG_Roles_RHS_Scout_Sapper"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{0CF013CB2E2F06FA}Prefabs/Weapons/M4A1/M4_SOCOM_V3.et"
+  }
+  SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
+   Identity Identity "{5584CBC6363C648B}" {
+    VisualIdentity VisualIdentity "{56E6D9456009D1C4}" {
+     Head "{31001F48BF88F2B1}Prefabs/Characters/Heads/Head_White_08/Head_White_08_camo_USSR_02.et"
+    }
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{B889E5A3F361810A}Prefabs/Characters/HeadGear/EXFIL/GD_EXFIL_Tan (Scarf+GPNVG).et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{4A93B3F0B33FF104}Prefabs/Items/Equipment/Backpacks/backpack_511_rush12/Backpack_511_rush12_MC.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{672165271728906D}" {
+     TargetStorage "Vest/GD_Multicam_USA_Var1.et/m18_2/Pouch_Filbe_M18_1.et"
+    }
+    ItemsInitConfigurationItem "{672165271FA86EBF}" {
+     TargetStorage "Vest/GD_Multicam_USA_Var1.et/m18_1/Pouch_Filbe_M18_2.et"
+    }
+    ItemsInitConfigurationItem "{67216527216AEEAC}" {
+     TargetStorage "Vest/GD_Multicam_USA_Var1.et/Pouch1/Pouch_avs_front_elastic_MC.et"
+    }
+    ItemsInitConfigurationItem "{672165274B86F0C5}" {
+     TargetStorage "Vest/GD_Multicam_USA_Var1.et/tako/Pouch_PCGEN3_takoPouch_MC.et"
+    }
+    ItemsInitConfigurationItem "{672165275122E125}" {
+     TargetStorage "Vest/GD_Multicam_USA_Var1.et/takobelt/Pouch_PCGEN3_takoPouch_MC.et"
+    }
+    ItemsInitConfigurationItem "{672165275EBB3198}" {
+     TargetStorage "Vest/GD_Multicam_USA_Var1.et/pistolpouch2/Pouch_Highspeed_Pistol_MC.et"
+    }
+    ItemsInitConfigurationItem "{672165276C1FD37A}" {
+     TargetStorage "Vest/GD_Multicam_USA_Var1.et/m67_2/JPC_Holster_Work.et"
+    }
+    ItemsInitConfigurationItem "{6724E2213BFB1BA8}" {
+     TargetStorage "Back/Backpack_511_rush12_MC.et"
+     PrefabsToSpawn {
+      "{33CBDE73AB48172A}Prefabs/Weapons/Explosives/DemoBlock_M112/DemoBlock_M112.et" "{33CBDE73AB48172A}Prefabs/Weapons/Explosives/DemoBlock_M112/DemoBlock_M112.et" "{33CBDE73AB48172A}Prefabs/Weapons/Explosives/DemoBlock_M112/DemoBlock_M112.et" "{33CBDE73AB48172A}Prefabs/Weapons/Explosives/DemoBlock_M112/DemoBlock_M112.et" "{33CBDE73AB48172A}Prefabs/Weapons/Explosives/DemoBlock_M112/DemoBlock_M112.et" "{33CBDE73AB48172A}Prefabs/Weapons/Explosives/DemoBlock_M112/DemoBlock_M112.et" "{33CBDE73AB48172A}Prefabs/Weapons/Explosives/DemoBlock_M112/DemoBlock_M112.et" "{33CBDE73AB48172A}Prefabs/Weapons/Explosives/DemoBlock_M112/DemoBlock_M112.et" "{33CBDE73AB48172A}Prefabs/Weapons/Explosives/DemoBlock_M112/DemoBlock_M112.et" "{33CBDE73AB48172A}Prefabs/Weapons/Explosives/DemoBlock_M112/DemoBlock_M112.et" "{33CBDE73AB48172A}Prefabs/Weapons/Explosives/DemoBlock_M112/DemoBlock_M112.et" "{33CBDE73AB48172A}Prefabs/Weapons/Explosives/DemoBlock_M112/DemoBlock_M112.et" "{CE0AF733722B3978}Prefabs/Items/Equipment/Detonators/BlastingMachine_M34/BlastingMachine_M34.et" "{CE0AF733722B3978}Prefabs/Items/Equipment/Detonators/BlastingMachine_M34/BlastingMachine_M34.et"
+     }
+    }
+   }
+  }
+ }
+ coords 4968.425 60.125 3022.723
+}

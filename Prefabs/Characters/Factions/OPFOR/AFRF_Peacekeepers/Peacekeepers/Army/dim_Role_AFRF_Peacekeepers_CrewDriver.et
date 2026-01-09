@@ -1,0 +1,24 @@
+SCR_ChimeraCharacter : "{8E5D9A808F3AFAF9}Prefabs/Characters/Factions/OPFOR/AFRF_Peacekeepers/Peacekeepers/Army/Role_AFRF_Peacekeepers_CrewGunner.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#DRG-Role_CrewDriver"
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6712BC17A498A18D}" {
+     TargetStorage "Vest/Pouches_6b45_Rifleman.et/AK1_Pouch/Pouch_Ratnik_AK_1.et"
+    }
+    ItemsInitConfigurationItem "{6712BC17A47790BC}" {
+     TargetStorage "Jacket/VKPO_Jacket_MC.et"
+     PrefabsToSpawn {
+      "{A55A815F28739FEC}Prefabs/Items/Equipment/Navigation/Orion/Orion.et"
+     }
+    }
+   }
+  }
+ }
+ coords 4296.01 59.687 1739.027
+}

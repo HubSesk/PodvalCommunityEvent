@@ -1,0 +1,54 @@
+SCR_ChimeraCharacter : "{BEA7F7570EE811B2}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Role_Character_USAF_USMC_Unarmed_Base.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
+   Override 1
+   Identity Identity "{5584CBC6363C648B}" {
+    VisualIdentity VisualIdentity "{56E6D9456009D1C4}" {
+     Head "{43AA5BDFE4338F57}Prefabs/Characters/Heads/Head_White_02/Head_White_02_camo_US_01.et"
+     Body "{0023F898C0FF18AA}Prefabs/Characters/Basebody/CharacterBasebody.et"
+    }
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{DFC5A8C3E0FED472}Prefabs/Characters/Uniforms/Crye_shirt/Crye_G3_Shirt_Base.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Enabled 0
+     Prefab "{4A11957AAD447582}Prefabs/Characters/Vests/Vest_JPC/Vest_JPC_MC.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{E2858C97676911D0}Prefabs/Characters/Uniforms/Crye_pants/Crye_G3_Pants_Base.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{660952F979E8EBF2}Prefabs/Characters/Footwear/Boots_solomon_ultra_x/Footwear_Altama_Boots.et"
+    }
+    LoadoutSlotInfo Vest {
+     Enabled 0
+     Prefab "{D1D8EF51D0C605F0}Prefabs/Characters/Handwear/Gloves_Oackley/Gloves_Oackley_Tan.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{D1D8EF51D0C605F0}Prefabs/Characters/Handwear/Gloves_Oackley/Gloves_Oackley_Tan.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6720F9CB5344D10E}" {
+     TargetStorage "Pants/Crye_G3_Pants_Base.et"
+    }
+    ItemsInitConfigurationItem "{6720F9CB52FFCEB5}" {
+     TargetStorage "Pants/Crye_G3_Pants_Base.et"
+    }
+    ItemsInitConfigurationItem "{6720F9CB52DA4A6E}" {
+     TargetStorage "Jacket/Crye_G3_Shirt_Base.et"
+    }
+   }
+  }
+ }
+ coords 2725.452 59.031 692.619
+}

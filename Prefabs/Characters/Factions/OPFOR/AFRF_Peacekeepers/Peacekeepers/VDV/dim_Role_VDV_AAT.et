@@ -1,0 +1,48 @@
+SCR_ChimeraCharacter : "{23896703D2D69DC6}Prefabs/Characters/Factions/OPFOR/AFRF_Peacekeepers/Peacekeepers/VDV/Role_VDV_AT.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#DRG-Role-AssistantAT"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{6D8A7EEABE605955}Prefabs/Weapons/Rifles/AK200/variants/Rifle_AK200_B10M_B19_XPS.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponTemplate ""
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{0B38D3C7A51E0A1E}Prefabs/Characters/HeadGear/RUS_6b47/Prefabs/GD_6b47_Cover.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6712BC02CEB52194}" {
+     TargetStorage "Belt/GD_belt3.et/up105/Pouch_UP105_utilbig_EMR.et"
+    }
+    ItemsInitConfigurationItem "{6712BC02D8A26F81}" {
+     TargetStorage "Back/Backpack_RPG_Assistant.et"
+    }
+    ItemsInitConfigurationItem "{6712BC02D8E1BECF}" {
+     TargetStorage "Vest/Vest_Ratnik_6B45_rifleman.et/Pouch2/Pouch_Ratnik_ak_2_pouch.et"
+    }
+    ItemsInitConfigurationItem "{6712BC030DF417E1}" {
+     TargetStorage "Vest/Vest_Ratnik_6B45_rifleman.et/Pouch3/Pouch_Ratnik_ak_3_pouch.et"
+    }
+    ItemsInitConfigurationItem "{6712BC0364E85768}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{6712BC24AD2A6105}" {
+     PrefabsToSpawn + {
+      "{FBBF84E3B447D822}Prefabs/Weapons/Ammo/RPG/RHS_AmmoRocket_PG7VL.et"
+     }
+    }
+   }
+  }
+ }
+ coords 5108.927 53.5 4756.319
+}

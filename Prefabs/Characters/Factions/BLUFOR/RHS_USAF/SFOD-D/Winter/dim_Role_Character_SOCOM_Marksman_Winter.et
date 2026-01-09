@@ -1,0 +1,84 @@
+SCR_ChimeraCharacter : "{63849351D71B1B01}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/SFOD-D/Role_Character_USAF_SFOD_Marksman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{03810BEF182ADA0B}Prefabs/Items/Equipment/Binoculars/Rangefinder_Vector21.et"
+      }
+     }
+    }
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{706DDA59A223D469}Prefabs/Weapons/M110/M110_Silencer.et"
+  }
+  SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
+   Override 0
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Jacket {
+     Prefab "{21BCF2B1BC3B744B}TEST/Prefabs/Uniforms/gryphon/Jacket_Gryphon_SNOW.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{3E5C7BD276167A2C}TEST/Prefabs/Uniforms/Crye_G4_Pants/GD_Crye_G4_Pants_Winter.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{24F6795DC36C79D7}Prefabs/Characters/Footwear/Boots_Luma/Footwear_Luma.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6720F9CB5344D10E}" {
+     TargetStorage "Pants/GD_Crye_G4_Pants_Winter.et"
+    }
+    ItemsInitConfigurationItem "{6720F9CB52FFCEB5}" {
+     TargetStorage "Pants/GD_Crye_G4_Pants_Winter.et"
+    }
+    ItemsInitConfigurationItem "{6720F9CB52DA4A6E}" {
+     TargetStorage "Jacket/Jacket_Gryphon_SNOW.et"
+    }
+    ItemsInitConfigurationItem "{672165248C18FB8D}" {
+     TargetStorage "Pants/GD_Crye_G4_Pants_Winter.et"
+     PrefabsToSpawn {
+      "{C742BD6CB3D77A5A}Prefabs/Items/Equipment/Radios/drg_Radio_ANPRC152A_OLD_SL.et"
+     }
+    }
+    ItemsInitConfigurationItem "{672165248C6CCDE2}" {
+     TargetStorage "Jacket/Jacket_Gryphon_SNOW.et"
+    }
+    ItemsInitConfigurationItem "{67216527216AEEAC}" {
+     PrefabsToSpawn {
+      "{CDA8C59B712B6B90}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m80.et" "{CDA8C59B712B6B90}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m80.et" "{CDA8C59B712B6B90}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m80.et"
+     }
+    }
+    ItemsInitConfigurationItem "{672165274B86F0C5}" {
+     PrefabsToSpawn {
+      "{CDA8C59B712B6B90}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m80.et"
+     }
+    }
+    ItemsInitConfigurationItem "{672165275122E125}" {
+     PrefabsToSpawn {
+      "{CDA8C59B712B6B90}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m80.et" "{CDA8C59B712B6B90}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m80.et"
+     }
+    }
+    ItemsInitConfigurationItem "{672165219D1C33A9}" {
+     PrefabsToSpawn {
+      "{CDA8C59B712B6B90}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m80.et" "{CDA8C59B712B6B90}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m80.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6724B8158927E66C}" {
+     Enabled 1
+     TargetStorage "Jacket/Jacket_Gryphon_SNOW.et"
+     PrefabsToSpawn +{
+     }
+    }
+   }
+  }
+ }
+ coords 597.87 6.16 1000.179
+}

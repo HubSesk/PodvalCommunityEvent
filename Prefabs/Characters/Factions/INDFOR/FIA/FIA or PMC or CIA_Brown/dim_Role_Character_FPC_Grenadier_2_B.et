@@ -1,0 +1,35 @@
+SCR_ChimeraCharacter : "{69D809B55736B06F}Prefabs/Characters/Factions/INDFOR/FIA/FIA or PMC or CIA_Brown/Role_Character_FPC_Grenadier_B.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{E0E00056A4E184FC}Prefabs/Characters/Headgear/Cap/Variants/Desert Ver/Front/Cap_Tan (Mask,Scarf,GlassesV1).et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{BE1CB68B053279DC}Prefabs/Characters/Uniforms/Shirt_CottonShirt_01/Shirt_CottonShirt_01_V1_Dirty.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{537FD11C135757AC}Prefabs/Characters/Uniforms/Pants_Trousers_01/Pants_Trousers_01_DarkGrey_Dirty.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{5D7CC173FAA7C00E}" {
+     TargetStorage "Pants/Pants_Trousers_01_DarkGrey_Dirty.et"
+    }
+    ItemsInitConfigurationItem "{5D7CC173FAA7C00C}" {
+     TargetStorage "Pants/Pants_Trousers_01_DarkGrey_Dirty.et"
+    }
+    ItemsInitConfigurationItem "{6721728B73532056}" {
+     TargetStorage "Jacket/Shirt_CottonShirt_01_V1_Dirty.et"
+    }
+    ItemsInitConfigurationItem "{6721728BA12AEE95}" {
+     TargetStorage "Jacket/Shirt_CottonShirt_01_V1_Dirty.et"
+    }
+   }
+  }
+ }
+ coords 1616.641 38.395 2916.963
+}

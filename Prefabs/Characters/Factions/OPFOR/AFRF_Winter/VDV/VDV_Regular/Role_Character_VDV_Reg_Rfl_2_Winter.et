@@ -1,0 +1,44 @@
+SCR_ChimeraCharacter : "{85DC746398497A5C}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/VDV/VDV_Regular/Role_Character_VDV_Reg_Rifleman_Winter.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{98AE387F7E295E9C}Prefabs/Weapons/Rifles/AK200/variants/Rifle_AK200_T1.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   AttachType InventoryStorageSlot "{0C3DA650B52E127A}" {
+    Offset 0.0401 -0.1677 0.0736
+    Angles 74.5194 179.9998 0.0001
+   }
+   WeaponTemplate "{722CE6FEC39EE896}Prefabs/Weapons/Launchers/RPG22/Launcher_RPG22.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{A45086A8EE207948}Prefabs/Characters/HeadGear/RUS_6b47/Prefabs/Winter/GD_6B47_Cover_Goggles_EMR_Winter.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6848D549E2B9AFFF}" {
+     PrefabsToSpawn + {
+      "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6848D54CF2151F8B}" {
+     TargetStorage "Belt/GD_Belt.et/up105/Pouch_UP105_utilbig_EMR.et"
+     PrefabsToSpawn {
+      "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6848D54F0E68B7CE}" {
+     TargetStorage "Belt/GD_Belt.et"
+     PrefabsToSpawn {
+      "{B39F57E7FB003434}Prefabs/Weapons/Magazines/AK12_magazine/Magazine_545x39_AK12_30rnd_Base.et" "{B39F57E7FB003434}Prefabs/Weapons/Magazines/AK12_magazine/Magazine_545x39_AK12_30rnd_Base.et"
+     }
+    }
+   }
+  }
+ }
+ coords 596.138 6.217 997.496
+}

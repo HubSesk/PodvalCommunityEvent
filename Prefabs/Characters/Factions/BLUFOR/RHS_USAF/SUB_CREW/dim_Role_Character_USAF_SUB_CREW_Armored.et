@@ -1,0 +1,62 @@
+SCR_ChimeraCharacter : "{BA5A81DCA32430CE}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/SUB_CREW/Role_Character_USAF_SUB_CREW_Unarmed.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Матрос"
+    Description "Матрос"
+    Icon "{08BF4742BF0108D8}UI/Icons/NAVY.edds"
+   }
+  }
+  CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
+   WeaponTemplate "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+  }
+  CharacterGrenadeSlotComponent "{5A6CDA0CCF43068E}" {
+   WeaponTemplate "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{283CDF7E44B5A9F8}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_base.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{DED8CB60C4D4CF80}Prefabs/Characters/HeadGear/MICH2000_Navy/MICH_NAVY.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{F7CC845945B716B8}Prefabs/Characters/Vests/Vest_JPC/Vest_JPC_NAVY.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{BD205C7B90BD399E}Prefabs/Characters/Vests/Vest_ALICE/Variants/Vest_ALICE_officer.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{997995D0EF91D998}Prefabs/Characters/Handwear/Gloves_Wool_01/Gloves_Wool_01_Black.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{673C2631D2AEA2A0}" {
+     TargetStorage "Jacket/GD_R7_DrySuit_Black.et"
+     PrefabsToSpawn {
+      "{BAB50E5D149D64D9}Prefabs/Items/Equipment/Radios/drg_Radio_ANPRC152A_OLD_prv.et"
+     }
+    }
+    ItemsInitConfigurationItem "{673C263024272159}" {
+     Enabled 0
+     TargetStorage "Vest/Vest_ALICE_officer.et/Suspenders/Vest_ALICE_suspenders_1.et"
+     PrefabsToSpawn {
+      "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et" "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et" "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et" "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{673C263033B2A4F2}" {
+     Enabled 0
+     TargetStorage "Vest/Vest_ALICE_officer.et/MagPouch/Holster_M12_magpouch.et"
+     PrefabsToSpawn {
+      "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et" "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et" "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et" "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
+     }
+    }
+   }
+  }
+ }
+ coords 267.169 66.98 2399.214
+}

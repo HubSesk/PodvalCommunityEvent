@@ -1,0 +1,44 @@
+SCR_ChimeraCharacter : "{BEA7F7570EE811B2}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Role_Character_USAF_USMC_Unarmed_Base.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
+   Override 1
+   Identity Identity "{5584CBC6363C648B}" {
+    VisualIdentity VisualIdentity "{56E6D9456009D1C4}" {
+     Head "{2FFE6F3F58F70079}Prefabs/Characters/Heads/Head_White_02/Head_White_02_camo_US_02.et"
+     Body "{0023F898C0FF18AA}Prefabs/Characters/Basebody/CharacterBasebody.et"
+    }
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Jacket {
+     Prefab "{B874899943AC87C3}Prefabs/Characters/Uniforms/Crye_shirt/Crye_G3_Shirt_M81_rolledup.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{C2DF29D5371DA97E}Prefabs/Characters/Uniforms/Crye_pants/Crye_G3_Pants_M81.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{19B57111BB3FC780}Prefabs/Characters/Footwear/ACU_boots/ACU_boots2.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{86FCDE2A2A4DD765}Prefabs/Characters/Handwear/Gloves_Oackley/Gloves_Oackley_base.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6720F9CB5344D10E}" {
+     TargetStorage "Pants/Crye_G3_Pants_M81.et"
+    }
+    ItemsInitConfigurationItem "{6720F9CB52FFCEB5}" {
+     TargetStorage "Pants/Crye_G3_Pants_M81.et"
+    }
+    ItemsInitConfigurationItem "{6720F9CB52DA4A6E}" {
+     TargetStorage "Jacket/Crye_G3_Shirt_M81_rolledup.et"
+    }
+   }
+  }
+ }
+ coords 4902.662 40.435 7555.184
+}

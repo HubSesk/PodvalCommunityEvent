@@ -1,0 +1,84 @@
+SCR_ChimeraCharacter : "{284E735C6C70DAD2}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_BaseLoadout.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterSoundComponent "{520EA1D2F659CF84}" {
+   Enabled 0
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_Officer"
+    IconSetName "EditableEntity_Character_Officer"
+    m_Image "{DC935A5339DD0361}UI/Textures/EditorPreviews/Characters/Factions/BLUFOR/US_Army/Character_US_Officer.edds"
+    m_aAuthoredLabels + {
+     ROLE_LEADER
+    }
+    m_aAutoLabels {
+     SIZE_M
+    }
+   }
+  }
+  SCR_ExtendedCharacterIdentityComponent "{5AEEA3C8B2AA118B}" {
+   m_fChanceOfIdentityDocumentBeingValuable 1
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
+   WeaponTemplate "{1353C6EAD1DCFE43}Prefabs/Weapons/Handguns/M9/Handgun_M9.et"
+  }
+  SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
+   Override 1
+   Identity Identity "{5584CBC6363C648B}" {
+    VisualIdentity VisualIdentity "{56E6D9456009D1C4}" {
+     Head "{EAF055495BA85CA1}Prefabs/Characters/Heads/Head_White_02.et"
+     Body "{0023F898C0FF18AA}Prefabs/Characters/Basebody/CharacterBasebody.et"
+    }
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{F545C1BE7C99954A}Prefabs/Characters/HeadGear/Hat_Patrol_US_01/Hat_Patrol_US_01.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{3CCA7A9BB4FD3197}Prefabs/Characters/Uniforms/Jacket_US_BDU_rolledup.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{BD205C7B90BD399E}Prefabs/Characters/Vests/Vest_ALICE/Variants/Vest_ALICE_officer.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{5D7CAAFB9235E903}" {
+     TargetStorage "Vest/Vest_ALICE_officer.et/Suspenders/Vest_ALICE_suspenders_1.et"
+    }
+    ItemsInitConfigurationItem "{6843714D04953576}" {
+     TargetStorage "Vest/Vest_ALICE_officer.et/MagPouch/Holster_M12_magpouch.et"
+     PrefabsToSpawn {
+      "{9C05543A503DB80E}Prefabs/Weapons/Magazines/Magazine_9x19_M9_15rnd_Ball.et" "{9C05543A503DB80E}Prefabs/Weapons/Magazines/Magazine_9x19_M9_15rnd_Ball.et"
+     }
+    }
+   }
+  }
+  SCR_CharacterSoundComponent "{6843714CC5712543}" {
+   Filenames {
+    "{FCDAE28BDF1171B1}Sounds/Character/Tutorial/Character_Tutorial_Movement_Foley.acp"
+   }
+   m_aBoneSpeedSignalData {
+    SCR_BoneSpeedSignalData "{6843714CC73E0FC5}" {
+    }
+    SCR_BoneSpeedSignalData "{6843714CC71D4D1C}" {
+    }
+    SCR_BoneSpeedSignalData "{6843714CC77C8D8F}" {
+    }
+    SCR_BoneSpeedSignalData "{6843714CC6A52982}" {
+    }
+    SCR_BoneSpeedSignalData "{6843714CC69B1341}" {
+    }
+   }
+  }
+  AnimationPlayerComponent "{6843714CDEF84189}" {
+   Animation "{F9114885F32B4663}anims/anm/NPC/male/Body/FarAway/FAR AWAY hangar_Tony.anm"
+  }
+ }
+ coords 116.615 1 138.857
+ angles 0 113.672 0
+}

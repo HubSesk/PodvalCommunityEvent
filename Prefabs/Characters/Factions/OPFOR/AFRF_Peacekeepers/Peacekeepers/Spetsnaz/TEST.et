@@ -1,0 +1,69 @@
+SCR_ChimeraCharacter : "{B3EA537A7710985F}Prefabs/Characters/Factions/OPFOR/AFRF_Peacekeepers/Peacekeepers/Spetsnaz/Role_AFRF_PeaceSpetznaz_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
+   WeaponTemplate "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+  }
+  CharacterGrenadeSlotComponent "{5A6CDA0CCF43068E}" {
+   WeaponTemplate "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{B79061D6D55F3377}Prefabs/RF_Peacekeepers/Characters/Headgear/6b47/Prefabs/6b47_cover_googles_mask_green.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{FB4339B483CACFC0}Prefabs/Characters/Vests/Vest_Ratnik_6B45/Vest_Ratnik_6B45_folded_collar.et"
+    }
+    LoadoutSlotInfo Back {
+     Enabled 1
+     Prefab "{9BFCB927F0778315}Prefabs/RF_Peacekeepers/Characters/Vest/AVS/Belt.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{915E9D97CFAB02D6}Prefabs/Characters/Vests/Vest_Ratnik_6B45/Variants/Vest_Ratnik_6B45_officer.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6712BC02CEB52194}" {
+     TargetStorage "Back/Belt.et/arsbelt/Pouch_wartech_magpouch_mp105_EMR.et"
+     PrefabsToSpawn +{
+     }
+    }
+    ItemsInitConfigurationItem "{6712BC02D8A26F81}" {
+     TargetStorage "Vest/Vest_Ratnik_6B45_officer.et/Pouch1/Pouch_Ratnik_ak_1_pouch.et"
+    }
+    ItemsInitConfigurationItem "{6712BC02D8E1BECF}" {
+     TargetStorage "Vest/Vest_Ratnik_6B45_officer.et/Pouch2/Pouch_Ratnik_ak_2_pouch.et"
+    }
+    ItemsInitConfigurationItem "{6712BC030DF417E1}" {
+     TargetStorage "Vest/Vest_Ratnik_6B45_officer.et/Pouch2/Pouch_Ratnik_ak_2_pouch.et"
+    }
+    ItemsInitConfigurationItem "{6712BC0339D1F083}" {
+     TargetStorage "Vest/Vest_Ratnik_6B45_officer.et/FirstAid/Pouch_Ratnik_appi_pouch.et"
+    }
+    ItemsInitConfigurationItem "{6712BC03432AD397}" {
+     TargetStorage "Back/Belt.et/grenade2/Pouch_GP106_RGD_Pouch_EMR.et"
+    }
+    ItemsInitConfigurationItem "{6712BC0349DCD9E9}" {
+     TargetStorage "Back/Belt.et/holster/Pouch_HP103_Holster_EMR.et"
+    }
+    ItemsInitConfigurationItem "{6712BC0364E85768}" {
+     TargetStorage "Back/Belt.et/up105/Pouch_UP105_utilbig_EMR.et"
+    }
+    ItemsInitConfigurationItem "{6712BC03A4F7BB57}" {
+     TargetStorage "Back/Belt.et/up105/Pouch_UP105_utilbig_EMR.et"
+    }
+    ItemsInitConfigurationItem "{6712BC24AD2A6105}" {
+     TargetStorage "Back/Belt.et/arsbelt2/Pouch_wartech_magpouch_mp105_EMR.et"
+     PrefabsToSpawn {
+      "{B39F57E7FB003434}Prefabs/Weapons/Magazines/AK12_magazine/Magazine_545x39_AK12_30rnd_Base.et"
+     }
+    }
+   }
+  }
+ }
+ coords 7682.594 70.219 7877.603
+ angles 0 -90 0
+}

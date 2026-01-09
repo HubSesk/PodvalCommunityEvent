@@ -1,0 +1,37 @@
+SCR_ChimeraCharacter : "{F4C14F562D848BBD}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/SFOD-D/Winter/Role_Character_SOCOM_Marksman_Winter.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{E4E4CA52CCB2D22C}Prefabs/Items/Equipment/Binoculars/Binoculars_M22/Binoculars_M22_base.et"
+      }
+     }
+    }
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{5610D0867FAB7F78}Prefabs/Characters/HeadGear/All_EXFIL/Winter/Exfil_GPNVG_W_2.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{672165248C18FB8D}" {
+     TargetStorage "Pants/GD_Crye_G4_Pants_Winter.et"
+    }
+    ItemsInitConfigurationItem "{6724B8158927E66C}" {
+     Enabled 1
+     TargetStorage "Jacket/Jacket_Gryphon_SNOW.et"
+     PrefabsToSpawn +{
+     }
+    }
+   }
+  }
+ }
+ coords 2583.763 5.719 494.834
+}

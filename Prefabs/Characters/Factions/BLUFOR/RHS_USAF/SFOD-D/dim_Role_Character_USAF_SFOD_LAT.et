@@ -1,0 +1,70 @@
+SCR_ChimeraCharacter : "{5F73276F860B5BFE}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/SFOD-D/Role_Character_USAF_SFOD_Scout_2.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#DRG_Roles_RHS_Scout_AT"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{E96C5F3222CA9191}Prefabs/Weapons/M4A1/M4_SOCOM_V2.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   AttachType InventoryStorageSlot "{0C3DA650B52E127A}" {
+    Offset 0.0647 -0.1879 0.1157
+    Angles 60.7721 -6.5493 174.2784
+   }
+   WeaponTemplate "{9C5C20FB0E01E64F}Prefabs/Weapons/Launchers/M72/Launcher_M72A3.et"
+  }
+  SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
+   Identity Identity "{5584CBC6363C648B}" {
+    VisualIdentity VisualIdentity "{56E6D9456009D1C4}" {
+     Head "{5EBD0E8A11703FF3}Prefabs/Characters/Heads/Head_White_06/Head_White_06_camo_USSR_02.et"
+    }
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Back {
+     Enabled 0
+     Prefab "{4A93B3F0B33FF104}Prefabs/Items/Equipment/Backpacks/backpack_511_rush12/Backpack_511_rush12_MC.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{672165271728906D}" {
+     TargetStorage "Vest/GD_Multicam_USA_Var2.et/m18_2/Pouch_Filbe_M18_1.et"
+    }
+    ItemsInitConfigurationItem "{672165271FA86EBF}" {
+     TargetStorage "Vest/GD_Multicam_USA_Var2.et/m18_1/Pouch_Filbe_M18_2.et"
+    }
+    ItemsInitConfigurationItem "{67216527216AEEAC}" {
+     TargetStorage "Vest/GD_Multicam_USA_Var2.et/Pouch1/Pouch_avs_front_elastic_MC.et"
+    }
+    ItemsInitConfigurationItem "{672165274B86F0C5}" {
+     TargetStorage "Vest/GD_Multicam_USA_Var2.et/flexbelt2/Pouch_Shaw_Flex.et"
+    }
+    ItemsInitConfigurationItem "{672165275122E125}" {
+     TargetStorage "Vest/GD_Multicam_USA_Var2.et/tako_camer/Pouch_PCGEN3_takoPouch_MC.et"
+    }
+    ItemsInitConfigurationItem "{672165275EBB3198}" {
+     TargetStorage "Vest/GD_Multicam_USA_Var2.et/pistolpouch2/Pouch_Highspeed_Pistol_MC.et"
+    }
+    ItemsInitConfigurationItem "{67216526AF0371EE}" {
+     TargetStorage "Vest/GD_Multicam_USA_Var2.et/m67_2/Pouch_Filbe_M67_Base.et"
+    }
+    ItemsInitConfigurationItem "{67216526B41319FC}" {
+     TargetStorage "Vest/GD_Multicam_USA_Var2.et/m67_1/Pouch_Filbe_M67_2.et"
+    }
+    ItemsInitConfigurationItem "{6721652695B6D214}" {
+     TargetStorage "Vest/GD_Multicam_USA_Var2.et/flexbelt/Pouch_Shaw_Flex.et"
+    }
+    ItemsInitConfigurationItem "{672165269BE3E457}" {
+     Enabled 0
+    }
+   }
+  }
+ }
+ coords 4971.453 60.14 3023.046
+}
