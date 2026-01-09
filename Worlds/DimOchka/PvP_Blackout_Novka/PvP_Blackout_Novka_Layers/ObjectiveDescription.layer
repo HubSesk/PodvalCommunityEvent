@@ -1,0 +1,166 @@
+$grp ParticleEffectEntity {
+ {
+  coords 2557.35 38.229 585.204
+  EffectPath "{C7C126B8FC38B083}Particles/Smoke_Building_Shop.ptc"
+ }
+ {
+  coords 2614.224 6.274 531.242
+  EffectPath "{C7C126B8FC38B083}Particles/Smoke_Building_Shop.ptc"
+ }
+ {
+  coords 2567.979 6.274 493.06
+  EffectPath "{C7C126B8FC38B083}Particles/Smoke_Building_Shop.ptc"
+ }
+ {
+  coords 2695.435 6.274 534.501
+  EffectPath "{C7C126B8FC38B083}Particles/Smoke_Building_Shop.ptc"
+ }
+ {
+  coords 2473.839 69.374 716.561
+  EffectPath "{C7C126B8FC38B083}Particles/Smoke_Building_Shop.ptc"
+ }
+ {
+  coords 2551.284 47.032 714.364
+  EffectPath "{C7C126B8FC38B083}Particles/Smoke_Building_Shop.ptc"
+ }
+ {
+  coords 2411.622 31.863 650.719
+  EffectPath "{C7C126B8FC38B083}Particles/Smoke_Building_Shop.ptc"
+ }
+ {
+  coords 2451.268 83.359 707.93
+  EffectPath "{C7C126B8FC38B083}Particles/Smoke_Building_Shop.ptc"
+ }
+ {
+  coords 2451.594 87.154 707.824
+  EffectPath "{5A8C0DFF10B4CF3D}Particles/Fire_Building_Shop.ptc"
+ }
+ {
+  coords 2450.886 82.305 707.252
+  EffectPath "{5A8C0DFF10B4CF3D}Particles/Fire_Building_Shop.ptc"
+ }
+}
+GenericEntity : "{144AA3DABB80974C}Prefabs/Weapons/Tripods/9K135/Part_9K135TB_Launcher.et" {
+ coords 2210.498 112.26 1585.371
+ angles -5.609 7.977 -90
+}
+$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ {
+  coords 2395.765 185.947 1948.926
+  m_sTitle "Правила и задачи"
+  m_sTextData "ПРАВИЛА:"\
+  "1. Всем ЗАПРЕЩЕНО надевать форму, головные уборы, разгрузки, бронежилеты противника (рюкзаки можно);"\
+  "2. Для захвата нужно поменять флаг. Флаг не перезахватываемый;"\
+  "3. ВС РФ ЗАПРЕЩЕНО минировать внутреннюю территорию Аванпоста;"\
+  "4. ВСЕМ ЗАПРЕЩЕНО заезжать в окрестности базы \"Фрост\" (Юго-восток, красная зона)."\
+  ""\
+  "ЗАДАЧИ:"\
+  "• ВС РФ: "\
+  " 1. Удержать Западную сторону Дамбы;"\
+  " 2. Удержать Восточную сторону Дамбы."\
+  ""\
+  "• США:"\
+  " 1. Захватить Западную сторону Дамбы;"\
+  " 2. Захватить Восточную сторону Дамбы."\
+  ""\
+  "Дополнительно:"\
+  "1. Гаечный ключ для ПТУРа находится в УАЗике."
+  m_aVisibleForFactions {
+   "RHS_USAF"
+   "RHS_AFRF"
+   ""
+  }
+  m_bEmptyFactionVisibility 1
+ }
+ {
+  coords 2395.765 185.947 1948.926
+  m_sTitle "Обстановка"
+  m_sTextData "Ночь, 2 января, 2026 г."\
+  "После ожесточенных боев за базу, объединенные силы КМП США и ССО США, базирующиеся на западе Новки, планируют нанести ответный удар. Цель операции - захват дамбы. Проведение миссии предоставит время оставшимся войскам США для сбора, уничтожения, а также переправки секретных данных на Большую землю. "
+  m_aVisibleForFactions {
+   "RHS_USAF"
+   "RHS_AFRF"
+   ""
+  }
+  m_bEmptyFactionVisibility 1
+ }
+ {
+  coords 2395.765 185.947 1948.926
+  m_sTitle "Ситуация"
+  m_sTextData "Мы активно продвинулись с момента начала операции. По нашим разведданным США планируют провести ответный удар по нашим позициям на Дамбе. Для защиты объекта мы развернули Аванпост, севернее дамбы, и вооружили её КОРДом и ПТУРом."
+  m_aVisibleForFactions {
+   "RHS_AFRF"
+  }
+ }
+ {
+  coords 2395.765 185.947 1948.926
+  m_sTitle "Ситуация"
+  m_sTextData "Мы вывезли оставшихся людей с базы \"Фрост\" на запад Новки и, теперь, настал черед совершить ответный удар. По нашим разведданным, севернее дамбы, русские расположили аванпост с КОРДом и ПТУРом. Было бы неплохо завладеть этим вооружением и применить их против них самих же. Нужно быть осторожным, возможно, они могли заминировать подходы."
+  m_aVisibleForFactions {
+   "RHS_USAF"
+  }
+ }
+}
+$grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
+ {
+  coords 2367.035 183.972 1902.967
+  m_sTitle "Запад Дамбы удержан"
+  m_iScore 50
+  m_sFactionKey "RHS_AFRF"
+ }
+ {
+  coords 2367.035 183.972 1890.676
+  m_sTitle "Восток Дамбы удержан"
+  m_iScore 50
+  m_sFactionKey "RHS_AFRF"
+ }
+ {
+  coords 2356.435 183.972 1902.967
+  m_sTitle "Запад Дамбы захвачен"
+  m_iScore 50
+  m_sFactionKey "RHS_USAF"
+ }
+ {
+  coords 2356.435 183.972 1890.676
+  m_sTitle "Восток Дамбы захвачен"
+  m_iScore 50
+  m_sFactionKey "RHS_USAF"
+ }
+}
+PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ coords 2582.64 8.027 549.565
+ angles 0 90 0
+ m_sImageSetGlow "{E23427CAC80DA8B7}UI/Textures/Icons/icons_mapMarkersUI.imageset"
+ m_MarkerColor 0 0.125 0.502 1
+ m_sQuadName "help"
+ m_fWorldSize 150
+ m_sDescription "База \"Фрост\""
+ m_aVisibleForFactions {
+  "RHS_USAF"
+  "RHS_AFRF"
+  ""
+ }
+ m_bVisibleForEmptyFaction 1
+}
+GenericEntity : "{E6FC6DD69FA3479F}Prefabs/System/DRG_MissionEndTimerPrefab.et" {
+ components {
+  DRG_MissionEndTimerComponent "{651B0839B21B3BBF}" {
+   m_iMissionTime 2700
+  }
+ }
+ coords 2000.5 58.224 1547.054
+}
+$grp SCR_DestructibleBuildingEntity : "{F11A69D7B59C1369}Prefabs/Misc/TIGR_Wreck.et" {
+ {
+  coords 1932.194 72.119 1299.653
+  angles 0 0 0
+ }
+ {
+  coords 2000.278 71.599 1220.511
+  angles 0 -170.852 0
+ }
+ {
+  coords 1846.963 72.119 1361.112
+  angles 0 -71.97 0
+ }
+}

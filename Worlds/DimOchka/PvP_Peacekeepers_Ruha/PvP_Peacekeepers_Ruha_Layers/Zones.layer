@@ -1,0 +1,59 @@
+$grp GenericEntity : "{6A3CDCFB475BF1B2}Prefabs/System/DRG_CriticalLossPrefab.et" {
+ {
+  components {
+   DRG_CriticalLossComponent "{65213D368F1BD792}" {
+    m_aLossLogics {
+     LossLogic "{671469180067B32F}" {
+      m_aLosses {
+       FactionLoss "{671469180DC202D9}" {
+        m_sFactionKey "RHS_AFRF"
+       }
+      }
+      m_sObjectiveNames {
+       "РФ понесли большие потери и были вынуждены отступить"
+      }
+     }
+    }
+   }
+  }
+  coords 2058.225 64.377 3602.157
+ }
+ {
+  components {
+   DRG_CriticalLossComponent "{65213D368F1BD792}" {
+    m_aLossLogics {
+     LossLogic "{671469180067B32F}" {
+      m_aLosses {
+       FactionLoss "{671469180DC202D9}" {
+        m_sFactionKey "RHS_USAF"
+       }
+      }
+      m_sObjectiveNames {
+       "Войска США понесли большие потери и были вынуждены отступить"
+      }
+     }
+    }
+   }
+  }
+  coords 2058.225 64.377 3604.987
+ }
+}
+$grp SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
+ {
+  coords 2958.237 68.843 85.619
+ }
+ {
+  coords 5673.774 59.826 7327.664
+ }
+ {
+  coords 7683.977 70.475 7918.389
+ }
+}
+GenericEntity : "{E6FC6DD69FA3479F}Prefabs/System/DRG_MissionEndTimerPrefab.et" {
+ components {
+  DRG_MissionEndTimerComponent "{651B0839B21B3BBF}" {
+   m_iMissionTime 3000
+  }
+ }
+ coords 2064.15 64.136 3602.853
+}

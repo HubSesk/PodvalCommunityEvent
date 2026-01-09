@@ -1,0 +1,569 @@
+SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
+ coords 1681.789 37.228 910.246
+}
+PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 1681.383 37.209 910.347
+}
+PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
+ coords 1682.039 37.301 909.208
+}
+CinematicEntity Scene {
+ coords 0 0 0
+ Scene CinematicScene "{68528A9406F7381F}" {
+  Tracks {
+   CameraCinematicTrack "{68528A943BDE28DC}" {
+    TrackName "Camera"
+    Flags 0 0
+    Position Vector3CinematicTrack "{68528A943BDE2899}" {
+     TrackName "Position"
+     Flags 0 0
+     X FloatCinematicTrack "{68528A943BDE288D}" {
+      TrackName "X"
+      Keyframes {
+       FloatCinematicKeyframe "{68528A94AEB79C09}" {
+        FrameNumber 0
+        Value 401.89
+       }
+       FloatCinematicKeyframe "{68528A993EAD39C1}" {
+        FrameNumber 139
+        Value 405.97
+        InterpMode 0
+       }
+      }
+      Flags 0 0
+     }
+     Y FloatCinematicTrack "{68528A943BDE2884}" {
+      TrackName "Y"
+      Keyframes {
+       FloatCinematicKeyframe "{68528A974939CD98}" {
+        FrameNumber 0
+        Value 3.723
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{68528A993EAD3B70}" {
+        FrameNumber 139
+        Value 4.364
+        InterpMode 0
+       }
+      }
+      Flags 0 0
+     }
+     Z FloatCinematicTrack "{68528A943BDE2B7C}" {
+      TrackName "Z"
+      Keyframes {
+       FloatCinematicKeyframe "{68528A94AEB79E54}" {
+        FrameNumber 0
+        Value 390.781
+       }
+       FloatCinematicKeyframe "{68528A993EAD3BC4}" {
+        FrameNumber 139
+        Value 388.22
+        InterpMode 0
+       }
+      }
+      Flags 0 0
+     }
+    }
+    Angles Vector3CinematicTrack "{68528A943BDE2B76}" {
+     TrackName "Angles"
+     Flags 0 0
+     X FloatCinematicTrack "{68528A943BDE2B6C}" {
+      TrackName "X"
+      Keyframes {
+       FloatCinematicKeyframe "{68528A9755C56E2D}" {
+        FrameNumber 0
+        Value 4.246
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{68528A993EAD3A1A}" {
+        FrameNumber 139
+        Value 2.746
+        InterpMode 0
+       }
+      }
+      Flags 0 0
+     }
+     Y FloatCinematicTrack "{68528A943BDE2B69}" {
+      TrackName "Y"
+      Keyframes {
+       FloatCinematicKeyframe "{68528A94AEB79153}" {
+        FrameNumber 0
+        Value -242.162
+       }
+       FloatCinematicKeyframe "{68528A993EAD3D77}" {
+        FrameNumber 139
+        Value -253.083
+        InterpMode 0
+       }
+      }
+      Flags 0 0
+     }
+     Z FloatCinematicTrack "{68528A943BDE2B62}" {
+      TrackName "Z"
+      Keyframes {
+       FloatCinematicKeyframe "{68528A94AEB791C2}" {
+        FrameNumber 0
+        Value 0
+       }
+       FloatCinematicKeyframe "{68528A993EAD3DD6}" {
+        FrameNumber 139
+        Value 0
+        InterpMode 0
+       }
+      }
+      Flags 0 0
+     }
+    }
+    FOV FloatCinematicTrack "{68528A943BDE2B61}" {
+     TrackName "FOV"
+     Keyframes {
+      FloatCinematicKeyframe "{68528A9757F203FB}" {
+       FrameNumber 0
+       Value 16.24
+       InterpMode 0
+      }
+     }
+     Flags 0 0
+    }
+    DOF DOFCinematicTrack "{68528A943BDE2B56}" {
+     TrackName "DOF"
+     Flags 0 0
+     Enabled BooleanCinematicTrack "{68528A943BDE2B4E}" {
+      TrackName "Enabled"
+      Flags 0 0
+     }
+     FocusDistance FloatCinematicTrack "{68528A943BDE2B49}" {
+      TrackName "FocusDistance"
+      Flags 0 0
+     }
+     LengthNear FloatCinematicTrack "{68528A943BDE2B43}" {
+      TrackName "LengthNear"
+      Flags 0 0
+     }
+     LengthFar FloatCinematicTrack "{68528A943BDE2B3C}" {
+      TrackName "LengthFar"
+      Flags 0 0
+     }
+    }
+    DOFAdvanced DOFAdvancedCinematicTrack "{68528A943BDE2B39}" {
+     TrackName "DOFAdvanced"
+     Flags 0 0
+     Enabled BooleanCinematicTrack "{68528A943BDE2B2C}" {
+      TrackName "Enabled"
+      Keyframes {
+       BooleanCinematicKeyframe "{68528A9752AFAE6C}" {
+        FrameNumber 0
+        Value 1
+       }
+       BooleanCinematicKeyframe "{68528A983C42623F}" {
+        FrameNumber 139
+        Value 0
+       }
+      }
+      Flags 0 0
+     }
+     FocusDistance FloatCinematicTrack "{68528A943BDE2B2A}" {
+      TrackName "FocusDistance"
+      Keyframes {
+       FloatCinematicKeyframe "{68528A9758E8A71B}" {
+        FrameNumber 0
+        Value 8
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{68528A99458F2B54}" {
+        FrameNumber 139
+        Value 3.34
+        InterpMode 0
+       }
+      }
+      Flags 0 0
+     }
+     FStop FloatCinematicTrack "{68528A943BDE2B22}" {
+      TrackName "FStop"
+      Keyframes {
+       FloatCinematicKeyframe "{68528A975B089C1C}" {
+        FrameNumber 0
+        Value 0.22
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{68528A99473FB255}" {
+        FrameNumber 139
+        Value 0.93
+        InterpMode 0
+       }
+      }
+      Flags 0 0
+     }
+     SensorSize FloatCinematicTrack "{68528A943BDE2B1E}" {
+      TrackName "SensorSize"
+      Flags 0 0
+     }
+     FocalLengthAuto BooleanCinematicTrack "{68528A943BDE2B1A}" {
+      TrackName "FocalLengthAuto"
+      Flags 0 0
+     }
+     FocalLength FloatCinematicTrack "{68528A943BDE2B19}" {
+      TrackName "FocalLength"
+      Flags 0 0
+     }
+    }
+    HDR HDRCinematicTrack "{68528A943BDE2B12}" {
+     TrackName "HDR"
+     Flags 0 0
+     ManualExposition BooleanCinematicTrack "{68528A943BDE2B0D}" {
+      TrackName "ManualExposition"
+      Keyframes {
+       BooleanCinematicKeyframe "{68528A945787894E}" {
+        FrameNumber 0
+        Value 1
+       }
+      }
+      Flags 0 0
+     }
+     ExpositionLV FloatCinematicTrack "{68528A943BDE2B09}" {
+      TrackName "ExpositionLV"
+      Keyframes {
+       FloatCinematicKeyframe "{68528A949AF592ED}" {
+        FrameNumber 0
+        Value 5.89
+        InterpMode 0
+       }
+      }
+      Flags 0 0
+     }
+    }
+   }
+   CustomCinematicTrack "{68528A944590E507}" {
+    TrackName "WeatherTrack"
+    ClassName "WeatherCinematicTrack"
+    ChildTracks {
+     FloatCinematicTrack "{68528A944590D97B}" {
+      TrackName "m_fTimeOfDay"
+      Keyframes {
+       FloatCinematicKeyframe "{68528A9452D44411}" {
+        FrameNumber 0
+        Value 2.63
+        InterpMode 0
+       }
+      }
+     }
+     IntegerCinematicTrack "{68528A944590D9F6}" {
+      TrackName "m_iWeatherType"
+      Keyframes {
+       IntegerCinematicKeyframe "{68528A9450DA0B67}" {
+        FrameNumber 0
+        Value 3
+        InterpMode 2
+       }
+      }
+     }
+     BooleanCinematicTrack "{68528A944590D986}" {
+      TrackName "setSpecifics"
+     }
+     FloatCinematicTrack "{68528A944590D819}" {
+      TrackName "m_fWindSpeed"
+     }
+     FloatCinematicTrack "{68528A944590D8A8}" {
+      TrackName "m_fWindDirection"
+     }
+     FloatCinematicTrack "{68528A944590DB38}" {
+      TrackName "m_fWetness"
+     }
+     FloatCinematicTrack "{68528A944590DBCA}" {
+      TrackName "m_fPuddles"
+     }
+     FloatCinematicTrack "{68528A944590DA6C}" {
+      TrackName "m_fFog"
+     }
+     FloatCinematicTrack "{68528A944590DA12}" {
+      TrackName "m_fFogHeight"
+     }
+     BooleanCinematicTrack "{68528A944590DABB}" {
+      TrackName "setDate"
+     }
+     IntegerCinematicTrack "{68528A944590DD58}" {
+      TrackName "m_iYear"
+     }
+     IntegerCinematicTrack "{68528A944590DD01}" {
+      TrackName "m_iMonth"
+     }
+     IntegerCinematicTrack "{68528A944590DDA9}" {
+      TrackName "m_iDay"
+     }
+    }
+   }
+   AnimationCinematicTrack "{68528A94E30E1748}" {
+    TrackName "a"
+    Play BooleanCinematicTrack "{68528A94E30E1708}" {
+     TrackName "Play"
+    }
+   }
+   AnimationCinematicTrack "{68528A9708323901}" {
+    TrackName "a2"
+    Play BooleanCinematicTrack "{68528A97083239BC}" {
+     TrackName "Play"
+    }
+   }
+   AnimationCinematicTrack "{68528A971233A069}" {
+    TrackName "a3"
+    Play BooleanCinematicTrack "{68528A971233A050}" {
+     TrackName "Play"
+    }
+   }
+   AnimationCinematicTrack "{68528A972CA384D9}" {
+    TrackName "a4"
+    Play BooleanCinematicTrack "{68528A972CA384CD}" {
+     TrackName "Play"
+    }
+   }
+   AnimationCinematicTrack "{68528A972AB07990}" {
+    TrackName "a5"
+    Play BooleanCinematicTrack "{68528A972AB07989}" {
+     TrackName "Play"
+    }
+   }
+  }
+ }
+}
+$grp LightEntity {
+ {
+  coords 400.596 4.158 389.199
+  angles 0 107.644 0
+  LV 9.86
+  Type Spot
+  Radius 57.63
+ }
+ {
+  coords 410.719 10.163 386.585
+  angles -84.459 -72.356 -180
+  Color 0.3765 0.4706 0.749 1
+  LV 11.26
+  Type Spot
+  Radius 8.2
+ }
+ {
+  coords 424.063 5.868 381.545
+  angles -5.649 -71.454 -0.194
+  Color 0.8469 0.5906 0.2789 1
+  LV 11.9
+  Type Spot
+  Radius 57.63
+  DistanceAttenuation 1.04
+  LensFlareType Disabled
+ }
+ {
+  coords 407.961 7.388 384.427
+  angles -66.275 31.454 0
+  LV 12.35
+  Type Spot
+  Radius 7.52
+  SpotAngle 49.95
+  DistanceAttenuation 3
+ }
+ {
+  coords 410.824 4.396 388.453
+  angles 0 -135 0
+  LV 10.31
+  Type Spot
+  Radius 7.52
+  SpotAngle 70.09
+  DistanceAttenuation 3
+ }
+}
+$grp GenericEntity : "{5B1381786551320C}Prefabs/Characters/CINEMATIC_RU_soldier_with_animation.et" {
+ a {
+  components {
+   BaseLoadoutManagerComponent "{5670AB5CB11668D5}" {
+    Slots {
+     LoadoutSlotInfo Hat {
+      Enabled 1
+      Prefab "{A13B77BB55EDC375}Prefabs/Characters/HeadGear/USMC_Helmet_Cover/Winter/GD_MICH2000_BWinter.et"
+     }
+     LoadoutSlotInfo Jacket {
+      Prefab "{21BCF2B1BC3B744B}Prefabs/Characters/Uniforms/Gryphon/Jacket_Gryphon_SNOW.et"
+     }
+     LoadoutSlotInfo Pants {
+      Prefab "{3E5C7BD276167A2C}Prefabs/Characters/Uniforms/Crye_G4_Pants/GD_Crye_G4_Pants_Winter.et"
+     }
+     LoadoutSlotInfo Back {
+      Enabled 1
+      Prefab "{FFAB2A3AE453608F}Prefabs/Characters/Vests/GEN2_Pouches/GEN2_TF_Pouches.et"
+     }
+     LoadoutSlotInfo Vest {
+      Prefab "{822B66CBF331F844}Prefabs/Characters/Vests/Vest_PCGen_II/Vest_PCGen_II_base.et"
+     }
+    }
+   }
+   SlotManagerComponent "{61ACA54187114670}" {
+    Slots {
+     EntitySlotInfo gun {
+      Prefab "{E96C5F3222CA9191}Prefabs/Weapons/M4A1/M4_SOCOM_V2.et"
+     }
+    }
+   }
+   AnimationPlayerComponent "{5670AB5CB11668D8}" {
+    Animation "{2478053349D5C94D}anims/anm/editor_poses/poses/6_squad s1.anm"
+   }
+  }
+  coords 407.367 3.194 389.188
+  angles 0 72.692 0
+ }
+ a2 {
+  components {
+   BaseLoadoutManagerComponent "{5670AB5CB11668D5}" {
+    Slots {
+     LoadoutSlotInfo Hat {
+      Enabled 1
+      Prefab "{A13B77BB55EDC375}Prefabs/Characters/HeadGear/USMC_Helmet_Cover/Winter/GD_MICH2000_BWinter.et"
+     }
+     LoadoutSlotInfo Jacket {
+      Prefab "{21BCF2B1BC3B744B}Prefabs/Characters/Uniforms/Gryphon/Jacket_Gryphon_SNOW.et"
+     }
+     LoadoutSlotInfo Pants {
+      Prefab "{3E5C7BD276167A2C}Prefabs/Characters/Uniforms/Crye_G4_Pants/GD_Crye_G4_Pants_Winter.et"
+     }
+     LoadoutSlotInfo Back {
+      Enabled 1
+      Prefab "{FFAB2A3AE453608F}Prefabs/Characters/Vests/GEN2_Pouches/GEN2_TF_Pouches.et"
+     }
+     LoadoutSlotInfo Vest {
+      Prefab "{822B66CBF331F844}Prefabs/Characters/Vests/Vest_PCGen_II/Vest_PCGen_II_base.et"
+     }
+    }
+   }
+   SlotManagerComponent "{61ACA54187114670}" {
+    Slots {
+     EntitySlotInfo gun {
+      Prefab "{E96C5F3222CA9191}Prefabs/Weapons/M4A1/M4_SOCOM_V2.et"
+     }
+    }
+   }
+   AnimationPlayerComponent "{5670AB5CB11668D8}" {
+    Animation "{CA6CD422A09017AD}anims/anm/editor_poses/poses/6_squad s3.anm"
+   }
+  }
+  coords 412.527 3.194 387.317
+  angles 0 84.195 0
+ }
+ a3 {
+  components {
+   BaseLoadoutManagerComponent "{5670AB5CB11668D5}" {
+    Slots {
+     LoadoutSlotInfo Hat {
+      Enabled 1
+      Prefab "{A13B77BB55EDC375}Prefabs/Characters/HeadGear/USMC_Helmet_Cover/Winter/GD_MICH2000_BWinter.et"
+     }
+     LoadoutSlotInfo Jacket {
+      Prefab "{21BCF2B1BC3B744B}Prefabs/Characters/Uniforms/Gryphon/Jacket_Gryphon_SNOW.et"
+     }
+     LoadoutSlotInfo Pants {
+      Prefab "{3E5C7BD276167A2C}Prefabs/Characters/Uniforms/Crye_G4_Pants/GD_Crye_G4_Pants_Winter.et"
+     }
+     LoadoutSlotInfo Back {
+      Enabled 1
+      Prefab "{FFAB2A3AE453608F}Prefabs/Characters/Vests/GEN2_Pouches/GEN2_TF_Pouches.et"
+     }
+     LoadoutSlotInfo Vest {
+      Prefab "{822B66CBF331F844}Prefabs/Characters/Vests/Vest_PCGen_II/Vest_PCGen_II_base.et"
+     }
+    }
+   }
+   SlotManagerComponent "{61ACA54187114670}" {
+    Slots {
+     EntitySlotInfo gun {
+      Prefab "{E96C5F3222CA9191}Prefabs/Weapons/M4A1/M4_SOCOM_V2.et"
+     }
+    }
+   }
+   AnimationPlayerComponent "{5670AB5CB11668D8}" {
+    Animation "{23BFFF622F53738E}anims/anm/editor_poses/poses/6_squad s6.anm"
+   }
+  }
+  coords 408.568 3.194 387.865
+  angles 0 80.004 0
+ }
+ a4 {
+  components {
+   BaseLoadoutManagerComponent "{5670AB5CB11668D5}" {
+    Slots {
+     LoadoutSlotInfo Hat {
+      Enabled 1
+      Prefab "{A13B77BB55EDC375}Prefabs/Characters/HeadGear/USMC_Helmet_Cover/Winter/GD_MICH2000_BWinter.et"
+     }
+     LoadoutSlotInfo Jacket {
+      Prefab "{21BCF2B1BC3B744B}Prefabs/Characters/Uniforms/Gryphon/Jacket_Gryphon_SNOW.et"
+     }
+     LoadoutSlotInfo Pants {
+      Prefab "{3E5C7BD276167A2C}Prefabs/Characters/Uniforms/Crye_G4_Pants/GD_Crye_G4_Pants_Winter.et"
+     }
+     LoadoutSlotInfo Back {
+      Enabled 1
+      Prefab "{FFAB2A3AE453608F}Prefabs/Characters/Vests/GEN2_Pouches/GEN2_TF_Pouches.et"
+     }
+     LoadoutSlotInfo Vest {
+      Prefab "{822B66CBF331F844}Prefabs/Characters/Vests/Vest_PCGen_II/Vest_PCGen_II_base.et"
+     }
+    }
+   }
+   SlotManagerComponent "{61ACA54187114670}" {
+    Slots {
+     EntitySlotInfo gun {
+      Prefab "{E96C5F3222CA9191}Prefabs/Weapons/M4A1/M4_SOCOM_V2.et"
+     }
+    }
+   }
+   AnimationPlayerComponent "{5670AB5CB11668D8}" {
+    Animation "{23BFFF622F53738E}anims/anm/editor_poses/poses/6_squad s6.anm"
+   }
+  }
+  coords 412.869 2.839 384.646
+  angles 0 80.004 0
+ }
+ a5 {
+  components {
+   BaseLoadoutManagerComponent "{5670AB5CB11668D5}" {
+    Slots {
+     LoadoutSlotInfo Hat {
+      Enabled 1
+      Prefab "{A13B77BB55EDC375}Prefabs/Characters/HeadGear/USMC_Helmet_Cover/Winter/GD_MICH2000_BWinter.et"
+     }
+     LoadoutSlotInfo Jacket {
+      Prefab "{21BCF2B1BC3B744B}Prefabs/Characters/Uniforms/Gryphon/Jacket_Gryphon_SNOW.et"
+     }
+     LoadoutSlotInfo Pants {
+      Prefab "{3E5C7BD276167A2C}Prefabs/Characters/Uniforms/Crye_G4_Pants/GD_Crye_G4_Pants_Winter.et"
+     }
+     LoadoutSlotInfo Back {
+      Enabled 1
+      Prefab "{C44B2D38D79B24CE}Prefabs/Characters/Vests/GEN2_Pouches/GEN2_SL_Pouches.et"
+     }
+     LoadoutSlotInfo Vest {
+      Prefab "{822B66CBF331F844}Prefabs/Characters/Vests/Vest_PCGen_II/Vest_PCGen_II_base.et"
+     }
+     LoadoutSlotInfo perch {
+      Prefab "{D1D8EF51D0C605F0}Prefabs/Characters/Handwear/Gloves_Oackley/Gloves_Oackley_Tan.et"
+     }
+     LoadoutSlotInfo bal {
+      Enabled 0
+      Prefab "{A768B4F898E7855E}Prefabs/Characters/HeadGear/SAS_Facemask/GD_SAS_Facemask_Black.et"
+     }
+    }
+   }
+   SlotManagerComponent "{61ACA54187114670}" {
+    Slots {
+     EntitySlotInfo gun {
+      Prefab "{E96C5F3222CA9191}Prefabs/Weapons/M4A1/M4_SOCOM_V2.et"
+     }
+    }
+   }
+   AnimationPlayerComponent "{5670AB5CB11668D8}" {
+    Animation "{C93F8077FD6EC82B}anims/anm/editor_poses/poses/3_rifleman.anm"
+   }
+  }
+  coords 409.094 3.167 387.04
+  angles 0 41.127 0
+ }
+}
+SCR_EditorRestrictionZoneEntity : "{EF72FA7CD87618D5}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneSmall.et" {
+ coords 1095.109 15.174 786.872
+}

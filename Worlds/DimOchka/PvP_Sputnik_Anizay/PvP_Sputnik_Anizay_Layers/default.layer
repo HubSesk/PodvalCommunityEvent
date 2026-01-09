@@ -1,0 +1,836 @@
+$grp ParticleEffectEntity {
+ {
+  coords 6195.459 124.199 6234.618
+  EffectPath "{FE399364B14304AA}Particles/Enviroment/electrical_short_small_loop.ptc"
+ }
+ {
+  coords 6197.024 124.008 6234.693
+  EffectPath "{FE399364B14304AA}Particles/Enviroment/electrical_short_small_loop.ptc"
+ }
+ {
+  coords 6194.952 124.048 6235.806
+  EffectPath "{FE399364B14304AA}Particles/Enviroment/electrical_short_small_loop.ptc"
+ }
+ {
+  coords 6196.354 124.21 6236.246
+  EffectPath "{FE399364B14304AA}Particles/Enviroment/electrical_short_small_loop.ptc"
+ }
+ {
+  coords 6195.65 124.152 6235.775
+  EffectPath "{6EE3295AC363E562}Particles/Enviroment/Smoke_Smokestack_Big.ptc"
+ }
+}
+$grp Vehicle : "{1395C9E664E4C792}Prefabs/Vehicles/Wheeled/M998/M1151_armed_M2HB_Tan_NOGUN_DIMKII.et" {
+ M1151_armed_M2HB_Tan_NOGUN_DIMKII1 {
+  coords 6188.627 123.91 6199.914
+  angles 1.986 109.46 -0.247
+ }
+ M1151_armed_M2HB_Tan_NOGUN_DIMKII2 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{684AD9FD7F424C3D}" {
+      SlotTemplate InventoryStorageSlot ATmine {
+       Prefab "{E4C9F0A4090CFE4D}Prefabs/Weapons/Explosives/Mine_M14/Mine_M14.et"
+      }
+      NumSlots 30
+     }
+    }
+   }
+  }
+  coords 6193.722 124.033 6201.509
+  angles 1.726 146.995 2.575
+ }
+}
+ParticleEffectEntity : "{15BAFA81731FC155}Prefabs/Particles/Smoke_Trail_Phosphor.et" {
+ coords 6195.544 124.265 6234.495
+}
+DecalEntity : "{4E2502622DA0DB28}Prefabs/Decals/Miscellaneous/Decal_Damage_Burnt_01.et" {
+ coords 6199.243 123.695 6231.255
+ angles -84.139 154.535 -42.834
+ scale 26.3
+}
+SCR_DestructibleBuildingEntity : "{52E53029C98269C2}Prefabs/Misc/Sata/Sata3.et" {
+ coords 6195.646 -0.39 6230.58
+ angles 3.081 165.026 0.17
+}
+Vehicle M1151_armed_M2HB_Tan3 : "{533820E8979A44A9}Prefabs/Vehicles/Wheeled/M998/M1151_armed_M2HB_Tan.et" {
+ coords 6190.195 123.803 6219.185
+ angles -2.396 -39.446 -1.503
+}
+$grp StaticModelEntity : "{55A3DA68E58453A1}Prefabs/Structures/Military/Fortifications/DirtCover_01/DirtCover_01_long_v2.et" {
+ {
+  components {
+   MeshObject "{5272E314F6439B95}" {
+    Materials {
+     MaterialAssignClass "{6848E8D59E339FB3}" {
+      SourceMaterial "DirtCover_01"
+      AssignedMaterial "{E0078B932EB17D27}Common/Materials/default_MatTerrainObj.emat"
+     }
+    }
+   }
+  }
+  coords 6193.173 -0.733 6233.333
+  angles -28.915 -104.342 5.254
+  scale 2.88
+ }
+ {
+  components {
+   MeshObject "{5272E314F6439B95}" {
+    Materials {
+     MaterialAssignClass "{6848E8D59E339031}" {
+      SourceMaterial "DirtCover_01"
+      AssignedMaterial "{E0078B932EB17D27}Common/Materials/default_MatTerrainObj.emat"
+     }
+    }
+   }
+  }
+  coords 6193.978 -0.963 6225.722
+  angles -31.938 -104.67 5.42
+  scale 2.88
+ }
+ {
+  components {
+   MeshObject "{5272E314F6439B95}" {
+    Materials {
+     MaterialAssignClass "{6848E8D59E3390A3}" {
+      SourceMaterial "DirtCover_01"
+      AssignedMaterial "{E0078B932EB17D27}Common/Materials/default_MatTerrainObj.emat"
+     }
+    }
+   }
+  }
+  coords 6195.708 -1.184 6216.416
+  angles -37.41 -105.324 5.793
+  scale 2.88
+ }
+ {
+  components {
+   MeshObject "{5272E314F6439B95}" {
+    Materials {
+     MaterialAssignClass "{6848E8D59E33932A}" {
+      SourceMaterial "DirtCover_01"
+      AssignedMaterial "{E0078B932EB17D27}Common/Materials/default_MatTerrainObj.emat"
+     }
+    }
+   }
+  }
+  coords 6196.442 -1.726 6207.801
+  angles -36.968 -105.267 5.758
+  scale 2.88
+ }
+ {
+  components {
+   MeshObject "{5272E314F6439B95}" {
+    Materials {
+     MaterialAssignClass "{6848E8D59E33939B}" {
+      SourceMaterial "DirtCover_01"
+      AssignedMaterial "{E0078B932EB17D27}Common/Materials/default_MatTerrainObj.emat"
+     }
+    }
+   }
+  }
+  coords 6203.785 -0.932 6227.839
+  angles 18.162 -104.132 4.482
+  scale 2.88
+ }
+ {
+  components {
+   MeshObject "{5272E314F6439B95}" {
+    Materials {
+     MaterialAssignClass "{6848E8D59E33922E}" {
+      SourceMaterial "DirtCover_01"
+      AssignedMaterial "{E0078B932EB17D27}Common/Materials/default_MatTerrainObj.emat"
+     }
+    }
+   }
+  }
+  coords 6205.176 -1.318 6218.391
+  angles 34.505 -102.597 5.17
+  scale 2.88
+ }
+ {
+  components {
+   MeshObject "{5272E314F6439B95}" {
+    Materials {
+     MaterialAssignClass "{6848E8D59E3392C9}" {
+      SourceMaterial "DirtCover_01"
+      AssignedMaterial "{E0078B932EB17D27}Common/Materials/default_MatTerrainObj.emat"
+     }
+    }
+   }
+  }
+  coords 6206.629 -1.256 6208.695
+  angles 31.349 -102.931 4.989
+  scale 2.88
+ }
+ {
+  components {
+   MeshObject "{5272E314F6439B95}" {
+    Materials {
+     MaterialAssignClass "{6848E8D59E339564}" {
+      SourceMaterial "DirtCover_01"
+      AssignedMaterial "{E0078B932EB17D27}Common/Materials/default_MatTerrainObj.emat"
+     }
+    }
+   }
+  }
+  coords 6199.83 -1.361 6234.576
+  angles 35.781 -102.454 5.252
+  scale 2.88
+ }
+ {
+  components {
+   MeshObject "{5272E314F6439B95}" {
+    Materials {
+     MaterialAssignClass "{6848E8D59E3395F9}" {
+      SourceMaterial "DirtCover_01"
+      AssignedMaterial "{E0078B932EB17D27}Common/Materials/default_MatTerrainObj.emat"
+     }
+    }
+   }
+  }
+  coords 6193.352 -1.47 6240.895
+  angles 39.62 165.805 1.377
+  scale 3.318
+ }
+ {
+  components {
+   MeshObject "{5272E314F6439B95}" {
+    Materials {
+     MaterialAssignClass "{6848E8D59A167314}" {
+      SourceMaterial "DirtCover_01"
+      AssignedMaterial "{E0078B932EB17D27}Common/Materials/default_MatTerrainObj.emat"
+     }
+    }
+   }
+  }
+  coords 6194.6 -0.083 6239.651
+  angles 17.52 165.262 1.112
+  scale 1.3
+ }
+ {
+  components {
+   MeshObject "{5272E314F6439B95}" {
+    Materials {
+     MaterialAssignClass "{6848E8D59E33939B}" {
+      SourceMaterial "DirtCover_01"
+      AssignedMaterial "{E0078B932EB17D27}Common/Materials/default_MatTerrainObj.emat"
+     }
+    }
+   }
+  }
+  coords 6192.018 -1.821 6232.976
+  angles -20.194 -107.101 -1.824
+  scale 5.818
+ }
+ {
+  components {
+   MeshObject "{5272E314F6439B95}" {
+    Materials {
+     MaterialAssignClass "{6848E8D59E33939B}" {
+      SourceMaterial "DirtCover_01"
+      AssignedMaterial "{E0078B932EB17D27}Common/Materials/default_MatTerrainObj.emat"
+     }
+    }
+   }
+  }
+  coords 6201.329 -1.478 6236.639
+  angles -30.958 80.73 4.796
+  scale 4.305
+ }
+ {
+  components {
+   MeshObject "{5272E314F6439B95}" {
+    Materials {
+     MaterialAssignClass "{6848E8D59E33939B}" {
+      SourceMaterial "DirtCover_01"
+      AssignedMaterial "{E0078B932EB17D27}Common/Materials/default_MatTerrainObj.emat"
+     }
+    }
+   }
+  }
+  coords 6205.63 -1.952 6237.599
+  angles 35.024 74.34 -5.985
+  scale 4.305
+ }
+ {
+  components {
+   MeshObject "{5272E314F6439B95}" {
+    Materials {
+     MaterialAssignClass "{6848E8D59E33939B}" {
+      SourceMaterial "DirtCover_01"
+      AssignedMaterial "{E0078B932EB17D27}Common/Materials/default_MatTerrainObj.emat"
+     }
+    }
+   }
+  }
+  coords 6209.229 -1.92 6223.069
+  angles 35.424 87.922 -4.66
+  scale 4.305
+ }
+}
+Vehicle M923A1_command_DIMKII1 : "{58595A0939F397C0}Prefabs/Vehicles/Wheeled/M923A1/M923A1_command_DIMKII.et" {
+ coords 6200.017 124.366 6208.575
+ angles 0 176.507 0
+}
+DecalEntity : "{80B1153302345834}Prefabs/Decals/Miscellaneous/Decal_Damage_Burnt_03.et" {
+ coords 6196.323 123.108 6234.73
+ angles -83.108 156.114 8.876
+ scale 22.15
+}
+$grp GenericEntity : "{898B81D2B9E9B2DC}Prefabs/Compositions/Misc/FreeRoamBuilding/SandbagWallSolidBurlap_S_USSR_01.et" {
+ {
+  components {
+   SCR_SlotCompositionComponent "{52CAE30B655050CF}" {
+    Enabled 0
+   }
+  }
+  coords 6203.995 120.011 6283.316
+  angles -3.65 -5.954 -0.518
+  {
+   GenericEntity {
+    ID "5D70BA356CD2E641"
+    coords 0 0 0
+   }
+  }
+ }
+ {
+  components {
+   SCR_SlotCompositionComponent "{52CAE30B655050CF}" {
+    Enabled 0
+   }
+  }
+  coords 6199.585 120.703 6282.642
+  angles -3.681 -11.012 -0.194
+ }
+ {
+  components {
+   SCR_SlotCompositionComponent "{52CAE30B655050CF}" {
+    Enabled 0
+   }
+  }
+  coords 6199.585 120.703 6282.642
+  angles -3.681 -11.012 -0.194
+ }
+ {
+  components {
+   SCR_SlotCompositionComponent "{52CAE30B655050CF}" {
+    Enabled 0
+   }
+  }
+  coords 6149.77 120.337 6252.08
+  angles -1.49 -68.45 1.336
+  {
+   GenericEntity {
+    ID "5D70BA356CD2E641"
+    coords 0 0 0
+   }
+  }
+ }
+ {
+  components {
+   SCR_SlotCompositionComponent "{52CAE30B655050CF}" {
+    Enabled 0
+   }
+  }
+  coords 6148.334 120.507 6247.856
+  angles -0.766 -73.428 2.572
+ }
+}
+$grp GenericEntity : "{9C9C4BED9E19C374}Prefabs/Props/Military/Sandbags/Sandbag_01_wall_solid_burlap.et" {
+ {
+  components {
+   Hierarchy "{5D70BA354E208E2C}" {
+    Enabled 1
+   }
+  }
+  coords 6175.521 119.993 6278.403
+  angles 0 -10.314 0
+ }
+ {
+  components {
+   Hierarchy "{5D70BA354E208E2C}" {
+    Enabled 1
+   }
+  }
+  coords 6170.912 119.993 6277.564
+  angles 0 -14.447 0
+ }
+ {
+  components {
+   Hierarchy "{5D70BA354E208E2C}" {
+    Enabled 1
+   }
+  }
+  coords 6141.002 121.327 6224.547
+  angles -0.527 -72.877 1.711
+ }
+ {
+  components {
+   Hierarchy "{5D70BA354E208E2C}" {
+    Enabled 1
+   }
+  }
+  coords 6139.622 121.466 6220.07
+  angles -0.403 -77.006 1.744
+ }
+}
+$grp StaticModelEntity : "{B03F9691E961C4CA}Prefabs/Structures/Military/Fortifications/DirtCover_01/DirtCover_01_long_v3.et" {
+ {
+  components {
+   MeshObject "{5272E314F6439B95}" {
+    Materials {
+     MaterialAssignClass "{6848E8D59A167E64}" {
+      SourceMaterial "DirtCover_01"
+      AssignedMaterial "{E0078B932EB17D27}Common/Materials/default_MatTerrainObj.emat"
+     }
+    }
+   }
+  }
+  coords 6193.157 -0.832 6236.937
+  angles 24.543 73.902 7.021
+  scale 1.45
+ }
+ {
+  components {
+   MeshObject "{5272E314F6439B95}" {
+    Materials {
+     MaterialAssignClass "{6848E8D59A1670B9}" {
+      SourceMaterial "DirtCover_01"
+      AssignedMaterial "{E0078B932EB17D27}Common/Materials/default_MatTerrainObj.emat"
+     }
+    }
+   }
+  }
+  coords 6197.328 -0.865 6238.362
+  angles 24.543 73.902 7.021
+  scale 1.45
+ }
+ {
+  components {
+   MeshObject "{5272E314F6439B95}" {
+    Materials {
+     MaterialAssignClass "{684AD9FB96B65795}" {
+      SourceMaterial "DirtCover_01"
+      AssignedMaterial "{E0078B932EB17D27}Common/Materials/default_MatTerrainObj.emat"
+     }
+    }
+   }
+  }
+  coords 6224.548 0.531 6243.506
+  angles 0.498 69.16 -2.517
+  scale 3.094
+ }
+ {
+  components {
+   MeshObject "{5272E314F6439B95}" {
+    Materials {
+     MaterialAssignClass "{684AD9FB96B65795}" {
+      SourceMaterial "DirtCover_01"
+      AssignedMaterial "{E0078B932EB17D27}Common/Materials/default_MatTerrainObj.emat"
+     }
+    }
+   }
+  }
+  coords 6227.857 0.298 6234.8
+  angles 0.498 69.16 -2.517
+  scale 3.094
+ }
+ {
+  components {
+   MeshObject "{5272E314F6439B95}" {
+    Materials {
+     MaterialAssignClass "{684AD9FB96B65795}" {
+      SourceMaterial "DirtCover_01"
+      AssignedMaterial "{E0078B932EB17D27}Common/Materials/default_MatTerrainObj.emat"
+     }
+    }
+   }
+  }
+  coords 6231.043 0.48 6226.419
+  angles 0.498 69.16 -2.517
+  scale 3.094
+ }
+ {
+  components {
+   MeshObject "{5272E314F6439B95}" {
+    Materials {
+     MaterialAssignClass "{684AD9FB96B65795}" {
+      SourceMaterial "DirtCover_01"
+      AssignedMaterial "{E0078B932EB17D27}Common/Materials/default_MatTerrainObj.emat"
+     }
+    }
+   }
+  }
+  coords 6235.035 0.385 6215.928
+  angles -3.444 69.111 0.722
+  scale 3.094
+ }
+ {
+  components {
+   MeshObject "{5272E314F6439B95}" {
+    Materials {
+     MaterialAssignClass "{684AD9FB96B65795}" {
+      SourceMaterial "DirtCover_01"
+      AssignedMaterial "{E0078B932EB17D27}Common/Materials/default_MatTerrainObj.emat"
+     }
+    }
+   }
+  }
+  coords 6174.859 0.784 6244.881
+  angles -1.648 109.392 2.505
+  scale 3.094
+ }
+ {
+  components {
+   MeshObject "{5272E314F6439B95}" {
+    Materials {
+     MaterialAssignClass "{684AD9FB96B65795}" {
+      SourceMaterial "DirtCover_01"
+      AssignedMaterial "{E0078B932EB17D27}Common/Materials/default_MatTerrainObj.emat"
+     }
+    }
+   }
+  }
+  coords 6180.436 1.334 6253.106
+  angles -2.559 134.667 1.561
+  scale 3.094
+ }
+ {
+  components {
+   MeshObject "{5272E314F6439B95}" {
+    Materials {
+     MaterialAssignClass "{684AD9FB96B65795}" {
+      SourceMaterial "DirtCover_01"
+      AssignedMaterial "{E0078B932EB17D27}Common/Materials/default_MatTerrainObj.emat"
+     }
+    }
+   }
+  }
+  coords 6189.237 1.33 6258.344
+  angles -2.966 157.708 0.436
+  scale 3.094
+ }
+ {
+  components {
+   MeshObject "{5272E314F6439B95}" {
+    Materials {
+     MaterialAssignClass "{684AD9FB96B65795}" {
+      SourceMaterial "DirtCover_01"
+      AssignedMaterial "{E0078B932EB17D27}Common/Materials/default_MatTerrainObj.emat"
+     }
+    }
+   }
+  }
+  coords 6198.394 1.075 6260.057
+  angles -2.95 176.363 -0.535
+  scale 3.094
+ }
+ {
+  components {
+   MeshObject "{5272E314F6439B95}" {
+    Materials {
+     MaterialAssignClass "{684AD9FB96B65795}" {
+      SourceMaterial "DirtCover_01"
+      AssignedMaterial "{E0078B932EB17D27}Common/Materials/default_MatTerrainObj.emat"
+     }
+    }
+   }
+  }
+  coords 6208.487 0.331 6257.175
+  angles -2.436 -158.256 -1.748
+  scale 3.094
+ }
+ {
+  components {
+   MeshObject "{5272E314F6439B95}" {
+    Materials {
+     MaterialAssignClass "{684AD9FB96B65795}" {
+      SourceMaterial "DirtCover_01"
+      AssignedMaterial "{E0078B932EB17D27}Common/Materials/default_MatTerrainObj.emat"
+     }
+    }
+   }
+  }
+  coords 6187.613 0.537 6171.177
+  angles -1.381 36.703 -0.852
+  scale 3.094
+ }
+ {
+  components {
+   MeshObject "{5272E314F6439B95}" {
+    Materials {
+     MaterialAssignClass "{684AD9FB96B65795}" {
+      SourceMaterial "DirtCover_01"
+      AssignedMaterial "{E0078B932EB17D27}Common/Materials/default_MatTerrainObj.emat"
+     }
+    }
+   }
+  }
+  coords 6223.276 0.494 6174.36
+  angles -0.797 -55.596 1.414
+  scale 3.094
+ }
+ {
+  components {
+   MeshObject "{5272E314F6439B95}" {
+    Materials {
+     MaterialAssignClass "{684AD9FB96B65795}" {
+      SourceMaterial "DirtCover_01"
+      AssignedMaterial "{E0078B932EB17D27}Common/Materials/default_MatTerrainObj.emat"
+     }
+    }
+   }
+  }
+  coords 6215.761 0.595 6167.85
+  angles -1.324 -30.323 0.938
+  scale 3.094
+ }
+ {
+  components {
+   MeshObject "{5272E314F6439B95}" {
+    Materials {
+     MaterialAssignClass "{684AD9FB96B65795}" {
+      SourceMaterial "DirtCover_01"
+      AssignedMaterial "{E0078B932EB17D27}Common/Materials/default_MatTerrainObj.emat"
+     }
+    }
+   }
+  }
+  coords 6196.617 0.58 6165.778
+  angles -1.613 11.338 -0.178
+  scale 3.094
+ }
+ {
+  components {
+   MeshObject "{5272E314F6439B95}" {
+    Materials {
+     MaterialAssignClass "{684AD9FB96B65795}" {
+      SourceMaterial "DirtCover_01"
+      AssignedMaterial "{E0078B932EB17D27}Common/Materials/default_MatTerrainObj.emat"
+     }
+    }
+   }
+  }
+  coords 6205.906 0.591 6165.063
+  angles -1.585 -7.299 0.347
+  scale 3.094
+ }
+ {
+  components {
+   MeshObject "{5272E314F6439B95}" {
+    Materials {
+     MaterialAssignClass "{684AD9FB96B65795}" {
+      SourceMaterial "DirtCover_01"
+      AssignedMaterial "{E0078B932EB17D27}Common/Materials/default_MatTerrainObj.emat"
+     }
+    }
+   }
+  }
+  coords 6245.227 0.408 6175.025
+  angles -0.467 -68.276 1.554
+  scale 1.54
+ }
+ {
+  components {
+   MeshObject "{5272E314F6439B95}" {
+    Materials {
+     MaterialAssignClass "{684AD9FB96B65795}" {
+      SourceMaterial "DirtCover_01"
+      AssignedMaterial "{E0078B932EB17D27}Common/Materials/default_MatTerrainObj.emat"
+     }
+    }
+   }
+  }
+  coords 6247.102 0.354 6178.842
+  angles -0.555 -65.002 1.525
+  scale 1.54
+ }
+ {
+  components {
+   MeshObject "{5272E314F6439B95}" {
+    Materials {
+     MaterialAssignClass "{684AD9FB96B65795}" {
+      SourceMaterial "DirtCover_01"
+      AssignedMaterial "{E0078B932EB17D27}Common/Materials/default_MatTerrainObj.emat"
+     }
+    }
+   }
+  }
+  coords 6249.022 0.351 6182.958
+  angles -0.555 -65.002 1.525
+  scale 1.54
+ }
+ {
+  components {
+   MeshObject "{5272E314F6439B95}" {
+    Materials {
+     MaterialAssignClass "{684AD9FB96B65795}" {
+      SourceMaterial "DirtCover_01"
+      AssignedMaterial "{E0078B932EB17D27}Common/Materials/default_MatTerrainObj.emat"
+     }
+    }
+   }
+  }
+  coords 6251.659 0.383 6187.774
+  angles -0.555 -65.002 1.525
+  scale 1.54
+ }
+ {
+  components {
+   MeshObject "{5272E314F6439B95}" {
+    Materials {
+     MaterialAssignClass "{684AD9FB96B65795}" {
+      SourceMaterial "DirtCover_01"
+      AssignedMaterial "{E0078B932EB17D27}Common/Materials/default_MatTerrainObj.emat"
+     }
+    }
+   }
+  }
+  coords 6254.179 0.493 6192.93
+  angles -0.555 -65.002 1.525
+  scale 1.54
+ }
+ {
+  components {
+   MeshObject "{5272E314F6439B95}" {
+    Materials {
+     MaterialAssignClass "{684AD9FB96B65795}" {
+      SourceMaterial "DirtCover_01"
+      AssignedMaterial "{E0078B932EB17D27}Common/Materials/default_MatTerrainObj.emat"
+     }
+    }
+   }
+  }
+  coords 6236.873 -0.283 6171.687
+  angles -1.764 -15.153 4.423
+  scale 3.927
+ }
+}
+$grp GenericEntity : "{B0F3D8C49F4B5D1D}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_USSR_04_DIMKII.et" {
+ {
+  coords 6154.455 119.557 6269.442
+  angles 0.825 -107.889 2.554
+ }
+ {
+  coords 6208.923 120.182 6281.674
+  angles -4.424 -7.963 0.618
+ }
+ {
+  coords 6236.525 123.936 6207.325
+  angles -3.28 66.463 1.427
+ }
+ {
+  coords 6139.242 122.064 6201.722
+  angles 2.497 -170.397 1.329
+ }
+}
+$grp GenericEntity : "{C7DA8607C3B3057E}Prefabs/Compositions/Misc/FreeRoamBuilding/SandbagWallBurlap_S_USSR_01.et" {
+ {
+  components {
+   SCR_SlotCompositionComponent "{52CAE30B655050CF}" {
+    Enabled 0
+   }
+  }
+  coords 6194.813 119.943 6281.694
+  angles -4.549 -8.216 -0.246
+ }
+ {
+  components {
+   SCR_SlotCompositionComponent "{52CAE30B655050CF}" {
+    Enabled 0
+   }
+  }
+  coords 6189.967 119.931 6280.882
+  angles -4.549 -14.355 0.242
+ }
+ {
+  components {
+   SCR_SlotCompositionComponent "{52CAE30B655050CF}" {
+    Enabled 0
+   }
+  }
+  coords 6146.976 120.695 6243.184
+  angles -0.892 -70.6 2.531
+ }
+ {
+  components {
+   SCR_SlotCompositionComponent "{52CAE30B655050CF}" {
+    Enabled 0
+   }
+  }
+  coords 6145.462 120.852 6238.509
+  angles -0.617 -76.722 2.612
+ }
+}
+GenericEntity : "{CA1FF8EE196359C6}Prefabs/System/DRG_FlagControlPrefab.et" {
+ coords 6210.185 124.339 6232.669
+}
+$grp GenericEntity : "{CE9FB0208479F76C}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_USSR_01_DIMKII.et" {
+ {
+  coords 6161.782 119.407 6273.9
+  angles -2.826 -20.979 0.125
+ }
+ {
+  coords 6171.032 119.463 6276.131
+  angles -3.008 -12.567 -1.161
+ }
+ {
+  coords 6180.69 119.669 6277.807
+  angles -4.071 -12.531 -1.839
+ }
+ {
+  coords 6190.207 119.953 6279.491
+  angles -4.747 -12.545 -0.773
+ }
+ {
+  coords 6199.799 120.092 6281.184
+  angles -4.554 -12.574 0.1
+ }
+ {
+  coords 6138.664 121.783 6210.279
+  angles -1.093 -83.475 1.676
+ }
+ {
+  coords 6140.948 121.498 6219.517
+  angles -1.326 -75.07 1.499
+ }
+ {
+  coords 6143.914 121.21 6228.859
+  angles -0.698 -74.925 2.591
+ }
+ {
+  coords 6146.806 120.885 6238.082
+  angles -1.328 -75.002 1.497
+ }
+ {
+  coords 6149.727 120.53 6247.374
+  angles -0.697 -74.946 2.592
+ }
+ {
+  coords 6251.546 122.879 6193.703
+  angles -4.088 113.836 -1.804
+ }
+ {
+  coords 6247.221 123.219 6184.901
+  angles -3.632 113.845 -0.627
+ }
+ {
+  coords 6242.985 123.411 6176.205
+  angles -3.634 113.652 -0.615
+ }
+}
+DecalEntity : "{D1D104EBCB9C5E2D}Prefabs/Decals/Miscellaneous/Decal_Damage_Burnt_02.et" {
+ coords 6197.891 123.089 6235.424
+ angles -84.139 154.535 10.445
+ scale 10
+}
+GenericEntity : "{F089DCAE3A477B3E}Prefabs/Compositions/Misc/SubCompositions/Duckboard_Cluttered_US_01.et" {
+ coords 6189.632 123.911 6213.294
+ angles -2.005 -107.896 2.526
+}
+GenericEntity : "{FA9066DE33E8E67D}Prefabs/Structures/Military/Camps/Canvas_Covers/US/CanvasCover_Large_US.et" {
+ coords 6187.932 124.46 6210.516
+ angles 2.215 -12.736 -1.008
+}

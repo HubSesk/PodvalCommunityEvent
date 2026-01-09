@@ -1,0 +1,117 @@
+$grp SCR_DestructibleBuildingEntity : "{3049B9BE0F9094B4}Prefabs/Structures/Models/tem_sub.et" {
+ {
+  components {
+   MeshObject "{506EDA9D46FC6C06}" {
+    Object "{665287DAF5587213}Prefabs/Misc/Submarine/Submarine.xob"
+   }
+  }
+  coords 2666.567 93.62 9085.683
+  angles 0 107.834 0
+ }
+ {
+  components {
+   MeshObject "{506EDA9D46FC6C06}" {
+    Object "{665287DAF5587213}Prefabs/Misc/Submarine/Submarine.xob"
+   }
+  }
+  coords 6457.553 9.578 9505.904
+  angles 0 -132.166 0
+ }
+}
+GenericEntity : "{3E9EDDFC51BB3410}Prefabs/Props/Industrial/CargoContainers/CargoContainer_01/CargoContainer_01_10ft_olive.et" {
+ coords 4359.215 1.247 9054.438
+ angles 0 -48.414 0
+}
+Vehicle Ural1 : "{4597626AF36C0858}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320.et" {
+ components {
+  SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+   FuelNodes {
+    SCR_FuelNode "{5622A70CD4036C5A}" {
+     m_fInitialFuelTankState 0
+    }
+    SCR_FuelNode "{5628CA84B129D4CE}" {
+     m_fInitialFuelTankState 0
+    }
+   }
+  }
+ }
+ coords 4360.883 3 9090.076
+}
+GenericEntity : "{84D9030883610D2F}Prefabs/Props/Military/CargoContainers/CargoContainer_01_10ft_USSR_supplies.et" {
+ coords 4355.477 2.993 9073.535
+ angles -2.803 -125.42 -2.395
+}
+GenericEntity : "{87C07222450D841E}Prefabs/Props/Military/SupplyBox/SupplyShippingContainers/SupplyShippingContainers_01/SupplyShippingContainers_USSR_01_20ft_Empty.et" {
+ coords 4339.134 1.241 9057.382
+ angles 0 -85.756 0
+}
+GenericEntity : "{90299A76FC1AE10F}Prefabs/Props/Wrecks/T62_wreck/T62_wreck_turret.et" {
+ coords 4342.772 6.622 9074.21
+ angles -83.012 0 37.443
+}
+GenericEntity : "{A46F8469F129E154}Prefabs/Props/Military/CargoContainers/CargoContainer_01_military_base.et" {
+ coords 4350.428 1.238 9054.685
+ angles 0 -114.434 0
+}
+GenericEntity : "{BF24FDD7931A41D8}Prefabs/Structures/BuildingParts/Infrastructure/ContainerSpreader_01/ContainerSpreader_01_10ft.et" {
+ coords 4345.259 2.471 9068.287
+ angles 0 31.249 0
+}
+$grp Vehicle : "{CAB4546B5DCE0AFB}Prefabs/Boat_base_us.et" {
+ Boat_base_us4 {
+  coords 2685.022 0 9121.375
+  angles 0 107.831 0
+ }
+ Boat_base_us1 {
+  coords 2658.313 0 9042.842
+  angles 0 116.655 0
+ }
+ Boat_base_us2 {
+  coords 2663.766 0 9055.295
+  angles 0 107.831 0
+ }
+ Boat_base_us5 {
+  coords 2686.992 0 9133.347
+  angles 0 80.814 0
+ }
+ Boat_base_us3 {
+  coords 6488.618 0 9464.382
+  angles 0 -159.186 0
+ }
+ Boat_base_us6 {
+  coords 6479.235 0 9472.076
+  angles 0 -132.169 0
+ }
+ Boat_base_us8 {
+  coords 6424.578 0 9534.473
+  angles 0 -123.345 0
+ }
+ Boat_base_us7 {
+  coords 6432.635 0 9523.522
+  angles 0 -132.169 0
+ }
+}
+Vehicle Ural4320_transport_covered1 : "{D9B91FAB817A6033}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered.et" {
+ components {
+  SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+   FuelNodes {
+    SCR_FuelNode "{5622A70CD4036C5A}" {
+     m_fInitialFuelTankState 0
+    }
+    SCR_FuelNode "{5628CA84B129D4CE}" {
+     m_fInitialFuelTankState 0
+    }
+   }
+  }
+ }
+ coords 4344.249 2.907 9078.987
+ angles 0 -70.494 0
+}
+$grp GenericEntity : "{F5EF4223ACA6169C}PrefabsEditable/Auto/Structures/Military/Flags/E_FlagPole_02_V1_AFRF.et" {
+ {
+  coords 4514.03 20.059 8806.735
+ }
+ {
+  coords 4331.814 1.31 9057.486
+ }
+}

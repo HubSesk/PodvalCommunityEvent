@@ -1,0 +1,80 @@
+$grp Vehicle : "{447CFE8D73F95C3E}Prefabs/Vehicles/Wheeled/BTR70/BTR70_AFRF.et" {
+ BTR70_AFRF1 {
+  coords 1924.104 193.531 2263.497
+  angles 0 -140.997 0
+  m_sAttachmentGroupName "RFL_RUS1"
+ }
+ BTR70_AFRF2 {
+  coords 1909.818 193.348 2246.303
+  angles -2.53 -136.461 0.064
+  m_sAttachmentGroupName "RFL_RUS"
+ }
+}
+GenericEntity : "{5B1381786551320C}Prefabs/Characters/CINEMATIC_RU_soldier_with_animation.et" {
+ components {
+  BaseLoadoutManagerComponent "{5670AB5CB11668D5}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Enabled 1
+     Prefab "{3B03BBCCF69C1805}Prefabs/Characters/HeadGear/Helmet_OPSCORE/Helmet_OPSCORE_SF_BLK_Peltor.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{21BCF2B1BC3B744B}TEST/Prefabs/Uniforms/gryphon/Jacket_Gryphon_SNOW.et"
+    }
+    LoadoutSlotInfo dad : Hat {
+     PivotID "Head"
+     Offset 0.0012 0.1959 0.0167
+     Angles 90 -180 178.5927
+     Enabled 1
+     Prefab "{16340C6BB3EB1BEC}Prefabs/Items/Equipment/Accessories/Neko_Ears/Neko_Ears.et"
+    }
+   }
+  }
+ }
+ coords 2554.197 5.903 502.3
+ angles 0 0 0
+}
+$grp Vehicle : "{AC12E5669B411D57}Prefabs/Vehicles/Wheeled/TIGR/KORD/GAZ_TIGR_v2_KORD.et" {
+ GAZ_TIGR_v2_KORD1 {
+  coords 1932.273 193.69 2273.884
+  angles -1.259 -140.819 0.128
+  m_sAttachmentGroupName "RFL_RUS2"
+ }
+ GAZ_TIGR_v2_KORD2 {
+  coords 1941.676 193.924 2285.451
+  angles -1.261 -140.211 0.115
+  m_sAttachmentGroupName "RFL_RUS3"
+ }
+ GAZ_TIGR_v2_KORD3 {
+  coords 1953.713 194.925 2299.885
+  angles -2.52 -140.158 0.227
+  m_sAttachmentGroupName "RFL_RUS4"
+ }
+}
+$grp Vehicle : "{D9B91FAB817A6033}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered.et" {
+ Ural4320_transport_covered3 {
+  coords 1416.819 184.906 2323.879
+  angles 4.462 67.058 -0.918
+  m_sAttachmentGroupName "RFL_RUS7"
+ }
+ Ural4320_transport_covered2 {
+  coords 1431.335 186.236 2330.032
+  angles 0 70.586 0
+  m_sAttachmentGroupName "RFL_RUS6"
+ }
+ Ural4320_transport_covered1 {
+  coords 1444.61 187.452 2334.812
+  angles 0 70.044 0
+  m_sAttachmentGroupName "RFL_RUS5"
+ }
+ Ural4320_transport_covered4 {
+  coords 1400.557 183.255 2318.491
+  angles 5.644 71.13 -0.043
+  m_sAttachmentGroupName "RFL_RUS8"
+ }
+}
+Vehicle UAZ469_Camo1 : "{E1A99B5F2DC9B38A}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_Camo.et" {
+ coords 1902.638 193.022 2239.162
+ angles -3.778 -129.999 -0.33
+ m_sAttachmentGroupName "HQ_RUS"
+}

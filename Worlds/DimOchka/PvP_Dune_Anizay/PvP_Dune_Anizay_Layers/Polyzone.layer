@@ -1,0 +1,297 @@
+$grp PolylineShapeEntity {
+ {
+  components {
+   PS_PolyZone "{67380A06F26DAFAF}" {
+    m_mPolygonTexture "{E468BE5A1BEBE5F4}UI/layouts/Textures/Grid4.edds"
+    m_cPolygonColor 0.639 0.416 0.169 1
+    m_fPolygonUVScale 0.44
+    m_mPolygonTextureBorder ""
+    m_cPolygonBorderColor 0.639 0.416 0.169 1
+    m_fPolygonBorderWidth 5
+    m_aVisibleForFactions {
+     "RHS_USAF"
+     "Ses_TKR"
+     ""
+     ""
+    }
+   }
+  }
+  coords 6123.517 198.818 10239.431
+  Points {
+   ShapePoint "{67380A06CA840EB4}" {
+    Position 0 0.002 0
+   }
+   ShapePoint "{67380A06CA84145C}" {
+    Position 11.721 -10.593 -354.233
+   }
+   ShapePoint "{67380A06E1D05FFA}" {
+    Position 264.58 -62.02 -2097.465
+   }
+   ShapePoint "{67380A06E399DAE9}" {
+    Position 1306.557 -81.42 -2357.926
+   }
+   ShapePoint "{67380A06E2E0A0CC}" {
+    Position 2997.08 -86.621 -2024.682
+   }
+   ShapePoint "{67380A06EDF29E27}" {
+    Position 3855.545 0 -1806.097
+   }
+   ShapePoint "{67380A06EF86E218}" {
+    Position 4123.863 -198.818 -1560.488
+   }
+   ShapePoint "{67380A06E8070F00}" {
+    Position 4109.743 0 -4.397
+   }
+  }
+  IsClosed 1
+ }
+ {
+  components {
+   PS_PolyZone "{67382E08F84344FD}" {
+    m_mPolygonTexture "{62F4404928D33DB5}UI/layouts/Textures/Grid1b.edds"
+    m_cPolygonColor 0.259 0.365 0.686 1
+    m_fPolygonUVScale 0.44
+    m_mPolygonTextureBorder ""
+    m_cPolygonBorderColor 0.259 0.365 0.686 1
+    m_fPolygonBorderWidth 5
+    m_aVisibleForFactions {
+     "RHS_USAF"
+     "Ses_TKR"
+     ""
+    }
+   }
+  }
+  coords 0.479 229.556 4555.296
+  Points {
+   ShapePoint "{67382E08DB4ECB82}" {
+    Position 0 0 0
+   }
+   ShapePoint "{67382E08DB4D1BFE}" {
+    Position 801.989 -88.672 235.113
+   }
+   ShapePoint "{67382E08E172DD69}" {
+    Position 3739.602 -87.75 517.482
+   }
+   ShapePoint "{67382E08E047F4F4}" {
+    Position 4975.011 -94.66 1063.003
+   }
+   ShapePoint "{67382E08EE9028D6}" {
+    Position 6387.573 -92.754 3586.635
+   }
+   ShapePoint "{67382E08EA2B4779}" {
+    Position 6134.43 -41.288 5329.761
+   }
+   ShapePoint "{67382E08F0BDDAC8}" {
+    Position 6122.335 -30.724 5684.265
+   }
+   ShapePoint "{67382E08FDF16393}" {
+    Position -0.293 -69.647 5683.983
+   }
+  }
+  IsClosed 1
+ }
+ {
+  components {
+   PS_PolyZone "{6738B0125E71ACAE}" {
+    m_mPolygonTexture "{62F4404928D33DB5}UI/layouts/Textures/Grid1b.edds"
+    m_cPolygonColor 0.071 0.561 0.192 1
+    m_fPolygonUVScale 0.44
+    m_mPolygonTextureBorder ""
+    m_cPolygonBorderColor 0.071 0.561 0.192 1
+    m_fPolygonBorderWidth 5
+    m_aVisibleForFactions {
+     "RHS_USAF"
+    }
+   }
+  }
+  coords 8483.821 121.593 8087.335
+  Points {
+   ShapePoint "{6738B0122EDC6A43}" {
+    Position -0.056 0.424 1.646
+   }
+   ShapePoint "{6738B0122EDC7055}" {
+    Position 132.438 29.702 2143.358
+   }
+   ShapePoint "{6738B012454B4616}" {
+    Position -2360.232 77.226 2151.967
+   }
+   ShapePoint "{6738B0124F4D00D5}" {
+    Position -2095.519 15.185 54.735
+   }
+   ShapePoint "{6738B0124BCA0AC2}" {
+    Position -1053.847 -4.189 -205.51
+   }
+   ShapePoint "{6738B012576846CB}" {
+    Position -21.935 1.772 -2.778
+   }
+   ShapePoint "{6738B01381ABDEB2}" {
+    Position -11.9 0.945 -0.49
+   }
+  }
+  IsClosed 1
+ }
+}
+Vehicle MH6M1 : "{AF950919C81D91B4}Prefabs/Vehicles/Helicopters/AH6M/MH6M.et" {
+ coords 3083.967 144.402 8417.96
+ angles 0 -6.145 0
+ m_sAttachmentGroupName "(#DRG-Sq-RocketHelicopter) RHS_USAF_G_000_2"
+}
+$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ {
+  coords 1403.491 141.435 9125.203
+  angles 0 90 0
+  m_sImageSet "{576D3942F6154824}Prefabs/Misc/Photo/Flag_USA_ANIZ.edds"
+  m_sImageSetGlow "{576D3942F6154824}Prefabs/Misc/Photo/Flag_USA_ANIZ.edds"
+  m_sQuadName ""
+  m_fWorldSize 1700
+  m_sDescription "Зона подконтрольная войскам США и Анизая"
+  m_aVisibleForFactions {
+   "Ses_TKR"
+   "RHS_USAF"
+   ""
+  }
+  m_bVisibleForEmptyFaction 1
+ }
+ {
+  coords 745.488 141.435 1877.524
+  angles 0 90 0
+  m_sImageSet "{B9E14AFE75AEBB19}UI/Textures/Icons/icons_mapMarkersUI_drawing/icons_DR_mapMarkersUI.imageset"
+  m_sImageSetGlow "{B9E14AFE75AEBB19}UI/Textures/Icons/icons_mapMarkersUI_drawing/icons_DR_mapMarkersUI.imageset"
+  m_MarkerColor 0.561 0.071 0.071 1
+  m_sQuadName "AR_icon_destroy_02"
+  m_fWorldSize 500
+  m_sDescription "Бой с группировками"
+  m_aVisibleForFactions {
+   "Ses_TKR"
+   "RHS_USAF"
+   ""
+  }
+  m_bVisibleForEmptyFaction 1
+ }
+ {
+  coords 2235.935 141.435 1562.928
+  angles 0 90 0
+  m_sImageSet "{B9E14AFE75AEBB19}UI/Textures/Icons/icons_mapMarkersUI_drawing/icons_DR_mapMarkersUI.imageset"
+  m_sImageSetGlow "{B9E14AFE75AEBB19}UI/Textures/Icons/icons_mapMarkersUI_drawing/icons_DR_mapMarkersUI.imageset"
+  m_MarkerColor 0.561 0.071 0.071 1
+  m_sQuadName "AR_icon_destroy_02"
+  m_fWorldSize 500
+  m_sDescription "Бой с группировками"
+  m_aVisibleForFactions {
+   "Ses_TKR"
+   "RHS_USAF"
+   ""
+  }
+  m_bVisibleForEmptyFaction 1
+ }
+ {
+  coords 3491.944 141.435 2433.27
+  angles 0 90 0
+  m_sImageSet "{B9E14AFE75AEBB19}UI/Textures/Icons/icons_mapMarkersUI_drawing/icons_DR_mapMarkersUI.imageset"
+  m_sImageSetGlow "{B9E14AFE75AEBB19}UI/Textures/Icons/icons_mapMarkersUI_drawing/icons_DR_mapMarkersUI.imageset"
+  m_MarkerColor 0.561 0.071 0.071 1
+  m_sQuadName "AR_icon_destroy_02"
+  m_fWorldSize 500
+  m_sDescription "Бой с группировками"
+  m_aVisibleForFactions {
+   "Ses_TKR"
+   "RHS_USAF"
+   ""
+  }
+  m_bVisibleForEmptyFaction 1
+ }
+ {
+  coords 9408.998 137.177 913.575
+  angles 0 90 0
+  m_sImageSet "{B9E14AFE75AEBB19}UI/Textures/Icons/icons_mapMarkersUI_drawing/icons_DR_mapMarkersUI.imageset"
+  m_sImageSetGlow "{B9E14AFE75AEBB19}UI/Textures/Icons/icons_mapMarkersUI_drawing/icons_DR_mapMarkersUI.imageset"
+  m_MarkerColor 0.071 0.561 0.192 1
+  m_sQuadName "AR_icon_question_mark_02"
+  m_fWorldSize 500
+  m_sDescription "Возможное убежище?"
+  m_aVisibleForFactions {
+   "Ses_TKR"
+   "RHS_USAF"
+   ""
+  }
+  m_bVisibleForEmptyFaction 1
+ }
+ {
+  coords 7940.956 137.177 1997.997
+  angles 0 90 0
+  m_sImageSet "{B9E14AFE75AEBB19}UI/Textures/Icons/icons_mapMarkersUI_drawing/icons_DR_mapMarkersUI.imageset"
+  m_sImageSetGlow "{B9E14AFE75AEBB19}UI/Textures/Icons/icons_mapMarkersUI_drawing/icons_DR_mapMarkersUI.imageset"
+  m_MarkerColor 0.071 0.561 0.192 1
+  m_sQuadName "AR_icon_question_mark_02"
+  m_fWorldSize 500
+  m_sDescription "Возможное убежище?"
+  m_aVisibleForFactions {
+   "Ses_TKR"
+   "RHS_USAF"
+   ""
+  }
+  m_bVisibleForEmptyFaction 1
+ }
+ {
+  coords 5181.447 137.177 248.013
+  angles 0 90 0
+  m_sImageSet "{B9E14AFE75AEBB19}UI/Textures/Icons/icons_mapMarkersUI_drawing/icons_DR_mapMarkersUI.imageset"
+  m_sImageSetGlow "{B9E14AFE75AEBB19}UI/Textures/Icons/icons_mapMarkersUI_drawing/icons_DR_mapMarkersUI.imageset"
+  m_MarkerColor 0.071 0.561 0.192 1
+  m_sQuadName "AR_icon_question_mark_02"
+  m_fWorldSize 500
+  m_sDescription "Возможное убежище?"
+  m_aVisibleForFactions {
+   "Ses_TKR"
+   "RHS_USAF"
+   ""
+  }
+  m_bVisibleForEmptyFaction 1
+ }
+ {
+  coords 5241.073 141.435 1903.19
+  angles 0 90 0
+  m_sImageSet "{B9E14AFE75AEBB19}UI/Textures/Icons/icons_mapMarkersUI_drawing/icons_DR_mapMarkersUI.imageset"
+  m_sImageSetGlow "{B9E14AFE75AEBB19}UI/Textures/Icons/icons_mapMarkersUI_drawing/icons_DR_mapMarkersUI.imageset"
+  m_MarkerColor 0.561 0.071 0.071 1
+  m_sQuadName "AR_icon_destroy_02"
+  m_fWorldSize 500
+  m_sDescription "Бой с группировками"
+  m_aVisibleForFactions {
+   "Ses_TKR"
+   "RHS_USAF"
+   ""
+  }
+  m_bVisibleForEmptyFaction 1
+ }
+ {
+  coords 9284.191 150.964 9754.91
+  angles 0 90 0
+  m_sImageSet "{B9E14AFE75AEBB19}UI/Textures/Icons/icons_mapMarkersUI_drawing/icons_DR_mapMarkersUI.imageset"
+  m_sImageSetGlow "{B9E14AFE75AEBB19}UI/Textures/Icons/icons_mapMarkersUI_drawing/icons_DR_mapMarkersUI.imageset"
+  m_MarkerColor 0.561 0.071 0.071 1
+  m_sQuadName "AR_icon_exclamation_point_02"
+  m_fWorldSize 500
+  m_sDescription "Зона поиска"
+  m_aVisibleForFactions {
+   "Ses_TKR"
+   "RHS_USAF"
+   ""
+  }
+  m_bVisibleForEmptyFaction 1
+ }
+ {
+  coords 7661.135 150.964 9754.91
+  angles 0 90 0
+  m_sImageSet "{B9E14AFE75AEBB19}UI/Textures/Icons/icons_mapMarkersUI_drawing/icons_DR_mapMarkersUI.imageset"
+  m_sImageSetGlow "{B9E14AFE75AEBB19}UI/Textures/Icons/icons_mapMarkersUI_drawing/icons_DR_mapMarkersUI.imageset"
+  m_MarkerColor 0.071 0.561 0.192 1
+  m_sQuadName "AR_icon_exclamation_point_02"
+  m_fWorldSize 500
+  m_sDescription "ПРОВЕРЕНО"
+  m_aVisibleForFactions {
+   "RHS_USAF"
+   ""
+  }
+ }
+}

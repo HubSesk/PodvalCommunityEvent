@@ -1,0 +1,501 @@
+$grp GenericEntity : "{01E0B52B5BA2EF72}Prefabs/Compositions/Misc/SubCompositions/Sandbag_Barricade_USSR_04.et" {
+ {
+  coords 1945.588 132.574 7405.237
+  angles 1.772 89.431 -1.807
+ }
+ {
+  coords 1658.893 110.636 7407.642
+  angles 0 10.367 0
+ }
+}
+GenericEntity : "{02D4A61D327D2BD9}Prefabs/Props/Furniture/Carpet_03_green.et" {
+ coords 1644.78 110.682 7388.508
+ angles 0 87.085 0
+ scale 1.26
+}
+GenericEntity : "{0CC1728766796614}Prefabs/Props/Garbage/Generic/LitterInterior_01/Single/LitterInterior_USSR_01_document_V6.et" {
+ coords 1645.822 111.562 7387.886
+ angles 0 127.765 0
+}
+$grp GenericEntity : "{0E3533EE196F01EC}Prefabs/Structures/Infrastructure/Lamps/LampStreet_E_01/LampStreet_E_01_6m.et" {
+ {
+  coords 2600.699 0.02 7871.539
+  angles 0 -146.96 0
+  {
+   GenericEntity : "{702955C2148F24DC}Prefabs/Props/Amplion_Siren.et" {
+    components {
+     SCR_DestructionMultiPhaseComponent "{58F896B4CD371A8B}" {
+      Enabled 1
+      "Additional hit zones" {
+       SCR_HitZone Default {
+        ColliderNames {
+         "UCL_AmplionAddon_E_01_01"
+        }
+       }
+      }
+     }
+     RplComponent "{58FC7CAC2034C3E2}" {
+      Enabled 1
+     }
+    }
+    coords 0.025 4.193 0.004
+    angles 0 -25.687 0
+   }
+   GenericEntity : "{85B2A7E85CA6C656}Prefabs/Props/Services/PhoneWall_01/PhoneWall_01_grey.et" {
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 1
+      "Additional hit zones" {
+       SCR_HitZone Default {
+        ColliderNames {
+         "UBX_phoneWall_01_metal"
+        }
+       }
+      }
+     }
+     ActionsManagerComponent "{66FAB19A0A89DE25}" {
+      ActionContexts {
+       UserActionContext "{66FAB19A11DDE398}" {
+        ContextName "Siren"
+        Position PointInfo "{66FAB19A51D62BDA}" {
+        }
+        Radius 0.7
+        Omnidirectional 0
+       }
+      }
+      additionalActions {
+       SCR_PlayInstrument "{66FAB1988AB418A2}" {
+        ParentContextList {
+         "Siren"
+        }
+        UIInfo UIInfo "{66FAB19892AC6563}" {
+         Name "Siren"
+         Description "Activate Siren"
+        }
+        m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66FAB198964E093F}" {
+         m_sSoundProject "{6F18248533DE2C10}Sounds/Structures/Military/Sirens/Siren.acp"
+         m_sSoundEventName "SOUND_SIREN_LP"
+        }
+       }
+      }
+     }
+     RplComponent "{5624A88DC2D9928D}" {
+      Enabled 1
+     }
+    }
+    coords -0.014 1.586 0.049
+   }
+  }
+ }
+ {
+  coords 1660.591 -0.188 7384.547
+ }
+}
+SCR_DestructibleEntity : "{234AEC851DFF1B8C}Prefabs/Props/Decorations/Flowerpots/FlowerpotFlowers_01/FlowerpotFlowers_01_begonia_pink.et" {
+ coords 1646.124 111.562 7389.001
+}
+GenericEntity : "{31F557BF1315EF23}Prefabs/Props/Garbage/Generic/LitterInterior_01/Single/LitterInterior_USSR_01_document_V1.et" {
+ coords 1645.738 111.562 7387.766
+ angles 0 88.914 0
+}
+GenericEntity : "{3AE1A95C1023F894}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_USSR_04.et" {
+ coords 1920.873 132.5 7434.757
+ angles 0 -106.106 0
+}
+GenericEntity : "{3B4579283D7DB181}PrefabsEditable/Auto/Props/Crates/E_Crate_01_white.et" {
+ coords 1644.928 110.656 7387.149
+ angles 0 -35.055 0
+}
+GenericEntity : "{3CD490132ECE6645}Prefabs/Compositions/Misc/SubCompositions/Sandbag_Barricade_USSR_03.et" {
+ coords 1941.871 132.626 7394.861
+ angles -3.138 -172.295 3.181
+}
+GenericEntity : "{3D65C37A9666E651}Prefabs/Structures/BuildingParts/Signs/SignWall/SignWall_USSR_01_115x79_headquarters.et" {
+ coords 1938.94 136.153 7425.667
+ angles 0 -148.599 0
+}
+GenericEntity : "{4DBA189750F6F017}Prefabs/Props/Civilian/Typewriter_01/Typewriter_01_grey.et" {
+ coords 1646.145 111.562 7389.486
+ angles 0 -133.017 0
+}
+$grp GenericEntity : "{53D74CD446A87F13}Prefabs/Compositions/Misc/FreeRoamBuilding/SandbagLongHighBurlap_S_USSR_01.et" {
+ {
+  coords 1909.638 132.452 7405.388
+  angles 0 88.808 0
+ }
+ {
+  coords 1918.321 132.452 7395.775
+  angles 0 37.025 0
+ }
+ {
+  coords 1920.97 132.452 7393.777
+  angles 0 37.025 0
+ }
+ {
+  coords 1915.689 132.452 7397.76
+  angles 0 37.025 0
+ }
+ {
+  coords 1909.429 132.452 7415.463
+  angles 0 88.808 0
+ }
+ {
+  coords 1909.36 132.452 7418.781
+  angles 0 88.808 0
+ }
+ {
+  coords 1909.568 132.452 7408.734
+  angles 0 88.808 0
+ }
+ {
+  coords 1909.498 132.452 7412.114
+  angles 0 88.808 0
+ }
+ {
+  coords 1923.627 132.452 7391.773
+  angles 0 37.025 0
+ }
+ {
+  coords 1910.635 132.452 7402.13
+  angles 0 55.184 0
+ }
+ {
+  coords 1926.272 132.452 7389.779
+  angles 0 37.025 0
+ }
+ {
+  coords 1913.006 132.452 7399.783
+  angles 0 37.025 0
+ }
+}
+GenericEntity : "{590D0CC992E8AC25}Prefabs/Compositions/Misc/SubCompositions/Decorations/Crate_Bottles_01.et" {
+ coords 1645.677 110.656 7386.908
+ angles 0 -60.692 0
+}
+GenericEntity : "{5DA1635FAFD1600D}Prefabs/Props/Garbage/Generic/LitterInterior_01/Single/LitterInterior_USSR_01_document_V2.et" {
+ coords 1645.966 111.562 7387.993
+ angles 0 72.073 0
+}
+$grp GenericEntity : "{647C8407E399D6BB}Prefabs/Structures/Infrastructure/Lamps/LampStreet_E_02/LampStreet_E_02_doubleStraight.et" {
+ {
+  coords 1880.057 0.024 7353.771
+  angles 0 -57.483 0
+ }
+ {
+  coords 1916.283 -0 7329.931
+  angles 0 -60.681 0
+ }
+ {
+  coords 1947.136 -0 7319.979
+  angles 0 -60.681 0
+ }
+ {
+  coords 1962.896 0 7298.013
+  angles 0 -60.681 0
+ }
+ {
+  coords 1850.954 -0 7373.151
+  angles 0 -60.713 0
+ }
+ {
+  coords 1831.996 -0 7397.697
+  angles 0 -60.713 0
+ }
+ {
+  coords 1811.384 0 7387.97
+  angles 0 -101.47 0
+ }
+ {
+  coords 1780.011 0.014 7391.545
+  angles 0 -107.658 0
+ }
+ {
+  coords 1756.55 0 7372.045
+  angles 0 -107.658 0
+ }
+ {
+  coords 1723.441 -0 7366.483
+  angles 0 -107.658 0
+ }
+ {
+  coords 1697.739 -0.001 7350.272
+  angles 0 -86.384 0
+ }
+ {
+  coords 1675.157 0 7365.184
+  angles 0 -84.399 0
+ }
+ {
+  coords 1889.049 -0.021 7469.27
+  angles 0 -26.781 0
+ }
+ {
+  coords 1903.443 -0.049 7446.869
+  angles 0 -60.983 0
+ }
+}
+GenericEntity : "{651E545B53BBD034}Prefabs/Structures/Military/Flags/FlagPole_02/FlagPole_02_V1_USSR.et" {
+ coords 1943.112 145.265 7422.561
+}
+GenericEntity : "{702955C2148F24DC}Prefabs/Props/Amplion_Siren.et" {
+ components {
+  SCR_DestructionMultiPhaseComponent "{58F896B4CD371A8B}" {
+   Enabled 1
+   "Additional hit zones" {
+    SCR_HitZone Default {
+     ColliderNames {
+      "UCL_AmplionAddon_E_01_01"
+     }
+    }
+   }
+  }
+  RplComponent "{58FC7CAC2034C3E2}" {
+   Enabled 1
+  }
+ }
+ coords 2710.353 225.224 6975.42
+ angles 0 -25.687 0
+}
+$grp GenericEntity : "{757FCCE8E756175C}Prefabs/Props/Furniture/MeetingTable_01.et" {
+ {
+  coords 2031.468 129.469 7330.392
+  angles 0 -52.342 0
+ }
+ {
+  coords 2032.882 129.469 7332.224
+  angles 0 -52.342 0
+ }
+ {
+  coords 2025.128 129.469 7338.211
+  angles 0 -50.509 0
+ }
+ {
+  coords 2023.656 129.469 7336.425
+  angles 0 -50.509 0
+ }
+}
+GenericEntity : "{85090A9ED6587E51}Prefabs/Props/Garbage/Generic/LitterInterior_01/Single/LitterInterior_USSR_01_document_V4.et" {
+ coords 1645.749 111.562 7388.206
+ angles 0 92.384 0
+}
+GenericEntity : "{85B2A7E85CA6C656}Prefabs/Props/Services/PhoneWall_01/PhoneWall_01_grey.et" {
+ components {
+  SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+   Enabled 1
+   "Additional hit zones" {
+    SCR_HitZone Default {
+     ColliderNames {
+      "UBX_phoneWall_01_metal"
+     }
+    }
+   }
+  }
+  ActionsManagerComponent "{66FAB19A0A89DE25}" {
+   ActionContexts {
+    UserActionContext "{66FAB19A11DDE398}" {
+     ContextName "Siren"
+     Position PointInfo "{66FAB19A51D62BDA}" {
+     }
+     Radius 0.7
+     Omnidirectional 0
+    }
+   }
+   additionalActions {
+    SCR_PlayInstrument "{66FAB1988AB418A2}" {
+     ParentContextList {
+      "Siren"
+     }
+     UIInfo UIInfo "{66FAB19892AC6563}" {
+      Name "Siren"
+      Description "Activate Siren"
+     }
+     m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66FAB198964E093F}" {
+      m_sSoundProject "{6F18248533DE2C10}Sounds/Structures/Military/Sirens/Siren.acp"
+      m_sSoundEventName "SOUND_SIREN_LP"
+     }
+    }
+   }
+  }
+  RplComponent "{5624A88DC2D9928D}" {
+   Enabled 1
+  }
+ }
+ coords 2710.268 222.617 6975.501
+}
+$grp GenericEntity : "{87D1627219526B86}Prefabs/Weapons/Rifles/AKM/Rifle_AKM.et" {
+ {
+  coords 1644.988 110.781 7387.119
+  angles 24.109 53.554 -91.108
+ }
+ {
+  coords 1643.081 111.085 7387.29
+  angles -0.125 156.874 91.892
+ }
+}
+$grp GenericEntity : "{898B81D2B9E9B2DC}Prefabs/Compositions/Misc/FreeRoamBuilding/SandbagWallSolidBurlap_S_USSR_01.et" {
+ {
+  coords 1645.917 110.445 7409.303
+  angles 0 5.31 0
+ }
+ {
+  coords 1643.211 110.387 7409.338
+ }
+}
+GenericEntity : "{8E1DF47DD56E69E6}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_USSR_01.et" {
+ coords 1909.808 132.524 7424.344
+ angles 0 -102.783 0
+}
+$grp SCR_DestructibleBuildingEntity : "{A548C1C5370D0734}Prefabs/Structures/Houses/Garage/Garage_E_01/Garage_E_01.et" {
+ {
+  coords 2080.977 -0.013 7376.208
+  angles 0 -47.767 0
+ }
+ {
+  coords 2084.271 0 7379.837
+  angles 0 -47.767 0
+ }
+}
+GenericEntity : "{A55C3B8EFC4EA33E}Prefabs/Props/Military/MilitaryCrates/CrateStack_01/Dst/CrateStack_01_Dst_2_NoDecal.et" {
+ coords 1643.774 110.661 7386.959
+ angles 0 -93.768 0
+}
+GenericEntity : "{A884FCC8E30726CC}Prefabs/Compositions/WeaponStorage/WeaponStorageAKM.et" {
+ coords 2201.824 126.244 7377.039
+ angles 0 -177.763 0
+}
+SCR_DestructibleBuildingEntity : "{A964BB3CC1B5FF28}Prefabs/Structures/Military/Fortifications/CoastalBattery_USSR_01/CoastalBattery_USSR_01_tower.et" {
+ coords 2314.649 0.38 7015.835
+ angles 0 152.573 0
+}
+GenericEntity : "{A9DC69EC1CE466A0}Prefabs/Props/Civilian/Computer_E_01/Computer_E_01_on.et" {
+ coords 1646.035 111.562 7388.357
+ angles 0 -89.109 0
+}
+GenericEntity : "{B51CE80A9EEF7E00}Prefabs/Compositions/Misc/SubCompositions/Sandbag_Barricade_USSR_01.et" {
+ coords 1930.147 132.387 7387.698
+ angles -0.733 -136.818 -3.14
+}
+GenericEntity : "{B83D2FA6A334F766}Prefabs/Props/Garbage/Generic/LitterInterior_01/Single/LitterInterior_USSR_01_document_V3.et" {
+ coords 1645.821 111.562 7388.028
+ angles 0 94.595 0
+}
+$grp GenericEntity : "{B9003EF716A534D4}Prefabs/Structures/Infrastructure/Lamps/LampStreet_E_02/LampStreet_E_02_single.et" {
+ {
+  coords 1874.376 -0.643 7371.668
+  angles 0 -146.531 0
+ }
+ {
+  coords 1904.539 -1.586 7351.271
+  angles 0 -146.531 0
+ }
+}
+GenericEntity : "{BC16FA49B7483E63}Prefabs/Props/Military/MilitaryCrates/CrateStack_01/CrateStack_01_decals_01.et" {
+ coords 1644.237 110.656 7390.653
+}
+GenericEntity : "{C7DA8607C3B3057E}Prefabs/Compositions/Misc/FreeRoamBuilding/SandbagWallBurlap_S_USSR_01.et" {
+ coords 1648.647 110.402 7409.08
+ angles 0 5.681 0
+}
+GenericEntity : "{CFB893B8084ECD2B}Prefabs/Props/Furniture/Armchair_01.et" {
+ coords 1644.788 110.656 7389.243
+ angles 0 115.983 0
+}
+GenericEntity : "{D948DCEA222BF12E}Prefabs/Compositions/Misc/SubCompositions/Sandbag_Barricade_USSR_02.et" {
+ coords 1652.627 110.585 7409.225
+ angles 0 7.094 0
+}
+$grp GenericEntity : "{E1A5D4B878AA8980}Prefabs/Items/Equipment/Radios/Radio_R148.et" {
+ {
+  coords 1645.319 111.562 7387.325
+ }
+ {
+  coords 1645.144 111.562 7387.325
+ }
+ {
+  coords 1644.974 111.562 7387.325
+ }
+ {
+  coords 1644.808 111.562 7387.325
+ }
+ {
+  coords 1644.637 111.562 7387.325
+ }
+ {
+  coords 1644.463 111.562 7387.325
+ }
+ {
+  coords 1645.144 111.562 7387.146
+ }
+ {
+  coords 1644.974 111.562 7387.146
+ }
+ {
+  coords 1644.808 111.562 7387.146
+ }
+ {
+  coords 1644.637 111.562 7387.146
+ }
+ {
+  coords 1644.463 111.562 7387.146
+ }
+ {
+  coords 1645.319 111.562 7387.146
+ }
+ {
+  coords 1645.144 111.562 7386.92
+ }
+ {
+  coords 1644.974 111.562 7386.92
+ }
+ {
+  coords 1644.808 111.562 7386.92
+ }
+ {
+  coords 1644.637 111.562 7386.92
+ }
+ {
+  coords 1644.463 111.562 7386.92
+ }
+ {
+  coords 1645.319 111.562 7386.92
+ }
+ {
+  coords 1645.144 111.562 7386.697
+ }
+ {
+  coords 1644.974 111.562 7386.697
+ }
+ {
+  coords 1644.808 111.562 7386.697
+ }
+ {
+  coords 1644.637 111.562 7386.697
+ }
+ {
+  coords 1644.463 111.562 7386.697
+ }
+ {
+  coords 1645.319 111.562 7386.697
+ }
+}
+GenericEntity : "{F39BC00F1D5823C4}Prefabs/Compositions/Misc/SubCompositions/Sandbag_end_high_Cluttered_USSR_01.et" {
+ coords 1640.952 110.581 7408.544
+ angles 0 151.482 0
+}
+$grp GenericEntity : "{F971CC7099E09B78}Prefabs/Misc/Siren.et" {
+ {
+  coords 2311.936 -0.548 7018.391
+  angles 0 -29.532 0
+ }
+ {
+  coords 1639.015 -0.281 7383.013
+  angles 0 96.832 0
+ }
+ {
+  coords 1943.36 0 7408.907
+ }
+ {
+  coords 2615.434 -0.423 7462.141
+  angles 0 -174.321 0
+ }
+}

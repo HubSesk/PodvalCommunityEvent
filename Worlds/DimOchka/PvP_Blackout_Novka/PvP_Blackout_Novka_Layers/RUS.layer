@@ -1,0 +1,205 @@
+SCR_AIGroup HQR : "{0FC09C311C951395}Prefabs/Groups/OPFOR/drg_AFRF_PlatoonHQ.et" {
+ components {
+  PS_GroupCallsignAssigner "{6454F7D129837B5A}" {
+   m_iCompanyCallsign 0
+  }
+ }
+ coords 1762.056 66.606 1406.54
+ angles 0 -82.473 0
+ m_aUnitPrefabSlots {
+  "{CAB92AB6CB5AEEF3}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_PL.et"
+  "{7EFDB71E380C262A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_SeniorMedic.et"
+ }
+ m_bSnapToTerrain 0
+}
+Vehicle UAZ1 : "{259EE7B78C51B624}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469.et" {
+ components {
+  SCR_UniversalInventoryStorageComponent "{5AD4F813E67ECB5D}" {
+   MultiSlots {
+    MultiSlotConfiguration "{684312C6E052C1F2}" {
+     SlotTemplate InventoryStorageSlot Wreck {
+      Prefab "{33B2DFDCD0EBA3DB}Prefabs/Items/Equipment/Kits/RepairKit_01/RepairKit_01_wrench.et"
+     }
+     NumSlots 1
+    }
+   }
+  }
+ }
+ coords 2213.189 111.245 1606.501
+}
+$grp SCR_AIGroup : "{3EDA372443FD105F}Prefabs/Groups/OPFOR/drg_AFRF_RifleSquad.et" {
+ VDV1 {
+  components {
+   PS_GroupCallsignAssigner "{6454F7D129837B5A}" {
+    m_iCompanyCallsign 1
+    m_iSquadCallsign 2
+   }
+  }
+  coords 1750.179 66.606 1370.785
+  angles 0 -86.812 0
+  m_aUnitPrefabSlots {
+   "{BC089432FF699C2F}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/VDV/VDV_Regular/Role_Character_VDV_Reg_SL_Winter.et"
+   "{FB9107810C2C579A}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/VDV/VDV_Regular/Role_Character_VDV_Reg_SR_Winter.et"
+   "{5A15EA3743C7A22C}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/VDV/VDV_Regular/Role_Character_VDV_Reg_AT_Winter.et"
+   "{70CCF6BDBCF7287E}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/VDV/VDV_Regular/Role_Character_VDV_Reg_AAT_Winter.et"
+   "{1B2DB683C117C9E9}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/VDV/VDV_Regular/Role_Character_VDV_Reg_MGOpt_Winter.et"
+   "{85DC746398497A5C}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/VDV/VDV_Regular/Role_Character_VDV_Reg_Rifleman_Winter.et"
+   "{85DC746398497A5C}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/VDV/VDV_Regular/Role_Character_VDV_Reg_Rifleman_Winter.et"
+   "{BFA68A9B0E72B492}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/VDV/VDV_Regular/Role_Character_VDV_Reg_Sniper_Winter.et"
+  }
+  m_bSnapToTerrain 0
+  m_sCustomNameSet "Дамба-Запад"
+ }
+ VDV2 {
+  components {
+   PS_GroupCallsignAssigner "{6454F7D129837B5A}" {
+    m_iCompanyCallsign 1
+    m_iSquadCallsign 1
+   }
+  }
+  coords 1757.814 67.116 1396.647
+  angles 0 -168.837 0
+  m_aUnitPrefabSlots {
+   "{BC089432FF699C2F}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/VDV/VDV_Regular/Role_Character_VDV_Reg_SL_Winter.et"
+   "{FB9107810C2C579A}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/VDV/VDV_Regular/Role_Character_VDV_Reg_SR_Winter.et"
+   "{5A15EA3743C7A22C}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/VDV/VDV_Regular/Role_Character_VDV_Reg_AT_Winter.et"
+   "{70CCF6BDBCF7287E}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/VDV/VDV_Regular/Role_Character_VDV_Reg_AAT_Winter.et"
+   "{1B2DB683C117C9E9}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/VDV/VDV_Regular/Role_Character_VDV_Reg_MGOpt_Winter.et"
+   "{85DC746398497A5C}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/VDV/VDV_Regular/Role_Character_VDV_Reg_Rifleman_Winter.et"
+   "{65A8295155F0B12F}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/VDV/VDV_Regular/Role_Character_VDV_Reg_Rfl_2_Winter.et"
+   "{BFA68A9B0E72B492}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/VDV/VDV_Regular/Role_Character_VDV_Reg_Sniper_Winter.et"
+  }
+  m_bSnapToTerrain 0
+  m_sCustomNameSet "Дамба-Запад"
+ }
+ VDV3 {
+  components {
+   PS_GroupCallsignAssigner "{6454F7D129837B5A}" {
+    m_iCompanyCallsign 1
+   }
+  }
+  coords 1731.736 66.823 1399.847
+  angles 0 -172.705 0
+  m_aUnitPrefabSlots {
+   "{BC089432FF699C2F}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/VDV/VDV_Regular/Role_Character_VDV_Reg_SL_Winter.et"
+   "{FB9107810C2C579A}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/VDV/VDV_Regular/Role_Character_VDV_Reg_SR_Winter.et"
+   "{5A15EA3743C7A22C}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/VDV/VDV_Regular/Role_Character_VDV_Reg_AT_Winter.et"
+   "{70CCF6BDBCF7287E}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/VDV/VDV_Regular/Role_Character_VDV_Reg_AAT_Winter.et"
+   "{1B2DB683C117C9E9}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/VDV/VDV_Regular/Role_Character_VDV_Reg_MGOpt_Winter.et"
+   "{85DC746398497A5C}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/VDV/VDV_Regular/Role_Character_VDV_Reg_Rifleman_Winter.et"
+   "{65A8295155F0B12F}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/VDV/VDV_Regular/Role_Character_VDV_Reg_Rfl_2_Winter.et"
+   "{BFA68A9B0E72B492}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/VDV/VDV_Regular/Role_Character_VDV_Reg_Sniper_Winter.et"
+  }
+  m_bSnapToTerrain 0
+  m_sCustomNameSet "Дамба-Запад"
+ }
+ AVAN {
+  components {
+   PS_GroupCallsignAssigner "{6454F7D129837B5A}" {
+    m_iCompanyCallsign 3
+   }
+  }
+  coords 2229.43 110.587 1642.711
+  angles 0 -165.441 0
+  m_aUnitPrefabSlots {
+   "{F51C2B398E0ABCA4}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/Regular/Role_Character_AFRF_SL_Winter.et"
+   "{B285B88A7D4F7711}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/Regular/Role_Character_AFRF_SR_Winter.et"
+   "{1301553C32A482A7}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/Regular/Role_Character_AFRF_AT_Winter.et"
+   "{6EE0D2B880D46D7C}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/Regular/Role_Character_AFRF_AAT_Winter.et"
+   "{993773CBE86B08D9}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/Regular/Role_Character_AFRF_MGOpt_Winter.et"
+   "{02C4A5C33528645D}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/Regular/Role_Character_AFRF_MGAB_Winter.et"
+   "{F667194FFD03FA0D}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/Regular/Role_Character_AFRF_Rifleman_Winter.et"
+   "{F667194FFD03FA0D}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/Regular/Role_Character_AFRF_Rifleman_Winter.et"
+   "{F53DCD72DA83F99E}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/Regular/Role_Character_AFRF_RTO_Winter.et"
+  }
+  m_sCustomNameSet "Аванпост-Север"
+ }
+ AVAN2 {
+  coords 2035.693 66.664 1130.426
+  angles 0 -17.826 0
+  m_aUnitPrefabSlots {
+   "{F51C2B398E0ABCA4}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/Regular/Role_Character_AFRF_SL_Winter.et"
+   "{B285B88A7D4F7711}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/Regular/Role_Character_AFRF_SR_Winter.et"
+   "{1301553C32A482A7}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/Regular/Role_Character_AFRF_AT_Winter.et"
+   "{6EE0D2B880D46D7C}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/Regular/Role_Character_AFRF_AAT_Winter.et"
+   "{993773CBE86B08D9}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/Regular/Role_Character_AFRF_MGOpt_Winter.et"
+   "{02C4A5C33528645D}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/Regular/Role_Character_AFRF_MGAB_Winter.et"
+   "{F667194FFD03FA0D}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/Regular/Role_Character_AFRF_Rifleman_Winter.et"
+   "{F667194FFD03FA0D}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/Regular/Role_Character_AFRF_Rifleman_Winter.et"
+  }
+  m_sCustomNameSet "Дамба-Восток"
+ }
+ AVAN3 {
+  components {
+   PS_GroupCallsignAssigner "{6454F7D129837B5A}" {
+    m_iSquadCallsign 2
+   }
+  }
+  coords 2039.17 66.706 1141.543
+  angles 0 158.299 0
+  m_aUnitPrefabSlots {
+   "{F51C2B398E0ABCA4}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/Regular/Role_Character_AFRF_SL_Winter.et"
+   "{B285B88A7D4F7711}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/Regular/Role_Character_AFRF_SR_Winter.et"
+   "{1301553C32A482A7}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/Regular/Role_Character_AFRF_AT_Winter.et"
+   "{6EE0D2B880D46D7C}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/Regular/Role_Character_AFRF_AAT_Winter.et"
+   "{993773CBE86B08D9}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/Regular/Role_Character_AFRF_MGOpt_Winter.et"
+   "{02C4A5C33528645D}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/Regular/Role_Character_AFRF_MGAB_Winter.et"
+   "{F667194FFD03FA0D}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/Regular/Role_Character_AFRF_Rifleman_Winter.et"
+   "{111838A91B409A08}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_CrewGunner.et"
+   "{F6339F4933B793A5}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_CrewDriver.et"
+  }
+  m_sCustomNameSet "Дамба-Восток"
+ }
+ AVAN4 {
+  components {
+   PS_GroupCallsignAssigner "{6454F7D129837B5A}" {
+    m_iSquadCallsign 1
+   }
+  }
+  coords 2022.991 66.664 1119.347
+  angles 0 -72.563 0
+  m_aUnitPrefabSlots {
+   "{F51C2B398E0ABCA4}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/Regular/Role_Character_AFRF_SL_Winter.et"
+   "{B285B88A7D4F7711}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/Regular/Role_Character_AFRF_SR_Winter.et"
+   "{1301553C32A482A7}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/Regular/Role_Character_AFRF_AT_Winter.et"
+   "{6EE0D2B880D46D7C}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/Regular/Role_Character_AFRF_AAT_Winter.et"
+   "{993773CBE86B08D9}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/Regular/Role_Character_AFRF_MGOpt_Winter.et"
+   "{02C4A5C33528645D}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/Regular/Role_Character_AFRF_MGAB_Winter.et"
+   "{F667194FFD03FA0D}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/Regular/Role_Character_AFRF_Rifleman_Winter.et"
+   "{F667194FFD03FA0D}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/Regular/Role_Character_AFRF_Rifleman_Winter.et"
+  }
+  m_sCustomNameSet "Дамба-Восток"
+ }
+}
+Vehicle BTR70_AFRF1 : "{447CFE8D73F95C3E}Prefabs/Vehicles/Wheeled/BTR70/BTR70_AFRF.et" {
+ coords 2036.495 66.634 1136.798
+ angles 0 -109.866 0
+ m_sAttachmentGroupName "AVAN3"
+}
+Vehicle Ural4320_engineer_mine1 : "{FB95FB39F0AE06E9}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_engineer_mine.et" {
+ components {
+  SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+   FuelNodes {
+    SCR_FuelNode "{5622A70CD4036C5A}" {
+     m_fInitialFuelTankState 0
+    }
+    SCR_FuelNode "{5628CA84B129D4CE}" {
+     m_fInitialFuelTankState 0
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{5916C58171230A92}" {
+   MultiSlots {
+    MultiSlotConfiguration "{64F2B6A7D20F01D5}" {
+     SlotTemplate InventoryStorageSlot "{64CB51EB39A8A282}" {
+      Prefab "{B05A816C0BF50802}Prefabs/Weapons/Explosives/Mine_PMN4/Mine_PMN4.et"
+     }
+     NumSlots 30
+    }
+   }
+  }
+ }
+ coords 2237.522 109.996 1640.167
+ angles -0.892 -0.056 3.577
+ m_sAttachmentGroupName "AVAN"
+}

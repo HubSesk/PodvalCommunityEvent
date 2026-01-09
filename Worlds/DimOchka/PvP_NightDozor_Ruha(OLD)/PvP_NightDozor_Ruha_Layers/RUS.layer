@@ -1,0 +1,176 @@
+SCR_AIGroup "(Экипаж БТР-70) RHS_AFRF_G_002_2" : "{0FC09C311C951395}Prefabs/Groups/OPFOR/drg_AFRF_PlatoonHQ.et" {
+ components {
+  PS_GroupCallsignAssigner "{6454F7D129837B5A}" {
+   m_iCompanyCallsign 3
+   m_iSquadCallsign 0
+  }
+ }
+ coords 5304.061 61.149 5118.34
+ angles 0 137.666 0
+ m_aUnitPrefabSlots {
+  "{8E5D9A808F3AFAF9}Prefabs/Characters/Factions/OPFOR/AFRF_Peacekeepers/Peacekeepers/Army/Role_AFRF_Peacekeepers_CrewGunner.et"
+  "{69763D60A7CDF354}Prefabs/Characters/Factions/OPFOR/AFRF_Peacekeepers/Peacekeepers/Army/Role_AFRF_Peacekeepers_CrewDriver.et"
+ }
+ m_sCustomNameSet "Экипаж БТР-70"
+}
+$grp Vehicle : "{1EBE5A495A43945D}Prefabs/RF_Peacekeepers/Vehicle/GAZ_Retexture/MC/Prefabs/GAZ_MC_KORD.et" {
+ GAZ_MC_KORD1 {
+  coords 5098.729 53.492 4772.766
+  angles 0.223 -34.871 -1.246
+  m_sAttachmentGroupName "(Развед. отряд) RHS_AFRF_G_001_6"
+ }
+ GAZ_MC_KORD2 {
+  coords 5086.786 53.174 4764.445
+  angles -2.041 -34.761 -2.938
+  m_sAttachmentGroupName "(Развед. отряд) RHS_AFRF_G_002_6"
+ }
+}
+SCR_AIGroup "(Полковник Миронов) RHS_AFRF_G_000_1" : "{52DBD8AD794AA412}Prefabs/Groups/OPFOR/drg_AFRF_CompanyHQ.et" {
+ coords 5287.968 61.149 5128.725
+ angles 0 48.445 0
+ m_aUnitPrefabSlots {
+  "{67CF535B1A7AD6E1}Prefabs/Characters/Factions/OPFOR/AFRF_Peacekeepers/Peacekeepers/Army/Role_AFRF_Peacekeepers_HQ_VIP.et"
+ }
+ m_sCustomNameSet "Полковник Миронов"
+}
+$grp Vehicle : "{578C23A9D8A4A1DA}Prefabs/RF_Peacekeepers/Vehicle/Ural4320/Ural_Transport_Covered_MC.et" {
+ Ural_Transport_Covered_MC1 {
+  coords 5550.644 70.773 2664.785
+  angles -1.538 -34.201 -5.431
+  m_sAttachmentGroupName "(Блокпост \"Константин\") RHS_AFRF_G_001_8"
+ }
+ Ural_Transport_Covered_MC2 {
+  coords 2323.919 67.596 2738.279
+  angles 0.656 -158.516 -1.666
+  m_sAttachmentGroupName "(Блокпост \"Анна\") RHS_AFRF_G_001_8"
+ }
+ Ural_Transport_Covered_MC3 {
+  coords 4397.41 58.187 2691.351
+  angles -1.595 116.966 -0.812
+  m_sAttachmentGroupName "(Блокпост \"Борис\") RHS_AFRF_G_002_8"
+ }
+}
+Vehicle BTR_MC_1 : "{83F76ACD489358A6}Prefabs/RF_Peacekeepers/Vehicle/BTR/BTR_MC_452.et" {
+ components {
+  SCR_UniversalInventoryStorageComponent "{59168B38F20DFF74}" {
+   MultiSlots {
+    MultiSlotConfiguration "{64D4DE0BB6902C5F}" {
+     SlotTemplate InventoryStorageSlot RPG22 {
+      Prefab "{B31D9C2465D00D93}Prefabs/Items/Equipment/Radios/Radio_R107M_PL.et"
+     }
+     NumSlots 1
+    }
+   }
+  }
+ }
+ coords 5305.998 61.143 5113.142
+ angles 0 -137.79 0
+ m_sAttachmentGroupName "(Экипаж БТР-70) RHS_AFRF_G_002_2"
+}
+$grp SCR_AIGroup : "{B1ABB9DAC681D45E}Prefabs/RF_Peacekeepers/Groups/AFRF_VDV_RifleSquad.et" {
+ "(Развед. отряд) RHS_AFRF_G_002_6" {
+  components {
+   PS_GroupCallsignAssigner "{6454F7D129837B5A}" {
+    m_iCompanyCallsign 2
+    m_iSquadCallsign 1
+   }
+  }
+  coords 5099.99 53.5 4741.272
+  angles 0 -37.294 0
+  m_aUnitPrefabSlots {
+   "{96A9FFDD99DB2189}Prefabs/Characters/Factions/OPFOR/AFRF_Peacekeepers/Peacekeepers/VDV/Role_VDV_SL.et"
+   "{EBB11325FC481D10}Prefabs/Characters/Factions/OPFOR/AFRF_Peacekeepers/Peacekeepers/VDV/Role_VDV_SR.et"
+   "{23896703D2D69DC6}Prefabs/Characters/Factions/OPFOR/AFRF_Peacekeepers/Peacekeepers/VDV/Role_VDV_AT.et"
+   "{E9A59FEBE0C7CDD5}Prefabs/Characters/Factions/OPFOR/AFRF_Peacekeepers/Peacekeepers/VDV/Role_VDV_AAT.et"
+   "{EBB11325FC481D10}Prefabs/Characters/Factions/OPFOR/AFRF_Peacekeepers/Peacekeepers/VDV/Role_VDV_SR.et"
+   "{81A46802F77A86E5}Prefabs/Characters/Factions/OPFOR/AFRF_Peacekeepers/Peacekeepers/VDV/Role_VDV_Rifleman.et"
+  }
+  m_sCustomNameSet "Развед. отряд"
+ }
+ "(Развед. отряд) RHS_AFRF_G_001_6" {
+  components {
+   PS_GroupCallsignAssigner "{6454F7D129837B5A}" {
+    m_iCompanyCallsign 2
+    m_iSquadCallsign 0
+   }
+  }
+  coords 5113.807 53.5 4751.795
+  angles 0 -37.294 0
+  m_aUnitPrefabSlots {
+   "{96A9FFDD99DB2189}Prefabs/Characters/Factions/OPFOR/AFRF_Peacekeepers/Peacekeepers/VDV/Role_VDV_SL.et"
+   "{EBB11325FC481D10}Prefabs/Characters/Factions/OPFOR/AFRF_Peacekeepers/Peacekeepers/VDV/Role_VDV_SR.et"
+   "{23896703D2D69DC6}Prefabs/Characters/Factions/OPFOR/AFRF_Peacekeepers/Peacekeepers/VDV/Role_VDV_AT.et"
+   "{E9A59FEBE0C7CDD5}Prefabs/Characters/Factions/OPFOR/AFRF_Peacekeepers/Peacekeepers/VDV/Role_VDV_AAT.et"
+   "{EBB11325FC481D10}Prefabs/Characters/Factions/OPFOR/AFRF_Peacekeepers/Peacekeepers/VDV/Role_VDV_SR.et"
+   "{81A46802F77A86E5}Prefabs/Characters/Factions/OPFOR/AFRF_Peacekeepers/Peacekeepers/VDV/Role_VDV_Rifleman.et"
+  }
+  m_sCustomNameSet "Развед. отряд"
+ }
+}
+$grp SCR_AIGroup : "{DB77D610DF5A3D25}Prefabs/RF_Peacekeepers/Groups/AFRF_Peacekeepers_RifleSquad.et" {
+ "(Блокпост \"Анна\") RHS_AFRF_G_001_8" {
+  components {
+   PS_GroupCallsignAssigner "{6454F7D129837B5A}" {
+    m_iCompanyCallsign 1
+    m_iSquadCallsign 0
+   }
+  }
+  coords 2324.734 67.622 2706.375
+  angles 0 -165 0
+  m_aUnitPrefabSlots {
+   "{1F5E5CD92281897D}Prefabs/Characters/Factions/OPFOR/AFRF_Peacekeepers/Peacekeepers/Army/Role_AFRF_Peacekeepers_SL.et"
+   "{6246B0214712B5E4}Prefabs/Characters/Factions/OPFOR/AFRF_Peacekeepers/Peacekeepers/Army/Role_AFRF_Peacekeepers_SR.et"
+   "{AA7EC407698C3532}Prefabs/Characters/Factions/OPFOR/AFRF_Peacekeepers/Peacekeepers/Army/Role_AFRF_Peacekeepers_AT.et"
+   "{64B2CA24C5A06F84}Prefabs/Characters/Factions/OPFOR/AFRF_Peacekeepers/Peacekeepers/Army/Role_AFRF_Peackeepers_AAT.et"
+   "{96419792740B4AF7}Prefabs/Characters/Factions/OPFOR/AFRF_Peacekeepers/Peacekeepers/Army/Role_AFRF_Peacekeepers_MG_Opt.et"
+   "{714627FA2339DB98}Prefabs/Characters/Factions/OPFOR/AFRF_Peacekeepers/Peacekeepers/Army/Role_AFRF_Peacekeepers_MGAB.et"
+   "{C2B935C65BC1C738}Prefabs/Characters/Factions/OPFOR/AFRF_Peacekeepers/Peacekeepers/Army/Role_AFRF_Peacekeepers_RTO.et"
+   "{67EBC2C63AE95B60}Prefabs/Characters/Factions/OPFOR/AFRF_Peacekeepers/Peacekeepers/Army/Role_AFRF_Peacekeepers_Sniper.et"
+  }
+  m_sCustomNameSet "Блокпост \"Анна\""
+ }
+ "(Блокпост \"Борис\") RHS_AFRF_G_002_8" {
+  components {
+   PS_GroupCallsignAssigner "{6454F7D129837B5A}" {
+    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 1
+   }
+  }
+  coords 4403.421 58.25 2675.351
+  angles 0 -57.28 0
+  m_aUnitPrefabSlots {
+   "{1F5E5CD92281897D}Prefabs/Characters/Factions/OPFOR/AFRF_Peacekeepers/Peacekeepers/Army/Role_AFRF_Peacekeepers_SL.et"
+   "{6246B0214712B5E4}Prefabs/Characters/Factions/OPFOR/AFRF_Peacekeepers/Peacekeepers/Army/Role_AFRF_Peacekeepers_SR.et"
+   "{AA7EC407698C3532}Prefabs/Characters/Factions/OPFOR/AFRF_Peacekeepers/Peacekeepers/Army/Role_AFRF_Peacekeepers_AT.et"
+   "{64B2CA24C5A06F84}Prefabs/Characters/Factions/OPFOR/AFRF_Peacekeepers/Peacekeepers/Army/Role_AFRF_Peackeepers_AAT.et"
+   "{96419792740B4AF7}Prefabs/Characters/Factions/OPFOR/AFRF_Peacekeepers/Peacekeepers/Army/Role_AFRF_Peacekeepers_MG_Opt.et"
+   "{714627FA2339DB98}Prefabs/Characters/Factions/OPFOR/AFRF_Peacekeepers/Peacekeepers/Army/Role_AFRF_Peacekeepers_MGAB.et"
+   "{C2B935C65BC1C738}Prefabs/Characters/Factions/OPFOR/AFRF_Peacekeepers/Peacekeepers/Army/Role_AFRF_Peacekeepers_RTO.et"
+   "{67EBC2C63AE95B60}Prefabs/Characters/Factions/OPFOR/AFRF_Peacekeepers/Peacekeepers/Army/Role_AFRF_Peacekeepers_Sniper.et"
+  }
+  m_sCustomNameSet "Блокпост \"Борис\""
+ }
+ "(Блокпост \"Константин\") RHS_AFRF_G_001_8" {
+  components {
+   PS_GroupCallsignAssigner "{6454F7D129837B5A}" {
+    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 2
+    m_iSquadCallsign 2
+   }
+  }
+  coords 5518.896 70.715 2686.754
+  angles 0 -54.816 0
+  m_aUnitPrefabSlots {
+   "{1F5E5CD92281897D}Prefabs/Characters/Factions/OPFOR/AFRF_Peacekeepers/Peacekeepers/Army/Role_AFRF_Peacekeepers_SL.et"
+   "{6246B0214712B5E4}Prefabs/Characters/Factions/OPFOR/AFRF_Peacekeepers/Peacekeepers/Army/Role_AFRF_Peacekeepers_SR.et"
+   "{AA7EC407698C3532}Prefabs/Characters/Factions/OPFOR/AFRF_Peacekeepers/Peacekeepers/Army/Role_AFRF_Peacekeepers_AT.et"
+   "{64B2CA24C5A06F84}Prefabs/Characters/Factions/OPFOR/AFRF_Peacekeepers/Peacekeepers/Army/Role_AFRF_Peackeepers_AAT.et"
+   "{96419792740B4AF7}Prefabs/Characters/Factions/OPFOR/AFRF_Peacekeepers/Peacekeepers/Army/Role_AFRF_Peacekeepers_MG_Opt.et"
+   "{714627FA2339DB98}Prefabs/Characters/Factions/OPFOR/AFRF_Peacekeepers/Peacekeepers/Army/Role_AFRF_Peacekeepers_MGAB.et"
+   "{C2B935C65BC1C738}Prefabs/Characters/Factions/OPFOR/AFRF_Peacekeepers/Peacekeepers/Army/Role_AFRF_Peacekeepers_RTO.et"
+   "{67EBC2C63AE95B60}Prefabs/Characters/Factions/OPFOR/AFRF_Peacekeepers/Peacekeepers/Army/Role_AFRF_Peacekeepers_Sniper.et"
+  }
+  m_sCustomNameSet "Блокпост \"Константин\""
+ }
+}

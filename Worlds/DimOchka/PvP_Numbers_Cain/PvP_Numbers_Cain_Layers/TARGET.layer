@@ -1,0 +1,392 @@
+$grp GenericEntity : "{13A99500A14FA14C}Prefabs/Props/Military/SupplyBox/SupplyShippingContainers/SupplyShippingContainers_01/SupplyShippingContainers_01_20ft.et" {
+ {
+  coords 11387.447 32.013 2242.568
+  angles 0 118.805 0
+ }
+ {
+  coords 11386.183 32.013 2240.267
+  angles 0 118.805 0
+ }
+}
+$grp GenericEntity : "{231EF6796E1D97CE}Prefabs/Items/Misc/IntelligenceFolder_E_01/IntelligenceFolder_E_01_Radio.et" {
+ {
+  coords 6874.771 435.593 6782.425
+  {
+   PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+    coords -0.016 0.023 -0.263
+    angles 0 0 0
+    m_MarkerColor 1 0.017 0.017 1
+    m_sQuadName "mark-question"
+    m_fWorldSize 15
+    m_aVisibleForFactions {
+     ""
+    }
+    m_bVisibleForEmptyFaction 1
+    m_aHideOnGameModeStates {
+     PREGAME
+     SLOTSELECTION
+    }
+   }
+  }
+ }
+ {
+  coords 6780.114 443.186 6722.673
+  angles 0 4.014 0
+  {
+   PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+    coords 0.034 0.023 -0.327
+    angles 0 -4.014 0
+    m_MarkerColor 1 0.017 0.017 1
+    m_sQuadName "mark-question"
+    m_fWorldSize 15
+    m_aVisibleForFactions {
+     ""
+    }
+    m_bVisibleForEmptyFaction 1
+    m_aHideOnGameModeStates {
+     PREGAME
+     SLOTSELECTION
+    }
+   }
+  }
+ }
+ {
+  coords 6770.651 443.186 6726.791
+  angles 0 -55.521 0
+  {
+   PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+    coords -0.239 0.023 -0.185
+    angles 0 55.521 0
+    m_MarkerColor 1 0.017 0.017 1
+    m_sQuadName "mark-question"
+    m_fWorldSize 15
+    m_aVisibleForFactions {
+     ""
+    }
+    m_bVisibleForEmptyFaction 1
+    m_aHideOnGameModeStates {
+     PREGAME
+     SLOTSELECTION
+    }
+   }
+  }
+ }
+}
+GenericEntity : "{24F98A215FAA249C}Prefabs/Structures/Signs/Military/Supplies/Sign_SupplyStorage_01_Supplies_FIA.et" {
+ coords 11389.777 31.901 2239.771
+ angles 0 117.586 0
+}
+$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ {
+  coords 6518.503 493.447 6624.483
+  angles 0 59.65 0
+  m_sTitle "Правила и задачи сторон"
+  m_sDescriptionLayout "{B6DE04F7CF7A95DA}UI/MissionDescription/DescriptionEditableScrollable.layout"
+  m_sTextData "ПРАВИЛА:"\
+  "1. Всем запрещено надевать форму, головные уборы, разгрузки, бронежилеты противника (рюкзаки можно);"\
+  "2. Вертолету запрещено использовать тактику \"КАМИКАДЗЕ\";"\
+  "3. Алексу Мэйсону запрещено брать разведданные;"\
+  "4. США и СССР ЗАПРЕЩЕНО первым открывать огонь по Алексу Мэйсону. РАЗРЕШЕНО в случае если он откроет по вам огонь первым (ОН ОДЕТ В ЧЕРНЫЙ КОСТЮМ);"\
+  "5. Алексу Мэйсону ЗАПРЕЩЕНО покидать территорию базы (территория базы обведена красным цветом). РАЗРЕШЕНО в случае если он решит перейти на сторону США и войска США будут подходить к территории базы (визуальный контакт должен быть);"\
+  "6. Для КСа СССР - Мэйсон изначально принадлежит фракции СССР, не нужно приставлять к нему оруженосца, который будет ходить за ним попятам. КГБ имеет больше власти, чем КС СССР."\
+  ""\
+  "ЗАДАЧИ:"\
+  "• СССР: "\
+  " 1. НЕ ДАТЬ УНИЧТОЖАТЬ ВЫШКУ СВЯЗИ \"БАРС\";"\
+  " 2. НЕ ДОПУСТИТЬ КРАЖУ РАЗВЕДДАННЫХ."\
+  "• США:"\
+  " 1. УНИЧТОЖИТЬ ВЫШКУ СВЯЗИ \"БАРС\";"\
+  " 2. ВЫКРАСТЬ РАЗВЕДДАННЫЕ (2 Минимум и вывезти их в зону эвакуации);"\
+  " 3. СПАСТИ АЛЕКСА МЭЙСОНА."\
+  "• КГБ/ЦРУ:"\
+  " 1. НЕ ДОПУСТИТЬ КРАЖУ РАЗВЕДДАННЫХ ИЗ БУНКЕРА;"\
+  " 2. АЛЕКСУ МЭЙСОНУ ВЫЖИТЬ (ОПЦИОНАЛЬНАЯ)"\
+  ""\
+  "ДОПОЛНИТЕЛЬНО:"\
+  " 1. Всего 3 папки с разведдаными."
+  m_bShowForAnyFaction 1
+ }
+ {
+  coords 6518.503 493.447 6624.483
+  angles 0 59.65 0
+  m_sTitle "Ситуация"
+  m_sTextData "5 часов назад пришла информация о готовящемся десанте на наш остров. На текущий момент известно, что развед. группы противника высадились на Северно-Западной,Западной и Юго-Западной стороне, при этом завладев гражданским транспортом - 2 Сарки и 2 УАЗа. "\
+  ""\
+  "Также известно о готовящемся авиа-десанте с южной стороны."\
+  ""\
+  "Ожидаем дальнейшей информации..."
+  m_aVisibleForFactions {
+   "USSR"
+   ""
+  }
+ }
+ {
+  coords 6518.503 493.447 6624.483
+  angles 0 59.65 0
+  m_sTitle "Записки солдата"
+  m_sTextData "1985 год. Колгуев. "\
+  ""\
+  "Уже как два года на острове функицонирует радиостанция БАРС, позволяющая транслировать информацию на длительные расстоянии. С момента постройки станции, на Колгуеве \"поселились\" сотрудники КГБ. Никто не сомневается что то, чем они там занимаются - дело особой важности, ибо что им еще делать в этой глуши. "\
+  ""\
+  "Третий месяц как приехал еще один \"турист\", Сначала  по-нашему совсем не фуружил, да и вел себя подозрительно странно, но мы его тут поднатаскали и теперь его от своего не отличишь."
+  m_aVisibleForFactions {
+   "USSR"
+   ""
+  }
+ }
+ {
+  coords 6518.503 493.447 6624.483
+  angles 0 59.65 0
+  m_sTitle "Записки чекиста"
+  m_sTextData "1985 год. Колгуев. "\
+  ""\
+  "Уже как два года на острове функицонирует радиостанция БАРС, позволяющая транслировать информацию на длительные расстоянии. С момента постройки мы занимались только трансляцией определенной последовательности чисел для так называемых \"спящих агентов\". "\
+  ""\
+  "Не так давно нам доставили интересный кадр прямиком из ЦРУ. Благодаря особым разработкам Центра, этот товарищ \"согласился\" работать на нашу сторону. Вояки поднатаскали его с Русским, что аж теперь разговаривает как на своем родном. Мы сблизились и вроде как доверяем ему, но надеемся, что он не ведет двойную игру..."
+  m_aVisibleForFactions {
+   "CIV"
+   ""
+  }
+ }
+ {
+  coords 6518.503 493.447 6624.483
+  angles 0 59.65 0
+  m_sTitle "Ситуация"
+  m_sTextData "5 часов назад пришла информация от нашего Крота в Лэнгли о готовящемся десанте на наш остров. На текущий момент известно, что развед. группы противника высадились на Северно-Западной,Западной и Юго-Западной стороне, при этом завладев гражданским транспортом - 2 Сарки и 2 УАЗа. "\
+  ""\
+  "Также известно о готовящемся авиа-десанте с южной стороны."\
+  ""\
+  "По свединиям у противника цель уничтожить станцию \"БАРС\", а также попытаться завладеть всеми ценными разведданными, чего мы, в свою очередь, допустить не можем. Своего западного \"коллегу\" к докуменам особой важности мы пока не решились подпускать. Также американцы узнали, что мы держим якобы \"в плену\" их пропавшего без вести Агента. Вероятнее всего, они попытаются его вернуть обратно."\
+  ""\
+  "Ожидаем дальнейшей информации..."
+  m_aVisibleForFactions {
+   "CIV"
+   ""
+  }
+ }
+ {
+  coords 6518.503 493.447 6624.483
+  angles 0 59.65 0
+  m_sTitle "Ситуация"
+  m_sTextData "3 часа назад на Северно-Западной,Западной и Юго-Западной стороне острова высадились наши развед. группы, так еще и отобрав у местных их транспорт в виде 2 Сарок и 2 УАЗиков. "\
+  ""\
+  "Основной нашей целью поставили уничтожить станцию \"БАРС\", а также попытаться завладеть всеми ценными разведданными. Также появилиась информация о пропавшем 4 года назад Агенте ЦРУ, видимо все это время он был пленником на этом острове, поэтому третьей нашей задачей стала его эвукуация. "\
+  "Предположительно, он одет в ЧЕРНЫЙ костюм. "\
+  ""\
+  "Остальная наша группа готовит авиа-десант, пока другая группировка уже высадались на Хаммерах на Западе острова."
+  m_aVisibleForFactions {
+   "US"
+   ""
+  }
+ }
+ {
+  coords 6518.503 493.447 6624.483
+  angles 0 59.65 0
+  m_sTitle "Записки солдата"
+  m_sTextData "1985 год. Колгуев. "\
+  ""\
+  "На протяжении последних двух лет, разведка активно искала устройство связи, передающее закодированную информацию в виде определенной последовательности чисел. В 1983 году, когда к власти в Гренаде пришло правительство, ориетированное на Советский Союз, разведка сразу же пришла к выводу что устройство должно находиться на территории страны. К сожалению, их попытка закончилась неудачей. "\
+  ""\
+  "В этот раз благодаря фоторазведке и \"надежному источнику информации\" они точно уверены, что на Колгуеве будет то самое устройство."
+  m_aVisibleForFactions {
+   "US"
+   ""
+  }
+ }
+ {
+  coords 6518.503 493.447 6624.483
+  angles 0 59.65 0
+  m_sTitle "Алексу Мэйсону"
+  m_sTextData "Вы можете ВЫБРАТЬ сторону за кого хотите играть:"\
+  "Изначально Вы союзник СССР, стрелять по вам им запрещено!"\
+  "Основная ваша задача выжить и защитить документы. ДОКУМЕНТЫ ПОДБИРАТЬ ЗАПРЕЩЕНО!"\
+  ""\
+  "Вы можете в любой момент перейти на сторону США, но вам нужно будет как минимум выжить и наладить контакт с армией США. Если вы решили перейти на сторону США - основная ваша задача это эвакуироваться на запад острова, либо же улететь на вертолете. Вы можете подсказать Армии США где находятся документы, но повторяю, ПОДБИРАТЬ ИХ ЗАПРЕЩЕНО! "
+  m_aVisibleForFactions {
+   "CIV"
+   ""
+  }
+ }
+ {
+  coords 6518.503 493.447 6624.483
+  angles 0 59.65 0
+  m_sTitle "ВАЖНАЯ ИНФОРМАЦИЯ! "
+  m_sTextData "Вы спаунитесь только с картой! На фриз-тайме Вы можете подбежать к БТР и забрать оттуда всю нужную медицину. В Бункере, рядом с которым вы появляетесь, лежат 4 ПМ, 8 магазинов, документы и 4 рации СССР! "\
+  "Подбирать разгрузки можно только с павших бойцов СССР!"
+  m_aVisibleForFactions {
+   "CIV"
+   ""
+  }
+ }
+}
+GenericEntity : "{702955C2148F24DC}Prefabs/Props/Amplion_Siren.et" {
+ coords 7523.891 345.954 7813.606
+ angles -28.095 -158.791 0
+}
+GenericEntity : "{93F9FBDB589D2C9A}Prefabs/System/DRG_BuildingDestroyPrefab.et" {
+ components {
+  DRG_BuildingDestroyComponent "{657476373CF666F8}" {
+   m_aBuildingDestroyLogics {
+    BuildingDestroyLogic "{6704D194F9E52D95}" {
+     m_sSuccessObjectiveNames {
+      "USA1"
+     }
+     m_sFailedObjectiveNames {
+      "USSR1"
+     }
+     m_aDestroableBuildings {
+      DestroableBuilding "{6704D19723446DE6}" {
+       m_sBuildingEntityName "TRANS"
+       m_sBuildingPreviewNameForDescription "ВЫШКА СВЯЗИ \"БАРС\""
+      }
+     }
+    }
+   }
+  }
+ }
+ coords 6530.749 493.44 6625.472
+ angles 0 -38.211 0
+}
+$grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
+ USSR1 {
+  coords 6522.842 493.411 6638.292
+  angles 0 55.999 0
+  m_sTitle "ВЫШКА СВЯЗИ УЦЕЛЕЛА"
+  m_iScore 25
+  m_sFactionKey "USSR"
+ }
+ USSR3 {
+  coords 6518.177 493.411 6635.146
+  angles 0 55.999 0
+  m_sTitle "РАЗВЕДАННЫЕ СОХРАНЕНЫ"
+  m_iScore 25
+  m_sFactionKey "USSR"
+ }
+ USSR2 {
+  coords 6520.485 493.411 6636.702
+  angles 0 55.999 0
+  m_sTitle "РАЗВЕДАННЫЕ СОХРАНЕНЫ"
+  m_iScore 25
+  m_sFactionKey "USSR"
+ }
+ USSR4 {
+  coords 6515.51 493.411 6633.346
+  angles 0 55.999 0
+  m_sTitle "РАЗВЕДАННЫЕ СОХРАНЕНЫ"
+  m_iScore 25
+  m_sFactionKey "USSR"
+ }
+ USA1 {
+  coords 6514.857 493.411 6632.906
+  angles 0 55.999 0
+  m_sTitle "ВЫШКА СВЯЗИ УНИЧТОЖЕНА"
+  m_iScore 25
+  m_sFactionKey "US"
+ }
+ USA2 {
+  coords 6510.192 493.411 6629.76
+  angles 0 55.999 0
+  m_sTitle "РАЗВЕДАННЫЕ УКРАДЕНЫ"
+  m_iScore 25
+  m_sFactionKey "US"
+ }
+ USA3 {
+  coords 6512.5 493.411 6631.316
+  angles 0 55.999 0
+  m_sTitle "РАЗВЕДАННЫЕ УКРАДЕНЫ"
+  m_iScore 25
+  m_sFactionKey "US"
+ }
+ USA4 {
+  coords 6507.525 493.411 6627.96
+  angles 0 55.999 0
+  m_sTitle "РАЗВЕДАННЫЕ УКРАДЕНЫ"
+  m_iScore 25
+  m_sFactionKey "US"
+ }
+ CIV1 {
+  coords 6522.842 493.411 6638.292
+  angles 0 55.999 0
+  m_sTitle "НЕ ДАТЬ УКРАСТЬ ПАПКУ С РАЗВЕДДАНЫМИ ИЗ БУНКЕРА"
+  m_iScore 75
+  m_sFactionKey "CIV"
+ }
+ CIV2 {
+  coords 6522.842 493.411 6638.292
+  angles 0 55.999 0
+  m_sTitle "АЛЕКС МЭЙСОН ЖИВ"
+  m_iScore 25
+  m_sFactionKey "CIV"
+ }
+}
+$grp GenericEntity : "{BCAEEED372814311}Prefabs/Props/Signs/Industrial/SignIndustrial_USSR_02_warnings_underminedarea.et" {
+ {
+  coords 7519.683 346.171 7797.795
+  angles 0 153.171 0
+ }
+ {
+  coords 7531.778 346.174 7810.19
+  angles 0 63.171 0
+ }
+}
+$grp GenericEntity : "{C1B7AB00FF7C1424}Prefabs/Props/Industrial/ConcretePanel_01_A.et" {
+ {
+  coords 7519.641 345.661 7797.899
+  angles 0 63.194 90.309
+  scale 0.68
+ }
+ {
+  coords 7531.674 345.664 7810.148
+  angles 0 -26.806 90.309
+  scale 0.68
+ }
+}
+$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ {
+  coords 2564.638 214.352 7055.57
+  m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+  m_sImageSetGlow ""
+  m_sQuadName "Task_Defend"
+  m_fWorldSize 200
+  m_sDescription "ЗОНА ЭВАКУАЦИИ"
+  m_aVisibleForFactions {
+   "US"
+   "CIV"
+   ""
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+   PREGAME
+   SLOTSELECTION
+  }
+ }
+ {
+  coords 432.429 1174.159 777.756
+  angles 0 87.682 0
+  m_sImageSet "{666937E41F7FD92A}Prefabs/Misc/Photo/BUNKERS.edds"
+  m_sImageSetGlow ""
+  m_sQuadName ""
+  m_fWorldSize 300
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "US"
+   "USSR"
+   "CIV"
+  }
+  m_bVisibleForEmptyFaction 1
+ }
+}
+GenericEntity : "{E6FC6DD69FA3479F}Prefabs/System/DRG_MissionEndTimerPrefab.et" {
+ components {
+  DRG_MissionEndTimerComponent "{651B0839B21B3BBF}" {
+   m_aTimeLeftWarningTimers {
+    300
+   }
+  }
+ }
+ coords 6533.561 493.438 6619.032
+}
+Vehicle M923A1_transport1 : "{F1FBD0972FA5FE09}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport.et" {
+ coords 11387.214 32.077 2233.112
+ angles 0 122.582 0
+}

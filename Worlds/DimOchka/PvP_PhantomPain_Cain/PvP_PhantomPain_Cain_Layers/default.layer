@@ -1,0 +1,190 @@
+SCR_AIWorld : "{672531FAC0834C06}Prefabs/AI/SCR_AIWorld_Cain.et" {
+ coords 6440.598 43.305 4087.548
+}
+PerceptionManager PerceptionManager2 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 6441.56 43.339 4089.815
+ angles 0 41.777 0
+}
+PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
+ components {
+  PS_CutsceneManager "{60E6C661B81E7619}" {
+   m_aCutscenes {
+    PS_Cutscene "{684371472B78C46C}" {
+     m_sCutsceneEntityName "Sex"
+     m_iCutsceneTime 30000
+    }
+   }
+  }
+ }
+ coords 6442.018 43.311 4092.601
+ m_bShowCutscene 1
+}
+CinematicEntity Sex {
+ coords 0 0 0
+ Scene CinematicScene "{684371470A353705}" {
+  EndFrame 5000
+  Tracks {
+   AnimationCinematicTrack "{6843714716AD2111}" {
+    TrackName "A"
+    Play BooleanCinematicTrack "{6843714716AD21DF}" {
+     TrackName "Play"
+     Keyframes {
+      BooleanCinematicKeyframe "{6843714712A491CF}" {
+       FrameNumber 0
+       Value 1
+      }
+     }
+    }
+   }
+   CameraCinematicTrack "{684371472139E710}" {
+    TrackName "Camera"
+    Position Vector3CinematicTrack "{684371472139E7DB}" {
+     TrackName "Position"
+     X FloatCinematicTrack "{684371472139E7D0}" {
+      TrackName "X"
+      Keyframes {
+       FloatCinematicKeyframe "{684371472071413A}" {
+        FrameNumber 0
+        Value 6642.984
+       }
+      }
+     }
+     Y FloatCinematicTrack "{684371472139E7CA}" {
+      TrackName "Y"
+      Keyframes {
+       FloatCinematicKeyframe "{68437147207140F3}" {
+        FrameNumber 0
+        Value 26.989
+       }
+      }
+     }
+     Z FloatCinematicTrack "{684371472139E7C7}" {
+      TrackName "Z"
+      Keyframes {
+       FloatCinematicKeyframe "{684371472071435F}" {
+        FrameNumber 0
+        Value 3912.75
+       }
+      }
+     }
+    }
+    Angles Vector3CinematicTrack "{684371472139E7BF}" {
+     TrackName "Angles"
+     X FloatCinematicTrack "{684371472139E7B9}" {
+      TrackName "X"
+      Keyframes {
+       FloatCinematicKeyframe "{68437147207143D5}" {
+        FrameNumber 0
+        Value 1.558
+       }
+      }
+     }
+     Y FloatCinematicTrack "{684371472139E7B5}" {
+      TrackName "Y"
+      Keyframes {
+       FloatCinematicKeyframe "{6843714720714251}" {
+        FrameNumber 0
+        Value 302.839
+       }
+      }
+     }
+     Z FloatCinematicTrack "{684371472139E7B0}" {
+      TrackName "Z"
+      Keyframes {
+       FloatCinematicKeyframe "{68437147207142CE}" {
+        FrameNumber 0
+        Value 0
+       }
+      }
+     }
+    }
+    FOV FloatCinematicTrack "{684371472139E7AC}" {
+     TrackName "FOV"
+     Keyframes {
+      FloatCinematicKeyframe "{68437147235A3C2B}" {
+       FrameNumber 0
+       Value 26.12
+      }
+     }
+    }
+    DOF DOFCinematicTrack "{684371472139E7A6}" {
+     TrackName "DOF"
+     Enabled BooleanCinematicTrack "{684371472139E798}" {
+      TrackName "Enabled"
+     }
+     FocusDistance FloatCinematicTrack "{684371472139E793}" {
+      TrackName "FocusDistance"
+     }
+     LengthNear FloatCinematicTrack "{684371472139E78C}" {
+      TrackName "LengthNear"
+     }
+     LengthFar FloatCinematicTrack "{684371472139E789}" {
+      TrackName "LengthFar"
+     }
+    }
+    DOFAdvanced DOFAdvancedCinematicTrack "{684371472139E782}" {
+     TrackName "DOFAdvanced"
+     Enabled BooleanCinematicTrack "{684371472139E67A}" {
+      TrackName "Enabled"
+     }
+     FocusDistance FloatCinematicTrack "{684371472139E679}" {
+      TrackName "FocusDistance"
+     }
+     FStop FloatCinematicTrack "{684371472139E674}" {
+      TrackName "FStop"
+     }
+     SensorSize FloatCinematicTrack "{684371472139E670}" {
+      TrackName "SensorSize"
+     }
+     FocalLengthAuto BooleanCinematicTrack "{684371472139E66F}" {
+      TrackName "FocalLengthAuto"
+     }
+     FocalLength FloatCinematicTrack "{684371472139E66A}" {
+      TrackName "FocalLength"
+     }
+    }
+    HDR HDRCinematicTrack "{684371472139E666}" {
+     TrackName "HDR"
+     ManualExposition BooleanCinematicTrack "{684371472139E660}" {
+      TrackName "ManualExposition"
+     }
+     ExpositionLV FloatCinematicTrack "{684371472139E65F}" {
+      TrackName "ExpositionLV"
+     }
+    }
+   }
+  }
+ }
+}
+SCR_ChimeraCharacter A : "{2C209611586F2D42}Prefabs/Characters/Factions/BLUFOR/US_Army/Cinema_Man.et" {
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{0CF013CB2E2F06FA}Prefabs/Weapons/M4A1/M4_SOCOM_V3.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{CF024265792FA591}TEST/Prefabs/HeadGear/SAS_Opscore/SAS_Opscore.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{DCC1369EE8E980F5}TEST/Prefabs/Uniforms/XOF_Suit/GD_XOF_Suit_Grey.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{057DB2C8C0097590}TEST/Prefabs/Vests/US_TV119/GD_TV119_Brown.et"
+    }
+    LoadoutSlotInfo Pants {
+     Enabled 0
+    }
+    LoadoutSlotInfo Vest {
+     Enabled 0
+    }
+   }
+  }
+  AnimationPlayerComponent "{6843714CDEF84189}" {
+   Animation "{75B707DEED205BAD}anims/anm/NPC/male/Body/FarAway/FAR AWAY hangar_Tony02.anm"
+   Speed 0.6
+  }
+ }
+ coords 6640.397 25.929 3913.065
+ angles 0 0 0
+}
