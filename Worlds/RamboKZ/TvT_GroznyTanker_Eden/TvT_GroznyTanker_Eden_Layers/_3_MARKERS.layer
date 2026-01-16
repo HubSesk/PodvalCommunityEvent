@@ -1,0 +1,201 @@
+$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ M_AFRF_Defense {
+  coords 10136.29 8.641 1203.027
+  angles 0 90 0
+  m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+  m_sImageSetGlow ""
+  m_sQuadName "Task_Defend"
+  m_fWorldSize 35
+  m_sDescription "Освободить"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_AFRF"
+  }
+ }
+ M_USAF_Defense {
+  coords 10133.757 8.641 1205.773
+  angles 0 90 0
+  m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+  m_sImageSetGlow ""
+  m_sQuadName "Task_Defend"
+  m_fWorldSize 35
+  m_sDescription "Удержать"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_USAF"
+  }
+ }
+ M_TANKER {
+  coords 10141.671 8.642 1199.984
+  angles 0 90 0
+  m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+  m_sImageSetGlow ""
+  m_sQuadName "Task_Defend"
+  m_fWorldSize 35
+  m_sDescription "Танкер \"GROZNY\""
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "CIV"
+   ""
+  }
+  m_bVisibleForEmptyFaction 1
+ }
+ M_AFRF_ANGAR_1 {
+  coords 7584.128 175.026 4282.967
+  angles 0 90 0
+  m_MarkerColor 1 0 0 1
+  m_sQuadName "objective-marker-2"
+  m_fWorldSize 35
+  m_sDescription "Ангар с техникой Activ"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_AFRF"
+  }
+  m_bVisibleForEmptyFaction 1
+ }
+ M_AFRF_ANGAR_2 {
+  coords 7563.95 174.623 4220.234
+  angles 0 90 0
+  m_MarkerColor 1 0 0 1
+  m_sQuadName "objective-marker-2"
+  m_fWorldSize 35
+  m_sDescription "Ангар с техникой Buran"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_AFRF"
+  }
+  m_bVisibleForEmptyFaction 1
+ }
+ info_spawn1 {
+  coords 9882.588 3.03 1529.129
+  m_MarkerColor 1 0 0 1
+  m_sQuadName "mark-question"
+  m_fWorldSize 35
+  m_sDescription "Возможный спавн Информатора"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_AFRF"
+  }
+ }
+ info_spawn2 {
+  coords 9677.705 21.158 1633.264
+  angles 0 90 0
+  m_MarkerColor 1 0 0 1
+  m_sQuadName "mark-question"
+  m_fWorldSize 35
+  m_sDescription "Возможный спавн Информатора"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_AFRF"
+  }
+ }
+ info_spawn3 {
+  coords 10106.151 2.5 1355.431
+  angles 0 90 0
+  m_MarkerColor 1 0 0 1
+  m_sQuadName "mark-question"
+  m_fWorldSize 35
+  m_sDescription "Возможный спавн Информатора"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_AFRF"
+  }
+ }
+ M_CIV_G_000_M {
+  coords 10187.413 42.576 1150.46
+  angles 0 90 0
+  m_sImageSet "{FDD5423E69D007F8}UI/Textures/Icons/icons_wrapperUI-128.imageset"
+  m_sImageSetGlow "{6980E83C053C9B5D}UI/Textures/Icons/icons_wrapperUI-128-glow.imageset"
+  m_MarkerColor 0.392 0.157 0.624 1
+  m_sQuadName "player"
+  m_fWorldSize 50
+  m_sDescription "Экипаж корабля"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_AFRF"
+   "RHS_USAF"
+   "CIV"
+   ""
+  }
+  m_bVisibleForEmptyFaction 1
+ }
+ M_USA_FLAG {
+  coords 12398.703 0 321.418
+  angles 0 90 0
+  m_sImageSet "{A73947B37A287314}UI/Textures/Flags/flag_us_ca.edds"
+  m_sImageSetGlow "{A73947B37A287314}UI/Textures/Flags/flag_us_ca.edds"
+  m_sQuadName ""
+  m_fWorldSize 600
+  m_sDescription "Армии США"
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+ }
+ M_RU_FLAG {
+  coords 6898.77 80.66 4748.658
+  angles 0 90 0
+  m_sImageSet "{72E8159766C00C3D}UI/Textures/Flags/rhs_flag_rus.edds"
+  m_sImageSetGlow "{72E8159766C00C3D}UI/Textures/Flags/rhs_flag_rus.edds"
+  m_sQuadName ""
+  m_fWorldSize 600
+  m_sDescription "ВС РФ"
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+ }
+ M_arrow_US {
+  coords 11862.903 0 438.873
+  angles 0 -68.754 0
+  m_MarkerColor 0.016 0.552 0.905 1
+  m_sQuadName "arrow-large-2"
+  m_fWorldSize 450
+  m_bVisibleForEmptyFaction 1
+ }
+ SUPPLY {
+  coords 7446.468 167.453 4304.781
+  angles 0 90 0
+  m_sImageSet "{10753564EB6CE6DA}UI/Textures/Editor/ContentBrowser/ContentBrowser_Trait_SupplyStorage_Full.edds"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.552 0.002 0 1
+  m_sQuadName "Task_Attack"
+  m_fWorldSize 40
+  m_sDescription "Ресурсы"
+  m_bUseWorldScale 0
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_bShowForAnyFaction 1
+ }
+ M_SAFE_Z {
+  coords 9687.196 21.304 1618.528
+  m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0.155 0.039 1
+  m_sQuadName "Task_Defend"
+  m_fWorldSize 32
+  m_sDescription "Зона эвакуации"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   ""
+   "CIV"
+   "RHS_AFRF"
+   "RHS_USAF"
+  }
+  m_bVisibleForEmptyFaction 1
+ }
+ M_SAFE_Z2 {
+  coords 9358.82 204.383 1156.557
+  m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0.155 0.039 1
+  m_sQuadName "Task_Defend"
+  m_fWorldSize 32
+  m_sDescription "Зона эвакуации"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   ""
+   "CIV"
+   "RHS_AFRF"
+   "RHS_USAF"
+  }
+  m_bVisibleForEmptyFaction 1
+ }
+}

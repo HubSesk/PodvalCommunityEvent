@@ -1,0 +1,97 @@
+GenericEntity : "{592E8C59C778A189}Prefabs/System/GUB_ZoneControlBetweenFactionsPrefab.et" {
+ components {
+  GUB_ZoneControlComponent "{66E34DFE0E54C4B7}" {
+   m_aControlLogics {
+    GUB_ZoneControlLogic "{66E8E19D68B2749F}" {
+     m_sZonePreviewName "База Бисовича"
+     m_iAdvanceAfterSec 11
+     m_sMessage "Армия США захватила базу Бисовича!"
+     m_Timer GUB_ZoneControlTimer "{66E8E19D7370E6F4}" {
+      timeToComplete 300
+     }
+     m_ZoneController GUB_ZoneController "{66E8E19D7357BC00}" {
+      m_sZoneEntityName "BASE_TRIG"
+     }
+     m_FlagController GUB_FlagController "{66E8E19D73825CB7}" {
+      m_aFlagNames {
+       "flag_1"
+       "flag_2"
+       "flag_3"
+       "flag_4"
+       "flag_5"
+       "flag_6"
+       "flag_7"
+       "flag_8"
+      }
+      m_fStartFactionKey "RHS_AFRF"
+      m_fEndFactionKey "RHS_USAF"
+     }
+     m_aConditions {
+      GUB_ZoneControlBetweenFactionsCondition "{66E8E19D1EBB33E5}" {
+       m_sFirstFactionKey "RHS_USAF"
+       m_sSecondFactionKey "RHS_AFRF"
+       m_fComparisonMultiplier 2
+       m_iOperator GREATER
+      }
+     }
+    }
+   }
+  }
+ }
+}
+GenericEntity : "{6A3CDCFB475BF1B2}Prefabs/System/DRG_CriticalLossPrefab.et" {
+ components {
+  DRG_CriticalLossComponent "{65213D368F1BD792}" {
+   Enabled 0
+   m_iAdvanceAfterSec 5
+   m_bUseTestingMode 0
+   m_aLossLogics {
+    LossLogic "{652AF37E6EFB5B46}" {
+     m_aLosses {
+      FactionLoss "{652AF37E6CC8FCEC}" {
+       m_iCriticalLossCount 2
+       m_sFactionKey "RHS_USAF"
+      }
+     }
+     m_sObjectiveNames {
+      "AFRF_1"
+     }
+     m_sFailedObjectiveNames {
+      "USAF_1"
+     }
+     m_bAdvanceGameStage 1
+     m_bUseMessage 1
+     m_bEventMessage "Победа атаки! Оборона понесла серьёзные потери"
+    }
+    LossLogic "{652AF37EA888F663}" {
+     m_aLosses {
+      FactionLoss "{652AF37EAC417D1C}" {
+       m_sFactionKey "RHS_AFRF"
+      }
+     }
+     m_sObjectiveNames {
+      "USAF_1"
+     }
+     m_sFailedObjectiveNames {
+      "AFRF_1"
+     }
+     m_bAdvanceGameStage 1
+     m_bUseMessage 1
+     m_bEventMessage "Победа обороны! Атака понесла серьёзные потери"
+    }
+   }
+  }
+ }
+ coords 2270.057 0 1398.222
+}
+GenericEntity : "{E6FC6DD69FA3479F}Prefabs/System/DRG_MissionEndTimerPrefab.et" {
+ components {
+  DRG_MissionEndTimerComponent "{651B0839B21B3BBF}" {
+   m_iMissionTime 3000
+   m_aTimeLeftWarningTimers {
+    300
+   }
+  }
+ }
+ coords 6848.398 138.546 2486.788
+}

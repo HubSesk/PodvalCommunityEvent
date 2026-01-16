@@ -1,0 +1,45 @@
+$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ attack {
+  coords 4035.856 278.843 9366.542
+  angles 0 90 0
+  m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.502 0 0 1
+  m_sQuadName "Task_Attack"
+  m_fWorldSize 35
+  m_sDescription "Захватить"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_USAF"
+  }
+ }
+ M_BASE {
+  coords 4035.856 278.844 9366.542
+  angles 0 90 0
+  m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.502 0 0 1
+  m_sQuadName "Task_Defend"
+  m_fWorldSize 35
+  m_sDescription "База Бисовича"
+  m_bUseWorldScale 0
+  m_bVisibleForEmptyFaction 1
+ }
+ defens {
+  coords 4035.856 278.843 9366.542
+  angles 0 90 0
+  m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.502 0 0 1
+  m_sQuadName "Task_Defend"
+  m_fWorldSize 35
+  m_sDescription "Защищать"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_AFRF"
+   ""
+  }
+  m_aHideOnGameModeStates {
+  }
+ }
+}

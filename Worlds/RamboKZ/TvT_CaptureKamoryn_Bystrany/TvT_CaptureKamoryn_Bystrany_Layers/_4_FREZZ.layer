@@ -1,0 +1,95 @@
+$grp SCR_EditorRestrictionZoneEntity : "{6144B0BE2EAC6897}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneMedium.et" {
+ AFRF_FREEZ_0 {
+  coords 3311.231 226.297 8227.289
+ }
+ AFRF_FREEZ_1 {
+  coords 3729.379 217.356 8007.576
+ }
+ AFRF_FREEZ_4 {
+  coords 3522.812 223.251 8160.808
+ }
+}
+$grp SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
+ USAF_FREZZ_0 {
+  components {
+   SCR_ZoneRestrictionAreaMeshComponent "{56D8A3C5A31496A1}" {
+    m_fHeight 15
+   }
+  }
+  coords 4946.467 327.051 6475.852
+  angles 0.894 -112.522 1.79
+  {
+   GenericEntity {
+    ID "59D673B36B893D84"
+    components {
+     SCR_CustomAreaMeshComponent "{59D673B22B1EBC57}" {
+      m_fHeight 15
+     }
+    }
+   }
+  }
+ }
+ USAF_FREZZ_1 {
+  components {
+   SCR_ZoneRestrictionAreaMeshComponent "{56D8A3C5A31496A1}" {
+    m_fHeight 15
+   }
+  }
+  coords 4876.451 280.28 9570.071
+  angles 0.894 0.028 1.79
+  {
+   GenericEntity {
+    ID "59D673B36B893D84"
+    components {
+     SCR_CustomAreaMeshComponent "{59D673B22B1EBC57}" {
+      m_fHeight 15
+     }
+    }
+   }
+  }
+ }
+ USAF_FREZZ_2 {
+  components {
+   SCR_ZoneRestrictionAreaMeshComponent "{56D8A3C5A31496A1}" {
+    m_fHeight 15
+   }
+  }
+  coords 5357.899 141.154 8154.291
+  angles 0.894 0.028 1.79
+  m_fWarnRadius 35
+  m_fZoneRadius 55
+  m_fZoneTeleportedRadius 75
+  {
+   GenericEntity {
+    ID "59D673B36B893D84"
+    components {
+     SCR_CustomAreaMeshComponent "{59D673B22B1EBC57}" {
+      m_fHeight 15
+      m_fRadius 35
+     }
+    }
+   }
+  }
+ }
+}
+$grp SCR_EditorRestrictionZoneEntity : "{EF72FA7CD87618D5}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneSmall.et" {
+ AFRF_FREEZ_3 {
+  coords 3661.951 202.062 7648.965
+ }
+ AFRF_FREEZ_2 {
+  coords 3783.938 214.754 8317.749
+  m_fWarnRadius 20
+  m_fZoneRadius 35
+  m_fZoneTeleportedRadius 45
+  {
+   GenericEntity {
+    ID "59D673B36B893D84"
+    components {
+     SCR_CustomAreaMeshComponent "{59D673B22B1EBC57}" {
+      m_fRadius 20
+     }
+    }
+   }
+  }
+ }
+}
