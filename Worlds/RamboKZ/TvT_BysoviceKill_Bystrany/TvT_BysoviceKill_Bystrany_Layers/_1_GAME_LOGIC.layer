@@ -2,32 +2,30 @@ GenericEntity : "{592E8C59C778A189}Prefabs/System/GUB_ZoneControlBetweenFactions
  components {
   GUB_ZoneControlComponent "{66E34DFE0E54C4B7}" {
    m_aControlLogics {
-    GUB_ZoneControlLogic "{66E8E19D68B2749F}" {
-     m_sZonePreviewName "База Бисовича"
-     m_iAdvanceAfterSec 11
-     m_sMessage "Армия США захватила базу Бисовича!"
-     m_Timer GUB_ZoneControlTimer "{66E8E19D7370E6F4}" {
+    GUB_ZoneControlLogic "{6864AEE2C4769D8E}" {
+     m_sZonePreviewName "База Генерала Бисовича"
+     m_sMessage "Армия США захватила базу Генерала Бисовича"
+     m_Timer GUB_ZoneControlTimer "{6864AEE53D6DFE4D}" {
       timeToComplete 300
      }
-     m_ZoneController GUB_ZoneController "{66E8E19D7357BC00}" {
+     m_ZoneController GUB_ZoneController "{6864AEE53F5936B3}" {
       m_sZoneEntityName "BASE_TRIG"
      }
-     m_FlagController GUB_FlagController "{66E8E19D73825CB7}" {
+     m_FlagController GUB_FlagController "{6864AEE5257D2941}" {
       m_aFlagNames {
-       "flag_1"
-       "flag_2"
-       "flag_3"
-       "flag_4"
-       "flag_5"
-       "flag_6"
-       "flag_7"
-       "flag_8"
+       "FLAG_1"
+       "FLAG_2"
+       "FLAG_3"
+       "FLAG_4"
+       "FLAG_5"
+       "FLAG_6"
+       "FLAG_7"
       }
       m_fStartFactionKey "RHS_AFRF"
       m_fEndFactionKey "RHS_USAF"
      }
      m_aConditions {
-      GUB_ZoneControlBetweenFactionsCondition "{66E8E19D1EBB33E5}" {
+      GUB_ZoneControlBetweenFactionsCondition "{6864AEE52C6A9CE2}" {
        m_sFirstFactionKey "RHS_USAF"
        m_sSecondFactionKey "RHS_AFRF"
        m_fComparisonMultiplier 3
@@ -38,6 +36,7 @@ GenericEntity : "{592E8C59C778A189}Prefabs/System/GUB_ZoneControlBetweenFactions
    }
   }
  }
+ coords 3999.977 281.656 9234.268
 }
 GenericEntity : "{E6FC6DD69FA3479F}Prefabs/System/DRG_MissionEndTimerPrefab.et" {
  components {
