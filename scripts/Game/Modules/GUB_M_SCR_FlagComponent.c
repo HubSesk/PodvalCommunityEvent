@@ -62,4 +62,9 @@ modded class SCR_FlagComponent
     {
         ChangeFlagRaiseLevel(m_fFlagRaiseLevel);
     }
+
+    ResourceName GetCurrentMaterial()
+    {
+        return m_sCurrentMaterial;
+    }
 }
