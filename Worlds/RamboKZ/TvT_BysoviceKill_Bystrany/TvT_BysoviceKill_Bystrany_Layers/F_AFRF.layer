@@ -9,11 +9,15 @@ SCR_AIGroup AFRF_000 : "{0FC09C311C951395}Prefabs/Groups/OPFOR/drg_AFRF_PlatoonH
  m_aUnitPrefabSlots {
   "{AD235FD968EF9F09}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_CL.et"
   "{4DFC393FBCBFB6BA}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_SR_opt.et"
-  "{33FA1C11138E145A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_GL.et"
   "{D9234F6644B47143}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_Medic.et"
   "{6D10A06D248FCD0B}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_Sniper.et"
  }
  m_sCustomNameSet "Отряд Генерала Бисовича"
+}
+Vehicle AFRF_200_TIGR : "{6F4D5B56F4905A62}Prefabs/Vehicles/Wheeled/TIGR/Unarmed/GAZ_TIGR_v2_Unarmed_Green.et" {
+ coords 3868.824 280.037 9287.906
+ angles 0 32.466 0
+ m_sAttachmentGroupName "200"
 }
 SCR_AIGroup AFRF_210 : "{9520E7AB1B4FED25}Prefabs/Groups/OPFOR/drg_Group_RHS_AFRF_Sabotage_Showcase.et" {
  components {
@@ -56,11 +60,6 @@ $grp Turret : "{CB76594700021AD3}Prefabs/Weapons/Tripods/6T7/Deployable_Tripod_6
   coords 3899.486 281.625 9369.699
   angles 0 28.829 0
  }
-}
-Vehicle AFRF_200_TIGR : "{ED23D3FD79C7DECF}Prefabs/Vehicles/Wheeled/TIGR/GAZ_TIGR_v2_Base.et" {
- coords 3868.229 280.106 9287.398
- angles 0 34.153 0
- m_sAttachmentGroupName "AFRF_200"
 }
 SCR_AIGroup AFRF_200 : "{F06FB64E53D6E4AE}Prefabs/Groups/OPFOR/drg_RHS_Recon_Squad.et" {
  components {
@@ -157,7 +156,6 @@ $grp SCR_AIGroup : "{FB6E7CB4014BE2C8}Prefabs/Groups/OPFOR/drg_RHS_Army_RifleSqu
    "{33FA1C11138E145A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_GL.et"
    "{6C38BC2A8A766993}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_MG.et"
    "{FAC6AB61E4CA97F5}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_MGAB.et"
-   "{AB7ACE98B91B5A85}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_Flamethrower.et"
    "{6D10A06D248FCD0B}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_Sniper.et"
   }
   m_sCustomNameSet "Стрелковое отделение"
@@ -178,7 +176,6 @@ $grp SCR_AIGroup : "{FB6E7CB4014BE2C8}Prefabs/Groups/OPFOR/drg_RHS_Army_RifleSqu
    "{33FA1C11138E145A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_GL.et"
    "{6C38BC2A8A766993}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_MG.et"
    "{FAC6AB61E4CA97F5}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_MGAB.et"
-   "{AB7ACE98B91B5A85}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_Flamethrower.et"
    "{6D10A06D248FCD0B}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_Sniper.et"
   }
   m_sCustomNameSet "Стрелковое отделение"

@@ -1,3 +1,15 @@
+$grp Vehicle : "{03708F7E58BB7A53}Prefabs/Vehicles/Wheeled/M998/M1151_armed_M2HB.et" {
+ USAF_010_V {
+  coords 6675.06 96.73 2095.96
+  angles 2.923 -139.183 -3.379
+  m_sAttachmentGroupName "USAF_010"
+ }
+ USAF_011_V {
+  coords 6808.339 129.984 2391.654
+  angles 2.849 115.384 2.34
+  m_sAttachmentGroupName "USAF_011"
+ }
+}
 $grp Vehicle : "{26013123314183EA}Prefabs/Vehicles/Wheeled/M923A1/M923A1_tanker_MERDC.et" {
  Tanker_1 {
   coords 6850.733 138.546 2477.227
@@ -11,11 +23,6 @@ $grp Vehicle : "{26013123314183EA}Prefabs/Vehicles/Wheeled/M923A1/M923A1_tanker_
   coords 6846.743 138.546 2449.132
   angles 0 -88.017 0
  }
-}
-Vehicle USAF_201_V : "{27E2E58E734A80EC}Prefabs/Vehicles/Wheeled/M998/M1025_MERDC.et" {
- coords 6733.782 122.64 2453.596
- angles 2 153.128 -0.103
- m_sAttachmentGroupName "USAF_201"
 }
 $grp SCR_AIGroup : "{2FBB6A87C9E9FC4D}Prefabs/Groups/BLUFOR/drg_USAF_WeaponSquad.et" {
  USAF_100 {
@@ -45,8 +52,8 @@ $grp SCR_AIGroup : "{2FBB6A87C9E9FC4D}Prefabs/Groups/BLUFOR/drg_USAF_WeaponSquad
     m_iSquadCallsign 1
    }
   }
-  coords 6678.714 97.721 2080.332
-  angles 0 -133.712 0
+  coords 6673.365 98.351 2072.185
+  angles 0 -43.209 0
   m_aUnitPrefabSlots {
    "{600E890491C62306}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_SL.et"
    "{67C97355F74099C5}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_TL.et"
@@ -60,6 +67,18 @@ $grp SCR_AIGroup : "{2FBB6A87C9E9FC4D}Prefabs/Groups/BLUFOR/drg_USAF_WeaponSquad
   m_sCustomNameSet "Стрелковое отделение LAV25"
  }
 }
+$grp Vehicle : "{3277F8B1FA06A2BC}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_USAF.et" {
+ USAF_200_V {
+  coords 6664.508 97.766 2085.018
+  angles 0.032 -134.222 -0.01
+  m_sAttachmentGroupName "USAF_200"
+ }
+ USAF_201_V2 {
+  coords 6736.156 122.97 2448.543
+  angles 0.002 156.471 -0.033
+  m_sAttachmentGroupName "USAF_201"
+ }
+}
 $grp Vehicle : "{3312ADBF53A16DD8}Prefabs/Vehicles/Wheeled/LAV25/LAV25_RHS.et" {
  USAF_100_V {
   coords 6714.203 122.259 2496.08
@@ -67,10 +86,25 @@ $grp Vehicle : "{3312ADBF53A16DD8}Prefabs/Vehicles/Wheeled/LAV25/LAV25_RHS.et" {
   m_sAttachmentGroupName "USAF_100"
  }
  USAF_101_V {
-  coords 6672.903 98.392 2076.192
+  coords 6671.45 98.354 2077.493
   angles 0 -131.697 0
   m_sAttachmentGroupName "USAF_101"
  }
+}
+SCR_AIGroup USAF_300 : "{48D92BDCD96CA374}Prefabs/Groups/BLUFOR/drg_USMC_SMAW_Team.et" {
+ components {
+  PS_GroupCallsignAssigner "{65667ADDE5CABF28}" {
+   m_iCompanyCallsign 3
+  }
+ }
+ coords 6812.716 131.671 2403.989
+ angles 0 -145.816 0
+ m_aUnitPrefabSlots {
+  "{604FADEAA6112C7A}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_SMAW_Gunner.et"
+  "{69A9873AE3BF8B1D}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_SMAW_AmmoBearer.et"
+  "{69A9873AE3BF8B1D}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_SMAW_AmmoBearer.et"
+ }
+ m_sCustomNameSet "Противотанковая группа"
 }
 $grp SCR_AIGroup : "{CB79DA5FE5AC31AB}Prefabs/Groups/BLUFOR/drg_USAF_RifleSquad.et" {
  USAF_010 {
@@ -79,8 +113,8 @@ $grp SCR_AIGroup : "{CB79DA5FE5AC31AB}Prefabs/Groups/BLUFOR/drg_USAF_RifleSquad.
     m_iPlatoonCallsign 1
    }
   }
-  coords 6664.081 98.035 2066.207
-  angles 0 56.039 0
+  coords 6676.224 97.211 2104.538
+  angles -2.37 127.584 -3.001
   m_sCustomNameSet "Стрелковое отделение"
  }
  USAF_011 {
@@ -90,32 +124,39 @@ $grp SCR_AIGroup : "{CB79DA5FE5AC31AB}Prefabs/Groups/BLUFOR/drg_USAF_RifleSquad.
     m_iSquadCallsign 1
    }
   }
-  coords 6800.207 129.716 2390.681
+  coords 6799.325 129.607 2392.001
   angles 0 24.084 0
   m_sCustomNameSet "Стрелковое отделение"
  }
 }
+$grp Vehicle : "{CC55611936C21F25}Prefabs/Vehicles/Wheeled/M998/M1025_USAF.et" {
+ USAF_201_V {
+  coords 6733.782 122.64 2453.596
+  angles 2 153.128 -0.103
+  m_sAttachmentGroupName "USAF_201"
+ }
+ USAF_010_V2 {
+  coords 6679.3 96.737 2100.501
+  angles -2.063 -138.029 -3.056
+  m_sAttachmentGroupName "USAF_010"
+ }
+ USAF_011_V2 {
+  coords 6801.619 129.81 2394.421
+  angles 7.23 109.276 6.26
+  m_sAttachmentGroupName "USAF_011"
+ }
+}
 SCR_AIGroup USAF_000 : "{D9B32FE6DF696BE5}Prefabs/Groups/BLUFOR/drg_USAF_PlatoonHQ.et" {
- coords 6671.457 95.797 2056.587
- angles 0 49.99 0
+ coords 6655.674 98.079 2072.028
+ angles 0 51.169 0
  m_aUnitPrefabSlots {
   "{F910309D8C211296}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_PL.et"
   "{893533817C25A8B0}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_Medic.et"
+  "{0D86781BA3428115}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_AR.et"
+  "{0053063A54F5E83F}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_GL.et"
   "{26AD8B80E8C02793}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_Marksman.et"
  }
  m_sCustomNameSet "Командирский отряд"
-}
-$grp Vehicle : "{DD774A8FD0989A78}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_MERDC.et" {
- USAF_200_V {
-  coords 6666.784 97.782 2085.891
-  angles 0.032 -134.222 -0.01
-  m_sAttachmentGroupName "USAF_200"
- }
- USAF_201_V2 {
-  coords 6736.156 122.97 2448.543
-  angles 0.002 156.471 -0.033
-  m_sAttachmentGroupName "USAF_201"
- }
 }
 $grp SCR_AIGroup : "{FE3EB0683DD1C6DD}Prefabs/Groups/BLUFOR/drg_Group_RHS_SOCOM_Team.et" {
  USAF_201 {
@@ -145,7 +186,7 @@ $grp SCR_AIGroup : "{FE3EB0683DD1C6DD}Prefabs/Groups/BLUFOR/drg_Group_RHS_SOCOM_
     m_iCompanyCallsign 2
    }
   }
-  coords 6665.746 97.494 2090.556
+  coords 6663.991 97.458 2089.167
   angles 0 139.622 0
   m_aUnitPrefabSlots {
    "{CEDCC068342815AB}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Recon/drg_Role_RHS_USAF_Recon_SL.et"

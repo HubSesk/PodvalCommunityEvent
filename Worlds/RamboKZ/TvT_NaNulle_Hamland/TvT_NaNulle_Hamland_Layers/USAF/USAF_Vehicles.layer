@@ -1,3 +1,13 @@
+$grp Vehicle : "{21E9A875C0A3C409}Prefabs/Vehicles/Helicopters/UH1H/UH1H_armed_gunship_HE.et" {
+ UH1H_armed_gunship_HE1 {
+  coords 3077.455 24.943 927.712
+  m_sAttachmentGroupName "USAF_200"
+ }
+ UH1H_armed_gunship_HE2 {
+  coords 3047.922 24.907 929.416
+  m_sAttachmentGroupName "USAF_300"
+ }
+}
 $grp Vehicle : "{3277F8B1FA06A2BC}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_USAF.et" {
  M1025_armed_M2HB_USAF1 {
   coords 3380.225 1.052 1258.91
@@ -29,16 +39,16 @@ $grp Vehicle : "{3312ADBF53A16DD8}Prefabs/Vehicles/Wheeled/LAV25/LAV25_RHS.et" {
  LAV25_RHS2 {
   coords 4453.822 1.406 2759.487
   angles 0 4.818 0
-  m_sAttachmentGroupName "USAF_112"
+  m_sAttachmentGroupName "USAF_111"
  }
 }
-$grp Vehicle : "{5B6AA3811528D181}Prefabs/Vehicles/Helicopters/UH1H/UH1H_Podval.et" {
- UH1H_Podval1 {
+$grp Vehicle : "{70BAEEFC2D3FEE64}Prefabs/Vehicles/Helicopters/UH1H/UH1H.et" {
+ UH1H1 {
   coords 3044.224 24.907 896.995
   angles 0 0.277 0
   m_sAttachmentGroupName "USAF_200"
  }
- UH1H_Podval2 {
+ UH1H2 {
   coords 3076.23 24.907 895.29
   angles 0 0.277 0
   m_sAttachmentGroupName "USAF_300"
@@ -66,25 +76,8 @@ $grp Vehicle : "{CC55611936C21F25}Prefabs/Vehicles/Wheeled/M998/M1025_USAF.et" {
   m_sAttachmentGroupName "USAF_110"
  }
 }
-$grp Vehicle : "{DC1D0B120AD95958}Prefabs/Vehicles/Helicopters/UH1H/UH1H_armed_gunship_HEDP_Podval.et" {
- UH1H_armed_gunship_HEDP_Podval1 {
-  coords 3077.455 24.943 927.712
-  m_sAttachmentGroupName "USAF_200"
- }
- UH1H_armed_gunship_HEDP_Podval2 {
-  coords 3047.922 24.907 929.416
-  m_sAttachmentGroupName "USAF_300"
- }
-}
-$grp Vehicle : "{FA6820A9A52CD05B}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_MDO_USAF.et" {
- M1025_armed_M2HB_MDO_USAF1 {
-  coords 3386.75 1.282 1276.697
-  angles 0 15.884 0
-  m_sAttachmentGroupName "USAF_000"
- }
- M1025_armed_M2HB_MDO_USAF2 {
-  coords 4461.559 2.68 2835.622
-  angles 0 20.678 0
-  m_sAttachmentGroupName "USAF_000"
- }
+Vehicle M1025_armed_M2HB_MDO_USAF1 : "{FA6820A9A52CD05B}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_MDO_USAF.et" {
+ coords 3386.75 1.282 1276.697
+ angles 0 15.884 0
+ m_sAttachmentGroupName "USAF_000"
 }

@@ -14,8 +14,8 @@ $grp SCR_DestructibleBuildingEntity : "{008ECFE8693C0A1D}Prefabs/Structures/Infr
      coords 0.268 4.229 -23.542
     }
     {
-     coords 0.22 5.908 -30.163
-     angles -7.494 0 0
+     coords 0.221 5.615 -30.179
+     angles -2.892 0 0
     }
    }
    $grp GenericEntity : "{1112756E8A13445B}Prefabs/Props/Industrial/Pallets/Pallet_01_Pile.et" {
@@ -276,7 +276,7 @@ SCR_DestructibleBuildingEntity PirsBeton : "{80763D9EE6A80EF3}Prefabs/Structures
  angles 0 127.09 0
 }
 StaticModelEntity : "{80DF3BD810D032AF}Prefabs/Structures/Industrial/Towers/LightTower_01/LightTower_01.et" {
- coords 10068.964 2.529 1368.763
+ coords 10074.694 2.527 1375.807
  angles 0 -11.057 0
  {
   GameEntity {
@@ -302,9 +302,51 @@ StaticModelEntity : "{80DF3BD810D032AF}Prefabs/Structures/Industrial/Towers/Ligh
  }
 }
 StaticModelEntity GroznyTanker : "{BB8E552971C9FB22}Prefabs/Structures/Models/tem_boat2.et" {
- coords 10116.959 -6.604 1224.006
+ coords 10116.959 -6.915 1224.006
  angles 0 -133.32 0
  {
+  GameEntity {
+   ID "5D08F48E84B10BD6"
+   coords -174.937 15.853 -24.441
+  }
+  GameEntity {
+   ID "5D08F48E84B11B00"
+   coords 9.291 15.786 -34.073
+  }
+  GameEntity {
+   ID "5D08F48E84B11B01"
+   coords -93.458 15.762 -33.252
+  }
+  GameEntity {
+   ID "5D08F48E84B14D18"
+   coords 136.92 15.86 -22.343
+  }
+  GameEntity {
+   ID "5D08F48E84B1B10C"
+   coords -80.749 15.786 33.797
+  }
+  GameEntity {
+   ID "5D08F48E84B1B10F"
+   coords 81.729 15.77 29.871
+  }
+  GameEntity {
+   ID "5D08F48E84B1FFB1"
+   coords -171.602 15.773 25.004
+  }
+  GameEntity {
+   ID "5D08F48E84B60816"
+   coords -2.064 15.766 34.246
+  }
+  $grp GenericEntity : "{35E211705F8FED68}Prefabs/Props/Industrial/CargoContainers/CargoContainer_01/CargoContainer_01_40ft_blue.et" {
+   {
+    coords 93.432 15.245 17.975
+    angles 0 -115.59 0
+   }
+   {
+    coords 111.145 15.245 -20.53
+    angles 0 -111.088 0
+   }
+  }
   $grp GenericEntity : "{8F08705D73A7C711}Prefabs/Props/Industrial/CargoContainers/CargoContainer_01/CargoContainer_01_20ft_red.et" {
    {
     coords 31.662 17.698 12.293
@@ -314,6 +356,24 @@ StaticModelEntity GroznyTanker : "{BB8E552971C9FB22}Prefabs/Structures/Models/te
     coords 28.283 17.698 12.359
     angles 0 175.809 0
    }
+  }
+  $grp GenericEntity : "{A52C57FE8549A13E}Prefabs/Props/Industrial/CargoContainers/CargoContainer_01/CargoContainer_01_10ft_red.et" {
+   {
+    coords -57.006 15.245 13.935
+    angles 0 90.859 0
+   }
+   {
+    coords 36.958 15.245 22.474
+    angles 0 90.859 0
+   }
+   {
+    coords -41.365 15.246 -19.45
+    angles 0 90.859 0
+   }
+  }
+  GameEntity : "{D90FAA2CC6FDB2D4}Prefabs/Structures/BuildingParts/Ladders/Ladder_ControlTower_E_01_Long.et" {
+   coords 137.859 15.769 22.085
+   angles -0.876 8.708 -1.075
   }
  }
 }
