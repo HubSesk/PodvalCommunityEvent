@@ -1,0 +1,43 @@
+GameEntity : "{E881810B2CE6E4AD}Prefabs/Characters/HeadGear/Helmet_OPSCORE/Helmet_OPSCORE_MT_MC.et" {
+ ID "50D485E1435D6C72"
+ components {
+  RHS_HelmetNodeStorageComponent "{5DB13C5777E6E695}" {
+   Attributes SCR_ItemAttributeCollection "{5DB13C5760610D64}" {
+    ItemDisplayName UIInfo "{5DB13C575E2AFE37}" {
+     Name "#RHS-Headgear_OPSCORE_MT_Name (#RHS-Headgear_AMP_Name_Short) - #RHS-Camo_MULTICAM"
+    }
+    CustomAttributes {
+     RHS_CustomAttributes "{5DB8F5B9ACB547EA}" {
+      m_sShortName "#RHS-Headgear_OPSCORE_MT_Name "
+     }
+    }
+   }
+  }
+  SCR_HeadgearInventoryItemComponent "{5244E4431E28A759}" {
+   Attributes SCR_ItemAttributeCollection "{5244E4431DA56D64}" {
+    ItemDisplayName UIInfo "{5DB13C575E2AFE37}" {
+     Name "#RHS-Headgear_OPSCORE_MT_Name (#RHS-Headgear_AMP_Name_Short) - #RHS-Camo_MULTICAM"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo Headset {
+     Enabled 0
+    }
+    LoadoutSlotInfo Beanie {
+     Prefab "{E1D9514DF31230C9}Prefabs/Characters/HeadGear/All_Beanie/GD_Beanie_Black.et"
+    }
+   }
+   WornModel "{9E19658F4CF7A391}Assets/Characters/HeadGear/Helmet_OPSCORE/opscore_MT_AMP.xob"
+   WornMaterialsOverride {
+    "" "" "{C1B502504433A2BC}Assets/Characters/HeadGear/Helmet_OPSCORE/Data/MATERIAL_MT_MC.emat"
+   }
+   ItemModel "{A9627051D0DD112E}Assets/Characters/HeadGear/Helmet_OPSCORE/opscore_MT_AMP_ground.xob"
+   ItemMaterialsOverride {
+    "" "" "{C1B502504433A2BC}Assets/Characters/HeadGear/Helmet_OPSCORE/Data/MATERIAL_MT_MC.emat"
+   }
+  }
+ }
+ coords 2297.742 75.781 886.526
+}

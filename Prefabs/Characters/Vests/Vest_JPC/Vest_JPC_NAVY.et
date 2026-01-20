@@ -1,0 +1,31 @@
+GenericEntity : "{AF355DA3D9927C36}Prefabs/Characters/Vests/Vest_JPC/Vest_JPC_base.et" {
+ ID "50D8C49B3558F152"
+ components {
+  RHS_ClothNodeStorageComponent "{5E8ECC6318C07954}" {
+   Attributes SCR_ItemAttributeCollection "{5E8ECC63152ECC55}" {
+    ItemDisplayName UIInfo "{5E8ECC6310D5F5D3}" {
+     Name "#RHS-Vest_JPC_Name - #RHS-Color_RG"
+    }
+   }
+  }
+  SCR_ItemOutfitFactionComponent "{64D170D31B27039B}" {
+   m_OutfitDataHolder SCR_OutfitFactionDataHolder "{64D170D31ACC5389}" {
+    m_aOutfitFactionData {
+     SCR_OutfitFactionData "{64D170D315AEE057}" {
+      m_AffiliatedFactionKey "RHS_ION"
+     }
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   WornMaterialsOverride {
+    "{4D11975054D35F62}Assets/Characters/Vests/Vest_JPC/data/JPC_NAVY.emat"
+   }
+   ItemMaterialsOverride {
+    "{4D11975054D35F62}Assets/Characters/Vests/Vest_JPC/data/JPC_NAVY.emat"
+   }
+  }
+ }
+ coords 418.263 4.653 352.294
+ angles 0 0 0
+}
