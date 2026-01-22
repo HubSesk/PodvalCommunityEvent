@@ -2,13 +2,13 @@ modded class PS_FlagChangeAction
 {
     protected const float tick_sec = 1 / 30;
     protected float duration;
-    protected float now_level;
-    protected float add_level;
     protected SCR_FlagComponent fc;
     protected string start_faction_key;
     protected ResourceName start_material;
     protected SCR_Faction finish_faction;
     protected bool is_finish_flag;
+	
+	protected float start_time;
 
     override void OnActionStart(IEntity pUserEntity)
     {
@@ -16,8 +16,8 @@ modded class PS_FlagChangeAction
 			return;
 		
         duration = GetActionDuration();
-        now_level = 0;
         is_finish_flag = false;
+		start_time = GetGame().GetWorld().GetWorldTime();
         
         // Получаем SCR_FlagComponent
         IEntity entity = GetOwner();
@@ -44,7 +44,6 @@ modded class PS_FlagChangeAction
         return;
         finish_faction = SCR_Faction.Cast(factionAffiliationComponent.GetDefaultAffiliatedFaction());
         
-        add_level = tick_sec / duration;
         int tick_ms = 1000 * tick_sec;
         GetGame().GetCallqueue().CallLater(TickEvaluate, tick_ms, true);
     }
@@ -63,14 +62,16 @@ modded class PS_FlagChangeAction
 
     void TickEvaluate()
     {
-        now_level += add_level;
-        fc.ChangeFlagRaiseLevel((Math.AbsFloat(now_level - 0.5) * 2 - 1) * 0.85);
-        if (!is_finish_flag && now_level > 0.5)
+		float thisTime = GetGame().GetWorld().GetWorldTime();
+		float nowLevel = (thisTime - start_time) / duration / 1000;
+		
+        fc.ChangeFlagRaiseLevel((Math.AbsFloat(nowLevel - 0.5) * 2 - 1) * 0.85);
+        if (!is_finish_flag && nowLevel > 0.5)
         {
             m_FlagComponent.ChangeMaterial(finish_faction.GetFactionFlagMaterial());
             is_finish_flag = true;
         }
-        if (now_level >= 1)
+        if (nowLevel >= 1)
         {
             GetGame().GetCallqueue().Remove(TickEvaluate);
             fc.ChangeFlagRaiseLevel(0);
