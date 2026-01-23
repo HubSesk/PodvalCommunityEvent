@@ -1,4 +1,13 @@
 GenericEntity FLAG_ELECTRO : "{0DA9CD88C30EA2B2}PrefabsEditable/Auto/Structures/Military/Flags/E_FlagPole_02_V1_ION.et" {
+ components {
+  BaseActionsManagerComponent "{6202D4E6F133BF4A}" {
+   additionalActions {
+    PS_FlagChangeAction "{6202D4E6A53D4B3C}" {
+     Duration 15
+    }
+   }
+  }
+ }
  coords 5821.912 20.415 9786.703
 }
 PS_ManualMarker FLAG_MARKER : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {

@@ -9,7 +9,7 @@ $grp GenericEntity : "{F5EF4223ACA6169C}PrefabsEditable/Auto/Structures/Military
     }
     additionalActions {
      PS_FlagChangeAction "{6202D4E6A53D4B3C}" {
-      Duration 0.3
+      Duration 10
      }
     }
    }
@@ -18,6 +18,15 @@ $grp GenericEntity : "{F5EF4223ACA6169C}PrefabsEditable/Auto/Structures/Military
   angles 31.705 -45.463 -8.314
  }
  FLAG_2 {
+  components {
+   BaseActionsManagerComponent "{6202D4E6F133BF4A}" {
+    additionalActions {
+     PS_FlagChangeAction "{6202D4E6A53D4B3C}" {
+      Duration 10
+     }
+    }
+   }
+  }
   coords 3736.996 219.556 8007.036
   angles 34.509 113.402 -3.183
  }
