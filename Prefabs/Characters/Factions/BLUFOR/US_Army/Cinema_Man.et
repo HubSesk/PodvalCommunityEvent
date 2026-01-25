@@ -4,6 +4,23 @@ SCR_ChimeraCharacter : "{284E735C6C70DAD2}Prefabs/Characters/Factions/BLUFOR/US_
   CharacterSoundComponent "{520EA1D2F659CF84}" {
    Enabled 0
   }
+  SCR_CharacterSoundComponent "{6843714CC5712543}" {
+   Filenames {
+    "{FCDAE28BDF1171B1}Sounds/Character/Tutorial/Character_Tutorial_Movement_Foley.acp"
+   }
+   m_aBoneSpeedSignalData {
+    SCR_BoneSpeedSignalData "{6843714CC73E0FC5}" {
+    }
+    SCR_BoneSpeedSignalData "{6843714CC71D4D1C}" {
+    }
+    SCR_BoneSpeedSignalData "{6843714CC77C8D8F}" {
+    }
+    SCR_BoneSpeedSignalData "{6843714CC6A52982}" {
+    }
+    SCR_BoneSpeedSignalData "{6843714CC69B1341}" {
+    }
+   }
+  }
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "#AR-Role_Officer"
@@ -58,25 +75,11 @@ SCR_ChimeraCharacter : "{284E735C6C70DAD2}Prefabs/Characters/Factions/BLUFOR/US_
     }
    }
   }
-  SCR_CharacterSoundComponent "{6843714CC5712543}" {
-   Filenames {
-    "{FCDAE28BDF1171B1}Sounds/Character/Tutorial/Character_Tutorial_Movement_Foley.acp"
-   }
-   m_aBoneSpeedSignalData {
-    SCR_BoneSpeedSignalData "{6843714CC73E0FC5}" {
-    }
-    SCR_BoneSpeedSignalData "{6843714CC71D4D1C}" {
-    }
-    SCR_BoneSpeedSignalData "{6843714CC77C8D8F}" {
-    }
-    SCR_BoneSpeedSignalData "{6843714CC6A52982}" {
-    }
-    SCR_BoneSpeedSignalData "{6843714CC69B1341}" {
-    }
-   }
-  }
   AnimationPlayerComponent "{6843714CDEF84189}" {
    Animation "{F9114885F32B4663}anims/anm/NPC/male/Body/FarAway/FAR AWAY hangar_Tony.anm"
+   Speed 1.05
+   Loop 1
+   AutoPlay 1
   }
  }
  coords 116.615 1 138.857
