@@ -68,18 +68,6 @@ SCR_AIGroup USAF_400 : "{24276B3CF52F7C69}Prefabs/Groups/BLUFOR/Kara_Group_RHS_S
  }
  m_sCustomNameSet "СПН"
 }
-$grp Vehicle : "{3277F8B1FA06A2BC}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_USAF.et" {
- USAF_111_HMM2 {
-  coords 4767.138 236.911 10820.797
-  angles 0 -152.636 0
-  m_sAttachmentGroupName "USAF_111"
- }
- USAF_112_HMM2 {
-  coords 4774.568 236.363 10835.503
-  angles 0 -154.1 0
-  m_sAttachmentGroupName "USAF_112"
- }
-}
 $grp Vehicle : "{3312ADBF53A16DD8}Prefabs/Vehicles/Wheeled/LAV25/LAV25_RHS.et" {
  USAF_110_LAV {
   coords 4791.408 236.562 10870.688
@@ -244,6 +232,18 @@ $grp Vehicle : "{CC55611936C21F25}Prefabs/Vehicles/Wheeled/M998/M1025_USAF.et" {
   coords 5866.772 133.608 8256.35
   angles 3.576 -88.987 0.063
   m_sAttachmentGroupName "USAF_400"
+ }
+}
+$grp Vehicle : "{D574C943C9F8C9DF}Prefabs/Vehicles/Wheeled/M998/M1151_armed_M2HB_AP.et" {
+ USAF_111_HMM2 {
+  coords 4767.138 236.911 10820.797
+  angles 0 -152.636 0
+  m_sAttachmentGroupName "USAF_111"
+ }
+ USAF_112_HMM2 {
+  coords 4774.568 236.363 10835.503
+  angles 0 -154.1 0
+  m_sAttachmentGroupName "USAF_112"
  }
 }
 $grp SCR_AIGroup : "{D9B32FE6DF696BE5}Prefabs/Groups/BLUFOR/drg_USAF_PlatoonHQ.et" {
