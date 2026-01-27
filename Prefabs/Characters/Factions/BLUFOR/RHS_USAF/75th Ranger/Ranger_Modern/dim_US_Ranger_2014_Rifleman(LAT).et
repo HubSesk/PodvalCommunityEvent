@@ -1,0 +1,54 @@
+SCR_ChimeraCharacter : "{9646AE590958924A}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/75th Ranger/Ranger_Modern/dim_US_Ranger_2014_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{FE7D348EAF6A503F}Prefabs/Weapons/M4A1/M4_Ranger_2.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   AttachType InventoryStorageSlot "{0C3DA650B52E127A}" {
+    Offset 0.1236 -0.1852 0.056
+    Angles 67.81 -168.6256 10.4583
+   }
+   WeaponTemplate "{9C5C20FB0E01E64F}Prefabs/Weapons/Launchers/M72/Launcher_M72A3.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Boots {
+     Prefab "{934C7275AC865817}Prefabs/Characters/Footwear/Boots_BCT/Footwear_BCT.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{941BC55B914C3898}Prefabs/Characters/Vests/RangerKits/Ranger_AVS_New_4.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{687509E778E1D2A1}" {
+     TargetStorage "Vest/Ranger_AVS_New_4.et/grenade2/Pouch_GP106_RGD_Pouch_2_MC.et"
+    }
+    ItemsInitConfigurationItem "{687509E79577FF26}" {
+     TargetStorage "Vest/Ranger_AVS_New_4.et/grenade/Pouch_GP106_RGD_Pouch_2_MC.et"
+    }
+    ItemsInitConfigurationItem "{687509E791E51098}" {
+     TargetStorage "Vest/Ranger_AVS_New_4.et/up104/Pouch_UP105_utilbig_MC.et"
+    }
+    ItemsInitConfigurationItem "{687509E7AC1EB16A}" {
+     TargetStorage "Vest/Ranger_AVS_New_4.et/triple/Pouch_MP.et"
+    }
+    ItemsInitConfigurationItem "{687509E7B1EE0553}" {
+     TargetStorage "Vest/Ranger_AVS_New_4.et/Mag/Pouch_wartech_magpouch_mp103_MC.et"
+    }
+    ItemsInitConfigurationItem "{687509E7C380D63E}" {
+     TargetStorage "Vest/Ranger_AVS_New_4.et/pistol/Pouch_Shaw_Flex_MC.et"
+    }
+    ItemsInitConfigurationItem "{687509E7D89A1479}" {
+     TargetStorage "Vest/Ranger_AVS_New_4.et/holster2/GD_Holster_SLS.et"
+    }
+    ItemsInitConfigurationItem "{687509E7EE5D7311}" {
+     TargetStorage "Vest/Ranger_AVS_New_4.et/holster/Pouch_MP118_PistolTako2_MC.et"
+    }
+   }
+  }
+ }
+ coords 83.213 1 231.615
+}

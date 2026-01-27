@@ -1,0 +1,23 @@
+SCR_ChimeraCharacter : "{C4FD530A81D85F5D}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/75th Ranger/Ranger_Modern/dim_US_Ranger_2014_Marksman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Back {
+     Prefab "{F711EA887715B39E}Prefabs/Items/Equipment/Backpacks/Spiritus_System_DeltaBag/GD_DeltaBag_MC.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{687509FBD9BFBDC6}" {
+     TargetStorage "Back/GD_DeltaBag_MC.et"
+     PrefabsToSpawn {
+      "{23C815180F127C5F}Prefabs/Weapons/Magazines/FN_SCAR_H/Magazine_762x51_SCAR_H_20rnd_m80.et" "{23C815180F127C5F}Prefabs/Weapons/Magazines/FN_SCAR_H/Magazine_762x51_SCAR_H_20rnd_m80.et" "{23C815180F127C5F}Prefabs/Weapons/Magazines/FN_SCAR_H/Magazine_762x51_SCAR_H_20rnd_m80.et" "{23C815180F127C5F}Prefabs/Weapons/Magazines/FN_SCAR_H/Magazine_762x51_SCAR_H_20rnd_m80.et"
+     }
+    }
+   }
+  }
+ }
+ coords 66.705 1 240.494
+}

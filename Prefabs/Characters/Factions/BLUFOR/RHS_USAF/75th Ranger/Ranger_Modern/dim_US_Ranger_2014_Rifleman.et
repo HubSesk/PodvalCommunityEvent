@@ -1,0 +1,111 @@
+SCR_ChimeraCharacter : "{60072B7144D1D147}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/75th Ranger/Ranger_Modern/dim_US_RangerNew_Unarmed.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot WristwatchSlot {
+       Prefab "{BA797E21280024B8}Prefabs/Items/Equipment/Watches/Watch_Garmin_Foretrex401.et"
+      }
+     }
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Icon "{B8470972D215E967}UI/Icons/75Ranger.edds"
+   }
+  }
+  CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
+   WeaponTemplate "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+  }
+  CharacterGrenadeSlotComponent "{5A6CDA0CCF43068E}" {
+   WeaponTemplate "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{AB7E29DC807A67A7}Prefabs/Weapons/M4A1/M4_Ranger.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{D1C9848110AB52BC}Prefabs/Characters/HeadGear/USMC_Helmet_Cover/Winter/GD_MICH2000.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{8444CAA1306D1A02}Prefabs/Characters/Vests/MBAV/TF_Eagle_Ind_MBAV_Khaki.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{9BAA6FD3D3A0080C}Prefabs/Characters/Vests/RangerKits/Ranger_MBAV_1.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{D73018D5DF4E2259}Prefabs/Characters/Handwear/Gloves_Oackley/Gloves_Oackley_Black.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{687509E71C45276F}" {
+     TargetStorage "Pants/Crye_G3_Pants_MC.et"
+     PrefabsToSpawn {
+      "{BAB50E5D149D64D9}Prefabs/Items/Equipment/Radios/drg_Radio_ANPRC152A_OLD_prv.et"
+     }
+    }
+    ItemsInitConfigurationItem "{687509E778E1D2A1}" {
+     TargetStorage "Vest/Ranger_MBAV_1.et/grenade/Pouch_GP106_RGD_Pouch_2_MC.et"
+     PrefabsToSpawn {
+      "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+     }
+    }
+    ItemsInitConfigurationItem "{687509E79577FF26}" {
+     TargetStorage "Vest/Ranger_MBAV_1.et/grenade2/Pouch_GP106_RGD_Pouch_2_MC.et"
+     PrefabsToSpawn {
+      "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+     }
+    }
+    ItemsInitConfigurationItem "{687509E791E51098}" {
+     TargetStorage "Vest/Ranger_MBAV_1.et/Mag/Pouch_wartech_magpouch_mp103_MC.et"
+     PrefabsToSpawn {
+      "{BD30BE4A3D8B9DAC}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1_last5tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{687509E7AC1EB16A}" {
+     TargetStorage "Vest/Ranger_MBAV_1.et/triple/Pouch_MP.et"
+     PrefabsToSpawn {
+      "{BD30BE4A3D8B9DAC}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1_last5tracer.et" "{BD30BE4A3D8B9DAC}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1_last5tracer.et" "{BD30BE4A3D8B9DAC}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1_last5tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{687509E7B1EE0553}" {
+     TargetStorage "Vest/Ranger_MBAV_1.et/pistol/Pouch_Shaw_Flex.et"
+     PrefabsToSpawn {
+      "{BD30BE4A3D8B9DAC}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1_last5tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{687509E7C380D63E}" {
+     TargetStorage "Vest/Ranger_MBAV_1.et/pistol/Pouch_Shaw_Flex.et"
+     PrefabsToSpawn {
+      "{BD30BE4A3D8B9DAC}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1_last5tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{687509E7D89A1479}" {
+     TargetStorage "Vest/Ranger_MBAV_1.et/holster2/GD_Holster_SLS.et"
+     PrefabsToSpawn {
+      "{E998FA484B0C4BFF}Prefabs/Weapons/Handguns/Glock/Handgun_Glock17.et"
+     }
+    }
+    ItemsInitConfigurationItem "{687509E7EE5D7311}" {
+     TargetStorage "Vest/Ranger_MBAV_1.et/holster/Pouch_MP118_PistolTako2_MC.et"
+     PrefabsToSpawn {
+      "{F20D1122BC5CD9F2}Prefabs/Weapons/Magazines/glock_magazine/Magazine_9x19_Glock_17rnd.et"
+     }
+    }
+    ItemsInitConfigurationItem "{687509E7F3602BD3}" {
+     TargetStorage "Jacket/Crye_G3_Shirt_MC_rolledup.et"
+     PrefabsToSpawn {
+      "{BD30BE4A3D8B9DAC}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1_last5tracer.et" "{BD30BE4A3D8B9DAC}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1_last5tracer.et" "{BD30BE4A3D8B9DAC}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1_last5tracer.et"
+     }
+    }
+   }
+  }
+ }
+ coords 3999.343 21.625 3667.453
+}

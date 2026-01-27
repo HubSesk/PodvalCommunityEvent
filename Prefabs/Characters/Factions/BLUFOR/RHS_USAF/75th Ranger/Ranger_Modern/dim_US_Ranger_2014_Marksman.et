@@ -1,0 +1,119 @@
+SCR_ChimeraCharacter : "{9646AE590958924A}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/75th Ranger/Ranger_Modern/dim_US_Ranger_2014_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{FAE8B9F7CEA49696}Prefabs/Items/Equipment/Binoculars/Rangefinder_Vector21_lc.et"
+      }
+      SCR_EquipmentStorageSlot WristwatchSlot {
+      }
+     }
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_Sniper"
+    Icon "{B8470972D215E967}UI/Icons/75Ranger.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{A0804B89EFFBE70C}Prefabs/Weapons/M4A1/SCAR_Ranger.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{5CB368F1EB2537FC}Prefabs/Characters/HeadGear/USMC_Helmet_Cover/Winter/GD_MICH2000_V2.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{3CA6E99EE27FCD7A}Prefabs/Characters/Uniforms/PatagoniaL9/Patagonia_MC_Patch_US.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{4C5F37BD8E39618A}Prefabs/Characters/Uniforms/Patagonia_Pants/GD_Patagonia_L9_Pants_MC.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{64B94D8A4D92A4BD}Prefabs/Characters/Footwear/Boots_Altama/Footwear_Altama.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{78FCE7A9F2E97F0B}Prefabs/Characters/Vests/RangerKits/Ranger_2014_SCAR.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab ""
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{687123A1C3AD721C}" {
+     TargetStorage "Pants/GD_Patagonia_L9_Pants_MC.et"
+    }
+    ItemsInitConfigurationItem "{687123A1C38615F2}" {
+     TargetStorage "Pants/GD_Patagonia_L9_Pants_MC.et"
+    }
+    ItemsInitConfigurationItem "{687123A1C3E169F1}" {
+     Enabled 1
+     TargetStorage "Jacket/Patagonia_MC_Patch_US.et"
+     TargetPurpose 1
+     PrefabsToSpawn {
+      "{2A7C01B93CC92ACE}Prefabs/Items/Equipment/RangeCard/RangeCard_Notepad_AUTO.et"
+     }
+    }
+    ItemsInitConfigurationItem "{687509E71C45276F}" {
+     TargetStorage "Jacket/Patagonia_MC_Patch_US.et"
+    }
+    ItemsInitConfigurationItem "{687509E778E1D2A1}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{687509E79577FF26}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{687509E791E51098}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{687509E7AC1EB16A}" {
+     TargetStorage "Vest/Ranger_2014_SCAR.et/Mag_Pouch3/Pouch_Eagle_Ind_M4_2_MS_Opened_wm.et"
+     PrefabsToSpawn {
+      "{23C815180F127C5F}Prefabs/Weapons/Magazines/FN_SCAR_H/Magazine_762x51_SCAR_H_20rnd_m80.et" "{23C815180F127C5F}Prefabs/Weapons/Magazines/FN_SCAR_H/Magazine_762x51_SCAR_H_20rnd_m80.et"
+     }
+    }
+    ItemsInitConfigurationItem "{687509E7B1EE0553}" {
+     TargetStorage "Vest/Ranger_2014_SCAR.et/Mag_Pouch2/Pouch_Eagle_Ind_M4_2_MS_Closed_wm.et"
+     PrefabsToSpawn {
+      "{23C815180F127C5F}Prefabs/Weapons/Magazines/FN_SCAR_H/Magazine_762x51_SCAR_H_20rnd_m80.et" "{23C815180F127C5F}Prefabs/Weapons/Magazines/FN_SCAR_H/Magazine_762x51_SCAR_H_20rnd_m80.et"
+     }
+    }
+    ItemsInitConfigurationItem "{687509E7C380D63E}" {
+     TargetStorage "Vest/Ranger_2014_SCAR.et/Mag_Pouch1/Pouch_Eagle_Ind_M4_2_MS_Opened_wm.et"
+     PrefabsToSpawn {
+      "{23C815180F127C5F}Prefabs/Weapons/Magazines/FN_SCAR_H/Magazine_762x51_SCAR_H_20rnd_m80.et" "{23C815180F127C5F}Prefabs/Weapons/Magazines/FN_SCAR_H/Magazine_762x51_SCAR_H_20rnd_m80.et"
+     }
+    }
+    ItemsInitConfigurationItem "{687509E7D89A1479}" {
+     TargetStorage "Vest/Ranger_2014_SCAR.et/Holster/GD_Holster_SLS_RLeg.et"
+    }
+    ItemsInitConfigurationItem "{687509E7EE5D7311}" {
+     TargetStorage "Vest/Ranger_2014_SCAR.et/Grenade_Pouch1/Ranger_StanagPouch.et"
+     PrefabsToSpawn {
+      "{23C815180F127C5F}Prefabs/Weapons/Magazines/FN_SCAR_H/Magazine_762x51_SCAR_H_20rnd_m80.et"
+     }
+    }
+    ItemsInitConfigurationItem "{687509E7F3602BD3}" {
+     TargetStorage "Jacket/Patagonia_MC_Patch_US.et"
+     PrefabsToSpawn {
+      "{23C815180F127C5F}Prefabs/Weapons/Magazines/FN_SCAR_H/Magazine_762x51_SCAR_H_20rnd_m80.et" "{23C815180F127C5F}Prefabs/Weapons/Magazines/FN_SCAR_H/Magazine_762x51_SCAR_H_20rnd_m80.et" "{23C815180F127C5F}Prefabs/Weapons/Magazines/FN_SCAR_H/Magazine_762x51_SCAR_H_20rnd_m80.et"
+     }
+    }
+    ItemsInitConfigurationItem "{687509FB93DA6366}" {
+     TargetStorage "Pants/GD_Patagonia_L9_Pants_MC.et"
+     PrefabsToSpawn {
+      "{23C815180F127C5F}Prefabs/Weapons/Magazines/FN_SCAR_H/Magazine_762x51_SCAR_H_20rnd_m80.et" "{23C815180F127C5F}Prefabs/Weapons/Magazines/FN_SCAR_H/Magazine_762x51_SCAR_H_20rnd_m80.et"
+     }
+    }
+   }
+  }
+ }
+ coords 3995.812 21.594 3668.369
+}
