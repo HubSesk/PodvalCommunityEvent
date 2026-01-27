@@ -1,0 +1,48 @@
+$grp GenericEntity : "{F5EF4223ACA6169C}PrefabsEditable/Auto/Structures/Military/Flags/E_FlagPole_02_V1_AFRF.et" {
+ FLAG_1 {
+  components {
+   BaseActionsManagerComponent "{6202D4E6F133BF4A}" {
+    ActionContexts {
+     UserActionContext "{6202D793E4B0C277}" {
+      Position PointInfo "{6202D793E70D1EFB}" {
+       Offset -0.0002 2.224 0.0001
+      }
+      Radius 1.2
+      LineOfSightCheck 1
+     }
+    }
+    additionalActions {
+     PS_FlagChangeAction "{6202D4E6A53D4B3C}" {
+      VisibilityRange -2
+      Duration 15
+     }
+    }
+   }
+  }
+  coords 4929.537 335.096 6489.363
+  angles 34.393 -120.803 0
+ }
+ FLAG_2 {
+  components {
+   BaseActionsManagerComponent "{6202D4E6F133BF4A}" {
+    ActionContexts {
+     UserActionContext "{6202D793E4B0C277}" {
+      Position PointInfo "{6202D793E70D1EFB}" {
+       Offset -0.0002 1.9405 0.0001
+      }
+      Radius 0.71
+      LineOfSightCheck 1
+     }
+    }
+    additionalActions {
+     PS_FlagChangeAction "{6202D4E6A53D4B3C}" {
+      VisibilityRange -2
+      Duration 15
+     }
+    }
+   }
+  }
+  coords 5053.543 321.077 6205.133
+  angles 28.769 -28.939 0
+ }
+}

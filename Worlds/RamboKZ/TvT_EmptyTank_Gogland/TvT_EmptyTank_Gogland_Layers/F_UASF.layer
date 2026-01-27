@@ -1,15 +1,3 @@
-$grp Vehicle : "{03708F7E58BB7A53}Prefabs/Vehicles/Wheeled/M998/M1151_armed_M2HB.et" {
- USAF_010_V {
-  coords 6675.06 96.73 2095.96
-  angles 2.923 -139.183 -3.379
-  m_sAttachmentGroupName "USAF_010"
- }
- USAF_011_V {
-  coords 6808.339 129.984 2391.654
-  angles 2.849 115.384 2.34
-  m_sAttachmentGroupName "USAF_011"
- }
-}
 $grp Vehicle : "{26013123314183EA}Prefabs/Vehicles/Wheeled/M923A1/M923A1_tanker_MERDC.et" {
  Tanker_1 {
   coords 6850.733 138.546 2477.227
@@ -65,18 +53,6 @@ $grp SCR_AIGroup : "{2FBB6A87C9E9FC4D}Prefabs/Groups/BLUFOR/drg_USAF_WeaponSquad
    "{9808758629EAA4E0}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_CrewDriver.et"
   }
   m_sCustomNameSet "Стрелковое отделение LAV25"
- }
-}
-$grp Vehicle : "{3277F8B1FA06A2BC}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_USAF.et" {
- USAF_200_V {
-  coords 6664.508 97.766 2085.018
-  angles 0.032 -134.222 -0.01
-  m_sAttachmentGroupName "USAF_200"
- }
- USAF_201_V2 {
-  coords 6736.156 122.97 2448.543
-  angles 0.002 156.471 -0.033
-  m_sAttachmentGroupName "USAF_201"
  }
 }
 $grp Vehicle : "{3312ADBF53A16DD8}Prefabs/Vehicles/Wheeled/LAV25/LAV25_RHS.et" {
@@ -144,6 +120,28 @@ $grp Vehicle : "{CC55611936C21F25}Prefabs/Vehicles/Wheeled/M998/M1025_USAF.et" {
   coords 6801.619 129.81 2394.421
   angles 7.23 109.276 6.26
   m_sAttachmentGroupName "USAF_011"
+ }
+}
+$grp Vehicle : "{D574C943C9F8C9DF}Prefabs/Vehicles/Wheeled/M998/M1151_armed_M2HB_AP.et" {
+ USAF_011_V {
+  coords 6808.339 129.984 2391.654
+  angles 2.849 115.384 2.34
+  m_sAttachmentGroupName "USAF_011"
+ }
+ USAF_200_V {
+  coords 6664.508 97.766 2085.018
+  angles 0.032 -134.222 -0.01
+  m_sAttachmentGroupName "USAF_200"
+ }
+ USAF_010_V {
+  coords 6675.06 96.73 2095.96
+  angles 2.923 -139.183 -3.379
+  m_sAttachmentGroupName "USAF_010"
+ }
+ USAF_201_V2 {
+  coords 6736.156 122.97 2448.543
+  angles 0.002 156.471 -0.033
+  m_sAttachmentGroupName "USAF_201"
  }
 }
 SCR_AIGroup USAF_000 : "{D9B32FE6DF696BE5}Prefabs/Groups/BLUFOR/drg_USAF_PlatoonHQ.et" {

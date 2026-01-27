@@ -49,15 +49,25 @@ $grp GenericEntity : "{F5EF4223ACA6169C}PrefabsEditable/Auto/Structures/Military
     m_sFactionKey "CIV"
    }
    BaseActionsManagerComponent "{6202D4E6F133BF4A}" {
+    ActionContexts {
+     UserActionContext "{6202D793E4B0C277}" {
+      Position PointInfo "{6202D793E70D1EFB}" {
+       Offset -0.0001 1.8386 -0.0001
+      }
+      Radius 1
+      LineOfSightCheck 1
+     }
+    }
     additionalActions {
      PS_FlagChangeAction "{6202D4E6A53D4B3C}" {
+      VisibilityRange -1
       Duration 15
      }
     }
    }
   }
-  coords 9678.889 34 1601.881
-  angles 31.577 50.405 0
+  coords 9678.887 32.928 1601.859
+  angles 34.506 50.405 0
  }
  FLAG_2 {
   components {

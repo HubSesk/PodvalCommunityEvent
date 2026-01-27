@@ -52,34 +52,6 @@ $grp Vehicle : "{21E9A875C0A3C409}Prefabs/Vehicles/Helicopters/UH1H/UH1H_armed_g
   m_sAttachmentGroupName "USAF_210"
  }
 }
-SCR_AIGroup USAF_400 : "{24276B3CF52F7C69}Prefabs/Groups/BLUFOR/Kara_Group_RHS_SOCOM_Team.et" {
- components {
-  PS_GroupCallsignAssigner "{66D20831F22533D3}" {
-   m_iCompanyCallsign 4
-  }
- }
- coords 5868.503 133.536 8259.067
- angles 0 179.918 0
- m_aUnitPrefabSlots {
-  "{9B04B586930EFE2D}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/SOCOM/drg_Role_RHS_USAF_SOCOM_SL.et"
-  "{9FBBBCD632861C8A}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/SOCOM/drg_Role_RHS_USAF_SOCOM_Scout.et"
-  "{57CDCD5C503ABF3E}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/SOCOM/drg_Role_RHS_USAF_SOCOM_Scout_Medic.et"
-  "{6135ECC9CA1BB4E7}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/SOCOM/drg_Role_RHS_USAF_SOCOM_Marksman.et"
- }
- m_sCustomNameSet "СПН"
-}
-$grp Vehicle : "{3277F8B1FA06A2BC}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_USAF.et" {
- USAF_111_HMM2 {
-  coords 4767.138 236.911 10820.797
-  angles 0 -152.636 0
-  m_sAttachmentGroupName "USAF_111"
- }
- USAF_112_HMM2 {
-  coords 4774.568 236.363 10835.503
-  angles 0 -154.1 0
-  m_sAttachmentGroupName "USAF_112"
- }
-}
 $grp Vehicle : "{3312ADBF53A16DD8}Prefabs/Vehicles/Wheeled/LAV25/LAV25_RHS.et" {
  USAF_110_LAV {
   coords 4791.408 236.562 10870.688
@@ -240,10 +212,17 @@ $grp Vehicle : "{CC55611936C21F25}Prefabs/Vehicles/Wheeled/M998/M1025_USAF.et" {
   angles 0 -153.522 0
   m_sAttachmentGroupName "USAF_112"
  }
- USAF_400_HM {
-  coords 5866.772 133.608 8256.35
-  angles 3.576 -88.987 0.063
-  m_sAttachmentGroupName "USAF_400"
+}
+$grp Vehicle : "{D574C943C9F8C9DF}Prefabs/Vehicles/Wheeled/M998/M1151_armed_M2HB_AP.et" {
+ USAF_111_HMM2 {
+  coords 4767.138 236.911 10820.797
+  angles 0 -152.636 0
+  m_sAttachmentGroupName "USAF_111"
+ }
+ USAF_112_HMM2 {
+  coords 4774.568 236.363 10835.503
+  angles 0 -154.1 0
+  m_sAttachmentGroupName "USAF_112"
  }
 }
 $grp SCR_AIGroup : "{D9B32FE6DF696BE5}Prefabs/Groups/BLUFOR/drg_USAF_PlatoonHQ.et" {
@@ -277,11 +256,13 @@ $grp SCR_AIGroup : "{D9B32FE6DF696BE5}Prefabs/Groups/BLUFOR/drg_USAF_PlatoonHQ.e
   m_sCustomNameSet "Пилоты UH-1H"
  }
  USAF_000 {
-  coords 4948.852 294.468 9475.092
+  coords 4949.388 294.468 9474.242
   angles 0 -138.432 0
   m_aUnitPrefabSlots {
    "{9E8A45F22F94636C}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_CL.et"
    "{893533817C25A8B0}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_Medic.et"
+   "{0D86781BA3428115}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_AR.et"
+   "{0053063A54F5E83F}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_GL.et"
    "{26AD8B80E8C02793}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_Marksman.et"
   }
   m_sCustomNameSet "Командирское отделение"

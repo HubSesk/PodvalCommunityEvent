@@ -4,9 +4,16 @@ GenericEntity : "{592E8C59C778A189}Prefabs/System/GUB_ZoneControlBetweenFactions
    m_aControlLogics {
     GUB_ZoneControlLogic "{685D48CC3ED71473}" {
      m_sZonePreviewName "База ЧСО"
+     m_bAdvanceGameStage 1
+     m_sSuccessObjectiveNames {
+      "AFRF_WIN"
+     }
+     m_sFailedObjectiveNames {
+      "CDF_WIN"
+     }
      m_sMessage "ВС РФ Зачистили базу!"
      m_Timer GUB_ZoneControlTimer "{685D48CCD6D8AA05}" {
-      timeToComplete 120
+      timeToComplete 180
      }
      m_ZoneController GUB_ZoneController "{685D48CCD1F135B6}" {
       m_sZoneEntityName "TRIGGER_ZONE"
