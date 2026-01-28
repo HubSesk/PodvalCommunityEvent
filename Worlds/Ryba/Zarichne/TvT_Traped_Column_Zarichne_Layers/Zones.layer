@@ -5,9 +5,16 @@ PolylineShapeEntity : "{7019844BAD5C4DD8}Prefabs/PolyZone/PolyZone_Border.et" {
  components {
   PS_PolyZone "{60E90266F25533F6}" {
    m_mPolygonTexture "{928B4092981F27CB}UI/layouts/Textures/Zone.edds"
-   m_cPolygonColor 0 0 0 1
+   m_cPolygonColor 0.238 0.238 0.238 1
+   m_fPolygonUVScale 0.3
    m_mPolygonTextureBorder "{CA01D453D39FB430}UI/layouts/Textures/ZoneBorder.edds"
    m_cPolygonBorderColor 0 0 0 1
+   m_fPolygonBorderWidth 5.1
+   m_aVisibleForFactions {
+    ""
+    "RHS_AFRF"
+    "RHS_USAF"
+   }
   }
  }
  coords 0.249 40.218 3372.797
@@ -68,7 +75,9 @@ $grp PolylineShapeEntity : "{BD11B8FAA469D169}Prefabs/PolyZone/PolyZone.et" {
     m_cPolygonBorderColor 1 0 0 1
     m_fPolygonBorderWidth 4.2
     m_aVisibleForFactions {
-     "" "RHS_AFRF" "RHS_USAF"
+     ""
+     "RHS_AFRF"
+     "RHS_USAF"
     }
    }
   }
@@ -103,14 +112,16 @@ $grp PolylineShapeEntity : "{BD11B8FAA469D169}Prefabs/PolyZone/PolyZone.et" {
     m_cPolygonBorderColor 1 0.031 0 1
     m_bLineMode 1
     m_aVisibleForFactions {
-     "" "RHS_AFRF" "RHS_USAF"
+     ""
+     "RHS_AFRF"
+     "RHS_USAF"
     }
    }
   }
   coords 2473.698 22.558 4410.247
   Points {
    ShapePoint "{65C95248442E2D27}" {
-    Position 674.671 0 -2713.383
+    Position 715.162 0 -2774.783
    }
    ShapePoint "{65C952484884939F}" {
     Position 2097.375 0 -1775.162
@@ -122,7 +133,7 @@ $grp PolylineShapeEntity : "{BD11B8FAA469D169}Prefabs/PolyZone/PolyZone.et" {
     Position 2052.8 0 59.282
    }
    ShapePoint "{65C9524875BDFD08}" {
-    Position 49.687 0 1.175
+    Position 6.288 0 0.702
    }
   }
  }
@@ -132,14 +143,16 @@ $grp PolylineShapeEntity : "{BD11B8FAA469D169}Prefabs/PolyZone/PolyZone.et" {
     m_cPolygonBorderColor 0 0.097 1 1
     m_bLineMode 1
     m_aVisibleForFactions {
-     "" "RHS_AFRF" "RHS_USAF"
+     ""
+     "RHS_AFRF"
+     "RHS_USAF"
     }
    }
   }
   coords 1234.986 11.578 1076.251
   Points {
    ShapePoint "{60E90266E922A02A}" {
-    Position 74.513 0 -486.031
+    Position 75.377 0 -489.429
    }
    ShapePoint "{65C95248174E3D43}" {
     Position -653.806 0 2379.395
@@ -151,7 +164,7 @@ $grp PolylineShapeEntity : "{BD11B8FAA469D169}Prefabs/PolyZone/PolyZone.et" {
     Position -1190.903 0 -1011.463
    }
    ShapePoint "{65C9524808C715F7}" {
-    Position 29.45 0 -508.227
+    Position 73.782 0 -490.081
    }
   }
  }

@@ -1,7 +1,19 @@
-Vehicle S105_randomized1 : "{128253A267BE9424}Prefabs/Vehicles/Wheeled/S105/S105_randomized.et" {
- coords 4886.937 37.704 4620.894
- angles 0 134.117 0
- m_sAttachmentGroupName "Ses_TKR_HQ"
+$grp Vehicle : "{128253A267BE9424}Prefabs/Vehicles/Wheeled/S105/S105_randomized.et" {
+ S105_randomized1 {
+  coords 4886.937 37.704 4620.894
+  angles 0 134.117 0
+  m_sAttachmentGroupName "Ses_TKR_HQ"
+ }
+ S105_randomized2 {
+  coords 2788.23 13.981 3206.952
+  angles -4.094 143.532 -2.527
+  m_sAttachmentGroupName "Ses_TKR_Squad5"
+ }
+ S105_randomized3 {
+  coords 2783.356 14.485 3213.749
+  angles -1.784 143.496 -0.906
+  m_sAttachmentGroupName "Ses_TKR_Squad5"
+ }
 }
 Vehicle S1203_transport_randomized2 : "{49C909AFD66E90A1}Prefabs/Vehicles/Wheeled/S1203/S1203_transport_randomized.et" {
  coords 5003.793 33.428 1891.383
@@ -23,6 +35,11 @@ Vehicle UAZ469_randomized_color_and_covered_Biryuk1 : "{749B689B21A5D4DD}Prefabs
  angles 0 -67.851 0
  m_sAttachmentGroupName "Ses_TKR_PTUR"
 }
+Vehicle UAZ452_transport_CIV_randomized1 : "{C7CE8044B5E301F5}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_transport_CIV_randomized.et" {
+ coords 3218.716 3.641 1107.032
+ angles 0 -101.728 0
+ m_sAttachmentGroupName "Ses_TKR_Squad4"
+}
 $grp Vehicle : "{F5A837AB410E9D20}Prefabs/Vehicles/Wheeled/Ural4320/Ses_TKA/drg_Ural4320_Ses_TKR_transport_covered.et" {
  drg_Ural4320_Ses_TKR_transport_covered1 {
   coords 3923.699 11.165 2776.566
@@ -33,5 +50,10 @@ $grp Vehicle : "{F5A837AB410E9D20}Prefabs/Vehicles/Wheeled/Ural4320/Ses_TKA/drg_
   coords 4242.72 17.5 4089.739
   angles 0 -93.317 0
   m_sAttachmentGroupName "Ses_TKR_Squad1"
+ }
+ drg_Ural4320_Ses_TKR_transport_covered3 {
+  coords 4265.842 17.587 4089.397
+  angles 0 -93.317 0
+  m_sAttachmentGroupName "Ses_TKR_Squad3"
  }
 }

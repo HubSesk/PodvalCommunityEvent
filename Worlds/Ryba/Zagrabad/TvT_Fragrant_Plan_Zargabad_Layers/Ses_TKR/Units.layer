@@ -10,11 +10,11 @@ $grp SCR_AIGroup : "{7DE1C37237295281}Prefabs/Groups/INDFOR/Ses_TKR/drg_TKR_Rifl
   m_aUnitPrefabSlots {
    "{60B44C26D40826FA}Prefabs/Characters/Factions/INDFOR/TKR/DRG_TKR/drg_Character_Ses_TKR_SL.et"
    "{2591824D3231A9C7}Prefabs/Characters/Factions/INDFOR/TKR/DRG_TKR/drg_Character_Ses_TKR_SR_Rand.et"
-   "{0C50F109F292B1E5}Prefabs/Characters/Factions/INDFOR/TKR/DRG_TKR/drg_Character_Ses_TKR_Req_L_Rand.et"
-   "{0C50F109F292B1E5}Prefabs/Characters/Factions/INDFOR/TKR/DRG_TKR/drg_Character_Ses_TKR_Req_L_Rand.et"
-   "{0C50F109F292B1E5}Prefabs/Characters/Factions/INDFOR/TKR/DRG_TKR/drg_Character_Ses_TKR_Req_L_Rand.et"
-   "{0C50F109F292B1E5}Prefabs/Characters/Factions/INDFOR/TKR/DRG_TKR/drg_Character_Ses_TKR_Req_L_Rand.et"
-   "{0C50F109F292B1E5}Prefabs/Characters/Factions/INDFOR/TKR/DRG_TKR/drg_Character_Ses_TKR_Req_L_Rand.et"
+   "{6B6FFA5A4E0E6959}Prefabs/Characters/Factions/INDFOR/TKR/DRG_TKR/drg_Character_Ses_TKR_MG_Rand.et"
+   "{7B1DE711B74EF26C}Prefabs/Characters/Factions/INDFOR/TKR/DRG_TKR/drg_Character_Ses_TKR_AT_Rand.et"
+   "{09E76FAD9039185A}Prefabs/Characters/Factions/INDFOR/TKR/DRG_TKR/drg_Character_Ses_TKR_Rifleman_Rand.et"
+   "{09E76FAD9039185A}Prefabs/Characters/Factions/INDFOR/TKR/DRG_TKR/drg_Character_Ses_TKR_Rifleman_Rand.et"
+   "{09E76FAD9039185A}Prefabs/Characters/Factions/INDFOR/TKR/DRG_TKR/drg_Character_Ses_TKR_Rifleman_Rand.et"
   }
   m_sCustomNameSet "Охрана плантации"
  }
@@ -105,5 +105,33 @@ $grp SCR_AIGroup : "{7DE1C37237295281}Prefabs/Groups/INDFOR/Ses_TKR/drg_TKR_Rifl
    "{0EC238B0C2462457}Prefabs/Characters/Factions/INDFOR/TKR/Character_Ses_TKR_Crew.et"
   }
   m_sCustomNameSet "Экипаж БРДМ"
+ }
+ Ses_TKR_Squad3 {
+  components {
+   PS_GroupCallsignAssigner "{65154C1E6C2E8928}" {
+    m_iCompanyCallsign 3
+    m_iSquadCallsign 1
+   }
+  }
+  coords 4269.784 17.5 4095.006
+  angles 0 178.48 0
+ }
+ Ses_TKR_Squad4 {
+  components {
+   PS_GroupCallsignAssigner "{65154C1E6C2E8928}" {
+    m_iCompanyCallsign 2
+   }
+  }
+  coords 3222.449 3.672 1114.177
+  angles 0 172.146 0
+ }
+ Ses_TKR_Squad5 {
+  components {
+   PS_GroupCallsignAssigner "{65154C1E6C2E8928}" {
+    m_iCompanyCallsign 2
+   }
+  }
+  coords 2777.637 14.563 3211.515
+  angles 0 53.933 0
  }
 }
