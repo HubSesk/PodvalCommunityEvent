@@ -62,8 +62,8 @@ $grp SCR_AIGroup : "{3EDA372443FD105F}Prefabs/Groups/OPFOR/drg_AFRF_RifleSquad.e
   m_sCustomNameSet "Стрелковое отделение"
  }
  AFRF_200 {
-  coords 3405.716 82.655 7073.621
-  angles 1.72 85.846 -1.022
+  coords 4303.51 67.874 6483.735
+  angles 1.538 156.34 1.28
   m_aUnitPrefabSlots {
    "{964F7C7E17A618E4}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Recon/drg_Role_RHS_AFRF_Recon_SquadLeader.et"
    "{89072075B73F4C52}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Recon/drg_Role_RHS_AFRF_Recon_SeniorRifleman.et"
@@ -140,20 +140,20 @@ $grp SCR_AIGroup : "{3EDA372443FD105F}Prefabs/Groups/OPFOR/drg_AFRF_RifleSquad.e
   m_sCustomNameSet "Стрелковое отделение БТР-70"
  }
 }
-$grp Vehicle : "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et" {
- AFRF_100_BTR {
-  coords 3408.807 83.315 7117.626
-  angles -0.052 178.331 -1.789
-  m_sAttachmentGroupName "AFRF_100"
- }
+$grp Vehicle : "{447CFE8D73F95C3E}Prefabs/Vehicles/Wheeled/BTR70/BTR70_AFRF.et" {
  AFRF_110_BTR {
   coords 3414.702 83.518 7161.455
   angles 0.342 -169.004 -1.757
   m_sAttachmentGroupName "AFRF_110"
  }
+ AFRF_100_BTR {
+  coords 3408.807 83.315 7117.626
+  angles -0.052 178.331 -1.789
+  m_sAttachmentGroupName "AFRF_100"
+ }
 }
 Vehicle AFRF_200_TIGR_K : "{CD4737303AA14C6D}Prefabs/Vehicles/Wheeled/TIGR/KORD/GAZ_TIGR_v2_KORD_SPP.et" {
- coords 3410.217 83.237 7071.063
- angles 0 175.928 0
+ coords 4302.186 67.876 6477.204
+ angles -0.085 -107.917 -0.004
  m_sAttachmentGroupName "AFRF_200"
 }
