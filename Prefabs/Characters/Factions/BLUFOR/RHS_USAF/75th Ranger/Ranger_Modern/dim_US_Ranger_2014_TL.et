@@ -1,0 +1,109 @@
+SCR_ChimeraCharacter : "{9646AE590958924A}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/75th Ranger/Ranger_Modern/dim_US_Ranger_2014_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{0CF54B9A85D8E0D4}Prefabs/Items/Equipment/Binoculars/Binoculars_M22/Binoculars_M22.et"
+      }
+     }
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_TeamLeader"
+    Icon "{B8470972D215E967}UI/Icons/75Ranger.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{929C9FBE68DF78AE}Prefabs/Weapons/M4A1/M4A1_Ranger_TL.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   AttachType InventoryStorageSlot "{0C3DA650B52E127A}" {
+    Offset -0.005 -0.2527 -0.0057
+    Angles 80.3885 0.8127 89.9998
+   }
+   WeaponTemplate "{9C5C20FB0E01E64F}Prefabs/Weapons/Launchers/M72/Launcher_M72A3.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{7DC73B966F87BE37}Prefabs/Characters/HeadGear/Helmet_OPSCORE/dim_OPSCORE_V3.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{1D0E3F9F2E1F6D21}Prefabs/Characters/Vests/Vest_AVS/Vest_AVS_6x9_MC.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{660952F979E8EBF2}Prefabs/Characters/Footwear/Boots_solomon_ultra_x/Footwear_Altama_Boots.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{F711EA887715B39E}Prefabs/Items/Equipment/Backpacks/Spiritus_System_DeltaBag/GD_DeltaBag_MC.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{FD41B78CEAAF39B8}Prefabs/Characters/Vests/RangerKits/Ranger_AVS_New.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{86FCDE2A2A4DD765}Prefabs/Characters/Handwear/Gloves_Oackley/Gloves_Oackley_base.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{687509E71C45276F}" {
+     PrefabsToSpawn {
+      "{C742BD6CB3D77A5A}Prefabs/Items/Equipment/Radios/drg_Radio_ANPRC152A_OLD_SL.et"
+     }
+    }
+    ItemsInitConfigurationItem "{687509E778E1D2A1}" {
+     TargetStorage "Vest/Ranger_AVS_New.et/m67_1/Pouch_Filbe_M67_2.et"
+    }
+    ItemsInitConfigurationItem "{687509E79577FF26}" {
+     TargetStorage "Vest/Ranger_AVS_New.et/m67_2/Pouch_Filbe_M67_Base.et"
+    }
+    ItemsInitConfigurationItem "{687509E791E51098}" {
+     TargetStorage "Vest/Ranger_AVS_New.et/tako/Pouch_FILBE_doubleM4_2.et"
+     PrefabsToSpawn + {
+      "{BD30BE4A3D8B9DAC}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1_last5tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{687509E7AC1EB16A}" {
+     TargetStorage "Vest/Ranger_AVS_New.et/Pouch1/Pouch_avs_front_elastic_Coy.et"
+    }
+    ItemsInitConfigurationItem "{687509E7B1EE0553}" {
+     TargetStorage "Vest/Ranger_AVS_New.et/nerd/Pouch_Shaw_Flex.et"
+    }
+    ItemsInitConfigurationItem "{687509E7C380D63E}" {
+     TargetStorage "Vest/Ranger_AVS_New.et/filbe2/Pouch_FILBE_doubleM4_3.et"
+     PrefabsToSpawn + {
+      "{BD30BE4A3D8B9DAC}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1_last5tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{687509E7D89A1479}" {
+     TargetStorage "Vest/Ranger_AVS_New.et/Holster/GD_Holster_SLS_Tan_RLeg.et"
+    }
+    ItemsInitConfigurationItem "{687509E7EE5D7311}" {
+     TargetStorage "Vest/Ranger_AVS_New.et/pistolcamer/Pouch_Highspeed_Pistol.et"
+    }
+    ItemsInitConfigurationItem "{687509E3AE625CE6}" {
+     TargetStorage "Vest/Ranger_AVS_New.et/tako2/Pouch_Highspeed_Pistol.et"
+    }
+    ItemsInitConfigurationItem "{687509E3BC779FF1}" {
+     TargetStorage "Vest/Ranger_AVS_New.et/m18_1/Pouch_Filbe_M18_2.et"
+     PrefabsToSpawn {
+      "{AD2709F5F6F0D871}Prefabs/Weapons/Grenades/M18/Smoke_M18_Base.et"
+     }
+    }
+    ItemsInitConfigurationItem "{687509E3C75B1DC8}" {
+     TargetStorage "Vest/Ranger_AVS_New.et/m18_2/Pouch_Filbe_M18_2.et"
+     PrefabsToSpawn {
+      "{D41D22DD1B8E921E}Prefabs/Weapons/Grenades/M18/Smoke_M18_Green.et"
+     }
+    }
+   }
+  }
+ }
+ coords 3996.494 21.601 3665.888
+}
