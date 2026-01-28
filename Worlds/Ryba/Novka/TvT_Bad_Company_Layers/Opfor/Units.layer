@@ -1,96 +1,134 @@
-SCR_AIGroup RHS_AFRF_HQ : "{0FC09C311C951395}Prefabs/Groups/OPFOR/drg_AFRF_PlatoonHQ.et" {
- components {
-  PS_GroupCallsignAssigner "{6454F7D129837B5A}" {
-   m_iCompanyCallsign 0
-  }
+SCR_AIGroup RHS_AFRF_HQ : "{52DBD8AD794AA412}Prefabs/Groups/OPFOR/drg_AFRF_CompanyHQ.et" {
+ coords 1183.253 11.579 1335.478
+ angles 0 -41.982 0
+ m_aUnitPrefabSlots {
+  "{178B6CA0F88DB422}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/Regular/Role_Character_AFRF_HQ_Winter.et"
+  "{B285B88A7D4F7711}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/Regular/Role_Character_AFRF_SR_Winter.et"
+  "{F667194FFD03FA0D}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/Regular/Role_Character_AFRF_Rifleman_Winter.et"
+  "{D678E4A55C559D79}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/Regular/Role_Character_AFRF_Sniper_Winter.et"
  }
- coords 1180.971 11.795 1336.684
- angleY 44.468
 }
-$grp SCR_AIGroup : "{3EDA372443FD105F}Prefabs/Groups/OPFOR/drg_AFRF_RifleSquad.et" {
+$grp SCR_AIGroup : "{FB6E7CB4014BE2C8}Prefabs/Groups/OPFOR/drg_RHS_Army_RifleSquad.et" {
  RHS_AFRF_Squad1 {
   components {
    PS_GroupCallsignAssigner "{6454F7D129837B5A}" {
-    m_iCompanyCallsign 0
     m_iSquadCallsign 1
    }
   }
-  coords 1190.678 12.511 1342.456
-  angleY -47.136
+  coords 1190.677 12.528 1343.22
+  angles 0 -41.536 0
   m_aUnitPrefabSlots {
-   "{0DF8C7583D0AAA9A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_SL_v2.et" "{2EBF7FD7B32EE3FA}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_SR.et" "{E6870BF19DB0632C}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_AT.et" "{C0F50DDFB6CFA87B}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_AAT.et" "{9CBAF5396A6DDC9C}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_MG_opt.et" "{FAC6AB61E4CA97F5}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_MGAB.et" "{2836211FE98BA458}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_Rifleman.et" "{3E2F6230E4397D70}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_AR.et" "{33FA1C11138E145A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_GL.et"
+   "{BC089432FF699C2F}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/VDV/VDV_Regular/Role_Character_VDV_Reg_SL_Winter.et"
+   "{FB9107810C2C579A}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/VDV/VDV_Regular/Role_Character_VDV_Reg_SR_Winter.et"
+   "{5A15EA3743C7A22C}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/VDV/VDV_Regular/Role_Character_VDV_Reg_AT_Winter.et"
+   "{70CCF6BDBCF7287E}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/VDV/VDV_Regular/Role_Character_VDV_Reg_AAT_Winter.et"
+   "{1B2DB683C117C9E9}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/VDV/VDV_Regular/Role_Character_VDV_Reg_MGOpt_Winter.et"
+   "{65A8295155F0B12F}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/VDV/VDV_Regular/Role_Character_VDV_Reg_Rfl_2_Winter.et"
+   "{85DC746398497A5C}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/VDV/VDV_Regular/Role_Character_VDV_Reg_Rifleman_Winter.et"
+   "{85DC746398497A5C}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/VDV/VDV_Regular/Role_Character_VDV_Reg_Rifleman_Winter.et"
+   "{BFA68A9B0E72B492}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/VDV/VDV_Regular/Role_Character_VDV_Reg_Sniper_Winter.et"
   }
  }
  RHS_AFRF_Squad2 {
   components {
    PS_GroupCallsignAssigner "{6454F7D129837B5A}" {
-    m_iCompanyCallsign 0
     m_iSquadCallsign 2
    }
   }
-  coords 1207.867 13.372 1357.293
-  angleY -38.987
+  coords 1210.154 14.404 1360.473
+  angles 0 -41.536 0
   m_aUnitPrefabSlots {
-   "{0DF8C7583D0AAA9A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_SL_v2.et" "{2EBF7FD7B32EE3FA}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_SR.et" "{E6870BF19DB0632C}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_AT.et" "{C0F50DDFB6CFA87B}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_AAT.et" "{9CBAF5396A6DDC9C}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_MG_opt.et" "{FAC6AB61E4CA97F5}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_MGAB.et" "{2836211FE98BA458}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_Rifleman.et" "{3E2F6230E4397D70}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_AR.et" "{33FA1C11138E145A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_GL.et"
+   "{BC089432FF699C2F}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/VDV/VDV_Regular/Role_Character_VDV_Reg_SL_Winter.et"
+   "{FB9107810C2C579A}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/VDV/VDV_Regular/Role_Character_VDV_Reg_SR_Winter.et"
+   "{5A15EA3743C7A22C}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/VDV/VDV_Regular/Role_Character_VDV_Reg_AT_Winter.et"
+   "{70CCF6BDBCF7287E}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/VDV/VDV_Regular/Role_Character_VDV_Reg_AAT_Winter.et"
+   "{1B2DB683C117C9E9}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/VDV/VDV_Regular/Role_Character_VDV_Reg_MGOpt_Winter.et"
+   "{65A8295155F0B12F}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/VDV/VDV_Regular/Role_Character_VDV_Reg_Rfl_2_Winter.et"
+   "{85DC746398497A5C}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/VDV/VDV_Regular/Role_Character_VDV_Reg_Rifleman_Winter.et"
+   "{85DC746398497A5C}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/VDV/VDV_Regular/Role_Character_VDV_Reg_Rifleman_Winter.et"
+   "{BFA68A9B0E72B492}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/VDV/VDV_Regular/Role_Character_VDV_Reg_Sniper_Winter.et"
   }
- }
- RHS_AFRF_HeavySquad3 {
-  components {
-   PS_GroupCallsignAssigner "{6454F7D129837B5A}" {
-    m_iSquadCallsign 2
-   }
-  }
-  coords 1345.99 28.594 1495.678
-  angleY -58.47
- }
- RHS_AFRF_HeavySquad2 {
-  components {
-   PS_GroupCallsignAssigner "{6454F7D129837B5A}" {
-    m_iSquadCallsign 1
-   }
-  }
-  coords 1297.344 19.444 1441.629
-  angleY -45.992
- }
- RHS_AFRF_HeavySquad1 {
-  coords 1324.62 23.199 1447.42
-  angleY -48.282
  }
  RHS_AFRF_Squad3 {
   components {
    PS_GroupCallsignAssigner "{6454F7D129837B5A}" {
     m_iCompanyCallsign 1
+    m_iSquadCallsign 2
    }
   }
-  coords 959.12 4.463 1408.247
-  angleY -137.024
+  coords 1345.391 28.829 1492.167
+  angles 0 -59.202 0
   m_aUnitPrefabSlots {
-   "{0DF8C7583D0AAA9A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_SL_v2.et" "{2EBF7FD7B32EE3FA}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_SR.et" "{E6870BF19DB0632C}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_AT.et" "{C0F50DDFB6CFA87B}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_AAT.et" "{9CBAF5396A6DDC9C}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_MG_opt.et" "{FAC6AB61E4CA97F5}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_MGAB.et" "{2836211FE98BA458}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_Rifleman.et" "{3E2F6230E4397D70}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_AR.et" "{33FA1C11138E145A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_GL.et"
+   "{F51C2B398E0ABCA4}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/Regular/Role_Character_AFRF_SL_Winter.et"
+   "{B285B88A7D4F7711}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/Regular/Role_Character_AFRF_SR_Winter.et"
+   "{1301553C32A482A7}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/Regular/Role_Character_AFRF_AT_Winter.et"
+   "{6EE0D2B880D46D7C}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/Regular/Role_Character_AFRF_AAT_Winter.et"
+   "{993773CBE86B08D9}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/Regular/Role_Character_AFRF_MGOpt_Winter.et"
+   "{02C4A5C33528645D}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/Regular/Role_Character_AFRF_MGAB_Winter.et"
+   "{F667194FFD03FA0D}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/Regular/Role_Character_AFRF_Rifleman_Winter.et"
+   "{111838A91B409A08}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_CrewGunner.et"
+   "{F6339F4933B793A5}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_CrewDriver.et"
   }
  }
  RHS_AFRF_Squad4 {
   components {
    PS_GroupCallsignAssigner "{6454F7D129837B5A}" {
     m_iCompanyCallsign 1
+   }
+  }
+  coords 1307.977 19.429 1452.659
+  angles 0 -51.157 0
+  m_aUnitPrefabSlots {
+   "{F51C2B398E0ABCA4}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/Regular/Role_Character_AFRF_SL_Winter.et"
+   "{B285B88A7D4F7711}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/Regular/Role_Character_AFRF_SR_Winter.et"
+   "{1301553C32A482A7}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/Regular/Role_Character_AFRF_AT_Winter.et"
+   "{6EE0D2B880D46D7C}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/Regular/Role_Character_AFRF_AAT_Winter.et"
+   "{993773CBE86B08D9}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/Regular/Role_Character_AFRF_MGOpt_Winter.et"
+   "{02C4A5C33528645D}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/Regular/Role_Character_AFRF_MGAB_Winter.et"
+   "{F667194FFD03FA0D}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/Regular/Role_Character_AFRF_Rifleman_Winter.et"
+   "{111838A91B409A08}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_CrewGunner.et"
+   "{F6339F4933B793A5}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_CrewDriver.et"
+  }
+ }
+ RHS_AFRF_Squad5 {
+  components {
+   PS_GroupCallsignAssigner "{6454F7D129837B5A}" {
+    m_iCompanyCallsign 2
+   }
+  }
+  coords 951.733 4.463 1382.483
+  angles 0 -133.808 0
+  m_aUnitPrefabSlots {
+   "{F51C2B398E0ABCA4}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/Regular/Role_Character_AFRF_SL_Winter.et"
+   "{B285B88A7D4F7711}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/Regular/Role_Character_AFRF_SR_Winter.et"
+   "{1301553C32A482A7}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/Regular/Role_Character_AFRF_AT_Winter.et"
+   "{6EE0D2B880D46D7C}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/Regular/Role_Character_AFRF_AAT_Winter.et"
+   "{993773CBE86B08D9}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/Regular/Role_Character_AFRF_MGOpt_Winter.et"
+   "{02C4A5C33528645D}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/Regular/Role_Character_AFRF_MGAB_Winter.et"
+   "{F667194FFD03FA0D}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/Regular/Role_Character_AFRF_Rifleman_Winter.et"
+   "{F667194FFD03FA0D}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/Regular/Role_Character_AFRF_Rifleman_Winter.et"
+   "{D678E4A55C559D79}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/Regular/Role_Character_AFRF_Sniper_Winter.et"
+  }
+ }
+ RHS_AFRF_Squad6 {
+  components {
+   PS_GroupCallsignAssigner "{6454F7D129837B5A}" {
+    m_iCompanyCallsign 2
     m_iSquadCallsign 1
    }
   }
-  coords 987.729 4.463 1392.145
-  angleY -134.256
+  coords 880.161 4.375 1361.541
+  angles 0 137.615 0
   m_aUnitPrefabSlots {
-   "{0DF8C7583D0AAA9A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_SL_v2.et" "{2EBF7FD7B32EE3FA}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_SR.et" "{E6870BF19DB0632C}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_AT.et" "{C0F50DDFB6CFA87B}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_AAT.et" "{9CBAF5396A6DDC9C}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_MG_opt.et" "{FAC6AB61E4CA97F5}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_MGAB.et" "{2836211FE98BA458}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_Rifleman.et" "{3E2F6230E4397D70}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_AR.et" "{33FA1C11138E145A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_GL.et"
+   "{F51C2B398E0ABCA4}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/Regular/Role_Character_AFRF_SL_Winter.et"
+   "{B285B88A7D4F7711}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/Regular/Role_Character_AFRF_SR_Winter.et"
+   "{1301553C32A482A7}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/Regular/Role_Character_AFRF_AT_Winter.et"
+   "{6EE0D2B880D46D7C}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/Regular/Role_Character_AFRF_AAT_Winter.et"
+   "{993773CBE86B08D9}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/Regular/Role_Character_AFRF_MGOpt_Winter.et"
+   "{02C4A5C33528645D}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/Regular/Role_Character_AFRF_MGAB_Winter.et"
+   "{F667194FFD03FA0D}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/Regular/Role_Character_AFRF_Rifleman_Winter.et"
+   "{F667194FFD03FA0D}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/Regular/Role_Character_AFRF_Rifleman_Winter.et"
+   "{D678E4A55C559D79}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/Regular/Role_Character_AFRF_Sniper_Winter.et"
   }
  }
-}
-SCR_AIGroup RHS_AFRF_SniperTeam : "{9C4C758203A42706}Prefabs/Groups/OPFOR/drg_AFRF_GRU.et" {
- components {
-  PS_GroupCallsignAssigner "{6454F7D129837B5A}" {
-   m_iCompanyCallsign 3
-  }
- }
- coords 1225.206 19.513 1303.793
- m_aUnitPrefabSlots {
-  "{493F72102D5E0F98}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/GRU/Ligth/drg_Role_RHS_AFRF_GRU_SL.et" "{18E5431BC976B948}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/GRU/Ligth/drg_Role_RHS_AFRF_GRU_Sniper.et"
- }
- m_sCustomNameSet "Снайперская группа"
 }
