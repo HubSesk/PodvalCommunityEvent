@@ -1,0 +1,19 @@
+GenericEntity : "{F5EF4223ACA6169C}PrefabsEditable/Auto/Structures/Military/Flags/E_FlagPole_02_V1_AFRF.et" {
+ components {
+  SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+   m_aObjectiveNames {
+    "USAF_WIN"
+   }
+   m_bUseAdvanceGameState 1
+   m_sUseNotification 1
+  }
+  BaseActionsManagerComponent "{6202D4E6F133BF4A}" {
+   additionalActions {
+    PS_FlagChangeAction "{6202D4E6A53D4B3C}" {
+     Duration 5
+    }
+   }
+  }
+ }
+ coords 1856.614 7.324 2969.542
+}
