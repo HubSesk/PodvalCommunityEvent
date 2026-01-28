@@ -1,0 +1,55 @@
+GenericEntity : "{52327EA0926E4EC7}PrefabsEditable/Auto/Structures/Military/Flags/E_FlagPole_02_V1_USAF.et" {
+ components {
+  BaseActionsManagerComponent "{6202D4E6F133BF4A}" {
+   additionalActions {
+    PS_FlagChangeAction "{6202D4E6A53D4B3C}" {
+     Duration 10
+    }
+   }
+  }
+ }
+ coords 6552.469 290.895 5806.34
+}
+$grp SCR_EditorRestrictionZoneEntity : "{6144B0BE2EAC6897}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneMedium.et" {
+ {
+  coords 4391.339 236.461 7303.528
+ }
+ {
+  coords 7023.68 166.109 7185.336
+ }
+ {
+  coords 5238.284 349.787 5245.157
+ }
+ {
+  coords 5205.503 349.124 6488.444
+ }
+}
+$grp SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
+ {
+  coords 6528.045 283.029 5833.287
+  m_fWarnRadius 114
+  m_fZoneRadius 134
+  m_fZoneTeleportedRadius 144
+  {
+   GenericEntity {
+    ID "59D673B36B893D84"
+    components {
+     SCR_CustomAreaMeshComponent "{59D673B22B1EBC57}" {
+      m_bFollowTerrain 1
+      m_fRadius 104
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 4099.705 330.97 5446.108
+ }
+}
+SCR_EditorRestrictionZoneEntity : "{EF72FA7CD87618D5}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneSmall.et" {
+ coords 4883.501 380.329 6339.722
+}
+SCR_DestructibleBuildingEntity : "{F6FC9703E7F4FDCA}Prefabs/Structures/Military/Houses/ControlTowerMilitary_E_01/ControlTowerMilitary_E_01.et" {
+ coords 6546.894 0 5801.051
+ angles 0 -3.81 0
+}

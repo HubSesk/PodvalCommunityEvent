@@ -1,0 +1,88 @@
+$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ {
+  coords 6176.026 286.514 5511.581
+  m_sTitle "Правила и задачи"
+  m_sDescriptionLayout "{B6DE04F7CF7A95DA}UI/MissionDescription/DescriptionEditableScrollable.layout"
+  m_sTextData "ПРАВИЛА:"\
+  "1. Всем запрещено надевать форму, головные уборы, разгрузки, бронежилеты противника (рюкзаки можно);"\
+  "2. Миномету запрещено стрелять в течении 5 минут после фризтайма;"\
+  "3. Алексу Мэйсону запрещено брать разведданные;"\
+  "4. США и СССР ЗАПРЕЩЕНО первым открывать огонь по Алексу Мэйсону. РАЗРЕШЕНО в случае если он откроет по вам огонь первым (ОН ОДЕТ В ЧЕРНЫЙ КОСТЮМ)."\
+  ""\
+  "ЗАДАЧИ:"\
+  "• США: "\
+  " 1. Удержать базу США."\
+  ""\
+  "• FIA:"\
+  " 1. Захватить базу США."\
+  ""\
+  "ДОПОЛНИТЕЛЬНО:"\
+  " 1. Для захвата нужно поменять флаг в главном здании."
+  m_aVisibleForFactions {
+   "RHS_USAF"
+   "FIA"
+   ""
+  }
+  m_bEmptyFactionVisibility 1
+ }
+ {
+  coords 6176.026 286.514 5541.826
+  m_sTitle "Обстановка"
+  m_sDescriptionLayout "{B6DE04F7CF7A95DA}UI/MissionDescription/DescriptionEditableScrollable.layout"
+  m_sTextData "ПРАВИЛА:"\
+  "1. Всем запрещено надевать форму, головные уборы, разгрузки, бронежилеты противника (рюкзаки можно);"\
+  "2. Вертолету запрещено использовать тактику \"КАМИКАДЗЕ\";"\
+  "3. Алексу Мэйсону запрещено брать разведданные;"\
+  "4. США и СССР ЗАПРЕЩЕНО первым открывать огонь по Алексу Мэйсону. РАЗРЕШЕНО в случае если он откроет по вам огонь первым (ОН ОДЕТ В ЧЕРНЫЙ КОСТЮМ)."\
+  ""\
+  "ЗАДАЧИ:"\
+  "• США: "\
+  " 1. Удержать базу США."\
+  ""\
+  "• FIA:"\
+  " 1. Захватить базу США."\
+  ""\
+  "ДОПОЛНИТЕЛЬНО:"\
+  " 1. Всего 3 папки с разведдаными."
+  m_aVisibleForFactions {
+   "RHS_USAF"
+   "FIA"
+   ""
+  }
+  m_bEmptyFactionVisibility 1
+ }
+}
+$grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
+ {
+  coords 6286.723 315.123 5317.852
+  m_sTitle "База США захвачена"
+ }
+ {
+  coords 6255.128 315.123 5317.852
+  m_sTitle "База США удержана"
+  m_sFactionKey "RHS_USAF"
+ }
+}
+PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ coords 6546.534 294.833 5801.196
+ angles 0 86.117 0
+ m_sImageSetGlow "{E23427CAC80DA8B7}UI/Textures/Icons/icons_mapMarkersUI.imageset"
+ m_MarkerColor 0.502 0 0 1
+ m_sQuadName "flag-2"
+ m_fWorldSize 40
+ m_sDescription "Главное здание"
+ m_aVisibleForFactions {
+  "RHS_USAF"
+  "FIA"
+  ""
+ }
+ m_bVisibleForEmptyFaction 1
+}
+GenericEntity : "{E6FC6DD69FA3479F}Prefabs/System/DRG_MissionEndTimerPrefab.et" {
+ components {
+  DRG_MissionEndTimerComponent "{651B0839B21B3BBF}" {
+   m_iMissionTime 2700
+  }
+ }
+ coords 6271.956 302.565 5407.118
+}

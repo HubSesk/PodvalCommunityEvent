@@ -15,6 +15,9 @@ SCR_ChimeraCharacter : "{9646AE590958924A}Prefabs/Characters/Factions/BLUFOR/RHS
     LoadoutSlotInfo Hat {
      Prefab "{08A3BA5BE87F73F0}Prefabs/Characters/HeadGear/Helmet_OPSCORE/dim_OPSCORE_V4.2.et"
     }
+    LoadoutSlotInfo Back {
+     Prefab "{F711EA887715B39E}Prefabs/Items/Equipment/Backpacks/Spiritus_System_DeltaBag/GD_DeltaBag_MC.et"
+    }
     LoadoutSlotInfo Vest {
      Prefab "{29BE21A127AFC54D}Prefabs/Characters/Vests/RangerKits/Ranger_AR.et"
     }
@@ -64,8 +67,14 @@ SCR_ChimeraCharacter : "{9646AE590958924A}Prefabs/Characters/Factions/BLUFOR/RHS
       "{F20D1122BC5CD9F2}Prefabs/Weapons/Magazines/glock_magazine/Magazine_9x19_Glock_17rnd.et"
      }
     }
+    ItemsInitConfigurationItem "{687757CA89AF23F2}" {
+     TargetStorage "Back/GD_DeltaBag_MC.et"
+     PrefabsToSpawn {
+      "{06D722FC2666EB83}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_4Ball_1Tracer.et" "{06D722FC2666EB83}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_4Ball_1Tracer.et" "{06D722FC2666EB83}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_4Ball_1Tracer.et" "{06D722FC2666EB83}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_4Ball_1Tracer.et"
+     }
+    }
    }
   }
  }
- coords 3996.901 21.608 3667.865
+ coords 3989.257 281.656 9217.025
 }
