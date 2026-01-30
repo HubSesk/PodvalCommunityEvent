@@ -1,11 +1,15 @@
+ParticleEffectEntity {
+ coords 6703.051 137.598 2837.466
+ EffectPath "{C7C126B8FC38B083}Particles/Smoke_Building_Shop.ptc"
+}
 PolylineShapeEntity {
  components {
   PS_PolyZone "{687CC3E92B348B0D}" {
    m_mPolygonTexture "{62F4404928D33DB5}UI/layouts/Textures/Grid1b.edds"
-   m_cPolygonColor 0 0.502 0.125 1
+   m_cPolygonColor 0 0.125 0.502 1
    m_fPolygonUVScale 0.44
    m_mPolygonTextureBorder ""
-   m_cPolygonBorderColor 0 0.502 0.125 1
+   m_cPolygonBorderColor 0 0.125 0.502 1
    m_fPolygonBorderWidth 2
    m_aVisibleForFactions {
     "RHS_USAF"
@@ -40,4 +44,30 @@ PolylineShapeEntity {
   }
  }
  IsClosed 1
+}
+$grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
+ {
+  coords 6884.936 138.118 2544.974
+  m_sTitle "Перебежчик спасен"
+  m_iScore 50
+  m_sFactionKey "RHS_USAF"
+ }
+ {
+  coords 6880.637 138.118 2544.974
+  m_sTitle "Кейс с документами вывезен"
+  m_iScore 50
+  m_sFactionKey "RHS_USAF"
+ }
+ {
+  coords 6875.165 138.118 2544.974
+  m_sTitle "Кейс с документами возвращен"
+  m_iScore 75
+  m_sFactionKey "RHS_AFRF"
+ }
+ {
+  coords 6867.918 138.118 2544.974
+  m_sTitle "Перебежчик возвращен"
+  m_iScore 25
+  m_sFactionKey "RHS_AFRF"
+ }
 }

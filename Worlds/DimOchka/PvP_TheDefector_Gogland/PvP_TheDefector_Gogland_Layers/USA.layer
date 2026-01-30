@@ -37,7 +37,7 @@ $grp SCR_AIGroup : "{12488ED8CAB8DCDC}Prefabs/Groups/BLUFOR/DRG_Group_RHS_USAF_S
   m_aUnitPrefabSlots {
    "{E92400F870E9754A}Prefabs/Characters/Factions/INDFOR/CIV/dim_DoubleSpy_USAF.et"
   }
-  m_sCustomNameSet ""
+  m_sCustomNameSet "Охранник перебежчика"
  }
  {
   coords 6704.051 138.172 2851.056
@@ -57,10 +57,44 @@ $grp SCR_AIGroup : "{12488ED8CAB8DCDC}Prefabs/Groups/BLUFOR/DRG_Group_RHS_USAF_S
   }
   m_sCustomNameSet "Отряд Рейнджеров"
  }
+ {
+  coords 1183.291 3 5052.738
+  angles 0 33.321 0
+  m_aUnitPrefabSlots {
+   "{9B4D0736DB47A818}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/75th Ranger/Ranger_Modern/dim_US_Ranger_2014_SL.et"
+   "{9C8AFD67BDC112DB}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/75th Ranger/Ranger_Modern/dim_US_Ranger_2014_TL.et"
+   "{F6C5F629E9C30A0B}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/75th Ranger/Ranger_Modern/dim_US_Ranger_2014_AR.et"
+   "{FB1088081E746321}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/75th Ranger/Ranger_Modern/dim_US_Ranger_2014_GL.et"
+   "{9646AE590958924A}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/75th Ranger/Ranger_Modern/dim_US_Ranger_2014_Rifleman.et"
+   "{05C9EF5A8390DB32}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/75th Ranger/Ranger_Modern/dim_US_Ranger_2014_TL_2.et"
+   "{F6C5F629E9C30A0B}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/75th Ranger/Ranger_Modern/dim_US_Ranger_2014_AR.et"
+   "{276D95BDF1D88450}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/75th Ranger/Ranger_Modern/dim_US_Ranger_2014_Rifleman(LAT).et"
+  }
+  m_sCustomNameSet "Отряд Рейнджеров"
+ }
+ {
+  coords 1219.321 3 5058.147
+  angles 0 33.321 0
+  m_aUnitPrefabSlots {
+   "{9B4D0736DB47A818}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/75th Ranger/Ranger_Modern/dim_US_Ranger_2014_SL.et"
+   "{9C8AFD67BDC112DB}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/75th Ranger/Ranger_Modern/dim_US_Ranger_2014_TL.et"
+   "{F6C5F629E9C30A0B}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/75th Ranger/Ranger_Modern/dim_US_Ranger_2014_AR.et"
+   "{FB1088081E746321}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/75th Ranger/Ranger_Modern/dim_US_Ranger_2014_GL.et"
+   "{9646AE590958924A}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/75th Ranger/Ranger_Modern/dim_US_Ranger_2014_Rifleman.et"
+   "{05C9EF5A8390DB32}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/75th Ranger/Ranger_Modern/dim_US_Ranger_2014_TL_2.et"
+   "{F6C5F629E9C30A0B}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/75th Ranger/Ranger_Modern/dim_US_Ranger_2014_AR.et"
+   "{276D95BDF1D88450}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/75th Ranger/Ranger_Modern/dim_US_Ranger_2014_Rifleman(LAT).et"
+  }
+  m_sCustomNameSet "Отряд Рейнджеров"
+ }
 }
 Vehicle Ural1 : "{4597626AF36C0858}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320.et" {
  coords 6813.496 116.781 2948.477
  angles 0 -158.017 0
+}
+SCR_AIGroup : "{4A02B745F553821E}Prefabs/Groups/BLUFOR/drg_USAF_CompanyHQ.et" {
+ coords 1230.262 3 5050.832
+ angles 0 32.39 0
 }
 GenericEntity : "{647F0942FB2563E6}Prefabs/Misc/Laptop/Military_Laptop.et" {
  components {
@@ -104,9 +138,23 @@ GenericEntity : "{647F0942FB2563E6}Prefabs/Misc/Laptop/Military_Laptop.et" {
   }
  }
 }
+Vehicle AH6M_RKT1 : "{823CA4130CE90077}Prefabs/Vehicles/Helicopters/AH6M/AH6M_RKT.et" {
+ coords 1210.765 3.356 5031.131
+ angles 0 127.578 0
+}
 Vehicle S105_green1 : "{AD80FB47D868C775}Prefabs/Vehicles/Wheeled/S105/S105_green.et" {
  coords 6669.054 138.187 2865.1
  angles 0 -180 0
+}
+$grp Vehicle : "{AF950919C81D91B4}Prefabs/Vehicles/Helicopters/AH6M/MH6M.et" {
+ MH6M1 {
+  coords 1194.428 3.4 5060.104
+  angles 0 126.562 0
+ }
+ MH6M2 {
+  coords 1229.41 3 5058.316
+  angles 0 126.562 0
+ }
 }
 Vehicle UAZ469_covered_CIV_forest1 : "{B6D330E7E40FE7DD}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_covered_CIV_forest.et" {
  coords 6810.758 116.781 2940.267
@@ -114,11 +162,35 @@ Vehicle UAZ469_covered_CIV_forest1 : "{B6D330E7E40FE7DD}Prefabs/Vehicles/Wheeled
 }
 Vehicle S1203_cargo_yellow1 : "{E3AD3E9E60F2E061}Prefabs/Vehicles/Wheeled/S1203/S1203_cargo_yellow.et" {
  coords 6761.827 125.034 2887.542
- angles 0 50.977 0
+ angles -0.695 50.97 0.564
 }
 Vehicle S1203_transport_blue1 : "{F77C41245A580FD1}Prefabs/Vehicles/Wheeled/S1203/S1203_transport_blue.et" {
  coords 6800.048 125.227 2868.695
- angles 0 -102.831 0
+ angles 0.988 -102.756 4.357
+}
+$grp SCR_AIGroup : "{F7C8DEC665CB4038}Prefabs/Groups/BLUFOR/drg_USMC_HelicopterRocketCrew.et" {
+ {
+  coords 1190.987 3 5047.7
+  angles 0 34.354 0
+  m_aUnitPrefabSlots {
+   "{CFB9AD45454644A2}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_Pilot.et"
+  }
+ }
+ {
+  coords 1206.104 3 5021.016
+  angles 0 34.354 0
+  m_aUnitPrefabSlots {
+   "{CFB9AD45454644A2}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_Pilot.et"
+   "{A004F9F5E1F8E92F}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_CoPilot.et"
+  }
+ }
+ {
+  coords 1228.871 3 5051.842
+  angles 0 34.354 0
+  m_aUnitPrefabSlots {
+   "{CFB9AD45454644A2}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_Pilot.et"
+  }
+ }
 }
 SCR_AIGroup : "{F9652067979208AA}Prefabs/Groups/CIV/DRG_Group_CIV.et" {
  coords 6798.47 116.781 2941.314
@@ -126,4 +198,5 @@ SCR_AIGroup : "{F9652067979208AA}Prefabs/Groups/CIV/DRG_Group_CIV.et" {
  m_aUnitPrefabSlots {
   "{14DA791F201A3674}Prefabs/Characters/Factions/INDFOR/CIV/dim_Defector.et"
  }
+ m_sCustomNameSet "Перебежчик Куракин"
 }
