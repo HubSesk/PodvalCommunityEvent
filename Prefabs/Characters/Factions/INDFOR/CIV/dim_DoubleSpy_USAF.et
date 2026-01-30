@@ -1,0 +1,95 @@
+SCR_ChimeraCharacter : "{423248BE39EB8DE6}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_DenimJacket_2.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterFactionAffiliationComponent "{60DC952FF79A02F1}" {
+   "faction affiliation" "RHS_USAF"
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Двойной агент"
+    Icon "{E8EEAB263A5DEFA7}UI/Icons/spy.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{87D1627219526B86}Prefabs/Weapons/Rifles/AKM/Rifle_AKM.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{67662815EFF734DD}Prefabs/Characters/HeadGear/Hat_FlatCap_01/Hat_FlatCap_01_darkgrey.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{5BEE8146EAA1893B}Prefabs/Characters/Uniforms/Shirt_Turtleneck_01/Shirt_Turtleneck_01_DarkBlue_Dirty.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{D6652E45A8A86491}Prefabs/Characters/Vests/Vest_TV119/Vest_TV119_OD.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{6B7F32F1F8A191B0}Prefabs/Characters/Uniforms/Pants_Pilot_USSR_01/Pants_Pilot_USSR_01_tucked.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{DF86A4BBACA2B9A2}Prefabs/Characters/Vests/Vest_TV119/variants/Vest_TV119_mp105_OD_2.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{60DCBCECAC6C6E65}" {
+     TargetStorage "Pants/Pants_Pilot_USSR_01_tucked.et"
+     PrefabsToSpawn {
+      "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6454F7A57B363F47}" {
+     TargetStorage "Pants/Pants_Pilot_USSR_01_tucked.et"
+     PrefabsToSpawn {
+      "{922F95F91943F69A}Prefabs/Items/Equipment/Maps/Map_Paper_01/PaperMap_01_folded_US.et" "{61D4F80E49BF9B12}Prefabs/Items/Equipment/Compass/Compass_SY183.et" "{F088066F5F807748}Prefabs/Weapons/Attachments/Bayonets/Bayonet_OKC3S.et"
+     }
+    }
+    ItemsInitConfigurationItem "{687CC3F3BF18B4B2}" {
+     TargetStorage "Pants/Pants_Pilot_USSR_01_tucked.et"
+     PrefabsToSpawn {
+      "{C742BD6CB3D77A5A}Prefabs/Items/Equipment/Radios/drg_Radio_ANPRC152A_OLD_SL.et"
+     }
+    }
+    ItemsInitConfigurationItem "{687CC3F3CFA0C35C}" {
+     TargetStorage "Vest/Vest_TV119_mp105_OD_2.et/mp105_1/Pouch_wartech_magpouch_mp117_od.et"
+     PrefabsToSpawn {
+      "{B9E3B9B143A43A79}Prefabs/Weapons/Magazines/AKM/Magazine_AK_762x39_AK55_30rnd.et"
+     }
+    }
+    ItemsInitConfigurationItem "{687CC3F3D8DCE784}" {
+     TargetStorage "Vest/Vest_TV119_mp105_OD_2.et/mp105_2/Pouch_wartech_magpouch_mp117_od_2.et"
+     PrefabsToSpawn {
+      "{B9E3B9B143A43A79}Prefabs/Weapons/Magazines/AKM/Magazine_AK_762x39_AK55_30rnd.et"
+     }
+    }
+    ItemsInitConfigurationItem "{687CC3F3EDF105FE}" {
+     TargetStorage "Vest/Vest_TV119_mp105_OD_2.et/mp105_3/Pouch_wartech_magpouch_mp117_od_3.et"
+     PrefabsToSpawn {
+      "{B9E3B9B143A43A79}Prefabs/Weapons/Magazines/AKM/Magazine_AK_762x39_AK55_30rnd.et"
+     }
+    }
+    ItemsInitConfigurationItem "{687CC3F3F00BC27A}" {
+     TargetStorage "Vest/Vest_TV119_mp105_OD_2.et/pistol2/Pouch_wartech_magpouch_mp117_od_2.et"
+     PrefabsToSpawn {
+      "{B9E3B9B143A43A79}Prefabs/Weapons/Magazines/AKM/Magazine_AK_762x39_AK55_30rnd.et"
+     }
+    }
+    ItemsInitConfigurationItem "{687CC3F3F9AB1FA8}" {
+     TargetStorage "Vest/Vest_TV119_mp105_OD_2.et/rgd1/Pouch_wartech_magpouch_mp117_od_3.et"
+     PrefabsToSpawn {
+      "{B9E3B9B143A43A79}Prefabs/Weapons/Magazines/AKM/Magazine_AK_762x39_AK55_30rnd.et"
+     }
+    }
+    ItemsInitConfigurationItem "{687CC3F2A1007FA4}" {
+     TargetStorage "Jacket/Shirt_Turtleneck_01_DarkBlue_Dirty.et"
+     PrefabsToSpawn {
+      "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et"
+     }
+    }
+   }
+  }
+ }
+ coords 6791.452 116.781 2930.631
+}

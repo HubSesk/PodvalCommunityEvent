@@ -1,0 +1,46 @@
+SCR_ChimeraCharacter : "{783503FB32DD508F}Prefabs/Characters/Factions/CIV/Businessman/Character_CIV_Businessman_3.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Перебежчик"
+    Icon "{235763A94E6463A0}UI/Icons/diplomat.edds"
+   }
+  }
+  SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
+   Override 1
+   Identity Identity "{5584CBC6363C648B}" {
+    VisualIdentity VisualIdentity "{56E6D9456009D1C4}" {
+     Head "{143245D81F2BAB94}Prefabs/Characters/Heads/Head_White_10.et"
+    }
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Jacket {
+     Prefab "{52AB6EC3FE535303}Prefabs/Characters/Uniforms/Jacket_Suit_01/Jacket_Suit_01_Brown_V1.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{E65D5C9848AC18E9}Prefabs/Characters/Uniforms/Pants_Suit_01/Pants_Suit_01_brown_V1.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{60DCBCECAC6C6E65}" {
+     TargetStorage "Jacket/Jacket_Suit_01_Brown_V1.et"
+     PrefabsToSpawn {
+      "{922F95F91943F69A}Prefabs/Items/Equipment/Maps/Map_Paper_01/PaperMap_01_folded_US.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6454F7A57B363F47}" {
+     TargetStorage "Pants/Pants_Suit_01_brown_V1.et"
+     PrefabsToSpawn {
+      "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
+     }
+    }
+   }
+  }
+ }
+ coords 6765.963 124.94 2889.86
+}

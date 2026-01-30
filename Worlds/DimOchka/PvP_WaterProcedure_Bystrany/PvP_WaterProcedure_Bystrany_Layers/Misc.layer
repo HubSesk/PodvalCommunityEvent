@@ -40,6 +40,15 @@ $grp GenericEntity : "{BBF0EC642398307F}Prefabs/Structures/BuildingParts/Eletric
  }
 }
 GenericEntity : "{F9EBA10CC445ED63}PrefabsEditable/Auto/Structures/Military/Flags/FlagPole_02_V1_CDF_Editable.et" {
+ components {
+  BaseActionsManagerComponent "{6202D4E6F133BF4A}" {
+   additionalActions {
+    PS_FlagChangeAction "{6202D4E6A53D4B3C}" {
+     Duration 6
+    }
+   }
+  }
+ }
  coords 4762.558 237.124 10272.679
  angles 0 0 44.97
 }
