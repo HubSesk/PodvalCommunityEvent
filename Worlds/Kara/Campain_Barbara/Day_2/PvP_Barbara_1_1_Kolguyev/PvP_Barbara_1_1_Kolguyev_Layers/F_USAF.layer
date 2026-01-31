@@ -10,16 +10,36 @@ $grp Vehicle : "{00BC1E407D536A34}Prefabs/Vehicles/Helicopters/UH1H/UH1H_armed_s
   m_sAttachmentGroupName "USAF_301"
  }
 }
-$grp GenericEntity : "{0A6B5B1CC60EC137}Prefabs/Props/Wrecks/LAV25_wreck/LAV25_wreck_static.et" {
- {
-  coords 6460.25 10.713 3430.656
-  angles 0 109.873 0
+$grp Vehicle : "{03708F7E58BB7A53}Prefabs/Vehicles/Wheeled/M998/M1151_armed_M2HB.et" {
+ USAF_200_W {
+  coords 3736.647 220.281 5438.115
+  angles 0 152.274 0
+  m_sAttachmentGroupName "USAF_200"
  }
- {
-  coords 6621.521 3.064 3470.706
+ USAF_201_W {
+  coords 3726.323 220.281 5456.456
+  angles 0 148.921 0
+  m_sAttachmentGroupName "USAF_201"
  }
- {
-  coords 6535.174 25.089 3882.255
+ USAF_202_W {
+  coords 3715.297 220.261 5475.325
+  angles -0.462 148.91 -0.767
+  m_sAttachmentGroupName "USAF_202"
+ }
+ USAF_100_W {
+  coords 2683.107 24.219 5445.124
+  angles 0 179.227 0
+  m_sAttachmentGroupName "USAF_100"
+ }
+ USAF_101_W {
+  coords 2682.81 24.219 5464.542
+  angles 0 179.227 0
+  m_sAttachmentGroupName "USAF_101"
+ }
+ USAF_102_W {
+  coords 2682.275 24.219 5484.834
+  angles 0 179.227 0
+  m_sAttachmentGroupName "USAF_102"
  }
 }
 $grp SCR_AIGroup : "{12488ED8CAB8DCDC}Prefabs/Groups/BLUFOR/DRG_Group_RHS_USAF_Squad.et" {
@@ -32,11 +52,11 @@ $grp SCR_AIGroup : "{12488ED8CAB8DCDC}Prefabs/Groups/BLUFOR/DRG_Group_RHS_USAF_S
   coords 2641.61 24.219 5464.534
   angles 0 -90 0
   m_aUnitPrefabSlots {
-   "{6ADE479198424DC3}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Recon/Kara_Role_RHS_USAF_Recon_SL.et"
-   "{17C6AB69FDD1715A}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Recon/Kara_Role_RHS_USAF_Recon_SR.et"
-   "{A8011ABFE9298F25}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Recon/Kara_Role_RHS_USAF_Recon_Grenadier.et"
+   "{CEDCC068342815AB}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Recon/drg_Role_RHS_USAF_Recon_SL.et"
+   "{B3C42C9051BB2932}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Recon/drg_Role_RHS_USAF_Recon_SR.et"
+   "{3C517FA8422C4B0A}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Recon/drg_Role_RHS_USAF_Recon_Grenadier.et"
    "{228A32C7A4FFE3A1}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Recon/drg_Role_RHS_USAF_Recon_Sniper.et"
-   "{DC35C22F3865A71C}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Recon/Kara_Role_RHS_USAF_Recon_Rifleman.et"
+   "{9C7B97483A24CEF9}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Recon/drg_Role_RHS_USAF_Recon_Rifleman.et"
   }
   m_sCustomNameSet "Спецназ"
  }
@@ -50,11 +70,11 @@ $grp SCR_AIGroup : "{12488ED8CAB8DCDC}Prefabs/Groups/BLUFOR/DRG_Group_RHS_USAF_S
   coords 2641.209 24.219 5515.738
   angles 0 -90 0
   m_aUnitPrefabSlots {
-   "{6ADE479198424DC3}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Recon/Kara_Role_RHS_USAF_Recon_SL.et"
-   "{17C6AB69FDD1715A}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Recon/Kara_Role_RHS_USAF_Recon_SR.et"
-   "{A8011ABFE9298F25}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Recon/Kara_Role_RHS_USAF_Recon_Grenadier.et"
+   "{CEDCC068342815AB}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Recon/drg_Role_RHS_USAF_Recon_SL.et"
+   "{B3C42C9051BB2932}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Recon/drg_Role_RHS_USAF_Recon_SR.et"
+   "{3C517FA8422C4B0A}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Recon/drg_Role_RHS_USAF_Recon_Grenadier.et"
    "{228A32C7A4FFE3A1}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Recon/drg_Role_RHS_USAF_Recon_Sniper.et"
-   "{DC35C22F3865A71C}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Recon/Kara_Role_RHS_USAF_Recon_Rifleman.et"
+   "{9C7B97483A24CEF9}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Recon/drg_Role_RHS_USAF_Recon_Rifleman.et"
   }
   m_sCustomNameSet "Спецназ"
  }
@@ -205,20 +225,6 @@ $grp SCR_AIGroup : "{12488ED8CAB8DCDC}Prefabs/Groups/BLUFOR/DRG_Group_RHS_USAF_S
   }
  }
 }
-$grp GenericEntity : "{1D8C5F27C641CC98}PrefabLibrary/DefaultLibrary/Props/Military/M998_wreck.et" {
- {
-  coords 6634.962 24.292 3822.775
-  angles 0 51.108 0
- }
- {
-  coords 6625.518 24.292 3813.896
-  angles 0 81.923 0
- }
- {
-  coords 6634.962 24.292 3822.775
-  angles 0 51.108 0
- }
-}
 $grp Vehicle : "{27E2E58E734A80EC}Prefabs/Vehicles/Wheeled/M998/M1025_MERDC.et" {
  USAF_100_W_0 {
   coords 2683.075 24.219 5452.341
@@ -258,60 +264,8 @@ SCR_AIGroup USAF_000 : "{4A02B745F553821E}Prefabs/Groups/BLUFOR/drg_USAF_Company
   "{741676D36040EA84}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_Rifleman.et"
  }
 }
-$grp GenericEntity : "{E98385D7F126474C}Prefabs/Props/Wrecks/UH1H_wreck/UH1H_wreck_02_static.et" {
- {
-  coords 6652.574 2.47 3409.302
- }
- {
-  coords 6589.735 43.243 3864.691
- }
- {
-  coords 6623.708 25.037 3897.972
-  angles 0 94.117 0
- }
- {
-  coords 6610.774 2.655 3376.3
-  angles 0 111.224 0
- }
- {
-  coords 6827.896 2.094 3508.678
-  angles 0 -98.408 0
- }
-}
-$grp Vehicle : "{FA6820A9A52CD05B}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_MDO_USAF.et" {
- USAF_000_W {
-  coords 2683.345 24.219 5435.143
-  angles 0 179.416 0
-  m_sAttachmentGroupName "USAF_000"
- }
- USAF_100_W {
-  coords 2683.13 24.219 5445.131
-  angles 0 178.049 0
-  m_sAttachmentGroupName "USAF_100"
- }
- USAF_101_W {
-  coords 2682.818 24.219 5465.134
-  angles 0 178.744 0
-  m_sAttachmentGroupName "USAF_101"
- }
- USAF_102_W {
-  coords 2682.417 24.219 5485.173
-  angles 0 179.402 0
-  m_sAttachmentGroupName "USAF_102"
- }
- USAF_200_W {
-  coords 3735.715 220.281 5439.789
-  angles 0 151.051 0
-  m_sAttachmentGroupName "USAF_200"
- }
- USAF_201_W {
-  coords 3725.086 220.266 5459.004
-  angles 0.783 151.045 -0.433
-  m_sAttachmentGroupName "USAF_201"
- }
- USAF_202_W {
-  coords 3714.381 220.275 5476.751
-  angles -0.433 151.061 -0.783
-  m_sAttachmentGroupName "USAF_202"
- }
+Vehicle USAF_000_W : "{FA6820A9A52CD05B}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_MDO_USAF.et" {
+ coords 2683.345 24.219 5435.143
+ angles 0 179.416 0
+ m_sAttachmentGroupName "USAF_000"
 }

@@ -1,0 +1,91 @@
+$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ {
+  coords 2594.981 13.178 2770.201
+  m_sTitle "Условности Миссии"
+  m_sTextData "ВС РФ"\
+  ""\
+  "Запрещено взаимодействовать с флагами."\
+  ""\
+  "США:"\
+  ""\
+  "..."
+  m_aVisibleForFactions {
+   ""
+   "RHS_AFRF"
+   "RHS_ION"
+  }
+  m_bEmptyFactionVisibility 1
+ }
+ {
+  coords 3568.461 23.43 2740.376
+  m_sTitle "Цель Миссии"
+  m_sTextData "США:"\
+  ""\
+  "Нужно захватить Церковь."\
+  ""\
+  "Нужно захватить Склад."\
+  ""\
+  ""\
+  "ВС РФ:"\
+  ""\
+  "Нужно удержать Церковь."\
+  ""\
+  "Нужно удержать Склад."\
+  ""\
+  ""\
+  "Условие захвата:"\
+  ""\
+  "Для захвата нужно поднять флаг, флаг нельзя перезахватить.(За каждый флаг дают 50 очков)"
+  m_aVisibleForFactions {
+   ""
+   "RHS_AFRF"
+   "RHS_ION"
+  }
+  m_bEmptyFactionVisibility 1
+ }
+ {
+  coords 3545.578 23.562 2756.788
+  m_sTitle "Описание Миссии"
+  m_sTextData "ВС РФ закрепились в Церкви и на Складе, США хотят выбить их с этих позиций."
+  m_aVisibleForFactions {
+   ""
+   "RHS_AFRF"
+   "RHS_ION"
+  }
+  m_bEmptyFactionVisibility 1
+ }
+}
+$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ {
+  coords 4921.374 294.618 9442.868
+  angles 0 40.674 0
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0 0 1
+  m_sQuadName "flag-2"
+  m_fWorldSize 50
+  m_sDescription "Церковь"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   ""
+   "RHS_AFRF"
+   "RHS_USAF"
+  }
+  m_bVisibleForEmptyFaction 1
+ }
+ {
+  coords 4683.347 273.742 9508.664
+  angles 0 86.744 0
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0 0 1
+  m_sQuadName "flag-2"
+  m_fWorldSize 50
+  m_sDescription "Склад"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   ""
+   "RHS_AFRF"
+   "RHS_USAF"
+  }
+  m_bVisibleForEmptyFaction 1
+ }
+}

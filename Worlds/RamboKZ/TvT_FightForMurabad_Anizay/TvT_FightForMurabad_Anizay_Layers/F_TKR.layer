@@ -1,0 +1,199 @@
+Vehicle TKR_500_UAZ469 : "{5070B3749C7782D8}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_covered_CIV_JZD.et" {
+ coords 9546.516 39.152 1444.787
+ angles 0.21 60.038 -3.218
+ m_sAttachmentGroupName "TKR_500"
+}
+Vehicle TKR_400_UAZ469 : "{599DFCA424399DBF}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_uncovered_CIV_red.et" {
+ coords 9565.634 38.933 1428.152
+ angles 4.458 -40.491 -0.282
+ m_sAttachmentGroupName "TKR_400"
+}
+$grp Vehicle : "{5F112AA90CCA5367}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_Ses_TKR.et" {
+ TKR_301_BRDM2 {
+  coords 10183.515 24.883 1046.151
+  angles 5.016 -38.249 0.593
+  m_sAttachmentGroupName "TKR_301"
+ }
+ TKR_300_BRDM2 {
+  coords 10172.43 25.622 1058.654
+  angles -1.265 -43.292 -0.038
+  m_sAttachmentGroupName "TKR_300"
+ }
+}
+Vehicle TKR_201_Ural4320 : "{66241E0CEDFCEDFF}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered_CIV_orange.et" {
+ coords 9496.884 35.334 1504.668
+ angles -0.103 -49.908 -1.201
+ m_sAttachmentGroupName "TKR_201"
+}
+$grp SCR_AIGroup : "{7DE1C37237295281}Prefabs/Groups/INDFOR/Ses_TKR/drg_TKR_RifleSquad.et" {
+ TKR_200 {
+  components {
+   PS_GroupCallsignAssigner "{65154C1E6C2E8928}" {
+    m_iCompanyCallsign 2
+   }
+  }
+  coords 9501.272 35.406 1494.068
+  angles 0 43.501 0
+  m_aUnitPrefabSlots {
+   "{60B44C26D40826FA}Prefabs/Characters/Factions/INDFOR/TKR/DRG_TKR/drg_Character_Ses_TKR_SL.et"
+   "{1D2190752262203D}Prefabs/Characters/Factions/INDFOR/TKR/DRG_TKR/drg_Character_Ses_TKR_RTO.et"
+   "{7B1DE711B74EF26C}Prefabs/Characters/Factions/INDFOR/TKR/DRG_TKR/drg_Character_Ses_TKR_AT_Rand.et"
+   "{6B6FFA5A4E0E6959}Prefabs/Characters/Factions/INDFOR/TKR/DRG_TKR/drg_Character_Ses_TKR_MG_Rand.et"
+   "{09E76FAD9039185A}Prefabs/Characters/Factions/INDFOR/TKR/DRG_TKR/drg_Character_Ses_TKR_Rifleman_Rand.et"
+   "{2591824D3231A9C7}Prefabs/Characters/Factions/INDFOR/TKR/DRG_TKR/drg_Character_Ses_TKR_SR_Rand.et"
+   "{7B1DE711B74EF26C}Prefabs/Characters/Factions/INDFOR/TKR/DRG_TKR/drg_Character_Ses_TKR_AT_Rand.et"
+   "{6B6FFA5A4E0E6959}Prefabs/Characters/Factions/INDFOR/TKR/DRG_TKR/drg_Character_Ses_TKR_MG_Rand.et"
+   "{09E76FAD9039185A}Prefabs/Characters/Factions/INDFOR/TKR/DRG_TKR/drg_Character_Ses_TKR_Rifleman_Rand.et"
+   "{F3360FFE6C83EA37}Prefabs/Characters/Factions/INDFOR/TKR/DRG_TKR/drg_Character_Ses_TKR_Sniper.et"
+  }
+  m_sCustomNameSet "Пехотный отряд"
+ }
+ TKR_201 {
+  components {
+   PS_GroupCallsignAssigner "{65154C1E6C2E8928}" {
+    m_iCompanyCallsign 2
+    m_iSquadCallsign 1
+   }
+  }
+  coords 9490.748 35.408 1504.081
+  angles 0 41.001 0
+  m_aUnitPrefabSlots {
+   "{60B44C26D40826FA}Prefabs/Characters/Factions/INDFOR/TKR/DRG_TKR/drg_Character_Ses_TKR_SL.et"
+   "{1D2190752262203D}Prefabs/Characters/Factions/INDFOR/TKR/DRG_TKR/drg_Character_Ses_TKR_RTO.et"
+   "{7B1DE711B74EF26C}Prefabs/Characters/Factions/INDFOR/TKR/DRG_TKR/drg_Character_Ses_TKR_AT_Rand.et"
+   "{6B6FFA5A4E0E6959}Prefabs/Characters/Factions/INDFOR/TKR/DRG_TKR/drg_Character_Ses_TKR_MG_Rand.et"
+   "{09E76FAD9039185A}Prefabs/Characters/Factions/INDFOR/TKR/DRG_TKR/drg_Character_Ses_TKR_Rifleman_Rand.et"
+   "{2591824D3231A9C7}Prefabs/Characters/Factions/INDFOR/TKR/DRG_TKR/drg_Character_Ses_TKR_SR_Rand.et"
+   "{7B1DE711B74EF26C}Prefabs/Characters/Factions/INDFOR/TKR/DRG_TKR/drg_Character_Ses_TKR_AT_Rand.et"
+   "{6B6FFA5A4E0E6959}Prefabs/Characters/Factions/INDFOR/TKR/DRG_TKR/drg_Character_Ses_TKR_MG_Rand.et"
+   "{09E76FAD9039185A}Prefabs/Characters/Factions/INDFOR/TKR/DRG_TKR/drg_Character_Ses_TKR_Rifleman_Rand.et"
+   "{F3360FFE6C83EA37}Prefabs/Characters/Factions/INDFOR/TKR/DRG_TKR/drg_Character_Ses_TKR_Sniper.et"
+  }
+  m_sCustomNameSet "Пехотный отряд"
+ }
+ TKR_301 {
+  components {
+   PS_GroupCallsignAssigner "{65154C1E6C2E8928}" {
+    m_iCompanyCallsign 3
+    m_iSquadCallsign 1
+   }
+  }
+  coords 10178.996 25.076 1044.762
+  angles 1.624 53.514 0.339
+  m_aUnitPrefabSlots {
+   "{60B44C26D40826FA}Prefabs/Characters/Factions/INDFOR/TKR/DRG_TKR/drg_Character_Ses_TKR_SL.et"
+   "{1D2190752262203D}Prefabs/Characters/Factions/INDFOR/TKR/DRG_TKR/drg_Character_Ses_TKR_RTO.et"
+   "{09E76FAD9039185A}Prefabs/Characters/Factions/INDFOR/TKR/DRG_TKR/drg_Character_Ses_TKR_Rifleman_Rand.et"
+  }
+  m_sCustomNameSet "Отряд БРДМ"
+ }
+ TKR_300 {
+  components {
+   PS_GroupCallsignAssigner "{65154C1E6C2E8928}" {
+    m_iCompanyCallsign 3
+   }
+  }
+  coords 10169.532 25.587 1057.335
+  angles 1.644 49.48 0.224
+  m_aUnitPrefabSlots {
+   "{60B44C26D40826FA}Prefabs/Characters/Factions/INDFOR/TKR/DRG_TKR/drg_Character_Ses_TKR_SL.et"
+   "{1D2190752262203D}Prefabs/Characters/Factions/INDFOR/TKR/DRG_TKR/drg_Character_Ses_TKR_RTO.et"
+   "{09E76FAD9039185A}Prefabs/Characters/Factions/INDFOR/TKR/DRG_TKR/drg_Character_Ses_TKR_Rifleman_Rand.et"
+  }
+  m_sCustomNameSet "Отряд БРДМ"
+ }
+ TKR_401 {
+  components {
+   PS_GroupCallsignAssigner "{65154C1E6C2E8928}" {
+    m_iCompanyCallsign 4
+    m_iSquadCallsign 1
+   }
+  }
+  coords 9553.408 39.544 1438.253
+  angles 0 56.293 0
+  m_aUnitPrefabSlots {
+   "{8F1C3EB238CAEAF8}Prefabs/Characters/Factions/INDFOR/TKR/DRG_TKR/drg_Character_Ses_TKR_SL3.et"
+   "{1D2190752262203D}Prefabs/Characters/Factions/INDFOR/TKR/DRG_TKR/drg_Character_Ses_TKR_RTO.et"
+   "{7B1DE711B74EF26C}Prefabs/Characters/Factions/INDFOR/TKR/DRG_TKR/drg_Character_Ses_TKR_AT_Rand.et"
+   "{6B6FFA5A4E0E6959}Prefabs/Characters/Factions/INDFOR/TKR/DRG_TKR/drg_Character_Ses_TKR_MG_Rand.et"
+   "{09E76FAD9039185A}Prefabs/Characters/Factions/INDFOR/TKR/DRG_TKR/drg_Character_Ses_TKR_Rifleman_Rand.et"
+  }
+  m_sCustomNameSet "Рейдовая группа"
+ }
+ TKR_400 {
+  components {
+   PS_GroupCallsignAssigner "{65154C1E6C2E8928}" {
+    m_iCompanyCallsign 4
+   }
+  }
+  coords 9561.542 39.071 1427.055
+  angles 0 46.247 0
+  m_aUnitPrefabSlots {
+   "{8F1C3EB238CAEAF8}Prefabs/Characters/Factions/INDFOR/TKR/DRG_TKR/drg_Character_Ses_TKR_SL3.et"
+   "{1D2190752262203D}Prefabs/Characters/Factions/INDFOR/TKR/DRG_TKR/drg_Character_Ses_TKR_RTO.et"
+   "{7B1DE711B74EF26C}Prefabs/Characters/Factions/INDFOR/TKR/DRG_TKR/drg_Character_Ses_TKR_AT_Rand.et"
+   "{6B6FFA5A4E0E6959}Prefabs/Characters/Factions/INDFOR/TKR/DRG_TKR/drg_Character_Ses_TKR_MG_Rand.et"
+   "{09E76FAD9039185A}Prefabs/Characters/Factions/INDFOR/TKR/DRG_TKR/drg_Character_Ses_TKR_Rifleman_Rand.et"
+  }
+  m_sCustomNameSet "Рейдовая группа"
+ }
+ TKR_500 {
+  components {
+   PS_GroupCallsignAssigner "{65154C1E6C2E8928}" {
+    m_iCompanyCallsign 5
+   }
+  }
+  coords 9542.714 38.77 1448.751
+  angles 0 58.198 0
+  m_aUnitPrefabSlots {
+   "{60B44C26D40826FA}Prefabs/Characters/Factions/INDFOR/TKR/DRG_TKR/drg_Character_Ses_TKR_SL.et"
+   "{1D2190752262203D}Prefabs/Characters/Factions/INDFOR/TKR/DRG_TKR/drg_Character_Ses_TKR_RTO.et"
+  }
+  m_sCustomNameSet "Корнет"
+ }
+ TKR_100 {
+  components {
+   PS_GroupCallsignAssigner "{65154C1E6C2E8928}" {
+    m_iCompanyCallsign 1
+   }
+  }
+  coords 9541.924 39.14 1410.38
+  angles 0 -51.664 0
+  m_aUnitPrefabSlots +{
+   "{F3360FFE6C83EA37}Prefabs/Characters/Factions/INDFOR/TKR/DRG_TKR/drg_Character_Ses_TKR_Sniper.et"
+  }
+  m_sCustomNameSet "Пехотный отряд"
+ }
+ TKR_101 {
+  components {
+   PS_GroupCallsignAssigner "{65154C1E6C2E8928}" {
+    m_iCompanyCallsign 1
+    m_iSquadCallsign 1
+   }
+  }
+  coords 9531.475 39.085 1397.983
+  angles 0 -53.376 0
+  m_aUnitPrefabSlots +{
+   "{F3360FFE6C83EA37}Prefabs/Characters/Factions/INDFOR/TKR/DRG_TKR/drg_Character_Ses_TKR_Sniper.et"
+  }
+  m_sCustomNameSet "Пехотный отряд"
+ }
+ TKR_000 {
+  coords 9549.325 39.12 1420.412
+  angles 0 -63.589 0
+  m_aUnitPrefabSlots {
+   "{D18907EB472956F5}Prefabs/Characters/Factions/INDFOR/TKR/DRG_TKR/drg_Character_Ses_TKR_CL.et"
+  }
+  m_sCustomNameSet "Лидер боевиков"
+ }
+}
+Vehicle TKR_401_UAZ469 : "{9B3A89DD33FF0483}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_uncovered_CIV_blue.et" {
+ coords 9557.462 39.517 1439.266
+ angles 1.99 -32.512 -0.207
+ m_sAttachmentGroupName "TKR_401"
+}
+Vehicle TKR_200_Ural4320 : "{F66EAD0D2016B6BA}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered_CIV_blue.et" {
+ coords 9506.717 35.407 1493.104
+ angles 0.221 -46.143 1
+ m_sAttachmentGroupName "TKR_200"
+}

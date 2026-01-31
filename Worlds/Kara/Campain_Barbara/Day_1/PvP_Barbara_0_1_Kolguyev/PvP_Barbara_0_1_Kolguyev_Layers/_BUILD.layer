@@ -451,6 +451,9 @@ $grp StaticModelEntity : "{5824BC6E4A1AF407}Prefabs/Compositions/Misc/SubComposi
       Enabled 0
       m_bIsEnabled 0
      }
+     SCR_SoundDataComponent "{5C53391603B5CF41}" {
+      Enabled 0
+     }
      UniversalInventoryStorageComponent "{58A17A341AB8F069}" {
       Enabled 0
      }
@@ -505,6 +508,9 @@ $grp StaticModelEntity : "{5824BC6E4A1AF407}Prefabs/Compositions/Misc/SubComposi
      SCR_ResupplySupportStationComponent "{5E2CE1BA1701C633}" {
       Enabled 0
       m_bIsEnabled 0
+     }
+     SCR_SoundDataComponent "{5C53391603B5CF41}" {
+      Enabled 0
      }
      UniversalInventoryStorageComponent "{58A17A341AB8F069}" {
       Enabled 0
@@ -841,10 +847,6 @@ $grp GenericEntity : "{898B81D2B9E9B2DC}Prefabs/Compositions/Misc/FreeRoamBuildi
   angles 0 47.81 0
  }
 }
-GenericEntity : "{9AEB1E4AD352B78A}Prefabs/Compositions/Misc/SubCompositions/WoodenBoxCluttered_05.et" {
- coords 6655.317 27.144 3916.456
- angles 0 -10.457 0
-}
 $grp GenericEntity : "{9F9924B626C5FA2C}Prefabs/Compositions/Slotted/SlotRoadLarge/Checkpoint_L_USSR_01.et" {
  {
   coords 6288.547 14.875 3515.119
@@ -1005,15 +1007,6 @@ $grp GenericEntity : "{AA3F295D8E086A6D}Prefabs/Compositions/Misc/SubComposition
   coords 6660.313 26.363 3929.039
  }
 }
-$grp GenericEntity : "{B44BBBE082275ACD}Prefabs/Compositions/Misc/SubCompositions/WoodenBoxCluttered_04.et" {
- {
-  coords 6656.088 27.146 3917.339
- }
- {
-  coords 6652.698 27.145 3913.874
-  angles 0 67.341 0
- }
-}
 StaticModelEntity : "{B4C7CCE6E82150C0}Prefabs/Compositions/Misc/SubCompositions/ShelterStorage_Cluttered_USSR_02.et" {
  components {
   SCR_SlotCompositionComponent "{5706EA58D88A3589}" {
@@ -1061,6 +1054,37 @@ StaticModelEntity : "{B4C7CCE6E82150C0}Prefabs/Compositions/Misc/SubCompositions
 StaticModelEntity : "{B6D61E3EC914119E}Prefabs/Compositions/Misc/SubCompositions/Tent_Barrack_Camo_Cluttered_USSR_01.et" {
  coords 6658.203 25.999 3902.847
  angles 0.632 -45.021 -1.898
+ {
+  GenericEntity {
+   ID "58C28EA0C7635BA2"
+   components {
+    SCR_ArsenalComponent "{589F01C9C8D4A475}" {
+     Enabled 0
+    }
+    SCR_FactionAffiliationComponent "{5A50E7650A1AE9EC}" {
+     Enabled 0
+    }
+    SCR_ResourceComponent "{5E5ABDF371AE8B21}" {
+     Enabled 0
+    }
+    SCR_ResupplySupportStationComponent "{5E2CE1BA1701C633}" {
+     Enabled 0
+    }
+    SCR_SoundDataComponent "{5C53391603B5CF41}" {
+     Enabled 0
+    }
+    UniversalInventoryStorageComponent "{58A17A341AB8F069}" {
+     Enabled 0
+    }
+    SCR_ArsenalInventoryStorageManagerComponent "{58A0B19B1E191CC1}" {
+     Enabled 0
+    }
+    ActionsManagerComponent "{5476B36C403D4CC0}" {
+     Enabled 0
+    }
+   }
+  }
+ }
 }
 $grp GenericEntity : "{B90E5414AB7C325B}Prefabs/Props/Wrecks/BTR70_Wreck/BTR70_wreck_static.et" {
  {
@@ -1101,20 +1125,6 @@ $grp StaticModelEntity : "{C16C62041E2AAAB2}Prefabs/Structures/Military/Fortific
  }
  {
   coords 6541.153 0 3313.874
- }
-}
-$grp SCR_DestructibleEntity : "{C8A5C92E74ABB5EA}Prefabs/Props/Civilian/PicnicTable/PicnicTable_01.et" {
- {
-  coords 6655.769 26.248 3916.965
-  angles 0 45 0
- }
- {
-  coords 6654.103 26.248 3915.299
-  angles 0 45 0
- }
- {
-  coords 6652.432 26.248 3913.628
-  angles 0 45 0
  }
 }
 GenericEntity : "{CFFEB23FBEA00322}Prefabs/Props/Military/Sandbags/Sandbag_01_short_burlap.et" {
@@ -1215,6 +1225,37 @@ $grp GenericEntity : "{D2299274C13B1169}PrefabsEditable/Auto/Props/Military/Sand
 StaticModelEntity : "{DA822ADE75D09EB0}Prefabs/Compositions/Misc/SubCompositions/Tent_Barrack_Camo_Cluttered_USSR_02.et" {
  coords 6665.888 26.344 3909.415
  angles 0 -45 0
+ {
+  GenericEntity {
+   ID "58C28EA0D528BDCF"
+   components {
+    SCR_ArsenalComponent "{589F01C9C8D4A475}" {
+     Enabled 0
+    }
+    SCR_FactionAffiliationComponent "{5A50E7650A1AE9EC}" {
+     Enabled 0
+    }
+    SCR_ResourceComponent "{5E5ABDF371AE8B21}" {
+     Enabled 0
+    }
+    SCR_ResupplySupportStationComponent "{5E2CE1BA1701C633}" {
+     Enabled 0
+    }
+    SCR_SoundDataComponent "{5C53391603B5CF41}" {
+     Enabled 0
+    }
+    UniversalInventoryStorageComponent "{58A17A341AB8F069}" {
+     Enabled 0
+    }
+    SCR_ArsenalInventoryStorageManagerComponent "{58A0B19B1E191CC1}" {
+     Enabled 0
+    }
+    ActionsManagerComponent "{5476B36C403D4CC0}" {
+     Enabled 0
+    }
+   }
+  }
+ }
 }
 $grp GenericEntity : "{E98385D7F126474C}Prefabs/Props/Wrecks/UH1H_wreck/UH1H_wreck_02_static.et" {
  {
@@ -1245,164 +1286,6 @@ $grp GenericEntity : "{EECE34969CD3405F}Prefabs/Compositions/Misc/SubComposition
  {
   coords 6648.637 25.502 3889.474
   angles 0 -57.666 0
- }
-}
-$grp GenericEntity : "{F1FDD5669F4C26B2}Prefabs/Props/Military/AmmoBoxes/drg_AmmoBox_545.et" {
- {
-  components {
-   SCR_FilteredInventoryStorageComponent "{5476A2F100DF4EFF}" {
-    Attributes SCR_ItemAttributeCollection "{5476CDB2EAD8225E}" {
-     ItemDisplayName SCR_InventoryUIInfo "{64F707D10A95B574}" {
-      Name "Мешки с песком"
-     }
-    }
-    MultiSlots {
-     MultiSlotConfiguration "{64F707D11FA7A94D}" {
-      SlotTemplate InventoryStorageSlot "{64DCC2F489C88F5C}" {
-       Prefab "{07BC23F8D9223863}Prefabs/Items/Misc/Sandbags/Part_Sandbag_Burlap.et"
-      }
-      NumSlots 100
-     }
-     MultiSlotConfiguration "{6502C64ED28D7103}" {
-      SlotTemplate InventoryStorageSlot "{64DCC2F489C88F5C}" {
-       Enabled 0
-      }
-     }
-    }
-   }
-  }
-  coords 6633.108 24.822 3878.844
-  angles 0 44.631 0
- }
- {
-  components {
-   SCR_FilteredInventoryStorageComponent "{5476A2F100DF4EFF}" {
-    Attributes SCR_ItemAttributeCollection "{5476CDB2EAD8225E}" {
-     ItemDisplayName SCR_InventoryUIInfo "{64F707D10A95B574}" {
-      Name "Мешки с песком"
-     }
-    }
-    MultiSlots {
-     MultiSlotConfiguration "{64F707D11FA7A94D}" {
-      SlotTemplate InventoryStorageSlot "{64DCC2F489C88F5C}" {
-       Prefab "{07BC23F8D9223863}Prefabs/Items/Misc/Sandbags/Part_Sandbag_Burlap.et"
-      }
-      NumSlots 100
-     }
-     MultiSlotConfiguration "{6502C64ED28D7103}" {
-      SlotTemplate InventoryStorageSlot "{64DCC2F489C88F5C}" {
-       Enabled 0
-      }
-     }
-    }
-   }
-  }
-  coords 6640.078 24.936 3882.892
-  angles 0 44.631 0
- }
- {
-  components {
-   SCR_FilteredInventoryStorageComponent "{5476A2F100DF4EFF}" {
-    Attributes SCR_ItemAttributeCollection "{5476CDB2EAD8225E}" {
-     ItemDisplayName SCR_InventoryUIInfo "{64F707D10A95B574}" {
-      Name "Мешки с песком"
-     }
-    }
-    MultiSlots {
-     MultiSlotConfiguration "{64F707D11FA7A94D}" {
-      SlotTemplate InventoryStorageSlot "{64DCC2F489C88F5C}" {
-       Prefab "{07BC23F8D9223863}Prefabs/Items/Misc/Sandbags/Part_Sandbag_Burlap.et"
-      }
-      NumSlots 100
-     }
-     MultiSlotConfiguration "{6502C64ED28D7103}" {
-      SlotTemplate InventoryStorageSlot "{64DCC2F489C88F5C}" {
-       Enabled 0
-      }
-     }
-    }
-   }
-  }
-  coords 6623.711 25.184 3900.095
-  angles 0 44.631 0
- }
- {
-  components {
-   SCR_FilteredInventoryStorageComponent "{5476A2F100DF4EFF}" {
-    Attributes SCR_ItemAttributeCollection "{5476CDB2EAD8225E}" {
-     ItemDisplayName SCR_InventoryUIInfo "{64F707D10A95B574}" {
-      Name "Мешки с песком"
-     }
-    }
-    MultiSlots {
-     MultiSlotConfiguration "{64F707D11FA7A94D}" {
-      SlotTemplate InventoryStorageSlot "{64DCC2F489C88F5C}" {
-       Prefab "{07BC23F8D9223863}Prefabs/Items/Misc/Sandbags/Part_Sandbag_Burlap.et"
-      }
-      NumSlots 100
-     }
-     MultiSlotConfiguration "{6502C64ED28D7103}" {
-      SlotTemplate InventoryStorageSlot "{64DCC2F489C88F5C}" {
-       Enabled 0
-      }
-     }
-    }
-   }
-  }
-  coords 6736.293 3.094 3528.641
-  angles 0 134.995 0
- }
- {
-  components {
-   SCR_FilteredInventoryStorageComponent "{5476A2F100DF4EFF}" {
-    Attributes SCR_ItemAttributeCollection "{5476CDB2EAD8225E}" {
-     ItemDisplayName SCR_InventoryUIInfo "{64F707D10A95B574}" {
-      Name "Мешки с песком"
-     }
-    }
-    MultiSlots {
-     MultiSlotConfiguration "{64F707D11FA7A94D}" {
-      SlotTemplate InventoryStorageSlot "{64DCC2F489C88F5C}" {
-       Prefab "{07BC23F8D9223863}Prefabs/Items/Misc/Sandbags/Part_Sandbag_Burlap.et"
-      }
-      NumSlots 100
-     }
-     MultiSlotConfiguration "{6502C64ED28D7103}" {
-      SlotTemplate InventoryStorageSlot "{64DCC2F489C88F5C}" {
-       Enabled 0
-      }
-     }
-    }
-   }
-  }
-  coords 6758.6 2.776 3516.248
-  angles 0 44.631 0
- }
- {
-  components {
-   SCR_FilteredInventoryStorageComponent "{5476A2F100DF4EFF}" {
-    Attributes SCR_ItemAttributeCollection "{5476CDB2EAD8225E}" {
-     ItemDisplayName SCR_InventoryUIInfo "{64F707D10A95B574}" {
-      Name "Мешки с песком"
-     }
-    }
-    MultiSlots {
-     MultiSlotConfiguration "{64F707D11FA7A94D}" {
-      SlotTemplate InventoryStorageSlot "{64DCC2F489C88F5C}" {
-       Prefab "{07BC23F8D9223863}Prefabs/Items/Misc/Sandbags/Part_Sandbag_Burlap.et"
-      }
-      NumSlots 100
-     }
-     MultiSlotConfiguration "{6502C64ED28D7103}" {
-      SlotTemplate InventoryStorageSlot "{64DCC2F489C88F5C}" {
-       Enabled 0
-      }
-     }
-    }
-   }
-  }
-  coords 6746.479 3.033 3528.091
-  angles 0 44.631 0
  }
 }
 $grp GenericEntity : "{F35FFCC271B2E4FB}Prefabs/Compositions/Misc/SubCompositions/Tire_UAZ469_pile_01.et" {

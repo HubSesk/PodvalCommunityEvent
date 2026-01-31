@@ -1,0 +1,63 @@
+GameEntity : "{71E7740B57EBF025}Prefabs/Characters/HeadGear/Helmet_OPSCORE/OPSCORE_helmet_headphones_ss.et" {
+ ID "5112706CD4157AC7"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    LoadoutSlotInfo Goggles {
+     Enabled 0
+     Prefab "{26D6B02D8879F71E}Prefabs/Characters/HeadGear/All_Glasses/GD_Glasses_V1.et"
+    }
+    RHS_LoadoutSlotInfo Goggle {
+     Prefab "{26D6B02D8879F71E}Prefabs/Characters/HeadGear/All_Glasses/GD_Glasses_V1.et"
+     InspectionWidgetOffset 0 1.6901 0.0813
+     AreaType LoadoutGooglesArea "{687123B99ACF4AC8}" {
+     }
+     m_sInspectIconTexture "{8C5C7CED1FFCE9F6}UI/Textures/InventoryIcons/Inspection-gizmo-goggles-slot-UI.edds"
+    }
+    RHS_LoadoutSlotInfo BackVelcro {
+     PivotID "Head"
+     Offset 0 0.0729 0.1209
+     Angles -0.168 0 0
+     ChildPivotID "AttachmentPoint"
+     Prefab "{3D91801A97D4061E}Prefabs/Items/Equipment/Nightvision/PVS31/PVS_31_BatPack_BLK_MC.et"
+     InspectionWidgetOffset 0 1.72 -0.1675
+     AreaType RHS_LoadoutMediumVelcroSlotArea "{687123B9BDADFFDA}" {
+     }
+     m_bShouldUseCMorphedMesh 1
+     m_fMorphValue 0.6
+     m_sInspectIconTexture "{73E124B6750302C1}UI/Textures/InventoryIcons/Inspection-gizmo-backVelcro-slot-UI.edds"
+    }
+    RHS_LoadoutSlotInfo RightVelcro {
+     PivotID "Head"
+     Offset -0.0847 0.1703 -0.0106
+     Angles 30.3121 -90.48972 -0.1324
+     MergePhysics 1
+     Prefab "{B9E98F1464E93A9D}Prefabs/Items/Equipment/Patches/Patch_Blood_APos.et"
+     InspectionWidgetOffset 0.09 1.79 0
+     AreaType RHS_LoadoutMediumVelcroSlotArea "{687123B9F4D65646}" {
+     }
+     m_bShouldUseCMorphedMesh 1
+     m_fMorphValue 0.5
+     m_sInspectIconTexture "{72869FB002B6ABC2}UI/Textures/InventoryIcons/Inspection-gizmo-patch-slot-M-alt-UI.edds"
+    }
+    RHS_LoadoutSlotInfo BackVelcro2 {
+     PivotID "Head"
+     Offset 0 0.0675 0.1209
+     Prefab "{387E90715C817F1A}Prefabs/Characters/HeadGear/Helmet_Exfil/counterweight/Agilite_counterweight_Coy.et"
+    }
+    RHS_LoadoutSlotInfo TopVelcro {
+     PivotID "Head"
+     Offset 0 0.2025 0.0103
+     Angles 90 0 0
+     ChildPivotID "AttachmentPoint"
+     Prefab "{5F7EF7FEBC39B874}Prefabs/Items/Equipment/Nightvision/HelstarStrobe/Helstar.et"
+     InspectionWidgetOffset 0 1.83 -0.1
+     AreaType RHS_LoadoutTopVelcroSlotArea "{687123B82369C9B9}" {
+     }
+     m_sInspectIconTexture "{B336473966BE23BE}UI/Textures/InventoryIcons/Inspection-gizmo-top-velcro-slot-UI.edds"
+    }
+   }
+  }
+ }
+ coords 109.157 1 242.062
+}

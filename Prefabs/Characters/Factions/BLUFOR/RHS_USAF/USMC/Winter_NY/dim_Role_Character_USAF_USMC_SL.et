@@ -1,0 +1,50 @@
+SCR_ChimeraCharacter : "{1375176F64EF659A}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Winter_NY/Role_Character_USAF_USMC_Armored_Winter.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_SquadLeader"
+    Icon "{050728C9177A5921}UI/Icons/USMC.edds"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{F242B53504424296}Prefabs/Characters/HeadGear/All_Beanie/GD_Beanie_Beige.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{DD49E30B082C98CB}Prefabs/Characters/Uniforms/PCU_5lvl_Jacket/Jacket_PCU_5lvl_Base.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Enabled 0
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{DA9F58F75CE6E234}Prefabs/Characters/Uniforms/ACU_pants/ACU_pants_UCP.et"
+    }
+    LoadoutSlotInfo Vest {
+     Enabled 0
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6720F9CB5344D10E}" {
+     TargetStorage "Pants/ACU_pants_UCP.et"
+    }
+    ItemsInitConfigurationItem "{6720F9CB52FFCEB5}" {
+     TargetStorage "Pants/ACU_pants_UCP.et"
+    }
+    ItemsInitConfigurationItem "{6720F9CB52DA4A6E}" {
+     TargetStorage "Jacket/Jacket_PCU_5lvl_Base.et"
+    }
+    ItemsInitConfigurationItem "{6720F9CE79E73603}" {
+     TargetStorage "Jacket/Jacket_PCU_5lvl_Base.et"
+     PrefabsToSpawn {
+      "{C742BD6CB3D77A5A}Prefabs/Items/Equipment/Radios/drg_Radio_ANPRC152A_OLD_SL.et"
+     }
+    }
+   }
+  }
+ }
+ coords 2590.242 6.205 502.365
+}

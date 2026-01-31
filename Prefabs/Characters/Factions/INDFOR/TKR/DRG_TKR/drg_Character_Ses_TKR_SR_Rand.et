@@ -1,0 +1,50 @@
+SCR_ChimeraCharacter : "{A67F829645FE3164}Prefabs/Characters/Factions/INDFOR/TKR/drg_Character_Ses_TKR_Unarmed.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#DRG_TKR_Roles_TL"
+    Icon "{44B846FB4F46E36A}UI/Icons/team_leader.edds"
+   }
+   m_VariantData SCR_EditableEntityVariantData "{6587171440885E54}" {
+    m_bRandomizeDefaultVariant 0
+    m_aVariants {
+     SCR_EditableEntityVariant "{6587171440885E50}" {
+      m_sVariantPrefab "{301C0BE405B950D8}Prefabs/Characters/Factions/INDFOR/TKR/SR/drg_Character_Ses_TKR_SR_V1.et"
+     }
+     SCR_EditableEntityVariant "{6587171440885E5E}" {
+      m_sVariantPrefab "{5C483F04B97DDFF6}Prefabs/Characters/Factions/INDFOR/TKR/SR/drg_Character_Ses_TKR_SR_V2.et"
+     }
+     SCR_EditableEntityVariant "{6587171440885E5C}" {
+      m_sVariantPrefab "{B9D473FDB598489D}Prefabs/Characters/Factions/INDFOR/TKR/SR/drg_Character_Ses_TKR_SR_V3.et"
+     }
+     SCR_EditableEntityVariant "{6587171440885E5B}" {
+      m_sVariantPrefab "{84E056C5C0F4C1AA}Prefabs/Characters/Factions/INDFOR/TKR/SR/drg_Character_Ses_TKR_SR_V4.et"
+     }
+     SCR_EditableEntityVariant "{65871714AFB51039}" {
+      m_sVariantPrefab "{617C1A3CCC1156C1}Prefabs/Characters/Factions/INDFOR/TKR/SR/drg_Character_Ses_TKR_SR_V5.et"
+     }
+    }
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{87D1627219526B86}Prefabs/Weapons/Assault/AKM/Rifle_AKM.et"
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6587171440885E43}" {
+     TargetStorage "Vest/Vest_Type56.et"
+     PrefabsToSpawn {
+      "{D8125552E67B5C76}Prefabs/Weapons/Attachments/Magazines/AKM/Magazine_AK_762x39_6L10_30rnd.et" "{D8125552E67B5C76}Prefabs/Weapons/Attachments/Magazines/AKM/Magazine_AK_762x39_6L10_30rnd.et" "{D8125552E67B5C76}Prefabs/Weapons/Attachments/Magazines/AKM/Magazine_AK_762x39_6L10_30rnd.et" "{D8125552E67B5C76}Prefabs/Weapons/Attachments/Magazines/AKM/Magazine_AK_762x39_6L10_30rnd.et" "{D8125552E67B5C76}Prefabs/Weapons/Attachments/Magazines/AKM/Magazine_AK_762x39_6L10_30rnd.et" "{D8125552E67B5C76}Prefabs/Weapons/Attachments/Magazines/AKM/Magazine_AK_762x39_6L10_30rnd.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6587171440885E4F}" {
+     TargetStorage "Back/Backpack_Veshmeshok.et"
+     PrefabsToSpawn {
+      "{D8125552E67B5C76}Prefabs/Weapons/Attachments/Magazines/AKM/Magazine_AK_762x39_6L10_30rnd.et" "{D8125552E67B5C76}Prefabs/Weapons/Attachments/Magazines/AKM/Magazine_AK_762x39_6L10_30rnd.et" "{D8125552E67B5C76}Prefabs/Weapons/Attachments/Magazines/AKM/Magazine_AK_762x39_6L10_30rnd.et" "{D8125552E67B5C76}Prefabs/Weapons/Attachments/Magazines/AKM/Magazine_AK_762x39_6L10_30rnd.et" "{D8125552E67B5C76}Prefabs/Weapons/Attachments/Magazines/AKM/Magazine_AK_762x39_6L10_30rnd.et" "{D8125552E67B5C76}Prefabs/Weapons/Attachments/Magazines/AKM/Magazine_AK_762x39_6L10_30rnd.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+     }
+    }
+   }
+  }
+ }
+}

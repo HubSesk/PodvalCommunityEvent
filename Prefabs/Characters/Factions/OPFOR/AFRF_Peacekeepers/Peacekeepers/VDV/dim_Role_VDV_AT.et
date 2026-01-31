@@ -1,0 +1,60 @@
+SCR_ChimeraCharacter : "{81A46802F77A86E5}Prefabs/Characters/Factions/OPFOR/AFRF_Peacekeepers/Peacekeepers/VDV/Role_VDV_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#DRG-Role-AntiTank"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   AttachType InventoryStorageSlot "{0C3DA650B52E127A}" {
+    Offset 0.03 -0.3 -0.05
+    Angles 90 -90 90
+   }
+   WeaponTemplate "{E8A55396050E1762}Prefabs/Weapons/Launchers/RPG7/Launcher_RPG7_pgo7.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{B79061D6D55F3377}Prefabs/Characters/HeadGear/RUS_6b47/Prefabs/GD_6b47_cover_googles_mask_green.et"
+    }
+    LoadoutSlotInfo Back {
+     Enabled 1
+     Prefab "{6A39B5843B3F36DA}Prefabs/Items/Equipment/Backpacks/Backpack_RPG_Assistant.et"
+    }
+    LoadoutSlotInfo Belt {
+     Prefab "{6BE00E3EF60D76DB}Prefabs/Characters/Vests/AVS/GD_belt3.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6712BC02C0AF7E7D}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{6712BC02D8A26F81}" {
+     TargetStorage "Back/Backpack_RPG_Assistant.et"
+    }
+    ItemsInitConfigurationItem "{6712BC02D8E1BECF}" {
+     TargetStorage "Vest/Vest_Ratnik_6B45_rifleman.et/Pouch3/Pouch_Ratnik_ak_3_pouch.et"
+    }
+    ItemsInitConfigurationItem "{6712BC0349DCD9E9}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{6712BC0364E85768}" {
+     TargetStorage "Back/Backpack_RPG_Assistant.et"
+     PrefabsToSpawn {
+      "{3F8391F77D4E7AE8}Prefabs/Weapons/Attachments/Optics/1pn93/Optic_1PN93-2RPG.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6712BC24AD2A6105}" {
+     TargetStorage "Back/Backpack_RPG_Assistant.et"
+     PrefabsToSpawn {
+      "{FBBF84E3B447D822}Prefabs/Weapons/Ammo/RPG/RHS_AmmoRocket_PG7VL.et" "{FBBF84E3B447D822}Prefabs/Weapons/Ammo/RPG/RHS_AmmoRocket_PG7VL.et"
+     }
+    }
+   }
+  }
+ }
+ coords 5107.911 53.5 4756.366
+}

@@ -1,0 +1,144 @@
+SCR_AIWorld : "{672531FAC0834C06}Prefabs/AI/SCR_AIWorld_Cain.et" {
+ coords 6969.02 3.484 3758.007
+}
+PerceptionManager PerceptionManager2 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 6969.221 3.874 3764.981
+}
+PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
+ components {
+  PS_CutsceneManager "{60E6C661B81E7619}" {
+   m_aCutscenes {
+    PS_Cutscene "{66F41A03A3F0133C}" {
+     m_sCutsceneEntityName "KINO"
+     m_iCutsceneTime 58000
+    }
+   }
+  }
+ }
+ coords 6970.591 4.081 3774.427
+ m_bShowCutscene 1
+}
+$grp LightEntity {
+ Light11 {
+  coords 1918.444 133.515 7433.616
+  angles 17.688 93.5 0
+  Color 0.4829 0.5396 0.6863 1
+  LV 3.51
+  Type Spot
+  Radius 5.3
+  SpotAngle 32.83
+ }
+ Light12 {
+  coords 1918.244 133.43 7434.732
+  angles 17.489 84.619 -2.688
+  Color 0.4829 0.5396 0.6863 1
+  LV 3.51
+  Type Spot
+  Radius 5.3
+  SpotAngle 32.83
+ }
+}
+SCR_AIGroup : "{1F468430E5AB477E}Prefabs/Groups/BLUFOR/GreenBerets/Suppressed/Group_US_GreenBeret_ReconSquad.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "1"
+  }
+ }
+ coords 4863.864 1.864 10182.447
+}
+GenericEntity : "{702955C2148F24DC}Prefabs/Props/Amplion_Siren.et" {
+ components {
+  SCR_DestructionMultiPhaseComponent "{58F896B4CD371A8B}" {
+   Enabled 1
+   "Additional hit zones" {
+    SCR_HitZone Default {
+     ColliderNames {
+      "UCL_AmplionAddon_E_01_01"
+     }
+    }
+   }
+  }
+  RplComponent "{58FC7CAC2034C3E2}" {
+   Enabled 1
+  }
+ }
+ coords 2710.353 225.224 6975.42
+ angles 0 -25.687 0
+}
+GenericEntity : "{85B2A7E85CA6C656}Prefabs/Props/Services/PhoneWall_01/PhoneWall_01_grey.et" {
+ components {
+  SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+   Enabled 1
+   "Additional hit zones" {
+    SCR_HitZone Default {
+     ColliderNames {
+      "UBX_phoneWall_01_metal"
+     }
+    }
+   }
+  }
+  ActionsManagerComponent "{66FAB19A0A89DE25}" {
+   ActionContexts {
+    UserActionContext "{66FAB19A11DDE398}" {
+     ContextName "Siren"
+     Position PointInfo "{66FAB19A51D62BDA}" {
+     }
+     Radius 0.7
+     Omnidirectional 0
+    }
+   }
+   additionalActions {
+    SCR_PlayInstrument "{66FAB1988AB418A2}" {
+     ParentContextList {
+      "Siren"
+     }
+     UIInfo UIInfo "{66FAB19892AC6563}" {
+      Name "Siren"
+      Description "Activate Siren"
+     }
+     m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66FAB198964E093F}" {
+      m_sSoundProject "{6F18248533DE2C10}Sounds/Structures/Military/Sirens/Siren.acp"
+      m_sSoundEventName "SOUND_SIREN_LP"
+     }
+    }
+   }
+  }
+  RplComponent "{5624A88DC2D9928D}" {
+   Enabled 1
+  }
+ }
+ coords 2710.268 222.617 6975.501
+}
+$grp GenericEntity : "{A884FCC8E30726CC}Prefabs/Compositions/WeaponStorage/WeaponStorageAKM.et" {
+ {
+  coords 2201.822 126.244 7377.04
+  angles 0 2.353 0
+ }
+ {
+  coords 2225.795 126.244 7377.131
+ }
+ {
+  coords 2225.742 126.244 7377.121
+  angles 0 179.856 0
+ }
+}
+GenericEntity : "{A9DC69EC1CE466A0}Prefabs/Props/Civilian/Computer_E_01/Computer_E_01_on.et" {
+ coords 1949.264 135.108 7421.177
+ angles 0 -54.799 0
+ {
+  GenericEntity {
+   ID "620AA4AC9B735F5F"
+   components {
+    MeshObject "{5872F0EB7FA40561}" {
+     Materials {
+      MaterialAssignClass "{66FAB19CF0EE8392}" {
+       SourceMaterial "Computer_Screen_On"
+       AssignedMaterial "{7DC87C3B1E92999A}Assets/Props/Civilian/Computer_E_01/Data/Computer.emat"
+      }
+     }
+    }
+   }
+   coords 0 0.116 -0.089
+  }
+ }
+}

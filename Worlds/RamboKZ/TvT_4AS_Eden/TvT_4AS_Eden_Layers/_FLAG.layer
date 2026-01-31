@@ -1,0 +1,25 @@
+GenericEntity FLAG_ELECTRO : "{0DA9CD88C30EA2B2}PrefabsEditable/Auto/Structures/Military/Flags/E_FlagPole_02_V1_ION.et" {
+ components {
+  BaseActionsManagerComponent "{6202D4E6F133BF4A}" {
+   additionalActions {
+    PS_FlagChangeAction "{6202D4E6A53D4B3C}" {
+     Duration 15
+    }
+   }
+  }
+ }
+ coords 5821.912 20.415 9786.703
+}
+PS_ManualMarker FLAG_MARKER : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ coords 5822.788 20.442 9788.319
+ angles 0 90 0
+ m_sImageSet "{FDD5423E69D007F8}UI/Textures/Icons/icons_wrapperUI-128.imageset"
+ m_sImageSetGlow "{6980E83C053C9B5D}UI/Textures/Icons/icons_wrapperUI-128-glow.imageset"
+ m_MarkerColor 0.502 0 0 1
+ m_sQuadName "report"
+ m_fWorldSize 70
+ m_sDescription "Электростанция"
+ m_bUseWorldScale 0
+ m_bVisibleForEmptyFaction 1
+ m_bShowForAnyFaction 1
+}

@@ -1,0 +1,598 @@
+$grp LightEntity {
+ {
+  coords 1648.957 116.056 7388.82
+  angles 56.878 -84.336 0
+  Color 1 0.4851 0.4851 1
+  LV 7.35
+  Type Spot
+  Radius 16.2
+  SpotAngle 170
+ }
+ {
+  coords 1648.785 116.028 7386.23
+  angles 56.878 -84.336 0
+  LV 7.35
+  Type Spot
+  Radius 16.2
+  SpotAngle 170
+ }
+ {
+  coords 1649.166 116.082 7391.093
+  angles 56.878 -84.336 0
+  Color 1 0.0648 0.0648 1
+  LV 7.35
+  Type Spot
+  Radius 16.2
+  SpotAngle 170
+ }
+}
+GenericEntity : "{03DB06975F5F23B3}Prefabs/Props/Military/Posters/Poster_USSR_cutouts_dove.et" {
+ coords 1640.582 111.463 7392.308
+ angles 0 93.603 0
+}
+GenericEntity : "{0C1E367EF0151DE2}Prefabs/Props/Military/Furniture/Toilet_USSR_01/Excrement_01.et" {
+ coords 1652.503 111.557 7367.901
+}
+GenericEntity : "{0D1EEC1DD3F60163}Prefabs/Props/Military/Furniture/Toilet_USSR_01/Toilet_USSR_01.et" {
+ coords 1634.164 110.727 7375.139
+ angles 0 -92.005 0
+}
+GenericEntity : "{10BC0DF4C149DECC}Prefabs/Compositions/Misc/SubCompositions/Decorations/PalletPile_Stacked_01.et" {
+ coords 1639.692 110.688 7395.063
+ angles 0 -39.138 0
+}
+$grp GenericEntity : "{12D5AD21E383B768}Prefabs/Items/Fuel/Jerrycan_01/Jerrycan_01_item.et" {
+ {
+  components {
+   SCR_FuelManagerComponent "{5DF4E851BB96728E}" {
+    FuelNodes {
+     SCR_FuelNode "{5DF4E851B99B1EA4}" {
+      FuelType Kerosene
+      m_fInitialFuelTankState 10
+     }
+    }
+   }
+  }
+  coords 1660.637 110.851 7398.562
+  angles 0 107.772 0
+ }
+ {
+  components {
+   SCR_FuelManagerComponent "{5DF4E851BB96728E}" {
+    FuelNodes {
+     SCR_FuelNode "{5DF4E851B99B1EA4}" {
+      FuelType Petrol
+     }
+    }
+   }
+  }
+  coords 1640.99 110.688 7391.261
+  angles 0 43.074 0
+ }
+ {
+  components {
+   SCR_FuelManagerComponent "{5DF4E851BB96728E}" {
+    FuelNodes {
+     SCR_FuelNode "{5DF4E851B99B1EA4}" {
+      FuelType Kerosene
+      m_fInitialFuelTankState 10
+     }
+    }
+   }
+  }
+  coords 1660.47 110.851 7398.934
+  angles 0 49.278 0
+ }
+ {
+  components {
+   SCR_FuelManagerComponent "{5DF4E851BB96728E}" {
+    FuelNodes {
+     SCR_FuelNode "{5DF4E851B99B1EA4}" {
+      FuelType Petrol
+     }
+    }
+   }
+  }
+  coords 1640.893 110.688 7392.035
+  angles 0 -57.389 0
+ }
+ {
+  components {
+   SCR_FuelManagerComponent "{5DF4E851BB96728E}" {
+    FuelNodes {
+     SCR_FuelNode "{5DF4E851B99B1EA4}" {
+      FuelType Petrol
+     }
+    }
+   }
+  }
+  coords 1641.024 110.688 7390.73
+  angles 0 107.772 0
+ }
+}
+GenericEntity : "{133EDD8E42CECE3B}Prefabs/Structures/Military/Houses/Barracks_E_03/BuildingAddons/Barracks_E_03_glorybricks.et" {
+ coords 1648.642 116.096 7388.702
+ angles 0 93.471 0
+}
+GenericEntity : "{13B4C532861B9DE2}Prefabs/Props/Commercial/BeerKegMetal_01_big.et" {
+ coords 1640.472 110.688 7394.347
+}
+GenericEntity : "{16BC46CCF2EFF50A}Prefabs/Props/Civilian/GlassBeer_01/GlassBeer_01_set.et" {
+ coords 1639.806 111.704 7392.829
+ angles 0 66.963 0
+}
+GenericEntity : "{190101E6E60E7C47}Prefabs/Props/Civilian/BeerBottle_01_empty_green.et" {
+ coords 1640.303 111.712 7393.132
+}
+GenericEntity : "{1E232E182F772300}Prefabs/Props/Signs/Industrial/SignIndustrial_30x100_1_NoParking.et" {
+ coords 1646.234 112.983 7397.986
+ angles 16.351 90.305 -0.021
+}
+$grp GenericEntity : "{207B5E830AB77CB8}Prefabs/Compositions/Misc/SubCompositions/Decorations/CardboardBox_MRE_US_01.et" {
+ {
+  coords 1639.314 110.688 7390.954
+  angles 0 176.751 0
+  {
+   GenericEntity {
+    ID "5CB0F584A9457E98"
+    coords -0.296 0.488 -0.093
+    angles 0 -86.055 0
+   }
+   GenericEntity {
+    ID "5CB0F584A9457E92"
+    coords -0.246 0.404 -0.135
+    angles 0 0 180
+   }
+  }
+ }
+ {
+  coords 1639.959 110.688 7390.99
+  angles 0 176.751 0
+  {
+   GenericEntity {
+    ID "5CB0F584A9457E98"
+    coords -0.296 0.488 -0.093
+    angles 0 -86.055 0
+   }
+   GenericEntity {
+    ID "5CB0F584A9457E92"
+    coords -0.245 0.404 -0.135
+    angles 0 0 180
+   }
+  }
+ }
+}
+$grp DecalEntity : "{25AB7FF81B8EDEF9}Prefabs/Decals/Dirt/Decal_Dirt_Tracks_01.et" {
+ {
+  coords 1647.361 0.116 7397.379
+  angles -90 -180 -180
+  scale 10
+ }
+ {
+  coords 1644.528 0.001 7388.947
+  angles -90 -180 -180
+  scale 10
+ }
+ {
+  coords 1652.141 0.036 7387.937
+  angles -90 -180 -180
+  scale 10
+ }
+}
+GenericEntity : "{265A6993697C9FE7}Prefabs/Compositions/Misc/SubCompositions/Decorations/CableReel_Radio_01.et" {
+ coords 1639.394 110.697 7387.466
+ angles 0 0.296 0
+}
+GenericEntity : "{3AB2B7156B3A0F3D}Prefabs/Props/Agriculture/MilkCan_01.et" {
+ coords 1640.722 110.687 7391.678
+ angles 0 0 0
+}
+Vehicle Ural1 : "{4597626AF36C0858}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320.et" {
+ components {
+  SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+   FuelNodes {
+    SCR_FuelNode "{5622A70CD4036C5A}" {
+     m_fInitialFuelTankState 0
+    }
+    SCR_FuelNode "{5628CA84B129D4CE}" {
+     m_fInitialFuelTankState 0
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    SCR_WheelSlotInfo Wheel_L01 {
+     Enabled 0
+    }
+    SCR_WheelSlotInfo Wheel_L02 {
+     Enabled 0
+    }
+    SCR_WheelSlotInfo Wheel_L03 {
+     Enabled 0
+    }
+    SCR_WheelSlotInfo Wheel_R01 {
+     Enabled 0
+    }
+    SCR_WheelSlotInfo Wheel_R02 {
+     Enabled 0
+    }
+    SCR_WheelSlotInfo Wheel_R03 {
+     Enabled 0
+    }
+   }
+  }
+ }
+ coords 1644.217 110.718 7397.981
+ angles 0 89.823 0
+}
+SCR_DestructibleEntity : "{479B9FFED0E47362}Prefabs/Props/Commercial/SignPub_01_V3.et" {
+ coords 1644.853 110.696 7406.039
+ angles 0 -82.983 0
+}
+GenericEntity : "{4911553FA8356302}Prefabs/Props/Garbage/Generic/Junk_01/Junk_01_single_bricks.et" {
+ coords 1645.853 110.709 7398.094
+}
+GenericEntity : "{4AA83EC4D4CBB6FB}Prefabs/Props/Military/Posters/Poster_USSR_cutouts_V3.et" {
+ coords 1641.679 110.688 7392.783
+}
+GenericEntity : "{4BDA042EF625D93C}Prefabs/Structures/BuildingParts/Signs/SignMountainHotel_01/SignMountainHotel_01_panorama.et" {
+ coords 1645.604 110.943 7408.737
+ angles 13.676 -178.294 0
+}
+GenericEntity : "{4BF528DF7A469909}Prefabs/Props/Construction/PalletJack_01.et" {
+ coords 1644.752 110.688 7395.302
+}
+DecalEntity : "{4CC2CCC92714CB94}Prefabs/Decals/Dirt/Decal_Dirt_Patch_07_V2.et" {
+ coords 1646.088 0 7393.941
+ angles -90 -180 -180
+ scale 3
+}
+$grp GenericEntity : "{518D949FF287064B}Prefabs/Compositions/Misc/SubCompositions/Tire_UAZ469_Stack_01.et" {
+ {
+  coords 1640.225 110.691 7399.148
+ }
+ {
+  coords 1640.225 110.691 7398.323
+ }
+ {
+  coords 1640.225 111.079 7398.323
+ }
+ {
+  coords 1640.225 111.079 7399.17
+ }
+}
+StaticModelEntity : "{55A3DA68E58453A1}Prefabs/Structures/Military/Fortifications/DirtCover_01/DirtCover_01_long_v2.et" {
+ coords 1652.239 0.005 7367.895
+ angles 0 32.193 0
+}
+$grp GenericEntity : "{590D0CC992E8AC25}Prefabs/Compositions/Misc/SubCompositions/Decorations/Crate_Bottles_01.et" {
+ {
+  coords 1640.859 110.656 7387.921
+  angles 0 2.298 0
+ }
+ {
+  coords 1640.176 110.664 7387.365
+  angles 0 80.837 0
+ }
+}
+GenericEntity : "{6005A2E4F98DC66F}Prefabs/Props/Garbage/Generic/LitterInterior_01/Single/LitterInterior_USSR_01_tincan_V3.et" {
+ coords 1640.391 111.694 7392.005
+}
+GenericEntity : "{6C576C9CCC0F00A1}Prefabs/Props/Commercial/Posters/PosterSet_02_base.et" {
+ coords 1639.159 112.739 7398.393
+ angles 0 94.924 0
+ scale 1.83
+}
+GenericEntity : "{75D125481E2E0664}Prefabs/Compositions/Misc/SubCompositions/Decorations/Barrel_ToolRack_01.et" {
+ coords 1639.225 110.687 7393.017
+ angles 0 4.44 0
+}
+GenericEntity : "{7A32336CED936A26}Prefabs/Compositions/Misc/SubCompositions/CanvasCover_Cluttered_USSR_01.et" {
+ coords 1641.523 110.719 7404.917
+ angles 0 2.692 0
+}
+GenericEntity : "{7C42934FDC952EDF}Prefabs/Compositions/Misc/SubCompositions/VehicleGarbagePile_03.et" {
+ coords 1639.89 110.695 7386.902
+ angles 0 -16.442 0
+}
+$grp StaticModelEntity : "{82B378151A9AEF2F}Prefabs/Structures/Military/Fortifications/DirtPile_01/DirtPile_01_large.et" {
+ {
+  coords 1652.934 0.301 7367.817
+ }
+ {
+  coords 1652.883 0.556 7366.708
+ }
+}
+GenericEntity : "{8599EE1DF5685104}Prefabs/Props/Garbage/Generic/LitterInterior_01/Single/LitterInterior_USSR_01_tincan_V2.et" {
+ coords 1640.316 111.71 7392.503
+}
+$grp GenericEntity : "{85C8E30402BF24D5}Prefabs/Compositions/Misc/SubCompositions/Tire_Ural4320_pile_01.et" {
+ {
+  coords 1641.2 110.706 7400.282
+  angles 0 0 0
+ }
+ {
+  coords 1642.307 110.706 7400.612
+  angles 0 0 0
+ }
+}
+GenericEntity : "{8712C0B78ED46273}Prefabs/Compositions/Misc/SubCompositions/Decorations/Workbench_Radio_US_01.et" {
+ coords 1641.514 110.656 7387.049
+ angles 0 2.298 0
+}
+GenericEntity : "{88FAE04EF7115814}Prefabs/Props/Civilian/BeerBottle_01_green.et" {
+ coords 1640.275 111.702 7392.926
+}
+GenericEntity : "{8963CD1DC1CDB614}Prefabs/Props/Civilian/BeerBottle_01_brown.et" {
+ coords 1640.388 111.714 7393.384
+}
+GenericEntity : "{8F83BC4B5245796F}Prefabs/Structures/Signs/Military/SignRectangle_01_140x100/Dst/SignRectangle_01_140x100_dst_02_base.et" {
+ coords 1652.163 110.834 7368.272
+ angles 18.936 37.072 31.703
+}
+GenericEntity : "{8FE6D62204173656}Prefabs/Props/Civilian/BeerBottle_01_group.et" {
+ coords 1639.895 111.694 7392.014
+}
+GenericEntity : "{95D947E744336F78}Prefabs/Props/Industrial/Workbench_01.et" {
+ coords 1640.038 110.688 7392.889
+ angles 0 92.324 0
+}
+GenericEntity : "{9641BF196556466E}Prefabs/Compositions/Misc/SubCompositions/Decorations/CardboardBox_Ashtray_01.et" {
+ coords 1640.59 110.687 7390.178
+ angles 0 95.093 0
+ {
+  GenericEntity {
+   ID "5CB0F58A91A6F594"
+   coords -0.242 0.388 0.122
+   angles 0 0 0
+  }
+  GenericEntity {
+   ID "5CB0F58A91A6F589"
+   coords 0.019 -0.414 0.062
+   angles 0 -90 0
+  }
+  GenericEntity {
+   ID "5CB0F58A91A6F581"
+   coords -0.048 0 0.03
+  }
+ }
+}
+GenericEntity : "{972FB79B0C359B6E}Prefabs/Props/Civilian/Photos/CombatOps_Polaroid_01.et" {
+ components {
+  MeshObject "{5E3E977CD1616C8B}" {
+   Materials {
+    MaterialAssignClass "{5E3E977F1BCB1A8F}" {
+     SourceMaterial "Photo_01_791C2A16044F424E"
+     AssignedMaterial "{0B0E08EDF8EFE31C}Assets/Props/Civilian/Photos/Data/Photo_01_Person.emat"
+    }
+   }
+  }
+ }
+ coords 1640.344 111.267 7391.136
+ angles 0 -125.722 0
+ scale 1.596
+}
+$grp DecalEntity : "{9EE74738BD9E8CDB}Prefabs/Decals/Dirt/Decal_Dirt_Tracks_02.et" {
+ {
+  coords 1649.517 0 7386.444
+  angles -90 0 44.596
+  scale 5
+ }
+ {
+  coords 1650.14 0 7390.468
+  angles -90 0 146.318
+  scale 5
+ }
+ {
+  coords 1649.398 0 7393.024
+  angles -90 -180 -180
+  scale 5
+ }
+ {
+  coords 1652.647 0.011 7380.35
+  angles -90 0 -108.15
+  scale 5
+ }
+}
+GenericEntity : "{A13BCC98B8C380C7}Prefabs/Compositions/Misc/SubCompositions/Decorations/Crate_Firewood_01.et" {
+ coords 1643.001 110.666 7387.119
+ angles 0 -54.258 0
+}
+GenericEntity : "{A379A364A095CA77}Prefabs/Compositions/Misc/SubCompositions/Decorations/BarbedCoil_Light_USSR_02.et" {
+ coords 1640.287 0 7400.32
+}
+GenericEntity : "{A46B0427AD4DC692}Prefabs/Props/Civilian/GlassBeer_01/GlassBeer_02_set.et" {
+ coords 1639.788 111.702 7392.379
+ angles 0 -85.146 0
+}
+GenericEntity : "{A4AAE21B38D96D43}Prefabs/Structures/Commercial/FuelStations/FuelStation_E_01/HouseAddons/FuelStation_E_01_fuelsign.et" {
+ coords 1648.124 112.418 7390.695
+ angles 0 -176.98 0
+}
+GenericEntity : "{A9CF5E8C5D91C476}Prefabs/Compositions/Misc/SubCompositions/Decorations/Barrel_Group_Crate_01.et" {
+ coords 1640.446 110.688 7395.968
+ angles 0 51.754 0
+}
+GenericEntity : "{B30BECFFF41ECF2A}Prefabs/Compositions/Misc/SubCompositions/Decorations/Workbench_Notebook_USSR_01.et" {
+ coords 1639.547 110.681 7389.362
+ angles 0 95.328 0
+}
+$grp GenericEntity : "{B496AC9BEE590838}Prefabs/Compositions/Misc/SubCompositions/Utility/Shelves_GeneralStorage_01.et" {
+ {
+  coords 1643.554 110.719 7401.285
+ }
+ {
+  coords 1645.307 110.719 7401.285
+ }
+}
+GenericEntity : "{B6F0B7461EDFD186}Prefabs/Compositions/Misc/FreeRoamBuilding/FloodlightGenerator_S_USSR_01.et" {
+ coords 1661.518 110.868 7401.317
+ angles 0 -91.736 0
+ {
+  GameEntity {
+   ID "5E64B548D591E2AA"
+   components {
+    SCR_BaseInteractiveLightComponent "{5882B9E6B4EFC9DF}" {
+     m_eInitialLightState LIT
+    }
+   }
+  }
+ }
+}
+GenericEntity : "{B808D460E33CDFAF}Prefabs/Props/Construction/BrickPile/BrickPile_01_Medium.et" {
+ coords 1643.288 110.659 7385.341
+}
+GenericEntity : "{BB9DFC7232860128}Prefabs/Props/Construction/BrickPile/BrickPileOld_01_Large.et" {
+ coords 1645.291 110.688 7385.559
+}
+$grp GenericEntity : "{C089F66C325FC87C}Prefabs/Props/Construction/BrickPile/BrickPile_01_Large.et" {
+ {
+  coords 1642.304 110.656 7385.341
+ }
+ {
+  coords 1641.329 110.656 7385.319
+ }
+}
+GenericEntity : "{C36046DD64EAAEBE}Prefabs/Props/Military/Posters/Poster_USSR_cutouts_V1.et" {
+ coords 1638.885 113.173 7393.734
+ angles 0 93.397 0
+ scale 1.87
+}
+GenericEntity : "{C5E5C350EC2B23F5}Prefabs/Props/Military/Posters/PosterSingle_USSR_A1_calendar.et" {
+ coords 1638.902 112.296 7394.666
+ angles 0 91.445 0
+}
+GenericEntity : "{C5ECCBE10871A5DA}Prefabs/Structures/Military/Bunkers/AircraftShelter_E_01/AircraftShelter_E_01_winch.et" {
+ coords 1646.93 110.688 7390.605
+ angles 0 -88.112 0
+}
+GenericEntity : "{CB33FF5AC4AC0D9E}Prefabs/Structures/Signs/Military/Signpost_01/Signpost_01.et" {
+ coords 1648.732 110.688 7395.328
+ angles 0 -85.41 0
+}
+$grp GenericEntity : "{CC8D07933AD0B07E}Prefabs/Props/Industrial/GasTank_01_red.et" {
+ {
+  coords 1639.486 110.684 7396.736
+ }
+ {
+  coords 1639.791 110.688 7397
+ }
+ {
+  coords 1639.498 110.688 7397.267
+ }
+}
+$grp GenericEntity : "{CD18971542C21223}Prefabs/Structures/Signs/Warnings/SignDangerCurve_01_right.et" {
+ {
+  coords 1867.206 127.642 7363.052
+  angles 0 32.493 0
+ }
+ {
+  coords 1745.601 116.695 7366.149
+  angles 0 -18.816 0
+ }
+ {
+  coords 1660.578 111.809 7360.252
+  angles 0 42.812 0
+ }
+ {
+  coords 2060.703 130.393 7282.328
+  angles 0 9.699 0
+ }
+ {
+  coords 2129.933 132.884 7267.315
+  angles 0 14.686 0
+ }
+ {
+  coords 1693.813 112.994 7352.659
+ }
+ {
+  coords 1975.994 128.199 7293.234
+  angles 0 17.977 0
+ }
+ {
+  coords 1814.986 123.438 7391.817
+ }
+ {
+  coords 1925.8 129.023 7323.059
+  angles 0 25.386 0
+ }
+ {
+  coords 2100.894 131.824 7274.716
+  angles 0 9.699 0
+ }
+ {
+  coords 2029.691 129.906 7286.183
+  angles 0 3.283 0
+ }
+}
+GenericEntity : "{D99955DFCF7D3962}Prefabs/Props/Wrecks/CannonWreck_01/CannonWreck_01.et" {
+ coords 1651.419 110.688 7407.187
+ angles 0 2.445 0
+}
+StaticModelEntity : "{DBF039BA30EC733A}Prefabs/Structures/Industrial/Sheds/ShedMetal_02/HouseAddons/ShedMetal_02_Short_BackWall.et" {
+ coords 1638.64 -0.022 7393.914
+ angles 0 93.812 0
+}
+SCR_DestructibleBuildingEntity : "{DEBC2FB8DA61B83E}Prefabs/Structures/Industrial/Sheds/ShedMetal_02/ShedMetal_02_short_nowalls.et" {
+ coords 1643.838 0.482 7393.261
+ angles 0 -86.304 0
+}
+$grp GenericEntity : "{E64A1F4EC46ADBF4}Prefabs/Props/Construction/BrickPile/BrickPileOld_01_Small.et" {
+ {
+  coords 1641.615 110.701 7398.824
+  scale 0.755
+ }
+ {
+  coords 1646.539 110.701 7397.188
+  scale 0.755
+ }
+ {
+  coords 1641.615 110.701 7397.188
+  scale 0.755
+ }
+ {
+  coords 1642.956 110.701 7397.188
+  scale 0.755
+ }
+ {
+  coords 1642.956 110.701 7398.824
+  scale 0.755
+ }
+ {
+  coords 1646.539 110.701 7398.824
+  scale 0.755
+ }
+}
+$grp GameEntity : "{E7FD0B8019E96F73}Prefabs/Structures/BuildingParts/Lights/LampTower_01.et" {
+ {
+  coords 1648.97 115.917 7391.227
+  angles 63.389 104.866 -172.549
+  scale 0.58
+ }
+ {
+  coords 1648.841 115.81 7388.888
+  angles 63.389 104.866 180
+  scale 0.58
+ }
+ {
+  coords 1648.692 115.821 7386.262
+  angles 63.389 104.866 180
+  scale 0.58
+ }
+}
+GenericEntity : "{E9CDDAFD49ACDE2A}Prefabs/Props/Garbage/Generic/LitterInterior_01/Single/LitterInterior_USSR_01_tincan_V1.et" {
+ coords 1640.342 111.706 7392.401
+}
+GenericEntity : "{F35FFCC271B2E4FB}Prefabs/Compositions/Misc/SubCompositions/Tire_UAZ469_pile_01.et" {
+ coords 1641.085 110.704 7394.893
+ angles 0 -13.283 0
+}
+GenericEntity : "{F5B32CF1C3463D67}Prefabs/Props/Military/Posters/PosterMilitary_USSR_01_AK74_V1.et" {
+ coords 1638.575 112.234 7389.458
+ angles 0 -87.34 0
+ scale 1.748
+}
+GenericEntity : "{FD320CD9BFCE2257}Prefabs/Compositions/Misc/SubCompositions/TableMilitary_Cluttered_USSR_02.et" {
+ coords 1640.703 110.693 7401.671
+ angles 0 -46.613 0
+}

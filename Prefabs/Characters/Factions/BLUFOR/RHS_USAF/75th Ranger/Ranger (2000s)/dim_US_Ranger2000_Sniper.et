@@ -1,0 +1,72 @@
+SCR_ChimeraCharacter : "{D5783DA3BE00F01A}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/75th Ranger/Ranger (2000s)/dim_US_Ranger2000_Marksman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{0CF54B9A85D8E0D4}Prefabs/Items/Equipment/Binoculars/Binoculars_M22/Binoculars_M22.et"
+      }
+     }
+    }
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{56CE827F9AD5880E}Prefabs/Weapons/Rifles/M40/Rifle_M40A5_Optic_PEQ.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Jacket {
+     Prefab "{DE198E6D0D09D4DF}Prefabs/Characters/Uniforms/ACU_jacket/ACU_jacket_rolled_up_UCP.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab ""
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab ""
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{686D66D3426CC271}" {
+     TargetStorage "Jacket/ACU_jacket_rolled_up_UCP.et"
+    }
+    ItemsInitConfigurationItem "{686F189048C02AAE}" {
+     TargetStorage "Jacket/ACU_jacket_rolled_up_UCP.et"
+    }
+    ItemsInitConfigurationItem "{686F189084B51418}" {
+     TargetStorage "Jacket/ACU_jacket_rolled_up_UCP.et"
+     PrefabsToSpawn {
+      "{EC9E0F22B90013F3}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M80.et" "{EC9E0F22B90013F3}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M80.et"
+     }
+    }
+    ItemsInitConfigurationItem "{686F189094875A11}" {
+     TargetStorage "Jacket/ACU_jacket_rolled_up_UCP.et"
+     PrefabsToSpawn {
+      "{EC9E0F22B90013F3}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M80.et" "{EC9E0F22B90013F3}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M80.et"
+     }
+    }
+    ItemsInitConfigurationItem "{686F1890900E8780}" {
+     TargetStorage "Jacket/ACU_jacket_rolled_up_UCP.et"
+     PrefabsToSpawn {
+      "{EC9E0F22B90013F3}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M80.et" "{EC9E0F22B90013F3}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M80.et"
+     }
+    }
+    ItemsInitConfigurationItem "{686F18909C2BA8B1}" {
+     TargetStorage "Jacket/ACU_jacket_rolled_up_UCP.et"
+    }
+    ItemsInitConfigurationItem "{686F1883A3F8A639}" {
+     PrefabsToSpawn {
+      "{EC9E0F22B90013F3}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M80.et" "{EC9E0F22B90013F3}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M80.et" "{EC9E0F22B90013F3}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M80.et" "{EC9E0F22B90013F3}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M80.et"
+     }
+    }
+    ItemsInitConfigurationItem "{686F1883C2826043}" {
+     Enabled 0
+    }
+   }
+  }
+ }
+ coords 98.141 1 236.024
+}

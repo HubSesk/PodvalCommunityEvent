@@ -1,0 +1,47 @@
+SCR_ChimeraCharacter : "{E125585ADB7174D3}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/VDV/Role_Character_AFRF_VDV_Recon_Rfl_Winter.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Стрелок-разведчик"
+    Icon "{6CD708C8B13A2D38}UI/Icons/sabateur_v2.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{6D303D33CB05C47C}Prefabs/Weapons/AK200/AK200_SpecOps_2.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponTemplate ""
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Vest {
+     Prefab "{DD13D4B976DD2BE8}Prefabs/Characters/Vests/Vest_KBS_Strelok/KBS_Strelok_Var1.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{684866B273C47008}" {
+     TargetStorage "Vest/KBS_Strelok_Var1.et/mag1/Pouch_KBS_Mag_1.et"
+    }
+    ItemsInitConfigurationItem "{684866B27BAA034D}" {
+     TargetStorage "Vest/KBS_Strelok_Var1.et/mag2/Pouch_KBS_Mag_2.et"
+    }
+    ItemsInitConfigurationItem "{684866B2841C5D34}" {
+     TargetStorage "Vest/KBS_Strelok_Var1.et/mag3/Pouch_KBS_Mag_3.et"
+    }
+    ItemsInitConfigurationItem "{684866B28130CE95}" {
+     TargetStorage "Vest/KBS_Strelok_Var1.et/mag4/Pouch_KBS_Mag_4.et"
+    }
+    ItemsInitConfigurationItem "{684866B28D1C91B2}" {
+     TargetStorage "Vest/KBS_Strelok_Var1.et/rgd1/Pouch_KBS_RGD_1.et"
+    }
+    ItemsInitConfigurationItem "{684866B294EB8306}" {
+     TargetStorage "Vest/KBS_Strelok_Var1.et/rgd2/Pouch_KBS_RGD_2.et"
+    }
+   }
+  }
+ }
+ coords 135.328 1 182.944
+}

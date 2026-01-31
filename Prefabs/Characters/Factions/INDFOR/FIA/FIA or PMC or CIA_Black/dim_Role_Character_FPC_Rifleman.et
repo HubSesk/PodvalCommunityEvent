@@ -1,0 +1,47 @@
+SCR_ChimeraCharacter : "{54908862C44D51B3}Prefabs/Characters/Factions/INDFOR/FIA/FIA or PMC or CIA_Brown/Role_Character_FPC_Rifleman_B.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{3E50E6F73429099A}Prefabs/Characters/Headgear/Cap/Variants/CapReverse (Glasses + Mask).et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{C9A22854F66603D4}Prefabs/Characters/Uniforms/Shirt_CottonShirt_01/Shirt_CottonShirt_01_Black_Dirty.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{ADA78EF0EA20E6F9}Prefabs/Characters/Vests/Vest_AVS/Vest_AVS_radio_Blk.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{91D84F0E37E17441}Prefabs/Characters/Uniforms/Pants_Trousers_01/Pants_Trousers_01_Black_Dirty.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{A6D5CB4656D7F660}Prefabs/Characters/Vests/Vest_AVS/Variants/ION/Vest_AVS_Blk_Belt_Tan.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{5D7CC173FAA7C00E}" {
+     TargetStorage "Pants/Pants_Trousers_01_Black_Dirty.et"
+    }
+    ItemsInitConfigurationItem "{5D7CC173FAA7C00C}" {
+     TargetStorage "Pants/Pants_Trousers_01_Black_Dirty.et"
+    }
+    ItemsInitConfigurationItem "{6721728B73532056}" {
+     TargetStorage "ArmoredVest/Vest_AVS_radio_Blk.et/mbitr/Pouch_AVS_MBITR_Radio_Blk.et"
+    }
+    ItemsInitConfigurationItem "{6721728B9FF71F2D}" {
+     TargetStorage "Vest/Vest_AVS_Blk_Belt_Tan.et/Pouch1/Pouch_avs_front_closed_Blk.et"
+    }
+    ItemsInitConfigurationItem "{6721728BA12AEE95}" {
+     TargetStorage "ArmoredVest/Vest_AVS_radio_Blk.et"
+    }
+    ItemsInitConfigurationItem "{6721728BB7F2C211}" {
+     TargetStorage "Jacket/Shirt_CottonShirt_01_Black_Dirty.et"
+    }
+   }
+  }
+ }
+ coords 1621.98 38.562 2912.502
+}

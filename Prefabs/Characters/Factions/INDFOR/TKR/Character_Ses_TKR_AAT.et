@@ -1,0 +1,67 @@
+SCR_ChimeraCharacter : "{C5520722FCCA576E}Prefabs/Characters/Factions/INDFOR/TKR/Character_Ses_TKR_BaseLoadout.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponManagerComponent "{5C9CA676383262FD}" {
+   DefaultWeaponIndex 0
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_AntiTankAssistant"
+    Icon "{FB48FAD32DA8BC91}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_AmmoBearer.edds"
+    IconSetName "Character_AmmoBearer"
+    m_Image "{29F99D131757D2A7}UI/Textures/EditorPreviews/Characters/INDFOR/TKR/Character_TKR_AAT.edds"
+    m_aAuthoredLabels +{
+    }
+    m_aAutoLabels +{
+    }
+   }
+  }
+  CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
+   WeaponTemplate "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{87D1627219526B86}Prefabs/Weapons/Rifles/AKM/Rifle_AKM.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Back {
+     Prefab "{6A39B5843B3F36DA}Prefabs/Items/Equipment/Backpacks/Backpack_RPG_Assistant.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{ED5574EA7F63B457}Prefabs/Characters/Vests/Vest_Type56/Vest_Type56.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6074FD81D85F4351}" {
+     TargetStorage "Jacket/ChilabaFull01_extra.et"
+    }
+    ItemsInitConfigurationItem "{6074FD81A7B67B88}" {
+     TargetStorage "Vest/Vest_Type56.et"
+    }
+    ItemsInitConfigurationItem "{60FB76D98B3CD6FB}" {
+     TargetStorage "Jacket/ChilabaFull01_extra.et"
+    }
+    ItemsInitConfigurationItem "{6532F52F48A8EFEF}" {
+     TargetStorage "Jacket/ChilabaFull01_extra.et"
+     PrefabsToSpawn + {
+      "{75333E1251221E62}Prefabs/Weapons/Magazines/AKM/Magazine_AK_762x39_6L10_30rnd.et" "{75333E1251221E62}Prefabs/Weapons/Magazines/AKM/Magazine_AK_762x39_6L10_30rnd.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6264D21F0A2B54D1}" {
+     TargetStorage "Vest/Vest_Type56.et"
+     PrefabsToSpawn {
+      "{75333E1251221E62}Prefabs/Weapons/Magazines/AKM/Magazine_AK_762x39_6L10_30rnd.et" "{3DCA1009B328332A}Prefabs/Weapons/Magazines/AKM/Magazine_AK_762x39_AK55_30rnd.et" "{3DCA1009B328332A}Prefabs/Weapons/Magazines/AKM/Magazine_AK_762x39_AK55_30rnd.et" "{75333E1251221E62}Prefabs/Weapons/Magazines/AKM/Magazine_AK_762x39_6L10_30rnd.et" "{75333E1251221E62}Prefabs/Weapons/Magazines/AKM/Magazine_AK_762x39_6L10_30rnd.et" "{75333E1251221E62}Prefabs/Weapons/Magazines/AKM/Magazine_AK_762x39_6L10_30rnd.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6264D21F0A2B54CD}" {
+     TargetStorage "Back/Backpack_RPG_Assistant.et"
+     PrefabsToSpawn +{
+     }
+    }
+   }
+  }
+ }
+ coords 704.458 39 2610.571
+}

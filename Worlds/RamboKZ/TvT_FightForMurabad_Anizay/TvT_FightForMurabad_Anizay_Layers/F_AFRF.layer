@@ -1,0 +1,285 @@
+Vehicle AFRF_000_Ural4320 : "{2C95509CA3E61DE1}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_command_camo1.et" {
+ coords 5129.228 207.219 1807.012
+ angles 0.014 136.968 -0.401
+ m_sAttachmentGroupName "AFRF_000"
+}
+Vehicle AFRF_400_Mi8MT_HE : "{3C6B3ED0C3AC30D5}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_armed_gunship_HE.et" {
+ coords 5196.097 207.311 1744.164
+ angles 0 -77.277 0
+ m_sAttachmentGroupName "AFRF_400"
+}
+$grp Vehicle : "{447CFE8D73F95C3E}Prefabs/Vehicles/Wheeled/BTR70/BTR70_AFRF.et" {
+ AFRF_203_BTR70 {
+  coords 8196.395 119.487 4462.957
+  angles 7.593 -156.342 0.41
+  m_sAttachmentGroupName "AFRF_203"
+ }
+ AFRF_102_BTR70 {
+  coords 5129.791 207.22 1758.288
+  angles 3.458 179.578 -0.34
+  m_sAttachmentGroupName "AFRF_102"
+ }
+ AFRF_103_BTR70 {
+  coords 5130.165 207.217 1773.391
+  angles 3.465 -178.906 -0.249
+  m_sAttachmentGroupName "AFRF_103"
+ }
+ AFRF_202_BTR70 {
+  coords 8190.094 121.767 4446.831
+  angles 7.593 -156.342 0.41
+  m_sAttachmentGroupName "AFRF_202"
+ }
+}
+Vehicle AFRF_400_Mi8MT : "{98225ED6D5F724D7}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_armed_gunship_empty.et" {
+ coords 5203.138 207.395 1777.307
+ angles 0 -78.631 0
+ m_sAttachmentGroupName "AFRF_400"
+}
+$grp Vehicle : "{9AEDF323A812F9ED}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_AFRF.et" {
+ AFRF_201_BRDM2 {
+  coords 8183.266 123.896 4430.414
+  angles 4.809 -157.236 0.081
+  m_sAttachmentGroupName "AFRF_201"
+ }
+ AFRF_101_BRDM2 {
+  coords 5130.111 207.217 1740.784
+  angles 2.183 178.799 -0.349
+  m_sAttachmentGroupName "AFRF_101"
+  {
+   GameEnvironmentProbeEntity {
+    ID "654E62C3B5F7E16E"
+   }
+  }
+ }
+}
+$grp Vehicle : "{E1A99B5F2DC9B38A}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_Camo.et" {
+ AFRF_200_UAZ469 {
+  coords 8177.72 125.216 4417.414
+  angles 5.148 -157.625 -0.776
+  m_sAttachmentGroupName "AFRF_200"
+ }
+ AFRF_100_UAZ469 {
+  coords 5129.759 207.261 1724.34
+  angles 2.319 -177.355 0.057
+  m_sAttachmentGroupName "AFRF_100"
+ }
+}
+$grp SCR_AIGroup : "{F7F7682FD696D05B}Prefabs/Groups/OPFOR/drg_Group_RHS_AFRF_Desert_ShowCase.et" {
+ AFRF_301 {
+  components {
+   PS_GroupCallsignAssigner "{6620DBC8E2862E45}" {
+    m_iCompanyCallsign 3
+    m_iSquadCallsign 1
+   }
+  }
+  coords 5219.155 207.314 1792.986
+  angles 0 -166.021 0
+  m_aUnitPrefabSlots {
+   "{AC1A8DCB72982C6F}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Desert/drg_Role_RHS_AFRF_Desert_SL_opt.et"
+   "{605F06DDE90059B1}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Desert/GUB_Role_RHS_AFRF_Desert_RTO.et"
+   "{346019D07E237195}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Desert/drg_Role_RHS_AFRF_Desert_AT.et"
+   "{E8C470C171B6AC50}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Desert/drg_Role_RHS_AFRF_Desert_AAT.et"
+   "{BEDFAE0B69E57B2A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Desert/drg_Role_RHS_AFRF_Desert_MG.et"
+   "{95A788D3A0886E96}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Desert/drg_Role_RHS_AFRF_Desert_MGAB.et"
+   "{36D1E050A6BF40F1}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Desert/drg_Role_RHS_AFRF_Desert_Sniper.et"
+   "{B23B863B251B5566}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Desert/drg_Role_RHS_AFRF_Desert_Medic.et"
+  }
+  m_sCustomNameSet "Десантный отряд"
+ }
+ AFRF_300 {
+  components {
+   PS_GroupCallsignAssigner "{6620DBC8E2862E45}" {
+    m_iCompanyCallsign 3
+   }
+  }
+  coords 5207.064 207.219 1796.074
+  angles 0 -165.151 0
+  m_aUnitPrefabSlots {
+   "{AC1A8DCB72982C6F}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Desert/drg_Role_RHS_AFRF_Desert_SL_opt.et"
+   "{605F06DDE90059B1}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Desert/GUB_Role_RHS_AFRF_Desert_RTO.et"
+   "{346019D07E237195}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Desert/drg_Role_RHS_AFRF_Desert_AT.et"
+   "{E8C470C171B6AC50}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Desert/drg_Role_RHS_AFRF_Desert_AAT.et"
+   "{BEDFAE0B69E57B2A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Desert/drg_Role_RHS_AFRF_Desert_MG.et"
+   "{95A788D3A0886E96}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Desert/drg_Role_RHS_AFRF_Desert_MGAB.et"
+   "{36D1E050A6BF40F1}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Desert/drg_Role_RHS_AFRF_Desert_Sniper.et"
+   "{B23B863B251B5566}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Desert/drg_Role_RHS_AFRF_Desert_Medic.et"
+  }
+  m_sCustomNameSet "Десантный отряд"
+ }
+ AFRF_400 {
+  components {
+   PS_GroupCallsignAssigner "{6620DBC8E2862E45}" {
+    m_iCompanyCallsign 4
+   }
+  }
+  coords 5191.175 207.218 1780.129
+  angles 0 102.164 0
+  m_aUnitPrefabSlots {
+   "{E1BF48430B3259D4}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Desert/drg_Role_RHS_AFRF_Desert_HeliPilot.et"
+   "{526EAB9BCF4C6DD2}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Desert/drg_Role_RHS_AFRF_Desert_HeliCoPilot.et"
+  }
+  m_sCustomNameSet "Боевой вертолет"
+ }
+ AFRF_203 {
+  components {
+   PS_GroupCallsignAssigner "{6620DBC8E2862E45}" {
+    m_iCompanyCallsign 2
+    m_iSquadCallsign 3
+   }
+  }
+  coords 8200.628 120.102 4456.69
+  angles 0 -64.953 0
+  m_aUnitPrefabSlots {
+   "{AC1A8DCB72982C6F}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Desert/drg_Role_RHS_AFRF_Desert_SL_opt.et"
+   "{FC586DF650BDF143}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Desert/drg_Role_RHS_AFRF_Desert_SR.et"
+   "{346019D07E237195}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Desert/drg_Role_RHS_AFRF_Desert_AT.et"
+   "{E8C470C171B6AC50}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Desert/drg_Role_RHS_AFRF_Desert_AAT.et"
+   "{BEDFAE0B69E57B2A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Desert/drg_Role_RHS_AFRF_Desert_MG.et"
+   "{95A788D3A0886E96}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Desert/drg_Role_RHS_AFRF_Desert_MGAB.et"
+   "{36D1E050A6BF40F1}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Desert/drg_Role_RHS_AFRF_Desert_Sniper.et"
+   "{B528534369656A2C}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Desert/drg_Role_RHS_AFRF_Desert_CrewGunner.et"
+   "{5203F4A341926381}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Desert/drg_Role_RHS_AFRF_Desert_CrewDriver.et"
+  }
+  m_sCustomNameSet "Моторизированный отряд"
+ }
+ AFRF_202 {
+  components {
+   PS_GroupCallsignAssigner "{6620DBC8E2862E45}" {
+    m_iCompanyCallsign 2
+    m_iSquadCallsign 2
+   }
+  }
+  coords 8193.533 122.17 4440.569
+  angles 0 -65.504 0
+  m_aUnitPrefabSlots {
+   "{AC1A8DCB72982C6F}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Desert/drg_Role_RHS_AFRF_Desert_SL_opt.et"
+   "{605F06DDE90059B1}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Desert/GUB_Role_RHS_AFRF_Desert_RTO.et"
+   "{346019D07E237195}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Desert/drg_Role_RHS_AFRF_Desert_AT.et"
+   "{E8C470C171B6AC50}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Desert/drg_Role_RHS_AFRF_Desert_AAT.et"
+   "{BEDFAE0B69E57B2A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Desert/drg_Role_RHS_AFRF_Desert_MG.et"
+   "{95A788D3A0886E96}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Desert/drg_Role_RHS_AFRF_Desert_MGAB.et"
+   "{36D1E050A6BF40F1}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Desert/drg_Role_RHS_AFRF_Desert_Sniper.et"
+   "{B528534369656A2C}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Desert/drg_Role_RHS_AFRF_Desert_CrewGunner.et"
+   "{5203F4A341926381}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Desert/drg_Role_RHS_AFRF_Desert_CrewDriver.et"
+  }
+  m_sCustomNameSet "Моторизированный отряд"
+ }
+ AFRF_201 {
+  components {
+   PS_GroupCallsignAssigner "{6620DBC8E2862E45}" {
+    m_iCompanyCallsign 2
+    m_iSquadCallsign 1
+   }
+  }
+  coords 8179.337 123.834 4433.712
+  angles 0 113.855 0
+  m_aUnitPrefabSlots {
+   "{AC1A8DCB72982C6F}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Desert/drg_Role_RHS_AFRF_Desert_SL_opt.et"
+   "{B528534369656A2C}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Desert/drg_Role_RHS_AFRF_Desert_CrewGunner.et"
+   "{5203F4A341926381}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Desert/drg_Role_RHS_AFRF_Desert_CrewDriver.et"
+  }
+  m_sCustomNameSet "Отряд БРДМ"
+ }
+ AFRF_200 {
+  components {
+   PS_GroupCallsignAssigner "{6620DBC8E2862E45}" {
+    m_iCompanyCallsign 2
+   }
+  }
+  coords 8174.478 124.92 4421.056
+  angles 0 113.356 0
+  m_aUnitPrefabSlots {
+   "{AC1A8DCB72982C6F}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Desert/drg_Role_RHS_AFRF_Desert_SL_opt.et"
+   "{605F06DDE90059B1}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Desert/GUB_Role_RHS_AFRF_Desert_RTO.et"
+   "{346019D07E237195}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Desert/drg_Role_RHS_AFRF_Desert_AT.et"
+   "{BEDFAE0B69E57B2A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Desert/drg_Role_RHS_AFRF_Desert_MG.et"
+   "{36D1E050A6BF40F1}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Desert/drg_Role_RHS_AFRF_Desert_Sniper.et"
+  }
+  m_sCustomNameSet "Разведывательная группа"
+ }
+ AFRF_100 {
+  components {
+   PS_GroupCallsignAssigner "{6620DBC8E2862E45}" {
+    m_iCompanyCallsign 1
+   }
+  }
+  coords 5132.889 207.321 1722.347
+  angles 0.594 -88.251 4.083
+  m_aUnitPrefabSlots {
+   "{AC1A8DCB72982C6F}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Desert/drg_Role_RHS_AFRF_Desert_SL_opt.et"
+   "{605F06DDE90059B1}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Desert/GUB_Role_RHS_AFRF_Desert_RTO.et"
+   "{346019D07E237195}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Desert/drg_Role_RHS_AFRF_Desert_AT.et"
+   "{BEDFAE0B69E57B2A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Desert/drg_Role_RHS_AFRF_Desert_MG.et"
+   "{36D1E050A6BF40F1}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Desert/drg_Role_RHS_AFRF_Desert_Sniper.et"
+  }
+  m_sCustomNameSet "Разведывательная группа"
+ }
+ AFRF_103 {
+  components {
+   PS_GroupCallsignAssigner "{6620DBC8E2862E45}" {
+    m_iCompanyCallsign 1
+    m_iSquadCallsign 3
+   }
+  }
+  coords 5134.23 207.276 1767.869
+  angles 0.436 -86.05 4.103
+  m_aUnitPrefabSlots {
+   "{AC1A8DCB72982C6F}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Desert/drg_Role_RHS_AFRF_Desert_SL_opt.et"
+   "{FC586DF650BDF143}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Desert/drg_Role_RHS_AFRF_Desert_SR.et"
+   "{346019D07E237195}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Desert/drg_Role_RHS_AFRF_Desert_AT.et"
+   "{E8C470C171B6AC50}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Desert/drg_Role_RHS_AFRF_Desert_AAT.et"
+   "{BEDFAE0B69E57B2A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Desert/drg_Role_RHS_AFRF_Desert_MG.et"
+   "{95A788D3A0886E96}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Desert/drg_Role_RHS_AFRF_Desert_MGAB.et"
+   "{36D1E050A6BF40F1}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Desert/drg_Role_RHS_AFRF_Desert_Sniper.et"
+   "{B528534369656A2C}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Desert/drg_Role_RHS_AFRF_Desert_CrewGunner.et"
+   "{5203F4A341926381}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Desert/drg_Role_RHS_AFRF_Desert_CrewDriver.et"
+  }
+  m_sCustomNameSet "Моторизированный отряд"
+ }
+ AFRF_102 {
+  components {
+   PS_GroupCallsignAssigner "{6620DBC8E2862E45}" {
+    m_iCompanyCallsign 1
+    m_iSquadCallsign 2
+   }
+  }
+  coords 5133.428 207.275 1752.78
+  angles 0.564 -87.834 4.087
+  m_aUnitPrefabSlots {
+   "{AC1A8DCB72982C6F}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Desert/drg_Role_RHS_AFRF_Desert_SL_opt.et"
+   "{605F06DDE90059B1}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Desert/GUB_Role_RHS_AFRF_Desert_RTO.et"
+   "{346019D07E237195}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Desert/drg_Role_RHS_AFRF_Desert_AT.et"
+   "{E8C470C171B6AC50}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Desert/drg_Role_RHS_AFRF_Desert_AAT.et"
+   "{BEDFAE0B69E57B2A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Desert/drg_Role_RHS_AFRF_Desert_MG.et"
+   "{95A788D3A0886E96}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Desert/drg_Role_RHS_AFRF_Desert_MGAB.et"
+   "{36D1E050A6BF40F1}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Desert/drg_Role_RHS_AFRF_Desert_Sniper.et"
+   "{B528534369656A2C}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Desert/drg_Role_RHS_AFRF_Desert_CrewGunner.et"
+   "{5203F4A341926381}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Desert/drg_Role_RHS_AFRF_Desert_CrewDriver.et"
+  }
+  m_sCustomNameSet "Моторизированный отряд"
+ }
+ AFRF_101 {
+  components {
+   PS_GroupCallsignAssigner "{6620DBC8E2862E45}" {
+    m_iCompanyCallsign 1
+    m_iSquadCallsign 1
+   }
+  }
+  coords 5133.253 207.581 1738.335
+  angles 0.589 -88.185 4.083
+  m_aUnitPrefabSlots {
+   "{AC1A8DCB72982C6F}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Desert/drg_Role_RHS_AFRF_Desert_SL_opt.et"
+   "{B528534369656A2C}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Desert/drg_Role_RHS_AFRF_Desert_CrewGunner.et"
+   "{5203F4A341926381}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Desert/drg_Role_RHS_AFRF_Desert_CrewDriver.et"
+  }
+  m_sCustomNameSet "Отряд БРДМ"
+ }
+ AFRF_000 {
+  coords 5125.777 207.219 1804.61
+  angles 1.362 55.284 -3.446
+  m_aUnitPrefabSlots {
+   "{7FC44DF88B7C8DB0}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Desert/drg_Role_RHS_AFRF_Desert_CL.et"
+  }
+  m_sCustomNameSet "Командир стороны"
+ }
+}

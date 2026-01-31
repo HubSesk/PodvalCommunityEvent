@@ -1,0 +1,164 @@
+CinematicEntity Podvalzatopilo {
+ coords 0 0 0
+ Scene CinematicScene "{66EEDE670132DC79}" {
+ }
+}
+GenericEntity {
+ components {
+  MeshObject "{66E0E04840D53337}" {
+   Object "{B208A7E9B8BB2587}Assets/Props/Military/Furniture/Toilet_USSR_01/Excrement_01.xob"
+  }
+ }
+ coords 1920.347 132.499 7410.051
+}
+PolylineShapeEntity {
+ coords 9813.044 52.11 9439.9
+ Points {
+  ShapePoint "{6454B6EC0E4F957B}" {
+   Position 0 0 0
+  }
+  ShapePoint "{6454B6EC0E4FD19E}" {
+   Position 5 3 0
+  }
+  ShapePoint "{6454B6EC01075FDD}" {
+   Position 26.499 3 5.663
+  }
+  ShapePoint "{6454B6EC015B3AC8}" {
+   Position 33.824 3 20.847
+  }
+  ShapePoint "{6454B6EC0169047E}" {
+   Position 33.452 3 31.36
+  }
+  ShapePoint "{6454B6EC039E6A0E}" {
+   Position 22.501 3 35.496
+  }
+  ShapePoint "{6454B6EC03B43543}" {
+   Position 15.966 3 48.362
+  }
+  ShapePoint "{6454B6EC03EB789F}" {
+   Position -0.624 3 63.824
+  }
+  ShapePoint "{6454B6EC03052F4C}" {
+   Position -8.416 3 63.322
+  }
+  ShapePoint "{6454B6EC032201D0}" {
+   Position -20.84 3 54.125
+  }
+  ShapePoint "{6454B6EC037ED83A}" {
+   Position -19.683 3 44.459
+  }
+  ShapePoint "{6454B6EC0293FB61}" {
+   Position -7.582 3 31.183
+  }
+  ShapePoint "{6454B6EC02A6063B}" {
+   Position -18.036 3 19.066
+  }
+  ShapePoint "{6454B6EC02F8E926}" {
+   Position -27.699 3 13.638
+  }
+  ShapePoint "{6454B6EC020ECCAB}" {
+   Position -15.808 3 4.668
+  }
+  ShapePoint "{6454B6EC05954C5F}" {
+   Position -0.485 3 0.121
+  }
+ }
+ {
+  LakeGeneratorEntity : "{D0224BC8D6B29461}Prefabs/WEGenerators/Water/Lake/LG_CainLake_01.et" {
+   coords 0 0 0
+  }
+ }
+}
+SCR_AIGroup : "{1F26994029F145CD}Prefabs/Groups/BLUFOR/Ses_CDF/Group_Ses_CDF_SapperTeam.et" {
+ coords 1920.822 132.687 7408.875
+}
+GenericEntity : "{2256990396BB6E86}Prefabs/Props/Military/AmmoBoxes/drg_AmmoBox_762_PKM.et" {
+ coords 1920.818 132.485 7410.944
+}
+SCR_ChimeraCharacter : "{638E67B4EDC87312}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VSR/VDV_1.et" {
+ coords 9812.993 51.337 9444.103
+}
+GenericEntity : "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" {
+ components {
+  MeshObject "{51EC93F29BA5F234}" {
+   Object "{B208A7E9B8BB2587}Assets/Props/Military/Furniture/Toilet_USSR_01/Excrement_01.xob"
+  }
+ }
+ coords 1920.524 132.506 7410.02
+ angles -0.792 29.181 0
+}
+GenericEntity : "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" {
+ coords 1920.002 132.488 7410.769
+}
+$grp GenericEntity : "{97064F8597F2D7BF}Prefabs/Weapons/Explosives/DemoBlock_TSh400g/DemoBlock_TSh400g.et" {
+ {
+  components {
+   MeshObject "{5968D9C73C08706E}" {
+    Object "{B208A7E9B8BB2587}Assets/Props/Military/Furniture/Toilet_USSR_01/Excrement_01.xob"
+   }
+   SCR_ExplosiveChargeInventoryItemComponent "{5AA692DC30B9C62B}" {
+    Attributes SCR_ItemAttributeCollection "{60D6BB563667D737}" {
+     ItemAnimationAttributes ItemAnimationAttributes "{5F1A9209449348E6}" {
+      HandAdditiveRotation 55 45 55
+     }
+    }
+   }
+   SlotManagerComponent "{5F1CD138A009B549}" {
+    Slots {
+     FuzeSlotInfo timedFuze_PoC {
+      Offset 0 0.0229 0
+     }
+     FuzeSlotInfo remoteFuze_PoC {
+      Offset 0 0.0249 0
+     }
+    }
+   }
+  }
+  coords 1919.945 132.542 7410.036
+ }
+ {
+  coords 1919.778 132.492 7410.491
+ }
+}
+Vehicle UAZ452_ambulance_CDF1 : "{B8712D3815A12B80}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_ambulance_CDF.et" {
+ coords 8388.612 29.969 6609.72
+}
+GenericEntity : "{D7F69BF7D2DCA0A8}Prefabs/Props/Industrial/Pallets/Pallet_01.et" {
+ coords 8301.905 69.284 6726.647
+ angles 0 102.208 0
+ {
+  Turret : "{66B35D82EB9B4E28}Prefabs/Weapons/Tripods/6T7/Deployable_Tripod_6T7_NSV_SPP.et" {
+   coords -0.024 0.132 0.101
+   angles 0 -0.336 0
+   {
+    GenericEntity {
+     ID "6554E1F2A56526F1"
+     {
+      DecalEntity {
+       ID "56DEFDB4A2C87F38"
+       coords 8300.027 68.642 6727.825
+      }
+     }
+    }
+   }
+  }
+  $grp GenericEntity : "{C7A49C5B54C86903}Prefabs/Props/Military/Sandbags/Sandbag_01_single_burlap.et" {
+   {
+    coords -0.377 0.092 0.559
+    angles 0 -24.271 0
+   }
+   {
+    coords 0.199 0.099 0.606
+    angles 0 -151.78 0
+   }
+  }
+ }
+}
+GenericEntity : "{DDB41FDAD58F64E6}Prefabs/Structures/Signs/Generic/SignGeneric_01_NoSwimming.et" {
+ coords 9811.309 52.754 9442.549
+ angles 0 51.417 0
+}
+Turret : "{F12983FA2F0A61A0}Prefabs/Weapons/Tripods/6T7/Deployable_Tripod_6T7_NSV.et" {
+ coords 8300.508 68.644 6732.242
+ angles 0 99.714 0
+}

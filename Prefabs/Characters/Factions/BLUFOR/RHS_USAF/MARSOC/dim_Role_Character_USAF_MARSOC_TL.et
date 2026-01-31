@@ -1,0 +1,85 @@
+SCR_ChimeraCharacter : "{C4809EAA0F1F9C00}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MARSOC/Role_Character_USAF_MARSOC_SL.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_TeamLeader"
+    Icon "{44B846FB4F46E36A}UI/Icons/team_leader.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{3B8D1197A4192041}Prefabs/Weapons/M4A1/M4_SOCOM_DESTROYER.et"
+  }
+  SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
+   Identity Identity "{5584CBC6363C648B}" {
+    VisualIdentity VisualIdentity "{56E6D9456009D1C4}" {
+     Head "{FDF3993A05C780B0}Prefabs/Characters/Heads/Head_White_03/Head_White_03_camo_USSR_01.et"
+    }
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{60F173ECECE82BE8}Prefabs/Characters/HeadGear/Helmet_OPSCORE/variants/Helmet_OPSCORE_MT_Peltor_Marsoc1.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{DBCB5BB650678FD4}Prefabs/Characters/Vests/JPC_Pouches_Variants/GD_Multicam_USA_Var2.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{673857DA77281F31}" {
+     TargetStorage "Jacket/Crye_G3_Shirt_M81_rolledup.et"
+    }
+    ItemsInitConfigurationItem "{673857DD24D28597}" {
+     TargetStorage "Vest/GD_Multicam_USA_Var2.et/m18_2/Pouch_Filbe_M18_1.et"
+    }
+    ItemsInitConfigurationItem "{673857DD242BD470}" {
+     TargetStorage "Vest/GD_Multicam_USA_Var2.et/m18_1/Pouch_Filbe_M18_2.et"
+    }
+    ItemsInitConfigurationItem "{673857DD2405DACE}" {
+     TargetStorage "Vest/GD_Multicam_USA_Var2.et/Pouch1/Pouch_avs_front_elastic_MC.et"
+    }
+    ItemsInitConfigurationItem "{673857DD241CF7A1}" {
+     TargetStorage "Vest/GD_Multicam_USA_Var2.et/flexbelt2/Pouch_Shaw_Flex.et"
+     PrefabsToSpawn {
+      "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et"
+     }
+    }
+    ItemsInitConfigurationItem "{673857DD24745121}" {
+     TargetStorage "Vest/GD_Multicam_USA_Var2.et/tako_camer/Pouch_PCGEN3_takoPouch_MC.et"
+    }
+    ItemsInitConfigurationItem "{673857DD244DC698}" {
+     TargetStorage "Vest/GD_Multicam_USA_Var2.et/pistolpouch2/Pouch_Highspeed_Pistol_MC.et"
+    }
+    ItemsInitConfigurationItem "{673857DD278A0EA0}" {
+     TargetStorage "Jacket/Crye_G3_Shirt_Base.et"
+    }
+    ItemsInitConfigurationItem "{673857D00DA5D711}" {
+     TargetStorage "Vest/GD_Multicam_USA_Var2.et/m67_2/Pouch_Filbe_M67_Base.et"
+     PrefabsToSpawn {
+      "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+     }
+    }
+    ItemsInitConfigurationItem "{673857D00D81FB04}" {
+     TargetStorage "Vest/GD_Multicam_USA_Var2.et/m67_1/Pouch_Filbe_M67_2.et"
+     PrefabsToSpawn {
+      "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+     }
+    }
+    ItemsInitConfigurationItem "{673857D00DF46B31}" {
+     TargetStorage "Vest/GD_Multicam_USA_Var2.et/flexbelt/Pouch_Shaw_Flex.et"
+     PrefabsToSpawn {
+      "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et"
+     }
+    }
+    ItemsInitConfigurationItem "{673857D00D2A1D1F}" {
+     Enabled 0
+     TargetStorage "Vest/Multicam_USA_Var2.et/pistolpouch2/Pouch_Highspeed_Pistol_MC.et"
+    }
+   }
+  }
+ }
+ coords 4105.556 4.983 8600.23
+}

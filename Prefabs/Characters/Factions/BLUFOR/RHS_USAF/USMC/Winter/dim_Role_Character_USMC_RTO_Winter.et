@@ -1,0 +1,35 @@
+SCR_ChimeraCharacter : "{ECDD6D12FD8152AC}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Role_Character_USAF_USMC_RTO.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{09183CB7B6D66CE1}Prefabs/Characters/HeadGear/USMC_Helmet_Cover/Winter/GD_LWH_USMC_Goggles_Shroud_BWinter.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{21BCF2B1BC3B744B}TEST/Prefabs/Uniforms/gryphon/Jacket_Gryphon_SNOW.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{18EDBBD3D38C5691}Prefabs/Characters/Uniforms/USMC/Winter/GD_USMC_Pants_In_Winter.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6720F9CB5344D10E}" {
+     TargetStorage "Pants/GD_USMC_Pants_In_Winter.et"
+    }
+    ItemsInitConfigurationItem "{6720F9CB52FFCEB5}" {
+     TargetStorage "Pants/GD_USMC_Pants_In_Winter.et"
+    }
+    ItemsInitConfigurationItem "{6720F9CB52DA4A6E}" {
+     TargetStorage "Jacket/Jacket_Gryphon_SNOW.et"
+    }
+    ItemsInitConfigurationItem "{6720F9CE79E73603}" {
+     TargetStorage "Jacket/Jacket_Gryphon_SNOW.et"
+    }
+   }
+  }
+ }
+ coords 1077.718 15.25 762.54
+}

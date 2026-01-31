@@ -1,0 +1,171 @@
+$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ {
+  coords 4594.368 9.37 7500.057
+  m_sTitle "Правила и задачи"
+  m_sTextData "ПРАВИЛА:"\
+  "1. Всем запрещено надевать форму, головные уборы, разгрузки, бронежилеты противника (рюкзаки можно);"\
+  "2. Для захваты базы и подводной лодки, надо поменять флаг. Флаги не перезахватываемые."\
+  ""\
+  "ЗАДАЧИ:"\
+  "• РФ: "\
+  " 1. Удержать базу;"\
+  " 2. Удержать подводную лодку."\
+  "• США:"\
+  " 1. Захватить базу;"\
+  " 2. Захватить подводную лодку."
+  m_aVisibleForFactions {
+   "RHS_AFRF"
+   "RHS_USAF"
+   ""
+  }
+  m_bEmptyFactionVisibility 1
+ }
+ {
+  coords 4594.368 9.37 7496.44
+  m_sTitle "Обстановка в мире"
+  m_sDescriptionLayout "{B6DE04F7CF7A95DA}UI/MissionDescription/DescriptionEditableScrollable.layout"
+  m_sTextData "После кровополитных боев в провинции Руха (Финляндия), ВС США совместно с ВС Финляндией были отброшены на границу территории. Конфликт был временно заморожен хрупким перемирием. Линия соприкосновения стабилизировалась и лишь наблюдательные дроны с обеих сторон затмевают небо. "\
+  "Российских войск становится все больше и, возможно, конфликт перейдет во что-то большее, ибо после череды побед миротворческих сил в Рухе, народ Финляндии, под влиянием партии, которая симпатизирует РФ, начал потихоньку тоже выдвигать свои требования и частота беспорядков в остальных провинциях увеличилась. "\
+  ""\
+  "Финляндия, пытаясь вернуть утраченный контроль на Рухой, обращается к США с просьбой \"сделать что-то, что поменяет положение сил на нашей территории\". "\
+  ""\
+  "ВС США предпринимают попытку рейда на территорию подконтрольной РФ - Остров Гогланд. Цель данной операции является захват одной из баз, а также захват подводной лодки."
+  m_aVisibleForFactions {
+   "RHS_AFRF"
+   "RHS_USAF"
+   ""
+  }
+  m_bEmptyFactionVisibility 1
+ }
+ {
+  coords 4594.368 9.37 7496.44
+  m_sTitle "Ситуация"
+  m_sDescriptionLayout "{B6DE04F7CF7A95DA}UI/MissionDescription/DescriptionEditableScrollable.layout"
+  m_sTextData "Доброе утро, господа!"\
+  "Сегодняшняя операция была тщательно подготовлена командованием ССО КМП США, поэтому мы ожидаем от вас наивысшего уровня при проведении миссии."\
+  "Наша задачей является захват базы вблизи Armeijan varikko, а также подводной лодки находящейся в доке ниже. "\
+  "Второй флот ВМС США любезно предоставил нам 2 подводные лодки класса \"Джордж Вашингтон\" для проведения этого опасного рейда. Группы MARSOC уже находятся на поверхности и готовят свои лодки к операции. Некоторые разведовательные отряды уже находятся на суши и ведут активное наблюдение за движением противника. Также с севера скоро потянутся несколько отрядов КМП США. Не подведите нас!"
+  m_aVisibleForFactions {
+   "RHS_USAF"
+   ""
+  }
+ }
+ {
+  coords 4594.368 9.37 7496.44
+  m_sTitle "Ситуация"
+  m_sDescriptionLayout "{B6DE04F7CF7A95DA}UI/MissionDescription/DescriptionEditableScrollable.layout"
+  m_sTextData "Ежедневно с нашего острова отправляется огромное количество техники, боеприпасов и оружия. Все идет к тому, что конфликт в Рухе - это только начало. Нужно быть настороже, мало ли что в это опасное для нас время может случиться..."
+  m_aVisibleForFactions {
+   "RHS_AFRF"
+   ""
+  }
+ }
+}
+$grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
+ {
+  coords 4622.827 1.705 7446.958
+  m_sTitle "Подводная лодка захвачена"
+  m_iScore 50
+  m_sFactionKey "RHS_USAF"
+ }
+ {
+  coords 4622.827 1.705 7443.306
+  m_sTitle "База захвачена"
+  m_iScore 50
+  m_sFactionKey "RHS_USAF"
+ }
+ {
+  coords 4615.428 1.705 7446.958
+  m_sTitle "Подводная лодка удержана"
+  m_iScore 50
+  m_sFactionKey "RHS_AFRF"
+ }
+ {
+  coords 4615.428 1.705 7443.306
+  m_sTitle "База удержана"
+  m_iScore 50
+  m_sFactionKey "RHS_AFRF"
+ }
+}
+$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ {
+  coords 1221.395 0 11075.139
+  angles 0 90 0
+  m_sImageSet "{C46ACEA20E2A82F3}Prefabs/Misc/Photo/MARSOC.edds"
+  m_sImageSetGlow "{C46ACEA20E2A82F3}Prefabs/Misc/Photo/MARSOC.edds"
+  m_sQuadName ""
+  m_fWorldSize 1600
+  m_sDescription "КССО КМП США"
+  m_aVisibleForFactions {
+   "RHS_AFRF"
+   "RHS_USAF"
+   ""
+  }
+  m_bVisibleForEmptyFaction 1
+ }
+ {
+  coords 10360.834 0 7480.527
+  angles 0 98.042 0
+  m_sImageSet "{A765372FB63341FA}Prefabs/Misc/Photo/DOCIMAR.edds"
+  m_sImageSetGlow "{A765372FB63341FA}Prefabs/Misc/Photo/DOCIMAR.edds"
+  m_sQuadName ""
+  m_fWorldSize 4400
+  m_aVisibleForFactions {
+   "RHS_AFRF"
+   "RHS_USAF"
+   ""
+  }
+  m_bVisibleForEmptyFaction 1
+ }
+ {
+  coords 4306.6 5.67 9046.218
+  angles 0 90 0
+  m_sImageSetGlow "{E23427CAC80DA8B7}UI/Textures/Icons/icons_mapMarkersUI.imageset"
+  m_MarkerColor 0.502 0 0 1
+  m_sQuadName "point-of-interest"
+  m_fWorldSize 70
+  m_sDescription "Подводная лодка"
+  m_aVisibleForFactions {
+   "RHS_AFRF"
+   "RHS_USAF"
+   ""
+  }
+  m_bVisibleForEmptyFaction 1
+ }
+ {
+  coords 2281.917 0 8975.757
+  angles 0 87.706 0
+  m_sImageSetGlow "{E23427CAC80DA8B7}UI/Textures/Icons/icons_mapMarkersUI.imageset"
+  m_MarkerColor 0.157 0.275 0.624 1
+  m_sQuadName "attack-main"
+  m_fWorldSize 700
+  m_sDescription "Возможная атака"
+  m_aVisibleForFactions {
+   "RHS_AFRF"
+   ""
+  }
+  m_bVisibleForEmptyFaction 1
+ }
+ {
+  coords 6747.57 0 9674.104
+  angles 0 -122.806 0
+  m_sImageSetGlow "{E23427CAC80DA8B7}UI/Textures/Icons/icons_mapMarkersUI.imageset"
+  m_MarkerColor 0.157 0.275 0.624 1
+  m_sQuadName "attack-main"
+  m_fWorldSize 700
+  m_sDescription "Возможная атака"
+  m_aVisibleForFactions {
+   "RHS_AFRF"
+   ""
+  }
+  m_bVisibleForEmptyFaction 1
+ }
+}
+GenericEntity : "{E6FC6DD69FA3479F}Prefabs/System/DRG_MissionEndTimerPrefab.et" {
+ components {
+  DRG_MissionEndTimerComponent "{651B0839B21B3BBF}" {
+   m_iMissionTime 2700
+  }
+ }
+ coords 4315.726 14.515 8796.273
+}

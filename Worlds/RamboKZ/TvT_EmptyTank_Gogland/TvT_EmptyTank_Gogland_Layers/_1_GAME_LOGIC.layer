@@ -1,0 +1,61 @@
+GenericEntity : "{592E8C59C778A189}Prefabs/System/GUB_ZoneControlBetweenFactionsPrefab.et" {
+ components {
+  GUB_ZoneControlComponent "{66E34DFE0E54C4B7}" {
+   m_aControlLogics {
+    GUB_ZoneControlLogic "{6860F8FEE74E3AE1}" {
+     m_sZonePreviewName "Командный пункт"
+     m_iAdvanceAfterSec 10
+     m_sMessage "ВС РФ Захватила командный пункт!"
+     m_Timer GUB_ZoneControlTimer "{6860F8FEDB22EE4E}" {
+      timeToComplete 300
+     }
+     m_ZoneController GUB_ZoneController "{6860F8FEDD9C2F30}" {
+      m_sZoneEntityName "CAPTURE_ZONE"
+     }
+     m_FlagController GUB_FlagController "{6860F8FF06639174}" {
+      m_aFlagNames {
+       "FLAG_1"
+       "FLAG_2"
+       "FLAG_3"
+      }
+      m_fStartFactionKey "RHS_USAF"
+      m_fEndFactionKey "RHS_AFRF"
+     }
+     m_aConditions {
+      GUB_ZoneControlBetweenFactionsCondition "{6860F8FF5501DB95}" {
+       m_sFirstFactionKey "RHS_AFRF"
+       m_sSecondFactionKey "RHS_USAF"
+       m_fComparisonMultiplier 3
+       m_iOperator GREATER
+      }
+     }
+    }
+   }
+  }
+ }
+ coords 6733.749 99.771 2083.886
+}
+GenericEntity : "{91991AEB147C0F3B}Prefabs/System/DRG_RandomSpawnPrefab.et" {
+ components {
+  DRG_RandomSpawnComponent "{66295E1A338BA9CE}" {
+   m_TargetEntity "AFRF_200"
+   m_MarkerEntities {
+    "spn_spawn1"
+    "spn_spawn2"
+    "spn_spawn3"
+   }
+  }
+ }
+ coords 1731.107 14.691 2466.658
+}
+GenericEntity : "{E6FC6DD69FA3479F}Prefabs/System/DRG_MissionEndTimerPrefab.et" {
+ components {
+  DRG_MissionEndTimerComponent "{651B0839B21B3BBF}" {
+   m_iMissionTime 2700
+   m_aTimeLeftWarningTimers {
+    300
+   }
+  }
+ }
+ coords 6848.398 138.546 2486.788
+}

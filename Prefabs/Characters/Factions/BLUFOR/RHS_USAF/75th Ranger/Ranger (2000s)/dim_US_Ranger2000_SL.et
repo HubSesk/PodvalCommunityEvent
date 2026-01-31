@@ -1,0 +1,83 @@
+SCR_ChimeraCharacter : "{87C3C0F036803D0D}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/75th Ranger/Ranger (2000s)/dim_US_Ranger2000_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{0CF54B9A85D8E0D4}Prefabs/Items/Equipment/Binoculars/Binoculars_M22/Binoculars_M22.et"
+      }
+     }
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_SquadLeader"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{8E405F2E890E584F}Prefabs/Weapons/M4A1/M4_Ranger_TL.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Boots {
+     Prefab "{21B331B5FA807997}Prefabs/Characters/Footwear/Boots_Rocky_SV2/Footwear_Rocky_SV2.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{4436D0BE152B675E}Prefabs/Characters/Vests/RangerKits/Ranger_SL.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{686D66D16AC08F01}" {
+     PrefabsToSpawn {
+      "{C742BD6CB3D77A5A}Prefabs/Items/Equipment/Radios/drg_Radio_ANPRC152A_OLD_SL.et"
+     }
+    }
+    ItemsInitConfigurationItem "{686F189048C02AAE}" {
+     TargetStorage "Vest/Ranger_SL.et/m18_2/Pouch_Filbe_M18_1.et"
+     PrefabsToSpawn {
+      "{3343A055A83CB30D}Prefabs/Weapons/Grenades/M18/Smoke_M18_Red.et"
+     }
+    }
+    ItemsInitConfigurationItem "{686F18906E43A439}" {
+     TargetStorage "Vest/Ranger_SL.et/m18_1/Pouch_Filbe_M18_2.et"
+    }
+    ItemsInitConfigurationItem "{686F189078E6819F}" {
+     TargetStorage ""
+    }
+    ItemsInitConfigurationItem "{686F189084B51418}" {
+     TargetStorage "Vest/Ranger_SL.et/saw/Pouch_PCGEN3_util.et"
+    }
+    ItemsInitConfigurationItem "{686F189094875A11}" {
+     TargetStorage "Vest/Ranger_SL.et/tako/Ranger_StanagPouch.et"
+     PrefabsToSpawn {
+      "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{686F1890900E8780}" {
+     TargetStorage "Vest/Ranger_SL.et/takobelt/Ranger_StanagPouch.et"
+     PrefabsToSpawn {
+      "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{686F18909C2BA8B1}" {
+     TargetStorage "Vest/Ranger_SL.et/Pouch1/Ranger_Stanag_Closed.et"
+     PrefabsToSpawn + {
+      "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{686F188806CB9967}" {
+     TargetStorage "Vest/Ranger_SL.et/m67_2/GD_Holster_SLS.et"
+     PrefabsToSpawn {
+      "{1353C6EAD1DCFE43}Prefabs/Weapons/Handguns/M9/Handgun_M9.et"
+     }
+    }
+   }
+  }
+ }
+ coords 4741.925 311.313 5888.544
+}

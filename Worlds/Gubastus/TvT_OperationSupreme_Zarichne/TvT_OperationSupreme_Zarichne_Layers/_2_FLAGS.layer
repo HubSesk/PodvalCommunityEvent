@@ -1,0 +1,21 @@
+GenericEntity : "{EA3695BD1C032FE2}PrefabsEditable/Auto/Structures/Military/Flags/FlagPole_02_V1_ChDKZ_Editable.et" {
+ components {
+  SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+   m_sFactionKey "Ses_ChDKZ"
+   m_sUseNotification 1
+  }
+  BaseActionsManagerComponent "{6202D4E6F133BF4A}" {
+   ActionContexts {
+    UserActionContext "{6202D793E4B0C277}" {
+    }
+   }
+   additionalActions {
+    PS_FlagChangeAction "{6202D4E6A53D4B3C}" {
+     Duration 10
+    }
+   }
+  }
+ }
+ coords 1600.411 39.252 2301.245
+ angles 45 149.663 0
+}

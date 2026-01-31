@@ -1,0 +1,50 @@
+SCR_ChimeraCharacter : "{54908862C44D51B3}Prefabs/Characters/Factions/INDFOR/FIA/FIA or PMC or CIA_Brown/Role_Character_FPC_Rifleman_B.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{76953090640A0870}Prefabs/Characters/Headgear/Cap/Variants/Desert Ver/Reverse/CapReverse (Tan Headphones,GlassesV2, Mask).et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{00ECD7EB467C97D7}Prefabs/Characters/Uniforms/Shirt_CottonShirt_01/Shirt_CottonShirt_01_V3_Dirty.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{66177AF251E66DA5}Prefabs/Characters/Vests/Vest_Shaw_ARC/Vest_Shaw_ARC_Coy.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{6925E6C63EBCF623}Prefabs/Characters/Uniforms/Pants_Trousers_01/Pants_Trousers_01_DarkBrown.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{6F0B52F8B46CE743}Prefabs/Characters/Vests/Vest_Shaw_ARC/Variants/Vest_Shaw_ARC_preset_placard_coy.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{5D7CC173FAA7C00E}" {
+     TargetStorage "Pants/Pants_Trousers_01_DarkBrown.et"
+    }
+    ItemsInitConfigurationItem "{5D7CC173FAA7C00C}" {
+     TargetStorage "Pants/Pants_Trousers_01_DarkBrown.et"
+    }
+    ItemsInitConfigurationItem "{6721728B73532056}" {
+     TargetStorage "Jacket/Shirt_CottonShirt_01_V3_Dirty.et"
+    }
+    ItemsInitConfigurationItem "{6721728B9FF71F2D}" {
+     TargetStorage "Vest/Vest_Shaw_ARC_preset_placard_coy.et/placard/Pouch_Shaw_Placard_Elastic_Coy.et"
+    }
+    ItemsInitConfigurationItem "{6721728BA12AEE95}" {
+     TargetStorage "Vest/Vest_Shaw_ARC_preset_placard_coy.et/raid/Pouch_Shaw_Raid.et"
+    }
+    ItemsInitConfigurationItem "{6721728BB7F2C211}" {
+     TargetStorage "Vest/Vest_Shaw_ARC_preset_placard_coy.et/raid/Pouch_Shaw_Raid.et"
+     PrefabsToSpawn + {
+      "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
+     }
+    }
+   }
+  }
+ }
+ coords 1617.687 38.465 2918.386
+}

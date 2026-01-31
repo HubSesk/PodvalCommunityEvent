@@ -1,0 +1,104 @@
+SCR_EditorRestrictionZoneEntity : "{6144B0BE2EAC6897}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneMedium.et" {
+ coords 5107.256 53.5 4748.958
+}
+GenericEntity : "{6A3CDCFB475BF1B2}Prefabs/System/DRG_CriticalLossPrefab.et" {
+ components {
+  DRG_CriticalLossComponent "{65213D368F1BD792}" {
+   m_aLossLogics {
+    LossLogic "{67233C4173D79B14}" {
+     m_aLosses {
+      FactionLoss "{67233C4172507BC8}" {
+       m_sFactionKey "RHS_USAF"
+      }
+     }
+     m_sObjectiveNames {
+      "Победа ВС РФ! Силы США понесли огромные потери и были вынуждены отступить!"
+     }
+    }
+   }
+  }
+ }
+ coords 5298.592 57.731 5072.137
+}
+$grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
+ USA {
+  coords 4932.998 60.804 3038.225
+  m_sTitle "1 из 2 Точек  захвачено"
+  m_iScore 25
+  m_sFactionKey "RHS_USAF"
+ }
+ USA2 {
+  coords 4934.498 60.804 3038.225
+  m_sTitle "2 из 2 Точек  захвачено"
+  m_iScore 25
+  m_sFactionKey "RHS_USAF"
+ }
+ USA3 {
+  coords 4936.244 60.804 3038.225
+  m_sTitle "Командир ликвидирован"
+  m_iOrder 25
+  m_iScore 50
+  m_sFactionKey "RHS_USAF"
+ }
+ RUS {
+  coords 4932.998 60.804 3035.894
+  m_sTitle "Блокпост \"Анна\" удержан"
+  m_iScore 25
+  m_sFactionKey "RHS_AFRF"
+ }
+ RUS2 {
+  coords 4936.151 60.804 3035.894
+  m_sTitle "Блокпост \"Борис\" удержан"
+  m_iScore 25
+  m_sFactionKey "RHS_AFRF"
+ }
+ RUS3 {
+  coords 4938.249 60.804 3035.894
+  m_sTitle "Блокпост \"Константин\" удержан"
+  m_iScore 25
+  m_sFactionKey "RHS_AFRF"
+ }
+ RUS4 {
+  coords 4940.542 60.804 3035.894
+  m_sTitle "Полковник жив"
+  m_iScore 25
+  m_sFactionKey "RHS_AFRF"
+ }
+ FIA {
+  coords 4944.2 60.804 3031.737
+  m_sTitle "Полковник жив"
+  m_iScore 50
+  m_sFactionKey "Drg_IGF"
+ }
+ FIA2 {
+  coords 4947.792 60.804 3031.737
+  m_sTitle "Лидер ополчения жив"
+  m_iScore 50
+  m_sFactionKey "Drg_IGF"
+ }
+}
+$grp SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
+ {
+  coords 5289.93 61.253 5132.101
+ }
+ {
+  coords 4391.431 60.728 2681.979
+ }
+ {
+  coords 2334.739 67.664 2714.687
+ }
+ {
+  coords 5500.772 70.281 2675.782
+ }
+ {
+  coords 1396.517 68.843 4855.724
+ }
+}
+GenericEntity : "{E6FC6DD69FA3479F}Prefabs/System/DRG_MissionEndTimerPrefab.et" {
+ components {
+  DRG_MissionEndTimerComponent "{651B0839B21B3BBF}" {
+   m_iMissionTime 3000
+  }
+ }
+ coords 5297.761 57.757 5073.645
+}

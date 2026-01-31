@@ -28,6 +28,8 @@ modded class SCR_FlagComponent
         vector matLS[4];
         slotManager.GetSlotByName("Flag").GetLocalTransform(matLS);
         startLocalPose = matLS[3];
+        startLocalPose[0] = 0;
+        startLocalPose[2] = 0;
     }
 
     float GetFlagRaiseLevel()
@@ -47,7 +49,9 @@ modded class SCR_FlagComponent
 
         vector matLS[4];
         slotManager.GetSlotByName("Flag").GetLocalTransform(matLS);
+        matLS[3][0] = startLocalPose[2];
         matLS[3][1] = startLocalPose[1] * m_fFlagRaiseLevel;
+        matLS[3][2] = startLocalPose[2];
         slotManager.GetSlotByName("Flag").SetAdditiveTransformLS(matLS);
 
         if (Replication.IsServer())
@@ -57,5 +61,10 @@ modded class SCR_FlagComponent
     void OnFlagRaiseLevelChange()
     {
         ChangeFlagRaiseLevel(m_fFlagRaiseLevel);
+    }
+
+    ResourceName GetCurrentMaterial()
+    {
+        return m_sCurrentMaterial;
     }
 }

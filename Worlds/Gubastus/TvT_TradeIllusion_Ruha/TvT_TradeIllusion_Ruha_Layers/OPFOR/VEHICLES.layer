@@ -1,0 +1,65 @@
+Vehicle Ural4320_transport1 : "{16C1F16C9B053801}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport.et" {
+ coords 6593.138 96.837 1189.024
+}
+Vehicle Ural4320_command1 : "{1BABF6B33DA0AEB6}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_command.et" {
+ coords 4343.126 55.257 4312.653
+ angles -0.895 0.014 -0.895
+ m_sAttachmentGroupName "AFRF_000"
+}
+Vehicle Ural4320_ammo1 : "{3336BE330C4F355B}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_ammo.et" {
+ coords 6588.138 96.837 1189.024
+}
+$grp Vehicle : "{447CFE8D73F95C3E}Prefabs/Vehicles/Wheeled/BTR70/BTR70_AFRF.et" {
+ BTR70_AFRF1 {
+  coords 4378.106 52.59 4401.955
+  angles 1.89 45.16 3.165
+  m_sAttachmentGroupName "AFRF_200"
+  {
+   GameEnvironmentProbeEntity {
+    ID "654E652E0CEAC5BD"
+    coords -0.052 -0.458 1.174
+   }
+  }
+ }
+ BTR70_AFRF2 {
+  coords 4361.349 53.327 4385.009
+  angles -3.152 45.174 -3.167
+  m_sAttachmentGroupName "AFRF_201"
+  {
+   GameEnvironmentProbeEntity {
+    ID "654E652E0CEAC5BD"
+    coords -0.036 -0.568 1.156
+   }
+  }
+ }
+}
+Vehicle Ural4320_engineer1 : "{6E9142CD2471741C}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_engineer.et" {
+ coords 6583.138 96.837 1189.024
+}
+$grp Vehicle : "{D9B91FAB817A6033}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered.et" {
+ Ural4320_transport_covered2 {
+  coords 4367.131 55.104 4276.139
+  angles 0.631 -45.035 -3.162
+  m_sAttachmentGroupName "AFRF_101"
+ }
+ Ural4320_transport_covered1 {
+  coords 4352.019 55.282 4289.992
+  angles 0.632 -45.021 -1.898
+  m_sAttachmentGroupName "AFRF_100"
+ }
+ Ural4320_transport_covered4 {
+  coords 4340.746 54.488 4364.734
+  angles 1.898 45 0.632
+  m_sAttachmentGroupName "AFRF_202"
+ }
+ Ural4320_transport_covered5 {
+  coords 4320.52 54.61 4344.658
+  angles 1.898 45 0.632
+  m_sAttachmentGroupName "AFRF_203"
+ }
+}
+Vehicle Mi8MT_armed_gunship_HEDP1 : "{DBEC63C9DEE4358C}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_armed_gunship_HEDP.et" {
+ coords 6886.177 96.656 1339.87
+ angles 0 -90 0
+ m_sAttachmentGroupName "AFRF_500"
+}

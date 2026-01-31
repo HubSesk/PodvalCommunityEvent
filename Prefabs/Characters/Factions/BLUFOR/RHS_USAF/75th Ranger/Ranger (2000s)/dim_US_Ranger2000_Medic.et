@@ -1,0 +1,67 @@
+SCR_ChimeraCharacter : "{87C3C0F036803D0D}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/75th Ranger/Ranger (2000s)/dim_US_Ranger2000_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#DRG-Roles-RHS_USAF_Medic"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{D958E7628FA74287}Prefabs/Characters/HeadGear/Helmet_MICH_ACH/dim_MICH2000_Ranger2.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{E5BE663442A4621A}Prefabs/Characters/Uniforms/ACU_jacket/ACU_jacket_UCP.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{8CDC9308C265ECCB}Prefabs/Characters/Footwear/ACU_boots/ACU_boots1_base.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{4805E67E2AE30F8D}Prefabs/Items/Equipment/Backpacks/Backpack_Medical_M5.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{FD2D0DB75ECAACF1}Prefabs/Characters/Vests/RangerKits/Ranger_Medic.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{686D66D3426CC271}" {
+     TargetStorage "Jacket/ACU_jacket_UCP.et"
+    }
+    ItemsInitConfigurationItem "{686F189048C02AAE}" {
+     TargetStorage "Vest/Ranger_Medic.et/pistol2/Pouch_Filbe_M18_1.et"
+    }
+    ItemsInitConfigurationItem "{686F18906E43A439}" {
+     TargetStorage "Vest/Ranger_Medic.et/m67_2/Pouch_Filbe_M18_2.et"
+     PrefabsToSpawn {
+      "{D41D22DD1B8E921E}Prefabs/Weapons/Grenades/M18/Smoke_M18_Green.et"
+     }
+    }
+    ItemsInitConfigurationItem "{686F189078E6819F}" {
+     TargetStorage ""
+    }
+    ItemsInitConfigurationItem "{686F189094875A11}" {
+     TargetStorage "Vest/Ranger_Medic.et/nerd/Pouch_Highspeed_Bleeder.et"
+    }
+    ItemsInitConfigurationItem "{686F1890900E8780}" {
+     TargetStorage "Vest/Ranger_Medic.et/flex2/Pouch_FILBE_doubleM4_2.et"
+    }
+    ItemsInitConfigurationItem "{686F18909C2BA8B1}" {
+     TargetStorage "Vest/Ranger_Medic.et/filbe/Pouch_FILBE_doubleM4_2.et"
+    }
+    ItemsInitConfigurationItem "{686F1883A3F8A639}" {
+     TargetStorage "Vest/Ranger_Medic.et/Placard/Pouch_Placard.et"
+    }
+    ItemsInitConfigurationItem "{686F188A69C56023}" {
+     TargetStorage "Back/Backpack_Medical_M5.et"
+     PrefabsToSpawn {
+      "{00E36F41CA310E2A}Prefabs/Items/Medicine/SalineBag_01/SalineBag_US_01.et" "{00E36F41CA310E2A}Prefabs/Items/Medicine/SalineBag_01/SalineBag_US_01.et" "{00E36F41CA310E2A}Prefabs/Items/Medicine/SalineBag_01/SalineBag_US_01.et" "{00E36F41CA310E2A}Prefabs/Items/Medicine/SalineBag_01/SalineBag_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{AE578EEA4244D41F}Prefabs/Items/Equipment/Kits/MedicalKit_01/MedicalKit_01_US.et"
+     }
+    }
+   }
+  }
+ }
+ coords 4745.262 311.344 5887.213
+}

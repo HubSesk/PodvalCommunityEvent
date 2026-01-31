@@ -1,0 +1,41 @@
+SCR_ChimeraCharacter : "{F1FD7BE282FC48CA}Prefabs/Characters/Factions/CIV/Businessman/Character_CIV_Businessman_1.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
+   Override 1
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Jacket {
+     Prefab "{BB68DC18E1C571D8}Prefabs/Characters/Uniforms/VKPO/Undershirt_VKPO.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{0B1F0174869E0351}Prefabs/Characters/Uniforms/Pants_Fisherman_01/Pants_Fisherman_01_green.et"
+    }
+   }
+  }
+  ActionsManagerComponent "{520EA1D2F659CE02}" {
+   additionalActions {
+    DRG_DeathConfirmAction "{6843717738EC9452}" {
+     ParentContextList {
+      "LowerTorso"
+     }
+     UIInfo UIInfo "{65E2D0EF1870FE87}" {
+      Name "Подтвердить смерть"
+     }
+     ActionTitle "#drg_ConfirmDeathAction"
+     Duration 3
+     m_sEventMessage "#drg_ConfirmMessageDeathMessage"
+     m_aObjectivesToDone {
+      "KILL_LEADER"
+     }
+     m_aObjectivesToFail {
+      "SAVE_LEADER"
+     }
+     m_vFactionKey "ION"
+    }
+   }
+  }
+ }
+ coords 6637.515 25.534 3900.583
+}

@@ -1,0 +1,29 @@
+SCR_ChimeraCharacter : "{40684F55E2D38EC9}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/75th Ranger/Ranger (2000s)/dim_US_Ranger2000_Unarmed.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{B50CD3823363CDA9}Prefabs/Characters/HeadGear/Helmet_MICH_ACH/dim_MICH2000_Ranger1.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{8444CAA1306D1A02}Prefabs/Characters/Vests/MBAV/TF_Eagle_Ind_MBAV_Khaki.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{BA59C9EAD2F5ABD5}Prefabs/Characters/Vests/Vest_IMTV/Pouches/Pouches_MBAV_Rifleman_2.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{686D66D16AC08F01}" {
+     TargetStorage "Pants/ACU_pants_UCP.et"
+     PrefabsToSpawn {
+      "{BAB50E5D149D64D9}Prefabs/Items/Equipment/Radios/drg_Radio_ANPRC152A_OLD_prv.et"
+     }
+    }
+   }
+  }
+ }
+ coords 4850.701 307.439 5868.413
+}

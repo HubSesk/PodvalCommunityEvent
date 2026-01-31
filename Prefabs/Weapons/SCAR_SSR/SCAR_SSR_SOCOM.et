@@ -1,0 +1,60 @@
+GenericEntity : "{D0B336774F33A45B}Prefabs/Weapons/Rifles/SCAR_SSR/Rifle_SCAR_SSR_base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  MeshObject "{CFBAA4B701F95D69}" {
+   Materials {
+    MaterialAssignClass "{6724CD1B72928FCE}" {
+     SourceMaterial "SCARH_receiver"
+     AssignedMaterial "{21E19BF03739B959}Assets/Weapons/Rifles/SCAR_H/Data/SCARH_receiver_Black.emat"
+    }
+    MaterialAssignClass "{6724CD1B72928FB0}" {
+     SourceMaterial "pistol_grip_A2"
+     AssignedMaterial "{6CD3B5B7F5742C4D}Assets/Weapons/Rifles/SCAR_H/Data/pistol_grip_A2_Black.emat"
+    }
+   }
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{64E4FBE6B5E8ADA4}" {
+     AttachmentSlot InventoryStorageSlot optic_ris {
+      Offset 0 0 0.07
+      Prefab "{7FC82F39B98AF906}Prefabs/Weapons/Attachments/Optics/ts30a2/optic_ts30a2_no_covers.et"
+     }
+    }
+    AttachmentSlotComponent "{6724CD18DCDA2371}" {
+     AttachmentSlot InventoryStorageSlot Gripss {
+      Offset -0.0057 0.0127 0.3716
+      MergePhysics 1
+      Prefab "{23D34FB66BBC8BEE}Prefabs/Weapons/Attachments/Bipods/harris_bipod/rhs_lt706_harris.et"
+      DisablePhysicsInteraction 1
+      InspectionWidgetOffset 0 -0.0142 0.3652
+     }
+     AttachmentType AttachmentRIS1913Bipod "{6724CD163B314F8D}" {
+     }
+    }
+    AttachmentSlotComponent "{6724CD19A722C070}" {
+     AttachmentSlot InventoryStorageSlot Range {
+      Offset -0.0354 0.0324 0.3373
+      Angles 0 0 270
+      Prefab "{A7C848BABE4F4577}Prefabs/Weapons/Attachments/Lasers/psq23/LaserRangefinder_PSQ23_base.et"
+      InspectionWidgetOffset -0.0589 0.0324 0.2548
+     }
+     AttachmentType AttachmentOpticsRIS1913 "{6724CD19A8C6DF41}" {
+     }
+     ShowInInspection 1
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     components {
+      AttachmentSlotComponent "{64E4FBE6B5E8ADEC}" {
+       AttachmentSlot InventoryStorageSlot Muzzle {
+        Prefab "{1030E826B42148BE}Prefabs/Weapons/Attachments/Muzzle/Suppressor_AAC_SDN6/Suppressor_AAC_SDN6.et"
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ coords 1397.641 69.66 4865.503
+ angles 0 0 0
+}

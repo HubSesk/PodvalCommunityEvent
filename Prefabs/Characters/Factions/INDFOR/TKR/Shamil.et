@@ -1,0 +1,52 @@
+SCR_ChimeraCharacter : "{6A80724B342F7D93}Prefabs/Characters/Factions/INDFOR/TKR/DRG_TKR/drg_Character_Ses_TKR_SL2.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Шамиль"
+    Icon "{208FDC0A49380FD7}UI/Icons/platoon_leader.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{4DC7AEE8C73A0F34}Prefabs/Weapons/Rifles/AKS74UN/Rifle_AKS74UN_Gold.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Back {
+     Prefab "{E9B1323AF69F75DC}Prefabs/Items/Equipment/Radios/Radio_RF10/Radio_RF10_PL.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6586FC5BBC416173}" {
+     PrefabsToSpawn {
+      "{BBB50A815A2F916C}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_Ball.et" "{BBB50A815A2F916C}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_Ball.et" "{BBB50A815A2F916C}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_Ball.et" "{BBB50A815A2F916C}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_Ball.et" "{BBB50A815A2F916C}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_Ball.et" "{BBB50A815A2F916C}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_Ball.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+     }
+    }
+   }
+  }
+  ActionsManagerComponent "{520EA1D2F659CE02}" {
+   additionalActions {
+    DRG_DeathConfirmAction "{66F17CA382E165AE}" {
+     ParentContextList {
+      "LowerTorso"
+     }
+     UIInfo UIInfo "{66F17CA382E165EA}" {
+      Name "Подтвердить смерть"
+     }
+     ActionTitle "#drg_ConfirmDeathAction"
+     Duration 3
+     m_sEventMessage "Шамиль мертв!"
+     m_aObjectivesToDone {
+      "AFRF_WIN"
+     }
+     m_aObjectivesToFail {
+      "TKR_WIN"
+     }
+     m_vFactionKey "RHS_AFRF"
+    }
+   }
+  }
+ }
+}

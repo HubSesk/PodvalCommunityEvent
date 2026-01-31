@@ -1,0 +1,37 @@
+$grp SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
+ USAF_FREZZ_0 {
+  coords 3405.205 58.474 3753.839
+  angles 0.894 0.028 1.79
+ }
+ USAF_FREZZ_1 {
+  coords 6159.138 53.731 8024.771
+  angles 0.894 0.028 1.79
+ }
+ AFRF_FREEZ_0 {
+  coords 3493.922 83.768 7143.008
+  m_fWarnRadius 145
+  m_fZoneRadius 165
+  m_fZoneTeleportedRadius 175
+  {
+   GenericEntity {
+    ID "59D673B36B893D84"
+    components {
+     SCR_CustomAreaMeshComponent "{59D673B22B1EBC57}" {
+      m_vResolution 40
+      m_bFollowTerrain 1
+      m_fRadius 145
+     }
+    }
+    angles 0 30.708 0
+   }
+  }
+ }
+}
+$grp SCR_EditorRestrictionZoneEntity : "{EF72FA7CD87618D5}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneSmall.et" {
+ USAF_FREZZ_3 {
+  coords 67.441 68.054 5944.086
+ }
+ USAF_FREZZ_2 {
+  coords 4652.384 77.931 7517.799
+ }
+}

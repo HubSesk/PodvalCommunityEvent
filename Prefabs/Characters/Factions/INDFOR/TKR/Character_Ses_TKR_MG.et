@@ -1,0 +1,40 @@
+SCR_ChimeraCharacter : "{C5520722FCCA576E}Prefabs/Characters/Factions/INDFOR/TKR/Character_Ses_TKR_BaseLoadout.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Jacket {
+     Prefab "{8712582C7AFD5C92}Prefabs/Characters/Uniforms/TakShirts/TakShirt09.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{B22169A0DA2BE974}Prefabs/Characters/Uniforms/TakPants/TakPant07.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{271E536BF884A826}Prefabs/Characters/Footwear/TakShoes03.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6074FD81D85F4351}" {
+     TargetStorage "Jacket/TakShirt09.et"
+    }
+    ItemsInitConfigurationItem "{6074FD81A7B67B88}" {
+     TargetStorage "Jacket/TakShirt09.et"
+    }
+    ItemsInitConfigurationItem "{60FB76D98B3CD6FB}" {
+     TargetStorage "Pants/TakPant07.et"
+    }
+    ItemsInitConfigurationItem "{6532F52F48A8EFEF}" {
+     TargetStorage "Pants/TakPant07.et"
+    }
+    ItemsInitConfigurationItem "{60753DC5D461CDCB}" {
+     PrefabsToSpawn {
+      "{0110F6D92703114A}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N13_4Ball_1Tracer.et" "{A6737DA00653A39C}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_Ball.et"
+     }
+    }
+   }
+  }
+ }
+ coords 708.957 39 2612.626
+}

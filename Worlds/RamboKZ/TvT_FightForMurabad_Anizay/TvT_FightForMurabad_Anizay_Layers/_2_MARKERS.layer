@@ -1,0 +1,41 @@
+$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ M_Attack {
+  coords 9449.431 41.276 1413.323
+  angles 0 90 0
+  m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.61 0 0 1
+  m_sQuadName "Task_Attack"
+  m_fWorldSize 35
+  m_sDescription "Захватить"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_AFRF"
+  }
+ }
+ M_Defense {
+  coords 9449.529 41.267 1413.314
+  angles 0 90 0
+  m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.035 0.246 0.09 1
+  m_sQuadName "Task_Defend"
+  m_fWorldSize 35
+  m_sDescription "Защищать"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_TKR"
+  }
+ }
+ M_Null {
+  coords 9449.311 41.3 1413.403
+  angles 0 90 0
+  m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+  m_sImageSetGlow ""
+  m_sQuadName "Task_Defend"
+  m_fWorldSize 35
+  m_sDescription "Мурабат"
+  m_bUseWorldScale 0
+  m_bVisibleForEmptyFaction 1
+ }
+}

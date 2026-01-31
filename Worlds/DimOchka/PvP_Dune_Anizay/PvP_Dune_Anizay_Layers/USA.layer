@@ -1,0 +1,208 @@
+Vehicle M998_covered_USAF_D1 : "{3F5936DB9D87969C}Prefabs/Vehicles/Wheeled/M998/M998_covered_USAF_D.et" {
+ coords 8605.96 132.812 8672.81
+ angles 0.736 124.745 0.51
+ m_sAttachmentGroupName "(#DRG-Sq-RifleSquad) RHS_USAF_G_002_7"
+}
+SCR_AIGroup "(#DRG-Sq-CompanyHQ) RHS_USAF_G_001_1" : "{4A02B745F553821E}Prefabs/Groups/BLUFOR/drg_USAF_CompanyHQ.et" {
+ coords 9622.347 89.813 9034.673
+ angles 0 -96.995 0
+ m_aUnitPrefabSlots {
+  "{6B87FF13A848B17B}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Role_Character_USAF_USMC_Officer.et"
+ }
+}
+$grp Vehicle : "{533820E8979A44A9}Prefabs/Vehicles/Wheeled/M998/M1151_armed_M2HB_Tan.et" {
+ M1151_armed_M2HB_Tan1 {
+  coords 8598.268 132.678 8676.833
+  angles 1.209 117.798 -0.374
+  m_sAttachmentGroupName "(#DRG-Sq-RifleSquad) RHS_USAF_G_002_7"
+ }
+ M1151_armed_M2HB_Tan4 {
+  coords 4826.506 149.344 9816.302
+  angles 0 58.22 0
+  m_sAttachmentGroupName "A2"
+ }
+ M1151_armed_M2HB_Tan2 {
+  coords 4852.501 149.344 9838.727
+  angles 0 37.376 0
+  m_sAttachmentGroupName "A1"
+ }
+ M1151_armed_M2HB_Tan3 {
+  coords 4805.42 149.062 9803.207
+  angles 0 58.22 0
+  m_sAttachmentGroupName "A3"
+ }
+}
+Vehicle M923A1_command_DIMKII1 : "{58595A0939F397C0}Prefabs/Vehicles/Wheeled/M923A1/M923A1_command_DIMKII.et" {
+ coords 9597.794 88.869 9085.564
+ angles 3.576 -0.056 -0.897
+}
+$grp SCR_AIGroup : "{5C0A715396F27175}Prefabs/Groups/BLUFOR/USMC/USMC_RifleSquad_1.et" {
+ {
+  components {
+   PS_GroupCallsignAssigner "{65667AD8889D00E3}" {
+    m_iCompanyCallsign 1
+    m_iSquadCallsign 2
+   }
+  }
+  coords 9621.783 89.906 8989.207
+  angles 0 -81.864 0
+  m_aUnitPrefabSlots {
+   "{97A29C60BAF66AA0}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Role_Character_USAF_USMC_SL_D.et"
+   "{C1A4BA040B46DC13}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Role_Character_USAF_USMC_TF_D.et"
+   "{322724ED6EB0DECA}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Role_Character_USAF_USMC_AR_D.et"
+   "{A0D97D555EAC6433}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Role_Character_USAF_USMC_Grenadier_D.et"
+   "{9694EEED315CE8F5}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Role_Character_USAF_USMC_LAT_D.et"
+   "{C1A4BA040B46DC13}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Role_Character_USAF_USMC_TF_D.et"
+   "{396D531D125A3EDD}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Role_Character_USAF_USMC_Rifleman_v2_D.et"
+   "{DBD8DB00268CA3CE}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Role_Character_USAF_USMC_Marksman_D.et"
+  }
+ }
+ "(#DRG-Sq-RifleSquad) RHS_USAF_G_010_8" {
+  components {
+   PS_GroupCallsignAssigner "{65667AD8889D00E3}" {
+    m_iCompanyCallsign 1
+    m_iSquadCallsign 1
+   }
+  }
+  coords 9623.61 89.844 9000.946
+  angles 0 -87.191 0
+  m_aUnitPrefabSlots {
+   "{97A29C60BAF66AA0}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Role_Character_USAF_USMC_SL_D.et"
+   "{C1A4BA040B46DC13}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Role_Character_USAF_USMC_TF_D.et"
+   "{322724ED6EB0DECA}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Role_Character_USAF_USMC_AR_D.et"
+   "{A0D97D555EAC6433}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Role_Character_USAF_USMC_Grenadier_D.et"
+   "{9694EEED315CE8F5}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Role_Character_USAF_USMC_LAT_D.et"
+   "{C1A4BA040B46DC13}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Role_Character_USAF_USMC_TF_D.et"
+   "{396D531D125A3EDD}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Role_Character_USAF_USMC_Rifleman_v2_D.et"
+   "{DBD8DB00268CA3CE}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Role_Character_USAF_USMC_Marksman_D.et"
+  }
+ }
+ "(#DRG-Sq-RifleSquad) RHS_USAF_G_002_7" {
+  components {
+   PS_GroupCallsignAssigner "{65667AD8889D00E3}" {
+    m_iCompanyCallsign 3
+    m_iSquadCallsign 0
+   }
+  }
+  coords 8606.517 132.713 8678.401
+  angles 0 -145.673 0
+  m_aUnitPrefabSlots {
+   "{C991866AFA632B28}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Force Recon/Role_Character_USAF_USMC_FR_SL_D.et"
+   "{9F97A00E4BD39D9B}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Force Recon/Role_Character_USAF_USMC_FR_TF_D.et"
+   "{BCDD20AE9E669837}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Force Recon/Role_Character_USAF_USMC_FR_Grenadier_D.et"
+   "{4702F75F9F839C72}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Force Recon/Role_Character_USAF_USMC_FR_LAT_D.et"
+   "{1E206ABD8FCA9145}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Force Recon/Role_Character_USAF_USMC_FR_Rifleman_D.et"
+   "{1E206ABD8FCA9145}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Force Recon/Role_Character_USAF_USMC_FR_Rifleman_D.et"
+   "{DBD8DB00268CA3CE}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Role_Character_USAF_USMC_Marksman_D.et"
+  }
+ }
+ A1 {
+  components {
+   PS_GroupCallsignAssigner "{65667AD8889D00E3}" {
+    m_iCompanyCallsign 2
+    m_iSquadCallsign 2
+   }
+  }
+  coords 4846.888 149.396 9828.646
+  angles 0 -44.769 0
+  m_aUnitPrefabSlots {
+   "{97A29C60BAF66AA0}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Role_Character_USAF_USMC_SL_D.et"
+   "{C1A4BA040B46DC13}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Role_Character_USAF_USMC_TF_D.et"
+   "{322724ED6EB0DECA}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Role_Character_USAF_USMC_AR_D.et"
+   "{A0D97D555EAC6433}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Role_Character_USAF_USMC_Grenadier_D.et"
+   "{9694EEED315CE8F5}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Role_Character_USAF_USMC_LAT_D.et"
+   "{C1A4BA040B46DC13}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Role_Character_USAF_USMC_TF_D.et"
+   "{396D531D125A3EDD}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Role_Character_USAF_USMC_Rifleman_v2_D.et"
+   "{B888E96BF0EC7DA3}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Role_Character_USAF_USMC_RTO_D.et"
+  }
+ }
+ A2 {
+  components {
+   PS_GroupCallsignAssigner "{65667AD8889D00E3}" {
+    m_iCompanyCallsign 2
+    m_iSquadCallsign 1
+   }
+  }
+  coords 4818.717 149.172 9806.716
+  angles 0 -32.022 0
+  m_aUnitPrefabSlots {
+   "{97A29C60BAF66AA0}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Role_Character_USAF_USMC_SL_D.et"
+   "{C1A4BA040B46DC13}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Role_Character_USAF_USMC_TF_D.et"
+   "{322724ED6EB0DECA}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Role_Character_USAF_USMC_AR_D.et"
+   "{A0D97D555EAC6433}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Role_Character_USAF_USMC_Grenadier_D.et"
+   "{9694EEED315CE8F5}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Role_Character_USAF_USMC_LAT_D.et"
+   "{C1A4BA040B46DC13}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Role_Character_USAF_USMC_TF_D.et"
+   "{396D531D125A3EDD}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Role_Character_USAF_USMC_Rifleman_v2_D.et"
+   "{B888E96BF0EC7DA3}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Role_Character_USAF_USMC_RTO_D.et"
+  }
+ }
+ A3 {
+  components {
+   PS_GroupCallsignAssigner "{65667AD8889D00E3}" {
+    m_iCompanyCallsign 2
+   }
+  }
+  coords 4797.603 149.172 9794.801
+  angles 0 -28.339 0
+  m_aUnitPrefabSlots {
+   "{97A29C60BAF66AA0}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Role_Character_USAF_USMC_SL_D.et"
+   "{C1A4BA040B46DC13}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Role_Character_USAF_USMC_TF_D.et"
+   "{322724ED6EB0DECA}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Role_Character_USAF_USMC_AR_D.et"
+   "{A0D97D555EAC6433}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Role_Character_USAF_USMC_Grenadier_D.et"
+   "{9694EEED315CE8F5}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Role_Character_USAF_USMC_LAT_D.et"
+   "{C1A4BA040B46DC13}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Role_Character_USAF_USMC_TF_D.et"
+   "{396D531D125A3EDD}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Role_Character_USAF_USMC_Rifleman_v2_D.et"
+   "{B888E96BF0EC7DA3}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Role_Character_USAF_USMC_RTO_D.et"
+  }
+ }
+ "(#DRG-Sq-RifleSquad) RHS_USAF_G_002_8" {
+  components {
+   PS_GroupCallsignAssigner "{65667AD8889D00E3}" {
+    m_iCompanyCallsign 1
+    m_iSquadCallsign 0
+   }
+  }
+  coords 9623.857 89.844 9019.59
+  angles 0 -95.426 0
+  m_aUnitPrefabSlots {
+   "{97A29C60BAF66AA0}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Role_Character_USAF_USMC_SL_D.et"
+   "{C1A4BA040B46DC13}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Role_Character_USAF_USMC_TF_D.et"
+   "{322724ED6EB0DECA}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Role_Character_USAF_USMC_AR_D.et"
+   "{A0D97D555EAC6433}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Role_Character_USAF_USMC_Grenadier_D.et"
+   "{9694EEED315CE8F5}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Role_Character_USAF_USMC_LAT_D.et"
+   "{C1A4BA040B46DC13}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Role_Character_USAF_USMC_TF_D.et"
+   "{396D531D125A3EDD}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Role_Character_USAF_USMC_Rifleman_v2_D.et"
+   "{DBD8DB00268CA3CE}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Role_Character_USAF_USMC_Marksman_D.et"
+  }
+ }
+}
+$grp Vehicle : "{BC58478FE724BCEF}Prefabs/Vehicles/Wheeled/M998/M1025_USAF_D.et" {
+ M1025_USAF_D1 {
+  coords 4843.902 149.402 9829.867
+  angles 0 47.724 0
+  m_sAttachmentGroupName "A1"
+ }
+ M1025_USAF_D2 {
+  coords 4816.567 149.187 9810.161
+  angles 0 61.053 0
+  m_sAttachmentGroupName "A2"
+ }
+ M1025_USAF_D3 {
+  coords 4795.481 148.937 9797.066
+  angles 0 61.053 0
+  m_sAttachmentGroupName "A3"
+ }
+}
+SCR_AIGroup "(#DRG-Sq-RocketHelicopter) RHS_USAF_G_000_2" : "{F7C8DEC665CB4038}Prefabs/Groups/BLUFOR/drg_USMC_HelicopterRocketCrew.et" {
+ components {
+  PS_GroupCallsignAssigner "{65667ADB8D029413}" {
+   m_iCompanyCallsign 4
+  }
+ }
+ coords 3090.335 144.392 8418.915
+ angles 0 -96.757 0
+ m_aUnitPrefabSlots {
+  "{CFB9AD45454644A2}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_Pilot.et"
+  "{CFB9AD45454644A2}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_Pilot.et"
+ }
+}

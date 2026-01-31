@@ -1,0 +1,67 @@
+$grp GenericEntity : "{144AA3DABB80974C}Prefabs/Weapons/Tripods/9K135/Part_9K135TB_Launcher.et" {
+ {
+  coords 8281.374 218.348 8792.129
+  angles -0.348 9.417 -90.058
+ }
+ {
+  coords 8280.979 218.349 8792.075
+  angles -0.388 9.417 -90.064
+ }
+}
+GenericEntity : "{2680AAA85B42C5FD}Prefabs/Weapons/Tripods/9K135/Part_2_9K135_Tripod.et" {
+ coords 8283.619 218.063 8792.278
+}
+$grp Vehicle : "{447CFE8D73F95C3E}Prefabs/Vehicles/Wheeled/BTR70/BTR70_AFRF.et" {
+ BTR70_AFRF1 {
+  coords 8376.357 111.531 7136.332
+  angles 0 91.955 0
+  m_sAttachmentGroupName "RHS_AFRF_MecSquad3"
+ }
+ BTR70_AFRF2 {
+  coords 8374.216 111.531 7095.213
+  angles 0 91.955 0
+  m_sAttachmentGroupName "RHS_AFRF_MecSquad2"
+ }
+ BTR70_AFRF3 {
+  coords 8374.098 111.531 7040.216
+  angles 0 91.955 0
+  m_sAttachmentGroupName "RHS_AFRF_MecSquad1"
+ }
+}
+$grp GenericEntity : "{B0A890995104A02D}Prefabs/Weapons/Tripods/9K135/Part_9K135_Launcher.et" {
+ {
+  coords 8282.505 218.347 8792.311
+  angles -0.215 9.417 -90.036
+ }
+ {
+  coords 8282.148 218.347 8792.279
+  angles -0.239 9.417 -90.04
+ }
+ {
+  coords 8281.79 218.347 8792.221
+  angles -0.282 9.417 -90.047
+ }
+}
+Vehicle UAZ469_Camo1 : "{E1A99B5F2DC9B38A}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_Camo.et" {
+ components {
+  SCR_UniversalInventoryStorageComponent "{5AD4F813E67ECB5D}" {
+   MultiSlots {
+    MultiSlotConfiguration "{6846C36D6698F6DC}" {
+     SlotTemplate InventoryStorageSlot Bandages {
+      Prefab "{33B2DFDCD0EBA3DB}Prefabs/Items/Equipment/Kits/RepairKit_01/RepairKit_01_wrench.et"
+     }
+     NumSlots 2
+    }
+   }
+  }
+  SCR_VehicleInventoryStorageManagerComponent "{591056FA3B752FE6}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6846C36EBC230917}" {
+    }
+   }
+  }
+ }
+ coords 8282.426 218.062 8795.328
+ angles 0 84.52 0
+ m_sAttachmentGroupName "RHS_AFRF_PTUR"
+}

@@ -1,0 +1,34 @@
+GameEntity : "{C87E41D2D001EB27}Prefabs/Characters/HeadGear/Helmet_6B47/Helmet_6B47_Base.et" {
+ ID "5112706CD4157AC7"
+ components {
+  MeshObject "{5112706CD4157AE0}" {
+   Object "{DE352ABD7ECC9299}Assets/Characters/Headwear/Helmet_6B47/Item_Helmet_6B47_Covered_Closed.xob"
+   Materials {
+    MaterialAssignClass "{684312DD7CE210ED}" {
+     SourceMaterial "Cover_6B47"
+     AssignedMaterial "{704015C688389B31}Assets/Characters/Headwear/Helmet_6B47/Data/Cover_6B47_EMR.emat"
+    }
+    MaterialAssignClass "{684312DD7CE210F9}" {
+     SourceMaterial "Helmet_6B47"
+     AssignedMaterial "{92726FA92D6A1357}Assets/Characters/Headwear/Helmet_6B47/Data/Helmet_6B47_Green.emat"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    LoadoutSlotInfo Balaclava {
+     Prefab "{741548CAE5BEFFC8}Prefabs/Characters/HeadGear/All_Facemask/GD_Balaclava_Green.et"
+    }
+   }
+   WornModel "{38792DA3B9491027}Assets/Characters/Headwear/Helmet_6B47/Helmet_6B47_Covered_Closed.xob"
+   WornMaterialsOverride {
+    "{704015C688389B31}Assets/Characters/Headwear/Helmet_6B47/Data/Cover_6B47_EMR.emat" "{92726FA92D6A1357}Assets/Characters/Headwear/Helmet_6B47/Data/Helmet_6B47_Green.emat"
+   }
+   ItemModel "{DE352ABD7ECC9299}Assets/Characters/Headwear/Helmet_6B47/Item_Helmet_6B47_Covered_Closed.xob"
+   ItemMaterialsOverride {
+    "{704015C688389B31}Assets/Characters/Headwear/Helmet_6B47/Data/Cover_6B47_EMR.emat" "{92726FA92D6A1357}Assets/Characters/Headwear/Helmet_6B47/Data/Helmet_6B47_Green.emat"
+   }
+  }
+ }
+ coords 1475.487 66.237 1230.117
+}

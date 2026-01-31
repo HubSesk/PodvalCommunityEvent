@@ -1,0 +1,40 @@
+GenericEntity : "{CA1FF8EE196359C6}Prefabs/System/DRG_FlagControlPrefab.et" {
+ components {
+  DRG_FlagControlComponent "{66294262AC006581}" {
+   m_aFlagLogics {
+    FlagLogic "{686EE34BD1230353}" {
+     m_bAdvanceGameStage 1
+     m_sSuccessObjectiveNames {
+      "AFRF_FLAG_1"
+      "AFRF_FLAG_2"
+     }
+     m_sFailedObjectiveNames {
+      "TKR_FLAG_1"
+      "TKR_FLAG_2"
+     }
+     m_sNotificationMessage "Победа Атаки! Все флаги захвачены ВС РФ."
+     m_aFlagControls {
+      FlagControl "{686EE34BC3B3642E}" {
+       m_sFactionKey "RHS_AFRF"
+       m_sFlagEntityName "FLAG_1"
+       m_sFlagPreviewName "Минарет"
+      }
+      FlagControl "{686EE34BC2913B69}" {
+       m_sFactionKey "RHS_AFRF"
+       m_sFlagEntityName "FLAG_2"
+       m_sFlagPreviewName "Стройка"
+      }
+     }
+    }
+   }
+  }
+ }
+ coords 10191.854 119.264 2114.839
+}
+GenericEntity : "{E6FC6DD69FA3479F}Prefabs/System/DRG_MissionEndTimerPrefab.et" {
+ components {
+  DRG_MissionEndTimerComponent "{651B0839B21B3BBF}" {
+   m_iMissionTime 2700
+  }
+ }
+}

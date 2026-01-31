@@ -1,0 +1,26 @@
+Vehicle CIV_UAZ : "{5070B3749C7782D8}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_covered_CIV_JZD.et" {
+ coords 5852.762 4.563 9802.146
+ angles 0 -88.679 0
+}
+Vehicle CIV_UAZ_B : "{780FA841BFE4077F}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_transport_CIV_grey.et" {
+ coords 5852.702 4.562 9797.418
+ angles 0 -87.214 0
+}
+Vehicle CIV_SAR : "{AD80FB47D868C775}Prefabs/Vehicles/Wheeled/S105/S105_green.et" {
+ coords 5853.01 4.562 9807.3
+ angles 0 -90.347 0
+}
+SCR_AIGroup CIV_000 : "{F9652067979208AA}Prefabs/Groups/CIV/DRG_Group_CIV.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "column"
+  }
+ }
+ coords 5811.836 12.731 9785.799
+ angles 0 89.889 0
+ m_aUnitPrefabSlots {
+  "{9DA94F023E38C7E4}Prefabs/Characters/Factions/CIV/Businessman/Character_CIV_Businessman_2.et"
+ }
+ m_bSnapToTerrain 0
+ m_sCustomNameSet "Нач. Электростанции"
+}

@@ -1,0 +1,76 @@
+SCR_ChimeraCharacter : "{63849351D71B1B01}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/SFOD-D/Role_Character_USAF_SFOD_Marksman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#DRG-Role_ReconGrenadier"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{01AD0C99ED2ABA12}Prefabs/Weapons/SCAR_SSR/SCAR_GP.et"
+  }
+  SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
+   Identity Identity "{5584CBC6363C648B}" {
+    VisualIdentity VisualIdentity "{56E6D9456009D1C4}" {
+     Head "{91A7ADDAB9030F9E}Prefabs/Characters/Heads/Head_White_03/Head_White_03_camo_USSR_02.et"
+    }
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Vest {
+     Prefab "{EC423C140BC4F6A2}Prefabs/Characters/Vests/JPC_Pounches_Variants/GD_Multicam_USA_Var7_UBGL.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{672165248C18FB8D}" {
+     TargetStorage "Pants/Crye_G3_Pants_Base.et"
+    }
+    ItemsInitConfigurationItem "{672165271728906D}" {
+     TargetStorage "Vest/GD_Multicam_USA_Var7_UBGL.et/radio/Pouch_AVS_MBITR_Radio_MC.et"
+    }
+    ItemsInitConfigurationItem "{672165271FA86EBF}" {
+     TargetStorage "Vest/GD_Multicam_USA_Var7_UBGL.et/m18_1/Pouch_Filbe_M18_2.et"
+    }
+    ItemsInitConfigurationItem "{67216527216AEEAC}" {
+     TargetStorage "Vest/GD_Multicam_USA_Var7_UBGL.et/Pouch1/Pouch_jpc_placard_MC.et"
+    }
+    ItemsInitConfigurationItem "{672165274B86F0C5}" {
+     TargetStorage "Vest/GD_Multicam_USA_Var7_UBGL.et/Tako/Pouch_Shaw_Flex_MC.et"
+    }
+    ItemsInitConfigurationItem "{672165275122E125}" {
+     TargetStorage "Vest/GD_Multicam_USA_Var7_UBGL.et/tako/Pouch_PCGEN3_takoPouch_MC.et"
+    }
+    ItemsInitConfigurationItem "{672165275EBB3198}" {
+     TargetStorage "Vest/GD_Multicam_USA_Var7_UBGL.et/pistol/Pouch_Highspeed_Pistol_MC.et"
+    }
+    ItemsInitConfigurationItem "{672165276C1FD37A}" {
+     TargetStorage "Jacket/Crye_G3_Shirt_Base.et"
+    }
+    ItemsInitConfigurationItem "{67216521AA48C29A}" {
+     TargetStorage "Vest/GD_Multicam_USA_Var7_UBGL.et/Back/Minimap_JPC_ZipOnPanel2.0_MCBlk.et"
+    }
+    ItemsInitConfigurationItem "{67216521B09C04CF}" {
+     Enabled 0
+     TargetStorage ""
+    }
+    ItemsInitConfigurationItem "{672165219D1C33A9}" {
+     TargetStorage "Vest/GD_Multicam_USA_Var7_UBGL.et/takobelt/Pouch_PCGEN3_takoPouch_MC.et"
+    }
+    ItemsInitConfigurationItem "{67216521C69AE6A7}" {
+     Enabled 0
+     TargetStorage "Vest/GD_Multicam_USA_Var7_UBGL.et/Back/Minimap_JPC_ZipOnPanel2.0_MCBlk.et"
+    }
+    ItemsInitConfigurationItem "{6724B8158927E66C}" {
+     TargetStorage "Vest/GD_Multicam_USA_Var7_UBGL.et/Scissors/Pouch_Filbe_bandolier.et"
+     PrefabsToSpawn {
+      "{5375FA7CB1F68573}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_M406.et" "{5375FA7CB1F68573}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_M406.et" "{5375FA7CB1F68573}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_M406.et" "{5375FA7CB1F68573}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_M406.et" "{5375FA7CB1F68573}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_M406.et" "{5375FA7CB1F68573}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_M406.et" "{5375FA7CB1F68573}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_M406.et" "{5375FA7CB1F68573}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_M406.et" "{5375FA7CB1F68573}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_M406.et" "{5375FA7CB1F68573}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_M406.et" "{5375FA7CB1F68573}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_M406.et" "{5375FA7CB1F68573}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_M406.et" "{2A63C909016C4C41}Prefabs/Weapons/Ammo/Ammo_Flare_40mm_M662_Red.et" "{2A63C909016C4C41}Prefabs/Weapons/Ammo/Ammo_Flare_40mm_M662_Red.et" "{0AF10C206CF1A283}Prefabs/Weapons/Ammo/Ammo_Flare_40mm_M661_Green.et" "{98DB57ECEDC81CC2}Prefabs/Weapons/Ammo/Ammo_Flare_40mm_M583A1_White.et" "{98DB57ECEDC81CC2}Prefabs/Weapons/Ammo/Ammo_Flare_40mm_M583A1_White.et" "{98DB57ECEDC81CC2}Prefabs/Weapons/Ammo/Ammo_Flare_40mm_M583A1_White.et"
+     }
+    }
+   }
+  }
+ }
+ coords 4972.424 60.132 3024.364
+}

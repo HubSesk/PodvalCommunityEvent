@@ -1,0 +1,57 @@
+SCR_AIWorld : "{65DEC16960498027}Prefabs/AI/SCR_AIWorld_Ruha.et" {
+ coords 7303.922 57.711 7124.474
+}
+PerceptionManager PerceptionManager2 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 7292.99 57.649 7125.479
+}
+PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
+ coords 7289.713 57.606 7126.915
+}
+Vehicle S105_PoliceCar1 : "{1357AC6BD52B88E0}Prefabs/Vehicles/Wheeled/S105_Police/S105_PoliceCar.et" {
+ coords 5505.334 58.094 5106.401
+}
+LightEntity : "{241F2057968E1612}Prefabs/Vehicles/Core/Lights/VehicleLight_Hazard_Combilight_Red.et" {
+ coords 5511.127 55.101 5063.166
+ angles 0 0 0
+}
+Vehicle UAZ1 : "{259EE7B78C51B624}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469.et" {
+ coords 5513.911 55.534 5065.816
+}
+Vehicle S105_police1 : "{691223CB63E03573}Prefabs/Vehicles/Wheeled/S105/S105_police.et" {
+ components {
+  BaseLightManagerComponent "{51E210F17D2534F7}" {
+   LightSlots {
+    SCR_LightSlot "{5F02E396DABDD7F7}" {
+     LightFunctional 0
+    }
+    SCR_LightSlot "{5F02E396D991AA45}" {
+     LightFunctional 0
+    }
+    SCR_LightSlot "{5F02E396D8D68E2C}" {
+     LightPositionInfo EntitySlotInfo "{51E17746FFBF4ED6}" {
+      Offset -0.3755 1.5931 -0.1353
+     }
+     LightPrefab "{9B726AFD6AA2AA2F}Prefabs/Vehicles/Core/Light/Light_Hazard_Police.et"
+     LightPhaseTime 0.45
+    }
+    SCR_LightSlot "{5F02E396DC382271}" {
+     LightFunctional 0
+    }
+    SCR_LightSlot "{5F02E396DCFC34F1}" {
+     LightFunctional 0
+    }
+    SCR_LightSlot "{5F02E396D3ADD0D2}" {
+     LightPositionInfo EntitySlotInfo "{51E17746FFBF4ED6}" {
+      Offset 0.3833 1.5898 -0.1377
+     }
+     LightPrefab "{9B726AFD6AA2AA2F}Prefabs/Vehicles/Core/Light/Light_Hazard_Police.et"
+     LightPhaseTime 0.55
+    }
+   }
+  }
+ }
+ coords 5494.754 57.938 5105.106
+}
+Vehicle Police1 : "{6AA12332045EBA7B}Prefabs/Vehicles/Wheeled/S105_Police/Police3.et" {
+ coords 5503.597 57.296 5089.072
+}

@@ -1,0 +1,50 @@
+SCR_ChimeraCharacter : "{863E9EB957705DF6}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/SFOD-D/Role_Character_USAF_SFOD_Unarmed.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot WristwatchSlot {
+       Prefab "{CCB365E9B5737ECD}Prefabs/Items/Equipment/Watches/Watch_GarminTactixBravo_black.et"
+      }
+     }
+    }
+   }
+  }
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_bIsPlayable 1
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{AD97DB78CDCA2594}Prefabs/Characters/HeadGear/EXFIL/GD_Exfil_Tan (GPNVG + Scarf).et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Enabled 1
+    }
+    LoadoutSlotInfo Vest {
+     Enabled 1
+     Prefab "{B79F6F56ECA300FA}Prefabs/Characters/Vests/JPC_Pounches_Variants/GD_Multicam_USA_Var1.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{672165248C18FB8D}" {
+     TargetStorage "Pants/Crye_G3_Pants_Base.et"
+     PrefabsToSpawn {
+      "{BAB50E5D149D64D9}Prefabs/Items/Equipment/Radios/drg_Radio_ANPRC152A_OLD_prv.et"
+     }
+    }
+    ItemsInitConfigurationItem "{672165248C6CCDE2}" {
+     TargetStorage "Jacket/Crye_G3_Shirt_Base.et"
+     PrefabsToSpawn {
+      "{B1798B0F1258B765}Prefabs/Items/Equipment/Navigation/DAGR/DAGR.et"
+     }
+    }
+   }
+  }
+ }
+ coords 4971.997 60.125 3024.918
+}

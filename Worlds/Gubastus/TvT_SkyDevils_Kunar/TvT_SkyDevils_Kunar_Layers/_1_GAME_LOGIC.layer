@@ -1,0 +1,29 @@
+GenericEntity : "{7A333AFB11EA847A}Prefabs/System/DRG_VehicleDestroyPrefab.et" {
+ components {
+  DRG_VehicleDestroyComponent "{65733BD6110AE8FC}" {
+   m_aVehicleLossLogics {
+    VehicleLossLogic "{687682CF9BF5CAEB}" {
+     m_sSuccessObjectiveNames {
+      "USAF_ANTIAIR"
+     }
+     m_sFailedObjectiveNames {
+      "AFRF_ANTIAIR"
+     }
+     m_sVehicleEntityNames {
+      "ZU_23_1"
+      "ZU_23_2"
+      "ZU_23_3"
+     }
+    }
+   }
+  }
+ }
+ coords 1153.522 231.959 978.065
+}
+GenericEntity : "{E6FC6DD69FA3479F}Prefabs/System/DRG_MissionEndTimerPrefab.et" {
+ components {
+  DRG_MissionEndTimerComponent "{651B0839B21B3BBF}" {
+   m_iMissionTime 2700
+  }
+ }
+}

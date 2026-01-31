@@ -1,0 +1,88 @@
+SCR_ChimeraCharacter : "{81A46802F77A86E5}Prefabs/Characters/Factions/OPFOR/AFRF_Peacekeepers/Peacekeepers/VDV/Role_VDV_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_Sharpshooter"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{CD0813159ADF616F}Prefabs/Weapon/SVD/SVD_Ver1.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponTemplate ""
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{E714F81A1B07317A}Prefabs/RF_Peacekeepers/Characters/Headgear/6b47/Prefabs/6b47_Cover_MC.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{E7ABEDAB855ED764}Prefabs/Characters/Vests/Vest_6B45/Pouches/Pouches_6b45_Sniper.et"
+    }
+    LoadoutSlotInfo Belt {
+     Prefab "{56D42B068361FFEC}Prefabs/RF_Peacekeepers/Characters/Vest/AVS/belt4.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6712BC02B00CEFCD}" {
+     TargetStorage "Belt/belt4.et/Radio/Pouch_UP111_radioClosed_EMR.et"
+    }
+    ItemsInitConfigurationItem "{6712BC02CEB52194}" {
+     TargetStorage "Vest/Pouches_6b45_Sniper.et/SVD_Pouch1/Pouch_Ratnik_Small1.et"
+     PrefabsToSpawn {
+      "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et" "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6712BC02D8A26F81}" {
+     TargetStorage "Vest/Pouches_6b45_Sniper.et/SVD_Pouch2/Pouch_Ratnik_Small1.et"
+     PrefabsToSpawn {
+      "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et" "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et" "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6712BC02D8E1BECF}" {
+     TargetStorage "Vest/Pouches_6b45_Sniper.et/SVD_Pouch3/Pouch_Ratnik_Small1.et"
+     PrefabsToSpawn {
+      "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et" "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6712BC030DF417E1}" {
+     TargetStorage "Vest/Pouches_6b45_Sniper.et/SVD_Pouch4/Pouch_Ratnik_Small1.et"
+     PrefabsToSpawn {
+      "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et" "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6712BC0339D1F083}" {
+     TargetStorage "Vest/Pouches_6b45_Sniper.et/RGD_Pouch2/Pouch_Ratnik_Small2.et"
+     PrefabsToSpawn + {
+      "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6712BC03432AD397}" {
+     TargetStorage "Belt/belt4.et/up105/Pouch_UP105_utilbig_EMR.et"
+     PrefabsToSpawn + {
+      "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6712BC0349DCD9E9}" {
+     TargetStorage "Belt/belt4.et/Pouch1/Pouch_HP103_Holster_EMR.et"
+    }
+    ItemsInitConfigurationItem "{6712BC0364E85768}" {
+     TargetStorage "Belt/belt4.et/drop/Pouch_UP113_DropPouch_EMR.et"
+     PrefabsToSpawn {
+      "{D2E91B2DD0D3EF30}Prefabs/Weapons/Magazines/MP443/Magazine_9x19_MP443_17rnd_7N21.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6712BC03A4F7BB57}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{6712BC24AD2A6105}" {
+     Enabled 0
+    }
+   }
+  }
+ }
+ coords 7683.029 70.406 7905.519
+}

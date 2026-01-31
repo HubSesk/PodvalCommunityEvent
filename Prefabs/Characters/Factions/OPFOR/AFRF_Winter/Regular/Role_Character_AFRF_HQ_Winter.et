@@ -1,0 +1,53 @@
+SCR_ChimeraCharacter : "{F667194FFD03FA0D}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/Regular/Role_Character_AFRF_Rifleman_Winter.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{F2539FA5706E51E4}Prefabs/Items/Equipment/Binoculars/Binoculars_B12/Binoculars_B12.et"
+      }
+     }
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_Officer"
+    Icon "{B0B3E06A17B8AC6D}UI/Icons/officer.edds"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{E1D9514DF31230C9}Prefabs/Characters/HeadGear/All_Beanie/GD_Beanie_Black.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{B31D9C2465D00D93}Prefabs/Items/Equipment/Radios/Radio_R107M_PL.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{6BE00E3EF60D76DB}Prefabs/Characters/Vests/AVS/GD_belt3.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68485358FA0E71EF}" {
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{68485358FA7DD0B7}" {
+     TargetStorage "Jacket/GD_SH122_Suit_Klyaksa.et"
+    }
+    ItemsInitConfigurationItem "{6848535905AB3C4A}" {
+     TargetStorage "Jacket/GD_SH122_Suit_Klyaksa.et"
+    }
+    ItemsInitConfigurationItem "{684853590599A662}" {
+     TargetStorage "Vest/GD_belt3.et"
+    }
+   }
+  }
+ }
+ coords 595.382 6.221 1003.113
+}

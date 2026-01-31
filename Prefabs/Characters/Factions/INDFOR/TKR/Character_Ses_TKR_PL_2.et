@@ -1,0 +1,49 @@
+SCR_ChimeraCharacter : "{9EA74C682A2035BA}Prefabs/Characters/Factions/INDFOR/TKR/Character_Ses_TKR_PL.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{AB55FB7E6A352420}Prefabs/Weapons/Rifles/AKM/Rifle_AKMN_PBS1.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{EB82ED199A01B210}Prefabs/Characters/HeadGear/Hat_FlatCap_01/TakHat01_b.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{8712582C7AFD5C92}Prefabs/Characters/Uniforms/TakShirts/TakShirt09.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{57BD2559D6CE7E1F}Prefabs/Characters/Uniforms/TakPants/TakPant06.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{DAAFD15478BDE1C3}Prefabs/Characters/Footwear/CombatBoots_US_01.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6074FD81D85F4351}" {
+     TargetStorage "Jacket/TakShirt09.et"
+    }
+    ItemsInitConfigurationItem "{6074FD81A7B67B88}" {
+     TargetStorage "Jacket/TakShirt09.et"
+    }
+    ItemsInitConfigurationItem "{60FB76D98B3CD6FB}" {
+     TargetStorage "Pants/TakPant06.et"
+    }
+    ItemsInitConfigurationItem "{6532F52F48A8EFEF}" {
+     TargetStorage "Pants/TakPant06.et"
+    }
+    ItemsInitConfigurationItem "{6264D21FCEA6634C}" {
+     TargetStorage "Pants/TakPant06.et"
+    }
+    ItemsInitConfigurationItem "{6264D21FCEA6637D}" {
+     PrefabsToSpawn {
+      "{3DCA1009B328332A}Prefabs/Weapons/Magazines/AKM/Magazine_AK_762x39_AK55_30rnd.et" "{3DCA1009B328332A}Prefabs/Weapons/Magazines/AKM/Magazine_AK_762x39_AK55_30rnd.et" "{75333E1251221E62}Prefabs/Weapons/Magazines/AKM/Magazine_AK_762x39_6L10_30rnd.et" "{3DCA1009B328332A}Prefabs/Weapons/Magazines/AKM/Magazine_AK_762x39_AK55_30rnd.et" "{75333E1251221E62}Prefabs/Weapons/Magazines/AKM/Magazine_AK_762x39_6L10_30rnd.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et" "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et"
+     }
+    }
+   }
+  }
+ }
+ coords 706.526 39 2613.033
+}

@@ -1,0 +1,25 @@
+GenericEntity : "{3BF82FD68BBC845C}Prefabs/Weapons/Explosives/Mine_M15AT/Mine_M15AT_base.et" {
+ coords 4.551 0.871 18.014
+}
+GenericEntity : "{49FFE8F373F55960}Prefabs/Weapons/Explosives/Mine_M15AT/Mine_M15AT.et" {
+ components {
+  SCR_PressureTriggerComponent "{59E6BE151DCC9953}" {
+   m_bLive 1
+  }
+ }
+ coords 2.985 0.88 17.998
+}
+GenericEntity : "{D6EF54367CECE1D9}Prefabs/Weapons/Explosives/Mine_TM62M/Mine_TM62M.et" {
+ components {
+  BaseTriggerComponent "{59E4E69D8E9B4323}" {
+   PROJECTILE_EFFECTS {
+    AIExplosionEffect "{5EB4AB4A7E9C5DD5}" {
+    }
+   }
+  }
+  SCR_PressureTriggerComponent "{59E6BE151DCC9953}" {
+   m_bLive 1
+  }
+ }
+ coords 3.989 0.883 17.997
+}

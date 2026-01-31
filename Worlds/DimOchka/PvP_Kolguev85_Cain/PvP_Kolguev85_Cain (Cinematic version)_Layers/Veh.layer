@@ -1,0 +1,177 @@
+$grp Vehicle : "{208FEE0BF258449B}Prefabs/Scenarios/SP01/SP01_UAZ469_USSR.et" {
+ SP01_UAZ469_USSR1 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5AD4F813E67ECB5D}" {
+    MultiSlots {
+     MultiSlotConfiguration "{66F47BF61C0877FC}" {
+      SlotTemplate InventoryStorageSlot Armor {
+       Prefab "{ADE19B33DCBB9005}Prefabs/Characters/Vests/Vest_6B2/Vest_6B2.et"
+      }
+      NumSlots 4
+     }
+    }
+   }
+  }
+  coords 2604.867 3.379 7871.126
+  angles 0 -155.381 0
+  m_sAttachmentGroupName "(КПП-Берег) USSR_G_012_4"
+ }
+ SP01_UAZ469_USSR3 {
+  coords 2082.303 119.275 7375.87
+  angles 0 -47.122 0
+  m_sAttachmentGroupName "(Караул-База) USSR_G_001_8"
+ }
+ SP01_UAZ469_USSR2 {
+  coords 2085.742 119.253 7379.243
+  angles 0 -48.511 0
+  m_sAttachmentGroupName "(Караул-База) USSR_G_001_8"
+ }
+ SP01_UAZ469_USSR4 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5AD4F813E67ECB5D}" {
+    MultiSlots {
+     MultiSlotConfiguration "{66F47BF61C0877FC}" {
+      SlotTemplate InventoryStorageSlot Armor {
+       Prefab "{ADE19B33DCBB9005}Prefabs/Characters/Vests/Vest_6B2/Vest_6B2.et"
+      }
+      NumSlots 4
+     }
+    }
+   }
+  }
+  coords 1929.666 132.5 7421.129
+  angles 0 -144.205 0
+  m_sAttachmentGroupName "(Полковник Лупов) USSR_G_112_1"
+ }
+}
+Vehicle Ural4320_tanker1 : "{4C81D7ED8F8C0D87}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_tanker.et" {
+ coords 4290.251 409.691 5797.227
+ angles 0 -32.729 0
+ m_sAttachmentGroupName "(Колонна обеспечения) USSR_G_010_8"
+}
+Vehicle UAZ469_covered_CIV_JZD1 : "{5070B3749C7782D8}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_covered_CIV_JZD.et" {
+ coords 3269.078 268.659 6976.766
+ angles 0 138.769 0
+}
+Vehicle S105_beige1 : "{54C3CC22DEBD57BE}Prefabs/Vehicles/Wheeled/S105/S105_beige.et" {
+ coords 3283.223 268.812 6976.714
+ angles 0 -57.244 0
+}
+Vehicle Mi8MT_armed1 : "{7BD282AF716ED639}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_armed.et" {
+ coords 2022.743 129.469 7325.574
+ angles 0 129.055 0
+ m_sAttachmentGroupName "(#DRG-Sq-HeliTransport) USSR_G_000_2"
+}
+Vehicle UAZ469_covered_CIV_teal1 : "{870EB660433857D3}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_covered_CIV_teal.et" {
+ coords 2772.213 111.689 7470.415
+ angles 0 53.217 0
+}
+Vehicle Ural4320_transport_covered_closed1 : "{9DD4FD3527CB46C8}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered_closed.et" {
+ components {
+  SCR_UniversalInventoryStorageComponent "{5916C58171230A92}" {
+   MultiSlots {
+    MultiSlotConfiguration "{66F47BF7F1E09308}" {
+     SlotTemplate InventoryStorageSlot Ammo {
+      Prefab "{D8421F6E70B2FB4F}Prefabs/Weapons/Magazines/Box_762x54_PK_250rnd_4Ball_1Tracer.et"
+     }
+     NumSlots 5
+    }
+    MultiSlotConfiguration "{66F47BF4456163A3}" {
+     SlotTemplate InventoryStorageSlot Boom {
+      Prefab "{8257B5AFDE7AE5CB}Prefabs/Weapons/Magazines/Box_145x114_KPVT_50rnd_4API_1APIT.et"
+     }
+     NumSlots 5
+    }
+   }
+  }
+ }
+ coords 4283.146 409.402 5807.16
+ angles 0 -34.708 0
+ m_sAttachmentGroupName "(Колонна обеспечения) USSR_G_010_8"
+}
+Vehicle UAZ452_transport_CIV_orange1 : "{BB84BDE1707A38EB}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_transport_CIV_orange.et" {
+ coords 3370.117 267.844 6856.175
+}
+Vehicle BTR1 : "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et" {
+ components {
+  SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+   FuelNodes {
+    SCR_FuelNode "{5622A70CD4036C5A}" {
+     m_fInitialFuelTankState 0
+    }
+    SCR_FuelNode "{5628CA8E08F1AAF4}" {
+     m_fInitialFuelTankState 0
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{59168B38F20DFF74}" {
+   MultiSlots {
+    MultiSlotConfiguration "{62F49BDC3FB9A9FE}" {
+     SlotTemplate InventoryStorageSlot kpvt {
+      Enabled 0
+     }
+    }
+    MultiSlotConfiguration "{62F49BDC2DD39F35}" {
+     SlotTemplate InventoryStorageSlot pkmt {
+      Enabled 0
+     }
+    }
+    MultiSlotConfiguration "{663B62A053FFD007}" {
+     SlotTemplate InventoryStorageSlot pkmt {
+      Enabled 0
+     }
+     NumSlots 0
+    }
+   }
+  }
+ }
+ coords 2261.52 126.125 7359.238
+ angles 0 -91.593 0
+}
+$grp Vehicle : "{CAB4546B5DCE0AFB}Prefabs/Boat_base_us.et" {
+ Boat_base_us7 {
+  coords 4899.161 0.228 10237.919
+  angles -10.363 -70.832 0.147
+  m_sAttachmentGroupName "(#DRG-Sq-InfantrySection) US_G_002_6"
+ }
+ Boat_base_us8 {
+  coords 4901.64 0.651 10250.866
+  angles -17.323 -88.301 -1.361
+  m_sAttachmentGroupName "(#DRG-Sq-InfantrySection) US_G_001_6"
+ }
+ Boat_base_us1 {
+  coords 4834.805 0.438 10159.088
+  angles -9.526 -108.692 2.275
+  m_sAttachmentGroupName "SQUAD_2"
+ }
+ Boat_base_us2 {
+  coords 4842.776 0.312 10150.144
+  angles -8.001 -139.53 2.517
+  m_sAttachmentGroupName "SQUAD_3"
+ }
+ Boat_base_us5 {
+  coords 4854.334 0.259 10200.673
+  angles -11.593 -35.394 -2.576
+  m_sAttachmentGroupName "(#DRG-Sq-ReconSquad) US_G_002_2"
+ }
+ Boat_base_us4 {
+  coords 4842.087 0.363 10188.402
+  angles -11.869 -49.158 0.236
+  m_sAttachmentGroupName "(#DRG-Sq-ReconSquad) US_G_000_6"
+ }
+ Boat_base_us6 {
+  coords 4888.833 0.501 10219.563
+  angles -9.538 -62.531 1.035
+  m_sAttachmentGroupName "SQUAD"
+ }
+ Boat_base_us3 {
+  coords 4832.719 0.575 10171.313
+  angles -7.765 -80.866 -2.142
+  m_sAttachmentGroupName "(#DRG-Sq-ReconSquad) US_G_002_6"
+ }
+}
+Vehicle UAZ452_transport_USSR_VAI1 : "{E4D645B1CE943EDF}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_transport_USSR_VAI.et" {
+ coords 4278.537 408.964 5816.292
+ angles 0 -17.829 0
+ m_sAttachmentGroupName "(Колонна обеспечения) USSR_G_010_8"
+}

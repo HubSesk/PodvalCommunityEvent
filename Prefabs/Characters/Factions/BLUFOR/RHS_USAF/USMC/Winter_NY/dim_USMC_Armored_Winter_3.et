@@ -1,0 +1,41 @@
+SCR_ChimeraCharacter : "{30113AEB06AE66D4}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Role_Character_USAF_USMC_Armored.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{BE19A15F1073E7BD}Prefabs/Characters/HeadGear/Hat_Knitted_01/Hat_Knitted_01_black.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{B7F39B4E43EE6FF8}TEST/Prefabs/Uniforms/gryphon/Jacket_Gryphon_base.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{1300A5F6CA51B206}Prefabs/Characters/Vests/Vest_PCGen_III/Vest_PCGen_III.et"
+    }
+    LoadoutSlotInfo Pants {
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{7B2C0CC41FDB5B26}Prefabs/Characters/Vests/GEN3_Pouches/GD_GEN3_Sniper.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{997995D0EF91D998}Prefabs/Characters/Handwear/Gloves_Wool_01/Gloves_Wool_01_Black.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6720F9CB5344D10E}" {
+    }
+    ItemsInitConfigurationItem "{6720F9CB52FFCEB5}" {
+    }
+    ItemsInitConfigurationItem "{6720F9CB52DA4A6E}" {
+     TargetStorage "Jacket/Jacket_Gryphon_base.et"
+    }
+    ItemsInitConfigurationItem "{6720F9CE79E73603}" {
+     TargetStorage "Jacket/Jacket_Gryphon_base.et"
+    }
+   }
+  }
+ }
+ coords 936.91 13.272 777.672
+}

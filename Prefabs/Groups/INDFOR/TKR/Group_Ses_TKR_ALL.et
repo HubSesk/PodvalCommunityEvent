@@ -1,0 +1,102 @@
+SCR_AIGroup : "{D2230B4D24DAF8B7}Prefabs/Groups/INDFOR/TKR/Group_Ses_TKR_Base.et" {
+ ID "0000000000000001"
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "null"
+  }
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Name "#AR-Group_SupplyTeam"
+    m_Image "{8BC14B4BEEB943A8}UI/Textures/EditorPreviews/Groups/INDFOR/Group_FIA_AmmoTeam.edds"
+    m_aAuthoredLabels +{
+    }
+    m_aAutoLabels {
+     GROUPSIZE_MEDIUM
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{66F057040340D204}" {
+      m_BudgetType CAMPAIGN
+      m_Value 1
+     }
+     SCR_EntityBudgetValue "{66F057040340D263}" {
+      m_BudgetType AI_SERVER
+      m_Value 0
+     }
+    }
+    m_EntityChildrenBudgetCost {
+     SCR_EntityBudgetValue "{66F057040340D261}" {
+      m_BudgetType AI
+      m_Value 4
+     }
+    }
+    m_bUseUIInfoName 1
+    m_MilitarySymbol SCR_MilitarySymbol "{66F057040340D27F}" {
+     m_Identity INDFOR
+     m_Dimension LAND
+     m_Icons 0
+     m_Amplifier NONE
+    }
+   }
+  }
+  SCR_PreviewEntityComponent "{66F057040340D279}" {
+   m_bRuntime 0
+   m_aEntries {
+    SCR_BasePreviewEntry "{66F057040340D278}" {
+     m_iParentID -1
+     m_Mesh ""
+     m_Flags 259
+     m_Shape MESH
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 0 -5 0
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{66F057040340D277}" {
+     m_iParentID 0
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Flags 0
+     m_Shape PREFAB
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 0 0 0
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{66F057040340D275}" {
+     m_iParentID 0
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Flags 0
+     m_Shape PREFAB
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 3 0 -3
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{66F057040340D274}" {
+     m_iParentID 0
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Flags 0
+     m_Shape PREFAB
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition -3 0 -3
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{66F057040340D273}" {
+     m_iParentID 0
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Flags 0
+     m_Shape PREFAB
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 6 0 -6
+     m_vAngles 0 0 0
+    }
+   }
+  }
+ }
+ coords 703.084 39 2602.959
+ angles 0 -15 0
+ m_aUnitPrefabSlots {
+  "{C5520722FCCA576E}Prefabs/Characters/Factions/INDFOR/TKR/Character_Ses_TKR_BaseLoadout.et" "{1A5EC0FCCEEA79B9}Prefabs/Characters/Factions/INDFOR/TKR/Character_Ses_TKR_SL.et" "{AE23B163BB89E949}Prefabs/Characters/Factions/INDFOR/TKR/Character_Ses_TKR_SL_2.et" "{4BBFFD9AB76C7E22}Prefabs/Characters/Factions/INDFOR/TKR/Character_Ses_TKR_SL_3.et" "{768BD8A2C200F715}Prefabs/Characters/Factions/INDFOR/TKR/Character_Ses_TKR_SL_4.et" "{325212741F0BF673}Prefabs/Characters/Factions/INDFOR/TKR/Character_Ses_TKR_SL_GL.et" "{594FAC825BC840AF}Prefabs/Characters/Factions/INDFOR/TKR/Character_Ses_TKR_SL_GL_2.et" "{BCD3E07B572DD7C4}Prefabs/Characters/Factions/INDFOR/TKR/Character_Ses_TKR_SL_GL_3.et" "{81E7C54322415EF3}Prefabs/Characters/Factions/INDFOR/TKR/Character_Ses_TKR_SL_GL_4.et" "{2B98CF91B8DBA964}Prefabs/Characters/Factions/INDFOR/TKR/Character_Ses_TKR_AAT.et" "{84E8B4ADC33C18D0}Prefabs/Characters/Factions/INDFOR/TKR/Character_Ses_TKR_AAT_2.et" "{6174F854CFD98FBB}Prefabs/Characters/Factions/INDFOR/TKR/Character_Ses_TKR_AAT_3.et" "{5C40DD6CBAB5068C}Prefabs/Characters/Factions/INDFOR/TKR/Character_Ses_TKR_AAT_4.et" "{A127784AAF1DA3DB}Prefabs/Characters/Factions/INDFOR/TKR/Character_Ses_TKR_AMG.et" "{AC552DAB91DDB157}Prefabs/Characters/Factions/INDFOR/TKR/Character_Ses_TKR_AMG_2.et" "{49C961529D38263C}Prefabs/Characters/Factions/INDFOR/TKR/Character_Ses_TKR_AMG_3.et" "{74FD446AE854AF0B}Prefabs/Characters/Factions/INDFOR/TKR/Character_Ses_TKR_AMG_4.et" "{7B441184223CBE49}Prefabs/Characters/Factions/INDFOR/TKR/Character_Ses_TKR_Ammo.et" "{74F837DA921AF221}Prefabs/Characters/Factions/INDFOR/TKR/Character_Ses_TKR_Ammo_2.et" "{91647B239EFF654A}Prefabs/Characters/Factions/INDFOR/TKR/Character_Ses_TKR_Ammo_3.et" "{AC505E1BEB93EC7D}Prefabs/Characters/Factions/INDFOR/TKR/Character_Ses_TKR_Ammo_4.et" "{77D631E3FC6EDBAA}Prefabs/Characters/Factions/INDFOR/TKR/Character_Ses_TKR_AR.et" "{0BA609EE6FCF5D23}Prefabs/Characters/Factions/INDFOR/TKR/Character_Ses_TKR_AR_2.et" "{EE3A4517632ACA48}Prefabs/Characters/Factions/INDFOR/TKR/Character_Ses_TKR_AR_3.et" "{D30E602F1646437F}Prefabs/Characters/Factions/INDFOR/TKR/Character_Ses_TKR_AR_4.et" "{AF7E582285E7C5F6}Prefabs/Characters/Factions/INDFOR/TKR/Character_Ses_TKR_AT.et" "{B6765B6910D4413D}Prefabs/Characters/Factions/INDFOR/TKR/Character_Ses_TKR_AT_2.et" "{53EA17901C31D656}Prefabs/Characters/Factions/INDFOR/TKR/Character_Ses_TKR_AT_3.et" "{6EDE32A8695D5F61}Prefabs/Characters/Factions/INDFOR/TKR/Character_Ses_TKR_AT_4.et" "{0EC238B0C2462457}Prefabs/Characters/Factions/INDFOR/TKR/Character_Ses_TKR_Crew.et" "{8C6CDBEEC8372D43}Prefabs/Characters/Factions/INDFOR/TKR/Character_Ses_TKR_Marksman.et" "{E8C280FC20BF40FF}Prefabs/Characters/Factions/INDFOR/TKR/Character_Ses_TKR_Marksman_2.et" "{0D5ECC052C5AD794}Prefabs/Characters/Factions/INDFOR/TKR/Character_Ses_TKR_Marksman_3.et" "{306AE93D59365EA3}Prefabs/Characters/Factions/INDFOR/TKR/Character_Ses_TKR_Marksman_4.et" "{3809AA34C6EE551D}Prefabs/Characters/Factions/INDFOR/TKR/Character_Ses_TKR_Medic.et" "{675080F251B9CCE1}Prefabs/Characters/Factions/INDFOR/TKR/Character_Ses_TKR_Medic_2.et" "{82CCCC0B5D5C5B8A}Prefabs/Characters/Factions/INDFOR/TKR/Character_Ses_TKR_Medic_3.et" "{BFF8E9332830D2BD}Prefabs/Characters/Factions/INDFOR/TKR/Character_Ses_TKR_Medic_4.et" "{25C1EFF99221CF49}Prefabs/Characters/Factions/INDFOR/TKR/Character_Ses_TKR_MG.et" "{9ECBC26F4235E8BA}Prefabs/Characters/Factions/INDFOR/TKR/Character_Ses_TKR_MG_2.et" "{7B578E964ED07FD1}Prefabs/Characters/Factions/INDFOR/TKR/Character_Ses_TKR_MG_3.et" "{4663ABAE3BBCF6E6}Prefabs/Characters/Factions/INDFOR/TKR/Character_Ses_TKR_MG_4.et" "{446B44D0CDFC2E1B}Prefabs/Characters/Factions/INDFOR/TKR/Character_Ses_TKR_Militiamen_AK74.et" "{AA2572A047312951}Prefabs/Characters/Factions/INDFOR/TKR/Character_Ses_TKR_Militiamen_AK74_2.et" "{4FB93E594BD4BE3A}Prefabs/Characters/Factions/INDFOR/TKR/Character_Ses_TKR_Militiamen_AK74_3.et" "{728D1B613EB8370D}Prefabs/Characters/Factions/INDFOR/TKR/Character_Ses_TKR_Militiamen_AK74_4.et" "{A1F70829C119B970}Prefabs/Characters/Factions/INDFOR/TKR/Character_Ses_TKR_Militiamen_AKSU.et" "{18267BEF19751338}Prefabs/Characters/Factions/INDFOR/TKR/Character_Ses_TKR_Militiamen_AKSU_2.et" "{FDBA371615908453}Prefabs/Characters/Factions/INDFOR/TKR/Character_Ses_TKR_Militiamen_AKSU_3.et" "{C08E122E60FC0D64}Prefabs/Characters/Factions/INDFOR/TKR/Character_Ses_TKR_Militiamen_AKSU_4.et" "{3C23887F6696FE9E}Prefabs/Characters/Factions/INDFOR/TKR/Character_Ses_TKR_Militiamen_GL.et" "{A713B452894762A5}Prefabs/Characters/Factions/INDFOR/TKR/Character_Ses_TKR_Militiamen_GL_2.et" "{428FF8AB85A2F5CE}Prefabs/Characters/Factions/INDFOR/TKR/Character_Ses_TKR_Militiamen_GL_3.et" "{7FBBDD93F0CE7CF9}Prefabs/Characters/Factions/INDFOR/TKR/Character_Ses_TKR_Militiamen_GL_4.et" "{CB6F0A17F436FFE9}Prefabs/Characters/Factions/INDFOR/TKR/Character_Ses_TKR_Militiamen_VZ.et" "{2653242B7186D182}Prefabs/Characters/Factions/INDFOR/TKR/Character_Ses_TKR_Militiamen_VZ_2.et" "{C3CF68D27D6346E9}Prefabs/Characters/Factions/INDFOR/TKR/Character_Ses_TKR_Militiamen_VZ_3.et" "{FEFB4DEA080FCFDE}Prefabs/Characters/Factions/INDFOR/TKR/Character_Ses_TKR_Militiamen_VZ_4.et" "{9EA74C682A2035BA}Prefabs/Characters/Factions/INDFOR/TKR/Character_Ses_TKR_PL.et" "{FDE3775D30E85B9F}Prefabs/Characters/Factions/INDFOR/TKR/Character_Ses_TKR_PL_2.et" "{187F3BA43C0DCCF4}Prefabs/Characters/Factions/INDFOR/TKR/Character_Ses_TKR_PL_3.et" "{254B1E9C496145C3}Prefabs/Characters/Factions/INDFOR/TKR/Character_Ses_TKR_PL_4.et" "{F70341CEA336475D}Prefabs/Characters/Factions/INDFOR/TKR/Character_Ses_TKR_RTO.et" "{8A0545081AB1C048}Prefabs/Characters/Factions/INDFOR/TKR/Character_Ses_TKR_RTO_2.et" "{6F9909F116545723}Prefabs/Characters/Factions/INDFOR/TKR/Character_Ses_TKR_RTO_3.et" "{52AD2CC96338DE14}Prefabs/Characters/Factions/INDFOR/TKR/Character_Ses_TKR_RTO_4.et" "{8B0D9D4F56F3B44E}Prefabs/Characters/Factions/INDFOR/TKR/Character_Ses_TKR_Sapper.et" "{70E6F9159B611A17}Prefabs/Characters/Factions/INDFOR/TKR/Character_Ses_TKR_Sapper_2.et" "{957AB5EC97848D7C}Prefabs/Characters/Factions/INDFOR/TKR/Character_Ses_TKR_Sapper_3.et" "{A84E90D4E2E8044B}Prefabs/Characters/Factions/INDFOR/TKR/Character_Ses_TKR_Sapper_4.et" "{CB8FE1DF1D5D89D8}Prefabs/Characters/Factions/INDFOR/TKR/Character_Ses_TKR_Scout.et" "{272A1131ACDE4869}Prefabs/Characters/Factions/INDFOR/TKR/Character_Ses_TKR_Scout_2.et" "{C2B65DC8A03BDF02}Prefabs/Characters/Factions/INDFOR/TKR/Character_Ses_TKR_Scout_3.et" "{FF8278F0D5575635}Prefabs/Characters/Factions/INDFOR/TKR/Character_Ses_TKR_Scout_4.et"
+ }
+}

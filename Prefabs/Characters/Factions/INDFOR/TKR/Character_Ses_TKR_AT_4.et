@@ -1,0 +1,47 @@
+SCR_ChimeraCharacter : "{AF7E582285E7C5F6}Prefabs/Characters/Factions/INDFOR/TKR/Character_Ses_TKR_AT.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{159B8120E78184EB}Prefabs/Characters/HeadGear/Hat_FlatCap_01/TurbanM02.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{06E7CF8B020BC491}Prefabs/Characters/Uniforms/TakShirts/ChilabaFull01_extra.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab ""
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{6A39B5843B3F36DA}Prefabs/Items/Equipment/Backpacks/Backpack_RPG_Assistant.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6074FD81D85F4351}" {
+     TargetStorage "Jacket/ChilabaFull01_extra.et"
+    }
+    ItemsInitConfigurationItem "{6074FD81A7B67B88}" {
+     TargetStorage "Jacket/ChilabaFull01_extra.et"
+    }
+    ItemsInitConfigurationItem "{60FB76D98B3CD6FB}" {
+     TargetStorage "Jacket/ChilabaFull01_extra.et"
+    }
+    ItemsInitConfigurationItem "{6532F52F48A8EFEF}" {
+     TargetStorage "Jacket/ChilabaFull01_extra.et"
+    }
+    ItemsInitConfigurationItem "{6076B6E28784EF66}" {
+     TargetStorage "Back/Backpack_RPG_Assistant.et"
+    }
+    ItemsInitConfigurationItem "{6076B6E294AE80FB}" {
+     TargetStorage "Back/Backpack_RPG_Assistant.et"
+     PrefabsToSpawn {
+      "{32E12D322E107F1C}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VM.et" "{609E216CBF8D0B68}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VL.et" "{32E12D322E107F1C}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VM.et"
+     }
+    }
+   }
+  }
+ }
+ coords 701.254 39 2611.3
+}

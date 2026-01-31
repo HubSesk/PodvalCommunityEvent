@@ -1,0 +1,32 @@
+GenericEntity : "{DBEE873EA98E9D77}Prefabs/Weapons/Rifles/SCAR_H/Rifle_SCAR_H_base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{64615D5DD76DAECE}" {
+     AttachmentSlot InventoryStorageSlot optic_ris {
+      Prefab "{DA2AED4A5F958164}Prefabs/Weapons/Attachments/Optics/su230/Optic_SU230.et"
+     }
+    }
+    AttachmentSlotComponent "{64615D5DD76DAED4}" {
+     AttachmentSlot InventoryStorageSlot BayonetSlot {
+      Prefab "{9A185BC14F1166B4}Prefabs/Weapons/Attachments/Lasers/anpeq15/Laser_ANPEQ15_tan.et"
+     }
+    }
+    AttachmentSlotComponent "{687509FF1ED17AC1}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot Right {
+      Offset 0.031 0.0308 0.2788
+      Angles 0 0 90
+      MergePhysics 1
+      Prefab "{C32EC74B4B0C8CA1}Prefabs/Weapons/Attachments/Lights/Light_m300c_blk.et"
+      InspectionWidgetOffset 0.0278 0.0819 0.3183
+      m_fMaximumPositiveSlideOffset 0.1
+      m_fMaximumNegativeSlideOffset -0.18
+     }
+    }
+   }
+  }
+ }
+ coords 84.346 1.159 244.806
+ angles 0 0 0
+}

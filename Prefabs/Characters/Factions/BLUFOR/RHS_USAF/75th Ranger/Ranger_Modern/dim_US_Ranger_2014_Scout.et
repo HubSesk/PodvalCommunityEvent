@@ -1,0 +1,68 @@
+SCR_ChimeraCharacter : "{276D95BDF1D88450}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/75th Ranger/Ranger_Modern/dim_US_Ranger_2014_Rifleman(LAT).et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{0CF54B9A85D8E0D4}Prefabs/Items/Equipment/Binoculars/Binoculars_M22/Binoculars_M22.et"
+      }
+     }
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#DRG_Roles_RHS_ScoutSpotter"
+    Icon "{B8470972D215E967}UI/Icons/75Ranger.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponTemplate ""
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{7DC73B966F87BE37}Prefabs/Characters/HeadGear/Helmet_OPSCORE/dim_OPSCORE_V3.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{AEAC9D715C22E013}Prefabs/Characters/Uniforms/PatagoniaL9/Patagonia_MC_Rolled_Patch.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{4C5F37BD8E39618A}Prefabs/Characters/Uniforms/Patagonia_Pants/GD_Patagonia_L9_Pants_MC.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{660952F979E8EBF2}Prefabs/Characters/Footwear/Boots_solomon_ultra_x/Footwear_Altama_Boots.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{86FCDE2A2A4DD765}Prefabs/Characters/Handwear/Gloves_Oackley/Gloves_Oackley_base.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{687123A1C3AD721C}" {
+     TargetStorage "Pants/GD_Patagonia_L9_Pants_MC.et"
+    }
+    ItemsInitConfigurationItem "{687123A1C38615F2}" {
+     TargetStorage "Pants/GD_Patagonia_L9_Pants_MC.et"
+    }
+    ItemsInitConfigurationItem "{687123A1C3E169F1}" {
+     Enabled 0
+     TargetStorage ""
+    }
+    ItemsInitConfigurationItem "{687509E71C45276F}" {
+     TargetStorage "Pants/GD_Patagonia_L9_Pants_MC.et"
+     PrefabsToSpawn {
+      "{C742BD6CB3D77A5A}Prefabs/Items/Equipment/Radios/drg_Radio_ANPRC152A_OLD_SL.et"
+     }
+    }
+    ItemsInitConfigurationItem "{687509E7F3602BD3}" {
+     TargetStorage "Jacket/Patagonia_MC_Rolled_Patch.et"
+    }
+   }
+  }
+ }
+ coords 4000.889 21.611 3667.429
+}

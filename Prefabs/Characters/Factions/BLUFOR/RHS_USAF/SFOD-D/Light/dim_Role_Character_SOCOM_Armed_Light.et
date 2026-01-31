@@ -1,0 +1,55 @@
+SCR_ChimeraCharacter : "{9F383AEBB3B6AB95}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/SFOD-D/Light/Role_Character_SOCOM_Unarmed_Light.et" {
+ ID "520EC961A090B1EE"
+ components {
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_bIsPlayable 1
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#DRG_Roles_RHS_ScoutSpotter"
+    Icon "{8936231F256E34FF}UI/Icons/socom.edds"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo ArmoredVest {
+     Enabled 1
+    }
+    LoadoutSlotInfo Vest {
+     Enabled 1
+     Prefab "{2E907FB52FB20723}Prefabs/Characters/Vests/JPC_Pouches_Variants/Winter/JPC_Mult_v2.1.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6720F9CB5344D10E}" {
+     TargetStorage "Pants/GD_Patagonia_L9_Pants_MC.et"
+    }
+    ItemsInitConfigurationItem "{6720F9CB52FFCEB5}" {
+     TargetStorage "Pants/GD_Patagonia_L9_Pants_MC.et"
+     PrefabsToSpawn {
+      "{922F95F91943F69A}Prefabs/Items/Equipment/Maps/Map_Paper_01/PaperMap_01_folded_US.et" "{61D4F80E49BF9B12}Prefabs/Items/Equipment/Compass/Compass_SY183.et" "{F088066F5F807748}Prefabs/Weapons/Attachments/Bayonets/Bayonet_OKC3S.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6720F9CB52DA4A6E}" {
+     TargetStorage "Jacket/GD_Patagonia_L9_Shirt_MC.et"
+    }
+    ItemsInitConfigurationItem "{684C5ED945ECE074}" {
+     TargetStorage "Jacket/GD_Patagonia_L9_Shirt_MC.et"
+     PrefabsToSpawn {
+      "{BAB50E5D149D64D9}Prefabs/Items/Equipment/Radios/drg_Radio_ANPRC152A_OLD_prv.et"
+     }
+    }
+    ItemsInitConfigurationItem "{684C5ED945C22D3B}" {
+     TargetStorage "Pants/GD_Patagonia_L9_Pants_MC.et"
+     PrefabsToSpawn {
+      "{B1798B0F1258B765}Prefabs/Items/Equipment/Navigation/DAGR/DAGR.et"
+     }
+    }
+   }
+  }
+ }
+ coords 8291.322 218.039 8803.468
+ angles 0 0 0
+}

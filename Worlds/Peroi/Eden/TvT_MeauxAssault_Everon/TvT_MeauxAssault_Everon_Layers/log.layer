@@ -1,0 +1,83 @@
+$grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
+ {
+  coords 2831.869 434.767 4239.76
+  m_sTitle "Удержали Административные здания"
+  m_iScore 50
+  m_sFactionKey "USSR"
+ }
+ {
+  coords 2831.212 435.163 4239.13
+  m_sTitle "Захватили Административные здания"
+  m_iScore 50
+  m_sFactionKey "US"
+ }
+ {
+  coords 1541.702 268.963 1331.719
+  m_sTitle "Захватили Стройку"
+  m_iScore 50
+  m_sFactionKey "US"
+ }
+ {
+  coords 1560.183 256.297 1334.721
+  m_sTitle "Удержали Cтройку"
+  m_iScore 50
+  m_sFactionKey "USSR"
+ }
+}
+GenericEntity : "{E6FC6DD69FA3479F}Prefabs/System/DRG_MissionEndTimerPrefab.et" {
+ components {
+  DRG_MissionEndTimerComponent "{651B0839B21B3BBF}" {
+   m_iMissionTime 2400
+  }
+ }
+ coords 2772.594 276.388 4116.711
+}
+$grp GenericEntity : "{F5EF4223ACA6169C}PrefabsEditable/Auto/Structures/Military/Flags/E_FlagPole_02_V1_AFRF.et" {
+ {
+  components {
+   SCR_EditableEntityComponent "{5EF0BDF2D0A30F85}" {
+    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+     m_sFaction "USSR"
+    }
+   }
+   SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+    m_sDefaultMaterial "{D33A1334B4A3369D}Assets/Props/Fabric/Flags/Data/Flag_1_2_USSR.emat"
+    m_aFlagData {
+     PS_FlagData "{6588FCB6C8DD7B29}" {
+      m_sFactionKey "USSR"
+     }
+     PS_FlagData "{6588FCB6C83102AD}" {
+      m_sFactionKey "US"
+      m_iCaptureCounter 1
+     }
+    }
+    m_sFactionKey "USSR"
+   }
+  }
+  coords 4511.5 18.53 9485.225
+  angles 33.3 -1.176 -2.142
+ }
+ {
+  components {
+   SCR_EditableEntityComponent "{5EF0BDF2D0A30F85}" {
+    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    }
+   }
+   SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+    m_sDefaultMaterial "{D33A1334B4A3369D}Assets/Props/Fabric/Flags/Data/Flag_1_2_USSR.emat"
+    m_aFlagData {
+     PS_FlagData "{6588FCB6C8DD7B29}" {
+      m_sFactionKey "USSR"
+     }
+     PS_FlagData "{6588FCB6C83102AD}" {
+      m_sFactionKey "US"
+      m_iCaptureCounter 1
+     }
+    }
+    m_sFactionKey "USSR"
+   }
+  }
+  coords 4289.304 3.177 9545.719
+  angles 0 137.271 30.53
+ }
+}

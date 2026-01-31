@@ -1,0 +1,41 @@
+SCR_ChimeraCharacter : "{30113AEB06AE66D4}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Role_Character_USAF_USMC_Armored.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{0B0182500297D25D}Prefabs/Characters/HeadGear/All_Beanie/GD_Beanie_Green.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{87A20B3071F1F516}Prefabs/Characters/Uniforms/Jacket/GD_Jacket_Winter.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{1300A5F6CA51B206}Prefabs/Characters/Vests/Vest_PCGen_III/Vest_PCGen_III.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{B6A9AF599DE0F4A7}Prefabs/Characters/Uniforms/USMC/GD_USMC_Frog_Pants_In_V2_Summer.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{D0E5E5E78C3A4A3A}Prefabs/Characters/Vests/GEN3_Pouches/GD_GEN3_Medic.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6720F9CB5344D10E}" {
+     TargetStorage "Pants/GD_USMC_Frog_Pants_In_V2_Summer.et"
+    }
+    ItemsInitConfigurationItem "{6720F9CB52FFCEB5}" {
+     TargetStorage "Pants/GD_USMC_Frog_Pants_In_V2_Summer.et"
+    }
+    ItemsInitConfigurationItem "{6720F9CB52DA4A6E}" {
+     TargetStorage "Jacket/GD_Jacket_Winter.et"
+    }
+    ItemsInitConfigurationItem "{6720F9CE79E73603}" {
+     TargetStorage "Jacket/GD_Jacket_Winter.et"
+    }
+   }
+  }
+ }
+ coords 936.91 13.272 777.672
+}

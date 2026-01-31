@@ -1,0 +1,35 @@
+SCR_ChimeraCharacter : "{48DCB0EE383D5356}Prefabs/Characters/Factions/OPFOR/AFRF_Peacekeepers/Peacekeepers/VDV/Role_VDV_MG_Opt.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{B97C4366CD3FB846}Prefabs/Characters/HeadGear/6B47/6B47_Goggles.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{6F41CAF5030B030D}Prefabs/Characters/Uniforms/6Sh122_Jacket/Jacket_6Sh122_Fall.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{91EC9DC01B97D4C5}Prefabs/Characters/Uniforms/6Sh122_Pants/Pants_6Sh122_Fall.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6712BC07193B1E0D}" {
+     TargetStorage "Pants/Pants_6Sh122_Fall.et"
+    }
+    ItemsInitConfigurationItem "{6712BC07196E29FB}" {
+     TargetStorage "Pants/Pants_6Sh122_Fall.et"
+    }
+    ItemsInitConfigurationItem "{6712BC0718B910C8}" {
+     TargetStorage "Jacket/Jacket_6Sh122_Fall.et"
+    }
+    ItemsInitConfigurationItem "{6712BC02B00CEFCD}" {
+     TargetStorage "Jacket/Jacket_6Sh122_Fall.et"
+    }
+   }
+  }
+ }
+ coords 1472.065 66.372 1230.728
+}

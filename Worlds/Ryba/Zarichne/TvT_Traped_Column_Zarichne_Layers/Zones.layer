@@ -1,0 +1,171 @@
+SCR_EditorRestrictionZoneEntity : "{6144B0BE2EAC6897}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneMedium.et" {
+ coords 1987.405 8.132 3107.417
+}
+PolylineShapeEntity : "{7019844BAD5C4DD8}Prefabs/PolyZone/PolyZone_Border.et" {
+ components {
+  PS_PolyZone "{60E90266F25533F6}" {
+   m_mPolygonTexture "{928B4092981F27CB}UI/layouts/Textures/Zone.edds"
+   m_cPolygonColor 0.238 0.238 0.238 1
+   m_fPolygonUVScale 0.3
+   m_mPolygonTextureBorder "{CA01D453D39FB430}UI/layouts/Textures/ZoneBorder.edds"
+   m_cPolygonBorderColor 0 0 0 1
+   m_fPolygonBorderWidth 5.1
+   m_aVisibleForFactions {
+    ""
+    "RHS_AFRF"
+    "RHS_USAF"
+   }
+  }
+ }
+ coords 0.249 40.218 3372.797
+ Points {
+  ShapePoint "{65C9524BEA3DF254}" {
+   Position 1316.619 0 179.678
+  }
+  ShapePoint "{65C9524BEF0C4633}" {
+   Position 1657.221 0 697.438
+  }
+  ShapePoint "{65C9524B9AE14DD4}" {
+   Position 1996.703 0 1023.18
+  }
+  ShapePoint "{65C9524B9E4901EA}" {
+   Position 3670.45 0 1075.477
+  }
+  ShapePoint "{65C9524B81E4192D}" {
+   Position 4527.464 0 1097.381
+  }
+  ShapePoint "{65C9524B85341FA2}" {
+   Position 4592.213 0 1019.512
+  }
+  ShapePoint "{65C9524B8668F3E8}" {
+   Position 4566.139 0 -737.32
+  }
+  ShapePoint "{65C9524BB24FBED2}" {
+   Position 2360.542 0 -2336.846
+  }
+  ShapePoint "{65C9524BB7D9B589}" {
+   Position 0.121 0 -3345.268
+  }
+ }
+}
+$grp SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
+ {
+  coords 363.033 17.964 554.725
+ }
+ {
+  coords 4025.531 27.41 3322.207
+ }
+ {
+  coords 4405.203 27.859 4332.042
+ }
+ {
+  coords 2963.045 27.282 4093.436
+ }
+ {
+  coords 1226.344 10.378 3070.944
+ }
+}
+$grp PolylineShapeEntity : "{BD11B8FAA469D169}Prefabs/PolyZone/PolyZone.et" {
+ Suburban {
+  components {
+   PS_PolyZone "{60E90266F25533F6}" {
+    m_mPolygonTexture "{928B4092981F27CB}UI/layouts/Textures/Zone.edds"
+    m_cPolygonColor 1 0 0 1
+    m_mPolygonTextureBorder "{CA01D453D39FB430}UI/layouts/Textures/ZoneBorder.edds"
+    m_cPolygonBorderColor 1 0 0 1
+    m_fPolygonBorderWidth 4.2
+    m_aVisibleForFactions {
+     ""
+     "RHS_AFRF"
+     "RHS_USAF"
+    }
+   }
+  }
+  coords 1899.207 2.989 3161.587
+  Points {
+   ShapePoint "{65C9524D32DE5F4D}" {
+    Position 52.951 0 97.531
+   }
+   ShapePoint "{65C9524D35C202CA}" {
+    Position 103.548 0 131.166
+   }
+   ShapePoint "{65C9524D348F939D}" {
+    Position 167.099 0 0.462
+   }
+   ShapePoint "{65C9524D395EC749}" {
+    Position 223.171 0 -221.274
+   }
+   ShapePoint "{65C9524D3B17E014}" {
+    Position 226.392 0 -310.089
+   }
+   ShapePoint "{65C9524D3A059BED}" {
+    Position 68.099 0 -347.114
+   }
+   ShapePoint "{65C9524D3F67BDCA}" {
+    Position 8.934 0 -34.611
+   }
+  }
+ }
+ Red_Line {
+  components {
+   PS_PolyZone "{60E90266F25533F6}" {
+    m_cPolygonBorderColor 1 0.031 0 1
+    m_bLineMode 1
+    m_aVisibleForFactions {
+     ""
+     "RHS_AFRF"
+     "RHS_USAF"
+    }
+   }
+  }
+  coords 2473.698 22.558 4410.247
+  Points {
+   ShapePoint "{65C95248442E2D27}" {
+    Position 715.162 0 -2774.783
+   }
+   ShapePoint "{65C952484884939F}" {
+    Position 2097.375 0 -1775.162
+   }
+   ShapePoint "{65C952484C7F6927}" {
+    Position 2121.579 0 -15.395
+   }
+   ShapePoint "{65C952484F340A11}" {
+    Position 2052.8 0 59.282
+   }
+   ShapePoint "{65C9524875BDFD08}" {
+    Position 6.288 0 0.702
+   }
+  }
+ }
+ Blue_Line {
+  components {
+   PS_PolyZone "{60E90266F25533F6}" {
+    m_cPolygonBorderColor 0 0.097 1 1
+    m_bLineMode 1
+    m_aVisibleForFactions {
+     ""
+     "RHS_AFRF"
+     "RHS_USAF"
+    }
+   }
+  }
+  coords 1234.986 11.578 1076.251
+  Points {
+   ShapePoint "{60E90266E922A02A}" {
+    Position 75.377 0 -489.429
+   }
+   ShapePoint "{65C95248174E3D43}" {
+    Position -653.806 0 2379.395
+   }
+   ShapePoint "{65C952481EDD1447}" {
+    Position -1232.344 0 2298.373
+   }
+   ShapePoint "{65C952480596A31E}" {
+    Position -1190.903 0 -1011.463
+   }
+   ShapePoint "{65C9524808C715F7}" {
+    Position 73.782 0 -490.081
+   }
+  }
+ }
+}

@@ -1,0 +1,58 @@
+SCR_ChimeraCharacter : "{80C46F847BD12C33}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/75th Ranger/Ranger (2000s)/dim_US_Ranger2000_SL.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_Officer"
+    Icon "{631E0A0EDCB63B8A}UI/Icons/company_leader.edds"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{E18CFBECB99AE4E3}Prefabs/Characters/Headwear/ACU_beret/ACU_beret.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{DE198E6D0D09D4DF}Prefabs/Characters/Uniforms/ACU_jacket/ACU_jacket_rolled_up_UCP.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{C3351EC6D64ED74A}Prefabs/Items/Equipment/Radios/drg_Radio_ANPRC77.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{BA59C9EAD2F5ABD5}Prefabs/Characters/Vests/Vest_IMTV/Pouches/Pouches_MBAV_Rifleman_2.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{D1D8EF51D0C605F0}Prefabs/Characters/Handwear/Gloves_Oackley/Gloves_Oackley_Tan.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{686F189048C02AAE}" {
+    }
+    ItemsInitConfigurationItem "{686F18906E43A439}" {
+     TargetStorage "Vest/Pouches_MBAV_Rifleman_2.et/Smoke_Pouch/Pouch_Eagle_Ind_M4_2_MS_Closed.et"
+    }
+    ItemsInitConfigurationItem "{686F18906B526DC9}" {
+     TargetStorage "Vest/Pouches_MBAV_Rifleman_2.et/Grenade_Pouch2/Pouch_Eagle_Ind_M4_2_MS_Closed.et"
+    }
+    ItemsInitConfigurationItem "{686F189078E6819F}" {
+     TargetStorage "Vest/Pouches_MBAV_Rifleman_2.et/Grenade_Pouch1/Pouch_Eagle_Ind_MC_FGC_1_MS_RG.et"
+    }
+    ItemsInitConfigurationItem "{686F189084B51418}" {
+     TargetStorage "Vest/Pouches_MBAV_Rifleman_2.et/Mag_Pouch3/Pouch_Eagle_Ind_M4_2_MS_Closed_wm.et"
+    }
+    ItemsInitConfigurationItem "{686F18909C2BA8B1}" {
+     TargetStorage "Vest/Pouches_MBAV_Rifleman_2.et/Mag_Pouch2/Pouch_Eagle_Ind_M4_2_MS_Closed_wm.et"
+    }
+    ItemsInitConfigurationItem "{686F1883A3F8A639}" {
+     TargetStorage "Vest/Pouches_MBAV_Rifleman_2.et/Mag_Pouch1/Pouch_Eagle_Ind_M4_2_MS_Closed_wm.et"
+    }
+    ItemsInitConfigurationItem "{686F188806CB9967}" {
+     TargetStorage "Vest/Pouches_MBAV_Rifleman_2.et/Hydrator_Pouch/Pouch_Eagle_Ind_Hydrator_Pack_RG.et"
+    }
+   }
+  }
+ }
+ coords 4744.075 311.335 5887.342
+}

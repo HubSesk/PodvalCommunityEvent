@@ -1,0 +1,98 @@
+GenericEntity : "{04B5CC36F933A2D4}Prefabs/System/DRG_DateTimeInjectorPrefab.et" {
+ components {
+  DRG_DateTimeInjectorComponent "{658E74C94A2C74AE}" {
+   m_iYear 2041
+   m_iMonth 6
+   m_iDay 24
+   m_iHours 19
+  }
+ }
+ coords 5144.146 0 1805.342
+}
+GenericEntity : "{6A3CDCFB475BF1B2}Prefabs/System/DRG_CriticalLossPrefab.et" {
+ components {
+  DRG_CriticalLossComponent "{65213D368F1BD792}" {
+   m_aLossLogics {
+    LossLogic "{66C57AC4A7A179B9}" {
+     m_aLosses {
+      FactionLoss "{66C6C4A1CB0C61DA}" {
+       m_sFactionKey "RHS_AFRF"
+      }
+     }
+     m_sObjectiveNames {
+      "USAF_1"
+     }
+     m_sFailedObjectiveNames {
+      "AFRF_1"
+     }
+     m_bAdvanceGameStage 1
+     m_bUseMessage 1
+     m_bEventMessage "ВС РФ понесли критически потери. Победа ВС США со счетом 2:1"
+    }
+    LossLogic "{66C6C4A1F5FF23D6}" {
+     m_aLosses {
+      FactionLoss "{66C6C4A1F7826CB5}" {
+       m_iCriticalLossCount 8
+       m_sFactionKey "RHS_USAF"
+      }
+     }
+     m_sObjectiveNames {
+      "AFRF_1"
+     }
+     m_sFailedObjectiveNames {
+      "USAF_1"
+     }
+     m_bAdvanceGameStage 1
+     m_bUseMessage 1
+     m_bEventMessage "ВС США понесли критически потери. Победа ВС РФ со счетом 2:1"
+    }
+   }
+  }
+ }
+ coords 10689.084 91.152 10080.779
+}
+GenericEntity : "{CA1FF8EE196359C6}Prefabs/System/DRG_FlagControlPrefab.et" {
+ components {
+  DRG_FlagControlComponent "{66294262AC006581}" {
+   m_aFlagLogics {
+    FlagLogic "{66D429096F5E3F03}" {
+     m_bAdvanceGameStage 1
+     m_sSuccessObjectiveNames {
+      "USAF_2"
+      "USAF_3"
+     }
+     m_sFailedObjectiveNames {
+      "AFRF_2"
+      "AFRF_3"
+     }
+     m_sNotificationMessage "Все флаги захвачены ВС США. Победа со счётом 2:1"
+     m_aFlagControls {
+      FlagControl "{66D429096702AE30}" {
+       m_bIgnoreCounter 1
+       m_sFactionKey "RHS_USAF"
+       m_sFlagEntityName "FLAG_1"
+       m_sFlagPreviewName "Флаг №1"
+      }
+      FlagControl "{66D429090EF214ED}" {
+       m_bIgnoreCounter 1
+       m_sFactionKey "RHS_USAF"
+       m_sFlagEntityName "FLAG_2"
+       m_sFlagPreviewName "Флаг №2"
+      }
+     }
+    }
+   }
+  }
+ }
+ coords 2718.292 24.656 5674.154
+}
+GenericEntity : "{E6FC6DD69FA3479F}Prefabs/System/DRG_MissionEndTimerPrefab.et" {
+ components {
+  DRG_MissionEndTimerComponent "{651B0839B21B3BBF}" {
+   m_aTimeLeftWarningTimers {
+    300
+   }
+  }
+ }
+ coords 6334.65 431.148 6361.963
+}

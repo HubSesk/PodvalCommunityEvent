@@ -1,0 +1,42 @@
+GenericEntity Flag_Control : "{CA1FF8EE196359C6}Prefabs/System/DRG_FlagControlPrefab.et" {
+ components {
+  DRG_FlagControlComponent "{66294262AC006581}" {
+   m_aFlagLogics {
+    FlagLogic "{669057355AD62ACA}" {
+     m_bAdvanceGameStage 1
+     m_sSuccessObjectiveNames {
+      "USAF_0"
+     }
+     m_sFailedObjectiveNames {
+      "AFRF_0"
+     }
+     m_sNotificationMessage "Все флаги захвачены Армией США"
+     m_aFlagControls {
+      FlagControl "{6690573551DE2822}" {
+       m_sFactionKey "RHS_USAF"
+       m_sFlagEntityName "FLAG_1"
+       m_sFlagPreviewName "Завод"
+      }
+      FlagControl "{669057369E6A96BB}" {
+       m_sFactionKey "RHS_USAF"
+       m_sFlagEntityName "FLAG_2"
+       m_sFlagPreviewName "Офис"
+      }
+     }
+     m_iCompleteAfterSeconds 5
+    }
+   }
+  }
+ }
+ coords 10407.429 247.12 8634.225
+}
+GenericEntity Time_End : "{E6FC6DD69FA3479F}Prefabs/System/DRG_MissionEndTimerPrefab.et" {
+ components {
+  DRG_MissionEndTimerComponent "{651B0839B21B3BBF}" {
+   m_iMissionTime 2700
+   m_aTimeLeftWarningTimers {
+    300
+   }
+  }
+ }
+}

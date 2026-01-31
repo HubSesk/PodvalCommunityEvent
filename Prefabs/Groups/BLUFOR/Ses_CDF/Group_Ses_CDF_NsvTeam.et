@@ -1,0 +1,102 @@
+SCR_AIGroup : "{3F04964DF8D24764}Prefabs/Groups/BLUFOR/Ses_CDF/Group_Ses_CDF_Base.et" {
+ ID "0000000000000001"
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation ""
+  }
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Name "#Podval_NSVTeam"
+    m_Image "{7A8A523F5E602558}UI/Textures/EditorPreviews/Groups/BLUFOR/Group_US_AmmoTeam.edds"
+    m_aAuthoredLabels +{
+    }
+    m_aAutoLabels {
+     GROUPSIZE_MEDIUM
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{66E03507E12B88D9}" {
+      m_BudgetType CAMPAIGN
+      m_Value 1
+     }
+     SCR_EntityBudgetValue "{66E03507E1242CEB}" {
+      m_BudgetType AI_SERVER
+      m_Value 2
+     }
+    }
+    m_EntityChildrenBudgetCost {
+     SCR_EntityBudgetValue "{66E03507E1242CF4}" {
+      m_BudgetType AI
+      m_Value 4
+     }
+    }
+    m_bUseUIInfoName 1
+    m_MilitarySymbol SCR_MilitarySymbol "{66E03507E1242CCE}" {
+     m_Identity BLUFOR
+     m_Dimension LAND
+     m_Icons 0
+     m_Amplifier NONE
+    }
+   }
+  }
+  SCR_PreviewEntityComponent "{66E03507E1242CC5}" {
+   m_bRuntime 0
+   m_aEntries {
+    SCR_BasePreviewEntry "{66E03507E1242CDC}" {
+     m_iParentID -1
+     m_Mesh ""
+     m_Flags 259
+     m_Shape MESH
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 0 -5 0
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{66E03507E1242CD9}" {
+     m_iParentID 0
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Flags 0
+     m_Shape PREFAB
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 0 0 0
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{66E03507E1242CD7}" {
+     m_iParentID 0
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Flags 0
+     m_Shape PREFAB
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 3 0 -3
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{66E03507E1242CD4}" {
+     m_iParentID 0
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Flags 0
+     m_Shape PREFAB
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition -3 0 -3
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{66E03507E1242CD3}" {
+     m_iParentID 0
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Flags 0
+     m_Shape PREFAB
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 6 0 -6
+     m_vAngles 0 0 0
+    }
+   }
+  }
+ }
+ coords 839.202 39 2644.275
+ angles 0 -16.149 0
+ m_aUnitPrefabSlots {
+  "{29775115CFEA136B}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_Sergeant_NSV.et" "{F2D807061DAC8526}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_NSV_Gunner.et" "{A4C7393895B161BD}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_NSV_AG.et" "{A365E7A4B3CDAEFE}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_AmmoNSV.et"
+ }
+}

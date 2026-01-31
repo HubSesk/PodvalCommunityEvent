@@ -1,0 +1,20 @@
+$grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
+ destbenz {
+  coords 5183.996 380.594 9794.72
+  m_sTitle "Захватили площадь"
+  m_sFactionKey "Ses_CDF"
+ }
+ savebenz {
+  coords 5250.839 382.071 9441.999
+  m_sTitle "Захватили площадь"
+  m_sFactionKey "RHS_AFRF"
+ }
+}
+GenericEntity : "{E6FC6DD69FA3479F}Prefabs/System/DRG_MissionEndTimerPrefab.et" {
+ components {
+  DRG_MissionEndTimerComponent "{651B0839B21B3BBF}" {
+   m_iMissionTime 1500
+  }
+ }
+ coords 6663.271 43.758 4233.997
+}

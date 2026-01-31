@@ -1,0 +1,67 @@
+$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ M_FLAG_2 {
+  coords 9402.292 76.505 1465.238
+  angles 0 90 0
+  m_MarkerColor 0 0 0 1
+  m_sQuadName "flag-2"
+  m_fWorldSize 30
+  m_sDescription "Минарет"
+  m_aVisibleForFactions {
+   ""
+   "RHS_AFRF"
+   "Ses_TKR"
+  }
+  m_bVisibleForEmptyFaction 1
+ }
+ M_FLAG_1 {
+  coords 9552.032 51.438 1385.745
+  angles 0 90 0
+  m_MarkerColor 0 0 0 1
+  m_sQuadName "flag-2"
+  m_fWorldSize 30
+  m_sDescription "Стройка"
+  m_aVisibleForFactions {
+   ""
+   "RHS_AFRF"
+   "Ses_TKR"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+ }
+}
+$grp GenericEntity : "{F638E8AF02F38272}PrefabsEditable/Auto/Structures/Military/Flags/E_FlagPole_02_V1_TKR.et" {
+ FLAG_1 {
+  components {
+   SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+    m_sDefaultMaterial "{1798824B80443F35}Assets/Props/Fabric/Flags/Data/Flag_1_2_TKR.emat"
+    m_sFactionKey "Ses_TKR"
+   }
+   BaseActionsManagerComponent "{6202D4E6F133BF4A}" {
+    additionalActions {
+     PS_FlagChangeAction "{6202D4E6A53D4B3C}" {
+      Duration 10
+     }
+    }
+   }
+  }
+  coords 9552.025 51.336 1385.679
+ }
+ FLAG_2 {
+  components {
+   SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+    m_sDefaultMaterial "{1798824B80443F35}Assets/Props/Fabric/Flags/Data/Flag_1_2_TKR.emat"
+    m_sFactionKey "Ses_TKR"
+   }
+   BaseActionsManagerComponent "{6202D4E6F133BF4A}" {
+    additionalActions {
+     PS_FlagChangeAction "{6202D4E6A53D4B3C}" {
+      Duration 10
+     }
+    }
+   }
+  }
+  coords 9402.267 76.131 1467.074
+  angles 21.821 -156.036 0
+ }
+}

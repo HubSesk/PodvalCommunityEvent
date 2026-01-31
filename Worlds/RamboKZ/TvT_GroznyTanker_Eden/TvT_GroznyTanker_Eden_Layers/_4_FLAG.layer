@@ -1,0 +1,84 @@
+$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ M_Flag_1 {
+  coords 10177.229 42.587 1155.377
+  m_MarkerColor 0 0 0 1
+  m_sQuadName "flag-2"
+  m_fWorldSize 35
+  m_sDescription "Флаг 1"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   ""
+   "CIV"
+   "RHS_AFRF"
+   "RHS_USAF"
+  }
+  m_bVisibleForEmptyFaction 1
+ }
+ M_Flag_2 {
+  coords 10114.889 8.641 1234.441
+  m_MarkerColor 0 0 0 1
+  m_sQuadName "flag-2"
+  m_fWorldSize 35
+  m_sDescription "Флаг 2"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   ""
+   "CIV"
+   "RHS_AFRF"
+   "RHS_USAF"
+  }
+  m_bVisibleForEmptyFaction 1
+ }
+}
+$grp GenericEntity : "{F5EF4223ACA6169C}PrefabsEditable/Auto/Structures/Military/Flags/E_FlagPole_02_V1_AFRF.et" {
+ FLAG_1 {
+  components {
+   SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+    m_aFlagData {
+     PS_FlagData "{68610EEC937A7FC2}" {
+      m_sFactionKey "RHS_AFRF"
+      m_iCaptureCounter 1
+     }
+     PS_FlagData "{68610EF8A0CAF4DA}" {
+      m_sFactionKey "RHS_USAF"
+      m_iCaptureCounter 1
+     }
+    }
+    m_sFactionKey "CIV"
+   }
+   BaseActionsManagerComponent "{6202D4E6F133BF4A}" {
+    additionalActions {
+     PS_FlagChangeAction "{6202D4E6A53D4B3C}" {
+      Duration 5
+     }
+    }
+   }
+  }
+  coords 10177.196 42.224 1155.184
+ }
+ FLAG_2 {
+  components {
+   SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+    m_aFlagData {
+     PS_FlagData "{68610EEB79867E26}" {
+      m_sFactionKey "RHS_AFRF"
+      m_iCaptureCounter 1
+     }
+     PS_FlagData "{68610EF8B29CA897}" {
+      m_sFactionKey "RHS_USAF"
+      m_iCaptureCounter 1
+     }
+    }
+    m_sFactionKey "CIV"
+   }
+   BaseActionsManagerComponent "{6202D4E6F133BF4A}" {
+    additionalActions {
+     PS_FlagChangeAction "{6202D4E6A53D4B3C}" {
+      Duration 5
+     }
+    }
+   }
+  }
+  coords 10127.071 8.641 1219.82
+ }
+}

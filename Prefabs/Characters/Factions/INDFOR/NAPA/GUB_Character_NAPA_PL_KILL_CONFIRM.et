@@ -1,0 +1,28 @@
+SCR_ChimeraCharacter : "{5327DBE9F7DE6021}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_PL_3.et" {
+ ID "520EC961A090B1EE"
+ components {
+  ActionsManagerComponent "{520EA1D2F659CE02}" {
+   additionalActions {
+    DRG_DeathConfirmAction "{685EA7C334EA63D5}" {
+     ParentContextList {
+      "LowerTorso"
+     }
+     UIInfo UIInfo "{685EA7C38E96F29B}" {
+      Name "Подтвердить смерть"
+     }
+     ActionTitle "#drg_ConfirmDeathAction"
+     Duration 3
+     m_bAdvanceGameStage 0
+     m_sEventMessage "КС НАПА Мертв!"
+     m_aObjectivesToDone {
+      "USAF_KILL"
+     }
+     m_aObjectivesToFail {
+      "NAPA_KILL"
+     }
+     m_vFactionKey "RHS_USAF"
+    }
+   }
+  }
+ }
+}

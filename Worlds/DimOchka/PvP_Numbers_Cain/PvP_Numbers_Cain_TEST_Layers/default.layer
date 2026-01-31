@@ -1,0 +1,21 @@
+SCR_AIWorld : "{672531FAC0834C06}Prefabs/AI/SCR_AIWorld_Cain.et" {
+ coords 7280.556 377.85 7428.079
+}
+PerceptionManager PerceptionManager2 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 7264.548 383.33 7380.93
+}
+PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
+ components {
+  PS_CutsceneManager "{60E6C661B81E7619}" {
+   m_aCutscenes {
+    PS_Cutscene "{6704D1B671F40E56}" {
+     m_sCutsceneEntityName "KINO"
+     m_sCutsceneSound "{F999A77A6B94912B}Music/BLACKOPS.acp"
+     m_iCutsceneTime 113000
+    }
+   }
+  }
+ }
+ coords 7242.827 389.757 7354.519
+ m_bShowCutscene 1
+}

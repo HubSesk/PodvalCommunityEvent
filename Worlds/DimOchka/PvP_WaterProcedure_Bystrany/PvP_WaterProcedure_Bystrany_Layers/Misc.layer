@@ -1,0 +1,54 @@
+$grp GenericEntity : "{4DF9D94805926EFF}Worlds/Gubastus/TvT_OperationThunderbolt_Gogland/Prefabs/Flag_NoCapture.et" {
+ {
+  coords 4810.46 228.589 10261.272
+ }
+ {
+  coords 4810.172 228.589 10267.561
+ }
+}
+$grp GenericEntity : "{4E44F4A32FC0C9E4}Prefabs/Structures/BuildingParts/Eletrical/SwitchboardPhone_01/SwitchboardPhone_01.et" {
+ {
+  coords 4755.14 228.653 10272.46
+  angles 0 -180 0
+ }
+ {
+  coords 4755.339 232.453 10273.173
+  angles 0 90 0
+ }
+}
+$grp GenericEntity : "{5E6CA09D2F7DA714}Prefabs/Structures/BuildingParts/Eletrical/TransmitterControlPanel_02/TransmitterControlPanel_E_02_V3.et" {
+ {
+  coords 4757.461 228.653 10273.383
+ }
+ {
+  coords 4754.795 228.653 10275.1
+  angles 0 -180 0
+ }
+}
+GenericEntity : "{948748122F2C75B0}Prefabs/Structures/BuildingParts/Eletrical/TransmitterControlPanel_02/TransmitterControlPanel_02_base.et" {
+ coords 4754.917 228.653 10273.539
+ scale 1.343
+}
+$grp GenericEntity : "{BBF0EC642398307F}Prefabs/Structures/BuildingParts/Eletrical/TransmitterControlPanel_02/TransmitterControlPanel_E_02_V2.et" {
+ {
+  coords 4755.693 228.653 10277.567
+  angles 0 176.124 0
+ }
+ {
+  coords 4754.184 228.653 10272.051
+  angles 0 177.936 0
+ }
+}
+GenericEntity : "{F9EBA10CC445ED63}PrefabsEditable/Auto/Structures/Military/Flags/FlagPole_02_V1_CDF_Editable.et" {
+ components {
+  BaseActionsManagerComponent "{6202D4E6F133BF4A}" {
+   additionalActions {
+    PS_FlagChangeAction "{6202D4E6A53D4B3C}" {
+     Duration 6
+    }
+   }
+  }
+ }
+ coords 4762.558 237.124 10272.679
+ angles 0 0 44.97
+}

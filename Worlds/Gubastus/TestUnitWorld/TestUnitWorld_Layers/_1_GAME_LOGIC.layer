@@ -1,0 +1,32 @@
+GenericEntity : "{592E8C59C778A189}Prefabs/System/GUB_ZoneControlBetweenFactionsPrefab.et" {
+ components {
+  GUB_ZoneControlComponent "{66E34DFE0E54C4B7}" {
+   m_aControlLogics {
+    GUB_ZoneControlLogicCapture "{66E34D0CF1D228FA}" {
+     m_sMessage "Флаг захвачен!"
+     m_Timer GUB_ZoneControlTimer "{66E34D0CFCC6D86B}" {
+      timeToComplete 10
+     }
+     m_ZoneController GUB_ZoneController "{66E34D0CF3128905}" {
+      m_sZoneEntityName "TRIGGER_ZONE"
+     }
+     m_FlagControllerCapture GUB_FlagControllerCapture "{66E34D0CF357DC9E}" {
+      m_aFlagNames {
+       "flag"
+      }
+     }
+     neutralFaction "FIA"
+    }
+   }
+  }
+ }
+}
+GenericEntity : "{6A3CDCFB475BF1B2}Prefabs/System/DRG_CriticalLossPrefab.et" {
+}
+GenericEntity : "{E6FC6DD69FA3479F}Prefabs/System/DRG_MissionEndTimerPrefab.et" {
+ components {
+  DRG_MissionEndTimerComponent "{651B0839B21B3BBF}" {
+   m_iMissionTime 2700
+  }
+ }
+}

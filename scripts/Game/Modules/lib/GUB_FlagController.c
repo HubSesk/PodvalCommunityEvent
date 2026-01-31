@@ -1,10 +1,9 @@
-class GUB_FlagControllerClass : ScriptComponentClass {}
-
-class GUB_FlagController : ScriptComponent
+[BaseContainerProps()]
+class GUB_FlagController
 {
 	[Attribute()]
 	protected ref array<string> m_aFlagNames;
-	
+
 	[Attribute()]
 	protected FactionKey m_fStartFactionKey;
 	[Attribute()]
@@ -17,17 +16,10 @@ class GUB_FlagController : ScriptComponent
 
 	protected bool m_bIsSecondFlag = false;
 
-	override void EOnInit(IEntity owner)
-	{
-		super.EOnInit(owner);
-
-		if (!Replication.IsServer())
-			return;
-	}
-
 	void Init()
 	{
 		flagComponents = new array<SCR_FlagComponent>();
+
 		for (int i = 0; i < m_aFlagNames.Count(); i++)
 		{
 			IEntity entity = GetGame().GetWorld().FindEntityByName(m_aFlagNames[i]);
@@ -83,11 +75,8 @@ class GUB_FlagController : ScriptComponent
 
 	void Update(float percentage)
 	{
-		if (!flagComponents)
+		if (!flagComponents || flagComponents.Count() != m_aFlagNames.Count())
 			Init();
-
-		if (!Replication.IsServer())
-			return;
 
 		bool shouldChangeFlag = (percentage > 0.5 && !m_bIsSecondFlag) || (percentage <= 0.5 && m_bIsSecondFlag);
 		if (shouldChangeFlag)

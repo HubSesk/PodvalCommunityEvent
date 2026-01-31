@@ -1,0 +1,223 @@
+$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ {
+  coords 1837.256 64.773 3251.9
+  m_sTitle "Правила"
+  m_sDescriptionLayout "{B6DE04F7CF7A95DA}UI/MissionDescription/DescriptionEditableScrollable.layout"
+  m_sTextData "ПРАВИЛА:"\
+  "1. Всем запрещено надевать форму, головные уборы, разгрузки, бронежилеты противника (рюкзаки можно);"\
+  "2. ВС РФ и НБФ (Ополченцы) СОЮЗНИКИ;"\
+  "3. США для победы необходимо захватить 3 Точки (Для захвата точки нужно поменять флаг, флаг перезахватывается)."
+  m_aVisibleForFactions {
+   "RHS_AFRF"
+   "RHS_USAF"
+   "Drg_IGF"
+   ""
+  }
+  m_bEmptyFactionVisibility 1
+ }
+ {
+  coords 1840.483 64.773 3251.9
+  m_sTitle "Задачи"
+  m_sTextData "ЗАДАЧИ:"\
+  "• ВС РФ: "\
+  " 1. Удержать блокпосты."\
+  "• США:"\
+  " 1. Захватить 3 точки."\
+  "• НБФ:"\
+  " 1. Удержать блокпосты."
+  m_aVisibleForFactions {
+   "RHS_AFRF"
+   "RHS_USAF"
+   "Drg_IGF"
+   ""
+  }
+  m_bEmptyFactionVisibility 1
+ }
+ {
+  coords 1843.073 64.773 3251.9
+  m_sTitle "Ситуация"
+  m_sTextData "После частичного освобождения провинции от американских сил, наши войска были радужно приветствованы силами ополчения. Их командир планирует провести встречу с полковником Мироновым, одним из командиров миротворческих сил в Рухе."\
+  ""\
+  "Однако, по полученным разведданным, американские войска планируют нанести ответный удар с использованием сил КМП США, которые были отправлены на помощь основным силам после недавних событий. "\
+  ""\
+  "Огневым позициям на рубежах нужно быть готовым к нападению, также есть предположение, что они попытаются прорваться дальше границы боестолкновений и попытаться ликвидировать полковника Миронова."
+  m_aVisibleForFactions {
+   "RHS_AFRF"
+   ""
+  }
+ }
+ {
+  coords 1845.945 64.773 3251.9
+  m_sTitle "Ситуация"
+  m_sTextData "После череды боестолковений, мы были откинуты на границу провинции и, совместно с лояльными к правительству силами ВС Финляндии, укрепились там. Командование не ожидало такого серьезного сопротивления, поэтому отправила к нам на замену 31-ое Экспедиционное подразделение КМП США. "\
+  ""\
+  "По данным разведки, в н.п. Nyrhilanmaki должна состояться встреча одного из командиров миротворческих сил с лидером местного ополчения. Мы должно убить одним выстрелом двух зайцев, поэтому нашей задачами на сегодня является: зачистить 3 Блокпоста."\
+  ""\
+  "Для помощи в выполнении операции, через соседнюю провинцию, в районе н.п. Mikinneva, были замечены силы SFOD-D."
+  m_aVisibleForFactions {
+   "RHS_USAF"
+   ""
+  }
+ }
+ {
+  coords 1843.073 64.773 3251.9
+  m_sTitle "Ситуация"
+  m_sTextData "Наконец-то у нас все более-менее утихло, ВС РФ потихоньку зачищают территорию и мы им успешно в этом помогаем. Сегодня у нас планируется встреча с одиним из командиров миротворческих сил, полковником Мироновым. Надеемся, все пройдет гладко..."
+  m_aVisibleForFactions {
+   "Drg_IGF"
+   ""
+  }
+ }
+}
+$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ Drg_IGF_G_202_M {
+  coords 5284.626 61.459 5151.865
+  m_sImageSet "{301FC1A2A46D3E0D}UI/Textures/GroupManagement/FlagIcons/GroupFlagsIndfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "undefined"
+  m_fWorldSize 50
+  m_sDescription "Бжиза 1–2"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_AFRF"
+   "RHS_USAF"
+   "RHS_ION"
+   "Ses_CDF"
+   "Ses_ChDKZ"
+   "Ses_TKR"
+   "Ses_TKA"
+   "Drg_IGF"
+   "Drg_PIR"
+   "UK"
+   "USSR"
+   "US"
+   "FIA"
+   "Drg_VCA"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 10
+ }
+ Drg_IGF_G_202_M {
+  coords 5265.819 61.76 5168.449
+  m_sImageSet "{301FC1A2A46D3E0D}UI/Textures/GroupManagement/FlagIcons/GroupFlagsIndfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "undefined"
+  m_fWorldSize 50
+  m_sDescription "Бжиза 1–3"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_AFRF"
+   "RHS_USAF"
+   "RHS_ION"
+   "Ses_CDF"
+   "Ses_ChDKZ"
+   "Ses_TKR"
+   "Ses_TKA"
+   "Drg_IGF"
+   "Drg_PIR"
+   "UK"
+   "USSR"
+   "US"
+   "FIA"
+   "Drg_VCA"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 10
+ }
+ Drg_IGF_G_202_M {
+  coords 5302.448 61.76 5136.15
+  m_sImageSet "{301FC1A2A46D3E0D}UI/Textures/GroupManagement/FlagIcons/GroupFlagsIndfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "undefined"
+  m_fWorldSize 50
+  m_sDescription "Сэдр 1–3"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_AFRF"
+   "RHS_USAF"
+   "RHS_ION"
+   "Ses_CDF"
+   "Ses_ChDKZ"
+   "Ses_TKR"
+   "Ses_TKA"
+   "Drg_IGF"
+   "Drg_PIR"
+   "UK"
+   "USSR"
+   "US"
+   "FIA"
+   "Drg_VCA"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 10
+ }
+ Drg_IGF_G_202_M {
+  coords 5302.448 61.76 5136.15
+  m_sImageSet "{301FC1A2A46D3E0D}UI/Textures/GroupManagement/FlagIcons/GroupFlagsIndfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "undefined"
+  m_fWorldSize 50
+  m_sDescription "Бжиза 1–1"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_AFRF"
+   "RHS_USAF"
+   "RHS_ION"
+   "Ses_CDF"
+   "Ses_ChDKZ"
+   "Ses_TKR"
+   "Ses_TKA"
+   "Drg_IGF"
+   "Drg_PIR"
+   "UK"
+   "USSR"
+   "US"
+   "FIA"
+   "Drg_VCA"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 10
+ }
+ Drg_IGF_G_202_M {
+  coords 5292.171 61.304 5132.749
+  m_sImageSet "{301FC1A2A46D3E0D}UI/Textures/GroupManagement/FlagIcons/GroupFlagsIndfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "undefined"
+  m_fWorldSize 50
+  m_sDescription "(Лидер ополчения) Рацек 1–1"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_AFRF"
+   "RHS_USAF"
+   "RHS_ION"
+   "Ses_CDF"
+   "Ses_ChDKZ"
+   "Ses_TKR"
+   "Ses_TKA"
+   "Drg_IGF"
+   "Drg_PIR"
+   "UK"
+   "USSR"
+   "US"
+   "FIA"
+   "Drg_VCA"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 10
+ }
+}

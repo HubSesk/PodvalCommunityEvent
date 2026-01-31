@@ -1,0 +1,37 @@
+GenericEntity : "{93F9FBDB589D2C9A}Prefabs/System/DRG_BuildingDestroyPrefab.et" {
+ components {
+  DRG_BuildingDestroyComponent "{657476373CF666F8}" {
+   m_aBuildingDestroyLogics {
+    BuildingDestroyLogic "{687682C214E934BD}" {
+     m_sSuccessObjectiveNames {
+      "AFRF_PANEL"
+     }
+     m_sFailedObjectiveNames {
+      "CDF_PANEL"
+     }
+     m_aDestroableBuildings {
+      DestroableBuilding "{687682C2177C30AE}" {
+       m_sBuildingEntityName "CONTROL_PANEL_1"
+       m_sBuildingPreviewNameForDescription "Панель связи"
+      }
+      DestroableBuilding "{687682C2173F9237}" {
+       m_sBuildingEntityName "CONTROL_PANEL_2"
+       m_sBuildingPreviewNameForDescription "Панель управления"
+      }
+      DestroableBuilding "{687682C210D0E9E0}" {
+       m_sBuildingEntityName "CONTROL_PANEL_3"
+       m_sBuildingPreviewNameForDescription "База данных"
+      }
+     }
+    }
+   }
+  }
+ }
+}
+GenericEntity : "{E6FC6DD69FA3479F}Prefabs/System/DRG_MissionEndTimerPrefab.et" {
+ components {
+  DRG_MissionEndTimerComponent "{651B0839B21B3BBF}" {
+   m_iMissionTime 2700
+  }
+ }
+}

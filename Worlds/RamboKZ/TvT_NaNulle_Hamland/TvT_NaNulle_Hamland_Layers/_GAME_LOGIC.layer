@@ -1,0 +1,35 @@
+GenericEntity Destroy_Logic : "{7A333AFB11EA847A}Prefabs/System/DRG_VehicleDestroyPrefab.et" {
+ components {
+  DRG_VehicleDestroyComponent "{65733BD6110AE8FC}" {
+   m_aVehicleLossLogics {
+    VehicleLossLogic "{6574C0BEFF0ABBC4}" {
+     m_iAdvanceAfterSec 10
+     m_bAdvanceGameStage 1
+     m_sSuccessObjectiveNames {
+      "USAF_1"
+     }
+     m_sFailedObjectiveNames {
+      "AFRF_1"
+     }
+     m_sVehicleEntityNames {
+      "Ural4320_tanker1"
+      "Ural4320_tanker2"
+     }
+     m_sMessage "Армия США уничтожила все Бензовозы"
+    }
+   }
+  }
+ }
+ coords 5480.832 0 3837.973
+}
+GenericEntity Time_End : "{E6FC6DD69FA3479F}Prefabs/System/DRG_MissionEndTimerPrefab.et" {
+ components {
+  DRG_MissionEndTimerComponent "{651B0839B21B3BBF}" {
+   m_iMissionTime 2700
+   m_aTimeLeftWarningTimers {
+    300
+   }
+  }
+ }
+ coords 2328.628 233.775 1651.503
+}

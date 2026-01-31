@@ -1,0 +1,48 @@
+GenericEntity : "{592E8C59C778A189}Prefabs/System/GUB_ZoneControlBetweenFactionsPrefab.et" {
+ components {
+  GUB_ZoneControlComponent "{66E34DFE0E54C4B7}" {
+   m_aControlLogics {
+    GUB_ZoneControlLogic "{685D48CC3ED71473}" {
+     m_sZonePreviewName "База ЧСО"
+     m_bAdvanceGameStage 1
+     m_sSuccessObjectiveNames {
+      "AFRF_WIN"
+     }
+     m_sFailedObjectiveNames {
+      "CDF_WIN"
+     }
+     m_sMessage "ВС РФ Зачистили базу!"
+     m_Timer GUB_ZoneControlTimer "{685D48CCD6D8AA05}" {
+      timeToComplete 180
+     }
+     m_ZoneController GUB_ZoneController "{685D48CCD1F135B6}" {
+      m_sZoneEntityName "TRIGGER_ZONE"
+     }
+     m_FlagController GUB_FlagController "{685D48CCE47356E0}" {
+      m_aFlagNames {
+       "FLAG_1"
+       "FLAG_2"
+      }
+      m_fStartFactionKey "Ses_CDF"
+      m_fEndFactionKey "RHS_AFRF"
+     }
+     m_aConditions {
+      GUB_ZoneControlBetweenFactionsCondition "{685D48CCF1B94E19}" {
+       m_sFirstFactionKey "RHS_AFRF"
+       m_sSecondFactionKey "Ses_CDF"
+       m_fComparisonMultiplier 3
+       m_iOperator GREATER
+      }
+     }
+    }
+   }
+  }
+ }
+}
+GenericEntity : "{E6FC6DD69FA3479F}Prefabs/System/DRG_MissionEndTimerPrefab.et" {
+ components {
+  DRG_MissionEndTimerComponent "{651B0839B21B3BBF}" {
+   m_iMissionTime 2700
+  }
+ }
+}

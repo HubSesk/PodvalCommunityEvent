@@ -1,0 +1,48 @@
+GenericEntity : "{F9E1A46E3ABA116F}Prefabs/Weapons/Core/Magazine_Base.et" {
+ ID "CA6BE4D6BB2D1077"
+ components {
+  InventoryMagazineComponent "{51EED12B803954CC}" {
+   Attributes SCR_ItemAttributeCollection "{51EED12B86960275}" {
+    ItemDisplayName UIInfo "{51FEE38527BFEA5B}" {
+     Name "#TF-Magazine_AKM_6L10_Name"
+     Description "#TF-Magazine_AKM_6L10_Description"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{66F0573B54760E15}" {
+     Weight 0.35
+     SizeSetupStrategy Manual
+     ItemVolume 200
+     RestingUP Left
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{66F0573B54760E6B}" {
+      CameraPreset Left
+      CameraOrbitAngles -25 25 0
+      CameraDistanceToItem 1
+      FOV 12
+     }
+    }
+    CommonItemType "RHS_RIFLE_AMMO"
+   }
+   WbPlacementFromAttributes 0
+   WeightPerAmmo 0.01
+  }
+  MagazineComponent "{CA6BE4D6B4DAFD69}" {
+   MagazineWell TF_MagazineWellAKM_762 "{66F0573B54760E68}" {
+   }
+   UIInfo MagazineUIInfo "{57126733AA401586}" {
+    m_sAmmoCaliber "#AR-AmmunitionID_762x39mm"
+    m_MagIndicator SCR_MagazineIndicatorConfiguration "{5866951DE2665916}" : "{1AA788302FE3C53A}Configs/WeaponInfo/MagazineIndicators/ak74_30.conf" {
+    }
+   }
+   AmmoConfig "{6810AE1CC6F1621D}Configs/Weapons/Ammo/Ammo_762x39.conf"
+   AmmoMapping {
+    0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+   }
+  }
+  MeshObject "{CA6BE4D6A23F8EF0}" {
+   Object "{FD0A313B83C5D23C}Assets/Weapons/Magazines/AKM_Magazine_6L10/Magazine_AK_762x39_6L10.xob"
+  }
+ }
+ Flags 0x400003 0
+ coords 0 0 0
+}

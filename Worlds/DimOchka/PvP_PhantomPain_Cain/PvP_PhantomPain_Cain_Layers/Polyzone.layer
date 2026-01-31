@@ -1,0 +1,60 @@
+PolylineShapeEntity {
+ components {
+  PS_PolyZone "{684371730BC23E84}" {
+   m_mPolygonTexture ""
+   m_cPolygonColor 1 1 1 0
+   m_mPolygonTextureBorder ""
+   m_cPolygonBorderColor 0.561 0.029 0.029 1
+   m_fPolygonBorderWidth 5
+   m_aVisibleForFactions {
+    "CIV"
+    "US"
+    "RHS_ION"
+    ""
+   }
+  }
+ }
+ coords 6632.434 2.181 3335.995
+ Points {
+  ShapePoint "{6843717307FE8445}" {
+   Position 0 0 0
+  }
+  ShapePoint "{6843717307FB6BB0}" {
+   Position -216.755 9.35 93.229
+  }
+  ShapePoint "{6843717300A60FBC}" {
+   Position -323.738 21.198 403.402
+  }
+  ShapePoint "{684371730397CBA9}" {
+   Position -176.046 36.107 743.274
+  }
+  ShapePoint "{6843717302E17686}" {
+   Position 276.237 26.332 886.133
+  }
+  ShapePoint "{684371730DC411A5}" {
+   Position 489.615 -2.397 631.489
+  }
+  ShapePoint "{684371730C39256D}" {
+   Position 317.208 -2.173 312.673
+  }
+  ShapePoint "{684371730FF11AC1}" {
+   Position 26.956 0.002 21.99
+  }
+ }
+ IsClosed 1
+}
+GenericEntity : "{0023F898C0FF18AA}Prefabs/Characters/Basebody/CharacterBasebody.et" {
+ components {
+  SlotManagerComponent "{6843717210315AFD}" {
+   Slots {
+    LoadoutSlotInfo Suit {
+     Prefab "{702F013CB1492541}Prefabs/Characters/Uniforms/Jacket_Suit_01/Jacket_Suit_01_base.et"
+     InheritParentSkeleton 1
+     AreaType LoadoutJacketArea "{684371722BAE5A7C}" {
+     }
+    }
+   }
+  }
+ }
+ coords 6636.884 25.863 3913.733
+}

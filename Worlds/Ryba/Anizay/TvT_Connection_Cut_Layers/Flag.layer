@@ -1,0 +1,75 @@
+PolylineShapeEntity : "{BD11B8FAA469D169}Prefabs/PolyZone/PolyZone.et" {
+ components {
+  PS_PolyZone "{60E90266F25533F6}" {
+   m_mPolygonTexture "{928B4092981F27CB}UI/layouts/Textures/Zone.edds"
+   m_cPolygonColor 0.958 0.503 0.503 1
+   m_mPolygonTextureBorder "{CA01D453D39FB430}UI/layouts/Textures/ZoneBorder.edds"
+   m_cPolygonBorderColor 1 0 0 1
+   m_aVisibleForFactions {
+    ""
+    "RHS_AFRF"
+    "RHS_USAF"
+   }
+  }
+ }
+ coords 8222.851 211.738 8810.563
+ Points {
+  ShapePoint "{6846C36EC9DEBE0D}" {
+   Position -1.748 0 35.906
+  }
+  ShapePoint "{6846C36ECB99BC81}" {
+   Position 16.683 0 66.215
+  }
+  ShapePoint "{6846C36ECAD636BC}" {
+   Position 41.869 0 85.761
+  }
+  ShapePoint "{6846C36ECDB7A0F2}" {
+   Position 75.236 0 92.923
+  }
+  ShapePoint "{6846C36ECC63D293}" {
+   Position 112.18 0 81.232
+  }
+  ShapePoint "{6846C36ECF93736D}" {
+   Position 140.157 0 46.752
+  }
+  ShapePoint "{6846C36ECE22117E}" {
+   Position 144.715 0 15.444
+  }
+  ShapePoint "{6846C36EF10EAAFD}" {
+   Position 132.796 0 -22.442
+  }
+  ShapePoint "{6846C36EF0026B25}" {
+   Position 108.458 0 -43.961
+  }
+  ShapePoint "{6846C36EF30B4911}" {
+   Position 73.583 0 -54.374
+  }
+  ShapePoint "{6846C36EF2160C59}" {
+   Position 43.092 0 -48.351
+  }
+  ShapePoint "{6846C36EF2E0845A}" {
+   Position 13.983 0 -23.613
+  }
+ }
+}
+GenericEntity : "{F5EF4223ACA6169C}PrefabsEditable/Auto/Structures/Military/Flags/E_FlagPole_02_V1_AFRF.et" {
+ components {
+  SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+   m_aObjectiveNames {
+    "RF_hill"
+    "USA_hill"
+   }
+   m_aFlagData {
+    PS_FlagData "{6846C36E501C1BD3}" {
+     m_sFactionKey "RHS_AFRF"
+    }
+    PS_FlagData "{6846C36E5038539B}" {
+     m_sFactionKey "RHS_USAF"
+     m_iCaptureCounter 1
+    }
+   }
+  }
+ }
+ coords 8286.56 219.747 8822.554
+ angles 21.095 0 0
+}

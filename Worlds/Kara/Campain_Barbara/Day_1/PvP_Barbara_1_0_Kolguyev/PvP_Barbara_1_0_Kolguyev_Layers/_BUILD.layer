@@ -306,6 +306,83 @@ $grp GenericEntity : "{27F6A0815E6FF6EF}Prefabs/Compositions/Slotted/SlotRoadMed
   coords 6276.066 14.874 3491.368
   angles 0 24.585 0
  }
+ {
+  coords 6982.343 21.307 4193.656
+  angles 2.955 -147.3 -1.291
+ }
+ {
+  coords 6978.943 21.918 4181.819
+  angles 4.222 -107.759 1.461
+ }
+ {
+  coords 7051.016 4.568 3976.309
+  angles 9.097 -125.429 -8.551
+  {
+   GenericEntity {
+    ID "5CC6B499BAC8A7E5"
+    coords 0.478 0 0.057
+    {
+     StaticModelEntity {
+      ID "5CB0D990A16A1124"
+      coords 3.253 -0.338 0.412
+      angles -0.695 -48.094 12.346
+     }
+     StaticModelEntity {
+      ID "5CB0D990A16ADE92"
+      coords 2.443 -0.053 -0.602
+      angles 3.896 -69.362 11.745
+     }
+     StaticModelEntity {
+      ID "5CB0D990A16ADE93"
+      coords 3.397 -0.181 -0.623
+      angles -9.719 77.356 -7.681
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 7046.419 4.622 3990.166
+  angles 15.947 165.448 9.174
+  {
+   GenericEntity {
+    ID "5CC6B499BAC8A7E5"
+    coords 0.478 0 0.057
+    {
+     StaticModelEntity {
+      ID "5CB0D990A16A1124"
+      coords 3.199 -0.001 0.51
+      angles -0.695 -48.094 12.346
+     }
+     StaticModelEntity {
+      ID "5CB0D990A16A5AAF"
+      coords -3.898 -0.198 0.306
+      angles 0 30.193 0
+     }
+     StaticModelEntity {
+      ID "5CB0D990A16ADE92"
+      coords 2.428 0.041 -0.575
+      angles 3.896 -69.362 11.745
+     }
+     StaticModelEntity {
+      ID "5CB0D990A16ADE93"
+      coords 3.32 0.298 -0.484
+      angles -9.719 77.356 -7.681
+     }
+    }
+   }
+   StaticModelEntity {
+    ID "5CC6B499BAC8A798"
+    coords -3.463 0.029 -0.462
+    angles 0 -68.078 0
+   }
+   StaticModelEntity {
+    ID "5CC6B499BAC8A7AC"
+    coords 0.415 -0.003 0.057
+    angles 0 -86.076 0
+   }
+  }
+ }
 }
 $grp StaticModelEntity : "{39F7EE885940DC8F}Prefabs/Structures/Military/Fortifications/DirtCover_01/DirtCover_01_long_v1.et" {
  {
@@ -374,6 +451,9 @@ $grp StaticModelEntity : "{5824BC6E4A1AF407}Prefabs/Compositions/Misc/SubComposi
       Enabled 0
       m_bIsEnabled 0
      }
+     SCR_SoundDataComponent "{5C53391603B5CF41}" {
+      Enabled 0
+     }
      UniversalInventoryStorageComponent "{58A17A341AB8F069}" {
       Enabled 0
      }
@@ -428,6 +508,9 @@ $grp StaticModelEntity : "{5824BC6E4A1AF407}Prefabs/Compositions/Misc/SubComposi
      SCR_ResupplySupportStationComponent "{5E2CE1BA1701C633}" {
       Enabled 0
       m_bIsEnabled 0
+     }
+     SCR_SoundDataComponent "{5C53391603B5CF41}" {
+      Enabled 0
      }
      UniversalInventoryStorageComponent "{58A17A341AB8F069}" {
       Enabled 0
@@ -764,22 +847,70 @@ $grp GenericEntity : "{898B81D2B9E9B2DC}Prefabs/Compositions/Misc/FreeRoamBuildi
   angles 0 47.81 0
  }
 }
-$grp GenericEntity : "{90B7CEB4C665B1E2}Prefabs/Structures/Military/Flags/FlagPole_02/FlagPole_02_V1.et" {
+$grp GenericEntity : "{9F9924B626C5FA2C}Prefabs/Compositions/Slotted/SlotRoadLarge/Checkpoint_L_USSR_01.et" {
  {
-  coords 2627.807 33.648 5373.795
+  coords 6288.547 14.875 3515.119
+  angles 0 -157.438 0
  }
  {
-  coords 2717.753 30.62 5684.585
-  angles 43.96 0 0
+  coords 6903.13 22.797 4062.607
+  angles 0.663 44.619 4.418
  }
-}
-GenericEntity : "{9AEB1E4AD352B78A}Prefabs/Compositions/Misc/SubCompositions/WoodenBoxCluttered_05.et" {
- coords 6655.317 27.144 3916.456
- angles 0 -10.457 0
-}
-GenericEntity : "{9F9924B626C5FA2C}Prefabs/Compositions/Slotted/SlotRoadLarge/Checkpoint_L_USSR_01.et" {
- coords 6288.547 14.875 3515.119
- angles 0 -157.438 0
+ {
+  coords 6911.649 27.935 4165.636
+  angles -4.466 88.654 0.105
+ }
+ {
+  coords 7012.46 4.971 3925.476
+  angles -2.501 36.232 0.386
+  {
+   GenericEntity {
+    ID "5CC72E06418CFE24"
+    {
+     GenericEntity {
+      ID "570CFD7463457953"
+      coords 1.77 0.041 -0.936
+      angles 0 84.642 0
+     }
+     GenericEntity {
+      ID "570CFD746345798D"
+      coords -1.325 -0.021 -0.431
+      angles 0 -2.082 0
+     }
+     GenericEntity {
+      ID "570CFD74634579FD"
+      coords -1.709 -0.125 -0.834
+      angles 0 106.183 0
+     }
+     StaticModelEntity {
+      ID "570CFD7476FFB12E"
+      coords -0.263 -0.079 0.047
+      angles 0 0.094 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "5CC72E06418CFF41"
+    coords -6.257 -0.796 -5.11
+    angles 0 90 0
+   }
+   GenericEntity {
+    ID "5CC72E06418CFF57"
+    coords -6.258 -0.673 -3.474
+    angles 0 -90 0
+   }
+   StaticModelEntity {
+    ID "5CC72E06418CFE6B"
+    coords -0.881 0.099 6.133
+    angles 0 73.906 0
+   }
+   StaticModelEntity {
+    ID "5CC72E06418CFEB0"
+    coords -6.142 -0.869 -6.28
+    angles 0 9.829 0
+   }
+  }
+ }
 }
 $grp GenericEntity : "{A0A4E4587FEABF83}Prefabs/Compositions/Misc/FreeRoamBuilding/BarbedTapeKnifeRest_S_US_01.et" {
  {
@@ -816,7 +947,7 @@ $grp StaticModelEntity : "{A46D45922F8CAD6C}Prefabs/Props/Military/Fortification
     Enabled 1
    }
   }
-  coords 6537.898 -0 3315.952
+  coords 6537.898 0 3315.952
   angles -4.44 0.348 -4.481
  }
  {
@@ -861,7 +992,7 @@ $grp StaticModelEntity : "{A46D45922F8CAD6C}Prefabs/Props/Military/Fortification
     Enabled 1
    }
   }
-  coords 6524.841 -0 3335.871
+  coords 6524.841 0 3335.871
   angles 3.474 0.598 9.771
  }
 }
@@ -874,33 +1005,6 @@ $grp GenericEntity : "{AA3F295D8E086A6D}Prefabs/Compositions/Misc/SubComposition
  }
  {
   coords 6660.313 26.363 3929.039
- }
-}
-$grp GenericEntity : "{AC6DC9D2E040268A}Prefabs/Compositions/Misc/FreeRoamBuilding/SandbagRoundHighBurlap_S_USSR_01.et" {
- {
-  coords 6635.547 26.036 3920.746
-  angles 0 175.073 0
- }
- {
-  coords 6630.887 25.801 3916.315
-  angles 1.113 85.581 1.663
- }
- {
-  coords 6635.547 27.086 3920.746
-  angles 0 175.073 0
- }
- {
-  coords 6630.871 26.772 3916.285
-  angles 1.113 85.581 1.663
- }
-}
-$grp GenericEntity : "{B44BBBE082275ACD}Prefabs/Compositions/Misc/SubCompositions/WoodenBoxCluttered_04.et" {
- {
-  coords 6656.088 27.146 3917.339
- }
- {
-  coords 6652.698 27.145 3913.874
-  angles 0 67.341 0
  }
 }
 StaticModelEntity : "{B4C7CCE6E82150C0}Prefabs/Compositions/Misc/SubCompositions/ShelterStorage_Cluttered_USSR_02.et" {
@@ -950,6 +1054,37 @@ StaticModelEntity : "{B4C7CCE6E82150C0}Prefabs/Compositions/Misc/SubCompositions
 StaticModelEntity : "{B6D61E3EC914119E}Prefabs/Compositions/Misc/SubCompositions/Tent_Barrack_Camo_Cluttered_USSR_01.et" {
  coords 6658.203 25.999 3902.847
  angles 0.632 -45.021 -1.898
+ {
+  GenericEntity {
+   ID "58C28EA0C7635BA2"
+   components {
+    SCR_ArsenalComponent "{589F01C9C8D4A475}" {
+     Enabled 0
+    }
+    SCR_FactionAffiliationComponent "{5A50E7650A1AE9EC}" {
+     Enabled 0
+    }
+    SCR_ResourceComponent "{5E5ABDF371AE8B21}" {
+     Enabled 0
+    }
+    SCR_ResupplySupportStationComponent "{5E2CE1BA1701C633}" {
+     Enabled 0
+    }
+    SCR_SoundDataComponent "{5C53391603B5CF41}" {
+     Enabled 0
+    }
+    UniversalInventoryStorageComponent "{58A17A341AB8F069}" {
+     Enabled 0
+    }
+    SCR_ArsenalInventoryStorageManagerComponent "{58A0B19B1E191CC1}" {
+     Enabled 0
+    }
+    ActionsManagerComponent "{5476B36C403D4CC0}" {
+     Enabled 0
+    }
+   }
+  }
+ }
 }
 $grp GenericEntity : "{B90E5414AB7C325B}Prefabs/Props/Wrecks/BTR70_Wreck/BTR70_wreck_static.et" {
  {
@@ -989,21 +1124,7 @@ $grp StaticModelEntity : "{C16C62041E2AAAB2}Prefabs/Structures/Military/Fortific
   coords 6543.243 0 3312.528
  }
  {
-  coords 6541.153 -0 3313.874
- }
-}
-$grp SCR_DestructibleEntity : "{C8A5C92E74ABB5EA}Prefabs/Props/Civilian/PicnicTable/PicnicTable_01.et" {
- {
-  coords 6655.769 26.248 3916.965
-  angles 0 45 0
- }
- {
-  coords 6654.103 26.248 3915.299
-  angles 0 45 0
- }
- {
-  coords 6652.432 26.248 3913.628
-  angles 0 45 0
+  coords 6541.153 0 3313.874
  }
 }
 GenericEntity : "{CFFEB23FBEA00322}Prefabs/Props/Military/Sandbags/Sandbag_01_short_burlap.et" {
@@ -1104,6 +1225,37 @@ $grp GenericEntity : "{D2299274C13B1169}PrefabsEditable/Auto/Props/Military/Sand
 StaticModelEntity : "{DA822ADE75D09EB0}Prefabs/Compositions/Misc/SubCompositions/Tent_Barrack_Camo_Cluttered_USSR_02.et" {
  coords 6665.888 26.344 3909.415
  angles 0 -45 0
+ {
+  GenericEntity {
+   ID "58C28EA0D528BDCF"
+   components {
+    SCR_ArsenalComponent "{589F01C9C8D4A475}" {
+     Enabled 0
+    }
+    SCR_FactionAffiliationComponent "{5A50E7650A1AE9EC}" {
+     Enabled 0
+    }
+    SCR_ResourceComponent "{5E5ABDF371AE8B21}" {
+     Enabled 0
+    }
+    SCR_ResupplySupportStationComponent "{5E2CE1BA1701C633}" {
+     Enabled 0
+    }
+    SCR_SoundDataComponent "{5C53391603B5CF41}" {
+     Enabled 0
+    }
+    UniversalInventoryStorageComponent "{58A17A341AB8F069}" {
+     Enabled 0
+    }
+    SCR_ArsenalInventoryStorageManagerComponent "{58A0B19B1E191CC1}" {
+     Enabled 0
+    }
+    ActionsManagerComponent "{5476B36C403D4CC0}" {
+     Enabled 0
+    }
+   }
+  }
+ }
 }
 $grp GenericEntity : "{E98385D7F126474C}Prefabs/Props/Wrecks/UH1H_wreck/UH1H_wreck_02_static.et" {
  {
@@ -1136,162 +1288,13 @@ $grp GenericEntity : "{EECE34969CD3405F}Prefabs/Compositions/Misc/SubComposition
   angles 0 -57.666 0
  }
 }
-$grp GenericEntity : "{F1FDD5669F4C26B2}Prefabs/Props/Military/AmmoBoxes/drg_AmmoBox_545.et" {
+$grp GenericEntity : "{EFFA90623A05EB25}Prefabs/Structures/Military/Flags/FlagPole_02/FlagPole_02_V2_US.et" {
  {
-  components {
-   SCR_FilteredInventoryStorageComponent "{5476A2F100DF4EFF}" {
-    Attributes SCR_ItemAttributeCollection "{5476CDB2EAD8225E}" {
-     ItemDisplayName SCR_InventoryUIInfo "{64F707D10A95B574}" {
-      Name "Мешки с песком"
-     }
-    }
-    MultiSlots {
-     MultiSlotConfiguration "{64F707D11FA7A94D}" {
-      SlotTemplate InventoryStorageSlot "{64DCC2F489C88F5C}" {
-       Prefab "{07BC23F8D9223863}Prefabs/Items/Misc/Sandbags/Part_Sandbag_Burlap.et"
-      }
-      NumSlots 100
-     }
-     MultiSlotConfiguration "{6502C64ED28D7103}" {
-      SlotTemplate InventoryStorageSlot "{64DCC2F489C88F5C}" {
-       Enabled 0
-      }
-     }
-    }
-   }
-  }
-  coords 6633.108 24.822 3878.844
-  angles 0 44.631 0
+  coords 2627.802 33.826 5373.889
  }
  {
-  components {
-   SCR_FilteredInventoryStorageComponent "{5476A2F100DF4EFF}" {
-    Attributes SCR_ItemAttributeCollection "{5476CDB2EAD8225E}" {
-     ItemDisplayName SCR_InventoryUIInfo "{64F707D10A95B574}" {
-      Name "Мешки с песком"
-     }
-    }
-    MultiSlots {
-     MultiSlotConfiguration "{64F707D11FA7A94D}" {
-      SlotTemplate InventoryStorageSlot "{64DCC2F489C88F5C}" {
-       Prefab "{07BC23F8D9223863}Prefabs/Items/Misc/Sandbags/Part_Sandbag_Burlap.et"
-      }
-      NumSlots 100
-     }
-     MultiSlotConfiguration "{6502C64ED28D7103}" {
-      SlotTemplate InventoryStorageSlot "{64DCC2F489C88F5C}" {
-       Enabled 0
-      }
-     }
-    }
-   }
-  }
-  coords 6640.078 24.936 3882.892
-  angles 0 44.631 0
- }
- {
-  components {
-   SCR_FilteredInventoryStorageComponent "{5476A2F100DF4EFF}" {
-    Attributes SCR_ItemAttributeCollection "{5476CDB2EAD8225E}" {
-     ItemDisplayName SCR_InventoryUIInfo "{64F707D10A95B574}" {
-      Name "Мешки с песком"
-     }
-    }
-    MultiSlots {
-     MultiSlotConfiguration "{64F707D11FA7A94D}" {
-      SlotTemplate InventoryStorageSlot "{64DCC2F489C88F5C}" {
-       Prefab "{07BC23F8D9223863}Prefabs/Items/Misc/Sandbags/Part_Sandbag_Burlap.et"
-      }
-      NumSlots 100
-     }
-     MultiSlotConfiguration "{6502C64ED28D7103}" {
-      SlotTemplate InventoryStorageSlot "{64DCC2F489C88F5C}" {
-       Enabled 0
-      }
-     }
-    }
-   }
-  }
-  coords 6623.711 25.184 3900.095
-  angles 0 44.631 0
- }
- {
-  components {
-   SCR_FilteredInventoryStorageComponent "{5476A2F100DF4EFF}" {
-    Attributes SCR_ItemAttributeCollection "{5476CDB2EAD8225E}" {
-     ItemDisplayName SCR_InventoryUIInfo "{64F707D10A95B574}" {
-      Name "Мешки с песком"
-     }
-    }
-    MultiSlots {
-     MultiSlotConfiguration "{64F707D11FA7A94D}" {
-      SlotTemplate InventoryStorageSlot "{64DCC2F489C88F5C}" {
-       Prefab "{07BC23F8D9223863}Prefabs/Items/Misc/Sandbags/Part_Sandbag_Burlap.et"
-      }
-      NumSlots 100
-     }
-     MultiSlotConfiguration "{6502C64ED28D7103}" {
-      SlotTemplate InventoryStorageSlot "{64DCC2F489C88F5C}" {
-       Enabled 0
-      }
-     }
-    }
-   }
-  }
-  coords 6736.293 3.094 3528.641
-  angles 0 134.995 0
- }
- {
-  components {
-   SCR_FilteredInventoryStorageComponent "{5476A2F100DF4EFF}" {
-    Attributes SCR_ItemAttributeCollection "{5476CDB2EAD8225E}" {
-     ItemDisplayName SCR_InventoryUIInfo "{64F707D10A95B574}" {
-      Name "Мешки с песком"
-     }
-    }
-    MultiSlots {
-     MultiSlotConfiguration "{64F707D11FA7A94D}" {
-      SlotTemplate InventoryStorageSlot "{64DCC2F489C88F5C}" {
-       Prefab "{07BC23F8D9223863}Prefabs/Items/Misc/Sandbags/Part_Sandbag_Burlap.et"
-      }
-      NumSlots 100
-     }
-     MultiSlotConfiguration "{6502C64ED28D7103}" {
-      SlotTemplate InventoryStorageSlot "{64DCC2F489C88F5C}" {
-       Enabled 0
-      }
-     }
-    }
-   }
-  }
-  coords 6758.6 2.776 3516.248
-  angles 0 44.631 0
- }
- {
-  components {
-   SCR_FilteredInventoryStorageComponent "{5476A2F100DF4EFF}" {
-    Attributes SCR_ItemAttributeCollection "{5476CDB2EAD8225E}" {
-     ItemDisplayName SCR_InventoryUIInfo "{64F707D10A95B574}" {
-      Name "Мешки с песком"
-     }
-    }
-    MultiSlots {
-     MultiSlotConfiguration "{64F707D11FA7A94D}" {
-      SlotTemplate InventoryStorageSlot "{64DCC2F489C88F5C}" {
-       Prefab "{07BC23F8D9223863}Prefabs/Items/Misc/Sandbags/Part_Sandbag_Burlap.et"
-      }
-      NumSlots 100
-     }
-     MultiSlotConfiguration "{6502C64ED28D7103}" {
-      SlotTemplate InventoryStorageSlot "{64DCC2F489C88F5C}" {
-       Enabled 0
-      }
-     }
-    }
-   }
-  }
-  coords 6746.479 3.033 3528.091
-  angles 0 44.631 0
+  coords 2717.886 30.697 5684.625
+  angles 56.484 0 0
  }
 }
 $grp GenericEntity : "{F35FFCC271B2E4FB}Prefabs/Compositions/Misc/SubCompositions/Tire_UAZ469_pile_01.et" {
@@ -1380,5 +1383,35 @@ $grp GenericEntity : "{F35FFCC271B2E4FB}Prefabs/Compositions/Misc/SubComposition
     coords 0.527 0.431 0.037
    }
   }
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{FF4D386515F942C0}Prefabs/Structures/Infrastructure/Bridges/ConcreteBridge_01/ConcreteBridge_01_Pillar.et" {
+ {
+  coords 9785.45 -6.299 1873.882
+  angles 0 88.585 0
+ }
+ {
+  coords 9772.779 -6.299 1873.569
+  angles 0 88.585 0
+ }
+ {
+  coords 9769.996 -6.299 1883.612
+  angles 0 -1.331 0
+ }
+ {
+  coords 9769.702 -6.299 1896.264
+  angles 0 -1.331 0
+ }
+ {
+  coords 9769.408 -6.299 1908.899
+  angles 0 -1.331 0
+ }
+ {
+  coords 9769.115 -6.299 1921.532
+  angles 0 -1.331 0
+ }
+ {
+  coords 9798.08 -6.299 1874.194
+  angles 0 88.585 0
  }
 }

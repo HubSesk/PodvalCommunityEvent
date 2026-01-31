@@ -1,0 +1,73 @@
+SCR_ChimeraCharacter : "{E125585ADB7174D3}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/VDV/Role_Character_AFRF_VDV_Recon_Rfl_Winter.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Старший разведчик"
+    Icon "{FAE464E236485906}UI/Icons/sabateur_v2_tl.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{07D5BCC78770E4FE}Prefabs/Weapons/AK200/AK200_SpecOps_GP.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponTemplate ""
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Back {
+     Prefab "{F711EA887715B39E}TEST/Prefabs/Items/Equipment/Backpacks/Spiritus_System_DeltaBag/GD_DeltaBag_MC.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{F63EA24D50B89EAE}Prefabs/Characters/Vests/Vest_KBS_Strelok/KBS_Strelok_SL.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{684866B26F61191C}" {
+     PrefabsToSpawn {
+      "{48B06B12F3BD7E9B}Prefabs/Items/Equipment/Radios/Radio_R187P1_OLD_SL.et"
+     }
+    }
+    ItemsInitConfigurationItem "{684866B273C47008}" {
+     TargetStorage "Back/GD_DeltaBag_MC.et"
+    }
+    ItemsInitConfigurationItem "{684866B27BAA034D}" {
+     TargetStorage "Vest/KBS_Strelok_SL.et/mag1/Pouch_KBS_Mag_1.et"
+    }
+    ItemsInitConfigurationItem "{684866B2841C5D34}" {
+     TargetStorage "Vest/KBS_Strelok_SL.et/mag2/Pouch_KBS_Mag_2.et"
+    }
+    ItemsInitConfigurationItem "{684866B28130CE95}" {
+     TargetStorage "Vest/KBS_Strelok_SL.et/mag3/Pouch_KBS_Mag_3.et"
+    }
+    ItemsInitConfigurationItem "{684866B28D1C91B2}" {
+     TargetStorage "Vest/KBS_Strelok_SL.et/rgd1/Pouch_KBS_RGD_1.et"
+    }
+    ItemsInitConfigurationItem "{684866B294EB8306}" {
+     TargetStorage "Vest/KBS_Strelok_SL.et/rgd2/Pouch_KBS_RGD_2.et"
+    }
+    ItemsInitConfigurationItem "{684866AC07DD680B}" {
+     TargetStorage "Back/GD_DeltaBag_MC.et"
+     PrefabsToSpawn {
+      "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et"
+     }
+    }
+    ItemsInitConfigurationItem "{684866AC1EEF558A}" {
+     TargetStorage "Vest/KBS_Strelok_SL.et/pistol/Pouch_KBS_Pistol_Base.et"
+     PrefabsToSpawn {
+      "{D2E91B2DD0D3EF30}Prefabs/Weapons/Magazines/MP443/Magazine_9x19_MP443_17rnd_7N21.et"
+     }
+    }
+    ItemsInitConfigurationItem "{684866AC2065BF9A}" {
+     TargetStorage "Vest/KBS_Strelok_SL.et/gasmask/GD_Holster_SLS.et"
+     PrefabsToSpawn {
+      "{A8B4089ACB473848}Prefabs/Weapons/Handguns/MP443/Handgun_MP443.et"
+     }
+    }
+   }
+  }
+ }
+ coords 130.009 1 183.211
+}

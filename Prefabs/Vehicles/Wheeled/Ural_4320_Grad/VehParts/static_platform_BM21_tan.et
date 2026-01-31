@@ -1,0 +1,152 @@
+GenericEntity : "{58B3FB7F102A8B1B}Prefabs/Vehicles/Wheeled/Ural4320/VehParts/Ural4320_cargo.et" {
+ ID "4B42E71698F5739C"
+ components {
+  BaseLightManagerComponent "{5CC4F3414646D871}" {
+   Enabled 0
+  }
+  ControllersManagerComponent "{2CD4A765B3F3A3B1}" {
+   Enabled 0
+  }
+  MeshObject "{4B42E716914465B9}" {
+   Object "{7C4352CDFAC93869}Assets/Vehicle/Wheeled/Ural_4320_Grad/BM-21_Base_Platform.xob"
+   Materials {
+    MaterialAssignClass "{66F57AB7713CE295}" {
+     SourceMaterial "Material_#14"
+     AssignedMaterial "{BAF44733D565D6B2}Assets/Vehicle/Wheeled/Ural_4320_Grad/Data/Material_#14_tan.emat"
+    }
+    MaterialAssignClass "{66F57AB7713CE242}" {
+     SourceMaterial "m_mtl_h1_bm21_mobile_rckt_lnchr_p1"
+     AssignedMaterial "{2E7CC89FFEAC79BB}Assets/Vehicle/Wheeled/Ural_4320_Grad/Data/m_mtl_h1_bm21_mobile_rckt_lnchr_p1_tan.emat"
+    }
+    MaterialAssignClass "{66F57AB7713CE255}" {
+     SourceMaterial "m_mtl_h1_bm21_mobile_rckt_lnchr_p2"
+     AssignedMaterial "{6E8CE9BA48B0FBFC}Assets/Vehicle/Wheeled/Ural_4320_Grad/Data/m_mtl_h1_bm21_mobile_rckt_lnchr_p2_tan.emat"
+    }
+   }
+   LODFactors {
+    4 3 0.5 1 1
+   }
+   PixelSizeScale 1
+  }
+  SCR_BaseCompartmentManagerComponent "{2CD4A765A7D52986}" {
+   Enabled 0
+   CompartmentSlots {
+    CargoCompartmentSlot Passenger_l02 {
+     CharactersCanFallOutOnFlip 0
+    }
+    CargoCompartmentSlot Passenger_r02 {
+     CharactersCanFallOutOnFlip 0
+    }
+    CargoCompartmentSlot Passenger_l03 {
+     CharactersCanFallOutOnFlip 0
+    }
+    CargoCompartmentSlot Passenger_r03 {
+     CharactersCanFallOutOnFlip 0
+    }
+    CargoCompartmentSlot Passenger_l04 {
+     CharactersCanFallOutOnFlip 0
+    }
+    CargoCompartmentSlot Passenger_r04 {
+     CharactersCanFallOutOnFlip 0
+    }
+    CargoCompartmentSlot Passenger_l05 {
+     CharactersCanFallOutOnFlip 0
+    }
+    CargoCompartmentSlot Passenger_r05 {
+     CharactersCanFallOutOnFlip 0
+    }
+    CargoCompartmentSlot Passenger_l06 {
+     CharactersCanFallOutOnFlip 0
+    }
+    CargoCompartmentSlot Passenger_r06 {
+     CharactersCanFallOutOnFlip 0
+    }
+    CargoCompartmentSlot Passenger_l07 {
+     CharactersCanFallOutOnFlip 0
+    }
+    CargoCompartmentSlot Passenger_r07 {
+     CharactersCanFallOutOnFlip 0
+    }
+   }
+  }
+  SCR_BaseHUDComponent "{59BC55AE2A7F6FE0}" {
+   Enabled 0
+  }
+  SCR_DamageManagerComponent "{3EBB276D48AFFF41}" {
+   "Additional hit zones" {
+    SCR_DestructibleHitzone Cargo {
+     m_pDestructionHandler SCR_DestructionBaseHandler "{5576A64120B234D8}" {
+      m_sWreckModel ""
+     }
+    }
+   }
+  }
+  SCR_ResourceComponent "{5D835619AC273D4C}" {
+   Enabled 0
+  }
+  SCR_UniversalInventoryStorageComponent "{5E58C207959A9200}" {
+   Enabled 0
+  }
+  SCR_VehicleCameraDataComponent "{5E0BA784A744A7CE}" {
+   Enabled 0
+  }
+  SlotManagerComponent "{5D83561ABAB4ED0D}" {
+   Enabled 0
+   Slots {
+    RegisteringComponentSlotInfo SupplyStorage_06 {
+     PivotID "v_body"
+     Offset 0.5846 0.4486 -4.0869
+     Angles 0 -0.6 0
+     Prefab "{0527710F8BE6CB02}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_Small_01/SupplyStack_Small_01_Vehicle_CanvasTruck.et"
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo SupplyStorage_05 {
+     PivotID "v_body"
+     Offset -0.5099 0.4486 -4.0694
+     Angles 0 -0.4 0
+     Prefab "{0527710F8BE6CB02}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_Small_01/SupplyStack_Small_01_Vehicle_CanvasTruck.et"
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo SupplyStorage_04 {
+     PivotID "v_body"
+     Offset -0.5578 0.4486 -2.6529
+     Angles 0 2.4 0
+     Prefab "{0527710F8BE6CB02}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_Small_01/SupplyStack_Small_01_Vehicle_CanvasTruck.et"
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo SupplyStorage_03 {
+     PivotID "v_body"
+     Offset 0.5651 0.4486 -2.7046
+     Angles 0 -0.1 0
+     Prefab "{0527710F8BE6CB02}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_Small_01/SupplyStack_Small_01_Vehicle_CanvasTruck.et"
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo SupplyStorage_02 {
+     PivotID "v_body"
+     Offset -0.5263 0.4486 -1.369
+     Angles 0 1.6 0
+     Prefab "{0527710F8BE6CB02}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_Small_01/SupplyStack_Small_01_Vehicle_CanvasTruck.et"
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo SupplyStorage_01 {
+     PivotID "v_body"
+     Offset 0.5769 0.4486 -1.3769
+     Angles 0 -0.2 0
+     Prefab "{0527710F8BE6CB02}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_Small_01/SupplyStack_Small_01_Vehicle_CanvasTruck.et"
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo Canvas {
+     MergePhysics 1
+     Prefab "{5D1E10B35D37BA44}Prefabs/Vehicles/Wheeled/Ural4320/VehParts/Ural4320_canvas.et"
+     RegisterDamage 1
+    }
+   }
+  }
+  ActionsManagerComponent "{2CD4A765B4482F53}" {
+   Enabled 0
+  }
+  VehicleAnimationComponent "{50B812962B17E60B}" {
+   Enabled 0
+  }
+ }
+}

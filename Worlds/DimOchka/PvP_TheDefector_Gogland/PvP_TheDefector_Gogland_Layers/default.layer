@@ -1,0 +1,21 @@
+SCR_AIWorld : "{1A22C9F8BF6E88AB}Prefabs/AI/SCR_AIWorld_Gogland.et" {
+ coords 6158.815 47.527 3292.568
+}
+PerceptionManager PerceptionManager2 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 6080.158 53.34 3201.321
+}
+PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
+ components {
+  PS_CutsceneManager "{60E6C661B81E7619}" {
+   m_aCutscenes {
+    PS_Cutscene "{687D5B0788D53904}" {
+     m_sCutsceneEntityName "KINZO"
+     m_sCutsceneSound "{B49C9713BC502259}Music/DefectorPvP.acp"
+     m_iCutsceneTime 119000
+    }
+   }
+  }
+ }
+ coords 6355.133 65.176 3078.521
+ m_bShowCutscene 1
+}

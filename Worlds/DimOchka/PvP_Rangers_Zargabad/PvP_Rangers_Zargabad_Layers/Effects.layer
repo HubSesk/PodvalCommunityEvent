@@ -1,0 +1,167 @@
+$grp ParticleEffectEntity {
+ {
+  coords 3900.385 14.977 4146.071
+  EffectPath "{42917AAB29152360}Particles/Vehicle/Cinematic_Kolguyev_Fire.ptc"
+ }
+ {
+  coords 4027.924 15.133 4202.612
+  EffectPath "{42917AAB29152360}Particles/Vehicle/Cinematic_Kolguyev_Fire.ptc"
+ }
+ {
+  coords 4204.678 15.833 4327.341
+  EffectPath "{42917AAB29152360}Particles/Vehicle/Cinematic_Kolguyev_Fire.ptc"
+ }
+ {
+  coords 4329.984 15.531 4345.654
+  EffectPath "{42917AAB29152360}Particles/Vehicle/Cinematic_Kolguyev_Fire.ptc"
+ }
+ {
+  coords 4378.09 16.094 4365.292
+  EffectPath "{42917AAB29152360}Particles/Vehicle/Cinematic_Kolguyev_Fire.ptc"
+ }
+ {
+  coords 4462.379 16.286 4207.995
+  EffectPath "{42917AAB29152360}Particles/Vehicle/Cinematic_Kolguyev_Fire.ptc"
+ }
+ {
+  coords 4409.712 17.137 4062.956
+  EffectPath "{42917AAB29152360}Particles/Vehicle/Cinematic_Kolguyev_Fire.ptc"
+ }
+ {
+  coords 4095.535 17.124 4008.308
+  EffectPath "{93CAB5E5559B5C32}Particles/Vehicle/Vehicle_fire_engine_big.ptc"
+ }
+ {
+  coords 4040.005 15.992 3979.916
+  EffectPath "{42917AAB29152360}Particles/Vehicle/Cinematic_Kolguyev_Fire.ptc"
+ }
+ {
+  coords 3922 15.721 4034.336
+  EffectPath "{42917AAB29152360}Particles/Vehicle/Cinematic_Kolguyev_Fire.ptc"
+ }
+ {
+  coords 3890.079 15.903 4021.436
+  EffectPath "{42917AAB29152360}Particles/Vehicle/Cinematic_Kolguyev_Fire.ptc"
+ }
+ {
+  coords 3756.362 16.09 4093.18
+  EffectPath "{42917AAB29152360}Particles/Vehicle/Cinematic_Kolguyev_Fire.ptc"
+ }
+ {
+  coords 4135.606 16.059 4060.092
+  EffectPath "{42917AAB29152360}Particles/Vehicle/Cinematic_Kolguyev_Fire.ptc"
+ }
+ {
+  coords 4142.689 16.283 4054.717
+  EffectPath "{42917AAB29152360}Particles/Vehicle/Cinematic_Kolguyev_Fire.ptc"
+ }
+ {
+  coords 4083.201 16.114 4250.242
+  EffectPath "{42917AAB29152360}Particles/Vehicle/Cinematic_Kolguyev_Fire.ptc"
+ }
+ {
+  coords 4381.985 16.294 4181.561
+  EffectPath "{42917AAB29152360}Particles/Vehicle/Cinematic_Kolguyev_Fire.ptc"
+ }
+ {
+  coords 4271.09 17.661 4054.023
+  EffectPath "{42917AAB29152360}Particles/Vehicle/Cinematic_Kolguyev_Fire.ptc"
+ }
+ {
+  coords 3825.24 16.298 4022.85
+  EffectPath "{42917AAB29152360}Particles/Vehicle/Cinematic_Kolguyev_Fire.ptc"
+ }
+}
+GenericEntity : "{91991AEB147C0F3B}Prefabs/System/DRG_RandomSpawnPrefab.et" {
+ components {
+  DRG_RandomSpawnComponent "{66295E1A338BA9CE}" {
+   m_TargetEntity "BOSS"
+   m_MarkerEntities {
+    "SPAWN2"
+    "SPAWN3"
+   }
+  }
+ }
+ coords 3373.079 22.092 4008.597
+}
+$grp GenericEntity : "{A799F8BA47DB69F5}PrefabsEditable/Auto/Structures/Military/Flags/FlagPole_02_V1_TKA_Editable.et" {
+ {
+  coords 4356.227 20.645 4342.104
+  angles 0 0 17.931
+ }
+ {
+  coords 4348.335 20.645 4342.229
+  angles 0 0 -13.182
+ }
+ {
+  coords 3916.335 24.269 4123.712
+ }
+ {
+  coords 3927.947 23.257 4143.376
+ }
+ {
+  coords 4026.753 31.835 3597.236
+ }
+ {
+  coords 4033.159 32.841 3582.92
+ }
+}
+$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ SPAWN2 {
+  coords 3936.455 16.007 4125.961
+  angles 0 0 0
+  m_sImageSetGlow "{E23427CAC80DA8B7}UI/Textures/Icons/icons_mapMarkersUI.imageset"
+  m_MarkerColor 0.502 0 0 1
+  m_sQuadName "mark-question"
+  m_fWorldSize 90
+  m_sDescription "Возможное местонахождение целей"
+ }
+ SPAWN3 {
+  coords 4351.816 16.829 4333.862
+  angles 0 0 0
+  m_sImageSetGlow "{E23427CAC80DA8B7}UI/Textures/Icons/icons_mapMarkersUI.imageset"
+  m_MarkerColor 0.502 0 0 1
+  m_sQuadName "mark-question"
+  m_fWorldSize 90
+  m_sDescription "Возможное местонахождение целей"
+ }
+ LOOK {
+  coords 3884.807 15.856 4153.619
+  angles 0 90 0
+  m_sImageSetGlow "{E23427CAC80DA8B7}UI/Textures/Icons/icons_mapMarkersUI.imageset"
+  m_MarkerColor 0.502 0 0 1
+  m_sQuadName "mark-question"
+  m_fWorldSize 30
+  m_sDescription "Зона Альфа"
+  m_aVisibleForFactions {
+   "RHS_USAF"
+   ""
+  }
+ }
+ LOOK2 {
+  coords 4410.536 15.856 4270.631
+  angles 0 90 0
+  m_sImageSetGlow "{E23427CAC80DA8B7}UI/Textures/Icons/icons_mapMarkersUI.imageset"
+  m_MarkerColor 0.502 0 0 1
+  m_sQuadName "mark-question"
+  m_fWorldSize 30
+  m_sDescription "Зона Браво"
+  m_aVisibleForFactions {
+   "RHS_USAF"
+   ""
+  }
+ }
+ LOOK3 {
+  coords 4189.467 17.355 4005.147
+  angles 0 90 0
+  m_sImageSetGlow "{E23427CAC80DA8B7}UI/Textures/Icons/icons_mapMarkersUI.imageset"
+  m_MarkerColor 0.502 0 0 1
+  m_sQuadName "mark-question"
+  m_fWorldSize 30
+  m_sDescription "Зона Чарли"
+  m_aVisibleForFactions {
+   "RHS_USAF"
+   ""
+  }
+ }
+}

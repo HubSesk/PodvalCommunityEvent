@@ -1,0 +1,62 @@
+GenericEntity : "{592E8C59C778A189}Prefabs/System/GUB_ZoneControlBetweenFactionsPrefab.et" {
+ components {
+  GUB_ZoneControlComponent "{66E34DFE0E54C4B7}" {
+   m_aControlLogics {
+    GUB_ZoneControlLogic "{66E8E19D68B2749F}" {
+     m_Timer GUB_ZoneControlTimer "{66E8E19D7370E6F4}" {
+      timeToComplete 300
+     }
+     m_ZoneController GUB_ZoneController "{66E8E19D7357BC00}" {
+      m_sZoneEntityName "trigger"
+     }
+     m_FlagController GUB_FlagController "{66E8E19D73825CB7}" {
+      m_aFlagNames {
+       "flag"
+      }
+      m_fStartFactionKey "UK"
+      m_fEndFactionKey "RHS_AFRF"
+     }
+     m_aConditions {
+      GUB_ZoneControlBetweenFactionsCondition "{66E8E19D1EBB33E5}" {
+       m_sFirstFactionKey "RHS_AFRF"
+       m_sSecondFactionKey "UK"
+       m_fComparisonMultiplier 3
+       m_iOperator GREATER
+      }
+     }
+    }
+   }
+  }
+ }
+ coords 11512.757 0 1514.286
+}
+$grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
+ destbenz {
+  coords 5183.996 380.594 9794.72
+  m_sTitle "Удержали военную базу"
+  m_sFactionKey "UK"
+ }
+ savebenz {
+  coords 5250.839 382.071 9441.999
+  m_sTitle "Захватили военную базу"
+  m_sFactionKey "RHS_AFRF"
+ }
+}
+$grp GenericEntity : "{E6FC6DD69FA3479F}Prefabs/System/DRG_MissionEndTimerPrefab.et" {
+ {
+  components {
+   DRG_MissionEndTimerComponent "{651B0839B21B3BBF}" {
+    m_iMissionTime 2400
+   }
+  }
+  coords 6663.271 43.758 4233.997
+ }
+ {
+  components {
+   DRG_MissionEndTimerComponent "{651B0839B21B3BBF}" {
+    m_iMissionTime 2400
+   }
+  }
+  coords 11432.237 0 1658.87
+ }
+}

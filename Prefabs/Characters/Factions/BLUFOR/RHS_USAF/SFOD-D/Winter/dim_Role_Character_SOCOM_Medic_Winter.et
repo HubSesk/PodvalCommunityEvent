@@ -1,0 +1,78 @@
+SCR_ChimeraCharacter : "{70AF3FED12E4E361}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/SFOD-D/Role_Character_USAF_SFOD_ScoutMedic.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
+   Override 0
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{31F9DE9E00A153A3}Prefabs/Characters/HeadGear/Helmet_OPSCORE/Helmet_OPSCORE_MT_MC_AMP_Beanie.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{21BCF2B1BC3B744B}TEST/Prefabs/Uniforms/gryphon/Jacket_Gryphon_SNOW.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{3E5C7BD276167A2C}TEST/Prefabs/Uniforms/Crye_G4_Pants/GD_Crye_G4_Pants_Winter.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{24F6795DC36C79D7}Prefabs/Characters/Footwear/Boots_Luma/Footwear_Luma.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{16C33B978687D448}TEST/Prefabs/Items/Equipment/Backpacks/Spiritus_System_DeltaBag/GD_DeltaBag_MC_Medic.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{2E907FB52FB20723}Prefabs/Characters/Vests/JPC_Pouches_Variants/Winter/JPC_Mult_v2.1.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6720F9CB5344D10E}" {
+     TargetStorage "Pants/GD_Crye_G4_Pants_Winter.et"
+    }
+    ItemsInitConfigurationItem "{6720F9CB52FFCEB5}" {
+     TargetStorage "Pants/GD_Crye_G4_Pants_Winter.et"
+    }
+    ItemsInitConfigurationItem "{6720F9CB52DA4A6E}" {
+     TargetStorage "Jacket/Jacket_Gryphon_SNOW.et"
+    }
+    ItemsInitConfigurationItem "{672165248C18FB8D}" {
+     TargetStorage "Pants/GD_Crye_G4_Pants_Winter.et"
+    }
+    ItemsInitConfigurationItem "{672165248C6CCDE2}" {
+     TargetStorage "Jacket/Jacket_Gryphon_SNOW.et"
+    }
+    ItemsInitConfigurationItem "{672165271728906D}" {
+     TargetStorage "Vest/JPC_Mult_v2.1.et/m18_1/Pouch_Filbe_M18_2.et"
+    }
+    ItemsInitConfigurationItem "{672165271FA86EBF}" {
+     TargetStorage "Vest/JPC_Mult_v2.1.et/m18_2/Pouch_Filbe_M18_1.et"
+    }
+    ItemsInitConfigurationItem "{67216527216AEEAC}" {
+     TargetStorage "Vest/JPC_Mult_v2.1.et/Pouch1/Pouch_Placard.et"
+    }
+    ItemsInitConfigurationItem "{672165274B86F0C5}" {
+     TargetStorage "Vest/JPC_Mult_v2.1.et/tako/Pouch_PCGEN3_takoPouch_MC.et"
+    }
+    ItemsInitConfigurationItem "{672165275122E125}" {
+     TargetStorage "Vest/JPC_Mult_v2.1.et/takobelt/Pouch_PCGEN3_takoPouch_MC.et"
+    }
+    ItemsInitConfigurationItem "{672165275EBB3198}" {
+     Enabled 0
+     TargetStorage ""
+    }
+    ItemsInitConfigurationItem "{672165276C1FD37A}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{67216521005970E6}" {
+     TargetStorage "Vest/JPC_Mult_v2.1.et/m67_1/Pouch_Filbe_M67_Base.et"
+    }
+    ItemsInitConfigurationItem "{67216521403AED14}" {
+     TargetStorage "Back/GD_DeltaBag_MC_Medic.et"
+    }
+   }
+  }
+ }
+ coords 595.623 6.225 1000.042
+}

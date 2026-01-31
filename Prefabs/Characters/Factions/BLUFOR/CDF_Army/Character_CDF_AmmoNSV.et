@@ -1,0 +1,28 @@
+SCR_ChimeraCharacter : "{2A4051EDC38853A7}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_AMG.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#Podval_NSV_AMMO"
+    m_Image "{BF871E0A68C740D9}UI/Textures/EditorPreviews/Characters/BLUFOR/CDF/Character_CDF_Ammo.edds"
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{66DEABE435EC989F}" {
+     Enabled 1
+     PrefabsToSpawn {
+      "{843D9B182BCD2765}Prefabs/Weapons/Magazines/NSV/Box_127x108_NSV_50rnd_4AP_1APIT.et" "{843D9B182BCD2765}Prefabs/Weapons/Magazines/NSV/Box_127x108_NSV_50rnd_4AP_1APIT.et"
+     }
+    }
+    ItemsInitConfigurationItem "{5F39356B4034D9D7}" {
+     Enabled 0
+     PrefabsToSpawn {
+     }
+    }
+   }
+  }
+ }
+ coords 835.945 39 2645.125
+ angles 0 -23.552 0
+}

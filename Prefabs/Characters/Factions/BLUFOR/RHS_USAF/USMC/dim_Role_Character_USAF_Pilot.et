@@ -1,0 +1,38 @@
+SCR_ChimeraCharacter : "{CFB9AD45454644A2}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_Pilot.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{17D989D6B4A6F87B}Prefabs/Characters/HeadGear/Helmet_SPH4_01/Helmet_SPH4_USFlag_01.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{E5BE663442A4621A}Prefabs/Characters/Uniforms/ACU_jacket/ACU_jacket_UCP.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{DA9F58F75CE6E234}Prefabs/Characters/Uniforms/ACU_pants/ACU_pants_UCP.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{19B57111BB3FC780}Prefabs/Characters/Footwear/ACU_boots/ACU_boots2.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{997995D0EF91D998}Prefabs/Characters/Handwear/Gloves_Wool_01/Gloves_Wool_01_Black.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{652C93AEBD1EDE56}" {
+     TargetStorage "Pants/ACU_pants_UCP.et"
+    }
+    ItemsInitConfigurationItem "{652C93AE8849C9D9}" {
+     TargetStorage "Pants/ACU_pants_UCP.et"
+    }
+    ItemsInitConfigurationItem "{652CEBE6D8D3152D}" {
+     TargetStorage "Pants/ACU_pants_UCP.et"
+    }
+   }
+  }
+ }
+ coords 2627.53 5.554 466.095
+}

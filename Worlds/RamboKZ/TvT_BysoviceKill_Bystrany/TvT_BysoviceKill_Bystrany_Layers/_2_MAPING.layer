@@ -1,0 +1,111 @@
+$grp SCR_PrefabDeleterEntity {
+ {
+  coords 4297.488 289.02 9248.895
+  m_fRadius 1
+ }
+ {
+  coords 4314.539 283.129 9338.25
+  m_fRadius 1
+ }
+ {
+  coords 4302.075 274.688 9838.926
+  m_fRadius 1
+ }
+ {
+  coords 4154.259 285.082 9246.269
+  m_fRadius 1
+ }
+ {
+  coords 3898.578 282.177 9243.05
+  m_fRadius 1
+ }
+ {
+  coords 3818.491 281.971 9170.937
+  m_fRadius 1
+ }
+ {
+  coords 4011.078 281.942 9190.111
+  m_fRadius 1
+ }
+ {
+  coords 3822.336 279.919 9745.689
+  m_fRadius 1
+ }
+ {
+  coords 4125.046 276.748 9804.518
+  m_fRadius 1
+ }
+ {
+  coords 3637.399 282.079 9026.646
+  m_fRadius 1
+ }
+ {
+  coords 4490.932 273.699 9875.627
+  m_fRadius 1
+ }
+ {
+  coords 4447.154 274.088 9575.791
+  m_fRadius 1
+ }
+}
+$grp StaticModelEntity : "{3B0C9DF1FC321951}Prefabs/Structures/Infrastructure/Towers/TransmitterTower_01/drg_RadioRelayTower_USSR.et" {
+ {
+  coords 3019.11 299.376 9744.18
+  angles 0 -67.447 0
+ }
+ {
+  coords 3466.657 284.929 10672.398
+  angles 0 -178.591 0
+ }
+ {
+  coords 3288.386 286.132 10176.427
+  angles 0 -178.591 0
+ }
+}
+$grp GenericEntity : "{4DF9D94805926EFF}Worlds/Gubastus/TvT_OperationThunderbolt_Gogland/Prefabs/Flag_NoCapture.et" {
+ FLAG_1 {
+  coords 4109.832 288.021 9474.621
+ }
+ FLAG_2 {
+  coords 3900.55 284.57 9353.631
+  angles 0 -20.176 -18.855
+ }
+ FLAG_3 {
+  coords 4000.761 291.249 9194.759
+ }
+ FLAG_4 {
+  coords 4296.755 298.029 9261.655
+ }
+ FLAG_5 {
+  coords 3833.464 289.753 9280.188
+ }
+ FLAG_6 {
+  coords 4205.243 302.183 9218.433
+ }
+ FLAG_7 {
+  coords 3811.175 288.977 9408.988
+ }
+}
+SCR_DestructibleBuildingEntity : "{9CEC8BB63429FF28}Prefabs/Structures/Airport/ControlTower_01/ControlTower_01.et" {
+ coords 3996.158 0.043 9468.925
+ angles 0 168.863 0
+}
+SCR_DestructibleBuildingEntity : "{FF4D386515F942C0}Prefabs/Structures/Infrastructure/Bridges/ConcreteBridge_01/ConcreteBridge_01_Pillar.et" {
+ coords 4488.558 246.806 11267.478
+ angles 0 0.363 0
+ scale 0.683
+ {
+  SCR_DestructibleBuildingEntity : "{8F93F87354430698}Prefabs/Structures/Infrastructure/Bridges/ConcreteBridge_01/ConcreteBridge_01_Wide_8m.et" {
+   coords 32.273 7.012 0.809
+   angles 0.128 178.978 -2.412
+   scale 0.99
+   {
+    SCR_DestructibleBuildingEntity : "{8F93F87354430698}Prefabs/Structures/Infrastructure/Bridges/ConcreteBridge_01/ConcreteBridge_01_Wide_8m.et" {
+     coords 25.819 0.002 -0.004
+     angles 0 0 -0.191
+     scale 1
+    }
+   }
+  }
+ }
+}

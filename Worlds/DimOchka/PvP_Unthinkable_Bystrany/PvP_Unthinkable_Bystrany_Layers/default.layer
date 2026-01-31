@@ -1,0 +1,1621 @@
+SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
+ coords 4921.712 311.117 5721.991
+}
+PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 4918.234 311.535 5725.612
+}
+PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
+ coords 4914.585 326.869 5747.317
+}
+GenericEntity {
+ components {
+  MeshObject "{686F18925D1B8532}" {
+   Object "{A4E83A492D38C896}Assets/Characters/Belts/Belt_Ronin/ronin_shuto.xob"
+  }
+ }
+ coords 4846.789 307.644 5869.023
+}
+$grp GenericEntity : "{02E7B984F6058447}Prefabs/Characters/Vests/RangerKits/Ranger_Stanag_Closed.et" {
+ {
+  coords 4847.047 307.653 5880.096
+ }
+ {
+  coords 4847.457 307.628 5880.535
+ }
+}
+SCR_ChimeraCharacter : "{0A3CA53133D6BE06}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/dim_Role_Character_USAF_USMC_AR.et" {
+ coords 4838.886 308.104 5868.364
+}
+GenericEntity : "{11B1177729DE2939}Prefabs/Characters/Vests/Vest_JPC_Pouches/Pouch_avs_front_closed_RGR.et" {
+ coords 4847.546 307.853 5879.832
+}
+SCR_ChimeraCharacter : "{13B4180722E77D94}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/75th Ranger/Ranger (2000s)/dim_US_Ranger2000_Sniper.et" {
+ coords 4881.036 305.749 5882.818
+}
+GenericEntity : "{1A1CE09F7BCA6650}Prefabs/Props/Wrecks/S105_wreck/S105_wreck_static.et" {
+ coords 4855.629 307.02 5862.291
+ angles -2.06 35.133 2.924
+}
+GenericEntity : "{1AC11B90A48392C4}Prefabs/Characters/Vests/GEN2_Pouches/GEN2_Medic_Pouches.et" {
+ components {
+  MeshObject "{5312D798A817A294}" {
+   Object "{0A27B2BB9096D36F}Assets/Characters/Belts/Belt_Okinawa/belt_okinawa.xob"
+  }
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    RHS_LoadoutSlotInfo ChestVelcro {
+     Enabled 0
+     Prefab ""
+    }
+    LoadoutSlotInfo flex {
+    }
+    LoadoutSlotInfo radio {
+     Enabled 0
+    }
+    LoadoutSlotInfo flex2 {
+     Offset 0.2314 -0.0061 0.0568
+    }
+    LoadoutSlotInfo nerd {
+     Offset 0.2339 0.0182 -0.0507
+    }
+    LoadoutSlotInfo raid {
+     Enabled 0
+    }
+    LoadoutSlotInfo gloves {
+     Offset 0.1733 -0.0118 0.1401
+     Angles 2.1045 -155.26579 -4.4094
+     Prefab "{F58AA5DA8B494123}Prefabs/Characters/Vests/US_JPC_Pouches/GD_JPC_Gloves.et"
+    }
+    LoadoutSlotInfo Radioo {
+     Offset -0.1885 0.0871 0.1102
+     Angles 0.6187 -170.0365 -2.4317
+     Prefab "{3C87621A653D3B45}Prefabs/Characters/Vests/US_JPC_Pouches/GD_JPC_Radio2.et"
+    }
+   }
+  }
+ }
+ coords 4843.737 307.809 5868.954
+}
+GameEntity : "{1D567C157C40D25C}Prefabs/Characters/HeadGear/Helmet_MICH_ACH/Helmet_MICH2000_norotos_velcro_tan2.et" {
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo BackVelcro {
+     Enabled 1
+     Prefab "{397A4D4ED2E51C6A}Prefabs/Items/Equipment/Nightvision/PVS31/PVS_31_BatPack_BLK.et"
+    }
+    RHS_LoadoutSlotInfo NVG {
+     Prefab "{B7BA7694F821F556}Prefabs/Items/Equipment/Nightvision/PVS14/NVG_PVS14Dual.et"
+    }
+    RHS_LoadoutSlotInfo Headset {
+     Prefab "{85D618A51C013F7A}Prefabs/Characters/HeadGear/Headphones_Peltor/Headphones_Peltor_yellow.et"
+    }
+   }
+  }
+ }
+ coords 4848.365 307.587 5869.261
+}
+SCR_ChimeraCharacter : "{1EAA9F3FAF51C5FB}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/dim_Role_Character_USAF_USMC_Base.et" {
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot WristwatchSlot {
+       Prefab "{78ED4FEF62BBA728}Prefabs/Items/Equipment/Watches/Watch_SandY184A.et"
+      }
+     }
+    }
+   }
+  }
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_bIsPlayable 1
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Jacket {
+     Prefab "{DD49E30B082C98CB}Prefabs/Characters/Uniforms/PCU_5lvl_Jacket/Jacket_PCU_5lvl_Base.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{DA9F58F75CE6E234}Prefabs/Characters/Uniforms/ACU_pants/ACU_pants_UCP.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{19B57111BB3FC780}Prefabs/Characters/Footwear/ACU_boots/ACU_boots2.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{D73018D5DF4E2259}Prefabs/Characters/Handwear/Gloves_Oackley/Gloves_Oackley_Black.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{686D66D342FD8537}" {
+     TargetStorage "Pants/ACU_pants_UCP.et"
+     PrefabsToSpawn {
+      "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et"
+      "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et"
+      "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et"
+      "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et"
+      "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et"
+      "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et"
+      "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et"
+      "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et"
+      "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
+      "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
+     }
+    }
+    ItemsInitConfigurationItem "{686D66D3422F9E4F}" {
+     TargetStorage "Pants/ACU_pants_UCP.et"
+     PrefabsToSpawn {
+      "{922F95F91943F69A}Prefabs/Items/Equipment/Maps/Map_Paper_01/PaperMap_01_folded_US.et"
+      "{61D4F80E49BF9B12}Prefabs/Items/Equipment/Compass/Compass_SY183.et"
+      "{6E35D94130954509}Prefabs/Items/Equipment/Accessories/ETool_ALICE/ETool_ALICE_FreeRoamBuilding_Gadget.et"
+      "{F088066F5F807748}Prefabs/Weapons/Attachments/Bayonets/Bayonet_OKC3S.et"
+     }
+    }
+    ItemsInitConfigurationItem "{686D66D3426CC271}" {
+     TargetStorage "Jacket/Jacket_PCU_5lvl_Base.et"
+     TargetPurpose 64
+     PrefabsToSpawn {
+      "{3A421547BC29F679}Prefabs/Items/Equipment/Flashlights/Flashlight_MX991/Flashlight_MX991.et"
+     }
+    }
+   }
+  }
+ }
+ coords 4853.95 307.283 5866.331
+}
+$grp Vehicle : "{208FEE0BF258449B}Prefabs/Scenarios/SP01/SP01_UAZ469_USSR.et" {
+ SP01_UAZ469_USSR1 {
+  coords 4855.721 307.263 5852.261
+  angles -0.504 6.059 4.737
+ }
+ SP01_UAZ469_USSR2 {
+  coords 4847.42 307.724 5853.528
+  angles 0.365 -174.157 -3.558
+ }
+}
+GenericEntity : "{2F098F38D4D889ED}Prefabs/Weapons/M4A1/M4_Ranger2000.et" {
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{5E0EEDB0BD59EE7D}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot Optics {
+      Prefab "{50475BC9E6A7ABD0}Prefabs/Weapons/Attachments/Optics/ta31rco/Optic_TA31RCO_army.et"
+     }
+    }
+    AttachmentSlotComponent "{5EA2BE949ECF03E3}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot "{5EA2BE9573F14F0C}" {
+      Prefab "{5AE8F3A22BDB534F}Prefabs/Weapons/Attachments/Lasers/anpeq15/Laser_ANPEQ15_black.et"
+     }
+    }
+   }
+  }
+ }
+ coords 4840.736 308.334 5881.473
+}
+SCR_ChimeraCharacter : "{30113AEB06AE66D4}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/dim_Role_Character_USAF_USMC_Armored.et" {
+ coords 4852.117 307.368 5868.279
+}
+SCR_ChimeraCharacter : "{40684F55E2D38EC9}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/75th Ranger/Ranger (2000s)/dim_US_Ranger2000_Unarmed.et" {
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{B50CD3823363CDA9}Prefabs/Characters/HeadGear/Helmet_MICH_ACH/dim_MICH2000_Ranger1.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{8444CAA1306D1A02}Prefabs/Characters/Vests/MBAV/TF_Eagle_Ind_MBAV_Khaki.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{BA59C9EAD2F5ABD5}Prefabs/Characters/Vests/Vest_IMTV/Pouches/Pouches_MBAV_Rifleman_2.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{686D66D16AC08F01}" {
+     TargetStorage "Pants/ACU_pants_UCP.et"
+     PrefabsToSpawn {
+      "{BAB50E5D149D64D9}Prefabs/Items/Equipment/Radios/drg_Radio_ANPRC152A_OLD_prv.et"
+     }
+    }
+   }
+  }
+ }
+ coords 4850.701 307.439 5868.413
+}
+GenericEntity : "{4436D0BE152B675E}Prefabs/Characters/Vests/RangerKits/Ranger_SL.et" {
+}
+$grp GenericEntity : "{4B7BDE6D7508C4F5}Prefabs/Characters/Vests/RangerKits/Ranger_Rifleman.et" {
+ {
+  components {
+   BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+    Slots {
+     LoadoutSlotInfo Grenade_Pouch1 {
+      Enabled 0
+     }
+     LoadoutSlotInfo Mag_Pouch2 {
+     }
+     LoadoutSlotInfo Mag_Pouch3 {
+      Enabled 0
+     }
+     LoadoutSlotInfo Radio_Pouch {
+     }
+     LoadoutSlotInfo Medical_Pouch {
+      Enabled 0
+     }
+     LoadoutSlotInfo Uni_Pouch {
+     }
+     LoadoutSlotInfo Carabine {
+      Offset 0.1616 0.1102 -0.1299
+      Angles -11.6419 -25.2457 -147.69479
+     }
+     LoadoutSlotInfo Grenade_Pouch3 {
+      Enabled 0
+     }
+     LoadoutSlotInfo Holster {
+      PivotID "Spine1"
+      Offset 0.2095 -0.0197 -0.0171
+      Angles 0 0 0
+      Prefab "{AC78A989D0DFC5FC}Prefabs/Characters/Vests/All_Holster_SLS/GD_Holster_SLS.et"
+     }
+     LoadoutSlotInfo Radio {
+      Enabled 0
+     }
+    }
+    WornMaterialsOverride {
+     "{E637414720C59111}Assets/Characters/Belts/Belt_Ronin/Data/ronin_shuto_MCBlk.emat"
+    }
+   }
+  }
+  coords 4850.74 307.422 5877.457
+ }
+ {
+  components {
+   BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+    Slots {
+     LoadoutSlotInfo Grenade_Pouch1 {
+      Offset 0.1621 0.0384 0.1545
+      Angles 13.7675 -172.2549 -6.4275
+      Prefab "{F58AA5DA8B494123}Prefabs/Characters/Vests/US_JPC_Pouches/GD_JPC_Gloves.et"
+     }
+    }
+    DebugWornModel 1
+   }
+  }
+  coords 4847.521 307.592 5877.457
+ }
+}
+$grp Vehicle : "{4C81D7ED8F8C0D87}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_tanker.et" {
+ Ural4320_tanker1 {
+  coords 4826.429 309.531 5845.029
+  angles 0 -14.892 0
+ }
+ Ural4320_tanker2 {
+  coords 4812.503 309.469 5856.437
+  angles 0 94.376 0
+ }
+}
+Vehicle S105_beige1 : "{54C3CC22DEBD57BE}Prefabs/Vehicles/Wheeled/S105/S105_beige.et" {
+ coords 4866.03 306.534 5869.252
+ angles -3.516 92.713 -1.359
+}
+$grp SCR_ChimeraCharacter : "{5A1CC345188BACAC}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/dim_Role_Character_USAF_USMC_Grenadier.et" {
+ {
+  coords 4838.873 308.189 5863.69
+ }
+ {
+  coords 4842.214 307.835 5876.407
+ }
+}
+$grp GenericEntity : "{5B1381786551320C}Prefabs/Characters/CINEMATIC_RU_soldier_with_animation.et" {
+ {
+  coords 4842.158 308.507 5839.804
+  angles 0 71.516 0
+ }
+ {
+  components {
+   BaseLoadoutManagerComponent "{5670AB5CB11668D5}" {
+    Slots {
+     LoadoutSlotInfo Hat {
+      Enabled 1
+      Prefab "{5AE4B29D3C3985F7}Prefabs/Characters/HeadGear/Helmet_OPSCORE/variants/Helmet_OPSCORE_MT_AMP_Marsoc1.et"
+     }
+     LoadoutSlotInfo Jacket {
+      Prefab "{DFC5A8C3E0FED472}Prefabs/Characters/Uniforms/Crye_shirt/Crye_G3_Shirt_Base.et"
+     }
+     LoadoutSlotInfo Pants {
+      Prefab "{E2858C97676911D0}Prefabs/Characters/Uniforms/Crye_pants/Crye_G3_Pants_Base.et"
+     }
+     LoadoutSlotInfo Back {
+      Enabled 1
+      Prefab "{F711EA887715B39E}Prefabs/Items/Equipment/Backpacks/Spiritus_System_DeltaBag/GD_DeltaBag_MC.et"
+      AreaType LoadoutBackpackArea "{686D66D666365820}" {
+      }
+     }
+     LoadoutSlotInfo sd {
+      Prefab "{551DB06603E248AE}Prefabs/Characters/Vests/Vest_AVS/Vest_AVS_base.et"
+      AreaType LoadoutArmoredVestSlotArea "{686D66D6632A7FB3}" {
+      }
+     }
+     LoadoutSlotInfo adasd {
+      Prefab "{86503C80B70FE586}Prefabs/Characters/Vests/Vest_AVS/Variants/Vest_AVS_okinawa_MC_6x9.et"
+     }
+    }
+   }
+  }
+  coords 4848.268 307.609 5867.244
+  angles 0 0 0
+ }
+ {
+  components {
+   BaseLoadoutManagerComponent "{5670AB5CB11668D5}" {
+    Slots {
+     LoadoutSlotInfo Jacket {
+      Prefab "{DD49E30B082C98CB}Prefabs/Characters/Uniforms/PCU_5lvl_Jacket/Jacket_PCU_5lvl_Base.et"
+     }
+     LoadoutSlotInfo Pants {
+      Prefab "{DA9F58F75CE6E234}Prefabs/Characters/Uniforms/ACU_pants/ACU_pants_UCP.et"
+     }
+    }
+   }
+  }
+  coords 4844.972 307.732 5868.954
+  angles 0 0 0
+ }
+ {
+  components {
+   BaseLoadoutManagerComponent "{5670AB5CB11668D5}" {
+    Slots {
+     LoadoutSlotInfo Jacket {
+      Prefab "{DE198E6D0D09D4DF}Prefabs/Characters/Uniforms/ACU_jacket/ACU_jacket_rolled_up_UCP.et"
+     }
+     LoadoutSlotInfo Pants {
+      Prefab "{DA9F58F75CE6E234}Prefabs/Characters/Uniforms/ACU_pants/ACU_pants_UCP.et"
+     }
+     LoadoutSlotInfo Back {
+      Enabled 1
+      Prefab "{8444CAA1306D1A02}Prefabs/Characters/Vests/MBAV/TF_Eagle_Ind_MBAV_Khaki.et"
+      AreaType LoadoutArmoredVestSlotArea "{686F1899F6255BA2}" {
+      }
+     }
+    }
+   }
+  }
+  coords 4843.737 307.809 5868.954
+  angles 0 0 0
+ }
+ {
+  components {
+   BaseLoadoutManagerComponent "{5670AB5CB11668D5}" {
+    Slots {
+     LoadoutSlotInfo Jacket {
+      Prefab "{DD49E30B082C98CB}Prefabs/Characters/Uniforms/PCU_5lvl_Jacket/Jacket_PCU_5lvl_Base.et"
+     }
+     LoadoutSlotInfo Pants {
+      Prefab "{DA9F58F75CE6E234}Prefabs/Characters/Uniforms/ACU_pants/ACU_pants_UCP.et"
+     }
+     LoadoutSlotInfo Back {
+      Enabled 1
+      Prefab "{8444CAA1306D1A02}Prefabs/Characters/Vests/MBAV/TF_Eagle_Ind_MBAV_Khaki.et"
+      AreaType LoadoutArmoredVestSlotArea "{686F1899F6255BA2}" {
+      }
+     }
+    }
+   }
+  }
+  coords 4847.521 307.592 5877.457
+  angles 0 0 0
+ }
+ {
+  components {
+   BaseLoadoutManagerComponent "{5670AB5CB11668D5}" {
+    Slots {
+     LoadoutSlotInfo Jacket {
+      Prefab "{DD49E30B082C98CB}Prefabs/Characters/Uniforms/PCU_5lvl_Jacket/Jacket_PCU_5lvl_Base.et"
+     }
+     LoadoutSlotInfo Pants {
+      Prefab "{DA9F58F75CE6E234}Prefabs/Characters/Uniforms/ACU_pants/ACU_pants_UCP.et"
+     }
+     LoadoutSlotInfo Back {
+      Enabled 1
+      Prefab "{CD0637B5D67DEFC9}Prefabs/Characters/Vests/LV_MBAV/LV_MBAV_Khaki.et"
+      AreaType LoadoutArmoredVestSlotArea "{686F1899F6255BA2}" {
+      }
+     }
+    }
+   }
+  }
+  coords 4850.74 307.422 5877.457
+  angles 0 0 0
+ }
+ {
+  components {
+   BaseLoadoutManagerComponent "{5670AB5CB11668D5}" {
+    Slots {
+     LoadoutSlotInfo Jacket {
+      Prefab "{DD49E30B082C98CB}Prefabs/Characters/Uniforms/PCU_5lvl_Jacket/Jacket_PCU_5lvl_Base.et"
+     }
+     LoadoutSlotInfo Pants {
+      Prefab "{DA9F58F75CE6E234}Prefabs/Characters/Uniforms/ACU_pants/ACU_pants_UCP.et"
+     }
+     LoadoutSlotInfo Back {
+      Enabled 1
+      Prefab "{8444CAA1306D1A02}Prefabs/Characters/Vests/MBAV/TF_Eagle_Ind_MBAV_Khaki.et"
+      AreaType LoadoutArmoredVestSlotArea "{686F1899F6255BA2}" {
+      }
+     }
+     LoadoutSlotInfo Vest {
+      Prefab "{67486AAA5D747349}Prefabs/Characters/Vests/JPC_Pouches_Variants/Winter/JPC_Mult_V5.1.et"
+     }
+    }
+   }
+  }
+  coords 4846.191 307.592 5877.457
+  angles 0 0 0
+ }
+ {
+  components {
+   BaseLoadoutManagerComponent "{5670AB5CB11668D5}" {
+    Slots {
+     LoadoutSlotInfo Jacket {
+      Prefab "{DD49E30B082C98CB}Prefabs/Characters/Uniforms/PCU_5lvl_Jacket/Jacket_PCU_5lvl_Base.et"
+     }
+     LoadoutSlotInfo Pants {
+      Prefab "{DA9F58F75CE6E234}Prefabs/Characters/Uniforms/ACU_pants/ACU_pants_UCP.et"
+     }
+     LoadoutSlotInfo Back {
+      Enabled 1
+      Prefab "{B0EAF4919D0AE2A4}Prefabs/Characters/Vests/LV_MBAV/LV_MBAV_Base.et"
+      AreaType LoadoutArmoredVestSlotArea "{686F1899F6255BA2}" {
+      }
+     }
+     LoadoutSlotInfo Vest {
+      Prefab "{9713FE6DDCC9510D}Prefabs/Characters/Vests/Vest_Lifchik/Vest_Lifchik.et"
+      AreaType LoadoutVestArea "{686F188BD5A3F564}" {
+      }
+     }
+    }
+   }
+  }
+  coords 4844.799 307.759 5880.722
+  angles 0 0 0
+ }
+ {
+  components {
+   BaseLoadoutManagerComponent "{5670AB5CB11668D5}" {
+    Slots {
+     LoadoutSlotInfo Jacket {
+      Prefab "{DD49E30B082C98CB}Prefabs/Characters/Uniforms/PCU_5lvl_Jacket/Jacket_PCU_5lvl_Base.et"
+     }
+     LoadoutSlotInfo Pants {
+      Prefab "{DA9F58F75CE6E234}Prefabs/Characters/Uniforms/ACU_pants/ACU_pants_UCP.et"
+     }
+     LoadoutSlotInfo Back {
+      Enabled 1
+      Prefab "{8444CAA1306D1A02}Prefabs/Characters/Vests/MBAV/TF_Eagle_Ind_MBAV_Khaki.et"
+      AreaType LoadoutArmoredVestSlotArea "{686F1899F6255BA2}" {
+      }
+     }
+     LoadoutSlotInfo Vest {
+      Enabled 0
+      Prefab "{67486AAA5D747349}Prefabs/Characters/Vests/JPC_Pouches_Variants/Winter/JPC_Mult_V5.1.et"
+     }
+    }
+   }
+  }
+  coords 4857.663 307.059 5882.68
+  angles 0 0 0
+ }
+}
+GenericEntity : "{5CF58B97C240AA31}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_wartech_magpouch_mp105_3_OD.et" {
+ components {
+  RHS_EquipmentStorageComponent "{5222CB03D1147687}" {
+   InitialStorageSlots {
+    RHS_EquipmentStorageSlot PouchStorage {
+     Offset -0.0312 -0.0369 0.0225
+     Angles 6.6894 -88.3269 -179.03999
+    }
+   }
+  }
+ }
+ coords 4848.093 307.778 5878.765
+}
+GameEntity : "{62E1A07F77B0B136}Prefabs/Characters/HeadGear/Helmet_MICH_ACH/Helmet_MICH2000_norotos_velcro_tan_camo.et" {
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo BackVelcro {
+     Enabled 1
+     Prefab "{397A4D4ED2E51C6A}Prefabs/Items/Equipment/Nightvision/PVS31/PVS_31_BatPack_BLK.et"
+    }
+    RHS_LoadoutSlotInfo NVG {
+     Prefab "{B7BA7694F821F556}Prefabs/Items/Equipment/Nightvision/PVS14/NVG_PVS14Dual.et"
+    }
+    RHS_LoadoutSlotInfo Headset {
+     Prefab "{85D618A51C013F7A}Prefabs/Characters/HeadGear/Headphones_Peltor/Headphones_Peltor_yellow.et"
+    }
+   }
+  }
+ }
+ coords 4839.522 307.995 5869.895
+}
+GenericEntity : "{67486AAA5D747349}Prefabs/Characters/Vests/JPC_Pouches_Variants/Winter/JPC_Mult_V5.1.et" {
+ components {
+  MeshObject "{5312D798A817A294}" {
+   Object "{0A27B2BB9096D36F}Assets/Characters/Belts/Belt_Okinawa/belt_okinawa.xob"
+  }
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo Pouch1 {
+     Offset 0 0.0626 0.1765
+     Prefab "{02E7B984F6058447}Prefabs/Characters/Vests/RangerKits/Ranger_Stanag_Closed.et"
+    }
+    LoadoutSlotInfo HSGI {
+     Offset -0.1714 0.0291 0.129
+     Angles 1.161 134.76939 -2.0729
+     Prefab "{6D1B180D001E190F}Prefabs/Items/Equipment/Backpacks/Spiritus_System_DeltaBag/GD_Scissors.et"
+    }
+    LoadoutSlotInfo nerd {
+    }
+    LoadoutSlotInfo Tako {
+     Offset 0 0.1801 0.1705
+     Angles 81.1767 180 0
+     Enabled 1
+     Prefab "{84203663B9B22FF7}Prefabs/Items/Equipment/Backpacks/Spiritus_System_DeltaBag/GD_Tourniquet.et"
+    }
+    LoadoutSlotInfo saw {
+     Offset -0.1841 0.0615 0.0051
+    }
+    LoadoutSlotInfo radio {
+     Offset 0.1719 0.0737 0.1374
+     Angles -1.2818 177.8109 1.844
+    }
+    LoadoutSlotInfo raid {
+     Prefab "{9B29A7B15FAF488B}Prefabs/Characters/Vests/RangerKits/Ranger_Raid.et"
+    }
+    LoadoutSlotInfo pistolpouch2 {
+     Enabled 0
+    }
+    LoadoutSlotInfo tako {
+     Offset -0.1494 0.0229 0.0786
+     Angles 4.0567 -43.8254 4.5809
+     Prefab "{2A807DB952600900}Prefabs/Characters/Vests/RangerKits/Ranger_StanagPouch.et"
+    }
+    LoadoutSlotInfo takobelt {
+     Offset -0.1748 0.017 0.0105
+     Prefab "{2A807DB952600900}Prefabs/Characters/Vests/RangerKits/Ranger_StanagPouch.et"
+    }
+    LoadoutSlotInfo m18_1 {
+     Offset 0.2275 -0.0317 -0.0189
+     Angles -3.5007 88.2746 -3.9595
+    }
+    LoadoutSlotInfo m18_2 {
+     Angles -2.4197 -120.7708 6.552
+    }
+    LoadoutSlotInfo GPS {
+     Offset -0.1221 0.3028 0.0777
+     Angles -35.1048 160.54221 15.5777
+    }
+    LoadoutSlotInfo JTAC {
+     Enabled 0
+    }
+   }
+   WornMaterialsOverride {
+    "{E637414720C59111}Assets/Characters/Belts/Belt_Ronin/Data/ronin_shuto_MCBlk.emat"
+   }
+   ItemMaterialsOverride {
+    "{E637414720C59111}Assets/Characters/Belts/Belt_Ronin/Data/ronin_shuto_MCBlk.emat"
+   }
+  }
+ }
+ coords 4844.565 307.592 5878.069
+}
+GenericEntity : "{7F7EE6A33B6ACC12}Prefabs/Characters/Vests/GEN3_Pouches/GD_GEN3_Grenadier.et" {
+ components {
+  MeshObject "{5312D798A817A294}" {
+   Object "{0A27B2BB9096D36F}Assets/Characters/Belts/Belt_Okinawa/belt_okinawa.xob"
+  }
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   DebugWornModel 1
+  }
+ }
+ coords 4843.264 307.799 5870.055
+}
+$grp SCR_ChimeraCharacter : "{80C46F847BD12C33}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/75th Ranger/Ranger (2000s)/dim_US_Ranger2000_SL.et" {
+ {
+  coords 4868.376 306.46 5881.332
+ }
+ {
+  components {
+   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+    Slots {
+     LoadoutSlotInfo Hat {
+      Prefab "{E18CFBECB99AE4E3}Prefabs/Characters/Headwear/ACU_beret/ACU_beret.et"
+     }
+     LoadoutSlotInfo Jacket {
+      Prefab "{DE198E6D0D09D4DF}Prefabs/Characters/Uniforms/ACU_jacket/ACU_jacket_rolled_up_UCP.et"
+     }
+     LoadoutSlotInfo Back {
+      Prefab "{C3351EC6D64ED74A}Prefabs/Items/Equipment/Radios/drg_Radio_ANPRC77.et"
+     }
+     LoadoutSlotInfo Vest {
+      Prefab "{BA59C9EAD2F5ABD5}Prefabs/Characters/Vests/Vest_IMTV/Pouches/Pouches_MBAV_Rifleman_2.et"
+     }
+     LoadoutSlotInfo HandWear {
+      Prefab "{D1D8EF51D0C605F0}Prefabs/Characters/Handwear/Gloves_Oackley/Gloves_Oackley_Tan.et"
+     }
+    }
+   }
+   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+    InitialInventoryItems {
+     ItemsInitConfigurationItem "{686F189048C02AAE}" {
+     }
+     ItemsInitConfigurationItem "{686F18906E43A439}" {
+      TargetStorage "Vest/Pouches_MBAV_Rifleman_2.et/Smoke_Pouch/Pouch_Eagle_Ind_M4_2_MS_Closed.et"
+     }
+     ItemsInitConfigurationItem "{686F18906B526DC9}" {
+      TargetStorage "Vest/Pouches_MBAV_Rifleman_2.et/Grenade_Pouch2/Pouch_Eagle_Ind_M4_2_MS_Closed.et"
+     }
+     ItemsInitConfigurationItem "{686F189078E6819F}" {
+      TargetStorage "Vest/Pouches_MBAV_Rifleman_2.et/Grenade_Pouch1/Pouch_Eagle_Ind_MC_FGC_1_MS_RG.et"
+     }
+     ItemsInitConfigurationItem "{686F189084B51418}" {
+      TargetStorage "Vest/Pouches_MBAV_Rifleman_2.et/Mag_Pouch3/Pouch_Eagle_Ind_M4_2_MS_Closed_wm.et"
+     }
+     ItemsInitConfigurationItem "{686F18909C2BA8B1}" {
+      TargetStorage "Vest/Pouches_MBAV_Rifleman_2.et/Mag_Pouch2/Pouch_Eagle_Ind_M4_2_MS_Closed_wm.et"
+     }
+     ItemsInitConfigurationItem "{686F1883A3F8A639}" {
+      TargetStorage "Vest/Pouches_MBAV_Rifleman_2.et/Mag_Pouch1/Pouch_Eagle_Ind_M4_2_MS_Closed_wm.et"
+     }
+     ItemsInitConfigurationItem "{686F188806CB9967}" {
+      TargetStorage "Vest/Pouches_MBAV_Rifleman_2.et/Hydrator_Pouch/Pouch_Eagle_Ind_Hydrator_Pack_RG.et"
+     }
+    }
+   }
+  }
+  coords 4872.991 306.209 5882.049
+ }
+}
+GenericEntity : "{832641A2AB3E89F6}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_M203_RAS_Aimpoint.et" {
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     MagazineTemplate "{DD5358193169908B}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1.et"
+    }
+   }
+  }
+ }
+ coords 4845.514 307.863 5876.89
+}
+GenericEntity : "{85E4EB7B92BACF63}Prefabs/Characters/Vests/Vest_JPC/variants/Vest_JPC_MCBlk_ronin2.et" {
+ coords 4846.294 307.665 5868.746
+}
+$grp SCR_ChimeraCharacter : "{87C3C0F036803D0D}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/75th Ranger/Ranger (2000s)/dim_US_Ranger2000_Rifleman.et" {
+ {
+  coords 4843.106 307.953 5862.429
+ }
+ {
+  components {
+   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+    Slots {
+     LoadoutSlotInfo Hat {
+      Prefab "{D958E7628FA74287}Prefabs/Characters/HeadGear/Helmet_MICH_ACH/dim_MICH2000_Ranger2.et"
+     }
+     LoadoutSlotInfo Vest {
+      Prefab "{5E4874EFAFC707DE}Prefabs/Characters/Vests/Vest_IMTV/Pouches/Pouches_MBAV_MachineGunner_1.et"
+     }
+    }
+   }
+  }
+  coords 4837.499 308.173 5868.71
+ }
+ {
+  components {
+   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+    WeaponTemplate "{D2B48DEBEF38D7D7}Prefabs/Weapons/MachineGuns/M249/MG_M249.et"
+   }
+   CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
+    WeaponTemplate "{1353C6EAD1DCFE43}Prefabs/Weapons/Handguns/M9/Handgun_M9.et"
+   }
+   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+    Slots {
+     LoadoutSlotInfo Hat {
+      Prefab "{D958E7628FA74287}Prefabs/Characters/HeadGear/Helmet_MICH_ACH/dim_MICH2000_Ranger2.et"
+     }
+     LoadoutSlotInfo Jacket {
+      Prefab "{DE198E6D0D09D4DF}Prefabs/Characters/Uniforms/ACU_jacket/ACU_jacket_rolled_up_UCP.et"
+     }
+     LoadoutSlotInfo Vest {
+      Prefab "{29BE21A127AFC54D}Prefabs/Characters/Vests/RangerKits/Ranger_AR.et"
+     }
+     LoadoutSlotInfo HandWear {
+      Prefab "{D1D8EF51D0C605F0}Prefabs/Characters/Handwear/Gloves_Oackley/Gloves_Oackley_Tan.et"
+     }
+    }
+   }
+   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+    InitialInventoryItems {
+     ItemsInitConfigurationItem "{686D66D3426CC271}" {
+      TargetStorage "Jacket/ACU_jacket_rolled_up_UCP.et"
+     }
+     ItemsInitConfigurationItem "{686F189048C02AAE}" {
+      TargetStorage "Vest/Ranger_AR.et/Smoke_Granade/Smoke_ANM8HC.et"
+     }
+     ItemsInitConfigurationItem "{686F18906E43A439}" {
+      TargetStorage "Vest/Ranger_AR.et/Smoke_Grenade_2/Smoke_ANM8HC.et"
+     }
+     ItemsInitConfigurationItem "{686F18906B526DC9}" {
+      TargetStorage "Vest/Ranger_AR.et/Smoke_Pouch/Pouch_Eagle_Ind_M4_2_MS_Closed.et"
+     }
+     ItemsInitConfigurationItem "{686F189078E6819F}" {
+      TargetStorage "Vest/Ranger_AR.et/Smoke_Pouch2/Pouch_Eagle_Ind_M4_2_MS_Closed.et"
+     }
+     ItemsInitConfigurationItem "{686F189084B51418}" {
+      TargetStorage "Vest/Ranger_AR.et/MG_Pouch_L/Pouch_Eagle_Ind_AP_SAW200_MS_RG.et"
+      PrefabsToSpawn {
+       "{06D722FC2666EB83}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_4Ball_1Tracer.et"
+       "{06D722FC2666EB83}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_4Ball_1Tracer.et"
+      }
+     }
+     ItemsInitConfigurationItem "{686F189094875A11}" {
+      TargetStorage "Vest/Ranger_AR.et/MG_Pouch_R/Pouch_Eagle_Ind_AP_SAW200_MS_RG.et"
+      PrefabsToSpawn {
+       "{06D722FC2666EB83}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_4Ball_1Tracer.et"
+       "{06D722FC2666EB83}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_4Ball_1Tracer.et"
+      }
+     }
+     ItemsInitConfigurationItem "{686F1890900E8780}" {
+      TargetStorage "Vest/Ranger_AR.et/Medical_Pouch/Pouch_Eagle_Ind_MEDP_MS.et"
+      PrefabsToSpawn {
+       "{06D722FC2666EB83}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_4Ball_1Tracer.et"
+       "{06D722FC2666EB83}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_4Ball_1Tracer.et"
+      }
+     }
+     ItemsInitConfigurationItem "{686F18909C2BA8B1}" {
+      TargetStorage "Vest/Ranger_AR.et/Pistol/Pouch_MP111_PistolClosed_Base.et"
+      PrefabsToSpawn {
+       "{9C05543A503DB80E}Prefabs/Weapons/Magazines/Magazine_9x19_M9_15rnd_Ball.et"
+      }
+     }
+     ItemsInitConfigurationItem "{686F189876CBD77B}" {
+      TargetStorage "Vest/Ranger_AR.et/Pistol2/Pouch_MP111_PistolClosed_Base.et"
+      PrefabsToSpawn {
+       "{9C05543A503DB80E}Prefabs/Weapons/Magazines/Magazine_9x19_M9_15rnd_Ball.et"
+       "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
+      }
+     }
+    }
+   }
+  }
+  coords 4840.742 308.046 5866.341
+ }
+ {
+  coords 4841.133 307.92 5869.858
+ }
+ {
+  components {
+   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+    WeaponTemplate "{2F83CE00BA63CE63}Prefabs/Weapons/M4A1/M4_Ranger2000_2.et"
+   }
+  }
+  coords 4843.636 307.776 5876.201
+ }
+ {
+  components {
+   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+    WeaponTemplate "{2F83CE00BA63CE63}Prefabs/Weapons/M4A1/M4_Ranger2000_2.et"
+   }
+   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+    Slots {
+     LoadoutSlotInfo Jacket {
+      Prefab "{DE198E6D0D09D4DF}Prefabs/Characters/Uniforms/ACU_jacket/ACU_jacket_rolled_up_UCP.et"
+     }
+     LoadoutSlotInfo Boots {
+      Prefab "{21B331B5FA807997}Prefabs/Characters/Footwear/Boots_Rocky_SV2/Footwear_Rocky_SV2.et"
+     }
+     LoadoutSlotInfo Vest {
+      Prefab "{F8F881B49DE5206D}Prefabs/Characters/Vests/RangerKits/Ranger_Grenadier.et"
+     }
+     LoadoutSlotInfo HandWear {
+      Prefab "{86FCDE2A2A4DD765}Prefabs/Characters/Handwear/Gloves_Oackley/Gloves_Oackley_base.et"
+     }
+    }
+   }
+   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+    InitialInventoryItems {
+     ItemsInitConfigurationItem "{686D66D3426CC271}" {
+      TargetStorage "Jacket/ACU_jacket_rolled_up_UCP.et"
+     }
+     ItemsInitConfigurationItem "{686F189048C02AAE}" {
+      TargetStorage "Vest/Ranger_Grenadier.et/Smoke_Granade/Smoke_ANM8HC.et"
+     }
+     ItemsInitConfigurationItem "{686F18906B526DC9}" {
+      TargetStorage ""
+     }
+     ItemsInitConfigurationItem "{686F189084B51418}" {
+      TargetStorage "Vest/Ranger_Grenadier.et/Mag_Pouch3/Ranger_StanagPouch.et"
+      PrefabsToSpawn {
+       "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
+      }
+     }
+     ItemsInitConfigurationItem "{686F189094875A11}" {
+      TargetStorage "Vest/Ranger_Grenadier.et/Mag_Pouch1/Ranger_StanagPouch.et"
+      PrefabsToSpawn {
+       "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
+      }
+     }
+     ItemsInitConfigurationItem "{686F1890900E8780}" {
+      TargetStorage "Vest/Ranger_Grenadier.et/Grenade_Pouch2/Ranger_StanagPouch.et"
+      PrefabsToSpawn {
+       "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
+      }
+     }
+     ItemsInitConfigurationItem "{686F18909C2BA8B1}" {
+      TargetStorage "Vest/Ranger_Grenadier.et/Mag_Pouch2/Ranger_StanagPouch.et"
+      PrefabsToSpawn {
+       "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
+      }
+     }
+     ItemsInitConfigurationItem "{686F189EF9C55E70}" {
+      TargetStorage "Vest/Ranger_Grenadier.et/Bag/GD_LV119_Pouch_JSTA_RHS_Green.et"
+      PrefabsToSpawn {
+       "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
+      }
+     }
+     ItemsInitConfigurationItem "{686F189F17E8AA30}" {
+      TargetStorage "Jacket/ACU_jacket_rolled_up_UCP.et"
+     }
+     ItemsInitConfigurationItem "{686F189C57B53665}" {
+      TargetStorage "Vest/Ranger_Grenadier.et/Band/Pouch_Filbe_bandolier.et"
+      PrefabsToSpawn {
+       "{5375FA7CB1F68573}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_M406.et"
+       "{5375FA7CB1F68573}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_M406.et"
+       "{5375FA7CB1F68573}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_M406.et"
+       "{5375FA7CB1F68573}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_M406.et"
+       "{5375FA7CB1F68573}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_M406.et"
+       "{5375FA7CB1F68573}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_M406.et"
+       "{5375FA7CB1F68573}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_M406.et"
+       "{5375FA7CB1F68573}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_M406.et"
+       "{5375FA7CB1F68573}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_M406.et"
+       "{5375FA7CB1F68573}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_M406.et"
+       "{5375FA7CB1F68573}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_M406.et"
+       "{5375FA7CB1F68573}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_M406.et"
+       "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et"
+       "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et"
+       "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et"
+       "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et"
+       "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et"
+       "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et"
+      }
+     }
+    }
+   }
+  }
+  coords 4837.829 308.224 5864.114
+ }
+ {
+  components {
+   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+    WeaponTemplate "{4E4F86AF6010C012}Prefabs/Weapons/M110/M110_Optics.et"
+   }
+   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+    Slots {
+     LoadoutSlotInfo ArmoredVest {
+      Prefab "{CD0637B5D67DEFC9}Prefabs/Characters/Vests/LV_MBAV/LV_MBAV_Khaki.et"
+     }
+     LoadoutSlotInfo Boots {
+      Prefab "{21B331B5FA807997}Prefabs/Characters/Footwear/Boots_Rocky_SV2/Footwear_Rocky_SV2.et"
+     }
+     LoadoutSlotInfo Vest {
+      Prefab "{19C0233EFD8809E2}Prefabs/Characters/Vests/RangerKits/Ranger_Marksman.et"
+     }
+     LoadoutSlotInfo HandWear {
+      Prefab "{D1D8EF51D0C605F0}Prefabs/Characters/Handwear/Gloves_Oackley/Gloves_Oackley_Tan.et"
+     }
+    }
+   }
+   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+    InitialInventoryItems {
+     ItemsInitConfigurationItem "{686F189048C02AAE}" {
+      TargetStorage "Vest/Ranger_Marksman.et/Holster/GD_Holster_SLS.et"
+      PrefabsToSpawn {
+       "{1353C6EAD1DCFE43}Prefabs/Weapons/Handguns/M9/Handgun_M9.et"
+      }
+     }
+     ItemsInitConfigurationItem "{686F18906E43A439}" {
+      TargetStorage "Vest/Ranger_Marksman.et/Smoke_Granade/Smoke_ANM8HC.et"
+      PrefabsToSpawn {
+       "{3343A055A83CB30D}Prefabs/Weapons/Grenades/M18/Smoke_M18_Red.et"
+      }
+     }
+     ItemsInitConfigurationItem "{686F189078E6819F}" {
+      TargetStorage ""
+     }
+     ItemsInitConfigurationItem "{686F189084B51418}" {
+      TargetStorage "Vest/Ranger_Marksman.et/Smoke_Pouch/Pouch_Eagle_Ind_M4_2_MS_Closed.et"
+      PrefabsToSpawn {
+       "{CDA8C59B712B6B90}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m80.et"
+       "{CDA8C59B712B6B90}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m80.et"
+      }
+     }
+     ItemsInitConfigurationItem "{686F189094875A11}" {
+      TargetStorage "Vest/Ranger_Marksman.et/Mag_Pouch2/Pouch_Eagle_Ind_M4_2_MS_Closed_wm.et"
+      PrefabsToSpawn {
+       "{CDA8C59B712B6B90}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m80.et"
+       "{CDA8C59B712B6B90}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m80.et"
+      }
+     }
+     ItemsInitConfigurationItem "{686F1890900E8780}" {
+      TargetStorage "Vest/Ranger_Marksman.et/Mag_Pouch1/Pouch_Eagle_Ind_M4_2_MS_Opened_wm.et"
+      PrefabsToSpawn {
+       "{CDA8C59B712B6B90}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m80.et"
+       "{CDA8C59B712B6B90}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m80.et"
+      }
+     }
+     ItemsInitConfigurationItem "{686F18909C2BA8B1}" {
+      TargetStorage "Jacket/Jacket_PCU_5lvl_Base.et"
+      PrefabsToSpawn {
+       "{2A7C01B93CC92ACE}Prefabs/Items/Equipment/RangeCard/RangeCard_Notepad_AUTO.et"
+      }
+     }
+    }
+   }
+  }
+  coords 4840.219 307.918 5880.075
+ }
+ {
+  components {
+   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+    WeaponTemplate "{8E405F2E890E584F}Prefabs/Weapons/M4A1/M4_Ranger_TL.et"
+   }
+   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+    Slots {
+     LoadoutSlotInfo Boots {
+      Prefab "{21B331B5FA807997}Prefabs/Characters/Footwear/Boots_Rocky_SV2/Footwear_Rocky_SV2.et"
+     }
+     LoadoutSlotInfo Vest {
+      Prefab "{4436D0BE152B675E}Prefabs/Characters/Vests/RangerKits/Ranger_SL.et"
+     }
+    }
+   }
+   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+    InitialInventoryItems {
+     ItemsInitConfigurationItem "{686D66D16AC08F01}" {
+      PrefabsToSpawn {
+       "{C742BD6CB3D77A5A}Prefabs/Items/Equipment/Radios/drg_Radio_ANPRC152A_OLD_SL.et"
+      }
+     }
+     ItemsInitConfigurationItem "{686F189048C02AAE}" {
+      TargetStorage "Vest/Ranger_SL.et/m18_2/Pouch_Filbe_M18_1.et"
+      PrefabsToSpawn {
+       "{3343A055A83CB30D}Prefabs/Weapons/Grenades/M18/Smoke_M18_Red.et"
+      }
+     }
+     ItemsInitConfigurationItem "{686F18906E43A439}" {
+      TargetStorage "Vest/Ranger_SL.et/m18_1/Pouch_Filbe_M18_2.et"
+     }
+     ItemsInitConfigurationItem "{686F189078E6819F}" {
+      TargetStorage ""
+     }
+     ItemsInitConfigurationItem "{686F189084B51418}" {
+      TargetStorage "Vest/Ranger_SL.et/saw/Pouch_PCGEN3_util.et"
+     }
+     ItemsInitConfigurationItem "{686F189094875A11}" {
+      TargetStorage "Vest/Ranger_SL.et/tako/Ranger_StanagPouch.et"
+      PrefabsToSpawn {
+       "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
+      }
+     }
+     ItemsInitConfigurationItem "{686F1890900E8780}" {
+      TargetStorage "Vest/Ranger_SL.et/takobelt/Ranger_StanagPouch.et"
+      PrefabsToSpawn {
+       "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
+      }
+     }
+     ItemsInitConfigurationItem "{686F18909C2BA8B1}" {
+      TargetStorage "Vest/Ranger_SL.et/Pouch1/Ranger_Stanag_Closed.et"
+      PrefabsToSpawn +{
+       "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
+      }
+     }
+     ItemsInitConfigurationItem "{686F188806CB9967}" {
+      TargetStorage "Vest/Ranger_SL.et/m67_2/GD_Holster_SLS.et"
+      PrefabsToSpawn {
+       "{1353C6EAD1DCFE43}Prefabs/Weapons/Handguns/M9/Handgun_M9.et"
+      }
+     }
+    }
+   }
+  }
+  coords 4849.687 307.52 5883.95
+ }
+ {
+  components {
+   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+    Slots {
+     LoadoutSlotInfo Hat {
+      Prefab "{D958E7628FA74287}Prefabs/Characters/HeadGear/Helmet_MICH_ACH/dim_MICH2000_Ranger2.et"
+     }
+     LoadoutSlotInfo Jacket {
+      Prefab "{E5BE663442A4621A}Prefabs/Characters/Uniforms/ACU_jacket/ACU_jacket_UCP.et"
+     }
+     LoadoutSlotInfo Boots {
+      Prefab "{8CDC9308C265ECCB}Prefabs/Characters/Footwear/ACU_boots/ACU_boots1_base.et"
+     }
+     LoadoutSlotInfo Back {
+      Prefab "{4805E67E2AE30F8D}Prefabs/Items/Equipment/Backpacks/Backpack_Medical_M5.et"
+     }
+     LoadoutSlotInfo Vest {
+      Prefab "{FD2D0DB75ECAACF1}Prefabs/Characters/Vests/RangerKits/Ranger_Medic.et"
+     }
+    }
+   }
+   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+    InitialInventoryItems {
+     ItemsInitConfigurationItem "{686D66D3426CC271}" {
+      TargetStorage "Jacket/ACU_jacket_UCP.et"
+     }
+     ItemsInitConfigurationItem "{686F189048C02AAE}" {
+      TargetStorage "Vest/Ranger_Medic.et/pistol2/Pouch_Filbe_M18_1.et"
+     }
+     ItemsInitConfigurationItem "{686F18906E43A439}" {
+      TargetStorage "Vest/Ranger_Medic.et/m67_2/Pouch_Filbe_M18_2.et"
+      PrefabsToSpawn {
+       "{D41D22DD1B8E921E}Prefabs/Weapons/Grenades/M18/Smoke_M18_Green.et"
+      }
+     }
+     ItemsInitConfigurationItem "{686F189078E6819F}" {
+      TargetStorage ""
+     }
+     ItemsInitConfigurationItem "{686F189094875A11}" {
+      TargetStorage "Vest/Ranger_Medic.et/nerd/Pouch_Highspeed_Bleeder.et"
+     }
+     ItemsInitConfigurationItem "{686F1890900E8780}" {
+      TargetStorage "Vest/Ranger_Medic.et/flex2/Pouch_FILBE_doubleM4_2.et"
+     }
+     ItemsInitConfigurationItem "{686F18909C2BA8B1}" {
+      TargetStorage "Vest/Ranger_Medic.et/filbe/Pouch_FILBE_doubleM4_2.et"
+     }
+     ItemsInitConfigurationItem "{686F1883A3F8A639}" {
+      TargetStorage "Vest/Ranger_Medic.et/Placard/Pouch_Placard.et"
+     }
+     ItemsInitConfigurationItem "{686F188A69C56023}" {
+      TargetStorage "Back/Backpack_Medical_M5.et"
+      PrefabsToSpawn {
+       "{00E36F41CA310E2A}Prefabs/Items/Medicine/SalineBag_01/SalineBag_US_01.et"
+       "{00E36F41CA310E2A}Prefabs/Items/Medicine/SalineBag_01/SalineBag_US_01.et"
+       "{00E36F41CA310E2A}Prefabs/Items/Medicine/SalineBag_01/SalineBag_US_01.et"
+       "{00E36F41CA310E2A}Prefabs/Items/Medicine/SalineBag_01/SalineBag_US_01.et"
+       "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et"
+       "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et"
+       "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et"
+       "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et"
+       "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et"
+       "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et"
+       "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et"
+       "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et"
+       "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et"
+       "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
+       "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
+       "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
+       "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
+       "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
+       "{AE578EEA4244D41F}Prefabs/Items/Equipment/Kits/MedicalKit_01/MedicalKit_01_US.et"
+      }
+     }
+    }
+   }
+  }
+  coords 4861.313 306.855 5881.731
+ }
+ {
+  components {
+   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+    WeaponTemplate "{8E405F2E890E584F}Prefabs/Weapons/M4A1/M4_Ranger_TL.et"
+   }
+   CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+    AttachType InventoryStorageSlot "{0C3DA650B52E127A}" {
+     Offset 0.0571 -0.1427 -0.0093
+     Angles 58.6894 1.7412 157.877
+    }
+    WeaponTemplate "{9C5C20FB0E01E64F}Prefabs/Weapons/Launchers/M72/Launcher_M72A3.et"
+   }
+   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+    Slots {
+     LoadoutSlotInfo Jacket {
+      Prefab "{E5BE663442A4621A}Prefabs/Characters/Uniforms/ACU_jacket/ACU_jacket_UCP.et"
+     }
+     LoadoutSlotInfo Boots {
+      Prefab "{21B331B5FA807997}Prefabs/Characters/Footwear/Boots_Rocky_SV2/Footwear_Rocky_SV2.et"
+     }
+     LoadoutSlotInfo Vest {
+      Prefab "{43F12AEF73ADDD9D}Prefabs/Characters/Vests/RangerKits/Ranger_TL.et"
+     }
+     LoadoutSlotInfo HandWear {
+      Prefab "{D1D8EF51D0C605F0}Prefabs/Characters/Handwear/Gloves_Oackley/Gloves_Oackley_Tan.et"
+     }
+    }
+   }
+   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+    InitialInventoryItems {
+     ItemsInitConfigurationItem "{686D66D16AC08F01}" {
+      PrefabsToSpawn {
+       "{C742BD6CB3D77A5A}Prefabs/Items/Equipment/Radios/drg_Radio_ANPRC152A_OLD_SL.et"
+      }
+     }
+     ItemsInitConfigurationItem "{686F189048C02AAE}" {
+      TargetStorage "Vest/Ranger_TL.et/Smoke_Granade/Smoke_ANM8HC.et"
+     }
+     ItemsInitConfigurationItem "{686F18906E43A439}" {
+      TargetStorage ""
+     }
+     ItemsInitConfigurationItem "{686F189084B51418}" {
+      TargetStorage "Vest/Ranger_TL.et/Mag_Pouch1/Ranger_StanagPouch.et"
+      PrefabsToSpawn {
+       "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
+      }
+     }
+     ItemsInitConfigurationItem "{686F189094875A11}" {
+      TargetStorage "Vest/Ranger_TL.et/Grenade_Pouch1/Ranger_StanagPouch.et"
+      PrefabsToSpawn {
+       "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
+      }
+     }
+     ItemsInitConfigurationItem "{686F1890900E8780}" {
+      TargetStorage "Vest/Ranger_TL.et/Mag_Pouch2/Ranger_StanagPouch.et"
+      PrefabsToSpawn {
+       "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
+      }
+     }
+     ItemsInitConfigurationItem "{686F18909C2BA8B1}" {
+      TargetStorage "Vest/Ranger_TL.et/Mag_Pouch3/Ranger_StanagPouch.et"
+      PrefabsToSpawn {
+       "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
+      }
+     }
+     ItemsInitConfigurationItem "{686F1883A3F8A639}" {
+      TargetStorage "Jacket/ACU_jacket_UCP.et"
+     }
+    }
+   }
+  }
+  coords 4855.667 307.163 5883.105
+ }
+ {
+  components {
+   SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+    components {
+     SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+      InitialStorageSlots {
+       SCR_EquipmentStorageSlot BinocularSlot {
+        Prefab "{03810BEF182ADA0B}Prefabs/Items/Equipment/Binoculars/Rangefinder_Vector21.et"
+       }
+      }
+     }
+    }
+   }
+   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+    WeaponTemplate "{8E405F2E890E584F}Prefabs/Weapons/M4A1/M4_Ranger_TL.et"
+   }
+   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+    Slots {
+     LoadoutSlotInfo Jacket {
+      Prefab "{E5BE663442A4621A}Prefabs/Characters/Uniforms/ACU_jacket/ACU_jacket_UCP.et"
+     }
+     LoadoutSlotInfo HandWear {
+      Prefab "{C97555AEAF8BECA9}Prefabs/Characters/Handwear/Gloves_Oackley/Gloves_Oackley_Green.et"
+     }
+    }
+   }
+   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+    InitialInventoryItems {
+     ItemsInitConfigurationItem "{686D66D16AC08F01}" {
+      PrefabsToSpawn {
+       "{C742BD6CB3D77A5A}Prefabs/Items/Equipment/Radios/drg_Radio_ANPRC152A_OLD_SL.et"
+      }
+     }
+     ItemsInitConfigurationItem "{686F1883A3F8A639}" {
+      TargetStorage "Jacket/ACU_jacket_UCP.et"
+     }
+    }
+   }
+  }
+  coords 4880.052 305.809 5882.878
+ }
+ {
+  coords 4891.292 305.154 5876.504
+ }
+}
+GenericEntity : "{90D8238D1D8D2DC5}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_RAS_Aimpoint.et" {
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{5E0EEDB0BD59EE7D}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot Optics {
+      Prefab "{9C42803E49305273}Prefabs/Weapons/Attachments/Optics/exps/Optic_EXPS3-1.et"
+     }
+    }
+    AttachmentSlotComponent "{5EA2BE95B630A07A}" {
+     AttachmentSlot InventoryStorageSlot "{5EA2BE95B7F1B3D5}" {
+      Prefab "{5C79645A168A9D69}Prefabs/Weapons/Attachments/Misc/manta_railcover/kits/RHS_manta_kit_kacGrip_M27_2.et"
+     }
+    }
+   }
+  }
+ }
+ coords 4847.8 307.817 5864.744
+}
+SCR_ChimeraCharacter : "{9694EEED315CE8F5}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/dim_Role_Character_USAF_USMC_LAT_D.et" {
+ coords 4858.738 306.985 5879.044
+}
+Vehicle Ural4320_transport_covered_closed1 : "{9DD4FD3527CB46C8}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered_closed.et" {
+ coords 4831.174 308.538 5864.022
+ angles -1.08 64.782 0.508
+}
+SCR_ChimeraCharacter : "{A0D97D555EAC6433}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/dim_Role_Character_USAF_USMC_Grenadier_D.et" {
+ coords 4836.982 308.258 5864.674
+}
+SCR_ChimeraCharacter : "{AB659E264C61F08E}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/dim_Role_Character_USAF_USMC_Unarmed.et" {
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Pants {
+     Prefab "{76D80043D6BFFB57}Prefabs/Characters/Uniforms/Pants_FROG_Trousers.et"
+    }
+   }
+  }
+ }
+ coords 4852.207 307.362 5866.171
+}
+Vehicle S105_green1 : "{AD80FB47D868C775}Prefabs/Vehicles/Wheeled/S105/S105_green.et" {
+ coords 4853.056 307.414 5852.867
+ angles 0.296 -172.885 -2.368
+}
+$grp GameEntity : "{B50CD3823363CDA9}Prefabs/Characters/HeadGear/Helmet_MICH_ACH/dim_MICH2000_Ranger1.et" {
+ {
+  coords 4849.782 307.472 5868.773
+ }
+ {
+  coords 4840.127 307.967 5869.797
+ }
+}
+SCR_ChimeraCharacter : "{B5763DAB9BE1846E}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/dim_Role_Character_USAF_USMC_Medic_2_D.et" {
+ coords 4860.116 306.93 5882.023
+}
+$grp GenericEntity : "{BA59C9EAD2F5ABD5}Prefabs/Characters/Vests/Vest_IMTV/Pouches/Pouches_MBAV_Rifleman_2.et" {
+ {
+  components {
+   BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+    Slots {
+     LoadoutSlotInfo Holster {
+      PivotID "RightLeg"
+      Offset 0.0086 -0.1439 -0.0136
+      Angles 0 180 -6.084
+      Prefab "{81C150C24FF3E7F2}Prefabs/Characters/Vests/All_Holster_SLS/GD_Holster_SLS_RLeg.et"
+     }
+    }
+    WornModel "{A4E83A492D38C896}Assets/Characters/Belts/Belt_Ronin/ronin_shuto.xob"
+    WornMaterialsOverride {
+     "{E637414720C59111}Assets/Characters/Belts/Belt_Ronin/Data/ronin_shuto_MCBlk.emat"
+    }
+    ItemModel "{D69760DB4614F2D5}Assets/Characters/Belts/Belt_Okinawa/Okinawa_belt_ground.xob"
+    ItemMaterialsOverride {
+     "{E637414720C59111}Assets/Characters/Belts/Belt_Ronin/Data/ronin_shuto_MCBlk.emat"
+    }
+    DebugWornModel 1
+   }
+  }
+  coords 4844.972 307.732 5868.954
+  angles 0 0 0
+ }
+ {
+  components {
+   BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+    Slots {
+     LoadoutSlotInfo Mag_Pouch1 {
+      Offset -0.084 0.0265 0.1518
+      Prefab "{5CF58B97C240AA31}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_wartech_magpouch_mp105_3_OD.et"
+     }
+     LoadoutSlotInfo Grenade_Pouch2 {
+      Offset -0.1694 0.0265 0.0954
+      Angles -5.7951 -51.203 7.7113
+      Prefab "{5CF58B97C240AA31}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_wartech_magpouch_mp105_3_OD.et"
+     }
+     LoadoutSlotInfo Mag_Pouch2 {
+      Offset 0.0884 0.0301 0.1551
+      Prefab "{5CF58B97C240AA31}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_wartech_magpouch_mp105_3_OD.et"
+     }
+     LoadoutSlotInfo Mag_Pouch3 {
+      Offset 0.0005 0.0268 0.1675
+      Prefab "{5CF58B97C240AA31}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_wartech_magpouch_mp105_3_OD.et"
+     }
+     LoadoutSlotInfo Radio_Pouch {
+      Offset -0.1523 0.0748 -0.1849
+      Angles 0.1255 -136.7419 1.6084
+      Prefab "{7950E322BE6927CC}Prefabs/Characters/Vests/US_LV119_Pouches/GD_TV119_Nylon_Strap.et"
+     }
+     LoadoutSlotInfo Smoke_Pouch {
+     }
+     LoadoutSlotInfo Smoke_Grenade_2 {
+      Enabled 0
+     }
+     LoadoutSlotInfo Holster {
+      PivotID "Spine1"
+      Offset 0 -0.0262 0.0035
+      Angles 7.2269 0 0
+      Prefab "{0DA7F2FF8E0BFBDC}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Filbe_bandolier.et"
+     }
+     LoadoutSlotInfo Gloves {
+      PivotID "Spine5"
+      Offset 0.167 -0.1932 0.1167
+      Angles 7.7241 -120.6765 1.3033
+      Prefab "{924916D6F5E99BBD}Prefabs/Misc/JPC_Pounches/JPC_Gloves.et"
+     }
+     LoadoutSlotInfo Smth {
+      PivotID "Spine5"
+      Offset 0.0005 0.1885 0.165
+      Angles -7.634 180 -6.537
+      Prefab "{5B95A623EEA9D547}Prefabs/Characters/Vests/US_LV119_Pouches/GD_TV119_Torniquet.et"
+     }
+    }
+    WornModel "{E1BBDA1F6E3A4F0E}Assets/Characters/Vests/Vest_Common/rhs_equipment_empty.xob"
+    WornMaterialsOverride {
+     ""
+    }
+    ItemModel "{8D7B9D2378659684}Assets/Characters/Vests/Vest_Common/rhs_equipment_empty_item.xob"
+    ItemMaterialsOverride {
+     ""
+    }
+   }
+  }
+  coords 4847.763 307.809 5868.954
+  angles 0 0 0
+ }
+}
+SCR_ChimeraCharacter : "{C1A4BA040B46DC13}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/dim_Role_Character_USAF_USMC_TF_D.et" {
+ coords 4854.475 307.252 5883.278
+}
+GenericEntity : "{CE9FB0208479F76C}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_USSR_01_DIMKII.et" {
+ coords 4870.92 306.255 5869.107
+ angles -0.241 3.858 3.568
+}
+GenericEntity : "{D075481CB65F1AB5}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Shaw_Raid.et" {
+ components {
+  BaseLoadoutClothComponent "{5242D72632990471}" {
+   WornMaterialsOverride {
+    "{4D1E1EBC3898F436}Assets/Characters/Vests/Vest_PCGen_III_Pouches/Data/shawraid_green.emat"
+   }
+   ItemMaterialsOverride {
+    "{4D1E1EBC3898F436}Assets/Characters/Vests/Vest_PCGen_III_Pouches/Data/shawraid_green.emat"
+   }
+  }
+ }
+ coords 4847.996 307.837 5880.551
+}
+GenericEntity : "{D2B48DEBEF38D7D7}Prefabs/Weapons/MachineGuns/M249/MG_M249.et" {
+ coords 4839.972 308.277 5866.882
+}
+Vehicle S1203_cargo_beige1 : "{D2BCF98E80CF634C}Prefabs/Vehicles/Wheeled/S1203/S1203_cargo_beige.et" {
+ coords 4875.254 306.028 5867.798
+ angles 0.816 -54.272 4.985
+}
+SCR_ChimeraCharacter : "{D5783DA3BE00F01A}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/75th Ranger/Ranger (2000s)/dim_US_Ranger2000_Marksman.et" {
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{56CE827F9AD5880E}Prefabs/Weapons/Rifles/M40/Rifle_M40A5_Optic_PEQ.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Jacket {
+     Prefab "{DE198E6D0D09D4DF}Prefabs/Characters/Uniforms/ACU_jacket/ACU_jacket_rolled_up_UCP.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab ""
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab ""
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{686F189048C02AAE}" {
+     TargetStorage "ArmoredVest/LV_MBAV_Khaki.et"
+    }
+    ItemsInitConfigurationItem "{686F189084B51418}" {
+     TargetStorage "Jacket/ACU_jacket_rolled_up_UCP.et"
+     PrefabsToSpawn {
+      "{EC9E0F22B90013F3}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M80.et"
+      "{EC9E0F22B90013F3}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M80.et"
+     }
+    }
+    ItemsInitConfigurationItem "{686F189094875A11}" {
+     TargetStorage "Jacket/ACU_jacket_rolled_up_UCP.et"
+     PrefabsToSpawn {
+      "{EC9E0F22B90013F3}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M80.et"
+      "{EC9E0F22B90013F3}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M80.et"
+     }
+    }
+    ItemsInitConfigurationItem "{686F1890900E8780}" {
+     TargetStorage "Jacket/ACU_jacket_rolled_up_UCP.et"
+     PrefabsToSpawn {
+      "{EC9E0F22B90013F3}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M80.et"
+      "{EC9E0F22B90013F3}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M80.et"
+     }
+    }
+   }
+  }
+ }
+ coords 4833.41 308.201 5884.063
+}
+GenericEntity : "{D60DFD0A6E3124FB}Prefabs/Characters/Vests/Vest_IMTV/Pouches/Pouches_MBAV_Rifleman_1.et" {
+ coords 4847.156 307.631 5878.621
+ angles 0 0 0
+}
+SCR_ChimeraCharacter : "{DB1CEB98A81C1893}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/75th Ranger/Ranger (2000s)/dim_US_Ranger2000_Armored.et" {
+ components {
+  CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
+   WeaponTemplate "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+  }
+  CharacterGrenadeSlotComponent "{5A6CDA0CCF43068E}" {
+   WeaponTemplate "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{2F098F38D4D889ED}Prefabs/Weapons/M4A1/M4_Ranger2000.et"
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{686F189048C02AAE}" {
+     TargetStorage "Vest/Pouches_MBAV_Rifleman_2.et/Smoke_Granade/Smoke_ANM8HC.et"
+     PrefabsToSpawn {
+      "{14C1A0F061D9DDEE}Prefabs/Weapons/Grenades/M18/Smoke_M18_Violet.et"
+     }
+    }
+    ItemsInitConfigurationItem "{686F18906E43A439}" {
+     TargetStorage "Vest/Pouches_MBAV_Rifleman_2.et/Smoke_Grenade_2/Smoke_ANM8HC.et"
+     PrefabsToSpawn {
+      "{14C1A0F061D9DDEE}Prefabs/Weapons/Grenades/M18/Smoke_M18_Violet.et"
+     }
+    }
+    ItemsInitConfigurationItem "{686F18906B526DC9}" {
+     TargetStorage "Vest/Pouches_MBAV_Rifleman_2.et/Grenade_Pouch1/Pouch_Eagle_Ind_MC_FGC_1_MS_RG.et"
+     PrefabsToSpawn {
+      "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+     }
+    }
+    ItemsInitConfigurationItem "{686F189078E6819F}" {
+     TargetStorage "Vest/Pouches_MBAV_Rifleman_2.et/Grenade_Pouch2/Pouch_Eagle_Ind_M4_2_MS_Closed.et"
+     PrefabsToSpawn {
+      "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+     }
+    }
+    ItemsInitConfigurationItem "{686F189084B51418}" {
+     TargetStorage "Vest/Pouches_MBAV_Rifleman_2.et/Mag_Pouch1/Pouch_Eagle_Ind_M4_2_MS_Closed_wm.et"
+     PrefabsToSpawn {
+      "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
+      "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{686F189094875A11}" {
+     TargetStorage "Vest/Pouches_MBAV_Rifleman_2.et/Mag_Pouch2/Pouch_Eagle_Ind_M4_2_MS_Closed_wm.et"
+     PrefabsToSpawn {
+      "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
+      "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{686F1890900E8780}" {
+     TargetStorage "Vest/Pouches_MBAV_Rifleman_2.et/Mag_Pouch3/Pouch_Eagle_Ind_M4_2_MS_Closed_wm.et"
+     PrefabsToSpawn {
+      "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
+      "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{686F18909C2BA8B1}" {
+     TargetStorage "Vest/Pouches_MBAV_Rifleman_2.et/Hydrator_Pouch/Pouch_Eagle_Ind_Hydrator_Pack_RG.et"
+     PrefabsToSpawn {
+      "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
+      "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
+     }
+    }
+   }
+  }
+ }
+ coords 4846.879 307.687 5863.131
+}
+SCR_ChimeraCharacter : "{DBD8DB00268CA3CE}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/dim_Role_Character_USAF_USMC_Marksman_D.et" {
+ coords 4841.017 307.885 5878.519
+}
+SCR_ChimeraCharacter : "{E13DD599077E5D7C}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/dim_Role_Character_USAF_USMC_Rifleman2.et" {
+ coords 4848.605 307.618 5863.063
+}
+GameEntity : "{E68674D91311488A}Prefabs/Characters/HeadGear/Helmet_MICH_ACH/Helmet_MICH2000_norotos_velcro_tan.et" {
+ coords 4839.869 308.01 5869.884
+}
+GenericEntity : "{E96C5F3222CA9191}Prefabs/Weapons/M4A1/M4_SOCOM_V2.et" {
+ coords 4848.073 307.804 5865.347
+}
+SCR_AIGroup : "{F2B7D404B66FD853}Prefabs/Groups/BLUFOR/RHS_USAF/RHS_USAF_MARSOC/Group_USAF_USMC_MARSOC_FireTeam.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "1"
+  }
+ }
+ coords 4875.095 306.065 5878.82
+ m_aUnitPrefabSlots {
+  "{ED4C9E9B49558E20}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/75th Ranger/Ranger (2000s)/dim_US_Ranger2000_AR.et"
+  "{B74C51ED9085B8EE}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/75th Ranger/Ranger (2000s)/dim_US_Ranger2000_Grenadier.et"
+  "{D5783DA3BE00F01A}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/75th Ranger/Ranger (2000s)/dim_US_Ranger2000_Marksman.et"
+  "{87C3C0F036803D0D}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/75th Ranger/Ranger (2000s)/dim_US_Ranger2000_Rifleman.et"
+  "{80C46F847BD12C33}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/75th Ranger/Ranger (2000s)/dim_US_Ranger2000_SL.et"
+  "{2CD090375533CDF2}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/75th Ranger/Ranger (2000s)/dim_US_Ranger2000_Medic.et"
+  "{13B4180722E77D94}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/75th Ranger/Ranger (2000s)/dim_US_Ranger2000_Sniper.et"
+  "{870395D51D5796F0}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/75th Ranger/Ranger (2000s)/dim_US_Ranger2000_TL.et"
+ }
+}
+$grp GenericEntity : "{F8F881B49DE5206D}Prefabs/Characters/Vests/RangerKits/Ranger_Grenadier.et" {
+ {
+  coords 4848.826 307.592 5877.457
+  angles 0 0 0
+ }
+ {
+  coords 4846.456 307.677 5879.42
+ }
+ {
+  components {
+   BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+    Slots {
+     LoadoutSlotInfo Grenade_Pouch1 {
+      Offset 0.1611 0.0314 0.1233
+      Angles -1.014 41.2747 2.0784
+      Prefab "{2A807DB952600900}Prefabs/Characters/Vests/RangerKits/Ranger_StanagPouch.et"
+     }
+     LoadoutSlotInfo Hydrator_Pouch {
+      Enabled 0
+     }
+     LoadoutSlotInfo Grenade_Pouch2 {
+      Offset -0.1782 0.0707 0.116
+      Angles 4.2661 -167.9046 1.6742
+      Prefab "{3C87621A653D3B45}Prefabs/Characters/Vests/US_JPC_Pouches/GD_JPC_Radio2.et"
+     }
+     LoadoutSlotInfo Radio_Pouch {
+      Offset 0.0703 0.1379 -0.1973
+      Angles 3.8666 -179.4397 -18.2138
+     }
+     LoadoutSlotInfo Smoke_Grenade_2 {
+      Offset 0 0.2461 -0.1654
+      Angles 15.8162 -180 0
+      Enabled 1
+      Prefab "{89FDC21A848716E3}Prefabs/Items/Patches/GD_Patch_USA.et"
+     }
+     LoadoutSlotInfo Smth {
+      Offset -0.0767 0.1508 0.1627
+      Angles 83.0788 79.7859 -101.5481
+      Prefab "{84203663B9B22FF7}Prefabs/Items/Equipment/Backpacks/Spiritus_System_DeltaBag/GD_Tourniquet.et"
+     }
+     LoadoutSlotInfo Band {
+      PivotID "Spine5"
+      Offset 0.0601 0.1905 0.1549
+      Angles -3.9543 179.0322 0.59
+      Prefab "{2095F3F8EFAF72CA}Prefabs/Characters/Vests/Vest_IMTV/Pouches/Carabine1.et"
+     }
+     LoadoutSlotInfo Bag {
+      Enabled 0
+     }
+    }
+    WornModel "{A4E83A492D38C896}Assets/Characters/Belts/Belt_Ronin/ronin_shuto.xob"
+    WornMaterialsOverride {
+     "{E637414720C59111}Assets/Characters/Belts/Belt_Ronin/Data/ronin_shuto_MCBlk.emat"
+    }
+    ItemModel "{11A0D08496A1A535}Assets/Characters/Belts/Belt_Ronin/ronin_shuto_ground.xob"
+    ItemMaterialsOverride {
+     "{E637414720C59111}Assets/Characters/Belts/Belt_Ronin/Data/ronin_shuto_MCBlk.emat"
+    }
+   }
+  }
+  coords 4857.663 307.059 5882.68
+ }
+}

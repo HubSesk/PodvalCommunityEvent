@@ -143,6 +143,9 @@ StaticModelEntity : "{5824BC6E4A1AF407}Prefabs/Compositions/Misc/SubCompositions
      Enabled 0
      m_bIsEnabled 0
     }
+    SCR_SoundDataComponent "{5C53391603B5CF41}" {
+     Enabled 0
+    }
     UniversalInventoryStorageComponent "{58A17A341AB8F069}" {
      Enabled 0
     }
@@ -434,15 +437,6 @@ $grp StaticModelEntity : "{9BF6FB0AAB85BCBF}Prefabs/Ruins/Small Hut Ruins.et" {
   angles 0 -174.761 0
  }
 }
-GenericEntity : "{9C9C4BED9E19C374}Prefabs/Props/Military/Sandbags/Sandbag_01_wall_solid_burlap.et" {
- components {
-  Hierarchy "{5D70BA354E208E2C}" {
-   Enabled 1
-  }
- }
- coords 6750.903 1.876 3544.801
- angles -0.882 99.766 -0.152
-}
 $grp GenericEntity : "{AA3F295D8E086A6D}Prefabs/Compositions/Misc/SubCompositions/TireStack_M939A1_02.et" {
  {
   coords 6779.747 2.598 3557.9
@@ -562,6 +556,37 @@ GenericEntity : "{D7B21E69929A0546}Prefabs/Structures/Military/Camps/Shelters/Sh
 StaticModelEntity : "{DA822ADE75D09EB0}Prefabs/Compositions/Misc/SubCompositions/Tent_Barrack_Camo_Cluttered_USSR_02.et" {
  coords 6786.447 2.493 3537.865
  angles 0 -45 0
+ {
+  GenericEntity {
+   ID "58C28EA0D528BDCF"
+   components {
+    SCR_ArsenalComponent "{589F01C9C8D4A475}" {
+     Enabled 0
+    }
+    SCR_FactionAffiliationComponent "{5A50E7650A1AE9EC}" {
+     Enabled 0
+    }
+    SCR_ResourceComponent "{5E5ABDF371AE8B21}" {
+     Enabled 0
+    }
+    SCR_ResupplySupportStationComponent "{5E2CE1BA1701C633}" {
+     Enabled 0
+    }
+    SCR_SoundDataComponent "{5C53391603B5CF41}" {
+     Enabled 0
+    }
+    UniversalInventoryStorageComponent "{58A17A341AB8F069}" {
+     Enabled 0
+    }
+    SCR_ArsenalInventoryStorageManagerComponent "{58A0B19B1E191CC1}" {
+     Enabled 0
+    }
+    ActionsManagerComponent "{5476B36C403D4CC0}" {
+     Enabled 0
+    }
+   }
+  }
+ }
 }
 $grp GenericEntity : "{E98385D7F126474C}Prefabs/Props/Wrecks/UH1H_wreck/UH1H_wreck_02_static.et" {
  {

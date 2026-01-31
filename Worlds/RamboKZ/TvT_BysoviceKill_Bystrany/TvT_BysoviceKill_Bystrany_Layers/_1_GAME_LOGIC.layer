@@ -1,0 +1,51 @@
+GenericEntity : "{592E8C59C778A189}Prefabs/System/GUB_ZoneControlBetweenFactionsPrefab.et" {
+ components {
+  GUB_ZoneControlComponent "{66E34DFE0E54C4B7}" {
+   m_aControlLogics {
+    GUB_ZoneControlLogic "{6864AEE2C4769D8E}" {
+     m_sZonePreviewName "База Генерала Бисовича"
+     m_sMessage "Армия США захватила базу Генерала Бисовича"
+     m_Timer GUB_ZoneControlTimer "{6864AEE53D6DFE4D}" {
+      timeToComplete 300
+     }
+     m_ZoneController GUB_ZoneController "{6864AEE53F5936B3}" {
+      m_sZoneEntityName "BASE_TRIG"
+     }
+     m_FlagController GUB_FlagController "{6864AEE5257D2941}" {
+      m_aFlagNames {
+       "FLAG_1"
+       "FLAG_2"
+       "FLAG_3"
+       "FLAG_4"
+       "FLAG_5"
+       "FLAG_6"
+       "FLAG_7"
+      }
+      m_fStartFactionKey "RHS_AFRF"
+      m_fEndFactionKey "RHS_USAF"
+     }
+     m_aConditions {
+      GUB_ZoneControlBetweenFactionsCondition "{6864AEE52C6A9CE2}" {
+       m_sFirstFactionKey "RHS_USAF"
+       m_sSecondFactionKey "RHS_AFRF"
+       m_fComparisonMultiplier 2
+       m_iOperator GREATER
+      }
+     }
+    }
+   }
+  }
+ }
+ coords 3999.977 281.656 9234.268
+}
+GenericEntity : "{E6FC6DD69FA3479F}Prefabs/System/DRG_MissionEndTimerPrefab.et" {
+ components {
+  DRG_MissionEndTimerComponent "{651B0839B21B3BBF}" {
+   m_iMissionTime 2700
+   m_aTimeLeftWarningTimers {
+    300
+   }
+  }
+ }
+ coords 6848.398 138.546 2486.788
+}

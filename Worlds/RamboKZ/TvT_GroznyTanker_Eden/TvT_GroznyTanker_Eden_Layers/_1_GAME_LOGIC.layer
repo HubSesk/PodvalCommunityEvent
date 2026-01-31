@@ -1,0 +1,23 @@
+GenericEntity RandomSpawn_Logic : "{91991AEB147C0F3B}Prefabs/System/DRG_RandomSpawnPrefab.et" {
+ components {
+  DRG_RandomSpawnComponent "{66295E1A338BA9CE}" {
+   m_TargetEntity "AFRF_500"
+   m_MarkerEntities {
+    "info_spawn1"
+    "info_spawn2"
+    "info_spawn3"
+   }
+   m_InitDelayMs 2000
+  }
+ }
+}
+GenericEntity TimeEnd_Logic : "{E6FC6DD69FA3479F}Prefabs/System/DRG_MissionEndTimerPrefab.et" {
+ components {
+  DRG_MissionEndTimerComponent "{651B0839B21B3BBF}" {
+   m_iMissionTime 2700
+   m_aTimeLeftWarningTimers {
+    300
+   }
+  }
+ }
+}

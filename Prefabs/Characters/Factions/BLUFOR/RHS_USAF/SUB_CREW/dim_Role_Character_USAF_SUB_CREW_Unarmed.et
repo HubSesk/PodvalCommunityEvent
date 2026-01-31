@@ -1,0 +1,43 @@
+SCR_ChimeraCharacter : "{BEA7F7570EE811B2}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Role_Character_USAF_USMC_Unarmed_Base.et" {
+ ID "520EC961A090B1EE"
+ components {
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_bIsPlayable 1
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Jacket {
+     Prefab "{AB7EEA8431916C9A}TEST/Prefabs/Uniforms/R7_DrySuit/GD_R7_DrySuit_Black.et"
+    }
+    LoadoutSlotInfo Pants {
+     Enabled 1
+     Prefab ""
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{82B95D8A4F84E283}TEST/Prefabs/Characters/Footwear/R7_DryBoots/GD_R7_Boots.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6720F9CB5344D10E}" {
+     TargetStorage "Jacket/GD_R7_DrySuit_Black.et"
+     PrefabsToSpawn + {
+      "{922F95F91943F69A}Prefabs/Items/Equipment/Maps/Map_Paper_01/PaperMap_01_folded_US.et" "{61D4F80E49BF9B12}Prefabs/Items/Equipment/Compass/Compass_SY183.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6720F9CB52FFCEB5}" {
+     Enabled 0
+     TargetStorage "Jacket/TEST.et"
+     PrefabsToSpawn {
+      "{922F95F91943F69A}Prefabs/Items/Equipment/Maps/Map_Paper_01/PaperMap_01_folded_US.et" "{61D4F80E49BF9B12}Prefabs/Items/Equipment/Compass/Compass_SY183.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6720F9CB52DA4A6E}" {
+     TargetStorage "Jacket/GD_R7_DrySuit_Black.et"
+    }
+   }
+  }
+ }
+ coords 363.084 4.141 412.105
+}

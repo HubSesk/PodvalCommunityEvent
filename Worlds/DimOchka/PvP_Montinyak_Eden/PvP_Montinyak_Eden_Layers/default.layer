@@ -1,0 +1,164 @@
+SCR_AIWorld : "{70CCCF16487C927F}Prefabs/AI/SCR_AIWorld_Eden.et" {
+ coords 3847.563 6.137 7752.532
+}
+PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 3849.231 6.281 7747.833
+}
+PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
+ coords 3847.552 6.152 7746.203
+}
+$grp StaticModelEntity : "{18822FB3F0D2ED00}Prefabs/Structures/Walls/BarbedWire/BarbedTape_01/BarbedTape_01_Long.et" {
+ {
+  coords 4699.858 0.029 6937.319
+  angles 0 36.905 0
+  scale 1.73
+ }
+ {
+  coords 4698.22 0 6930.437
+  angles 0 -33.851 0
+  scale 1.79
+ }
+ {
+  coords 4697.381 -0.002 6945.732
+  angles 0 -32.251 0
+  scale 1.57
+ }
+}
+$grp GenericEntity : "{2ACE3A315F531CFD}Prefabs/Compositions/Slotted/SlotFlatMedium/FieldHospital_M_USSR_01.et" {
+ {
+  components {
+   ActionsManagerComponent "{5D66ED1096104FD8}" {
+    Enabled 0
+   }
+  }
+  coords 4999.021 174.687 7012.628
+  angles 0 -49.625 0
+ }
+ {
+  components {
+   ActionsManagerComponent "{5D66ED1096104FD8}" {
+    Enabled 0
+   }
+  }
+  coords 5014.548 174.687 7029.787
+  angles 0 -139.625 0
+ }
+}
+GenericEntity : "{5B1381786551320C}Prefabs/Characters/CINEMATIC_RU_soldier_with_animation.et" {
+ components {
+  BaseLoadoutManagerComponent "{5670AB5CB11668D5}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Enabled 1
+     Prefab "{E1D9514DF31230C9}Prefabs/Characters/HeadGear/All_Beanie/GD_Beanie_Black.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{B7F39B4E43EE6FF8}TEST/Prefabs/Uniforms/gryphon/Jacket_Gryphon_base.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{50F8F7881C584CBF}Prefabs/Characters/Uniforms/USMC/Desert/GD_USMC_Frog_Pants_In_V2_D.et"
+    }
+   }
+  }
+ }
+ coords 4999.83 174.687 7048.098
+ angles 0 0 0
+}
+$grp GenericEntity : "{9C9C4BED9E19C374}Prefabs/Props/Military/Sandbags/Sandbag_01_wall_solid_burlap.et" {
+ {
+  coords 4723.469 161.832 7001.324
+  angles 0.634 -2.772 -3.258
+ }
+ {
+  coords 4726.177 161.971 7001.656
+  angles -0.235 -11.932 -5.424
+ }
+ {
+  coords 4728.768 162.179 7002.205
+  angles -0.235 -11.932 -5.424
+ }
+ {
+  coords 4733.322 162.52 7002.821
+  angles 0.595 -3.188 -5.397
+ }
+ {
+  coords 4697.551 161.469 6950.27
+  angles 4.795 68.109 -0.257
+ }
+ {
+  coords 4698.499 161.96 6947.8
+  angles 4.795 68.109 -0.257
+ }
+ {
+  coords 4699.503 162.347 6945.298
+  angles 4.795 68.109 -0.257
+ }
+ {
+  coords 4702.557 162.513 6940.289
+  angles 4.421 48.147 -1.877
+ }
+ {
+  coords 4704.313 162.599 6938.32
+  angles 4.421 48.147 -1.877
+ }
+ {
+  coords 4703.38 162.48 6936.679
+  angles 1.611 141.62 4.524
+ }
+ {
+  coords 4701.385 162.275 6934.954
+  angles 1.611 141.62 4.524
+ }
+ {
+  coords 4699.353 162.067 6933.247
+  angles 1.611 141.62 4.524
+ }
+ {
+  coords 4699.862 162.57 6931.311
+  angles 4.505 50.895 -1.663
+ }
+ {
+  coords 4700.872 162.616 6930.055
+  angles 4.505 50.895 -1.663
+ }
+ {
+  coords 4700.707 164.695 6929.999
+  angles 4.505 50.895 -1.663
+ }
+ {
+  coords 4699.696 164.649 6931.255
+  angles 4.505 50.895 -1.663
+ }
+ {
+  coords 4699.188 164.149 6933.19
+  angles 1.611 141.62 4.524
+ }
+ {
+  coords 4701.219 164.357 6934.897
+  angles 1.611 141.62 4.524
+ }
+ {
+  coords 4703.214 164.562 6936.623
+  angles 1.611 141.62 4.524
+ }
+ {
+  coords 4702.392 164.587 6940.233
+  angles 4.421 48.147 -1.877
+ }
+ {
+  coords 4704.148 164.672 6938.264
+  angles 4.421 48.147 -1.877
+ }
+ {
+  coords 4699.336 164.448 6945.241
+  angles 4.795 68.109 -0.257
+ }
+ {
+  coords 4698.332 164.061 6947.743
+  angles 4.795 68.109 -0.257
+ }
+ {
+  coords 4697.384 163.57 6950.213
+  angles 4.795 68.109 -0.257
+ }
+}

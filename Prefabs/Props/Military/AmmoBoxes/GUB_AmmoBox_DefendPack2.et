@@ -1,0 +1,119 @@
+GenericEntity {
+ ID "66EF072F66F98B74"
+ components {
+  Persistence "{66EF072ED448DAB0}" {
+  }
+  MeshObject "{66EF072ED448DA22}" {
+   Object "{62A30D148D0D93B0}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/EquipmentBoxWooden_Equipment_01.xob"
+   Materials {
+    MaterialAssignClass "{66EF072ED448DA8C}" {
+     SourceMaterial "EquipmentBoxWooden_Medical_01"
+     AssignedMaterial "{D3A76235D6723F0B}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/Data/EquipmentBoxWooden_Medical_01_FIA.emat"
+    }
+    MaterialAssignClass "{66EF072ED448DA8A}" {
+     SourceMaterial "EquipmentBoxWooden_decal"
+     AssignedMaterial "{1BB946314607B6A7}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/Data/EquipmentBoxWooden_decal_FIA.emat"
+    }
+   }
+   LODFactors {
+   }
+  }
+  RigidBody "{66EF072ED448DA4C}" {
+   Mass 10
+   ResponseIndex "SmallDestructible"
+   ModelGeometry 1
+   Static 1
+  }
+  SCR_DestructionMultiPhaseComponent "{66EF072ED448DD32}" {
+   Enabled 1
+   "Additional hit zones" {
+    SCR_HitZone Default {
+     HZDefault 1
+     "Melee multiplier" 1
+     "Kinetic multiplier" 1
+     "Explosive multiplier" 90
+     "Incendiary multiplier" 1
+    }
+   }
+   m_fBaseHealth 500
+   m_fForceToDamageScale 350
+   m_fDamageThresholdMaximum 40000
+   m_DestroySpawnObjects {
+    SCR_DebrisSpawnable "{66EF072ED448DD80}" {
+     m_vOffsetPosition 0 0.3 0
+     m_ModelPrefabs {
+      "{AE6DE9DEA19D68B7}Assets/Props/Debris/Metal/FragmentMetal_dbr_03.xob" "{D9678156553F87C7}Assets/Props/Debris/Metal/FragmentMetal_dbr_02.xob" "{D9678156553F87C7}Assets/Props/Debris/Metal/FragmentMetal_dbr_02.xob" "{AE6DE9DEA19D68B7}Assets/Props/Debris/Metal/FragmentMetal_dbr_03.xob" "{0A04F02D30BA8459}Assets/Props/Debris/Metal/FragmentMechanical_dbr_03.xob" "{0A04F02D30BA8459}Assets/Props/Debris/Metal/FragmentMechanical_dbr_03.xob"
+     }
+     m_fMass 1
+     m_eMaterialSoundType METAL_LIGHT
+    }
+    SCR_ParticleSpawnable "{66EF072ED448DDF8}" {
+     m_Particle "{C436A8D33CE1AA4E}Particles/Props/Dest_Prop_Wood_Small.ptc"
+    }
+   }
+   m_eMaterialSoundType BREAK_WOOD_SOLID
+  }
+  SCR_FilteredInventoryStorageComponent "{66EF072ED39B9DE3}" {
+   Attributes SCR_ItemAttributeCollection "{66EF072ED939E6CA}" {
+    ItemDisplayName SCR_InventoryUIInfo "{66EF072EE19D2815}" {
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{66EF072EE449DE46}" {
+    }
+    ItemAnimationAttributes ItemAnimationAttributes "{66EF072EE3433093}" {
+    }
+   }
+   UseCapacityCoefficient 0
+   MaxCumulativeVolume 3000
+   MultiSlots {
+    MultiSlotConfiguration "{66EF072EFA5A3285}" {
+     SlotTemplate InventoryStorageSlot wdadw {
+      Prefab "{07BC23F8D9223863}Prefabs/Items/Misc/Sandbags/Part_Sandbag_Burlap.et"
+     }
+     NumSlots 50
+    }
+   }
+   m_fMaxWeight 12
+  }
+  SCR_SoundDataComponent "{66EF072ED448DD17}" {
+   Enabled 1
+   m_aAudioSourceConfiguration {
+    SCR_AudioSourceConfiguration "{66EF072ED448DD1A}" {
+     m_sSoundProject "{A73D28179B395F19}Sounds/Props/Military/AmmoBoxes/AmmoBox_Big_Wooden/Props_AmmoBox_Big_Wooden.acp"
+     m_sSoundEventName "SOUND_CONTAINER_OPEN"
+    }
+    SCR_AudioSourceConfiguration "{66EF072ED448DD16}" {
+     m_sSoundProject "{A73D28179B395F19}Sounds/Props/Military/AmmoBoxes/AmmoBox_Big_Wooden/Props_AmmoBox_Big_Wooden.acp"
+     m_sSoundEventName "SOUND_CONTAINER_CLOSE"
+    }
+   }
+  }
+  ActionsManagerComponent "{66EF072ED448DC4D}" {
+   Enabled 1
+   ActionContexts {
+    UserActionContext "{66EF072ED448DC0B}" {
+     ContextName "default"
+     Position PointInfo "{66EF072ED448DC1C}" {
+      Offset 0 0.1575 0
+     }
+     Radius 0.5
+    }
+   }
+   additionalActions {
+    SCR_OpenStorageAction "{66EF072ED448DC57}" {
+     ParentContextList {
+      "default"
+     }
+     UIInfo SCR_ActionUIInfo "{66EF072ED448DC76}" {
+      Name "#AR-Inventory_OpenStorage"
+     }
+    }
+   }
+  }
+  RplComponent "{66EF072ED448DFBB}" {
+   Enabled 1
+   "Parent Node From Parent Entity" 0
+  }
+ }
+ Flags 0x403 0
+ coords 6082.741 418.557 6240.41
+}

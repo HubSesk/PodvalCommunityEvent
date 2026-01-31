@@ -1,0 +1,104 @@
+SCR_ChimeraCharacter : "{9CF74332E294FC7E}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Winter/Role_Character_USMC_SL_Winter.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Уорент-Офицер ВП"
+    Icon "{D578ED3D438AE38F}UI/Icons/watchman.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{283CDF7E44B5A9F8}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_base.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{54C6440E55342584}Prefabs/Characters/HeadGear/Helmet_ACH_Winter/ACH_Winter.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{E5BE663442A4621A}Prefabs/Characters/Uniforms/ACU_jacket/ACU_jacket_UCP.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{B0EAF4919D0AE2A4}Prefabs/Characters/Vests/LV_MBAV/LV_MBAV_Base.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{DA9F58F75CE6E234}Prefabs/Characters/Uniforms/ACU_pants/ACU_pants_UCP.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{DAAFD15478BDE1C3}Prefabs/Characters/Footwear/CombatBoots_US_01.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{755C04AB75FB709E}Prefabs/Characters/Vests/Vest_LV_MBAV/MP_USAF_USMC_2.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{997995D0EF91D998}Prefabs/Characters/Handwear/Gloves_Wool_01/Gloves_Wool_01_Black.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6720F9CB5344D10E}" {
+     TargetStorage "Pants/ACU_pants_UCP.et"
+    }
+    ItemsInitConfigurationItem "{6720F9CB52FFCEB5}" {
+     TargetStorage "Pants/ACU_pants_UCP.et"
+    }
+    ItemsInitConfigurationItem "{6720F9CB52DA4A6E}" {
+     TargetStorage "Jacket/ACU_jacket_UCP.et"
+    }
+    ItemsInitConfigurationItem "{6720F9CE79E73603}" {
+     TargetStorage "Jacket/ACU_jacket_UCP.et"
+    }
+    ItemsInitConfigurationItem "{6720F9CF230C187D}" {
+     TargetStorage "Vest/MP_USAF_USMC_2.et/triple/Pouch_MP.et"
+     PrefabsToSpawn {
+      "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et" "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et" "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6720F9CF30F74485}" {
+     TargetStorage "ArmoredVest/LV_MBAV_Base.et"
+    }
+    ItemsInitConfigurationItem "{6720F9CF52C72A8A}" {
+     TargetStorage "ArmoredVest/LV_MBAV_Base.et"
+    }
+    ItemsInitConfigurationItem "{6720F9CF58ADF554}" {
+     Enabled 0
+     TargetStorage "ArmoredVest/LV_MBAV_Base.et"
+    }
+    ItemsInitConfigurationItem "{6720F9CF60F2A09C}" {
+     Enabled 0
+     TargetStorage "ArmoredVest/LV_MBAV_Base.et"
+    }
+    ItemsInitConfigurationItem "{6720F9CF6EC9F0D2}" {
+     TargetStorage "Vest/MP_USAF_USMC_2.et/grenade2/Pouch_GP106_RGD_Pouch_2_MC.et"
+    }
+    ItemsInitConfigurationItem "{6720F9CF7F892BA2}" {
+     Enabled 0
+     TargetStorage ""
+    }
+    ItemsInitConfigurationItem "{6720F9CCE45EA295}" {
+     TargetStorage "Vest/MP_USAF_USMC_2.et/grenade/Pouch_GP106_RGD_Pouch_2_MC.et"
+     PrefabsToSpawn {
+      "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6720F9CCF4A8966A}" {
+     TargetStorage "Vest/MP_USAF_USMC_2.et/holster/Pouch_MP111_PistolClosed_MC.et"
+     PrefabsToSpawn {
+      "{9C05543A503DB80E}Prefabs/Weapons/Magazines/Magazine_9x19_M9_15rnd_Ball.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6720F9C14E342086}" {
+     TargetStorage "Vest/MP_USAF_USMC_2.et/pistol/Pouch_HP103_Holster_MC.et"
+    }
+    ItemsInitConfigurationItem "{673EE00388623FE7}" {
+     TargetStorage "Vest/MP_USAF_USMC_2.et/pistol2/Pouch_MP118_PistolTako2_MC.et"
+     PrefabsToSpawn {
+      "{9C05543A503DB80E}Prefabs/Weapons/Magazines/Magazine_9x19_M9_15rnd_Ball.et"
+     }
+    }
+   }
+  }
+ }
+ coords 1541.45 59.855 711.392
+}

@@ -1,0 +1,29 @@
+SCR_ChimeraCharacter : "{A0D97D555EAC6433}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Role_Character_USAF_USMC_Grenadier_D.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{140239B2D3707B29}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_M203_RAS_ACOG.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{69A029C4B6390FAD}Prefabs/Characters/HeadGear/USMC_Boonie_Hat/GD_USMC_Boonie_Hat_D.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{502D25B27986FAD7}Prefabs/Characters/Uniforms/USMC/Desert/GD_USMC_Frog_Pants_In_D.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6720F9CB5344D10E}" {
+     TargetStorage "Pants/GD_USMC_Frog_Pants_In_D.et"
+    }
+    ItemsInitConfigurationItem "{6720F9CB52FFCEB5}" {
+     TargetStorage "Pants/GD_USMC_Frog_Pants_In_D.et"
+    }
+   }
+  }
+ }
+ coords 9490.451 109.727 9113.646
+}

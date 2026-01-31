@@ -1,0 +1,97 @@
+SCR_ChimeraCharacter : "{8D62E67DC781F109}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/SFOD-D/Light/Role_Character_SOCOM_Scout.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{03810BEF182ADA0B}Prefabs/Items/Equipment/Binoculars/Rangefinder_Vector21.et"
+      }
+     }
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#DRG_Roles_RHS_Scout_Leader"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{0246473FC1F49981}Prefabs/Weapons/M4A1/M4_SOCOM_V_4.et"
+  }
+  SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
+   Identity Identity "{5584CBC6363C648B}" {
+    VisualIdentity VisualIdentity "{56E6D9456009D1C4}" {
+     Head "{EAF055495BA85CA1}Prefabs/Characters/Heads/Head_White_02.et"
+    }
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Jacket {
+     Prefab "{979D70D0B7759C69}Prefabs/Characters/Uniforms/Patagonia_Shirt/GD_Patagonia_L9_Shirt_MC_Rolled.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{F711EA887715B39E}Prefabs/Items/Equipment/Backpacks/Spiritus_System_DeltaBag/GD_DeltaBag_MC.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{67486AAA5D747349}Prefabs/Characters/Vests/JPC_Pouches_Variants/Winter/JPC_Mult_V5.1.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6720F9CB52DA4A6E}" {
+     TargetStorage "Jacket/GD_Patagonia_L9_Shirt_MC_Rolled.et"
+    }
+    ItemsInitConfigurationItem "{684C5ED945ECE074}" {
+     TargetStorage "Jacket/GD_Patagonia_L9_Shirt_MC_Rolled.et"
+     PrefabsToSpawn {
+      "{C742BD6CB3D77A5A}Prefabs/Items/Equipment/Radios/drg_Radio_ANPRC152A_OLD_SL.et"
+     }
+    }
+    ItemsInitConfigurationItem "{684C5ED945C22D3B}" {
+     TargetStorage "Pants/GD_Patagonia_L9_Pants_MC.et"
+    }
+    ItemsInitConfigurationItem "{684C5EDE085D50BD}" {
+     TargetStorage "Vest/JPC_Mult_V5.1.et/Pouch1/Pouch_avs_front_elastic_MC.et"
+     PrefabsToSpawn {
+      "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et" "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et" "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et"
+     }
+    }
+    ItemsInitConfigurationItem "{684C5EDE2F938FDA}" {
+     TargetStorage "Vest/JPC_Mult_V5.1.et/m18_1/Pouch_Filbe_M18_2.et"
+    }
+    ItemsInitConfigurationItem "{684C5EDE3E6EC682}" {
+     TargetStorage "Vest/JPC_Mult_V5.1.et/m18_2/Pouch_Filbe_M18_1.et"
+    }
+    ItemsInitConfigurationItem "{684C5EDE1D387159}" {
+     TargetStorage "Vest/JPC_Mult_V5.1.et/tako/Pouch_PCGEN3_takoPouch_MC.et"
+    }
+    ItemsInitConfigurationItem "{684C5EDE2444C4BA}" {
+     TargetStorage "Vest/JPC_Mult_V5.1.et/takobelt/Pouch_PCGEN3_takoPouch_MC.et"
+    }
+    ItemsInitConfigurationItem "{684C5EDE4453ADE4}" {
+     TargetStorage "Vest/JPC_Mult_V5.1.et/saw/Pouch_PCGEN3_util.et"
+    }
+    ItemsInitConfigurationItem "{684C5EDE431AE771}" {
+     TargetStorage "Vest/JPC_Mult_V5.1.et/pistolpouch2/Pouch_Highspeed_Pistol_MC.et"
+    }
+    ItemsInitConfigurationItem "{684C5EDE5CF3A6D1}" {
+     TargetStorage "Vest/JPC_Mult_V5.1.et/HSGI/Pouch_Highspeed_Bleeder_MC.et"
+    }
+    ItemsInitConfigurationItem "{684C5EDE603BB233}" {
+     TargetStorage "Vest/JPC_Mult_V5.1.et/m67_2/GD_Holster_SLS.et"
+    }
+    ItemsInitConfigurationItem "{684C5EC6812C1C4C}" {
+     TargetStorage "Back/GD_DeltaBag_MC.et"
+     PrefabsToSpawn {
+      "{33CBDE73AB48172A}Prefabs/Weapons/Explosives/DemoBlock_M112/DemoBlock_M112.et" "{33CBDE73AB48172A}Prefabs/Weapons/Explosives/DemoBlock_M112/DemoBlock_M112.et" "{CE0AF733722B3978}Prefabs/Items/Equipment/Detonators/BlastingMachine_M34/BlastingMachine_M34.et" "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et" "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et" "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et" "{D41D22DD1B8E921E}Prefabs/Weapons/Grenades/M18/Smoke_M18_Green.et" "{D41D22DD1B8E921E}Prefabs/Weapons/Grenades/M18/Smoke_M18_Green.et" "{FD315CB1803037F1}Prefabs/Items/Equipment/Binoculars/SOFLAM/SOFLAM_Binoculars.et"
+     }
+    }
+   }
+  }
+ }
+ coords 8287.879 218.031 8807.714
+}

@@ -1,0 +1,40 @@
+Vehicle : "{3ADAB98297CE0203}Prefabs/Vehicles/Wheeled/Ural4320/BM 21-1_Ural.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{66F57AB174190F0F}" {
+     SourceMaterial "Ural_Body"
+     AssignedMaterial "{877194EA94C1DE33}Assets/Vehicles/Wheeled/Ural4320/Data/Ural_4320_Body_tan.emat"
+    }
+    MaterialAssignClass "{66F57AB174190F2D}" {
+     SourceMaterial "Ural_Details"
+     AssignedMaterial "{184D82D81EA136B1}Assets/Vehicles/Wheeled/Ural4320/Data/Ural_4320_Details_tan.emat"
+    }
+    MaterialAssignClass "{66F57AB174190F34}" {
+     SourceMaterial "Ural_Interior_01"
+     AssignedMaterial "{0FFA8CAB35F7C95D}Assets/Vehicles/Wheeled/Ural4320/Data/Ural_4320_Interior_tan.emat"
+    }
+    MaterialAssignClass "{66F57AB174190F3B}" {
+     SourceMaterial "Ural_Interior_02"
+     AssignedMaterial "{D7BBAC0CA2E47607}Assets/Vehicles/Wheeled/Ural4320/Data/Ural_4320_Interior_Metals_tan.emat"
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "#MLRS-EditableEntity_BMl_Name AP Small"
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo BM21 {
+     Prefab "{DB4A273368D44DE1}Prefabs/Vehicles/Wheeled/Ural_4320_Grad/VehParts/static_platform_BM21_tan.et"
+    }
+    SCR_WeaponRackSlotInfo Weapon {
+     Prefab "{C174BDB62CBA42EF}Prefabs/Vehicles/Wheeled/Ural_4320_Grad/VehParts/BM_21_Turret_3M16_SmallRing_tan.et"
+    }
+   }
+  }
+ }
+}

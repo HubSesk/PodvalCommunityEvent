@@ -1,0 +1,241 @@
+$grp SCR_DestructibleBuildingEntity : "{072A89F7C5F430F0}Prefabs/Misc/Boat_static.et" {
+ {
+  coords 356.432 20.533 373.875
+  angles 12.56 0 0
+ }
+ {
+  coords 352.12 21.131 376.333
+  angles 8.402 48.475 9.37
+ }
+ {
+  coords 347.257 21.009 376.982
+  angles 12.513 -5.043 -1.095
+ }
+}
+$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ {
+  coords 966.8 13.259 866.268
+  m_sTitle "Правила и задачи"
+  m_sDescriptionLayout "{B6DE04F7CF7A95DA}UI/MissionDescription/DescriptionEditableScrollable.layout"
+  m_sTextData "ПРАВИЛА:"\
+  "1. Всем ЗАПРЕЩЕНО надевать форму, головные уборы, разгрузки, бронежилеты противника (рюкзаки можно);"\
+  "2. Для захвата нужно поменять флаг. Флаг не перезахватываемый."\
+  ""\
+  "ЗАДАЧИ:"\
+  "• ВС РФ: "\
+  " 1. Захватить упавший контейнер;"\
+  " 2. Захватить подводную лодку."\
+  ""\
+  "• США:"\
+  " 1. Удержать упавший контейнер;"\
+  " 2. Удержать подводную лодку."\
+  ""\
+  "Дополнительно:"\
+  "1. На карте отмечены точки, где расположены переходы между льдинами;"\
+  "2. Большая часть местности - замерзшая вода, но все равно будьте бдительны."
+  m_aVisibleForFactions {
+   "RHS_AFRF"
+   "RHS_USAF"
+   ""
+  }
+  m_bEmptyFactionVisibility 1
+ }
+ {
+  coords 966.8 13.259 866.268
+  m_sTitle "Обстановка"
+  m_sDescriptionLayout "{B6DE04F7CF7A95DA}UI/MissionDescription/DescriptionEditableScrollable.layout"
+  m_sTextData "6 января, 2026 г."\
+  "Атака на дамбу смогла предоставить США то необходимое время, которое ей было нужно. Эвакуация оставшихся сил, а также военного оборудования и секретных документов была почти успешно завершена. "\
+  ""\
+  "Тем временем, силы РФ успели привезти на территорию Новки ЗРК. Во время последнего вылета  самолет AC-130 был сбит над замерзшим морем. Почти весь его груз теперь находится на дне, однако один из контейнеров, который содержал в себе ценное оборудование, уцелел. Также в квадрате 002-001 была потеряна связь с вертолетом полковника Джефферсона. Есть вероятность, что он еще может быть жив."\
+  ""\
+  "Третий флот ВМС США скрытно перебрасывает подлодками группы морской пехоты для поиска груза и офицера."\
+  ""\
+  "Наряду с этим, ВС РФ получила координаты о примерном месте нахождения контейнера и отправила туда свои подразделения."\
+  ""\
+  "Под леденящий туманный рассвет начинается финальная схватка..."
+  m_aVisibleForFactions {
+   "RHS_AFRF"
+   "RHS_USAF"
+   ""
+  }
+  m_bEmptyFactionVisibility 1
+ }
+ {
+  coords 966.8 13.259 866.268
+  m_sTitle "Ситуация"
+  m_sDescriptionLayout "{B6DE04F7CF7A95DA}UI/MissionDescription/DescriptionEditableScrollable.layout"
+  m_sTextData "Первая группа КМП США успешно достигла берега на лодках и нашла контейнер. Рядом с грузом были обнаружены два военных ноутбука. Предоставив координаты, вторая группа КМП США на подлодке класса \"Джордж Вашингтон\" совершает всплытие и высадку вблизи контейнера. Тем временем последняя группа спецназа, которая дислоцировалась на Новке, успешно отыскала сбитый вертолет. В числе выживших оказался пилот и полковник Джефферсон. "\
+  ""\
+  "Однако, во время всплытия, подлодка из-за сильного удара о лёд повреждает себе горизонтальные рули, из-за чего лодка не может уйти на глубину. В связи с этой чрезвычайной ситуацией, силам США приходится организовать оборону для сдерживания приближающегося противника, пока экипаж не устранит поломку."\
+  ""\
+  "По словам экипажа, им потребуется примерно 45 минут для устранения проблемы."
+  m_aVisibleForFactions {
+   "RHS_USAF"
+  }
+ }
+ {
+  coords 966.8 13.259 866.268
+  m_sTitle "Ситуация"
+  m_sDescriptionLayout "{B6DE04F7CF7A95DA}UI/MissionDescription/DescriptionEditableScrollable.layout"
+  m_sTextData "По нашим разведданным противник активизировал операцию по эвакуации груза. Однако, ситуация развивается в благоприятном для нас ключе. Американцы закрепляются на невыгодном рубеже. По-видимому при всплытии, подводная лодка получила повреждения. Нам приказано ускорить выдвижение группы для зачистики побережья и недопущения эвакуации груза и войск. "\
+  ""\
+  "У нас есть 45 минут на выполнение миссии."
+  m_aVisibleForFactions {
+   "RHS_AFRF"
+  }
+ }
+}
+SCR_DestructibleBuildingEntity : "{A43A100E3C377DB2}Prefabs/Structures/Core/Building_Base.et" {
+ components {
+  MeshObject "{506EDA9D46FC6C06}" {
+   Object "{03C21948188BA495}Assets/Inflatable_boat/boat_base1(with_anims).xob"
+  }
+  Occluder "{65D4815BE1731440}" {
+   Enabled 0
+  }
+ }
+ coords 360.868 20.054 371.431
+ angles 20.161 0 0
+}
+$grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
+ {
+  coords 963.51 12.895 869.244
+  m_sTitle "Контейнер удержан"
+  m_iScore 50
+  m_sFactionKey "RHS_USAF"
+ }
+ {
+  coords 959.633 12.895 869.244
+  m_sTitle "Подводная лодка удержана"
+  m_iScore 50
+  m_sFactionKey "RHS_USAF"
+ }
+ {
+  coords 963.51 12.895 874.11
+  m_sTitle "Контейнер захвачен"
+  m_iScore 50
+  m_sFactionKey "RHS_AFRF"
+ }
+ {
+  coords 959.633 12.895 873.327
+  m_sTitle "Подводная лодка захвачена"
+  m_iScore 50
+  m_sFactionKey "RHS_AFRF"
+ }
+}
+$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ {
+  coords 528.773 0.382 331.046
+  angles 0 90 0
+  m_sImageSetGlow "{E23427CAC80DA8B7}UI/Textures/Icons/icons_mapMarkersUI.imageset"
+  m_MarkerColor 0 0.125 0.502 1
+  m_sQuadName "pick-up-2"
+  m_fWorldSize 40
+  m_sDescription "Переход"
+  m_aVisibleForFactions {
+   "RHS_USAF"
+   "RHS_AFRF"
+   ""
+  }
+  m_bVisibleForEmptyFaction 1
+ }
+ {
+  coords 539.315 1.014 359.325
+  angles 0 90 0
+  m_sImageSetGlow "{E23427CAC80DA8B7}UI/Textures/Icons/icons_mapMarkersUI.imageset"
+  m_MarkerColor 0 0.125 0.502 1
+  m_sQuadName "pick-up-2"
+  m_fWorldSize 40
+  m_sDescription "Переход"
+  m_aVisibleForFactions {
+   "RHS_USAF"
+   "RHS_AFRF"
+   ""
+  }
+  m_bVisibleForEmptyFaction 1
+ }
+ {
+  coords 461.742 2.234 376.875
+  angles 0 90 0
+  m_sImageSetGlow "{E23427CAC80DA8B7}UI/Textures/Icons/icons_mapMarkersUI.imageset"
+  m_MarkerColor 0 0.125 0.502 1
+  m_sQuadName "pick-up-2"
+  m_fWorldSize 40
+  m_sDescription "Переход"
+  m_aVisibleForFactions {
+   "RHS_USAF"
+   "RHS_AFRF"
+   ""
+  }
+  m_bVisibleForEmptyFaction 1
+ }
+ {
+  coords 261.7 0.392 428.618
+  angles 0 90 0
+  m_sImageSetGlow "{E23427CAC80DA8B7}UI/Textures/Icons/icons_mapMarkersUI.imageset"
+  m_MarkerColor 0 0.125 0.502 1
+  m_sQuadName "pick-up-2"
+  m_fWorldSize 40
+  m_sDescription "Переход"
+  m_aVisibleForFactions {
+   "RHS_USAF"
+   "RHS_AFRF"
+   ""
+  }
+  m_bVisibleForEmptyFaction 1
+ }
+ {
+  coords 418.912 4.663 351.073
+  angles 0 90 0
+  m_sImageSetGlow "{E23427CAC80DA8B7}UI/Textures/Icons/icons_mapMarkersUI.imageset"
+  m_MarkerColor 0 0.125 0.502 1
+  m_sQuadName "point-of-interest"
+  m_fWorldSize 40
+  m_sDescription "Подводная лодка"
+  m_aVisibleForFactions {
+   "RHS_USAF"
+   "RHS_AFRF"
+   ""
+  }
+  m_bVisibleForEmptyFaction 1
+ }
+ {
+  coords 210.133 5.626 192.135
+  angles 0 90 0
+  m_sImageSetGlow "{E23427CAC80DA8B7}UI/Textures/Icons/icons_mapMarkersUI.imageset"
+  m_MarkerColor 0 0.125 0.502 1
+  m_sQuadName "point-of-interest"
+  m_fWorldSize 40
+  m_sDescription "Упавший вертолет"
+  m_aVisibleForFactions {
+   "RHS_USAF"
+   "RHS_AFRF"
+   ""
+  }
+  m_bVisibleForEmptyFaction 1
+ }
+ {
+  coords 409.63 8.502 528.979
+  angles 0 90 0
+  m_sImageSetGlow "{E23427CAC80DA8B7}UI/Textures/Icons/icons_mapMarkersUI.imageset"
+  m_MarkerColor 0 0.125 0.502 1
+  m_sQuadName "point-of-interest"
+  m_fWorldSize 40
+  m_sDescription "Упавший груз"
+  m_aVisibleForFactions {
+   "RHS_USAF"
+   "RHS_AFRF"
+   ""
+  }
+  m_bVisibleForEmptyFaction 1
+ }
+}
+GenericEntity : "{E6FC6DD69FA3479F}Prefabs/System/DRG_MissionEndTimerPrefab.et" {
+ components {
+  DRG_MissionEndTimerComponent "{651B0839B21B3BBF}" {
+   m_iMissionTime 2700
+  }
+ }
+ coords 1046.582 1.416 678.524
+}

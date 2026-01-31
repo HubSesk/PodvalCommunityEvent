@@ -1,0 +1,76 @@
+$grp Vehicle : "{442939C9617DF228}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_FIA.et" {
+ BRDM2_FIA2 {
+  coords 6171.576 53.875 8043.974
+  angles 0 -153.711 0
+  m_sAttachmentGroupName "NAPA_200"
+ }
+ BRDM2_FIA1 {
+  coords 6184.154 54.031 8071.841
+  angles 0 -157.944 0
+  m_sAttachmentGroupName "NAPA_201"
+ }
+ BRDM2_FIA3 {
+  coords 6721.309 54.255 7921.907
+  angles 0 178.704 0
+  m_sAttachmentGroupName "NAPA_202"
+ }
+}
+Vehicle Ural4320_transport_covered_CIV_orange1 : "{66241E0CEDFCEDFF}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered_CIV_orange.et" {
+ coords 6076.611 56.875 6934.581
+ angles 0 86.169 0
+ m_sAttachmentGroupName "NAPA_100"
+ {
+  GameEnvironmentProbeEntity {
+   ID "654C8CD3B0316F22"
+   coords 0.001 -0.501 1.357
+  }
+ }
+}
+Vehicle Ural4320_transport_covered3 : "{D9B91FAB817A6033}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered.et" {
+ coords 6041.38 56.969 6934.204
+ angles 0 88.788 0
+ m_sAttachmentGroupName "NAPA_102"
+}
+$grp Vehicle : "{E6AEC014D162D686}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_FIA_command.et" {
+ Ural4320_FIA_command1 {
+  components {
+   BaseRadioComponent "{51EAE036CCD0A08E}" {
+    "Encryption key" "candleSauce"
+   }
+  }
+  coords 6023.165 57.407 6881.385
+  angles 0 -85 0
+  m_sAttachmentGroupName ""
+ }
+ Ural4320_FIA_command2 {
+  components {
+   BaseRadioComponent "{51EAE036CCD0A08E}" {
+    "Encryption key" "candleSauce"
+   }
+  }
+  coords 6021.598 57.407 6869.164
+  angles 0 -85 0
+  m_sAttachmentGroupName ""
+ }
+}
+Vehicle Ural4320_transport_covered_CIV_blue1 : "{F66EAD0D2016B6BA}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered_CIV_blue.et" {
+ coords 6058.981 56.938 6933.674
+ angles 0 88.343 0
+ m_sAttachmentGroupName "NAPA_101"
+ {
+  GameEnvironmentProbeEntity {
+   ID "654C8CD3B0316F22"
+   coords -0.001 -0.501 1.357
+  }
+ }
+}
+$grp Vehicle : "{FD109F3702AAB392}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_ZU23.et" {
+ Ural4320_ZU2 {
+  coords 6104.819 56.406 6972.769
+  angles 0 140.63 0
+ }
+ Ural4320_ZU1 {
+  coords 6098.969 56.406 6967.809
+  angles 0 140.63 0
+ }
+}
