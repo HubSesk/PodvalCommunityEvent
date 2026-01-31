@@ -1,0 +1,92 @@
+$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ attack1 {
+  coords 4089.313 218.123 7554.218
+  angles 0 90 0
+  m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 0 0 1
+  m_sQuadName "Task_Attack"
+  m_fWorldSize 35
+  m_sDescription "Уничтожить штабную машину 1"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_AFRF"
+  }
+ }
+ attack2 {
+  coords 3691.372 217.912 8022.643
+  angles 0 90 0
+  m_sImageSetGlow ""
+  m_MarkerColor 0.071 0.192 0.561 1
+  m_sQuadName "mark-question"
+  m_fWorldSize 50
+  m_sDescription "Возможное расположение КШМ"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   ""
+   "RHS_AFRF"
+  }
+  m_bVisibleForEmptyFaction 1
+ }
+ attack3 {
+  coords 3287.669 208.812 7468.034
+  angles 0 90 0
+  m_sImageSetGlow ""
+  m_MarkerColor 0.071 0.192 0.561 1
+  m_sQuadName "mark-question"
+  m_fWorldSize 50
+  m_sDescription "Возможное расположение КШМ"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   ""
+   "RHS_AFRF"
+  }
+  m_bVisibleForEmptyFaction 1
+ }
+ M_TRIG_1 {
+  coords 4102.762 215.171 7578.25
+  angles 0 90 0
+  m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.016 0.552 0.905 1
+  m_sQuadName "Task_Defend"
+  m_fWorldSize 35
+  m_sDescription "Штабная Машина 1"
+  m_bUseWorldScale 0
+  m_bVisibleForEmptyFaction 1
+ }
+ cmd_spawn1 {
+  coords 3630.718 218.932 8036.018
+  angles 0 28.651 0
+  m_sImageSet ""
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 0
+  m_sQuadName ""
+  m_bUseWorldScale 0
+ }
+ cmd_spawn2 {
+  coords 3218.026 207.657 7398.089
+  angles 0 142.966 0
+  m_sImageSet ""
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 0
+  m_sQuadName ""
+ }
+ defens1 {
+  coords 4084.188 215.289 7545.798
+  angles 0 90 0
+  m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.071 0.192 0.561 1
+  m_sQuadName "Task_Defend"
+  m_fWorldSize 35
+  m_sDescription "Защищать КШМ"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_USAF"
+   ""
+  }
+  m_aHideOnGameModeStates {
+  }
+ }
+}
