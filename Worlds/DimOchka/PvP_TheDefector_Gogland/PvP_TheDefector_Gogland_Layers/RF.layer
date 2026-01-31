@@ -1,7 +1,13 @@
-Vehicle Ural4320_transport1 : "{16C1F16C9B053801}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport.et" {
- coords 6416.59 82.492 5806.637
- angles 7.158 168.383 -0.561
- m_sAttachmentGroupName "SQ6"
+$grp Vehicle : "{16C1F16C9B053801}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport.et" {
+ Ural4320_transport1 {
+  coords 6416.59 82.492 5806.637
+  angles 7.158 168.383 -0.561
+  m_sAttachmentGroupName "SQ6"
+ }
+ Ural4320_transport2 {
+  coords 7551.642 10.281 4447.953
+  m_sAttachmentGroupName "SQ4"
+ }
 }
 $grp Vehicle : "{2C9B4D8196812513}Prefabs/Vehicles/Wheeled/TIGR/Unarmed/GAZ_TIGR_v2_Unarmed.et" {
  GAZ_TIGR_v2_Unarmed1 {
@@ -43,10 +49,17 @@ Vehicle GAZ_TIGR_v2_PKM2 : "{7BC76F92B882889D}Prefabs/Vehicles/Wheeled/TIGR/PKP/
  angles 0 102.095 0
  m_sAttachmentGroupName "SQ2"
 }
-Vehicle UAZ469_Camo1 : "{E1A99B5F2DC9B38A}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_Camo.et" {
- coords 6419.441 84.655 5783.366
- angles 2.661 172.595 -0.346
- m_sAttachmentGroupName "SQ7"
+$grp Vehicle : "{E1A99B5F2DC9B38A}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_Camo.et" {
+ UAZ469_Camo1 {
+  coords 6419.441 84.655 5783.366
+  angles 2.661 172.595 -0.346
+  m_sAttachmentGroupName "SQ7"
+ }
+ UAZ469_Camo2 {
+  coords 6925.15 95.485 3942.646
+  angles 2.661 172.595 -0.346
+  m_sAttachmentGroupName "SQ9"
+ }
 }
 $grp SCR_AIGroup : "{F06FB64E53D6E4AE}Prefabs/Groups/OPFOR/drg_RHS_Recon_Squad.et" {
  {
@@ -134,7 +147,15 @@ $grp SCR_AIGroup : "{FB6E7CB4014BE2C8}Prefabs/Groups/OPFOR/drg_RHS_Army_RifleSqu
   }
   coords 7559.788 10.313 4443.688
   angles 0 -90 0
-  m_sCustomNameSet "Отделение с ЗУ-23"
+  m_aUnitPrefabSlots {
+   "{53A7932FD6BDDF63}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_SL.et"
+   "{2EBF7FD7B32EE3FA}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_SR.et"
+   "{E6870BF19DB0632C}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_AT.et"
+   "{C0F50DDFB6CFA87B}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_AAT.et"
+   "{9CBAF5396A6DDC9C}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_MG_opt.et"
+   "{FAC6AB61E4CA97F5}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_MGAB.et"
+  }
+  m_sCustomNameSet "Стрелковое отделение"
  }
  SQ5 {
   components {
@@ -190,6 +211,21 @@ $grp SCR_AIGroup : "{FB6E7CB4014BE2C8}Prefabs/Groups/OPFOR/drg_RHS_Army_RifleSqu
   }
   m_sCustomNameSet "Стрелковое отделение"
  }
+ SQ9 {
+  components {
+   PS_GroupCallsignAssigner "{6454F7D129837B5A}" {
+    m_iCompanyCallsign 5
+   }
+  }
+  coords 6921.117 95.649 3939.583
+  angles 0 -94.296 0
+  m_aUnitPrefabSlots {
+   "{53A7932FD6BDDF63}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_SL.et"
+   "{111838A91B409A08}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_CrewGunner.et"
+   "{F6339F4933B793A5}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_CrewDriver.et"
+  }
+  m_sCustomNameSet "Группа с ЗУ-23"
+ }
 }
 $grp Vehicle : "{FD109F3702AAB392}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_ZU23.et" {
  Ural4320_ZU1 {
@@ -197,7 +233,8 @@ $grp Vehicle : "{FD109F3702AAB392}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_ZU2
   m_sAttachmentGroupName "SQ3"
  }
  Ural4320_ZU2 {
-  coords 7550.896 10.344 4450.622
-  m_sAttachmentGroupName "SQ4"
+  coords 6916.643 96.495 3939.236
+  angles -6.956 -1.092 8.947
+  m_sAttachmentGroupName "SQ9"
  }
 }
