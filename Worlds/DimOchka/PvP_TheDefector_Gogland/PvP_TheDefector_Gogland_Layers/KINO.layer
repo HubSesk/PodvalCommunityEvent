@@ -5092,7 +5092,7 @@ CinematicEntity KINZO {
        FloatCinematicKeyframe "{687E0AFDB3FB53B4}" {
         FrameNumber 2706
         Value 3.61
-        InterpMode 0
+        InterpMode 2
        }
       }
       Flags 0 0
@@ -5108,6 +5108,7 @@ CinematicEntity KINZO {
        IntegerCinematicKeyframe "{687E0AFDB0AE3621}" {
         FrameNumber 2706
         Value 1
+        InterpMode 2
        }
       }
       Flags 0 0
@@ -7732,6 +7733,403 @@ CinematicEntity KINZO {
      }
     }
    }
+   CustomCinematicTrack "{68830BDBFF3046CB}" {
+    TrackName "BTR_3"
+    ClassName "SlotBoneAnimationCinematicTrack"
+    ChildTracks {
+     StringCinematicTrack "{68830BDBFF303AD6}" {
+      TrackName "m_sSlotName"
+     }
+     StringCinematicTrack "{68830BDBFF303C43}" {
+      TrackName "m_sBoneName"
+      Keyframes {
+       StringCinematicKeyframe "{68830BDA0A68F466}" {
+        FrameNumber 2654
+        Value "v_steering_wheel_L01"
+       }
+      }
+     }
+     Vector3CinematicTrack "{68830BDBFF303C86}" {
+      TrackName "m_YawPitchRoll"
+      X FloatCinematicTrack "{68830BDBFF303F77}" {
+       TrackName "X"
+      }
+      Y FloatCinematicTrack "{68830BDBFF303F6F}" {
+       TrackName "Y"
+       Keyframes {
+        FloatCinematicKeyframe "{68830BDA3FA76076}" {
+         FrameNumber 2654
+         Value 60
+         InterpMode 1
+        }
+        FloatCinematicKeyframe "{68830BDA3D229DCE}" {
+         FrameNumber 3087
+         Value -60
+         InterpMode 1
+        }
+       }
+      }
+      Z FloatCinematicTrack "{68830BDBFF303F6B}" {
+       TrackName "Z"
+      }
+     }
+     Vector3CinematicTrack "{68830BDBFF303FDC}" {
+      TrackName "m_Position"
+      X FloatCinematicTrack "{68830BDBFF303FD9}" {
+       TrackName "X"
+      }
+      Y FloatCinematicTrack "{68830BDBFF303FD3}" {
+       TrackName "Y"
+      }
+      Z FloatCinematicTrack "{68830BDBFF303FCC}" {
+       TrackName "Z"
+      }
+     }
+    }
+   }
+   CustomCinematicTrack "{68830BDA99B264E7}" {
+    TrackName "BTR_7"
+    ClassName "SlotBoneAnimationCinematicTrack"
+    ChildTracks {
+     StringCinematicTrack "{68830BDA99B264E8}" {
+      TrackName "m_sSlotName"
+     }
+     StringCinematicTrack "{68830BDA99B264F5}" {
+      TrackName "m_sBoneName"
+      Keyframes {
+       StringCinematicKeyframe "{68830BDAA4EF7765}" {
+        FrameNumber 2654
+        Value "v_steering_wheel_R01"
+       }
+      }
+     }
+     Vector3CinematicTrack "{68830BDA99B264FE}" {
+      TrackName "m_YawPitchRoll"
+      X FloatCinematicTrack "{68830BDA99B264FD}" {
+       TrackName "X"
+      }
+      Y FloatCinematicTrack "{68830BDA99B264FA}" {
+       TrackName "Y"
+       Keyframes {
+        FloatCinematicKeyframe "{68830BDA99B26486}" {
+         FrameNumber 2654
+         Value 60
+         InterpMode 1
+        }
+        FloatCinematicKeyframe "{68830BDA99B26484}" {
+         FrameNumber 3087
+         Value -60
+         InterpMode 1
+        }
+       }
+      }
+      Z FloatCinematicTrack "{68830BDA99B26482}" {
+       TrackName "Z"
+      }
+     }
+     Vector3CinematicTrack "{68830BDA99B26480}" {
+      TrackName "m_Position"
+      X FloatCinematicTrack "{68830BDA99B199AD}" {
+       TrackName "X"
+      }
+      Y FloatCinematicTrack "{68830BDA99B199A0}" {
+       TrackName "Y"
+      }
+      Z FloatCinematicTrack "{68830BDA99B199B2}" {
+       TrackName "Z"
+      }
+     }
+    }
+   }
+   CustomCinematicTrack "{68830BDA47A95920}" {
+    TrackName "BTR_4"
+    ClassName "SlotBoneAnimationCinematicTrack"
+    ChildTracks {
+     StringCinematicTrack "{68830BDA47A95915}" {
+      TrackName "m_sSlotName"
+     }
+     StringCinematicTrack "{68830BDA47A95910}" {
+      TrackName "m_sBoneName"
+      Keyframes {
+       StringCinematicKeyframe "{68830BDA40346F4E}" {
+        FrameNumber 2654
+        Value "v_steering_wheel_L02"
+       }
+      }
+     }
+     Vector3CinematicTrack "{68830BDA47A9590C}" {
+      TrackName "m_YawPitchRoll"
+      X FloatCinematicTrack "{68830BDA47A9590B}" {
+       TrackName "X"
+      }
+      Y FloatCinematicTrack "{68830BDA47A95908}" {
+       TrackName "Y"
+       Keyframes {
+        FloatCinematicKeyframe "{68830BDA47A95906}" {
+         FrameNumber 2654
+         Value 60
+         InterpMode 1
+        }
+        FloatCinematicKeyframe "{68830BDA47A95907}" {
+         FrameNumber 3087
+         Value -60
+         InterpMode 1
+        }
+       }
+      }
+      Z FloatCinematicTrack "{68830BDA47A95905}" {
+       TrackName "Z"
+      }
+     }
+     Vector3CinematicTrack "{68830BDA47A95902}" {
+      TrackName "m_Position"
+      X FloatCinematicTrack "{68830BDA47A89CC2}" {
+       TrackName "X"
+      }
+      Y FloatCinematicTrack "{68830BDA47A89CC3}" {
+       TrackName "Y"
+      }
+      Z FloatCinematicTrack "{68830BDA47A89C37}" {
+       TrackName "Z"
+      }
+     }
+    }
+   }
+   CustomCinematicTrack "{68830BDA9819AA4B}" {
+    TrackName "BTR_8"
+    ClassName "SlotBoneAnimationCinematicTrack"
+    ChildTracks {
+     StringCinematicTrack "{68830BDA9819AA45}" {
+      TrackName "m_sSlotName"
+     }
+     StringCinematicTrack "{68830BDA9819AA5A}" {
+      TrackName "m_sBoneName"
+      Keyframes {
+       StringCinematicKeyframe "{68830BDAA659896F}" {
+        FrameNumber 2654
+        Value "v_steering_wheel_R02"
+       }
+      }
+     }
+     Vector3CinematicTrack "{68830BDA9819AA5E}" {
+      TrackName "m_YawPitchRoll"
+      X FloatCinematicTrack "{68830BDA9819AA5C}" {
+       TrackName "X"
+      }
+      Y FloatCinematicTrack "{68830BDA9819E819}" {
+       TrackName "Y"
+       Keyframes {
+        FloatCinematicKeyframe "{68830BDA9819E817}" {
+         FrameNumber 2654
+         Value 60
+         InterpMode 1
+        }
+        FloatCinematicKeyframe "{68830BDA9819E814}" {
+         FrameNumber 3087
+         Value -60
+         InterpMode 1
+        }
+       }
+      }
+      Z FloatCinematicTrack "{68830BDA9819E815}" {
+       TrackName "Z"
+      }
+     }
+     Vector3CinematicTrack "{68830BDA9819E813}" {
+      TrackName "m_Position"
+      X FloatCinematicTrack "{68830BDA9819105A}" {
+       TrackName "X"
+      }
+      Y FloatCinematicTrack "{68830BDA98191059}" {
+       TrackName "Y"
+      }
+      Z FloatCinematicTrack "{68830BDA9819102E}" {
+       TrackName "Z"
+      }
+     }
+    }
+   }
+   CustomCinematicTrack "{68830BDA4C008B2C}" {
+    TrackName "BTR_5"
+    ClassName "SlotBoneAnimationCinematicTrack"
+    ChildTracks {
+     StringCinematicTrack "{68830BDA4C008B25}" {
+      TrackName "m_sSlotName"
+     }
+     StringCinematicTrack "{68830BDA4C008B23}" {
+      TrackName "m_sBoneName"
+      Keyframes {
+       StringCinematicKeyframe "{68830BDA7DAC4669}" {
+        FrameNumber 2654
+        Value "v_wheel_L03"
+       }
+      }
+     }
+     Vector3CinematicTrack "{68830BDA4C008B1A}" {
+      TrackName "m_YawPitchRoll"
+      X FloatCinematicTrack "{68830BDA4C008B18}" {
+       TrackName "X"
+      }
+      Y FloatCinematicTrack "{68830BDA4C008B19}" {
+       TrackName "Y"
+       Keyframes {
+        FloatCinematicKeyframe "{68830BDA4C008B15}" {
+         FrameNumber 2654
+         Value 60
+         InterpMode 1
+        }
+        FloatCinematicKeyframe "{68830BDA4C008B12}" {
+         FrameNumber 3087
+         Value -60
+         InterpMode 1
+        }
+       }
+      }
+      Z FloatCinematicTrack "{68830BDA4C008B13}" {
+       TrackName "Z"
+      }
+     }
+     Vector3CinematicTrack "{68830BDA4C008B10}" {
+      TrackName "m_Position"
+      X FloatCinematicTrack "{68830BDA4C001857}" {
+       TrackName "X"
+      }
+      Y FloatCinematicTrack "{68830BDA4C001856}" {
+       TrackName "Y"
+       Keyframes {
+        FloatCinematicKeyframe "{68830BDA8B6B6786}" {
+         FrameNumber 2654
+         Value -0.15
+         InterpMode 0
+        }
+       }
+      }
+      Z FloatCinematicTrack "{68830BDA4C00184E}" {
+       TrackName "Z"
+      }
+     }
+    }
+   }
+   CustomCinematicTrack "{68830BDA484DABD6}" {
+    TrackName "BTR_6"
+    ClassName "SlotBoneAnimationCinematicTrack"
+    ChildTracks {
+     StringCinematicTrack "{68830BDA484DABC6}" {
+      TrackName "m_sSlotName"
+     }
+     StringCinematicTrack "{68830BDA484DABBB}" {
+      TrackName "m_sBoneName"
+      Keyframes {
+       StringCinematicKeyframe "{68830BDA7F52F690}" {
+        FrameNumber 2654
+        Value "v_wheel_L04"
+       }
+      }
+     }
+     Vector3CinematicTrack "{68830BDA484DABBC}" {
+      TrackName "m_YawPitchRoll"
+      X FloatCinematicTrack "{68830BDA484DABBE}" {
+       TrackName "X"
+      }
+      Y FloatCinematicTrack "{68830BDA484DABB1}" {
+       TrackName "Y"
+       Keyframes {
+        FloatCinematicKeyframe "{68830BDA484DABB0}" {
+         FrameNumber 2654
+         Value 60
+         InterpMode 1
+        }
+        FloatCinematicKeyframe "{68830BDA484DABB3}" {
+         FrameNumber 3087
+         Value -60
+         InterpMode 1
+        }
+       }
+      }
+      Z FloatCinematicTrack "{68830BDA484DABB2}" {
+       TrackName "Z"
+      }
+     }
+     Vector3CinematicTrack "{68830BDA484DABB5}" {
+      TrackName "m_Position"
+      X FloatCinematicTrack "{68830BDA484DCF0A}" {
+       TrackName "X"
+      }
+      Y FloatCinematicTrack "{68830BDA484DCF0B}" {
+       TrackName "Y"
+       Keyframes {
+        FloatCinematicKeyframe "{68830BDA945A8153}" {
+         FrameNumber 2654
+         Value -0.15
+        }
+       }
+      }
+      Z FloatCinematicTrack "{68830BDA484DCF1F}" {
+       TrackName "Z"
+      }
+     }
+    }
+   }
+   CustomCinematicTrack "{68830BDAA97AF4B6}" {
+    TrackName "BTR_9"
+    ClassName "SlotBoneAnimationCinematicTrack"
+    ChildTracks {
+     StringCinematicTrack "{68830BDAA97AF4BB}" {
+      TrackName "m_sSlotName"
+     }
+     StringCinematicTrack "{68830BDAA97AF4B8}" {
+      TrackName "m_sBoneName"
+      Keyframes {
+       StringCinematicKeyframe "{68830BDAAAEFE909}" {
+        FrameNumber 2654
+        Value "v_wheel_R04"
+       }
+      }
+     }
+     Vector3CinematicTrack "{68830BDAA97AF484}" {
+      TrackName "m_YawPitchRoll"
+      X FloatCinematicTrack "{68830BDAA97AF482}" {
+       TrackName "X"
+      }
+      Y FloatCinematicTrack "{68830BDAA97AF480}" {
+       TrackName "Y"
+       Keyframes {
+        FloatCinematicKeyframe "{68830BDAA97AF48F}" {
+         FrameNumber 2654
+         Value 60
+         InterpMode 1
+        }
+        FloatCinematicKeyframe "{68830BDAA97AF48D}" {
+         FrameNumber 3087
+         Value -60
+         InterpMode 1
+        }
+       }
+      }
+      Z FloatCinematicTrack "{68830BDAA97AF48C}" {
+       TrackName "Z"
+      }
+     }
+     Vector3CinematicTrack "{68830BDAA97AF48B}" {
+      TrackName "m_Position"
+      X FloatCinematicTrack "{68830BDAA97AF48A}" {
+       TrackName "X"
+      }
+      Y FloatCinematicTrack "{68830BDAA97AC673}" {
+       TrackName "Y"
+       Keyframes {
+        FloatCinematicKeyframe "{68830BDAA97AC667}" {
+         FrameNumber 2654
+         Value -0.15
+        }
+       }
+      }
+      Z FloatCinematicTrack "{68830BDAA97AC662}" {
+       TrackName "Z"
+      }
+     }
+    }
+   }
   }
   Categories {
    CinematicTrackCategory "{687D5B1FCC9485DF}" {
@@ -7922,6 +8320,144 @@ DecalEntity : "{3BD66CDD309673DB}Prefabs/Decals/Blood/BloodStain_Drops_01.et" {
 }
 $grp Vehicle : "{447CFE8D73F95C3E}Prefabs/Vehicles/Wheeled/BTR70/BTR70_AFRF.et" {
  BTR {
+  components {
+   SCR_VehicleSoundComponent "{55C2E66AD4EF2CA6}" {
+    Enabled 0
+   }
+   AIKnowledgeComponent "{6120C53097494C76}" {
+    Enabled 0
+   }
+   ChimeraAIPathfindingComponent "{5676B7807269CA5B}" {
+    Enabled 0
+   }
+   ColliderHistoryComponent "{566B1CF0D1349A01}" {
+    Enabled 0
+   }
+   ControllersManagerComponent "{3524A75DA7DAC1AD}" {
+    Enabled 0
+   }
+   RHS_GroupMaterialController "{65151D74DAFD4445}" {
+    Enabled 0
+   }
+   RHS_RadioSourceComponent "{6226D410EB309BA9}" {
+    Enabled 0
+   }
+   RigidBody "{51DAA09FECF52BBF}" {
+    Enabled 0
+   }
+   SCR_AIVehicleUsageComponent "{60E4E37C467714E8}" {
+    Enabled 0
+   }
+   SCR_BaseCompartmentManagerComponent "{20FB66C5DCB8DF72}" {
+    Enabled 0
+   }
+   SCR_BaseLockComponent "{54D6FBC0EA806FE5}" {
+    Enabled 0
+   }
+   SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+    Enabled 0
+   }
+   SCR_FuelConsumptionComponent "{512CC5B0F07DA8F9}" {
+    Enabled 0
+   }
+   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+    Enabled 0
+   }
+   SCR_ImpactEffectComponent "{5EFCAAC9739EAE6E}" {
+    Enabled 0
+   }
+   SCR_MotorExhaustEffectGeneralComponent "{54A2A290B157C015}" {
+    Enabled 0
+   }
+   SCR_ResourceComponent "{5D82E3B95C5050B1}" {
+    Enabled 0
+   }
+   SCR_UniversalInventoryStorageComponent "{59168B38F20DFF74}" {
+    Enabled 0
+   }
+   SCR_VehicleBuoyancyComponent "{5ECC936F0C77E390}" {
+    Enabled 0
+   }
+   SCR_VehicleCameraDataComponent "{216DA82C75CDD94B}" {
+    Enabled 0
+   }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    Enabled 0
+   }
+   SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+    Enabled 0
+   }
+   SCR_VehicleSpawnProtectionComponent "{54D6FBC0CE49F6D9}" {
+    Enabled 0
+   }
+   SCR_WheeledDamageManagerComponent "{141326E9FD94FE40}" {
+    Enabled 0
+   }
+   TF_EngineSmokeGeneratorComponent "{663A9C442254245B}" {
+    Enabled 0
+   }
+   VehicleLightPortalComponent "{6314F77065A3B145}" {
+    Enabled 0
+   }
+   VehicleWheeledSimulation "{731B26FCA2F19855}" {
+    Enabled 0
+   }
+   BaseFlattenGrassComponent "{55FCDD8048D3AE17}" {
+    Enabled 0
+   }
+   BaseVehicleNodeComponent "{20FB66C5B2237133}" {
+    Enabled 0
+    components {
+     ControllersManagerComponent "{20FB66C5C1BE9DA0}" {
+      Enabled 0
+     }
+     SCR_BaseHUDComponent "{37C2676694790BC7}" {
+      Enabled 0
+     }
+     SCR_CarControllerComponent "{20FB66C5BC92275B}" {
+      Enabled 0
+     }
+    }
+   }
+   ChimeraAIVehicleControlComponent "{61C2E46781A66E82}" {
+    Enabled 0
+    components {
+     AICarMovementComponent "{61C2E46796C28D80}" {
+      Enabled 0
+     }
+    }
+   }
+   SCR_VehiclePerceivableComponent "{566CD04B8A6107DD}" {
+    Enabled 0
+   }
+   CarProcAnimComponent "{A201E6A6F82F2CDA}" {
+    Enabled 0
+   }
+   WCS_Armament_GroundVehicleInfraredEmitterComponent "{62B0B51C54CF7AA5}" {
+    Enabled 0
+   }
+   WCS_Armament_RadarReflectorComponent "{62DF1E77862863F8}" {
+    Enabled 0
+   }
+   WCS_Armament_VehicleCameraComponent "{633404F58AC5AD04}" {
+    Enabled 0
+   }
+   SCR_VehicleInventoryStorageManagerComponent "{591056FA3B752FE6}" {
+    Enabled 0
+   }
+   ActionsManagerComponent "{C97BE5489221AE18}" {
+    Enabled 0
+   }
+   VehicleAnimationComponent "{50B803EAA459B0AF}" {
+    Enabled 0
+   }
+   VehicleGamepadEffectsManagerComponent "{61E2E297F9B95CA6}" {
+    Enabled 0
+   }
+   NwkCarMovementComponent "{5D6CA5AFEC980F35}" {
+    Enabled 0
+   }
+  }
   coords 7820.995 40.494 2823.229
   angles 5.984 153.434 0
  }
@@ -8166,6 +8702,139 @@ $grp Vehicle : "{AF950919C81D91B4}Prefabs/Vehicles/Helicopters/AH6M/MH6M.et" {
   angles 0 20.511 0
  }
  MH2 {
+  components {
+   SCR_HelicopterSoundComponent "{5A7CE769E7A9C43E}" {
+    Enabled 0
+   }
+   AH6M_ArtificialHorizonDisplayComponent "{65F33DDDFEEE3216}" {
+    Enabled 0
+   }
+   AIKnowledgeComponent "{6120C53097494C76}" {
+    Enabled 0
+   }
+   AKI_TorqueDisplayComponent "{6660EE14E59F75BE}" {
+    Enabled 0
+   }
+   ChimeraAIPathfindingComponent "{5676B7807269CA5B}" {
+    Enabled 0
+   }
+   ClimbingDataComponent "{5E3CE2A2CFB4E4B6}" {
+    Enabled 0
+   }
+   ColliderHistoryComponent "{566B1CF0D1349A01}" {
+    Enabled 0
+   }
+   ControllersManagerComponent "{3524A75DA7DAC1AD}" {
+    Enabled 0
+   }
+   MH6M_AmmoDisplayComponent "{65F48EDC93FEE39F}" {
+    Enabled 0
+   }
+   RHS_RadioSourceComponent "{6226D410EB309BA9}" {
+    Enabled 0
+   }
+   RigidBody "{51DAA09FECF52BBF}" {
+    Enabled 0
+   }
+   SCR_AIVehicleUsageComponent "{60E4E37C467714E8}" {
+    Enabled 0
+   }
+   SCR_BaseCompartmentManagerComponent "{20FB66C5DCB8DF72}" {
+    Enabled 0
+   }
+   SCR_BaseEffectManagerComponent "{629CB279425975B4}" {
+    Enabled 0
+   }
+   SCR_BaseLockComponent "{54D6FBC0EA806FE5}" {
+    Enabled 0
+   }
+   SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+    Enabled 0
+   }
+   SCR_FuelConsumptionComponent "{629CB2794259757B}" {
+    Enabled 0
+   }
+   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+    Enabled 0
+   }
+   SCR_HelicopterDamageManagerComponent "{141326E9FD94FE40}" {
+    Enabled 0
+   }
+   SCR_ImpactEffectComponent "{5EFCAAC9739EAE6E}" {
+    Enabled 0
+   }
+   SCR_UniversalInventoryStorageComponent "{629CB27942597510}" {
+    Enabled 0
+   }
+   SCR_VehicleBuoyancyComponent "{629CB27942597535}" {
+    Enabled 0
+   }
+   SCR_VehicleCameraDataComponent "{216DA82C75CDD94B}" {
+    Enabled 0
+   }
+   SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+    Enabled 0
+   }
+   SCR_VehicleSpawnProtectionComponent "{54D6FBC0CE49F6D9}" {
+    Enabled 0
+   }
+   VehicleHelicopterSimulation "{51FAEE57F7DA270E}" {
+    Enabled 0
+   }
+   BaseFlattenGrassComponent "{55FCDD8048D3AE17}" {
+    Enabled 0
+   }
+   BaseVehicleNodeComponent "{57DA667544C3090A}" {
+    Enabled 0
+    components {
+     BaseHUDComponent "{50F09A38B4352300}" {
+      Enabled 0
+     }
+     BaseWeaponManagerComponent "{57DA667544C3550C}" {
+      Enabled 0
+     }
+     ControllersManagerComponent "{57DA667544C35511}" {
+      Enabled 0
+     }
+     HelicopterAutopilotHelperComponent "{57DA667544C34502}" {
+      Enabled 0
+     }
+     SCR_HelicopterControllerComponent "{5CB0B40B1BD943AB}" {
+      Enabled 0
+     }
+    }
+   }
+   SCR_VehiclePerceivableComponent "{566CD04B8A6107DD}" {
+    Enabled 0
+   }
+   VehicleProcAnimComponent "{76A3E713CE84D72F}" {
+    Enabled 0
+   }
+   WCS_Armament_AircraftInfraredEmitterComponent "{62B0B51C741777DC}" {
+    Enabled 0
+   }
+   WCS_Armament_DispenserManagerComponent "{62BB2802261D12F2}" {
+    Enabled 0
+   }
+   WCS_Armament_MWSComponent "{62DEE63BEA26FBED}" {
+    Enabled 0
+   }
+   SCR_VehicleInventoryStorageManagerComponent "{591056FA3B752FE6}" {
+    Enabled 0
+   }
+   ActionsManagerComponent "{C97BE5489221AE18}" {
+    Enabled 0
+   }
+   VehicleAnimationComponent "{50B80BCCBF0B33C8}" {
+    Enabled 0
+   }
+   VehicleGamepadEffectsManagerComponent "{61E2E297F9B95CA6}" {
+    Enabled 0
+   }
+   NwkHeliMovementComponent "{5D6CA5AFEC980F35}" {
+    Enabled 0
+   }
+  }
   coords 9762.599 160.779 1986.013
   angles 0 -66.527 0
   {
@@ -8217,6 +8886,139 @@ $grp Vehicle : "{AF950919C81D91B4}Prefabs/Vehicles/Helicopters/AH6M/MH6M.et" {
   }
  }
  MH3 {
+  components {
+   SCR_HelicopterSoundComponent "{5A7CE769E7A9C43E}" {
+    Enabled 0
+   }
+   AH6M_ArtificialHorizonDisplayComponent "{65F33DDDFEEE3216}" {
+    Enabled 0
+   }
+   AIKnowledgeComponent "{6120C53097494C76}" {
+    Enabled 0
+   }
+   AKI_TorqueDisplayComponent "{6660EE14E59F75BE}" {
+    Enabled 0
+   }
+   ChimeraAIPathfindingComponent "{5676B7807269CA5B}" {
+    Enabled 0
+   }
+   ClimbingDataComponent "{5E3CE2A2CFB4E4B6}" {
+    Enabled 0
+   }
+   ColliderHistoryComponent "{566B1CF0D1349A01}" {
+    Enabled 0
+   }
+   ControllersManagerComponent "{3524A75DA7DAC1AD}" {
+    Enabled 0
+   }
+   MH6M_AmmoDisplayComponent "{65F48EDC93FEE39F}" {
+    Enabled 0
+   }
+   RHS_RadioSourceComponent "{6226D410EB309BA9}" {
+    Enabled 0
+   }
+   RigidBody "{51DAA09FECF52BBF}" {
+    Enabled 0
+   }
+   SCR_AIVehicleUsageComponent "{60E4E37C467714E8}" {
+    Enabled 0
+   }
+   SCR_BaseCompartmentManagerComponent "{20FB66C5DCB8DF72}" {
+    Enabled 0
+   }
+   SCR_BaseEffectManagerComponent "{629CB279425975B4}" {
+    Enabled 0
+   }
+   SCR_BaseLockComponent "{54D6FBC0EA806FE5}" {
+    Enabled 0
+   }
+   SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+    Enabled 0
+   }
+   SCR_FuelConsumptionComponent "{629CB2794259757B}" {
+    Enabled 0
+   }
+   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+    Enabled 0
+   }
+   SCR_HelicopterDamageManagerComponent "{141326E9FD94FE40}" {
+    Enabled 0
+   }
+   SCR_ImpactEffectComponent "{5EFCAAC9739EAE6E}" {
+    Enabled 0
+   }
+   SCR_UniversalInventoryStorageComponent "{629CB27942597510}" {
+    Enabled 0
+   }
+   SCR_VehicleBuoyancyComponent "{629CB27942597535}" {
+    Enabled 0
+   }
+   SCR_VehicleCameraDataComponent "{216DA82C75CDD94B}" {
+    Enabled 0
+   }
+   SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+    Enabled 0
+   }
+   SCR_VehicleSpawnProtectionComponent "{54D6FBC0CE49F6D9}" {
+    Enabled 0
+   }
+   VehicleHelicopterSimulation "{51FAEE57F7DA270E}" {
+    Enabled 0
+   }
+   BaseFlattenGrassComponent "{55FCDD8048D3AE17}" {
+    Enabled 0
+   }
+   BaseVehicleNodeComponent "{57DA667544C3090A}" {
+    Enabled 0
+    components {
+     BaseHUDComponent "{50F09A38B4352300}" {
+      Enabled 0
+     }
+     BaseWeaponManagerComponent "{57DA667544C3550C}" {
+      Enabled 0
+     }
+     ControllersManagerComponent "{57DA667544C35511}" {
+      Enabled 0
+     }
+     HelicopterAutopilotHelperComponent "{57DA667544C34502}" {
+      Enabled 0
+     }
+     SCR_HelicopterControllerComponent "{5CB0B40B1BD943AB}" {
+      Enabled 0
+     }
+    }
+   }
+   SCR_VehiclePerceivableComponent "{566CD04B8A6107DD}" {
+    Enabled 0
+   }
+   VehicleProcAnimComponent "{76A3E713CE84D72F}" {
+    Enabled 0
+   }
+   WCS_Armament_AircraftInfraredEmitterComponent "{62B0B51C741777DC}" {
+    Enabled 0
+   }
+   WCS_Armament_DispenserManagerComponent "{62BB2802261D12F2}" {
+    Enabled 0
+   }
+   WCS_Armament_MWSComponent "{62DEE63BEA26FBED}" {
+    Enabled 0
+   }
+   SCR_VehicleInventoryStorageManagerComponent "{591056FA3B752FE6}" {
+    Enabled 0
+   }
+   ActionsManagerComponent "{C97BE5489221AE18}" {
+    Enabled 0
+   }
+   VehicleAnimationComponent "{50B80BCCBF0B33C8}" {
+    Enabled 0
+   }
+   VehicleGamepadEffectsManagerComponent "{61E2E297F9B95CA6}" {
+    Enabled 0
+   }
+   NwkHeliMovementComponent "{5D6CA5AFEC980F35}" {
+    Enabled 0
+   }
+  }
   coords 9796.039 160.779 1995.865
   angles 0 -66.527 0
   {
