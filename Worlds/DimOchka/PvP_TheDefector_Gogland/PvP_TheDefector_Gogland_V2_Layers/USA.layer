@@ -126,48 +126,6 @@ SCR_AIGroup : "{4A02B745F553821E}Prefabs/Groups/BLUFOR/drg_USAF_CompanyHQ.et" {
  coords 1230.262 3 5050.832
  angles 0 32.39 0
 }
-GenericEntity : "{647F0942FB2563E6}Prefabs/Misc/Laptop/Military_Laptop.et" {
- components {
-  MeshObject "{5CCCC0EC0625E45E}" {
-   Object "{8C8D2EF181A72B14}Assets/Props/Civilian/Suitcase_01/Suitcase_01.xob"
-  }
-  SCR_UniversalInventoryStorageComponent "{5E4E8A7AD05A2F1D}" {
-   Attributes SCR_ItemAttributeCollection "{5E4E8A7B47FC0CE7}" {
-    ItemDisplayName SCR_InventoryUIInfo "{5222EB4D07D865FA}" {
-     Name "#AR-EditableEntity_Suitcase_01_Name"
-     Description "Чемодан, содержащий в себе различную полезную информацию"
-    }
-    ItemAnimationAttributes ItemAnimationAttributes "{5E02C300D46C6FF3}" {
-     HandAdditiveRotation 0 0 0
-     HandAdditiveTranslation 0 -0.21 -0.03
-    }
-    CustomAttributes {
-     PreviewRenderAttributes "{5E02B490B1363B05}" {
-      PreviewModel "{8C8D2EF181A72B14}Assets/Props/Civilian/Suitcase_01/Suitcase_01.xob"
-     }
-    }
-   }
-  }
- }
- coords 6796.438 116.781 2939.902
- {
-  PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
-   coords 0 0 0
-   angles 0 90 0
-   m_sImageSetGlow "{E23427CAC80DA8B7}UI/Textures/Icons/icons_mapMarkersUI.imageset"
-   m_MarkerColor 0.502 0 0 1
-   m_sQuadName "point-of-interest"
-   m_fWorldSize 25
-   m_sDescription "Кейс"
-   m_aVisibleForFactions {
-    "RHS_USAF"
-    "RHS_AFRF"
-    "CIV"
-   }
-   m_bVisibleForEmptyFaction 1
-  }
- }
-}
 Vehicle S105_green1 : "{AD80FB47D868C775}Prefabs/Vehicles/Wheeled/S105/S105_green.et" {
  coords 6669.054 138.187 2865.1
  angles 0 -180 0
