@@ -6698,100 +6698,6 @@ CinematicEntity KINZO {
      }
     }
    }
-   CustomCinematicTrack "{687E0AF167B9857A}" {
-    TrackName "BTR"
-    ClassName "VehicleCinematicTrack"
-    ChildTracks {
-     BooleanCinematicTrack "{687E0AF167B981C1}" {
-      TrackName "m_bStartEngine"
-      Keyframes {
-       BooleanCinematicKeyframe "{687E0AF163FD208B}" {
-        FrameNumber 2654
-        Value 1
-       }
-       BooleanCinematicKeyframe "{687E0AC13FD8719F}" {
-        FrameNumber 3805
-        Value 0
-       }
-      }
-     }
-     FloatCinematicTrack "{687E0AF167B98F8C}" {
-      TrackName "m_fEfficiency"
-      Keyframes {
-       FloatCinematicKeyframe "{687E0AC13E17BFAA}" {
-        FrameNumber 3805
-        Value 1
-       }
-       FloatCinematicKeyframe "{687E0AC13ADB90AB}" {
-        FrameNumber 4799
-        Value 0
-       }
-      }
-     }
-     FloatCinematicTrack "{687E0AF167B98E32}" {
-      TrackName "m_fSteering"
-     }
-     IntegerCinematicTrack "{687E0AF167B98EBB}" {
-      TrackName "m_fGear"
-      Keyframes {
-       IntegerCinematicKeyframe "{687E0AF162BBC1F3}" {
-        FrameNumber 2654
-        Value 4
-       }
-      }
-     }
-     FloatCinematicTrack "{687E0AF167B98D38}" {
-      TrackName "m_fClutch"
-     }
-     FloatCinematicTrack "{687E0AF167B98DBE}" {
-      TrackName "m_fBreak"
-     }
-     BooleanCinematicTrack "{687E0AF167B98C20}" {
-      TrackName "m_bHandBrake"
-     }
-     BooleanCinematicTrack "{687E0AF167B98CA1}" {
-      TrackName "m_bLightsOn"
-      Keyframes {
-       BooleanCinematicKeyframe "{687E0AF097846383}" {
-        FrameNumber 2654
-        Value 0
-       }
-      }
-     }
-     FloatCinematicTrack "{687E0AF167B98B3C}" {
-      TrackName "m_fThrottle"
-      Keyframes {
-       FloatCinematicKeyframe "{687E0AF16C3DD940}" {
-        FrameNumber 2654
-        Value 0.8
-       }
-       FloatCinematicKeyframe "{687E0AC1387D93A0}" {
-        FrameNumber 3805
-        Value 0.8
-       }
-       FloatCinematicKeyframe "{687E0AC145F11083}" {
-        FrameNumber 4799
-        Value 0
-       }
-      }
-     }
-     BooleanCinematicTrack "{687E0AF167B98BBE}" {
-      TrackName "m_bTurretControl"
-     }
-     BooleanCinematicTrack "{687E0AF167B98A25}" {
-      TrackName "m_bTurretShot"
-     }
-     FloatCinematicTrack "{687E0AF167B98AA2}" {
-      TrackName "m_fTurretLeftRight"
-     }
-     FloatCinematicTrack "{687E0AF167B98921}" {
-      TrackName "m_fTurretDownUp"
-     }
-     EventCinematicTrack "{687E0AF167B9941C}" {
-      TrackName "insertGunner"
-     }
-    }
-   }
    CustomCinematicTrack "{687E0AF17E8BE8E3}" {
     TrackName "BTR2"
     ClassName "VehicleCinematicTrack"
@@ -7733,6 +7639,409 @@ CinematicEntity KINZO {
      }
     }
    }
+   CustomCinematicTrack "{68830BDBFF3046CB}" {
+    TrackName "BTR_3"
+    ClassName "SlotBoneAnimationCinematicTrack"
+    ChildTracks {
+     StringCinematicTrack "{68830BDBFF303AD6}" {
+      TrackName "m_sSlotName"
+      Keyframes {
+       StringCinematicKeyframe "{68830BD188208653}" {
+        FrameNumber 2654
+        Value ""
+       }
+      }
+     }
+     StringCinematicTrack "{68830BDBFF303C43}" {
+      TrackName "m_sBoneName"
+      Keyframes {
+       StringCinematicKeyframe "{68830BD0B3BC0E70}" {
+        FrameNumber 2654
+        Value "v_wheel_L01"
+       }
+      }
+     }
+     Vector3CinematicTrack "{68830BDBFF303C86}" {
+      TrackName "m_YawPitchRoll"
+      X FloatCinematicTrack "{68830BDBFF303F77}" {
+       TrackName "X"
+      }
+      Y FloatCinematicTrack "{68830BDBFF303F6F}" {
+       TrackName "Y"
+       Keyframes {
+        FloatCinematicKeyframe "{68830BDA3FA76076}" {
+         FrameNumber 2654
+         Value 60
+         InterpMode 1
+        }
+        FloatCinematicKeyframe "{68830BDA3D229DCE}" {
+         FrameNumber 3087
+         Value -60
+         InterpMode 1
+        }
+       }
+      }
+      Z FloatCinematicTrack "{68830BDBFF303F6B}" {
+       TrackName "Z"
+      }
+     }
+     Vector3CinematicTrack "{68830BDBFF303FDC}" {
+      TrackName "m_Position"
+      X FloatCinematicTrack "{68830BDBFF303FD9}" {
+       TrackName "X"
+      }
+      Y FloatCinematicTrack "{68830BDBFF303FD3}" {
+       TrackName "Y"
+      }
+      Z FloatCinematicTrack "{68830BDBFF303FCC}" {
+       TrackName "Z"
+      }
+     }
+    }
+   }
+   CustomCinematicTrack "{68830BDA99B264E7}" {
+    TrackName "BTR_4"
+    ClassName "SlotBoneAnimationCinematicTrack"
+    ChildTracks {
+     StringCinematicTrack "{68830BDA99B264E8}" {
+      TrackName "m_sSlotName"
+     }
+     StringCinematicTrack "{68830BDA99B264F5}" {
+      TrackName "m_sBoneName"
+      Keyframes {
+       StringCinematicKeyframe "{68830BD0BDF945A8}" {
+        FrameNumber 2654
+        Value "v_wheel_L02"
+       }
+      }
+     }
+     Vector3CinematicTrack "{68830BDA99B264FE}" {
+      TrackName "m_YawPitchRoll"
+      X FloatCinematicTrack "{68830BDA99B264FD}" {
+       TrackName "X"
+      }
+      Y FloatCinematicTrack "{68830BDA99B264FA}" {
+       TrackName "Y"
+       Keyframes {
+        FloatCinematicKeyframe "{68830BDA99B26486}" {
+         FrameNumber 2654
+         Value 60
+         InterpMode 1
+        }
+        FloatCinematicKeyframe "{68830BDA99B26484}" {
+         FrameNumber 3087
+         Value -60
+         InterpMode 1
+        }
+       }
+      }
+      Z FloatCinematicTrack "{68830BDA99B26482}" {
+       TrackName "Z"
+      }
+     }
+     Vector3CinematicTrack "{68830BDA99B26480}" {
+      TrackName "m_Position"
+      X FloatCinematicTrack "{68830BDA99B199AD}" {
+       TrackName "X"
+      }
+      Y FloatCinematicTrack "{68830BDA99B199A0}" {
+       TrackName "Y"
+      }
+      Z FloatCinematicTrack "{68830BDA99B199B2}" {
+       TrackName "Z"
+      }
+     }
+    }
+   }
+   CustomCinematicTrack "{68830BDA47A95920}" {
+    TrackName "BTR_5"
+    ClassName "SlotBoneAnimationCinematicTrack"
+    ChildTracks {
+     StringCinematicTrack "{68830BDA47A95915}" {
+      TrackName "m_sSlotName"
+     }
+     StringCinematicTrack "{68830BDA47A95910}" {
+      TrackName "m_sBoneName"
+      Keyframes {
+       StringCinematicKeyframe "{68830BD0BFEE336F}" {
+        FrameNumber 2654
+        Value "v_wheel_L03"
+       }
+      }
+     }
+     Vector3CinematicTrack "{68830BDA47A9590C}" {
+      TrackName "m_YawPitchRoll"
+      X FloatCinematicTrack "{68830BDA47A9590B}" {
+       TrackName "X"
+      }
+      Y FloatCinematicTrack "{68830BDA47A95908}" {
+       TrackName "Y"
+       Keyframes {
+        FloatCinematicKeyframe "{68830BDA47A95906}" {
+         FrameNumber 2654
+         Value 60
+         InterpMode 1
+        }
+        FloatCinematicKeyframe "{68830BDA47A95907}" {
+         FrameNumber 3087
+         Value -60
+         InterpMode 1
+        }
+       }
+      }
+      Z FloatCinematicTrack "{68830BDA47A95905}" {
+       TrackName "Z"
+      }
+     }
+     Vector3CinematicTrack "{68830BDA47A95902}" {
+      TrackName "m_Position"
+      X FloatCinematicTrack "{68830BDA47A89CC2}" {
+       TrackName "X"
+      }
+      Y FloatCinematicTrack "{68830BDA47A89CC3}" {
+       TrackName "Y"
+      }
+      Z FloatCinematicTrack "{68830BDA47A89C37}" {
+       TrackName "Z"
+      }
+     }
+    }
+   }
+   CustomCinematicTrack "{68830BDA9819AA4B}" {
+    TrackName "BTR_6"
+    ClassName "SlotBoneAnimationCinematicTrack"
+    ChildTracks {
+     StringCinematicTrack "{68830BDA9819AA45}" {
+      TrackName "m_sSlotName"
+     }
+     StringCinematicTrack "{68830BDA9819AA5A}" {
+      TrackName "m_sBoneName"
+      Keyframes {
+       StringCinematicKeyframe "{68830BD0B9B234DF}" {
+        FrameNumber 2654
+        Value "v_wheel_L04"
+       }
+      }
+     }
+     Vector3CinematicTrack "{68830BDA9819AA5E}" {
+      TrackName "m_YawPitchRoll"
+      X FloatCinematicTrack "{68830BDA9819AA5C}" {
+       TrackName "X"
+      }
+      Y FloatCinematicTrack "{68830BDA9819E819}" {
+       TrackName "Y"
+       Keyframes {
+        FloatCinematicKeyframe "{68830BDA9819E817}" {
+         FrameNumber 2654
+         Value 60
+         InterpMode 1
+        }
+        FloatCinematicKeyframe "{68830BDA9819E814}" {
+         FrameNumber 3087
+         Value -60
+         InterpMode 1
+        }
+       }
+      }
+      Z FloatCinematicTrack "{68830BDA9819E815}" {
+       TrackName "Z"
+      }
+     }
+     Vector3CinematicTrack "{68830BDA9819E813}" {
+      TrackName "m_Position"
+      X FloatCinematicTrack "{68830BDA9819105A}" {
+       TrackName "X"
+      }
+      Y FloatCinematicTrack "{68830BDA98191059}" {
+       TrackName "Y"
+      }
+      Z FloatCinematicTrack "{68830BDA9819102E}" {
+       TrackName "Z"
+      }
+     }
+    }
+   }
+   CustomCinematicTrack "{68830BDA4C008B2C}" {
+    TrackName "BTR_7"
+    ClassName "SlotBoneAnimationCinematicTrack"
+    ChildTracks {
+     StringCinematicTrack "{68830BDA4C008B25}" {
+      TrackName "m_sSlotName"
+     }
+     StringCinematicTrack "{68830BDA4C008B23}" {
+      TrackName "m_sBoneName"
+      Keyframes {
+       StringCinematicKeyframe "{68830BD0BB6C1908}" {
+        FrameNumber 2654
+        Value "v_wheel_R01"
+       }
+      }
+     }
+     Vector3CinematicTrack "{68830BDA4C008B1A}" {
+      TrackName "m_YawPitchRoll"
+      X FloatCinematicTrack "{68830BDA4C008B18}" {
+       TrackName "X"
+      }
+      Y FloatCinematicTrack "{68830BDA4C008B19}" {
+       TrackName "Y"
+       Keyframes {
+        FloatCinematicKeyframe "{68830BDA4C008B15}" {
+         FrameNumber 2654
+         Value 60
+         InterpMode 1
+        }
+        FloatCinematicKeyframe "{68830BDA4C008B12}" {
+         FrameNumber 3087
+         Value -60
+         InterpMode 1
+        }
+       }
+      }
+      Z FloatCinematicTrack "{68830BDA4C008B13}" {
+       TrackName "Z"
+      }
+     }
+     Vector3CinematicTrack "{68830BDA4C008B10}" {
+      TrackName "m_Position"
+      X FloatCinematicTrack "{68830BDA4C001857}" {
+       TrackName "X"
+      }
+      Y FloatCinematicTrack "{68830BDA4C001856}" {
+       TrackName "Y"
+       Keyframes {
+        FloatCinematicKeyframe "{68830BDA8B6B6786}" {
+         FrameNumber 2654
+         Value -0.15
+         InterpMode 0
+        }
+       }
+      }
+      Z FloatCinematicTrack "{68830BDA4C00184E}" {
+       TrackName "Z"
+      }
+     }
+    }
+   }
+   CustomCinematicTrack "{68830BDA484DABD6}" {
+    TrackName "BTR_8"
+    ClassName "SlotBoneAnimationCinematicTrack"
+    ChildTracks {
+     StringCinematicTrack "{68830BDA484DABC6}" {
+      TrackName "m_sSlotName"
+     }
+     StringCinematicTrack "{68830BDA484DABBB}" {
+      TrackName "m_sBoneName"
+      Keyframes {
+       StringCinematicKeyframe "{68830BD0C7E44418}" {
+        FrameNumber 2654
+        Value "v_wheel_R02"
+       }
+      }
+     }
+     Vector3CinematicTrack "{68830BDA484DABBC}" {
+      TrackName "m_YawPitchRoll"
+      X FloatCinematicTrack "{68830BDA484DABBE}" {
+       TrackName "X"
+      }
+      Y FloatCinematicTrack "{68830BDA484DABB1}" {
+       TrackName "Y"
+       Keyframes {
+        FloatCinematicKeyframe "{68830BDA484DABB0}" {
+         FrameNumber 2654
+         Value 60
+         InterpMode 1
+        }
+        FloatCinematicKeyframe "{68830BDA484DABB3}" {
+         FrameNumber 3087
+         Value -60
+         InterpMode 1
+        }
+       }
+      }
+      Z FloatCinematicTrack "{68830BDA484DABB2}" {
+       TrackName "Z"
+      }
+     }
+     Vector3CinematicTrack "{68830BDA484DABB5}" {
+      TrackName "m_Position"
+      X FloatCinematicTrack "{68830BDA484DCF0A}" {
+       TrackName "X"
+      }
+      Y FloatCinematicTrack "{68830BDA484DCF0B}" {
+       TrackName "Y"
+       Keyframes {
+        FloatCinematicKeyframe "{68830BDA945A8153}" {
+         FrameNumber 2654
+         Value -0.15
+        }
+       }
+      }
+      Z FloatCinematicTrack "{68830BDA484DCF1F}" {
+       TrackName "Z"
+      }
+     }
+    }
+   }
+   CustomCinematicTrack "{68830BDAA97AF4B6}" {
+    TrackName "BTR_9"
+    ClassName "SlotBoneAnimationCinematicTrack"
+    ChildTracks {
+     StringCinematicTrack "{68830BDAA97AF4BB}" {
+      TrackName "m_sSlotName"
+     }
+     StringCinematicTrack "{68830BDAA97AF4B8}" {
+      TrackName "m_sBoneName"
+      Keyframes {
+       StringCinematicKeyframe "{68830BD0C0C7B876}" {
+        FrameNumber 2654
+        Value "v_wheel_R04"
+       }
+      }
+     }
+     Vector3CinematicTrack "{68830BDAA97AF484}" {
+      TrackName "m_YawPitchRoll"
+      X FloatCinematicTrack "{68830BDAA97AF482}" {
+       TrackName "X"
+      }
+      Y FloatCinematicTrack "{68830BDAA97AF480}" {
+       TrackName "Y"
+       Keyframes {
+        FloatCinematicKeyframe "{68830BDAA97AF48F}" {
+         FrameNumber 2654
+         Value 60
+         InterpMode 1
+        }
+        FloatCinematicKeyframe "{68830BDAA97AF48D}" {
+         FrameNumber 3087
+         Value -60
+         InterpMode 1
+        }
+       }
+      }
+      Z FloatCinematicTrack "{68830BDAA97AF48C}" {
+       TrackName "Z"
+      }
+     }
+     Vector3CinematicTrack "{68830BDAA97AF48B}" {
+      TrackName "m_Position"
+      X FloatCinematicTrack "{68830BDAA97AF48A}" {
+       TrackName "X"
+      }
+      Y FloatCinematicTrack "{68830BDAA97AC673}" {
+       TrackName "Y"
+       Keyframes {
+        FloatCinematicKeyframe "{68830BDAA97AC667}" {
+         FrameNumber 2654
+         Value -0.15
+        }
+       }
+      }
+      Z FloatCinematicTrack "{68830BDAA97AC662}" {
+       TrackName "Z"
+      }
+     }
+    }
+   }
   }
   Categories {
    CinematicTrackCategory "{687D5B1FCC9485DF}" {
@@ -7921,27 +8230,9 @@ DecalEntity : "{3BD66CDD309673DB}Prefabs/Decals/Blood/BloodStain_Drops_01.et" {
  angles -90 -180 -180
  scale 2
 }
-$grp Vehicle : "{447CFE8D73F95C3E}Prefabs/Vehicles/Wheeled/BTR70/BTR70_AFRF.et" {
- BTR {
-  components {
-   RigidBody "{51DAA09FECF52BBF}" {
-    SimState Collision
-   }
-   SCR_PowerComponent "{55E90D989DD9B211}" {
-    Enabled 1
-   }
-   BaseVehicleNodeComponent "{20FB66C5B2237133}" {
-   }
-   ChimeraAIVehicleControlComponent "{61C2E46781A66E82}" {
-   }
-  }
-  coords 7820.995 40.494 2823.229
-  angles 5.984 153.434 0
- }
- BTR2 {
-  coords 7811.359 38.235 2842.5
-  angles 5.984 153.434 0
- }
+Vehicle BTR2 : "{447CFE8D73F95C3E}Prefabs/Vehicles/Wheeled/BTR70/BTR70_AFRF.et" {
+ coords 7811.359 38.235 2842.5
+ angles 5.984 153.434 0
 }
 GenericEntity : "{58D920FC3C3BEA9A}PrefabsEditable/Auto/Props/Garbage/Military/Food/E_GarbageFoodMilitaryUSSR_01.et" {
  coords 6703.937 135.728 2835.835
