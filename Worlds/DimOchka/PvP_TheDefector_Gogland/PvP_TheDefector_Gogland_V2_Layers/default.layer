@@ -19,3 +19,213 @@ PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_Game
  coords 6355.133 65.176 3078.521
  m_bShowCutscene 1
 }
+$grp GenericEntity {
+ MH3 {
+  components {
+   MeshObject "{688320EFF4EDBD76}" {
+    Object "{AFE9E8BDA812C0DD}Assets/Vehicles/Helicopters/AH6M/MH6M_Body.xob"
+   }
+  }
+  coords 8285.844 6.243 2668.526
+  {
+   $grp GenericEntity {
+    MH3_1 {
+     components {
+      MeshObject "{688320E81D49984B}" {
+       Object "{8A3A2F47C9200C8C}Assets/Vehicles/Helicopters/AH6M/VehParts/Rotor/Rotor_Top_Blur.xob"
+      }
+      Hierarchy "{688320E8255F9DE2}" {
+       PivotID "v_rotor"
+      }
+     }
+     coords 0 -0.406 -2.295
+     angles -90 180 -180
+    }
+    {
+     components {
+      MeshObject "{688320E842108A6F}" {
+       Object "{E2644F4C973B52FF}Assets/Vehicles/Helicopters/AH6M/VehParts/Seats_Passenger.xob"
+      }
+      Hierarchy "{688320E84BC93652}" {
+       PivotID "v_body"
+      }
+     }
+     coords 0 0.184 0
+     angles -90 180 -180
+    }
+    {
+     components {
+      MeshObject "{688320E85CFA6A6F}" {
+       Object "{F0F29A2FE1897A11}Assets/Vehicles/Helicopters/AH6M/VehParts/MH6M_Tail.xob"
+      }
+      Hierarchy "{688320E858C380C1}" {
+       PivotID "v_tail_rotor"
+      }
+     }
+     coords 1.568 -5.13 -0.42
+     angles -90 105 180
+    }
+    {
+     components {
+      MeshObject "{688320E88B75F919}" {
+       Object "{F568F5274BAC6FA5}Assets/Vehicles/Helicopters/AH6M/VehParts/Rotor/Rotor_Tail_Blur.xob"
+      }
+      Hierarchy "{688320E896471C2F}" {
+       PivotID "v_body"
+      }
+     }
+     coords 0.056 4.289 7.403
+    }
+   }
+   SCR_ChimeraCharacter D5 : "{33DBB8A953072E91}Prefabs/CinematicMissions/TheDefector_PvP/USoldierMil2.et" {
+    components {
+     Hierarchy "{687E0AECF68C8540}" {
+      PivotID "v_copilot"
+     }
+    }
+    coords -0.563 -0.701 -0.552
+    angles 0 -94.092 0
+   }
+   SCR_ChimeraCharacter D4 : "{5F8F8C49EFC3A1BF}Prefabs/CinematicMissions/TheDefector_PvP/USoldierMil1.et" {
+    components {
+     Hierarchy "{687E0AEC851D156C}" {
+      PivotID "v_copilot"
+     }
+    }
+    coords -0.632 -0.664 0.094
+    angles 0 -90 0
+   }
+   $grp SCR_ChimeraCharacter : "{67EBD04AEF9960BA}Prefabs/CinematicMissions/TheDefector_PvP/USPILOT1.et" {
+    C3 {
+     components {
+      Hierarchy "{687E0AED93E50166}" {
+       PivotID "v_pilot"
+      }
+     }
+     coords 0 0 0
+    }
+    C4 {
+     components {
+      Hierarchy "{687E0AED93E50166}" {
+       PivotID "v_copilot"
+      }
+     }
+     coords 0 0 0
+    }
+   }
+   SCR_ChimeraCharacter D6 : "{D647F4505FE2B9FA}Prefabs/CinematicMissions/TheDefector_PvP/USoldierMil3.et" {
+    components {
+     Hierarchy "{687E0AEF1CEA8B96}" {
+      PivotID "v_copilot"
+     }
+    }
+    coords -0.553 -0.71 -1.087
+    angles 0 -135 0
+   }
+  }
+ }
+ MH2 {
+  components {
+   MeshObject "{688320EFF4EDBD76}" {
+    Object "{AFE9E8BDA812C0DD}Assets/Vehicles/Helicopters/AH6M/MH6M_Body.xob"
+   }
+  }
+  coords 8271.915 6.243 2668.476
+  {
+   $grp GenericEntity {
+    MH2_1 {
+     components {
+      MeshObject "{688320E81D49984B}" {
+       Object "{8A3A2F47C9200C8C}Assets/Vehicles/Helicopters/AH6M/VehParts/Rotor/Rotor_Top_Blur.xob"
+      }
+      Hierarchy "{688320E8255F9DE2}" {
+       PivotID "v_rotor"
+      }
+     }
+     coords -0.001 -0.41 -2.311
+     angles -90 180 -180
+    }
+    {
+     components {
+      MeshObject "{688320E842108A6F}" {
+       Object "{E2644F4C973B52FF}Assets/Vehicles/Helicopters/AH6M/VehParts/Seats_Passenger.xob"
+      }
+      Hierarchy "{688320E84BC93652}" {
+       PivotID "v_body"
+      }
+     }
+     coords 0 0.184 0
+     angles -90 180 -180
+    }
+    {
+     components {
+      MeshObject "{688320E85CFA6A6F}" {
+       Object "{F0F29A2FE1897A11}Assets/Vehicles/Helicopters/AH6M/VehParts/MH6M_Tail.xob"
+      }
+      Hierarchy "{688320E858C380C1}" {
+       PivotID "v_tail_rotor"
+      }
+     }
+     coords 1.568 -5.13 -0.42
+     angles -90 105 180
+    }
+    {
+     components {
+      MeshObject "{688320E88B75F919}" {
+       Object "{F568F5274BAC6FA5}Assets/Vehicles/Helicopters/AH6M/VehParts/Rotor/Rotor_Tail_Blur.xob"
+      }
+      Hierarchy "{688320E896471C2F}" {
+       PivotID "v_body"
+      }
+     }
+     coords 0.056 4.289 7.403
+    }
+   }
+   SCR_ChimeraCharacter D2 : "{33DBB8A953072E91}Prefabs/CinematicMissions/TheDefector_PvP/USoldierMil2.et" {
+    components {
+     Hierarchy "{687E0AECF68C8540}" {
+      PivotID "v_copilot"
+     }
+    }
+    coords -0.554 -0.722 -0.556
+    angles 0 -88.056 0
+   }
+   SCR_ChimeraCharacter D : "{5F8F8C49EFC3A1BF}Prefabs/CinematicMissions/TheDefector_PvP/USoldierMil1.et" {
+    components {
+     Hierarchy "{687E0AEC851D156C}" {
+      PivotID "v_copilot"
+     }
+    }
+    coords -0.642 -0.694 0.044
+    angles 0 -46.689 0
+   }
+   $grp SCR_ChimeraCharacter : "{67EBD04AEF9960BA}Prefabs/CinematicMissions/TheDefector_PvP/USPILOT1.et" {
+    C {
+     components {
+      Hierarchy "{687E0AED93E50166}" {
+       PivotID "v_pilot"
+      }
+     }
+     coords 0 0 0
+    }
+    C2 {
+     components {
+      Hierarchy "{687E0AED93E50166}" {
+       PivotID "v_copilot"
+      }
+     }
+     coords 0 0 0
+    }
+   }
+   SCR_ChimeraCharacter D3 : "{D647F4505FE2B9FA}Prefabs/CinematicMissions/TheDefector_PvP/USoldierMil3.et" {
+    components {
+     Hierarchy "{687E0AEF1CEA8B96}" {
+      PivotID "v_copilot"
+     }
+    }
+    coords -0.487 -0.7 -1.101
+    angles 0 -105 0
+   }
+  }
+ }
+}

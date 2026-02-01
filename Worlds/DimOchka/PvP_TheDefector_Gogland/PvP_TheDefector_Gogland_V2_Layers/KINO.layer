@@ -6255,9 +6255,9 @@ CinematicEntity KINZO {
      StringCinematicTrack "{687E0AE0B5927854}" {
       TrackName "m_sSlotName"
       Keyframes {
-       StringCinematicKeyframe "{687E0AE0C512FBDB}" {
+       StringCinematicKeyframe "{688320EA05BD636E}" {
         FrameNumber 1565
-        Value "RotorMain"
+        Value ""
        }
       }
      }
@@ -6317,9 +6317,9 @@ CinematicEntity KINZO {
      StringCinematicTrack "{687E0AE37ED7774B}" {
       TrackName "m_sSlotName"
       Keyframes {
-       StringCinematicKeyframe "{687E0AE37ED77749}" {
+       StringCinematicKeyframe "{688320EA043F88F4}" {
         FrameNumber 1565
-        Value "RotorMain"
+        Value ""
        }
       }
      }
@@ -8464,151 +8464,9 @@ SCR_DestructibleBuildingEntity GUBA : "{99D12A69907148F8}Prefabs/Structures/Hous
   }
  }
 }
-$grp Vehicle : "{AF950919C81D91B4}Prefabs/Vehicles/Helicopters/AH6M/MH6M.et" {
- MH1 {
-  coords 5503.556 123.763 6759.541
-  angles 0 20.511 0
- }
- MH2 {
-  components {
-   AKI_TempScreenDisplay "{62F4E3C73C052EA0}" {
-    Enabled 1
-   }
-   BaseHUDComponent "{53151DD7042F85C7}" {
-    Enabled 1
-   }
-   RigidBody "{51DAA09FECF52BBF}" {
-    SimState Collision
-   }
-   SCR_PowerComponent "{55E90D989DD9B211}" {
-    Enabled 1
-   }
-   BaseVehicleNodeComponent "{57DA667544C3090A}" {
-   }
-   WCS_Armament_RadarReflectorComponent "{62DF1E77862863F8}" {
-    Enabled 1
-   }
-  }
-  coords 9762.599 160.779 1986.013
-  angles 0 -66.527 0
-  {
-   SCR_ChimeraCharacter D2 : "{33DBB8A953072E91}Prefabs/CinematicMissions/TheDefector_PvP/USoldierMil2.et" {
-    components {
-     Hierarchy "{687E0AECF68C8540}" {
-      PivotID "v_copilot"
-     }
-    }
-    coords -0.521 -0.797 -0.585
-    angles 0 -94.541 0
-   }
-   SCR_ChimeraCharacter D : "{5F8F8C49EFC3A1BF}Prefabs/CinematicMissions/TheDefector_PvP/USoldierMil1.et" {
-    components {
-     Hierarchy "{687E0AEC851D156C}" {
-      PivotID "v_copilot"
-     }
-    }
-    coords -0.623 -0.615 0.063
-    angles 0 -73.197 0
-   }
-   $grp SCR_ChimeraCharacter : "{67EBD04AEF9960BA}Prefabs/CinematicMissions/TheDefector_PvP/USPILOT1.et" {
-    C {
-     components {
-      Hierarchy "{687E0AED93E50166}" {
-       PivotID "v_pilot"
-      }
-     }
-     coords 0 0 0
-    }
-    C2 {
-     components {
-      Hierarchy "{687E0AED93E50166}" {
-       PivotID "v_copilot"
-      }
-     }
-     coords 0 0 0
-    }
-   }
-   SCR_ChimeraCharacter D3 : "{D647F4505FE2B9FA}Prefabs/CinematicMissions/TheDefector_PvP/USoldierMil3.et" {
-    components {
-     Hierarchy "{687E0AEF1CEA8B96}" {
-      PivotID "v_copilot"
-     }
-    }
-    coords -0.555 -0.744 -1.174
-    angles 0 -101.226 0
-   }
-  }
- }
- MH3 {
-  components {
-   AKI_TempScreenDisplay "{62F4E3C73C052EA0}" {
-    Enabled 1
-   }
-   BaseHUDComponent "{53151DD7042F85C7}" {
-    Enabled 1
-   }
-   RigidBody "{51DAA09FECF52BBF}" {
-    SimState Collision
-   }
-   SCR_PowerComponent "{55E90D989DD9B211}" {
-    Enabled 1
-   }
-   BaseVehicleNodeComponent "{57DA667544C3090A}" {
-   }
-   WCS_Armament_RadarReflectorComponent "{62DF1E77862863F8}" {
-    Enabled 1
-   }
-  }
-  coords 9796.039 160.779 1995.865
-  angles 0 -66.527 0
-  {
-   SCR_ChimeraCharacter D5 : "{33DBB8A953072E91}Prefabs/CinematicMissions/TheDefector_PvP/USoldierMil2.et" {
-    components {
-     Hierarchy "{687E0AECF68C8540}" {
-      PivotID "v_copilot"
-     }
-    }
-    coords -0.583 -0.692 -0.444
-    angles 0 -95.371 0
-   }
-   SCR_ChimeraCharacter D4 : "{5F8F8C49EFC3A1BF}Prefabs/CinematicMissions/TheDefector_PvP/USoldierMil1.et" {
-    components {
-     Hierarchy "{687E0AEC851D156C}" {
-      PivotID "v_copilot"
-     }
-    }
-    coords -0.603 -0.73 0.016
-    angles 0 -47.711 0
-   }
-   $grp SCR_ChimeraCharacter : "{67EBD04AEF9960BA}Prefabs/CinematicMissions/TheDefector_PvP/USPILOT1.et" {
-    C3 {
-     components {
-      Hierarchy "{687E0AED93E50166}" {
-       PivotID "v_pilot"
-      }
-     }
-     coords 0 0 0
-    }
-    C4 {
-     components {
-      Hierarchy "{687E0AED93E50166}" {
-       PivotID "v_copilot"
-      }
-     }
-     coords 0 0 0
-    }
-   }
-   SCR_ChimeraCharacter D6 : "{D647F4505FE2B9FA}Prefabs/CinematicMissions/TheDefector_PvP/USoldierMil3.et" {
-    components {
-     Hierarchy "{687E0AEF1CEA8B96}" {
-      PivotID "v_copilot"
-     }
-    }
-    coords -0.558 -0.772 -1.133
-    angles 0 -117.645 0
-   }
-  }
- }
+Vehicle MH1 : "{AF950919C81D91B4}Prefabs/Vehicles/Helicopters/AH6M/MH6M.et" {
+ coords 5503.556 123.763 6759.541
+ angles 0 20.511 0
 }
 GenericEntity : "{BB724A13B58925F5}PrefabsEditable/Auto/Props/Garbage/Military/Ammo/E_GarbageAmmunition_USSR_02.et" {
  coords 6706.208 135.79 2835.338
