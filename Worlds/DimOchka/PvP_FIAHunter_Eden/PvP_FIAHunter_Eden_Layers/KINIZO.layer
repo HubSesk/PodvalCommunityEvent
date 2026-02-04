@@ -4517,7 +4517,7 @@ CinematicEntity Film {
      TrackName "Play"
      Keyframes {
       BooleanCinematicKeyframe "{688406733877107C}" {
-       FrameNumber 1021
+       FrameNumber 0
        Value 1
       }
      }
@@ -6493,7 +6493,7 @@ $grp SCR_PrefabDeleterEntity {
   m_fRadius 3
  }
 }
-SCR_ChimeraCharacter B3 : "{002CD04E6E73053C}Prefabs/CinematicMissions/FIAHunter_PvP/Farmer3.et" {
+GenericEntity B3 : "{002CD04E6E73053C}Prefabs/CinematicMissions/FIAHunter_PvP/Farmer3.et" {
  coords 6382.475 90.582 4848.153
  angles 0 -127.888 0
 }
@@ -6544,10 +6544,6 @@ $grp Vehicle : "{259EE7B78C51B624}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469.et" {
   angles 1.934 48.62 -0.512
  }
 }
-SCR_ChimeraCharacter DE3 : "{2CFD3793F9CF229E}Prefabs/CinematicMissions/FIAHunter_PvP/Drey3.et" {
- coords 6372.427 87.835 4865.113
- angles -2.377 -23.668 1.946
-}
 $grp GenericEntity : "{3091168E31EA4734}Prefabs/Structures/Civilian/ClotheslinePole_01.et" {
  {
   coords 6383.066 90.543 4846.136
@@ -6575,18 +6571,13 @@ $grp GenericEntity : "{3091168E31EA4734}Prefabs/Structures/Civilian/ClotheslineP
   }
  }
 }
-SCR_ChimeraCharacter C : "{3D18F5761B1F8C0B}Prefabs/CinematicMissions/FIAHunter_PvP/Farmer4.et" {
- components {
-  AnimationPlayerComponent "{6884067327BC52A5}" {
-   Animation "{744D5733DD15E1CE}anims/anm/Tutorial/Character_anm/npc_instructorC_idle02.anm"
-  }
- }
- coords 6384.055 90.895 4867.207
- angles 0 8.537 0
-}
 SCR_ChimeraCharacter D3 : "{4E234C0579389DAF}Prefabs/CinematicMissions/FIAHunter_PvP/SovietSoldier3.et" {
  coords 6386.333 90.79 4859.18
  angles 0 44.783 0
+}
+SCR_ChimeraCharacter DE : "{537219216773A04C}Prefabs/CinematicMissions/FIAHunter_PvP/NonSoviet4.et" {
+ coords 6373.592 87.886 4866.136
+ angles 0 -18.494 0
 }
 GenericEntity : "{6105032F794BA64B}Prefabs/Props/Civilian/LogChopping_01.et" {
  coords 6361.055 88.729 4835.476
@@ -6622,6 +6613,10 @@ GenericEntity : "{6105032F794BA64B}Prefabs/Props/Civilian/LogChopping_01.et" {
   }
  }
 }
+SCR_ChimeraCharacter DE3 : "{6E463C19121F297B}Prefabs/CinematicMissions/FIAHunter_PvP/NonSoviet3.et" {
+ coords 6372.427 87.835 4865.113
+ angles -2.377 -23.668 1.946
+}
 GenericEntity : "{722CE6FEC39EE896}Prefabs/Weapons/Launchers/RPG22/Launcher_RPG22.et" {
  coords 6265.489 165.152 6467.314
 }
@@ -6642,6 +6637,10 @@ $grp GenericEntity : "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_
  {
   coords 4874.525 115.09 8050.758
  }
+}
+SCR_ChimeraCharacter DE2 : "{8BDA70E01EFABE10}Prefabs/CinematicMissions/FIAHunter_PvP/NonSoviet2.et" {
+ coords 6372.726 87.867 4865.494
+ angles 0 -40.922 0
 }
 $grp GenericEntity : "{8E431002132E51BD}Prefabs/Compositions/Misc/CustomEntities/CompositionDecals/CompositionDecal_Dirt_Footprints_01.et" {
  {
@@ -6732,10 +6731,6 @@ $grp GenericEntity : "{C0F7DD85A86B2900}Prefabs/Weapons/Handguns/PM/Handgun_PM.e
   angles 0 0 -88.445
  }
 }
-SCR_ChimeraCharacter DE2 : "{C9617B6AF52AB5F5}Prefabs/CinematicMissions/FIAHunter_PvP/Drey2.et" {
- coords 6372.726 87.867 4865.494
- angles 0 -40.922 0
-}
 PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
  coords 4873.818 115.034 8052.79
  angles 0 90 0
@@ -6753,11 +6748,16 @@ GenericEntity beer2 : "{D1B29F6467927156}Prefabs/Props/Civilian/GlassBeer_01/Gla
  coords 6373.173 92.404 4866.587
  angles 0 107.703 0
 }
-SCR_ChimeraCharacter DE : "{DCEF8358316651D7}Prefabs/CinematicMissions/FIAHunter_PvP/Drey.et" {
- coords 6373.592 87.886 4866.136
- angles 0 -18.494 0
+SCR_ChimeraCharacter C : "{E31B3B5248D45A3C}Prefabs/CinematicMissions/FIAHunter_PvP/NonSoviet.et" {
+ coords 6384.055 90.895 4867.207
+ angles 0 8.537 0
 }
 SCR_ChimeraCharacter B2 : "{E5B09CB762969257}Prefabs/CinematicMissions/FIAHunter_PvP/Farmer2.et" {
+ components {
+  MeshObject "{68836EE0785ED196}" {
+   Enabled 0
+  }
+ }
  coords 6360.429 88.716 4836.307
  angles 0 138.093 6.089
  scale 1.29
