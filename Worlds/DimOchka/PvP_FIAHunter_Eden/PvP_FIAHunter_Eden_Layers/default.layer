@@ -1,0 +1,21 @@
+SCR_AIWorld : "{70CCCF16487C927F}Prefabs/AI/SCR_AIWorld_Eden.et" {
+ coords 5890.016 235.834 7345.786
+}
+PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 5891.853 241.052 7345.288
+}
+PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
+ components {
+  PS_CutsceneManager "{60E6C661B81E7619}" {
+   m_aCutscenes {
+    PS_Cutscene "{68835BF6BAC6BD3A}" {
+     m_sCutsceneEntityName "Film"
+     m_sCutsceneSound "{520AA25639100FAA}Music/FIAHunter.acp"
+     m_iCutsceneTime 705000
+    }
+   }
+  }
+ }
+ coords 5927.676 215.46 7373.397
+ m_bShowCutscene 1
+}

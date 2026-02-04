@@ -42,6 +42,11 @@ $grp Vehicle : "{3277F8B1FA06A2BC}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB
   angles -0.002 142.826 -0.033
   m_sAttachmentGroupName "USAF_200"
  }
+ USAF_010_V {
+  coords 4131.034 210.611 7643.345
+  angles -1.686 132.466 0.075
+  m_sAttachmentGroupName "USAF_010"
+ }
 }
 Vehicle USAF_110_V : "{3312ADBF53A16DD8}Prefabs/Vehicles/Wheeled/LAV25/LAV25_RHS.et" {
  coords 4067.901 213.555 7592.851
@@ -97,19 +102,30 @@ $grp Vehicle : "{CC55611936C21F25}Prefabs/Vehicles/Wheeled/M998/M1025_USAF.et" {
  USAF_101_V2 {
   coords 4114.088 215.269 7567.698
   angles 0 -165.463 0
+  m_sAttachmentGroupName "USAF_101"
  }
  USAF_100_V2 {
   coords 4032.109 213.06 7576.651
   angles -0.721 -92.83 1.868
   m_sAttachmentGroupName "USAF_100"
  }
+ USAF_010_V2 {
+  coords 4134.324 210.621 7646.798
+  angles -0.827 133.872 0.86
+  m_sAttachmentGroupName "USAF_010"
+ }
 }
 SCR_AIGroup USAF_000 : "{D9B32FE6DF696BE5}Prefabs/Groups/BLUFOR/drg_USAF_PlatoonHQ.et" {
- coords 4121.582 210.625 7645.011
+ coords 4122.434 210.625 7645.951
  angles 0 132.21 0
  m_aUnitPrefabSlots {
   "{F910309D8C211296}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_PL.et"
+  "{67C97355F74099C5}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_TL.et"
   "{893533817C25A8B0}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_Medic.et"
+  "{0D86781BA3428115}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_AR.et"
+  "{74A02B02FD60CB8E}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_Rifleman_LAT.et"
+  "{0053063A54F5E83F}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_GL.et"
+  "{741676D36040EA84}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_Rifleman.et"
   "{26AD8B80E8C02793}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_Marksman.et"
  }
  m_sCustomNameSet "Командирский отряд"

@@ -1,0 +1,178 @@
+ParticleEffectEntity {
+ coords 6703.051 137.598 2837.466
+ EffectPath "{C7C126B8FC38B083}Particles/Smoke_Building_Shop.ptc"
+}
+$grp PolylineShapeEntity {
+ {
+  components {
+   PS_PolyZone "{687CC3E92B348B0D}" {
+    m_mPolygonTexture "{62F4404928D33DB5}UI/layouts/Textures/Grid1b.edds"
+    m_cPolygonColor 0 0.125 0.502 1
+    m_fPolygonUVScale 0.44
+    m_mPolygonTextureBorder ""
+    m_cPolygonBorderColor 0 0.125 0.502 1
+    m_fPolygonBorderWidth 2
+    m_aVisibleForFactions {
+     "RHS_USAF"
+     "RHS_AFRF"
+     "CIV"
+     ""
+    }
+   }
+  }
+  coords 6662.772 138.07 2851.083
+  Points {
+   ShapePoint "{687CC3E9134FFF08}" {
+    Position 3.296 0.328 -3.606
+   }
+   ShapePoint "{687CC3E9134E3D2C}" {
+    Position 156.529 -10.228 -23.161
+   }
+   ShapePoint "{687CC3E925A5BA5A}" {
+    Position 195.104 -35.604 128.564
+   }
+   ShapePoint "{687CC3E926554780}" {
+    Position 105.889 -32.616 153.654
+   }
+   ShapePoint "{687CC3E9219BAF83}" {
+    Position 83.624 -17.669 119.825
+   }
+   ShapePoint "{687CC3E9215AC662}" {
+    Position -24.67 -3.183 96.215
+   }
+   ShapePoint "{687CC3E922F54A00}" {
+    Position -3.513 0.091 -2.789
+   }
+  }
+  IsClosed 1
+ }
+ {
+  components {
+   PS_PolyZone "{687CF440EF486E48}" {
+    m_mPolygonTexture "{62F4404928D33DB5}UI/layouts/Textures/Grid1b.edds"
+    m_cPolygonColor 0 0.584 0.144 1
+    m_fPolygonUVScale 0.44
+    m_mPolygonTextureBorder ""
+    m_cPolygonBorderColor 0 0.584 0.144 1
+    m_fPolygonBorderWidth 3
+    m_aVisibleForFactions {
+     "RHS_USAF"
+     "RHS_AFRF"
+     "CIV"
+     ""
+    }
+   }
+  }
+  coords 2471.722 -4.713 4190.531
+  Points {
+   ShapePoint "{687CF440D9DDC204}" {
+    Position -373.414 -7.313 23.538
+   }
+   ShapePoint "{687CF440D9DDCBD2}" {
+    Position 73.405 -6.96 -150.864
+   }
+   ShapePoint "{687CF440E410606F}" {
+    Position 216.027 -13.391 -123.475
+   }
+   ShapePoint "{687CF440E451B0E4}" {
+    Position 239.954 -10.29 -14.792
+   }
+   ShapePoint "{687CF440E7C9E7A8}" {
+    Position -72.232 -5.322 283.822
+   }
+   ShapePoint "{687CF440E6B5F614}" {
+    Position -883.93 -16.913 979.949
+   }
+   ShapePoint "{687CF440E6076A8B}" {
+    Position -955.172 -21.56 1501.483
+   }
+   ShapePoint "{687CF440E1B8E0F7}" {
+    Position -1294.521 -30.422 2017.204
+   }
+   ShapePoint "{687CF440E12B20D2}" {
+    Position -2352.023 -100.037 1864.043
+   }
+   ShapePoint "{687CF440E1432176}" {
+    Position -2424.738 0 1070.115
+   }
+   ShapePoint "{687CF440E0C5CE75}" {
+    Position -2194.134 -75.838 442.839
+   }
+   ShapePoint "{687CF440E3F80B1B}" {
+    Position -1168.624 -14.546 519.056
+   }
+   ShapePoint "{687CF440E37E7705}" {
+    Position -604.393 -18.998 159.961
+   }
+  }
+  IsClosed 1
+ }
+ {
+  components {
+   PS_PolyZone "{687CF44156B07C53}" {
+    m_mPolygonTexture "{62F4404928D33DB5}UI/layouts/Textures/Grid1b.edds"
+    m_cPolygonColor 0.502 0 0 1
+    m_fPolygonUVScale 0.44
+    m_mPolygonTextureBorder ""
+    m_cPolygonBorderColor 0.502 0 0 1
+    m_fPolygonBorderWidth 5
+    m_aVisibleForFactions {
+     "RHS_USAF"
+     "RHS_AFRF"
+     "CIV"
+     ""
+    }
+   }
+  }
+  coords 7428.433 0.92 4987.929
+  Points {
+   ShapePoint "{687CF4413CDD4D30}" {
+    Position 100.343 -24.829 12.022
+   }
+   ShapePoint "{687CF4413CDDB816}" {
+    Position -2597.415 -6.037 -199.765
+   }
+   ShapePoint "{687CF441446A6682}" {
+    Position -4050.909 -61.134 6138.782
+   }
+   ShapePoint "{687CF441489B0DD9}" {
+    Position -2209.857 -69.075 6707.313
+   }
+  }
+  IsClosed 1
+ }
+}
+$grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
+ {
+  coords 6884.936 138.118 2544.974
+  m_sTitle "Перебежчик спасен"
+  m_iScore 50
+  m_sFactionKey "RHS_USAF"
+ }
+ {
+  coords 6880.637 138.118 2544.974
+  m_sTitle "Кейс с документами вывезен"
+  m_iScore 50
+  m_sFactionKey "RHS_USAF"
+ }
+ {
+  coords 6875.165 138.118 2544.974
+  m_sTitle "Кейс с документами возвращен"
+  m_iScore 75
+  m_sFactionKey "RHS_AFRF"
+ }
+ {
+  coords 6867.918 138.118 2544.974
+  m_sTitle "Перебежчик возвращен"
+  m_iScore 25
+  m_sFactionKey "RHS_AFRF"
+ }
+}
+GenericEntity : "{E6FC6DD69FA3479F}Prefabs/System/DRG_MissionEndTimerPrefab.et" {
+ components {
+  DRG_MissionEndTimerComponent "{651B0839B21B3BBF}" {
+   m_iMissionTime 2700
+  }
+ }
+ coords 4198.322 8.325 8860.681
+}
