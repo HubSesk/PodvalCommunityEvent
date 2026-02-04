@@ -1,0 +1,40 @@
+GenericEntity : "{1353C6EAD1DCFE43}Prefabs/Weapons/Handguns/M9/Handgun_M9.et" {
+ ID "58BA2740D770C3DC"
+ components {
+  WeaponSoundComponent "{5A8685198A9AEEDD}" {
+   Filenames + {
+    "{03F532C8D2333B09}Sounds/Weapons/Rifles/M16A2/Weapons_Rifles_M16A2_Shot_Suppressed_SuperSonic.acp"
+   }
+  }
+  SCR_WeaponStatsManagerComponent "{6885504EA280D7EF}" {
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{B502E4DC8A9E835E}" {
+     AttachmentSlot InventoryStorageSlot optics {
+     }
+    }
+    MuzzleComponent "{50F64C45E7271D47}" {
+     components {
+      AttachmentSlotComponent "{688505F6E60200FA}" {
+       AttachmentSlot InventoryStorageSlot Suppressor {
+        PivotID "barrel_muzzle"
+        Offset 0 -0.0034 0.1064
+        ChildPivotID "snap_barrel_muzzle"
+        Prefab "{E52C9791E1554A5F}Prefabs/Weapons/Attachments/Muzzle/Suppressor_M16/Suppressor_M16.et"
+        InspectionWidgetOffset 0 0.0441 0.1416
+       }
+       AttachmentType AttachmentMuzzle556_45 "{688505C8596A4588}" {
+       }
+       ShowInInspection 1
+      }
+      SCR_MuzzleEffectComponent "{C9B3271BB22CDB68}" {
+       ParticleEffect "{0D9400A03DDEA9AC}Particles/Weapon/Attachments/Suppressor_Carbine.ptc"
+      }
+     }
+    }
+   }
+  }
+ }
+ coords 4760.715 161.801 7142.312
+}

@@ -1,0 +1,522 @@
+$grp GenericEntity : "{0089B23327C9B8CA}Prefabs/Props/Furniture/TableLong_01/TableLong_01.et" {
+ {
+  coords 4670.973 155.932 7190.094
+  {
+   GenericEntity : "{9C05543A503DB80E}Prefabs/Weapons/Magazines/Magazine_9x19_M9_15rnd_Ball.et" {
+    coords 0.187 0.9 -0.316
+   }
+   $grp GenericEntity : "{AC298BA8A7D27007}Prefabs/Items/Equipment/Backpacks/Backpack_Medical_Soviet_NoCross_01.et" {
+    {
+     coords 0.579 0.9 -0.155
+    }
+    {
+     coords -0.896 0.9 0.044
+    }
+   }
+   GenericEntity : "{BEF39591F479F041}Prefabs/Weapons/M9/M9_Silencer.et" {
+    components {
+     WeaponSoundComponent "{5A8685198A9AEEDD}" {
+      Filenames {
+       "{B569B0FEFA8211FE}Sounds/Weapons/Handguns/M9/Weapons_Handguns_M9_Shot.acp"
+       "{FF5A03919BDB8B9E}Sounds/Weapons/Handguns/M9/Weapons_Handguns_M9_Handling.acp"
+       "{430CD8162D17C2FF}Sounds/Weapons/_SharedData/Melee/Weapons_Melee_Pistol.acp"
+       "{8D040E18DFEC29AF}Sounds/Weapons/_SharedData/PickUp/Weapons_PickUp_HandGun.acp"
+       "{D32144A00CA494A6}Sounds/Weapons/_SharedData/Drop/Weapons_Drop_Pistol.acp"
+       "{62A8FCC1AB0B7AA5}Sounds/Weapons/_SharedData/Drop/Weapons_Drop_Physical_PIstol.acp"
+       "{48C2126847F0B9C8}Sounds/Weapons/Rifles/VSS/Weapons_Rifles_VSS_Shot.acp"
+      }
+     }
+    }
+    coords -0.481 0.917 -0.354
+    angles 0.18 -30.469 90.305
+   }
+  }
+ }
+ {
+  coords 4513.252 154.85 6826.189
+  angles 0 -91.7 0
+  {
+   GenericEntity : "{9C05543A503DB80E}Prefabs/Weapons/Magazines/Magazine_9x19_M9_15rnd_Ball.et" {
+    coords 0.187 0.9 -0.316
+   }
+   $grp GenericEntity : "{AC298BA8A7D27007}Prefabs/Items/Equipment/Backpacks/Backpack_Medical_Soviet_NoCross_01.et" {
+    {
+     coords 0.579 0.9 -0.155
+    }
+    {
+     coords -0.896 0.9 0.044
+    }
+   }
+   GenericEntity : "{BEF39591F479F041}Prefabs/Weapons/M9/M9_Silencer.et" {
+    coords -0.481 0.917 -0.354
+    angles 0.18 -30.469 90.305
+   }
+  }
+ }
+ {
+  coords 4808.569 170.336 7118.573
+  angles 0 -91.7 0
+  {
+   GenericEntity : "{90976DC90A223095}Prefabs/Items/Equipment/Detonators/BlastingMachine_KPM_3U1/BlastingMachine_KPM_3U1.et" {
+    coords 0.164 0.9 0.051
+    angles 0 91.7 0
+   }
+   $grp GenericEntity : "{97064F8597F2D7BF}Prefabs/Weapons/Explosives/DemoBlock_TSh400g/DemoBlock_TSh400g.et" {
+    {
+     coords 0.213 0.9 0.319
+     angles 0 91.7 0
+    }
+    {
+     coords 0.116 0.9 0.322
+     angles 0 91.7 0
+    }
+    {
+     coords 0.337 0.9 0.316
+     angles 0 91.7 0
+    }
+    {
+     coords 0.337 0.9 0.316
+     angles 0 91.7 0
+    }
+    {
+     coords 0.503 0.9 0.311
+     angles 0 91.7 0
+    }
+   }
+   GenericEntity : "{AC298BA8A7D27007}Prefabs/Items/Equipment/Backpacks/Backpack_Medical_Soviet_NoCross_01.et" {
+    coords -0.896 0.9 0.044
+   }
+   GenericEntity : "{BEF39591F479F041}Prefabs/Weapons/M9/M9_Silencer.et" {
+    coords -0.481 0.917 -0.354
+    angles 0.18 -30.469 90.305
+   }
+   GenericEntity : "{E90F2EB67A9CF49A}Prefabs/Items/Equipment/Backpacks/Backpack_Medical_Soviet_NoCross_02.et" {
+    coords 0.647 0.9 -0.03
+    angles 0 91.7 0
+   }
+  }
+ }
+ {
+  coords 4907.381 169.792 6941.503
+  angles 0 -36.83 0
+  {
+   $grp GenericEntity : "{97064F8597F2D7BF}Prefabs/Weapons/Explosives/DemoBlock_TSh400g/DemoBlock_TSh400g.et" {
+    {
+     coords 0.337 0.9 0.316
+     angles 0 91.7 0
+    }
+    {
+     coords 0.503 0.9 0.311
+     angles 0 91.7 0
+    }
+   }
+   GenericEntity : "{AC298BA8A7D27007}Prefabs/Items/Equipment/Backpacks/Backpack_Medical_Soviet_NoCross_01.et" {
+    coords -0.896 0.9 0.044
+   }
+   GenericEntity : "{E90F2EB67A9CF49A}Prefabs/Items/Equipment/Backpacks/Backpack_Medical_Soviet_NoCross_02.et" {
+    coords 0.647 0.9 -0.03
+    angles 0 91.7 0
+   }
+  }
+ }
+}
+$grp SCR_AIGroup : "{00D3FF50F52DF3CB}Prefabs/Groups/INDFOR/FIA/drg_FIA_RifleSquad.et" {
+ {
+  components {
+   PS_GroupCallsignAssigner "{65154C1E6C2E8928}" {
+    m_iCompanyCallsign 1
+   }
+  }
+  coords 4407.271 11.938 10674.279
+  angles 0 -2.128 0
+  m_aUnitPrefabSlots {
+   "{328485EB14244E24}Prefabs/Characters/Factions/INDFOR/FIA/CIVGeneral/FIA_CIV_Businessman_1_dimkii.et"
+   "{18A0A248E2CA280B}Prefabs/Characters/Factions/INDFOR/FIA/CIVGeneral/FIA_CIV_Businessman_2_dimkii.et"
+   "{29D2C6E0802C1423}Prefabs/Characters/Factions/INDFOR/FIA/CIVGeneral/FIA_CIV_CottonShirt_1_dimkii.et"
+   "{214336012EA294A1}Prefabs/Characters/Factions/INDFOR/FIA/CIVGeneral/FIA_CIV_Turtleneck_1_dimkii.et"
+  }
+  m_sCustomNameSet "Партийцы и гражданские"
+ }
+ {
+  coords 4720.625 161.921 6969.363
+  angles 0 -58.857 0
+  m_aUnitPrefabSlots {
+   "{328485EB14244E24}Prefabs/Characters/Factions/INDFOR/FIA/CIVGeneral/FIA_CIV_Businessman_1_dimkii.et"
+   "{18A0A248E2CA280B}Prefabs/Characters/Factions/INDFOR/FIA/CIVGeneral/FIA_CIV_Businessman_2_dimkii.et"
+   "{328485EB14244E24}Prefabs/Characters/Factions/INDFOR/FIA/CIVGeneral/FIA_CIV_Businessman_1_dimkii.et"
+   "{C0ECE070D7C9E79F}Prefabs/Characters/Factions/INDFOR/FIA/CIVGeneral/FIA_CIV_Businessman_3_dimkii.et"
+   "{18A0A248E2CA280B}Prefabs/Characters/Factions/INDFOR/FIA/CIVGeneral/FIA_CIV_Businessman_2_dimkii.et"
+  }
+  m_sCustomNameSet "Партийцы"
+ }
+ {
+  components {
+   PS_GroupCallsignAssigner "{65154C1E6C2E8928}" {
+    m_iSquadCallsign 1
+   }
+  }
+  coords 4711.161 161.921 6988.196
+  angles 0 166.143 0
+  m_aUnitPrefabSlots {
+   "{328485EB14244E24}Prefabs/Characters/Factions/INDFOR/FIA/CIVGeneral/FIA_CIV_Businessman_1_dimkii.et"
+   "{18A0A248E2CA280B}Prefabs/Characters/Factions/INDFOR/FIA/CIVGeneral/FIA_CIV_Businessman_2_dimkii.et"
+   "{328485EB14244E24}Prefabs/Characters/Factions/INDFOR/FIA/CIVGeneral/FIA_CIV_Businessman_1_dimkii.et"
+   "{C0ECE070D7C9E79F}Prefabs/Characters/Factions/INDFOR/FIA/CIVGeneral/FIA_CIV_Businessman_3_dimkii.et"
+   "{18A0A248E2CA280B}Prefabs/Characters/Factions/INDFOR/FIA/CIVGeneral/FIA_CIV_Businessman_2_dimkii.et"
+  }
+  m_sCustomNameSet "Партийцы"
+ }
+ {
+  components {
+   PS_GroupCallsignAssigner "{65154C1E6C2E8928}" {
+    m_iSquadCallsign 2
+   }
+  }
+  coords 4732.236 163.07 7010.156
+  angles 0 168.182 0
+  m_aUnitPrefabSlots {
+   "{328485EB14244E24}Prefabs/Characters/Factions/INDFOR/FIA/CIVGeneral/FIA_CIV_Businessman_1_dimkii.et"
+   "{18A0A248E2CA280B}Prefabs/Characters/Factions/INDFOR/FIA/CIVGeneral/FIA_CIV_Businessman_2_dimkii.et"
+   "{328485EB14244E24}Prefabs/Characters/Factions/INDFOR/FIA/CIVGeneral/FIA_CIV_Businessman_1_dimkii.et"
+   "{C0ECE070D7C9E79F}Prefabs/Characters/Factions/INDFOR/FIA/CIVGeneral/FIA_CIV_Businessman_3_dimkii.et"
+   "{18A0A248E2CA280B}Prefabs/Characters/Factions/INDFOR/FIA/CIVGeneral/FIA_CIV_Businessman_2_dimkii.et"
+  }
+  m_sCustomNameSet "Партийцы"
+ }
+ {
+  components {
+   PS_GroupCallsignAssigner "{65154C1E6C2E8928}" {
+    m_iCompanyCallsign 2
+   }
+  }
+  coords 5767.612 217.632 7070.159
+  angles 0 -168.12 0
+  m_aUnitPrefabSlots {
+   "{29D2C6E0802C1423}Prefabs/Characters/Factions/INDFOR/FIA/CIVGeneral/FIA_CIV_CottonShirt_1_dimkii.et"
+   "{A01ABEF9300D0C66}Prefabs/Characters/Factions/INDFOR/FIA/CIVGeneral/FIA_CIV_CottonShirt_3_dimkii.et"
+   "{2601527D8DE53C32}Prefabs/Characters/Factions/INDFOR/FIA/CIVGeneral/FIA_CIV_CottonShirt_5_dimkii.et"
+   "{F71B565A687CC40F}Prefabs/Characters/Factions/INDFOR/FIA/CIVGeneral/FIA_CIV_DenimJacket_1_dimkii.et"
+   "{214336012EA294A1}Prefabs/Characters/Factions/INDFOR/FIA/CIVGeneral/FIA_CIV_Turtleneck_1_dimkii.et"
+   "{D32B539AED4F3D1A}Prefabs/Characters/Factions/INDFOR/FIA/CIVGeneral/FIA_CIV_Turtleneck_3_dimkii.et"
+   "{4586F2003CE89B0D}Prefabs/Characters/Factions/INDFOR/FIA/CIVGeneral/FIA_CIV_CottonShirt_2_dimkii.et"
+   "{DD3F71F99E92A220}Prefabs/Characters/Factions/INDFOR/FIA/CIVGeneral/FIA_CIV_DenimJacket_2_dimkii.et"
+  }
+  m_sCustomNameSet "Сопротивление"
+ }
+ {
+  components {
+   PS_GroupCallsignAssigner "{65154C1E6C2E8928}" {
+    m_iCompanyCallsign 3
+   }
+  }
+  coords 3286.889 115.081 5144.619
+  angles 0 130.495 0
+  m_aUnitPrefabSlots {
+   "{29D2C6E0802C1423}Prefabs/Characters/Factions/INDFOR/FIA/CIVGeneral/FIA_CIV_CottonShirt_1_dimkii.et"
+   "{A01ABEF9300D0C66}Prefabs/Characters/Factions/INDFOR/FIA/CIVGeneral/FIA_CIV_CottonShirt_3_dimkii.et"
+   "{2601527D8DE53C32}Prefabs/Characters/Factions/INDFOR/FIA/CIVGeneral/FIA_CIV_CottonShirt_5_dimkii.et"
+   "{F71B565A687CC40F}Prefabs/Characters/Factions/INDFOR/FIA/CIVGeneral/FIA_CIV_DenimJacket_1_dimkii.et"
+   "{214336012EA294A1}Prefabs/Characters/Factions/INDFOR/FIA/CIVGeneral/FIA_CIV_Turtleneck_1_dimkii.et"
+   "{D32B539AED4F3D1A}Prefabs/Characters/Factions/INDFOR/FIA/CIVGeneral/FIA_CIV_Turtleneck_3_dimkii.et"
+   "{4586F2003CE89B0D}Prefabs/Characters/Factions/INDFOR/FIA/CIVGeneral/FIA_CIV_CottonShirt_2_dimkii.et"
+   "{DD3F71F99E92A220}Prefabs/Characters/Factions/INDFOR/FIA/CIVGeneral/FIA_CIV_DenimJacket_2_dimkii.et"
+  }
+  m_sCustomNameSet "Сопротивление"
+ }
+ {
+  components {
+   PS_GroupCallsignAssigner "{65154C1E6C2E8928}" {
+    m_iCompanyCallsign 4
+   }
+  }
+  coords 5607.47 90.576 5900.572
+  angles 0 25.495 0
+  m_aUnitPrefabSlots {
+   "{29D2C6E0802C1423}Prefabs/Characters/Factions/INDFOR/FIA/CIVGeneral/FIA_CIV_CottonShirt_1_dimkii.et"
+   "{A01ABEF9300D0C66}Prefabs/Characters/Factions/INDFOR/FIA/CIVGeneral/FIA_CIV_CottonShirt_3_dimkii.et"
+   "{2601527D8DE53C32}Prefabs/Characters/Factions/INDFOR/FIA/CIVGeneral/FIA_CIV_CottonShirt_5_dimkii.et"
+   "{F71B565A687CC40F}Prefabs/Characters/Factions/INDFOR/FIA/CIVGeneral/FIA_CIV_DenimJacket_1_dimkii.et"
+   "{214336012EA294A1}Prefabs/Characters/Factions/INDFOR/FIA/CIVGeneral/FIA_CIV_Turtleneck_1_dimkii.et"
+   "{D32B539AED4F3D1A}Prefabs/Characters/Factions/INDFOR/FIA/CIVGeneral/FIA_CIV_Turtleneck_3_dimkii.et"
+   "{4586F2003CE89B0D}Prefabs/Characters/Factions/INDFOR/FIA/CIVGeneral/FIA_CIV_CottonShirt_2_dimkii.et"
+   "{DD3F71F99E92A220}Prefabs/Characters/Factions/INDFOR/FIA/CIVGeneral/FIA_CIV_DenimJacket_2_dimkii.et"
+  }
+  m_sCustomNameSet "Сопротивление"
+ }
+ {
+  components {
+   PS_GroupCallsignAssigner "{65154C1E6C2E8928}" {
+    m_iCompanyCallsign 5
+   }
+  }
+  coords 5370.538 19.718 9965.128
+  angles 0 25.495 0
+  m_aUnitPrefabSlots {
+   "{29D2C6E0802C1423}Prefabs/Characters/Factions/INDFOR/FIA/CIVGeneral/FIA_CIV_CottonShirt_1_dimkii.et"
+   "{A01ABEF9300D0C66}Prefabs/Characters/Factions/INDFOR/FIA/CIVGeneral/FIA_CIV_CottonShirt_3_dimkii.et"
+   "{2601527D8DE53C32}Prefabs/Characters/Factions/INDFOR/FIA/CIVGeneral/FIA_CIV_CottonShirt_5_dimkii.et"
+   "{F71B565A687CC40F}Prefabs/Characters/Factions/INDFOR/FIA/CIVGeneral/FIA_CIV_DenimJacket_1_dimkii.et"
+   "{214336012EA294A1}Prefabs/Characters/Factions/INDFOR/FIA/CIVGeneral/FIA_CIV_Turtleneck_1_dimkii.et"
+   "{D32B539AED4F3D1A}Prefabs/Characters/Factions/INDFOR/FIA/CIVGeneral/FIA_CIV_Turtleneck_3_dimkii.et"
+   "{4586F2003CE89B0D}Prefabs/Characters/Factions/INDFOR/FIA/CIVGeneral/FIA_CIV_CottonShirt_2_dimkii.et"
+   "{DD3F71F99E92A220}Prefabs/Characters/Factions/INDFOR/FIA/CIVGeneral/FIA_CIV_DenimJacket_2_dimkii.et"
+  }
+  m_sCustomNameSet "Сопротивление"
+ }
+ {
+  components {
+   PS_GroupCallsignAssigner "{65154C1E6C2E8928}" {
+    m_iSquadCallsign 3
+   }
+  }
+  coords 4764.525 161.7 7139.359
+  angles 0 -109.505 0
+  m_aUnitPrefabSlots {
+   "{29D2C6E0802C1423}Prefabs/Characters/Factions/INDFOR/FIA/CIVGeneral/FIA_CIV_CottonShirt_1_dimkii.et"
+   "{A01ABEF9300D0C66}Prefabs/Characters/Factions/INDFOR/FIA/CIVGeneral/FIA_CIV_CottonShirt_3_dimkii.et"
+   "{0C2575DE7B0B5A1D}Prefabs/Characters/Factions/INDFOR/FIA/CIVGeneral/FIA_CIV_CottonShirt_6_dimkii.et"
+   "{F71B565A687CC40F}Prefabs/Characters/Factions/INDFOR/FIA/CIVGeneral/FIA_CIV_DenimJacket_1_dimkii.et"
+   "{0B6711A2D84CF28E}Prefabs/Characters/Factions/INDFOR/FIA/CIVGeneral/FIA_CIV_Turtleneck_2_dimkii.et"
+   "{D32B539AED4F3D1A}Prefabs/Characters/Factions/INDFOR/FIA/CIVGeneral/FIA_CIV_Turtleneck_3_dimkii.et"
+   "{4586F2003CE89B0D}Prefabs/Characters/Factions/INDFOR/FIA/CIVGeneral/FIA_CIV_CottonShirt_2_dimkii.et"
+   "{DD3F71F99E92A220}Prefabs/Characters/Factions/INDFOR/FIA/CIVGeneral/FIA_CIV_DenimJacket_2_dimkii.et"
+   "{C6DC0AB01F6BA977}Prefabs/Characters/Factions/INDFOR/FIA/CIVGeneral/FIA_CIV_CottonShirt_4_dimkii.et"
+   "{2601527D8DE53C32}Prefabs/Characters/Factions/INDFOR/FIA/CIVGeneral/FIA_CIV_CottonShirt_5_dimkii.et"
+   "{0B6711A2D84CF28E}Prefabs/Characters/Factions/INDFOR/FIA/CIVGeneral/FIA_CIV_Turtleneck_2_dimkii.et"
+  }
+  m_sCustomNameSet "Жители Монтиньяка"
+ }
+ {
+  components {
+   PS_GroupCallsignAssigner "{65154C1E6C2E8928}" {
+    m_iSquadCallsign 4
+   }
+  }
+  coords 5128.541 176.305 7065.625
+  angles 0 125.016 0
+  m_aUnitPrefabSlots {
+   "{214336012EA294A1}Prefabs/Characters/Factions/INDFOR/FIA/CIVGeneral/FIA_CIV_Turtleneck_1_dimkii.et"
+   "{0B6711A2D84CF28E}Prefabs/Characters/Factions/INDFOR/FIA/CIVGeneral/FIA_CIV_Turtleneck_2_dimkii.et"
+   "{D32B539AED4F3D1A}Prefabs/Characters/Factions/INDFOR/FIA/CIVGeneral/FIA_CIV_Turtleneck_3_dimkii.et"
+   "{F71B565A687CC40F}Prefabs/Characters/Factions/INDFOR/FIA/CIVGeneral/FIA_CIV_DenimJacket_1_dimkii.et"
+   "{4586F2003CE89B0D}Prefabs/Characters/Factions/INDFOR/FIA/CIVGeneral/FIA_CIV_CottonShirt_2_dimkii.et"
+   "{A01ABEF9300D0C66}Prefabs/Characters/Factions/INDFOR/FIA/CIVGeneral/FIA_CIV_CottonShirt_3_dimkii.et"
+   "{2601527D8DE53C32}Prefabs/Characters/Factions/INDFOR/FIA/CIVGeneral/FIA_CIV_CottonShirt_5_dimkii.et"
+   "{0C2575DE7B0B5A1D}Prefabs/Characters/Factions/INDFOR/FIA/CIVGeneral/FIA_CIV_CottonShirt_6_dimkii.et"
+  }
+  m_sCustomNameSet "Рабочие Монтиньяка"
+ }
+}
+$grp GenericEntity : "{090B9013CF776866}Prefabs/Props/Furniture/TableLong_01/TableLong_01_base.et" {
+ {
+  coords 6265.747 164.252 6468.268
+  angles 0 -78.671 0
+  {
+   $grp GenericEntity : "{08155E701A949620}Prefabs/Characters/Vests/Vest_SovietHarness/Variants/Vest_SovietHarness_rifleman.et" {
+    {
+     coords 0.425 0.9 0.256
+     angles 0 -2.276 0
+    }
+    {
+     coords -0.041 0.9 0.246
+     angles 0 -2.276 0
+    }
+    {
+     coords -0.509 0.9 0.241
+     angles 0 -0.268 0
+    }
+    {
+     coords -0.97 0.9 0.26
+     angles 0 4.881 0
+    }
+    {
+     coords -1.021 0.9 -0.25
+     angles 0 -2.276 0
+    }
+    {
+     coords 0.926 0.9 0.262
+     angles 0 -2.276 0
+    }
+    {
+     coords -0.532 0.9 -0.251
+     angles 0 -2.276 0
+    }
+    {
+     coords -0.021 0.9 -0.25
+     angles 0 -2.276 0
+    }
+    {
+     coords 0.455 0.9 -0.268
+     angles 0 -2.276 0
+    }
+    {
+     coords 0.931 0.9 -0.249
+     angles 0 -2.276 0
+    }
+   }
+  }
+ }
+ {
+  coords 6224.322 180.811 7476.785
+  angles 0 -63.551 0
+  {
+   $grp GenericEntity : "{08155E701A949620}Prefabs/Characters/Vests/Vest_SovietHarness/Variants/Vest_SovietHarness_rifleman.et" {
+    {
+     coords -0.041 0.9 0.246
+     angles 0 -2.276 0
+    }
+    {
+     coords -0.509 0.9 0.241
+     angles 0 -0.268 0
+    }
+    {
+     coords -0.97 0.9 0.26
+     angles 0 4.881 0
+    }
+    {
+     coords -1.021 0.9 -0.25
+     angles 0 -2.276 0
+    }
+    {
+     coords 0.926 0.9 0.262
+     angles 0 -2.276 0
+    }
+    {
+     coords -0.532 0.9 -0.251
+     angles 0 -2.276 0
+    }
+    {
+     coords -0.021 0.9 -0.25
+     angles 0 -2.276 0
+    }
+    {
+     coords 0.455 0.9 -0.268
+     angles 0 -2.276 0
+    }
+    {
+     coords 0.931 0.9 -0.249
+     angles 0 -2.276 0
+    }
+    {
+     coords 0.425 0.9 0.256
+     angles 0 -2.276 0
+    }
+   }
+  }
+ }
+ {
+  coords 5867.483 4.611 9728.922
+  angles 0 -63.551 0
+  {
+   $grp GenericEntity : "{08155E701A949620}Prefabs/Characters/Vests/Vest_SovietHarness/Variants/Vest_SovietHarness_rifleman.et" {
+    {
+     coords -0.041 0.9 0.246
+     angles 0 -2.276 0
+    }
+    {
+     coords -0.509 0.9 0.241
+     angles 0 -0.268 0
+    }
+    {
+     coords -0.97 0.9 0.26
+     angles 0 4.881 0
+    }
+    {
+     coords -1.021 0.9 -0.25
+     angles 0 -2.276 0
+    }
+    {
+     coords 0.926 0.9 0.262
+     angles 0 -2.276 0
+    }
+    {
+     coords -0.532 0.9 -0.251
+     angles 0 -2.276 0
+    }
+    {
+     coords -0.021 0.9 -0.25
+     angles 0 -2.276 0
+    }
+    {
+     coords 0.455 0.9 -0.268
+     angles 0 -2.276 0
+    }
+    {
+     coords 0.931 0.9 -0.249
+     angles 0 -2.276 0
+    }
+    {
+     coords 0.425 0.9 0.256
+     angles 0 -2.276 0
+    }
+   }
+  }
+ }
+}
+Vehicle S105_lightgreen1 : "{321016E0F9361A22}Prefabs/Vehicles/Wheeled/S105/S105_lightgreen.et" {
+ coords 5363.518 19.359 9965.545
+ angles 3.289 81.897 -2.272
+}
+Vehicle Ural1 : "{4597626AF36C0858}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320.et" {
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{688505C9AF35B4DF}" {
+     SourceMaterial "Ural_Body"
+     AssignedMaterial "{48FF237EDB0953AD}Assets/Vehicles/Wheeled/Ural4320/Data/Ural_4320_Body_CIV_JZD.emat"
+    }
+   }
+  }
+ }
+ coords 5131.316 176.164 7057.09
+ angles 0 -143.314 0
+}
+Vehicle S1203_transport_beige1 : "{543799AC5C52989C}Prefabs/Vehicles/Wheeled/S1203/S1203_transport_beige.et" {
+ coords 3292.539 115.168 5142.215
+ angles 0 39.365 0
+}
+GenericEntity : "{722CE6FEC39EE896}Prefabs/Weapons/Launchers/RPG22/Launcher_RPG22.et" {
+ coords 5867.887 5.523 9729.913
+}
+Vehicle S105_darkred1 : "{8000A0F649FB4B0D}Prefabs/Vehicles/Wheeled/S105/S105_darkred.et" {
+ coords 5369.755 19.582 9972.591
+ angles 0 127.919 0
+}
+Vehicle S105_red1 : "{85F0BD6AF0F42D6D}Prefabs/Vehicles/Wheeled/S105/S105_red.et" {
+ coords 5608.567 90.549 5904.963
+ angles 0 -51.653 0
+}
+Vehicle UAZ469_covered_CIV_teal1 : "{870EB660433857D3}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_covered_CIV_teal.et" {
+ coords 3287.268 115.078 5135.731
+ angles 0 36.375 0
+}
+Vehicle S105_darkblue2 : "{9C3269FB43F989A3}Prefabs/Vehicles/Wheeled/S105/S105_darkblue.et" {
+ coords 5759.653 217.73 7068.025
+ angles 1.962 -52.117 0.393
+}
+$grp GenericEntity : "{A884FCC8E30726CC}Prefabs/Compositions/WeaponStorage/WeaponStorageAKM.et" {
+ {
+  coords 6262.811 164.252 6469.354
+  angles 0 102.295 0
+ }
+ {
+  coords 5867.67 4.611 9724.761
+  angles 0 -26.126 0
+ }
+ {
+  coords 6226.723 180.811 7476.341
+  angles 0 -62.185 0
+ }
+}
+Vehicle S105_green1 : "{AD80FB47D868C775}Prefabs/Vehicles/Wheeled/S105/S105_green.et" {
+ coords 5765.815 217.508 7066.164
+ angles 1.086 -83.7 -1.681
+}
+Vehicle UAZ452_transport_CIV_orange1 : "{BB84BDE1707A38EB}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_transport_CIV_orange.et" {
+ coords 5614.728 90.753 5902.288
+ angles -2.663 -82.865 -0.333
+}
+Vehicle Ural4320_transport_covered_CIV_JZD1 : "{FB219B49A448A8EA}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered_CIV_JZD.et" {
+ coords 5120.544 176.254 7051.972
+ angles 0 -52.981 0
+}
