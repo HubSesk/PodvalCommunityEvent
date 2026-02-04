@@ -13,7 +13,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
    "RHS_AFRF"
   }
  }
- attack2 {
+ M_TRIG_3 {
   coords 3691.372 217.912 8022.643
   angles 0 90 0
   m_sImageSetGlow ""
@@ -24,11 +24,10 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_bUseWorldScale 0
   m_aVisibleForFactions {
    ""
-   "RHS_AFRF"
   }
   m_bVisibleForEmptyFaction 1
  }
- attack3 {
+ M_TRIG_4 {
   coords 3287.669 208.812 7468.034
   angles 0 90 0
   m_sImageSetGlow ""
@@ -39,7 +38,6 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_bUseWorldScale 0
   m_aVisibleForFactions {
    ""
-   "RHS_AFRF"
   }
   m_bVisibleForEmptyFaction 1
  }
@@ -73,7 +71,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sQuadName ""
  }
  defens1 {
-  coords 4084.188 215.289 7545.798
+  coords 4080.793 220.516 7556.368
   angles 0 90 0
   m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
   m_sImageSetGlow ""
@@ -88,5 +86,97 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   }
   m_aHideOnGameModeStates {
   }
+ }
+ attack2 {
+  coords 3279.396 208.811 7462.689
+  angles 0 90 0
+  m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 0 0 1
+  m_sQuadName "Task_Attack"
+  m_fWorldSize 35
+  m_sDescription "Уничтожить штабную машину 2"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_AFRF"
+  }
+ }
+ defens2 {
+  coords 3283.985 208.815 7465.386
+  angles 0 90 0
+  m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.071 0.192 0.561 1
+  m_sQuadName "Task_Defend"
+  m_fWorldSize 35
+  m_sDescription "Защищать КШМ"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_USAF"
+  }
+  m_aHideOnGameModeStates {
+  }
+ }
+ CMD {
+  coords 4119.095 210.732 7635.379
+  angles 0.679 221.309 -2.579
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.016 0.552 0.905 1
+  m_sQuadName "Truck"
+  m_fWorldSize 4.5
+  m_sDescription "КШМ 1"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "RHS_AFRF"
+   "RHS_USAF"
+   "Ses_CDF"
+   "Ses_ChDKZ"
+   "Ses_TKR"
+   "Ses_TKA"
+   "Drg_IGF"
+   "Drg_PIR"
+   "UK"
+   "USSR"
+   "US"
+   "FIA"
+   "Drg_VCA"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+   GAME
+  }
+  m_iZOrder 0
+ }
+ CMD_2 {
+  coords 4127.745 210.884 7627.091
+  angles 1.232 223.486 -1.299
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.016 0.552 0.905 1
+  m_sQuadName "Truck"
+  m_fWorldSize 4.5
+  m_sDescription "КШМ 2"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "RHS_AFRF"
+   "RHS_USAF"
+   "Ses_CDF"
+   "Ses_ChDKZ"
+   "Ses_TKR"
+   "Ses_TKA"
+   "Drg_IGF"
+   "Drg_PIR"
+   "UK"
+   "USSR"
+   "US"
+   "FIA"
+   "Drg_VCA"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+   GAME
+  }
+  m_iZOrder 0
  }
 }
