@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{BEA7F7570EE811B2}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Role_Character_USAF_USMC_Unarmed_Base.et" {
+SCR_ChimeraCharacter : "{BEA7F7570EE811B2}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/dim_Role_Character_USAF_USMC_Unarmed_Base.et" {
  ID "520EC961A090B1EE"
  components {
   PS_PlayableComponent "{5EFCC1946F475F15}" {
@@ -6,11 +6,30 @@ SCR_ChimeraCharacter : "{BEA7F7570EE811B2}Prefabs/Characters/Factions/BLUFOR/RHS
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
+    LoadoutSlotInfo Jacket {
+     Prefab "{3CAAF09E83B1DC3C}Prefabs/Characters/Uniforms/Shirt_FROG/Shirt_FROG_WD.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{6AB179C7B0A85B55}Prefabs/Characters/Uniforms/Pants_FROG/Pants_FROG_WD.et"
+    }
     LoadoutSlotInfo Boots {
      Prefab "{21B331B5FA807997}Prefabs/Characters/Footwear/Boots_Rocky_SV2/Footwear_Rocky_SV2.et"
     }
    }
   }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6720F9CB5344D10E}" {
+     TargetStorage "Pants/Pants_FROG_WD.et"
+    }
+    ItemsInitConfigurationItem "{6720F9CB52FFCEB5}" {
+     TargetStorage "Pants/Pants_FROG_WD.et"
+    }
+    ItemsInitConfigurationItem "{6720F9CB52DA4A6E}" {
+     TargetStorage "Jacket/Shirt_FROG_WD.et"
+    }
+   }
+  }
  }
- coords 7373.742 57.54 7202.813
+ coords 9618.004 89.771 9020.627
 }

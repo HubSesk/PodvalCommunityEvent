@@ -1,0 +1,26 @@
+SCR_ChimeraCharacter : "{1DD043DE96912219}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Force Recon/Assault/dim_Role_Character_USMC_FR_A_TL.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Jacket {
+     Prefab "{129D93F9A97CDBEB}Prefabs/Characters/Uniforms/ACU_t-shirt/ACU_t-shirt_grey.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{786BBF5BFCCFBD5E}Prefabs/Characters/Handwear/Ferro_gloves/Ferro_gloves.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6720F9CB52FFCEB5}" {
+     TargetStorage "Pants/Pants_FROG_Arid.et"
+    }
+    ItemsInitConfigurationItem "{6720F9CE79E73603}" {
+     TargetStorage "Jacket/ACU_t-shirt_grey.et"
+    }
+   }
+  }
+ }
+ coords 3009.764 140.87 7855.479
+}

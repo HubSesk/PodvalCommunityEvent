@@ -1,0 +1,81 @@
+SCR_ChimeraCharacter : "{396D531D125A3EDD}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/dim_Role_Character_USAF_USMC_Rifleman_v2_D.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
+   WeaponTemplate "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+  }
+  CharacterGrenadeSlotComponent "{5A6CDA0CCF43068E}" {
+   WeaponTemplate "{AD2709F5F6F0D871}Prefabs/Weapons/Grenades/M18/Smoke_M18_Base.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{21F461A37ED516EA}Prefabs/Weapons/M4A1/M4_2008_USMC.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{BEA4EC16E97F607E}Prefabs/Characters/HeadGear/USMC_Helmet_Cover/RHS_Version/GD_MICH2000_FR_A1.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{8A2241C931123419}Prefabs/Characters/Vests/Paraclete/TF_Vest_Paraclete_RAV_Base.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{89E6F9D6EB8E2652}Prefabs/Characters/Vests/GEN2_Pouches/MSA_Paraclete_Rifleman.et"
+    }
+    LoadoutSlotInfo HandWear {
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6720F9CB5344D10E}" {
+     TargetStorage "Pants/Pants_FROG_Arid.et"
+    }
+    ItemsInitConfigurationItem "{6720F9CB52FFCEB5}" {
+     TargetStorage "Jacket/Shirt_FROG_Arid.et"
+    }
+    ItemsInitConfigurationItem "{6720F9CB52DA4A6E}" {
+     TargetStorage "Vest/MSA_Paraclete_Rifleman.et/Tros/Pouch_Eagle_Ind_Hydrator_Pack_RG.et"
+     TargetPurpose 1
+     PrefabsToSpawn {
+      "{9C05543A503DB80E}Prefabs/Weapons/Magazines/Magazine_9x19_M9_15rnd_Ball.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6720F9CE79E73603}" {
+     TargetStorage "Pants/Pants_FROG_Arid.et"
+    }
+    ItemsInitConfigurationItem "{673751677F8CDF0B}" {
+     TargetStorage "Vest/MSA_Paraclete_Rifleman.et/filbevest/Pouch_FILBE_doubleM4_1.et"
+    }
+    ItemsInitConfigurationItem "{673751677FDDC4A0}" {
+     TargetStorage "Vest/MSA_Paraclete_Rifleman.et/filbevest2/Pouch_FILBE_doubleM4_2.et"
+    }
+    ItemsInitConfigurationItem "{673751677F06BCE5}" {
+     TargetStorage "Vest/MSA_Paraclete_Rifleman.et/m18_1/Pouch_Filbe_M18_1.et"
+    }
+    ItemsInitConfigurationItem "{673751677F617620}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{673751677F7B0C41}" {
+     TargetStorage "Vest/MSA_Paraclete_Rifleman.et/m67/Pouch_Filbe_M67_Base.et"
+    }
+    ItemsInitConfigurationItem "{673751677EB2F09A}" {
+     TargetStorage "Vest/MSA_Paraclete_Rifleman.et/m67_2/Pouch_Filbe_M67_2.et"
+    }
+    ItemsInitConfigurationItem "{673751677EE84645}" {
+     TargetStorage "Vest/MSA_Paraclete_Rifleman.et/filbevest3/Pouch_FILBE_doubleM4_3.et"
+    }
+    ItemsInitConfigurationItem "{673751650A2D64FA}" {
+     TargetStorage "Vest/MSA_Paraclete_Rifleman.et/filbevest4/Pouch_FILBE_doubleM4_1.et"
+    }
+    ItemsInitConfigurationItem "{673751651C8675C3}" {
+     TargetStorage "Vest/MSA_Paraclete_Rifleman.et/Holster/GD_Holster_SLS_Tan_RLeg.et"
+     PrefabsToSpawn {
+      "{1353C6EAD1DCFE43}Prefabs/Weapons/Handguns/M9/Handgun_M9.et"
+     }
+    }
+   }
+  }
+ }
+ coords 3001.197 140.95 7862.679
+ angles 0 0 0
+}

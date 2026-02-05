@@ -1,0 +1,114 @@
+PolylineShapeEntity Capture {
+ components {
+  PS_PolyZone "{688A7303E84CFF4D}" {
+   m_mPolygonTexture "{62F4404928D33DB5}UI/layouts/Textures/Grid1b.edds"
+   m_cPolygonColor 0 0.503 0 1
+   m_fPolygonUVScale 0.44
+   m_mPolygonTextureBorder ""
+   m_cPolygonBorderColor 0 0.503 0 1
+   m_fPolygonBorderWidth 3
+   m_aVisibleForFactions {
+    "RHS_USAF"
+    "Ses_TKA"
+    ""
+   }
+  }
+ }
+ coords 1501.862 123.693 4617.261
+ Points {
+  ShapePoint "{688A7303BA0F821D}" {
+   Position 0 0 0
+  }
+  ShapePoint "{688A7303BA0F985D}" {
+   Position 9.811 0.748 1.854
+  }
+  ShapePoint "{688A7303C604883B}" {
+   Position 20.349 2.115 2.937
+  }
+  ShapePoint "{688A7303C384FCE2}" {
+   Position 39.362 5.986 13.917
+  }
+  ShapePoint "{688A7303C358A4D2}" {
+   Position 47.278 7.417 32.304
+  }
+  ShapePoint "{688A7303C26C9A64}" {
+   Position 44.603 5.138 60.327
+  }
+  ShapePoint "{688A7303CD40FBE4}" {
+   Position 36.982 0.105 86.95
+  }
+  ShapePoint "{688A7303CC3F4096}" {
+   Position 9.594 -1.723 100.091
+  }
+  ShapePoint "{688A7303CEF00DDC}" {
+   Position -4.727 -2.487 99.973
+  }
+  ShapePoint "{688A7303C84959AE}" {
+   Position -26.24 4.689 89.447
+  }
+  ShapePoint "{688A7303CAFAD9EA}" {
+   Position -43.489 7.115 79.479
+  }
+  ShapePoint "{688A7303CA42EEBC}" {
+   Position -53.858 11.227 67.637
+  }
+  ShapePoint "{688A7303D5EB9DFF}" {
+   Position -56.073 10.524 52.258
+  }
+  ShapePoint "{688A7303D55F2F84}" {
+   Position -48.401 8.632 21.978
+  }
+  ShapePoint "{688A7303D10A86BB}" {
+   Position -33.504 7.285 12.493
+  }
+  ShapePoint "{688A7303D2028B74}" {
+   Position -20.989 3.367 5.619
+  }
+  ShapePoint "{688A7303DDB56609}" {
+   Position -6.414 0.367 0.726
+  }
+ }
+ IsClosed 1
+}
+$grp GenericEntity : "{3D78D7D606FF9818}PrefabsEditable/Auto/Structures/Military/Flags/E_FlagPole_NoCapture.et" {
+ FLAG2 {
+  coords 1504.852 119.721 4702.658
+ }
+ FLAG1 {
+  coords 1499.194 121.461 4656.985
+ }
+}
+GenericEntity : "{592E8C59C778A189}Prefabs/System/GUB_ZoneControlBetweenFactionsPrefab.et" {
+ components {
+  GUB_ZoneControlComponent "{66E34DFE0E54C4B7}" {
+   m_aControlLogics {
+    GUB_ZoneControlLogic "{688A731C0D47EC17}" {
+     m_Timer GUB_ZoneControlTimer "{688A731C0E407EE2}" {
+      timeToComplete 150
+     }
+     m_ZoneController GUB_ZoneController "{688A731C0871A7B5}" {
+      m_sZoneEntityName "Capture"
+     }
+     m_FlagController GUB_FlagController "{688A731C1144D658}" {
+      m_aFlagNames {
+       "FLAG1"
+       "FLAG2"
+       "FLAG3"
+      }
+      m_fStartFactionKey "RHS_USAF"
+      m_fEndFactionKey "Ses_TKA"
+     }
+     m_aConditions {
+      GUB_ZoneControlBetweenFactionsCondition "{688A731C2EEA525D}" {
+       m_sFirstFactionKey "Ses_TKA"
+       m_sSecondFactionKey "RHS_USAF"
+       m_fComparisonMultiplier 2
+       m_iOperator GREATER
+      }
+     }
+    }
+   }
+  }
+ }
+ coords 1463.895 130.719 4707.543
+}

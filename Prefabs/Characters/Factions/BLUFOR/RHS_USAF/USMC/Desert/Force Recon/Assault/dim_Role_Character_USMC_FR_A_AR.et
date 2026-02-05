@@ -1,0 +1,75 @@
+SCR_ChimeraCharacter : "{CA0CA56C14364D41}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Force Recon/Assault/Role_Character_USMC_FR_A_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_AutomaticRifleman"
+    Icon "{0284ABAAB8CCDEF1}UI/Icons/automatic_rifleman.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{AF0DB10F5FDBE3D6}Prefabs/Weapons/MachineGuns/M249/MG_M249_EXPS3.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Jacket {
+     Prefab "{129D93F9A97CDBEB}Prefabs/Characters/Uniforms/ACU_t-shirt/ACU_t-shirt_grey.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{D130B53BF8996470}Prefabs/Characters/Vests/GEN2_Pouches/MSA_Paraclete_AR.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6720F9CB52FFCEB5}" {
+     TargetStorage "Jacket/ACU_t-shirt_grey.et"
+    }
+    ItemsInitConfigurationItem "{6720F9CB52DA4A6E}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{673751677F8CDF0B}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{673751677FDDC4A0}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{673751677F06BCE5}" {
+     TargetStorage "Vest/MSA_Paraclete_AR.et/Smoke_Pouch/Pouch_Filbe_M18_1.et"
+    }
+    ItemsInitConfigurationItem "{673751677F617620}" {
+     Enabled 1
+     TargetStorage "Vest/MSA_Paraclete_AR.et/Smoke_Pouch2/Pouch_Filbe_M18_2.et"
+    }
+    ItemsInitConfigurationItem "{673751677F7B0C41}" {
+     Enabled 0
+     TargetStorage ""
+    }
+    ItemsInitConfigurationItem "{673751677EB2F09A}" {
+     Enabled 0
+     TargetStorage ""
+    }
+    ItemsInitConfigurationItem "{673751677EE84645}" {
+     TargetStorage "Vest/MSA_Paraclete_AR.et/MG_Pouch_R/Pouch_Eagle_Ind_AP_SAW200_MS_RG.et"
+     PrefabsToSpawn {
+      "{06D722FC2666EB83}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_4Ball_1Tracer.et" "{06D722FC2666EB83}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_4Ball_1Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{673751650A2D64FA}" {
+     TargetStorage "Vest/MSA_Paraclete_AR.et/MG_Pouch_L/Pouch_Eagle_Ind_AP_SAW200_MS_RG.et"
+     PrefabsToSpawn {
+      "{06D722FC2666EB83}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_4Ball_1Tracer.et" "{06D722FC2666EB83}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_4Ball_1Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{673751651C8675C3}" {
+     TargetStorage "Vest/MSA_Paraclete_AR.et/Medical_Pouch/Pouch_PCGEN3_ifak.et"
+     PrefabsToSpawn {
+      "{06D722FC2666EB83}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_4Ball_1Tracer.et" "{06D722FC2666EB83}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_4Ball_1Tracer.et"
+     }
+    }
+   }
+  }
+ }
+ coords 3000.883 140.955 7862.056
+ angles 0 0 0
+}

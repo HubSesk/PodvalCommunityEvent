@@ -1,0 +1,319 @@
+$grp Vehicle : "{3A87697F1B1415DB}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_PKM_Ses_TKA.et" {
+ UAZ469_PKM_Ses_TKA1 {
+  coords 1847.232 143.25 3042.278
+  angles 0 -119.333 0
+  m_sAttachmentGroupName "SQ7"
+ }
+ UAZ469_PKM_Ses_TKA2 {
+  coords 1843.157 143.25 3049.53
+  angles 0 -119.333 0
+  m_sAttachmentGroupName "SQ6"
+ }
+}
+$grp Vehicle : "{6F963B40DE04868A}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Ses_TKA.et" {
+ BTR70_Ses_TKA1 {
+  coords 3567.663 190.375 1521.852
+  angles 0 -13.506 0
+  m_sAttachmentGroupName "SQ3"
+ }
+ BTR70_Ses_TKA2 {
+  coords 5261.848 228.125 3516.264
+  angles 0 -24.786 0
+  m_sAttachmentGroupName "SQ8"
+ }
+}
+$grp Vehicle : "{AC3FA513706226DD}Prefabs/Vehicles/Wheeled/Ural4320/Ses_TKA/Ural4320_Ses_TKA_transport_covered.et" {
+ Ural4320_Ses_TKA_transport_covered1 {
+  coords 3564.576 190.375 1541.203
+  angles 0 -11.198 0
+  m_sAttachmentGroupName "SQ2"
+ }
+ Ural4320_Ses_TKA_transport_covered2 {
+  coords 3560.567 190.375 1561.454
+  angles 0 -11.198 0
+  m_sAttachmentGroupName "SQ1"
+ }
+ Ural4320_Ses_TKA_transport_covered3 {
+  coords 3614.656 190.375 1541.897
+  angles 0 -11.198 0
+  m_sAttachmentGroupName "SQ5"
+ }
+ Ural4320_Ses_TKA_transport_covered4 {
+  coords 3607.041 190.375 1576.233
+  angles 0 -11.198 0
+  m_sAttachmentGroupName "SQ4"
+ }
+ Ural4320_Ses_TKA_transport_covered5 {
+  coords 5257.633 228.125 3503.669
+  angles 0 -23.269 0
+  m_sAttachmentGroupName "SQ9"
+ }
+}
+SCR_AIGroup HQ : "{F21917B6C71E18E0}Prefabs/Groups/OPFOR/Ses_TKA/Group_Ses_TKA_PlatoonHQ.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "1"
+  }
+  PS_GroupCallsignAssigner "{68895D8838B9F7FF}" {
+  }
+ }
+ coords 3583.339 190.375 1555.889
+ angles 0 -5.591 0
+ m_aUnitPrefabSlots {
+  "{85EB4CD1B26B623A}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_PL_Random.et"
+  "{8B527E374F30265A}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_RTO_Random.et"
+ }
+ m_sCustomNameSet "Штаб"
+}
+$grp Vehicle : "{F3C22A3CC0664AB7}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_Ses_TKA.et" {
+ UAZ469_Ses_TKA1 {
+  coords 1853.474 143.25 3045.87
+  angles 0 -120 0
+  m_sAttachmentGroupName "SQ7"
+ }
+ UAZ469_Ses_TKA2 {
+  coords 1849.504 143.25 3052.746
+  angles 0 -120 0
+  m_sAttachmentGroupName "SQ6"
+ }
+ UAZ469_Ses_TKA3 {
+  coords 3587.526 190.375 1555.575
+  angles 0 -10.019 0
+  m_sAttachmentGroupName "HQ"
+ }
+}
+$grp SCR_AIGroup : "{F84C950E55A7BD7E}Prefabs/Groups/OPFOR/Ses_TKA/Group_Ses_TKA_RifleSquad.et" {
+ SQ1 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "1"
+   }
+   PS_GroupCallsignAssigner "{68895D8847E92EA7}" {
+    m_iCompanyCallsign 1
+   }
+  }
+  coords 3551.841 192.228 1563.372
+  angles 0 76.878 0
+  m_aUnitPrefabSlots {
+   "{7A311185329FF27C}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_SL_Random.et"
+   "{C86420C763ED0021}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_AR_Random.et"
+   "{9C2C6F808E31CC7F}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_AT_Random.et"
+   "{108F61FD1567B2B8}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_AAT_Random.et"
+   "{3DA88236C1DA39C9}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_SR_Random.et"
+   "{E43DF362DA97C9B8}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_Rifleman_AK74_Random.et"
+   "{43C4A665A2194B4E}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_Medic_Random.et"
+   "{3A44182939C9EA94}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_Sharpshooter_Random.et"
+  }
+  m_sCustomNameSet "Стрелковое отделение"
+ }
+ SQ2 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "1"
+   }
+   PS_GroupCallsignAssigner "{68895D88402A1696}" {
+    m_iCompanyCallsign 1
+    m_iSquadCallsign 1
+   }
+  }
+  coords 3556.545 192.228 1543.198
+  angles 0 76.878 0
+  m_aUnitPrefabSlots {
+   "{7A311185329FF27C}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_SL_Random.et"
+   "{C86420C763ED0021}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_AR_Random.et"
+   "{9C2C6F808E31CC7F}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_AT_Random.et"
+   "{108F61FD1567B2B8}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_AAT_Random.et"
+   "{3DA88236C1DA39C9}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_SR_Random.et"
+   "{E43DF362DA97C9B8}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_Rifleman_AK74_Random.et"
+   "{43C4A665A2194B4E}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_Medic_Random.et"
+   "{3A44182939C9EA94}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_Sharpshooter_Random.et"
+  }
+  m_sCustomNameSet "Стрелковое отделение"
+ }
+ SQ3 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "1"
+   }
+   PS_GroupCallsignAssigner "{68895D884D02414D}" {
+    m_iCompanyCallsign 1
+    m_iSquadCallsign 2
+   }
+  }
+  coords 3560.883 192.228 1524.591
+  angles 0 76.878 0
+  m_aUnitPrefabSlots {
+   "{7A311185329FF27C}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_SL_Random.et"
+   "{C86420C763ED0021}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_AR_Random.et"
+   "{9C2C6F808E31CC7F}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_AT_Random.et"
+   "{108F61FD1567B2B8}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_AAT_Random.et"
+   "{3DA88236C1DA39C9}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_SR_Random.et"
+   "{E43DF362DA97C9B8}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_Rifleman_AK74_Random.et"
+   "{43C4A665A2194B4E}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_Medic_Random.et"
+   "{8F1D495F5E5129E9}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_CC_Random.et"
+   "{4EEEA838E00B3579}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_Crew_Random.et"
+  }
+  m_sCustomNameSet "Стрелковое отделение на БТР"
+ }
+ SQ5 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "1"
+   }
+   PS_GroupCallsignAssigner "{68895D884E924294}" {
+    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 1
+   }
+  }
+  coords 3622.59 192.228 1531.879
+  angles 0 -103.122 0
+  m_aUnitPrefabSlots {
+   "{7A311185329FF27C}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_SL_Random.et"
+   "{C86420C763ED0021}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_AR_Random.et"
+   "{9C2C6F808E31CC7F}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_AT_Random.et"
+   "{108F61FD1567B2B8}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_AAT_Random.et"
+   "{3DA88236C1DA39C9}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_SR_Random.et"
+   "{E43DF362DA97C9B8}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_Rifleman_AK74_Random.et"
+   "{43C4A665A2194B4E}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_Medic_Random.et"
+   "{8F1D495F5E5129E9}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_CC_Random.et"
+   "{4EEEA838E00B3579}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_Crew_Random.et"
+  }
+  m_sCustomNameSet "Стрелковое отделение с ЗУ-23"
+ }
+ SQ4 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "1"
+   }
+   PS_GroupCallsignAssigner "{68895D88481BE721}" {
+    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 1
+   }
+  }
+  coords 3614.395 192.228 1567.034
+  angles 0 -103.122 0
+  m_aUnitPrefabSlots {
+   "{7A311185329FF27C}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_SL_Random.et"
+   "{C86420C763ED0021}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_AR_Random.et"
+   "{9C2C6F808E31CC7F}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_AT_Random.et"
+   "{108F61FD1567B2B8}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_AAT_Random.et"
+   "{3DA88236C1DA39C9}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_SR_Random.et"
+   "{E43DF362DA97C9B8}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_Rifleman_AK74_Random.et"
+   "{43C4A665A2194B4E}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_Medic_Random.et"
+   "{8F1D495F5E5129E9}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_CC_Random.et"
+   "{4EEEA838E00B3579}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_Crew_Random.et"
+  }
+  m_sCustomNameSet "Стрелковое отделение с ЗУ-23"
+ }
+ SQ6 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "1"
+   }
+   PS_GroupCallsignAssigner "{68895D8855C523B4}" {
+    m_iCompanyCallsign 2
+   }
+  }
+  coords 1845.477 143.25 3055.558
+  angles 0 151.878 0
+  m_aUnitPrefabSlots {
+   "{7A311185329FF27C}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_SL_Random.et"
+   "{C86420C763ED0021}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_AR_Random.et"
+   "{9C2C6F808E31CC7F}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_AT_Random.et"
+   "{108F61FD1567B2B8}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_AAT_Random.et"
+   "{3DA88236C1DA39C9}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_SR_Random.et"
+   "{E43DF362DA97C9B8}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_Rifleman_AK74_Random.et"
+   "{43C4A665A2194B4E}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_Medic_Random.et"
+   "{3A44182939C9EA94}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_Sharpshooter_Random.et"
+  }
+  m_sCustomNameSet "Передовой отряд"
+ }
+ SQ7 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "1"
+   }
+   PS_GroupCallsignAssigner "{68895D8856DA870C}" {
+    m_iCompanyCallsign 2
+    m_iSquadCallsign 1
+   }
+  }
+  coords 1847.818 143.25 3039.211
+  angles 0 -28.122 0
+  m_aUnitPrefabSlots {
+   "{7A311185329FF27C}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_SL_Random.et"
+   "{C86420C763ED0021}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_AR_Random.et"
+   "{9C2C6F808E31CC7F}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_AT_Random.et"
+   "{108F61FD1567B2B8}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_AAT_Random.et"
+   "{3DA88236C1DA39C9}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_SR_Random.et"
+   "{E43DF362DA97C9B8}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_Rifleman_AK74_Random.et"
+   "{43C4A665A2194B4E}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_Medic_Random.et"
+   "{3A44182939C9EA94}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_Sharpshooter_Random.et"
+  }
+  m_sCustomNameSet "Передовой отряд"
+ }
+ SQ8 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "1"
+   }
+   PS_GroupCallsignAssigner "{68895D885399957E}" {
+    m_iCompanyCallsign 3
+   }
+  }
+  coords 5268.212 228.125 3514.578
+  angles 0 -113.729 0
+  m_aUnitPrefabSlots {
+   "{7A311185329FF27C}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_SL_Random.et"
+   "{C86420C763ED0021}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_AR_Random.et"
+   "{9C2C6F808E31CC7F}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_AT_Random.et"
+   "{108F61FD1567B2B8}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_AAT_Random.et"
+   "{3DA88236C1DA39C9}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_SR_Random.et"
+   "{E43DF362DA97C9B8}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_Rifleman_AK74_Random.et"
+   "{8F1D495F5E5129E9}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_CC_Random.et"
+   "{4EEEA838E00B3579}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_Crew_Random.et"
+  }
+  m_sCustomNameSet "Стрелковое отделение на БТР"
+ }
+ SQ9 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "1"
+   }
+   PS_GroupCallsignAssigner "{68895D885D341103}" {
+    m_iCompanyCallsign 3
+    m_iSquadCallsign 1
+   }
+  }
+  coords 5248.467 228.127 3514.214
+  angles 0 66.108 0
+  m_aUnitPrefabSlots {
+   "{7A311185329FF27C}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_SL_Random.et"
+   "{C86420C763ED0021}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_AR_Random.et"
+   "{9C2C6F808E31CC7F}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_AT_Random.et"
+   "{108F61FD1567B2B8}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_AAT_Random.et"
+   "{3DA88236C1DA39C9}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_SR_Random.et"
+   "{E43DF362DA97C9B8}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_Rifleman_AK74_Random.et"
+   "{E43DF362DA97C9B8}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_Rifleman_AK74_Random.et"
+  }
+  m_sCustomNameSet "Стрелковое отделение с ЗУ-23"
+ }
+}
+$grp Vehicle : "{FD109F3702AAB392}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_ZU23.et" {
+ Ural4320_ZU1 {
+  coords 3618.063 190.375 1527.814
+  angles 0 -12.506 0
+  m_sAttachmentGroupName "SQ5"
+ }
+ Ural4320_ZU2 {
+  coords 3610.448 190.375 1562.15
+  angles 0 -12.506 0
+  m_sAttachmentGroupName "SQ4"
+ }
+ Ural4320_ZU3 {
+  coords 5252.455 228.125 3514.907
+  angles 0 -24.823 0
+  m_sAttachmentGroupName "SQ9"
+ }
+}

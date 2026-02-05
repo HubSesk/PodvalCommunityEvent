@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{396D531D125A3EDD}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Role_Character_USAF_USMC_Rifleman_v2_D.et" {
+SCR_ChimeraCharacter : "{396D531D125A3EDD}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/dim_Role_Character_USAF_USMC_Rifleman_v2_D.et" {
  ID "520EC961A090B1EE"
  components {
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
@@ -10,20 +10,21 @@ SCR_ChimeraCharacter : "{396D531D125A3EDD}Prefabs/Characters/Factions/BLUFOR/RHS
      Prefab "{22D243B047D25C50}Prefabs/Characters/HeadGear/USMC_Boonie_Hat/GD_USMC_Boonie_Hat_D_Scarf_Baf.et"
     }
     LoadoutSlotInfo Pants {
-     Prefab "{502D25B27986FAD7}Prefabs/Characters/Uniforms/USMC/Desert/GD_USMC_Frog_Pants_In_D.et"
     }
    }
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{6720F9CB5344D10E}" {
-     TargetStorage "Pants/GD_USMC_Frog_Pants_In_D.et"
+     TargetStorage "Pants/Pants_FROG_Arid.et"
     }
     ItemsInitConfigurationItem "{6720F9CB52FFCEB5}" {
-     TargetStorage "Pants/GD_USMC_Frog_Pants_In_D.et"
+     TargetStorage "Pants/Pants_FROG_Arid.et"
+    }
+    ItemsInitConfigurationItem "{6720F9CB52DA4A6E}" {
     }
     ItemsInitConfigurationItem "{6720F9CE79E73603}" {
-     TargetStorage "Jacket/GD_USMC_Frog_Shirt.et"
+     TargetStorage "Jacket/Shirt_FROG_Arid.et"
     }
    }
   }

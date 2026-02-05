@@ -1,0 +1,979 @@
+GenericWorldFogEntity : "{78D9BBF0F423FEB4}Prefabs/World/DefaultWorld/FogHaze_Default.et" {
+ coords 1822.011 126.404 3068.654
+ DistanceDensity 0.715
+ HazeDensity 0.911
+ HeightOffset 0.938
+ FogHeightStart entity
+ ColorIntensityLV 20
+}
+$grp GenericEntity {
+ {
+  components {
+   MeshObject "{68895D85820E16DA}" {
+    Object "{CB9462B8D3790826}Prefabs/Misc/Abrams/M1A2.xob"
+   }
+   RigidBody "{688A7317E72FCD3C}" {
+    ModelGeometry 1
+    Static 1
+   }
+   RplComponent "{688A7317EF3BEE2C}" {
+   }
+  }
+  coords 1500.505 121.992 4654.807
+  angles -1.071 87.734 -4.428
+ }
+ {
+  components {
+   MeshObject "{688A16CB084C124B}" {
+    Object "{19105A1130EFBEC3}Prefabs/Misc/Abrams_Wreck/Abrams1.xob"
+   }
+   RigidBody "{688A7317D167EB9D}" {
+    ModelGeometry 1
+    Static 1
+   }
+   RplComponent "{688A7317F5BA2CA3}" {
+   }
+  }
+  coords 1445.454 134.729 4687.403
+  angles 5.252 110.638 -0.02
+ }
+ {
+  components {
+   MeshObject "{68895D85820E16DA}" {
+    Object "{CB9462B8D3790826}Prefabs/Misc/Abrams/M1A2.xob"
+   }
+   RigidBody "{688A73104D3E7BC5}" {
+    ModelGeometry 1
+    Static 1
+   }
+   RplComponent "{688A73104F8B5CF1}" {
+   }
+  }
+  coords 1503.165 120.328 4700.343
+  angles -1.071 155.622 -4.428
+ }
+ {
+  components {
+   MeshObject "{688A16CB084C124B}" {
+    Object "{19105A1130EFBEC3}Prefabs/Misc/Abrams_Wreck/Abrams1.xob"
+   }
+   RigidBody "{688A731057A495B2}" {
+    ModelGeometry 1
+    Static 1
+   }
+   RplComponent "{688A7310513B2863}" {
+   }
+  }
+  coords 1606.317 133.24 4674.029
+  angles 5.252 110.638 -0.02
+ }
+ {
+  components {
+   MeshObject "{688A16CECCEA1CAC}" {
+    Object "{8924F7FC35583333}Prefabs/Misc/Abrams/Abrams1.xob"
+    Materials {
+     MaterialAssignClass "{688A16CD242FE3DC}" {
+      SourceMaterial "Hull"
+      AssignedMaterial "{7BC39282D44FCEF5}Prefabs/Misc/Abrams/Data/Wreck/Hull.emat"
+     }
+    }
+   }
+  }
+  coords 1434.593 120.88 4824.135
+  angles -1.07 116.037 3.372
+ }
+ {
+  components {
+   MeshObject "{688A16CB084C124B}" {
+    Object "{19105A1130EFBEC3}Prefabs/Misc/Abrams_Wreck/Abrams1.xob"
+   }
+   RigidBody "{688A731058555FD4}" {
+    ModelGeometry 1
+    Static 1
+   }
+   RplComponent "{688A731065A1E9E3}" {
+   }
+  }
+  coords 1434.792 121.266 4823.646
+  angles 0.022 120.593 2.086
+ }
+ {
+  components {
+   MeshObject "{688A16CECCEA1CAC}" {
+    Object "{8924F7FC35583333}Prefabs/Misc/Abrams/Abrams1.xob"
+    Materials {
+     MaterialAssignClass "{688A16CD242FE3DC}" {
+      SourceMaterial "Hull"
+      AssignedMaterial "{7BC39282D44FCEF5}Prefabs/Misc/Abrams/Data/Wreck/Hull.emat"
+     }
+    }
+   }
+  }
+  coords 1462.925 131.852 4619.205
+  angles -8.908 58.864 6.234
+ }
+ {
+  components {
+   MeshObject "{688A16CB084C124B}" {
+    Object "{19105A1130EFBEC3}Prefabs/Misc/Abrams_Wreck/Abrams1.xob"
+   }
+   RigidBody "{688A731045160908}" {
+    ModelGeometry 1
+    Static 1
+   }
+   RplComponent "{688A7310461139B4}" {
+   }
+  }
+  coords 1463.493 132.163 4619.114
+  angles -8.019 63.515 4.305
+ }
+}
+$grp ParticleEffectEntity {
+ {
+  coords 1500.596 123.191 4658.655
+  angles -5.169 0 0
+  EffectPath "{6EE3295AC363E562}Particles/Enviroment/Smoke_Smokestack_Big.ptc"
+ }
+ {
+  coords 1646.611 144.742 2076.145
+  EffectPath "{C7C126B8FC38B083}Particles/Smoke_Building_Shop.ptc"
+ }
+ {
+  coords 721.935 165.152 1875.193
+  EffectPath "{C7C126B8FC38B083}Particles/Smoke_Building_Shop.ptc"
+ }
+ {
+  coords 7.259 208.607 3386.093
+  EffectPath "{C7C126B8FC38B083}Particles/Smoke_Building_Shop.ptc"
+ }
+ {
+  coords 2457.673 161.468 2441.721
+  EffectPath "{C7C126B8FC38B083}Particles/Smoke_Building_Shop.ptc"
+ }
+ {
+  coords 2682.063 176.432 3208.973
+  EffectPath "{C7C126B8FC38B083}Particles/Smoke_Building_Shop.ptc"
+ }
+ {
+  coords 2681.111 68.548 3918.516
+  EffectPath "{C7C126B8FC38B083}Particles/Smoke_Building_Shop.ptc"
+ }
+ {
+  coords 3491.338 153.485 4435.874
+  EffectPath "{C7C126B8FC38B083}Particles/Smoke_Building_Shop.ptc"
+ }
+ {
+  coords 3249.458 133.121 5306.889
+  EffectPath "{C7C126B8FC38B083}Particles/Smoke_Building_Shop.ptc"
+ }
+ {
+  coords 6313.204 168.379 4768.39
+  EffectPath "{C7C126B8FC38B083}Particles/Smoke_Building_Shop.ptc"
+ }
+ {
+  coords 6882.462 178.625 4458.011
+  EffectPath "{C7C126B8FC38B083}Particles/Smoke_Building_Shop.ptc"
+ }
+ {
+  coords 7300.291 121.472 5277.646
+  EffectPath "{C7C126B8FC38B083}Particles/Smoke_Building_Shop.ptc"
+ }
+ {
+  coords 7090.945 351.379 3717.699
+  EffectPath "{C7C126B8FC38B083}Particles/Smoke_Building_Shop.ptc"
+ }
+ {
+  coords 1962.859 144.066 4547.649
+  EffectPath "{C7C126B8FC38B083}Particles/Smoke_Building_Shop.ptc"
+ }
+ {
+  coords 1380.394 133.168 4503.87
+  EffectPath "{C7C126B8FC38B083}Particles/Smoke_Building_Shop.ptc"
+ }
+ {
+  coords 1405.807 133.107 4516.626
+  EffectPath "{C7C126B8FC38B083}Particles/Smoke_Building_Shop.ptc"
+ }
+ {
+  coords 1416.968 135.163 4593.125
+  EffectPath "{C7C126B8FC38B083}Particles/Smoke_Building_Shop.ptc"
+ }
+ {
+  coords 1644.504 125.788 4468.18
+  EffectPath "{C7C126B8FC38B083}Particles/Smoke_Building_Shop.ptc"
+ }
+ {
+  coords 1634.929 128.942 4443.196
+  EffectPath "{C7C126B8FC38B083}Particles/Smoke_Building_Shop.ptc"
+ }
+ {
+  coords 1608.088 133.816 4385.548
+  EffectPath "{C7C126B8FC38B083}Particles/Smoke_Building_Shop.ptc"
+ }
+ {
+  coords 1446.022 136.606 4690.449
+  EffectPath "{C7C126B8FC38B083}Particles/Smoke_Building_Shop.ptc"
+ }
+ {
+  coords 1445.516 135.666 4690.062
+  EffectPath "{5A8C0DFF10B4CF3D}Particles/Fire_Building_Shop.ptc"
+ }
+ {
+  coords 1506.765 120.564 4701.707
+  angles -5.169 67.888 0
+  EffectPath "{6EE3295AC363E562}Particles/Enviroment/Smoke_Smokestack_Big.ptc"
+ }
+ {
+  coords 1606.885 135.117 4677.076
+  EffectPath "{C7C126B8FC38B083}Particles/Smoke_Building_Shop.ptc"
+ }
+ {
+  coords 1606.379 134.177 4676.688
+  EffectPath "{5A8C0DFF10B4CF3D}Particles/Fire_Building_Shop.ptc"
+ }
+ {
+  coords 1436.44 122.535 4827.06
+  angles 1.587 56.81 -8.188
+  EffectPath "{C7C126B8FC38B083}Particles/Smoke_Building_Shop.ptc"
+ }
+ {
+  coords 1461.725 133.608 4622.396
+  EffectPath "{C7C126B8FC38B083}Particles/Smoke_Building_Shop.ptc"
+ }
+}
+$grp GenericEntity : "{0011A3CBD1B1212A}Prefabs/Props/Garbage/Military/Ammo/GarbageAmmunition_US_01.et" {
+ {
+  coords 1499.497 122.647 4648.099
+ }
+ {
+  coords 1496.571 121.575 4698.75
+  angles 0 67.888 0
+ }
+ {
+  coords 1514.717 122.118 4696.32
+ }
+}
+GenericEntity : "{002B8C09F0E7E371}Prefabs/Props/Wrecks/S1203_wreck/S1203_wreck_static.et" {
+ coords 1672.561 121.261 4582.175
+ angles 0 180 0
+}
+$grp GenericEntity : "{013297BA01640EB9}Prefabs/Props/Garbage/Military/Ammo/GarbageAmmunition_USSR_02.et" {
+ {
+  coords 1499.44 122.491 4649.623
+ }
+ {
+  coords 1500.471 122.86 4645.779
+ }
+ {
+  coords 1497.962 121.186 4699.378
+  angles 0 67.888 0
+ }
+}
+$grp StaticModelEntity : "{07D6AED5B385571A}PrefabsEditable/Auto/Structures/Military/Fortifications/E_DirtCover_01_long_v1_DIMKII.et" {
+ {
+  coords 1491.524 0.347 4650.851
+  angles 4.323 76.887 0
+  scale 1.85
+ }
+ {
+  coords 1444.31 0 4684.685
+ }
+ {
+  coords 1605.173 0.074 4671.312
+ }
+}
+$grp GenericEntity : "{117F531A010E0032}PrefabLibrary/DefaultLibrary/Props/Military/T62_wreck.et" {
+ {
+  coords 1455.941 134.077 4485.82
+ }
+ {
+  coords 1380.562 132.688 4505.013
+  angles 0 35.829 0
+  {
+   GenericEntity {
+    ID "662AB4309A5355EA"
+    coords 0 3.019 7.434
+    angles -73.399 180 -180
+   }
+  }
+ }
+ {
+  coords 1405.312 132.688 4516.511
+  angles 0 7.262 0
+  {
+   GenericEntity {
+    ID "662AB4309A5355EA"
+    coords 6.649 3.663 -0.201
+    angles -63.084 56.516 30.533
+   }
+  }
+ }
+ {
+  coords 1391.504 133.783 4544.935
+  angles -3.192 25.523 0.458
+ }
+ {
+  coords 1441.296 132.636 4601.298
+  angles 0 0 0.895
+  {
+   GenericEntity {
+    ID "662AB4309A5355EA"
+    coords 0 0 0
+    angles 0 49.232 0
+   }
+  }
+ }
+ {
+  coords 1669.074 123.23 4482.19
+  angles -4.45 -0.279 3.587
+  {
+   GenericEntity {
+    ID "662AB4309A5355EA"
+    coords 0 0 0
+    angles 0 49.232 0
+   }
+  }
+ }
+ {
+  coords 1619.282 131.227 4425.825
+  angles 0.057 25.75 3.997
+ }
+ {
+  coords 1633.09 131.26 4397.404
+  angles -4.868 7.008 2.994
+  {
+   GenericEntity {
+    ID "662AB4309A5355EA"
+    coords 6.649 3.663 -0.201
+    angles -63.084 56.516 30.533
+   }
+  }
+ }
+ {
+  coords 1608.34 133.445 4385.905
+  angles -6.282 36.21 -3.483
+  {
+   GenericEntity {
+    ID "662AB4309A5355EA"
+    coords 0 3.019 7.434
+    angles -73.399 180 -180
+   }
+  }
+ }
+}
+$grp Vehicle : "{1395C9E664E4C792}Prefabs/Vehicles/Wheeled/M998/M1151_armed_M2HB_Tan_NOGUN_DIMKII.et" {
+ M1151_armed_M2HB_Tan_NOGUN_DIMKII1 {
+  coords 1451.946 127.779 4737.16
+  angles 7.103 -111.717 5.765
+ }
+ M1151_armed_M2HB_Tan_NOGUN_DIMKII2 {
+  coords 1433.059 128.919 4729.554
+  angles 7.91 171.104 -1.234
+ }
+ M1151_armed_M2HB_Tan_NOGUN_DIMKII3 {
+  coords 1510.052 122.649 4671.264
+  angles -3.309 1.13 -113.616
+ }
+}
+StaticModelEntity : "{17EC093A1F982C16}PrefabsEditable/Auto/Structures/Military/Fortifications/E_DirtPile_01_large_DIMKII.et" {
+ coords 1432.442 -0.403 4727.208
+ scale 1.51
+}
+$grp DecalEntity : "{1DC3A792132D86CB}Prefabs/Decals/Blood/BloodStain_Large_02.et" {
+ {
+  coords 1496.908 0.032 4649.925
+  angles -90 -180 -180
+  scale 1.5
+ }
+ {
+  coords 1497.289 0.001 4701.837
+  angles -89.98 97.598 -29.71
+  scale 1.5
+ }
+}
+GenericEntity : "{1F3291C2A7E2BA00}Prefabs/Props/Wrecks/BRDM2_wreck/BRDM2_wreck_static.et" {
+ coords 1655.7 119.624 4529.16
+ angles 2.641 46.009 -6.253
+}
+$grp DecalEntity : "{22F9041142B00E5A}PrefabLibrary/DefaultLibrary/Decals/Stains/Decal_OilStain_01_extralarge.et" {
+ {
+  coords 1498.247 0 4652.345
+  angles -90 15.826 -180
+  scale 3.731
+ }
+ {
+  coords 1500.035 0 4701.508
+  angles -90 5.264 -101.55
+  scale 3.731
+ }
+}
+$grp GenericEntity : "{2424EBB806A690D4}Prefabs/Props/Garbage/Medical/GarbageMedicalUS_02.et" {
+ {
+  coords 1502.104 123.054 4644.081
+ }
+ {
+  coords 1497.147 123.115 4645.94
+ }
+}
+GenericEntity : "{2612BE0EC0CBF7D3}PrefabLibrary/DefaultLibrary/Props/Military/BMP1_turret.et" {
+ coords 1411.687 135.291 4574.991
+ angles -79.699 4.932 -5.012
+}
+$grp GenericEntity : "{27F6A0815E6FF6EF}Prefabs/Compositions/Slotted/SlotRoadMedium/Barricade_M_USSR_01.et" {
+ {
+  coords 1532.167 126.665 4681.916
+  angles -9.521 1.502 -9.006
+ }
+ {
+  coords 1542.529 128.367 4677.952
+  angles -0.147 43.894 -7.551
+ }
+}
+$grp GenericEntity : "{2BCCA31989E825C8}PrefabLibrary/DefaultLibrary/Props/Military/BTR70_wreck.et" {
+ {
+  coords 1304.281 128.939 4527.116
+  angles -2.682 0 -2.682
+ }
+ {
+  coords 1532.059 128.148 4408.009
+  angles 8.973 -4.44 -20.989
+ }
+ {
+  coords 1304.318 119.555 4616.064
+  angles -2.682 0 -2.682
+ }
+ {
+  coords 1321.616 120.788 4681.664
+  angles -1.555 20.787 -3.459
+ }
+ {
+  coords 1273.488 130.1 4489.393
+  angles 2.341 83.053 -2.984
+ }
+}
+GenericEntity : "{3095991EA6911817}PrefabsEditable/Auto/Compositions/Misc/SubCompositions/E_Barricade_Logs_03.et" {
+ coords 1410.536 133.625 4545.439
+}
+GenericEntity : "{31B5A3C26644F4A5}PrefabLibrary/DefaultLibrary/Props/Military/T62_wreck_turret.et" {
+ coords 1429.639 135.673 4614.831
+ angles -72.476 174.32 -174.046
+}
+DecalEntity : "{3BD66CDD309673DB}Prefabs/Decals/Blood/BloodStain_Drops_01.et" {
+ coords 1494.345 0 4648.087
+ angles -90 0 62.397
+ scale 2
+}
+GenericEntity FLAG3 : "{3D78D7D606FF9818}PrefabsEditable/Auto/Structures/Military/Flags/E_FlagPole_NoCapture.et" {
+ coords 1457.225 135.823 4678.438
+}
+GenericEntity : "{44277710A8E45F97}Prefabs/Props/Wrecks/UAZ469_wreck/UAZ469_wreck_rusty_static.et" {
+ coords 1699.93 128.845 4700.606
+ angles 7.123 -0.112 -0.902
+}
+$grp DecalEntity : "{4E2502622DA0DB28}Prefabs/Decals/Miscellaneous/Decal_Damage_Burnt_01.et" {
+ {
+  coords 1501.849 122.448 4653.041
+  angles -90 0 0
+  scale 8.4
+ }
+ {
+  coords 1445.158 134.911 4687.229
+  angles -90 -180 -180
+  scale 10
+  TerrainOnly 0
+ }
+ {
+  coords 1430.972 133.054 4599.965
+  angles -90 -180 -180
+  scale 10
+ }
+ {
+  coords 1417.656 133.303 4592.52
+  angles -90 -180 -180
+  scale 10
+  TerrainOnly 0
+ }
+ {
+  coords 1405.783 133.163 4516.64
+  angles -90 -180 -180
+  scale 10
+ }
+ {
+  coords 1304.14 129.253 4526.326
+  angles -90 -180 -180
+  scale 10
+ }
+ {
+  coords 1659.204 123.512 4481.177
+  angles -90 -180 -180
+  scale 10
+ }
+ {
+  coords 1456.36 135.132 4484.794
+  angles -90 -180 -180
+  scale 10
+  TerrainOnly 0
+ }
+ {
+  coords 1456.159 134.261 4485.52
+  angles -90 -180 -180
+  scale 10
+ }
+ {
+  coords 1463.889 132.568 4619.772
+  angles -90 -180 -180
+  scale 10
+ }
+ {
+  coords 1502.035 120.421 4698.432
+  angles -89.96 -180 -112.112
+  scale 8.4
+ }
+ {
+  coords 1606.021 133.422 4673.855
+  angles -90 -180 -180
+  scale 10
+  TerrainOnly 0
+ }
+ {
+  coords 1509.782 121.554 4671.105
+  angles -15 -90 90
+  scale 5.2
+  TerrainOnly 0
+ }
+ {
+  coords 1304.576 120.127 4616.178
+  angles -90 -180 -180
+  scale 10
+ }
+ {
+  coords 1435.515 121.741 4823.719
+  angles -81.66 135.918 -78.995
+  scale 10
+ }
+}
+GenericEntity : "{56FFF0C990358ED2}Prefabs/Props/Wrecks/UAZ452_wreck/UAZ452_wreck_static.et" {
+ coords 1689.608 128.467 4696.535
+ angles 0 -110.078 0
+}
+GenericEntity : "{57FB5E487EC91D64}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Barricade_Logs_02.et" {
+ coords 1519.376 125.66 4622.989
+}
+GenericEntity : "{5C79645A168A9D69}Prefabs/Weapons/Attachments/Misc/manta_railcover/kits/RHS_manta_kit_kacGrip_M27_2.et" {
+ components {
+  SlotManagerComponent "{62A52E56EAB47677}" {
+   Slots {
+    EntitySlotInfo cover3 {
+     Enabled 0
+    }
+    EntitySlotInfo gripcover {
+     Enabled 0
+    }
+   }
+  }
+ }
+ coords 3006.262 140.902 7864.013
+}
+DecalEntity : "{71979372AFE909E5}Prefabs/Decals/Blood/BloodStain_Large_01.et" {
+ coords 1495.553 0 4648.807
+ angles -90 -180 -180
+ scale 1.5
+}
+$grp GenericEntity : "{7C5703881A4D40A9}PrefabsEditable/Auto/Props/Wrecks/E_M998_wreck.et" {
+ {
+  coords 1702.798 131.06 4720.447
+  angles 0 -149.983 0
+ }
+ {
+  coords 1692.873 129.884 4709.669
+  angles -6.642 164.71 2.732
+ }
+}
+$grp DecalEntity : "{80B1153302345834}Prefabs/Decals/Miscellaneous/Decal_Damage_Burnt_03.et" {
+ {
+  coords 1508.562 123.09 4671.417
+  angles -60.941 90 -90
+  scale 3.75
+  FarPlane 7.24
+  TerrainOnly 0
+ }
+ {
+  coords 1433.402 121.51 4820.487
+  angles -81.66 135.918 -78.995
+  scale 5
+ }
+ {
+  coords 1465.401 132.216 4616.231
+  angles -90 -180 -180
+  scale 5
+ }
+}
+GenericEntity : "{84CBCE9163176B3E}Prefabs/Props/Wrecks/S105_wreck/S105_wreck.et" {
+ coords 1676.284 120.141 4561.785
+ angles -1.998 -150.168 -0.114
+}
+$grp GenericEntity : "{914693A090EDA391}PrefabLibrary/DefaultLibrary/Props/Military/Ural4320_wreck.et" {
+ {
+  coords 1361.714 131.933 4532.437
+  angles 0 0 -4.467
+ }
+ {
+  coords 1392.776 127.979 4602.225
+  angles -7.974 0 -6.202
+ }
+}
+$grp GenericEntity : "{A04DC55EB7C367F8}Prefabs/Props/Garbage/Military/Ammo/GarbageAmmunition_US_02.et" {
+ {
+  coords 1500.633 122.544 4648.559
+ }
+ {
+  coords 1497.425 121.374 4697.872
+  angles 0 67.888 0
+ }
+ {
+  coords 1513.964 121.531 4690.957
+ }
+}
+GenericEntity : "{AE57C45CB32D6168}Prefabs/Props/Wrecks/M113_wreck/M113_wreck_static.et" {
+ coords 1664.147 120.1 4531.611
+ angles -0.266 -72.721 0.855
+}
+$grp GenericEntity : "{B0F3D8C49F4B5D1D}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_USSR_04_DIMKII.et" {
+ {
+  coords 1508.666 124.245 4624.845
+  angles 2.668 -0.208 -8.042
+ }
+ {
+  coords 1429.754 134.061 4573.728
+  angles 0 -150 0
+ }
+ {
+  coords 1409.484 130.061 4623.287
+  angles -2.526 -135.112 2.533
+ }
+ {
+  coords 1454.293 134.78 4676.773
+  angles 0 -0.465 0
+ }
+ {
+  coords 1448.777 133.948 4498.01
+  angles 0.887 -0.083 -5.357
+ }
+}
+GenericEntity : "{B26712B1722C8A09}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Barricade_Logs_03.et" {
+ coords 1492.544 124.502 4622.875
+}
+GenericEntity : "{B2DCC836439482A9}Prefabs/Props/Garbage/Generic/GarbageGeneric_01_sparse.et" {
+ coords 1515.183 122.093 4692.79
+}
+$grp GenericEntity : "{B95DE10716B00052}PrefabsEditable/Auto/Compositions/Misc/SubCompositions/E_Barricade_Logs_01.et" {
+ {
+  coords 1440.935 133.417 4500.233
+  angles 2.385 -16.892 -4.454
+ }
+ {
+  coords 1435.025 133.015 4499.714
+  angles 2.385 -16.892 -4.454
+ }
+}
+$grp DecalEntity : "{BD7194E89FF448BA}PrefabLibrary/DefaultLibrary/Decals/Stains/Decal_OilStain_01_large.et" {
+ {
+  coords 1498.044 0 4650.484
+  angles -90 -167.717 -180
+  scale 2.562
+ }
+ {
+  coords 1498.234 0 4700.995
+  angles -90 -76.673 156.844
+  scale 2.562
+ }
+}
+$grp GenericEntity : "{C3ECB6EA12D467CB}PrefabLibrary/DefaultLibrary/Props/Military/M113_wreck.et" {
+ {
+  coords 1417.518 133.308 4593.302
+  angles -2.678 0 -4.464
+ }
+ {
+  coords 1645.297 123.906 4468.808
+ }
+}
+$grp GenericEntity : "{CD7AE675C0059D3B}PrefabLibrary/DefaultLibrary/Props/Military/BMP1_wreck.et" {
+ {
+  coords 1407.363 133.688 4561.16
+  {
+   GenericEntity {
+    ID "662AB519E476772A"
+    coords 0 0 0
+    angles 0 -134.73 0
+   }
+  }
+ }
+ {
+  coords 1430.309 132.976 4599.667
+  angles -0.339 62.865 7.168
+  {
+   GenericEntity {
+    ID "662AB519E476772A"
+    coords 0 0 0
+    angles 0 81.788 0
+   }
+  }
+ }
+ {
+  coords 1658.087 123.38 4480.558
+  angles -1.223 62.902 -2.389
+  {
+   GenericEntity {
+    ID "662AB519E476772A"
+    coords 0 0 0
+    angles 0 81.788 0
+   }
+  }
+ }
+ {
+  coords 1635.141 127.201 4442.052
+  angles -5.309 -0.499 5.379
+  {
+   GenericEntity {
+    ID "662AB519E476772A"
+    coords 0 0 0
+    angles 0 -134.73 0
+   }
+  }
+ }
+ {
+  coords 1506.954 120.724 4669.827
+  angles -5.041 1.264 -14.092
+  {
+   GenericEntity {
+    ID "662AB519E476772A"
+    coords 0 0 0
+    angles 0 118.426 0
+   }
+  }
+ }
+ {
+  coords 1363.07 124.006 4424.141
+  angles -3.686 14.661 -0.04
+  {
+   GenericEntity {
+    ID "662AB519E476772A"
+    coords 0 0 0
+    angles 0 90.27 0
+   }
+  }
+ }
+ {
+  coords 1356.176 127.909 4391.638
+  angles -6.181 33.772 -1.983
+  {
+   GenericEntity {
+    ID "662AB519E476772A"
+    coords 0 0 0
+    angles 0 90.27 0
+   }
+  }
+ }
+ {
+  coords 1330.515 129.143 4369.134
+  angles 0.885 8.598 0.134
+  {
+   GenericEntity {
+    ID "662AB519E476772A"
+    coords 0 0 0
+    angles 0 90.27 0
+   }
+  }
+ }
+}
+$grp GenericEntity : "{CE9FB0208479F76C}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_USSR_01_DIMKII.et" {
+ {
+  coords 1493.925 124.436 4626.039
+  angles -0.012 26.651 7.956
+ }
+ {
+  coords 1426.083 133.149 4581.806
+  angles 0 -135 0
+ }
+ {
+  coords 1443.04 135.398 4560.751
+  angles -6.737 -120.095 0.813
+ }
+ {
+  coords 1453.638 134.912 4672.369
+  angles 2.682 -178.266 0.081
+ }
+}
+$grp DecalEntity : "{D1D104EBCB9C5E2D}Prefabs/Decals/Miscellaneous/Decal_Damage_Burnt_02.et" {
+ {
+  coords 1446.477 134.899 4688.01
+  angles -90 -180 -180
+  scale 10
+  TerrainOnly 0
+ }
+ {
+  coords 1442.672 132.628 4602.066
+  angles -90 -180 -180
+  scale 10.3
+  TerrainOnly 0
+ }
+ {
+  coords 1407.684 133.678 4561.741
+  angles -90 -180 -180
+  scale 10
+ }
+ {
+  coords 1391.426 133.619 4544.634
+  angles -90 -180 -180
+  scale 10
+ }
+ {
+  coords 1380.736 132.772 4504.779
+  angles -90 -180 -180
+  scale 10
+ }
+ {
+  coords 1646.377 123.906 4469.049
+  angles -90 -180 -180
+  scale 10
+ }
+ {
+  coords 1670.255 123.315 4482.255
+  angles -90 0 0
+  scale 10
+ }
+ {
+  coords 1636.165 126.928 4442.533
+  angles -90 -180 -180
+  scale 10
+ }
+ {
+  coords 1608.685 133.465 4384.929
+  angles -90 -180 -180
+  scale 10
+  TerrainOnly 0
+ }
+ {
+  coords 1607.34 133.41 4674.636
+  angles -90 -180 -180
+  scale 10
+  TerrainOnly 0
+ }
+ {
+  coords 1274.007 130.557 4489.123
+  angles -90 -180 -180
+  scale 10
+ }
+ {
+  coords 1322.069 121.521 4681.625
+  angles -90 -180 -180
+  scale 10
+ }
+ {
+  coords 1436.957 121.6 4824.446
+  angles -81.66 135.918 -78.995
+  scale 10
+ }
+ {
+  coords 1464.041 132.359 4621.372
+  angles -90 -180 -180
+  scale 10
+ }
+}
+GenericEntity : "{D509D5E7AA748F7C}PrefabsEditable/Auto/Compositions/Misc/SubCompositions/E_Barricade_Logs_02.et" {
+ coords 1384.661 133.95 4540.943
+}
+$grp GenericEntity : "{DBBF0B94C4C86B85}PrefabLibrary/DefaultLibrary/Props/Military/BarrelFuel_01_closed/BarrelFuel_01_closed_old.et" {
+ {
+  coords 1495.977 124.196 4640.223
+  angles 73.951 59.419 -27.95
+ }
+ {
+  coords 1496.465 124.22 4639.234
+  angles 73.951 59.419 14.212
+ }
+ {
+  coords 1494.944 124.561 4639.476
+  angles 73.951 59.419 -54.918
+ }
+}
+$grp DecalEntity : "{E0A677D469189266}PrefabLibrary/DefaultLibrary/Decals/Stains/Decal_OilStain_01_small.et" {
+ {
+  coords 1498.35 0 4648.905
+  angles -90 152.292 -180
+  scale 1.017
+ }
+ {
+  coords 1496.885 0 4700.117
+  angles -89.972 84.893 -44.714
+  scale 1.017
+ }
+}
+$grp GenericEntity : "{E546356D4797342F}Prefabs/Props/Garbage/Medical/GarbageMedicalUS_01.et" {
+ {
+  coords 1502.621 122.794 4646.149
+ }
+ {
+  coords 1495.94 121.781 4695.123
+  angles 0 67.888 0
+ }
+}
+GenericEntity : "{E98385D7F126474C}Prefabs/Props/Wrecks/UH1H_wreck/UH1H_wreck_02_static.et" {
+ coords 1343.48 125.198 4609.847
+ angles 5.681 147.454 0.608
+}
+$grp StaticModelEntity : "{F5BECB4E7068FEA1}PrefabsEditable/Auto/Structures/Military/Fortifications/E_DirtCover_01_long_v3_DIMKII.et" {
+ {
+  coords 1494.537 -0.294 4645.909
+  angles 0 3.674 0
+  scale 1.92
+ }
+ {
+  coords 1442.322 -0.1 4686.6
+  angles -22.996 -75.107 0
+  scale 1.31
+ }
+ {
+  coords 1603.749 -0.099 4673.091
+  angles -1.606 -75.107 0
+  scale 1.716
+ }
+ {
+  coords 1431.859 0 4729.646
+  angles 6.155 78.034 -7.902
+ }
+ {
+  coords 1450.715 -0.013 4735.588
+ }
+ {
+  coords 1437.796 -0.437 4825.148
+  angles 7.995 119.268 -2.382
+ }
+ {
+  coords 1435.509 -0.083 4820.899
+  angles -2.147 113.603 -3.204
+ }
+ {
+  coords 1432.433 -0.002 4819.704
+  angles -15.91 -155.786 -2.232
+ }
+ {
+  coords 1436.847 -0.294 4823.15
+  angles 1.587 56.81 -8.188
+ }
+ {
+  coords 1466.226 0.048 4618.223
+  angles -9.855 56.344 0
+ }
+ {
+  coords 1465.543 -0.074 4614.992
+  angles -18.833 149.74 -10.418
+ }
+ {
+  coords 1465.065 0 4620.572
+ }
+ {
+  coords 1463.907 0 4622.458
+  angles 0 62.511 0
+ }
+}

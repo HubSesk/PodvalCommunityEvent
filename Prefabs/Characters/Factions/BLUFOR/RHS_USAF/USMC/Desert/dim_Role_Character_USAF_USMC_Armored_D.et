@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{30113AEB06AE66D4}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Role_Character_USAF_USMC_Armored.et" {
+SCR_ChimeraCharacter : "{30113AEB06AE66D4}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/dim_Role_Character_USAF_USMC_Armored.et" {
  ID "520EC961A090B1EE"
  components {
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
@@ -7,10 +7,10 @@ SCR_ChimeraCharacter : "{30113AEB06AE66D4}Prefabs/Characters/Factions/BLUFOR/RHS
      Prefab "{1CA1582A302FA340}Prefabs/Characters/HeadGear/USMC_Helmet_Cover/GD_LWH_USMC_D_Goggles.et"
     }
     LoadoutSlotInfo Jacket {
-     Prefab "{614FCA4ADC103D80}Prefabs/Characters/Uniforms/USMC/Desert/GD_USMC_Frog_Shirt.et"
+     Prefab "{E8EA7FFEFB072D20}Prefabs/Characters/Uniforms/Shirt_FROG/Shirt_FROG_Arid.et"
     }
     LoadoutSlotInfo Pants {
-     Prefab "{50F8F7881C584CBF}Prefabs/Characters/Uniforms/USMC/Desert/GD_USMC_Frog_Pants_In_V2_D.et"
+     Prefab "{7D4D8F909FCE3A04}Prefabs/Characters/Uniforms/Pants_FROG/Pants_FROG_Arid.et"
     }
     LoadoutSlotInfo Vest {
      Enabled 0
@@ -18,6 +18,23 @@ SCR_ChimeraCharacter : "{30113AEB06AE66D4}Prefabs/Characters/Factions/BLUFOR/RHS
     }
    }
   }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6720F9CB5344D10E}" {
+     TargetStorage "Pants/Pants_FROG_Arid.et"
+    }
+    ItemsInitConfigurationItem "{6720F9CB52FFCEB5}" {
+     TargetStorage "Pants/Pants_FROG_Arid.et"
+    }
+    ItemsInitConfigurationItem "{6720F9CB52DA4A6E}" {
+     TargetStorage "Jacket/Shirt_FROG_Arid.et"
+    }
+    ItemsInitConfigurationItem "{6720F9CE79E73603}" {
+     TargetStorage "Jacket/Shirt_FROG_Arid.et"
+    }
+   }
+  }
  }
- coords 5914.616 57.26 4557.212
+ coords 9618.166 89.75 9023.348
+ angles 0 -120 0
 }

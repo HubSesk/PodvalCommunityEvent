@@ -1,0 +1,109 @@
+SCR_ChimeraCharacter : "{1E206ABD8FCA9145}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Force Recon/dim_Role_Character_USAF_USMC_FR_Rifleman_D.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{0CF54B9A85D8E0D4}Prefabs/Items/Equipment/Binoculars/Binoculars_M22/Binoculars_M22.et"
+      }
+      SCR_EquipmentStorageSlot WristwatchSlot {
+       Prefab "{BA797E21280024B8}Prefabs/Items/Equipment/Watches/Watch_Garmin_Foretrex401.et"
+      }
+     }
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_Sniper"
+    Icon "{0C058E04C5ACCE05}UI/Icons/sniper.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{56CE827F9AD5880E}Prefabs/Weapons/Rifles/M40/Rifle_M40A5_Optic_PEQ.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{8D56459B8494BF69}Prefabs/Characters/HeadGear/USMC_Boonie_Hat/GD_Bonnie_Hat_Marpat_D_COMTAC.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{8A2241C931123419}Prefabs/Characters/Vests/Paraclete/TF_Vest_Paraclete_RAV_Base.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{1B8341AD024CDE1A}Prefabs/Characters/Vests/GEN2_Pouches/MSA_Paraclete_Sniper.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab ""
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{673751677F8CDF0B}" {
+     Enabled 1
+     TargetStorage "Pants/Pants_FROG_Arid.et"
+     PrefabsToSpawn {
+      "{2A7C01B93CC92ACE}Prefabs/Items/Equipment/RangeCard/RangeCard_Notepad_AUTO.et"
+     }
+    }
+    ItemsInitConfigurationItem "{673751677FDDC4A0}" {
+     Enabled 1
+     TargetStorage "Vest/MSA_Paraclete_Sniper.et/filbevest/Pouch_Shaw_Nerd_Big.et"
+     PrefabsToSpawn {
+      "{EC9E0F22B90013F3}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M80.et" "{EC9E0F22B90013F3}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M80.et"
+     }
+    }
+    ItemsInitConfigurationItem "{673751677F06BCE5}" {
+     TargetStorage "Vest/MSA_Paraclete_Sniper.et/m18_1/Pouch_Filbe_M18_1.et"
+    }
+    ItemsInitConfigurationItem "{673751677F617620}" {
+     TargetStorage "Vest/MSA_Paraclete_Sniper.et/filbevest/Pouch_Shaw_Nerd_Big.et"
+     PrefabsToSpawn {
+      "{EC9E0F22B90013F3}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M80.et" "{EC9E0F22B90013F3}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M80.et"
+     }
+    }
+    ItemsInitConfigurationItem "{673751677F7B0C41}" {
+     TargetStorage "Vest/MSA_Paraclete_Sniper.et/m67_2/Pouch_Filbe_M67_2.et"
+    }
+    ItemsInitConfigurationItem "{673751677EB2F09A}" {
+     TargetStorage "Vest/MSA_Paraclete_Sniper.et/m67/Pouch_Filbe_M67_Base.et"
+    }
+    ItemsInitConfigurationItem "{673751677EE84645}" {
+     TargetStorage "Vest/MSA_Paraclete_Sniper.et/filbevest/Pouch_Shaw_Nerd_Big.et"
+     PrefabsToSpawn {
+      "{EC9E0F22B90013F3}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M80.et" "{EC9E0F22B90013F3}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M80.et"
+     }
+    }
+    ItemsInitConfigurationItem "{673751650A2D64FA}" {
+     TargetStorage "Vest/MSA_Paraclete_Sniper.et/filbevest/Pouch_Shaw_Nerd_Big.et"
+     PrefabsToSpawn {
+      "{EC9E0F22B90013F3}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M80.et" "{EC9E0F22B90013F3}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M80.et"
+     }
+    }
+    ItemsInitConfigurationItem "{673751651C8675C3}" {
+     TargetStorage "Vest/MSA_Paraclete_Sniper.et/Holster/GD_Holster_SLS.et"
+     PrefabsToSpawn {
+      "{1353C6EAD1DCFE43}Prefabs/Weapons/Handguns/M9/Handgun_M9.et"
+     }
+    }
+    ItemsInitConfigurationItem "{688A7323EF9FCE7E}" {
+     TargetStorage "Vest/MSA_Paraclete_Sniper.et/pistol2/Pouch_PCGEN3_util.et"
+     PrefabsToSpawn {
+      "{EC9E0F22B90013F3}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M80.et" "{EC9E0F22B90013F3}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M80.et"
+     }
+    }
+    ItemsInitConfigurationItem "{688A7323E8F6C614}" {
+     TargetStorage "Vest/MSA_Paraclete_Sniper.et/nerd/Pouch_PCGEN3_ifak.et"
+     PrefabsToSpawn {
+      "{EC9E0F22B90013F3}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M80.et" "{EC9E0F22B90013F3}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M80.et"
+     }
+    }
+   }
+  }
+ }
+ coords 3018.045 140.672 7850.376
+ angles 0 0 0
+}

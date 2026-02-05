@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{E13DD599077E5D7C}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Role_Character_USAF_USMC_Rifleman2.et" {
+SCR_ChimeraCharacter : "{E13DD599077E5D7C}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/dim_Role_Character_USAF_USMC_Rifleman2.et" {
  ID "520EC961A090B1EE"
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
@@ -16,13 +16,11 @@ SCR_ChimeraCharacter : "{E13DD599077E5D7C}Prefabs/Characters/Factions/BLUFOR/RHS
      Prefab "{A6769D237D42FD52}Prefabs/Characters/HeadGear/USMC_Helmet_Cover/GD_ECH_Marpat_Scarf+Mask.et"
     }
     LoadoutSlotInfo Jacket {
-     Prefab "{7815D23A6FADCB42}Prefabs/Characters/Uniforms/USMC/GD_USMC_Frog_Shirt_Down_Summer.et"
     }
     LoadoutSlotInfo ArmoredVest {
      Prefab "{1300A5F6CA51B206}Prefabs/Characters/Vests/Vest_PCGen_III/Vest_PCGen_III.et"
     }
     LoadoutSlotInfo Pants {
-     Prefab "{B6A9AF599DE0F4A7}Prefabs/Characters/Uniforms/USMC/GD_USMC_Frog_Pants_In_V2_Summer.et"
     }
     LoadoutSlotInfo Vest {
      Prefab "{3C790529DBAB3C55}Prefabs/Characters/Vests/GEN3_Pouches/GD_GEN3_TF_Variant.et"
@@ -32,16 +30,15 @@ SCR_ChimeraCharacter : "{E13DD599077E5D7C}Prefabs/Characters/Factions/BLUFOR/RHS
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{6720F9CB5344D10E}" {
-     TargetStorage "Pants/GD_USMC_Frog_Pants_In_V2_Summer.et"
+     TargetStorage "Pants/Pants_FROG_WD.et"
     }
     ItemsInitConfigurationItem "{6720F9CB52FFCEB5}" {
-     TargetStorage "Pants/GD_USMC_Frog_Pants_In_V2_Summer.et"
+     TargetStorage "Pants/Pants_FROG_WD.et"
     }
     ItemsInitConfigurationItem "{6720F9CB52DA4A6E}" {
-     TargetStorage "Jacket/GD_USMC_Frog_Shirt_Down_Summer.et"
+     TargetStorage "Jacket/Shirt_FROG_WD.et"
     }
     ItemsInitConfigurationItem "{6720F9CE79E73603}" {
-     TargetStorage "Pants/GD_USMC_Frog_Pants_In_V2_Summer.et"
      PrefabsToSpawn {
       "{C742BD6CB3D77A5A}Prefabs/Items/Equipment/Radios/drg_Radio_ANPRC152A_OLD_SL.et"
      }
