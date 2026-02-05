@@ -1,19 +1,14 @@
 $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
- attack1 {
-  coords 4080.65 220.665 7557.097
-  angles 0 90 0
-  m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+ cmd_spawn2 {
+  coords 5025.36 26.339 9996.419
+  angles 0 177.65 0
+  m_sImageSet ""
   m_sImageSetGlow ""
-  m_sQuadName "Task_Attack"
-  m_fWorldSize 35
-  m_sDescription "Уничтожить КШМ 1"
-  m_bUseWorldScale 0
-  m_aVisibleForFactions {
-   "RHS_AFRF"
-  }
+  m_MarkerColor 1 1 1 0
+  m_sQuadName ""
  }
  M_TRIG_1 {
-  coords 3691.372 217.912 8022.643
+  coords 4994.729 25.498 9942.13
   angles 0 90 0
   m_sImageSetGlow ""
   m_MarkerColor 0.071 0.192 0.561 1
@@ -25,40 +20,9 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
    ""
   }
   m_bVisibleForEmptyFaction 1
- }
- M_TRIG_2 {
-  coords 3287.669 208.812 7468.034
-  angles 0 90 0
-  m_sImageSetGlow ""
-  m_MarkerColor 0.071 0.192 0.561 1
-  m_sQuadName "mark-question"
-  m_fWorldSize 50
-  m_sDescription "Возможное расположение КШМ"
-  m_bUseWorldScale 0
-  m_aVisibleForFactions {
-   ""
-  }
-  m_bVisibleForEmptyFaction 1
- }
- cmd_spawn1 {
-  coords 3630.718 218.932 8036.018
-  angles 0 28.651 0
-  m_sImageSet ""
-  m_sImageSetGlow ""
-  m_MarkerColor 1 1 1 0
-  m_sQuadName ""
-  m_bUseWorldScale 0
- }
- cmd_spawn2 {
-  coords 3218.026 207.657 7398.089
-  angles 0 142.966 0
-  m_sImageSet ""
-  m_sImageSetGlow ""
-  m_MarkerColor 1 1 1 0
-  m_sQuadName ""
  }
  defens1 {
-  coords 4080.489 220.658 7557.077
+  coords 5340.49 43.495 10532.619
   angles 0 90 0
   m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
   m_sImageSetGlow ""
@@ -71,23 +35,10 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
    ""
   }
   m_aHideOnGameModeStates {
-  }
- }
- attack2 {
-  coords 3283.147 208.811 7464.638
-  angles 0 90 0
-  m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
-  m_sImageSetGlow ""
-  m_sQuadName "Task_Attack"
-  m_fWorldSize 35
-  m_sDescription "Уничтожить КШМ 2"
-  m_bUseWorldScale 0
-  m_aVisibleForFactions {
-   "RHS_AFRF"
   }
  }
  defens2 {
-  coords 3283.654 208.815 7465.109
+  coords 4995.02 25.641 9937.479
   angles 0 90 0
   m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
   m_sImageSetGlow ""
@@ -101,14 +52,23 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_aHideOnGameModeStates {
   }
  }
+ cmd_spawn1 {
+  coords 4531.708 15.05 10409.058
+  angles 0 31.985 0
+  m_sImageSet ""
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 0
+  m_sQuadName ""
+  m_bUseWorldScale 0
+ }
  CMD {
-  coords 4119.095 210.732 7635.379
-  angles 0.679 221.309 -2.579
+  coords 5228.323 40.048 10481.156
+  angles -0.931 46.988 2.499
   m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 0.071 0.192 0.561 1
   m_sQuadName "Truck"
-  m_fWorldSize 4.6
+  m_fWorldSize 4.7
   m_sDescription "КШМ 1"
   m_bUseWorldScale 1
   m_aVisibleForFactions {
@@ -131,5 +91,45 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
    GAME
   }
   m_iZOrder 0
+ }
+ attack1 {
+  coords 5340.524 43.508 10532.98
+  angles 0 90 0
+  m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+  m_sImageSetGlow ""
+  m_sQuadName "Task_Attack"
+  m_fWorldSize 35
+  m_sDescription "Уничтожить КШМ 1"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_AFRF"
+  }
+ }
+ attack2 {
+  coords 4994.988 25.674 9936.468
+  angles 0 90 0
+  m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+  m_sImageSetGlow ""
+  m_sQuadName "Task_Attack"
+  m_fWorldSize 35
+  m_sDescription "Уничтожить КШМ 2"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_AFRF"
+  }
+ }
+ M_TRIG_2 {
+  coords 4534.59 14.512 10392.783
+  angles 0 90 0
+  m_sImageSetGlow ""
+  m_MarkerColor 0.071 0.192 0.561 1
+  m_sQuadName "mark-question"
+  m_fWorldSize 50
+  m_sDescription "Возможное расположение КШМ"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   ""
+  }
+  m_bVisibleForEmptyFaction 1
  }
 }
