@@ -5,5 +5,17 @@ PerceptionManager PerceptionManager2 : "{028DAEAD63E056BE}Prefabs/World/Game/Per
  coords 1129.758 137.567 4541.821
 }
 PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
+ components {
+  PS_CutsceneManager "{60E6C661B81E7619}" {
+   m_aCutscenes {
+    PS_Cutscene "{688E1B42945711B0}" {
+     m_sCutsceneEntityName "Cinemak"
+     m_sCutsceneSound "{D228FC6350F55690}Music/TheBogCall.acp"
+     m_iCutsceneTime 49000
+    }
+   }
+  }
+ }
  coords 1119.707 137.194 4525.035
+ m_bShowCutscene 1
 }

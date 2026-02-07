@@ -350,9 +350,15 @@ $grp GenericEntity : "{525781C399409474}PrefabsEditable/Auto/Props/Infrastructur
   angles -1.891 -65.893 -6.697
  }
 }
-Vehicle S105_beige1 : "{54C3CC22DEBD57BE}Prefabs/Vehicles/Wheeled/S105/S105_beige.et" {
- coords 4702.646 161.323 6983.604
- angles 0.789 61.75 -0.424
+$grp Vehicle : "{54C3CC22DEBD57BE}Prefabs/Vehicles/Wheeled/S105/S105_beige.et" {
+ S105_beige1 {
+  coords 4702.646 161.323 6983.604
+  angles 0.789 61.75 -0.424
+ }
+ S105_beige2 {
+  coords 4756.723 163.306 7096.25
+  angles 8.188 133.35 0.392
+ }
 }
 GenericEntity : "{5BA978B9D36641DD}Prefabs/Props/Military/Compositions/USSR/Antenna_01_USSR.et" {
  coords 4681.102 171.554 6981.006
@@ -365,9 +371,15 @@ GameEntity : "{616F4E93658E5A3A}Prefabs/Props/Military/Generators/GeneratorFlood
  coords 4749.493 166.398 6907.532
  angles 1.573 11.199 -3.334
 }
-Vehicle S105_white1 : "{63880E311299A016}Prefabs/Vehicles/Wheeled/S105/S105_white.et" {
- coords 4711.96 161.584 6980.477
- angles 2.013 63.793 -1.987
+$grp Vehicle : "{63880E311299A016}Prefabs/Vehicles/Wheeled/S105/S105_white.et" {
+ S105_white1 {
+  coords 4711.96 161.584 6980.477
+  angles 2.013 63.793 -1.987
+ }
+ S105_white2 {
+  coords 4711.51 161.775 7066.723
+  angles 4.887 78.348 -2.826
+ }
 }
 $grp RoadGeneratorEntity : "{64D8305E29E4990B}Prefabs/WEGenerators/Decals/Runway/RG_Runway_Line20_01.et" {
  {
@@ -681,7 +693,7 @@ GenericEntity : "{764414C0E2EF983E}Prefabs/Props/Military/Furniture/TableMilitar
  angles -0.99 -117.063 0.306
 }
 GenericEntity : "{8794B861EB63DB15}Prefabs/Weapons/Magazines/VSS/Magazine_9x39mm_VSS_10Rnd.et" {
- coords 4210.021 53.771 7641.652
+ coords 4209.136 53.773 7636.934
  angles 0 0 -90
 }
 GenericEntity : "{88617642DBE88DAC}PrefabsEditable/Auto/Structures/Military/CamoNets/Soviet/E_CamoNet_Medium_Top_Soviet.et" {
@@ -726,6 +738,22 @@ $grp GenericEntity : "{9483333BFD9E2D0F}Prefabs/Compositions/Slotted/SlotRoadSma
  {
   coords 4906.813 171.135 7057.971
   angles 2.081 -16.139 -2.463
+ }
+}
+$grp GenericEntity : "{97064F8597F2D7BF}Prefabs/Weapons/Explosives/DemoBlock_TSh400g/DemoBlock_TSh400g.et" {
+ {
+  coords 4513.518 155.75 6825.983
+ }
+ {
+  coords 4513.518 155.75 6826.128
+ }
+ {
+  coords 4209.26 53.746 7637.106
+  angles 0 78.713 0
+ }
+ {
+  coords 4209.173 53.746 7637.088
+  angles 0 78.713 0
  }
 }
 $grp SCR_DestructibleEntity : "{9AE2BF8692551FE0}Prefabs/Structures/Walls/BarbedWire/NetFence_USSR_01/NetFence_USSR_01_3m.et" {
@@ -866,6 +894,10 @@ GenericEntity : "{AA96C0FB1A65B886}Prefabs/Props/Military/FieldKitchenTrailerUSS
  coords 4744.666 166.086 6906.418
  angles 1.783 -0.112 -3.578
 }
+GenericEntity : "{AC298BA8A7D27007}Prefabs/Items/Equipment/Backpacks/Backpack_Medical_Soviet_NoCross_01.et" {
+ coords 4207.615 53.69 7636.084
+ angles 0 58.09 0
+}
 $grp GenericEntity : "{B0F3D8C49F4B5D1D}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_USSR_04_DIMKII.et" {
  {
   coords 4689.186 162.079 6942.03
@@ -982,6 +1014,10 @@ GenericEntity : "{BDAA871A06DABD74}PrefabsEditable/Auto/Props/Military/Sandbags/
  angles 0 61.23 0
  scale 0.814
 }
+GenericEntity : "{BEF39591F479F041}Prefabs/Weapons/M9/M9_Silencer.et" {
+ coords 4209.076 53.756 7636.724
+ angles 0 -10.899 -90
+}
 Vehicle BTR1 : "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et" {
  coords 4802.675 168.348 6919.428
  angles -0.041 -117.435 0.001
@@ -999,6 +1035,19 @@ $grp GenericEntity : "{C76C3AF337109066}Prefabs/Props/Crates/CardboardBoxStack_0
  {
   coords 4680.083 160.727 6985.545
   angles 0 173.91 0
+ }
+}
+PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ coords 4210.997 58.087 7633.869
+ angles 0 90 0
+ m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+ m_sImageSetGlow "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+ m_MarkerColor 0 0.502 0.125 1
+ m_sQuadName "SupplyDepot"
+ m_fWorldSize 35
+ m_sDescription "Схрон от \"доброжелателей\""
+ m_aVisibleForFactions {
+  "FIA"
  }
 }
 $grp StaticModelEntity : "{CE7BFA53A62105F7}PrefabsEditable/Auto/Structures/Infrastructure/Barriers/E_BarGate_01.et" {
@@ -1623,8 +1672,8 @@ Vehicle S1203_transport_blue1 : "{F77C41245A580FD1}Prefabs/Vehicles/Wheeled/S120
  angles -1.614 -99.672 1.183
 }
 GenericEntity : "{F82DF06C1E34128E}Prefabs/Weapons/Rifles/VSS/Rifle_VSS.et" {
- coords 4209.795 53.768 7641.637
- angles 0 0 -86.24
+ coords 4208.666 53.992 7638.354
+ angles 50.62 5.247 -82.796
 }
 GenericEntity : "{FB1EDD4E278B20D7}Prefabs/Structures/BuildingParts/Signs/Propaganda/SignPropaganda_USSR_01_V4.et" {
  coords 4781.396 169.986 7026.722

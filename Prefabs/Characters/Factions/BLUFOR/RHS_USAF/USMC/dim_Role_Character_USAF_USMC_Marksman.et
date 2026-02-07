@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{E13DD599077E5D7C}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Role_Character_USAF_USMC_Rifleman2.et" {
+SCR_ChimeraCharacter : "{E13DD599077E5D7C}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/dim_Role_Character_USAF_USMC_Rifleman2.et" {
  ID "520EC961A090B1EE"
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
@@ -13,7 +13,7 @@ SCR_ChimeraCharacter : "{E13DD599077E5D7C}Prefabs/Characters/Factions/BLUFOR/RHS
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{FC50B7B9201B6BD4}Prefabs/Characters/HeadGear/USMC_Boonie_Hat/GD_USMC_Boonie_Comtac_WD.et"
+     Prefab "{7CA231DDB758BEAE}Prefabs/Characters/HeadGear/Hat_USMC_Boonie/Hat_USMC_Boonie_wd_Comtac.et"
     }
     LoadoutSlotInfo Vest {
      Prefab "{7B2C0CC41FDB5B26}Prefabs/Characters/Vests/GEN3_Pouches/GD_GEN3_Sniper.et"
@@ -23,10 +23,10 @@ SCR_ChimeraCharacter : "{E13DD599077E5D7C}Prefabs/Characters/Factions/BLUFOR/RHS
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{6720F9CB5344D10E}" {
-     TargetStorage "Pants/GD_USMC_Frog_Pants_In_Summer.et"
+     TargetStorage "Pants/Pants_FROG_WD.et"
     }
     ItemsInitConfigurationItem "{6720F9CB52FFCEB5}" {
-     TargetStorage "Pants/GD_USMC_Frog_Pants_In_Summer.et"
+     TargetStorage "Pants/Pants_FROG_WD.et"
     }
     ItemsInitConfigurationItem "{6720F9CB52DA4A6E}" {
      TargetStorage "ArmoredVest/Vest_PCGen_III.et"
@@ -57,7 +57,7 @@ SCR_ChimeraCharacter : "{E13DD599077E5D7C}Prefabs/Characters/Factions/BLUFOR/RHS
     }
     ItemsInitConfigurationItem "{6720F9CCF4A8966A}" {
      Enabled 1
-     TargetStorage "Jacket/GD_USMC_Frog_Shirt_Turn_Summer.et"
+     TargetStorage "Jacket/Shirt_FROG_WD.et"
      PrefabsToSpawn {
       "{2A7C01B93CC92ACE}Prefabs/Items/Equipment/RangeCard/RangeCard_Notepad_AUTO.et"
      }

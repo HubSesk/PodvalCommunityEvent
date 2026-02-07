@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{67B4542E01521C15}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Role_Character_USAF_USMC_SL.et" {
+SCR_ChimeraCharacter : "{67B4542E01521C15}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/dim_Role_Character_USAF_USMC_SL.et" {
  ID "520EC961A090B1EE"
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
@@ -10,13 +10,11 @@ SCR_ChimeraCharacter : "{67B4542E01521C15}Prefabs/Characters/Factions/BLUFOR/RHS
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{98A85E28A7B3180D}Prefabs/Characters/HeadGear/Cap/Variants/GD_Cap_Green (Headphones).et"
+     Prefab "{98A85E28A7B3180D}Prefabs/Characters/HeadGear/All_Cap/Variants/GD_Cap_Green (Headphones).et"
     }
     LoadoutSlotInfo Jacket {
-     Prefab "{599CEA89E4EBB57C}Prefabs/Characters/Uniforms/USMC/GD_USMC_Frog_Turn_Down_Summer.et"
     }
     LoadoutSlotInfo Pants {
-     Prefab "{B6A9AF599DE0F4A7}Prefabs/Characters/Uniforms/USMC/GD_USMC_Frog_Pants_In_V2_Summer.et"
     }
     LoadoutSlotInfo Back {
      Prefab "{C3351EC6D64ED74A}Prefabs/Items/Equipment/Radios/drg_Radio_ANPRC77.et"
@@ -29,16 +27,13 @@ SCR_ChimeraCharacter : "{67B4542E01521C15}Prefabs/Characters/Factions/BLUFOR/RHS
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{6720F9CB5344D10E}" {
-     TargetStorage "Pants/GD_USMC_Frog_Pants_In_V2_Summer.et"
     }
     ItemsInitConfigurationItem "{6720F9CB52FFCEB5}" {
-     TargetStorage "Pants/GD_USMC_Frog_Pants_In_V2_Summer.et"
     }
     ItemsInitConfigurationItem "{6720F9CB52DA4A6E}" {
      TargetStorage "Jacket/GD_USMC_Frog_Turn_Down_Summer.et"
     }
     ItemsInitConfigurationItem "{6720F9CE79E73603}" {
-     TargetStorage "Pants/GD_USMC_Frog_Pants_In_V2_Summer.et"
     }
     ItemsInitConfigurationItem "{6720F9CF230C187D}" {
      TargetStorage "Vest/Vest_PCGen_III_Officer.et/ifak/Pouch_PCGEN3_ifak.et"
