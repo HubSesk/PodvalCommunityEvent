@@ -1,0 +1,63 @@
+SCR_ChimeraCharacter : "{C4BD94682D983BA2}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Demi-season/dim_USMC_DS_Rifleman_2.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{6D6BF40A8C53E5FF}Prefabs/Weapons/M27IAR/M4_usmc_acog.et"
+  }
+  SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
+   Identity Identity "{5584CBC6363C648B}" {
+    VisualIdentity VisualIdentity "{56E6D9456009D1C4}" {
+     Head "{36B119F39289239E}Prefabs/Characters/Heads/Head_White_05/Head_White_05_camo_US_01.et"
+    }
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{95C71144B3B4F75E}Prefabs/Characters/HeadGear/Helmet_ECH/dim_ECH_v4.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{DD6E2B4B0277CBDA}Prefabs/Characters/Vests/GEN3_Pouches/GD_GEN3_RFL_N_2.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6893473D2FB38DA9}" {
+     TargetStorage "Vest/GD_GEN3_RFL_N_2.et/triple/Pouch_Blueforce_Tri.et"
+    }
+    ItemsInitConfigurationItem "{6893473D339560DC}" {
+     TargetStorage "Vest/GD_GEN3_RFL_N_2.et/Mag/Pouch_PCGEN3_takoPouch.et"
+    }
+    ItemsInitConfigurationItem "{6893473D4626459A}" {
+     TargetStorage "Vest/GD_GEN3_RFL_N_2.et/pistol/Pouch_Shaw_Flex.et"
+    }
+    ItemsInitConfigurationItem "{6893473D6B384742}" {
+     TargetStorage "Vest/GD_GEN3_RFL_N_2.et/up103/Pouch_PCGEN3_takoPouch.et"
+    }
+    ItemsInitConfigurationItem "{6893473D8DE1A5B2}" {
+     TargetStorage "Vest/GD_GEN3_RFL_N_2.et/holster/Pouch_Highspeed_Bleeder.et"
+    }
+    ItemsInitConfigurationItem "{6893473D9967A73E}" {
+     TargetStorage "Vest/GD_GEN3_RFL_N_2.et/holster2/Pouch_Filbe_M67_Base.et"
+     PrefabsToSpawn {
+      "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6893473F006CC69D}" {
+     TargetStorage "Vest/GD_GEN3_RFL_N_2.et/holster3/Pouch_Filbe_M67_2.et"
+     PrefabsToSpawn {
+      "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6893473F12C5F8F1}" {
+     TargetStorage "Vest/GD_GEN3_RFL_N_2.et/up104/GD_TV119_Pouch_JSTA_RHS_Brown.et"
+     PrefabsToSpawn {
+      "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et"
+     }
+    }
+   }
+  }
+ }
+ coords 185.332 1 201.566
+}

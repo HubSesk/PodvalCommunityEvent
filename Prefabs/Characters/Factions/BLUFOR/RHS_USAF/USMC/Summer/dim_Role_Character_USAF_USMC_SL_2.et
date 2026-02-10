@@ -1,0 +1,24 @@
+SCR_ChimeraCharacter : "{67B4542E01521C15}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/dim_Role_Character_USAF_USMC_SL.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{213B4C6576F9662C}Prefabs/Characters/HeadGear/Helmet_ECH/dim_ECH_v1.et"
+    }
+    LoadoutSlotInfo HandWear {
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6720F9C14E342086}" {
+     PrefabsToSpawn {
+      "{1F9DA556822C78DA}Prefabs/Weapons/Handguns/M17/Handgun_M18.et"
+     }
+    }
+   }
+  }
+ }
+ coords 116.056 1 205.365
+}

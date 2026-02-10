@@ -1,0 +1,66 @@
+SCR_ChimeraCharacter : "{6BB1EF93AC30DDF2}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Summer/Force_Recon/dim_USMC_FR_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponTemplate ""
+  }
+  SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
+   Identity Identity "{5584CBC6363C648B}" {
+    VisualIdentity VisualIdentity "{56E6D9456009D1C4}" {
+     Head "{43AA5BDFE4338F57}Prefabs/Characters/Heads/Head_White_02/Head_White_02_camo_US_01.et"
+    }
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Vest {
+     Prefab "{7425F9CEBBBF0EF1}Prefabs/Characters/Vests/GEN3_Pouches/GD_GEN3_GL_N.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68934730EC96E78A}" {
+     TargetStorage "Vest/GD_GEN3_GL_N.et/Pouch1/Pouch_FILBE_doubleM4_1.et"
+    }
+    ItemsInitConfigurationItem "{68934730F0F39227}" {
+     TargetStorage "Vest/GD_GEN3_GL_N.et/Pouch2/Pouch_FILBE_doubleM4_2.et"
+    }
+    ItemsInitConfigurationItem "{68934730FD287580}" {
+     TargetStorage "Vest/GD_GEN3_GL_N.et/Pouch3/Pouch_FILBE_doubleM4_2.et"
+    }
+    ItemsInitConfigurationItem "{689347332B12FF35}" {
+     TargetStorage "Vest/GD_GEN3_GL_N.et/tako/Pouch_PCGEN3_takoPouch.et"
+    }
+    ItemsInitConfigurationItem "{68934733382BF0F6}" {
+     TargetStorage "Vest/GD_GEN3_GL_N.et/nerd/Pouch_Shaw_Flex.et"
+    }
+    ItemsInitConfigurationItem "{68934730F8EB90F0}" {
+     TargetStorage "Vest/GD_GEN3_GL_N.et/m18_1/Pouch_Filbe_M18_1.et"
+    }
+    ItemsInitConfigurationItem "{6893473303960BA9}" {
+     TargetStorage "Vest/GD_GEN3_GL_N.et/m18_2/Pouch_Filbe_M18_2.et"
+    }
+    ItemsInitConfigurationItem "{689347330D500C12}" {
+     TargetStorage "Vest/GD_GEN3_GL_N.et/m67_1/Pouch_Filbe_M67_Base.et"
+    }
+    ItemsInitConfigurationItem "{689347330A94E8FF}" {
+     TargetStorage "Vest/GD_GEN3_GL_N.et/saw/Pouch_PCGEN3_ifak.et"
+    }
+    ItemsInitConfigurationItem "{689347331C18C584}" {
+     TargetStorage "Vest/GD_GEN3_GL_N.et/pistolcamer/Pouch_Highspeed_Pistol.et"
+    }
+    ItemsInitConfigurationItem "{6893473323FF74C2}" {
+     TargetStorage "Vest/GD_GEN3_GL_N.et/flex2/Pouch_Shaw_Flex.et"
+     PrefabsToSpawn {
+      "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et"
+     }
+    }
+    ItemsInitConfigurationItem "{689347334C694702}" {
+     TargetStorage "Vest/GD_GEN3_GL_N.et/m67_2/GD_TV119_Pouch_JSTA_RHS_Brown.et"
+    }
+   }
+  }
+ }
+ coords 205.46 1 227.531
+}

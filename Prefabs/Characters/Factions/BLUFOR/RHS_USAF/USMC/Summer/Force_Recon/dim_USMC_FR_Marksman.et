@@ -1,0 +1,54 @@
+SCR_ChimeraCharacter : "{E041F94507C9B7B6}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Summer/Force_Recon/dim_USMC_FR_Rifleman_2.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{E81707E9E2264853}Prefabs/Weapons/M27IAR/M38_USMC_CAMO.et"
+  }
+  SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
+   Identity Identity "{5584CBC6363C648B}" {
+    VisualIdentity VisualIdentity "{56E6D9456009D1C4}" {
+     Head "{889ACA9FABA0471F}Prefabs/Characters/Heads/Head_White_08/Head_White_08_camo_US_01.et"
+    }
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Pants {
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{29C4C7254A8DAFA2}Prefabs/Characters/Vests/GEN3_Pouches/Light/GD_Gen3_Light_Marksman.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6720F9CB5344D10E}" {
+    }
+    ItemsInitConfigurationItem "{6720F9CB52FFCEB5}" {
+    }
+    ItemsInitConfigurationItem "{68934730EC96E78A}" {
+     TargetStorage "Vest/GD_Gen3_Light_Marksman.et/Pouch1/Pouch_OpenTop_M27_1_pouch.et"
+     PrefabsToSpawn + {
+      "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68934730F0F39227}" {
+     TargetStorage "Vest/GD_Gen3_Light_Marksman.et/m18_1/Pouch_PCGEN3_takoPouch.et"
+    }
+    ItemsInitConfigurationItem "{68934730FD287580}" {
+     TargetStorage "Vest/GD_Gen3_Light_Marksman.et/pistolcamer/Pouch_PCGEN3_util.et"
+    }
+    ItemsInitConfigurationItem "{689347332B12FF35}" {
+     TargetStorage "Vest/GD_Gen3_Light_Marksman.et/ifak/Pouch_Shaw_Raid.et"
+    }
+    ItemsInitConfigurationItem "{68934733382BF0F6}" {
+     TargetStorage "Vest/GD_Gen3_Light_Marksman.et/nerd/Pouch_Shaw_Flex.et"
+    }
+    ItemsInitConfigurationItem "{68934730F8EB90F0}" {
+     TargetStorage "Vest/GD_Gen3_Light_Marksman.et/m18_2/Pouch_Filbe_M18_2.et"
+    }
+   }
+  }
+ }
+ coords 207.928 1 228.917
+}
