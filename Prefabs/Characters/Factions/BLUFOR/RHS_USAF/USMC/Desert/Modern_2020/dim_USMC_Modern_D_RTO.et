@@ -1,0 +1,69 @@
+SCR_ChimeraCharacter : "{67BE56BB4DF94C17}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Modern_2020/dim_USMC_Modern_D_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_RadioOperator"
+    Icon "{BF9056C06A6FA320}UI/Icons/rto.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{B79817C8CF210BD3}Prefabs/Weapons/M27IAR/M27IAR_FSP_ACOG.et"
+  }
+  SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
+   Override 1
+   Identity Identity "{5584CBC6363C648B}" {
+    VisualIdentity VisualIdentity "{56E6D9456009D1C4}" {
+     Head "{D7C470712EC4D596}Prefabs/Characters/Heads/Head_White_05.et"
+     Body "{0023F898C0FF18AA}Prefabs/Characters/Basebody/CharacterBasebody.et"
+    }
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Back {
+     Offset 0 -0.0031 0
+     Prefab "{C3351EC6D64ED74A}Prefabs/Items/Equipment/Radios/drg_Radio_ANPRC77.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{8DCD718658B14B55}Prefabs/Characters/Vests/GEN3_Pouches/Light/GD_Gen3_Light_TF.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68953486D2BFC417}" {
+     TargetStorage "Vest/GD_Gen3_Light_TF.et/up103/Pouch_PCGEN3_takoPouch.et"
+    }
+    ItemsInitConfigurationItem "{68953486FD67A8C1}" {
+     TargetStorage "Vest/GD_Gen3_Light_TF.et/Mag/Pouch_PCGEN3_takoPouch.et"
+    }
+    ItemsInitConfigurationItem "{68953486FB07BA77}" {
+     TargetStorage "Vest/GD_Gen3_Light_TF.et/triple/Pouch_Blueforce_Tri.et"
+     PrefabsToSpawn + {
+      "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68953486F5840E7B}" {
+     TargetStorage "Vest/GD_Gen3_Light_TF.et/pistol/Pouch_HP103_Holster_Coyout.et"
+     PrefabsToSpawn {
+      "{1F9DA556822C78DA}Prefabs/Weapons/Handguns/M17/Handgun_M18.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6895348707D4EE3F}" {
+     TargetStorage "Vest/GD_Gen3_Light_TF.et/up104/GD_TV119_Pouch_JSTA_RHS_Brown.et"
+     PrefabsToSpawn + {
+      "{8FF49793853DB2F9}Prefabs/Weapons/Magazines/m17_magazines/Magazine_9x19_m17_17rnd_M1152.et"
+     }
+    }
+    ItemsInitConfigurationItem "{689534870ECBB2E8}" {
+     TargetStorage "Vest/GD_Gen3_Light_TF.et/holster2/Pouch_Filbe_M67_Base.et"
+    }
+    ItemsInitConfigurationItem "{68953487176F97FB}" {
+     TargetStorage "Vest/GD_Gen3_Light_TF.et/holster3/Pouch_Filbe_M67_2.et"
+    }
+   }
+  }
+ }
+ coords 226.118 1 245.263
+}

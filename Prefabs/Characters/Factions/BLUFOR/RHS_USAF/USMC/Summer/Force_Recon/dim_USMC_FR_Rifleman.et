@@ -1,6 +1,23 @@
 SCR_ChimeraCharacter : "{AB659E264C61F08E}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Summer/dim_Role_Character_USAF_USMC_Unarmed.et" {
  ID "520EC961A090B1EE"
  components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot WristwatchSlot {
+       Prefab "{E87F2DEA658EED74}Prefabs/Items/Equipment/Watches/Watch_GarminForetrex.et"
+      }
+     }
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#DRG_Roles_RHS_ScoutRifleman"
+    Icon "{480F9EE18B7CE141}UI/Icons/ForceRecon.edds"
+   }
+  }
   CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
    WeaponTemplate "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
   }
@@ -137,5 +154,5 @@ SCR_ChimeraCharacter : "{AB659E264C61F08E}Prefabs/Characters/Factions/BLUFOR/RHS
    }
   }
  }
- coords 204.636 1 228.14
+ coords 194.089 1 233.338
 }

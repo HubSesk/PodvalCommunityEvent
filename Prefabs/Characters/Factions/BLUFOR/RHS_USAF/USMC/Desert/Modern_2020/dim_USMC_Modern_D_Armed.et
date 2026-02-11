@@ -1,0 +1,30 @@
+SCR_ChimeraCharacter : "{A2ED5616544DBE8B}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Modern_2020/dim_USMC_Modern_D_Unarmed.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{79E761366B0700E7}Prefabs/Characters/HeadGear/Helmet_ECH/dim_ECH_D_2.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{68CF844B606428D8}Prefabs/Characters/Vests/Vest_PCGen_III/Vest_PCGen_III_light.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{C6B0574EC8636313}Prefabs/Characters/Vests/GEN3_Pouches/Light/GD_Gen3_Light_RFL.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{689534819B7B5ACD}" {
+     TargetStorage "Jacket/Shirt_FROG_Arid.et"
+     PrefabsToSpawn {
+      "{BAB50E5D149D64D9}Prefabs/Items/Equipment/Radios/drg_Radio_ANPRC152A_OLD_prv.et"
+     }
+    }
+   }
+  }
+ }
+ coords 177.174 1 206.786
+ angles 0 0.6 0
+}

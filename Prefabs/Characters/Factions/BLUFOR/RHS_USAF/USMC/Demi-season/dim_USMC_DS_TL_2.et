@@ -1,6 +1,12 @@
 SCR_ChimeraCharacter : "{C4BD94682D983BA2}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Demi-season/dim_USMC_DS_Rifleman_2.et" {
  ID "520EC961A090B1EE"
  components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_TeamLeader"
+    Icon "{44B846FB4F46E36A}UI/Icons/team_leader.edds"
+   }
+  }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
    WeaponTemplate "{7381BC02C4867CDA}Prefabs/Weapons/M27IAR/M27IAR_VCOG.et"
   }
@@ -46,14 +52,14 @@ SCR_ChimeraCharacter : "{C4BD94682D983BA2}Prefabs/Characters/Factions/BLUFOR/RHS
     ItemsInitConfigurationItem "{6893473D8DE1A5B2}" {
      TargetStorage "Vest/GD_GEN3_TF_N_2.et/m18_1/Pouch_Filbe_M18_2.et"
     }
-    ItemsInitConfigurationItem "{6893473130FEDEC7}" {
-     TargetStorage "Vest/GD_GEN3_TF_N_2.et/m18_2/Pouch_Filbe_M18_2.et"
-    }
     ItemsInitConfigurationItem "{6893473D9967A73E}" {
      TargetStorage "Vest/GD_GEN3_TF_N_2.et/m67_1/Pouch_Filbe_M67_2.et"
      PrefabsToSpawn {
       "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
      }
+    }
+    ItemsInitConfigurationItem "{6893473130FEDEC7}" {
+     TargetStorage "Vest/GD_GEN3_TF_N_2.et/m18_2/Pouch_Filbe_M18_2.et"
     }
     ItemsInitConfigurationItem "{6893473135AA85FF}" {
      TargetStorage "Vest/GD_GEN3_TF_N_2.et/m67_2/Pouch_Filbe_M67_Base.et"
@@ -82,5 +88,5 @@ SCR_ChimeraCharacter : "{C4BD94682D983BA2}Prefabs/Characters/Factions/BLUFOR/RHS
    }
   }
  }
- coords 175.948 1 198.47
+ coords 193.209 1 243.561
 }

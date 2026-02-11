@@ -1,0 +1,80 @@
+SCR_ChimeraCharacter : "{67BE56BB4DF94C17}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Modern_2020/dim_USMC_Modern_D_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_MachineGunner"
+    Icon "{F98CF71C0B32DEF4}UI/Icons/heave_machine_gunner.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{BA87F78D0E7E3A90}Prefabs/Weapons/MachineGuns/M240/MG_M240_Light_MDO.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{288770EEA2AF06FE}Prefabs/Characters/HeadGear/Helmet_ECH/dim_ECH_D_6.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{1300A5F6CA51B206}Prefabs/Characters/Vests/Vest_PCGen_III/Vest_PCGen_III.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{9A26D311900C33EE}Prefabs/Items/Equipment/Backpacks/FILBE_hydration_pack.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{E10880E7746C033A}Prefabs/Characters/Vests/GEN3_Pouches/GD_GEN3_MG.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{4E37FE174E8C266C}Prefabs/Characters/Handwear/Gloves_MechanixMpact/Gloves_mpack_Coyote.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68953486D2BFC417}" {
+     TargetStorage "Vest/GD_GEN3_MG.et/bag/GD_TV119_Pouch_JSTA_RHS_Brown.et"
+     PrefabsToSpawn {
+      "{AAF51CFA75A9CF8B}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4AP_1Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68953486FD67A8C1}" {
+     TargetStorage "Vest/GD_GEN3_MG.et/saw/Pouch_PCGEN3_MG.et"
+     PrefabsToSpawn {
+      "{AAF51CFA75A9CF8B}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4AP_1Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68953486FB07BA77}" {
+     TargetStorage "Vest/GD_GEN3_MG.et/saw2/Pouch_PCGEN3_MG.et"
+     PrefabsToSpawn {
+      "{AAF51CFA75A9CF8B}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4AP_1Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68953486EF493850}" {
+     TargetStorage "Vest/GD_GEN3_MG.et/DROP/DropPouch_Brown.et"
+     PrefabsToSpawn {
+      "{AAF51CFA75A9CF8B}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4AP_1Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68953486F5840E7B}" {
+     TargetStorage "Vest/GD_GEN3_MG.et/m18_2/Pouch_Filbe_M18_1.et"
+     PrefabsToSpawn {
+      "{3343A055A83CB30D}Prefabs/Weapons/Grenades/M18/Smoke_M18_Red.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6895348707D4EE3F}" {
+     TargetStorage "Vest/GD_GEN3_MG.et/m18/Pouch_Filbe_M18_1.et"
+     PrefabsToSpawn {
+      "{D41D22DD1B8E921E}Prefabs/Weapons/Grenades/M18/Smoke_M18_Green.et"
+     }
+    }
+    ItemsInitConfigurationItem "{689534870ECBB2E8}" {
+     TargetStorage "Vest/GD_GEN3_MG.et/m67/Pouch_Filbe_M67_Base.et"
+    }
+    ItemsInitConfigurationItem "{68953487176F97FB}" {
+     TargetStorage "Vest/GD_GEN3_MG.et/m67_2/Pouch_Filbe_M67_Base.et"
+    }
+   }
+  }
+ }
+ coords 227.3 1 245.113
+}

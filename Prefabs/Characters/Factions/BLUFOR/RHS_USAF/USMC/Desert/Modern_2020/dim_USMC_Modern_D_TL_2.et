@@ -1,0 +1,86 @@
+SCR_ChimeraCharacter : "{77DDB3A4441099F7}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Modern_2020/dim_USMC_Modern_D_TL_1.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{0CF54B9A85D8E0D4}Prefabs/Items/Equipment/Binoculars/Binoculars_M22/Binoculars_M22.et"
+      }
+     }
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_TeamLeader"
+    Icon "{44B846FB4F46E36A}UI/Icons/team_leader.edds"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{A14F08F7128E1EBB}Prefabs/Characters/HeadGear/Helmet_ECH/dim_ECH_D_4.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{9A26D311900C33EE}Prefabs/Items/Equipment/Backpacks/FILBE_hydration_pack.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{8DCD718658B14B55}Prefabs/Characters/Vests/GEN3_Pouches/Light/GD_Gen3_Light_TF.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68953486D2BFC417}" {
+     TargetStorage "Vest/GD_Gen3_Light_TF.et/raid/Pouch_Shaw_Raid.et"
+    }
+    ItemsInitConfigurationItem "{68953486FD67A8C1}" {
+     TargetStorage "Vest/GD_Gen3_Light_TF.et/Mag/Pouch_PCGEN3_takoPouch.et"
+    }
+    ItemsInitConfigurationItem "{68953486FB07BA77}" {
+     TargetStorage "Vest/GD_Gen3_Light_TF.et/up104/GD_TV119_Pouch_JSTA_RHS_Brown.et"
+     PrefabsToSpawn {
+      "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et" "{8FF49793853DB2F9}Prefabs/Weapons/Magazines/m17_magazines/Magazine_9x19_m17_17rnd_M1152.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68953486EF493850}" {
+     TargetStorage "Vest/GD_Gen3_Light_TF.et/up103/Pouch_PCGEN3_takoPouch.et"
+    }
+    ItemsInitConfigurationItem "{68953486F5840E7B}" {
+     TargetStorage "Vest/GD_Gen3_Light_TF.et/triple/Pouch_Blueforce_Tri.et"
+    }
+    ItemsInitConfigurationItem "{6895348707D4EE3F}" {
+     TargetStorage "Vest/GD_Gen3_Light_TF.et/admin/Pouch_Shaw_Nerd_Mini.et"
+    }
+    ItemsInitConfigurationItem "{689534870ECBB2E8}" {
+     TargetStorage "Vest/GD_Gen3_Light_TF.et/holster2/Pouch_Filbe_M67_Base.et"
+    }
+    ItemsInitConfigurationItem "{68953487176F97FB}" {
+     TargetStorage "Vest/GD_Gen3_Light_TF.et/holster3/Pouch_Filbe_M67_2.et"
+    }
+    ItemsInitConfigurationItem "{689534B98CA83826}" {
+     TargetStorage "Back/FILBE_hydration_pack.et"
+     PrefabsToSpawn + {
+      "{D41D22DD1B8E921E}Prefabs/Weapons/Grenades/M18/Smoke_M18_Green.et"
+     }
+    }
+    ItemsInitConfigurationItem "{689534B994BBF82F}" {
+     TargetStorage "Back/FILBE_hydration_pack.et"
+     PrefabsToSpawn + {
+      "{3343A055A83CB30D}Prefabs/Weapons/Grenades/M18/Smoke_M18_Red.et"
+     }
+    }
+    ItemsInitConfigurationItem "{689534B9B0255245}" {
+     TargetStorage "Vest/GD_Gen3_Light_TF.et/pistol/Pouch_HP103_Holster_Coyout.et"
+    }
+    ItemsInitConfigurationItem "{689534B9C1F70837}" {
+     Enabled 0
+     TargetStorage "Vest/GD_Gen3_Light_TF.et/up104/GD_TV119_Pouch_JSTA_RHS_Brown.et"
+    }
+   }
+  }
+ }
+ coords 4798.099 309.517 5883.797
+}

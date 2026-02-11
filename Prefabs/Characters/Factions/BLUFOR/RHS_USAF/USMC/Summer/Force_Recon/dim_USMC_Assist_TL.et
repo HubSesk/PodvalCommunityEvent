@@ -1,6 +1,26 @@
 SCR_ChimeraCharacter : "{6BB1EF93AC30DDF2}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Summer/Force_Recon/dim_USMC_FR_Rifleman.et" {
  ID "520EC961A090B1EE"
  components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{0CF54B9A85D8E0D4}Prefabs/Items/Equipment/Binoculars/Binoculars_M22/Binoculars_M22.et"
+      }
+      SCR_EquipmentStorageSlot WristwatchSlot {
+       Prefab "{E87F2DEA658EED74}Prefabs/Items/Equipment/Watches/Watch_GarminForetrex.et"
+      }
+     }
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#DRG_Roles_RHS_ScoutSpotter"
+    Icon "{480F9EE18B7CE141}UI/Icons/ForceRecon.edds"
+   }
+  }
   CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
    AttachType InventoryStorageSlot "{0C3DA650B52E127A}" {
     Offset 0.0564 -0.047 0.1225
@@ -28,8 +48,10 @@ SCR_ChimeraCharacter : "{6BB1EF93AC30DDF2}Prefabs/Characters/Factions/BLUFOR/RHS
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{6720F9CB5344D10E}" {
+     TargetStorage "Pants/Pants_FROG_WD.et"
     }
     ItemsInitConfigurationItem "{6720F9CB52FFCEB5}" {
+     TargetStorage "Pants/Pants_FROG_WD.et"
     }
     ItemsInitConfigurationItem "{68934730DDC9D76B}" {
      PrefabsToSpawn {
@@ -75,5 +97,5 @@ SCR_ChimeraCharacter : "{6BB1EF93AC30DDF2}Prefabs/Characters/Factions/BLUFOR/RHS
    }
   }
  }
- coords 201.859 1 236.182
+ coords 192.389 1 233.5
 }

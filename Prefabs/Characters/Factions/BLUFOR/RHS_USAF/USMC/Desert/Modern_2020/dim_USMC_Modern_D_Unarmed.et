@@ -1,0 +1,36 @@
+SCR_ChimeraCharacter : "{BEA7F7570EE811B2}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/dim_Role_Character_USAF_USMC_Unarmed_Base.et" {
+ ID "520EC961A090B1EE"
+ components {
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_bIsPlayable 1
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Jacket {
+     Prefab "{E8EA7FFEFB072D20}Prefabs/Characters/Uniforms/Shirt_FROG/Shirt_FROG_Arid.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{A0A05B1B2C3FE369}Prefabs/Characters/Uniforms/USMC/GD_Pants_FROG_Trousers_Arid.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{1F68B68021C89190}Prefabs/Characters/Footwear/CombatBoots_USMC.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6720F9CB5344D10E}" {
+     TargetStorage "Pants/GD_Pants_FROG_Trousers_Arid.et"
+    }
+    ItemsInitConfigurationItem "{6720F9CB52FFCEB5}" {
+     TargetStorage "Pants/GD_Pants_FROG_Trousers_Arid.et"
+    }
+    ItemsInitConfigurationItem "{6720F9CB52DA4A6E}" {
+     Enabled 0
+     TargetStorage ""
+    }
+   }
+  }
+ }
+ coords 177.769 1 205.982
+}
