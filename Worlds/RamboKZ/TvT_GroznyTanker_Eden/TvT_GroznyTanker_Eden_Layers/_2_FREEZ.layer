@@ -1,18 +1,12 @@
-SCR_EditorRestrictionZoneEntity USAF_FREEZ_0 : "{6144B0BE2EAC6897}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneMedium.et" {
- coords 11199.514 1.03 593.045
- m_fWarnRadius 80
- m_fZoneRadius 100
- m_fZoneTeleportedRadius 120
- {
-  GenericEntity {
-   ID "59D673B36B893D84"
-   components {
-    SCR_CustomAreaMeshComponent "{59D673B22B1EBC57}" {
-     m_fHeight 40
-     m_fRadius 80
-    }
-   }
-  }
+$grp SCR_EditorRestrictionZoneEntity : "{6144B0BE2EAC6897}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneMedium.et" {
+ USAF_FREEZ_0 {
+  coords 11175.029 1.037 604.901
+ }
+ USAF_FREEZ_1 {
+  coords 11705.818 6.22 1390.571
+ }
+ USAF_FREEZ_2 {
+  coords 10479.131 1.774 365.91
  }
 }
 $grp SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {

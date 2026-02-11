@@ -20,18 +20,6 @@ $grp Vehicle : "{3277F8B1FA06A2BC}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB
   m_sAttachmentGroupName "ION_203"
  }
 }
-$grp Vehicle : "{CAB4546B5DCE0AFB}Prefabs/Boat_base_us.et" {
- ION_300_V {
-  coords 5891.796 -0.475 9607.346
-  angles -6.187 132.451 2.793
-  m_sAttachmentGroupName "ION_300"
- }
- ION_301_V {
-  coords 5884.322 -0.501 9599.384
-  angles -6.187 132.451 2.793
-  m_sAttachmentGroupName "ION_301"
- }
-}
 $grp SCR_AIGroup : "{ED4577D444D210BD}Prefabs/Groups/INDFOR/RHS_ION/DRG_Group_RHS_ION.et" {
  ION_000 {
   components {
@@ -58,8 +46,8 @@ $grp SCR_AIGroup : "{ED4577D444D210BD}Prefabs/Groups/INDFOR/RHS_ION/DRG_Group_RH
     m_iSquadCallsign 3
    }
   }
-  coords 5859.099 4.562 9736.9
-  angles 0 -25.777 0
+  coords 5885.882 4.56 9744.232
+  angles 0 -116.245 0
   m_aUnitPrefabSlots {
    "{E8E9AB1239963DC2}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Drg_Character_RHS_ION_PMC_SL.et"
    "{95F147EA5C05015B}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Drg_Character_RHS_ION_PMC_SR.et"
@@ -86,9 +74,11 @@ $grp SCR_AIGroup : "{ED4577D444D210BD}Prefabs/Groups/INDFOR/RHS_ION/DRG_Group_RH
   m_aUnitPrefabSlots {
    "{E8E9AB1239963DC2}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Drg_Character_RHS_ION_PMC_SL.et"
    "{95F147EA5C05015B}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Drg_Character_RHS_ION_PMC_SR.et"
+   "{FDEE591458EB2BE5}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Drg_Character_RHS_ION_PMC_Rifleman_v4.et"
    "{64939E91A79CC168}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Drg_Character_RHS_ION_PMC_LAT_v2.et"
    "{254630D5216235B9}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Drg_Character_RHS_ION_PMC_Rifleman_v2.et"
    "{BC3BF750DE15DF34}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Drg_Character_RHS_ION_PMC_LAT_v4.et"
+   "{C0DA7C2C2D87A2D2}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Drg_Character_RHS_ION_PMC_Rifleman_v3.et"
    "{A807C057A88855BD}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Drg_Character_RHS_ION_PMC_Sniper.et"
   }
   m_sCustomNameSet "Отряд бандитов"
@@ -133,47 +123,6 @@ $grp SCR_AIGroup : "{ED4577D444D210BD}Prefabs/Groups/INDFOR/RHS_ION/DRG_Group_RH
    "{A807C057A88855BD}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Drg_Character_RHS_ION_PMC_Sniper.et"
   }
   m_sCustomNameSet "Отряд бандитов "
- }
- ION_300 {
-  components {
-   AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "column"
-   }
-   PS_GroupCallsignAssigner "{628699D5485F0B62}" {
-    m_iCompanyCallsign 3
-   }
-  }
-  coords 5887.693 0.698 9614.378
-  angles 0 133.812 0
-  m_aUnitPrefabSlots {
-   "{E8E9AB1239963DC2}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Drg_Character_RHS_ION_PMC_SL.et"
-   "{95F147EA5C05015B}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Drg_Character_RHS_ION_PMC_SR.et"
-   "{64939E91A79CC168}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Drg_Character_RHS_ION_PMC_LAT_v2.et"
-   "{254630D5216235B9}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Drg_Character_RHS_ION_PMC_Rifleman_v2.et"
-   "{A807C057A88855BD}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Drg_Character_RHS_ION_PMC_Sniper.et"
-  }
-  m_sCustomNameSet "Отряд бандитов"
- }
- ION_301 {
-  components {
-   AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "column"
-   }
-   PS_GroupCallsignAssigner "{628699D5485F0B62}" {
-    m_iCompanyCallsign 3
-    m_iSquadCallsign 1
-   }
-  }
-  coords 5880.579 0.701 9605.738
-  angles 0 130.013 0
-  m_aUnitPrefabSlots {
-   "{E8E9AB1239963DC2}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Drg_Character_RHS_ION_PMC_SL.et"
-   "{95F147EA5C05015B}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Drg_Character_RHS_ION_PMC_SR.et"
-   "{64939E91A79CC168}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Drg_Character_RHS_ION_PMC_LAT_v2.et"
-   "{254630D5216235B9}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Drg_Character_RHS_ION_PMC_Rifleman_v2.et"
-   "{A807C057A88855BD}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Drg_Character_RHS_ION_PMC_Sniper.et"
-  }
-  m_sCustomNameSet "Отряд бандитов"
  }
  ION_102 {
   components {
@@ -238,6 +187,30 @@ $grp SCR_AIGroup : "{ED4577D444D210BD}Prefabs/Groups/INDFOR/RHS_ION/DRG_Group_RH
    "{64939E91A79CC168}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Drg_Character_RHS_ION_PMC_LAT_v2.et"
    "{254630D5216235B9}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Drg_Character_RHS_ION_PMC_Rifleman_v2.et"
    "{08C7AA711B584E46}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Drg_Character_RHS_ION_PMC_LAT_v1.et"
+  }
+  m_sCustomNameSet "Отряд бандитов"
+ }
+ ION_101 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "column"
+   }
+   PS_GroupCallsignAssigner "{628699D5485F0B62}" {
+    m_iCompanyCallsign 1
+    m_iSquadCallsign 1
+   }
+  }
+  coords 5747.814 8.878 9754.506
+  angles -5.144 92.865 -0.252
+  m_aUnitPrefabSlots {
+   "{E8E9AB1239963DC2}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Drg_Character_RHS_ION_PMC_SL.et"
+   "{95F147EA5C05015B}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Drg_Character_RHS_ION_PMC_SR.et"
+   "{FDEE591458EB2BE5}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Drg_Character_RHS_ION_PMC_Rifleman_v4.et"
+   "{64939E91A79CC168}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Drg_Character_RHS_ION_PMC_LAT_v2.et"
+   "{254630D5216235B9}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Drg_Character_RHS_ION_PMC_Rifleman_v2.et"
+   "{BC3BF750DE15DF34}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Drg_Character_RHS_ION_PMC_LAT_v4.et"
+   "{C0DA7C2C2D87A2D2}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Drg_Character_RHS_ION_PMC_Rifleman_v3.et"
+   "{A807C057A88855BD}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Drg_Character_RHS_ION_PMC_Sniper.et"
   }
   m_sCustomNameSet "Отряд бандитов"
  }
