@@ -1,0 +1,32 @@
+SCR_ChimeraCharacter : "{C0762B2AADBAC8F0}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Summer/dim_Role_Character_USAF_USMC_CrewCommander-Gunner.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{CD978F0EA8D3900F}Prefabs/Characters/HeadGear/Helmet_CVC_01/Helmet_CVC_Shroud_Tan.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{A4145024AE7084F6}Prefabs/Characters/Uniforms/Suit_Tanker_US_01/Suit_Tanker_US_01_tucked.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab ""
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6720F9CB5344D10E}" {
+     TargetStorage "Jacket/Suit_Tanker_US_01_tucked.et"
+    }
+    ItemsInitConfigurationItem "{6720F9CB52FFCEB5}" {
+     TargetStorage "Jacket/Suit_Tanker_US_01_tucked.et"
+    }
+    ItemsInitConfigurationItem "{6720F9CE79E73603}" {
+     TargetStorage "Jacket/Suit_Tanker_US_01_tucked.et"
+    }
+   }
+  }
+ }
+ coords 3145.713 145.919 8379.408
+}

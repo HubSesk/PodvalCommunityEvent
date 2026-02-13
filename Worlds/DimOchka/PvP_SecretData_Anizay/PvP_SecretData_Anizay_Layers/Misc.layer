@@ -1,0 +1,243 @@
+GameEntity : "{3EBB4841A0155BED}Prefabs/Structures/BuildingParts/Ladders/Ladder_HarborCrane_379_B.et" {
+ components {
+  ActionsManagerComponent "{5916A63C9331DAB0}" {
+   ActionContexts {
+    UserActionContext "{5916A63C9D2ABA4A}" {
+     Position PointInfo "{5916A63C9B51DDAE}" {
+      Offset 0.0002 0.0787 0.0015
+     }
+    }
+    UserActionContext "{5916A63C9CED0D8A}" {
+     Position PointInfo "{5916A63CE468E545}" {
+      Offset 0.0001 -1.8704 0.1282
+     }
+     Radius 2.86
+    }
+   }
+   additionalActions {
+    SCR_LadderUserAction "{5916A63CE01A4A0F}" {
+     VisibilityRange 1
+    }
+   }
+  }
+ }
+ coords 3589.677 6.395 4560.775
+ angles 0 100.726 0
+}
+GenericEntity laptop : "{647F0942FB2563E6}Prefabs/Misc/Laptop/Military_Laptop.et" {
+ coords 3528.822 157.304 4527.809
+ {
+  PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+   coords -0.014 0.002 -0.012
+   angles 0 90 0
+   m_sImageSet "{10C0A9A305E8B3A4}UI/Imagesets/Tasks/Task_Icons.imageset"
+   m_sImageSetGlow "{10C0A9A305E8B3A4}UI/Imagesets/Tasks/Task_Icons.imageset"
+   m_MarkerColor 1 0 0 1
+   m_sQuadName "Icon_M_Task_Intel"
+   m_fWorldSize 35
+   m_sDescription "DSM"
+   m_aVisibleForFactions {
+    "RHS_AFRF"
+    ""
+   }
+   m_aHideOnGameModeStates {
+    PREGAME
+    SLOTSELECTION
+    BRIEFING
+   }
+  }
+ }
+}
+$grp GenericEntity : "{6E7187A213F65A60}PrefabsEditable/Auto/Props/Military/Sandbags/Deployable/E_Sandbag_01_round_burlap_Deployable.et" {
+ {
+  coords 3584.315 165.495 4562.051
+  angles 0 -125.898 0
+ }
+ {
+  coords 3589.498 165.495 4565.325
+  angles 0 47.348 0
+ }
+ {
+  coords 3584.971 165.495 4566.149
+  angles 0 -40.535 0
+ }
+}
+GenericEntity : "{91991AEB147C0F3B}Prefabs/System/DRG_RandomSpawnPrefab.et" {
+ components {
+  DRG_RandomSpawnComponent "{66295E1A338BA9CE}" {
+   m_TargetEntity "laptop"
+   m_MarkerEntities {
+    "raz"
+    "raz2"
+    "raz3"
+   }
+  }
+ }
+ coords 3294.552 158.697 4474.061
+}
+$grp GenericEntity : "{BDAA871A06DABD74}PrefabsEditable/Auto/Props/Military/Sandbags/E_Sandbag_01_long_burlap.et" {
+ {
+  coords 3468.837 163.936 4459.063
+  angles 0 -40.256 0
+ }
+ {
+  coords 3466.396 164.007 4456.84
+  angles 0 -45.191 0
+ }
+}
+$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ raz {
+  coords 3619.634 165.506 4524.108
+  angles 0 0 0
+  m_sImageSet "{10C0A9A305E8B3A4}UI/Imagesets/Tasks/Task_Icons.imageset"
+  m_sImageSetGlow "{10C0A9A305E8B3A4}UI/Imagesets/Tasks/Task_Icons.imageset"
+  m_MarkerColor 1 0 0 1
+  m_sQuadName "Icon_M_Task_Scavenge"
+  m_fWorldSize 35
+  m_aVisibleForFactions {
+   "RHS_USAF"
+   "Возможное местонахождение ноутбука"
+  }
+  m_bVisibleForEmptyFaction 1
+ }
+ raz2 {
+  coords 3482.16 160.701 4630.985
+  angles 0 0 0
+  m_sImageSet "{10C0A9A305E8B3A4}UI/Imagesets/Tasks/Task_Icons.imageset"
+  m_sImageSetGlow "{10C0A9A305E8B3A4}UI/Imagesets/Tasks/Task_Icons.imageset"
+  m_MarkerColor 1 0 0 1
+  m_sQuadName "Icon_M_Task_Scavenge"
+  m_fWorldSize 35
+  m_sDescription "Возможное местонахождение ноутбука"
+  m_aVisibleForFactions {
+   "RHS_USAF"
+   ""
+  }
+  m_bVisibleForEmptyFaction 1
+ }
+ raz3 {
+  coords 3520.922 161.395 4505.887
+  angles 0 0 0
+  m_sImageSet "{10C0A9A305E8B3A4}UI/Imagesets/Tasks/Task_Icons.imageset"
+  m_sImageSetGlow "{10C0A9A305E8B3A4}UI/Imagesets/Tasks/Task_Icons.imageset"
+  m_MarkerColor 1 0 0 1
+  m_sQuadName "Icon_M_Task_Scavenge"
+  m_fWorldSize 35
+  m_sDescription "Возможное местонахождение ноутбука"
+  m_aVisibleForFactions {
+   "RHS_USAF"
+   ""
+  }
+  m_bVisibleForEmptyFaction 1
+ }
+ dva3 {
+  coords 3520.922 161.395 4505.887
+  angles 0 0 0
+  m_sImageSet "{10C0A9A305E8B3A4}UI/Imagesets/Tasks/Task_Icons.imageset"
+  m_sImageSetGlow "{10C0A9A305E8B3A4}UI/Imagesets/Tasks/Task_Icons.imageset"
+  m_MarkerColor 1 0 0 1
+  m_sQuadName "Icon_M_Task_Scavenge"
+  m_fWorldSize 35
+  m_sDescription "Возможное местонахождение ноутбука"
+  m_aVisibleForFactions {
+   "RHS_AFRF"
+   ""
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+   GAME
+  }
+ }
+ dva2 {
+  coords 3482.16 160.701 4630.985
+  angles 0 0 0
+  m_sImageSet "{10C0A9A305E8B3A4}UI/Imagesets/Tasks/Task_Icons.imageset"
+  m_sImageSetGlow "{10C0A9A305E8B3A4}UI/Imagesets/Tasks/Task_Icons.imageset"
+  m_MarkerColor 1 0 0 1
+  m_sQuadName "Icon_M_Task_Scavenge"
+  m_fWorldSize 35
+  m_sDescription "Возможное местонахождение ноутбука"
+  m_aVisibleForFactions {
+   "RHS_AFRF"
+   ""
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+   GAME
+  }
+ }
+ dva {
+  coords 3619.634 165.506 4524.108
+  angles 0 0 0
+  m_sImageSet "{10C0A9A305E8B3A4}UI/Imagesets/Tasks/Task_Icons.imageset"
+  m_sImageSetGlow "{10C0A9A305E8B3A4}UI/Imagesets/Tasks/Task_Icons.imageset"
+  m_MarkerColor 1 0 0 1
+  m_sQuadName "Icon_M_Task_Scavenge"
+  m_fWorldSize 35
+  m_sDescription "Возможное местонахождение ноутбука"
+  m_aVisibleForFactions {
+   "RHS_AFRF"
+   ""
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+   GAME
+  }
+ }
+}
+$grp GenericEntity : "{CE9FB0208479F76C}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_USSR_01_DIMKII.et" {
+ {
+  coords 3462.752 163.973 4459.814
+  angles 0 -131.11 0
+ }
+ {
+  coords 3462.752 163.973 4459.814
+  angles 0 -131.11 0
+ }
+}
+$grp GenericEntity : "{F5EF4223ACA6169C}PrefabsEditable/Auto/Structures/Military/Flags/E_FlagPole_02_V1_AFRF.et" {
+ {
+  coords 3625.022 168.99 4525.447
+ }
+ {
+  coords 3613.29 168.989 4525.985
+ }
+ {
+  coords 3612.742 168.99 4517.299
+ }
+ {
+  coords 3624.418 168.989 4516.744
+  angles 0 5.404 0
+ }
+ {
+  coords 3519.126 164.082 4498.733
+  angles 0 -90 0
+ }
+ {
+  coords 3519.663 163.699 4510.648
+  angles 0 -90 0
+ }
+ {
+  coords 3525.098 164.081 4498.968
+  angles 0 -90 0
+ }
+ {
+  coords 3525.807 164.082 4510.097
+  angles 0 -90 0
+ }
+ {
+  coords 3487.803 163.668 4627.396
+ }
+ {
+  coords 3475.845 163.668 4627.195
+ }
+ {
+  coords 3512.114 163.689 4654.069
+ }
+ {
+  coords 3511.449 163.689 4665.605
+ }
+ {
+  coords 3485.768 166.527 4653.572
+ }
+}

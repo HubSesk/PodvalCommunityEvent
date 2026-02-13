@@ -1,0 +1,60 @@
+$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ {
+  coords 4439.575 248.313 4233.329
+  m_sTitle "Правила и задачи"
+  m_sDescriptionLayout "{B6DE04F7CF7A95DA}UI/MissionDescription/DescriptionEditableScrollable.layout"
+  m_sTextData "ПРАВИЛА:"\
+  "1. ВС РФ запрещено взаимодействовать с ноутбуком;"\
+  "2. Вертолету запрещено использовать технику \"Камикадзе\";"\
+  "3. Вертолету запрещено стрелять по зданиям, в которых может находиться ноутбук (Здания отмечены флагом)."\
+  ""\
+  "ЗАДАЧИ:"\
+  ""\
+  "• РФ: "\
+  " 1. Не допустить кражу ноутбука."\
+  ""\
+  "• США:"\
+  " 1. Захватить ноутбук."\
+  ""\
+  "ДОПОЛНИТЕЛЬНО:"\
+  " 1. Для победы США нужно вывезти ноутбук в безопасную зону;"\
+  " 2. Спаун ноутбука рандомный, с началом миссии ВС РФ видят где появился ноутбук. США нужно его искать."
+  m_aVisibleForFactions {
+   "RHS_USAF"
+   "RHS_AFRF"
+   ""
+  }
+  m_bEmptyFactionVisibility 1
+ }
+ {
+  coords 4439.575 248.313 4233.329
+  m_sTitle "Обстановка"
+  m_sTextData "США получила информацию о местонахождении ценных разведданных, которые помогут найти лидера Такистана - Аль Подвали. Центром данных является бывшая усадьба президента. Однако, войска РФ, которые являются верным союзником Аль Подвали, оказались на месте раньше.  "
+  m_aVisibleForFactions {
+   "RHS_USAF"
+   "RHS_AFRF"
+   ""
+  }
+  m_bEmptyFactionVisibility 1
+ }
+}
+$grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
+ {
+  coords 7331.553 114.413 5187.913
+  m_sTitle "Ноутбук захвачен"
+  m_sFactionKey "RHS_USAF"
+ }
+ {
+  coords 7331.553 114.413 5104.672
+  m_sTitle "Ноутбук удержан"
+  m_sFactionKey "RHS_AFRF"
+ }
+}
+GenericEntity : "{E6FC6DD69FA3479F}Prefabs/System/DRG_MissionEndTimerPrefab.et" {
+ components {
+  DRG_MissionEndTimerComponent "{651B0839B21B3BBF}" {
+   m_iMissionTime 2700
+  }
+ }
+ coords 2858.283 142.692 4298.84
+}
