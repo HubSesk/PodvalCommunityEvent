@@ -1,0 +1,91 @@
+SCR_ChimeraCharacter : "{1F19F6D64338C82F}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Elite_ION/dim_ION_Elite_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{FAE8B9F7CEA49696}Prefabs/Items/Equipment/Binoculars/Rangefinder_Vector21_lc.et"
+      }
+     }
+    }
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{6C9C8E0E68422D95}Prefabs/Weapons/M110/dim_SR-25.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Jacket {
+     Prefab "{357E3E05EFFE2AA4}Prefabs/Characters/Uniforms/Crye_Jacket/GD_Crye3_Rolled_BlackMC.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{3B704B3F03F9CCCB}Prefabs/Characters/Vests/Vest_Shaw_ARC/Vest_Shaw_ARC_base.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{35B2AC8DF4747F2B}Prefabs/Items/Equipment/Backpacks/Spiritus_System_DeltaBag/GD_DeltaBag_Black.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{88F233AA8ECCD12A}Prefabs/Characters/Vests/SHAW_ARC_Kits/GD_ION_Mark_ShawARC.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{689B2D43EAF841F3}" {
+     TargetStorage "Jacket/GD_Crye3_Rolled_BlackMC.et"
+    }
+    ItemsInitConfigurationItem "{689E6D83F89602AF}" {
+     TargetStorage "Vest/GD_ION_Mark_ShawARC.et/Pouch1/Pouch_Shaw_Placard_3Mags_MC_Blk.et"
+     PrefabsToSpawn {
+      "{CDA8C59B712B6B90}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m80.et" "{CDA8C59B712B6B90}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m80.et" "{CDA8C59B712B6B90}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m80.et"
+     }
+    }
+    ItemsInitConfigurationItem "{689E6D8237974471}" {
+     TargetStorage "Vest/GD_ION_Mark_ShawARC.et/tako/Pouch_Highspeed_Bleeder_MCBlk.et"
+    }
+    ItemsInitConfigurationItem "{689E6D826BD04590}" {
+     TargetStorage "Back/GD_DeltaBag_Black.et"
+    }
+    ItemsInitConfigurationItem "{689E6D8233474F95}" {
+     TargetStorage "Vest/GD_ION_Mark_ShawARC.et/m18_1/Pouch_PCGEN3_takoPouch_MCBlk.et"
+     PrefabsToSpawn {
+      "{CDA8C59B712B6B90}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m80.et" "{CDA8C59B712B6B90}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m80.et"
+     }
+    }
+    ItemsInitConfigurationItem "{689E6D823E1CA47C}" {
+     TargetStorage "Vest/GD_ION_Mark_ShawARC.et/nerd/Pouch_Shaw_Flex_Blk.et"
+     PrefabsToSpawn {
+      "{CDA8C59B712B6B90}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m80.et"
+     }
+    }
+    ItemsInitConfigurationItem "{689E6D8241C8AB1F}" {
+     TargetStorage "Vest/GD_ION_Mark_ShawARC.et/pistolcamer/Pouch_PCGEN3_util.et"
+     PrefabsToSpawn {
+      "{CDA8C59B712B6B90}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m80.et" "{CDA8C59B712B6B90}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m80.et"
+     }
+    }
+    ItemsInitConfigurationItem "{689E6D8254999773}" {
+     TargetStorage "Back/GD_DeltaBag_Black.et"
+    }
+    ItemsInitConfigurationItem "{689E6D8266124935}" {
+     TargetStorage "Back/GD_DeltaBag_Black.et"
+     PrefabsToSpawn {
+      "{CDA8C59B712B6B90}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m80.et" "{CDA8C59B712B6B90}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m80.et" "{CDA8C59B712B6B90}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m80.et" "{CDA8C59B712B6B90}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m80.et"
+     }
+    }
+    ItemsInitConfigurationItem "{689E6D827A21D340}" {
+     TargetStorage "Back/GD_DeltaBag_Black.et"
+    }
+    ItemsInitConfigurationItem "{689E80701BDC9C6B}" {
+     TargetStorage "Back/GD_DeltaBag_Black.et"
+     PrefabsToSpawn {
+      "{2A7C01B93CC92ACE}Prefabs/Items/Equipment/RangeCard/RangeCard_Notepad_AUTO.et"
+     }
+    }
+   }
+  }
+ }
+ coords 97.38 1 98.501
+}

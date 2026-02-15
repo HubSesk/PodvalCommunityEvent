@@ -1,0 +1,79 @@
+SCR_ChimeraCharacter : "{1F19F6D64338C82F}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Elite_ION/dim_ION_Elite_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{FAE8B9F7CEA49696}Prefabs/Items/Equipment/Binoculars/Rangefinder_Vector21_lc.et"
+      }
+     }
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#DRG_ION_TeamLeader"
+    Icon "{E6BCD59435D5DF18}UI/Icons/pmc_tl.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{82AA2FEE1D883820}Prefabs/Weapons/M4A1/M4_PMC_3.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Jacket {
+     Prefab "{C10EC93D3275BAD6}Prefabs/Characters/Uniforms/PCU_Tape/GD_PCU_Tape_Hood.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{09E2F277F5B672E8}Prefabs/Characters/Footwear/Solomon_4dgtx.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{35B2AC8DF4747F2B}Prefabs/Items/Equipment/Backpacks/Spiritus_System_DeltaBag/GD_DeltaBag_Black.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{E9C71C61DE158E07}Prefabs/Characters/Vests/US_LV119_Pouches/Kits/GD_LV119_ION_V2.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{689B2D43EAF841F3}" {
+     TargetStorage "Jacket/GD_PCU_Tape_Hood.et"
+     PrefabsToSpawn {
+      "{72722D5E8513FCB3}Prefabs/Items/Equipment/Radios/drg_Radio_ANPRC152A_OLD_SL_PMC.et"
+     }
+    }
+    ItemsInitConfigurationItem "{689E6D83F89602AF}" {
+     TargetStorage "Vest/GD_LV119_ION_V2.et/Mag_Pouch/Pouch_avs_front_elastic_Blk.et"
+    }
+    ItemsInitConfigurationItem "{689E6D8237974471}" {
+     TargetStorage "Vest/GD_LV119_ION_V2.et/Pouch/GD_LV119_Pouch_JSTA_RHS_Black.et"
+    }
+    ItemsInitConfigurationItem "{689E6D826BD04590}" {
+     TargetStorage "Vest/GD_LV119_ION_V2.et/pouch5/Pouch_Highspeed_Pistol_MCBlk.et"
+    }
+    ItemsInitConfigurationItem "{689E6D8233474F95}" {
+     TargetStorage "Vest/GD_LV119_ION_V2.et/Tako/Pouch_PCGEN3_takoPouch_MCBlk.et"
+    }
+    ItemsInitConfigurationItem "{689E6D823E1CA47C}" {
+     TargetStorage "Vest/GD_LV119_ION_V2.et/Pouch_3/Pouch_PCGEN3_takoPouch_MCBlk.et"
+    }
+    ItemsInitConfigurationItem "{689E6D8241C8AB1F}" {
+     TargetStorage "Vest/GD_LV119_ION_V2.et/Pouch4/Pouch_Shaw_Raid_MCBlk.et"
+    }
+    ItemsInitConfigurationItem "{689E6D8254999773}" {
+     TargetStorage "Vest/GD_LV119_ION_V2.et/Holster/GD_Holster_SLS_RLeg.et"
+    }
+    ItemsInitConfigurationItem "{689E6D8266124935}" {
+     TargetStorage "Vest/GD_LV119_ION_V2.et/Admin/Pouch_Shaw_Raid_MCBlk.et"
+    }
+    ItemsInitConfigurationItem "{689E6D827A21D340}" {
+     TargetStorage "Vest/GD_LV119_ION_V2.et/Pouch4/Pouch_Shaw_Raid_MCBlk.et"
+    }
+   }
+  }
+ }
+ coords 103.88 1 132.141
+}

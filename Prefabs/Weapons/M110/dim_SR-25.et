@@ -1,0 +1,35 @@
+GenericEntity : "{12EB211A330C2999}Prefabs/Weapons/Rifles/SR25/Rifle_SR25_base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{658290F958FB0E5D}" {
+     AttachmentSlot InventoryStorageSlot optics {
+      Prefab "{28FD40D75A1B248D}Prefabs/Weapons/Attachments/Optics/RT6/Optic_Coll_RT6.et"
+     }
+    }
+    AttachmentSlotComponent "{689E8072D8B1C6C1}" {
+     AttachmentSlot InventoryStorageSlot Range {
+      PivotID "slot_handguard"
+      Offset -0.0227 0 0.3453
+      Angles 0 0 -90
+      Prefab "{A7C848BABE4F4577}Prefabs/Weapons/Attachments/Lasers/psq23/LaserRangefinder_PSQ23_base.et"
+     }
+     AttachmentType AttachmentRIS1913 "{689E8072E9F02B9F}" {
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     components {
+      AttachmentSlotComponent "{658290F958F45BAC}" {
+       AttachmentSlot InventoryStorageSlot Muzzle {
+        Offset 0 0 -0.0139
+        Prefab "{DF58424A3589DAF1}Prefabs/Weapons/Attachments/Muzzle/Suppressor_GemtechOne/Suppressor_GemtechOne.et"
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ coords 103.258 1.231 96.491
+}

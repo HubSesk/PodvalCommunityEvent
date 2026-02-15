@@ -7,6 +7,63 @@ PerceptionManager PerceptionManager2 : "{028DAEAD63E056BE}Prefabs/World/Game/Per
 PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
  coords 6970.591 4.081 3774.427
 }
+Vehicle S1203_transport_beige1 : "{543799AC5C52989C}Prefabs/Vehicles/Wheeled/S1203/S1203_transport_beige.et" {
+ coords 3787.333 198.219 7351.519
+ angles -2.303 -60.523 5.871
+}
+Vehicle S105_beige2 : "{54C3CC22DEBD57BE}Prefabs/Vehicles/Wheeled/S105/S105_beige.et" {
+ coords 4693.686 284.762 7051.632
+ angles -5.202 0.897 -9.793
+}
+$grp Vehicle : "{780FA841BFE4077F}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_transport_CIV_grey.et" {
+ UAZ452_transport_CIV_grey1 {
+  coords 5134.342 11.037 8111.918
+  angles 7.109 -0.335 -2.705
+ }
+ UAZ452_transport_CIV_grey2 {
+  coords 5140.222 10.796 8110.004
+  angles 6.218 -0.39 -3.598
+ }
+ UAZ452_transport_CIV_grey3 {
+  coords 4242.506 259.644 7063.719
+  angles -13.178 0.419 -1.838
+ }
+}
+Vehicle S105_darkblue1 : "{9C3269FB43F989A3}Prefabs/Vehicles/Wheeled/S105/S105_darkblue.et" {
+ coords 4699.877 284.538 7060.156
+ angles -2.806 -96.844 6.611
+}
+$grp Vehicle : "{A2C4DBCDDE967600}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_transport_CIV_blue.et" {
+ UAZ452_transport_CIV_blue1 {
+  coords 4690.92 284.016 7059.24
+  angles -6.951 -15.177 -1.801
+ }
+ UAZ452_transport_CIV_blue2 {
+  coords 5070.651 15.97 8129.289
+  angles -12.232 -1.165 5.481
+ }
+ UAZ452_transport_CIV_blue3 {
+  coords 6083.303 39.5 7968.18
+ }
+}
+$grp Vehicle : "{BB84BDE1707A38EB}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_transport_CIV_orange.et" {
+ UAZ452_transport_CIV_orange2 {
+  coords 4697.833 285.708 7048.898
+  angles -6.987 0.988 -8.065
+ }
+ UAZ452_transport_CIV_orange3 {
+  coords 6089.143 39.488 7957.648
+  angles -0.972 84.837 -0.811
+ }
+ UAZ452_transport_CIV_orange4 {
+  coords 4234.958 259.562 7061.91
+  angles -9.75 0.154 -0.908
+ }
+ UAZ452_transport_CIV_orange5 {
+  coords 4228.206 259.601 7059.995
+  angles -6.236 0.196 -1.801
+ }
+}
 GenericEntity : "{E6FC6DD69FA3479F}Prefabs/System/DRG_MissionEndTimerPrefab.et" {
  components {
   DRG_MissionEndTimerComponent "{651B0839B21B3BBF}" {
@@ -16,4 +73,8 @@ GenericEntity : "{E6FC6DD69FA3479F}Prefabs/System/DRG_MissionEndTimerPrefab.et" 
   }
  }
  coords 1862.442 125.207 7318.305
+}
+Vehicle S1203_transport_blue1 : "{F77C41245A580FD1}Prefabs/Vehicles/Wheeled/S1203/S1203_transport_blue.et" {
+ coords 3779.456 197.831 7353.875
+ angles 2.53 135.269 0.012
 }

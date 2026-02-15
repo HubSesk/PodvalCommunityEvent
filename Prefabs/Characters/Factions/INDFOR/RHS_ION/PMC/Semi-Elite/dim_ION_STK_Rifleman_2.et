@@ -1,0 +1,83 @@
+SCR_ChimeraCharacter : "{1F19F6D64338C82F}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Elite_ION/dim_ION_Elite_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{B28CBB4B115A6F09}Prefabs/Weapons/Rifles/M4A1/Variants/ION/Variants/Rifle_AR15_GA_UD115_BLK_ION1.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{5ADA03D06ADB2ABE}Prefabs/Characters/HeadGear/Helmet_Exfil/Exfil_ION_2.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{940ECDB0F69CBC5E}Prefabs/Characters/Uniforms/T_Shirts/ION_Shirt/ION_Casual_Shirt_Brand.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{037DD3060547B417}Prefabs/Characters/Vests/Vest_JPC/Vest_JPC_MCBlk.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{CE7E0E170283A190}Prefabs/Characters/Uniforms/Pants_Trousers_01/GD_Pants_Trousers_01_DarkGrey_Dirty.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{09E2F277F5B672E8}Prefabs/Characters/Footwear/Solomon_4dgtx.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{CF74EB1FEC37F88A}Prefabs/Items/Equipment/Backpacks/Spiritus_System_DeltaBag/GD_DeltaBag_Medic_Black.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{700E678F7C075D6D}Prefabs/Characters/Vests/JPC_Pouches_Variants/GD_ION_JPC_V3.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{689B2D43EA87EF4F}" {
+     TargetStorage "Pants/GD_Pants_Trousers_01_DarkGrey_Dirty.et"
+    }
+    ItemsInitConfigurationItem "{689B2D43EAE0FA83}" {
+     TargetStorage "Jacket/ION_Casual_Shirt_Brand.et"
+    }
+    ItemsInitConfigurationItem "{689B2D43EAF841F3}" {
+     TargetStorage "Jacket/ION_Casual_Shirt_Brand.et"
+    }
+    ItemsInitConfigurationItem "{689E6D83F89602AF}" {
+     TargetStorage "Vest/GD_ION_JPC_V3.et/Pouch1/Pouch_avs_front_elastic_MCBlk.et"
+    }
+    ItemsInitConfigurationItem "{689E6D8237974471}" {
+     TargetStorage "Vest/GD_ION_JPC_V3.et/HSGI/Pouch_Highspeed_Bleeder_MCBlk.et"
+    }
+    ItemsInitConfigurationItem "{689E6D826BD04590}" {
+     TargetStorage "Vest/GD_ION_JPC_V3.et/pistolpouch2/Pouch_Highspeed_Pistol_MCBlk.et"
+    }
+    ItemsInitConfigurationItem "{689E6D8233474F95}" {
+     TargetStorage "Vest/GD_ION_JPC_V3.et/tako/Pouch_PCGEN3_takoPouch_MCBlk.et"
+    }
+    ItemsInitConfigurationItem "{689E6D823E1CA47C}" {
+     TargetStorage "Vest/GD_ION_JPC_V3.et/takobelt/Pouch_PCGEN3_takoPouch_MCBlk.et"
+    }
+    ItemsInitConfigurationItem "{689E6D8241C8AB1F}" {
+     TargetStorage "Back/GD_DeltaBag_Medic_Black.et"
+     PrefabsToSpawn + {
+      "{BD30BE4A3D8B9DAC}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1_last5tracer.et" "{BD30BE4A3D8B9DAC}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1_last5tracer.et" "{BD30BE4A3D8B9DAC}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1_last5tracer.et" "{C581ED926D3CD9CE}Prefabs/Items/GasMask/Avon_GasMask.et" "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+     }
+    }
+    ItemsInitConfigurationItem "{689E6D8254999773}" {
+     TargetStorage "Vest/GD_ION_JPC_V3.et/m67_2/GD_Holster_SLS.et"
+    }
+    ItemsInitConfigurationItem "{689E6D8266124935}" {
+     TargetStorage "Vest/GD_ION_JPC_V3.et/m18_1/Pouch_Filbe_M18_2.et"
+     PrefabsToSpawn {
+      "{D41D22DD1B8E921E}Prefabs/Weapons/Grenades/M18/Smoke_M18_Green.et"
+     }
+    }
+    ItemsInitConfigurationItem "{689E6D827A21D340}" {
+     TargetStorage "Vest/GD_ION_JPC_V3.et/m18_2/Pouch_Filbe_M18_1.et"
+     PrefabsToSpawn {
+      "{3343A055A83CB30D}Prefabs/Weapons/Grenades/M18/Smoke_M18_Red.et"
+     }
+    }
+   }
+  }
+ }
+ coords 118.985 1 165.761
+}

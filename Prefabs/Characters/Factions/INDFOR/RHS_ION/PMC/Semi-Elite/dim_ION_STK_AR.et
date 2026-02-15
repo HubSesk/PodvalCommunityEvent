@@ -1,0 +1,94 @@
+SCR_ChimeraCharacter : "{8E01B51117F34FFD}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Semi-Elite/dim_ION_STK_Rifleman_1.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Пулеметчик ION"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{745A6ADCEBCF9FBF}Prefabs/Weapons/MachineGuns/M249/dim_M249_Suppressor.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Jacket {
+     Prefab "{DBE3F9D536EFDCCE}Prefabs/Characters/Uniforms/ACU_t-shirt/drg_ACU_t-shirt_grey_BLK.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{EC914CF14AD01C67}Prefabs/Characters/Vests/Vest_AVS/Vest_AVS_6x9_MCBlk.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{CE7E0E170283A190}Prefabs/Characters/Uniforms/Pants_Trousers_01/GD_Pants_Trousers_01_DarkGrey_Dirty.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{C5632838E1A7196F}Prefabs/Characters/Vests/AVS/GD_AVS_ION.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{689B2D43EA87EF4F}" {
+     TargetStorage "Pants/GD_Pants_Trousers_01_DarkGrey_Dirty.et"
+    }
+    ItemsInitConfigurationItem "{689B2D43EAE0FA83}" {
+     TargetStorage "Pants/GD_Pants_Trousers_01_DarkGrey_Dirty.et"
+     PrefabsToSpawn {
+      "{922F95F91943F69A}Prefabs/Items/Equipment/Maps/Map_Paper_01/PaperMap_01_folded_US.et" "{61D4F80E49BF9B12}Prefabs/Items/Equipment/Compass/Compass_SY183.et"
+     }
+    }
+    ItemsInitConfigurationItem "{689B2D43EAF841F3}" {
+     TargetStorage "Jacket/drg_ACU_t-shirt_grey_BLK.et"
+    }
+    ItemsInitConfigurationItem "{689E6D8233474F95}" {
+     TargetStorage "Vest/GD_AVS_ION.et/saw/Pouch_PCGEN3_MG.et"
+     PrefabsToSpawn {
+      "{AAF51CFA75A9CF8B}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4AP_1Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{689E6D823E1CA47C}" {
+     TargetStorage "Vest/GD_AVS_ION.et/saw2/Pouch_PCGEN3_MG.et"
+     PrefabsToSpawn {
+      "{AAF51CFA75A9CF8B}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4AP_1Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{689E6D8241C8AB1F}" {
+     TargetStorage "Vest/GD_AVS_ION.et/bag/GD_TV119_Pouch_JSTA_RHS_Brown.et"
+     PrefabsToSpawn {
+      "{AAF51CFA75A9CF8B}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4AP_1Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{689E6D8254999773}" {
+     TargetStorage "Vest/GD_AVS_ION.et/ifak/Pouch_PCGEN3_ifak.et"
+     PrefabsToSpawn {
+      "{AAF51CFA75A9CF8B}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4AP_1Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{689E6D8266124935}" {
+     TargetStorage "Vest/GD_AVS_ION.et/m67/Pouch_Filbe_M67_Base.et"
+     PrefabsToSpawn {
+      "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+     }
+    }
+    ItemsInitConfigurationItem "{689E8062ABB90755}" {
+     TargetStorage "Vest/GD_AVS_ION.et/m67_2/Pouch_Filbe_M67_Base.et"
+     PrefabsToSpawn {
+      "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+     }
+    }
+    ItemsInitConfigurationItem "{689E6D827A21D340}" {
+     TargetStorage "Vest/GD_AVS_ION.et/m18/Pouch_Filbe_M18_1.et"
+     PrefabsToSpawn {
+      "{3343A055A83CB30D}Prefabs/Weapons/Grenades/M18/Smoke_M18_Red.et"
+     }
+    }
+    ItemsInitConfigurationItem "{689E8062B0154A2C}" {
+     TargetStorage "Vest/GD_AVS_ION.et/m18_2/Pouch_Filbe_M18_1.et"
+     PrefabsToSpawn {
+      "{3343A055A83CB30D}Prefabs/Weapons/Grenades/M18/Smoke_M18_Red.et"
+     }
+    }
+   }
+  }
+ }
+ coords 104.662 1 139.645
+}

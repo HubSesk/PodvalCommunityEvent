@@ -1,0 +1,35 @@
+SCR_ChimeraCharacter : "{C267862958299863}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Semi-Elite/dim_ION_STK_AR.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{A4E734CA26A281E2}Prefabs/Characters/HeadGear/Helmet_Exfil/Exfil_ION.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{357E3E05EFFE2AA4}Prefabs/Characters/Uniforms/Crye_Jacket/GD_Crye3_Rolled_BlackMC.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{CDFCFF874188E509}Prefabs/Characters/Uniforms/Crye_pants/GD_Crye3_Pants_BlackMC.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{AB116B8D9F8E374F}Prefabs/Characters/Footwear/Solomon_midtops.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{689B2D43EA87EF4F}" {
+     TargetStorage "Pants/GD_Crye3_Pants_BlackMC.et"
+    }
+    ItemsInitConfigurationItem "{689B2D43EAE0FA83}" {
+     TargetStorage "Pants/GD_Crye3_Pants_BlackMC.et"
+    }
+    ItemsInitConfigurationItem "{689B2D43EAF841F3}" {
+     TargetStorage "Jacket/GD_Crye3_Rolled_BlackMC.et"
+    }
+   }
+  }
+ }
+ coords 105.719 1 143.657
+}

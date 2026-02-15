@@ -1,0 +1,32 @@
+GenericEntity : "{6F08B1491594DCF6}Prefabs/Weapons/MachineGuns/M249/MG_M249_ACOG.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponSoundComponent "{5A8685198A9AEEDD}" {
+   Filenames + {
+    "{03F532C8D2333B09}Sounds/Weapons/Rifles/M16A2/Weapons_Rifles_M16A2_Shot_Suppressed_SuperSonic.acp"
+   }
+  }
+  SCR_WeaponStatsManagerComponent "{689E8070E3AE8E25}" {
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{652EF0E882778307}" {
+     AttachmentSlot InventoryStorageSlot "{652EF0E889FFB231}" {
+     }
+    }
+    MuzzleComponent "{50F64C4591CD7AA6}" {
+     components {
+      AttachmentSlotComponent "{5B28E1674ABA35A7}" {
+       AttachmentSlot InventoryStorageSlot Stock {
+        PivotID "slot_barrel_muzzle"
+        Offset 0 0 -0.0145
+        Prefab "{DF58424A3589DAF1}Prefabs/Weapons/Attachments/Muzzle/Suppressor_GemtechOne/Suppressor_GemtechOne.et"
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ coords 93.015 1.427 100.767
+}

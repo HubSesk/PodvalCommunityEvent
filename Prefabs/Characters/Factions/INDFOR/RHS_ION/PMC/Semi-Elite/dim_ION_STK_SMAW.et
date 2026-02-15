@@ -1,0 +1,37 @@
+SCR_ChimeraCharacter : "{6A8AAB9EF4CA4EAE}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Elite_ION/dim_ION_Elite_SMAW.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{5ADA03D06ADB2ABE}Prefabs/Characters/HeadGear/Helmet_Exfil/Exfil_ION_2.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{129D93F9A97CDBEB}Prefabs/Characters/Uniforms/ACU_t-shirt/ACU_t-shirt_grey.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{537FD11C135757AC}Prefabs/Characters/Uniforms/Pants_Trousers_01/Pants_Trousers_01_DarkGrey_Dirty.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{689B2D43EA87EF4F}" {
+     TargetStorage "Pants/Pants_Trousers_01_DarkGrey_Dirty.et"
+    }
+    ItemsInitConfigurationItem "{689B2D43EAE0FA83}" {
+     TargetStorage "Pants/Pants_Trousers_01_DarkGrey_Dirty.et"
+    }
+    ItemsInitConfigurationItem "{689B2D43EAF841F3}" {
+     TargetStorage "Jacket/ACU_t-shirt_grey.et"
+    }
+    ItemsInitConfigurationItem "{689E6D827A21D340}" {
+     PrefabsToSpawn + {
+      "{C581ED926D3CD9CE}Prefabs/Items/GasMask/Avon_GasMask.et"
+     }
+    }
+   }
+  }
+ }
+ coords 109.955 1 163.22
+}

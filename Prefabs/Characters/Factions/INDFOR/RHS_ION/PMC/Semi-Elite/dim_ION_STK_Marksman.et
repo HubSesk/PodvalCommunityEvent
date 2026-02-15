@@ -1,0 +1,32 @@
+SCR_ChimeraCharacter : "{B73805E442B03186}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Elite_ION/dim_ION_Elite_Marksman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{BF464F29663EBDD5}Prefabs/Characters/HeadGear/Helmet_Exfil/Exfil_ION_3.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{228DBC831D3EDD65}Prefabs/Characters/Uniforms/Shirt_flannel/flannel_shirt_blue_1.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{91D84F0E37E17441}Prefabs/Characters/Uniforms/Pants_Trousers_01/GD_Pants_Trousers_01_Black_Dirty.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{689B2D43EA87EF4F}" {
+     TargetStorage "Pants/GD_Pants_Trousers_01_Black_Dirty.et"
+    }
+    ItemsInitConfigurationItem "{689B2D43EAE0FA83}" {
+     TargetStorage "Pants/GD_Pants_Trousers_01_Black_Dirty.et"
+    }
+    ItemsInitConfigurationItem "{689B2D43EAF841F3}" {
+     TargetStorage "Jacket/flannel_shirt_blue_1.et"
+    }
+   }
+  }
+ }
+ coords 122.755 1 168.825
+}
