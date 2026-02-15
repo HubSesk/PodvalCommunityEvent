@@ -1,0 +1,62 @@
+$grp ParticleEffectEntity {
+ {
+  coords 6101.148 56.8 5303.195
+  EffectPath "{D336417BDD3DFD46}Particles/Weapon/Smoke_grenade_M18_Green_Repeating.ptc"
+ }
+ {
+  coords 6121.312 56.805 5310.004
+  EffectPath "{D336417BDD3DFD46}Particles/Weapon/Smoke_grenade_M18_Green_Repeating.ptc"
+ }
+ {
+  coords 6099.659 56.8 5288.12
+  EffectPath "{D336417BDD3DFD46}Particles/Weapon/Smoke_grenade_M18_Green_Repeating.ptc"
+ }
+ {
+  coords 6114.997 58.179 5292.961
+  EffectPath "{D336417BDD3DFD46}Particles/Weapon/Smoke_grenade_M18_Green_Repeating.ptc"
+ }
+}
+GenericEntity : "{AE528A0B674FA712}Prefabs/Systems/DamageAreas/DamageArea_base.et" {
+ components {
+  SCR_DamageAreaComponent "{6646D2612811A3C6}" {
+   DamageAreas {
+    SCR_DotDamageArea "{689EB51AA2069686}" {
+     "Area shape" SCR_ConvexPolygonDamageAreaShape "{689EB51AAC4766AE}" {
+      m_aBounds {
+       SCR_BoundsPosition "{689EB51AFF9E39DB}" {
+        Offset 11.845 0 -29.641
+       }
+       SCR_BoundsPosition "{689EB51AFBC84E8C}" {
+        Offset 27.043 0 -17.312
+       }
+       SCR_BoundsPosition "{689EB51B059BFA17}" {
+        Offset 39.444 0 2.799
+       }
+       SCR_BoundsPosition "{689EB51B0A38DC9D}" {
+        Offset -17.219 0 37.735
+       }
+       SCR_BoundsPosition "{689EB51B238A63E5}" {
+        Offset -52.58 0 -19.359
+       }
+       SCR_BoundsPosition "{689EB51B28A6B473}" {
+        Offset -12.459 0 -44.187
+       }
+       SCR_BoundsPosition "{689EB51B37FAE332}" {
+        Offset 0.854 0 -22.693
+       }
+      }
+      m_fHeight 11
+     }
+     m_fDamageValue 1
+     m_DamageEffect SCR_PoisonDamageEffectWithProtection "{689EB51AA86A1766}" {
+     }
+     m_CustomHitZoneSelector SCR_CharacterHitZoneSelector "{689EB51AB52835E1}" {
+     }
+     m_fDotDamage 4
+     m_fEffectDuration 5
+    }
+   }
+  }
+ }
+ coords 6103.254 56.422 5310.85
+}
