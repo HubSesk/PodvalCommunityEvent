@@ -1,0 +1,40 @@
+$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ MainDescription {
+  coords 15.504 74.659 8178.709
+  m_sTitle "Описание миссии"
+  m_sTextData "ВС США проводят операцию по захвату АЭС, охраняемой миротворческими силами РФ."
+  m_aVisibleForFactions {
+   ""
+   "RHS_AFRF"
+   "RHS_USAF"
+  }
+  m_bEmptyFactionVisibility 1
+ }
+ MainRules {
+  coords 16.647 74.598 8177.056
+  m_sTitle "Общие правила"
+  m_sTextData "ВСЕМ ЗАПРЕЩЕНО:"\
+  "— надевать форму и снаряжение противника (рюкзаки можно);"\
+  ""\
+  "ВС РФ ЗАПРЕЩЕНО:"\
+  "— пересекать красную линию."\
+  ""\
+  "СПОСОБЫ ПОБЕДЫ ЗА ВС РФ:"\
+  "— не дать поменять флаг."\
+  ""\
+  "СПОСОБЫ ПОБЕДЫ ЗА ВС США:"\
+  "— поменять флаг (через взаимодействие)."\
+  ""\
+  "ФЛАГ НАХОДИТСЯ БОЛЬШОМ КВАДРАТНОМ ЗДАНИИ С ПЛОСКОЙ КРЫШЕЙ И ТОРЧАЩЕЙ ПИПКОЙ. ВНУТРИ НА ВТОРОМ ЭТАЖЕ В ЦЕНТРЕ ЗДАНИЯ."\
+  ""\
+  "ВНИМАНИЕ:"\
+  "флаги не перезахватываемы."
+  m_aVisibleForFactions {
+   ""
+   "RHS_USAF"
+   "RHS_AFRF"
+  }
+  m_bEmptyFactionVisibility 1
+  m_bShowForAnyFaction 1
+ }
+}

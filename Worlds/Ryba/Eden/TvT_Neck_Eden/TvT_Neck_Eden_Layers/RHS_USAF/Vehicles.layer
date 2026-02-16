@@ -1,0 +1,85 @@
+Vehicle M1151_armed_M2HB6 : "{03708F7E58BB7A53}Prefabs/Vehicles/Wheeled/M998/M1151_armed_M2HB.et" {
+ coords 4852.935 41.625 9000.04
+ angles 3.219 -143.016 0.185
+ m_sAttachmentGroupName "BIBI2"
+}
+Vehicle LAV25_RHS1 : "{3312ADBF53A16DD8}Prefabs/Vehicles/Wheeled/LAV25/LAV25_RHS.et" {
+ coords 4890.843 40.979 9013.055
+ angles -2 -61.325 -0.074
+ m_sAttachmentGroupName "BIBI1"
+ {
+  GameEnvironmentProbeEntity {
+   ID "654E62C205528ACB"
+   coords -0.106 -0.535 -0.655
+  }
+ }
+}
+Vehicle M1025_armed_M2HB_PAS13G_USAF1 : "{ABAB219273966558}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_PAS13G_USAF.et" {
+ coords 4842.574 43.218 8975.213
+ angles 2.039 -150.116 2.259
+ m_sAttachmentGroupName "BIBI"
+}
+Vehicle UH1H_armed_gunship_HEDP1 : "{CB4D4CF7E887B2D0}Prefabs/Vehicles/Helicopters/UH1H/UH1H_armed_gunship_HEDP.et" {
+ coords 4895.076 28.594 11870.089
+ angles 0 178.055 0
+ m_sAttachmentGroupName "Air"
+}
+$grp Vehicle : "{CC55611936C21F25}Prefabs/Vehicles/Wheeled/M998/M1025_USAF.et" {
+ M1025_USAF1 {
+  coords 4873.07 40.15 9020.149
+  angles 0 -142.352 0
+  m_sAttachmentGroupName "BIBI3"
+ }
+ M1025_USAF2 {
+  coords 4887.296 38.976 9039.651
+  angles 0 -142.352 0
+  m_sAttachmentGroupName "BIBI4"
+ }
+ M1025_USAF3 {
+  coords 4901.969 37.853 9057.749
+  angles 0 -142.352 0
+  m_sAttachmentGroupName "BIBI5"
+ }
+ M1025_USAF4 {
+  coords 4914.217 37.066 9072.665
+  angles 0 -142.352 0
+  m_sAttachmentGroupName "BIBI6"
+ }
+ M1025_USAF5 {
+  coords 4925.379 36.336 9086.879
+  angles 0 -142.352 0
+  m_sAttachmentGroupName "BIBI7"
+ }
+ M1025_USAF6 {
+  coords 4860.815 41.109 9005.125
+  angles 0 -142.352 0
+  m_sAttachmentGroupName "BIBI2"
+ }
+}
+$grp Vehicle : "{D574C943C9F8C9DF}Prefabs/Vehicles/Wheeled/M998/M1151_armed_M2HB_AP.et" {
+ M1151_armed_M2HB_AP1 {
+  coords 4917.832 36.644 9083.482
+  angles 2.516 -141.242 -0.275
+  m_sAttachmentGroupName "BIBI7"
+ }
+ M1151_armed_M2HB_AP2 {
+  coords 4907.017 37.357 9069.565
+  angles 2.518 -140.688 -0.251
+  m_sAttachmentGroupName "BIBI6"
+ }
+ M1151_armed_M2HB_AP3 {
+  coords 4892.841 38.309 9052.829
+  angles 3.2 -139.193 0.399
+  m_sAttachmentGroupName "BIBI5"
+ }
+ M1151_armed_M2HB_AP4 {
+  coords 4878.674 39.423 9034.761
+  angles 2.527 -137.829 -0.125
+  m_sAttachmentGroupName "BIBI4"
+ }
+ M1151_armed_M2HB_AP5 {
+  coords 4865.306 40.488 9017.373
+  angles 3.189 -137.765 0.479
+  m_sAttachmentGroupName "BIBI3"
+ }
+}
