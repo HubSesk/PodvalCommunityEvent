@@ -1,0 +1,46 @@
+$grp GenericEntity : "{F9EBA10CC445ED63}PrefabsEditable/Auto/Structures/Military/Flags/FlagPole_02_V1_CDF_Editable.et" {
+ {
+  components {
+   SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+    m_sDefaultMaterial "{2F0DFB5EFAA6D614}Assets/Props/Fabric/Flags/Data/Flag_2_3_USA.emat"
+    m_aObjectiveNames {
+     "RF_Construct"
+     "US_Construct"
+    }
+    m_aFlagData {
+     PS_FlagData "{68A2886E4E369934}" {
+      m_sFactionKey "RHS_USAF"
+     }
+     PS_FlagData "{68A2886E51205670}" {
+      m_sFactionKey "RHS_AFRF"
+      m_iCaptureCounter 1
+     }
+    }
+    m_sFactionKey "RHS_USAF"
+   }
+  }
+  coords 3763.23 27.061 4347.561
+ }
+ {
+  components {
+   SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+    m_sDefaultMaterial "{15AB376863D1724E}Assets/Props/Fabric/Flags/Data/Flag_1_2_Russia.emat"
+    m_aObjectiveNames {
+     "RF_HQ"
+     "US_HQ"
+    }
+    m_aFlagData {
+     PS_FlagData "{68A2886E228796D7}" {
+      m_sFactionKey "RHS_AFRF"
+     }
+     PS_FlagData "{68A2886E2220881C}" {
+      m_sFactionKey "RHS_USAF"
+      m_iCaptureCounter 1
+     }
+    }
+    m_sFactionKey "RHS_AFRF"
+   }
+  }
+  coords 4241.126 18.444 4159.204
+ }
+}
