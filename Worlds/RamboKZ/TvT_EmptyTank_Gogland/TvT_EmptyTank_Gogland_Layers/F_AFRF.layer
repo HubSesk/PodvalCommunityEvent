@@ -156,7 +156,7 @@ SCR_AIGroup AFRF_000 : "{52DBD8AD794AA412}Prefabs/Groups/OPFOR/drg_AFRF_CompanyH
  coords 7183.376 6.654 5089.671
  angles 0 -34.779 0
  m_aUnitPrefabSlots +{
-  "{33FA1C11138E145A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_GL.et"
+  "{2EBF7FD7B32EE3FA}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_SR.et"
   "{7EFDB71E380C262A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_SeniorMedic.et"
  }
 }
@@ -199,6 +199,23 @@ $grp Vehicle : "{6F4D5B56F4905A62}Prefabs/Vehicles/Wheeled/TIGR/Unarmed/GAZ_TIGR
   m_sAttachmentGroupName "AFRF_012"
  }
 }
+$grp Vehicle : "{7A16FB788DAD3992}Prefabs/Vehicles/Wheeled/TIGR/KORD/GAZ_TIGR_v2_KORD_Green.et" {
+ AFRF_101_TIGR_KORD {
+  coords 7229.746 4.619 5181.228
+  angles -4.81 -158.459 0.022
+  m_sAttachmentGroupName "AFRF_101"
+ }
+ AFRF_000_TIGR_KORD {
+  coords 7182.142 6.599 5093.538
+  angles 0 -127.998 0
+  m_sAttachmentGroupName "AFRF_000"
+ }
+ AFRF_012_TIGR_KORD {
+  coords 7217.227 5.047 5142.854
+  angles 1.977 -162.394 -0.312
+  m_sAttachmentGroupName "AFRF_012"
+ }
+}
 SCR_AIGroup AFRF_200 : "{9C4C758203A42706}Prefabs/Groups/OPFOR/drg_AFRF_GRU.et" {
  coords 7383.071 4.277 1081.198
  angles -0.364 -28.308 1.212
@@ -216,23 +233,6 @@ Vehicle AFRF_100_TYPHON : "{AB5DE68E3E654FCA}Prefabs/Vehicles/Wheeled/K4386/K438
  coords 7223.578 4.157 5165.832
  angles 0 -162.237 0
  m_sAttachmentGroupName "AFRF_100"
-}
-$grp Vehicle : "{D020BC575A623CE7}Prefabs/Vehicles/Wheeled/TIGR/AGS/GAZ_TIGR_v2_AGS17_Green.et" {
- AFRF_012_TIGR_AGS {
-  coords 7217.227 5.047 5142.854
-  angles 1.977 -162.394 -0.312
-  m_sAttachmentGroupName "AFRF_012"
- }
- AFRF_101_TIGR_AGS {
-  coords 7229.746 4.619 5181.228
-  angles -4.81 -158.459 0.022
-  m_sAttachmentGroupName "AFRF_101"
- }
-}
-Vehicle AFRF_000_TIGR_ARBALET : "{D21F4B92BB8228FC}Prefabs/Vehicles/Wheeled/TIGR/ArbaletDM/GAZ_TIGR_v2_Arbalet_PKM_Green.et" {
- coords 7182.142 6.599 5093.538
- angles 0 -127.998 0
- m_sAttachmentGroupName "AFRF_000"
 }
 SCR_AIGroup AFRF_300 : "{F06FB64E53D6E4AE}Prefabs/Groups/OPFOR/drg_RHS_Recon_Squad.et" {
  components {

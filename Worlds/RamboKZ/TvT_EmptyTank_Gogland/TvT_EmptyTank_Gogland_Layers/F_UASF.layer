@@ -73,8 +73,8 @@ SCR_AIGroup USAF_300 : "{48D92BDCD96CA374}Prefabs/Groups/BLUFOR/drg_USMC_SMAW_Te
    m_iCompanyCallsign 3
   }
  }
- coords 6812.716 131.671 2403.989
- angles 0 -145.816 0
+ coords 6728.008 121.877 2474.132
+ angles 0 -113.814 0
  m_aUnitPrefabSlots {
   "{604FADEAA6112C7A}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_SMAW_Gunner.et"
   "{69A9873AE3BF8B1D}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_SMAW_AmmoBearer.et"
@@ -107,8 +107,8 @@ $grp SCR_AIGroup : "{CB79DA5FE5AC31AB}Prefabs/Groups/BLUFOR/drg_USAF_RifleSquad.
 }
 $grp Vehicle : "{CC55611936C21F25}Prefabs/Vehicles/Wheeled/M998/M1025_USAF.et" {
  USAF_201_V {
-  coords 6733.782 122.64 2453.596
-  angles 2 153.128 -0.103
+  coords 6733.905 122.634 2453.77
+  angles 2.002 155.091 -0.034
   m_sAttachmentGroupName "USAF_201"
  }
  USAF_010_V2 {
@@ -120,6 +120,11 @@ $grp Vehicle : "{CC55611936C21F25}Prefabs/Vehicles/Wheeled/M998/M1025_USAF.et" {
   coords 6801.619 129.81 2394.421
   angles 7.23 109.276 6.26
   m_sAttachmentGroupName "USAF_011"
+ }
+ USAF_300_V {
+  coords 6724.855 121.897 2473.406
+  angles -3.589 152.69 0.846
+  m_sAttachmentGroupName "USAF_300"
  }
 }
 $grp Vehicle : "{D574C943C9F8C9DF}Prefabs/Vehicles/Wheeled/M998/M1151_armed_M2HB_AP.et" {
@@ -148,10 +153,10 @@ SCR_AIGroup USAF_000 : "{D9B32FE6DF696BE5}Prefabs/Groups/BLUFOR/drg_USAF_Platoon
  coords 6655.674 98.079 2072.028
  angles 0 51.169 0
  m_aUnitPrefabSlots {
-  "{F910309D8C211296}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_PL.et"
-  "{893533817C25A8B0}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_Medic.et"
+  "{9E8A45F22F94636C}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_CL.et"
+  "{67C97355F74099C5}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_TL.et"
   "{0D86781BA3428115}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_AR.et"
-  "{0053063A54F5E83F}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_GL.et"
+  "{893533817C25A8B0}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_Medic.et"
   "{26AD8B80E8C02793}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_Marksman.et"
  }
  m_sCustomNameSet "Командирский отряд"

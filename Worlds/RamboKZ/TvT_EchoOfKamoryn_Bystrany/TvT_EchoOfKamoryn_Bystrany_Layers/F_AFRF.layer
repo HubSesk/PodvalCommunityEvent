@@ -99,12 +99,11 @@ $grp SCR_AIGroup : "{3EDA372443FD105F}Prefabs/Groups/OPFOR/drg_AFRF_RifleSquad.e
     m_iCompanyCallsign 3
    }
   }
-  coords 6546.065 281.844 5812.088
+  coords 6546.008 281.844 5812.081
   angles 0 176.574 0
   m_aUnitPrefabSlots {
    "{AA940AC4424CAB87}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_HeliPilot.et"
    "{11B63393B80FDA1E}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_HeliCoPilot.et"
-   "{C9B4F42D5A98C7A7}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_HeliCrew.et"
   }
   m_sCustomNameSet "Экипаж вертолёта"
  }
@@ -191,6 +190,9 @@ $grp Vehicle : "{447CFE8D73F95C3E}Prefabs/Vehicles/Wheeled/BTR70/BTR70_AFRF.et" 
 SCR_AIGroup AFRF_000 : "{52DBD8AD794AA412}Prefabs/Groups/OPFOR/drg_AFRF_CompanyHQ.et" {
  coords 5954.456 256.5 5862.77
  angles 0 -170.069 0
+ m_aUnitPrefabSlots +{
+  "{D9234F6644B47143}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_Medic.et"
+ }
 }
 $grp Vehicle : "{7BC76F92B882889D}Prefabs/Vehicles/Wheeled/TIGR/PKP/GAZ_TIGR_v2_PKM.et" {
  AFRF_010_TIGR_PKM {
