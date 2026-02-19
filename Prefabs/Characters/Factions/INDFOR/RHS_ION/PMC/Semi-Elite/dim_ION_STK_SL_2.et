@@ -1,0 +1,31 @@
+SCR_ChimeraCharacter : "{AFEF77366AAD3A70}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Semi-Elite/dim_ION_STK_SL.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Pants {
+     Prefab "{8798949C614C95A5}Prefabs/Characters/Uniforms/Pants_Jeans/GD_Jeans_Navy.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{AB116B8D9F8E374F}Prefabs/Characters/Footwear/Solomon_midtops.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{689B2D43EA87EF4F}" {
+     TargetStorage "Pants/GD_Jeans_Navy.et"
+    }
+    ItemsInitConfigurationItem "{689B2D43EAE0FA83}" {
+     TargetStorage "Pants/GD_Jeans_Navy.et"
+     PrefabsToSpawn +{
+     }
+    }
+    ItemsInitConfigurationItem "{689B2D43EAF841F3}" {
+     TargetStorage "Pants/GD_Jeans_Navy.et"
+    }
+   }
+  }
+ }
+ coords 5312.732 250.531 3363.426
+}

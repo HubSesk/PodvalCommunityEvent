@@ -1,0 +1,31 @@
+GenericEntity : "{55EA85AD2C463025}Prefabs/Weapons/SVD/dim_SVDM.et" {
+ ID "5260C45AAAA407F4"
+ components {
+  WeaponSoundComponent "{5A8685198A9AEEDD}" {
+   Filenames + {
+    "{D335D51093EA8456}Sounds/Weapons/Rifles/AK74M/Suppressed/RHS_Weapons_Rifles_AK74M_Suppressed.acp"
+   }
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     components {
+      AttachmentSlotComponent "{68A703BCD984F954}" {
+       AttachmentSlot InventoryStorageSlot Suppressor {
+        PivotID "slot_barrel_muzzle"
+        ChildPivotID "snap_weapon"
+        Prefab "{18B5482585A88240}Prefabs/Weapons/Attachments/Muzzle/Supressor_TGPV/Supressor_TGPV2.et"
+        InspectionWidgetOffset 0 0.074 0.8423
+       }
+       AttachmentType AttachmentSuppressorTGPV "{68A703BCEAC4DE01}" {
+       }
+      }
+     }
+    }
+   }
+  }
+  SCR_WeaponStatsManagerComponent "{68A703BBC08CD33A}" {
+  }
+ }
+ coords 4156.133 54.073 4466.682
+}

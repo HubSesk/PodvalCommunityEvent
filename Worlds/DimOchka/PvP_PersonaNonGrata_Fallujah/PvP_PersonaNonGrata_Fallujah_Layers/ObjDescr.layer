@@ -1,0 +1,129 @@
+$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ {
+  coords 5160.641 0 751.869
+  m_sTitle "Правила и задачи"
+  m_sDescriptionLayout "{B6DE04F7CF7A95DA}UI/MissionDescription/DescriptionEditableScrollable.layout"
+  m_sTextData "ПРАВИЛА:"\
+  "1. ВИПам запрещено подбирать оружие;"\
+  "2. ВИПы на старте должны подобрать разведданные. У каждого ВИПа должны быть документы. Передавать их запрещено;"\
+  "3. ВС США запрещено оставлять без охраны ВИПов;"\
+  "4. Такистанской армии запрещено заходить в синий триггер;"\
+  "5. ВС США запрещено заходить в зеленый триггер;"\
+  "6. Всем запрещено заходить в черный триггер."\
+  ""\
+  "ЗАДАЧИ:"\
+  "• США: "\
+  " 1. Вывезти ВИПов в безопасную зону (синий триггер)."\
+  ""\
+  "• ТКА:"\
+  " 1. Ликвидировать ВИПов."\
+  ""\
+  "ДОПОЛНИТЕЛЬНО:"\
+  " 1. Всего 3 папки с разведдаными."
+  m_aVisibleForFactions {
+   "RHS_USAF"
+   "Ses_TKA"
+   "CIV"
+   ""
+  }
+  m_bEmptyFactionVisibility 1
+ }
+ {
+  coords 5160.641 0 751.869
+  m_sTitle "Обстановка"
+  m_sDescriptionLayout "{B6DE04F7CF7A95DA}UI/MissionDescription/DescriptionEditableScrollable.layout"
+  m_sTextData "Март 2020 г."\
+  "В Ираке проходят очередные выборы. Основными соперниками в гонке за власть являются партия \"Союз Вогами\" во главе с Ибрагимом Вогамом и Демократическая партия \"Подвали\" с их лидером Гостовичем Аль Подвали. "\
+  "Апрель 2020 г."\
+  "Использовав связи, подкуп и другие \"грязные\" методы, президентом Ирака становится Ибрагим Вогам. Понимая, что Аль Подвали имеет большой авторитет и поддержку населения, а также некий \"компромат\" на нынешнего главу государства, Вогами объявляет Аль Подвали врагом государства, ибо по словам прездиента: \"Он хочет устроить новую революцию...\". Аль Подвали обращается к США с просьбой предоставить ему политической убежище с условием передачи властям США компромат на Вогама. США соглашаются. Боясь, что Аль Подвали скоро покинет страну, Ибрагим просит Такистан предоставить свои войска для подавления восстаний, которые уже стали возникать по всей стране."\
+  "Май 2020 г."\
+  "Аль Подвали укрылся в одном из убежищ США, пришедшая группа эвакуации оказалась в эпицентре боестолкновений. Попытка вывезти цель посредством вертолетов оказалась неудачна по причине наличия у армии Такистана множества средств ПЗРК. США предпринимают попытку вывезти из города цель и двух дипломатов наземным путем..."
+  m_aVisibleForFactions {
+   "RHS_USAF"
+   "Ses_TKA"
+   "CIV"
+   ""
+  }
+  m_bEmptyFactionVisibility 1
+ }
+}
+$grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
+ {
+  coords 4100.501 1.999 7625.144
+  m_sTitle "Аль Подвали эвакуирован"
+  m_iScore 50
+  m_sFactionKey "RHS_USAF"
+ }
+ {
+  coords 4100.501 1.999 7625.144
+  m_sTitle "Дипломат №1 Эвакуирован"
+  m_iScore 25
+  m_sFactionKey "RHS_USAF"
+ }
+ {
+  coords 4100.501 1.999 7625.144
+  m_sTitle "Дипломат №2 Эвакуирован"
+  m_iScore 25
+  m_sFactionKey "RHS_USAF"
+ }
+ {
+  coords 4100.501 1.999 7625.144
+  m_sTitle "Аль Подвали ликвидирован"
+  m_iScore 50
+  m_sFactionKey "Ses_TKA"
+ }
+ {
+  coords 4100.501 1.999 7625.144
+  m_sTitle "Дипломат №1 ликвидирован"
+  m_iScore 25
+  m_sFactionKey "Ses_TKA"
+ }
+ {
+  coords 4100.501 1.999 7625.144
+  m_sTitle "Дипломат №2 ликвидирован"
+  m_iScore 25
+  m_sFactionKey "Ses_TKA"
+ }
+}
+$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ {
+  coords 1218.021 83.91 5425.095
+  angles 0 90 0
+  m_sImageSet "{8256623A75EF4D54}Assets/Icons/TKA800x400.edds"
+  m_sImageSetGlow "{8256623A75EF4D54}Assets/Icons/TKA800x400.edds"
+  m_sQuadName ""
+  m_fWorldSize 1200
+  m_sDescription "Такистанская армия"
+  m_aVisibleForFactions {
+   "RHS_USAF"
+   "Ses_TKA"
+   "CIV"
+   ""
+  }
+  m_bVisibleForEmptyFaction 1
+ }
+ {
+  coords 7315.29 0 5268.837
+  angles 0 90 0
+  m_sImageSet "{46FB2FB2C2125A3C}UI/Textures/Flags/US-flag-base-3it.edds"
+  m_sImageSetGlow "{46FB2FB2C2125A3C}UI/Textures/Flags/US-flag-base-3it.edds"
+  m_sQuadName ""
+  m_fWorldSize 1400
+  m_sDescription "Армия США"
+  m_aVisibleForFactions {
+   "RHS_USAF"
+   "Ses_TKA"
+   "CIV"
+   ""
+  }
+  m_bVisibleForEmptyFaction 1
+ }
+}
+GenericEntity : "{E6FC6DD69FA3479F}Prefabs/System/DRG_MissionEndTimerPrefab.et" {
+ components {
+  DRG_MissionEndTimerComponent "{651B0839B21B3BBF}" {
+   m_iMissionTime 2700
+  }
+ }
+ coords 7227.334 -0.001 1208.431
+}

@@ -1,0 +1,37 @@
+SCR_ChimeraCharacter : "{D97F30826A9347B8}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/dim_VDV_SR.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#DRG_Role-Saboteur"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{0B01C4D8C905BA4E}Prefabs/Weapons/A545/dim_A545_GP.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{981421FB8D641F1D}Prefabs/Characters/HeadGear/RUS_6b47/Prefabs/NoMC/GD_6B47_MaskGoggleON_NoMC.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{E05D8C4D2B36C8F3}Prefabs/Characters/Uniforms/Jacket_6b51_VKPO.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{E9BD1B8888B6F37D}Prefabs/Characters/Handwear/Ratnik_gloves/Ratnik_gloves.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68A2CC320ED36F78}" {
+     TargetStorage "Jacket/Jacket_6b51_VKPO.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC3209B3FFBE}" {
+     TargetStorage "Jacket/Jacket_6b51_VKPO.et"
+    }
+   }
+  }
+ }
+ coords 7140.037 115.781 8345.521
+}

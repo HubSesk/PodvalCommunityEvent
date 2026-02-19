@@ -1,0 +1,35 @@
+SCR_ChimeraCharacter : "{1958A4565702D3D0}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Semi-Elite/dim_ION_STK_Marksman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{0BBA1208A3732CA7}Prefabs/Characters/HeadGear/Helmet_Exfil/Exfil_ION_6.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{FBB2874C06FA247F}Prefabs/Characters/Uniforms/T_Shirts/ION_Shirt/ION_Casual_Shirt_Tan.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{3D107B3C7F8107D1}Prefabs/Characters/Uniforms/Pants_Jeans/GD_Jeans.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{660952F979E8EBF2}Prefabs/Characters/Footwear/Boots_solomon_ultra_x/Footwear_Altama_Boots.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{689B2D43EA87EF4F}" {
+     TargetStorage "Pants/GD_Jeans.et"
+    }
+    ItemsInitConfigurationItem "{689B2D43EAE0FA83}" {
+     TargetStorage "Pants/GD_Jeans.et"
+    }
+    ItemsInitConfigurationItem "{689B2D43EAF841F3}" {
+     TargetStorage "Pants/GD_Jeans.et"
+    }
+   }
+  }
+ }
+ coords 5321.512 250.531 3373.212
+}

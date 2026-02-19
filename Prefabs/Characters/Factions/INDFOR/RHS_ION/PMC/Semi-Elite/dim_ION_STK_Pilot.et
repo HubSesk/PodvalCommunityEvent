@@ -1,0 +1,105 @@
+SCR_ChimeraCharacter : "{07C9CD08A7D257B8}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Semi-Elite/dim_ION_STK_Rifleman_3.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Пилот ION"
+    Icon "{AF39CE6938074CF8}UI/Icons/pilot.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{DD58883463C7105C}Prefabs/Weapons/SubMachineGuns/p90/P90_base.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
+   WeaponTemplate "{9C325E41A6DF40E1}Prefabs/Weapons/Handguns/Glock/Handgun_Glock45_tan.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{483A80042765275F}Prefabs/Characters/HeadGear/Helmet_SPH4_01/Helmet_SPH4_01.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{6B7F32F1F8A191B0}Prefabs/Characters/Uniforms/Pants_Pilot_USSR_01/Pants_Pilot_USSR_01_tucked.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{C7923961D7235D70}Prefabs/Characters/Footwear/CombatBoots_Soviet_01.et"
+    }
+    LoadoutSlotInfo Back {
+     Enabled 0
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{D19C474FA0F42CC4}Prefabs/Characters/Handwear/Gloves_Pilot_US_01/Gloves_Pilot_US_01.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{689B2D43EA87EF4F}" {
+     TargetStorage "Vest/GD_ION_JPC_V2.et/Med/Pouch_Taktika_medpouch_BLK.et"
+     PrefabsToSpawn {
+      "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
+     }
+    }
+    ItemsInitConfigurationItem "{689B2D43EAE0FA83}" {
+     TargetStorage "Pants/Pants_Pilot_USSR_01_tucked.et"
+     PrefabsToSpawn +{
+     }
+    }
+    ItemsInitConfigurationItem "{689B2D43EAF841F3}" {
+     TargetStorage "Pants/Pants_Pilot_USSR_01_tucked.et"
+     PrefabsToSpawn {
+      "{72722D5E8513FCB3}Prefabs/Items/Equipment/Radios/drg_Radio_ANPRC152A_OLD_SL_PMC.et"
+     }
+    }
+    ItemsInitConfigurationItem "{689E6D83F89602AF}" {
+     TargetStorage "Vest/GD_ION_JPC_V2.et/pistol/Pouch_Shaw_Raid_MCBlk.et"
+     PrefabsToSpawn {
+      "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et"
+     }
+    }
+    ItemsInitConfigurationItem "{689E6D8237974471}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{689E6D8233474F95}" {
+     Enabled 1
+     PrefabsToSpawn {
+      "{2C852C8C05FF603B}Prefabs/Weapons/Magazines/FN_P90/p90_mag.et" "{2C852C8C05FF603B}Prefabs/Weapons/Magazines/FN_P90/p90_mag.et"
+     }
+    }
+    ItemsInitConfigurationItem "{689E6D823E1CA47C}" {
+     Enabled 0
+     PrefabsToSpawn {
+      "{2C852C8C05FF603B}Prefabs/Weapons/Magazines/FN_P90/p90_mag.et" "{2C852C8C05FF603B}Prefabs/Weapons/Magazines/FN_P90/p90_mag.et"
+     }
+    }
+    ItemsInitConfigurationItem "{689E6D8241C8AB1F}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{689E6D8254999773}" {
+     Enabled 0
+     TargetStorage "Pants/Pants_Pilot_USSR_01_tucked.et"
+    }
+    ItemsInitConfigurationItem "{689E6D8266124935}" {
+     Enabled 0
+     TargetStorage "Jacket/ION_Shirt_Blue.et"
+    }
+    ItemsInitConfigurationItem "{689E6D827A21D340}" {
+     TargetStorage "Pants/Pants_Pilot_USSR_01_tucked.et"
+    }
+    ItemsInitConfigurationItem "{689E8075453DC1B7}" {
+     TargetStorage "Jacket/ION_Shirt_Blue.et"
+     PrefabsToSpawn {
+      "{2C852C8C05FF603B}Prefabs/Weapons/Magazines/FN_P90/p90_mag.et"
+     }
+    }
+    ItemsInitConfigurationItem "{689E807542DED578}" {
+     TargetStorage "Pants/Pants_Pilot_USSR_01_tucked.et"
+     PrefabsToSpawn {
+      "{3343A055A83CB30D}Prefabs/Weapons/Grenades/M18/Smoke_M18_Red.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et"
+     }
+    }
+   }
+  }
+ }
+ coords 5313.124 250.531 3363.569
+}

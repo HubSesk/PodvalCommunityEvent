@@ -1,0 +1,48 @@
+GenericEntity : "{511D3938B0DC97F9}Prefabs/Weapons/Rifles/A545/drg_A545_GP25.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponSoundComponent "{5A8685198A9AEEDD}" {
+   Filenames {
+    "{8C9F789F9FBCDB6E}Sounds/Weapons/Rifles/A545/Weapons_Rifles_A545_Shot.acp" "{1A15B9A1B0C17E1B}Sounds/Weapons/Rifles/AK-74/Weapons_Rifles_AK-74_Handling.acp" "{68E023371FDD3B12}Sounds/Weapons/_SharedData/Drop/Weapons_Drop_Rifle_WoodMetal.acp" "{A84D9F22F2C0D9CE}Sounds/Weapons/_SharedData/PickUp/Weapons_PickUp_Rifle_WoodMetal.acp" "{332983CC95EE1E1E}Sounds/Weapons/_SharedData/Melee/Weapons_Melee_Rifle.acp" "{D8F675F3468362E2}Sounds/Weapons/_SharedData/Weapons_Sights_Actions.acp" "{10C1421961C34D26}Sounds/Weapons/_SharedData/Weapons_Deployment.acp" "{E419B2CF55F4A389}Sounds/Weapons/_SharedData/Melee/Weapons_Melee_Bayonett.acp" "{D335D51093EA8456}Sounds/Weapons/Rifles/AK74M/Suppressed/RHS_Weapons_Rifles_AK74M_Suppressed.acp"
+   }
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{65C2B150489905AC}" {
+     AttachmentSlot InventoryStorageSlot "{657B1840737E49E0}" {
+     }
+    }
+    AttachmentSlotComponent "{65C2B15048990763}" {
+     AttachmentSlot InventoryStorageSlot RIS2 {
+      Angles 0 0 87.7584
+      Prefab "{C32EC74B4B0C8CA1}Prefabs/Weapons/Attachments/Lights/Light_m300c_blk.et"
+     }
+    }
+    AttachmentSlotComponent "{65C2B15048990765}" {
+     AttachmentSlot InventoryStorageSlot UpperRIS {
+      Prefab "{F016B4DEF5F4DD5D}Prefabs/Weapons/Attachments/Optics/exps/Optic_EXPS3-2.et"
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     components {
+      AttachmentSlotComponent "{68A323625E3AA297}" {
+       AttachmentSlot InventoryStorageSlot Suppresor {
+        PivotID "slot_barrel_muzzle"
+        Offset 0 0 0
+        MergePhysics 1
+        ChildPivotID "snap_weapon"
+        Prefab "{154580AD8B72A71A}Prefabs/Weapons/Attachments/Muzzle/Suppressor_A545_A762/Suppressor_A545.et"
+        InspectionWidgetOffset 0 0.0695 0.5557
+       }
+       AttachmentType Attachment545x39Muzzle "{68A323626C3D9EF9}" {
+       }
+       ShowInInspection 1
+      }
+     }
+    }
+   }
+  }
+ }
+ coords 5078.121 55.133 5118.835
+ angles 0 0 0
+}

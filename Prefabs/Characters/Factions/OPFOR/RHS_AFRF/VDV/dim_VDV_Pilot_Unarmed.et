@@ -1,0 +1,83 @@
+SCR_ChimeraCharacter : "{DFA2A3CA1EA36572}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/dim_VDV_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_HelicopterPilot"
+    Icon "{AF39CE6938074CF8}UI/Icons/pilot.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate ""
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{BFE3D93AA5B13A89}Prefabs/Characters/HeadGear/Helmet_ZSh7/Helmet_ZSh7V.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{21495551C443655A}Assets/Characters/Uniforms/Suit_Pilot_US_01/Data/Suit_PILOT_RUS_Blue.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{506EF3B2F0A69D34}Prefabs/Characters/Vests/Vest_NAZ/Vest_NAZ.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab ""
+    }
+    LoadoutSlotInfo Back {
+     Prefab ""
+    }
+    LoadoutSlotInfo Vest {
+     Prefab ""
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68A2CC320EE0CC0E}" {
+     TargetStorage "Jacket/Suit_PILOT_RUS_Blue.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC320EF5FDA1}" {
+     TargetStorage "Jacket/Suit_PILOT_RUS_Blue.et"
+     PrefabsToSpawn {
+      "{F849217AB3BA88BE}Prefabs/Items/Equipment/Maps/Map_Paper_01/PaperMap_01_folded_USSR.et" "{7CEF68E2BC68CE71}Prefabs/Items/Equipment/Compass/Compass_Adrianov.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68A2CC320ED36F78}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{68A2CC3209B3FFBE}" {
+     TargetStorage "Jacket/Suit_PILOT_RUS_Blue.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC32C0493E3F}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{68A2CC32CCD2E5D3}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{68A2CC32CE7164D0}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{68A2CC32CAA891FB}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{68A2CC32D309BBFC}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{68A2CC32EE31C4E2}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{68A2CC32F45F0382}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{68A2CC32FB0D16CA}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{68A2CC33048A6D32}" {
+     Enabled 0
+    }
+   }
+  }
+ }
+ coords 5013.82 57.487 4925.601
+}

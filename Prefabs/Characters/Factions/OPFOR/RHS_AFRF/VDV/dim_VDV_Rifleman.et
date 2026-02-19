@@ -1,0 +1,116 @@
+SCR_ChimeraCharacter : "{3C9B391702B2240B}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/dim_VDV_Unarmed.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot WristwatchSlot {
+       Prefab "{6FD6C96121905202}Prefabs/Items/Equipment/Watches/Watch_Vostok.et"
+      }
+     }
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Icon "{141B98C585768CC4}UI/Icons/VDV.edds"
+   }
+  }
+  CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
+   WeaponTemplate "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+  }
+  CharacterGrenadeSlotComponent "{5A6CDA0CCF43068E}" {
+   WeaponTemplate "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{38628630235993BF}Prefabs/Weapons/Rifles/AK200/variants/Rifle_AK200_1p87.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{DD1AE486A0D01A52}Prefabs/Characters/HeadGear/Helmet_6B47/Helmet_6B47_Covered_Closed_EMR.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{7EEFC3B2DCEAFAF3}Prefabs/Characters/Vests/Vest_Ratnik_6B45/Vest_Ratnik_6B45_folded_neck.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{A6B9DDC35384FE80}Prefabs/Items/Equipment/Backpacks/Backpack_Suharka_type2.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{DFB26A87B59C93C5}Prefabs/Characters/Vests/6B45_Kits/GD_6B45_Rifleman.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68A2CC3209B3FFBE}" {
+     PrefabsToSpawn {
+      "{A2DD1D2EEB52BFC0}Prefabs/Items/Equipment/Radios/Radio_R187P1_OLD_prv.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68A2CC32C0493E3F}" {
+     TargetStorage "Vest/GD_6B45_Rifleman.et/Pouch1/Pouch_Ratnik_ak_1_pouch.et"
+     PrefabsToSpawn {
+      "{494F5D0145AB425A}Prefabs/Weapons/AK200/AK12_Mag/dim_AK12_Mag_7N10.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68A2CC32CCD2E5D3}" {
+     TargetStorage "Vest/GD_6B45_Rifleman.et/Pouch2/Pouch_Ratnik_ak_2_pouch.et"
+     PrefabsToSpawn {
+      "{494F5D0145AB425A}Prefabs/Weapons/AK200/AK12_Mag/dim_AK12_Mag_7N10.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68A2CC32CE7164D0}" {
+     TargetStorage "Vest/GD_6B45_Rifleman.et/Pouch3/Pouch_Ratnik_ak_3_pouch.et"
+     PrefabsToSpawn {
+      "{494F5D0145AB425A}Prefabs/Weapons/AK200/AK12_Mag/dim_AK12_Mag_7N10.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68A2CC32CAA891FB}" {
+     TargetStorage "Vest/GD_6B45_Rifleman.et/Mag1/Pouch_wartech_magpouch_mp105_EMR.et"
+     PrefabsToSpawn {
+      "{494F5D0145AB425A}Prefabs/Weapons/AK200/AK12_Mag/dim_AK12_Mag_7N10.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68A2CC32D309BBFC}" {
+     TargetStorage "Vest/GD_6B45_Rifleman.et/Mag3/Pouch_wartech_magpouch_mp105_EMR.et"
+     PrefabsToSpawn {
+      "{494F5D0145AB425A}Prefabs/Weapons/AK200/AK12_Mag/dim_AK12_Mag_7N10.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68A2CC32DC4D37DD}" {
+     TargetStorage "Vest/GD_6B45_Rifleman.et/Mag2/Pouch_wartech_magpouch_mp105_EMR.et"
+     PrefabsToSpawn {
+      "{494F5D0145AB425A}Prefabs/Weapons/AK200/AK12_Mag/dim_AK12_Mag_7N10.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68A2CC32EE31C4E2}" {
+     TargetStorage "Back/Backpack_Suharka_type2.et"
+     PrefabsToSpawn {
+      "{494F5D0145AB425A}Prefabs/Weapons/AK200/AK12_Mag/dim_AK12_Mag_7N10.et" "{494F5D0145AB425A}Prefabs/Weapons/AK200/AK12_Mag/dim_AK12_Mag_7N10.et" "{494F5D0145AB425A}Prefabs/Weapons/AK200/AK12_Mag/dim_AK12_Mag_7N10.et" "{494F5D0145AB425A}Prefabs/Weapons/AK200/AK12_Mag/dim_AK12_Mag_7N10.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68A2CC32F45F0382}" {
+     TargetStorage "Vest/GD_6B45_Rifleman.et/Gren2/Pouch_GP106_RGD_Pouch_EMR.et"
+     PrefabsToSpawn {
+      "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68A2CC32FB0D16CA}" {
+     TargetStorage "Vest/GD_6B45_Rifleman.et/Gren/Pouch_GP106_RGD_Pouch_2_EMR.et"
+     PrefabsToSpawn {
+      "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68A2CC33048A6D32}" {
+     TargetStorage "Back/Backpack_Suharka_type2.et"
+     PrefabsToSpawn {
+      "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+     }
+    }
+   }
+  }
+ }
+ coords 5819.967 256.441 5899.646
+}

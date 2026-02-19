@@ -1,0 +1,57 @@
+SCR_ChimeraCharacter : "{DFA2A3CA1EA36572}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/dim_VDV_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{EC7240BE0E46A89E}Prefabs/Weapons/AK200/AK200_VDV_2.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{F8A031ED0207DA15}Prefabs/Characters/HeadGear/Helmet_6B47/Helmet_6B47_Covered_Closed_6B50_Covered_EMR.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{41B0B846D69F90A0}Prefabs/Characters/Vests/6B45_Kits/GD_6B45_Rifleman_2.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68A2CC3209B3FFBE}" {
+     TargetStorage "Vest/GD_6B45_Rifleman_2.et/radio/Pouch_AVS_MBITR_Radio_EMR.et"
+     PrefabsToSpawn +{
+     }
+    }
+    ItemsInitConfigurationItem "{68A2CC32C0493E3F}" {
+     TargetStorage "Vest/GD_6B45_Rifleman_2.et/arsbelt/Pouch_wartech_magpouch_mp105_EMR.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC32CCD2E5D3}" {
+     TargetStorage "Vest/GD_6B45_Rifleman_2.et/arsbelt2/Pouch_wartech_magpouch_mp105_EMR.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC32CE7164D0}" {
+     TargetStorage "Vest/GD_6B45_Rifleman_2.et/placard/Pouch_wartech_magpouch_mp105_EMR.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC32CAA891FB}" {
+     TargetStorage "Vest/GD_6B45_Rifleman_2.et/arsbelt3/Pouch_wartech_magpouch_mp105_EMR.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC32D309BBFC}" {
+     TargetStorage "Vest/GD_6B45_Rifleman_2.et/placard2/Pouch_wartech_magpouch_mp105_3_EMR.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC32DC4D37DD}" {
+     TargetStorage "Vest/GD_6B45_Rifleman_2.et/placard3/Pouch_wartech_magpouch_mp105_3_EMR.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC32EE31C4E2}" {
+     PrefabsToSpawn + {
+      "{F5347DE84CA1E3EE}Prefabs/Characters/HeadGear/Hat_VDV_Beret/Hat_VDV_Beret.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68A2CC32F45F0382}" {
+     TargetStorage "Vest/GD_6B45_Rifleman_2.et/grenade/Pouch_GP106_RGD_Pouch_2_EMR.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC32FB0D16CA}" {
+     TargetStorage "Vest/GD_6B45_Rifleman_2.et/grenade2/Pouch_GP106_RGD_Pouch_EMR.et"
+    }
+   }
+  }
+ }
+ coords 3807.766 56.912 4218.126
+}

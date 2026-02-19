@@ -1,0 +1,1355 @@
+$grp Vehicle : "{6F963B40DE04868A}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Ses_TKA.et" {
+ BTR70_Ses_TKA1 {
+  coords 1219.816 0 7113.909
+  angles 0 -179.294 0
+  m_sAttachmentGroupName "SQ3"
+ }
+ BTR70_Ses_TKA2 {
+  coords 1219.918 0 7129.173
+  angles 0 -179.294 0
+  m_sAttachmentGroupName "SQ4"
+ }
+}
+SCR_AIGroup HQ : "{F21917B6C71E18E0}Prefabs/Groups/OPFOR/Ses_TKA/Group_Ses_TKA_PlatoonHQ.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "1"
+  }
+  PS_GroupCallsignAssigner "{68895D8838B9F7FF}" {
+  }
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Name "#AR-Group_PlatoonHQ"
+    m_Image "{C6238FAD06535808}UI/Textures/EditorPreviews/Groups/OPFOR/Group_USSR_PlatoonHQ.edds"
+    m_aAuthoredLabels +{
+    }
+    m_aAutoLabels +{
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{6264D20AAB79373F}" {
+      m_BudgetType CAMPAIGN
+      m_Value 1
+     }
+     SCR_EntityBudgetValue "{6264D20AAB793721}" {
+      m_BudgetType AI_SERVER
+      m_Value 0
+     }
+    }
+    m_EntityChildrenBudgetCost {
+     SCR_EntityBudgetValue "{6264D20AAB793726}" {
+      m_BudgetType AI
+      m_Value 5
+     }
+    }
+    m_bUseUIInfoName 1
+    m_MilitarySymbol SCR_MilitarySymbol "{6264D20AAB793724}" {
+     m_Identity OPFOR
+     m_Dimension LAND
+     m_Icons 0
+     m_Amplifier NONE
+    }
+   }
+  }
+  SCR_PreviewEntityComponent "{6264D20AAB79377A}" {
+   m_bRuntime 0
+   m_aEntries {
+    SCR_BasePreviewEntry "{6264D20AAB793778}" {
+     m_iParentID -1
+     m_Mesh ""
+     m_Flags 259
+     m_Shape MESH
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 0 -5 0
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{6264D20AAB79377E}" {
+     m_iParentID 0
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Flags 0
+     m_Shape PREFAB
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 0 0 0
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{6264D20AAB79377C}" {
+     m_iParentID 0
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Flags 0
+     m_Shape PREFAB
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 3 0 -3
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{6264D20AAB793763}" {
+     m_iParentID 0
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Flags 0
+     m_Shape PREFAB
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition -3 0 -3
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{6264D20AAB793761}" {
+     m_iParentID 0
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Flags 0
+     m_Shape PREFAB
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 6 0 -6
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{6264D20AAB793760}" {
+     m_iParentID 0
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Flags 0
+     m_Shape PREFAB
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition -6 0 -6
+     m_vAngles 0 0 0
+    }
+   }
+  }
+ }
+ coords 1224.337 0 7102.75
+ angles 0 -90.442 0
+ m_aUnitPrefabSlots {
+  "{85EB4CD1B26B623A}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_PL_Random.et"
+  "{8B527E374F30265A}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_RTO_Random.et"
+ }
+ m_sCustomNameSet "Штаб"
+}
+Vehicle UAZ469_Ses_TKA1 : "{F3C22A3CC0664AB7}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_Ses_TKA.et" {
+ coords 1219.412 0 7102.334
+ angles 0 -179.372 0
+ m_sAttachmentGroupName "HQ"
+}
+$grp SCR_AIGroup : "{F84C950E55A7BD7E}Prefabs/Groups/OPFOR/Ses_TKA/Group_Ses_TKA_RifleSquad.et" {
+ SQ1 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "1"
+   }
+   PS_GroupCallsignAssigner "{68895D8847E92EA7}" {
+    m_iCompanyCallsign 2
+   }
+   SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+    m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+     Name "#AR-Group_Squad"
+     m_Image "{E4745904C45FC059}UI/Textures/EditorPreviews/Groups/OPFOR/Group_USSR_RifleSquad.edds"
+     m_aAuthoredLabels +{
+     }
+     m_aAutoLabels +{
+     }
+     m_EntityBudgetCost {
+      SCR_EntityBudgetValue "{604482963251834C}" {
+       m_Value 450
+      }
+      SCR_EntityBudgetValue "{609AE1834A64CEC1}" {
+       m_Value 6
+      }
+     }
+     m_EntityChildrenBudgetCost {
+      SCR_EntityBudgetValue "{6264D20AB5D4D84F}" {
+       m_BudgetType AI
+       m_Value 6
+      }
+     }
+     m_bUseUIInfoName 1
+     m_MilitarySymbol SCR_MilitarySymbol "{6264D20AB5D4D871}" {
+      m_Identity OPFOR
+      m_Dimension LAND
+      m_Icons INFANTRY
+      m_Amplifier SQUAD
+     }
+    }
+   }
+   SCR_GroupIdentityComponent "{56366C5C50AD3CF2}" {
+    m_MilitarySymbol SCR_MilitarySymbol "{56366C5C4E32A359}" {
+     m_Icons INFANTRY
+     m_Amplifier SQUAD
+    }
+   }
+   SCR_PreviewEntityComponent "{56368A4E2AE45029}" : "{6CADA7A88A6265FD}Prefabs/Editor/Components/PreviewEntityComponentClass.ct" {
+    m_bRuntime 0
+    m_aEntries {
+     SCR_BasePreviewEntry "{6264D20AB5D4D863}" {
+      m_iParentID -1
+      m_Mesh ""
+      m_Flags 3
+      m_Shape MESH
+      m_iPivotID ""
+      m_vScale 1 1 1
+      m_vPosition 0 0 0
+      m_vAngles 0 0 0
+     }
+     SCR_BasePreviewEntry "{6264D20AB5D4D861}" {
+      m_iParentID 0
+      m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+      m_Flags 0
+      m_Shape PREFAB
+      m_iPivotID ""
+      m_vScale 1 1 1
+      m_vPosition 0 0 0
+      m_vAngles 0 0 0
+     }
+     SCR_BasePreviewEntry "{6264D20AB5D4D867}" {
+      m_iParentID 0
+      m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+      m_Flags 0
+      m_Shape PREFAB
+      m_iPivotID ""
+      m_vScale 1 1 1
+      m_vPosition 3 0 -3
+      m_vAngles 0 0 0
+     }
+     SCR_BasePreviewEntry "{6264D20AB5D4D865}" {
+      m_iParentID 0
+      m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+      m_Flags 0
+      m_Shape PREFAB
+      m_iPivotID ""
+      m_vScale 1 1 1
+      m_vPosition -3 0 -3
+      m_vAngles 0 0 0
+     }
+     SCR_BasePreviewEntry "{6264D20AB5D4D86B}" {
+      m_iParentID 0
+      m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+      m_Flags 0
+      m_Shape PREFAB
+      m_iPivotID ""
+      m_vScale 1 1 1
+      m_vPosition 6 0 -6
+      m_vAngles 0 0 0
+     }
+     SCR_BasePreviewEntry "{6264D20AB5D4D86A}" {
+      m_iParentID 0
+      m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+      m_Flags 0
+      m_Shape PREFAB
+      m_iPivotID ""
+      m_vScale 1 1 1
+      m_vPosition -6 0 -6
+      m_vAngles 0 0 0
+     }
+     SCR_BasePreviewEntry "{6264D20AB5D4D868}" {
+      m_iParentID 0
+      m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+      m_Flags 0
+      m_Shape PREFAB
+      m_iPivotID ""
+      m_vScale 1 1 1
+      m_vPosition 9 0 -9
+      m_vAngles 0 0 0
+     }
+    }
+   }
+  }
+  coords 3119.616 0 6752.38
+  angles 0 -95.23 0
+  m_aUnitPrefabSlots {
+   "{A575758C199662B0}Prefabs/Characters/Factions/OPFOR/TKA/Character_TKA_SL.et"
+   "{3DA88236C1DA39C9}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_SR_Random.et"
+   "{C8FD84932B12C0A3}Prefabs/Characters/Factions/OPFOR/TKA/Character_TKA_AR.et"
+   "{1055ED52529BDEFF}Prefabs/Characters/Factions/OPFOR/TKA/Character_TKA_AT.et"
+   "{58796557E6982151}Prefabs/Characters/Factions/OPFOR/TKA/Character_TKA_AAT.et"
+   "{E43DF362DA97C9B8}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_Rifleman_AK74_Random.et"
+   "{B8B42618A797C1C9}Prefabs/Characters/Factions/OPFOR/TKA/Character_TKA_Medic.et"
+   "{3A44182939C9EA94}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_Sharpshooter_Random.et"
+  }
+  m_sCustomNameSet "Стрелковое отделение"
+ }
+ SQ2 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "1"
+   }
+   PS_GroupCallsignAssigner "{68895D88402A1696}" {
+    m_iCompanyCallsign 2
+    m_iSquadCallsign 1
+   }
+   SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+    m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+     Name "#AR-Group_Squad"
+     m_Image "{E4745904C45FC059}UI/Textures/EditorPreviews/Groups/OPFOR/Group_USSR_RifleSquad.edds"
+     m_aAuthoredLabels +{
+     }
+     m_aAutoLabels +{
+     }
+     m_EntityBudgetCost {
+      SCR_EntityBudgetValue "{604482963251834C}" {
+       m_Value 450
+      }
+      SCR_EntityBudgetValue "{609AE1834A64CEC1}" {
+       m_Value 6
+      }
+     }
+     m_EntityChildrenBudgetCost {
+      SCR_EntityBudgetValue "{6264D20AB5D4D84F}" {
+       m_BudgetType AI
+       m_Value 6
+      }
+     }
+     m_bUseUIInfoName 1
+     m_MilitarySymbol SCR_MilitarySymbol "{6264D20AB5D4D871}" {
+      m_Identity OPFOR
+      m_Dimension LAND
+      m_Icons INFANTRY
+      m_Amplifier SQUAD
+     }
+    }
+   }
+   SCR_GroupIdentityComponent "{56366C5C50AD3CF2}" {
+    m_MilitarySymbol SCR_MilitarySymbol "{56366C5C4E32A359}" {
+     m_Icons INFANTRY
+     m_Amplifier SQUAD
+    }
+   }
+   SCR_PreviewEntityComponent "{56368A4E2AE45029}" : "{6CADA7A88A6265FD}Prefabs/Editor/Components/PreviewEntityComponentClass.ct" {
+    m_bRuntime 0
+    m_aEntries {
+     SCR_BasePreviewEntry "{6264D20AB5D4D863}" {
+      m_iParentID -1
+      m_Mesh ""
+      m_Flags 3
+      m_Shape MESH
+      m_iPivotID ""
+      m_vScale 1 1 1
+      m_vPosition 0 0 0
+      m_vAngles 0 0 0
+     }
+     SCR_BasePreviewEntry "{6264D20AB5D4D861}" {
+      m_iParentID 0
+      m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+      m_Flags 0
+      m_Shape PREFAB
+      m_iPivotID ""
+      m_vScale 1 1 1
+      m_vPosition 0 0 0
+      m_vAngles 0 0 0
+     }
+     SCR_BasePreviewEntry "{6264D20AB5D4D867}" {
+      m_iParentID 0
+      m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+      m_Flags 0
+      m_Shape PREFAB
+      m_iPivotID ""
+      m_vScale 1 1 1
+      m_vPosition 3 0 -3
+      m_vAngles 0 0 0
+     }
+     SCR_BasePreviewEntry "{6264D20AB5D4D865}" {
+      m_iParentID 0
+      m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+      m_Flags 0
+      m_Shape PREFAB
+      m_iPivotID ""
+      m_vScale 1 1 1
+      m_vPosition -3 0 -3
+      m_vAngles 0 0 0
+     }
+     SCR_BasePreviewEntry "{6264D20AB5D4D86B}" {
+      m_iParentID 0
+      m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+      m_Flags 0
+      m_Shape PREFAB
+      m_iPivotID ""
+      m_vScale 1 1 1
+      m_vPosition 6 0 -6
+      m_vAngles 0 0 0
+     }
+     SCR_BasePreviewEntry "{6264D20AB5D4D86A}" {
+      m_iParentID 0
+      m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+      m_Flags 0
+      m_Shape PREFAB
+      m_iPivotID ""
+      m_vScale 1 1 1
+      m_vPosition -6 0 -6
+      m_vAngles 0 0 0
+     }
+     SCR_BasePreviewEntry "{6264D20AB5D4D868}" {
+      m_iParentID 0
+      m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+      m_Flags 0
+      m_Shape PREFAB
+      m_iPivotID ""
+      m_vScale 1 1 1
+      m_vPosition 9 0 -9
+      m_vAngles 0 0 0
+     }
+    }
+   }
+  }
+  coords 3568.141 0 6817.678
+  angles 0 176.557 0
+  m_aUnitPrefabSlots {
+   "{A575758C199662B0}Prefabs/Characters/Factions/OPFOR/TKA/Character_TKA_SL.et"
+   "{3DA88236C1DA39C9}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_SR_Random.et"
+   "{C8FD84932B12C0A3}Prefabs/Characters/Factions/OPFOR/TKA/Character_TKA_AR.et"
+   "{1055ED52529BDEFF}Prefabs/Characters/Factions/OPFOR/TKA/Character_TKA_AT.et"
+   "{58796557E6982151}Prefabs/Characters/Factions/OPFOR/TKA/Character_TKA_AAT.et"
+   "{E43DF362DA97C9B8}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_Rifleman_AK74_Random.et"
+   "{B8B42618A797C1C9}Prefabs/Characters/Factions/OPFOR/TKA/Character_TKA_Medic.et"
+   "{3A44182939C9EA94}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_Sharpshooter_Random.et"
+  }
+  m_sCustomNameSet "Стрелковое отделение"
+ }
+ SQ3 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "1"
+   }
+   PS_GroupCallsignAssigner "{68895D884D02414D}" {
+    m_iCompanyCallsign 1
+   }
+   SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+    m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+     Name "#AR-Group_Squad"
+     m_Image "{E4745904C45FC059}UI/Textures/EditorPreviews/Groups/OPFOR/Group_USSR_RifleSquad.edds"
+     m_aAuthoredLabels +{
+     }
+     m_aAutoLabels +{
+     }
+     m_EntityBudgetCost {
+      SCR_EntityBudgetValue "{604482963251834C}" {
+       m_Value 450
+      }
+      SCR_EntityBudgetValue "{609AE1834A64CEC1}" {
+       m_Value 6
+      }
+     }
+     m_EntityChildrenBudgetCost {
+      SCR_EntityBudgetValue "{6264D20AB5D4D84F}" {
+       m_BudgetType AI
+       m_Value 6
+      }
+     }
+     m_bUseUIInfoName 1
+     m_MilitarySymbol SCR_MilitarySymbol "{6264D20AB5D4D871}" {
+      m_Identity OPFOR
+      m_Dimension LAND
+      m_Icons INFANTRY
+      m_Amplifier SQUAD
+     }
+    }
+   }
+   SCR_GroupIdentityComponent "{56366C5C50AD3CF2}" {
+    m_MilitarySymbol SCR_MilitarySymbol "{56366C5C4E32A359}" {
+     m_Icons INFANTRY
+     m_Amplifier SQUAD
+    }
+   }
+   SCR_PreviewEntityComponent "{56368A4E2AE45029}" : "{6CADA7A88A6265FD}Prefabs/Editor/Components/PreviewEntityComponentClass.ct" {
+    m_bRuntime 0
+    m_aEntries {
+     SCR_BasePreviewEntry "{6264D20AB5D4D863}" {
+      m_iParentID -1
+      m_Mesh ""
+      m_Flags 3
+      m_Shape MESH
+      m_iPivotID ""
+      m_vScale 1 1 1
+      m_vPosition 0 0 0
+      m_vAngles 0 0 0
+     }
+     SCR_BasePreviewEntry "{6264D20AB5D4D861}" {
+      m_iParentID 0
+      m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+      m_Flags 0
+      m_Shape PREFAB
+      m_iPivotID ""
+      m_vScale 1 1 1
+      m_vPosition 0 0 0
+      m_vAngles 0 0 0
+     }
+     SCR_BasePreviewEntry "{6264D20AB5D4D867}" {
+      m_iParentID 0
+      m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+      m_Flags 0
+      m_Shape PREFAB
+      m_iPivotID ""
+      m_vScale 1 1 1
+      m_vPosition 3 0 -3
+      m_vAngles 0 0 0
+     }
+     SCR_BasePreviewEntry "{6264D20AB5D4D865}" {
+      m_iParentID 0
+      m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+      m_Flags 0
+      m_Shape PREFAB
+      m_iPivotID ""
+      m_vScale 1 1 1
+      m_vPosition -3 0 -3
+      m_vAngles 0 0 0
+     }
+     SCR_BasePreviewEntry "{6264D20AB5D4D86B}" {
+      m_iParentID 0
+      m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+      m_Flags 0
+      m_Shape PREFAB
+      m_iPivotID ""
+      m_vScale 1 1 1
+      m_vPosition 6 0 -6
+      m_vAngles 0 0 0
+     }
+     SCR_BasePreviewEntry "{6264D20AB5D4D86A}" {
+      m_iParentID 0
+      m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+      m_Flags 0
+      m_Shape PREFAB
+      m_iPivotID ""
+      m_vScale 1 1 1
+      m_vPosition -6 0 -6
+      m_vAngles 0 0 0
+     }
+     SCR_BasePreviewEntry "{6264D20AB5D4D868}" {
+      m_iParentID 0
+      m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+      m_Flags 0
+      m_Shape PREFAB
+      m_iPivotID ""
+      m_vScale 1 1 1
+      m_vPosition 9 0 -9
+      m_vAngles 0 0 0
+     }
+    }
+   }
+  }
+  coords 1224.279 0 7110.521
+  angles 0 -89.473 0
+  m_aUnitPrefabSlots {
+   "{A575758C199662B0}Prefabs/Characters/Factions/OPFOR/TKA/Character_TKA_SL.et"
+   "{3DA88236C1DA39C9}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_SR_Random.et"
+   "{C8FD84932B12C0A3}Prefabs/Characters/Factions/OPFOR/TKA/Character_TKA_AR.et"
+   "{1055ED52529BDEFF}Prefabs/Characters/Factions/OPFOR/TKA/Character_TKA_AT.et"
+   "{58796557E6982151}Prefabs/Characters/Factions/OPFOR/TKA/Character_TKA_AAT.et"
+   "{E43DF362DA97C9B8}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_Rifleman_AK74_Random.et"
+   "{B8B42618A797C1C9}Prefabs/Characters/Factions/OPFOR/TKA/Character_TKA_Medic.et"
+   "{619B86D1CBF2ECB2}Prefabs/Characters/Factions/OPFOR/TKA/Character_TKA_CC_2.et"
+   "{015EC1B41DCFA4AD}Prefabs/Characters/Factions/OPFOR/TKA/Character_TKA_Crew.et"
+  }
+  m_sCustomNameSet "Стрелковое отделение на БТР"
+ }
+ SQ5 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "1"
+   }
+   PS_GroupCallsignAssigner "{68895D884E924294}" {
+    m_iCompanyCallsign 3
+   }
+   SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+    m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+     Name "#AR-Group_Squad"
+     m_Image "{E4745904C45FC059}UI/Textures/EditorPreviews/Groups/OPFOR/Group_USSR_RifleSquad.edds"
+     m_aAuthoredLabels +{
+     }
+     m_aAutoLabels +{
+     }
+     m_EntityBudgetCost {
+      SCR_EntityBudgetValue "{604482963251834C}" {
+       m_Value 450
+      }
+      SCR_EntityBudgetValue "{609AE1834A64CEC1}" {
+       m_Value 6
+      }
+     }
+     m_EntityChildrenBudgetCost {
+      SCR_EntityBudgetValue "{6264D20AB5D4D84F}" {
+       m_BudgetType AI
+       m_Value 6
+      }
+     }
+     m_bUseUIInfoName 1
+     m_MilitarySymbol SCR_MilitarySymbol "{6264D20AB5D4D871}" {
+      m_Identity OPFOR
+      m_Dimension LAND
+      m_Icons INFANTRY
+      m_Amplifier SQUAD
+     }
+    }
+   }
+   SCR_GroupIdentityComponent "{56366C5C50AD3CF2}" {
+    m_MilitarySymbol SCR_MilitarySymbol "{56366C5C4E32A359}" {
+     m_Icons INFANTRY
+     m_Amplifier SQUAD
+    }
+   }
+   SCR_PreviewEntityComponent "{56368A4E2AE45029}" : "{6CADA7A88A6265FD}Prefabs/Editor/Components/PreviewEntityComponentClass.ct" {
+    m_bRuntime 0
+    m_aEntries {
+     SCR_BasePreviewEntry "{6264D20AB5D4D863}" {
+      m_iParentID -1
+      m_Mesh ""
+      m_Flags 3
+      m_Shape MESH
+      m_iPivotID ""
+      m_vScale 1 1 1
+      m_vPosition 0 0 0
+      m_vAngles 0 0 0
+     }
+     SCR_BasePreviewEntry "{6264D20AB5D4D861}" {
+      m_iParentID 0
+      m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+      m_Flags 0
+      m_Shape PREFAB
+      m_iPivotID ""
+      m_vScale 1 1 1
+      m_vPosition 0 0 0
+      m_vAngles 0 0 0
+     }
+     SCR_BasePreviewEntry "{6264D20AB5D4D867}" {
+      m_iParentID 0
+      m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+      m_Flags 0
+      m_Shape PREFAB
+      m_iPivotID ""
+      m_vScale 1 1 1
+      m_vPosition 3 0 -3
+      m_vAngles 0 0 0
+     }
+     SCR_BasePreviewEntry "{6264D20AB5D4D865}" {
+      m_iParentID 0
+      m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+      m_Flags 0
+      m_Shape PREFAB
+      m_iPivotID ""
+      m_vScale 1 1 1
+      m_vPosition -3 0 -3
+      m_vAngles 0 0 0
+     }
+     SCR_BasePreviewEntry "{6264D20AB5D4D86B}" {
+      m_iParentID 0
+      m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+      m_Flags 0
+      m_Shape PREFAB
+      m_iPivotID ""
+      m_vScale 1 1 1
+      m_vPosition 6 0 -6
+      m_vAngles 0 0 0
+     }
+     SCR_BasePreviewEntry "{6264D20AB5D4D86A}" {
+      m_iParentID 0
+      m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+      m_Flags 0
+      m_Shape PREFAB
+      m_iPivotID ""
+      m_vScale 1 1 1
+      m_vPosition -6 0 -6
+      m_vAngles 0 0 0
+     }
+     SCR_BasePreviewEntry "{6264D20AB5D4D868}" {
+      m_iParentID 0
+      m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+      m_Flags 0
+      m_Shape PREFAB
+      m_iPivotID ""
+      m_vScale 1 1 1
+      m_vPosition 9 0 -9
+      m_vAngles 0 0 0
+     }
+    }
+   }
+  }
+  coords 4297.176 0.001 6463.507
+  angles 0 -155.42 0
+  m_aUnitPrefabSlots {
+   "{A575758C199662B0}Prefabs/Characters/Factions/OPFOR/TKA/Character_TKA_SL.et"
+   "{3DA88236C1DA39C9}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_SR_Random.et"
+   "{C8FD84932B12C0A3}Prefabs/Characters/Factions/OPFOR/TKA/Character_TKA_AR.et"
+   "{1055ED52529BDEFF}Prefabs/Characters/Factions/OPFOR/TKA/Character_TKA_AT.et"
+   "{58796557E6982151}Prefabs/Characters/Factions/OPFOR/TKA/Character_TKA_AAT.et"
+   "{E43DF362DA97C9B8}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_Rifleman_AK74_Random.et"
+   "{B8B42618A797C1C9}Prefabs/Characters/Factions/OPFOR/TKA/Character_TKA_Medic.et"
+   "{E43DF362DA97C9B8}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_Rifleman_AK74_Random.et"
+   "{3A44182939C9EA94}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_Sharpshooter_Random.et"
+  }
+  m_sCustomNameSet "Стрелковое отделение"
+ }
+ SQ4 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "1"
+   }
+   PS_GroupCallsignAssigner "{68895D88481BE721}" {
+    m_iCompanyCallsign 1
+    m_iSquadCallsign 1
+   }
+   SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+    m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+     Name "#AR-Group_Squad"
+     m_Image "{E4745904C45FC059}UI/Textures/EditorPreviews/Groups/OPFOR/Group_USSR_RifleSquad.edds"
+     m_aAuthoredLabels +{
+     }
+     m_aAutoLabels +{
+     }
+     m_EntityBudgetCost {
+      SCR_EntityBudgetValue "{604482963251834C}" {
+       m_Value 450
+      }
+      SCR_EntityBudgetValue "{609AE1834A64CEC1}" {
+       m_Value 6
+      }
+     }
+     m_EntityChildrenBudgetCost {
+      SCR_EntityBudgetValue "{6264D20AB5D4D84F}" {
+       m_BudgetType AI
+       m_Value 6
+      }
+     }
+     m_bUseUIInfoName 1
+     m_MilitarySymbol SCR_MilitarySymbol "{6264D20AB5D4D871}" {
+      m_Identity OPFOR
+      m_Dimension LAND
+      m_Icons INFANTRY
+      m_Amplifier SQUAD
+     }
+    }
+   }
+   SCR_GroupIdentityComponent "{56366C5C50AD3CF2}" {
+    m_MilitarySymbol SCR_MilitarySymbol "{56366C5C4E32A359}" {
+     m_Icons INFANTRY
+     m_Amplifier SQUAD
+    }
+   }
+   SCR_PreviewEntityComponent "{56368A4E2AE45029}" : "{6CADA7A88A6265FD}Prefabs/Editor/Components/PreviewEntityComponentClass.ct" {
+    m_bRuntime 0
+    m_aEntries {
+     SCR_BasePreviewEntry "{6264D20AB5D4D863}" {
+      m_iParentID -1
+      m_Mesh ""
+      m_Flags 3
+      m_Shape MESH
+      m_iPivotID ""
+      m_vScale 1 1 1
+      m_vPosition 0 0 0
+      m_vAngles 0 0 0
+     }
+     SCR_BasePreviewEntry "{6264D20AB5D4D861}" {
+      m_iParentID 0
+      m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+      m_Flags 0
+      m_Shape PREFAB
+      m_iPivotID ""
+      m_vScale 1 1 1
+      m_vPosition 0 0 0
+      m_vAngles 0 0 0
+     }
+     SCR_BasePreviewEntry "{6264D20AB5D4D867}" {
+      m_iParentID 0
+      m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+      m_Flags 0
+      m_Shape PREFAB
+      m_iPivotID ""
+      m_vScale 1 1 1
+      m_vPosition 3 0 -3
+      m_vAngles 0 0 0
+     }
+     SCR_BasePreviewEntry "{6264D20AB5D4D865}" {
+      m_iParentID 0
+      m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+      m_Flags 0
+      m_Shape PREFAB
+      m_iPivotID ""
+      m_vScale 1 1 1
+      m_vPosition -3 0 -3
+      m_vAngles 0 0 0
+     }
+     SCR_BasePreviewEntry "{6264D20AB5D4D86B}" {
+      m_iParentID 0
+      m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+      m_Flags 0
+      m_Shape PREFAB
+      m_iPivotID ""
+      m_vScale 1 1 1
+      m_vPosition 6 0 -6
+      m_vAngles 0 0 0
+     }
+     SCR_BasePreviewEntry "{6264D20AB5D4D86A}" {
+      m_iParentID 0
+      m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+      m_Flags 0
+      m_Shape PREFAB
+      m_iPivotID ""
+      m_vScale 1 1 1
+      m_vPosition -6 0 -6
+      m_vAngles 0 0 0
+     }
+     SCR_BasePreviewEntry "{6264D20AB5D4D868}" {
+      m_iParentID 0
+      m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+      m_Flags 0
+      m_Shape PREFAB
+      m_iPivotID ""
+      m_vScale 1 1 1
+      m_vPosition 9 0 -9
+      m_vAngles 0 0 0
+     }
+    }
+   }
+  }
+  coords 1224.831 0 7125.679
+  angles 0 -88.896 0
+  m_aUnitPrefabSlots {
+   "{A575758C199662B0}Prefabs/Characters/Factions/OPFOR/TKA/Character_TKA_SL.et"
+   "{3DA88236C1DA39C9}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_SR_Random.et"
+   "{C8FD84932B12C0A3}Prefabs/Characters/Factions/OPFOR/TKA/Character_TKA_AR.et"
+   "{1055ED52529BDEFF}Prefabs/Characters/Factions/OPFOR/TKA/Character_TKA_AT.et"
+   "{58796557E6982151}Prefabs/Characters/Factions/OPFOR/TKA/Character_TKA_AAT.et"
+   "{E43DF362DA97C9B8}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_Rifleman_AK74_Random.et"
+   "{B8B42618A797C1C9}Prefabs/Characters/Factions/OPFOR/TKA/Character_TKA_Medic.et"
+   "{619B86D1CBF2ECB2}Prefabs/Characters/Factions/OPFOR/TKA/Character_TKA_CC_2.et"
+   "{015EC1B41DCFA4AD}Prefabs/Characters/Factions/OPFOR/TKA/Character_TKA_Crew.et"
+  }
+  m_sCustomNameSet "Стрелковое отделение на БТР"
+ }
+ SQ6 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "1"
+   }
+   PS_GroupCallsignAssigner "{68895D8855C523B4}" {
+    m_iCompanyCallsign 3
+    m_iSquadCallsign 1
+   }
+   SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+    m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+     Name "#AR-Group_Squad"
+     m_Image "{E4745904C45FC059}UI/Textures/EditorPreviews/Groups/OPFOR/Group_USSR_RifleSquad.edds"
+     m_aAuthoredLabels +{
+     }
+     m_aAutoLabels +{
+     }
+     m_EntityBudgetCost {
+      SCR_EntityBudgetValue "{604482963251834C}" {
+       m_Value 450
+      }
+      SCR_EntityBudgetValue "{609AE1834A64CEC1}" {
+       m_Value 6
+      }
+     }
+     m_EntityChildrenBudgetCost {
+      SCR_EntityBudgetValue "{6264D20AB5D4D84F}" {
+       m_BudgetType AI
+       m_Value 6
+      }
+     }
+     m_bUseUIInfoName 1
+     m_MilitarySymbol SCR_MilitarySymbol "{6264D20AB5D4D871}" {
+      m_Identity OPFOR
+      m_Dimension LAND
+      m_Icons INFANTRY
+      m_Amplifier SQUAD
+     }
+    }
+   }
+   SCR_GroupIdentityComponent "{56366C5C50AD3CF2}" {
+    m_MilitarySymbol SCR_MilitarySymbol "{56366C5C4E32A359}" {
+     m_Icons INFANTRY
+     m_Amplifier SQUAD
+    }
+   }
+   SCR_PreviewEntityComponent "{56368A4E2AE45029}" : "{6CADA7A88A6265FD}Prefabs/Editor/Components/PreviewEntityComponentClass.ct" {
+    m_bRuntime 0
+    m_aEntries {
+     SCR_BasePreviewEntry "{6264D20AB5D4D863}" {
+      m_iParentID -1
+      m_Mesh ""
+      m_Flags 3
+      m_Shape MESH
+      m_iPivotID ""
+      m_vScale 1 1 1
+      m_vPosition 0 0 0
+      m_vAngles 0 0 0
+     }
+     SCR_BasePreviewEntry "{6264D20AB5D4D861}" {
+      m_iParentID 0
+      m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+      m_Flags 0
+      m_Shape PREFAB
+      m_iPivotID ""
+      m_vScale 1 1 1
+      m_vPosition 0 0 0
+      m_vAngles 0 0 0
+     }
+     SCR_BasePreviewEntry "{6264D20AB5D4D867}" {
+      m_iParentID 0
+      m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+      m_Flags 0
+      m_Shape PREFAB
+      m_iPivotID ""
+      m_vScale 1 1 1
+      m_vPosition 3 0 -3
+      m_vAngles 0 0 0
+     }
+     SCR_BasePreviewEntry "{6264D20AB5D4D865}" {
+      m_iParentID 0
+      m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+      m_Flags 0
+      m_Shape PREFAB
+      m_iPivotID ""
+      m_vScale 1 1 1
+      m_vPosition -3 0 -3
+      m_vAngles 0 0 0
+     }
+     SCR_BasePreviewEntry "{6264D20AB5D4D86B}" {
+      m_iParentID 0
+      m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+      m_Flags 0
+      m_Shape PREFAB
+      m_iPivotID ""
+      m_vScale 1 1 1
+      m_vPosition 6 0 -6
+      m_vAngles 0 0 0
+     }
+     SCR_BasePreviewEntry "{6264D20AB5D4D86A}" {
+      m_iParentID 0
+      m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+      m_Flags 0
+      m_Shape PREFAB
+      m_iPivotID ""
+      m_vScale 1 1 1
+      m_vPosition -6 0 -6
+      m_vAngles 0 0 0
+     }
+     SCR_BasePreviewEntry "{6264D20AB5D4D868}" {
+      m_iParentID 0
+      m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+      m_Flags 0
+      m_Shape PREFAB
+      m_iPivotID ""
+      m_vScale 1 1 1
+      m_vPosition 9 0 -9
+      m_vAngles 0 0 0
+     }
+    }
+   }
+  }
+  coords 4371.065 0 6284.356
+  angles 0 -90.097 0
+  m_aUnitPrefabSlots {
+   "{A575758C199662B0}Prefabs/Characters/Factions/OPFOR/TKA/Character_TKA_SL.et"
+   "{3DA88236C1DA39C9}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_SR_Random.et"
+   "{C8FD84932B12C0A3}Prefabs/Characters/Factions/OPFOR/TKA/Character_TKA_AR.et"
+   "{1055ED52529BDEFF}Prefabs/Characters/Factions/OPFOR/TKA/Character_TKA_AT.et"
+   "{58796557E6982151}Prefabs/Characters/Factions/OPFOR/TKA/Character_TKA_AAT.et"
+   "{E43DF362DA97C9B8}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_Rifleman_AK74_Random.et"
+   "{B8B42618A797C1C9}Prefabs/Characters/Factions/OPFOR/TKA/Character_TKA_Medic.et"
+   "{3A44182939C9EA94}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_Sharpshooter_Random.et"
+  }
+  m_sCustomNameSet "Стрелковое отделение"
+ }
+ SQ7 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "1"
+   }
+   PS_GroupCallsignAssigner "{68895D8856DA870C}" {
+    m_iCompanyCallsign 3
+    m_iSquadCallsign 2
+   }
+   SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+    m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+     Name "#AR-Group_Squad"
+     m_Image "{E4745904C45FC059}UI/Textures/EditorPreviews/Groups/OPFOR/Group_USSR_RifleSquad.edds"
+     m_aAuthoredLabels +{
+     }
+     m_aAutoLabels +{
+     }
+     m_EntityBudgetCost {
+      SCR_EntityBudgetValue "{604482963251834C}" {
+       m_Value 450
+      }
+      SCR_EntityBudgetValue "{609AE1834A64CEC1}" {
+       m_Value 6
+      }
+     }
+     m_EntityChildrenBudgetCost {
+      SCR_EntityBudgetValue "{6264D20AB5D4D84F}" {
+       m_BudgetType AI
+       m_Value 6
+      }
+     }
+     m_bUseUIInfoName 1
+     m_MilitarySymbol SCR_MilitarySymbol "{6264D20AB5D4D871}" {
+      m_Identity OPFOR
+      m_Dimension LAND
+      m_Icons INFANTRY
+      m_Amplifier SQUAD
+     }
+    }
+   }
+   SCR_GroupIdentityComponent "{56366C5C50AD3CF2}" {
+    m_MilitarySymbol SCR_MilitarySymbol "{56366C5C4E32A359}" {
+     m_Icons INFANTRY
+     m_Amplifier SQUAD
+    }
+   }
+   SCR_PreviewEntityComponent "{56368A4E2AE45029}" : "{6CADA7A88A6265FD}Prefabs/Editor/Components/PreviewEntityComponentClass.ct" {
+    m_bRuntime 0
+    m_aEntries {
+     SCR_BasePreviewEntry "{6264D20AB5D4D863}" {
+      m_iParentID -1
+      m_Mesh ""
+      m_Flags 3
+      m_Shape MESH
+      m_iPivotID ""
+      m_vScale 1 1 1
+      m_vPosition 0 0 0
+      m_vAngles 0 0 0
+     }
+     SCR_BasePreviewEntry "{6264D20AB5D4D861}" {
+      m_iParentID 0
+      m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+      m_Flags 0
+      m_Shape PREFAB
+      m_iPivotID ""
+      m_vScale 1 1 1
+      m_vPosition 0 0 0
+      m_vAngles 0 0 0
+     }
+     SCR_BasePreviewEntry "{6264D20AB5D4D867}" {
+      m_iParentID 0
+      m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+      m_Flags 0
+      m_Shape PREFAB
+      m_iPivotID ""
+      m_vScale 1 1 1
+      m_vPosition 3 0 -3
+      m_vAngles 0 0 0
+     }
+     SCR_BasePreviewEntry "{6264D20AB5D4D865}" {
+      m_iParentID 0
+      m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+      m_Flags 0
+      m_Shape PREFAB
+      m_iPivotID ""
+      m_vScale 1 1 1
+      m_vPosition -3 0 -3
+      m_vAngles 0 0 0
+     }
+     SCR_BasePreviewEntry "{6264D20AB5D4D86B}" {
+      m_iParentID 0
+      m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+      m_Flags 0
+      m_Shape PREFAB
+      m_iPivotID ""
+      m_vScale 1 1 1
+      m_vPosition 6 0 -6
+      m_vAngles 0 0 0
+     }
+     SCR_BasePreviewEntry "{6264D20AB5D4D86A}" {
+      m_iParentID 0
+      m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+      m_Flags 0
+      m_Shape PREFAB
+      m_iPivotID ""
+      m_vScale 1 1 1
+      m_vPosition -6 0 -6
+      m_vAngles 0 0 0
+     }
+     SCR_BasePreviewEntry "{6264D20AB5D4D868}" {
+      m_iParentID 0
+      m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+      m_Flags 0
+      m_Shape PREFAB
+      m_iPivotID ""
+      m_vScale 1 1 1
+      m_vPosition 9 0 -9
+      m_vAngles 0 0 0
+     }
+    }
+   }
+  }
+  coords 4185.354 0 6019.909
+  angles 0 -28.122 0
+  m_aUnitPrefabSlots {
+   "{A575758C199662B0}Prefabs/Characters/Factions/OPFOR/TKA/Character_TKA_SL.et"
+   "{3DA88236C1DA39C9}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_SR_Random.et"
+   "{C8FD84932B12C0A3}Prefabs/Characters/Factions/OPFOR/TKA/Character_TKA_AR.et"
+   "{1055ED52529BDEFF}Prefabs/Characters/Factions/OPFOR/TKA/Character_TKA_AT.et"
+   "{58796557E6982151}Prefabs/Characters/Factions/OPFOR/TKA/Character_TKA_AAT.et"
+   "{E43DF362DA97C9B8}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_Rifleman_AK74_Random.et"
+   "{B8B42618A797C1C9}Prefabs/Characters/Factions/OPFOR/TKA/Character_TKA_Medic.et"
+   "{3A44182939C9EA94}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_Sharpshooter_Random.et"
+  }
+  m_sCustomNameSet "Стрелковое отделение"
+ }
+ SQ8 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "1"
+   }
+   PS_GroupCallsignAssigner "{68895D885399957E}" {
+    m_iCompanyCallsign 4
+   }
+   SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+    m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+     Name "#AR-Group_Squad"
+     m_Image "{E4745904C45FC059}UI/Textures/EditorPreviews/Groups/OPFOR/Group_USSR_RifleSquad.edds"
+     m_aAuthoredLabels +{
+     }
+     m_aAutoLabels +{
+     }
+     m_EntityBudgetCost {
+      SCR_EntityBudgetValue "{604482963251834C}" {
+       m_Value 450
+      }
+      SCR_EntityBudgetValue "{609AE1834A64CEC1}" {
+       m_Value 6
+      }
+     }
+     m_EntityChildrenBudgetCost {
+      SCR_EntityBudgetValue "{6264D20AB5D4D84F}" {
+       m_BudgetType AI
+       m_Value 6
+      }
+     }
+     m_bUseUIInfoName 1
+     m_MilitarySymbol SCR_MilitarySymbol "{6264D20AB5D4D871}" {
+      m_Identity OPFOR
+      m_Dimension LAND
+      m_Icons INFANTRY
+      m_Amplifier SQUAD
+     }
+    }
+   }
+   SCR_GroupIdentityComponent "{56366C5C50AD3CF2}" {
+    m_MilitarySymbol SCR_MilitarySymbol "{56366C5C4E32A359}" {
+     m_Icons INFANTRY
+     m_Amplifier SQUAD
+    }
+   }
+   SCR_PreviewEntityComponent "{56368A4E2AE45029}" : "{6CADA7A88A6265FD}Prefabs/Editor/Components/PreviewEntityComponentClass.ct" {
+    m_bRuntime 0
+    m_aEntries {
+     SCR_BasePreviewEntry "{6264D20AB5D4D863}" {
+      m_iParentID -1
+      m_Mesh ""
+      m_Flags 3
+      m_Shape MESH
+      m_iPivotID ""
+      m_vScale 1 1 1
+      m_vPosition 0 0 0
+      m_vAngles 0 0 0
+     }
+     SCR_BasePreviewEntry "{6264D20AB5D4D861}" {
+      m_iParentID 0
+      m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+      m_Flags 0
+      m_Shape PREFAB
+      m_iPivotID ""
+      m_vScale 1 1 1
+      m_vPosition 0 0 0
+      m_vAngles 0 0 0
+     }
+     SCR_BasePreviewEntry "{6264D20AB5D4D867}" {
+      m_iParentID 0
+      m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+      m_Flags 0
+      m_Shape PREFAB
+      m_iPivotID ""
+      m_vScale 1 1 1
+      m_vPosition 3 0 -3
+      m_vAngles 0 0 0
+     }
+     SCR_BasePreviewEntry "{6264D20AB5D4D865}" {
+      m_iParentID 0
+      m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+      m_Flags 0
+      m_Shape PREFAB
+      m_iPivotID ""
+      m_vScale 1 1 1
+      m_vPosition -3 0 -3
+      m_vAngles 0 0 0
+     }
+     SCR_BasePreviewEntry "{6264D20AB5D4D86B}" {
+      m_iParentID 0
+      m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+      m_Flags 0
+      m_Shape PREFAB
+      m_iPivotID ""
+      m_vScale 1 1 1
+      m_vPosition 6 0 -6
+      m_vAngles 0 0 0
+     }
+     SCR_BasePreviewEntry "{6264D20AB5D4D86A}" {
+      m_iParentID 0
+      m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+      m_Flags 0
+      m_Shape PREFAB
+      m_iPivotID ""
+      m_vScale 1 1 1
+      m_vPosition -6 0 -6
+      m_vAngles 0 0 0
+     }
+     SCR_BasePreviewEntry "{6264D20AB5D4D868}" {
+      m_iParentID 0
+      m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+      m_Flags 0
+      m_Shape PREFAB
+      m_iPivotID ""
+      m_vScale 1 1 1
+      m_vPosition 9 0 -9
+      m_vAngles 0 0 0
+     }
+    }
+   }
+  }
+  coords 3397.009 0 5874.341
+  angles 0 -30.831 0
+  m_aUnitPrefabSlots {
+   "{A575758C199662B0}Prefabs/Characters/Factions/OPFOR/TKA/Character_TKA_SL.et"
+   "{3DA88236C1DA39C9}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_SR_Random.et"
+   "{C8FD84932B12C0A3}Prefabs/Characters/Factions/OPFOR/TKA/Character_TKA_AR.et"
+   "{1055ED52529BDEFF}Prefabs/Characters/Factions/OPFOR/TKA/Character_TKA_AT.et"
+   "{58796557E6982151}Prefabs/Characters/Factions/OPFOR/TKA/Character_TKA_AAT.et"
+   "{E43DF362DA97C9B8}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_Rifleman_AK74_Random.et"
+   "{B8B42618A797C1C9}Prefabs/Characters/Factions/OPFOR/TKA/Character_TKA_Medic.et"
+   "{3A44182939C9EA94}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_Sharpshooter_Random.et"
+  }
+  m_sCustomNameSet "Стрелковое отделение"
+ }
+ SQ9 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "1"
+   }
+   PS_GroupCallsignAssigner "{68895D885D341103}" {
+    m_iCompanyCallsign 4
+    m_iSquadCallsign 1
+   }
+   SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+    m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+     Name "#AR-Group_Squad"
+     m_Image "{E4745904C45FC059}UI/Textures/EditorPreviews/Groups/OPFOR/Group_USSR_RifleSquad.edds"
+     m_aAuthoredLabels +{
+     }
+     m_aAutoLabels +{
+     }
+     m_EntityBudgetCost {
+      SCR_EntityBudgetValue "{604482963251834C}" {
+       m_Value 450
+      }
+      SCR_EntityBudgetValue "{609AE1834A64CEC1}" {
+       m_Value 6
+      }
+     }
+     m_EntityChildrenBudgetCost {
+      SCR_EntityBudgetValue "{6264D20AB5D4D84F}" {
+       m_BudgetType AI
+       m_Value 6
+      }
+     }
+     m_bUseUIInfoName 1
+     m_MilitarySymbol SCR_MilitarySymbol "{6264D20AB5D4D871}" {
+      m_Identity OPFOR
+      m_Dimension LAND
+      m_Icons INFANTRY
+      m_Amplifier SQUAD
+     }
+    }
+   }
+   SCR_GroupIdentityComponent "{56366C5C50AD3CF2}" {
+    m_MilitarySymbol SCR_MilitarySymbol "{56366C5C4E32A359}" {
+     m_Icons INFANTRY
+     m_Amplifier SQUAD
+    }
+   }
+   SCR_PreviewEntityComponent "{56368A4E2AE45029}" : "{6CADA7A88A6265FD}Prefabs/Editor/Components/PreviewEntityComponentClass.ct" {
+    m_bRuntime 0
+    m_aEntries {
+     SCR_BasePreviewEntry "{6264D20AB5D4D863}" {
+      m_iParentID -1
+      m_Mesh ""
+      m_Flags 3
+      m_Shape MESH
+      m_iPivotID ""
+      m_vScale 1 1 1
+      m_vPosition 0 0 0
+      m_vAngles 0 0 0
+     }
+     SCR_BasePreviewEntry "{6264D20AB5D4D861}" {
+      m_iParentID 0
+      m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+      m_Flags 0
+      m_Shape PREFAB
+      m_iPivotID ""
+      m_vScale 1 1 1
+      m_vPosition 0 0 0
+      m_vAngles 0 0 0
+     }
+     SCR_BasePreviewEntry "{6264D20AB5D4D867}" {
+      m_iParentID 0
+      m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+      m_Flags 0
+      m_Shape PREFAB
+      m_iPivotID ""
+      m_vScale 1 1 1
+      m_vPosition 3 0 -3
+      m_vAngles 0 0 0
+     }
+     SCR_BasePreviewEntry "{6264D20AB5D4D865}" {
+      m_iParentID 0
+      m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+      m_Flags 0
+      m_Shape PREFAB
+      m_iPivotID ""
+      m_vScale 1 1 1
+      m_vPosition -3 0 -3
+      m_vAngles 0 0 0
+     }
+     SCR_BasePreviewEntry "{6264D20AB5D4D86B}" {
+      m_iParentID 0
+      m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+      m_Flags 0
+      m_Shape PREFAB
+      m_iPivotID ""
+      m_vScale 1 1 1
+      m_vPosition 6 0 -6
+      m_vAngles 0 0 0
+     }
+     SCR_BasePreviewEntry "{6264D20AB5D4D86A}" {
+      m_iParentID 0
+      m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+      m_Flags 0
+      m_Shape PREFAB
+      m_iPivotID ""
+      m_vScale 1 1 1
+      m_vPosition -6 0 -6
+      m_vAngles 0 0 0
+     }
+     SCR_BasePreviewEntry "{6264D20AB5D4D868}" {
+      m_iParentID 0
+      m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+      m_Flags 0
+      m_Shape PREFAB
+      m_iPivotID ""
+      m_vScale 1 1 1
+      m_vPosition 9 0 -9
+      m_vAngles 0 0 0
+     }
+    }
+   }
+  }
+  coords 3120.3 1.4 5936.005
+  angles 0 66.108 0
+  m_aUnitPrefabSlots {
+   "{A575758C199662B0}Prefabs/Characters/Factions/OPFOR/TKA/Character_TKA_SL.et"
+   "{3DA88236C1DA39C9}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_SR_Random.et"
+   "{C8FD84932B12C0A3}Prefabs/Characters/Factions/OPFOR/TKA/Character_TKA_AR.et"
+   "{1055ED52529BDEFF}Prefabs/Characters/Factions/OPFOR/TKA/Character_TKA_AT.et"
+   "{58796557E6982151}Prefabs/Characters/Factions/OPFOR/TKA/Character_TKA_AAT.et"
+   "{E43DF362DA97C9B8}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_Rifleman_AK74_Random.et"
+   "{E43DF362DA97C9B8}Prefabs/Characters/Factions/OPFOR/TKA/Random/Character_TKA_Rifleman_AK74_Random.et"
+  }
+  m_sCustomNameSet "Стрелковое отделение"
+ }
+}

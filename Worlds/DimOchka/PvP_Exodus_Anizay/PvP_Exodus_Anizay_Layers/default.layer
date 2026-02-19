@@ -1,0 +1,58 @@
+SCR_AIWorld : "{3D0FE80570D5BFCC}Prefabs/AI/SCR_AIWorld_Anizay.et" {
+ coords 4437.33 203.939 3401.409
+}
+PerceptionManager PerceptionManager2 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 2638.406 174.488 3521.052
+}
+PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
+ coords 1069.526 178.081 3071.562
+}
+SCR_AIGroup : "{1AAAC000B55465FE}Prefabs/Groups/INDFOR/ION/dim_ION_Elite_Squad.et" {
+ components {
+  PS_GroupCallsignAssigner "{65667AD8889D00E3}" {
+   m_iCompanyCallsign 3
+   m_iSquadCallsign 1
+  }
+ }
+ coords 5338.674 250.5 3413.994
+ angles 0 133.042 0
+ m_aUnitPrefabSlots {
+  "{7190C1CBD3007C3E}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Elite_ION/dim_ION_Elite_SL.et"
+  "{76573B9AB586C6FD}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Elite_ION/dim_ION_Elite_TL.et"
+  "{1C1830D4E184DE2D}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Elite_ION/dim_ION_Elite_AR.et"
+  "{1F19F6D64338C82F}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Elite_ION/dim_ION_Elite_Rifleman.et"
+  "{5ADE3ACC5A6EB107}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Elite_ION/dim_ION_Elite_Rifleman_2.et"
+  "{6A8AAB9EF4CA4EAE}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Elite_ION/dim_ION_Elite_SMAW.et"
+  "{974BDF9B605AC115}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Elite_ION/dim_ION_Elite_Medic.et"
+  "{B73805E442B03186}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Elite_ION/dim_ION_Elite_Marksman.et"
+ }
+}
+$grp SCR_AIGroup : "{4AE969ACF4EFC09C}Prefabs/Groups/INDFOR/ION/dim_ION_STK_Squad.et" {
+ {
+  components {
+   PS_GroupCallsignAssigner "{65667AD8889D00E3}" {
+    m_iCompanyCallsign 1
+   }
+  }
+  coords 5301.05 250.531 3345.478
+  angles 0 -45 0
+  m_aUnitPrefabSlots {
+   "{AEC9840EA78E11E7}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Semi-Elite/dim_ION_STK_SL_3.et"
+   "{A8288D670C2B80B3}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Semi-Elite/dim_ION_STK_TL.et"
+   "{8E01B51117F34FFD}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Semi-Elite/dim_ION_STK_Rifleman_1.et"
+   "{3AFDE830D2BEDE8F}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Semi-Elite/dim_ION_STK_Rifleman_4.et"
+   "{E9893D293318AC54}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Semi-Elite/dim_ION_STK_SMAW.et"
+   "{E5D286AD0454E484}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Semi-Elite/dim_ION_STK_Sapper_2.et"
+   "{A536AFA035B4146D}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Semi-Elite/dim_ION_STK_Medic.et"
+   "{B5A4124F110F3F38}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Semi-Elite/dim_ION_STK_Marksman_2.et"
+  }
+ }
+ {
+  coords 5297.671 250.531 3342.099
+  angles 0 -45 0
+  m_aUnitPrefabSlots {
+   "{428D3323BE5B424B}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Semi-Elite/dim_ION_Officer.et"
+  }
+  m_sCustomNameSet "ION HQ"
+ }
+}

@@ -29,13 +29,19 @@ SCR_ChimeraCharacter : "{76573B9AB586C6FD}Prefabs/Characters/Factions/INDFOR/RHS
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{689B2D43EA87EF4F}" {
-     TargetStorage "Pants/Pants_Trousers_01_DarkBrown.et"
+     TargetStorage "Jacket/flannel_shirt_white_1.et"
+     PrefabsToSpawn {
+      "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{922F95F91943F69A}Prefabs/Items/Equipment/Maps/Map_Paper_01/PaperMap_01_folded_US.et"
+     }
     }
     ItemsInitConfigurationItem "{689B2D43EAE0FA83}" {
      TargetStorage "Pants/Pants_Trousers_01_DarkBrown.et"
+     PrefabsToSpawn {
+      "{61D4F80E49BF9B12}Prefabs/Items/Equipment/Compass/Compass_SY183.et"
+     }
     }
     ItemsInitConfigurationItem "{689B2D43EAF841F3}" {
-     TargetStorage "Jacket/flannel_shirt_white_1.et"
+     TargetStorage "Pants/Pants_Trousers_01_DarkBrown.et"
     }
     ItemsInitConfigurationItem "{689E6D83F89602AF}" {
      TargetStorage "Vest/GD_ION_TL_ShawARC.et/Pouch1/Pouch_avs_front_closed_MCBlk.et"
@@ -43,20 +49,8 @@ SCR_ChimeraCharacter : "{76573B9AB586C6FD}Prefabs/Characters/Factions/INDFOR/RHS
     ItemsInitConfigurationItem "{689E6D8237974471}" {
      TargetStorage "Vest/GD_ION_TL_ShawARC.et/ifak/GD_LV119_Pouch_JSTA_RHS_Black.et"
     }
-    ItemsInitConfigurationItem "{689E807D3698ED84}" {
-     TargetStorage "Vest/GD_ION_TL_ShawARC.et/saw/GD_LV119_Pouch_JSTA_RHS_Black.et"
-    }
     ItemsInitConfigurationItem "{689E6D826BD04590}" {
      TargetStorage "Vest/GD_ION_TL_ShawARC.et/tako2/Pouch_Highspeed_Pistol_MCBlk.et"
-    }
-    ItemsInitConfigurationItem "{689E807D3CEF2893}" {
-     TargetStorage "Vest/GD_ION_TL_ShawARC.et/pistolcamer/Pouch_Highspeed_Pistol_MCBlk.et"
-    }
-    ItemsInitConfigurationItem "{689E807D3838C112}" {
-     TargetStorage "Vest/GD_ION_TL_ShawARC.et/nerd/Pouch_Shaw_Flex_Blk.et"
-     PrefabsToSpawn {
-      "{BD30BE4A3D8B9DAC}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1_last5tracer.et"
-     }
     }
     ItemsInitConfigurationItem "{689E6D8233474F95}" {
      TargetStorage "Vest/GD_ION_TL_ShawARC.et/filbe2/Pouch_PCGEN3_takoPouch_MCBlk.et"
@@ -76,16 +70,34 @@ SCR_ChimeraCharacter : "{76573B9AB586C6FD}Prefabs/Characters/Factions/INDFOR/RHS
       "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
      }
     }
-    ItemsInitConfigurationItem "{689E807D1AC550DE}" {
-     TargetStorage "Vest/GD_ION_TL_ShawARC.et/m67_2/Pouch_Filbe_M67_Base.et"
-     PrefabsToSpawn {
-      "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
-     }
-    }
     ItemsInitConfigurationItem "{689E6D827A21D340}" {
      TargetStorage "Vest/GD_ION_TL_ShawARC.et/m18_1/Pouch_Filbe_M18_2.et"
      PrefabsToSpawn {
       "{3343A055A83CB30D}Prefabs/Weapons/Grenades/M18/Smoke_M18_Red.et"
+     }
+    }
+    ItemsInitConfigurationItem "{689E807D3698ED84}" {
+     TargetStorage "Vest/GD_ION_TL_ShawARC.et/saw/GD_LV119_Pouch_JSTA_RHS_Black.et"
+     PrefabsToSpawn {
+      "{BD30BE4A3D8B9DAC}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1_last5tracer.et" "{F20D1122BC5CD9F2}Prefabs/Weapons/Magazines/glock_magazine/Magazine_9x19_Glock_17rnd.et"
+     }
+    }
+    ItemsInitConfigurationItem "{689E807D3CEF2893}" {
+     TargetStorage "Vest/GD_ION_TL_ShawARC.et/pistolcamer/Pouch_Highspeed_Pistol_MCBlk.et"
+     PrefabsToSpawn {
+      "{F20D1122BC5CD9F2}Prefabs/Weapons/Magazines/glock_magazine/Magazine_9x19_Glock_17rnd.et"
+     }
+    }
+    ItemsInitConfigurationItem "{689E807D3838C112}" {
+     TargetStorage "Vest/GD_ION_TL_ShawARC.et/nerd/Pouch_Shaw_Flex_Blk.et"
+     PrefabsToSpawn {
+      "{BD30BE4A3D8B9DAC}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1_last5tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{689E807D1AC550DE}" {
+     TargetStorage "Vest/GD_ION_TL_ShawARC.et/m67_2/Pouch_Filbe_M67_Base.et"
+     PrefabsToSpawn {
+      "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
      }
     }
     ItemsInitConfigurationItem "{689E807D2F48502A}" {
@@ -97,11 +109,11 @@ SCR_ChimeraCharacter : "{76573B9AB586C6FD}Prefabs/Characters/Factions/INDFOR/RHS
     ItemsInitConfigurationItem "{689E807D5C5AD381}" {
      TargetStorage "Back/GD_DeltaBag_Medic_Black.et"
      PrefabsToSpawn {
-      "{D41D22DD1B8E921E}Prefabs/Weapons/Grenades/M18/Smoke_M18_Green.et" "{D41D22DD1B8E921E}Prefabs/Weapons/Grenades/M18/Smoke_M18_Green.et" "{14C1A0F061D9DDEE}Prefabs/Weapons/Grenades/M18/Smoke_M18_Violet.et" "{14C1A0F061D9DDEE}Prefabs/Weapons/Grenades/M18/Smoke_M18_Violet.et" "{C581ED926D3CD9CE}Prefabs/Items/GasMask/Avon_GasMask.et"
+      "{D41D22DD1B8E921E}Prefabs/Weapons/Grenades/M18/Smoke_M18_Green.et" "{D41D22DD1B8E921E}Prefabs/Weapons/Grenades/M18/Smoke_M18_Green.et" "{14C1A0F061D9DDEE}Prefabs/Weapons/Grenades/M18/Smoke_M18_Violet.et" "{14C1A0F061D9DDEE}Prefabs/Weapons/Grenades/M18/Smoke_M18_Violet.et" "{C581ED926D3CD9CE}Prefabs/Items/GasMask/Avon_GasMask.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et"
      }
     }
    }
   }
  }
- coords 116.569 1 171.528
+ coords 5312.283 250.531 3362.858
 }

@@ -1,6 +1,17 @@
 SCR_ChimeraCharacter : "{C4BD94682D983BA2}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Demi-season/dim_USMC_DS_Rifleman_2.et" {
  ID "520EC961A090B1EE"
  components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{FAE8B9F7CEA49696}Prefabs/Items/Equipment/Binoculars/Rangefinder_Vector21_lc.et"
+      }
+     }
+    }
+   }
+  }
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "#AR-Role_SquadLeader"
@@ -100,5 +111,5 @@ SCR_ChimeraCharacter : "{C4BD94682D983BA2}Prefabs/Characters/Factions/BLUFOR/RHS
    }
   }
  }
- coords 200.065 1 244.285
+ coords 3489.273 223.889 8192.164
 }

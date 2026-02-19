@@ -1,0 +1,27 @@
+SCR_ChimeraCharacter : "{30022753C96FAA6B}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/Winter/dim_VDV_W_Rifleman_2.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_PlatoonLeader"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{323641C91965842E}Prefabs/Characters/HeadGear/Hat_Ushanka_01/Hat_Ushanka_01_unfolded.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68A2CC3209B3FFBE}" {
+     PrefabsToSpawn {
+      "{48B06B12F3BD7E9B}Prefabs/Items/Equipment/Radios/Radio_R187P1_OLD_SL.et"
+     }
+    }
+   }
+  }
+ }
+ coords 5112.023 57.469 3694.567
+}

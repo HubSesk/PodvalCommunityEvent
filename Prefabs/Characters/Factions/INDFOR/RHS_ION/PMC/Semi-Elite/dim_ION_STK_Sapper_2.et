@@ -1,0 +1,38 @@
+SCR_ChimeraCharacter : "{BD6ADFA75A4C369E}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Semi-Elite/dim_ION_STK_Sapper.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{0BBA1208A3732CA7}Prefabs/Characters/HeadGear/Helmet_Exfil/Exfil_ION_6.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{13A76CA95749F75D}Prefabs/Characters/Uniforms/T_Shirts/ION_Shirt/ION_Shirt_Red.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{DD19B3B43F05BFB5}Prefabs/Characters/Uniforms/Pants_Jeans/GD_Jeans_Black.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{689B2D43EA87EF4F}" {
+     TargetStorage "Pants/GD_Jeans_Black.et"
+    }
+    ItemsInitConfigurationItem "{689B2D43EAE0FA83}" {
+     TargetStorage "Pants/GD_Jeans_Black.et"
+     PrefabsToSpawn {
+      "{922F95F91943F69A}Prefabs/Items/Equipment/Maps/Map_Paper_01/PaperMap_01_folded_US.et" "{61D4F80E49BF9B12}Prefabs/Items/Equipment/Compass/Compass_SY183.et"
+     }
+    }
+    ItemsInitConfigurationItem "{689B2D43EAF841F3}" {
+     TargetStorage "Pants/GD_Jeans_Black.et"
+    }
+    ItemsInitConfigurationItem "{689E807542DED578}" {
+     TargetStorage "Vest/GD_ION_JPC_V4.et/m18_1/Pouch_Filbe_M18_2.et"
+    }
+   }
+  }
+ }
+ coords 5312.673 250.531 3363.983
+}

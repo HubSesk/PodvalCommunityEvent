@@ -1,0 +1,83 @@
+SCR_ChimeraCharacter : "{DFA2A3CA1EA36572}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/dim_VDV_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_MachineGunner"
+    Icon "{141B98C585768CC4}UI/Icons/VDV.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{57CD8C476F94E1A8}Prefabs/Weapons/MachineGuns/PKP_Pecheneg/MG_PKP_Pecheneg_1p29_TF.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{981421FB8D641F1D}Prefabs/Characters/HeadGear/RUS_6b47/Prefabs/NoMC/GD_6B47_MaskGoggleON_NoMC.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{E05D8C4D2B36C8F3}Prefabs/Characters/Uniforms/Jacket_6b51_VKPO.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{45DC01791EBE2349}Prefabs/Items/Equipment/Backpacks/backpack_Wartech_BB102/Backpack_Wartech_BB102_EMR.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{CCB46533102B7298}Prefabs/Characters/Vests/Vest_Ratnik_6B45/Variants/Vest_Ratin6B45_BebraPKM_1.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68A2CC320ED36F78}" {
+     TargetStorage "Jacket/Jacket_6b51_VKPO.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC3209B3FFBE}" {
+     TargetStorage "Jacket/Jacket_6b51_VKPO.et"
+     PrefabsToSpawn {
+      "{A2DD1D2EEB52BFC0}Prefabs/Items/Equipment/Radios/Radio_R187P1_OLD_prv.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68A2CC32C0493E3F}" {
+     TargetStorage "Vest/Vest_Ratin6B45_BebraPKM_1.et/PKM1/Pouch_Mordor_PKM_EMR.et"
+     PrefabsToSpawn {
+      "{0EAB3482EA2FD181}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N13.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68A2CC32CCD2E5D3}" {
+     TargetStorage "Vest/Vest_Ratin6B45_BebraPKM_1.et/PKM2/Pouch_Mordor_PKM_EMR.et"
+     PrefabsToSpawn {
+      "{0EAB3482EA2FD181}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N13.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68A2CC32CE7164D0}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{68A2CC32CAA891FB}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{68A2CC32D309BBFC}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{68A2CC32DC4D37DD}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{68A2CC32EE31C4E2}" {
+     TargetStorage "Back/Backpack_Wartech_BB102_EMR.et"
+     PrefabsToSpawn {
+      "{0EAB3482EA2FD181}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N13.et" "{0EAB3482EA2FD181}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N13.et" "{0EAB3482EA2FD181}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N13.et" "{0EAB3482EA2FD181}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N13.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68A2CC32F45F0382}" {
+     TargetStorage "Back/Backpack_Wartech_BB102_EMR.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC32FB0D16CA}" {
+     TargetStorage "Back/Backpack_Wartech_BB102_EMR.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC33048A6D32}" {
+     TargetStorage "Back/Backpack_Wartech_BB102_EMR.et"
+    }
+   }
+  }
+ }
+ coords 5827.804 256.306 5893.792
+}

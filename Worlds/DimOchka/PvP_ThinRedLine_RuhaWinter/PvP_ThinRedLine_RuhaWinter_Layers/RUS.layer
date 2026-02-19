@@ -1,0 +1,360 @@
+$grp Vehicle : "{00AED68EFBF251BA}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered_closed_camo1.et" {
+ Ural4320_transport_covered_closed_camo1 {
+  coords 3795.557 56.375 4426.444
+  angles 0 46.533 0
+ }
+ Ural4320_transport_covered_closed_camo3 {
+  coords 3767.823 56.344 4398.586
+  angles 0 45.655 0
+ }
+ Ural4320_transport_covered_closed_camo2 {
+  coords 3782.178 56.365 4413.197
+  angles 1.265 45.993 0.033
+ }
+ Ural4320_transport_covered_closed_camo5 {
+  coords 3743.689 56.406 4370.22
+  angles 0 36.452 0
+ }
+ Ural4320_transport_covered_closed_camo4 {
+  coords 3755.72 56.375 4385.523
+  angles 0 40.775 0
+ }
+ Ural4320_transport_covered_closed_camo6 {
+  coords 4994.695 56.802 3964.121
+  angles 0 -43.445 0
+ }
+ Ural4320_transport_covered_closed_camo7 {
+  coords 5004.806 56.719 3955.343
+  angles 0 -52.004 0
+ }
+ Ural4320_transport_covered_closed_camo8 {
+  coords 5017.049 56.813 3945.669
+  angles 0 -52.004 0
+ }
+}
+SCR_AIGroup Spez : "{0FC09C311C951395}Prefabs/Groups/OPFOR/drg_AFRF_PlatoonHQ.et" {
+ components {
+  PS_GroupCallsignAssigner "{6454F7D129837B5A}" {
+   m_iCompanyCallsign 4
+  }
+ }
+ coords 3566.774 60.194 5516.193
+ m_aUnitPrefabSlots {
+  "{D60E939D50EC9C7C}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/VDV/dim_VDV_W_Scout_SL_A545.et"
+  "{A9EE9193C987F4BE}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/VDV/dim_VDV_W_Scout_TL_A545.et"
+  "{1BDC798953F8F709}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/VDV/dim_VDV_W_Scout_Rfl_A545.et"
+  "{41EC64DB99E5DE1C}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/VDV/dim_VDV_W_Scout_Rfl_2_RER.et"
+  "{FE2BCA3746F8A21E}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/VDV/Role_Character_AFRF_VDV_Recon_Medic_Winter.et"
+  "{2180097F96D4EBEE}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/VDV/dim_VDV_W_Sniper_2.et"
+ }
+ m_sCustomNameSet "ДРГ"
+}
+Vehicle APC_K17_Berezok1 : "{31F0866273C46D76}Prefabs/Vehicles/Wheeled/K17/APC_K17_Berezok.et" {
+ coords 5122.781 57.558 3696.956
+ angles -1.262 -130.629 -0.097
+ m_sAttachmentGroupName "s1"
+}
+$grp SCR_AIGroup : "{3EDA372443FD105F}Prefabs/Groups/OPFOR/drg_AFRF_RifleSquad.et" {
+ {
+  components {
+   PS_GroupCallsignAssigner "{6454F7D129837B5A}" {
+    m_iCompanyCallsign 1
+    m_iSquadCallsign 1
+   }
+  }
+  coords 3828.692 55.436 4372.546
+  angles 0 -87.059 0
+  m_aUnitPrefabSlots {
+   "{8FB863378D0E8D36}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/Winter/dim_VDV_W_SL.et"
+   "{F2A08FCFE89DB1AF}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/Winter/dim_VDV_W_SR.et"
+   "{3A98FBE9C6033179}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/Winter/dim_VDV_W_AT.et"
+   "{4E92206110E51817}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/Winter/dim_VDV_W_AAT.et"
+   "{6E829D010D6F15E9}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/Winter/dim_VDV_W_MG_Opt.et"
+   "{E69323DEDFD15D62}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/Winter/dim_VDV_W_Rifleman.et"
+   "{30022753C96FAA6B}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/Winter/dim_VDV_W_Rifleman_2.et"
+   "{3E53C8165803F3EA}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/Winter/dim_VDV_W_Sniper_SVDM.et"
+  }
+ }
+ {
+  components {
+   PS_GroupCallsignAssigner "{6454F7D129837B5A}" {
+    m_iCompanyCallsign 1
+    m_iSquadCallsign 2
+   }
+  }
+  coords 3816.434 55.436 4369.729
+  angles 0 2.941 0
+  m_aUnitPrefabSlots {
+   "{8FB863378D0E8D36}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/Winter/dim_VDV_W_SL.et"
+   "{F2A08FCFE89DB1AF}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/Winter/dim_VDV_W_SR.et"
+   "{3A98FBE9C6033179}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/Winter/dim_VDV_W_AT.et"
+   "{4E92206110E51817}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/Winter/dim_VDV_W_AAT.et"
+   "{6E829D010D6F15E9}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/Winter/dim_VDV_W_MG_Opt.et"
+   "{E69323DEDFD15D62}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/Winter/dim_VDV_W_Rifleman.et"
+   "{30022753C96FAA6B}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/Winter/dim_VDV_W_Rifleman_2.et"
+   "{3E53C8165803F3EA}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/Winter/dim_VDV_W_Sniper_SVDM.et"
+  }
+ }
+ {
+  components {
+   PS_GroupCallsignAssigner "{6454F7D129837B5A}" {
+    m_iCompanyCallsign 1
+   }
+  }
+  coords 3805.359 56.375 4442.438
+  angles 0 135.617 0
+  m_aUnitPrefabSlots {
+   "{8FB863378D0E8D36}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/Winter/dim_VDV_W_SL.et"
+   "{F2A08FCFE89DB1AF}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/Winter/dim_VDV_W_SR.et"
+   "{3A98FBE9C6033179}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/Winter/dim_VDV_W_AT.et"
+   "{4E92206110E51817}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/Winter/dim_VDV_W_AAT.et"
+   "{6E829D010D6F15E9}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/Winter/dim_VDV_W_MG_Opt.et"
+   "{E69323DEDFD15D62}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/Winter/dim_VDV_W_Rifleman.et"
+   "{30022753C96FAA6B}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/Winter/dim_VDV_W_Rifleman_2.et"
+   "{3213C5E20196142D}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/Winter/dim_VDV_W_Scout_VSS.et"
+  }
+ }
+ {
+  components {
+   PS_GroupCallsignAssigner "{6454F7D129837B5A}" {
+    m_iPlatoonCallsign 1
+   }
+  }
+  coords 4984.511 56.913 3977.841
+  angles 0 92.941 0
+  m_aUnitPrefabSlots {
+   "{8FB863378D0E8D36}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/Winter/dim_VDV_W_SL.et"
+   "{F2A08FCFE89DB1AF}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/Winter/dim_VDV_W_SR.et"
+   "{3A98FBE9C6033179}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/Winter/dim_VDV_W_AT.et"
+   "{4E92206110E51817}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/Winter/dim_VDV_W_AAT.et"
+   "{6E829D010D6F15E9}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/Winter/dim_VDV_W_MG_Opt.et"
+   "{E69323DEDFD15D62}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/Winter/dim_VDV_W_Rifleman.et"
+   "{30022753C96FAA6B}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/Winter/dim_VDV_W_Rifleman_2.et"
+   "{3213C5E20196142D}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/Winter/dim_VDV_W_Scout_VSS.et"
+  }
+ }
+ {
+  components {
+   PS_GroupCallsignAssigner "{6454F7D129837B5A}" {
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 1
+   }
+  }
+  coords 4991.111 56.913 3959.475
+  angles 0 37.874 0
+  m_aUnitPrefabSlots {
+   "{8FB863378D0E8D36}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/Winter/dim_VDV_W_SL.et"
+   "{F2A08FCFE89DB1AF}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/Winter/dim_VDV_W_SR.et"
+   "{3A98FBE9C6033179}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/Winter/dim_VDV_W_AT.et"
+   "{4E92206110E51817}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/Winter/dim_VDV_W_AAT.et"
+   "{6E829D010D6F15E9}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/Winter/dim_VDV_W_MG_Opt.et"
+   "{E69323DEDFD15D62}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/Winter/dim_VDV_W_Rifleman.et"
+   "{30022753C96FAA6B}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/Winter/dim_VDV_W_Rifleman_2.et"
+   "{3213C5E20196142D}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/Winter/dim_VDV_W_Scout_VSS.et"
+  }
+ }
+ {
+  components {
+   PS_GroupCallsignAssigner "{6454F7D129837B5A}" {
+    m_iCompanyCallsign 3
+    m_iPlatoonCallsign 1
+   }
+  }
+  coords 5113.713 58.188 3866.109
+  angles 0 35.674 0
+  m_aUnitPrefabSlots {
+   "{8FB863378D0E8D36}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/Winter/dim_VDV_W_SL.et"
+   "{F2A08FCFE89DB1AF}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/Winter/dim_VDV_W_SR.et"
+   "{3A98FBE9C6033179}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/Winter/dim_VDV_W_AT.et"
+   "{4E92206110E51817}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/Winter/dim_VDV_W_AAT.et"
+   "{6E829D010D6F15E9}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/Winter/dim_VDV_W_MG_Opt.et"
+   "{E69323DEDFD15D62}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/Winter/dim_VDV_W_Rifleman.et"
+   "{30022753C96FAA6B}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/Winter/dim_VDV_W_Rifleman_2.et"
+   "{3213C5E20196142D}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/Winter/dim_VDV_W_Scout_VSS.et"
+  }
+ }
+ s1 {
+  components {
+   PS_GroupCallsignAssigner "{6454F7D129837B5A}" {
+    m_iCompanyCallsign 3
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 1
+   }
+  }
+  coords 5105.293 57.531 3694.905
+  angles 0 37.874 0
+  m_aUnitPrefabSlots {
+   "{8FB863378D0E8D36}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/Winter/dim_VDV_W_SL.et"
+   "{F2A08FCFE89DB1AF}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/Winter/dim_VDV_W_SR.et"
+   "{3A98FBE9C6033179}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/Winter/dim_VDV_W_AT.et"
+   "{4E92206110E51817}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/Winter/dim_VDV_W_AAT.et"
+   "{6E829D010D6F15E9}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/Winter/dim_VDV_W_MG_Opt.et"
+   "{E69323DEDFD15D62}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/Winter/dim_VDV_W_Rifleman.et"
+   "{30022753C96FAA6B}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/Winter/dim_VDV_W_Rifleman_2.et"
+   "{BE367C222679FCED}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_CrewCommander.et"
+   "{F6339F4933B793A5}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_CrewDriver.et"
+  }
+ }
+ {
+  components {
+   PS_GroupCallsignAssigner "{6454F7D129837B5A}" {
+    m_iCompanyCallsign 3
+   }
+  }
+  coords 5111.779 58.188 3867.474
+  angles 0 35.674 0
+  m_aUnitPrefabSlots {
+   "{16A6DAAE90E9BCA6}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/Winter/dim_VDV_W_PL.et"
+  }
+  m_sCustomNameSet "#DRG-Sq-PlatoonHQ"
+ }
+ {
+  coords 4988.893 57.021 3980.988
+  angles 0 14.388 0
+  m_aUnitPrefabSlots {
+   "{16A6DAAE90E9BCA6}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/Winter/dim_VDV_W_PL.et"
+  }
+  m_sCustomNameSet "#DRG-Sq-PlatoonHQ"
+ }
+}
+$grp SCR_AIGroup : "{52DBD8AD794AA412}Prefabs/Groups/OPFOR/drg_AFRF_CompanyHQ.et" {
+ {
+  coords 3808.69 56.375 4440.584
+  angles 0 47.268 0
+  m_aUnitPrefabSlots {
+   "{B8DD8AAD2BA1692B}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/Winter/dim_VDV_W_Officer.et"
+  }
+ }
+ {
+  components {
+   PS_GroupCallsignAssigner "{6454F7D129837B5A}" {
+    m_iCompanyCallsign 4
+    m_iPlatoonCallsign 1
+   }
+  }
+  coords 4967.913 57.74 4937.509
+  angles 0 -75 0
+  m_aUnitPrefabSlots {
+   "{B7A545F6ADBEE497}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/dim_VDV_Pilot_Unarmed.et"
+   "{B7A545F6ADBEE497}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/dim_VDV_Pilot_Unarmed.et"
+  }
+  m_sCustomNameSet "Пилоты"
+ }
+}
+$grp Vehicle : "{97E8F1B9B70AF2BA}Prefabs/Vehicles/Wheeled/TIGR/KORD/drg_GAZ_TIGR_v2_KORD_Tan_FLAG.et" {
+ drg_GAZ_TIGR_v2_KORD_Tan_FLAG1 {
+  components {
+   MeshObject "{51DAA09FEFBFC0E7}" {
+    Materials {
+     MaterialAssignClass "{62231CDD4DA00603}" {
+      SourceMaterial "ext_1"
+      AssignedMaterial "{3AC54FFA1F53A87C}Assets/Vehicles/Wheeled/GAZ_TIGR_233014/Data/Ext1/ext_1_Multi.emat"
+     }
+     MaterialAssignClass "{62231CDD4DA0062F}" {
+      SourceMaterial "ext_2"
+      AssignedMaterial "{E97F91D9C92A68D2}Assets/Vehicles/Wheeled/GAZ_TIGR_233014/Data/Ext2/ext_2_Multi_Burned.emat"
+     }
+     MaterialAssignClass "{62231CDD4DA039D9}" {
+      SourceMaterial "ext_3"
+      AssignedMaterial "{695CB5C19E0EB16E}Assets/Vehicles/Wheeled/GAZ_TIGR_233014/Data/Ext3/ext_3_Multi.emat"
+     }
+     MaterialAssignClass "{62231CDD4DA039DE}" {
+      SourceMaterial "ext_4"
+      AssignedMaterial "{40FE85162EF83AC2}Assets/Vehicles/Wheeled/GAZ_TIGR_233014/Data/Ext4/ext_4_Multi.emat"
+     }
+    }
+   }
+   SlotManagerComponent "{55BCE45E438E4CFF}" {
+    Slots {
+     EntitySlotInfo Flag {
+     }
+     EntitySlotInfo Palka1 {
+     }
+    }
+   }
+  }
+  coords 3803.877 56.375 4434.578
+  angles 0 45.153 0
+ }
+ drg_GAZ_TIGR_v2_KORD_Tan_FLAG2 {
+  components {
+   MeshObject "{51DAA09FEFBFC0E7}" {
+    Materials {
+     MaterialAssignClass "{62231CDD4DA00603}" {
+      SourceMaterial "ext_1"
+      AssignedMaterial "{3AC54FFA1F53A87C}Assets/Vehicles/Wheeled/GAZ_TIGR_233014/Data/Ext1/ext_1_Multi.emat"
+     }
+     MaterialAssignClass "{62231CDD4DA0062F}" {
+      SourceMaterial "ext_2"
+      AssignedMaterial "{E97F91D9C92A68D2}Assets/Vehicles/Wheeled/GAZ_TIGR_233014/Data/Ext2/ext_2_Multi_Burned.emat"
+     }
+     MaterialAssignClass "{62231CDD4DA039D9}" {
+      SourceMaterial "ext_3"
+      AssignedMaterial "{695CB5C19E0EB16E}Assets/Vehicles/Wheeled/GAZ_TIGR_233014/Data/Ext3/ext_3_Multi.emat"
+     }
+     MaterialAssignClass "{62231CDD4DA039DE}" {
+      SourceMaterial "ext_4"
+      AssignedMaterial "{40FE85162EF83AC2}Assets/Vehicles/Wheeled/GAZ_TIGR_233014/Data/Ext4/ext_4_Multi.emat"
+     }
+    }
+   }
+   SlotManagerComponent "{55BCE45E438E4CFF}" {
+    Slots {
+     EntitySlotInfo Flag {
+     }
+     EntitySlotInfo Palka1 {
+     }
+    }
+   }
+  }
+  coords 4988.956 56.954 3973.033
+  angles 0 -3.746 0
+ }
+}
+$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ spec1 {
+  coords 3564.093 59.43 5516.986
+  angles 0 90 0
+  m_sImageSetGlow "{E23427CAC80DA8B7}UI/Textures/Icons/icons_mapMarkersUI.imageset"
+  m_MarkerColor 0.502 0 0 1
+  m_sQuadName "mark-question"
+  m_fWorldSize 170
+  m_sDescription "Возможное появление ДРГ"
+  m_aVisibleForFactions {
+   "RHS_USAF"
+   "RHS_AFRF"
+   ""
+  }
+  m_bVisibleForEmptyFaction 1
+ }
+ spec2 {
+  coords 4627.601 73.544 6145.349
+  angles 0 90 0
+  m_sImageSetGlow "{E23427CAC80DA8B7}UI/Textures/Icons/icons_mapMarkersUI.imageset"
+  m_MarkerColor 0.502 0 0 1
+  m_sQuadName "mark-question"
+  m_fWorldSize 170
+  m_sDescription "Возможное появление ДРГ"
+  m_aVisibleForFactions {
+   "RHS_USAF"
+   "RHS_AFRF"
+   ""
+  }
+  m_bVisibleForEmptyFaction 1
+ }
+ spec3 {
+  coords 5661 53.988 6082.063
+  angles 0 90 0
+  m_sImageSetGlow "{E23427CAC80DA8B7}UI/Textures/Icons/icons_mapMarkersUI.imageset"
+  m_MarkerColor 0.502 0 0 1
+  m_sQuadName "mark-question"
+  m_fWorldSize 170
+  m_sDescription "Возможное появление ДРГ"
+  m_aVisibleForFactions {
+   "RHS_USAF"
+   "RHS_AFRF"
+   ""
+  }
+  m_bVisibleForEmptyFaction 1
+ }
+}

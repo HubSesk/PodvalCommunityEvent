@@ -1,0 +1,52 @@
+SCR_ChimeraCharacter : "{14DA791F201A3674}Prefabs/Characters/Factions/INDFOR/CIV/dim_Defector.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Icon "{B0B3E06A17B8AC6D}UI/Icons/officer.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
+   WeaponTemplate "{1353C6EAD1DCFE43}Prefabs/Weapons/Handguns/M9/Handgun_M9.et"
+  }
+  SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
+   Identity Identity "{5584CBC6363C648B}" {
+    VisualIdentity VisualIdentity "{56E6D9456009D1C4}" {
+     Head "{0F6C19B0574DCBCA}Prefabs/Characters/Heads/Head_White_03.et"
+    }
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{E18CFBECB99AE4E3}Prefabs/Characters/Headwear/ACU_beret/ACU_beret.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{E5BE663442A4621A}Prefabs/Characters/Uniforms/ACU_jacket/ACU_jacket_UCP.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{DA9F58F75CE6E234}Prefabs/Characters/Uniforms/ACU_pants/ACU_pants_UCP.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{8CDC9308C265ECCB}Prefabs/Characters/Footwear/ACU_boots/ACU_boots1_base.et"
+    }
+    LoadoutSlotInfo Vest {
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{60DCBCECAC6C6E65}" {
+     TargetStorage "Jacket/ACU_jacket_UCP.et"
+     PrefabsToSpawn + {
+      "{9C05543A503DB80E}Prefabs/Weapons/Magazines/Magazine_9x19_M9_15rnd_Ball.et" "{9C05543A503DB80E}Prefabs/Weapons/Magazines/Magazine_9x19_M9_15rnd_Ball.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6454F7A57B363F47}" {
+     TargetStorage "Pants/ACU_pants_UCP.et"
+    }
+   }
+  }
+ }
+ coords 5327.717 250.531 3380.447
+}
