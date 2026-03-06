@@ -1,0 +1,88 @@
+SCR_ChimeraCharacter : "{D97F30826A9347B8}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/dim_VDV_SR.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{BCEA0EB0D764D8DD}Prefabs/Items/Equipment/Binoculars/Rangefinder_PDU4.et"
+      }
+     }
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_SquadLeader"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{8026745EB28227B0}Prefabs/Weapons/AK200/AK200_VDV_1.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{DC1C620336F0283A}Prefabs/Characters/HeadGear/RUS_6b47/Prefabs/NoMC/GD_6B47_MaskGoggle_NoMC.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{A6B9DDC35384FE80}Prefabs/Items/Equipment/Backpacks/Backpack_Suharka_type2.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{929061F65710ADFB}Prefabs/Characters/Vests/6B45_Kits/GD_6B45_SL.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68A2CC3209B3FFBE}" {
+     TargetStorage "Vest/GD_6B45_SL.et/arsbelt/Pouch_AVS_MBITR_Radio_EMR.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC32C0493E3F}" {
+     Enabled 1
+     TargetStorage "Vest/GD_6B45_SL.et/placard/Pouch_wartech_magpouch_mp105_EMR.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC32CCD2E5D3}" {
+     TargetStorage "Vest/GD_6B45_SL.et/up101/Pouch_wartech_magpouch_mp105_3_EMR.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC32CE7164D0}" {
+     TargetStorage "Back/Backpack_Suharka_type2.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC32CAA891FB}" {
+     TargetStorage "Vest/GD_6B45_SL.et/holster/Pouch_wartech_magpouch_mp117_emr_3.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC32D309BBFC}" {
+     TargetStorage "Vest/GD_6B45_SL.et/pistol2/Pouch_wartech_magpouch_mp117_emr_3.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC32DC4D37DD}" {
+     TargetStorage "Vest/GD_6B45_SL.et/grenade2/Pouch_MP118_PistolTako2_EMR.et"
+     PrefabsToSpawn {
+      "{A5E373A524710040}Prefabs/Weapons/Magazines/MP443/Magazine_9x19_MP443_17rnd_7N31.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68A2CC32EE31C4E2}" {
+     TargetStorage "Back/Backpack_Suharka_type2.et"
+     PrefabsToSpawn + {
+      "{B39F57E7FB003434}Prefabs/Weapons/Magazines/AK12_magazine/Magazine_545x39_AK12_30rnd_Base.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68A2CC32F45F0382}" {
+     TargetStorage "Vest/GD_6B45_SL.et/Grenade/Pouch_GP106_RGD_Pouch_EMR.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC32FB0D16CA}" {
+     TargetStorage "Vest/GD_6B45_SL.et/Grenadus/Pouch_GP106_RGD_Pouch_EMR.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC33048A6D32}" {
+     TargetStorage "Back/Backpack_Suharka_type2.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC33A2CB989F}" {
+     TargetStorage "Vest/GD_6B45_SL.et/medkit/Pouch_HP103_Holster_EMR.et"
+     PrefabsToSpawn {
+      "{A8B4089ACB473848}Prefabs/Weapons/Handguns/MP443/Handgun_MP443.et"
+     }
+    }
+   }
+  }
+ }
+ coords 3800.435 57.038 4221.222
+}

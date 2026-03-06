@@ -1,0 +1,47 @@
+SCR_ChimeraCharacter : "{07C9CD08A7D257B8}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Semi-Elite/dim_ION_STK_Rifleman_3.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#DRG_ION_LAT"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   AttachType InventoryStorageSlot "{0C3DA650B52E127A}" {
+    Offset 0.0589 -0.228 0.1
+    Angles 68.393 172.3463 -7.1214
+   }
+   WeaponTemplate "{9C5C20FB0E01E64F}Prefabs/Weapons/Launchers/M72/Launcher_M72A3.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Jacket {
+     Prefab "{1041CDB35E2006FA}Prefabs/Characters/Uniforms/Parka_Night/Night_parka_ion1.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{8798949C614C95A5}Prefabs/Characters/Uniforms/Pants_Jeans/GD_Jeans_Navy.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab ""
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{689B2D43EA87EF4F}" {
+     TargetStorage "Pants/GD_Jeans_Navy.et"
+    }
+    ItemsInitConfigurationItem "{689B2D43EAE0FA83}" {
+     TargetStorage "Jacket/Night_parka_ion1.et"
+    }
+    ItemsInitConfigurationItem "{689B2D43EAF841F3}" {
+     TargetStorage "Jacket/Night_parka_ion1.et"
+    }
+    ItemsInitConfigurationItem "{689E807542DED578}" {
+     TargetStorage "Pants/GD_Jeans_Navy.et"
+    }
+   }
+  }
+ }
+ coords 5320.601 250.531 3370.537
+}

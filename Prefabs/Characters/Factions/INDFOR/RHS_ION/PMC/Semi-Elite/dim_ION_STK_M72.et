@@ -1,0 +1,51 @@
+SCR_ChimeraCharacter : "{E9893D293318AC54}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Semi-Elite/dim_ION_STK_SMAW.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{BF9E0AD668E4B117}Prefabs/Weapons/M4A1/M4_PMC_4.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   AttachType InventoryStorageSlot "{0C3DA650B52E127A}" {
+    Offset 0.1269 -0.2424 0.1057
+    Angles 68.393 172.3463 -7.1214
+   }
+   WeaponTemplate "{9C5C20FB0E01E64F}Prefabs/Weapons/Launchers/M72/Launcher_M72A3.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Jacket {
+     Prefab "{9085DD1F36E4F876}Prefabs/Characters/Uniforms/Parka_Night/Night_parka_ion2.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{DD19B3B43F05BFB5}Prefabs/Characters/Uniforms/Pants_Jeans/GD_Jeans_Black.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab ""
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{689B2D43EA87EF4F}" {
+     TargetStorage "Pants/GD_Jeans_Black.et"
+    }
+    ItemsInitConfigurationItem "{689B2D43EAE0FA83}" {
+     TargetStorage "Jacket/Night_parka_ion2.et"
+     PrefabsToSpawn {
+      "{922F95F91943F69A}Prefabs/Items/Equipment/Maps/Map_Paper_01/PaperMap_01_folded_US.et" "{61D4F80E49BF9B12}Prefabs/Items/Equipment/Compass/Compass_SY183.et"
+     }
+    }
+    ItemsInitConfigurationItem "{689B2D43EAF841F3}" {
+     TargetStorage "Jacket/Night_parka_ion2.et"
+    }
+    ItemsInitConfigurationItem "{689E6D827A21D340}" {
+     TargetStorage "Pants/GD_Jeans_Black.et"
+    }
+    ItemsInitConfigurationItem "{689E8077D6243685}" {
+     Enabled 0
+    }
+   }
+  }
+ }
+ coords 5325.292 250.531 3372.807
+}

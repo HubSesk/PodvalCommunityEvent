@@ -1,0 +1,71 @@
+SCR_ChimeraCharacter : "{7942754277E36531}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/dim_VDV_Scout_VSS.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_Sharpshooter"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{55EA85AD2C463025}Prefabs/Weapons/SVD/dim_SVDM.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{A5ADF9B6B8E27D27}Prefabs/Characters/HeadGear/RUS_6b47/Prefabs/Winter/GD_6B47_Cover_White_Mask_Winter.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{8497ED66028B6865}Prefabs/Characters/Uniforms/6SH122_Suit/GD_SH122_Suit_Klyaksa.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab ""
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68A2CC320EE0CC0E}" {
+     TargetStorage "Jacket/GD_SH122_Suit_Klyaksa.et"
+     PrefabsToSpawn {
+      "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et" "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68A2CC320EF5FDA1}" {
+     TargetStorage "Jacket/GD_SH122_Suit_Klyaksa.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC3209B3FFBE}" {
+     TargetStorage "Jacket/GD_SH122_Suit_Klyaksa.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC32CE7164D0}" {
+     PrefabsToSpawn {
+      "{1F9F751F318EBEB0}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68A2CC32CAA891FB}" {
+     PrefabsToSpawn {
+      "{1F9F751F318EBEB0}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68A2CC32D309BBFC}" {
+     PrefabsToSpawn {
+      "{1F9F751F318EBEB0}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68A2CC32DC4D37DD}" {
+     PrefabsToSpawn {
+      "{1F9F751F318EBEB0}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68A2CC32EE31C4E2}" {
+     PrefabsToSpawn {
+      "{1F9F751F318EBEB0}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et" "{1F9F751F318EBEB0}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et" "{1F9F751F318EBEB0}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et" "{1F9F751F318EBEB0}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et" "{F5347DE84CA1E3EE}Prefabs/Characters/HeadGear/Hat_VDV_Beret/Hat_VDV_Beret.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68A2CC33048A6D32}" {
+     TargetStorage "Jacket/GD_SH122_Suit_Klyaksa.et"
+    }
+   }
+  }
+ }
+ coords 3813.12 54.987 4384.458
+}

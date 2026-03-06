@@ -10,10 +10,10 @@ SCR_ChimeraCharacter : "{59AD12E2838C02FF}Prefabs/Characters/Factions/OPFOR/AFRF
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Jacket {
-     Prefab "{47976892D8FD78DC}TEST/Prefabs/Uniforms/6SH122_Suit/GD_6SH122_Suit_Hood_Winter_Mask.et"
+     Prefab "{47976892D8FD78DC}Prefabs/Characters/Uniforms/6SH122_Suit/GD_6SH122_Suit_Hood_Winter_Mask.et"
     }
     LoadoutSlotInfo Back {
-     Prefab "{16C33B978687D448}TEST/Prefabs/Items/Equipment/Backpacks/Spiritus_System_DeltaBag/GD_DeltaBag_MC_Medic.et"
+     Prefab "{16C33B978687D448}Prefabs/Items/Equipment/Backpacks/Spiritus_System_DeltaBag/GD_DeltaBag_MC_Medic.et"
     }
    }
   }
@@ -21,18 +21,22 @@ SCR_ChimeraCharacter : "{59AD12E2838C02FF}Prefabs/Characters/Factions/OPFOR/AFRF
    InitialInventoryItems {
     ItemsInitConfigurationItem "{684866B252AD4194}" {
      TargetStorage "Jacket/GD_6SH122_Suit_Hood_Winter_Mask.et"
+     PrefabsToSpawn {
+      "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et" "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
+     }
     }
     ItemsInitConfigurationItem "{684866B25291690C}" {
-     TargetStorage "Jacket/GD_6SH122_Suit_Hood_Winter.et"
+     TargetStorage "Jacket/GD_6SH122_Suit_Hood_Winter_Mask.et"
+     PrefabsToSpawn {
+      "{F849217AB3BA88BE}Prefabs/Items/Equipment/Maps/Map_Paper_01/PaperMap_01_folded_USSR.et" "{7CEF68E2BC68CE71}Prefabs/Items/Equipment/Compass/Compass_Adrianov.et" "{65506D3712FA2D29}Prefabs/Weapons/Attachments/Bayonets/Bayonet_6X9-1.et"
+     }
     }
     ItemsInitConfigurationItem "{684866B252EDB9F6}" {
      TargetStorage "Jacket/GD_6SH122_Suit_Hood_Winter.et"
     }
     ItemsInitConfigurationItem "{684866B26F61191C}" {
-     TargetStorage "Jacket/GD_6SH122_Suit_Hood_Winter.et"
     }
     ItemsInitConfigurationItem "{684866B26A1B97C2}" {
-     TargetStorage "Jacket/GD_6SH122_Suit_Hood_Winter.et"
     }
     ItemsInitConfigurationItem "{6848C38896539ED1}" {
      TargetStorage "Back/GD_DeltaBag_MC_Medic.et"
@@ -43,5 +47,5 @@ SCR_ChimeraCharacter : "{59AD12E2838C02FF}Prefabs/Characters/Factions/OPFOR/AFRF
    }
   }
  }
- coords 597.132 6.181 1001.027
+ coords 4153.02 54.06 4464.845
 }

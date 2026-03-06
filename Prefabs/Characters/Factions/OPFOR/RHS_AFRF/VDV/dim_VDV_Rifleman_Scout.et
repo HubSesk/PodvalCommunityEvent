@@ -1,0 +1,78 @@
+SCR_ChimeraCharacter : "{EEC06B86B0C9154F}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/dim_VDV_Rifleman_2.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{BCEA0EB0D764D8DD}Prefabs/Items/Equipment/Binoculars/Rangefinder_PDU4.et"
+      }
+     }
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#DRG_Role-Saboteur"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{9793E32071941967}Prefabs/Weapons/AK200/AK200_SpecOps.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{E99CE27215107149}Prefabs/Characters/HeadGear/RUS_6b47/Prefabs/NoMC/GD_6B47_MaskClosed_NoMC.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{CAEDE923EF4071AE}Prefabs/Items/Equipment/Backpacks/Backpack_Suharka_type1.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{A42CF4BFDA7A07CB}Prefabs/Characters/Vests/6B45_Kits/GD_6B45_Rifleman_3.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{E9BD1B8888B6F37D}Prefabs/Characters/Handwear/Ratnik_gloves/Ratnik_gloves.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68A2CC3209B3FFBE}" {
+     TargetStorage "Jacket/Jacket_VKPO.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC32C0493E3F}" {
+     TargetStorage "Vest/GD_6B45_Rifleman_3.et/arsbelt/Pouch_wartech_magpouch_mp105_EMR.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC32CCD2E5D3}" {
+     TargetStorage "Vest/GD_6B45_Rifleman_3.et/arsbelt2/Pouch_wartech_magpouch_mp105_EMR.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC32CE7164D0}" {
+     TargetStorage "Vest/GD_6B45_Rifleman_3.et/arsbelt3/Pouch_wartech_magpouch_mp105_EMR.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC32CAA891FB}" {
+     TargetStorage "Vest/GD_6B45_Rifleman_3.et/placard2/Pouch_wartech_magpouch_mp105_3_EMR.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC32D309BBFC}" {
+     TargetStorage "Vest/GD_6B45_Rifleman_3.et/placard3/Pouch_wartech_magpouch_mp105_3_EMR.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC32DC4D37DD}" {
+     TargetStorage "Vest/GD_6B45_Rifleman_3.et/placard/Pouch_wartech_magpouch_mp105_EMR.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC32EE31C4E2}" {
+     TargetStorage "Back/Backpack_Suharka_type1.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC32F45F0382}" {
+     TargetStorage "Vest/GD_6B45_Rifleman_3.et/grenade2/Pouch_GP106_RGD_Pouch_EMR.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC32FB0D16CA}" {
+     TargetStorage "Vest/GD_6B45_Rifleman_3.et/grenade/Pouch_GP106_RGD_Pouch_2_EMR.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC33048A6D32}" {
+     TargetStorage "Back/Backpack_Suharka_type1.et"
+    }
+   }
+  }
+ }
+ coords 5815.249 256.634 5902.693
+}

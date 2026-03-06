@@ -1,0 +1,223 @@
+Vehicle M998_covered_USAF_D1 : "{3F5936DB9D87969C}Prefabs/Vehicles/Wheeled/M998/M998_covered_USAF_D.et" {
+ coords 7538.71 0 6351.093
+ angles 0 -51.081 0
+ m_sAttachmentGroupName "AMER1"
+}
+SCR_AIGroup AMER1 : "{4A02B745F553821E}Prefabs/Groups/BLUFOR/drg_USAF_CompanyHQ.et" {
+ coords 7533.369 0 6346.966
+ angles 0 41.244 0
+ m_aUnitPrefabSlots {
+  "{6B87FF13A848B17B}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/dim_Role_Character_USAF_USMC_Officer.et"
+ }
+}
+$grp Vehicle : "{533820E8979A44A9}Prefabs/Vehicles/Wheeled/M998/M1151_armed_M2HB_Tan.et" {
+ M1151_armed_M2HB_Tan1 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{66F2D69AD3FC9116}" {
+      SlotTemplate InventoryStorageSlot M2Ammo {
+       Prefab "{C820846B0521423B}Prefabs/Weapons/Magazines/Box_127x99_M2_100rnd_4AP_1APIT.et"
+      }
+     }
+    }
+   }
+  }
+  coords 7547.846 0 6344.181
+  angles 0 -51.081 0
+  m_sAttachmentGroupName "AMER2"
+ }
+ M1151_armed_M2HB_Tan4 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{66F2D69AD3FC9116}" {
+      SlotTemplate InventoryStorageSlot M2Ammo {
+       Prefab "{C820846B0521423B}Prefabs/Weapons/Magazines/Box_127x99_M2_100rnd_4AP_1APIT.et"
+      }
+     }
+    }
+   }
+  }
+  coords 7573.21 0 6324.037
+  angles 0 -51.081 0
+  m_sAttachmentGroupName "AMER3"
+ }
+ M1151_armed_M2HB_Tan2 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{66F2D69AD3FC9116}" {
+      SlotTemplate InventoryStorageSlot M2Ammo {
+       Prefab "{C820846B0521423B}Prefabs/Weapons/Magazines/Box_127x99_M2_100rnd_4AP_1APIT.et"
+      }
+     }
+    }
+   }
+  }
+  coords 7555.875 0 6337.573
+  angles 0 -51.081 0
+  m_sAttachmentGroupName "AMER2"
+ }
+ M1151_armed_M2HB_Tan3 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{66F2D69AD3FC9116}" {
+      SlotTemplate InventoryStorageSlot M2Ammo {
+       Prefab "{C820846B0521423B}Prefabs/Weapons/Magazines/Box_127x99_M2_100rnd_4AP_1APIT.et"
+      }
+     }
+    }
+   }
+  }
+  coords 7588.729 0 6311.461
+  angles 0 -51.081 0
+  m_sAttachmentGroupName "AMER4"
+ }
+}
+$grp SCR_AIGroup : "{5C0A715396F27175}Prefabs/Groups/BLUFOR/USMC/USMC_RifleSquad_1.et" {
+ AMER5 {
+  components {
+   PS_GroupCallsignAssigner "{65667AD8889D00E3}" {
+    m_iCompanyCallsign 1
+    m_iSquadCallsign 2
+   }
+  }
+  coords 7577.09 0 6312.441
+  angles 0 38.136 0
+  m_aUnitPrefabSlots {
+   "{94D32EE566A604D4}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Modern_2020/dim_USMC_Modern_D_SL.et"
+   "{77DDB3A4441099F7}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Modern_2020/dim_USMC_Modern_D_TL_1.et"
+   "{AB4C01E03A6DB224}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Modern_2020/dim_USMC_Modern_D_MG.et"
+   "{F48EA1DBA395CFED}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Modern_2020/dim_USMC_Modern_D_GL.et"
+   "{1B898744F8D416D9}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Modern_2020/dim_USMC_Modern_D_TL_2.et"
+   "{F48EA1DBA395CFED}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Modern_2020/dim_USMC_Modern_D_GL.et"
+   "{6BD3429CF9D09803}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Modern_2020/dim_USMC_Modern_D_SMAW.et"
+   "{0F322EF158E4EA64}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Modern_2020/dim_USMC_Modern_D_Rifleman_2.et"
+  }
+ }
+ AMER3 {
+  components {
+   PS_GroupCallsignAssigner "{65667AD8889D00E3}" {
+    m_iCompanyCallsign 1
+    m_iSquadCallsign 1
+   }
+  }
+  coords 7560.517 0 6325.546
+  angles 0 37.921 0
+  m_aUnitPrefabSlots {
+   "{94D32EE566A604D4}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Modern_2020/dim_USMC_Modern_D_SL.et"
+   "{77DDB3A4441099F7}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Modern_2020/dim_USMC_Modern_D_TL_1.et"
+   "{AB4C01E03A6DB224}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Modern_2020/dim_USMC_Modern_D_MG.et"
+   "{F48EA1DBA395CFED}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Modern_2020/dim_USMC_Modern_D_GL.et"
+   "{1B898744F8D416D9}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Modern_2020/dim_USMC_Modern_D_TL_2.et"
+   "{F48EA1DBA395CFED}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Modern_2020/dim_USMC_Modern_D_GL.et"
+   "{8C523C7DD3665A86}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Modern_2020/dim_USMC_Modern_D_Medic.et"
+   "{0F322EF158E4EA64}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Modern_2020/dim_USMC_Modern_D_Rifleman_2.et"
+  }
+ }
+ AMER4 {
+  components {
+   PS_GroupCallsignAssigner "{65667AD8889D00E3}" {
+    m_iCompanyCallsign 1
+    m_iSquadCallsign 3
+   }
+  }
+  coords 7591.333 0 6301.731
+  angles 0 38.942 0
+  m_aUnitPrefabSlots {
+   "{94D32EE566A604D4}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Modern_2020/dim_USMC_Modern_D_SL.et"
+   "{77DDB3A4441099F7}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Modern_2020/dim_USMC_Modern_D_TL_1.et"
+   "{AB4C01E03A6DB224}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Modern_2020/dim_USMC_Modern_D_MG.et"
+   "{F48EA1DBA395CFED}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Modern_2020/dim_USMC_Modern_D_GL.et"
+   "{67BE56BB4DF94C17}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Modern_2020/dim_USMC_Modern_D_Rifleman.et"
+   "{1B898744F8D416D9}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Modern_2020/dim_USMC_Modern_D_TL_2.et"
+   "{F48EA1DBA395CFED}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Modern_2020/dim_USMC_Modern_D_GL.et"
+   "{6BD3429CF9D09803}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Modern_2020/dim_USMC_Modern_D_SMAW.et"
+  }
+ }
+ A {
+  components {
+   PS_GroupCallsignAssigner "{65667AD8889D00E3}" {
+    m_iCompanyCallsign 2
+    m_iSquadCallsign 1
+   }
+  }
+  coords 3541.365 0 6303.945
+  angles 0 -32.022 0
+  m_aUnitPrefabSlots {
+   "{94D32EE566A604D4}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Modern_2020/dim_USMC_Modern_D_SL.et"
+   "{77DDB3A4441099F7}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Modern_2020/dim_USMC_Modern_D_TL_1.et"
+   "{AB4C01E03A6DB224}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Modern_2020/dim_USMC_Modern_D_MG.et"
+   "{F48EA1DBA395CFED}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Modern_2020/dim_USMC_Modern_D_GL.et"
+   "{67BE56BB4DF94C17}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Modern_2020/dim_USMC_Modern_D_Rifleman.et"
+   "{1B898744F8D416D9}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Modern_2020/dim_USMC_Modern_D_TL_2.et"
+   "{F48EA1DBA395CFED}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Modern_2020/dim_USMC_Modern_D_GL.et"
+   "{6BD3429CF9D09803}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Modern_2020/dim_USMC_Modern_D_SMAW.et"
+  }
+  m_sCustomNameSet "Группа эвакуации"
+ }
+ A1 {
+  components {
+   PS_GroupCallsignAssigner "{65667AD8889D00E3}" {
+    m_iCompanyCallsign 2
+   }
+  }
+  coords 3537.884 0 6321.087
+  angles 0 145.607 0
+  m_aUnitPrefabSlots {
+   "{94D32EE566A604D4}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Modern_2020/dim_USMC_Modern_D_SL.et"
+   "{77DDB3A4441099F7}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Modern_2020/dim_USMC_Modern_D_TL_1.et"
+   "{AB4C01E03A6DB224}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Modern_2020/dim_USMC_Modern_D_MG.et"
+   "{F48EA1DBA395CFED}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Modern_2020/dim_USMC_Modern_D_GL.et"
+   "{67BE56BB4DF94C17}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Modern_2020/dim_USMC_Modern_D_Rifleman.et"
+   "{1B898744F8D416D9}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Modern_2020/dim_USMC_Modern_D_TL_2.et"
+   "{F48EA1DBA395CFED}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Modern_2020/dim_USMC_Modern_D_GL.et"
+   "{6BD3429CF9D09803}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Modern_2020/dim_USMC_Modern_D_SMAW.et"
+  }
+  m_sCustomNameSet "Группа эвакуации"
+ }
+ AMER2 {
+  components {
+   PS_GroupCallsignAssigner "{65667AD8889D00E3}" {
+    m_iCompanyCallsign 1
+    m_iSquadCallsign 0
+   }
+  }
+  coords 7545.252 0 6337.607
+  angles 0 37.792 0
+  m_aUnitPrefabSlots {
+   "{94D32EE566A604D4}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Modern_2020/dim_USMC_Modern_D_SL.et"
+   "{77DDB3A4441099F7}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Modern_2020/dim_USMC_Modern_D_TL_1.et"
+   "{AB4C01E03A6DB224}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Modern_2020/dim_USMC_Modern_D_MG.et"
+   "{F48EA1DBA395CFED}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Modern_2020/dim_USMC_Modern_D_GL.et"
+   "{1B898744F8D416D9}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Modern_2020/dim_USMC_Modern_D_TL_2.et"
+   "{F48EA1DBA395CFED}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Modern_2020/dim_USMC_Modern_D_GL.et"
+   "{6BD3429CF9D09803}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Modern_2020/dim_USMC_Modern_D_SMAW.et"
+   "{0F322EF158E4EA64}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Modern_2020/dim_USMC_Modern_D_Rifleman_2.et"
+  }
+ }
+}
+$grp Vehicle : "{BC58478FE724BCEF}Prefabs/Vehicles/Wheeled/M998/M1025_USAF_D.et" {
+ M1025_USAF_D1 {
+  coords 7564.8 0 6330.552
+  angles 0 -51.081 0
+  m_sAttachmentGroupName "AMER3"
+ }
+ M1025_USAF_D2 {
+  coords 7581.972 0 6316.824
+  angles 0 -51.081 0
+  m_sAttachmentGroupName "AMER4"
+ }
+ M1025_USAF_D3 {
+  coords 7596.537 0 6304.964
+  angles 0 -51.081 0
+  m_sAttachmentGroupName "AMER5"
+ }
+ M1025_USAF_D4 {
+  coords 7603.04 0 6299.822
+  angles 0 -51.081 0
+  m_sAttachmentGroupName "AMER5"
+ }
+}

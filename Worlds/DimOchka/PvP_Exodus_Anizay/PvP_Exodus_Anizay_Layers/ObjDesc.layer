@@ -1,0 +1,61 @@
+$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ {
+  coords 5783.137 221.092 2915.43
+  m_sTitle "Правила и задачи"
+  m_sTextData "ПРАВИЛА:"\
+  "1. Генералу запрещено покидать территорию базы ION (зеленый триггер);"\
+  "2. Генералу разрешено прятаться только в домах;"\
+  "3. Вертолету запрещено использовать тактику \"КАМИКАДЗЕ\"."\
+  ""\
+  "ЗАДАЧИ:"\
+  "• ION: "\
+  "1. Не допустить ликвидацию ВИПа."\
+  ""\
+  "• США:"\
+  "1. Ликвидировать генерала."\
+  ""\
+  "ДОПОЛНИТЕЛЬНО:"\
+  " 1. У ION в распоряжении есть КОРД, ПТУРы;"\
+  " 2. В Литл-Берде лежат 2 прицела на SMAW."
+  m_aVisibleForFactions {
+   "RHS_USAF"
+   "RHS_ION"
+   "CIV"
+   ""
+  }
+  m_bEmptyFactionVisibility 1
+ }
+ {
+  coords 5783.137 221.092 2915.43
+  m_sTitle "Обстановка"
+  m_sDescriptionLayout "{B6DE04F7CF7A95DA}UI/MissionDescription/DescriptionEditableScrollable.layout"
+  m_sTextData "Генерал Харбор, командующий ВВС США в Анизае, после хакерской атаки и утечки данных был уличен в шпионаже в пользу России. Он бежал и две недели скрывался в местных поселениях, пока с ним не вышел на связь агент ЧВК ION, сообщивший, что за его сохранность заплатили немалую сумму. Генерала доставили на базу ЧВК ION в Janur`е, однако американские спецслужбы установили его местонахождение и готовят операцию по захвату или ликвидации."
+  m_aVisibleForFactions {
+   "RHS_USAF"
+   "RHS_ION"
+   "CIV"
+   ""
+  }
+  m_bEmptyFactionVisibility 1
+ }
+}
+$grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
+ {
+  coords 6349.431 216.73 2653.501
+  m_sTitle "Генерал ликвидирован"
+  m_sFactionKey "RHS_USAF"
+ }
+ {
+  coords 6326.068 216.73 2621.19
+  m_sTitle "VIP спасен"
+  m_sFactionKey "RHS_ION"
+ }
+}
+GenericEntity : "{E6FC6DD69FA3479F}Prefabs/System/DRG_MissionEndTimerPrefab.et" {
+ components {
+  DRG_MissionEndTimerComponent "{651B0839B21B3BBF}" {
+   m_iMissionTime 2700
+  }
+ }
+ coords 9336.875 91.283 6471.509
+}

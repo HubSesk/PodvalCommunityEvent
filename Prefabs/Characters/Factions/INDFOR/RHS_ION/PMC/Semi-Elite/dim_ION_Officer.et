@@ -1,0 +1,38 @@
+SCR_ChimeraCharacter : "{93FDA136D2E298D0}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Semi-Elite/dim_ION_STK_SL_4.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Командир ION"
+    Icon "{B0B3E06A17B8AC6D}UI/Icons/officer.edds"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{0B3F2F81FD368171}Prefabs/Characters/HeadGear/All_Cap/Variants/Desert Ver/Front/GD_Cap_Tan (Mask).et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{DD9CB456376FB01F}Prefabs/Characters/Uniforms/Shirt_flannel/flannel_shirt_brown_1.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{3D107B3C7F8107D1}Prefabs/Characters/Uniforms/Pants_Jeans/GD_Jeans.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{689B2D43EA87EF4F}" {
+     TargetStorage "Pants/GD_Jeans.et"
+    }
+    ItemsInitConfigurationItem "{689B2D43EAE0FA83}" {
+     TargetStorage "Jacket/flannel_shirt_brown_1.et"
+    }
+    ItemsInitConfigurationItem "{689B2D43EAF841F3}" {
+     TargetStorage "Pants/GD_Jeans.et"
+    }
+   }
+  }
+ }
+ coords 5293.815 250.531 3352.668
+}

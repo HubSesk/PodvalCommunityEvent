@@ -1,0 +1,25 @@
+SCR_ChimeraCharacter : "{C0ECE070D7C9E79F}Prefabs/Characters/Factions/INDFOR/FIA/CIVGeneral/FIA_CIV_Businessman_3_dimkii.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterFactionAffiliationComponent "{60DC952FF79A02F1}" {
+   "faction affiliation" "CIV"
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Дипломат"
+    Icon "{235763A94E6463A0}UI/Icons/diplomat.edds"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{C0FE1604BAAC2309}Prefabs/Characters/HeadGear/Pasgt/dim_PASGT_Blue.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{CD0637B5D67DEFC9}Prefabs/Characters/Vests/LV_MBAV/LV_MBAV_Khaki.et"
+    }
+   }
+  }
+ }
+ coords 3537.4 0 6309.3
+}

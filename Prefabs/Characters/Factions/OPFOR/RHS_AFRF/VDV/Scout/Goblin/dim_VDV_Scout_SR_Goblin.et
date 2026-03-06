@@ -1,0 +1,48 @@
+SCR_ChimeraCharacter : "{8FF29D9E23FC803E}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/Scout/dim_VDV_Scout_SR.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Icon "{FAE464E236485906}UI/Icons/sabateur_v2_tl.edds"
+   }
+  }
+  SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
+   Override 1
+   Identity Identity "{5584CBC6363C648B}" {
+    VisualIdentity VisualIdentity "{56E6D9456009D1C4}" {
+     Head "{DC036A9677A90E4B}Prefabs/Characters/Heads/Head_White_10/Head_White_10_camo_USSR_02.et"
+    }
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Jacket {
+     Prefab "{02EE7A78CDF7EC68}Prefabs/Characters/Uniforms/Goblin_jacket/Goblin_jacket_GRN.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{DE8616CA87C165E3}Prefabs/Characters/Uniforms/Goblin_pants/Goblin_pants_GRN.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{C7923961D7235D70}Prefabs/Characters/Footwear/CombatBoots_Soviet_01.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68A2CC320EE0CC0E}" {
+     TargetStorage "Pants/Goblin_pants_GRN.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC320EF5FDA1}" {
+     TargetStorage "Pants/Goblin_pants_GRN.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC320ED36F78}" {
+     TargetStorage "Jacket/Goblin_jacket_GRN.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC3209B3FFBE}" {
+     TargetStorage "Jacket/Goblin_jacket_GRN.et"
+    }
+   }
+  }
+ }
+ coords 7158.559 115.688 8341.738
+}

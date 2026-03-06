@@ -1,0 +1,85 @@
+SCR_ChimeraCharacter : "{E213D14B86B1CC6E}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/dim_VDV_Rifleman_Scout.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#DRG_Role-SaboteurSniper"
+    Icon "{141B98C585768CC4}UI/Icons/VDV.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{F82DF06C1E34128E}Prefabs/Weapons/Rifles/VSS/Rifle_VSS.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{DC1C620336F0283A}Prefabs/Characters/HeadGear/RUS_6b47/Prefabs/NoMC/GD_6B47_MaskGoggle_NoMC.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{E05D8C4D2B36C8F3}Prefabs/Characters/Uniforms/Jacket_6b51_VKPO.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{A6B9DDC35384FE80}Prefabs/Items/Equipment/Backpacks/Backpack_Suharka_type2.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{E7ABEDAB855ED764}Prefabs/Characters/Vests/Vest_6B45/Pouches/Pouches_6b45_Sniper.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68A2CC320ED36F78}" {
+     TargetStorage "Jacket/Jacket_6b51_VKPO.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC3209B3FFBE}" {
+     TargetStorage "Jacket/Jacket_6b51_VKPO.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC32C0493E3F}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{68A2CC32CCD2E5D3}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{68A2CC32CE7164D0}" {
+     TargetStorage "Vest/Pouches_6b45_Sniper.et/SVD_Pouch4/Pouch_Ratnik_Small1.et"
+     PrefabsToSpawn {
+      "{3543FA8AB4C1E88D}Prefabs/Weapons/Magazines/VSS/Magazine_9x39mm_VSS_20Rnd.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68A2CC32CAA891FB}" {
+     TargetStorage "Vest/Pouches_6b45_Sniper.et/SVD_Pouch3/Pouch_Ratnik_Small1.et"
+     PrefabsToSpawn {
+      "{3543FA8AB4C1E88D}Prefabs/Weapons/Magazines/VSS/Magazine_9x39mm_VSS_20Rnd.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68A2CC32D309BBFC}" {
+     TargetStorage "Vest/Pouches_6b45_Sniper.et/SVD_Pouch2/Pouch_Ratnik_Small1.et"
+     PrefabsToSpawn {
+      "{3543FA8AB4C1E88D}Prefabs/Weapons/Magazines/VSS/Magazine_9x39mm_VSS_20Rnd.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68A2CC32DC4D37DD}" {
+     TargetStorage "Vest/Pouches_6b45_Sniper.et/SVD_Pouch1/Pouch_Ratnik_Small1.et"
+     PrefabsToSpawn {
+      "{3543FA8AB4C1E88D}Prefabs/Weapons/Magazines/VSS/Magazine_9x39mm_VSS_20Rnd.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68A2CC32EE31C4E2}" {
+     TargetStorage "Back/Backpack_Suharka_type2.et"
+     PrefabsToSpawn {
+      "{3543FA8AB4C1E88D}Prefabs/Weapons/Magazines/VSS/Magazine_9x39mm_VSS_20Rnd.et" "{3543FA8AB4C1E88D}Prefabs/Weapons/Magazines/VSS/Magazine_9x39mm_VSS_20Rnd.et" "{3543FA8AB4C1E88D}Prefabs/Weapons/Magazines/VSS/Magazine_9x39mm_VSS_20Rnd.et" "{3543FA8AB4C1E88D}Prefabs/Weapons/Magazines/VSS/Magazine_9x39mm_VSS_20Rnd.et" "{F5347DE84CA1E3EE}Prefabs/Characters/HeadGear/Hat_VDV_Beret/Hat_VDV_Beret.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68A2CC32F45F0382}" {
+     TargetStorage "Vest/Pouches_6b45_Sniper.et/RGD_Pouch2/Pouch_Ratnik_Small2.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC32FB0D16CA}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{68A2CC33048A6D32}" {
+    }
+   }
+  }
+ }
+ coords 5815.946 256.624 5904.398
+}

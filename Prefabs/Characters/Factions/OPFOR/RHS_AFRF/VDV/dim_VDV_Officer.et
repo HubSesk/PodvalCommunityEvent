@@ -1,0 +1,45 @@
+SCR_ChimeraCharacter : "{A467DC7A0F007B21}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/dim_VDV_SL.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#DRG-COMPANY_LEADER"
+   }
+  }
+  SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
+   Override 1
+   Identity Identity "{5584CBC6363C648B}" {
+    VisualIdentity VisualIdentity "{56E6D9456009D1C4}" {
+     Head "{0F6C19B0574DCBCA}Prefabs/Characters/Heads/Head_White_03.et"
+    }
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{F5347DE84CA1E3EE}Prefabs/Characters/HeadGear/Hat_VDV_Beret/Hat_VDV_Beret.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{E05D8C4D2B36C8F3}Prefabs/Characters/Uniforms/Jacket_6b51_VKPO.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{3503D3AD9D93F2EA}Prefabs/Items/Equipment/Backpacks/backpack_Wartech_BB102/drg_Backpack_Wartech_BB102_EMR_RADIO.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68A2CC320ED36F78}" {
+     TargetStorage "Jacket/Jacket_6b51_VKPO.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC32CE7164D0}" {
+     TargetStorage "Vest/GD_6B45_SL.et/up101/Pouch_wartech_magpouch_mp105_3_EMR.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC32EE31C4E2}" {
+     TargetStorage "Jacket/Jacket_6b51_VKPO.et"
+    }
+   }
+  }
+ }
+ coords 5823.173 256.372 5898.15
+}

@@ -1,0 +1,197 @@
+$grp Vehicle : "{03708F7E58BB7A53}Prefabs/Vehicles/Wheeled/M998/M1151_armed_M2HB.et" {
+ M1151_armed_M2HB3 {
+  coords 4091.685 213.538 7587.208
+  angles 0.597 -149.98 -1.033
+ }
+ M1151_armed_M2HB4 {
+  coords 3286.063 231.515 8328.864
+  angles -1.468 -149.943 -2.227
+ }
+ M1151_armed_M2HB2 {
+  coords 3307.223 206.687 7439.858
+  angles 0 -149.943 0
+ }
+}
+$grp Vehicle : "{3312ADBF53A16DD8}Prefabs/Vehicles/Wheeled/LAV25/LAV25_RHS.et" {
+ LAV25_RHS1 {
+  coords 3263.572 232.687 8296.894
+  angles 0 -46.486 0
+  m_sAttachmentGroupName "sq"
+ }
+ LAV25_RHS2 {
+  components {
+   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+    FuelNodes {
+     SCR_FuelNode "{5622A70CD4036C5A}" {
+      MaxFuel 0
+      m_fInitialFuelTankState 0
+     }
+    }
+   }
+  }
+  coords 3292.299 223.223 8152.983
+  angles 0 148.514 0
+  m_sAttachmentGroupName "sq"
+ }
+}
+$grp SCR_AIGroup : "{454A392BD911DFA0}Prefabs/Groups/BLUFOR/USMC/dim_USMC_Force_Recon_W.et" {
+ {
+  components {
+   PS_GroupCallsignAssigner "{65667AD8889D00E3}" {
+    m_iCompanyCallsign 1
+   }
+  }
+  coords 4093.129 213.531 7591.708
+  angles 0 174.822 0
+  m_aUnitPrefabSlots {
+   "{33B313818C46457C}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Summer/Force_Recon/dim_USMC_TL.et"
+   "{7015A051DE2535D8}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Summer/Force_Recon/dim_USMC_Assist_TL.et"
+   "{6BB1EF93AC30DDF2}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Summer/Force_Recon/dim_USMC_FR_Rifleman.et"
+   "{E041F94507C9B7B6}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Summer/Force_Recon/dim_USMC_FR_Rifleman_2.et"
+   "{04446BD59A4B351C}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Summer/Force_Recon/dim_USMC_FR_Sapper.et"
+  }
+ }
+ {
+  components {
+   PS_GroupCallsignAssigner "{65667AD8889D00E3}" {
+    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 1
+   }
+  }
+  coords 3306.637 206.687 7445.145
+  angles 0 145.833 0
+  m_aUnitPrefabSlots {
+   "{33B313818C46457C}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Summer/Force_Recon/dim_USMC_TL.et"
+   "{7015A051DE2535D8}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Summer/Force_Recon/dim_USMC_Assist_TL.et"
+   "{6BB1EF93AC30DDF2}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Summer/Force_Recon/dim_USMC_FR_Rifleman.et"
+   "{E041F94507C9B7B6}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Summer/Force_Recon/dim_USMC_FR_Rifleman_2.et"
+   "{04446BD59A4B351C}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Summer/Force_Recon/dim_USMC_FR_Sapper.et"
+  }
+ }
+ {
+  components {
+   PS_GroupCallsignAssigner "{65667AD8889D00E3}" {
+    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 2
+   }
+  }
+  coords 3664.041 281.251 8908.717
+  angles 0 161.525 0
+  m_aUnitPrefabSlots {
+   "{33B313818C46457C}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Summer/Force_Recon/dim_USMC_TL.et"
+   "{7015A051DE2535D8}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Summer/Force_Recon/dim_USMC_Assist_TL.et"
+   "{6BB1EF93AC30DDF2}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Summer/Force_Recon/dim_USMC_FR_Rifleman.et"
+   "{E041F94507C9B7B6}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Summer/Force_Recon/dim_USMC_FR_Rifleman_2.et"
+   "{04446BD59A4B351C}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Summer/Force_Recon/dim_USMC_FR_Sapper.et"
+  }
+ }
+}
+SCR_AIGroup : "{4A02B745F553821E}Prefabs/Groups/BLUFOR/drg_USAF_CompanyHQ.et" {
+ coords 3250.26 232.687 8306.362
+ angles 0 124.904 0
+ m_aUnitPrefabSlots {
+  "{E2AF46B0809FBCC0}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Summer/dim_Role_Character_USAF_USMC_Officer.et"
+ }
+}
+$grp SCR_AIGroup : "{AA6B2DAECCF14831}Prefabs/Groups/BLUFOR/drg_USMC_RifleSquad.et" {
+ sq {
+  components {
+   PS_GroupCallsignAssigner "{65667AD8889D00E3}" {
+    m_iCompanyCallsign 2
+   }
+  }
+  coords 3250.526 232.687 8300.915
+  angles 0 34.212 0
+  m_aUnitPrefabSlots {
+   "{4E431B11CAB778D4}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Demi-season/dim_USMC_DS_SL.et"
+   "{4984E140AC31C217}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Demi-season/dim_USMC_DS_TL.et"
+   "{71DC3414967CCE24}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Demi-season/dim_USMC_DS_MG.et"
+   "{2E1E942F0F84B3ED}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Demi-season/dim_USMC_DS_GL.et"
+   "{C4BD94682D983BA2}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Demi-season/dim_USMC_DS_Rifleman_2.et"
+   "{DEB7F0EC46C3D5C9}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Demi-season/dim_USMC_DS_TL_2.et"
+   "{C0762B2AADBAC8F0}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Summer/dim_Role_Character_USAF_USMC_CrewCommander-Gunner.et"
+   "{7721C4665CD6C0D3}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Summer/dim_Role_Character_USAF_USMC_CrewDriver.et"
+  }
+ }
+ {
+  components {
+   PS_GroupCallsignAssigner "{65667AD8889D00E3}" {
+    m_iCompanyCallsign 2
+    m_iSquadCallsign 1
+   }
+  }
+  coords 3256.483 232.687 8315.576
+  angles 0 124.65 0
+  m_aUnitPrefabSlots {
+   "{4E431B11CAB778D4}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Demi-season/dim_USMC_DS_SL.et"
+   "{4984E140AC31C217}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Demi-season/dim_USMC_DS_TL.et"
+   "{71DC3414967CCE24}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Demi-season/dim_USMC_DS_MG.et"
+   "{2E1E942F0F84B3ED}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Demi-season/dim_USMC_DS_GL.et"
+   "{C4BD94682D983BA2}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Demi-season/dim_USMC_DS_Rifleman_2.et"
+   "{DEB7F0EC46C3D5C9}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Demi-season/dim_USMC_DS_TL_2.et"
+   "{2E1E942F0F84B3ED}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Demi-season/dim_USMC_DS_GL.et"
+   "{9519F4B8F453C528}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Demi-season/dim_USMC_DS_Medic.et"
+  }
+ }
+ {
+  components {
+   PS_GroupCallsignAssigner "{65667AD8889D00E3}" {
+    m_iCompanyCallsign 2
+    m_iPlatoonCallsign 2
+   }
+  }
+  coords 3497.018 223.742 8188.669
+  angles 0 124.65 0
+  m_aUnitPrefabSlots {
+   "{4E431B11CAB778D4}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Demi-season/dim_USMC_DS_SL.et"
+   "{4984E140AC31C217}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Demi-season/dim_USMC_DS_TL.et"
+   "{71DC3414967CCE24}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Demi-season/dim_USMC_DS_MG.et"
+   "{2E1E942F0F84B3ED}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Demi-season/dim_USMC_DS_GL.et"
+   "{C4BD94682D983BA2}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Demi-season/dim_USMC_DS_Rifleman_2.et"
+   "{DEB7F0EC46C3D5C9}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Demi-season/dim_USMC_DS_TL_2.et"
+   "{2E1E942F0F84B3ED}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Demi-season/dim_USMC_DS_GL.et"
+   "{FB6383CF81BAC49B}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Demi-season/dim_USMC_DS_AT.et"
+  }
+ }
+ {
+  components {
+   PS_GroupCallsignAssigner "{65667AD8889D00E3}" {
+    m_iCompanyCallsign 2
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 1
+   }
+  }
+  coords 3249.204 229.42 8258.998
+  angles 0 39.483 0
+  m_aUnitPrefabSlots {
+   "{4E431B11CAB778D4}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Demi-season/dim_USMC_DS_SL.et"
+   "{4984E140AC31C217}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Demi-season/dim_USMC_DS_TL.et"
+   "{71DC3414967CCE24}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Demi-season/dim_USMC_DS_MG.et"
+   "{2E1E942F0F84B3ED}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Demi-season/dim_USMC_DS_GL.et"
+   "{C4BD94682D983BA2}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Demi-season/dim_USMC_DS_Rifleman_2.et"
+   "{DEB7F0EC46C3D5C9}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Demi-season/dim_USMC_DS_TL_2.et"
+   "{2E1E942F0F84B3ED}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Demi-season/dim_USMC_DS_GL.et"
+   "{FB6383CF81BAC49B}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Demi-season/dim_USMC_DS_AT.et"
+  }
+ }
+ {
+  components {
+   PS_GroupCallsignAssigner "{65667AD8889D00E3}" {
+    m_iCompanyCallsign 2
+    m_iPlatoonCallsign 1
+   }
+  }
+  coords 3291.702 231.189 8318.375
+  angles 0 -145.35 0
+  m_aUnitPrefabSlots {
+   "{4E431B11CAB778D4}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Demi-season/dim_USMC_DS_SL.et"
+   "{4984E140AC31C217}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Demi-season/dim_USMC_DS_TL.et"
+   "{71DC3414967CCE24}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Demi-season/dim_USMC_DS_MG.et"
+   "{2E1E942F0F84B3ED}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Demi-season/dim_USMC_DS_GL.et"
+   "{C4BD94682D983BA2}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Demi-season/dim_USMC_DS_Rifleman_2.et"
+   "{DEB7F0EC46C3D5C9}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Demi-season/dim_USMC_DS_TL_2.et"
+   "{2E1E942F0F84B3ED}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Demi-season/dim_USMC_DS_GL.et"
+   "{9519F4B8F453C528}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Demi-season/dim_USMC_DS_Medic.et"
+  }
+ }
+}

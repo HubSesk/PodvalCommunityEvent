@@ -1,0 +1,40 @@
+SCR_ChimeraCharacter : "{7942754277E36531}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/dim_VDV_Scout_VSS.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_Sharpshooter"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{6335734EF68F79FD}Prefabs/Characters/HeadGear/RUS_6b47/Prefabs/Winter/GD_6B47_Cover_Mask_White_Winter.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{8497ED66028B6865}Prefabs/Characters/Uniforms/6SH122_Suit/GD_SH122_Suit_Klyaksa.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab ""
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68A2CC320EE0CC0E}" {
+     TargetStorage "Jacket/GD_SH122_Suit_Klyaksa.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC320EF5FDA1}" {
+     TargetStorage "Jacket/GD_SH122_Suit_Klyaksa.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC3209B3FFBE}" {
+     TargetStorage "Jacket/GD_SH122_Suit_Klyaksa.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC33048A6D32}" {
+     TargetStorage "Jacket/GD_SH122_Suit_Klyaksa.et"
+    }
+   }
+  }
+ }
+ coords 3813.12 54.987 4384.458
+}

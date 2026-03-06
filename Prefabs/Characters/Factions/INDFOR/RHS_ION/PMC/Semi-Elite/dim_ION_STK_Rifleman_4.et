@@ -1,0 +1,88 @@
+SCR_ChimeraCharacter : "{E25581F1AB37C0D3}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Semi-Elite/dim_ION_STK_Rifleman_2.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{BF9E0AD668E4B117}Prefabs/Weapons/M4A1/M4_PMC_4.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{E164DC282D8A1B02}Prefabs/Characters/Vests/Vest_Shaw_ARC/Vest_Shaw_ARC_MC_Blk_Groin.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{3D107B3C7F8107D1}Prefabs/Characters/Uniforms/Pants_Jeans/GD_Jeans.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{BE117E0B55DEB05E}Prefabs/Characters/Vests/SHAW_ARC_Kits/GD_ION_TL_ShawARC_Jeans.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{689B2D43EA87EF4F}" {
+     TargetStorage "Pants/GD_Jeans.et"
+    }
+    ItemsInitConfigurationItem "{689B2D43EAF841F3}" {
+     TargetStorage "Pants/GD_Jeans.et"
+    }
+    ItemsInitConfigurationItem "{689E6D83F89602AF}" {
+     TargetStorage "Vest/GD_ION_TL_ShawARC_Jeans.et/Pouch1/Pouch_avs_front_closed_MCBlk.et"
+    }
+    ItemsInitConfigurationItem "{689E6D8237974471}" {
+     TargetStorage "Vest/GD_ION_TL_ShawARC_Jeans.et/ifak/GD_LV119_Pouch_JSTA_RHS_Black.et"
+    }
+    ItemsInitConfigurationItem "{689E6D826BD04590}" {
+     TargetStorage "Vest/GD_ION_TL_ShawARC_Jeans.et/pistolcamer/Pouch_Highspeed_Pistol_MCBlk.et"
+    }
+    ItemsInitConfigurationItem "{689E6D8233474F95}" {
+     TargetStorage "Vest/GD_ION_TL_ShawARC_Jeans.et/filbe2/Pouch_PCGEN3_takoPouch_MCBlk.et"
+    }
+    ItemsInitConfigurationItem "{689E6D823E1CA47C}" {
+     TargetStorage "Vest/GD_ION_TL_ShawARC_Jeans.et/tako/Pouch_PCGEN3_takoPouch_MCBlk.et"
+    }
+    ItemsInitConfigurationItem "{689E6D8241C8AB1F}" {
+     PrefabsToSpawn {
+      "{BD30BE4A3D8B9DAC}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1_last5tracer.et" "{C581ED926D3CD9CE}Prefabs/Items/GasMask/Avon_GasMask.et" "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+     }
+    }
+    ItemsInitConfigurationItem "{689E6D8254999773}" {
+     TargetStorage "Vest/GD_ION_TL_ShawARC_Jeans.et/Holster/GD_Holster_SLS_RLeg.et"
+    }
+    ItemsInitConfigurationItem "{689E6D8266124935}" {
+     TargetStorage "Vest/GD_ION_TL_ShawARC_Jeans.et/m18_1/Pouch_Filbe_M18_2.et"
+    }
+    ItemsInitConfigurationItem "{689E6D827A21D340}" {
+     TargetStorage "Vest/GD_ION_TL_ShawARC_Jeans.et/m18_2/Pouch_Filbe_M18_2.et"
+    }
+    ItemsInitConfigurationItem "{68A32372D57E5A35}" {
+     TargetStorage "Vest/GD_ION_TL_ShawARC_Jeans.et/saw/GD_LV119_Pouch_JSTA_RHS_Black.et"
+     PrefabsToSpawn {
+      "{BD30BE4A3D8B9DAC}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1_last5tracer.et" "{F20D1122BC5CD9F2}Prefabs/Weapons/Magazines/glock_magazine/Magazine_9x19_Glock_17rnd.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68A32372E78DF87F}" {
+     TargetStorage "Vest/GD_ION_TL_ShawARC_Jeans.et/tako2/Pouch_Highspeed_Pistol_MCBlk.et"
+    }
+    ItemsInitConfigurationItem "{68A32372FB0452C6}" {
+     TargetStorage "Vest/GD_ION_TL_ShawARC_Jeans.et/m67_1/Pouch_Filbe_M67_2.et"
+     PrefabsToSpawn {
+      "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68A3237301F2BB77}" {
+     TargetStorage "Vest/GD_ION_TL_ShawARC_Jeans.et/m67_2/Pouch_Filbe_M67_Base.et"
+     PrefabsToSpawn {
+      "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68A3237311D0AB84}" {
+     TargetStorage "Vest/GD_ION_TL_ShawARC_Jeans.et/nerd/Pouch_Shaw_Flex_Blk.et"
+     PrefabsToSpawn {
+      "{BD30BE4A3D8B9DAC}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1_last5tracer.et"
+     }
+    }
+   }
+  }
+ }
+ coords 5320.882 250.531 3372.135
+}
